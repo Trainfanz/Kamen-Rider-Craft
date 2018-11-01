@@ -1,0 +1,19 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "kamenridercraft4th:items/gashacon_bugvisor_ii"
+    },  "display": {
+    
+        "thirdperson_righthand": {
+            "rotation": [ 0, -90, 0],
+            "translation": [ 4, -1, 1 ],
+            "scale": [ 0.8, 0.8, 2]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, -90, 0],
+            "translation": [3, 3, -5 ],
+            "scale": [ 0.8, 0.8, 2]
+        }
+    
+    }
+}

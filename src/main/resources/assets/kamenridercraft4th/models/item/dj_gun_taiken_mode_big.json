@@ -1,0 +1,18 @@
+{
+    "parent": "builtin/generated",
+    "textures": {
+        "layer0": "kamenridercraft4th:items/dj_gun_taiken_mode"
+    },
+    "display": {
+        "thirdperson": {
+            "rotation": [ 0, 90, -35 ],
+           "translation": [ 0, 1, -1.2],
+            "scale": [ 1.7, 1.7, 0.85 ]
+        },
+        "firstperson": {
+            "rotation": [ 0, -135, 25 ],
+            "translation": [ 0, 6, 3 ],
+            "scale": [ 3.4, 3.4, 1.7 ]
+        }
+    }
+}

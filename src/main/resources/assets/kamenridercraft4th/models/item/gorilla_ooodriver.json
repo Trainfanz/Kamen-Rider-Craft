@@ -1,0 +1,6 @@
+{
+    "parent": "builtin/generated",
+    "textures": {
+        "layer0": "kamenridercraft4th:items/gorilla_ooodriver"
+    }
+}
