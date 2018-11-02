@@ -2,6 +2,7 @@ package Kamen_Rider_Craft_4TH.item;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.util.IHasModel;
 import Kamen_Rider_Craft_4TH.util.Refercence;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
@@ -12,7 +13,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.world.World;
 
-public class Item_driver extends ItemArmor {
+public class Item_driver extends ItemArmor implements IHasModel {
     private final Item head;
     private final Item chest;
     private final Item legs;
