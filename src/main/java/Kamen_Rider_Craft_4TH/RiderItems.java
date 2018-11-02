@@ -279,7 +279,7 @@ public class RiderItems {
 	
 	//decor blocks
 	
-	public static Block monitor = CustomBlock.builder().material(Material.IRON).hardness(9.9F).lightLevel(0.1F).harvestLevel("pickaxe", 2).isDirectional(true).name("monitor").setCreativeTabe(Tabs.tabbuild).build();
+	public static Block monitor = CustomBlock.builder().material(Material.IRON).hardness(9.9F).lightLevel(0.1F).harvestLevel("pickaxe", 2).isDirectional(true).name("monitor").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block purifyer = new purifyer_block("purifyer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
 	public static Block solidifyer = new solidifyer_block("solidifyer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
 	

@@ -283,6 +283,13 @@ public static ToolMaterial ridol_stick = new EnumHelper().addToolMaterial("ridol
 			return new ItemStack(RiderItems.amazonshead);
 		}
 	};
+	public static CreativeTabs tabdecor = new CreativeTabs("tabdecor")
+	{
+		@Override
+		public ItemStack getTabIconItem() {
+			return new ItemStack(RiderItems.monitor);
+		}
+	};
 	
 	/**
 	public static TAB_MASKED_RIDER tab_masked_rider= new TAB_MASKED_RIDER("tab_masked_rider")
