@@ -5,15 +5,20 @@ import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.IBlockAccess;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.function.Supplier;
 
 public class CustomBlock extends Block implements IHasModel {
-    private CustomBlock(Material material, MapColor color) {
+    protected CustomBlock(Material material, MapColor color) {
         super(material, color);
     }
 
@@ -34,8 +39,8 @@ public class CustomBlock extends Block implements IHasModel {
         private float lightLevel = 0;
         private int lightOpacity = 0;
         private Map<String, Integer> harvestLevels = new HashMap<>();
-        private float hardness;
-        private CreativeTabs tab;
+        private float hardness = 0;
+        private CreativeTabs tab = CreativeTabs.MISC;
 
         public Builder mapColor(MapColor mapColor) {
             this.mapColor = mapColor;
@@ -78,7 +83,7 @@ public class CustomBlock extends Block implements IHasModel {
         }
 
         public Block build() {
-            Block block = isDirectional ? new CustomDirectionalBlock(material, mapColor != null ? mapColor : material.getMaterialMapColor()) : new CustomBlock(material, mapColor != null ? mapColor : material.getMaterialMapColor());
+            CustomBlock block = isDirectional ? new CustomDirectionalBlock(material, mapColor != null ? mapColor : material.getMaterialMapColor()) : new CustomBlock(material, mapColor != null ? mapColor : material.getMaterialMapColor());
 
             //if(name == null) throw new Exception("Block name can't be null!");
             block.setUnlocalizedName(name);
