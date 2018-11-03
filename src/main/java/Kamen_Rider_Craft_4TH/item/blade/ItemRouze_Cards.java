@@ -64,8 +64,19 @@ public class ItemRouze_Cards extends Item implements IHasModel
 				}else{
 
 					item_bladedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), num);
+				}
+				
+			}	if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.leangle_belt & RIDER == "leangle"){
+
+
+				if (num==1){
+						item_bladedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), num);
+					}
+				}else{
+
+					item_bladedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), num);
 				}	
-			}	
+				
 				if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
 
 					if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.chalicerouzer & RIDER == "chalice"){

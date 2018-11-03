@@ -674,8 +674,10 @@ public class RiderItems {
 	public static Item changekerberoslarc = new Item_ore("changekerberoslarc").setCreativeTab(Tabs.tabblade);
 	public static Item fusion_eagle = new ItemRouze_Cards("fusion_eagle",1,"blade").setCreativeTab(Tabs.tabblade);
 	public static Item fusion_peacock = new ItemRouze_Cards("fusion_peacock",1,"garren").setCreativeTab(Tabs.tabblade);
+	public static Item fusion_elephant = new ItemRouze_Cards("fusion_elephant",1,"leangle").setCreativeTab(Tabs.tabblade);
 	public static Item absorb_capricorn = new Item_ore("absorb_capricorn").setCreativeTab(Tabs.tabblade);
 	public static Item absorb_serpent = new Item_ore("absorb_serpent").setCreativeTab(Tabs.tabblade);
+	public static Item absorb_tiger = new Item_ore("absorb_tiger").setCreativeTab(Tabs.tabblade);
 	public static Item evolution_caucasus = new ItemRouze_Cards("evolution_caucasus",2,"blade").setCreativeTab(Tabs.tabblade);
 	public static Item evolution_giraffa = new ItemRouze_Cards("evolution_giraffa",2,"garren").setCreativeTab(Tabs.tabblade);
 	public static Item evolution_paradoxa = new ItemRouze_Cards("evolution_paradoxa",3,"chalice").setCreativeTab(Tabs.tabblade);
