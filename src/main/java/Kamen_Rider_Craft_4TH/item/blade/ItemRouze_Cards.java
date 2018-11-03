@@ -72,11 +72,11 @@ public class ItemRouze_Cards extends Item implements IHasModel
 				if (num==1){
 						item_bladedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), num);
 					}
-				}else{
+				else{
 
 					item_bladedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), num);
 				}	
-				
+    	}	
 				if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
 
 					if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.chalicerouzer & RIDER == "chalice"){
@@ -92,8 +92,7 @@ public class ItemRouze_Cards extends Item implements IHasModel
 
 					}
 
-			}
-
+				}
 		}
         playerIn.setActiveHand(handIn);
         return new ActionResult<ItemStack>(EnumActionResult.SUCCESS, playerIn.getHeldItem(handIn));
