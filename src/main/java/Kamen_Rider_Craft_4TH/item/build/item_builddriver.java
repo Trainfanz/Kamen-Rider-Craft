@@ -83,57 +83,61 @@ public class item_builddriver extends ItemArmor implements IHasModel
 				Item[] build_organic= new Item[] {RiderItems.build_driver_rabbit,RiderItems.build_driver_gorilla,RiderItems.build_driver_taka,RiderItems.build_driver_harinezumi,RiderItems.build_driver_ninja,RiderItems.build_driver_panda,RiderItems.build_driver_lion,RiderItems.build_driver_dragon,RiderItems.build_driver_santa,RiderItems.build_driver_orange,RiderItems.build_driver_doctor,RiderItems.build_driver_dog,RiderItems.build_driver_mahoutsukai,RiderItems.build_driver_tantei,RiderItems.build_driver_kaizoku,RiderItems.build_driver_octopus,RiderItems.build_driver_phoenix,RiderItems.build_driver_kuma,RiderItems.build_driver_momotaros,RiderItems.build_driver_yujou,RiderItems.build_driver_obake,RiderItems.build_driver_wolf,RiderItems.build_driver_beetle,RiderItems.build_driver_card,RiderItems.build_driver_rose,RiderItems.build_driver_tora,RiderItems.build_driver_kujira,RiderItems.build_driver_kirin,RiderItems.build_driver_unicorn,RiderItems.build_driver_turtle,RiderItems.build_driver_deer,RiderItems.build_driver_penguin,RiderItems.build_driver_spider,RiderItems.build_driver_rabbit_gold,RiderItems.build_driver_spider,RiderItems.build_driver_kujira,RiderItems.build_driver_kirin,RiderItems.build_driver_sai,RiderItems.build_driver_scorpion};				
 				Item[] evol_form= new Item[] {RiderItems.evol_driver_cobra,RiderItems.evol_driver_dragon,RiderItems.evol_driver_rabbit,RiderItems.evol_driver_blackhole,RiderItems.evol_driver_blackhole};
 				Item[] cross_form= new Item[] {RiderItems.build_driver_cross_z_dragon,RiderItems.build_driver_magma,RiderItems.build_driver_cross_z_great,RiderItems.build_driver_galaxy};
-				
+
 				armorModel.belt=stack;
-					
-					if(stack.getItem() == RiderItems.build_driver)
-					{
-						if (item_OOOdriver.get_core(stack,"1")==2&item_OOOdriver.get_core(stack,"3")==2){
-							armorModel.wings=new ItemStack(RiderItems.hawk_gatling_wings);
-						}else if (item_OOOdriver.get_core(stack,"1")==15&item_OOOdriver.get_core(stack,"3")==16){
-							armorModel.wings=new ItemStack(RiderItems.phoenix_robo_wings);				
+
+				if(stack.getItem() == RiderItems.build_driver)
+				{
+					if (item_OOOdriver.get_core(stack,"1")==2&item_OOOdriver.get_core(stack,"3")==2){
+						armorModel.wings=new ItemStack(RiderItems.hawk_gatling_wings);
+					}else if (item_OOOdriver.get_core(stack,"1")==15&item_OOOdriver.get_core(stack,"3")==16){
+						armorModel.wings=new ItemStack(RiderItems.phoenix_robo_wings);				
+					}else{
+						armorModel.wings=new ItemStack(RiderItems.blanknoitem);
+					}
+					armorModel.belt3=new ItemStack(build_form[item_OOOdriver.get_core(stack,"2")]);
+					if (item_OOOdriver.get_core(stack,"2")!=1&item_OOOdriver.get_core(stack,"2")!=3&item_OOOdriver.get_core(stack,"2")!=4&item_OOOdriver.get_core(stack,"2")!=5&item_OOOdriver.get_core(stack,"2")!=6){
+						armorModel.belt2=new ItemStack(build_inorganic[item_OOOdriver.get_core(stack,"1")]);						
+						armorModel.belt4=new ItemStack(build_organic[item_OOOdriver.get_core(stack,"3")]);
+					}
+				}
+
+				if(stack.getItem() == RiderItems.transteamgun_2)
+				{
+
+					if(living.isSneaking()){
+						if (item_OOOdriver.get_core(stack,"1")==0){
+							armorModel.wings=new ItemStack(RiderItems.night_rogue_wings);
 						}else{
 							armorModel.wings=new ItemStack(RiderItems.blanknoitem);
 						}
-						armorModel.belt3=new ItemStack(build_form[item_OOOdriver.get_core(stack,"2")]);
-						if (item_OOOdriver.get_core(stack,"2")!=1&item_OOOdriver.get_core(stack,"2")!=3&item_OOOdriver.get_core(stack,"2")!=4&item_OOOdriver.get_core(stack,"2")!=5&item_OOOdriver.get_core(stack,"2")!=6){
-						armorModel.belt2=new ItemStack(build_inorganic[item_OOOdriver.get_core(stack,"1")]);						
-						armorModel.belt4=new ItemStack(build_organic[item_OOOdriver.get_core(stack,"3")]);
-						}
 					}
-					
-					if(stack.getItem() == RiderItems.transteamgun_2)
-					{
-						if (item_OOOdriver.get_core(stack,"1")==0){
-								armorModel.wings=new ItemStack(RiderItems.night_rogue_wings);
-							}else{
-								armorModel.wings=new ItemStack(RiderItems.blanknoitem);
-							}
-						}
-										
-					if(stack.getItem() == RiderItems.evol_driver_mad_rogue)
-					{						
-								armorModel.wings=new ItemStack(RiderItems.mad_rogue_wings);					
-					}
-						
-					
-					if(stack.getItem() == RiderItems.evol_driver_evol)
-					{
-						armorModel.belt2=new ItemStack(evol_form[item_OOOdriver.get_core(stack,"1")]);						
-					}
-					
-					if(stack.getItem() == RiderItems.build_driver_cross_z)
-					{
-						armorModel.belt2=new ItemStack(cross_form[item_OOOdriver.get_core(stack,"1")]);						
-					}
+				}
+
+				if(stack.getItem() == RiderItems.evol_driver_mad_rogue)
+				{			if(living.isSneaking()){			
+					armorModel.wings=new ItemStack(RiderItems.mad_rogue_wings);		
+				}			
+				}
+
+
+				if(stack.getItem() == RiderItems.evol_driver_evol)
+				{
+					armorModel.belt2=new ItemStack(evol_form[item_OOOdriver.get_core(stack,"1")]);						
+				}
+
+				if(stack.getItem() == RiderItems.build_driver_cross_z)
+				{
+					armorModel.belt2=new ItemStack(cross_form[item_OOOdriver.get_core(stack,"1")]);						
+				}
 
 				if (stack.getItem()!= RiderItems.nebulasteamgun_2 & stack.getItem()!= RiderItems.transteamgun_2){
 					armorModel.belt=stack;
-					}else
-					{
-						armorModel.belt=new ItemStack( RiderItems.blanknoitem);
-					}
-				
+				}else
+				{
+					armorModel.belt=new ItemStack( RiderItems.blanknoitem);
+				}
+
 				armorModel.isSneak = defaultModel.isSneak;
 				armorModel.isRiding = defaultModel.isRiding;
 				armorModel.isChild = defaultModel.isChild;
@@ -146,7 +150,7 @@ public class item_builddriver extends ItemArmor implements IHasModel
 		}
 		return null;
 	}
-	
+
 
 	@Override
 	public String getArmorTexture(ItemStack stack, Entity entity, EntityEquipmentSlot slot, String type)
@@ -170,7 +174,7 @@ public class item_builddriver extends ItemArmor implements IHasModel
 		itemstack.getTagCompound().setInteger("core"+slot, flag);
 	}
 
-	
+
 	@Override
 	public void onArmorTick(World world, EntityPlayer player, ItemStack armor) {
 
@@ -451,7 +455,7 @@ public class item_builddriver extends ItemArmor implements IHasModel
 												player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
 											}
 										}
-											
+
 
 
 										if (get_core(ItemStack,"2")==1){
@@ -490,38 +494,38 @@ public class item_builddriver extends ItemArmor implements IHasModel
 												player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.HUNGER, 5, 1,true,false));
 											}
-											}else if (get_core(ItemStack,"2")==3){
-												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));			
-												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
-												player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false));
-												player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
-												player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 1,true,false));
-												
-											}else if (get_core(ItemStack,"2")==4){
-												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));	
-												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
-												player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 0,true,false));
-												player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
-												player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 0,true,false));
-											
-											}else if (get_core(ItemStack,"2")==5){
-												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));	
-												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
-												player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
-												player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 1,true,false));
-												player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 3,true,false));
-												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
-												player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
-												player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
-												player.addPotionEffect(new PotionEffect(MobEffects.SATURATION, 5, 0,true,false));
-												
-											}else if (get_core(ItemStack,"2")==6){
-												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
-												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));	
-												player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
-												player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
-												player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 0,true,false));
-												player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false));
+										}else if (get_core(ItemStack,"2")==3){
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));			
+											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 1,true,false));
+
+										}else if (get_core(ItemStack,"2")==4){
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));	
+											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 0,true,false));
+
+										}else if (get_core(ItemStack,"2")==5){
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));	
+											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 1,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 3,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.SATURATION, 5, 0,true,false));
+
+										}else if (get_core(ItemStack,"2")==6){
+											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));	
+											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false));
 										}
 
 
@@ -730,19 +734,19 @@ public class item_builddriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));	
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
-									}
+										}
 										else if (get_core(ItemStack,"1")==1){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));	
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
-									}
+										}
 										else if (get_core(ItemStack,"1")==2){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));	
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
-									}		
+										}		
 										else if (get_core(ItemStack,"1")==3){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));	
@@ -750,7 +754,7 @@ public class item_builddriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
-									}		
+										}		
 										else if (get_core(ItemStack,"1")==4){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));	
@@ -760,33 +764,33 @@ public class item_builddriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
 										}
 									}
-										if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.evol_driver_mad_rogue){
-											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
-											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
-											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));	
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
-											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
-											if (player.isSneaking()){
-												player.fallDistance=0; 
-												Vec3d look = player.getLookVec();
-												player.motionX=look.x;
-												player.motionY=look.y;
-												player.motionZ=look.z;
+									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.evol_driver_mad_rogue){
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));	
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
+										if (player.isSneaking()){
+											player.fallDistance=0; 
+											Vec3d look = player.getLookVec();
+											player.motionX=look.x;
+											player.motionY=look.y;
+											player.motionZ=look.z;
 										}
 									}
-										if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.build_driver_grease){
-											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));	
-											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));	
-											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
-											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));	
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
-											
+									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.build_driver_grease){
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));	
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));	
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));	
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
+
 									}	if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.build_driver_blood){
-											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));	
-											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
-											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));	
-											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));	
-										
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));	
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));	
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));	
+
 									}
 								}
 							}
@@ -800,7 +804,7 @@ public class item_builddriver extends ItemArmor implements IHasModel
 
 
 
-	
+
 
 
 
