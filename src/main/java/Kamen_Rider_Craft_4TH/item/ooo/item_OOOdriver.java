@@ -56,20 +56,20 @@ public class item_OOOdriver extends ItemArmor implements IHasModel
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
-		
+
 	}
 
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
 	}
-	
+
 	@Override
 	public String getArmorTexture(ItemStack stack, Entity entity, EntityEquipmentSlot slot, String type)
 	{
 		return Refercence.MODID+":textures/armor/blank.png";
 	}
-	
+
 	@Override
 	public void onArmorTick(World world, EntityPlayer player, ItemStack armor) {
 
@@ -114,6 +114,7 @@ public class item_OOOdriver extends ItemArmor implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+									}
 								}
 							}
 						}
@@ -121,10 +122,9 @@ public class item_OOOdriver extends ItemArmor implements IHasModel
 				}
 			}
 		}
-	}
-}	
-	
-	
+	}	
+
+
 
 	@Override
 	@SideOnly(Side.CLIENT)
@@ -141,24 +141,26 @@ public class item_OOOdriver extends ItemArmor implements IHasModel
 				Item[] Medel_head= new Item[] {RiderItems.taka_OOOdriver,RiderItems.kuwagata_OOOdriver,RiderItems.lion_OOOdriver,RiderItems.sai_OOOdriver,RiderItems.shachi_OOOdriver,RiderItems.ptera_OOOdriver,RiderItems.cobra_OOOdriver,RiderItems.super_taka_OOOdriver,RiderItems.love_OOOdriver,RiderItems.same_OOOdriver,RiderItems.shika_OOOdriver,RiderItems.seiuchi_OOOdriver,RiderItems.mukade_OOOdriver,RiderItems.sasori_new_OOOdriver,RiderItems.taka_OOOdriver};
 				Item[] Medel_chest= new Item[] {RiderItems.tora_OOOdriver,RiderItems.kamakiri_OOOdriver,RiderItems.gorilla_OOOdriver,RiderItems.kujaku_OOOdriver,RiderItems.unagi_OOOdriver,RiderItems.tricera_OOOdriver,RiderItems.kame_OOOdriver,RiderItems.imagin_OOOdriver,RiderItems.panda_OOOdriver,RiderItems.super_tora_OOOdriver,RiderItems.kangaroo_OOOdriver,RiderItems.love2_OOOdriver,RiderItems.kujira_OOOdriver,RiderItems.gazelle_OOOdriver,RiderItems.shirokuma_OOOdriver,RiderItems.hachi_OOOdriver,RiderItems.kani_new_OOOdriver,RiderItems.yadokari_OOOdriver,RiderItems.tora_OOOdriver};
 				Item[] Medel_legs= new Item[] {RiderItems.batta_OOOdriver,RiderItems.cheetah_OOOdriver,RiderItems.zou_OOOdriver,RiderItems.condor_OOOdriver,RiderItems.tako_OOOdriver,RiderItems.tyranno_OOOdriver,RiderItems.wani_OOOdriver,RiderItems.shocker_OOOdriver,RiderItems.super_batta_OOOdriver,RiderItems.kangaroo2_OOOdriver,RiderItems.love3_OOOdriver,RiderItems.ookamiuo_OOOdriver,RiderItems.ushi_OOOdriver,RiderItems.penguin_OOOdriver,RiderItems.ari_OOOdriver,RiderItems.ebi_new_OOOdriver,RiderItems.batta_OOOdriver};
-				
+
 				armorModel.belt=stack;
-					
-				
-				
-					if(stack.getItem() == RiderItems.OOOdriver)
-					{	
+
+
+
+				if(stack.getItem() == RiderItems.OOOdriver)
+				{	
+					if(living.isSneaking()){
 						if (item_OOOdriver.get_core(stack,"1")==0&item_OOOdriver.get_core(stack,"2")==3&item_OOOdriver.get_core(stack,"3")==3){
 							armorModel.wings=new ItemStack(RiderItems.tajador_wings);
 						}else{
 							armorModel.wings=new ItemStack(RiderItems.blanknoitem);
 						}	
+					}
 					{
 						armorModel.belt2=new ItemStack(Medel_head[item_OOOdriver.get_core(stack,"1")]);
 						armorModel.belt3=new ItemStack(Medel_chest[item_OOOdriver.get_core(stack,"2")]);
 						armorModel.belt4=new ItemStack(Medel_legs[item_OOOdriver.get_core(stack,"3")]);
-						}
 					}
+				}
 
 				armorModel.isSneak = defaultModel.isSneak;
 				armorModel.isRiding = defaultModel.isRiding;
@@ -172,55 +174,55 @@ public class item_OOOdriver extends ItemArmor implements IHasModel
 		}
 		return null;
 	}
-	
 
 
 
 
 
-public static int get_eftTime(ItemStack itemstack)
-{
-	return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("eftTime") : 100;
-}
 
-public static void set_eftTime(ItemStack itemstack, int flag)
-{
-	if (!itemstack.hasTagCompound())
+	public static int get_eftTime(ItemStack itemstack)
 	{
-		itemstack.setTagCompound(new NBTTagCompound());
+		return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("eftTime") : 100;
 	}
-	itemstack.getTagCompound().setInteger("eftTime", flag);
-}
 
-public static int get_core(ItemStack itemstack,String slot)
-{
-	return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("core"+slot) : 0;
-}
-
-public static void set_core(ItemStack itemstack, int flag,String slot)
-{
-	if (!itemstack.hasTagCompound())
+	public static void set_eftTime(ItemStack itemstack, int flag)
 	{
-		itemstack.setTagCompound(new NBTTagCompound());
+		if (!itemstack.hasTagCompound())
+		{
+			itemstack.setTagCompound(new NBTTagCompound());
+		}
+		itemstack.getTagCompound().setInteger("eftTime", flag);
 	}
-	itemstack.getTagCompound().setInteger("core"+slot, flag);
-}
+
+	public static int get_core(ItemStack itemstack,String slot)
+	{
+		return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("core"+slot) : 0;
+	}
+
+	public static void set_core(ItemStack itemstack, int flag,String slot)
+	{
+		if (!itemstack.hasTagCompound())
+		{
+			itemstack.setTagCompound(new NBTTagCompound());
+		}
+		itemstack.getTagCompound().setInteger("core"+slot, flag);
+	}
 
 
 
 
-/**
- * Returns the 'max damage' factor array for the armor, each piece of armor have a durability factor (that gets
- * multiplied by armor material factor)
- */
-static int[] getMaxDamageArray()
-{
-	return maxDamageArray;
-}
+	/**
+	 * Returns the 'max damage' factor array for the armor, each piece of armor have a durability factor (that gets
+	 * multiplied by armor material factor)
+	 */
+	static int[] getMaxDamageArray()
+	{
+		return maxDamageArray;
+	}
 
 
-public boolean hasOverlay(ItemStack stack)
-{
-    return stack.getItem()==RiderItems.OOOdriver || getColor(stack) != 0x00FFFFFF;
-}
+	public boolean hasOverlay(ItemStack stack)
+	{
+		return stack.getItem()==RiderItems.OOOdriver || getColor(stack) != 0x00FFFFFF;
+	}
 }
