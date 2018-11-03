@@ -47,6 +47,7 @@ itemGroup.tabex_aid=Kamen Rider Ex-Aid
 itemGroup.tabbuild=Kamen Rider Build
 itemGroup.tabamazons=Kamen Rider Amazons
 itemGroup.tabzi_o=Kamen Rider Zi-O
+itemGroup.tabdecor=Decorative Items
 
 tile.stone_kuuga.name=Kuuga Ore
 tile.stone_agito.name=Agito Ore
@@ -96,6 +97,8 @@ tile.another_build_block.name=Another Build Block
 
 tile.purifyer.name=Full Bottle Purifyer
 tile.solidifyer.name=Full Bottle Solidifyer
+
+tile.monitor.name=Computer Monitor
 
 item.energy.name=Energy Shot
 

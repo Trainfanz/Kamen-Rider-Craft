@@ -102,6 +102,21 @@ public class item_builddriver extends ItemArmor implements IHasModel
 						}
 					}
 					
+					if(stack.getItem() == RiderItems.transteamgun_2)
+					{
+						if (item_OOOdriver.get_core(stack,"1")==0){
+								armorModel.wings=new ItemStack(RiderItems.night_rogue_wings);
+							}else{
+								armorModel.wings=new ItemStack(RiderItems.blanknoitem);
+							}
+						}
+										
+					if(stack.getItem() == RiderItems.evol_driver_mad_rogue)
+					{						
+								armorModel.wings=new ItemStack(RiderItems.mad_rogue_wings);					
+					}
+						
+					
 					if(stack.getItem() == RiderItems.evol_driver_evol)
 					{
 						armorModel.belt2=new ItemStack(evol_form[item_OOOdriver.get_core(stack,"1")]);						

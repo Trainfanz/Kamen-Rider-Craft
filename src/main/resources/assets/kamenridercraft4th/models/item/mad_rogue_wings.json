@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "kamenridercraft4th:items/mad_rogue_wings"
+    }
+}
+

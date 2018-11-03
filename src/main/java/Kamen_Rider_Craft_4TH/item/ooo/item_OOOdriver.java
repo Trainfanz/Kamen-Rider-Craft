@@ -144,11 +144,20 @@ public class item_OOOdriver extends ItemArmor implements IHasModel
 				
 				armorModel.belt=stack;
 					
+				
+				
 					if(stack.getItem() == RiderItems.OOOdriver)
+					{	
+						if (item_OOOdriver.get_core(stack,"1")==0&item_OOOdriver.get_core(stack,"2")==3&item_OOOdriver.get_core(stack,"3")==3){
+							armorModel.wings=new ItemStack(RiderItems.tajador_wings);
+						}else{
+							armorModel.wings=new ItemStack(RiderItems.blanknoitem);
+						}	
 					{
 						armorModel.belt2=new ItemStack(Medel_head[item_OOOdriver.get_core(stack,"1")]);
 						armorModel.belt3=new ItemStack(Medel_chest[item_OOOdriver.get_core(stack,"2")]);
 						armorModel.belt4=new ItemStack(Medel_legs[item_OOOdriver.get_core(stack,"3")]);
+						}
 					}
 
 				armorModel.isSneak = defaultModel.isSneak;

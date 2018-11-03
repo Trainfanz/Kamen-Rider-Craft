@@ -1185,6 +1185,8 @@ public class RiderItems {
 	public static Item love_OOOdriver = new Item_ore("love_ooodriver");
 	public static Item love2_OOOdriver = new Item_ore("love2_ooodriver");
 	public static Item love3_OOOdriver = new Item_ore("love3_ooodriver");
+	
+	public static Item tajador_wings = new Item_ore("tajador_wings");
 		
 	public static Item OOOdriver = new item_OOOdriver("ooodriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 	public static Item birth_driver = new item_OOOdriver("birth_driver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
@@ -1226,6 +1228,7 @@ public class RiderItems {
 	public static Item kani_new = new Itemmedal(16, "2","kani_new").setCreativeTab(Tabs.tabOOO);
 	public static Item yadokari = new Itemmedal(17, "2","yadokari").setCreativeTab(Tabs.tabOOO);
 	public static Item taiga = new Itemmedal(18, "2","taiga").setCreativeTab(Tabs.tabOOO);
+	
 	public static Item batta = new Itemmedal(0, "3","batta").setCreativeTab(Tabs.tabOOO);
 	public static Item cheetah = new Itemmedal(1, "3","cheetah").setCreativeTab(Tabs.tabOOO);
 	public static Item zou = new Itemmedal(2, "3","zou").setCreativeTab(Tabs.tabOOO);
@@ -2380,7 +2383,9 @@ public class RiderItems {
 	public static Item build_driver_cross_z_build = new Item_ore("build_driver_cross_z_build");
 			
 	public static Item hawk_gatling_wings = new Item_ore("hawk_gatling_wings");
-	public static Item phoenix_robo_wings = new Item_ore("phoenix_robo_wings");
+	public static Item phoenix_robo_wings = new Item_ore("phoenix_robo_wings");	
+	public static Item night_rogue_wings = new Item_ore("night_rogue_wings");
+	public static Item mad_rogue_wings = new Item_ore("mad_rogue_wings");
 			
 	public static Item evol_driver_cobra = new Item_ore("evol_driver_cobra");
 	public static Item evol_driver_dragon = new Item_ore("evol_driver_dragon");
