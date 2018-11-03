@@ -85,13 +85,19 @@ public class item_zikudriver extends ItemArmor  implements IHasModel
 				Item[] form_watch= new Item[] {RiderItems.blanknoitem};
 				Item[] armor_watch= new Item[] {RiderItems.blanknoitem,RiderItems.ziku_driver_build,RiderItems.ziku_driver_exaid,RiderItems.ziku_driver_ghost,RiderItems.ziku_driver_drive,RiderItems.ziku_driver_gaim,RiderItems.ziku_driver_wizard,RiderItems.ziku_driver_fourze,RiderItems.ziku_driver_ooo,RiderItems.blanknoitem,RiderItems.blanknoitem,RiderItems.ziku_driver_deno,RiderItems.ziku_driver_kabuto,RiderItems.ziku_driver_hibiki,RiderItems.ziku_driver_blade,RiderItems.ziku_driver_faiz,RiderItems.ziku_driver_ryuki,RiderItems.blanknoitem,RiderItems.blanknoitem,RiderItems.ziku_driver_genm};
 				
+				
 				armorModel.belt=stack;
-									
-					{
+				
+				if (this.get_lockbase(stack)=="gaim"){
+                    armorModel.wings=new ItemStack(RiderItems.gaim_armor_wings);
+                }else{
+                	  armorModel.wings=new ItemStack(RiderItems.blanknoitem);
+                }
+					
 						armorModel.belt=stack;
 						armorModel.belt2=new ItemStack(form_watch[this.get_core(stack,"1")]);	
 						armorModel.belt3=new ItemStack(armor_watch[this.get_locknum(stack)]);
-					}
+					
 
 				armorModel.isSneak = defaultModel.isSneak;
 				armorModel.isRiding = defaultModel.isRiding;

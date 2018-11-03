@@ -2,6 +2,7 @@ package Kamen_Rider_Craft_4TH.item.build;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.blocks.purifyer_block;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -10,6 +11,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumHand;
+import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.world.World;
 
 
@@ -20,7 +22,7 @@ public class Item_full_bottle extends Item implements IHasModel
 	public String num2;
 
 
-	public Item_full_bottle(int NUM ,String NUM2,String name)
+	public Item_full_bottle(int NUM ,String NUM2,String name,int NUM3)
 	{
 		super();
 		this.setHasSubtypes(true);
@@ -31,6 +33,12 @@ public class Item_full_bottle extends Item implements IHasModel
 	    setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
+        
+        for (int i1 = 0; i1 < NUM3; ++i1)
+        {
+        	purifyer_block.BOTTLE.add(this);
+        }
+        
 
 	}
 

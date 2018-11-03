@@ -2171,94 +2171,94 @@ public class RiderItems {
 
 	public static Item build_phone = new item_buildphone("build_phone").setCreativeTab(Tabs.tabbuild);
 			
-	public static Item rabbit_full_bottle = new Item_full_bottle(0, "3","rabbit_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item gorilla_full_bottle = new Item_full_bottle(1, "3","gorilla_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item taka_full_bottle = new Item_full_bottle(2, "3","taka_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item harinezumi_full_bottle = new Item_full_bottle(3, "3","harinezumi_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item ninjya_full_bottle = new Item_full_bottle(4, "3","ninjya_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item panda_full_bottle = new Item_full_bottle(5, "3","panda_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item lion_full_bottle = new Item_full_bottle(6, "3","lion_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item dragon_full_bottle = new Item_full_bottle(7, "3","dragon_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item kaizoku_full_bottle = new Item_full_bottle(14, "3","kaizoku_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item octopus_full_bottle = new Item_full_bottle(15, "3","octopus_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item phoenix_full_bottle = new Item_full_bottle(16, "3","phoenix_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item rose_full_bottle = new Item_full_bottle(24, "3","rose_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item tora_full_bottle = new Item_full_bottle(25, "3","tora_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item kujira_full_bottle = new Item_full_bottle(26, "3","kujira_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item kirin_full_bottle = new Item_full_bottle(27, "3","kirin_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item unicorn_full_bottle = new Item_full_bottle(28, "3","unicorn_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item turtle_full_bottle = new Item_full_bottle(29, "3","turtle_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item deer_full_bottle = new Item_full_bottle(30, "3","deer_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item penguin_full_bottle = new Item_full_bottle(31, "3","penguin_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item spider_full_bottle = new Item_full_bottle(32, "3","spider_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item rabbit_gold_full_bottle = new Item_full_bottle(33, "3","rabbit_gold_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item bat_full_bottle_2 = new Item_full_bottle(34, "3","bat_full_bottle_2").setCreativeTab(Tabs.tabbuild);
-	public static Item same_full_bottle = new Item_full_bottle(35, "3","same_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item hachi_full_bottle = new Item_full_bottle(36, "3","hachi_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item sai_full_bottle = new Item_full_bottle(37, "3","sai_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item scorpion_full_bottle = new Item_full_bottle(38, "3","scorpion_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item rabbit_full_bottle = new Item_full_bottle(0, "3","rabbit_full_bottle",10).setCreativeTab(Tabs.tabbuild);
+	public static Item gorilla_full_bottle = new Item_full_bottle(1, "3","gorilla_full_bottle",5).setCreativeTab(Tabs.tabbuild);
+	public static Item taka_full_bottle = new Item_full_bottle(2, "3","taka_full_bottle",5).setCreativeTab(Tabs.tabbuild);
+	public static Item harinezumi_full_bottle = new Item_full_bottle(3, "3","harinezumi_full_bottle",5).setCreativeTab(Tabs.tabbuild);
+	public static Item ninjya_full_bottle = new Item_full_bottle(4, "3","ninjya_full_bottle",5).setCreativeTab(Tabs.tabbuild);
+	public static Item panda_full_bottle = new Item_full_bottle(5, "3","panda_full_bottle",5).setCreativeTab(Tabs.tabbuild);
+	public static Item lion_full_bottle = new Item_full_bottle(6, "3","lion_full_bottle",5).setCreativeTab(Tabs.tabbuild);
+	public static Item dragon_full_bottle = new Item_full_bottle(7, "3","dragon_full_bottle",5).setCreativeTab(Tabs.tabbuild);
+	public static Item kaizoku_full_bottle = new Item_full_bottle(14, "3","kaizoku_full_bottle",5).setCreativeTab(Tabs.tabbuild);
+	public static Item octopus_full_bottle = new Item_full_bottle(15, "3","octopus_full_bottle",5).setCreativeTab(Tabs.tabbuild);
+	public static Item phoenix_full_bottle = new Item_full_bottle(16, "3","phoenix_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item rose_full_bottle = new Item_full_bottle(24, "3","rose_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item tora_full_bottle = new Item_full_bottle(25, "3","tora_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item kujira_full_bottle = new Item_full_bottle(26, "3","kujira_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item kirin_full_bottle = new Item_full_bottle(27, "3","kirin_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item unicorn_full_bottle = new Item_full_bottle(28, "3","unicorn_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item turtle_full_bottle = new Item_full_bottle(29, "3","turtle_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item deer_full_bottle = new Item_full_bottle(30, "3","deer_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item penguin_full_bottle = new Item_full_bottle(31, "3","penguin_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item spider_full_bottle = new Item_full_bottle(32, "3","spider_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item rabbit_gold_full_bottle = new Item_full_bottle(33, "3","rabbit_gold_full_bottle",0).setCreativeTab(Tabs.tabbuild);
+	public static Item bat_full_bottle_2 = new Item_full_bottle(34, "3","bat_full_bottle_2",2).setCreativeTab(Tabs.tabbuild);
+	public static Item same_full_bottle = new Item_full_bottle(35, "3","same_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item hachi_full_bottle = new Item_full_bottle(36, "3","hachi_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item sai_full_bottle = new Item_full_bottle(37, "3","sai_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item scorpion_full_bottle = new Item_full_bottle(38, "3","scorpion_full_bottle",0).setCreativeTab(Tabs.tabbuild);
 
-	public static Item dog_full_bottle = new Item_full_bottle(11, "3","dog_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item santa_full_bottle = new Item_full_bottle(8, "3","santa_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item kuma_full_bottle = new Item_full_bottle(17, "3","kuma_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item wolf_full_bottle = new Item_full_bottle(21, "3","wolf_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item beetle_full_bottle = new Item_full_bottle(22, "3","beetle_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item dog_full_bottle = new Item_full_bottle(11, "3","dog_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item santa_full_bottle = new Item_full_bottle(8, "3","santa_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item kuma_full_bottle = new Item_full_bottle(17, "3","kuma_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item wolf_full_bottle = new Item_full_bottle(21, "3","wolf_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item beetle_full_bottle = new Item_full_bottle(22, "3","beetle_full_bottle",2).setCreativeTab(Tabs.tabbuild);
 
-	public static Item doctor_full_bottle = new Item_full_bottle(10, "3","doctor_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item orange_full_bottle = new Item_full_bottle(9, "3","orange_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item mahoutskai_full_bottle = new Item_full_bottle(12, "3","mahoutskai_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item tantei_full_bottle = new Item_full_bottle(13, "3","tantei_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item momotaros_full_bottle = new Item_full_bottle(18, "3","momotaros_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item yujou_full_bottle = new Item_full_bottle(19, "3","yujou_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item obake_full_bottle = new Item_full_bottle(20, "3","obake_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item card_full_bottle = new Item_full_bottle(23, "3","card_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item doctor_full_bottle = new Item_full_bottle(10, "3","doctor_full_bottle",0).setCreativeTab(Tabs.tabbuild);
+	public static Item orange_full_bottle = new Item_full_bottle(9, "3","orange_full_bottle",0).setCreativeTab(Tabs.tabbuild);
+	public static Item mahoutskai_full_bottle = new Item_full_bottle(12, "3","mahoutskai_full_bottle",0).setCreativeTab(Tabs.tabbuild);
+	public static Item tantei_full_bottle = new Item_full_bottle(13, "3","tantei_full_bottle",0).setCreativeTab(Tabs.tabbuild);
+	public static Item momotaros_full_bottle = new Item_full_bottle(18, "3","momotaros_full_bottle",0).setCreativeTab(Tabs.tabbuild);
+	public static Item yujou_full_bottle = new Item_full_bottle(19, "3","yujou_full_bottle",0).setCreativeTab(Tabs.tabbuild);
+	public static Item obake_full_bottle = new Item_full_bottle(20, "3","obake_full_bottle",0).setCreativeTab(Tabs.tabbuild);
+	public static Item card_full_bottle = new Item_full_bottle(23, "3","card_full_bottle",0).setCreativeTab(Tabs.tabbuild);
 
-	public static Item tank_full_bottle = new Item_full_bottle(0, "1","tank_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item diamond_full_bottle = new Item_full_bottle(1, "1","diamond_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item gatling_full_bottle = new Item_full_bottle(2, "1","gatling_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item soujiki_full_bottle = new Item_full_bottle(3, "1","soujiki_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item comic_full_bottle = new Item_full_bottle(4, "1","comic_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item rocket_full_bottle = new Item_full_bottle(5, "1","rocket_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item shoubousha_full_bottle = new Item_full_bottle(6, "1","shoubousha_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item lock_full_bottle = new Item_full_bottle(7, "1","lock_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item ressha_full_bottle = new Item_full_bottle(13, "1","ressha_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item light_full_bottle = new Item_full_bottle(14, "1","light_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item robo_full_bottle = new Item_full_bottle(15, "1","robo_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item helicopter_full_bottle = new Item_full_bottle(20, "1","helicopter_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item ufo_full_bottle = new Item_full_bottle(21, "1","ufo_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item jet_full_bottle = new Item_full_bottle(22, "1","jet_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item cyclone_full_bottle = new Item_full_bottle(23, "1","cyclone_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item eraser_full_bottle = new Item_full_bottle(24, "1","eraser_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item watch_full_bottle = new Item_full_bottle(25, "1","watch_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item pyramid_full_bottle = new Item_full_bottle(26, "1","pyramid_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item skateboard_full_bottle = new Item_full_bottle(27, "1","skateboard_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item fridge_full_bottle = new Item_full_bottle(28, "1","fridge_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item dragon_silver_full_bottle = new Item_full_bottle(29, "1","dragon_silver_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item engine_full_bottle = new Item_full_bottle(30, "1","engine_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item bike_full_bottle = new Item_full_bottle(31, "1","bike_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item magnet_full_bottle = new Item_full_bottle(32, "1","magnet_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item submarine_full_bottle = new Item_full_bottle(33, "1","submarine_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item dryer_full_bottle = new Item_full_bottle(34, "1","dryer_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item gold_full_bottle = new Item_full_bottle(35, "1","gold_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item tank_full_bottle = new Item_full_bottle(0, "1","tank_full_bottle",10).setCreativeTab(Tabs.tabbuild);
+	public static Item diamond_full_bottle = new Item_full_bottle(1, "1","diamond_full_bottle",5).setCreativeTab(Tabs.tabbuild);
+	public static Item gatling_full_bottle = new Item_full_bottle(2, "1","gatling_full_bottle",5).setCreativeTab(Tabs.tabbuild);
+	public static Item soujiki_full_bottle = new Item_full_bottle(3, "1","soujiki_full_bottle",5).setCreativeTab(Tabs.tabbuild);
+	public static Item comic_full_bottle = new Item_full_bottle(4, "1","comic_full_bottle",5).setCreativeTab(Tabs.tabbuild);
+	public static Item rocket_full_bottle = new Item_full_bottle(5, "1","rocket_full_bottle",5).setCreativeTab(Tabs.tabbuild);
+	public static Item shoubousha_full_bottle = new Item_full_bottle(6, "1","shoubousha_full_bottle",5).setCreativeTab(Tabs.tabbuild);
+	public static Item lock_full_bottle = new Item_full_bottle(7, "1","lock_full_bottle",5).setCreativeTab(Tabs.tabbuild);
+	public static Item ressha_full_bottle = new Item_full_bottle(13, "1","ressha_full_bottle",5).setCreativeTab(Tabs.tabbuild);
+	public static Item light_full_bottle = new Item_full_bottle(14, "1","light_full_bottle",5).setCreativeTab(Tabs.tabbuild);
+	public static Item robo_full_bottle = new Item_full_bottle(15, "1","robo_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item helicopter_full_bottle = new Item_full_bottle(20, "1","helicopter_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item ufo_full_bottle = new Item_full_bottle(21, "1","ufo_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item jet_full_bottle = new Item_full_bottle(22, "1","jet_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item cyclone_full_bottle = new Item_full_bottle(23, "1","cyclone_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item eraser_full_bottle = new Item_full_bottle(24, "1","eraser_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item watch_full_bottle = new Item_full_bottle(25, "1","watch_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item pyramid_full_bottle = new Item_full_bottle(26, "1","pyramid_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item skateboard_full_bottle = new Item_full_bottle(27, "1","skateboard_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item fridge_full_bottle = new Item_full_bottle(28, "1","fridge_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item dragon_silver_full_bottle = new Item_full_bottle(29, "1","dragon_silver_full_bottle",0).setCreativeTab(Tabs.tabbuild);
+	public static Item engine_full_bottle = new Item_full_bottle(30, "1","engine_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item bike_full_bottle = new Item_full_bottle(31, "1","bike_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item magnet_full_bottle = new Item_full_bottle(32, "1","magnet_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item submarine_full_bottle = new Item_full_bottle(33, "1","submarine_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item dryer_full_bottle = new Item_full_bottle(34, "1","dryer_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item gold_full_bottle = new Item_full_bottle(35, "1","gold_full_bottle",0).setCreativeTab(Tabs.tabbuild);
 
 
-	public static Item rabbittank_sparkling_full_bottle = new Item_full_bottle(1, "2","rabbittank_sparkling_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item hazard_trigger = new Item_full_bottle(2, "2","hazard_trigger").setCreativeTab(Tabs.tabbuild);
-	public static Item fullfull_bottle_rabbit = new Item_full_bottle(3, "2","fullfull_bottle_rabbit").setCreativeTab(Tabs.tabbuild);
-	public static Item fullfull_bottle_tank = new Item_full_bottle(4, "2","fullfull_bottle_tank").setCreativeTab(Tabs.tabbuild);
-	public static Item genius_full_bottle = new Item_full_bottle(5, "2","genius_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item cross_z_build_can = new Item_full_bottle(6, "2","cross_z_build_can").setCreativeTab(Tabs.tabbuild);
+	public static Item rabbittank_sparkling_full_bottle = new Item_full_bottle(1, "2","rabbittank_sparkling_full_bottle",0).setCreativeTab(Tabs.tabbuild);
+	public static Item hazard_trigger = new Item_full_bottle(2, "2","hazard_trigger",0).setCreativeTab(Tabs.tabbuild);
+	public static Item fullfull_bottle_rabbit = new Item_full_bottle(3, "2","fullfull_bottle_rabbit",0).setCreativeTab(Tabs.tabbuild);
+	public static Item fullfull_bottle_tank = new Item_full_bottle(4, "2","fullfull_bottle_tank",0).setCreativeTab(Tabs.tabbuild);
+	public static Item genius_full_bottle = new Item_full_bottle(5, "2","genius_full_bottle",0).setCreativeTab(Tabs.tabbuild);
+	public static Item cross_z_build_can = new Item_full_bottle(6, "2","cross_z_build_can",0).setCreativeTab(Tabs.tabbuild);
 						
-	public static Item mic_full_bottle = new Item_full_bottle(11, "1","mic_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item cake_full_bottle = new Item_full_bottle(8, "1","cake_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item televi_full_bottle = new Item_full_bottle(16, "1","televi_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item smartphone_full_bottle = new Item_full_bottle(18, "1","smartphone_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item camera_full_bottle = new Item_full_bottle(19, "1","camera_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item mic_full_bottle = new Item_full_bottle(11, "1","mic_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item cake_full_bottle = new Item_full_bottle(8, "1","cake_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item televi_full_bottle = new Item_full_bottle(16, "1","televi_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item smartphone_full_bottle = new Item_full_bottle(18, "1","smartphone_full_bottle",2).setCreativeTab(Tabs.tabbuild);
+	public static Item camera_full_bottle = new Item_full_bottle(19, "1","camera_full_bottle",2).setCreativeTab(Tabs.tabbuild);
 
-	public static Item game_full_bottle = new Item_full_bottle(10, "1","game_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item medal_full_bottle = new Item_full_bottle(9, "1","medal_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item usb_memory_full_bottle = new Item_full_bottle(12, "1","usb_memory_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item parka_full_bottle = new Item_full_bottle(17, "1","parka_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item game_full_bottle = new Item_full_bottle(10, "1","game_full_bottle",0).setCreativeTab(Tabs.tabbuild);
+	public static Item medal_full_bottle = new Item_full_bottle(9, "1","medal_full_bottle",0).setCreativeTab(Tabs.tabbuild);
+	public static Item usb_memory_full_bottle = new Item_full_bottle(12, "1","usb_memory_full_bottle",0).setCreativeTab(Tabs.tabbuild);
+	public static Item parka_full_bottle = new Item_full_bottle(17, "1","parka_full_bottle",0).setCreativeTab(Tabs.tabbuild);
 	public static Item low_rabbit_full_bottle = new Item_ore("low_rabbit_full_bottle").setCreativeTab(Tabs.tabbuild);
 			
 	public static Item ex_aid_full_bottle = new Item_ore("ex_aid_full_bottle").setCreativeTab(Tabs.tabbuild);
@@ -2267,29 +2267,29 @@ public class RiderItems {
 	public static Item robot_sclashjelly = new Item_ore("robot_sclashjelly").setCreativeTab(Tabs.tabbuild);
 	public static Item crocodile_crack_full_bottle = new Item_ore("crocodile_crack_full_bottle").setCreativeTab(Tabs.tabbuild);
 
-	public static Item bat_full_bottle = new Item_full_bottle(0, "4","bat_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item cobra_full_bottle = new Item_full_bottle(1, "4","cobra_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item bat_full_bottle = new Item_full_bottle(0, "4","bat_full_bottle",0).setCreativeTab(Tabs.tabbuild);
+	public static Item cobra_full_bottle = new Item_full_bottle(1, "4","cobra_full_bottle",0).setCreativeTab(Tabs.tabbuild);
 	public static Item fukurou_full_bottle = new Item_ore("fukurou_full_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item kuwagata_full_bottle = new Item_ore("kuwagata_full_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item castle_full_bottle = new Item_ore("castle_full_bottle").setCreativeTab(Tabs.tabbuild);
 
-	public static Item gear_engine = new Item_full_bottle(0, "5","gear_engine").setCreativeTab(Tabs.tabbuild);
-	public static Item gear_remocon = new Item_full_bottle(1, "5","gear_remocon").setCreativeTab(Tabs.tabbuild);
-	public static Item gear_red = new Item_full_bottle(2, "5","gear_red").setCreativeTab(Tabs.tabbuild);
-	public static Item gear_blue = new Item_full_bottle(3, "5","gear_blue").setCreativeTab(Tabs.tabbuild);
+	public static Item gear_engine = new Item_full_bottle(0, "5","gear_engine",0).setCreativeTab(Tabs.tabbuild);
+	public static Item gear_remocon = new Item_full_bottle(1, "5","gear_remocon",0).setCreativeTab(Tabs.tabbuild);
+	public static Item gear_red = new Item_full_bottle(2, "5","gear_red",0).setCreativeTab(Tabs.tabbuild);
+	public static Item gear_blue = new Item_full_bottle(3, "5","gear_blue",0).setCreativeTab(Tabs.tabbuild);
 			
-	public static Item cobra_evol_bottle = new Item_full_bottle(0, "6","cobra_evol_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item cobra_evol_bottle = new Item_full_bottle(0, "6","cobra_evol_bottle",0).setCreativeTab(Tabs.tabbuild);
 	public static Item rider_system_evol_bottle = new Item_ore("rider_system_evol_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item dragon_evol_bottle = new Item_full_bottle(1, "6","dragon_evol_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item rabbit_evol_bottle = new Item_full_bottle(2, "6","rabbit_evol_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item dragon_evol_bottle = new Item_full_bottle(1, "6","dragon_evol_bottle",0).setCreativeTab(Tabs.tabbuild);
+	public static Item rabbit_evol_bottle = new Item_full_bottle(2, "6","rabbit_evol_bottle",0).setCreativeTab(Tabs.tabbuild);
 
-	public static Item dragon_magma_full_bottle = new Item_full_bottle(1, "7","dragon_magma_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item dragon_evol_bottle_gold = new Item_full_bottle(2, "7","dragon_evol_bottle_gold").setCreativeTab(Tabs.tabbuild);
-	public static Item muscle_galaxy_full_bottle = new Item_full_bottle(3, "7","muscle_galaxy_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item dragon_magma_full_bottle = new Item_full_bottle(1, "7","dragon_magma_full_bottle",0).setCreativeTab(Tabs.tabbuild);
+	public static Item dragon_evol_bottle_gold = new Item_full_bottle(2, "7","dragon_evol_bottle_gold",0).setCreativeTab(Tabs.tabbuild);
+	public static Item muscle_galaxy_full_bottle = new Item_full_bottle(3, "7","muscle_galaxy_full_bottle",0).setCreativeTab(Tabs.tabbuild);
 	public static Item north_blizzard_full_bottle = new Item_ore("north_blizzard_full_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item prime_rogue_full_bottle = new Item_ore("prime_rogue_full_bottle").setCreativeTab(Tabs.tabbuild);
 			
-	public static Item evol_trigger = new Item_full_bottle(3, "6","evol_trigger").setCreativeTab(Tabs.tabbuild);
+	public static Item evol_trigger = new Item_full_bottle(3, "6","evol_trigger",0).setCreativeTab(Tabs.tabbuild);
 			
 	public static Item lost_bat_full_bottle = new Item_ore("lost_bat_full_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item lost_cobra_full_bottle = new Item_ore("lost_cobra_full_bottle").setCreativeTab(Tabs.tabbuild);
@@ -2397,6 +2397,9 @@ public class RiderItems {
 
 	//Zi-O
 
+
+	public static Item gaim_armor_wings = new Item_ore("gaim_armor_wings");
+	
 	public static Item zi_ohead = new item_zi_oarmor("zi_ohead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item zi_otroso = new item_zi_oarmor2("zi_otroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item zi_olegs = new item_zi_oarmor2("zi_olegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
