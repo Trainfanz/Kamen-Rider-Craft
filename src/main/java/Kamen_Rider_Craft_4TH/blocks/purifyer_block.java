@@ -44,6 +44,10 @@ public class purifyer_block extends machine_block  {
     	if (!worldIn.isRemote) {
     	    if (player.getHeldItem(hand).getItem() == RiderItems.smash_bottle) process(player, worldIn, pos, hand, getBottleDrop());
     	    else if (player.getHeldItem(hand).getItem() == RiderItems.ex_aid_full_bottle) process(player, worldIn, pos, hand, RiderItems.doctor_full_bottle, RiderItems.game_full_bottle);
+    	    else if (player.getHeldItem(hand).getItem() == RiderItems.ghost_full_bottle) process(player, worldIn, pos, hand, RiderItems.parka_full_bottle);
+    	    else if (player.getHeldItem(hand).getItem() == RiderItems.gaim_full_bottle) process(player, worldIn, pos, hand, RiderItems.orange_full_bottle);
+    	    else if (player.getHeldItem(hand).getItem() == RiderItems.wizard_full_bottle) process(player, worldIn, pos, hand, RiderItems.mahoutskai_full_bottle);
+    	    else if (player.getHeldItem(hand).getItem() == RiderItems.fourze_full_bottle) process(player, worldIn, pos, hand, RiderItems.yujou_full_bottle);
 
     	    return true;
 	    }
