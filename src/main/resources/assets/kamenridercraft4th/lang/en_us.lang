@@ -99,6 +99,10 @@ tile.purifyer.name=Full Bottle Purifier
 tile.solidifyer.name=Full Bottle Solidifier
 
 tile.monitor.name=Computer Monitor
+tile.pandorabox.name=Pandora Box
+tile.mighty_block.name=Mighty Action X Block
+tile.wallplate.name=Metal Wall Plate
+tile.fangire_glass.name=Fangire Glass
 
 item.energy.name=Energy Shot
 
