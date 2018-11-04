@@ -684,6 +684,8 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":magma_knuckle"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.magma_knuckle,1), "ama","aba","aaa", 'a', RiderItems.full_bottle, 'b', Items.DIAMOND_SWORD, 'm',  RiderItems.dragon_magma_full_bottle);		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":blizzard_knuckle"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.blizzard_knuckle,1), "ama","aba","aaa", 'a', RiderItems.full_bottle, 'b', Items.DIAMOND_SWORD, 'm',  RiderItems.north_blizzard_full_bottle);		
 
+		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":purifyer"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.purifyer,1), "aaa","aba","aaa", 'a', Items.IRON_INGOT, 'b', RiderItems.nebula_gas_sample);		
+		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":zi_ohead"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.zi_ohead,1), "aaa","a a", 'a', RiderItems.blank_watch);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":zi_otroso"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.zi_otroso,1), "a a","aaa","aaa", 'a', RiderItems.blank_watch);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":zi_olegs"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.zi_olegs,1), "aaa","a a","a a", 'a', RiderItems.blank_watch);

@@ -1404,11 +1404,13 @@ public class ore_block extends Block implements IHasModel
 				return RiderItems.deno_ridewatch;
 			}else if (rand<100){
 				return RiderItems.kiva_ridewatch;
-			}else if (rand<103){
+			}else if (rand<105){
+				return RiderItems.gaim_ridewatch;
+			}else if (rand<108){
 				return RiderItems.genm_ridewatch;
-			}else if (rand<106){
+			}else if (rand<111){
 				return RiderItems.cross_z_ridewatch;
-			}else if (rand<109){
+			}else if (rand<114){
 				return RiderItems.beast_ridewatch;
 				
 			

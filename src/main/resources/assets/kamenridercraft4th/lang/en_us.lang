@@ -1773,6 +1773,8 @@ item.lost_spanner_full_bottle.name=Lost Spanner Full Bottle
 item.lost_hasami_full_bottle.name=Lost Hasami Full Bottle
 item.lost_cd_full_bottle.name=Lost Bat CD Bottle
 
+item.nebula_gas_sample.name=Nebula Gas Sample
+
 item.dragon_magma_full_bottle.name=Dragon Magma Full Bottle
 
 item.evol_trigger.name=Evol Trigger
