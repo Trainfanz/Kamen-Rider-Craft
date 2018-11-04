@@ -95,8 +95,8 @@ tile.bladecard_hellrock.name=Rouze Card Ore
 tile.evolt_block.name=Evolt Block
 tile.another_build_block.name=Another Build Block
 
-tile.purifyer.name=Full Bottle Purifyer
-tile.solidifyer.name=Full Bottle Solidifyer
+tile.purifyer.name=Full Bottle Purifier
+tile.solidifyer.name=Full Bottle Solidifier
 
 tile.monitor.name=Computer Monitor
 
@@ -615,6 +615,9 @@ item.super1card.name=KamenRide Super-1
 item.zxcard.name=KamenRide ZX
 item.blackcard.name=KamenRide Black
 item.blackrxcard.name=KamenRide Black RX
+item.zocard.name=KamenRide ZO
+item.jcard.name=KamenRide J
+item.shincard.name=KamenRide Shin
 
 item.g4card.name=KamenRide G4
 item.ryugacard.name=KamenRide Ryuga
@@ -1404,6 +1407,14 @@ item.agito_lockseed.name=Agito Lockseed
 item.kuuga_lockseed.name=Kuuga Lockseed
 item.gaim_lockseed.name=Gaim Lockseed
 
+item.hero_lockseed.name=Hero Lockseed
+item.yummy_lockseed.name=Yummy Lockseed
+item.hsiao_lung_pao_lockseed.name=Hsiao Lung Pao Lockseed
+item.tom_yum_kung_lockseed.name=Tom Yum Kung Lockseed
+item.heisei_rider_lockseed.name=Heisei 15 Rider Lockseed
+item.showa_rider_lockseed.name=Showa 15 Rider Lockseed
+item.gaim_lockseed_movie_special.name=Gaim Lockseed (Special)
+
   
 item.lupin_belt.name=Lupin Belt
 
@@ -1771,13 +1782,20 @@ item.lost_hammer_full_bottle.name=Lost Hammer Full Bottle
 item.lost_shimauma_full_bottle.name=Lost Shimauma Full Bottle
 item.lost_spanner_full_bottle.name=Lost Spanner Full Bottle
 item.lost_hasami_full_bottle.name=Lost Hasami Full Bottle
-item.lost_cd_full_bottle.name=Lost Bat CD Bottle
+item.lost_cd_full_bottle.name=Lost CD Bottle
 
 item.nebula_gas_sample.name=Nebula Gas Sample
 
 item.dragon_magma_full_bottle.name=Dragon Magma Full Bottle
 
 item.evol_trigger.name=Evol Trigger
+
+item.ex_aid_full_bottle.name=Ex-Aid Full Bottle
+item.ghost_full_bottle.name=Ghost Full Bottle
+item.drive_full_bottle.name=Drive Full Bottle
+item.gaim_full_bottle.name=Gaim Full Bottle
+item.wizard_full_bottle.name=Wizard Full Bottle
+item.fourze_full_bottle.name=Fourze Full Bottle
 
 item.zi_ohead.name=Zi-O Helmet
 item.zi_otroso.name=Zi-O Chestplate

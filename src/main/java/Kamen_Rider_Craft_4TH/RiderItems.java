@@ -2277,6 +2277,11 @@ public class RiderItems {
 	public static Item low_rabbit_full_bottle = new Item_ore("low_rabbit_full_bottle").setCreativeTab(Tabs.tabbuild);
 			
 	public static Item ex_aid_full_bottle = new Item_ore("ex_aid_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item ghost_full_bottle = new Item_ore("ghost_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item drive_full_bottle = new Item_ore("drive_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item gaim_full_bottle = new Item_ore("gaim_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item wizard_full_bottle = new Item_ore("wizard_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item fourze_full_bottle = new Item_ore("fourze_full_bottle").setCreativeTab(Tabs.tabbuild);
 
 	public static Item dragon_sclashjelly = new Item_ore("dragon_sclashjelly").setCreativeTab(Tabs.tabbuild);
 	public static Item robot_sclashjelly = new Item_ore("robot_sclashjelly").setCreativeTab(Tabs.tabbuild);
