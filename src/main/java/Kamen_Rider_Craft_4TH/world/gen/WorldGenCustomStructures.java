@@ -44,7 +44,7 @@ public class WorldGenCustomStructures implements IWorldGenerator
 	
 	private void generateStructure(WorldGenerator generator, World world, Random random, int chunkX, int chunkZ, int chance, Block topBlock, Class<?>... classes)
 	{
-		ArrayList<Class<?>> classesList = new ArrayList<Class<?>>(Arrays.asList(classes));
+		//ArrayList<Class<?>> classesList = new ArrayList<Class<?>>(Arrays.asList(classes));
 			
 		int x = (chunkX * 16);
 		int z = (chunkZ * 16);
@@ -55,13 +55,13 @@ public class WorldGenCustomStructures implements IWorldGenerator
 		
 		if(world.getWorldType() != WorldType.FLAT)
 		{
-			if(classesList.contains(biome))
-			{
+			//if(classesList.contains(biome))
+			//{
 				if(random.nextInt(chance) == 0)
 				{
 					generator.generate(world, random, pos);
 				}
-			}
+			//}
 		}
 	}
 		
