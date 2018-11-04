@@ -28,6 +28,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
+import net.minecraft.util.EnumHand;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
@@ -100,9 +101,14 @@ public class item_builddriver extends ItemArmor implements IHasModel
 						armorModel.belt2=new ItemStack(build_inorganic[item_OOOdriver.get_core(stack,"1")]);						
 						armorModel.belt4=new ItemStack(build_organic[item_OOOdriver.get_core(stack,"3")]);
 					}
-				}
-
-				if(stack.getItem() == RiderItems.transteamgun_2)
+				}else if(stack.getItem() == RiderItems.sclash_driver_cross_z_charge)
+				{
+						if (living.getHeldItem(EnumHand.OFF_HAND).getItem()==RiderItems.taka_full_bottle){
+							armorModel.wings=new ItemStack(RiderItems.hawk_gatling_wings);
+						}else{
+							armorModel.wings=new ItemStack(RiderItems.blanknoitem);
+						}
+				} if(stack.getItem() == RiderItems.transteamgun_2)
 				{
 
 					if(living.isSneaking()){
@@ -112,15 +118,12 @@ public class item_builddriver extends ItemArmor implements IHasModel
 							armorModel.wings=new ItemStack(RiderItems.blanknoitem);
 						}
 					}
-				}
-
-				if(stack.getItem() == RiderItems.evol_driver_mad_rogue)
+				}else if(stack.getItem() == RiderItems.evol_driver_mad_rogue)
 				{			if(living.isSneaking()){			
 					armorModel.wings=new ItemStack(RiderItems.mad_rogue_wings);		
 				}			
 				}
-
-
+				
 				if(stack.getItem() == RiderItems.evol_driver_evol)
 				{
 					armorModel.belt2=new ItemStack(evol_form[item_OOOdriver.get_core(stack,"1")]);						
@@ -644,6 +647,16 @@ public class item_builddriver extends ItemArmor implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
 									}
 									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.sclash_driver_cross_z_charge){
+										if (player.getHeldItem(EnumHand.OFF_HAND).getItem()==RiderItems.taka_full_bottle){
+											if (player.isSneaking()){
+												player.fallDistance=0; 
+												Vec3d look = player.getLookVec();
+												player.motionX=look.x/2;
+												player.motionY=look.y/2;
+												player.motionZ=look.z/2;
+
+											}	
+										}
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));	
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
