@@ -283,6 +283,10 @@ public class RiderItems {
 	public static Block purifyer = new purifyer_block("purifyer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
 	public static Block solidifyer = new solidifyer_block("solidifyer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
 	
+	public static Block mighty_block = CustomBlock.builder().material(Material.IRON).hardness(9.9F).harvestLevel("pickaxe", 2).isDirectional(false).name("mighty_block").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block fangire_glass = CustomBlock.builder().material(Material.IRON).hardness(9.9F).lightOpacity(1).harvestLevel("pickaxe", 2).isDirectional(false).name("fangire_glass").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block wallplate = CustomBlock.builder().material(Material.IRON).hardness(9.9F).harvestLevel("pickaxe", 2).isDirectional(false).name("wallplate").setCreativeTabe(Tabs.tabdecor).build();
+	
 	//boss blocks
 	
 	public static Block evolt_block = new mob_block("evolt_block",Material.ROCK, "evolt", 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);

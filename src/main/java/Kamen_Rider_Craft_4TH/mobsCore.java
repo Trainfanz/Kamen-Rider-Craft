@@ -18,6 +18,7 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMasquerade;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityNebulaBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_hard_guardian;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_needle_smash;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entitygamma_commando;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityguardian;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityguardian_hokuto;
@@ -79,7 +80,6 @@ public class mobsCore {
 		
 		EntityRegistry.registerModEntity(new ResourceLocation("HardGuardianMob"),Entity_hard_guardian.class, "HardGuardianMob", 511, TokuCraft_core.instance, 80, 3, false, 0x195734,0xEACA00);
 		
-		
 		EntityRegistry.registerModEntity(new ResourceLocation("Model_lazer_bike"),EntityLazer.class, "LazerMob", 514, TokuCraft_core.instance, 80, 3, false, 0xFDE800,0xEE3F87);
 		EntityRegistry.registerModEntity(new ResourceLocation("Model_exaid_bike"),EntityExaidBike.class, "exaidBikeMob", 515, TokuCraft_core.instance, 80, 3, false, 0xFDE800,0xEE3F87);
 		EntityRegistry.registerModEntity(new ResourceLocation("Model_machine_builder"),EntityMachineBuilder.class, "machine_builder", 516, TokuCraft_core.instance, 80, 3, false, 0xDD0202,0xD7CF00);
@@ -95,5 +95,7 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new ResourceLocation("EngineBrosMob"),Entity_EngineBros.class, "EngineBrosMob", 523, TokuCraft_core.instance, 80, 3, false, 0x161616,0xDFDFDF);
 		EntityRegistry.registerModEntity(new ResourceLocation("HellBrosMob"),Entity_HellBros.class, "HellBrosMob", 524, TokuCraft_core.instance, 80, 3, false, 0x161616,0xDFDFDF);
 	
+		EntityRegistry.registerModEntity(new ResourceLocation("NeedleSmashMob"),Entity_needle_smash.class, "NeedleSmashMob", 525, TokuCraft_core.instance, 80, 3, false, 0x195734,0xEACA00);
+		
 	}
 }

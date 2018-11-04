@@ -23,6 +23,7 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMasquerade;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityNebulaBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_hard_guardian;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_needle_smash;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entitygamma_commando;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityguardian;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityguardian_hokuto;
@@ -86,6 +87,7 @@ public class ClientProxyRider extends CommonProxyRider
 		
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_hard_guardian.class, new RenderRiderMob2( new ModelBiped(), 0.4F,"textures/entities/hard_guardian.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_needle_smash.class, new RenderRiderMob2( new ModelBiped(), 0.4F,"textures/entities/needle_smash.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entityguardian_hokuto.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/guardian_hokuto.png"));
 		
