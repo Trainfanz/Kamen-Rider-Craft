@@ -62,17 +62,7 @@ public class Entityguardian_seito extends Entity_base_henchmen
 				this.dropItem(RiderItems.jet_full_bottle, 1); 
 				break;
 			case 4:
-				this.dropItem(RiderItems.same_full_bottle, 1);
-				break;
-			case 5:
-				this.dropItem(RiderItems.bike_full_bottle, 1);
-				break;
-			case 6:
-				this.dropItem(RiderItems.sai_full_bottle, 1);
-				break;
-
-			case 7:
-				this.dropItem(RiderItems.dryer_full_bottle, 1);
+				this.dropItem(RiderItems.nebula_gas_sample, 1); 
 				break;
 			}
 		}

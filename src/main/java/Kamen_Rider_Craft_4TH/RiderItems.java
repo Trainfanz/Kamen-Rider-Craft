@@ -1216,6 +1216,7 @@ public class RiderItems {
 	public static Item mukade = new Itemmedal(12, "1","mukade").setCreativeTab(Tabs.tabOOO);
 	public static Item ebi_new = new Itemmedal(13, "1","ebi_new").setCreativeTab(Tabs.tabOOO);
 	public static Item habataki = new Itemmedal(14, "1","habataki").setCreativeTab(Tabs.tabOOO);
+	public static Item taka_ankh = new Itemmedal(15, "1","taka_ankh").setCreativeTab(Tabs.tabOOO);
 
 	public static Item tora = new Itemmedal(0, "2","tora").setCreativeTab(Tabs.tabOOO);
 	public static Item kamakiri = new Itemmedal(1, "2","kamakiri").setCreativeTab(Tabs.tabOOO);

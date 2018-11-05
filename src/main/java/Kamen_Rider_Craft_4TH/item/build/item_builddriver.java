@@ -107,7 +107,7 @@ public class item_builddriver extends ItemArmor implements IHasModel
 				        armorModel.wings=new ItemStack(RiderItems.blanknoitem);
 				    }
 				} if(stack.getItem() == RiderItems.transteamgun_2) {
-					if(living instanceof EntityPlayer && ((EntityPlayer) living).capabilities.isFlying){
+					if(living.isSneaking() || (living instanceof EntityPlayer && (((EntityPlayer) living).capabilities.isFlying))){
 					    if (item_OOOdriver.get_core(stack,"1")==0) {
 							armorModel.wings=new ItemStack(RiderItems.night_rogue_wings);
 						} else {
@@ -115,7 +115,7 @@ public class item_builddriver extends ItemArmor implements IHasModel
 						}
 					}
 				} else if(stack.getItem() == RiderItems.evol_driver_mad_rogue) {
-				    if(living instanceof EntityPlayer && ((EntityPlayer) living).capabilities.isFlying) {
+					if(living.isSneaking() || (living instanceof EntityPlayer && (((EntityPlayer) living).capabilities.isFlying))){
 				        armorModel.wings=new ItemStack(RiderItems.mad_rogue_wings);
     				}
 				}

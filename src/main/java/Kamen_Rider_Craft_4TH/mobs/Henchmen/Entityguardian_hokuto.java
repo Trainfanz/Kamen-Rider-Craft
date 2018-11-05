@@ -62,18 +62,8 @@ public class Entityguardian_hokuto extends EntityZombie
 				this.dropItem(RiderItems.smartphone_full_bottle, 1); 
 				break;
 			case 4:
-				this.dropItem(RiderItems.kuma_full_bottle, 1);
+				this.dropItem(RiderItems.nebula_gas_sample, 1); 
 				break;
-			case 5:
-				this.dropItem(RiderItems.televi_full_bottle, 1);
-				break;
-			case 6:
-				this.dropItem(RiderItems.rose_full_bottle, 1);
-				break;
-
-			case 7:
-				this.dropItem(RiderItems.helicopter_full_bottle, 1);
-				break; 
 			}
 		}
 	}

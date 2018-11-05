@@ -60,17 +60,7 @@ public class Entityguardian extends Entity_base_henchmen
 				this.dropItem(RiderItems.diamond_full_bottle, 1); 
 				break;
 			case 4:
-				this.dropItem(RiderItems.ninjya_full_bottle, 1);
-				break;
-			case 5:
-				this.dropItem(RiderItems.comic_full_bottle, 1);
-				break;
-			case 6:
-				this.dropItem(RiderItems.taka_full_bottle, 1);
-				break;
-
-			case 7:
-				this.dropItem(RiderItems.gatling_full_bottle, 1);
+				this.dropItem(RiderItems.nebula_gas_sample, 1);
 				break;
 			}
 		}
