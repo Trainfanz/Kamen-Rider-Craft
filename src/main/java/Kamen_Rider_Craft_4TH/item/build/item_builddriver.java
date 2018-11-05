@@ -71,12 +71,9 @@ public class item_builddriver extends ItemArmor implements IHasModel
 	@Override
 	@SideOnly(Side.CLIENT)
 	@Nullable
-	public ModelBiped getArmorModel(EntityLivingBase living, ItemStack stack, EntityEquipmentSlot slot, ModelBiped defaultModel)
-	{
-		if(!stack.isEmpty())
-		{
-			if(stack.getItem() instanceof ItemArmor)
-			{			
+	public ModelBiped getArmorModel(EntityLivingBase living, ItemStack stack, EntityEquipmentSlot slot, ModelBiped defaultModel) {
+		if(!stack.isEmpty()) {
+			if(stack.getItem() instanceof ItemArmor) {
 				model_belt_plus armorModel = new model_belt_plus();
 
 				Item[] build_inorganic= new Item[] {RiderItems.build_driver_tank,RiderItems.build_driver_diamond,RiderItems.build_driver_gatling,RiderItems.build_driver_soujiki,RiderItems.build_driver_comic,RiderItems.build_driver_rocket,RiderItems.build_driver_shoubousha,RiderItems.build_driver_lock,RiderItems.build_driver_cake,RiderItems.build_driver_medal,RiderItems.build_driver_game,RiderItems.build_driver_mic,RiderItems.build_driver_usb_memory,RiderItems.build_driver_densha,RiderItems.build_driver_light,RiderItems.build_driver_robo,RiderItems.build_driver_televi,RiderItems.build_driver_parka,RiderItems.build_driver_smartphone,RiderItems.build_driver_camera,RiderItems.build_driver_helicopter,RiderItems.build_driver_ufo,RiderItems.build_driver_jet,RiderItems.build_driver_cyclone,RiderItems.build_driver_eraser,RiderItems.build_driver_watch,RiderItems.build_driver_pyramid,RiderItems.build_driver_skateboard,RiderItems.build_driver_fridge,RiderItems.build_driver_dragon_silver,RiderItems.build_driver_shoubousha,RiderItems.build_driver_shoubousha,RiderItems.build_driver_smartphone,RiderItems.build_driver_jet,RiderItems.build_driver_shoubousha,RiderItems.build_driver_gold};
@@ -89,55 +86,51 @@ public class item_builddriver extends ItemArmor implements IHasModel
 
 				if(stack.getItem() == RiderItems.build_driver)
 				{
-					if (item_OOOdriver.get_core(stack,"1")==2&item_OOOdriver.get_core(stack,"3")==2){
+					if (item_OOOdriver.get_core(stack,"1")==2&item_OOOdriver.get_core(stack,"3")==2) {
 						armorModel.wings=new ItemStack(RiderItems.hawk_gatling_wings);
-					}else if (item_OOOdriver.get_core(stack,"1")==15&item_OOOdriver.get_core(stack,"3")==16){
+					} else if (item_OOOdriver.get_core(stack,"1")==15&item_OOOdriver.get_core(stack,"3")==16) {
 						armorModel.wings=new ItemStack(RiderItems.phoenix_robo_wings);				
-					}else{
+					} else {
 						armorModel.wings=new ItemStack(RiderItems.blanknoitem);
 					}
+
 					armorModel.belt3=new ItemStack(build_form[item_OOOdriver.get_core(stack,"2")]);
+
 					if (item_OOOdriver.get_core(stack,"2")!=1&item_OOOdriver.get_core(stack,"2")!=3&item_OOOdriver.get_core(stack,"2")!=4&item_OOOdriver.get_core(stack,"2")!=5&item_OOOdriver.get_core(stack,"2")!=6){
 						armorModel.belt2=new ItemStack(build_inorganic[item_OOOdriver.get_core(stack,"1")]);						
 						armorModel.belt4=new ItemStack(build_organic[item_OOOdriver.get_core(stack,"3")]);
 					}
-				}else if(stack.getItem() == RiderItems.sclash_driver_cross_z_charge)
-				{
-						if (living.getHeldItem(EnumHand.OFF_HAND).getItem()==RiderItems.taka_full_bottle){
-							armorModel.wings=new ItemStack(RiderItems.hawk_gatling_wings);
-						}else{
-							armorModel.wings=new ItemStack(RiderItems.blanknoitem);
-						}
-				} if(stack.getItem() == RiderItems.transteamgun_2)
-				{
-
-					if(living.isSneaking()){
-						if (item_OOOdriver.get_core(stack,"1")==0){
+				} else if(stack.getItem() == RiderItems.sclash_driver_cross_z_charge) {
+				    if (living.getHeldItem(EnumHand.OFF_HAND).getItem()==RiderItems.taka_full_bottle){
+				        armorModel.wings=new ItemStack(RiderItems.hawk_gatling_wings);
+				    } else {
+				        armorModel.wings=new ItemStack(RiderItems.blanknoitem);
+				    }
+				} if(stack.getItem() == RiderItems.transteamgun_2) {
+					if(living instanceof EntityPlayer && ((EntityPlayer) living).capabilities.isFlying){
+					    if (item_OOOdriver.get_core(stack,"1")==0) {
 							armorModel.wings=new ItemStack(RiderItems.night_rogue_wings);
-						}else{
+						} else {
 							armorModel.wings=new ItemStack(RiderItems.blanknoitem);
 						}
 					}
-				}else if(stack.getItem() == RiderItems.evol_driver_mad_rogue)
-				{			if(living.isSneaking()){			
-					armorModel.wings=new ItemStack(RiderItems.mad_rogue_wings);		
-				}			
+				} else if(stack.getItem() == RiderItems.evol_driver_mad_rogue) {
+				    if(living instanceof EntityPlayer && ((EntityPlayer) living).capabilities.isFlying) {
+				        armorModel.wings=new ItemStack(RiderItems.mad_rogue_wings);
+    				}
 				}
 				
-				if(stack.getItem() == RiderItems.evol_driver_evol)
-				{
+				if(stack.getItem() == RiderItems.evol_driver_evol) {
 					armorModel.belt2=new ItemStack(evol_form[item_OOOdriver.get_core(stack,"1")]);						
 				}
 
-				if(stack.getItem() == RiderItems.build_driver_cross_z)
-				{
+				if(stack.getItem() == RiderItems.build_driver_cross_z) {
 					armorModel.belt2=new ItemStack(cross_form[item_OOOdriver.get_core(stack,"1")]);						
 				}
 
 				if (stack.getItem()!= RiderItems.nebulasteamgun_2 & stack.getItem()!= RiderItems.transteamgun_2){
 					armorModel.belt=stack;
-				}else
-				{
+				} else {
 					armorModel.belt=new ItemStack( RiderItems.blanknoitem);
 				}
 

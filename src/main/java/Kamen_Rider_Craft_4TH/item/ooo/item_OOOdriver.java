@@ -148,8 +148,8 @@ public class item_OOOdriver extends ItemArmor implements IHasModel
 
 				if(stack.getItem() == RiderItems.OOOdriver)
 				{	
-					if(living.isSneaking()){
-						if (item_OOOdriver.get_core(stack,"1")==0&item_OOOdriver.get_core(stack,"2")==3&item_OOOdriver.get_core(stack,"3")==3){
+					if(living instanceof EntityPlayer && ((EntityPlayer) living).capabilities.isFlying){
+						if (item_OOOdriver.get_core(stack,"1") == 0&item_OOOdriver.get_core(stack,"2") == 3&item_OOOdriver.get_core(stack,"3")==3){
 							armorModel.wings=new ItemStack(RiderItems.tajador_wings);
 						}else{
 							armorModel.wings=new ItemStack(RiderItems.blanknoitem);
