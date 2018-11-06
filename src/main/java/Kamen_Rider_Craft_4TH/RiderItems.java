@@ -2488,6 +2488,8 @@ public class RiderItems {
 	// public static Item ziku_driver_kuuga = new Item_ore("ziku_driver_kuuga");
             
 	public static Item ziku_driver_genm = new Item_ore("ziku_driver_genm");
+	
+	public static Item oma_zi_o_cape = new Item_ore("oma_zi_o_cape");
             
 	public static Item amazonshead = new item_amazonsarmor("amazonshead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);
 	public static Item amazonstroso = new item_amazonsarmor2("amazonstroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);
