@@ -35,7 +35,7 @@ import net.minecraft.util.DamageSource;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 
-public class Entityguardian_hokuto extends EntityZombie
+public class Entityguardian_hokuto extends Entity_base_henchmen
 {
 	private String texture;
 	public Entityguardian_hokuto(World par1World)

@@ -5,6 +5,9 @@ import java.util.Calendar;
 import java.util.UUID;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.mobs.Boss.EntityBossBase;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_BloodStalk;
+import Kamen_Rider_Craft_4TH.mobs.bikes.EntityMachineBuilder;
 import net.minecraft.block.Block;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
@@ -33,6 +36,8 @@ import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.text.TextComponentString;
+import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
 
 public class Entityguardian extends Entity_base_henchmen
@@ -45,7 +50,44 @@ public class Entityguardian extends Entity_base_henchmen
 	{
 		if (!this.world.isRemote){
 			this.dropItem(RiderItems.full_bottle, 2);
+			if (this.getAttackTarget()instanceof EntityPlayer){
+				 EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
+				 Entity_base_henchmen entitymob  = new Entity_needle_smash(world);
+				 EntityBossBase entityboss  = new Entity_BloodStalk(world);
 			switch (this.rand.nextInt(25))
+			{
+			case 0:
+				playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Cobra! Mistmatch! Co-Cobra... Cobra... Fire!"));
+				entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				world.spawnEntity(entityboss);
+				break;
+			case 1:
+				entitymob.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				world.spawnEntity(entitymob);
+				break;
+			case 2:
+				entitymob.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				world.spawnEntity(entitymob);
+				break;
+			case 3:
+				entitymob.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				world.spawnEntity(entitymob);
+				break;
+			case 4:
+				entitymob.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				world.spawnEntity(entitymob);
+				break;
+			case 5:
+				entitymob.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				world.spawnEntity(entitymob);
+				break;
+			case 6:
+				entitymob.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				world.spawnEntity(entitymob);
+				break;
+			}
+		}
+			switch (this.rand.nextInt(20))
 			{
 			case 0:
 				this.dropItem(RiderItems.rabbit_full_bottle, 1);
