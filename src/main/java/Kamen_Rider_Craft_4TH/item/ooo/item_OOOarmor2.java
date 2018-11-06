@@ -58,7 +58,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 						
 
-							if ( slot == EntityEquipmentSlot.HEAD & item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"2")==3& item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"3")==3)
+							if ( slot == EntityEquipmentSlot.HEAD & item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")==0&& item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"2")==3& item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"3")==3)
 							{
 								return Refercence.MODID+":textures/armor/"+"ooo_"+ "super_taka"+".png";
 							}else if ( slot == EntityEquipmentSlot.HEAD)

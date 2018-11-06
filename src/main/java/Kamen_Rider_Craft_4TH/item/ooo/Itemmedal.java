@@ -33,9 +33,9 @@ public class Itemmedal extends Item  implements IHasModel
 		this.setMaxDamage(0);
 		num=NUM;
 		num2=NUM2;
-        setUnlocalizedName(name);
-        setRegistryName(name);
-        TokuCraft_core.ITEMS.add(this);
+		setUnlocalizedName(name);
+		setRegistryName(name);
+		TokuCraft_core.ITEMS.add(this);
 	}
 	@Override
 	public void registerModels() {
@@ -43,27 +43,18 @@ public class Itemmedal extends Item  implements IHasModel
 	}
 
 	@Override
-	 public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer player, EnumHand handIn)
-    {
-	
+	public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer player, EnumHand handIn)
+	{
 		if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
-if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.OOOdriver){
-			
+			if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.OOOdriver){
+
+				if (this==RiderItems.taka_ankh){
+					item_OOOdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), num, num2);
+				}else{
 				item_OOOdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), num, num2);
-				
-				if (num2 != "1"){
-					item_OOOdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1"), "1");
-				}
-
-				if (num2 != "2"){
-					item_OOOdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "2"), "2");
-				}
-
-				if (num2 != "3"){
-					item_OOOdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "3"), "3");
 				}
 			}
-			}
+		}
 		player.setActiveHand(handIn);
 		return new ActionResult<ItemStack>(EnumActionResult.SUCCESS, player.getHeldItem(handIn));
 	}
