@@ -19,6 +19,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_RemoconBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_another_build;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_bikaiser;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_grease;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMasquerade;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityNebulaBugsterVirus;
@@ -84,6 +85,7 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entity_RemoconBros.class, new RenderRiderMob2(new tokuMobModel("remocon_bros_2"), 0.5F,"textures/entities/remocon_bros_1.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_EngineBros.class, new RenderRiderMob2(new tokuMobModel("engine_bros_2"), 0.5F,"textures/entities/engine_bros_1.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_HellBros.class, new RenderRiderMob2(new tokuMobModel("hell_bros_2"), 0.5F,"textures/entities/hell_bros_1.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_grease.class, new RenderRiderMob2(new MobWithBeltModel(RiderItems.sclash_driver_grease,"grease_2"), 0.5F,"textures/entities/grease_1.png"));
 		
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_hard_guardian.class, new RenderRiderMob2( new ModelBiped(), 0.4F,"textures/entities/hard_guardian.png"));

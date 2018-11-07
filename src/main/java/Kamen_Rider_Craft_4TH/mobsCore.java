@@ -14,6 +14,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_RemoconBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_another_build;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_bikaiser;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_grease;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMasquerade;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityNebulaBugsterVirus;
@@ -82,7 +83,7 @@ public class mobsCore {
 		
 		EntityRegistry.registerModEntity(new ResourceLocation("Model_lazer_bike"),EntityLazer.class, "LazerMob", 514, TokuCraft_core.instance, 80, 3, false, 0xFDE800,0xEE3F87);
 		EntityRegistry.registerModEntity(new ResourceLocation("Model_exaid_bike"),EntityExaidBike.class, "exaidBikeMob", 515, TokuCraft_core.instance, 80, 3, false, 0xFDE800,0xEE3F87);
-		EntityRegistry.registerModEntity(new ResourceLocation("Model_machine_builder"),EntityMachineBuilder.class, "machine_builder", 516, TokuCraft_core.instance, 80, 3, false, 0xDD0202,0xD7CF00);
+		EntityRegistry.registerModEntity(new ResourceLocation("Model_machine_builder"),EntityMachineBuilder.class, "machine_builder", 516, TokuCraft_core.instance, 80, 3, false,0xD7CF00,0xDD0202);
 		
 		EntityRegistry.registerModEntity(new ResourceLocation("NightRogueMob"),Entity_NightRogue.class, "NightRogueMob", 517, TokuCraft_core.instance, 80, 3, false, 0x131313,0xDDC862);
 		EntityRegistry.registerModEntity(new ResourceLocation("BloodStalkMob"),Entity_BloodStalk.class, "BloodStalkMob", 518, TokuCraft_core.instance, 80, 3, false, 0x7F100F,0x50C5CA);
@@ -96,6 +97,7 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new ResourceLocation("HellBrosMob"),Entity_HellBros.class, "HellBrosMob", 524, TokuCraft_core.instance, 80, 3, false, 0x161616,0xDFDFDF);
 	
 		EntityRegistry.registerModEntity(new ResourceLocation("NeedleSmashMob"),Entity_needle_smash.class, "NeedleSmashMob", 525, TokuCraft_core.instance, 80, 3, false, 0x195734,0xEACA00);
+		EntityRegistry.registerModEntity(new ResourceLocation("greaseMob"),Entity_grease.class, "greaseMob", 526, TokuCraft_core.instance, 80, 3, false, 0xe8c439,0x604e46);
 		
 	}
 }
