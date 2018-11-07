@@ -1659,6 +1659,12 @@ item.build_phone.name=Build Phone
 item.full_bottle.name=Empty Bottle
 item.smash_bottle.name=Smash Bottle
 
+item.pandora_panel_green.name=Pandora Panel (Green)
+item.pandora_panel_red.name=Pandora Panel (Red)
+item.pandora_panel_blue.name=Pandora Panel (Blue)
+item.pandora_panel_black.name=Pandora Panel (Black)
+item.pandora_panel_white.name=Pandora Panel (White)
+
 item.rabbit_full_bottle.name=Rabbit Full Bottle
 item.gorilla_full_bottle.name=Gorilla Full Bottle
         
