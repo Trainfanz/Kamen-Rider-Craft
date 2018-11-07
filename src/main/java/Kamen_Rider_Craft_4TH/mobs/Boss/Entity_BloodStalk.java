@@ -98,7 +98,12 @@ if (!this.world.isRemote){
 
    		this.dropItem(RiderItems.smash_bottle, 4);
    		this.dropItem(RiderItems.cobra_full_bottle, 1);
-   		
+   		switch (this.rand.nextInt(25))
+		{
+		case 0:
+			this.dropItem(RiderItems.pandora_panel_green, 1);
+			break;
+		}
        }
    }
 }

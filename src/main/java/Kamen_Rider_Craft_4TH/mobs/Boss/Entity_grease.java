@@ -68,38 +68,42 @@ public class Entity_grease extends EntityBossBase
 	public Entity_grease(World par1World)
 	{
 		super(par1World);
-		
+
 	}
-	
-    protected void applyEntityAttributes()
-    {
-        super.applyEntityAttributes();
 
-        this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(10.0D);
-        this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(100.0D);
-        this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.4000000238418579D);
-        this.getEntityAttribute(SharedMonsterAttributes.FOLLOW_RANGE).setBaseValue(40.0D);
-        this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(3.0D);
-        
-    }
+	protected void applyEntityAttributes()
+	{
+		super.applyEntityAttributes();
 
-    @Override
-    public ItemStack getHeldItemMainhand()
-    {
-        return new ItemStack(RiderItems.twinbreaker_sword);
-    }
- 	protected boolean shouldBurnInDay()
-    {
-        return false;
-    }
-    public void onDeath(DamageSource cause)
-    {
-if (!this.world.isRemote){
+		this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(10.0D);
+		this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(100.0D);
+		this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.4000000238418579D);
+		this.getEntityAttribute(SharedMonsterAttributes.FOLLOW_RANGE).setBaseValue(40.0D);
+		this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(3.0D);
 
-   		this.dropItem(RiderItems.smash_bottle, 4);
-   		this.dropItem(RiderItems.sclashjelly, 1);
-   		
-       }
-   }
+	}
+
+	@Override
+	public ItemStack getHeldItemMainhand()
+	{
+		return new ItemStack(RiderItems.twinbreaker_sword);
+	}
+	protected boolean shouldBurnInDay()
+	{
+		return false;
+	}
+	public void onDeath(DamageSource cause)
+	{
+		if (!this.world.isRemote){
+
+			this.dropItem(RiderItems.smash_bottle, 4);
+			this.dropItem(RiderItems.sclashjelly, 1);
+			switch (this.rand.nextInt(25))
+			{
+			case 0:
+				this.dropItem(RiderItems.pandora_panel_blue, 1);
+				break;
+			}
+		}
+	}
 }
-    
