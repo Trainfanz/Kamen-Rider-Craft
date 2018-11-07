@@ -2155,7 +2155,12 @@ public class RiderItems {
 	public static Item full_bottle_buster = new Item_sword_gun("full_bottle_buster",Tabs.faiz_blaster,RiderItems.energy).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 	public static Item magma_knuckle = new ItemBaseSword("magma_knuckle",Tabs.dogga_hammer).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 	public static Item blizzard_knuckle = new ItemBaseSword("blizzard_knuckle",Tabs.dogga_hammer).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
-
+	
+	public static Item pandora_panel_green = new Item_ore("pandora_panel_green").setCreativeTab(Tabs.tabbuild);
+	public static Item pandora_panel_red = new Item_ore("pandora_panel_red").setCreativeTab(Tabs.tabbuild);
+	public static Item pandora_panel_blue = new Item_ore("pandora_panel_blue").setCreativeTab(Tabs.tabbuild);
+	public static Item pandora_panel_black = new Item_ore("pandora_panel_black").setCreativeTab(Tabs.tabbuild);
+	public static Item pandora_panel_white = new Item_ore("pandora_panel_white").setCreativeTab(Tabs.tabbuild);
 
 	public static Item buildhead = new item_buildarmor2("buildhead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 	public static Item buildtroso = new item_buildarmor("buildtroso",ArmorMaterial.DIAMOND, 4,EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
