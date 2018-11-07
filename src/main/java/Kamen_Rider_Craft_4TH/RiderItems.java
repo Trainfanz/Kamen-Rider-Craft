@@ -12,6 +12,7 @@ import Kamen_Rider_Craft_4TH.blocks.decor_block;
 import Kamen_Rider_Craft_4TH.blocks.glass_ore_block;
 import Kamen_Rider_Craft_4TH.blocks.mob_block;
 import Kamen_Rider_Craft_4TH.blocks.ore_block;
+import Kamen_Rider_Craft_4TH.blocks.pandora_box_block;
 import Kamen_Rider_Craft_4TH.blocks.purifyer_block;
 import Kamen_Rider_Craft_4TH.blocks.solidifyer_block;
 import Kamen_Rider_Craft_4TH.item.ItemBaseShield;
@@ -280,7 +281,7 @@ public class RiderItems {
 	//decor blocks
 	
 	public static Block monitor = CustomBlock.builder().material(Material.IRON).hardness(9.9F).lightLevel(0.1F).harvestLevel("pickaxe", 2).isDirectional(true).name("monitor").setCreativeTabe(Tabs.tabdecor).build();
-	public static Block pandorabox = CustomBlock.builder().material(Material.IRON).hardness(9.9F).lightLevel(0.1F).harvestLevel("pickaxe", 2).isDirectional(false).name("pandorabox").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block pandorabox = new pandora_box_block("pandorabox",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
 	public static Block purifyer = new purifyer_block("purifyer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
 	public static Block solidifyer = new solidifyer_block("solidifyer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
 	
@@ -2263,7 +2264,6 @@ public class RiderItems {
 	public static Item dryer_full_bottle = new Item_full_bottle(34, "1","dryer_full_bottle",2).setCreativeTab(Tabs.tabbuild);
 	public static Item gold_full_bottle = new Item_full_bottle(35, "1","gold_full_bottle",0).setCreativeTab(Tabs.tabbuild);
 
-
 	public static Item rabbittank_sparkling_full_bottle = new Item_full_bottle(1, "2","rabbittank_sparkling_full_bottle",0).setCreativeTab(Tabs.tabbuild);
 	public static Item hazard_trigger = new Item_full_bottle(2, "2","hazard_trigger",0).setCreativeTab(Tabs.tabbuild);
 	public static Item fullfull_bottle_rabbit = new Item_full_bottle(3, "2","fullfull_bottle_rabbit",0).setCreativeTab(Tabs.tabbuild);
@@ -2329,6 +2329,7 @@ public class RiderItems {
 	public static Item lost_hasami_full_bottle = new Item_ore("lost_hasami_full_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item lost_cd_full_bottle = new Item_ore("lost_cd_full_bottle").setCreativeTab(Tabs.tabbuild);
 	
+	public static Item Pandora_bottle = new Item_ore("pandora_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item nebula_gas_sample = new Item_ore("nebula_gas_sample").setCreativeTab(Tabs.tabbuild);
 			
 	public static Item build_driver_rabbit = new Item_ore("build_driver_rabbit");

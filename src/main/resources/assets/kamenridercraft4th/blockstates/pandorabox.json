@@ -1,5 +1,9 @@
 {
     "variants":{
-    "normal": {"model":"kamenridercraft4th:pandorabox"}
+     "facing=north": { "model": "kamenridercraft4th:pandorabox" },
+        "facing=south": { "model": "kamenridercraft4th:pandorabox", "y": 180 },
+        "facing=west":  { "model": "kamenridercraft4th:pandorabox", "y": 270 },
+        "facing=east":  { "model": "kamenridercraft4th:pandorabox", "y": 90 }
+ 
   }
  }

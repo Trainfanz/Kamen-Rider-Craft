@@ -12,6 +12,7 @@ import com.google.common.base.Predicates;
 import com.google.common.collect.Sets;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.util.Refercence;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -98,10 +99,8 @@ if (!this.world.isRemote){
 
    		this.dropItem(RiderItems.smash_bottle, 4);
    		this.dropItem(RiderItems.bat_full_bottle, 1);
-   		
+   		this.entityDropItem(new ItemStack(RiderItems.pandorabox, 1), 1f);
        }
    }
-
-
 }
     
