@@ -97,7 +97,7 @@ public class Entity_KaiserReverse extends EntityBossBase
 if (!this.world.isRemote){
 
    		this.dropItem(RiderItems.smash_bottle, 4);
-   		this.dropItem(RiderItems.gear_red, 1);
+   		this.dropItem(RiderItems.gear_blue, 1);
    		
        }
    }

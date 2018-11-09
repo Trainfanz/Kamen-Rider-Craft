@@ -87,7 +87,7 @@ public class EntityNebulaBugsterVirus extends Entity_base_henchmen
 					break;
 				case 1:
 					entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
-					world.spawnEntity(entityboss);
+					world.spawnEntity(entityboss2);
 					break;
 				}
 			switch (this.rand.nextInt(25))

@@ -66,7 +66,7 @@ public class Entityguardian_seito extends Entity_base_henchmen
 				case 1:
 					playerIn.sendMessage( new TextComponentString(TextFormatting.WHITE+"Gear Engine! Funky! Engine Running Gear!"));
 					entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
-					world.spawnEntity(entityboss);
+					world.spawnEntity(entityboss2);
 					break;
 				case 2:
 					entitymob.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
