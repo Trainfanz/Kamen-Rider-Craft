@@ -98,7 +98,7 @@ if (!this.world.isRemote){
 
    		this.dropItem(RiderItems.smash_bottle, 4);
    		this.dropItem(RiderItems.gear_engine, 1);
-   		switch (this.rand.nextInt(25))
+   		switch (this.rand.nextInt(5))
 		{
 		case 0:
 			this.dropItem(RiderItems.pandora_panel_red, 1);

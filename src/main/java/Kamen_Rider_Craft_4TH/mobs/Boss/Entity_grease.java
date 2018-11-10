@@ -98,7 +98,7 @@ public class Entity_grease extends EntityBossBase
 
 			this.dropItem(RiderItems.smash_bottle, 4);
 			this.dropItem(RiderItems.sclashjelly, 1);
-			switch (this.rand.nextInt(25))
+			switch (this.rand.nextInt(5))
 			{
 			case 0:
 				this.dropItem(RiderItems.pandora_panel_blue, 1);

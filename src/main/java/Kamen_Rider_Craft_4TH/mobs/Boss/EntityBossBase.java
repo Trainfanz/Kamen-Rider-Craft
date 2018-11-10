@@ -74,8 +74,15 @@ public class EntityBossBase extends EntityZombie
 	public EntityBossBase(World par1World)
 	{
 		super(par1World);
-		
 	}
+	
+    /**
+     * If Animal, checks if the age timer is negative
+     */
+    public boolean isChild()
+    {
+        return false;
+    }
 	
     /**
      * Returns the item that this EntityLiving is holding, if any.

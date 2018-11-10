@@ -61,6 +61,14 @@ public class Entity_base_henchmen extends EntityZombie
 	        
 	}
 
+    /**
+     * If Animal, checks if the age timer is negative
+     */
+    public boolean isChild()
+    {
+        return false;
+    }
+    
 	protected boolean shouldBurnInDay()
     {
         return false;
