@@ -42,6 +42,7 @@ import net.minecraft.pathfinding.PathNavigateGround;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.DamageSource;
+import net.minecraft.util.EnumHand;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
@@ -142,6 +143,14 @@ public class EntityBikeBase extends EntityHorse
         return null;
     }
 
+    public boolean processInteract(EntityPlayer player, EnumHand hand)
+    {
+        ItemStack itemstack = player.getHeldItem(hand);
+        boolean flag = !itemstack.isEmpty();
+
+                this.mountTo(player);
+                return true;   
+    }
    
 	/**
 	 * Get this Entity's EnumCreatureAttribute
