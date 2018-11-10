@@ -292,6 +292,7 @@ public class RiderItems {
 	//boss blocks
 	
 	public static Block evolt_block = new mob_block("evolt_block",Material.ROCK, "evolt", 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
+	public static Block night_rogue_block = new mob_block("night_rogue_block",Material.ROCK, "night_rogue", 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
 	public static Block another_build_block = new mob_block("another_build_block",Material.ROCK, "another_build", 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabzi_o);
 	
 	public static Item rider_circuit = new Item_ore("rider_circuit").setCreativeTab(Tabs.tabIchigo);

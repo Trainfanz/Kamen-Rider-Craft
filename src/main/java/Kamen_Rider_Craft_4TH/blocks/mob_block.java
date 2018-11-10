@@ -5,6 +5,7 @@ import java.util.Random;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.gaim.item_Gaimdriver;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_NightRogue;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_another_build;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
@@ -65,6 +66,8 @@ public class mob_block extends Block implements IHasModel
 				entitychicken = new Entity_another_build(worldIn);
 			}else if (CRYSTAL == "evolt"){
 				entitychicken = new Entity_evolt(worldIn);	
+			}else if (CRYSTAL == "night_rogue"){
+				entitychicken = new Entity_NightRogue(worldIn);	
 			}else{
 				entitychicken = new Entity_another_build(worldIn);
 			}
