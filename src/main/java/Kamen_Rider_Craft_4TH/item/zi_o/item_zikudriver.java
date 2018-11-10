@@ -74,7 +74,7 @@ public class item_zikudriver extends ItemArmor  implements IHasModel
 				
 				if (item_zikudriver.get_lockbase(stack)=="gaim"){
                     armorModel.wings=new ItemStack(RiderItems.gaim_armor_wings);
-				} if(stack.getItem() == RiderItems.oma_ziku_driver) {
+				}else if(stack.getItem() == RiderItems.oma_ziku_driver) {
 					armorModel.wings=new ItemStack(RiderItems.oma_zi_o_cape);
                 }else{
                 	  armorModel.wings=new ItemStack(RiderItems.blanknoitem);
