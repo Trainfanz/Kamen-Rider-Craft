@@ -9,6 +9,7 @@ import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldType;
+import net.minecraft.world.biome.Biome;
 import net.minecraft.world.biome.BiomeForest;
 import net.minecraft.world.biome.BiomeHills;
 import net.minecraft.world.biome.BiomePlains;
@@ -21,7 +22,10 @@ import scala.actors.threadpool.Arrays;
 
 public class WorldGenCustomStructures implements IWorldGenerator
 {
+	public static final WorldGenStructure ROGUE_BASE = new WorldGenStructure("rogue_base");
+	
 	public static final WorldGenStructure PANDORA_TOWER = new WorldGenStructure("pandora_tower");
+	
 	
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider)
@@ -32,9 +36,10 @@ public class WorldGenCustomStructures implements IWorldGenerator
 			break;
 			
 		case 0:
+			generateStructure(ROGUE_BASE, world, random, chunkX, chunkZ,11, 200, Blocks.DIRT, BiomePlains.class,BiomeSavanna.class,BiomeForest.class,BiomeHills.class);		
 			
-			generateStructure(PANDORA_TOWER, world, random, chunkX, chunkZ, 600, Blocks.DIRT, BiomePlains.class,BiomeSavanna.class,BiomeForest.class,BiomeHills.class);
-			
+			generateStructure(PANDORA_TOWER, world, random, chunkX, chunkZ,0, 500, Blocks.DIRT, BiomePlains.class,BiomeSavanna.class,BiomeForest.class,BiomeHills.class);
+	
 			break;
 			
 		case -1:
@@ -42,16 +47,17 @@ public class WorldGenCustomStructures implements IWorldGenerator
 		}
 	}
 	
-	private void generateStructure(WorldGenerator generator, World world, Random random, int chunkX, int chunkZ, int chance, Block topBlock, Class<?>... classes)
+	
+	
+	private void generateStructure(WorldGenerator generator, World world, Random random, int chunkX, int chunkZ, int PosY, int chance, Block topBlock,Class<? extends Biome>... classes)
 	{
-		ArrayList<Class<?>> classesList = new ArrayList<Class<?>>(Arrays.asList(classes));
-			
+		ArrayList<? extends Biome> classesList = new ArrayList<Biome>(Arrays.asList(classes));
 		int x = (chunkX * 16);
 		int z = (chunkZ * 16);
 		int y = calculateGenerationHeight(world, x, z, topBlock);
-		BlockPos pos = new BlockPos (x,y,z);
+		BlockPos pos = new BlockPos (x,y-PosY ,z);
 		
-		Class<?> biome = world.provider.getBiomeForCoords(pos).getClass();
+		Class<? extends Biome> biome = world.provider.getBiomeForCoords(pos).getClass();
 		
 		if(world.getWorldType() != WorldType.FLAT)
 		{
@@ -73,7 +79,8 @@ public class WorldGenCustomStructures implements IWorldGenerator
 		while(!foundGround && y-- >= 0)
 		{
 			Block block = world.getBlockState(new BlockPos(x,y,z)).getBlock();
-			foundGround = block == topBlock;
+			
+			foundGround = block == Blocks.DIRT;
 		}
 		return y;
 	}
