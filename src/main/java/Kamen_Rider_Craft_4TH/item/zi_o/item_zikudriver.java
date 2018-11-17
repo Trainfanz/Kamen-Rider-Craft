@@ -248,6 +248,14 @@ public class item_zikudriver extends ItemArmor  implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));	
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));	
+										}else  if (item_zikudriver.get_lockbase(armor)=="gaim"){
+											player.addPotionEffect(new PotionEffect(MobEffects.SATURATION, 5, 5,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));	
+										}else  if (item_zikudriver.get_lockbase(armor)=="agito"){
+											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));	
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));	
+											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));	
 										}	
 									}
 									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.ziku_driver_zi_o){
