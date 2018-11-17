@@ -242,7 +242,9 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 														ItemArrow itemarrow = (ItemArrow) Items.ARROW;
 														EntityArrow fireball = itemarrow.createArrow(world, new ItemStack(Items.ARROW), player);
 														fireball.pickupStatus= EntityArrow.PickupStatus.DISALLOWED;
-
+														fireball.motionX = look.x*3;
+									                    fireball.motionY = look.y*3;
+									                    fireball.motionZ = look.z*3;
 														world.spawnEntity(fireball);
 														item_OOOdriver.set_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),0);
 													}	
