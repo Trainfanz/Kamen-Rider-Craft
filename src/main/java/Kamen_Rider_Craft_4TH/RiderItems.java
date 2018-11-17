@@ -2330,6 +2330,7 @@ public class RiderItems {
 	public static Item lost_hasami_full_bottle = new Item_ore("lost_hasami_full_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item lost_cd_full_bottle = new Item_ore("lost_cd_full_bottle").setCreativeTab(Tabs.tabbuild);
 	
+	public static Item golden_bangle = new Item_ore("golden_bangle").setCreativeTab(Tabs.tabbuild);
 	public static Item Pandora_bottle = new Item_ore("pandora_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item nebula_gas_sample = new Item_ore("nebula_gas_sample").setCreativeTab(Tabs.tabbuild);
 			

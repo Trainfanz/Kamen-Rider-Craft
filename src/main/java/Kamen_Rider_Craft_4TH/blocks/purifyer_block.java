@@ -48,6 +48,7 @@ public class purifyer_block extends machine_block  {
     	    else if (player.getHeldItem(hand).getItem() == RiderItems.gaim_full_bottle) process(player, worldIn, pos, hand, RiderItems.orange_full_bottle);
     	    else if (player.getHeldItem(hand).getItem() == RiderItems.wizard_full_bottle) process(player, worldIn, pos, hand, RiderItems.mahoutskai_full_bottle);
     	    else if (player.getHeldItem(hand).getItem() == RiderItems.fourze_full_bottle) process(player, worldIn, pos, hand, RiderItems.yujou_full_bottle);
+    	    else if (player.getHeldItem(hand).getItem() == RiderItems.golden_bangle) process(player, worldIn, pos, hand, RiderItems.low_rabbit_full_bottle);
 
     	    return true;
 	    }

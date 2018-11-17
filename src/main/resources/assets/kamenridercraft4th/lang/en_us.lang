@@ -1753,6 +1753,7 @@ item.smartphone_full_bottle.name=Smartphone Full Bottle
 item.camera_full_bottle.name=Camera Full Bottle
 
 item.pandora_bottle.name=Pandora Bottle
+item.golden_bangle.name=Golden Bangle
 item.low_rabbit_full_bottle.name=Low Rabbit Full Bottle
         
 item.game_full_bottle.name=Game Full Bottle
@@ -1841,6 +1842,7 @@ item.hibiki_ridewatch.name=Hibiki Ridewatch
 item.blade_ridewatch.name=Blade Ridewatch
 item.faiz_ridewatch.name=Faiz Ridewatch
 item.ryuki_ridewatch.name=Ryuki Ridewatch
+item.agito_ridewatch.name=Agito Ridewatch
 
 item.genm_ridewatch.name=Genm Ridewatch
 item.cross_z_ridewatch.name=Cross-Z Ridewatch
