@@ -35,12 +35,12 @@ public class CustomBlock extends Block implements IHasModel {
         private String name = null;
         private Material material = Material.ROCK;
         private MapColor mapColor = null;
-        private boolean isDirectional = false;
         private float lightLevel = 0;
         private int lightOpacity = 0;
         private Map<String, Integer> harvestLevels = new HashMap<>();
         private float hardness = 0;
         private CreativeTabs tab = CreativeTabs.MISC;
+        private BlockType type = BlockType.BASIC;
 
         public Builder mapColor(MapColor mapColor) {
             this.mapColor = mapColor;
@@ -54,11 +54,6 @@ public class CustomBlock extends Block implements IHasModel {
 
         public Builder material(Material material) {
             this.material = material;
-            return this;
-        }
-
-        public Builder isDirectional(boolean isDirectional) {
-            this.isDirectional = isDirectional;
             return this;
         }
 
@@ -82,8 +77,13 @@ public class CustomBlock extends Block implements IHasModel {
             return this;
         }
 
+        public Builder blockType(BlockType type) {
+            this.type = type;
+            return this;
+        }
+
         public Block build() {
-            CustomBlock block = isDirectional ? new CustomDirectionalBlock(material, mapColor != null ? mapColor : material.getMaterialMapColor()) : new CustomBlock(material, mapColor != null ? mapColor : material.getMaterialMapColor());
+            CustomBlock block = type.get(material, mapColor != null ? mapColor : material.getMaterialMapColor());
 
             //if(name == null) throw new Exception("Block name can't be null!");
             block.setUnlocalizedName(name);

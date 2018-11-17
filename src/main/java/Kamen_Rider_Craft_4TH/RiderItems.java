@@ -7,6 +7,7 @@ import java.util.Objects;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import Kamen_Rider_Craft_4TH.blocks.custom.BlockType;
 import Kamen_Rider_Craft_4TH.blocks.custom.CustomBlock;
 import Kamen_Rider_Craft_4TH.blocks.decor_block;
 import Kamen_Rider_Craft_4TH.blocks.glass_ore_block;
@@ -280,14 +281,14 @@ public class RiderItems {
 	
 	//decor blocks
 	
-	public static Block monitor = CustomBlock.builder().material(Material.IRON).hardness(9.9F).lightLevel(0.1F).harvestLevel("pickaxe", 2).isDirectional(true).name("monitor").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block monitor = CustomBlock.builder().material(Material.IRON).hardness(9.9F).lightLevel(0.1F).harvestLevel("pickaxe", 2).blockType(BlockType.DIRECTIONAL).name("monitor").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block pandorabox = new pandora_box_block("pandorabox",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
 	public static Block purifyer = new purifyer_block("purifyer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
 	public static Block solidifyer = new solidifyer_block("solidifyer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
 	
-	public static Block mighty_block = CustomBlock.builder().material(Material.IRON).hardness(9.9F).harvestLevel("pickaxe", 2).isDirectional(false).name("mighty_block").setCreativeTabe(Tabs.tabdecor).build();
-	public static Block fangire_glass = CustomBlock.builder().material(Material.IRON).hardness(9.9F).lightOpacity(1).harvestLevel("pickaxe", 2).isDirectional(false).name("fangire_glass").setCreativeTabe(Tabs.tabdecor).build();
-	public static Block wallplate = CustomBlock.builder().material(Material.IRON).hardness(9.9F).harvestLevel("pickaxe", 2).isDirectional(false).name("wallplate").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block mighty_block = CustomBlock.builder().material(Material.IRON).hardness(9.9F).harvestLevel("pickaxe", 2).name("mighty_block").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block fangire_glass = CustomBlock.builder().material(Material.IRON).hardness(9.9F).lightOpacity(1).harvestLevel("pickaxe", 2).name("fangire_glass").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block wallplate = CustomBlock.builder().material(Material.IRON).hardness(9.9F).harvestLevel("pickaxe", 2).name("wallplate").setCreativeTabe(Tabs.tabdecor).build();
 	
 	//boss blocks
 	
