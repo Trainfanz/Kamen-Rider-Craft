@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "kamenridercraft4th:blocks/hell_bros_block"
+    }
+}

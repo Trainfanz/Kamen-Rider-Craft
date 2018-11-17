@@ -5,8 +5,10 @@ import java.util.Random;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.gaim.item_Gaimdriver;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_HellBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_NightRogue;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_another_build;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_bikaiser;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.block.Block;
@@ -68,6 +70,10 @@ public class mob_block extends Block implements IHasModel
 				entitychicken = new Entity_evolt(worldIn);	
 			}else if (CRYSTAL == "night_rogue"){
 				entitychicken = new Entity_NightRogue(worldIn);	
+			}else if (CRYSTAL == "hell_bros"){
+				entitychicken = new Entity_HellBros(worldIn);	
+			}else if (CRYSTAL == "bi_kaiser"){
+				entitychicken = new Entity_bikaiser(worldIn);	
 			}else{
 				entitychicken = new Entity_another_build(worldIn);
 			}

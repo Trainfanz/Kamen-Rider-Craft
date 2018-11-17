@@ -93,6 +93,9 @@ tile.hell_advent_glass.name=Dark Advent Glass
 tile.bladecard_hellrock.name=Rouze Card Ore
 
 tile.evolt_block.name=Evolt Block
+tile.night_rogue_block.name=Night Rogue Block
+tile.hell_bros_block.name=Hell Bros Block
+tile.bi_kaiser_block.name=Bi Kaiser Block
 tile.another_build_block.name=Another Build Block
 
 tile.purifyer.name=Full Bottle Purifier
@@ -1842,7 +1845,6 @@ item.hibiki_ridewatch.name=Hibiki Ridewatch
 item.blade_ridewatch.name=Blade Ridewatch
 item.faiz_ridewatch.name=Faiz Ridewatch
 item.ryuki_ridewatch.name=Ryuki Ridewatch
-item.agito_ridewatch.name=Agito Ridewatch
 
 item.genm_ridewatch.name=Genm Ridewatch
 item.cross_z_ridewatch.name=Cross-Z Ridewatch
