@@ -4,11 +4,13 @@ import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import com.google.common.collect.Lists;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockFalling;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.BlockFaceShape;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.item.EntityFallingBlock;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.util.BlockRenderLayer;
@@ -16,6 +18,7 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
+import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
@@ -25,25 +28,33 @@ import java.util.*;
 public class CustomBlock extends Block implements IHasModel {
     private final boolean isTransparent;
     private final boolean isWalkThrough;
+    private final boolean isFalling;
 
     protected CustomBlock(Material material, MapColor color, List<Property> properties) {
         super(material, color);
         isTransparent = properties.contains(Property.TRANSPARENT);
         isWalkThrough = properties.contains(Property.WALKTHROUGH);
+        isFalling = properties.contains(Property.FALLING);
     }
+
+    // TRANSPARENT
 
     @SideOnly(Side.CLIENT)
     public BlockRenderLayer getBlockLayer() {
         return isTransparent ? BlockRenderLayer.TRANSLUCENT : BlockRenderLayer.SOLID;
     }
 
-    public boolean isFullCube(IBlockState state) {
-        return !isWalkThrough;
-    }
-
     public boolean isOpaqueCube(IBlockState state)
     {
         return isTransparent;
+    }
+
+    //
+
+    // WALKTRHOUGH
+
+    public boolean isFullCube(IBlockState state) {
+        return !isWalkThrough;
     }
 
     @Nullable
@@ -55,13 +66,54 @@ public class CustomBlock extends Block implements IHasModel {
         return isWalkThrough ? BlockFaceShape.UNDEFINED : super.getBlockFaceShape(worldIn, state, pos, face);
     }
 
-    public static Builder builder() {
-        return new Builder();
+    //
+
+    // FALLING
+
+    public void onBlockAdded(World worldIn, BlockPos pos, IBlockState state) {
+        if(isFalling) worldIn.scheduleUpdate(pos, this, this.tickRate(worldIn));
     }
+
+    public void neighborChanged(IBlockState state, World worldIn, BlockPos pos, Block blockIn, BlockPos fromPos) {
+        if(isFalling) worldIn.scheduleUpdate(pos, this, this.tickRate(worldIn));
+    }
+
+    public void updateTick(World worldIn, BlockPos pos, IBlockState state, Random rand) {
+        if(isFalling) checkFall(worldIn, pos, state);
+    }
+
+    private static void checkFall(World worldIn, BlockPos pos, IBlockState state) {
+        if (worldIn.isAirBlock(pos.down()) && BlockFalling.canFallThrough(worldIn.getBlockState(pos.down())) && pos.getY() >= 0) {
+            int i = 32;
+
+            if (!BlockFalling.fallInstantly && worldIn.isAreaLoaded(pos.add(-i, -i, -i), pos.add(i, i, i))) {
+                worldIn.spawnEntity(new EntityFallingBlock(worldIn, (double)((float)pos.getX() + 0.5F), (double)pos.getY(), (double)((float)pos.getZ() + 0.5F), state));
+            }
+            else {
+                worldIn.setBlockToAir(pos);
+                BlockPos blockpos;
+
+                blockpos = pos;
+                while (worldIn.isAirBlock(blockpos) && BlockFalling.canFallThrough(worldIn.getBlockState(blockpos)) && blockpos.getY() > 0) {
+                    blockpos = blockpos.down();
+                }
+
+                if (blockpos.getY() > 0) {
+                    worldIn.setBlockState(blockpos, state, 2);
+                }
+            }
+        }
+    }
+
+    //
 
     @Override
     public void registerModels() {
         TokuCraft_core.proxy.registerItemRender(Item.getItemFromBlock(this),0,"inventory");
+    }
+
+    public static Builder builder() {
+        return new Builder();
     }
 
     public static class Builder {
