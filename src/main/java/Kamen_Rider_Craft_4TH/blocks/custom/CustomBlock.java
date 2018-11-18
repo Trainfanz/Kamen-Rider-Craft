@@ -2,24 +2,57 @@ package Kamen_Rider_Craft_4TH.blocks.custom;
 
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
+import com.google.common.collect.Lists;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.state.BlockFaceShape;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.util.BlockRenderLayer;
+import net.minecraft.util.EnumFacing;
+import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.function.Supplier;
+import javax.annotation.Nullable;
+import java.util.*;
 
 public class CustomBlock extends Block implements IHasModel {
-    protected CustomBlock(Material material, MapColor color) {
+    private final boolean isTransparent;
+    private final boolean isWalkThrough;
+
+    protected CustomBlock(Material material, MapColor color, List<Property> properties) {
         super(material, color);
+        isTransparent = properties.contains(Property.TRANSPARENT);
+        isWalkThrough = properties.contains(Property.WALKTHROUGH);
+    }
+
+    @SideOnly(Side.CLIENT)
+    public BlockRenderLayer getBlockLayer() {
+        return isTransparent ? BlockRenderLayer.TRANSLUCENT : BlockRenderLayer.SOLID;
+    }
+
+    public boolean isFullCube(IBlockState state) {
+        return !isWalkThrough;
+    }
+
+    public boolean isOpaqueCube(IBlockState state)
+    {
+        return isTransparent;
+    }
+
+    @Nullable
+    public AxisAlignedBB getCollisionBoundingBox(IBlockState blockState, IBlockAccess worldIn, BlockPos pos) {
+        return isWalkThrough ? NULL_AABB : super.getCollisionBoundingBox(blockState, worldIn, pos);
+    }
+
+    public BlockFaceShape getBlockFaceShape(IBlockAccess worldIn, IBlockState state, BlockPos pos, EnumFacing face) {
+        return isWalkThrough ? BlockFaceShape.UNDEFINED : super.getBlockFaceShape(worldIn, state, pos, face);
     }
 
     public static Builder builder() {
@@ -41,6 +74,7 @@ public class CustomBlock extends Block implements IHasModel {
         private float hardness = 0;
         private CreativeTabs tab = CreativeTabs.MISC;
         private BlockType type = BlockType.BASIC;
+        private List<Property> properties = new ArrayList<>();
 
         public Builder mapColor(MapColor mapColor) {
             this.mapColor = mapColor;
@@ -82,8 +116,18 @@ public class CustomBlock extends Block implements IHasModel {
             return this;
         }
 
+        public Builder property(Property property) {
+            this.properties = Lists.newArrayList(property);
+            return this;
+        }
+
+        public Builder property(Property... properties) {
+            this.properties = Arrays.asList(properties);
+            return this;
+        }
+
         public Block build() {
-            CustomBlock block = type.get(material, mapColor != null ? mapColor : material.getMaterialMapColor());
+            CustomBlock block = type.get(material, mapColor != null ? mapColor : material.getMaterialMapColor(), properties);
 
             //if(name == null) throw new Exception("Block name can't be null!");
             block.setUnlocalizedName(name);

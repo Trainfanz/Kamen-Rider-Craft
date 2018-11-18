@@ -14,11 +14,13 @@ import net.minecraft.util.Rotation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
+import java.util.List;
+
 import static net.minecraft.block.BlockHorizontal.FACING;
 
-public class CustomDirectionalBlock extends CustomBlock implements IHasModel {
-    protected CustomDirectionalBlock(Material materialIn, MapColor colorIn) {
-        super(materialIn, colorIn);
+public class CustomDirectionalBlock extends CustomBlock {
+    protected CustomDirectionalBlock(Material materialIn, MapColor colorIn, List<Property> properties) {
+        super(materialIn, colorIn, properties);
         this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
     }
 
@@ -53,10 +55,5 @@ public class CustomDirectionalBlock extends CustomBlock implements IHasModel {
     protected BlockStateContainer createBlockState()
     {
         return new BlockStateContainer(this, FACING);
-    }
-
-    @Override
-    public void registerModels() {
-        TokuCraft_core.proxy.registerItemRender(Item.getItemFromBlock(this),0,"inventory");
     }
 }

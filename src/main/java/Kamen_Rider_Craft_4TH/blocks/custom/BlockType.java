@@ -3,6 +3,7 @@ package Kamen_Rider_Craft_4TH.blocks.custom;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
 
+import java.util.List;
 import java.util.function.BiFunction;
 
 public enum BlockType {
@@ -13,13 +14,13 @@ public enum BlockType {
     DOOR(CustomBlock::new),
     PANE(CustomBlock::new);
 
-    private final BiFunction<Material, MapColor, CustomBlock> block;
+    private final TriFunction<Material, MapColor, List<Property>, CustomBlock> block;
 
-    BlockType(BiFunction<Material, MapColor, CustomBlock> block) {
+    BlockType(TriFunction<Material, MapColor, List<Property>, CustomBlock> block) {
         this.block = block;
     }
 
-    public CustomBlock get(Material material, MapColor color) {
-        return block.apply(material, color);
+    public CustomBlock get(Material material, MapColor color, List<Property> properties) {
+        return block.apply(material, color, properties);
     }
 }

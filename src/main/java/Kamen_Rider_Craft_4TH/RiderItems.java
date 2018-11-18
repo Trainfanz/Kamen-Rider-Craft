@@ -9,6 +9,7 @@ import java.util.stream.Stream;
 
 import Kamen_Rider_Craft_4TH.blocks.custom.BlockType;
 import Kamen_Rider_Craft_4TH.blocks.custom.CustomBlock;
+import Kamen_Rider_Craft_4TH.blocks.custom.Property;
 import Kamen_Rider_Craft_4TH.blocks.decor_block;
 import Kamen_Rider_Craft_4TH.blocks.glass_ore_block;
 import Kamen_Rider_Craft_4TH.blocks.mob_block;
@@ -148,6 +149,8 @@ import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
+import static Kamen_Rider_Craft_4TH.blocks.custom.Property.TRANSPARENT;
+import static Kamen_Rider_Craft_4TH.blocks.custom.Property.WALKTHROUGH;
 import static java.util.Objects.*;
 
 public class RiderItems {
@@ -287,7 +290,7 @@ public class RiderItems {
 	public static Block solidifyer = new solidifyer_block("solidifyer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
 	
 	public static Block mighty_block = CustomBlock.builder().material(Material.IRON).hardness(9.9F).harvestLevel("pickaxe", 2).name("mighty_block").setCreativeTabe(Tabs.tabdecor).build();
-	public static Block fangire_glass = CustomBlock.builder().material(Material.IRON).hardness(9.9F).lightOpacity(1).harvestLevel("pickaxe", 2).name("fangire_glass").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block fangire_glass = CustomBlock.builder().material(Material.IRON).hardness(9.9F).lightOpacity(1).harvestLevel("pickaxe", 2).name("fangire_glass").property(TRANSPARENT).setCreativeTabe(Tabs.tabdecor).build();
 	public static Block wallplate = CustomBlock.builder().material(Material.IRON).hardness(9.9F).harvestLevel("pickaxe", 2).name("wallplate").setCreativeTabe(Tabs.tabdecor).build();
 	
 	//boss blocks
