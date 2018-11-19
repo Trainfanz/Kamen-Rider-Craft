@@ -101,7 +101,7 @@ if (!this.world.isRemote){
    		switch (this.rand.nextInt(5))
 		{
 		case 0:
-			this.dropItem(RiderItems.pandora_panel_green, 1);
+			this.dropItem(RiderItems.golden_bangle, 1);
 			break;
 		}
        }
