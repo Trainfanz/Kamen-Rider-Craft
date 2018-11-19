@@ -2126,7 +2126,12 @@ public class RiderItems {
 	public static Item gamer_driver_origin = new Item_ore("gamer_driver_origin");
 			
 	public static Item gamer_driver_ex_aid_lv1 = new Item_ore("gamer_driver_ex_aid_lv1");
-			
+	public static Item gamer_driver_brave_lv1 = new Item_ore("gamer_driver_brave_lv1");
+	public static Item gamer_driver_snipe_lv1 = new Item_ore("gamer_driver_snipe_lv1");
+	public static Item gamer_driver_lazer_lv1 = new Item_ore("gamer_driver_lazer_lv1");
+	public static Item gamer_driver_genm_lv1 = new Item_ore("gamer_driver_genm_lv1");
+	public static Item gamer_driver_proto_lv1 = new Item_ore("gamer_driver_proto_lv1");
+		
 	public static Item gamer_driver_ghost = new Item_ore("gamer_driver_ghost");
 	public static Item gamer_driver_drive = new Item_ore("gamer_driver_drive");
 	public static Item gamer_driver_gaim = new Item_ore("gamer_driver_gaim");
