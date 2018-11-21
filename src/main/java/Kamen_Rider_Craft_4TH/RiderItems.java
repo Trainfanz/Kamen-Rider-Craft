@@ -17,14 +17,7 @@ import Kamen_Rider_Craft_4TH.blocks.ore_block;
 import Kamen_Rider_Craft_4TH.blocks.pandora_box_block;
 import Kamen_Rider_Craft_4TH.blocks.purifyer_block;
 import Kamen_Rider_Craft_4TH.blocks.solidifyer_block;
-import Kamen_Rider_Craft_4TH.item.ItemBaseShield;
-import Kamen_Rider_Craft_4TH.item.ItemBaseSword;
-import Kamen_Rider_Craft_4TH.item.ItemChargeSword;
-import Kamen_Rider_Craft_4TH.item.Item_fireball_gun;
-import Kamen_Rider_Craft_4TH.item.Item_gun;
-import Kamen_Rider_Craft_4TH.item.Item_ore;
-import Kamen_Rider_Craft_4TH.item.Item_sword_gun;
-import Kamen_Rider_Craft_4TH.item.riderfood;
+import Kamen_Rider_Craft_4TH.item.*;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.Item_gashat;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_ex_aidarmor;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_ex_aidarmor2;
@@ -151,6 +144,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import static Kamen_Rider_Craft_4TH.blocks.custom.Property.TRANSPARENT;
 import static Kamen_Rider_Craft_4TH.blocks.custom.Property.WALKTHROUGH;
+import static Kamen_Rider_Craft_4TH.item.item_panel.PanelColor.*;
 import static java.util.Objects.*;
 
 public class RiderItems {
@@ -2169,11 +2163,11 @@ public class RiderItems {
 	public static Item magma_knuckle = new ItemBaseSword("magma_knuckle",Tabs.dogga_hammer).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 	public static Item blizzard_knuckle = new ItemBaseSword("blizzard_knuckle",Tabs.dogga_hammer).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 	
-	public static Item pandora_panel_green = new Item_ore("pandora_panel_green").setCreativeTab(Tabs.tabbuild);
-	public static Item pandora_panel_red = new Item_ore("pandora_panel_red").setCreativeTab(Tabs.tabbuild);
-	public static Item pandora_panel_blue = new Item_ore("pandora_panel_blue").setCreativeTab(Tabs.tabbuild);
-	public static Item pandora_panel_black = new Item_ore("pandora_panel_black").setCreativeTab(Tabs.tabbuild);
-	public static Item pandora_panel_white = new Item_ore("pandora_panel_white").setCreativeTab(Tabs.tabbuild);
+	public static Item pandora_panel_green = new item_panel("pandora_panel_green", Green).setCreativeTab(Tabs.tabbuild);
+	public static Item pandora_panel_red = new item_panel("pandora_panel_red", Red).setCreativeTab(Tabs.tabbuild);
+	public static Item pandora_panel_blue = new item_panel("pandora_panel_blue", Blue).setCreativeTab(Tabs.tabbuild);
+	public static Item pandora_panel_black = new item_panel("pandora_panel_black", Black).setCreativeTab(Tabs.tabbuild);
+	public static Item pandora_panel_white = new item_panel("pandora_panel_white", White).setCreativeTab(Tabs.tabbuild);
 
 	public static Item buildhead = new item_buildarmor2("buildhead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 	public static Item buildtroso = new item_buildarmor("buildtroso",ArmorMaterial.DIAMOND, 4,EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);

@@ -34,7 +34,9 @@ public class TokuCraft_core {
 	}
 
 	@EventHandler
-	public static void init(FMLInitializationEvent event) {}
+	public static void init(FMLInitializationEvent event) {
+		proxy.preInit();
+	}
 
 	@EventHandler
 	public static void postInit(FMLPostInitializationEvent event) {}
