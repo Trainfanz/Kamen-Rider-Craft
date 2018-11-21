@@ -96,7 +96,7 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new ResourceLocation("EngineBrosMob"),Entity_EngineBros.class, "EngineBrosMob", 523, TokuCraft_core.instance, 80, 3, false, 0x161616,0xDFDFDF);
 		EntityRegistry.registerModEntity(new ResourceLocation("HellBrosMob"),Entity_HellBros.class, "HellBrosMob", 524, TokuCraft_core.instance, 80, 3, false, 0x161616,0xDFDFDF);
 	
-		EntityRegistry.registerModEntity(new ResourceLocation("NeedleSmashMob"),Entity_needle_smash.class, "NeedleSmashMob", 525, TokuCraft_core.instance, 80, 3, false, 0x195734,0xEACA00);
+		EntityRegistry.registerModEntity(new ResourceLocation("NeedleSmashMob"),Entity_needle_smash.class, "NeedleSmashMob", 525, TokuCraft_core.instance, 80, 3, false, 0xFFFFFF,0x0074D9);
 		EntityRegistry.registerModEntity(new ResourceLocation("greaseMob"),Entity_grease.class, "greaseMob", 526, TokuCraft_core.instance, 80, 3, false, 0xe8c439,0x604e46);
 		
 	}
