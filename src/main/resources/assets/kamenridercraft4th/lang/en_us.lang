@@ -1839,7 +1839,7 @@ item.gaim_ridewatch.name=Gaim Ridewatch
 item.wizard_ridewatch.name=Wizard Ridewatch
 item.fourze_ridewatch.name=Fourze Ridewatch
 item.ooo_ridewatch.name=OOO Ridewatch
-
+item.w_ridewatch.name=W Ridewatch
 item.kiva_ridewatch.name=Kiva Ridewatch
 item.deno_ridewatch.name=Den-O Ridewatch
 item.kabuto_ridewatch.name=Kabuto Ridewatch
@@ -1848,6 +1848,7 @@ item.blade_ridewatch.name=Blade Ridewatch
 item.faiz_ridewatch.name=Faiz Ridewatch
 item.ryuki_ridewatch.name=Ryuki Ridewatch
 item.agito_ridewatch.name=Agito Ridewatch
+item.kuuga_ridewatch.name=Kuuga Ridewatch
 
 item.genm_ridewatch.name=Genm Ridewatch
 item.cross_z_ridewatch.name=Cross-Z Ridewatch

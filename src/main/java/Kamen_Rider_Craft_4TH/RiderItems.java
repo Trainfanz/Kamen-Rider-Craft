@@ -2466,7 +2466,7 @@ public class RiderItems {
 	public static Item beast_ridewatch = new Item_ore("beast_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item fourze_ridewatch = new Item_ridewatches(1, 7,"fourze_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item ooo_ridewatch = new Item_ridewatches(1, 8,"ooo_ridewatch").setCreativeTab(Tabs.tabzi_o);
-	// public static Item w_ridewatch = new Item_ridewatches(1, 9,"w_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item w_ridewatch = new Item_ridewatches(1, 9,"w_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item kiva_ridewatch = new Item_ridewatches(1, 10,"kiva_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item deno_ridewatch = new Item_ridewatches(1, 11,"deno_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item kabuto_ridewatch = new Item_ridewatches(1, 12,"kabuto_ridewatch").setCreativeTab(Tabs.tabzi_o);
@@ -2475,7 +2475,7 @@ public class RiderItems {
 	public static Item faiz_ridewatch = new Item_ridewatches(1, 15,"faiz_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item ryuki_ridewatch = new Item_ridewatches(1, 16,"ryuki_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item agito_ridewatch = new Item_ridewatches(1, 17,"agito_ridewatch").setCreativeTab(Tabs.tabzi_o);
-	// public static Item kuuga_ridewatch = new Item_ridewatches(1, 18,"kuuga_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item kuuga_ridewatch = new Item_ridewatches(1, 18,"kuuga_ridewatch").setCreativeTab(Tabs.tabzi_o);
             
 	public static Item another_build_ridewatch = new Item_ore("another_build_ridewatch").setCreativeTab(Tabs.tabzi_o);
       
@@ -2489,7 +2489,7 @@ public class RiderItems {
 	public static Item ziku_driver_wizard = new Item_ore("ziku_driver_wizard");
 	public static Item ziku_driver_fourze = new Item_ore("ziku_driver_fourze");
 	public static Item ziku_driver_ooo = new Item_ore("ziku_driver_ooo");
-	// public static Item ziku_driver_w = new Item_ore("ziku_driver_w");
+	public static Item ziku_driver_w = new Item_ore("ziku_driver_w");
 	public static Item ziku_driver_kiva = new Item_ore("ziku_driver_kiva");
 	public static Item ziku_driver_deno = new Item_ore("ziku_driver_deno");
 	public static Item ziku_driver_kabuto = new Item_ore("ziku_driver_kabuto");
@@ -2498,7 +2498,7 @@ public class RiderItems {
 	public static Item ziku_driver_faiz = new Item_ore("ziku_driver_faiz");
 	public static Item ziku_driver_ryuki = new Item_ore("ziku_driver_ryuki");
 	public static Item ziku_driver_agito = new Item_ore("ziku_driver_agito");
-	// public static Item ziku_driver_kuuga = new Item_ore("ziku_driver_kuuga");
+	public static Item ziku_driver_kuuga = new Item_ore("ziku_driver_kuuga");
             
 	public static Item ziku_driver_genm = new Item_ore("ziku_driver_genm");
 	
