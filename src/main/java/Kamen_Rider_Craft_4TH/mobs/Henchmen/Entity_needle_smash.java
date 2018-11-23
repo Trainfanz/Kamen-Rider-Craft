@@ -45,8 +45,9 @@ public class Entity_needle_smash extends Entity_base_henchmen
 	protected void applyEntityAttributes()
 	{
 		super.applyEntityAttributes();
-		this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(10.0D);
+		this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(8.0D);
 		this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(60.0D);	     
+		this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(2.0D);
 	}
 
 	public void onDeath(DamageSource cause)
