@@ -980,6 +980,7 @@ public class RiderItems {
 	public static Item decadedriver = new item_decadedriver("decadedriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdecade);
 	public static Item dienddriver = new item_decadedriver("dienddriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdecade);
 	public static Item dark_decadedriver = new item_decadedriver("dark_decadedriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdecade);
+	public static Item new_decadriver = new item_decadedriver("new_decadriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdecade);
 
 	public static Item decadecard = new Itemrider_cards(0,0,"decadecard").setCreativeTab(Tabs.tabdecade);
 	public static Item k_touch = new Itemrider_cards(0,1,"k_touch").setCreativeTab(Tabs.tabdecade);
@@ -1053,6 +1054,8 @@ public class RiderItems {
 	public static Item caucasuscard = new Item_ore("caucasuscard").setCreativeTab(Tabs.tabdecade);
 	public static Item arccard = new Item_ore("arccard").setCreativeTab(Tabs.tabdecade);
 	public static Item skullcard = new Item_ore("skullcard").setCreativeTab(Tabs.tabdecade);
+	
+	public static Item wcard = new Itemrider_cards(11,0,"wcard").setCreativeTab(Tabs.tabdecade);
 
 	//W
 	public static Item trigger_magnum = new Item_gun("trigger_magnum",Tabs.den_dengu,RiderItems.energy).setMaxStackSize(1).setCreativeTab(Tabs.tabW);	

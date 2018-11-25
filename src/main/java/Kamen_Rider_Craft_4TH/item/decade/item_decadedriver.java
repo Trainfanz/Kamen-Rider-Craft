@@ -54,7 +54,8 @@ public class item_decadedriver extends ItemArmor implements IHasModel
 	public static final String[] decadeCoreName= new String[] {"decade","decade_complete","decade_violent_emotion","decade_cyan"};
 	public static final String[] diendCoreName= new String[] {"diend","diend_complete"};
 	public static final String[] dark_decadeCoreName= new String[] {"dark_decade","dark_decade_complete"};
-
+		
+	public static final String[] heiseiCoreName= new String[] {"w","ooo","fourze","wizard","gaim","drive","ghost","exaid","ghost","exaid","build"};
 
 	public item_decadedriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3)
 	{
