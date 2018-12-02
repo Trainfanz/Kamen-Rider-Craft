@@ -166,6 +166,8 @@ public class item_decadedriver extends ItemArmor implements IHasModel
 					return faizCoreName[itemstack.getTagCompound().getInteger("core2")];
 				}else if (itemstack.getTagCompound().getInteger("core")==10){
 					return showaCoreName[itemstack.getTagCompound().getInteger("core2")];
+				}else if (itemstack.getTagCompound().getInteger("core")==11){
+					return heiseiCoreName[itemstack.getTagCompound().getInteger("core2")];
 				}else
 				{if (itemstack.getItem() == RiderItems.dark_decadedriver){
 					return dark_decadeCoreName[itemstack.getTagCompound().getInteger("core2")];
