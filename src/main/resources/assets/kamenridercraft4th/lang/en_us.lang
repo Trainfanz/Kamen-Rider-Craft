@@ -638,6 +638,16 @@ item.caucasuscard.name=KamenRide Caucasus
 item.arccard.name=KamenRide Arc
 item.skullcard.name=KamenRide Skull
 
+item.wcard.name=KamenRide W
+item.ooocard.name=KamenRide OOO
+item.fourzecard.name=KamenRide Fourze
+item.wizardcard.name=KamenRide Wizard
+item.gaimcard.name=KamenRide Gaim
+item.drivecard.name=KamenRide Drive
+item.ghostcard.name=KamenRide Ghost
+item.exaidcard.name=KamenRide Ex-Aid
+item.buildcard.name=KamenRide Build
+
 item.diendcard.name=KamenRide Diend
 item.darkdecadecard.name=KamenRide Dark Decade
 

@@ -1056,6 +1056,14 @@ public class RiderItems {
 	public static Item skullcard = new Item_ore("skullcard").setCreativeTab(Tabs.tabdecade);
 	
 	public static Item wcard = new Itemrider_cards(11,0,"wcard").setCreativeTab(Tabs.tabdecade);
+	public static Item ooocard = new Itemrider_cards(11,1,"ooocard").setCreativeTab(Tabs.tabdecade);
+	public static Item fourzecard = new Itemrider_cards(11,2,"fourzecard").setCreativeTab(Tabs.tabdecade);
+	public static Item wizardcard = new Itemrider_cards(11,3,"wizardcard").setCreativeTab(Tabs.tabdecade);
+	public static Item gaimcard = new Itemrider_cards(11,4,"gaimcard").setCreativeTab(Tabs.tabdecade);
+	public static Item drivecard = new Itemrider_cards(11,5,"drivecard").setCreativeTab(Tabs.tabdecade);
+	public static Item ghostcard = new Itemrider_cards(11,6,"ghostcard").setCreativeTab(Tabs.tabdecade);
+	public static Item exaidcard = new Itemrider_cards(11,7,"exaidcard").setCreativeTab(Tabs.tabdecade);
+	public static Item buildcard = new Itemrider_cards(11,8,"buildcard").setCreativeTab(Tabs.tabdecade);
 
 	//W
 	public static Item trigger_magnum = new Item_gun("trigger_magnum",Tabs.den_dengu,RiderItems.energy).setMaxStackSize(1).setCreativeTab(Tabs.tabW);	
