@@ -282,7 +282,7 @@ public class ore_block extends Block implements IHasModel
 			}
 			
 		}if (CRYSTAL==RiderItems.kuuga_growing){
-			int rand = generator.nextInt(180);
+			int rand = generator.nextInt(100);
 			if (rand<30){
 				return RiderItems.kuuga_mighty;
 			}else if (rand<40){
@@ -291,22 +291,6 @@ public class ore_block extends Block implements IHasModel
 				return RiderItems.kuuga_pegasus;
 			}else if (rand<60){
 				return RiderItems.kuuga_titan;
-			}else if (rand<65){
-				return RiderItems.kuuga_rising_mighty;
-			}else if (rand<70){
-				return RiderItems.kuuga_rising_dragon;
-			}else if (rand<75){
-				return RiderItems.kuuga_rising_pegasus;
-			}else if (rand<80){
-				return RiderItems.kuuga_rising_titan;
-			}else if (rand<83){
-				return RiderItems.kuuga_amazing_mighty;
-			}else if (rand<85){
-				return RiderItems.kuuga_ultimate;
-			}else if (rand<86){
-				return RiderItems.kuuga_rising_ultimate;
-			}else if (rand<87){
-				return RiderItems.kuuga_super_rising_ultimate;
 			}{
 				return CRYSTAL;
 			}
