@@ -50,6 +50,7 @@ itemGroup.tabbuild=Kamen Rider Build
 itemGroup.tabamazons=Kamen Rider Amazons
 itemGroup.tabzi_o=Kamen Rider Zi-O
 itemGroup.tabdecor=Decorative Items
+itemGroup.tabmisc=Misc Rider Items
 
 tile.stone_kuuga.name=Kuuga Ore
 tile.stone_agito.name=Agito Ore
@@ -110,6 +111,9 @@ tile.wallplate.name=Metal Wall Plate
 tile.fangire_glass.name=Fangire Glass
 
 item.energy.name=Energy Shot
+
+item.base_sword.name=Base Sword
+item.base_gun.name=Base Gun
 
 item.agito_of_seed.name=Seed of Agito
 item.g3core.name=G3 Core

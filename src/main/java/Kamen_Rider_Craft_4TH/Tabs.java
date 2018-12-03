@@ -290,6 +290,13 @@ public static ToolMaterial ridol_stick = new EnumHelper().addToolMaterial("ridol
 			return new ItemStack(RiderItems.monitor);
 		}
 	};
+	public static CreativeTabs tabmisc = new CreativeTabs("tabmisc")
+	{
+		@Override
+		public ItemStack getTabIconItem() {
+			return new ItemStack(RiderItems.icepop1);
+		}
+	};
 	
 	/**
 	public static TAB_MASKED_RIDER tab_masked_rider= new TAB_MASKED_RIDER("tab_masked_rider")

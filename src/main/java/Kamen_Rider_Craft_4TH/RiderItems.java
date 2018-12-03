@@ -150,12 +150,16 @@ import static java.util.Objects.*;
 public class RiderItems {
 
 	public static Item blanknoitem = new Item_ore("blanknoitem");
-	public static Item energy = new Item_ore("energy").setCreativeTab(CreativeTabs.COMBAT);
+	
+	public static Item energy = new Item_ore("energy").setCreativeTab(Tabs.tabmisc);
 
-	public static Item donut = new riderfood(4, true,"donut").setCreativeTab(CreativeTabs.FOOD);
-	public static Item icepop1  = new riderfood(2, true,"icepop1").setCreativeTab(CreativeTabs.FOOD);
-	public static Item icepop2  = new riderfood(2, true,"icepop2").setCreativeTab(CreativeTabs.FOOD);
-	public static Item icepop3  = new riderfood(2, true,"icepop3").setCreativeTab(CreativeTabs.FOOD);
+	public static Item donut = new riderfood(4, true,"donut").setCreativeTab(Tabs.tabmisc);
+	public static Item icepop1  = new riderfood(2, true,"icepop1").setCreativeTab(Tabs.tabmisc);
+	public static Item icepop2  = new riderfood(2, true,"icepop2").setCreativeTab(Tabs.tabmisc);
+	public static Item icepop3  = new riderfood(2, true,"icepop3").setCreativeTab(Tabs.tabmisc);
+	
+	public static Item base_sword = new Item_ore("base_sword").setCreativeTab(Tabs.tabmisc);
+	//public static Item base_gun = new Item_ore("base_gun").setCreativeTab(Tabs.tabmisc);
 
 	//ore blocks
 	

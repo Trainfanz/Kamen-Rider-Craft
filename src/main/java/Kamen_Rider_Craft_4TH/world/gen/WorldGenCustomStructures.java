@@ -36,7 +36,7 @@ public class WorldGenCustomStructures implements IWorldGenerator
 			case 1:
 				break;
 			case 0:
-				generateStructure(ROGUE_BASE, world, random, chunkX, chunkZ,11, 300, Blocks.DIRT, BiomePlains.class,BiomeSavanna.class,BiomeForest.class,BiomeHills.class);
+				generateStructure(ROGUE_BASE, world, random, chunkX, chunkZ,11, 1500, Blocks.DIRT, BiomePlains.class,BiomeSavanna.class,BiomeForest.class,BiomeHills.class);
 				generateStructure(PANDORA_TOWER, world, random, chunkX, chunkZ,0, 2000, Blocks.DIRT, BiomePlains.class,BiomeSavanna.class,BiomeForest.class,BiomeHills.class);
 				break;
 			case -1:
