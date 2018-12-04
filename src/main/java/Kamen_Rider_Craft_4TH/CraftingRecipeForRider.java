@@ -679,6 +679,9 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":fullfull_bottle_rabbit"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.fullfull_bottle_rabbit), new Ingredient[]{Ingredient.fromItem(RiderItems.fullfull_bottle_tank)});	
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":rabbittank_sparkling_full_bottle"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.rabbittank_sparkling_full_bottle), new Ingredient[]{Ingredient.fromItem(RiderItems.Pandora_bottle),Ingredient.fromItem(RiderItems.rabbit_full_bottle),Ingredient.fromItem(RiderItems.tank_full_bottle)});			
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":fullfull_bottle_rabbit_2"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.fullfull_bottle_rabbit,1), "dbd","ada","aca", 'a', Items.IRON_INGOT, 'b', RiderItems.low_rabbit_full_bottle, 'c',  RiderItems.rabbit_full_bottle, 'd',  Items.GOLD_INGOT);
+		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":genius_full_bottle"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.genius_full_bottle,1), "aaa","aba","aaa", 'a', RiderItems.rider_circuit, 'b', RiderItems.genius_full_bottle_blank);
+
+		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":north_blizzard_full_bottle"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.north_blizzard_full_bottle,1), "aba","aca","dae", 'a', Blocks.ICE, 'b', RiderItems.fukurou_full_bottle, 'c',  RiderItems.robot_sclashjelly, 'd',  RiderItems.castle_full_bottle, 'e',  RiderItems.kuwagata_full_bottle);
 
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":ex_aid_full_bottle"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ex_aid_full_bottle,1), "aaa","aba","aaa", 'a', RiderItems.full_bottle, 'b', RiderItems.mighty_action_x_gashat);
@@ -724,6 +727,7 @@ public class CraftingRecipeForRider {
 
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":drill_crusher_crusher"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.drill_crusher_crusher,1), "ama","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.base_sword, 'm',  RiderItems.build_ridewatch);		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":faiz_phone_x"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.faiz_phone_x,1), "ama","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.base_sword, 'm',  RiderItems.faiz_ridewatch);		
+		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":daidaimaru_2"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.daidaimaru,1), "ama","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.base_sword, 'm',  RiderItems.gaim_ridewatch);		
 
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":amazonshead"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.amazonshead,1), "aaa","a a", 'a', RiderItems.amazon_cell_vial);

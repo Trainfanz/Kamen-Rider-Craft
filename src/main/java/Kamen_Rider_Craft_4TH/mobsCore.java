@@ -5,6 +5,7 @@ import Kamen_Rider_Craft_4TH.mobs.EntityChronos;
 import Kamen_Rider_Craft_4TH.mobs.EntityLazer;
 import Kamen_Rider_Craft_4TH.mobs.EntityPoppy;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_BloodStalk;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Build_RT;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_EngineBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_HellBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Kaiser;
@@ -98,6 +99,8 @@ public class mobsCore {
 	
 		EntityRegistry.registerModEntity(new ResourceLocation("NeedleSmashMob"),Entity_needle_smash.class, "NeedleSmashMob", 525, TokuCraft_core.instance, 80, 3, false, 0xFFFFFF,0x0074D9);
 		EntityRegistry.registerModEntity(new ResourceLocation("greaseMob"),Entity_grease.class, "greaseMob", 526, TokuCraft_core.instance, 80, 3, false, 0xe8c439,0x604e46);
+		
+		EntityRegistry.registerModEntity(new ResourceLocation("BuildMob"),Entity_Build_RT.class, "BuildMob", 527, TokuCraft_core.instance, 80, 3, false, 0xC70404,0x000DB7);
 		
 	}
 }

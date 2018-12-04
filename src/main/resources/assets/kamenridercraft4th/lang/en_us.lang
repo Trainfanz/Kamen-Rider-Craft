@@ -25,6 +25,7 @@ entity.NightRogueMob.name=Night Rogue
 entity.BloodStalkMob.name=Blood Stalk
 entity.NeedleSmashMob.name=Needle Smash
 entity.greaseMob.name=Kamen Rider Grease
+entity.BuildMob.name=Kamen Rider Build (Full Potential)
 
 
 itemGroup.tabkuuga=Kamen Rider Kuuga
@@ -112,7 +113,7 @@ tile.fangire_glass.name=Fangire Glass
 
 item.energy.name=Energy Shot
 
-item.base_sword.name=Base Sword
+item.base_sword.name=Base Weapon
 item.base_gun.name=Base Gun
 
 item.agito_of_seed.name=Seed of Agito
@@ -1818,6 +1819,8 @@ item.lost_hasami_full_bottle.name=Lost Hasami Full Bottle
 item.lost_cd_full_bottle.name=Lost CD Bottle
 
 item.nebula_gas_sample.name=Nebula Gas Sample
+
+item.genius_full_bottle_blank.name=Unfinished Genius Full Bottle
 
 item.dragon_magma_full_bottle.name=Dragon Magma Full Bottle
 

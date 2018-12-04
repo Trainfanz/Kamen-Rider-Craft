@@ -2353,6 +2353,7 @@ public class RiderItems {
 	public static Item golden_bangle = new Item_ore("golden_bangle").setCreativeTab(Tabs.tabbuild);
 	public static Item Pandora_bottle = new Item_ore("pandora_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item nebula_gas_sample = new Item_ore("nebula_gas_sample").setCreativeTab(Tabs.tabbuild);
+	public static Item genius_full_bottle_blank = new Item_ore("genius_full_bottle_blank").setCreativeTab(Tabs.tabbuild);
 			
 	public static Item build_driver_rabbit = new Item_ore("build_driver_rabbit");
 	public static Item build_driver_gorilla = new Item_ore("build_driver_gorilla");

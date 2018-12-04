@@ -6,6 +6,7 @@ import java.util.UUID;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityBossBase;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Build_RT;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_EngineBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_RemoconBros;
 import net.minecraft.block.Block;
@@ -56,6 +57,7 @@ public class Entityguardian_seito extends Entity_base_henchmen
 				Entity_base_henchmen entitymob  = new Entity_needle_smash(world);
 				EntityBossBase entityboss  = new Entity_RemoconBros(world);
 				EntityBossBase entityboss2  = new Entity_EngineBros(world);
+				EntityBossBase entityboss3  = new Entity_Build_RT(world);
 				switch (this.rand.nextInt(25))
 				{
 				case 0:
@@ -69,7 +71,8 @@ public class Entityguardian_seito extends Entity_base_henchmen
 					world.spawnEntity(entityboss2);
 					break;
 				case 2:
-					entitymob.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+					playerIn.sendMessage( new TextComponentString(TextFormatting.RED+"Hagane no Moonsault! RabbitTank! Yeah!"));
+					entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
 					world.spawnEntity(entitymob);
 					break;
 				case 3:
@@ -85,6 +88,10 @@ public class Entityguardian_seito extends Entity_base_henchmen
 					world.spawnEntity(entitymob);
 					break;
 				case 6:
+					entitymob.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+					world.spawnEntity(entitymob);
+					break;
+				case 7:
 					entitymob.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
 					world.spawnEntity(entitymob);
 					break;

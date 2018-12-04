@@ -40,16 +40,16 @@ public class item_decadedriver extends ItemArmor implements IHasModel
 
 
 	public static final String[] showaCoreName= new String[] {"ichigo","nigo","v3","riderman","x","amazon","stronger","skyrider","super1","zx","black","black_rx","shin","zo","j"};
-	public static final String[] den_oCoreName= new String[] {"deno_plat_form","deno_sword_form","deno_rod_form","deno_ax_form","deno_gun_form","deno_wing_form","deno_climax_form","deno_super_climax_form","deno_liner_form"};
-	public static final String[] kivaCoreName= new String[] {"kiva","kiva_garulu","kiva_basshaa","kiva_dogga","kiva_dogabaki","kiva_emperor","kiva_dogabaki_emperor"};
-	public static final String[] faizCoreName= new String[] {"faiz","faiz_accel","faiz_blaster"};
-	public static final String[] kuugaCoreName= new String[] {"kuuga_growing","kuuga_mighty","kuuga_dragon","kuuga_pegasus","kuuga_titan","kuuga_rising_mighty","kuuga_rising_dragon","kuuga_rising_pegasus","kuuga_rising_titan","kuuga_amazing_mighty","kuuga_ultimate","kuuga_rising_ultimate"};
-	public static final String[] agitoCoreName= new String[] {"agito","agito_storm","agito_flame","agito_trinity","agito_burning","agito_shining"};
-	public static final String[] ryukiCoreName= new String[] {"ryuki","ryuki_survive","ryuki_blank"};
-	public static final String[] kabutoCoreName= new String[] {"kabuto","kabuto_mask","kabuto_hyper"};
-	public static final String[] hibikiCoreName= new String[] {"hibiki","hibiki_kurenai","hibiki_armed"};
+	public static final String[] den_oCoreName= new String[] {"deno_plat_form","decade_deno_sword_form","deno_rod_form","deno_ax_form","deno_gun_form","deno_wing_form","deno_climax_form","deno_super_climax_form","deno_liner_form"};
+	public static final String[] kivaCoreName= new String[] {"decade_kiva","kiva_garulu","kiva_basshaa","kiva_dogga","kiva_dogabaki","kiva_emperor","kiva_dogabaki_emperor"};
+	public static final String[] faizCoreName= new String[] {"decade_faiz","faiz_accel","faiz_blaster"};
+	public static final String[] kuugaCoreName= new String[] {"kuuga_growing","decade_kuuga_mighty","kuuga_dragon","kuuga_pegasus","kuuga_titan","kuuga_rising_mighty","kuuga_rising_dragon","kuuga_rising_pegasus","kuuga_rising_titan","kuuga_amazing_mighty","kuuga_ultimate","kuuga_rising_ultimate"};
+	public static final String[] agitoCoreName= new String[] {"decade_agito","agito_storm","agito_flame","agito_trinity","agito_burning","agito_shining"};
+	public static final String[] ryukiCoreName= new String[] {"decade_ryuki","ryuki_survive","ryuki_blank"};
+	public static final String[] kabutoCoreName= new String[] {"decade_kabuto","kabuto_mask","kabuto_hyper"};
+	public static final String[] hibikiCoreName= new String[] {"decade_hibiki","hibiki_kurenai","hibiki_armed"};
 
-	public static final String[] bladeCoreName= new String[] {"blade","blade_jack","blade_king"};
+	public static final String[] bladeCoreName= new String[] {"decade_blade","blade_jack","blade_king"};
 
 	public static final String[] decadeCoreName= new String[] {"decade","decade_complete","decade_violent_emotion","decade_cyan"};
 	public static final String[] diendCoreName= new String[] {"diend","diend_complete"};
@@ -236,7 +236,7 @@ public class item_decadedriver extends ItemArmor implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
-									}else if (this.get_core(armor)=="deno_sword_form"){
+									}else if (this.get_core(armor)=="decade_deno_sword_form"){
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
 									}else if (this.get_core(armor)=="deno_rod_form"){
@@ -273,7 +273,7 @@ public class item_decadedriver extends ItemArmor implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 4,true,false));
-									}else if (this.get_core(armor)=="kiva"){
+									}else if (this.get_core(armor)=="decade_kiva"){
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
@@ -311,7 +311,7 @@ public class item_decadedriver extends ItemArmor implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 4,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.WITHER, 5, 1,true,false));
-									}else if (this.get_core(armor)=="faiz"){
+									}else if (this.get_core(armor)=="decade_faiz"){
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
 									}else if (this.get_core(armor)=="faiz_accel"){
@@ -329,7 +329,7 @@ public class item_decadedriver extends ItemArmor implements IHasModel
 											player.motionY=look.y/2;
 											player.motionZ=look.z/2;
 										}
-									}else if (this.get_core(armor)=="kuuga_mighty"){
+									}else if (this.get_core(armor)=="decade_kuuga_mighty"){
 										if (player.getHeldItemMainhand().isEmpty())
 										{
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));
@@ -392,7 +392,7 @@ public class item_decadedriver extends ItemArmor implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 4,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 5,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
-									}else if (this.get_core(armor)=="agito"){
+									}else if (this.get_core(armor)=="decade_agito"){
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));
 									}else if (this.get_core(armor)=="agito_storm"){
@@ -418,7 +418,7 @@ public class item_decadedriver extends ItemArmor implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
-									}else if (this.get_core(armor)=="ryuki"){
+									}else if (this.get_core(armor)=="decade_ryuki"){
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
@@ -428,7 +428,7 @@ public class item_decadedriver extends ItemArmor implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
-									}else if (this.get_core(armor)=="kabuto"){
+									}else if (this.get_core(armor)=="decade_kabuto"){
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 3,true,false));
 									}else if (this.get_core(armor)=="kabuto_mask"){
@@ -441,7 +441,7 @@ public class item_decadedriver extends ItemArmor implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 4,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 4,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 500, 0,true,false));
-									}else if (this.get_core(armor)=="hibiki"){
+									}else if (this.get_core(armor)=="decade_hibiki"){
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));	
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));	
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
@@ -456,7 +456,7 @@ public class item_decadedriver extends ItemArmor implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));	
 										player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 0,true,false));	
-									}else if (this.get_core(armor)=="blade"){
+									}else if (this.get_core(armor)=="decade_blade"){
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));	
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));	
 									}else if (this.get_core(armor)=="blade_jack"){

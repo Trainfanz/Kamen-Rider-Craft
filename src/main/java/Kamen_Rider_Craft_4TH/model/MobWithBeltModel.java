@@ -9,6 +9,7 @@ package Kamen_Rider_Craft_4TH.model;
 import org.lwjgl.opengl.GL11;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Build_RT;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt;
 import Kamen_Rider_Craft_4TH.util.Refercence;
 import net.minecraft.client.Minecraft;
@@ -233,6 +234,8 @@ public class MobWithBeltModel extends ModelBiped
 
 			if (entity instanceof Entity_evolt){
 				stack2 = new ItemStack (RiderItems.evol_driver_blackhole);
+			}else if (entity instanceof Entity_Build_RT){
+				stack2 = new ItemStack (RiderItems.build_driver);	
 			}else{
 				stack2 = new ItemStack (RiderItems.blanknoitem);
 			}
