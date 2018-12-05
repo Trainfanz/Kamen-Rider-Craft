@@ -2507,6 +2507,7 @@ public class RiderItems {
 	public static Item ziku_driver_fourze = new Item_ore("ziku_driver_fourze");
 	public static Item ziku_driver_ooo = new Item_ore("ziku_driver_ooo");
 	public static Item ziku_driver_w = new Item_ore("ziku_driver_w");
+	public static Item ziku_driver_decade = new Item_ore("ziku_driver_decade");
 	public static Item ziku_driver_kiva = new Item_ore("ziku_driver_kiva");
 	public static Item ziku_driver_deno = new Item_ore("ziku_driver_deno");
 	public static Item ziku_driver_kabuto = new Item_ore("ziku_driver_kabuto");
@@ -2516,6 +2517,9 @@ public class RiderItems {
 	public static Item ziku_driver_ryuki = new Item_ore("ziku_driver_ryuki");
 	public static Item ziku_driver_agito = new Item_ore("ziku_driver_agito");
 	public static Item ziku_driver_kuuga = new Item_ore("ziku_driver_kuuga");
+	
+
+
             
 	public static Item ziku_driver_genm = new Item_ore("ziku_driver_genm");
 	
