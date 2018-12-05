@@ -476,6 +476,38 @@ public class item_decadedriver extends ItemArmor implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.SLOWNESS, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));	
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false));
+									}else if (this.get_core(armor)=="w"){
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
+									}else if (this.get_core(armor)=="ooo"){
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,2,true,false));
+									}else if (this.get_core(armor)=="fourze"){
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
+									}else if (this.get_core(armor)=="wizard"){
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
+									}else if (this.get_core(armor)=="gaim"){
+										player.addPotionEffect(new PotionEffect(MobEffects.SATURATION, 250, 5,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+									}else if (this.get_core(armor)=="drive"){
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+									}else if (this.get_core(armor)=="ghost"){
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.INVISIBILITY, 5, 0,true,false));
+									}else if (this.get_core(armor)=="exaid"){
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+									}else if (this.get_core(armor)=="build"){
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
 									}
 								}
 							}
