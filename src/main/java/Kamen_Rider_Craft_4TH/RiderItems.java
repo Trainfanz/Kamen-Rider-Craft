@@ -2475,7 +2475,7 @@ public class RiderItems {
 	public static Item cross_z_ridewatch = new Item_ore("cross_z_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item exaid_ridewatch = new Item_ridewatches(1, 2,"exaid_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item genm_ridewatch = new Item_ridewatches(1, 19,"genm_ridewatch").setCreativeTab(Tabs.tabzi_o);
-	public static Item ghost_ridewatch = new Item_ridewatches(1, 3,"ghost_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item ghost_ridewatch = new Item_ridewatches(1, 3,"ghost_ridewatch",true).setCreativeTab(Tabs.tabzi_o);
 	public static Item drive_ridewatch = new Item_ridewatches(1, 4,"drive_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item gaim_ridewatch = new Item_ridewatches(1, 5,"gaim_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item wizard_ridewatch = new Item_ridewatches(1, 6,"wizard_ridewatch").setCreativeTab(Tabs.tabzi_o);
