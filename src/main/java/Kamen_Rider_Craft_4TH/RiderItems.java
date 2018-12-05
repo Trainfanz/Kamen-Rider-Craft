@@ -2446,13 +2446,10 @@ public class RiderItems {
 	public static Item build_driver_magma = new Item_ore("build_driver_magma");
 	public static Item build_driver_cross_z_great = new Item_ore("build_driver_cross_z_great");
 	public static Item build_driver_galaxy = new Item_ore("build_driver_galaxy");
-
-			
+	
 	//public static Item build_driver_ = new Item_ore("build_driver_");
 
 	//Zi-O
-
-
 	public static Item gaim_armor_wings = new Item_ore("gaim_armor_wings");
 	
 	public static Item zi_ohead = new item_zi_oarmor("zi_ohead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
@@ -2494,9 +2491,7 @@ public class RiderItems {
 	public static Item agito_ridewatch = new Item_ridewatches(1, 17,"agito_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item kuuga_ridewatch = new Item_ridewatches(1, 18,"kuuga_ridewatch").setCreativeTab(Tabs.tabzi_o);
             
-	public static Item another_build_ridewatch = new Item_ore("another_build_ridewatch").setCreativeTab(Tabs.tabzi_o);
-      
-            
+	public static Item another_build_ridewatch = new Item_ore("another_build_ridewatch").setCreativeTab(Tabs.tabzi_o);        
 
 	public static Item ziku_driver_build = new Item_ore("ziku_driver_build");
 	public static Item ziku_driver_exaid = new Item_ore("ziku_driver_exaid");
@@ -2519,8 +2514,6 @@ public class RiderItems {
 	public static Item ziku_driver_kuuga = new Item_ore("ziku_driver_kuuga");
 	
 
-
-            
 	public static Item ziku_driver_genm = new Item_ore("ziku_driver_genm");
 	
 	public static Item oma_zi_o_cape = new Item_ore("oma_zi_o_cape");

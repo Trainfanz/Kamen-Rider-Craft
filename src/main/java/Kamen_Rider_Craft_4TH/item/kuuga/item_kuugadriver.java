@@ -85,6 +85,9 @@ public class item_kuugadriver extends ItemArmor implements IHasModel
 											{
 												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));
 											}
+											if (player.getLastAttackedEntity()!=null){
+											player.getLastAttackedEntity().setFire(100);
+											}
 										}else if (this.get_core(armor)==2){
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
