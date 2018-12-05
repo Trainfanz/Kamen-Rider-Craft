@@ -274,11 +274,26 @@ public class item_zikudriver extends ItemArmor  implements IHasModel
 												player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
+											}else if (item_zikudriver.get_lockbase(armor)=="exaid"){
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
+											}else if (item_zikudriver.get_lockbase(armor)=="exaid_w"){
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
+											}else if (item_zikudriver.get_lockbase(armor)=="ghost"){
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.INVISIBILITY, 5, 0,true,false));
 											}else if (item_zikudriver.get_lockbase(armor)=="decade"){
 												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
-												player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
 											}
 										}
 									}
