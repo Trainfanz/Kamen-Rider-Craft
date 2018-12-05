@@ -323,12 +323,17 @@ public class item_builddriver extends ItemArmor implements IHasModel
 										}else 	if (get_core(ItemStack,"3")==24){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
 											if (get_core(ItemStack,"1")==20){
-												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
-												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));												
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));	
+												if (player.getLastAttackedEntity()!=null){
+													player.getLastAttackedEntity().addPotionEffect(new PotionEffect(MobEffects.POISON, 250, 1));
+												}
 												if (player.isSneaking()){
 													player.fallDistance=0; 
-													Vec3d look = player.getLookVec();	                                               
-													player.motionY=+1;
+													Vec3d look = player.getLookVec();
+													player.motionX=look.x/2;
+													player.motionY=look.y/2;
+													player.motionZ=look.z/2;
 												}
 											}
 
@@ -619,6 +624,9 @@ public class item_builddriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
+											if (player.getLastAttackedEntity()!=null){
+												player.getLastAttackedEntity().setFire(100);
+											}
 										}else if (get_core(ItemStack,"1")==2){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));	
@@ -790,7 +798,9 @@ public class item_builddriver extends ItemArmor implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));	
 										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
-
+										if (player.getLastAttackedEntity()!=null){
+										player.getLastAttackedEntity().addPotionEffect(new PotionEffect(MobEffects.SLOWNESS, 250, 1));
+										}
 									}	if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.build_driver_blood){
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));	
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
