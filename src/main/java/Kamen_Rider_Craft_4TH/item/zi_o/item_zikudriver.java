@@ -274,7 +274,7 @@ public class item_zikudriver extends ItemArmor  implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));											
 											}
 										}
-										}
+										
 									
 									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.ziku_driver_zi_o){
 										
