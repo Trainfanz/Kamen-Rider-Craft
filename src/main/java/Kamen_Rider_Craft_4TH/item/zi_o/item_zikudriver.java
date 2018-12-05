@@ -160,10 +160,8 @@ public class item_zikudriver extends ItemArmor  implements IHasModel
 									}
 									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_zikudriver){
 
-
-										//player.sendMessage( new TextComponentString(((item_zikudriver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider+"_build"));
-										//player.sendMessage( new TextComponentString(this.get_lock(armor)));
-										
+										if (item_zikudriver.get_core(armor, "1")==0){
+											
 										if (item_zikudriver.get_lockbase(armor)=="build"){
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));											
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
@@ -268,7 +266,8 @@ public class item_zikudriver extends ItemArmor  implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));	
 										
-										}if (item_zikudriver.get_core(armor, "1")==1){
+										}
+										}else if (item_zikudriver.get_core(armor, "1")==1){
 											if (item_zikudriver.get_lockbase(armor)=="build"){
 												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
