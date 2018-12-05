@@ -20,7 +20,9 @@ public class Item_ridewatches extends Item implements IHasModel
 
 	public int num;
 	public int num2;
-	public static String[] ARMS= new String[] {"base","build","exaid","ghost","drive","gaim","wizard","fourze","ooo","w","kiva","deno","kabuto","hibiki","blade","faiz","ryuki","agito","kuuga","genm"};
+	public boolean works_with_decade_ridewatch=false;
+	
+	public static String[] ARMS= new String[] {"base","build","exaid","ghost","drive","gaim","wizard","fourze","ooo","w","kiva","deno","kabuto","hibiki","blade","faiz","ryuki","agito","kuuga","genm","decade"};
 
 
 
@@ -29,18 +31,28 @@ public class Item_ridewatches extends Item implements IHasModel
 		super();
 		this.setHasSubtypes(true);
 		this.setMaxDamage(0);
-
 		num=NUM;
-
 		num2=arms;
-
-
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
 
 	}
 
+	public Item_ridewatches(int NUM ,int arms,String name,boolean decade)
+	{
+		super();
+		this.setHasSubtypes(true);
+		this.setMaxDamage(0);
+		num=NUM;
+		num2=arms;
+		works_with_decade_ridewatch=decade;
+		setUnlocalizedName(name);
+		setRegistryName(name);
+		TokuCraft_core.ITEMS.add(this);
+	}
+
+	
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
@@ -68,6 +80,11 @@ public class Item_ridewatches extends Item implements IHasModel
 								item_zikudriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
 								item_zikudriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "1");
 
+							}else if (this == RiderItems.decade_ridewatch){
+
+								item_zikudriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
+								item_zikudriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),1, "1");
+
 							}
 						}else if (belt.Rider=="geiz"){
 
@@ -80,6 +97,7 @@ public class Item_ridewatches extends Item implements IHasModel
 
 					}
 						else if (num==1){
+							if (works_with_decade_ridewatch||item_zikudriver.get_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==0)
 							item_zikudriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
 
 						

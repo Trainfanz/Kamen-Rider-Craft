@@ -66,8 +66,8 @@ public class item_zikudriver extends ItemArmor  implements IHasModel
 
 				model_belt_plus armorModel = new model_belt_plus();
 
-				Item[] form_watch= new Item[] {RiderItems.blanknoitem};
-				Item[] armor_watch= new Item[] {RiderItems.blanknoitem,RiderItems.ziku_driver_build,RiderItems.ziku_driver_exaid,RiderItems.ziku_driver_ghost,RiderItems.ziku_driver_drive,RiderItems.ziku_driver_gaim,RiderItems.ziku_driver_wizard,RiderItems.ziku_driver_fourze,RiderItems.ziku_driver_ooo,RiderItems.ziku_driver_w,RiderItems.blanknoitem,RiderItems.ziku_driver_deno,RiderItems.ziku_driver_kabuto,RiderItems.ziku_driver_hibiki,RiderItems.ziku_driver_blade,RiderItems.ziku_driver_faiz,RiderItems.ziku_driver_ryuki,RiderItems.ziku_driver_agito,RiderItems.ziku_driver_kuuga,RiderItems.ziku_driver_genm};
+				Item[] form_watch= new Item[] {RiderItems.blanknoitem,RiderItems.blanknoitem};
+				Item[] armor_watch= new Item[] {RiderItems.blanknoitem,RiderItems.ziku_driver_build,RiderItems.ziku_driver_exaid,RiderItems.ziku_driver_ghost,RiderItems.ziku_driver_drive,RiderItems.ziku_driver_gaim,RiderItems.ziku_driver_wizard,RiderItems.ziku_driver_fourze,RiderItems.ziku_driver_ooo,RiderItems.ziku_driver_w,RiderItems.blanknoitem,RiderItems.ziku_driver_deno,RiderItems.ziku_driver_kabuto,RiderItems.ziku_driver_hibiki,RiderItems.ziku_driver_blade,RiderItems.ziku_driver_faiz,RiderItems.ziku_driver_ryuki,RiderItems.ziku_driver_agito,RiderItems.ziku_driver_kuuga,RiderItems.ziku_driver_genm,RiderItems.ziku_driver_genm};
 				
 				
 				armorModel.belt=stack;

@@ -21,10 +21,8 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class item_zi_oarmor extends ItemArmor implements IHasModel
 {
 
-	public static final String[] CoreName= new String[] {"","_bike"};
-	
-	public static final String[] paradoxCoreName= new String[] {"","_bike"};
-	
+	public static final String[] CoreName= new String[] {"","_decade"};
+
 	
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
 	public String armorNamePrefix;
@@ -64,8 +62,11 @@ public class item_zi_oarmor extends ItemArmor implements IHasModel
 					String rider = ((item_zikudriver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider;
 				
 					
+					if (item_zikudriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==1){
+						return Refercence.MODID+":textures/armor/"+item_zikudriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+"_decade_ver"+"_1.png";
+						}else{
 						return Refercence.MODID+":textures/armor/"+item_zikudriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+"_1.png";
-					
+						}
 
 				}
 				return Refercence.MODID+":textures/armor/blank.png";

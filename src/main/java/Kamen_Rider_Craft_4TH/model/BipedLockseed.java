@@ -218,8 +218,11 @@ public class BipedLockseed extends ModelBiped
 
 					}
 				}else if (stack.getItem() instanceof item_zikudriver){
+					if (item_zikudriver.get_core(stack, "1")==1){
+						Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Refercence.MODID+":textures/armor/"+item_zikudriver.get_lock(stack)+"_decade_ver"+"_2.png"));
+						}else{
 						Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Refercence.MODID+":textures/armor/"+item_zikudriver.get_lock(stack)+"_2.png"));
-
+						}
 				}else if (stack.getItem() instanceof item_ex_aiddriver){
 					
 				

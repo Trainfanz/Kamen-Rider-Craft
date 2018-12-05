@@ -2471,7 +2471,7 @@ public class RiderItems {
 	public static Item zi_o_ridewatch = new Item_ridewatches(0, 0,"zi_o_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item geiz_ridewatch = new Item_ridewatches(0, 0,"geiz_ridewatch").setCreativeTab(Tabs.tabzi_o);
 
-	public static Item build_ridewatch = new Item_ridewatches(1, 1,"build_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item build_ridewatch = new Item_ridewatches(1, 1,"build_ridewatch",true).setCreativeTab(Tabs.tabzi_o);
 	public static Item cross_z_ridewatch = new Item_ore("cross_z_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item exaid_ridewatch = new Item_ridewatches(1, 2,"exaid_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item genm_ridewatch = new Item_ridewatches(1, 19,"genm_ridewatch").setCreativeTab(Tabs.tabzi_o);
@@ -2483,6 +2483,7 @@ public class RiderItems {
 	public static Item fourze_ridewatch = new Item_ridewatches(1, 7,"fourze_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item ooo_ridewatch = new Item_ridewatches(1, 8,"ooo_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item w_ridewatch = new Item_ridewatches(1, 9,"w_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item decade_ridewatch = new Item_ridewatches(0, 20,"decade_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item kiva_ridewatch = new Item_ridewatches(1, 10,"kiva_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item deno_ridewatch = new Item_ridewatches(1, 11,"deno_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item kabuto_ridewatch = new Item_ridewatches(1, 12,"kabuto_ridewatch").setCreativeTab(Tabs.tabzi_o);
