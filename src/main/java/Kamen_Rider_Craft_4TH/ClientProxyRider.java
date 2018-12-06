@@ -7,6 +7,7 @@ import Kamen_Rider_Craft_4TH.mobs.EntityAnkh;
 import Kamen_Rider_Craft_4TH.mobs.EntityChronos;
 import Kamen_Rider_Craft_4TH.mobs.EntityLazer;
 import Kamen_Rider_Craft_4TH.mobs.EntityPoppy;
+import Kamen_Rider_Craft_4TH.mobs.Entity_kodama_suika_arms;
 import Kamen_Rider_Craft_4TH.mobs.RenderRiderMob;
 import Kamen_Rider_Craft_4TH.mobs.RenderRiderMob2;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_BloodStalk;
@@ -36,6 +37,7 @@ import Kamen_Rider_Craft_4TH.mobs.bikes.EntityMachineBuilder;
 import Kamen_Rider_Craft_4TH.model.MobWithBeltModel;
 import Kamen_Rider_Craft_4TH.model.ModelAnkh;
 import Kamen_Rider_Craft_4TH.model.ModelPoppy;
+import Kamen_Rider_Craft_4TH.model.Model_kodama_suika_arms;
 import Kamen_Rider_Craft_4TH.model.Model_lazer_bike;
 import Kamen_Rider_Craft_4TH.model.Model_machine_builder;
 import Kamen_Rider_Craft_4TH.model.tokuMobModel;
@@ -75,6 +77,7 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(EntityPoppy.class, new RenderRiderMob2(new ModelPoppy(), 0.5F,"textures/entities/poppy.png"));
 
 		RenderingRegistry.registerEntityRenderingHandler(Entity_another_build.class, new RenderRiderMob2(new tokuMobModel("another_build2"), 0.5F,"textures/entities/another_build.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_kodama_suika_arms.class, new RenderRiderMob2(new Model_kodama_suika_arms(), 0.5F,"textures/entities/kodama_suika_arms.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_evolt.class, new RenderRiderMob2(new MobWithBeltModel(RiderItems.evol_driver_evol,"evolto2"), 0.5F,"textures/entities/evolto.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_BloodStalk.class, new RenderRiderMob2(new tokuMobModel("blood_stalk_2"), 0.5F,"textures/entities/blood_stalk_1.png"));
