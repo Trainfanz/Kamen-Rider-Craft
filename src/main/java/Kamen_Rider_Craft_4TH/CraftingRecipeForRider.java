@@ -728,7 +728,7 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":drill_crusher_crusher"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.drill_crusher_crusher,1), "ama","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.base_sword, 'm',  RiderItems.build_ridewatch);		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":faiz_phone_x"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.faiz_phone_x,1), "ama","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.base_sword, 'm',  RiderItems.faiz_ridewatch);		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":daidaimaru_2"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.daidaimaru,1), "ama","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.base_sword, 'm',  RiderItems.gaim_ridewatch);		
-
+		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":ride_heisaber"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ride_heisaber,1), "ama","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.base_sword, 'm',  RiderItems.decade_ridewatch);		
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":amazonshead"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.amazonshead,1), "aaa","a a", 'a', RiderItems.amazon_cell_vial);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":amazonstroso"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.amazonstroso,1), "a a","aaa","aaa", 'a', RiderItems.amazon_cell_vial);
