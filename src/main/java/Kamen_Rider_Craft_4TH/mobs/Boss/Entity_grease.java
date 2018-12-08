@@ -96,12 +96,17 @@ public class Entity_grease extends EntityBossBase
 	{
 		if (!this.world.isRemote){
 
-			this.dropItem(RiderItems.smash_bottle, 4);
 			this.dropItem(RiderItems.sclashjelly, 1);
 			switch (this.rand.nextInt(5))
 			{
 			case 0:
-				this.dropItem(RiderItems.pandora_panel_blue, 1);
+				this.dropItem(RiderItems.fukurou_full_bottle, 1);
+				break;
+			case 1:
+				this.dropItem(RiderItems.castle_full_bottle, 1);
+				break;
+			case 2:
+				this.dropItem(RiderItems.kuwagata_full_bottle, 1);
 				break;
 			}
 		}

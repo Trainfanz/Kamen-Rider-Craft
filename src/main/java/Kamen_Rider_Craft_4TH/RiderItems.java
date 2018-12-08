@@ -2464,6 +2464,7 @@ public class RiderItems {
 	public static Item zikan_zax = new Item_sword_gun("zikan_zax",Tabs.musou_saber,RiderItems.energy).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item drill_crusher_crusher = new ItemBaseSword("drill_crusher_crusher",Tabs.den_denaxe).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item faiz_phone_x = new Item_gun("faiz_phone_x",Tabs.den_dengu,RiderItems.energy).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
+	public static Item ride_heisaber = new ItemBaseSword("ride_heisaber",Tabs.den_denaxe).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
             
 	public static Item zi_o_ridewatch = new Item_ridewatches(0, 0,"zi_o_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item geiz_ridewatch = new Item_ridewatches(0, 0,"geiz_ridewatch").setCreativeTab(Tabs.tabzi_o);
