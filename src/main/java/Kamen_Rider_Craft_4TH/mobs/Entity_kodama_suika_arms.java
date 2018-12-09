@@ -69,7 +69,7 @@ public class Entity_kodama_suika_arms extends EntityAnimal
 	public void onDeath(DamageSource cause)
 	{
 		if (!this.world.isRemote){
-			this.dropItem(RiderItems.suika_lockseed, 1);
+			this.dropItem(RiderItems.kodama_suika_arms, 1);
 		}
 	}
 

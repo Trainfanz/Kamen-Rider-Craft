@@ -15,8 +15,8 @@ public class Entityshocker_combatman extends Entity_base_henchmen
 	{
 		if (!this.world.isRemote){   
 
-			this.dropItem(RiderItems.rider_circuit, 3);
-			switch (this.rand.nextInt(25))
+			this.dropItem(RiderItems.rider_circuit, 2);
+			switch (this.rand.nextInt(15))
 			{   		   	    		
 			case 0:
 				this.dropItem(RiderItems.typhoon_core, 1);

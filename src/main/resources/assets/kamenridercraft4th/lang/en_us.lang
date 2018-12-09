@@ -26,6 +26,7 @@ entity.BloodStalkMob.name=Blood Stalk
 entity.NeedleSmashMob.name=Needle Smash
 entity.greaseMob.name=Kamen Rider Grease
 entity.BuildMob.name=Kamen Rider Build (Full Potential)
+entity.kodama_suika_armsMob.name=Kodama Suika Arms
 
 
 itemGroup.tabkuuga=Kamen Rider Kuuga
@@ -1874,6 +1875,7 @@ item.genm_ridewatch.name=Genm Ridewatch
 item.cross_z_ridewatch.name=Cross-Z Ridewatch
 item.beast_ridewatch.name=Beast Ridewatch
 
+item.kodama_suika_arms.name=Kodama Suika Arms
 item.another_build_ridewatch.name=Another Build Ridewatch
         
                 

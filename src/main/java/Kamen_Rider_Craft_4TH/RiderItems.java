@@ -120,6 +120,7 @@ import Kamen_Rider_Craft_4TH.item.wizard.item_wizardarmor;
 import Kamen_Rider_Craft_4TH.item.wizard.item_wizardarmor2;
 import Kamen_Rider_Craft_4TH.item.wizard.item_wizarddriver;
 import Kamen_Rider_Craft_4TH.item.zi_o.Item_ridewatches;
+import Kamen_Rider_Craft_4TH.item.zi_o.item_kodamawatch;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zi_oarmor;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zi_oarmor2;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
@@ -2492,7 +2493,9 @@ public class RiderItems {
 	public static Item agito_ridewatch = new Item_ridewatches(1, 17,"agito_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item kuuga_ridewatch = new Item_ridewatches(1, 18,"kuuga_ridewatch").setCreativeTab(Tabs.tabzi_o);
             
-	public static Item another_build_ridewatch = new Item_ore("another_build_ridewatch").setCreativeTab(Tabs.tabzi_o);        
+	public static Item kodama_suika_arms = new item_kodamawatch("kodama_suika_arms").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_build_ridewatch = new Item_ore("another_build_ridewatch").setCreativeTab(Tabs.tabzi_o);  
+	
 
 	public static Item ziku_driver_build = new Item_ore("ziku_driver_build");
 	public static Item ziku_driver_exaid = new Item_ore("ziku_driver_exaid");
