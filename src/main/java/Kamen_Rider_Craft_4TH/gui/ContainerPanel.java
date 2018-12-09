@@ -1,6 +1,8 @@
 package Kamen_Rider_Craft_4TH.gui;
 
+import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.item.item_panel;
+import Kamen_Rider_Craft_4TH.item.build.Item_full_bottle;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;
@@ -34,7 +36,7 @@ public class ContainerPanel extends Container {
         addSlotToContainer(new SlotItemHandler(handler, index, x, y) {
             @Override
             public boolean isItemValid(@Nonnull ItemStack stack) {
-                return !(stack.getItem() instanceof item_panel);
+                return (stack.getItem() instanceof Item_full_bottle&stack.getItem()!=RiderItems.evol_trigger&stack.getItem()!=RiderItems.hazard_trigger);
             }
         });
     }

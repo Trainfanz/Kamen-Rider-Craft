@@ -265,10 +265,10 @@ public class RiderItems {
 	public static Item unfinished_kamen_rider_chronicle_gashat = new Item_ore("unfinished_kamen_rider_chronicle_gashat").setCreativeTab(Tabs.tabex_aid);
 	public static Block gemdeus_stone = new ore_block("gemdeus_stone",Material.ROCK, unfinished_kamen_rider_chronicle_gashat, 3).setHardness(9.9F).setCreativeTab(Tabs.tabex_aid);
 
-	public static Item full_bottle = new Item_ore("full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item full_bottle = new Item_full_bottle(0, "0","full_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Block pandora_box = new ore_block("pandora_box",Material.ROCK, full_bottle, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
 
-	public static Item sclashjelly = new Item_ore("sclashjelly").setCreativeTab(Tabs.tabbuild);
+	public static Item sclashjelly = new Item_full_bottle(0, "0","sclashjelly").setCreativeTab(Tabs.tabbuild);
 	public static Block pandora_box_hellrock = new ore_block("pandora_box_hellrock",Material.ROCK, sclashjelly, 3).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
 
 	public static Item unfinished_gear = new Item_ore("unfinished_gear").setCreativeTab(Tabs.tabbuild);
@@ -2166,7 +2166,7 @@ public class RiderItems {
 			
 	//build
 			
-	public static Item smash_bottle = new Item_ore("smash_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item smash_bottle = new Item_full_bottle(0, "0","smash_bottle").setCreativeTab(Tabs.tabbuild);
 			
 	public static Item drill_crusher = new Item_sword_gun("drill_crusher",Tabs.musou_saber,RiderItems.energy).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 	public static Item hawk_gatlinger = new Item_gun("hawk_gatlinger",Tabs.gashacon_magnum_gun,RiderItems.energy).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
@@ -2302,24 +2302,24 @@ public class RiderItems {
 	public static Item medal_full_bottle = new Item_full_bottle(9, "1","medal_full_bottle",0).setCreativeTab(Tabs.tabbuild);
 	public static Item usb_memory_full_bottle = new Item_full_bottle(12, "1","usb_memory_full_bottle",0).setCreativeTab(Tabs.tabbuild);
 	public static Item parka_full_bottle = new Item_full_bottle(17, "1","parka_full_bottle",0).setCreativeTab(Tabs.tabbuild);
-	public static Item low_rabbit_full_bottle = new Item_ore("low_rabbit_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item low_rabbit_full_bottle = new Item_full_bottle(0, "0","low_rabbit_full_bottle").setCreativeTab(Tabs.tabbuild);
 			
-	public static Item ex_aid_full_bottle = new Item_ore("ex_aid_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item ghost_full_bottle = new Item_ore("ghost_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item drive_full_bottle = new Item_ore("drive_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item gaim_full_bottle = new Item_ore("gaim_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item wizard_full_bottle = new Item_ore("wizard_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item fourze_full_bottle = new Item_ore("fourze_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item ex_aid_full_bottle = new Item_full_bottle(0, "0","ex_aid_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item ghost_full_bottle = new Item_full_bottle(0, "0","ghost_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item drive_full_bottle = new Item_full_bottle(0, "0","drive_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item gaim_full_bottle = new Item_full_bottle(0, "0","gaim_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item wizard_full_bottle = new Item_full_bottle(0, "0","wizard_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item fourze_full_bottle = new Item_full_bottle(0, "0","fourze_full_bottle").setCreativeTab(Tabs.tabbuild);
 
-	public static Item dragon_sclashjelly = new Item_ore("dragon_sclashjelly").setCreativeTab(Tabs.tabbuild);
-	public static Item robot_sclashjelly = new Item_ore("robot_sclashjelly").setCreativeTab(Tabs.tabbuild);
-	public static Item crocodile_crack_full_bottle = new Item_ore("crocodile_crack_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item dragon_sclashjelly = new Item_full_bottle(0, "0","dragon_sclashjelly").setCreativeTab(Tabs.tabbuild);
+	public static Item robot_sclashjelly = new Item_full_bottle(0, "0","robot_sclashjelly").setCreativeTab(Tabs.tabbuild);
+	public static Item crocodile_crack_full_bottle = new Item_full_bottle(0, "0","crocodile_crack_full_bottle").setCreativeTab(Tabs.tabbuild);
 
 	public static Item bat_full_bottle = new Item_full_bottle(0, "4","bat_full_bottle",0).setCreativeTab(Tabs.tabbuild);
 	public static Item cobra_full_bottle = new Item_full_bottle(1, "4","cobra_full_bottle",0).setCreativeTab(Tabs.tabbuild);
-	public static Item fukurou_full_bottle = new Item_ore("fukurou_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item kuwagata_full_bottle = new Item_ore("kuwagata_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item castle_full_bottle = new Item_ore("castle_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item fukurou_full_bottle = new Item_full_bottle(0, "0","fukurou_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item kuwagata_full_bottle = new Item_full_bottle(0, "0","kuwagata_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item castle_full_bottle = new Item_full_bottle(0, "0","castle_full_bottle").setCreativeTab(Tabs.tabbuild);
 
 	public static Item gear_engine = new Item_full_bottle(0, "5","gear_engine",0).setCreativeTab(Tabs.tabbuild);
 	public static Item gear_remocon = new Item_full_bottle(1, "5","gear_remocon",0).setCreativeTab(Tabs.tabbuild);
@@ -2327,33 +2327,33 @@ public class RiderItems {
 	public static Item gear_blue = new Item_full_bottle(3, "5","gear_blue",0).setCreativeTab(Tabs.tabbuild);
 			
 	public static Item cobra_evol_bottle = new Item_full_bottle(0, "6","cobra_evol_bottle",0).setCreativeTab(Tabs.tabbuild);
-	public static Item rider_system_evol_bottle = new Item_ore("rider_system_evol_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item rider_system_evol_bottle = new Item_full_bottle(0, "0","rider_system_evol_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item dragon_evol_bottle = new Item_full_bottle(1, "6","dragon_evol_bottle",0).setCreativeTab(Tabs.tabbuild);
 	public static Item rabbit_evol_bottle = new Item_full_bottle(2, "6","rabbit_evol_bottle",0).setCreativeTab(Tabs.tabbuild);
 
 	public static Item dragon_magma_full_bottle = new Item_full_bottle(1, "7","dragon_magma_full_bottle",0).setCreativeTab(Tabs.tabbuild);
 	public static Item dragon_evol_bottle_gold = new Item_full_bottle(2, "7","dragon_evol_bottle_gold",0).setCreativeTab(Tabs.tabbuild);
 	public static Item muscle_galaxy_full_bottle = new Item_full_bottle(3, "7","muscle_galaxy_full_bottle",0).setCreativeTab(Tabs.tabbuild);
-	public static Item north_blizzard_full_bottle = new Item_ore("north_blizzard_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item prime_rogue_full_bottle = new Item_ore("prime_rogue_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item north_blizzard_full_bottle = new Item_full_bottle(0, "0","north_blizzard_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item prime_rogue_full_bottle = new Item_full_bottle(0, "0","prime_rogue_full_bottle").setCreativeTab(Tabs.tabbuild);
 			
 	public static Item evol_trigger = new Item_full_bottle(3, "6","evol_trigger",0).setCreativeTab(Tabs.tabbuild);
 			
-	public static Item lost_bat_full_bottle = new Item_ore("lost_bat_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item lost_cobra_full_bottle = new Item_ore("lost_cobra_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item lost_castle_full_bottle = new Item_ore("lost_castle_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item lost_kuwagata_full_bottle = new Item_ore("lost_kuwagata_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item lost_fukurou_full_bottle = new Item_ore("lost_fukurou_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item lost_hammer_full_bottle = new Item_ore("lost_hammer_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item lost_shimauma_full_bottle = new Item_ore("lost_shimauma_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item lost_spanner_full_bottle = new Item_ore("lost_spanner_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item lost_hasami_full_bottle = new Item_ore("lost_hasami_full_bottle").setCreativeTab(Tabs.tabbuild);
-	public static Item lost_cd_full_bottle = new Item_ore("lost_cd_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item lost_bat_full_bottle = new Item_full_bottle(0, "0","lost_bat_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item lost_cobra_full_bottle = new Item_full_bottle(0, "0","lost_cobra_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item lost_castle_full_bottle = new Item_full_bottle(0, "0","lost_castle_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item lost_kuwagata_full_bottle = new Item_full_bottle(0, "0","lost_kuwagata_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item lost_fukurou_full_bottle = new Item_full_bottle(0, "0","lost_fukurou_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item lost_hammer_full_bottle = new Item_full_bottle(0, "0","lost_hammer_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item lost_shimauma_full_bottle = new Item_full_bottle(0, "0","lost_shimauma_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item lost_spanner_full_bottle = new Item_full_bottle(0, "0","lost_spanner_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item lost_hasami_full_bottle = new Item_full_bottle(0, "0","lost_hasami_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item lost_cd_full_bottle = new Item_full_bottle(0, "0","lost_cd_full_bottle").setCreativeTab(Tabs.tabbuild);
 	
 	public static Item golden_bangle = new Item_ore("golden_bangle").setCreativeTab(Tabs.tabbuild);
-	public static Item Pandora_bottle = new Item_ore("pandora_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item Pandora_bottle = new Item_full_bottle(0, "0","pandora_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item nebula_gas_sample = new Item_ore("nebula_gas_sample").setCreativeTab(Tabs.tabbuild);
-	public static Item genius_full_bottle_blank = new Item_ore("genius_full_bottle_blank").setCreativeTab(Tabs.tabbuild);
+	public static Item genius_full_bottle_blank = new Item_full_bottle(0, "0","genius_full_bottle_blank").setCreativeTab(Tabs.tabbuild);
 			
 	public static Item build_driver_rabbit = new Item_ore("build_driver_rabbit");
 	public static Item build_driver_gorilla = new Item_ore("build_driver_gorilla");

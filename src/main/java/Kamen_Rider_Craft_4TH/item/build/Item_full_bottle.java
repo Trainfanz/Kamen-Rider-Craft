@@ -27,21 +27,30 @@ public class Item_full_bottle extends Item implements IHasModel
 		super();
 		this.setHasSubtypes(true);
 		this.setMaxDamage(0);
+		num=NUM;
+		num2=NUM2;
+	    setUnlocalizedName(name);
+        setRegistryName(name);
+        TokuCraft_core.ITEMS.add(this);
+        for (int i1 = 0; i1 < NUM3; ++i1)
+        {
+        	purifyer_block.BOTTLE.add(this);
+        }
+	}
+
+	public Item_full_bottle(int NUM ,String NUM2,String name)
+	{
+		super();
+		this.setHasSubtypes(true);
+		this.setMaxDamage(0);
 
 		num=NUM;
 		num2=NUM2;
 	    setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
-        
-        for (int i1 = 0; i1 < NUM3; ++i1)
-        {
-        	purifyer_block.BOTTLE.add(this);
-        }
-        
-
 	}
-
+	
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
