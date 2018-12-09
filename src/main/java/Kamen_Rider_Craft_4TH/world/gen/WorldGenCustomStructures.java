@@ -36,7 +36,7 @@ public class WorldGenCustomStructures implements IWorldGenerator
 			case 1:
 				break;
 			case 0:
-				generateStructure(ROGUE_BASE, world, random, chunkX, chunkZ,11, 1500, Blocks.DIRT, BiomePlains.class,BiomeSavanna.class,BiomeForest.class,BiomeHills.class);
+				generateStructure(ROGUE_BASE, world, random, chunkX, chunkZ,11, 1000, Blocks.DIRT, BiomePlains.class,BiomeSavanna.class,BiomeForest.class,BiomeHills.class);
 				generateStructure(PANDORA_TOWER, world, random, chunkX, chunkZ,-1, 1500, Blocks.DIRT, BiomePlains.class,BiomeSavanna.class,BiomeForest.class,BiomeHills.class);
 				break;
 			case -1:
@@ -47,8 +47,8 @@ public class WorldGenCustomStructures implements IWorldGenerator
 	
 	private void generateStructure(WorldGenerator generator, World world, Random random, int chunkX, int chunkZ, int PosY, int chance, Block topBlock,Class<? extends Biome>... classes) {
 		List<Class<? extends Biome>> classesList = Lists.newArrayList(classes);
-		int x = (chunkX * 16);
-		int z = (chunkZ * 16);
+		int x = (chunkX * 16+ random.nextInt(15));
+		int z = (chunkZ * 16+ random.nextInt(15));
 		int y = calculateGenerationHeight(world, x, z, topBlock);
 		BlockPos pos = new BlockPos (x,y - PosY ,z);
 		
