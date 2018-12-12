@@ -8,6 +8,7 @@ import javax.annotation.Nullable;
 
 import com.google.common.collect.Multimap;
 
+import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.block.Block;
@@ -76,8 +77,8 @@ public class Item_kuuga_mode_change_gun_im extends ItemBow  implements IHasModel
 	                }else if (entityIn.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
 
 						if (entityIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_kuugadriver){
-							if (item_kuugadriver.get_core(entityIn.getItemStackFromSlot(EntityEquipmentSlot.FEET))>4)
-								return 1;
+							if (item_kuugadriver.get_Form_Item(entityIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).getBelt()==RiderItems.arcle_u||item_kuugadriver.get_Form_Item(entityIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).getBelt()==RiderItems.arcle_ru)
+									return 1;
 						}else{
 							return 0;
 						}

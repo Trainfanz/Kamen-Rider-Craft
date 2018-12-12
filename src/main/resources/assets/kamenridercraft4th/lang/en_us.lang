@@ -28,6 +28,9 @@ entity.greaseMob.name=Kamen Rider Grease
 entity.BuildMob.name=Kamen Rider Build (Full Potential)
 entity.kodama_suika_armsMob.name=Kodama Suika Arms
 
+effect.fly=Flying
+effect.fire_punch=Fire Punch
+effect.punch_boost=Punch Boost
 
 itemGroup.tabkuuga=Kamen Rider Kuuga
 itemGroup.tabagito=Kamen Rider Agito

@@ -100,15 +100,15 @@ import Kamen_Rider_Craft_4TH.item.kiva.item_kivaarmor2;
 import Kamen_Rider_Craft_4TH.item.kiva.item_kivadriver;
 import Kamen_Rider_Craft_4TH.item.kuuga.Item_kuuga_mode_change_gun_im;
 import Kamen_Rider_Craft_4TH.item.kuuga.Item_kuuga_mode_change_sword_im;
-import Kamen_Rider_Craft_4TH.item.kuuga.Item_kuuga_power;
-import Kamen_Rider_Craft_4TH.item.kuuga.item_kuugaarmor;
-import Kamen_Rider_Craft_4TH.item.kuuga.item_kuugaarmor2;
 import Kamen_Rider_Craft_4TH.item.kuuga.item_kuugadriver;
 import Kamen_Rider_Craft_4TH.item.ooo.Itemmedal;
 import Kamen_Rider_Craft_4TH.item.ooo.Itemo_scanner;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOarmor;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOarmor2;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_armor;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_armor2;
 import Kamen_Rider_Craft_4TH.item.ryuki.Item_advent_cards;
 import Kamen_Rider_Craft_4TH.item.ryuki.Item_vent;
 import Kamen_Rider_Craft_4TH.item.ryuki.item_ryukiarmor;
@@ -133,6 +133,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
+import net.minecraft.init.MobEffects;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
@@ -163,10 +164,6 @@ public class RiderItems {
 	//public static Item base_gun = new Item_ore("base_gun").setCreativeTab(Tabs.tabmisc);
 
 	//ore blocks
-	
-	public static Item kuuga_growing = new Item_kuuga_power("kuuga_growing",0).setCreativeTab(Tabs.tabkuuga);
-	public static Block stone_kuuga= new ore_block("stone_kuuga",Material.ROCK, kuuga_growing, 2).setHardness(9.9F).setCreativeTab(Tabs.tabkuuga);
-
 	public static Item agito_of_seed = new Item_ore("agito_of_seed").setCreativeTab(Tabs.tabagito);
 	public static Block stone_agito= new ore_block("stone_agito",Material.ROCK, agito_of_seed, 2).setHardness(9.9F).setCreativeTab(Tabs.tabagito);
 
@@ -392,30 +389,92 @@ public class RiderItems {
 	public static Item pegasus_bowgun = new Item_kuuga_mode_change_gun_im("pegasus_bowgun",Tabs.birth_buster,RiderItems.energy).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
 	public static Item titan_sword = new Item_kuuga_mode_change_sword_im("titan_sword",Tabs.gashacon_sparrow_arrow).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
 
-
-	public static Item kuugahead = new item_kuugaarmor("kuugahead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
-	public static Item kuugatroso = new item_kuugaarmor2("kuugatroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
-	public static Item kuugalegs = new item_kuugaarmor2("kuugalegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
-
-	public static Item arcle = new item_kuugadriver("arcle",ArmorMaterial.DIAMOND, 4,"kuuga").setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
+	public static Item arcle_r = new Item_ore("arcle_r");
 	public static Item arcle_b = new Item_ore("arcle_b");
 	public static Item arcle_gr = new Item_ore("arcle_gr");
 	public static Item arcle_p = new Item_ore("arcle_p");
 	public static Item arcle_u = new Item_ore("arcle_u");
 	public static Item arcle_ru = new Item_ore("arcle_ru");
+	
+	public static Item kuuga_growing  = new Item_form_change("kuuga_growing",item_kuugadriver.class,arcle_r,"_growing"
+			,new PotionEffect(MobEffects.WEAKNESS, 5, 2,true,false)).setCreativeTab(Tabs.tabkuuga);
+	
+	public static Item kuuga_mighty = new Item_form_change("kuuga_mighty",item_kuugadriver.class,arcle_r,"_mighty"
+			,new PotionEffect(TokuCraft_core.PUNCH_BOOST_POTION, 5, 4,true,false)).setCreativeTab(Tabs.tabkuuga);
+	
+	public static Item kuuga_dragon = new Item_form_change("kuuga_dragon",item_kuugadriver.class,arcle_b,"_dragon"
+			,new PotionEffect(MobEffects.HASTE, 5, 0,true,false)
+			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)).setCreativeTab(Tabs.tabkuuga);
+	
+	public static Item kuuga_pegasus = new Item_form_change("kuuga_pegasus",item_kuugadriver.class,arcle_gr,"_pegasus"
+			,new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false)).setCreativeTab(Tabs.tabkuuga);
+	
+	public static Item kuuga_titan = new Item_form_change("kuuga_titan",item_kuugadriver.class,arcle_p,"_titan"
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false)
+			,new PotionEffect(MobEffects.SLOWNESS, 5, 0,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)).setCreativeTab(Tabs.tabkuuga);
+	
+	public static Item kuuga_rising_mighty = new Item_form_change("kuuga_rising_mighty",item_kuugadriver.class,arcle_u,"_rising_mighty"
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false)
+			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)
+			,new PotionEffect(TokuCraft_core.PUNCH_BOOST_POTION, 5, 6,true,false)).setCreativeTab(Tabs.tabkuuga);
+	
+	public static Item kuuga_rising_dragon = new Item_form_change("kuuga_rising_dragon",item_kuugadriver.class,arcle_u,"_rising_dragon"
+			,new PotionEffect(MobEffects.HASTE, 5, 2,true,false)
+			,new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)).setCreativeTab(Tabs.tabkuuga);
+	
+	public static Item kuuga_rising_pegasus = new Item_form_change("kuuga_rising_pegasus",item_kuugadriver.class,arcle_u,"_rising_pegasus"
+			,new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 4,true,false)
+			,new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)).setCreativeTab(Tabs.tabkuuga);
+	
+	public static Item kuuga_rising_titan = new Item_form_change("kuuga_rising_titan",item_kuugadriver.class,arcle_u,"_rising_titan"
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false)
+			,new PotionEffect(MobEffects.SLOWNESS, 5, 0,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false)).setCreativeTab(Tabs.tabkuuga);
+	
+	public static Item kuuga_amazing_mighty = new Item_form_change("kuuga_amazing_mighty",item_kuugadriver.class,arcle_u,"_amazing_mighty"
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false)
+			,new PotionEffect(MobEffects.SPEED, 5, 2,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false)
+			,new PotionEffect(TokuCraft_core.PUNCH_BOOST_POTION, 5, 8,true,false)).setCreativeTab(Tabs.tabkuuga);
+	
+	public static Item kuuga_ultimate = new Item_form_change("kuuga_ultimate",item_kuugadriver.class,arcle_u,"_ultimate"
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 4,true,false)
+			,new PotionEffect(MobEffects.SPEED, 5, 3,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false)
+			,new PotionEffect(TokuCraft_core.PUNCH_BOOST_POTION, 5, 9,true,false)
+			,new PotionEffect(TokuCraft_core.FIRE_PUNCH_POTION, 5, 4,true,false)).setCreativeTab(Tabs.tabkuuga);
+	
+	public static Item kuuga_rising_ultimate = new Item_form_change("kuuga_rising_ultimate",item_kuugadriver.class,arcle_ru,"_rising_ultimate"
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 6,true,false)
+			,new PotionEffect(MobEffects.SPEED, 5, 4,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 4,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 5,true,false)
+			,new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false)
+			,new PotionEffect(TokuCraft_core.PUNCH_BOOST_POTION, 5, 10,true,false)).setCreativeTab(Tabs.tabkuuga);
+	
+	public static Item kuuga_super_rising_ultimate = new Item_form_change("kuuga_super_rising_ultimate",item_kuugadriver.class,arcle_ru,"_super_rising_ultimate"
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 8,true,false)
+			,new PotionEffect(MobEffects.SPEED, 5, 5,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 6,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 7,true,false)
+			,new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false)
+			,new PotionEffect(TokuCraft_core.PUNCH_BOOST_POTION, 5, 12,true,false)).setCreativeTab(Tabs.tabkuuga);
+	
+	public static Item kuugahead = new item_rider_armor("kuugahead",item_kuugadriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
+	public static Item kuugatroso = new item_rider_armor2("kuugatroso",item_kuugadriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
+	public static Item kuugalegs = new item_rider_armor2("kuugalegs",item_kuugadriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
 
-	public static Item kuuga_mighty = new Item_kuuga_power("kuuga_mighty",1).setCreativeTab(Tabs.tabkuuga);
-	public static Item kuuga_dragon = new Item_kuuga_power("kuuga_dragon",2).setCreativeTab(Tabs.tabkuuga);
-	public static Item kuuga_pegasus = new Item_kuuga_power("kuuga_pegasus",3).setCreativeTab(Tabs.tabkuuga);
-	public static Item kuuga_titan = new Item_kuuga_power("kuuga_titan",4).setCreativeTab(Tabs.tabkuuga);
-	public static Item kuuga_rising_mighty = new Item_kuuga_power("kuuga_rising_mighty",5).setCreativeTab(Tabs.tabkuuga);
-	public static Item kuuga_rising_dragon = new Item_kuuga_power("kuuga_rising_dragon",6).setCreativeTab(Tabs.tabkuuga);
-	public static Item kuuga_rising_pegasus = new Item_kuuga_power("kuuga_rising_pegasus",7).setCreativeTab(Tabs.tabkuuga);
-	public static Item kuuga_rising_titan = new Item_kuuga_power("kuuga_rising_titan",8).setCreativeTab(Tabs.tabkuuga);
-	public static Item kuuga_amazing_mighty = new Item_kuuga_power("kuuga_amazing_mighty",9).setCreativeTab(Tabs.tabkuuga);
-	public static Item kuuga_ultimate = new Item_kuuga_power("kuuga_ultimate",10).setCreativeTab(Tabs.tabkuuga);
-	public static Item kuuga_rising_ultimate = new Item_kuuga_power("kuuga_rising_ultimate",11).setCreativeTab(Tabs.tabkuuga);
-	public static Item kuuga_super_rising_ultimate = new Item_kuuga_power("kuuga_super_rising_ultimate",12).setCreativeTab(Tabs.tabkuuga);
+	public static Item arcle = new item_kuugadriver("arcle",ArmorMaterial.DIAMOND, 4,"kuuga",(Item_form_change) kuuga_mighty).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
+	
+	public static Block stone_kuuga= new ore_block("stone_kuuga",Material.ROCK, kuuga_growing, 2).setHardness(9.9F).setCreativeTab(Tabs.tabkuuga);
+
 
 	//agito
 	public static Item flame_saber_charge = new Item_ore("flame_saber_charge");

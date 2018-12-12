@@ -4,6 +4,7 @@ package Kamen_Rider_Craft_4TH.item.kuuga;
 
 import javax.annotation.Nullable;
 
+import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.kuuga.item_kuugadriver;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
@@ -60,7 +61,7 @@ public class Item_kuuga_mode_change_sword_im extends ItemSword implements IHasMo
 	                }else if (entityIn.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
 
 					if (entityIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_kuugadriver){
-						if (item_kuugadriver.get_core(entityIn.getItemStackFromSlot(EntityEquipmentSlot.FEET))>4)
+						if (item_kuugadriver.get_Form_Item(entityIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).getBelt()==RiderItems.arcle_u||item_kuugadriver.get_Form_Item(entityIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).getBelt()==RiderItems.arcle_ru)
 							 return 1;
 					}else{
 						return 0;
