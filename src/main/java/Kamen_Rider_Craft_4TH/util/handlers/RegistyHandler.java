@@ -64,10 +64,14 @@ public class RegistyHandler {
 		if(event.player.isPotionActive(TokuCraft_core.FIRE_PUNCH_POTION)){
 			if(event.player.getHeldItemMainhand().isEmpty())
 			{
-				if (event.player.getLastAttackedEntity()!=null){
-					event.player.getLastAttackedEntity().setFire(10);
+				if (event.player.isSwingInProgress){
+					if (event.player.getLastAttackedEntity()!=null){
+						if (event.player.getAttackingEntity()==event.player.getLastAttackedEntity()){
+						event.player.getLastAttackedEntity().setFire(10);
 					}
-				}
+					}
+			}
+			}	
 		}
 	}
 
