@@ -522,7 +522,7 @@ public class RiderItems {
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false)
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false)).setCreativeTab(Tabs.tabagito);
 	
-	public static Item alter_ring = new item_agitodriver("arcle",ArmorMaterial.DIAMOND, 4,"agito",(Item_form_change) agito_ground).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
+	public static Item alter_ring = new item_agitodriver("alter_ring",ArmorMaterial.DIAMOND, 4,"agito",(Item_form_change) agito_ground).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 	
 	
 	public static Item meta_factor_exceed = new Item_ore("meta_factor_exceed");
@@ -583,7 +583,7 @@ public class RiderItems {
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false)
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
 	
-	public static Item g4_x_belt = new item_agitodriver("g4_belt",ArmorMaterial.DIAMOND, 4,"g4_x",(Item_form_change) g4x).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
+	public static Item g4_x_belt = new item_agitodriver("g4_x_belt",ArmorMaterial.DIAMOND, 4,"g4_x",(Item_form_change) g4x).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
 
 	
 	public static Item g1 = new Item_form_change("g1",item_agitodriver.class,blanknoitem,""
@@ -1846,12 +1846,6 @@ public class RiderItems {
 			public static Item hero_lockseed = new Item_ore("hero_lockseed").setCreativeTab(Tabs.tabGaim);
 			
 			public static Item drained_suika_lockseed = new Item_ore("drained_suika_lockseed").setCreativeTab(Tabs.tabGaim);
-
-
-			//public static Item sid_lockseed = new item_sid_lockseed().setMaxStackSize(1).setUnlocalizedName("sid_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			//public static Item fake_donguri_lockseed = new fake_donguri(Tabs.apple_reflecter).setUnlocalizedName("fake_donguri_lockseed").setCreativeTab(Tabs.tabGaim);
-
 
 			//drive
 			public static Item handle_sword = new ItemBaseSword("handle_sword",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
