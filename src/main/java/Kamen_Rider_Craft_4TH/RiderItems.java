@@ -31,9 +31,6 @@ import Kamen_Rider_Craft_4TH.item.W.Item_metal_shaft;
 import Kamen_Rider_Craft_4TH.item.W.item_Warmor;
 import Kamen_Rider_Craft_4TH.item.W.item_Wdriver;
 import Kamen_Rider_Craft_4TH.item.W.item_warmor2;
-import Kamen_Rider_Craft_4TH.item.agito.Item_agito_power;
-import Kamen_Rider_Craft_4TH.item.agito.item_agitoarmor;
-import Kamen_Rider_Craft_4TH.item.agito.item_agitoarmor2;
 import Kamen_Rider_Craft_4TH.item.agito.item_agitodriver;
 import Kamen_Rider_Craft_4TH.item.amazons.item_amazonsarmor;
 import Kamen_Rider_Craft_4TH.item.amazons.item_amazonsarmor2;
@@ -484,9 +481,9 @@ public class RiderItems {
 	public static Item shining_caliber_summoned = new ItemBaseSword("shining_caliber_summoned",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 	public static Item shining_caliber = new ItemBaseSword("shining_caliber",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 
-	public static Item agitohead = new item_agitoarmor("agitohead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
-	public static Item agitotroso = new item_agitoarmor2("agitotroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
-	public static Item agitolegs = new item_agitoarmor2("agitolegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
+	public static Item agitohead = new item_rider_armor("agitohead",item_agitodriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
+	public static Item agitotroso = new item_rider_armor2("agitotroso",item_agitodriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
+	public static Item agitolegs = new item_rider_armor2("agitolegs",item_agitodriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
 
 	public static Item alter_ring_gr = new Item_ore("alter_ring_gr");
 	public static Item alter_ring_fl = new Item_ore("alter_ring_fl");

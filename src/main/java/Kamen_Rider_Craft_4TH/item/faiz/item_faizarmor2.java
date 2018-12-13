@@ -4,7 +4,6 @@ package Kamen_Rider_Craft_4TH.item.faiz;
 import javax.annotation.Nullable;
 
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
-import Kamen_Rider_Craft_4TH.item.agito.item_agitoarmor2;
 import Kamen_Rider_Craft_4TH.item.agito.item_agitodriver;
 import Kamen_Rider_Craft_4TH.model.tokuArmorModel;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
