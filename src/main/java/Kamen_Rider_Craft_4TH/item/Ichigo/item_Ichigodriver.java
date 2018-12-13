@@ -147,7 +147,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 										if (this.get_core(armor)==0){
 											if (player.getHeldItemMainhand().isEmpty())
 											{
-												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 20, 6,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 20, 4,true,false));
 											}
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED,20, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false));
@@ -158,7 +158,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 										if (this.get_core(armor)==0){
 											if (player.getHeldItemMainhand().isEmpty())
 											{
-												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 5,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 3,true,false));
 											}
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false));
@@ -169,7 +169,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 										if (this.get_core(armor)==0){
 											if (player.getHeldItemMainhand().isEmpty())
 											{
-												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 20, 7,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 20, 5,true,false));
 											}
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED,20, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST,20, 3,true,false));
@@ -182,7 +182,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 										if (this.get_core(armor)==0){
 											if (player.getHeldItemMainhand().isEmpty())
 											{
-												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 7,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 5,true,false));
 											}
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED,20, 1,true,false));
@@ -194,7 +194,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 										if (this.get_core(armor)==0){
 											if (player.getHeldItemMainhand().isEmpty())
 											{
-												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 6,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 3,true,false));
 											}
 											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION,20, 0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE,20, 1,true,false));
@@ -213,7 +213,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 										if (this.get_core(armor)==0){	
 											if (player.getHeldItemMainhand().isEmpty())
 											{
-												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 6,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 4,true,false));
 											}
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED,20, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST,20, 1,true,false));
@@ -225,7 +225,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 										if (this.get_core(armor)==0){	
 											if (player.getHeldItemMainhand().isEmpty())
 											{
-												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 6,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 4,true,false));
 											}
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED,20, 0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST,20, 0,true,false));
@@ -238,7 +238,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 										if (this.get_core(armor)==0){	
 											if (player.getHeldItemMainhand().isEmpty())
 											{
-												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 6,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 4,true,false));
 											}									
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED,20, 1,true,false));
@@ -257,7 +257,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 										if (this.get_core(armor)==0){	
 											if (player.getHeldItemMainhand().isEmpty())
 											{
-												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 6,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 4,true,false));
 											}											
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST,20, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE,20, 0,true,false));
@@ -270,7 +270,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 									if (this.get_core(armor)==0){	
 										if (player.getHeldItemMainhand().isEmpty())
 										{
-											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 6,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 4,true,false));
 										}
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED,20, 0,true,false));											
 										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE,20, 0,true,false));
@@ -282,7 +282,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 									if (this.get_core(armor)==0){	
 										if (player.getHeldItemMainhand().isEmpty())
 										{
-											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 6,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 4,true,false));
 										}
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE,20, 0,true,false));											
 									}								
@@ -306,7 +306,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 									if (this.get_core(armor)==0){
 										if (player.getHeldItemMainhand().isEmpty())
 										{
-											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 20, 6,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 20, 4,true,false));
 										}
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED,20, 1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false));
@@ -317,7 +317,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 									if (this.get_core(armor)==0){
 										if (player.getHeldItemMainhand().isEmpty())
 										{
-											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 20, 7,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 20, 5,true,false));
 										}
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED,20, 1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false));
@@ -328,7 +328,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 									if (this.get_core(armor)==0){
 										if (player.getHeldItemMainhand().isEmpty())
 										{
-											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 20, 6,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 20, 4,true,false));
 										}
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED,20, 1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false));
@@ -341,7 +341,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 									if (this.get_core(armor)==0){
 										if (player.getHeldItemMainhand().isEmpty())
 										{
-											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 5,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 3,true,false));
 										}
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 0,true,false));										
 									}
@@ -351,7 +351,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 									if (this.get_core(armor)==0){
 										if (player.getHeldItemMainhand().isEmpty())
 										{
-											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 5,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 3,true,false));
 										}
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 0,true,false));										
 									}
@@ -361,7 +361,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 									if (this.get_core(armor)==0){
 										if (player.getHeldItemMainhand().isEmpty())
 										{
-											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 5,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 3,true,false));
 										}
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 0,true,false));										
 									}
@@ -371,7 +371,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 									if (this.get_core(armor)==0){
 										if (player.getHeldItemMainhand().isEmpty())
 										{
-											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 5,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 3,true,false));
 										}
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 0,true,false));										
 									}
@@ -381,7 +381,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 									if (this.get_core(armor)==0){
 										if (player.getHeldItemMainhand().isEmpty())
 										{
-											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 5,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 3,true,false));
 										}
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 0,true,false));										
 									}
@@ -391,7 +391,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 									if (this.get_core(armor)==0){
 										if (player.getHeldItemMainhand().isEmpty())
 										{
-											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 5,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 3,true,false));
 										}
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 0,true,false));										
 									}
@@ -401,7 +401,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 									if (this.get_core(armor)==0){
 										if (player.getHeldItemMainhand().isEmpty())
 										{
-											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 5,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 3,true,false));
 										}
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 0,true,false));										
 									}
@@ -411,7 +411,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 									if (this.get_core(armor)==0){
 										if (player.getHeldItemMainhand().isEmpty())
 										{
-											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 5,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 3,true,false));
 										}
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 0,true,false));										
 									}
@@ -421,7 +421,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 									if (this.get_core(armor)==0){
 										if (player.getHeldItemMainhand().isEmpty())
 										{
-											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 5,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 3,true,false));
 										}
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 0,true,false));										
 									}
@@ -431,7 +431,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 									if (this.get_core(armor)==0){
 										if (player.getHeldItemMainhand().isEmpty())
 										{
-											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 5,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 3,true,false));
 										}
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 0,true,false));										
 									}
@@ -441,7 +441,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 									if (this.get_core(armor)==0){
 										if (player.getHeldItemMainhand().isEmpty())
 										{
-											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 5,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 3,true,false));
 										}
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 0,true,false));										
 									}
@@ -451,7 +451,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 									if (this.get_core(armor)==0){
 										if (player.getHeldItemMainhand().isEmpty())
 										{
-											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 5,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 3,true,false));
 										}
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 0,true,false));										
 									}

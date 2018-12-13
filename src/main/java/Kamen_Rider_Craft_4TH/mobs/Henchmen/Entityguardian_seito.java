@@ -73,7 +73,7 @@ public class Entityguardian_seito extends Entity_base_henchmen
 				case 2:
 					playerIn.sendMessage( new TextComponentString(TextFormatting.RED+"Hagane no Moonsault! RabbitTank! Yeah!"));
 					entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
-					world.spawnEntity(entitymob);
+					world.spawnEntity(entityboss3);
 					break;
 				case 3:
 					entitymob.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
@@ -92,6 +92,18 @@ public class Entityguardian_seito extends Entity_base_henchmen
 					world.spawnEntity(entitymob);
 					break;
 				case 7:
+					entitymob.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+					world.spawnEntity(entitymob);
+					break;
+				case 8:
+					entitymob.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+					world.spawnEntity(entitymob);
+					break;
+				case 9:
+					entitymob.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+					world.spawnEntity(entitymob);
+					break;
+				case 10:
 					entitymob.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
 					world.spawnEntity(entitymob);
 					break;

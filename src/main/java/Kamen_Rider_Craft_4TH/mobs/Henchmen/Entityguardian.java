@@ -85,6 +85,18 @@ public class Entityguardian extends Entity_base_henchmen
 				entitymob.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
 				world.spawnEntity(entitymob);
 				break;
+			case 7:
+				entitymob.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				world.spawnEntity(entitymob);
+				break;
+			case 8:
+				entitymob.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				world.spawnEntity(entitymob);
+				break;
+			case 9:
+				entitymob.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				world.spawnEntity(entitymob);
+				break;
 			}
 		}
 			switch (this.rand.nextInt(20))
