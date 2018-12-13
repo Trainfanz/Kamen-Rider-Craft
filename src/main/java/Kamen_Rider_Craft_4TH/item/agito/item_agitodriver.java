@@ -6,6 +6,8 @@ import org.lwjgl.opengl.GL11;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
 import Kamen_Rider_Craft_4TH.model.model_belt;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import Kamen_Rider_Craft_4TH.util.Refercence;
@@ -30,7 +32,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.fml.relauncher.Side;
 
-public class item_agitodriver extends ItemArmor implements IHasModel
+public class item_agitodriver extends item_rider_driver implements IHasModel
 {
 
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
@@ -39,111 +41,13 @@ public class item_agitodriver extends ItemArmor implements IHasModel
 
 	public String Rider;
 
-	public item_agitodriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, String rider)
+	public item_agitodriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, String rider,Item_form_change baseFormItem)
 	{
-		super(par2EnumArmorMaterial, par3, EntityEquipmentSlot.FEET);
-		this.material = par2EnumArmorMaterial;
-		par2EnumArmorMaterial.getDamageReductionAmount(EntityEquipmentSlot.FEET);
-		this.setMaxDamage(par2EnumArmorMaterial.getDurability(EntityEquipmentSlot.FEET));
-		this.maxStackSize = 1;
-		Rider=rider;
-		setUnlocalizedName(name);
-		setRegistryName(name);
-		TokuCraft_core.ITEMS.add(this);
-	}
-
-	@Override
-	public void registerModels() {
-		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
-	}
-
-	@Override
-	public String getArmorTexture(ItemStack stack, Entity entity, EntityEquipmentSlot slot, String type)
-	{
-		return Refercence.MODID+":textures/armor/blank.png";
-
-	}
-
-	@Override
-	@SideOnly(Side.CLIENT)
-	@Nullable
-	public ModelBiped getArmorModel(EntityLivingBase living, ItemStack stack, EntityEquipmentSlot slot, ModelBiped defaultModel)
-	{
-		if(!stack.isEmpty())
-		{
-			if(stack.getItem() instanceof ItemArmor)
-			{
-
-				model_belt armorModel = new model_belt();
-
-
-				if (this.Rider=="agito"){
-					if (this.get_core(stack)==1){
-						armorModel.belt=new ItemStack(RiderItems.alter_ring_st);
-					}else if (this.get_core(stack)==2){
-						armorModel.belt=new ItemStack(RiderItems.alter_ring_fl);
-					}else if (this.get_core(stack)==4||this.get_core(stack)==5){
-						armorModel.belt=new ItemStack(RiderItems.alter_ring_shining);
-					}else{
-						armorModel.belt=stack;
-					}
-				}else if (this.Rider=="gills"){
-					if (this.get_core(stack)==1){
-						armorModel.belt=new ItemStack(RiderItems.meta_factor_exceed);
-					}else{
-						armorModel.belt=stack;
-					}
-				}else{
-					armorModel.belt=stack;
-				}
-
-				//armorModel.bipedRightLeg.showModel = slot == EntityEquipmentSlot.FEET;
-				//armorModel.bipedLeftLeg.showModel = slot == EntityEquipmentSlot.FEET;
-
-				armorModel.isSneak = defaultModel.isSneak;
-				armorModel.isRiding = defaultModel.isRiding;
-				armorModel.isChild = defaultModel.isChild;
-
-				armorModel.rightArmPose = defaultModel.rightArmPose;
-				armorModel.leftArmPose = defaultModel.leftArmPose;
-
-				return armorModel;
-			}
-		}
-		return null;
+		super(name,par2EnumArmorMaterial,par3,rider,baseFormItem,RiderItems.agitohead,RiderItems.agitotroso,RiderItems.agitolegs);
 	}
 
 
-
-	public static int get_eftTime(ItemStack itemstack)
-	{
-		return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("eftTime") : 100;
-	}
-
-	public static void set_eftTime(ItemStack itemstack, int flag)
-	{
-		if (!itemstack.hasTagCompound())
-		{
-			itemstack.setTagCompound(new NBTTagCompound());
-		}
-		itemstack.getTagCompound().setInteger("eftTime", flag);
-	}
-
-	public static int  get_core(ItemStack itemstack)
-	{
-		return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("core") :0;
-	}
-
-	public static void set_core(ItemStack itemstack, int flag)
-	{
-		if (!itemstack.hasTagCompound())
-		{
-			itemstack.setTagCompound(new NBTTagCompound());
-		}
-		itemstack.getTagCompound().setInteger("core", flag);
-	}
-
-	@Override
+/**	@Override
 	public void onArmorTick(World world, EntityPlayer player, ItemStack armor) {
 
 
@@ -268,4 +172,5 @@ public class item_agitodriver extends ItemArmor implements IHasModel
 			}
 		}	
 	}
+	**/
 }

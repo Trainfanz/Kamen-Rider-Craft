@@ -488,51 +488,132 @@ public class RiderItems {
 	public static Item agitotroso = new item_agitoarmor2("agitotroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 	public static Item agitolegs = new item_agitoarmor2("agitolegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 
-
-	public static Item alter_ring = new item_agitodriver("alter_ring",ArmorMaterial.DIAMOND, 4,"agito").setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
+	public static Item alter_ring_gr = new Item_ore("alter_ring_gr");
 	public static Item alter_ring_fl = new Item_ore("alter_ring_fl");
 	public static Item alter_ring_st = new Item_ore("alter_ring_st");
 	public static Item alter_ring_shining = new Item_ore("alter_ring_shining");
-
+	
+	public static Item agito_ground = new Item_form_change("agito_ground",item_agitodriver.class,alter_ring_gr,"_ground"
+			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
+	
+	public static Item agito_storm = new Item_form_change("agito_storm",item_agitodriver.class,alter_ring_st,"_storm"
+			,new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
+	
+	public static Item agito_flame = new Item_form_change("agito_flame",item_agitodriver.class,alter_ring_fl,"_flame"
+			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)
+			,new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
+	
+	public static Item agito_trinity = new Item_form_change("agito_trinity",item_agitodriver.class,alter_ring_gr,"_trinity"
+			,new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
+			,new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
+	
+	public static Item agito_burning = new Item_form_change("agito_burning",item_agitodriver.class,alter_ring_shining,"_burning"
+			,new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
+			,new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false)
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false)).setCreativeTab(Tabs.tabagito);
+	
+	public static Item agito_shining = new Item_form_change("agito_shining",item_agitodriver.class,alter_ring_shining,"_shining"
+			,new PotionEffect(MobEffects.SPEED, 5, 3,true,false)
+			,new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false)
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false)).setCreativeTab(Tabs.tabagito);
+	
+	public static Item alter_ring = new item_agitodriver("arcle",ArmorMaterial.DIAMOND, 4,"agito",(Item_form_change) agito_ground).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
+	
+	
 	public static Item meta_factor_exceed = new Item_ore("meta_factor_exceed");
-	public static Item meta_factor = new item_agitodriver("meta_factor",ArmorMaterial.DIAMOND, 4,"gills").setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
+		
+	public static Item gills = new Item_form_change("gills",item_agitodriver.class,blanknoitem,""
+			,new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
+	
+	public static Item exceed_gills = new Item_form_change("exceed_gills",item_agitodriver.class,meta_factor_exceed,"_exceed"
+			,new PotionEffect(MobEffects.SPEED, 5, 3,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false)
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false)).setCreativeTab(Tabs.tabagito);
+	
+	public static Item meta_factor = new item_agitodriver("meta_factor",ArmorMaterial.DIAMOND, 4,"gills",(Item_form_change) gills).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 
-	public static Item ank_point = new item_agitodriver("ank_point",ArmorMaterial.DIAMOND, 4,"another_agito").setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
+	
+	public static Item another_agito = new Item_form_change("another_agito",item_agitodriver.class,blanknoitem,""
+			,new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false)).setCreativeTab(Tabs.tabagito);
+	
+	public static Item ank_point = new item_agitodriver("ank_point",ArmorMaterial.DIAMOND, 4,"another_agito",(Item_form_change) another_agito).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 
-	public static Item g3_belt = new item_agitodriver("g3_belt",ArmorMaterial.DIAMOND, 4,"g3").setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
-	public static Item g3_x_belt = new item_agitodriver("g3_x_belt",ArmorMaterial.DIAMOND, 4,"g3_x").setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
-	public static Item g3_mild_belt = new item_agitodriver("g3_mild_belt",ArmorMaterial.DIAMOND, 4,"g3_mild").setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
-	public static Item g4_belt = new item_agitodriver("g4_belt",ArmorMaterial.DIAMOND, 4,"g4").setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
+	
+	public static Item g3 = new Item_form_change("g3",item_agitodriver.class,blanknoitem,""
+			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
+	
+	public static Item g3_belt = new item_agitodriver("g3_belt",ArmorMaterial.DIAMOND, 4,"g3",(Item_form_change) g3).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
+	
+	
+	public static Item g3x = new Item_form_change("g3x",item_agitodriver.class,blanknoitem,""
+			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false)).setCreativeTab(Tabs.tabagito);
+	
+	public static Item g3_x_belt = new item_agitodriver("g3_x_belt",ArmorMaterial.DIAMOND, 4,"g3_x",(Item_form_change) g3x).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
+	
+	
+	public static Item g3mild = new Item_form_change("g3mild",item_agitodriver.class,blanknoitem,""
+			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
+	
+	public static Item g3_mild_belt = new item_agitodriver("g3_mild_belt",ArmorMaterial.DIAMOND, 4,"g3mild",(Item_form_change) g3mild).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
+	
+	
+	public static Item g4 = new Item_form_change("g4",item_agitodriver.class,blanknoitem,""
+			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false)
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false)
+			,new PotionEffect(MobEffects.POISON, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
+	
+	public static Item g4_belt = new item_agitodriver("g4_belt",ArmorMaterial.DIAMOND, 4,"g4",(Item_form_change) g4).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
 
-	public static Item g4_x_belt = new item_agitodriver("g4_x_belt",ArmorMaterial.DIAMOND, 4,"g4_x").setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
+	
+	public static Item g4x = new Item_form_change("g4x",item_agitodriver.class,blanknoitem,""
+			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false)
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false)
+			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
+	
+	public static Item g4_x_belt = new item_agitodriver("g4_belt",ArmorMaterial.DIAMOND, 4,"g4_x",(Item_form_change) g4x).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
 
-	public static Item g1_belt = new item_agitodriver("g1_belt",ArmorMaterial.DIAMOND, 4,"g1").setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
+	
+	public static Item g1 = new Item_form_change("g1",item_agitodriver.class,blanknoitem,""
+			,new PotionEffect(MobEffects.WEAKNESS, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
+	
+	public static Item g1_belt = new item_agitodriver("g1_belt",ArmorMaterial.DIAMOND, 4,"g4_x",(Item_form_change) g1).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
 
 
-	public static Item alter_ring_miracle = new item_agitodriver("alter_ring_miracle",ArmorMaterial.DIAMOND, 4,"agito_miracle").setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
-	public static Item ank_point_burning = new item_agitodriver("ank_point_burning",ArmorMaterial.DIAMOND, 4,"another_agito_burning").setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
+	public static Item agito_miracle = new Item_form_change("agito_miracle",item_agitodriver.class,blanknoitem,""
+			,new PotionEffect(MobEffects.SPEED, 5, 4,true,false)
+			,new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false)
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 4,true,false)).setCreativeTab(Tabs.tabagito);
+	
+	public static Item alter_ring_miracle = new item_agitodriver("alter_ring_miracle",ArmorMaterial.DIAMOND, 4,"agito_miracle",(Item_form_change) agito_miracle).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
+	
+	
+	public static Item another_agito_burning_form = new Item_form_change("another_agito_burning_form",item_agitodriver.class,blanknoitem,""
+			,new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 5,true,false)
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 4,true,false)).setCreativeTab(Tabs.tabagito);
+	
+	public static Item ank_point_burning = new item_agitodriver("ank_point_burning",ArmorMaterial.DIAMOND, 4,"another_agito_burning",(Item_form_change) another_agito_burning_form).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
 
-	public static Item agito_ground = new Item_agito_power("agito_ground",0).setCreativeTab(Tabs.tabagito);
-	public static Item agito_storm = new Item_agito_power("agito_storm",1).setCreativeTab(Tabs.tabagito);
-	public static Item agito_flame = new Item_agito_power("agito_flame",2).setCreativeTab(Tabs.tabagito);
-	public static Item agito_trinity = new Item_agito_power("agito_trinity",3).setCreativeTab(Tabs.tabagito);
-	public static Item agito_burning = new Item_agito_power("agito_burning",4).setCreativeTab(Tabs.tabagito);
-	public static Item agito_shining = new Item_agito_power("agito_shining",5).setCreativeTab(Tabs.tabagito);
-
-	public static Item gills = new Item_agito_power("gills",-1).setCreativeTab(Tabs.tabagito);
-	public static Item exceed_gills = new Item_agito_power("exceed_gills",-1).setCreativeTab(Tabs.tabagito);
-
-	public static Item g1 = new Item_ore("g1").setCreativeTab(Tabs.tabagito);
-	public static Item g3 = new Item_ore("g3").setCreativeTab(Tabs.tabagito);
-	public static Item g3x = new Item_ore("g3x").setCreativeTab(Tabs.tabagito);
-	public static Item g3mild = new Item_ore("g3mild").setCreativeTab(Tabs.tabagito);
-	public static Item g4 = new Item_ore("g4").setCreativeTab(Tabs.tabagito);
-	public static Item g4x = new Item_ore("g4x").setCreativeTab(Tabs.tabagito);
-
-	public static Item another_agito = new Item_ore("another_agito").setCreativeTab(Tabs.tabagito);
-
-	public static Item agito_miracle = new Item_ore("agito_miracle").setCreativeTab(Tabs.tabagito);
-	public static Item another_agito_burning_form = new Item_ore("another_agito_burning_form").setCreativeTab(Tabs.tabagito);
+		
 
 	//ryuki
 	public static Item drag_visor = new Item_ore("drag_visor").setCreativeTab(Tabs.tabryuki);
