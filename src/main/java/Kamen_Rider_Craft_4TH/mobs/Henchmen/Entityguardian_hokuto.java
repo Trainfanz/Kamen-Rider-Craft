@@ -99,7 +99,7 @@ public class Entityguardian_hokuto extends Entity_base_henchmen
 				world.spawnEntity(entitymob);
 				break;
 			}
-		}switch (this.rand.nextInt(25))
+		}switch (this.rand.nextInt(15))
 			{
 			case 0:
 				this.dropItem(RiderItems.phoenix_full_bottle, 1);

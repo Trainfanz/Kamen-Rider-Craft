@@ -99,7 +99,7 @@ public class Entityguardian extends Entity_base_henchmen
 				break;
 			}
 		}
-			switch (this.rand.nextInt(20))
+			switch (this.rand.nextInt(15))
 			{
 			case 0:
 				this.dropItem(RiderItems.rabbit_full_bottle, 1);

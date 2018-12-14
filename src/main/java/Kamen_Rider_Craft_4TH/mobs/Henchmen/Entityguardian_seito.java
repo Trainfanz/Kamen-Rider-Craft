@@ -67,12 +67,12 @@ public class Entityguardian_seito extends Entity_base_henchmen
 					break;
 				case 1:
 					playerIn.sendMessage( new TextComponentString(TextFormatting.WHITE+"Gear Engine! Funky! Engine Running Gear!"));
-					entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+					entityboss2.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
 					world.spawnEntity(entityboss2);
 					break;
 				case 2:
 					playerIn.sendMessage( new TextComponentString(TextFormatting.RED+"Hagane no Moonsault! RabbitTank! Yeah!"));
-					entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+					entityboss3.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
 					world.spawnEntity(entityboss3);
 					break;
 				case 3:
@@ -108,7 +108,7 @@ public class Entityguardian_seito extends Entity_base_henchmen
 					world.spawnEntity(entitymob);
 					break;
 				}
-				switch (this.rand.nextInt(25))
+				switch (this.rand.nextInt(15))
 				{
 				case 0:
 					this.dropItem(RiderItems.tora_full_bottle, 1);

@@ -103,6 +103,9 @@ if (!this.world.isRemote){
 		case 0:
 			this.dropItem(RiderItems.golden_bangle, 1);
 			break;
+		case 1:
+			this.dropItem(RiderItems.hazard_trigger, 1);
+			break;
 		}
        }
    }

@@ -55,7 +55,7 @@ public class Entity_needle_smash extends Entity_base_henchmen
 		if (!this.world.isRemote){
 
 			this.dropItem(RiderItems.smash_bottle, 1);
-			switch (this.rand.nextInt(5))
+			switch (this.rand.nextInt(3))
 			{   		   	    		
 			case 0:
 				this.dropItem(RiderItems.smash_bottle, 1);
