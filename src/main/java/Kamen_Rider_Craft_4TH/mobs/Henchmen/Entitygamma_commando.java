@@ -46,50 +46,31 @@ public class Entitygamma_commando extends Entity_base_henchmen
 	{
 		if (!this.world.isRemote){
 
-			this.dropItem(RiderItems.ghost_icons, 2);
+			this.dropItem(RiderItems.ghost_icons, 1);
 			switch (this.rand.nextInt(25))
 			{
 			case 0:
 				this.dropItem(RiderItems.ore_ghost_icon, 1);
 				break;
-
 			case 1:
-				this.dropItem(RiderItems.ore_ghost_icon, 1);
+				this.dropItem(RiderItems.specter_ghost_icon, 1);
 				break;
-
 			case 2:
-				this.dropItem(RiderItems.ore_ghost_icon, 1);
-				break;
-			case 3:
-				this.dropItem(RiderItems.ore_ghost_icon, 1); 
-				break;
-			case 4:
-				this.dropItem(RiderItems.specter_ghost_icon, 1);
-				break;
-			case 5:
-				this.dropItem(RiderItems.specter_ghost_icon, 1);
-				break;
-			case 6:
 				this.dropItem(RiderItems.musashi_ghost_icon, 1);
 				break;
-
-			case 7:
-				this.dropItem(RiderItems.edison_ghost_icon, 1);
+			case 3:
+				this.dropItem(RiderItems.edison_ghost_icon, 1); 
 				break;
-			case 8:
+			case 4:
 				this.dropItem(RiderItems.robin_ghost_icon, 1);
 				break;
-
-			case 9:
+			case 5:
 				this.dropItem(RiderItems.newton_ghost_icon, 1);
 				break;
-			case 10:
+			case 6:
 				this.dropItem(RiderItems.ghost_gammaicons, 1);
 				break;
 
-			case 11:
-				this.dropItem(RiderItems.ghost_icons, 1);
-				break;
 			}
 		}
 	}

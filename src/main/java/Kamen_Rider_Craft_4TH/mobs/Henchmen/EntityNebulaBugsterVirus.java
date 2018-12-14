@@ -72,21 +72,22 @@ public class EntityNebulaBugsterVirus extends Entity_base_henchmen
 	{
 		if (!this.world.isRemote){
 
-			this.dropItem(RiderItems.unfinished_kamen_rider_chronicle_gashat, 2);
-			this.dropItem(RiderItems.full_bottle, 2);
-			
-						
+			this.dropItem(RiderItems.unfinished_kamen_rider_chronicle_gashat, 1);
+				if (this.getAttackTarget()instanceof EntityPlayer){
+					EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();						
 					 Entity_base_henchmen entitymob  = new Entity_needle_smash(world);
 					 EntityBossBase entityboss  = new Entity_Kaiser(world);
 					 EntityBossBase entityboss2  = new Entity_KaiserReverse(world);
 				switch (this.rand.nextInt(25))
 				{
 				case 0:
+					playerIn.sendMessage( new TextComponentString(TextFormatting.BLUE+"Gear Remocon! Funky! Remote Control Gear!"));
 					entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
 					world.spawnEntity(entityboss);
 					break;
 				case 1:
-					entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+					playerIn.sendMessage( new TextComponentString(TextFormatting.RED+"Gear Engine! Funky! Engine Running Gear!"));
+					entityboss2.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
 					world.spawnEntity(entityboss2);
 					break;
 				}
@@ -107,7 +108,8 @@ public class EntityNebulaBugsterVirus extends Entity_base_henchmen
 			case 4:
 				this.dropItem(RiderItems.dangerous_zombie_gashat, 1);
 				break;
+				}
 			}
 		}
 	}
-}
+}	

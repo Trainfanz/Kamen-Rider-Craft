@@ -47,7 +47,7 @@ public class EntityMasquerade extends Entity_base_henchmen
 	public void onDeath(DamageSource cause)
 	{
 		if (!this.world.isRemote){
-			this.dropItem(RiderItems.gaiamemory, 2);
+			this.dropItem(RiderItems.gaiamemory, 1);
 			switch (this.rand.nextInt(25))
 			{
 			case 0:
@@ -69,28 +69,7 @@ public class EntityMasquerade extends Entity_base_henchmen
 				break;
 			case 5:
 				this.dropItem(RiderItems.trigger_memory, 1);
-				break;
-			case 6:
-				this.dropItem(RiderItems.cyclone_memory, 1);
-				break;
-
-			case 7:
-				this.dropItem(RiderItems.joker_memory, 1);
-				break;
-			case 8:
-				this.dropItem(RiderItems.cyclone_memory, 1);
-				break;
-
-			case 9:
-				this.dropItem(RiderItems.joker_memory, 1);
-				break;
-			case 10:
-				this.dropItem(RiderItems.cyclone_memory, 1);
-				break;
-
-			case 11:
-				this.dropItem(RiderItems.joker_memory, 1);
-				break;  			
+				break;		
 			}
 		}
 	}

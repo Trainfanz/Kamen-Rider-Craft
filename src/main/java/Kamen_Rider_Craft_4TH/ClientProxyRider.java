@@ -83,8 +83,8 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entity_BloodStalk.class, new RenderRiderMob2(new tokuMobModel("blood_stalk_2"), 0.5F,"textures/entities/blood_stalk_1.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_NightRogue.class, new RenderRiderMob2(new tokuMobModel("night_rogue_2"), 0.5F,"textures/entities/night_rogue_1.png"));
 		
-		RenderingRegistry.registerEntityRenderingHandler(Entity_Kaiser.class, new RenderRiderMob2(new tokuMobModel("kaiser_red_2"), 0.5F,"textures/entities/kaiser_red_1.png"));
-		RenderingRegistry.registerEntityRenderingHandler(Entity_KaiserReverse.class, new RenderRiderMob2(new tokuMobModel("kaiser_blue_2"), 0.5F,"textures/entities/kaiser_blue_1.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_Kaiser.class, new RenderRiderMob2(new tokuMobModel("kaiser_blue_2"), 0.5F,"textures/entities/kaiser_blue_1.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_KaiserReverse.class, new RenderRiderMob2(new tokuMobModel("kaiser_red_2"), 0.5F,"textures/entities/kaiser_red_1.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_bikaiser.class, new RenderRiderMob2(new tokuMobModel("bi_kaiser_2"), 0.5F,"textures/entities/bi_kaiser_1.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_RemoconBros.class, new RenderRiderMob2(new tokuMobModel("remocon_bros_2"), 0.5F,"textures/entities/remocon_bros_1.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_EngineBros.class, new RenderRiderMob2(new tokuMobModel("engine_bros_2"), 0.5F,"textures/entities/engine_bros_1.png"));

@@ -59,49 +59,23 @@ public class EntityBugsterVirus extends Entity_base_henchmen
 	{
 		if (!this.world.isRemote){
 
-			this.dropItem(RiderItems.blank_gashat, 2);
+			this.dropItem(RiderItems.blank_gashat, 1);
 			switch (this.rand.nextInt(25))
 			{
 			case 0:
 				this.dropItem(RiderItems.mighty_action_x_gashat, 1);
 				break;
-
 			case 1:
 				this.dropItem(RiderItems.taddle_quest_gashat, 1);
 				break;
-
 			case 2:
-				this.dropItem(RiderItems.taddle_quest_gashat, 1);
-				break;
-			case 3:
-				this.dropItem(RiderItems.bang_bang_shooting_gashat, 1); 
-				break;
-			case 4:
 				this.dropItem(RiderItems.bang_bang_shooting_gashat, 1);
 				break;
-			case 5:
-				this.dropItem(RiderItems.bakusou_bike_gashat, 1);
+			case 3:
+				this.dropItem(RiderItems.bakusou_bike_gashat, 1); 
 				break;
-			case 6:
-				this.dropItem(RiderItems.mighty_action_x_gashat, 1);
-				break;
-
-			case 7:
-				this.dropItem(RiderItems.bakusou_bike_gashat, 1);
-				break;
-			case 8:
-				this.dropItem(RiderItems.mighty_action_x_gashat, 1);
-				break;
-
-			case 9:
+			case 4:
 				this.dropItem(RiderItems.proto_mighty_action_x_gashat, 1);
-				break;
-			case 10:
-				this.dropItem(RiderItems.mighty_action_x_gashat, 1);
-				break;
-
-			case 11:
-				this.dropItem(RiderItems.blank_gashat, 4);
 				break;
 			}
 		}
