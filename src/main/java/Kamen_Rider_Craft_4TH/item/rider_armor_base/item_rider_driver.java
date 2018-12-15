@@ -39,7 +39,7 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
 	public String armorNamePrefix;
 	public ArmorMaterial material;
-	private static Item_form_change Base_Form_Item;
+	private Item_form_change Base_Form_Item;
 	public String Rider;
 	private Item HEAD;
 	private Item TORSO;
@@ -112,7 +112,12 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 			if(stack.getItem() instanceof ItemArmor)
 			{
 				model_belt armorModel = new model_belt();
+
+			if (get_Form_Item(stack,1).getBelt()==RiderItems.blanknoitem ){
+				armorModel.belt=stack;
+			}else{
 				armorModel.belt=new ItemStack(get_Form_Item(stack,1).getBelt());
+			}
 				armorModel.isSneak = defaultModel.isSneak;
 				armorModel.isRiding = defaultModel.isRiding;
 				armorModel.isChild = defaultModel.isChild;
@@ -139,7 +144,7 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 		itemstack.getTagCompound().setInteger("eftTime", flag);
 	}
 
-	public static Item_form_change get_Form_Item(ItemStack itemstack,int SLOT)
+	public Item_form_change get_Form_Item(ItemStack itemstack,int SLOT)
 	{
 		if (!itemstack.hasTagCompound())
 		{
@@ -150,7 +155,18 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 			return Base_Form_Item;
 		}
 	}
-
+	
+	public static Item_form_change get_Form_Item_tex(ItemStack itemstack,int SLOT)
+	{
+		if (!itemstack.hasTagCompound())
+		{
+			return (Item_form_change) RiderItems.blanknoform;
+		}else if (Item.getItemById(itemstack.getTagCompound().getInteger("slot"+SLOT))instanceof Item_form_change){
+			return (Item_form_change) Item.getItemById(itemstack.getTagCompound().getInteger("slot"+SLOT));
+		}else{
+			return (Item_form_change) RiderItems.blanknoform;
+		}
+	}
 	public static void set_Form_Item(ItemStack itemstack, Item ITEM,int SLOT)
 	{
 		if (!itemstack.hasTagCompound())

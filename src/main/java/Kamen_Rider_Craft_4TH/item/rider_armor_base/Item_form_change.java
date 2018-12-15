@@ -26,10 +26,9 @@ public class Item_form_change extends Item implements IHasModel
 
 	private String FORM_NAME;
 	private List<PotionEffect> potionEffectList;
-	private int SLOT;
 	private Item BELT;
 	private  Class<? extends item_rider_driver> BELTCLASS;
-	
+	private String RIDER_NAME;
 	public Item_form_change(String name,Class<? extends item_rider_driver> beltClass,Item belt,String formName,PotionEffect... effects)
 	{
 		super();
@@ -40,10 +39,10 @@ public class Item_form_change extends Item implements IHasModel
         potionEffectList = Lists.newArrayList(effects);
         FORM_NAME=formName;
         BELT=belt;
-        SLOT=1;
         BELTCLASS=beltClass;
+        RIDER_NAME="Blank";
 	}
-	public Item_form_change(String name,Class<? extends item_rider_driver> beltClass,int slot,Item belt,String formName,PotionEffect... effects)
+	public Item_form_change(String name,Class<? extends item_rider_driver> beltClass,Item belt,String formName,String ridername,PotionEffect... effects)
 	{
 		super();
 		this.setMaxDamage(0);
@@ -53,10 +52,9 @@ public class Item_form_change extends Item implements IHasModel
         potionEffectList = Lists.newArrayList(effects);
         FORM_NAME=formName;
         BELT=belt;
-        SLOT=slot;
         BELTCLASS=beltClass;
+        RIDER_NAME=ridername;
 	}
-	
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
@@ -80,8 +78,11 @@ public class Item_form_change extends Item implements IHasModel
     {
     	if (playerIn.inventory.armorInventory.get(1)!= null){
 			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem().getClass()==BELTCLASS){
-				
+				if (RIDER_NAME=="Blank"){
 				item_rider_driver.set_Form_Item(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),this, 1);
+				}else if(((item_rider_driver)playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider==RIDER_NAME){
+					item_rider_driver.set_Form_Item(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),this, 1);
+				}
 				}
 			}
         playerIn.setActiveHand(handIn);

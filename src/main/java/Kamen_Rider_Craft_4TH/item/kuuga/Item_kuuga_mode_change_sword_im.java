@@ -61,7 +61,7 @@ public class Item_kuuga_mode_change_sword_im extends ItemSword implements IHasMo
 	                }else if (entityIn.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
 
 					if (entityIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_kuugadriver){
-						if (item_kuugadriver.get_Form_Item(entityIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).getBelt()==RiderItems.arcle_u||item_kuugadriver.get_Form_Item(entityIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).getBelt()==RiderItems.arcle_ru)
+						if (item_kuugadriver.get_Form_Item_tex(entityIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).getBelt()==RiderItems.arcle_u||item_kuugadriver.get_Form_Item_tex(entityIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).getBelt()==RiderItems.arcle_ru)
 							 return 1;
 					}else{
 						return 0;
