@@ -2388,7 +2388,7 @@ public class RiderItems {
 	public static Item tantei_full_bottle = new Item_full_bottle(13, "3","tantei_full_bottle",0).setCreativeTab(Tabs.tabbuild);
 	public static Item momotaros_full_bottle = new Item_full_bottle(18, "3","momotaros_full_bottle",0).setCreativeTab(Tabs.tabbuild);
 	public static Item yujou_full_bottle = new Item_full_bottle(19, "3","yujou_full_bottle",0).setCreativeTab(Tabs.tabbuild);
-	public static Item obake_full_bottle = new Item_full_bottle(20, "3","obake_full_bottle",0).setCreativeTab(Tabs.tabbuild);
+	public static Item obake_full_bottle = new Item_full_bottle(20, "3","obake_full_bottle",2).setCreativeTab(Tabs.tabbuild);
 	public static Item card_full_bottle = new Item_full_bottle(23, "3","card_full_bottle",0).setCreativeTab(Tabs.tabbuild);
 
 	public static Item tank_full_bottle = new Item_full_bottle(0, "1","tank_full_bottle",10).setCreativeTab(Tabs.tabbuild);

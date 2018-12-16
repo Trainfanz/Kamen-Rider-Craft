@@ -98,13 +98,15 @@ if (!this.world.isRemote){
 
    		this.dropItem(RiderItems.smash_bottle, 4);
    		this.dropItem(RiderItems.cobra_full_bottle, 1);
-   		switch (this.rand.nextInt(5))
+   		switch (this.rand.nextInt(3))
 		{
 		case 0:
 			this.dropItem(RiderItems.golden_bangle, 1);
 			break;
 		case 1:
 			this.dropItem(RiderItems.hazard_trigger, 1);
+			break;			
+		case 2:
 			break;
 		}
        }

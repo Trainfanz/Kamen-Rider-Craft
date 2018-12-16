@@ -85,7 +85,10 @@ public class Entity_hard_guardian extends Entity_base_henchmen
 				break;
 			case 9:
 				this.dropItem(RiderItems.lost_cd_full_bottle, 1);
-				break;    	
+				break;    
+			case 10:
+				this.dropItem(RiderItems.dragon_evol_bottle_gold, 1);
+				break;   
 			}
 		}
 	}
