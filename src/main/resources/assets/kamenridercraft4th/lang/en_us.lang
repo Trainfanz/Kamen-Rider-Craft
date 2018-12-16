@@ -286,6 +286,39 @@ item.accel_memory.name=Accel Memory
 item.trial_memory.name=Trial Memory
 item.accel_booster_memory.name=Accel Memory With Booster
 
+item.bomb_memory.name=Bomb Memory
+item.dummy_memory.name=Dummy Memory
+item.fang_memory_un.name=Unfinished Fang Memory
+item.trial_memory_un.name=Unfinished Trial Memory
+item.xtreme_memory_g.name=Xtreme Memory (Gold)
+item.xtreme_memory_s.name=Xtreme Memory Memory (Silver)
+
+
+item.accel_t2_memory.name=T2 Accel Memory
+item.bird_t2_memory.name=T2 Bird Memory
+item.cyclone_t2_memory.name=T2 Cyclone Memory
+item.fang_t2_memory.name=T2 Fang Memory
+item.gene_t2_memory.name=T2 Gene Memory
+item.heat_t2_memory.name=T2 Heat Memory
+item.iceage_t2_memory.name=T2 Ice Age Memory
+item.key_t2_memory.name=T2 Key Memory
+item.luna_t2_memory.name=T2 Lune Memory
+item.metal_t2_memory.name=T2 Metal Memory
+item.nasca_t2_memory.name=T2 Nasca Memory
+item.ocean_t2_memory.name=T2 Ocean Memory
+item.puppeteer_t2_memory.name=T2 Puppeteer Memory
+item.queen_t2_memory.name=T2 Queen Memory
+item.rocket_t2_memory.name=T2 Rocket Memory
+item.skull_t2_memory.name=T2 Skull Memory
+item.trial_t2_memory.name=T2 Trial Memory
+item.trigger_t2_memory.name=T2 Trigger Memory
+item.unicorn_t2_memory.name=T2 Unicorn Memory
+item.violence_t2_memory.name=T2 Violence Memory
+item.weather_t2_memory.name=T2 Weather Memory
+
+
+
+
 item.rocket.name=Rocket Module
 item.billytherod.name=Elek Module Billy The Rod
 item.hee_hackgun.name=Fire Module Hee-Hackgun
