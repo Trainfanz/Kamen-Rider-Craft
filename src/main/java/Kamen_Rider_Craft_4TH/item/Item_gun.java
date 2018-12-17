@@ -49,16 +49,14 @@ public class Item_gun extends ItemBow  implements IHasModel
 	 private final float attackDamage;
 	    private final Item.ToolMaterial material;
 
-	private Item ORE;
 	
-	public Item_gun(String name,ToolMaterial par2EnumToolMaterial,Item ore)
+	public Item_gun(String name,ToolMaterial par2EnumToolMaterial)
 	{
 		super();
 		this.material = par2EnumToolMaterial;
 		 this.attackDamage = 3.0F + material.getAttackDamage();
 		this.maxStackSize = 1;
 		this.setMaxDamage(par2EnumToolMaterial.getMaxUses());
-		ORE = ore;
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
@@ -73,32 +71,7 @@ public class Item_gun extends ItemBow  implements IHasModel
 		return EnumAction.BOW;
 	}
 
-	private ItemStack findAmmo(EntityPlayer player)
-	{
-		if (player.getHeldItem(EnumHand.OFF_HAND).getItem()==ORE)
-		{
-			return player.getHeldItem(EnumHand.OFF_HAND);
-		}
-		else if (player.getHeldItem(EnumHand.MAIN_HAND).getItem()==ORE)
-		{
-			return player.getHeldItem(EnumHand.MAIN_HAND);
-		}
-		else
-		{
-			for (int i = 0; i < player.inventory.getSizeInventory(); ++i)
-			{
-				ItemStack itemstack = player.inventory.getStackInSlot(i);
-
-				if (itemstack.getItem()==ORE)
-				{
-					return itemstack;
-				}
-			}
-
-			return ItemStack.EMPTY;
-		}
-	}
-
+	
 
 	@Override
 	public void registerModels() {
@@ -112,7 +85,7 @@ public class Item_gun extends ItemBow  implements IHasModel
 	public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn)
 	{
 		ItemStack itemstack = playerIn.getHeldItem(handIn);
-		boolean flag = !this.findAmmo(playerIn).isEmpty();
+		boolean flag = true;
 
 		ActionResult<ItemStack> ret = net.minecraftforge.event.ForgeEventFactory.onArrowNock(itemstack, worldIn, playerIn, handIn, flag);
 		if (ret != null) return ret;
@@ -140,26 +113,17 @@ public class Item_gun extends ItemBow  implements IHasModel
 
 			if (!worldIn.isRemote)
 			{
-				if ( playerIn.capabilities.isCreativeMode ||findAmmo(playerIn)!=ItemStack.EMPTY){
-
-
 					Vec3d look =  playerIn.getLookVec();
 					ItemArrow itemarrow = (ItemArrow) Items.ARROW;
 					EntityArrow fireball = itemarrow.createArrow(worldIn, new ItemStack(Items.ARROW), playerIn);
-
 					fireball.setPosition(playerIn.posX + look.x * 1.6,playerIn.posY + 1,playerIn.posZ + look.z * 1.6);
-
 					fireball.motionX = look.x*3;
 					fireball.motionY = look.y*3;
 					fireball.motionZ = look.z*3;
 					fireball.pickupStatus= EntityArrow.PickupStatus.DISALLOWED;
-
-
 					worldIn.spawnEntity(fireball);
 					if (! playerIn.capabilities.isCreativeMode){
-						findAmmo(playerIn).shrink(1);
-
-					}
+					
 				}
 			}
 

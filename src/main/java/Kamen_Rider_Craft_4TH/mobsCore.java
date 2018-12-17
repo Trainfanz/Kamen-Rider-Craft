@@ -16,6 +16,8 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_RemoconBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_another_build;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_bikaiser;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_2;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_3;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_grease;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMasquerade;
@@ -71,6 +73,8 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new ResourceLocation("AnotherBuildMob"),Entity_another_build.class, "AnotherBuildMob", 509, TokuCraft_core.instance, 80, 3, false, 0x610101,0x0808d1);
 		
 		EntityRegistry.registerModEntity(new ResourceLocation("EvoltMob"),Entity_evolt.class, "EvoltMob", 510, TokuCraft_core.instance, 80, 3, false, 0xB90025,0xE6BFDF);
+		EntityRegistry.registerModEntity(new ResourceLocation("EvoltMob2"),Entity_evolt_2.class, "EvoltMob2", 529, TokuCraft_core.instance, 80, 3, false, 0xB90025,0xE6BFDF);
+		EntityRegistry.registerModEntity(new ResourceLocation("EvoltMob3"),Entity_evolt_3.class, "EvoltMob3", 530, TokuCraft_core.instance, 80, 3, false, 0xB90025,0xE6BFDF);
 		
 		EntityRegistry.registerModEntity(new ResourceLocation("GuardianMob"),Entityguardian.class, "GuardianMob", 507, TokuCraft_core.instance, 80, 3, false, 0x5C5C5C,0x466382);
 		EntityRegistry.addSpawn(Entityguardian.class,  15, 4, 4, EnumCreatureType.MONSTER,Biome.getBiome(1),Biome.getBiome(4),Biome.getBiome(5),Biome.getBiome(6),Biome.getBiome(7),Biome.getBiome(11),Biome.getBiome(129),Biome.getBiome(132),Biome.getBiome(155),Biome.getBiome(156),Biome.getBiome(14),Biome.getBiome(15),Biome.getBiome(21),Biome.getBiome(22),Biome.getBiome(23),Biome.getBiome(27),Biome.getBiome(28));

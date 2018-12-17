@@ -49,16 +49,14 @@ public class Item_break_gunner extends ItemBow  implements IHasModel
 	 private final float attackDamage;
 	    private final Item.ToolMaterial material;
 
-	private Item ORE;
 	
-	public Item_break_gunner(String name,ToolMaterial par2EnumToolMaterial,Item ore)
+	public Item_break_gunner(String name,ToolMaterial par2EnumToolMaterial)
 	{
 		super();
 		this.material = par2EnumToolMaterial;
 		 this.attackDamage = 3.0F + material.getAttackDamage();
 		this.maxStackSize = 1;
 		this.setMaxDamage(par2EnumToolMaterial.getMaxUses());
-		ORE = ore;
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
@@ -73,31 +71,7 @@ public class Item_break_gunner extends ItemBow  implements IHasModel
 		return EnumAction.BOW;
 	}
 
-	private ItemStack findAmmo(EntityPlayer player)
-	{
-		if (player.getHeldItem(EnumHand.OFF_HAND).getItem()==ORE)
-		{
-			return player.getHeldItem(EnumHand.OFF_HAND);
-		}
-		else if (player.getHeldItem(EnumHand.MAIN_HAND).getItem()==ORE)
-		{
-			return player.getHeldItem(EnumHand.MAIN_HAND);
-		}
-		else
-		{
-			for (int i = 0; i < player.inventory.getSizeInventory(); ++i)
-			{
-				ItemStack itemstack = player.inventory.getStackInSlot(i);
 
-				if (itemstack.getItem()==ORE)
-				{
-					return itemstack;
-				}
-			}
-
-			return ItemStack.EMPTY;
-		}
-	}
 
 
 	@Override
@@ -112,7 +86,7 @@ public class Item_break_gunner extends ItemBow  implements IHasModel
 	public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn)
 	{
 		ItemStack itemstack = playerIn.getHeldItem(handIn);
-		boolean flag = !this.findAmmo(playerIn).isEmpty();
+		boolean flag = true;
 
 		ActionResult<ItemStack> ret = net.minecraftforge.event.ForgeEventFactory.onArrowNock(itemstack, worldIn, playerIn, handIn, flag);
 		if (ret != null) return ret;
@@ -147,11 +121,9 @@ public class Item_break_gunner extends ItemBow  implements IHasModel
 
 		    	        if (itemstack.isEmpty())
 		    	        {
-		    	        	//playerIn.setCurrentItemOrArmor(1, new ItemStack(RiderItems.break_gunner_2));
-		    	        	  playerIn.setItemStackToSlot(EntityEquipmentSlot.FEET,  new ItemStack(RiderItems.break_gunner_2));
-		    	           
+		    	        	 playerIn.setItemStackToSlot(EntityEquipmentSlot.FEET,  new ItemStack(RiderItems.break_gunner_2));
 		    	        }
-		    		else if ( playerIn.capabilities.isCreativeMode ||findAmmo(playerIn)!=ItemStack.EMPTY){
+		    		else {
 
 
 					Vec3d look =  playerIn.getLookVec();
@@ -167,10 +139,6 @@ public class Item_break_gunner extends ItemBow  implements IHasModel
 
 
 					worldIn.spawnEntity(fireball);
-					if (! playerIn.capabilities.isCreativeMode){
-						findAmmo(playerIn).shrink(1);
-
-					}
 				}
 			}
 

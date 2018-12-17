@@ -21,6 +21,8 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_RemoconBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_another_build;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_bikaiser;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_2;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_3;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_grease;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMasquerade;
@@ -79,7 +81,11 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entity_another_build.class, new RenderRiderMob2(new tokuMobModel("another_build2"), 0.5F,"textures/entities/another_build.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_kodama_suika_arms.class, new RenderRiderMob2(new Model_kodama_suika_arms(), 0.5F,"textures/entities/kodama_suika_arms.png"));
 		
-		RenderingRegistry.registerEntityRenderingHandler(Entity_evolt.class, new RenderRiderMob2(new MobWithBeltModel(RiderItems.evol_driver_evol,"evolto2"), 0.5F,"textures/entities/evolto.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_evolt.class, new RenderRiderMob2(new MobWithBeltModel(RiderItems.evol_driver_evol,"evol_2"), 0.5F,"textures/entities/evol_1.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_evolt_2.class, new RenderRiderMob2(new MobWithBeltModel(RiderItems.evol_driver_evol,"evol_black2"), 0.5F,"textures/entities/evol_black.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_evolt_3.class, new RenderRiderMob2(new MobWithBeltModel(RiderItems.evol_driver_evol,"evolto2"), 0.5F,"textures/entities/evolto.png"));
+		
+		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_BloodStalk.class, new RenderRiderMob2(new tokuMobModel("blood_stalk_2"), 0.5F,"textures/entities/blood_stalk_1.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_NightRogue.class, new RenderRiderMob2(new tokuMobModel("night_rogue_2"), 0.5F,"textures/entities/night_rogue_1.png"));
 		

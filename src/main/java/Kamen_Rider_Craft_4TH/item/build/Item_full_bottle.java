@@ -62,7 +62,8 @@ public class Item_full_bottle extends Item implements IHasModel
 	 */
 	
 	public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer par3EntityPlayer, EnumHand handIn)
-	{
+	{		
+	
 		if (par3EntityPlayer.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
 
 			if (par3EntityPlayer.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.transteamgun_2){
@@ -154,7 +155,7 @@ public class Item_full_bottle extends Item implements IHasModel
 							item_builddriver.set_core(par3EntityPlayer.getItemStackFromSlot(EntityEquipmentSlot.FEET), 0, "1");
 							item_builddriver.set_core(par3EntityPlayer.getItemStackFromSlot(EntityEquipmentSlot.FEET), 0, "3");
 							}			
-					}else {
+					}else if (num2 == "1"||num2 == "3"){
 						item_builddriver.set_core(par3EntityPlayer.getItemStackFromSlot(EntityEquipmentSlot.FEET), 0, "2");
 						item_builddriver.set_core(par3EntityPlayer.getItemStackFromSlot(EntityEquipmentSlot.FEET), num, num2);
 					}

@@ -12,6 +12,8 @@ import com.google.common.base.Predicates;
 import com.google.common.collect.Sets;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_base_henchmen;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_needle_smash;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -57,6 +59,8 @@ import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
+import net.minecraft.util.text.TextComponentString;
+import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.BossInfo;
 import net.minecraft.world.BossInfoServer;
 import net.minecraft.world.EnumDifficulty;
@@ -90,16 +94,16 @@ public class Entity_evolt extends EntityBossBase
     public void onDeath(DamageSource cause)
     {
 if (!this.world.isRemote){
+	this.dropItem(RiderItems.full_bottle, 2);
+		if (this.getAttackTarget()instanceof EntityPlayer){
+			 EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
+			 EntityBossBase entityboss  = new Entity_evolt_2(world);
 
-   		this.dropItem(RiderItems.cobra_evol_bottle, 2);
-   		this.dropItem(RiderItems.rider_system_evol_bottle, 2);
-   		this.dropItem(RiderItems.dragon_evol_bottle, 1);
-   		this.dropItem(RiderItems.rabbit_evol_bottle, 1);
-   		this.dropItem(RiderItems.evol_trigger, 1);
-   		
+			playerIn.sendMessage( new TextComponentString(TextFormatting.WHITE+"Cobra! Rider System! Revolution! Are you ready? Black Hole! Black Hole! Black Hole! Revolution! Fuhahahahahahahaha!"));
+			entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+			world.spawnEntity(entityboss);
+		}  		
        }
-   }
-
-
+    }
 }
     
