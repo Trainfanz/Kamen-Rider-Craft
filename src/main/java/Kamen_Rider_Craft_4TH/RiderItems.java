@@ -2367,7 +2367,7 @@ public class RiderItems {
 
 	public static Item transteamgun = new Item_transteamgun("transteamgun",Tabs.den_dengu,RiderItems.energy).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 	public static Item transteamgun_2 = new item_builddriver("transteamgun_2",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1);
-	public static Item transteamgun_rifle = new Item_gun("transteamgun_rifle",Tabs.den_dengu,RiderItems.energy).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
+	public static Item transteamgun_rifle = new Item_gun("transteamgun_rifle",Tabs.den_denro,RiderItems.energy).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 
 	public static Item steam_blade = new ItemBaseSword("steam_blade",Tabs.den_denso).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 

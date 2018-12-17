@@ -124,7 +124,7 @@ public static ToolMaterial ridol_stick = new EnumHelper().addToolMaterial("ridol
 	public static ToolMaterial deep_slasher_sword = new EnumHelper().addToolMaterial("deep_slasher_sword", 10, 6500, 12.0F, 13.0F, 22);
 	public static ToolMaterial gan_gun_catcher_rod = new EnumHelper().addToolMaterial("gan_gun_catcher_rod", 10, 6000, 12.0F, 10.0F, 22);
 	
-	public static ToolMaterial kaizoku_hassha = new EnumHelper().addToolMaterial("kaizoku_hassha", 10, 5000, 12.0F, 0.0F, 22);
+	public static ToolMaterial kaizoku_hassha = new EnumHelper().addToolMaterial("kaizoku_hassha", 10, 5000, 12.0F, 4.0F, 22);
 	
 	public static CreativeTabs tabIchigo= new CreativeTabs("tabIichigo")
 	{
