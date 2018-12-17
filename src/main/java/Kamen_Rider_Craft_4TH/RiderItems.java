@@ -1309,7 +1309,9 @@ public class RiderItems {
 	public static Item weather_t2_memory = new Item_ore("weather_t2_memory").setCreativeTab(Tabs.tabW);
 	public static Item xtreme_memory_g = new Item_ore("xtreme_memory_g").setCreativeTab(Tabs.tabW);
 	public static Item xtreme_memory_s = new Item_ore("xtreme_memory_s").setCreativeTab(Tabs.tabW);
-
+	public static Item xtreme_t2_memory = new Item_ore("xtreme_t2_memory").setCreativeTab(Tabs.tabW);
+	public static Item yesterday_t2_memory = new Item_ore("yesterday_t2_memory").setCreativeTab(Tabs.tabW);
+	public static Item zone_t2_memory = new Item_ore("zone_t2_memory").setCreativeTab(Tabs.tabW);
 
 	//OOO
 	public static Item medajalibur = new ItemChargeSword("medajalibur",Tabs.medajalibur).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);

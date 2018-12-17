@@ -315,6 +315,9 @@ item.trigger_t2_memory.name=T2 Trigger Memory
 item.unicorn_t2_memory.name=T2 Unicorn Memory
 item.violence_t2_memory.name=T2 Violence Memory
 item.weather_t2_memory.name=T2 Weather Memory
+item.xtreme_t2_memory.name=T2 Xtreme Memory
+item.yesterday_t2_memory.name=T2 Yesterday Memory
+item.zone_t2_memory.name=T2 Zone Memory
 
 
 
