@@ -50,7 +50,7 @@ public class Entityguardian_hokuto extends Entity_base_henchmen
 	public void onDeath(DamageSource cause)
 	{
 		if (!this.world.isRemote){
-			this.dropItem(RiderItems.full_bottle, 2);
+			this.dropItem(RiderItems.full_bottle, 1);
 			if (this.getAttackTarget()instanceof EntityPlayer){
 				 EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
 				 Entity_base_henchmen entitymob  = new Entity_needle_smash(world);
@@ -115,6 +115,9 @@ public class Entityguardian_hokuto extends Entity_base_henchmen
 				break;
 			case 4:
 				this.dropItem(RiderItems.nebula_gas_sample, 1); 
+				break;
+			case 5:
+				this.dropItem(RiderItems.full_bottle, 1); 
 				break;
 			}
 		}

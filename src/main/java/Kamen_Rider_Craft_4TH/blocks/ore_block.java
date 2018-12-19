@@ -1402,6 +1402,10 @@ public class ore_block extends Block implements IHasModel
 				return RiderItems.beast_ridewatch;
 			}else if (rand<126){
 				return RiderItems.decade_ridewatch;
+			}else if (rand<131){
+				return RiderItems.w_ridewatch;
+			}else if (rand<136){
+				return RiderItems.kuuga_ridewatch;
 				
 			
 			}{
