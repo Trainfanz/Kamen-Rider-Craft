@@ -22,7 +22,18 @@ public class Item_memory extends Item  implements IHasModel
 	public int num;
 	public String num2;
 
-
+	public Item_memory(int NUM ,String NUM2,String name,int gen1,int gen2)
+	{
+		super();
+		this.setHasSubtypes(true);
+		this.setMaxDamage(0);
+		num=NUM;
+		num2=NUM2;
+        setUnlocalizedName(name);
+        setRegistryName(name);
+        TokuCraft_core.ITEMS.add(this);
+	}
+	
 	public Item_memory(int NUM ,String NUM2,String name)
 	{
 		super();
@@ -34,6 +45,19 @@ public class Item_memory extends Item  implements IHasModel
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 	}
+	
+	public Item_memory(String name)
+	{
+		super();
+		this.setHasSubtypes(true);
+		this.setMaxDamage(0);
+		num=0;
+		num2="0";
+        setUnlocalizedName(name);
+        setRegistryName(name);
+        TokuCraft_core.ITEMS.add(this);
+	}
+	
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
@@ -42,7 +66,9 @@ public class Item_memory extends Item  implements IHasModel
 	@Override
 	 public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer player, EnumHand handIn)
     {
-	
+		if (num2 == "0"){
+			
+		}else{
 		if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
 
 			if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.Wdriver){
@@ -113,6 +139,7 @@ public class Item_memory extends Item  implements IHasModel
 				
 
 			}
+		}
 		}
 		player.setActiveHand(handIn);
 		return new ActionResult<ItemStack>(EnumActionResult.SUCCESS, player.getHeldItem(handIn));
