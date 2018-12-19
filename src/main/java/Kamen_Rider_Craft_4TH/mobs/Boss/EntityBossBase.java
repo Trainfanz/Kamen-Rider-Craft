@@ -55,6 +55,7 @@ import net.minecraft.util.EntityDamageSourceIndirect;
 import net.minecraft.util.EntitySelectors;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.SoundEvent;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.BossInfo;
@@ -169,6 +170,11 @@ public class EntityBossBase extends EntityZombie
  	protected boolean shouldBurnInDay()
     {
         return false;
+    }
+ 	
+    protected SoundEvent getAmbientSound()
+    {
+        return null;
     }
 
 }

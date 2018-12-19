@@ -30,6 +30,7 @@ import net.minecraft.entity.monster.EntitySpider;
 import net.minecraft.entity.monster.EntityZombie;
 import net.minecraft.entity.passive.EntityVillager;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
@@ -38,6 +39,7 @@ import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.SoundEvent;
 import net.minecraft.world.World;
 
 public class Entity_base_henchmen extends EntityZombie
@@ -108,5 +110,10 @@ public class Entity_base_henchmen extends EntityZombie
     public void onDeath(DamageSource cause)
     {
     	
+    }
+    
+    protected SoundEvent getAmbientSound()
+    {
+        return null;
     }
 }
