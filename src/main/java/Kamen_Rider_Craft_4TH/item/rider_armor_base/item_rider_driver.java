@@ -77,9 +77,9 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 
 
 	public void extraPotionEffects(World world,EntityPlayer player,ItemStack armor,Item_form_change form) {
-		
+
 	}
-	
+
 	@Override
 	public void onArmorTick(World world, EntityPlayer player, ItemStack armor) {
 
@@ -91,7 +91,7 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 						List<PotionEffect> potionEffectList = get_Form_Item(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).getPotionEffectList();
 						for (int i = 0; i < potionEffectList.size(); i++)
 						{
-						player.addPotionEffect(potionEffectList.get(i));
+							player.addPotionEffect(new PotionEffect(potionEffectList.get(i).getPotion(),potionEffectList.get(i).getDuration(),potionEffectList.get(i).getAmplifier(),true,false));
 						}
 						extraPotionEffects(world,player,armor,get_Form_Item(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),1));
 					}
@@ -113,11 +113,11 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 			{
 				model_belt armorModel = new model_belt();
 
-			if (get_Form_Item(stack,1).getBelt()==RiderItems.blanknoitem ){
-				armorModel.belt=stack;
-			}else{
-				armorModel.belt=new ItemStack(get_Form_Item(stack,1).getBelt());
-			}
+				if (get_Form_Item(stack,1).getBelt()==RiderItems.blanknoitem ){
+					armorModel.belt=stack;
+				}else{
+					armorModel.belt=new ItemStack(get_Form_Item(stack,1).getBelt());
+				}
 				armorModel.isSneak = defaultModel.isSneak;
 				armorModel.isRiding = defaultModel.isRiding;
 				armorModel.isChild = defaultModel.isChild;
@@ -155,7 +155,7 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 			return Base_Form_Item;
 		}
 	}
-	
+
 	public static Item_form_change get_Form_Item_tex(ItemStack itemstack,int SLOT)
 	{
 		if (!itemstack.hasTagCompound())
