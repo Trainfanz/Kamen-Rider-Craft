@@ -2643,7 +2643,7 @@ public class RiderItems {
 	public static Item wizard_ridewatch = new Item_ridewatches(1, 6,"wizard_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item beast_ridewatch = new Item_ore("beast_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item fourze_ridewatch = new Item_ridewatches(1, 7,"fourze_ridewatch").setCreativeTab(Tabs.tabzi_o);
-	public static Item ooo_ridewatch = new Item_ridewatches(1, 8,"ooo_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item ooo_ridewatch = new Item_ridewatches(1, 8,"ooo_ridewatch",true).setCreativeTab(Tabs.tabzi_o);
 	public static Item w_ridewatch = new Item_ridewatches(1, 9,"w_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item decade_ridewatch = new Item_ridewatches(0, 20,"decade_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item kiva_ridewatch = new Item_ridewatches(1, 10,"kiva_ridewatch").setCreativeTab(Tabs.tabzi_o);
