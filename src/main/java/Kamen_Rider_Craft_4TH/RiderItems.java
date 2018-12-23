@@ -2625,6 +2625,10 @@ public class RiderItems {
 	public static Item oma_ziku_driver = new item_zikudriver("oma_ziku_driver",ArmorMaterial.DIAMOND, 4, "oma_zi_o",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item beyondriver = new item_zikudriver("beyondriver",ArmorMaterial.DIAMOND, 4, "woz",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 
+	public static Item shinobi_driver = new item_zikudriver("shinobi_driver",ArmorMaterial.DIAMOND, 4, "shinobi",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
+	public static Item quiz_driver = new item_zikudriver("quiz_driver",ArmorMaterial.DIAMOND, 4, "quiz",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
+	
+	
 	public static Item zikan_grade = new Item_sword_gun("zikan_grade",Tabs.musou_saber).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item zikan_zax = new Item_sword_gun("zikan_zax",Tabs.musou_saber).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item drill_crusher_crusher = new ItemBaseSword("drill_crusher_crusher",Tabs.den_denaxe).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
@@ -2659,7 +2663,7 @@ public class RiderItems {
 	
 	public static Item woz_miridewatch = new Item_ridewatches(0, 0,"woz_miridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item quiz_miridewatch = new Item_ridewatches(2, 21,"quiz_miridewatch").setCreativeTab(Tabs.tabzi_o);
-	public static Item shinobi_miridewatch = new Item_ridewatches(2, 22,"quiz_miridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item shinobi_miridewatch = new Item_ridewatches(2, 22,"shinobi_miridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item kikai_miridewatch = new Item_ridewatches(2, 23,"kikai_miridewatch").setCreativeTab(Tabs.tabzi_o);
             
 	public static Item kodama_suika_arms = new item_kodamawatch("kodama_suika_arms").setCreativeTab(Tabs.tabzi_o);
