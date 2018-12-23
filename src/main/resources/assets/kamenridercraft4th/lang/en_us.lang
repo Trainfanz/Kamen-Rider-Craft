@@ -1880,6 +1880,9 @@ item.zi_olegs.name=Zi-O Leggings
 item.ziku_driver_zi_o.name=Ziku Driver (Zi-O)
 item.ziku_driver_geiz.name=Ziku Driver (Geiz)
 item.oma_ziku_driver.name=Oma Ziku Driver
+item.beyondriver.name=BeyonDriver
+item.shinobi_driver.name=Shinobi Driver
+item.quiz_driver.name=Quiz Driver
 
 item.zikan_grade.name=Zikan Grade
 item.zikan_zax.name=Zikan Zax
@@ -1913,6 +1916,11 @@ item.kuuga_ridewatch.name=Kuuga Ridewatch
 item.genm_ridewatch.name=Genm Ridewatch
 item.cross_z_ridewatch.name=Cross-Z Ridewatch
 item.beast_ridewatch.name=Beast Ridewatch
+
+item.woz_miridewatch.name=Woz Miridewatch
+item.quiz_miridewatch.name=Quiz Miridewatch
+item.shinobi_miridewatch.name=Shinobi Miridewatch
+item.kikai_miridewatch.name=Kikai Miridewatch
 
 item.kodama_suika_arms.name=Kodama Suika Arms
 item.another_build_ridewatch.name=Another Build Ridewatch
