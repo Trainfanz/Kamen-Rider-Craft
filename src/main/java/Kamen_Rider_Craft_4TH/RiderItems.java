@@ -2662,9 +2662,9 @@ public class RiderItems {
 	public static Item kuuga_ridewatch = new Item_ridewatches(1, 18,"kuuga_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	
 	public static Item woz_miridewatch = new Item_ridewatches(0, 0,"woz_miridewatch").setCreativeTab(Tabs.tabzi_o);
-	public static Item quiz_miridewatch = new Item_ridewatches(2, 21,"quiz_miridewatch").setCreativeTab(Tabs.tabzi_o);
-	public static Item shinobi_miridewatch = new Item_ridewatches(2, 22,"shinobi_miridewatch").setCreativeTab(Tabs.tabzi_o);
-	public static Item kikai_miridewatch = new Item_ridewatches(2, 23,"kikai_miridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item quiz_miridewatch = new Item_ridewatches(2, 22,"quiz_miridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item shinobi_miridewatch = new Item_ridewatches(2, 23,"shinobi_miridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item kikai_miridewatch = new Item_ridewatches(2, 24,"kikai_miridewatch").setCreativeTab(Tabs.tabzi_o);
             
 	public static Item kodama_suika_arms = new item_kodamawatch("kodama_suika_arms").setCreativeTab(Tabs.tabzi_o);
 	public static Item another_build_ridewatch = new Item_ore("another_build_ridewatch").setCreativeTab(Tabs.tabzi_o);  
