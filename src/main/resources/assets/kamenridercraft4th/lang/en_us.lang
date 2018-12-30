@@ -291,7 +291,7 @@ item.dummy_memory.name=Dummy Memory
 item.fang_memory_un.name=Unfinished Fang Memory
 item.trial_memory_un.name=Unfinished Trial Memory
 item.xtreme_memory_g.name=Xtreme Memory (Gold)
-item.xtreme_memory_s.name=Xtreme Memory Memory (Silver)
+item.xtreme_memory_s.name=Xtreme Memory (Silver)
 
 
 item.accel_t2_memory.name=T2 Accel Memory
