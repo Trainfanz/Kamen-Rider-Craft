@@ -359,6 +359,16 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":lostdriver"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.lostdriver,1), "aaa","aca","aaa", 'a', RiderItems.t2gaiamemory,  'c', RiderItems.joker_t2_memory);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":accel_driver"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.accel_driver,1), "aaa","aca","aaa", 'a', RiderItems.gaiamemory,  'c', RiderItems.accel_memory);
 
+		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":unrefined_memory_g"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.unrefined_memory_g), new Ingredient[]{Ingredient.fromItem(RiderItems.gaiamemory),Ingredient.fromItem(Items.GOLD_INGOT)});
+		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":unrefined_memory_s"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.unrefined_memory_s), new Ingredient[]{Ingredient.fromItem(RiderItems.gaiamemory),Ingredient.fromItem(Items.IRON_INGOT)});
+		
+		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":fang_memory"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.fang_memory,1), "fff","fmf", "fff", 'f', Items.BONE, 'm', RiderItems.fang_memory_un);
+		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":trial_memory"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.trial_memory,1), "byr","iii", " m ", 'i', Items.IRON_INGOT, 'm', RiderItems.trial_memory_un, 'r', new ItemStack(Blocks.STAINED_GLASS,1,14), 'b', new ItemStack(Blocks.STAINED_GLASS,1,11), 'y', new ItemStack(Blocks.STAINED_GLASS,1,4));
+		
+		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":xtreme_memory"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.xtreme_memory,1), "iei","sig", "iii", 'g', RiderItems.xtreme_memory_g, 's', RiderItems.xtreme_memory_s, 'i', Items.GOLD_INGOT, 'e', RiderItems.gaiamemory);
+		
+		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":unrefined_memory_s"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.xtreme_memory), new Ingredient[]{Ingredient.fromItem(RiderItems.xtreme_memory_g),Ingredient.fromItem(RiderItems.xtreme_memory_s)});
+		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":metal_shaft"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.metal_shaft,1), "ama","aba","aaa", 'a', RiderItems.gaiamemory, 'b', RiderItems.base_sword, 'm', RiderItems.metal_memory);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":trigger_magnum"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.trigger_magnum,1), "ama","aba","aaa", 'a', RiderItems.gaiamemory, 'b', RiderItems.base_sword, 'm', RiderItems.trigger_memory);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":prism_bicker"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.prism_bicker,1), "ama","aba","aaa", 'a', RiderItems.gaiamemory, 'b', RiderItems.base_sword, 'm', RiderItems.prism_memory);

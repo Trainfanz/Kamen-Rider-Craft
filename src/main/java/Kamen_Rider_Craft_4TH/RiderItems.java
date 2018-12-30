@@ -11,6 +11,7 @@ import Kamen_Rider_Craft_4TH.blocks.custom.BlockType;
 import Kamen_Rider_Craft_4TH.blocks.custom.CustomBlock;
 import Kamen_Rider_Craft_4TH.blocks.custom.Property;
 import Kamen_Rider_Craft_4TH.blocks.decor_block;
+import Kamen_Rider_Craft_4TH.blocks.gaia_memory_refiner_block;
 import Kamen_Rider_Craft_4TH.blocks.glass_ore_block;
 import Kamen_Rider_Craft_4TH.blocks.mob_block;
 import Kamen_Rider_Craft_4TH.blocks.ore_block;
@@ -280,14 +281,18 @@ public class RiderItems {
 	//decor blocks
 	
 	public static Block monitor = CustomBlock.builder().material(Material.IRON).hardness(9.9F).lightLevel(0.1F).harvestLevel("pickaxe", 2).blockType(BlockType.DIRECTIONAL).name("monitor").setCreativeTabe(Tabs.tabdecor).build();
-	public static Block pandorabox = new pandora_box_block("pandorabox",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
-	public static Block purifyer = new purifyer_block("purifyer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
-	public static Block solidifyer = new solidifyer_block("solidifyer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
-	
 	public static Block mighty_block = CustomBlock.builder().material(Material.IRON).hardness(9.9F).harvestLevel("pickaxe", 2).name("mighty_block").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block fangire_glass = CustomBlock.builder().material(Material.IRON).hardness(9.9F).lightOpacity(1).harvestLevel("pickaxe", 2).name("fangire_glass").property(TRANSPARENT).setCreativeTabe(Tabs.tabdecor).build();
 	public static Block wallplate = CustomBlock.builder().material(Material.IRON).hardness(9.9F).harvestLevel("pickaxe", 2).name("wallplate").setCreativeTabe(Tabs.tabdecor).build();
 	
+	
+	public static Block gaia_memory_refiner = new gaia_memory_refiner_block("gaia_memory_refiner",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabW);
+	
+	public static Block pandorabox = new pandora_box_block("pandorabox",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
+	public static Block purifyer = new purifyer_block("purifyer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
+	public static Block solidifyer = new solidifyer_block("solidifyer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
+	
+
 	//boss blocks
 	
 	public static Block evolt_block = new mob_block("evolt_block",Material.ROCK, "evolt", 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
@@ -569,7 +574,7 @@ public class RiderItems {
 	public static Item g3mild = new Item_form_change("g3mild",item_agitodriver.class,blanknoitem,"",""
 			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
 	
-	public static Item g3_mild_belt = new item_agitodriver("g3_mild_belt",ArmorMaterial.DIAMOND, 4,"g3mild",(Item_form_change) g3mild).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
+	public static Item g3_mild_belt = new item_agitodriver("g3_mild_belt",ArmorMaterial.DIAMOND, 4,"g3_mild",(Item_form_change) g3mild).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
 	
 	
 	public static Item g4 = new Item_form_change("g4",item_agitodriver.class,blanknoitem,"",""
@@ -1225,6 +1230,9 @@ public class RiderItems {
 
 	public static Item Wdriver = new item_Wdriver("wdriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 
+	public static Item cyclone_joker_gold_xtreme_wings = new Item_ore("cyclone_joker_gold_xtreme_wings");
+	
+	
 	public static Item wdriverj = new Item_ore("wdriverj");
 	public static Item wdriverc = new Item_ore("wdriverc");
 	public static Item wdrivert = new Item_ore("wdrivert");
@@ -1251,14 +1259,14 @@ public class RiderItems {
 
 	public static Item accel_driver = new item_Wdriver("accel_driver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 
-	public static Item cyclone_memory = new Item_memory(0, "3","cyclone_memory").setCreativeTab(Tabs.tabW);
-	public static Item heat_memory = new Item_memory(1, "3","heat_memory").setCreativeTab(Tabs.tabW);
-	public static Item luna_memory = new Item_memory(2, "3","luna_memory").setCreativeTab(Tabs.tabW);
+	public static Item cyclone_memory = new Item_memory(0, "3","cyclone_memory",1,20).setCreativeTab(Tabs.tabW);
+	public static Item heat_memory = new Item_memory(1, "3","heat_memory",1,10).setCreativeTab(Tabs.tabW);
+	public static Item luna_memory = new Item_memory(2, "3","luna_memory",1,10).setCreativeTab(Tabs.tabW);
 	public static Item fang_memory = new Item_memory(3, "3","fang_memory").setCreativeTab(Tabs.tabW);
 
-	public static Item joker_memory = new Item_memory(0, "1","joker_memory").setCreativeTab(Tabs.tabW);
-	public static Item metal_memory = new Item_memory(1, "1","metal_memory").setCreativeTab(Tabs.tabW);
-	public static Item trigger_memory = new Item_memory(2, "1","trigger_memory").setCreativeTab(Tabs.tabW);
+	public static Item joker_memory = new Item_memory(0, "1","joker_memory",0,20).setCreativeTab(Tabs.tabW);
+	public static Item metal_memory = new Item_memory(1, "1","metal_memory",0,10).setCreativeTab(Tabs.tabW);
+	public static Item trigger_memory = new Item_memory(2, "1","trigger_memory",0,10).setCreativeTab(Tabs.tabW);
 
 	public static Item xtreme_memory = new Item_memory(1, "2","xtreme_memory").setCreativeTab(Tabs.tabW);
 	public static Item xtreme_gold_memory = new Item_memory(2, "2","xtreme_gold_memory").setCreativeTab(Tabs.tabW);
@@ -1267,52 +1275,59 @@ public class RiderItems {
 	public static Item cyclonecyclone_memory = new Item_memory(3, "1","cyclonecyclone_memory").setCreativeTab(Tabs.tabW);
 	public static Item jokerjoker_memory = new Item_memory(4, "3","jokerjoker_memory").setCreativeTab(Tabs.tabW);
 
-	public static Item joker_t2_memory = new Item_memory(0, "4","joker_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item skull_memory = new Item_memory(1, "4","skull_memory").setCreativeTab(Tabs.tabW);
-	public static Item eternal_t2_memory = new Item_memory(2, "4","eternal_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item eternal_memory = new Item_memory(3, "4","eternal_memory").setCreativeTab(Tabs.tabW);
+	public static Item joker_t2_memory = new Item_memory(0, "4","joker_t2_memory",2,5).setCreativeTab(Tabs.tabW);
+	public static Item skull_memory = new Item_memory(1, "4","skull_memory",1,5).setCreativeTab(Tabs.tabW);
+	public static Item eternal_t2_memory = new Item_memory(2, "4","eternal_t2_memory",2,5).setCreativeTab(Tabs.tabW);
+	public static Item eternal_memory = new Item_memory(3, "4","eternal_memory",1,1).setCreativeTab(Tabs.tabW);
 
-	public static Item accel_memory = new Item_memory(0, "5","accel_memory").setCreativeTab(Tabs.tabW);
+	public static Item accel_memory = new Item_memory(0, "5","accel_memory",0,5).setCreativeTab(Tabs.tabW);
 	public static Item trial_memory = new Item_memory(1, "5","trial_memory").setCreativeTab(Tabs.tabW);
 	public static Item accel_booster_memory = new Item_memory(2, "5","accel_booster_memory").setCreativeTab(Tabs.tabW);
 
-	public static Item prism_memory = new Item_ore("prism_memory").setCreativeTab(Tabs.tabW);
-	public static Item engine_memory = new Item_ore("engine_memory").setCreativeTab(Tabs.tabW);
+	public static Item prism_memory = new Item_memory("prism_memory",1,5).setCreativeTab(Tabs.tabW);
+	public static Item engine_memory = new Item_memory("engine_memory",1,5).setCreativeTab(Tabs.tabW);
 
 	public static Item shippu_memory = new Item_memory(0, "3","shippu_memory").setCreativeTab(Tabs.tabW);
 	public static Item kirifuda_memory = new Item_memory(0, "1","kirifuda_memory").setCreativeTab(Tabs.tabW);
 	
-	public static Item accel_t2_memory = new Item_ore("accel_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item bird_t2_memory = new Item_ore("bird_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item bomb_memory = new Item_ore("bomb_memory").setCreativeTab(Tabs.tabW);
-	public static Item cyclone_t2_memory = new Item_ore("cyclone_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item dummy_memory = new Item_ore("dummy_memory").setCreativeTab(Tabs.tabW);
-	public static Item fang_memory_un = new Item_ore("fang_memory_un").setCreativeTab(Tabs.tabW);
-	public static Item fang_t2_memory = new Item_ore("fang_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item gene_t2_memory = new Item_ore("gene_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item heat_t2_memory = new Item_ore("heat_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item iceage_t2_memory = new Item_ore("iceage_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item key_t2_memory = new Item_ore("key_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item luna_t2_memory = new Item_ore("luna_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item metal_t2_memory = new Item_ore("metal_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item nasca_t2_memory = new Item_ore("nasca_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item ocean_t2_memory = new Item_ore("ocean_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item puppeteer_t2_memory = new Item_ore("puppeteer_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item queen_t2_memory = new Item_ore("queen_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item rocket_t2_memory = new Item_ore("rocket_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item skull_t2_memory = new Item_ore("skull_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item trial_memory_un = new Item_ore("trial_memory_un").setCreativeTab(Tabs.tabW);
-	public static Item trial_t2_memory = new Item_ore("trial_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item trigger_t2_memory = new Item_ore("trigger_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item unicorn_t2_memory = new Item_ore("unicorn_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item violence_t2_memory = new Item_ore("violence_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item weather_t2_memory = new Item_ore("weather_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item xtreme_memory_g = new Item_ore("xtreme_memory_g").setCreativeTab(Tabs.tabW);
-	public static Item xtreme_memory_s = new Item_ore("xtreme_memory_s").setCreativeTab(Tabs.tabW);
-	public static Item xtreme_t2_memory = new Item_ore("xtreme_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item yesterday_t2_memory = new Item_ore("yesterday_t2_memory").setCreativeTab(Tabs.tabW);
-	public static Item zone_t2_memory = new Item_ore("zone_t2_memory").setCreativeTab(Tabs.tabW);
+	public static Item trial_memory_un = new Item_memory("trial_memory_un",0,2).setCreativeTab(Tabs.tabW);
+	public static Item fang_memory_un = new Item_memory("fang_memory_un",1,5).setCreativeTab(Tabs.tabW);
+	public static Item bomb_memory = new Item_memory("bomb_memory",1,1).setCreativeTab(Tabs.tabW);
+	
+	public static Item xtreme_memory_g = new Item_memory("xtreme_memory_g",0,1).setCreativeTab(Tabs.tabW);
+	public static Item xtreme_memory_s = new Item_memory("xtreme_memory_s",1,1).setCreativeTab(Tabs.tabW);
+	
+	public static Item accel_t2_memory = new Item_memory("accel_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item bird_t2_memory = new Item_memory("bird_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item cyclone_t2_memory = new Item_memory("cyclone_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item dummy_memory = new Item_memory("dummy_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item fang_t2_memory = new Item_memory("fang_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item gene_t2_memory = new Item_memory("gene_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item heat_t2_memory = new Item_memory("heat_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item iceage_t2_memory = new Item_memory("iceage_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item key_t2_memory = new Item_memory("key_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item luna_t2_memory = new Item_memory("luna_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item metal_t2_memory = new Item_memory("metal_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item nasca_t2_memory = new Item_memory("nasca_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item ocean_t2_memory = new Item_memory("ocean_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item puppeteer_t2_memory = new Item_memory("puppeteer_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item queen_t2_memory = new Item_memory("queen_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item rocket_t2_memory = new Item_memory("rocket_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item skull_t2_memory = new Item_memory("skull_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item trial_t2_memory = new Item_memory("trial_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item trigger_t2_memory = new Item_memory("trigger_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item unicorn_t2_memory = new Item_memory("unicorn_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item violence_t2_memory = new Item_memory("violence_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item weather_t2_memory = new Item_memory("weather_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item xtreme_t2_memory = new Item_memory("xtreme_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item yesterday_t2_memory = new Item_memory("yesterday_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item zone_t2_memory = new Item_memory("zone_t2_memory",2,1).setCreativeTab(Tabs.tabW);
 
+	public static Item unrefined_memory_g = new Item_ore("unrefined_memory_g").setCreativeTab(Tabs.tabW);
+	public static Item unrefined_memory_s = new Item_ore("unrefined_memory_s").setCreativeTab(Tabs.tabW);
+	public static Item unrefined_memory_t2 = new Item_ore("unrefined_memory_t2").setCreativeTab(Tabs.tabW);
+	
+	
 	//OOO
 	public static Item medajalibur = new ItemChargeSword("medajalibur",Tabs.medajalibur).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 

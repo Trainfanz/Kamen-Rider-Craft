@@ -34,7 +34,7 @@ public class model_belt_w extends ModelBiped
 	
 
 	public ItemStack belt;
-
+	public ItemStack wings=new ItemStack(RiderItems.blanknoitem);
 
 
 
@@ -55,6 +55,25 @@ public class model_belt_w extends ModelBiped
 			ItemStack stack = living.getItemStackFromSlot(EntityEquipmentSlot.FEET);
 			
 			GL11.glPushMatrix();
+			GL11.glPushMatrix();
+			if (stack.hasTagCompound()){
+			if (stack.getTagCompound().getInteger("core2")==2&stack.getItem()== RiderItems.Wdriver){
+				wings=new ItemStack(RiderItems.cyclone_joker_gold_xtreme_wings);
+			}else{
+				wings=new ItemStack(RiderItems.blanknoitem);
+			}
+			if(living.isSneaking()){
+				GL11.glRotatef(20, 1, 0, 0);	
+			}
+			}
+			GL11.glRotatef(180, 0, 1, 0);
+			GL11.glRotatef(180, 0, 0, 1);
+			GL11.glScaled(3,3,1);
+			GL11.glTranslatef((float) (0f),-0.05f,-0.2f);
+			
+			Minecraft.getMinecraft().getItemRenderer().renderItem(living,wings,null);
+			GL11.glPopMatrix();
+
 			GL11.glPushMatrix();
 
 			Item[] LOCK= new Item[] {RiderItems.wdriverj,RiderItems.wdriverm,RiderItems.wdrivert,RiderItems.wdrivercc,RiderItems.wdriverx,RiderItems.wdriverx,RiderItems.wdriverxca};
@@ -97,7 +116,7 @@ public class model_belt_w extends ModelBiped
 					sideb=RiderItems.blanknoitem;
 				}	
 			}
-
+			
 			if(living.isSneaking()){
 				GL11.glRotatef(20, 1, 0, 0);	
 			}
