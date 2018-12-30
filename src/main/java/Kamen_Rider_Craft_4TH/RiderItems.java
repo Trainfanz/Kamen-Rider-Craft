@@ -122,6 +122,7 @@ import Kamen_Rider_Craft_4TH.item.zi_o.item_kodamawatch;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zi_oarmor;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zi_oarmor2;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
+import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.Minecraft;
@@ -404,7 +405,7 @@ public class RiderItems {
 			,new PotionEffect(MobEffects.WEAKNESS, 5, 2,true,false)).setCreativeTab(Tabs.tabkuuga);
 	
 	public static Item kuuga_mighty = new Item_form_change("kuuga_mighty",item_kuugadriver.class,arcle_r,""
-			,new PotionEffect(TokuCraft_core.PUNCH_BOOST_POTION, 5, 4,true,false)).setCreativeTab(Tabs.tabkuuga);
+			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false)).setCreativeTab(Tabs.tabkuuga);
 	
 	public static Item kuuga_dragon = new Item_form_change("kuuga_dragon",item_kuugadriver.class,arcle_b,"_dragon"
 			,new PotionEffect(MobEffects.HASTE, 5, 0,true,false)
@@ -422,7 +423,7 @@ public class RiderItems {
 	public static Item kuuga_rising_mighty = new Item_form_change("kuuga_rising_mighty",item_kuugadriver.class,arcle_u,"_rising_mighty"
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false)
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)
-			,new PotionEffect(TokuCraft_core.PUNCH_BOOST_POTION, 5, 6,true,false)).setCreativeTab(Tabs.tabkuuga);
+			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 6,true,false)).setCreativeTab(Tabs.tabkuuga);
 	
 	public static Item kuuga_rising_dragon = new Item_form_change("kuuga_rising_dragon",item_kuugadriver.class,arcle_u,"_rising_dragon"
 			,new PotionEffect(MobEffects.HASTE, 5, 2,true,false)
@@ -445,15 +446,15 @@ public class RiderItems {
 			,new PotionEffect(MobEffects.SPEED, 5, 2,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false)
-			,new PotionEffect(TokuCraft_core.PUNCH_BOOST_POTION, 5, 8,true,false)).setCreativeTab(Tabs.tabkuuga);
+			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 8,true,false)).setCreativeTab(Tabs.tabkuuga);
 	
 	public static Item kuuga_ultimate = new Item_form_change("kuuga_ultimate",item_kuugadriver.class,arcle_u,"_ultimate"
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 4,true,false)
 			,new PotionEffect(MobEffects.SPEED, 5, 3,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false)
-			,new PotionEffect(TokuCraft_core.PUNCH_BOOST_POTION, 5, 9,true,false)
-			,new PotionEffect(TokuCraft_core.FIRE_PUNCH_POTION, 5, 4,true,false)).setCreativeTab(Tabs.tabkuuga);
+			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 9,true,false)
+			,new PotionEffect(PotionCore.FIRE_PUNCH_POTION, 5, 4,true,false)).setCreativeTab(Tabs.tabkuuga);
 	
 	public static Item kuuga_rising_ultimate = new Item_form_change("kuuga_rising_ultimate",item_kuugadriver.class,arcle_ru,"_rising_ultimate"
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 6,true,false)
@@ -461,7 +462,7 @@ public class RiderItems {
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 4,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 5,true,false)
 			,new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false)
-			,new PotionEffect(TokuCraft_core.PUNCH_BOOST_POTION, 5, 10,true,false)).setCreativeTab(Tabs.tabkuuga);
+			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 10,true,false)).setCreativeTab(Tabs.tabkuuga);
 	
 	public static Item kuuga_super_rising_ultimate = new Item_form_change("kuuga_super_rising_ultimate",item_kuugadriver.class,arcle_ru,"_super_rising_ultimate"
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 8,true,false)
@@ -469,7 +470,7 @@ public class RiderItems {
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 6,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 7,true,false)
 			,new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false)
-			,new PotionEffect(TokuCraft_core.PUNCH_BOOST_POTION, 5, 12,true,false)).setCreativeTab(Tabs.tabkuuga);
+			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 12,true,false)).setCreativeTab(Tabs.tabkuuga);
 	
 	public static Item kuugahead = new item_rider_armor("kuugahead",item_kuugadriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
 	public static Item kuugatroso = new item_rider_armor2("kuugatroso",item_kuugadriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
@@ -1096,6 +1097,8 @@ public class RiderItems {
 
 	public static Item arcdriver = new item_kivadriver("arcdriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabkiva);
 	public static Item reydriver = new item_kivadriver("reydriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabkiva);
+
+	public static Item kivaladriver = new item_kivadriver("kivaladriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabkiva);
 
 	public static Item wakeupfuestle = new Itemfuestle(0,0,"wakeupfuestle").setCreativeTab(Tabs.tabkiva);
 	public static Item garulufuestle = new Itemfuestle(0,1,"garulufuestle").setCreativeTab(Tabs.tabkiva);

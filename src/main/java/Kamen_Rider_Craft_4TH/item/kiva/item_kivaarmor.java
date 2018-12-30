@@ -114,6 +114,16 @@ public class item_kivaarmor extends ItemArmor implements IHasModel
 					{
 						return Refercence.MODID+":textures/armor/"+"arc" +"_1.png";
 					}
+				}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.kivaladriver){
+
+					if ( slot == EntityEquipmentSlot.LEGS)
+					{
+						return Refercence.MODID+":textures/armor/"+"kivala" +"_2.png";
+					}
+					if (slot == EntityEquipmentSlot.HEAD||slot == EntityEquipmentSlot.CHEST )
+					{
+						return Refercence.MODID+":textures/armor/"+"kivala" +"_1.png";
+					}
 				}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.reydriver){
 
 					if ( slot == EntityEquipmentSlot.LEGS)

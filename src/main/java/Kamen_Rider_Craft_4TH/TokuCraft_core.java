@@ -1,5 +1,6 @@
 package Kamen_Rider_Craft_4TH;
 
+import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import Kamen_Rider_Craft_4TH.potion.PotionFirePunch;
 import Kamen_Rider_Craft_4TH.potion.PotionFly;
 import Kamen_Rider_Craft_4TH.potion.PotionPunchBoost;
@@ -26,10 +27,6 @@ import java.util.List;
 public class TokuCraft_core {
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
-
-	public static final Potion FLY_POTION = new PotionFly();
-	public static final Potion FIRE_PUNCH_POTION = new PotionFirePunch();
-	public static final Potion PUNCH_BOOST_POTION = new PotionPunchBoost();
 	
 	@Instance
 	public static TokuCraft_core instance;
@@ -45,9 +42,7 @@ public class TokuCraft_core {
 	@EventHandler
 	public static void init(FMLInitializationEvent event) {
 		proxy.preInit();
-		ForgeRegistries.POTIONS.register(FLY_POTION);
-		ForgeRegistries.POTIONS.register(FIRE_PUNCH_POTION);
-		ForgeRegistries.POTIONS.register(PUNCH_BOOST_POTION);
+		PotionCore.init(event);
 	}
 
 	@EventHandler

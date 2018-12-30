@@ -369,6 +369,8 @@ public class CraftingRecipeForRider {
 		
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":unrefined_memory_s"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.xtreme_memory), new Ingredient[]{Ingredient.fromItem(RiderItems.xtreme_memory_g),Ingredient.fromItem(RiderItems.xtreme_memory_s)});
 		
+		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":gaia_memory_refiner"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.gaia_memory_refiner,1), "rir","igi", "rir", 'i', Items.REDSTONE, 'g', RiderItems.gaiamemory, 'r', Items.IRON_INGOT);
+		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":metal_shaft"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.metal_shaft,1), "ama","aba","aaa", 'a', RiderItems.gaiamemory, 'b', RiderItems.base_sword, 'm', RiderItems.metal_memory);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":trigger_magnum"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.trigger_magnum,1), "ama","aba","aaa", 'a', RiderItems.gaiamemory, 'b', RiderItems.base_sword, 'm', RiderItems.trigger_memory);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":prism_bicker"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.prism_bicker,1), "ama","aba","aaa", 'a', RiderItems.gaiamemory, 'b', RiderItems.base_sword, 'm', RiderItems.prism_memory);
