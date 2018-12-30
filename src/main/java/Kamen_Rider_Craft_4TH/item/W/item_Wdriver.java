@@ -130,7 +130,10 @@ public class item_Wdriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));		
 											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 1,true,false));
-											player.fallDistance=0;
+											if (player.fallDistance>10){
+												item_Wdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), 2, "2");
+											}
+											
 
 										}else if (get_core(ItemStack,"2")==2){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
@@ -138,13 +141,7 @@ public class item_Wdriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));		
 											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 1,true,false));
-											if (player.isSneaking()){
-												player.fallDistance=0; 
-												Vec3d look = player.getLookVec();
-												player.motionX=look.x/2;
-												player.motionY=look.y/2;
-												player.motionZ=look.z/2;
-											}
+											player.addPotionEffect(new PotionEffect(TokuCraft_core.FLY_POTION, 5, 0,true,false));
 										}
 										else if (get_core(ItemStack,"2")==3){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));
@@ -233,7 +230,6 @@ public class item_Wdriver extends ItemArmor implements IHasModel
 
 
 					armorModel.belt=stack;
-			
 
 				//armorModel.bipedRightLeg.showModel = slot == EntityEquipmentSlot.FEET;
 				//armorModel.bipedLeftLeg.showModel = slot == EntityEquipmentSlot.FEET;
