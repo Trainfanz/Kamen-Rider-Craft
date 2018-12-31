@@ -367,7 +367,7 @@ public class CraftingRecipeForRider {
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":xtreme_memory"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.xtreme_memory,1), "iei","sig", "iii", 'g', RiderItems.xtreme_memory_g, 's', RiderItems.xtreme_memory_s, 'i', Items.GOLD_INGOT, 'e', RiderItems.gaiamemory);
 		
-		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":unrefined_memory_s"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.xtreme_memory), new Ingredient[]{Ingredient.fromItem(RiderItems.xtreme_memory_g),Ingredient.fromItem(RiderItems.xtreme_memory_s)});
+		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":xtreme_memory"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.xtreme_memory), new Ingredient[]{Ingredient.fromItem(RiderItems.xtreme_memory_g),Ingredient.fromItem(RiderItems.xtreme_memory_s)});
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":gaia_memory_refiner"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.gaia_memory_refiner,1), "rir","igi", "rir", 'i', Items.REDSTONE, 'g', RiderItems.gaiamemory, 'r', Items.IRON_INGOT);
 		
