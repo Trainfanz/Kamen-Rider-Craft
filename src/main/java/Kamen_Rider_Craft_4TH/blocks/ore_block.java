@@ -412,6 +412,31 @@ public class ore_block extends Block implements IHasModel
 				return CRYSTAL;
 			}
 			
+		}if (CRYSTAL==RiderItems.gaiamemory){
+			int rand = generator.nextInt(140);
+			if (rand<10){
+				return RiderItems.cyclone_memory;
+			}else if (rand<20){
+				return RiderItems.joker_memory;
+			}else if (rand<25){
+				return RiderItems.metal_memory;
+			}else if (rand<30){
+				return RiderItems.trigger_memory;
+			}else if (rand<35){
+				return RiderItems.luna_memory;
+			}else if (rand<40){
+				return RiderItems.heat_memory;
+			}else if (rand<42){
+				return RiderItems.fang_memory;
+			}else if (rand<43){
+				return RiderItems.xtreme_memory;
+			}else if (rand<48){
+				return RiderItems.prism_memory;
+			}{
+				return CRYSTAL;
+			}	
+			
+		
 		}
 		if (CRYSTAL==RiderItems.astroswitch){
 			int rand = generator.nextInt(500);

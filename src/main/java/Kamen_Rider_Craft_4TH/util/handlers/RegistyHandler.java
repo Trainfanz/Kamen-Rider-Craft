@@ -3,7 +3,6 @@ package Kamen_Rider_Craft_4TH.util.handlers;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.item_panel;
-import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import Kamen_Rider_Craft_4TH.world.gen.WorldGenCustomStructures;
 import net.minecraft.block.Block;
@@ -42,7 +41,7 @@ public class RegistyHandler {
 	@SubscribeEvent
 	public static void onFly(TickEvent.PlayerTickEvent event) {
 		boolean fly = false;
-		if(event.player.isPotionActive(PotionCore.FLY_POTION))
+		if(event.player.isPotionActive(TokuCraft_core.FLY_POTION))
 			fly = true;
 		if(fly || event.player.isCreative() || event.player.isSpectator()) {
 			event.player.capabilities.allowFlying = true;
@@ -56,24 +55,13 @@ public class RegistyHandler {
 
 	@SubscribeEvent
 	public static void onLivingUpate(TickEvent.PlayerTickEvent event){
-		if(event.player.isPotionActive(PotionCore.PUNCH_BOOST_POTION)){
+		if(event.player.isPotionActive(TokuCraft_core.PUNCH_BOOST_POTION)){
 			if(event.player.getHeldItemMainhand().isEmpty())
 			{
-				event.player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,event.player.getActivePotionEffect(PotionCore.PUNCH_BOOST_POTION).getAmplifier(), 4,true,false));
+				event.player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,event.player.getActivePotionEffect(TokuCraft_core.PUNCH_BOOST_POTION).getAmplifier(), 4,true,false));
 			}
 		}
-		if(event.player.isPotionActive(PotionCore.BIG_POTION)){
-				event.player.height=4+(event.player.getDefaultEyeHeight());
-				event.player.eyeHeight=4;
-				
-				event.player.setInvisible(true);
-		}else{
-			event.player.height=event.player.getDefaultEyeHeight();
-			event.player.eyeHeight=event.player.getDefaultEyeHeight();
-			event.player.setInvisible(event.player.isPotionActive(MobEffects.INVISIBILITY));
-		}
-
-		if(event.player.isPotionActive(PotionCore.FIRE_PUNCH_POTION)){
+		if(event.player.isPotionActive(TokuCraft_core.FIRE_PUNCH_POTION)){
 			if(event.player.getHeldItemMainhand().isEmpty())
 			{
 				if (event.player.isSwingInProgress){
@@ -86,7 +74,6 @@ public class RegistyHandler {
 			}	
 		}
 	}
-
 
 	@SubscribeEvent
 	public static void onItemRagister(Register<Item> event){

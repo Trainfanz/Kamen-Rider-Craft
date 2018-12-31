@@ -5,7 +5,6 @@ import javax.annotation.Nullable;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
-import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_armor2;
 import Kamen_Rider_Craft_4TH.model.tokuArmorModel;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import Kamen_Rider_Craft_4TH.util.Refercence;
@@ -147,7 +146,6 @@ public class item_Ichigoarmor2 extends ItemArmor  implements IHasModel
 		}
 		return null;
 	}
-
 
 	/**
 	 * Returns the 'max damage' factor array for the armor, each piece of armor have a durability factor (that gets

@@ -5,55 +5,37 @@ import javax.annotation.Nullable;
 import com.google.common.base.Predicate;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
-import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
-import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityAgeable;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.EntityAIAttackMelee;
-import net.minecraft.entity.ai.EntityAIDefendVillage;
-import net.minecraft.entity.ai.EntityAIFollowParent;
 import net.minecraft.entity.ai.EntityAIHurtByTarget;
-import net.minecraft.entity.ai.EntityAILookAtVillager;
 import net.minecraft.entity.ai.EntityAILookIdle;
-import net.minecraft.entity.ai.EntityAIMate;
 import net.minecraft.entity.ai.EntityAIMoveThroughVillage;
 import net.minecraft.entity.ai.EntityAIMoveTowardsRestriction;
 import net.minecraft.entity.ai.EntityAIMoveTowardsTarget;
 import net.minecraft.entity.ai.EntityAINearestAttackableTarget;
-import net.minecraft.entity.ai.EntityAIPanic;
-import net.minecraft.entity.ai.EntityAISwimming;
-import net.minecraft.entity.ai.EntityAITempt;
-import net.minecraft.entity.ai.EntityAIWander;
 import net.minecraft.entity.ai.EntityAIWanderAvoidWater;
 import net.minecraft.entity.ai.EntityAIWatchClosest;
 import net.minecraft.entity.monster.EntityCreeper;
 import net.minecraft.entity.monster.EntityGolem;
 import net.minecraft.entity.monster.IMob;
-import net.minecraft.entity.passive.EntityAnimal;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Items;
 import net.minecraft.init.SoundEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemSeeds;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.DamageSource;
-import net.minecraft.util.EnumParticleTypes;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.SoundEvent;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.MathHelper;
+import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class Entity_kodama_suika_arms extends EntityGolem {
+public class EntityFangMemory extends EntityGolem {
 	private int attackTimer;
 
-	public Entity_kodama_suika_arms(World par1World) {
-		super(par1World);
+	public EntityFangMemory(World worldIn) {
+		super(worldIn);
 		this.setSize(2F, 0.7F);
 		this.tasks.addTask(1, new EntityAIAttackMelee(this, 1.0D, true));
 		this.tasks.addTask(2, new EntityAIMoveTowardsTarget(this, 0.9D, 32.0F));
@@ -71,7 +53,7 @@ public class Entity_kodama_suika_arms extends EntityGolem {
 					}
 				}));
 	}
-
+	
 	/**
 	 * Returns true if the newer Entity AI code should be run
 	 */
@@ -122,10 +104,23 @@ public class Entity_kodama_suika_arms extends EntityGolem {
 	protected boolean shouldBurnInDay() {
 		return false;
 	}
-
+	
+	public boolean processInteract(EntityPlayer player, EnumHand hand)
+	{
+		
+       
+        //else
+        //{
+		world.removeEntity(this);
+		this.dropItem(RiderItems.fang_memory, 1);
+		//world.spawnEntity(new entityitem)
+        return super.processInteract(player, hand);
+        //}
+    }
+	
 	public void onDeath(DamageSource cause) {
 		if (!this.world.isRemote) {
-			this.dropItem(RiderItems.kodama_suika_arms, 1);
+			this.dropItem(RiderItems.fang_memory, 1);
 		}
 	}
 
@@ -136,4 +131,5 @@ public class Entity_kodama_suika_arms extends EntityGolem {
 
 		super.collideWithEntity(entityIn);
 	}
+
 }
