@@ -265,6 +265,10 @@ public class item_zikudriver extends ItemArmor  implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));	
+										}else  if (item_zikudriver.get_lockbase(armor)=="shinobi"){
+											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));	
 										
 										}
 										}else if (item_zikudriver.get_core(armor, "1")==1){
@@ -324,6 +328,13 @@ public class item_zikudriver extends ItemArmor  implements IHasModel
 												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));		
 										}
 									}
+									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.beyondriver){
+										
+										if (item_zikudriver.get_core(armor, "1")==0){											
+											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));		
+									}
 								}
 							}
 						}
@@ -332,6 +343,7 @@ public class item_zikudriver extends ItemArmor  implements IHasModel
 			}
 		}
 	}
+}
 	
 
 	
