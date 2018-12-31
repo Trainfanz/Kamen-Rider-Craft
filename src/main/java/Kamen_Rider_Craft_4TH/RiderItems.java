@@ -275,6 +275,9 @@ public class RiderItems {
 	
 	public static Item blank_watch = new Item_ore("blank_watch").setCreativeTab(Tabs.tabzi_o);
 	public static Block watch_stone = new ore_block("watch_stone",Material.ROCK, blank_watch, 2).setHardness(9.9F).setCreativeTab(Tabs.tabzi_o);
+	
+	public static Item blank_miridewatch = new Item_ore("blank_miridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Block watch_hellrock = new ore_block("watch_hellrock",Material.ROCK, blank_miridewatch, 2).setHardness(9.9F).setCreativeTab(Tabs.tabzi_o);
 
 	public static Item amazon_cell_vial = new Item_ore("amazon_cell_vial").setCreativeTab(Tabs.tabamazons);
 	public static Block amazon_cell_block = new ore_block("amazon_cell_block",Material.ROCK, amazon_cell_vial, 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabamazons);

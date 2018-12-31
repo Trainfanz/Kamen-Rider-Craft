@@ -1387,6 +1387,21 @@ public class ore_block extends Block implements IHasModel
 				return CRYSTAL;
 			}
 		}
+		if (CRYSTAL==RiderItems.blank_miridewatch){
+			int rand = generator.nextInt(75);
+			if (rand<30){
+				return RiderItems.woz_miridewatch;
+			}else if (rand<35){
+				return RiderItems.shinobi_miridewatch;
+			}else if (rand<40){
+				return RiderItems.quiz_miridewatch;
+			}else if (rand<45){
+				return RiderItems.kikai_miridewatch;	
+			}{
+				return CRYSTAL;
+			}
+			
+		}
 		if (CRYSTAL==RiderItems.amazon_cell_vial){
 			int rand = generator.nextInt(120);
 			if (rand<34){

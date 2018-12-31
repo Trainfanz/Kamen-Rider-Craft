@@ -99,6 +99,7 @@ tile.pandora_box_hellrock_2.name=Seito Full Bottle Ore
 tile.neozecthellrock.name=Neo-ZECT Ore
 tile.hell_advent_glass.name=Dark Advent Glass
 tile.bladecard_hellrock.name=Rouze Card Ore
+tile.watch_hellrock.name=Miridewatch Ore
 
 tile.evolt_block.name=Evolt Block
 tile.night_rogue_block.name=Night Rogue Block
@@ -146,6 +147,7 @@ item.unfinished_gear.name=Unfinished Gear
 item.rider_circuit.name=Rider Circuit
 item.amazon_cell_vial.name=Amazon Cell Sample
 item.blank_watch.name=Blank Ridewatch
+item.blank_miridewatch.name=Blank Miridewatch
 
 item.himawari_energy_lockseed.name=Himawari Energy Lockseed
 item.ghost_gammaicons.name=Blank Gamma Ghost Eyecon
