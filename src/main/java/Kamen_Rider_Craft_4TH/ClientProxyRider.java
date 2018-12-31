@@ -38,10 +38,12 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityshocker_combatman;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityAcrobatter;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityExaidBike;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityMachineBuilder;
+import Kamen_Rider_Craft_4TH.mobs.bikes.Entityhardboilder;
 import Kamen_Rider_Craft_4TH.model.MobWithBeltModel;
 import Kamen_Rider_Craft_4TH.model.ModelAnkh;
 import Kamen_Rider_Craft_4TH.model.ModelPoppy;
 import Kamen_Rider_Craft_4TH.model.Model_accel_bike_form;
+import Kamen_Rider_Craft_4TH.model.Model_hardboilder;
 import Kamen_Rider_Craft_4TH.model.Model_kodama_suika_arms;
 import Kamen_Rider_Craft_4TH.model.Model_lazer_bike;
 import Kamen_Rider_Craft_4TH.model.Model_machine_builder;
@@ -112,6 +114,7 @@ public class ClientProxyRider extends CommonProxyRider
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityAcrobatter.class, new RenderRiderMob2(new Model_machine_builder(), 0.5F,"textures/entities/acrobatter.png"));
 		
+		RenderingRegistry.registerEntityRenderingHandler(Entityhardboilder.class, new RenderRiderMob2(new Model_hardboilder(), 0.5F,"textures/entities/hardboilder.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entityaccel.class, new RenderRiderMob2(new Model_accel_bike_form(), 0.5F,"textures/entities/accel_bike_form.png"));
 		
 		
