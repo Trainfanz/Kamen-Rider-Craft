@@ -34,6 +34,7 @@ import Kamen_Rider_Craft_4TH.mobs.bikes.EntityAcrobatter;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityExaidBike;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityMachineBuilder;
 import Kamen_Rider_Craft_4TH.mobs.bikes.Entityhardboilder;
+import Kamen_Rider_Craft_4TH.mobs.bikes.Entityskullboilder;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityList;
 import net.minecraft.entity.EntityList.EntityEggInfo;
@@ -96,6 +97,7 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new ResourceLocation("Model_machine_builder"),EntityMachineBuilder.class, "machine_builder", 516, TokuCraft_core.instance, 80, 3, false,0xD7CF00,0xDD0202);
 		EntityRegistry.registerModEntity(new ResourceLocation("Model_Acrobatter"),EntityAcrobatter.class, "Acrobatter", 531, TokuCraft_core.instance, 80, 3, false, 0x0600ef,0xfae000);
 		EntityRegistry.registerModEntity(new ResourceLocation("Model_hardboilder"),Entityhardboilder.class, "hardboilder", 532, TokuCraft_core.instance, 80, 3, false, 0x30df00,0x000000);
+		EntityRegistry.registerModEntity(new ResourceLocation("Model_skullboilder"),Entityskullboilder.class, "skullboilder", 533, TokuCraft_core.instance, 80, 3, false, 0x2f2f2f,0x000000);
 		
 		EntityRegistry.registerModEntity(new ResourceLocation("Modelaccel"),Entityaccel.class, "AccelMob", 532, TokuCraft_core.instance, 80, 3, false, 0xdf0000,0xdadada);
 		
