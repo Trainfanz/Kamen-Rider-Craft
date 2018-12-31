@@ -291,8 +291,13 @@ public class item_zikudriver extends ItemArmor  implements IHasModel
 											}else if (item_zikudriver.get_lockbase(armor)=="ooo"){
 												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
-												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
+											}else if (item_zikudriver.get_lockbase(armor)=="faiz"){
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 4,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));		
 											}else if (item_zikudriver.get_lockbase(armor)=="decade"){
 												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));

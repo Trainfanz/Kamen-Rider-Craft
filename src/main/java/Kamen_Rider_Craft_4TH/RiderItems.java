@@ -274,6 +274,9 @@ public class RiderItems {
 	
 	public static Item blank_watch = new Item_ore("blank_watch").setCreativeTab(Tabs.tabzi_o);
 	public static Block watch_stone = new ore_block("watch_stone",Material.ROCK, blank_watch, 2).setHardness(9.9F).setCreativeTab(Tabs.tabzi_o);
+	
+	public static Item blank_miridewatch = new Item_ore("blank_miridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Block watch_hellrock = new ore_block("watch_hellrock",Material.ROCK, blank_miridewatch, 2).setHardness(9.9F).setCreativeTab(Tabs.tabzi_o);
 
 	public static Item amazon_cell_vial = new Item_ore("amazon_cell_vial").setCreativeTab(Tabs.tabamazons);
 	public static Block amazon_cell_block = new ore_block("amazon_cell_block",Material.ROCK, amazon_cell_vial, 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabamazons);
@@ -2671,7 +2674,7 @@ public class RiderItems {
 	public static Item kabuto_ridewatch = new Item_ridewatches(1, 12,"kabuto_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item hibiki_ridewatch = new Item_ridewatches(1, 13,"hibiki_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item blade_ridewatch = new Item_ridewatches(1, 14,"blade_ridewatch").setCreativeTab(Tabs.tabzi_o);
-	public static Item faiz_ridewatch = new Item_ridewatches(1, 15,"faiz_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item faiz_ridewatch = new Item_ridewatches(1, 15,"faiz_ridewatch",true).setCreativeTab(Tabs.tabzi_o);
 	public static Item ryuki_ridewatch = new Item_ridewatches(1, 16,"ryuki_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item agito_ridewatch = new Item_ridewatches(1, 17,"agito_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item kuuga_ridewatch = new Item_ridewatches(1, 18,"kuuga_ridewatch").setCreativeTab(Tabs.tabzi_o);
