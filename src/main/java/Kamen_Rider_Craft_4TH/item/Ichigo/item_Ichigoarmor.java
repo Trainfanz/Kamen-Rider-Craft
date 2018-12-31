@@ -1,10 +1,15 @@
 package Kamen_Rider_Craft_4TH.item.Ichigo;
 
 
+import javax.annotation.Nullable;
+
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_armor2;
+import Kamen_Rider_Craft_4TH.model.tokuArmorModel;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import Kamen_Rider_Craft_4TH.util.Refercence;
+import net.minecraft.client.model.ModelBiped;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
@@ -13,6 +18,8 @@ import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.nbt.NBTTagCompound;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class item_Ichigoarmor extends ItemArmor  implements IHasModel
 {
@@ -120,4 +127,39 @@ public class item_Ichigoarmor extends ItemArmor  implements IHasModel
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
 	}
 
+	@Override
+	@SideOnly(Side.CLIENT)
+	@Nullable
+	public ModelBiped getArmorModel(EntityLivingBase living, ItemStack stack, EntityEquipmentSlot slot, ModelBiped defaultModel)
+	{
+		if(!stack.isEmpty())
+		{
+			if(stack.getItem() instanceof item_Ichigoarmor)
+			{
+				tokuArmorModel armorModel = new tokuArmorModel();
+
+				
+				armorModel.bipedBody2.showModel = slot == EntityEquipmentSlot.LEGS;
+				armorModel.bipedRightArm2.showModel = slot == EntityEquipmentSlot.CHEST;
+				armorModel.bipedLeftArm2.showModel = slot == EntityEquipmentSlot.LEGS;
+				
+				armorModel.bipedLeftLeg2.showModel = slot == EntityEquipmentSlot.CHEST;
+				armorModel.bipedRightLeg2.showModel = slot == EntityEquipmentSlot.LEGS;
+				
+				armorModel.bipedBody3.showModel = slot == EntityEquipmentSlot.CHEST;
+				
+				armorModel.bipedHead2.showModel = slot == EntityEquipmentSlot.HEAD;
+				armorModel.bipedHeadwear2.showModel = slot == EntityEquipmentSlot.HEAD;
+
+				armorModel.isSneak = defaultModel.isSneak;
+				armorModel.isRiding = defaultModel.isRiding;
+				armorModel.isChild = defaultModel.isChild;
+				armorModel.rightArmPose = defaultModel.rightArmPose;
+				armorModel.leftArmPose = defaultModel.leftArmPose;
+
+				return armorModel;
+			}
+		}
+		return null;
+	}
 }

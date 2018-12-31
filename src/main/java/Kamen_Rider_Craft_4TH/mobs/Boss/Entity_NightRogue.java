@@ -1,5 +1,6 @@
 package Kamen_Rider_Craft_4TH.mobs.Boss;
 
+
 import java.util.Calendar;
 import java.util.Collections;
 import java.util.List;
@@ -65,36 +66,41 @@ import net.minecraft.world.World;
 public class Entity_NightRogue extends EntityBossBase
 //implements IBossDisplayData
 {
-	public Entity_NightRogue(World par1World) {
+	public Entity_NightRogue(World par1World)
+	{
 		super(par1World);
-
+		
 	}
+	
+    protected void applyEntityAttributes()
+    {
+        super.applyEntityAttributes();
 
-	protected void applyEntityAttributes() {
-		super.applyEntityAttributes();
+        this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(10.0D);
+        this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(100.0D);
+        this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.4000000238418579D);
+        this.getEntityAttribute(SharedMonsterAttributes.FOLLOW_RANGE).setBaseValue(40.0D);
+        this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(3.0D);
+        
+    }
 
-		this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(10.0D);
-		this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(100.0D);
-		this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.4000000238418579D);
-		this.getEntityAttribute(SharedMonsterAttributes.FOLLOW_RANGE).setBaseValue(40.0D);
-		this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(3.0D);
+    @Override
+    public ItemStack getHeldItemMainhand()
+    {
+        return new ItemStack(RiderItems.steam_blade);
+    }
+ 	protected boolean shouldBurnInDay()
+    {
+        return false;
+    }
+    public void onDeath(DamageSource cause)
+    {
+if (!this.world.isRemote){
 
-	}
-
-	@Override
-	public ItemStack getHeldItemMainhand() {
-		return new ItemStack(RiderItems.steam_blade);
-	}
-
-	protected boolean shouldBurnInDay() {
-		return false;
-	}
-
-	public void onDeath(DamageSource cause) {
-		if (!this.world.isRemote) {
-			this.dropItem(RiderItems.smash_bottle, 4);
-			this.dropItem(RiderItems.bat_full_bottle, 1);
-			this.entityDropItem(new ItemStack(RiderItems.pandorabox, 1), 1f);
-		}
-	}
+   		this.dropItem(RiderItems.smash_bottle, 4);
+   		this.dropItem(RiderItems.bat_full_bottle, 1);
+   		this.entityDropItem(new ItemStack(RiderItems.pandorabox, 1), 1f);
+       }
+   }
 }
+    
