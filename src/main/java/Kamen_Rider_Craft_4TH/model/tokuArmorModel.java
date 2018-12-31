@@ -8,6 +8,7 @@ package Kamen_Rider_Craft_4TH.model;
 
 import org.lwjgl.opengl.GL11;
 
+import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import Kamen_Rider_Craft_4TH.util.Refercence;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.ModelBiped;
@@ -81,24 +82,35 @@ public class tokuArmorModel extends ModelBiped
 	@Override
 	public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5)
 	{
-	
-	this.setRotationAngles(f, f1, f2, f3, f4, f5, entity);
+
+		this.setRotationAngles(f, f1, f2, f3, f4, f5, entity);
+
+		float height=1;
+		float height2=0;
 		
+		if (entity instanceof EntityPlayer){
+			EntityPlayer player =((EntityPlayer) entity);
+			
+			if(player.isPotionActive(PotionCore.BIG_POTION)){
+				height=2.5f;		
+			}
+			if (height!=1){
+				
+				height2=-0.99f;
+			}
+		}	
 		
 		
 		GL11.glPushMatrix();
-		GL11.glScalef(1F, 1F, 1F);
+		GL11.glScalef(1F*height, 1F*height, 1F*height);
 
 		if (entity.isSneaking()){
 			GL11.glTranslatef(0, 0.2F, 0);
 
 		}else {
-			GL11.glTranslatef(0, -0.02F, 0);
-
-
+			GL11.glTranslatef(0, -0.02F+(height/25), 0);
 		}
-		
-		//Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Refercence.MODID+":textures/armor/"+item_TokuChager.get_core(((EntityLivingBase) entity).getItemStackFromSlot(EntityEquipmentSlot.FEET)) +"_2.png"));
+		GL11.glTranslatef(0,height2,0);
 		
 		this.bipedLeftArm2.offsetX=0.02f;
 		this.bipedLeftArm2.render(f5);
@@ -110,9 +122,9 @@ public class tokuArmorModel extends ModelBiped
 
 
 		GL11.glPushMatrix();
-		GL11.glScalef(0.9F, 0.9F, 0.9F);
-		
-		
+		GL11.glScalef(0.9F*height, 0.9F*height, 0.9F*height);
+
+
 		if (entity.isSneaking()){
 			GL11.glTranslatef(0, 0.3F, 0);
 
@@ -121,7 +133,7 @@ public class tokuArmorModel extends ModelBiped
 
 
 		}
-		
+		GL11.glTranslatef(0,height2,0);
 		this.bipedLeftLeg2.offsetX=0.045f;
 		this.bipedRightLeg2.offsetX=-0.045f;
 		this.bipedLeftLeg2.render(f5);
@@ -130,27 +142,27 @@ public class tokuArmorModel extends ModelBiped
 
 
 		GL11.glPopMatrix();
-	GL11.glPushMatrix();
-	
-		
 		GL11.glPushMatrix();
-        GL11.glScalef(1F, 1F, 1F);
-        if(entity.isSneaking()){
-        	GL11.glTranslatef(0, 0.17F, -0.02f);
-        }else{
-	       GL11.glTranslatef(0, -0F, 0);
-        }
-       this.bipedHead2.render(f5);
-       this.bipedHeadwear2.render(f5);
-        
-        
-        GL11.glPopMatrix();
-  
+
+
 		GL11.glPushMatrix();
-		GL11.glScalef(0.95F, 0.95F, 0.95F);
+		GL11.glScalef(1F*height, 1F*height, 1F*height);
+		if(entity.isSneaking()){
+			GL11.glTranslatef(0, 0.17F, -0.02f);
+		}else{
+			GL11.glTranslatef(0, -0F, 0);
+		}
+		GL11.glTranslatef(0,height2-(height2/10),0);
+		this.bipedHead2.render(f5);
+		this.bipedHeadwear2.render(f5);
+
+
+		GL11.glPopMatrix();
+
+		GL11.glPushMatrix();
 		GL11.glTranslatef(0, 0.05F, 0);
 
-
+		GL11.glScalef(1F*height, 1F*height, 1F*height);
 
 		if (entity.isSneaking()){
 			this.bipedBody3.offsetZ=0.0f;
@@ -158,10 +170,10 @@ public class tokuArmorModel extends ModelBiped
 
 		}else {
 			this.bipedBody3.offsetZ=0.00025f;
-			
+
 
 		}
-
+		GL11.glTranslatef(0,height2,0);
 		this.bipedBody3.render(f5);
 
 
@@ -170,8 +182,8 @@ public class tokuArmorModel extends ModelBiped
 		GL11.glPushMatrix();
 
 
-		GL11.glScalef(0.9F, 0.9F, 0.9F);
-		
+		GL11.glScalef(0.9F*height, 0.9F*height, 0.9F*height);
+
 		if(entity.isSneaking()){
 			this.bipedBody2.offsetZ=-0.0f;
 			this.bipedBody2.offsetY=0.25f;
@@ -179,11 +191,12 @@ public class tokuArmorModel extends ModelBiped
 			this.bipedBody2.offsetZ=0.00025f;
 			this.bipedBody2.offsetY=0.05f;
 		}
+		GL11.glTranslatef(0,height2,0);
 		this.bipedBody2.render(f5);
 
 		GL11.glPopMatrix();
 		GL11.glPopMatrix();
-		
+
 	}
 
 	public void setRotationAngles(float p_78087_1_, float p_78087_2_, float p_78087_3_, float p_78087_4_, float p_78087_5_, float p_78087_6_, Entity entityIn)

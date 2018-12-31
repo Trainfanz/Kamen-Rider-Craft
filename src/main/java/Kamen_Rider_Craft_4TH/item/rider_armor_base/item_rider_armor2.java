@@ -19,7 +19,7 @@ import net.minecraft.entity.Entity;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class item_rider_armor2 extends ItemArmor implements IHasModel
+public class item_rider_armor2 extends item_rider_armor implements IHasModel
 {
 		private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
 	public String armorNamePrefix;
@@ -28,14 +28,11 @@ public class item_rider_armor2 extends ItemArmor implements IHasModel
 	
 	public item_rider_armor2 (String name,Class<? extends item_rider_driver> beltClass,ArmorMaterial par2EnumArmorMaterial, int par3, EntityEquipmentSlot par4)
 	{
-		super(par2EnumArmorMaterial, par3, par4);
+		super(name, beltClass, par2EnumArmorMaterial, par3, par4);
 		this.material = par2EnumArmorMaterial;
 		par2EnumArmorMaterial.getDamageReductionAmount(par4);
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(par4));
 		this.maxStackSize = 1;
-        setUnlocalizedName(name);
-        setRegistryName(name);
-        TokuCraft_core.ITEMS.add(this);
         BELTCLASS=beltClass;
 	}
 	@Override
@@ -108,19 +105,4 @@ public class item_rider_armor2 extends ItemArmor implements IHasModel
 		}
 		return null;
 	}
-
-	@Override
-	public void registerModels() {
-		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
-	}
-	/**
-	 * Returns the 'max damage' factor array for the armor, each piece of armor have a durability factor (that gets
-	 * multiplied by armor material factor)
-	 */
-	static int[] getMaxDamageArray()
-	{
-		return maxDamageArray;
-	}
-
-
 }

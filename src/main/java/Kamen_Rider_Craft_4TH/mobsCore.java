@@ -5,6 +5,7 @@ import Kamen_Rider_Craft_4TH.mobs.EntityChronos;
 import Kamen_Rider_Craft_4TH.mobs.EntityLazer;
 import Kamen_Rider_Craft_4TH.mobs.EntityPoppy;
 import Kamen_Rider_Craft_4TH.mobs.Entity_kodama_suika_arms;
+import Kamen_Rider_Craft_4TH.mobs.Entityaccel;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_BloodStalk;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Build_RT;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_EngineBros;
@@ -29,6 +30,7 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityguardian;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityguardian_hokuto;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityguardian_seito;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityshocker_combatman;
+import Kamen_Rider_Craft_4TH.mobs.bikes.EntityAcrobatter;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityExaidBike;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityMachineBuilder;
 import net.minecraft.entity.Entity;
@@ -91,6 +93,9 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new ResourceLocation("Model_lazer_bike"),EntityLazer.class, "LazerMob", 514, TokuCraft_core.instance, 80, 3, false, 0xFDE800,0xEE3F87);
 		EntityRegistry.registerModEntity(new ResourceLocation("Model_exaid_bike"),EntityExaidBike.class, "exaidBikeMob", 515, TokuCraft_core.instance, 80, 3, false, 0xFDE800,0xEE3F87);
 		EntityRegistry.registerModEntity(new ResourceLocation("Model_machine_builder"),EntityMachineBuilder.class, "machine_builder", 516, TokuCraft_core.instance, 80, 3, false,0xD7CF00,0xDD0202);
+		EntityRegistry.registerModEntity(new ResourceLocation("Model_Acrobatter"),EntityAcrobatter.class, "Acrobatter", 531, TokuCraft_core.instance, 80, 3, false, 0x0600ef,0xfae000);
+		
+		EntityRegistry.registerModEntity(new ResourceLocation("Modelaccel"),Entityaccel.class, "AccelMob", 532, TokuCraft_core.instance, 80, 3, false, 0xdf0000,0xdadada);
 		
 		EntityRegistry.registerModEntity(new ResourceLocation("NightRogueMob"),Entity_NightRogue.class, "NightRogueMob", 517, TokuCraft_core.instance, 80, 3, false, 0x131313,0xDDC862);
 		EntityRegistry.registerModEntity(new ResourceLocation("BloodStalkMob"),Entity_BloodStalk.class, "BloodStalkMob", 518, TokuCraft_core.instance, 80, 3, false, 0x7F100F,0x50C5CA);

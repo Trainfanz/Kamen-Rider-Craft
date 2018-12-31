@@ -8,6 +8,7 @@ import Kamen_Rider_Craft_4TH.mobs.EntityChronos;
 import Kamen_Rider_Craft_4TH.mobs.EntityLazer;
 import Kamen_Rider_Craft_4TH.mobs.EntityPoppy;
 import Kamen_Rider_Craft_4TH.mobs.Entity_kodama_suika_arms;
+import Kamen_Rider_Craft_4TH.mobs.Entityaccel;
 import Kamen_Rider_Craft_4TH.mobs.RenderRiderMob;
 import Kamen_Rider_Craft_4TH.mobs.RenderRiderMob2;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_BloodStalk;
@@ -34,11 +35,13 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityguardian;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityguardian_hokuto;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityguardian_seito;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityshocker_combatman;
+import Kamen_Rider_Craft_4TH.mobs.bikes.EntityAcrobatter;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityExaidBike;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityMachineBuilder;
 import Kamen_Rider_Craft_4TH.model.MobWithBeltModel;
 import Kamen_Rider_Craft_4TH.model.ModelAnkh;
 import Kamen_Rider_Craft_4TH.model.ModelPoppy;
+import Kamen_Rider_Craft_4TH.model.Model_accel_bike_form;
 import Kamen_Rider_Craft_4TH.model.Model_kodama_suika_arms;
 import Kamen_Rider_Craft_4TH.model.Model_lazer_bike;
 import Kamen_Rider_Craft_4TH.model.Model_machine_builder;
@@ -104,6 +107,13 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entityguardian_hokuto.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/guardian_hokuto.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entityguardian_seito.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/guardian_seito.png"));
+		
+		
+		
+		RenderingRegistry.registerEntityRenderingHandler(EntityAcrobatter.class, new RenderRiderMob2(new Model_machine_builder(), 0.5F,"textures/entities/acrobatter.png"));
+		
+		RenderingRegistry.registerEntityRenderingHandler(Entityaccel.class, new RenderRiderMob2(new Model_accel_bike_form(), 0.5F,"textures/entities/accel_bike_form.png"));
+		
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityLazer.class, new RenderRiderMob2(new Model_lazer_bike(), 0.5F,"textures/entities/model_lazer.png"));
 		
