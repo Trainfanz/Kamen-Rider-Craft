@@ -110,6 +110,8 @@ tile.another_build_block.name=Another Build Block
 tile.purifyer.name=Full Bottle Purifier
 tile.solidifyer.name=Full Bottle Solidifier
 
+tile.gaia_memory_refiner.name=Gaia Memory Refiner
+
 tile.monitor.name=Computer Monitor
 tile.pandorabox.name=Pandora Box
 tile.mighty_block.name=Mighty Action X Block
@@ -321,7 +323,9 @@ item.xtreme_t2_memory.name=T2 Xtreme Memory
 item.yesterday_t2_memory.name=T2 Yesterday Memory
 item.zone_t2_memory.name=T2 Zone Memory
 
-
+item.unrefined_memory_g.name=Unrefined Memory (Gold)
+item.unrefined_memory_s.name=Unrefined Memory (Silver)
+item.unrefined_memory_t2.name=Unrefined T2 Memory
 
 
 item.rocket.name=Rocket Module
@@ -606,6 +610,8 @@ item.sagarc_belt.name=Sagarc Belt
 item.ixa_belt.name=Ixa Belt
 item.arcdriver.name=Arc Belt
 item.reydriver.name=Rey Belt
+
+item.kivaladriver.name=Kivala Belt
 
 
 
