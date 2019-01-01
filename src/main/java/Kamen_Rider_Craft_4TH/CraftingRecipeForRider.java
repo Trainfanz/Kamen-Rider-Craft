@@ -12,7 +12,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class CraftingRecipeForRider {
 	public static void Crafrting(){
 		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":energy"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.energy,5), " a ","aba"," a ", 'a', new ItemStack(Items.DYE, 1, 4), 'b', Items.REDSTONE);		
+		//GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":energy"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.energy,5), " a ","aba"," a ", 'a', new ItemStack(Items.DYE, 1, 4), 'b', Items.REDSTONE);		
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":icepop1"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.icepop1,1), " a "," a "," b ", 'a', Items.SNOWBALL, 'b', Items.STICK);		
 		
@@ -361,13 +361,14 @@ public class CraftingRecipeForRider {
 
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":unrefined_memory_g"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.unrefined_memory_g), new Ingredient[]{Ingredient.fromItem(RiderItems.gaiamemory),Ingredient.fromItem(Items.GOLD_INGOT)});
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":unrefined_memory_s"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.unrefined_memory_s), new Ingredient[]{Ingredient.fromItem(RiderItems.gaiamemory),Ingredient.fromItem(Items.IRON_INGOT)});
+
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":fang_memory"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.fang_memory,1), "fff","fmf", "fff", 'f', Items.BONE, 'm', RiderItems.fang_memory_un);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":trial_memory"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.trial_memory,1), "byr","iii", " m ", 'i', Items.IRON_INGOT, 'm', RiderItems.trial_memory_un, 'r', new ItemStack(Blocks.STAINED_GLASS,1,14), 'b', new ItemStack(Blocks.STAINED_GLASS,1,11), 'y', new ItemStack(Blocks.STAINED_GLASS,1,4));
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":xtreme_memory"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.xtreme_memory,1), "iei","sig", "iii", 'g', RiderItems.xtreme_memory_g, 's', RiderItems.xtreme_memory_s, 'i', Items.GOLD_INGOT, 'e', RiderItems.gaiamemory);
 		
-		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":xtreme_memory"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.xtreme_memory), new Ingredient[]{Ingredient.fromItem(RiderItems.xtreme_memory_g),Ingredient.fromItem(RiderItems.xtreme_memory_s)});
+		//GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":xtreme_memory"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.xtreme_memory), new Ingredient[]{Ingredient.fromItem(RiderItems.xtreme_memory_g),Ingredient.fromItem(RiderItems.xtreme_memory_s)});
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":gaia_memory_refiner"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.gaia_memory_refiner,1), "rir","igi", "rir", 'i', Items.REDSTONE, 'g', RiderItems.gaiamemory, 'r', Items.IRON_INGOT);
 		
