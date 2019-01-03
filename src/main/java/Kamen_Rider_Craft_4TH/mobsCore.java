@@ -16,10 +16,13 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_NightRogue;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_RemoconBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_another_build;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_bikaiser;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_clay_doll_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_2;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_3;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_grease;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_nazca_dopant;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_red_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMasquerade;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityNebulaBugsterVirus;
@@ -119,5 +122,8 @@ public class mobsCore {
 		
 		EntityRegistry.registerModEntity(new ResourceLocation("kodama_suika_armsMob"),Entity_kodama_suika_arms.class, "kodama_suika_armsMob", 528, TokuCraft_core.instance, 80, 3, false, 0x008000,0x242424);
 		
+		EntityRegistry.registerModEntity(new ResourceLocation("ClayDollDopantMob"),Entity_clay_doll_dopant.class, "ClayDollDopantMob", 534, TokuCraft_core.instance, 80, 3, false, 0x161616,0x0092BB);
+		EntityRegistry.registerModEntity(new ResourceLocation("NazcaDopantMob"),Entity_nazca_dopant.class, "NazcaDopantMob", 535, TokuCraft_core.instance, 80, 3, false, 0x161616,0x0092BB);
+		EntityRegistry.registerModEntity(new ResourceLocation("RedNazcaDopantMob"),Entity_red_nazca_dopant.class, "RedNazcaDopantMob", 536, TokuCraft_core.instance, 80, 3, false, 0x161616,0x0092BB);
 	}
 }
