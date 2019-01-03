@@ -1,0 +1,7 @@
+{
+  "_comment": "Generated using MiningMark48's JSON Generator.",
+  "parent": "builtin/generated",
+  "textures": {
+    "layer0": "KamenRiderCraftV3:items/build_driver_gold"
+  }
+}

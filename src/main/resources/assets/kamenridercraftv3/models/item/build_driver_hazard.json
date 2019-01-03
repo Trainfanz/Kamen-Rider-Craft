@@ -1,0 +1,20 @@
+{
+    "parent": "builtin/generated",
+    "textures": {
+        "layer0": "KamenRiderCraftV3:items/build_driver_hazard",
+        "layer1": "KamenRiderCraftV3:items/build_driver_l",
+        "layer2": "KamenRiderCraftV3:items/build_driver_r"
+    },
+    "display": {
+        "thirdperson": {
+            "rotation": [ -90, 0, 0 ],
+            "translation": [ 0, 1, -3 ],
+            "scale": [ 0.55, 0.55, 0.55 ]
+        },
+        "firstperson": {
+            "rotation": [ 0, -135, 25 ],
+            "translation": [ 0, 4, 2 ],
+            "scale": [ 1.7, 1.7, 1.7 ]
+        }
+    }
+}

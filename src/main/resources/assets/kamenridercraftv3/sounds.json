@@ -1,0 +1,5 @@
+{
+     "lv1": {"category": "master","sounds": [{ "name": "lv1", "stream": false }]},
+     "ex-aid": {"category": "master","sounds": [{ "name": "ex-aid", "stream": false }]},
+     "brave": {"category": "master","sounds": [{ "name": "brave", "stream": false }]}
+}
