@@ -28,6 +28,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_3;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_grease;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_red_nazca_dopant;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_taboo_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMasquerade;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityNebulaBugsterVirus;
@@ -114,9 +115,10 @@ public class ClientProxyRider extends CommonProxyRider
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entityguardian_seito.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/guardian_seito.png"));
 		
-		RenderingRegistry.registerEntityRenderingHandler(Entity_clay_doll_dopant.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/clay_doll_dopant.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_clay_doll_dopant.class, new RenderRiderMob2(new tokuMobModel("clay_doll_dopant_2"), 0.5F,"textures/entities/clay_doll_dopant_1.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_nazca_dopant.class, new RenderRiderMob2(new tokuMobModel("nazca_dopant_2"), 0.5F,"textures/entities/nazca_dopant_1.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_red_nazca_dopant.class, new RenderRiderMob2(new tokuMobModel("red_nazca_dopant_2"), 0.5F,"textures/entities/red_nazca_dopant_1.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_taboo_dopant.class, new RenderRiderMob2(new tokuMobModel("taboo_dopant_2"), 0.5F,"textures/entities/taboo_dopant_1.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityAcrobatter.class, new RenderRiderMob2(new Model_machine_builder(), 0.5F,"textures/entities/acrobatter.png"));
 		
