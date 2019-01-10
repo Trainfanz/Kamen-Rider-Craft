@@ -64,7 +64,11 @@ public class item_amazonsdriver extends ItemArmor implements IHasModel
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
 	}
-
+	@SideOnly(Side.CLIENT)
+	public boolean hasEffect(ItemStack par1ItemStack)
+	{
+			return !true;
+	}
 	@Override
 	public void onArmorTick(World world, EntityPlayer player, ItemStack armor) {
 		if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD)!= null){

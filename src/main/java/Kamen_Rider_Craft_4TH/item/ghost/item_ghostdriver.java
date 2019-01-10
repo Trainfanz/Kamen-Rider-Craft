@@ -63,7 +63,11 @@ public class item_ghostdriver extends ItemArmor implements IHasModel
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
 	}
-
+	@SideOnly(Side.CLIENT)
+	public boolean hasEffect(ItemStack par1ItemStack)
+	{
+			return !true;
+	}
 	@Override
 	@SideOnly(Side.CLIENT)
 	@Nullable

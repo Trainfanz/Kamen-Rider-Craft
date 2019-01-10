@@ -66,7 +66,11 @@ public class item_bladedriver extends ItemArmor implements IHasModel
 		return Refercence.MODID+":textures/armor/blank.png";
 
 	}
-
+	@SideOnly(Side.CLIENT)
+	public boolean hasEffect(ItemStack par1ItemStack)
+	{
+			return !true;
+	}
 	@Override
 	@SideOnly(Side.CLIENT)
 	@Nullable

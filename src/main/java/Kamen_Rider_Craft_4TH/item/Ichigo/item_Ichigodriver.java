@@ -55,7 +55,11 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 		TokuCraft_core.ITEMS.add(this);
 	}
 
-
+	@SideOnly(Side.CLIENT)
+	public boolean hasEffect(ItemStack par1ItemStack)
+	{
+			return !true;
+	}
 
 	@Override
 	@SideOnly(Side.CLIENT)

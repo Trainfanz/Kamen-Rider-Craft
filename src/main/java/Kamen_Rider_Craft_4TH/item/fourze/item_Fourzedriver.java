@@ -65,7 +65,11 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
 	}
-
+	@SideOnly(Side.CLIENT)
+	public boolean hasEffect(ItemStack par1ItemStack)
+	{
+			return !true;
+	}
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
