@@ -1409,6 +1409,9 @@ public class RiderItems {
 	public static Item poseidon_driver = new item_OOOdriver("poseidon_driver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 	public static Item aqua_driver = new item_OOOdriver("aqua_driver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 
+	public static Item core_driver = new item_OOOdriver("core_driver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+	public static Item core_driver_power_up = new item_OOOdriver("core_driver_power_up",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+
 		
 	public static Item taka = new Itemmedal(0, "1","taka").setCreativeTab(Tabs.tabOOO);
 	public static Item kuwagata = new Itemmedal(1, "1","kuwagata").setCreativeTab(Tabs.tabOOO);
@@ -2029,9 +2032,13 @@ public class RiderItems {
 
 			public static Item extremer_driver = new item_ghostdriver("extremer_driver",ArmorMaterial.DIAMOND, 4, 3,"extremer","extremer",4).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
 
+			public static Item new_ghostdriver = new item_ghostdriver("new_ghostdriver",ArmorMaterial.DIAMOND, 4, 3,"dark_ghost","new_ore",1).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+			
 			
 
 			public static Item ore_ghost_icon  = new Item_ghost_Icons(0, 0,1,"ore_ghost_icon").setCreativeTab(Tabs.tabghost);
+			public static Item new_ore_ghost_icon  = new Item_ghost_Icons(0, 64,1,"new_ore_ghost_icon").setCreativeTab(Tabs.tabghost);
+			
 			public static Item toucon_boost_icon  = new Item_ghost_Icons(1, 13,3,"toucon_boost_icon").setCreativeTab(Tabs.tabghost);
 			public static Item mugen_icon  = new Item_ghost_Icons(2, 35,5,"mugen_icon").setCreativeTab(Tabs.tabghost);
 

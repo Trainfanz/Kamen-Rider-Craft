@@ -1,9 +1,13 @@
 package Kamen_Rider_Craft_4TH.item.ooo;
 
+import javax.annotation.Nullable;
+
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.model.tokuArmorModel;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import Kamen_Rider_Craft_4TH.util.Refercence;
+import net.minecraft.client.model.ModelBiped;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
@@ -12,6 +16,8 @@ import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.nbt.NBTTagCompound;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class item_OOOarmor extends ItemArmor  implements IHasModel
 {
@@ -125,6 +131,36 @@ public class item_OOOarmor extends ItemArmor  implements IHasModel
 						return Refercence.MODID+":textures/armor/"+"aqua_3" +".png";
 					}
 					return Refercence.MODID+":textures/armor/blank.png";
+				}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.core_driver){
+					if ( slot == EntityEquipmentSlot.HEAD)
+					{
+						return Refercence.MODID+":textures/armor/"+"core_1" +".png";
+					}
+					if ( slot == EntityEquipmentSlot.CHEST)
+					{
+						return Refercence.MODID+":textures/armor/"+"core_2" +".png";
+					}
+
+					if ( slot == EntityEquipmentSlot.LEGS)
+					{
+						return Refercence.MODID+":textures/armor/"+"core_3" +".png";
+					}
+					return Refercence.MODID+":textures/armor/blank.png";
+				}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.core_driver_power_up){
+					if ( slot == EntityEquipmentSlot.HEAD)
+					{
+						return Refercence.MODID+":textures/armor/"+"core_power_up_1" +".png";
+					}
+					if ( slot == EntityEquipmentSlot.CHEST)
+					{
+						return Refercence.MODID+":textures/armor/"+"core_power_up_2" +".png";
+					}
+
+					if ( slot == EntityEquipmentSlot.LEGS)
+					{
+						return Refercence.MODID+":textures/armor/"+"core_power_up_3" +".png";
+					}
+					return Refercence.MODID+":textures/armor/blank.png";
 				}
 
 
@@ -139,6 +175,42 @@ public class item_OOOarmor extends ItemArmor  implements IHasModel
 		}
 		return Refercence.MODID+":textures/armor/blank.png";
 
+	}
+
+	@Override
+	@SideOnly(Side.CLIENT)
+	@Nullable
+	public ModelBiped getArmorModel(EntityLivingBase living, ItemStack stack, EntityEquipmentSlot slot, ModelBiped defaultModel)
+	{
+		if(!stack.isEmpty())
+		{
+			if(stack.getItem() instanceof item_OOOarmor)
+			{
+				tokuArmorModel armorModel = new tokuArmorModel();
+
+				
+				armorModel.bipedBody2.showModel = slot == EntityEquipmentSlot.LEGS;
+				armorModel.bipedRightArm2.showModel = slot == EntityEquipmentSlot.CHEST;
+				armorModel.bipedLeftArm2.showModel = slot == EntityEquipmentSlot.CHEST;
+				
+				armorModel.bipedLeftLeg2.showModel = slot == EntityEquipmentSlot.LEGS;
+				armorModel.bipedRightLeg2.showModel = slot == EntityEquipmentSlot.LEGS;
+				
+				armorModel.bipedBody3.showModel = slot == EntityEquipmentSlot.CHEST;
+				
+				armorModel.bipedHead2.showModel = slot == EntityEquipmentSlot.HEAD;
+				armorModel.bipedHeadwear2.showModel = slot == EntityEquipmentSlot.HEAD;
+
+				armorModel.isSneak = defaultModel.isSneak;
+				armorModel.isRiding = defaultModel.isRiding;
+				armorModel.isChild = defaultModel.isChild;
+				armorModel.rightArmPose = defaultModel.rightArmPose;
+				armorModel.leftArmPose = defaultModel.leftArmPose;
+
+				return armorModel;
+			}
+		}
+		return null;
 	}
 
 

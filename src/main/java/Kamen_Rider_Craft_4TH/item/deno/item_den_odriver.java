@@ -64,7 +64,11 @@ public class item_den_odriver extends ItemArmor implements IHasModel
 		return Refercence.MODID+":textures/armor/blank.png";
 
 	}
-	
+	@SideOnly(Side.CLIENT)
+	public boolean hasEffect(ItemStack par1ItemStack)
+	{
+			return !true;
+	}
 	
 	@Override
 	public void onArmorTick(World world, EntityPlayer player, ItemStack armor) {

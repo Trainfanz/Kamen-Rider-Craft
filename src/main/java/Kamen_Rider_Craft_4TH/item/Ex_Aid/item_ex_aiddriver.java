@@ -213,7 +213,11 @@ public class item_ex_aiddriver extends ItemArmor  implements IHasModel
 		return itemstack.hasTagCompound() ? Item_gashat.ARMS[itemstack.getTagCompound().getInteger("seed")] : "blank";
 	}
 	
-	
+	@SideOnly(Side.CLIENT)
+	public boolean hasEffect(ItemStack par1ItemStack)
+	{
+			return !true;
+	}
 
 	@Override
 	public void onArmorTick(World world, EntityPlayer player, ItemStack armor) {

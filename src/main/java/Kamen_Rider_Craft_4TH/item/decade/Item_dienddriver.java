@@ -61,7 +61,11 @@ public class Item_dienddriver extends ItemBow  implements IHasModel
 		TokuCraft_core.ITEMS.add(this);
 	}
 	
-
+	@SideOnly(Side.CLIENT)
+	public boolean hasEffect(ItemStack par1ItemStack)
+	{
+			return !true;
+	}
 	/**
 	 * returns the action that specifies what animation to play when the items is being used
 	 */

@@ -62,7 +62,11 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 		LEGS=legs;
 
 	}
-
+	@SideOnly(Side.CLIENT)
+	public boolean hasEffect(ItemStack par1ItemStack)
+	{
+			return !true;
+	}
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");

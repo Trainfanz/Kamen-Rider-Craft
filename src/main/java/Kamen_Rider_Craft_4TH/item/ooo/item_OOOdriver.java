@@ -8,6 +8,7 @@ import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.model.model_belt_plus;
 import Kamen_Rider_Craft_4TH.model.model_belt_w;
+import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import Kamen_Rider_Craft_4TH.util.Refercence;
 import net.minecraft.client.Minecraft;
@@ -58,7 +59,11 @@ public class item_OOOdriver extends ItemArmor implements IHasModel
 		TokuCraft_core.ITEMS.add(this);
 
 	}
-
+	@SideOnly(Side.CLIENT)
+	public boolean hasEffect(ItemStack par1ItemStack)
+	{
+			return !true;
+	}
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
@@ -114,6 +119,21 @@ public class item_OOOdriver extends ItemArmor implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+									}
+									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.core_driver){
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.FIRE_PUNCH_POTION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.BIG_POTION, 5, 0,true,false));
+									}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.core_driver_power_up){
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.FIRE_PUNCH_POTION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 6,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.BIG_POTION, 5, 0,true,false));
 									}
 								}
 							}

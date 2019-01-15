@@ -19,7 +19,7 @@ public class Item_ghost_Icons extends Item implements IHasModel
 	public int num;
 	public int num2;
 	public int num3;
-	public static String[] ARMS= new String[] {"ore","edison","newton","musashi","robin","specter","billy_the_kid","beethoven","benkei","tutankhamun","nobunaga","ikkyu","santa","boost","goemon","ryoma","pythagoras","kamehameha","special_ore","necrom","himiko","houdini","grimm","sanzo","deep_specter","dark","dark_necrom_red","dark_necrom_blue","dark_necrom_yellow","dark_necrom_pink","zero_specter","shakespeare","nightingale","galileo","columbus","mugen","napoleon","darwin","sin","tenkatoitsu","shinsengumi","yujou_burst_necrom","da_vinci","showa","kuuga","agito","ryuki","faiz","blade","hibiki","kabuto","den_o","kiva","decade","double","ooo","fourze","wizard","gaim","drive","ex_aid","fourtyfiveshowa","ore_specter","fourtyfiveheisei"};
+	public static String[] ARMS= new String[] {"ore","edison","newton","musashi","robin","specter","billy_the_kid","beethoven","benkei","tutankhamun","nobunaga","ikkyu","santa","boost","goemon","ryoma","pythagoras","kamehameha","special_ore","necrom","himiko","houdini","grimm","sanzo","deep_specter","dark","dark_necrom_red","dark_necrom_blue","dark_necrom_yellow","dark_necrom_pink","zero_specter","shakespeare","nightingale","galileo","columbus","mugen","napoleon","darwin","sin","tenkatoitsu","shinsengumi","yujou_burst_necrom","da_vinci","showa","kuuga","agito","ryuki","faiz","blade","hibiki","kabuto","den_o","kiva","decade","double","ooo","fourze","wizard","gaim","drive","ex_aid","fourtyfiveshowa","ore_specter","fourtyfiveheisei","new_ore"};
 
 
 	

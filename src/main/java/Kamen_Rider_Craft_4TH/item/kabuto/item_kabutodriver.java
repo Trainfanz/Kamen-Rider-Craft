@@ -53,7 +53,11 @@ public class item_kabutodriver extends ItemArmor implements IHasModel
 		TokuCraft_core.ITEMS.add(this);
 		CAST=cast;
 	}
-
+	@SideOnly(Side.CLIENT)
+	public boolean hasEffect(ItemStack par1ItemStack)
+	{
+			return !true;
+	}
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
