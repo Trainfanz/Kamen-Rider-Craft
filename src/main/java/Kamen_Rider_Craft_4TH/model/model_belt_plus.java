@@ -18,6 +18,7 @@ import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_ex_aiddriver;
 import Kamen_Rider_Craft_4TH.item.blade.item_bladedriver;
 import Kamen_Rider_Craft_4TH.item.gaim.item_Gaimdriver;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
+import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.ModelBiped;
 import net.minecraft.client.model.ModelRenderer;
@@ -54,6 +55,26 @@ public class model_belt_plus extends ModelBiped
 	@Override
 	public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5)
 	{
+		
+		
+		float height=-2f;
+		float height2=0f;
+		float height3=1f;
+		float height4=-1.3f;
+		if (entity instanceof EntityPlayer){
+			EntityPlayer player =((EntityPlayer) entity);
+			
+			if(player.isPotionActive(PotionCore.BIG_POTION)){
+				height=0.5f;
+				height2=2f;
+				height3=2.5f;
+				height4=0.5f;
+			}
+		}	
+		
+
+
+		
 		this.setRotationAngles(f, f1, f2, f3, f4, f5, entity);
 		if (entity instanceof EntityLivingBase){
 			EntityLivingBase living = ((EntityLivingBase)entity);
@@ -92,13 +113,13 @@ public class model_belt_plus extends ModelBiped
 
 			if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_bladedriver)
 			{					
-
-				GL11.glScaled(0.35, 0.35,0.35);
-				GL11.glTranslatef((float) (0f+dri),-2f,0.6f);
+				GL11.glScaled(0.35*height3, 0.35*height3,0.35*height3);
+				GL11.glTranslatef((float) (0f+dri),height,0.6f);
+				
 			}else{
 
-				GL11.glScaled(0.5, 0.5,0.5);
-				GL11.glTranslatef((float) (0f+dri),-1.3f,0.4f);
+				GL11.glScaled(0.5*height3, 0.5*height3,0.5*height3);
+				GL11.glTranslatef((float) (0f+dri),height4,0.4f);
 			}
 
 			if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_ex_aiddriver)
@@ -108,8 +129,7 @@ public class model_belt_plus extends ModelBiped
 				GL11.glTranslated(0, 0, 0.05);
 			}
 			}
-			
-			
+
 			Minecraft.getMinecraft().getItemRenderer().renderItem(living,belt,null);
 			GL11.glPopMatrix();
 			GL11.glPushMatrix();
