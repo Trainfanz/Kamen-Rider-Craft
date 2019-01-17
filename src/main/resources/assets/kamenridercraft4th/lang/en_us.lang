@@ -36,6 +36,8 @@ entity.TabooDopantMob.name=Taboo Dopant
 entity.skullboilder.name=Skullboilder
 entity.hardboilder.name=Hardboilder
 entity.AccelMob.name=Kamen Rider Accel
+entity.Acrobatter.name=Acrobatter
+entity.ridoron.name=Ridoron
 
 effect.fly=Flying
 effect.fire_punch=Fire Punch
@@ -188,6 +190,8 @@ item.o_scanner.name=O Scanner
 
 item.poseidon_driver.name=Poseidon Driver
 item.aqua_driver.name=Aqua Driver
+item.core_driver.name=Core Driver
+item.core_driver_power_up.name=Core Driver Power Up
 
 item.taka.name=Taka Core Medal
 item.kuwagata.name=Kuwagata Core Medal
@@ -1291,6 +1295,7 @@ item.ghostlegs.name=Ghost Leggings
 item.ghostdriver.name=Ghost Driver (Ghost)
 item.specterdriver.name=Ghost Driver (Specter)
 item.mega_ulorder.name=Mega Ulorder
+item.new_ghostdriver.name=Ghost Driver (New Ghost)
 
 item.extremer_driver.name=Extremer Driver
 
@@ -1298,6 +1303,7 @@ item.ore_ghost_icon.name=Ore Ghost Eyecon
 item.edison_ghost_icon.name=Edison Ghost Eyecon
 item.newton_ghost_icon.name=Newton Ghost Eyecon
 item.musashi_ghost_icon.name=Musashi Ghost Eyecon
+item.new_ore_ghost_icon.name=New Ore Ghost Eyecon
 
 item.savior_arrow.name=Savior Arrow
 
@@ -1847,6 +1853,7 @@ item.crocodile_crack_full_bottle.name=Crocodile Crack Full Bottle
 item.north_blizzard_full_bottle.name=North Blizzard Full Bottle
 item.prime_rogue_full_bottle.name=Prime Rogue Full Bottle
 item.muscle_galaxy_full_bottle.name=Muscle Galaxy Full Bottle
+item.killbas_spider_full_bottle.name=Killbas Spider Full Bottle
 
 item.gear_engine.name=Gear Engine
 item.gear_remocon.name=Gear Remocon
