@@ -10,6 +10,7 @@ import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
 import Kamen_Rider_Craft_4TH.model.Bipedswich;
+import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import Kamen_Rider_Craft_4TH.util.Refercence;
 import net.minecraft.client.Minecraft;
@@ -335,13 +336,9 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
-											if (player.isSneaking()){
-												player.fallDistance=0; 
-												Vec3d look = player.getLookVec();
-												player.motionX=look.x;
-												player.motionY=look.y;
-												player.motionZ=look.z;
-											}
+											player.fallDistance=0; 
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));
+											
 										}
 										if (this.get_core(armor)==5){
 											if (player.getHeldItemMainhand().isEmpty())
@@ -377,13 +374,9 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
-											if (player.isSneaking()){
-												player.fallDistance=0; 
-												Vec3d look = player.getLookVec();
-												player.motionX=look.x;
-												player.motionY=look.y;
-												player.motionZ=look.z;
-											}
+											player.fallDistance=0; 
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));
+											
 										}
 										if (this.get_core(armor)==8){
 											if (player.getHeldItemMainhand().isEmpty())

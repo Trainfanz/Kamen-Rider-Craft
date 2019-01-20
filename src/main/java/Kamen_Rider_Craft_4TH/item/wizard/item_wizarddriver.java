@@ -9,6 +9,7 @@ import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
 import Kamen_Rider_Craft_4TH.model.model_all_dragon;
 import Kamen_Rider_Craft_4TH.model.model_belt;
+import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import Kamen_Rider_Craft_4TH.util.Refercence;
 import net.minecraft.client.Minecraft;
@@ -297,14 +298,9 @@ public class item_wizarddriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 8,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
 
-										}if (this.get_core(armor, "2")==6){
-											if (player.isSneaking()){
-												player.fallDistance=0; 
-												Vec3d look = player.getLookVec();
-												player.motionX=look.x/2;
-												player.motionY=look.y/2;
-												player.motionZ=look.z/2;
-											}
+										}if (this.get_core(armor, "2")==6){											
+											player.fallDistance=0; 
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));										
 										}else if (this.get_core(armor, "2")==5){
 											if (player.isSneaking()){
 												if(player.isInWater()){

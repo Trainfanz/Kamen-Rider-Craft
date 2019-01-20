@@ -9,6 +9,7 @@ import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
 import Kamen_Rider_Craft_4TH.model.Model_lazer;
 import Kamen_Rider_Craft_4TH.model.model_belt_plus;
+import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.ModelBiped;
@@ -528,23 +529,11 @@ public class item_ex_aiddriver extends ItemArmor  implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 3,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.WITHER, 5, 0,true,false));
 										}else if (this.get_lock(armor)=="combatgamer"){
-											if (player.isSneaking()){
-												player.fallDistance=0; 
-												Vec3d look = player.getLookVec();
-												player.motionX=look.x/2;
-												player.motionY=look.y/2;
-												player.motionZ=look.z/2;
-
-											}
+											player.fallDistance=0; 
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));											
 										}else  if (this.get_lock(armor)=="protocombatgamer"){
-											if (player.isSneaking()){
-												player.fallDistance=0; 
-												Vec3d look = player.getLookVec();
-												player.motionX=look.x;
-												player.motionY=look.y;
-												player.motionZ=look.z;
-
-											}
+											player.fallDistance=0; 
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.WITHER, 5, 0,true,false));
 										}else if (this.get_lock(armor)=="sportsgamer"){
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
@@ -586,13 +575,8 @@ public class item_ex_aiddriver extends ItemArmor  implements IHasModel
 										}else if (this.get_lock(armor)=="famistagamer"){
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
 										}else if (this.get_lock(armor)=="xeviousgamer"){
-											if (player.isSneaking()){
-												Vec3d look = player.getLookVec();
-												player.motionX=look.x;
-												player.motionY=look.y;
-												player.motionZ=look.z;
-												player.fallDistance=0;
-											}
+											player.fallDistance=0;
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));
 										}else  if (this.get_lock(armor)=="safarigamer"){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));

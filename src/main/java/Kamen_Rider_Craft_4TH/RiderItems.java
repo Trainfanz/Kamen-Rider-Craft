@@ -1402,6 +1402,7 @@ public class RiderItems {
 	public static Item love3_OOOdriver = new Item_ore("love3_ooodriver");
 	
 	public static Item tajador_wings = new Item_ore("tajador_wings");
+	public static Item condor_wings = new Item_ore("condor_wings");
 		
 	public static Item OOOdriver = new item_OOOdriver("ooodriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 	public static Item birth_driver = new item_OOOdriver("birth_driver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);

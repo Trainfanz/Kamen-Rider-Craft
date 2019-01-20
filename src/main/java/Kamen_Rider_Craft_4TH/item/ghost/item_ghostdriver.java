@@ -8,6 +8,7 @@ import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
 import Kamen_Rider_Craft_4TH.model.model_belt_plus;
+import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import Kamen_Rider_Craft_4TH.util.Refercence;
 import net.minecraft.client.Minecraft;
@@ -224,10 +225,8 @@ public class item_ghostdriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));	
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.INVISIBILITY, 5, 0,true,false));
-
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false));
 										}else if (this.get_lock(armor)==Item_ghost_Icons.ARMS[20]){
-
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));	
 											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 3,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
@@ -236,27 +235,17 @@ public class item_ghostdriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
-											if (player.isSneaking()){
-												player.fallDistance=0; 
-												Vec3d look = player.getLookVec();
-												player.motionX=look.x/2;
-												player.motionY=look.y/2;
-												player.motionZ=look.z/2;
-											}	
-
-											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false));
+											player.fallDistance=0; 
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));											
 										}else if (this.get_lock(armor)==Item_ghost_Icons.ARMS[22]){
-
 											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 300, 0,true,false));	
 											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
 										}else if (this.get_lock(armor)==Item_ghost_Icons.ARMS[23]){
-
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 5,true,false));	
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
 										}else if (this.get_lock(armor)==Item_ghost_Icons.ARMS[19]){
-
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.INVISIBILITY, 5, 0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
