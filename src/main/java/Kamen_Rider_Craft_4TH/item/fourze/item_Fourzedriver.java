@@ -146,13 +146,8 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 
 											if (CircleModuleName[armor.getTagCompound().getInteger("corecircle")]=="rocket"){
 												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
-												if (player.isSneaking()){
-													player.fallDistance=0; 
-													Vec3d look = player.getLookVec();
-													player.motionX=look.x/2;
-													player.motionY=look.y/2;
-													player.motionZ=look.z/2;
-												}	
+												player.fallDistance=0; 
+												player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));
 											}else if (CircleModuleName[armor.getTagCompound().getInteger("corecircle")]=="chain_array"){
 												if (player.getHeldItemMainhand().isEmpty())
 												{
@@ -349,13 +344,8 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 0,true,false));
-											if (player.isSneaking()){
-												player.fallDistance=0; 
-												Vec3d look = player.getLookVec();
-												player.motionX=look.x;
-												player.motionY=look.y;
-												player.motionZ=look.z;
-											}
+											player.fallDistance=0; 
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));
 										}
 										if (this.get_core(armor)==6){
 											if (player.getHeldItemMainhand().isEmpty())
@@ -389,13 +379,8 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
-											if (player.isSneaking()){
-												player.fallDistance=0; 
-												Vec3d look = player.getLookVec();
-												player.motionX=look.x;
-												player.motionY=look.y;
-												player.motionZ=look.z;
-											}
+											player.fallDistance=0; 
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));
 										}
 									}
 									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.meteor_driver){

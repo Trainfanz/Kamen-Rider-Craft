@@ -107,6 +107,7 @@ public class Itemo_scanner extends Item  implements IHasModel
 												if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "2")==3){
 													if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==0){
 														player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 25,0,true,false));
+														player.fallDistance=0; 
 														player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 0,true,false));
 													}}
 
@@ -117,6 +118,7 @@ public class Itemo_scanner extends Item  implements IHasModel
 														player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 25,0,true,false));
 														player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,3,true,false));
 														player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,2,true,false));
+														player.fallDistance=0; 
 														player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 0,true,false));
 													}}
 

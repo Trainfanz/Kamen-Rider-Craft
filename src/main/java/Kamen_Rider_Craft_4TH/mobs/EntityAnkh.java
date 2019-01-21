@@ -76,20 +76,30 @@ public class EntityAnkh extends EntityAnimal
     {
 if (!this.world.isRemote){
        
-
-            this.dropItem(RiderItems.taka, 1);
-        
-
-        if (this.isBurning())
-        {
-        	this.dropItem(RiderItems.cellmedal, 26);
-           
-        }
-        else
-        {
-        	this.dropItem(RiderItems.cellmedal, 6);
-        }}
-    }
+	this.dropItem(RiderItems.cellmedal, 5);
+	switch (this.rand.nextInt(5))
+	{   		   	    		
+	case 0:
+		this.dropItem(RiderItems.taka_ankh, 1);
+		break;
+		
+	case 1:
+		break;
+		
+	case 2:				
+		break;
+	
+	case 3:				
+		break;
+	
+	case 4:				
+		break;
+		
+	case 5:				
+		break;
+		}
+	}
+}
 
 	@Override
 	public EntityAgeable createChild(EntityAgeable entityageable) {
