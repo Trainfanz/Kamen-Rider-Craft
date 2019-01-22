@@ -361,6 +361,7 @@ public class CraftingRecipeForRider {
 
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":unrefined_memory_g"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.unrefined_memory_g), new Ingredient[]{Ingredient.fromItem(RiderItems.gaiamemory),Ingredient.fromItem(Items.GOLD_INGOT)});
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":unrefined_memory_s"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.unrefined_memory_s), new Ingredient[]{Ingredient.fromItem(RiderItems.gaiamemory),Ingredient.fromItem(Items.IRON_INGOT)});
+		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":unrefined_memory_t2"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.unrefined_memory_t2), new Ingredient[]{Ingredient.fromItem(RiderItems.gaiamemory),Ingredient.fromItem(Items.DIAMOND)});
 
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":fang_memory"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.fang_memory,1), "fff","fmf", "fff", 'f', Items.BONE, 'm', RiderItems.fang_memory_un);

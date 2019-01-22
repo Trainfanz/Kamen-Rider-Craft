@@ -5,6 +5,9 @@ import java.util.Calendar;
 import java.util.UUID;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.mobs.Boss.EntityBossBase;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_clay_doll_dopant;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_grease;
 import net.minecraft.block.Block;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
@@ -35,6 +38,8 @@ import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.text.TextComponentString;
+import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
 
 public class EntityMasquerade extends Entity_base_henchmen
@@ -48,7 +53,18 @@ public class EntityMasquerade extends Entity_base_henchmen
 	{
 		if (!this.world.isRemote){
 			this.dropItem(RiderItems.gaiamemory, 1);
-			switch (this.rand.nextInt(25))
+			if (this.getAttackTarget()instanceof EntityPlayer){
+				 EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
+				 EntityBossBase entityboss  = new Entity_clay_doll_dopant(world);
+			switch (this.rand.nextInt(10))
+			{
+			case 0:
+				playerIn.sendMessage( new TextComponentString(TextFormatting.YELLOW+"Claydoll!"));
+				entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				world.spawnEntity(entityboss);
+				break;
+				}
+			}switch (this.rand.nextInt(25))
 			{
 			case 0:
 				this.dropItem(RiderItems.cyclone_memory, 1);
