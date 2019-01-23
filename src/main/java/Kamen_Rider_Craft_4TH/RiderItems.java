@@ -152,15 +152,15 @@ public class RiderItems {
 
 	public static Item blanknoitem = new Item_ore("blanknoitem");
 	public static Item blanknoform = new Item_form_change("blanknoform",item_kuugadriver.class,blanknoitem,"");
-	
-	
+
+
 	public static Item energy = new Item_ore("energy").setCreativeTab(Tabs.tabmisc);
 
 	public static Item donut = new riderfood(4, true,"donut").setCreativeTab(Tabs.tabmisc);
 	public static Item icepop1  = new riderfood(2, true,"icepop1").setCreativeTab(Tabs.tabmisc);
 	public static Item icepop2  = new riderfood(2, true,"icepop2").setCreativeTab(Tabs.tabmisc);
 	public static Item icepop3  = new riderfood(2, true,"icepop3").setCreativeTab(Tabs.tabmisc);
-	
+
 	public static Item base_sword = new Item_ore("base_sword").setCreativeTab(Tabs.tabmisc);
 	//public static Item base_gun = new Item_ore("base_gun").setCreativeTab(Tabs.tabmisc);
 
@@ -272,39 +272,39 @@ public class RiderItems {
 
 	public static Item unfinished_gear = new Item_ore("unfinished_gear").setCreativeTab(Tabs.tabbuild);
 	public static Block pandora_box_hellrock_2 = new ore_block("pandora_box_hellrock_2",Material.ROCK, unfinished_gear, 3).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
-	
+
 	public static Item blank_watch = new Item_ore("blank_watch").setCreativeTab(Tabs.tabzi_o);
 	public static Block watch_stone = new ore_block("watch_stone",Material.ROCK, blank_watch, 2).setHardness(9.9F).setCreativeTab(Tabs.tabzi_o);
-	
+
 	public static Item blank_miridewatch = new Item_ore("blank_miridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Block watch_hellrock = new ore_block("watch_hellrock",Material.ROCK, blank_miridewatch, 2).setHardness(9.9F).setCreativeTab(Tabs.tabzi_o);
 
 	public static Item amazon_cell_vial = new Item_ore("amazon_cell_vial").setCreativeTab(Tabs.tabamazons);
 	public static Block amazon_cell_block = new ore_block("amazon_cell_block",Material.ROCK, amazon_cell_vial, 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabamazons);
-	
+
 	//decor blocks
-	
+
 	public static Block monitor = CustomBlock.builder().material(Material.IRON).hardness(9.9F).lightLevel(0.1F).harvestLevel("pickaxe", 2).blockType(BlockType.DIRECTIONAL).name("monitor").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block mighty_block = CustomBlock.builder().material(Material.IRON).hardness(9.9F).harvestLevel("pickaxe", 2).name("mighty_block").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block fangire_glass = CustomBlock.builder().material(Material.IRON).hardness(9.9F).lightOpacity(1).harvestLevel("pickaxe", 2).name("fangire_glass").property(TRANSPARENT).setCreativeTabe(Tabs.tabdecor).build();
 	public static Block wallplate = CustomBlock.builder().material(Material.IRON).hardness(9.9F).harvestLevel("pickaxe", 2).name("wallplate").setCreativeTabe(Tabs.tabdecor).build();
-	
-	
+
+
 	public static Block gaia_memory_refiner = new gaia_memory_refiner_block("gaia_memory_refiner",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabW);
-	
+
 	public static Block pandorabox = new pandora_box_block("pandorabox",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
 	public static Block purifyer = new purifyer_block("purifyer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
 	public static Block solidifyer = new solidifyer_block("solidifyer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
-	
+
 
 	//boss blocks
-	
+
 	public static Block evolt_block = new mob_block("evolt_block",Material.ROCK, "evolt", 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
 	public static Block night_rogue_block = new mob_block("night_rogue_block",Material.ROCK, "night_rogue", 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
 	public static Block hell_bros_block = new mob_block("hell_bros_block",Material.ROCK, "hell_bros", 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
 	public static Block bi_kaiser_block = new mob_block("bi_kaiser_block",Material.ROCK, "bi_kaiser", 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
 	public static Block another_build_block = new mob_block("another_build_block",Material.ROCK, "another_build", 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabzi_o);
-	
+
 	public static Item rider_circuit = new Item_ore("rider_circuit").setCreativeTab(Tabs.tabIchigo);
 
 	public static Item ichigohead = new item_Ichigoarmor("ichigohead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
@@ -315,7 +315,7 @@ public class RiderItems {
 	public static Item typhoon_nigo = new item_Ichigodriver("typhoon_nigo",ArmorMaterial.DIAMOND, 4,"nigo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 
 	public static Item new_typhoon = new item_Ichigodriver("new_typhoon",ArmorMaterial.DIAMOND, 4,"new_ichigo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	
+
 	public static Item typhoon_shocker_rider_1 = new item_Ichigodriver("typhoon_shocker_rider_1",ArmorMaterial.DIAMOND, 4,"shocker_rider_1").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item typhoon_shocker_rider_2 = new item_Ichigodriver("typhoon_shocker_rider_2",ArmorMaterial.DIAMOND, 4,"shocker_rider_2").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item typhoon_shocker_rider_3 = new item_Ichigodriver("typhoon_shocker_rider_3",ArmorMaterial.DIAMOND, 4,"shocker_rider_3").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
@@ -351,7 +351,7 @@ public class RiderItems {
 
 	public static Item bio_rider = new Item_showa_change("bio_rider",1,sunriser).setCreativeTab(Tabs.tabIchigo);
 	public static Item robo_rider = new Item_showa_change("robo_rider",2,sunriser).setCreativeTab(Tabs.tabIchigo);
-	
+
 	public static Item grasshopper_dna = new item_Ichigodriver("grasshopper_dna",ArmorMaterial.DIAMOND, 4,"shin").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item zo_core = new item_Ichigodriver("zo_core",ArmorMaterial.DIAMOND, 4,"zo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item j_spirit = new item_Ichigodriver("j_spirit",ArmorMaterial.DIAMOND, 4,"j").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
@@ -361,7 +361,7 @@ public class RiderItems {
 	public static Item revolcane = new ItemBaseSword("revolcane",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item vortech_shooter = new Item_gun("vortech_shooter",Tabs.den_dengu).setCreativeTab(Tabs.tabIchigo);
 	public static Item bio_blade = new ItemBaseSword("bio_blade",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	
+
 	public static Item shadow_saber_short = new ItemBaseSword("shadow_saber_short",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 
 	public static Item typhoon_sango = new item_Ichigodriver("typhoon_sango",ArmorMaterial.DIAMOND, 4,"sango").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
@@ -372,10 +372,10 @@ public class RiderItems {
 	public static Item typhoon_kirider = new item_Ichigodriver("typhoon_kirider",ArmorMaterial.DIAMOND, 4,"kirider").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item typhoon_momorider = new item_Ichigodriver("typhoon_momorider",ArmorMaterial.DIAMOND, 4,"momorider").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item typhoon_midorider = new item_Ichigodriver("typhoon_midorider",ArmorMaterial.DIAMOND, 4,"midorider").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	
+
 	public static Item moonriser = new item_Ichigodriver("moonriser",ArmorMaterial.DIAMOND, 4,"white_rx").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item king_stone_red_shadow_moon = new item_Ichigodriver("king_stone_red_shadow_moon",ArmorMaterial.DIAMOND, 4,"red_shadow_moon").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);	
-	
+
 	public static Item susanoo_belt = new item_Ichigodriver("susanoo_belt",ArmorMaterial.DIAMOND, 4,"susanoo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item tsukuyomi_belt = new item_Ichigodriver("tsukuyomi_belt",ArmorMaterial.DIAMOND, 4,"tsukuyomi").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item amaterasu_belt = new item_Ichigodriver("amaterasu_belt",ArmorMaterial.DIAMOND, 4,"amaterasu").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
@@ -391,7 +391,7 @@ public class RiderItems {
 	public static Item king_stone_core = new Item_ore("king_stone_core").setCreativeTab(Tabs.tabIchigo);
 	public static Item king_stone_split = new Item_ore("king_stone_split").setCreativeTab(Tabs.tabIchigo);
 
-	
+
 	//kuuga
 	public static Item dragon_rod = new Item_kuuga_mode_change_sword_im ("dragon_rod",Tabs.medajalibur).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
 	public static Item pegasus_bowgun = new Item_kuuga_mode_change_gun_im("pegasus_bowgun",Tabs.birth_buster).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
@@ -403,54 +403,54 @@ public class RiderItems {
 	public static Item arcle_p = new Item_ore("arcle_p");
 	public static Item arcle_u = new Item_ore("arcle_u");
 	public static Item arcle_ru = new Item_ore("arcle_ru");
-	
+
 	public static Item kuuga_growing  = new Item_form_change("kuuga_growing",item_kuugadriver.class,arcle_r,"_growing"
 			,new PotionEffect(MobEffects.WEAKNESS, 5, 2,true,false)).setCreativeTab(Tabs.tabkuuga);
-	
+
 	public static Item kuuga_mighty = new Item_form_change("kuuga_mighty",item_kuugadriver.class,arcle_r,""
 			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false)).setCreativeTab(Tabs.tabkuuga);
-	
+
 	public static Item kuuga_dragon = new Item_form_change("kuuga_dragon",item_kuugadriver.class,arcle_b,"_dragon"
 			,new PotionEffect(MobEffects.HASTE, 5, 0,true,false)
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)).setCreativeTab(Tabs.tabkuuga);
-	
+
 	public static Item kuuga_pegasus = new Item_form_change("kuuga_pegasus",item_kuugadriver.class,arcle_gr,"_pegasus"
 			,new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false)).setCreativeTab(Tabs.tabkuuga);
-	
+
 	public static Item kuuga_titan = new Item_form_change("kuuga_titan",item_kuugadriver.class,arcle_p,"_titan"
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false)
 			,new PotionEffect(MobEffects.SLOWNESS, 5, 0,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)).setCreativeTab(Tabs.tabkuuga);
-	
+
 	public static Item kuuga_rising_mighty = new Item_form_change("kuuga_rising_mighty",item_kuugadriver.class,arcle_u,"_rising_mighty"
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false)
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)
 			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 6,true,false)).setCreativeTab(Tabs.tabkuuga);
-	
+
 	public static Item kuuga_rising_dragon = new Item_form_change("kuuga_rising_dragon",item_kuugadriver.class,arcle_u,"_rising_dragon"
 			,new PotionEffect(MobEffects.HASTE, 5, 2,true,false)
 			,new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)).setCreativeTab(Tabs.tabkuuga);
-	
+
 	public static Item kuuga_rising_pegasus = new Item_form_change("kuuga_rising_pegasus",item_kuugadriver.class,arcle_u,"_rising_pegasus"
 			,new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 4,true,false)
 			,new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)).setCreativeTab(Tabs.tabkuuga);
-	
+
 	public static Item kuuga_rising_titan = new Item_form_change("kuuga_rising_titan",item_kuugadriver.class,arcle_u,"_rising_titan"
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false)
 			,new PotionEffect(MobEffects.SLOWNESS, 5, 0,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false)).setCreativeTab(Tabs.tabkuuga);
-	
+
 	public static Item kuuga_amazing_mighty = new Item_form_change("kuuga_amazing_mighty",item_kuugadriver.class,arcle_u,"_amazing_mighty"
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false)
 			,new PotionEffect(MobEffects.SPEED, 5, 2,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false)
 			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 8,true,false)).setCreativeTab(Tabs.tabkuuga);
-	
+
 	public static Item kuuga_ultimate = new Item_form_change("kuuga_ultimate",item_kuugadriver.class,arcle_u,"_ultimate"
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 4,true,false)
 			,new PotionEffect(MobEffects.SPEED, 5, 3,true,false)
@@ -458,7 +458,7 @@ public class RiderItems {
 			,new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false)
 			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 9,true,false)
 			,new PotionEffect(PotionCore.FIRE_PUNCH_POTION, 5, 4,true,false)).setCreativeTab(Tabs.tabkuuga);
-	
+
 	public static Item kuuga_rising_ultimate = new Item_form_change("kuuga_rising_ultimate",item_kuugadriver.class,arcle_ru,"_rising_ultimate"
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 6,true,false)
 			,new PotionEffect(MobEffects.SPEED, 5, 4,true,false)
@@ -466,7 +466,7 @@ public class RiderItems {
 			,new PotionEffect(MobEffects.STRENGTH, 5, 5,true,false)
 			,new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false)
 			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 10,true,false)).setCreativeTab(Tabs.tabkuuga);
-	
+
 	public static Item kuuga_super_rising_ultimate = new Item_form_change("kuuga_super_rising_ultimate",item_kuugadriver.class,arcle_ru,"_super_rising_ultimate"
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 8,true,false)
 			,new PotionEffect(MobEffects.SPEED, 5, 5,true,false)
@@ -474,13 +474,13 @@ public class RiderItems {
 			,new PotionEffect(MobEffects.STRENGTH, 5, 7,true,false)
 			,new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false)
 			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 12,true,false)).setCreativeTab(Tabs.tabkuuga);
-	
+
 	public static Item kuugahead = new item_rider_armor("kuugahead",item_kuugadriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
 	public static Item kuugatroso = new item_rider_armor2("kuugatroso",item_kuugadriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
 	public static Item kuugalegs = new item_rider_armor2("kuugalegs",item_kuugadriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
 
 	public static Item arcle = new item_kuugadriver("arcle",ArmorMaterial.DIAMOND, 4,"kuuga",(Item_form_change) kuuga_mighty).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
-	
+
 	public static Block stone_kuuga= new ore_block("stone_kuuga",Material.ROCK, kuuga_growing, 2).setHardness(9.9F).setCreativeTab(Tabs.tabkuuga);
 
 
@@ -500,106 +500,106 @@ public class RiderItems {
 	public static Item alter_ring_fl = new Item_ore("alter_ring_fl");
 	public static Item alter_ring_st = new Item_ore("alter_ring_st");
 	public static Item alter_ring_shining = new Item_ore("alter_ring_shining");
-	
+
 	public static Item agito_ground = new Item_form_change("agito_ground",item_agitodriver.class,alter_ring_gr,"","agito"
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
-	
+
 	public static Item agito_storm = new Item_form_change("agito_storm",item_agitodriver.class,alter_ring_st,"_storm","agito"
 			,new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
-	
+
 	public static Item agito_flame = new Item_form_change("agito_flame",item_agitodriver.class,alter_ring_fl,"_flame","agito"
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)
 			,new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
-	
+
 	public static Item agito_trinity = new Item_form_change("agito_trinity",item_agitodriver.class,alter_ring_gr,"_trinity","agito"
 			,new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
 			,new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
-	
+
 	public static Item agito_burning = new Item_form_change("agito_burning",item_agitodriver.class,alter_ring_shining,"_burning","agito"
 			,new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
 			,new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false)
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false)).setCreativeTab(Tabs.tabagito);
-	
+
 	public static Item agito_shining = new Item_form_change("agito_shining",item_agitodriver.class,alter_ring_shining,"_shining","agito"
 			,new PotionEffect(MobEffects.SPEED, 5, 3,true,false)
 			,new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false)
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false)).setCreativeTab(Tabs.tabagito);
-	
+
 	public static Item alter_ring = new item_agitodriver("alter_ring",ArmorMaterial.DIAMOND, 4,"agito",(Item_form_change) agito_ground).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
-	
-	
+
+
 	public static Item meta_factor_exceed = new Item_ore("meta_factor_exceed");
-		
+
 	public static Item gills = new Item_form_change("gills",item_agitodriver.class,blanknoitem,"","gills"
 			,new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
-	
+
 	public static Item exceed_gills = new Item_form_change("exceed_gills",item_agitodriver.class,meta_factor_exceed,"_exceed","gills"
 			,new PotionEffect(MobEffects.SPEED, 5, 3,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false)
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false)).setCreativeTab(Tabs.tabagito);
-	
+
 	public static Item meta_factor = new item_agitodriver("meta_factor",ArmorMaterial.DIAMOND, 4,"gills",(Item_form_change) gills).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 
-	
+
 	public static Item another_agito = new Item_form_change("another_agito",item_agitodriver.class,blanknoitem,"",""
 			,new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false)).setCreativeTab(Tabs.tabagito);
-	
+
 	public static Item ank_point = new item_agitodriver("ank_point",ArmorMaterial.DIAMOND, 4,"another_agito",(Item_form_change) another_agito).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 
-	
+
 	public static Item g3 = new Item_form_change("g3",item_agitodriver.class,blanknoitem,"",""
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
-	
+
 	public static Item g3_belt = new item_agitodriver("g3_belt",ArmorMaterial.DIAMOND, 4,"g3",(Item_form_change) g3).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
-	
-	
+
+
 	public static Item g3x = new Item_form_change("g3x",item_agitodriver.class,blanknoitem,"",""
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false)).setCreativeTab(Tabs.tabagito);
-	
+
 	public static Item g3_x_belt = new item_agitodriver("g3_x_belt",ArmorMaterial.DIAMOND, 4,"g3_x",(Item_form_change) g3x).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
-	
-	
+
+
 	public static Item g3mild = new Item_form_change("g3mild",item_agitodriver.class,blanknoitem,"",""
 			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
-	
+
 	public static Item g3_mild_belt = new item_agitodriver("g3_mild_belt",ArmorMaterial.DIAMOND, 4,"g3_mild",(Item_form_change) g3mild).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
-	
-	
+
+
 	public static Item g4 = new Item_form_change("g4",item_agitodriver.class,blanknoitem,"",""
 			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false)
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false)
 			,new PotionEffect(MobEffects.POISON, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
-	
+
 	public static Item g4_belt = new item_agitodriver("g4_belt",ArmorMaterial.DIAMOND, 4,"g4",(Item_form_change) g4).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
 
-	
+
 	public static Item g4x = new Item_form_change("g4x",item_agitodriver.class,blanknoitem,"",""
 			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false)
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false)
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
-	
+
 	public static Item g4_x_belt = new item_agitodriver("g4_x_belt",ArmorMaterial.DIAMOND, 4,"g4_x",(Item_form_change) g4x).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
 
-	
+
 	public static Item g1 = new Item_form_change("g1",item_agitodriver.class,blanknoitem,"",""
 			,new PotionEffect(MobEffects.WEAKNESS, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
-	
+
 	public static Item g1_belt = new item_agitodriver("g1_belt",ArmorMaterial.DIAMOND, 4,"g1",(Item_form_change) g1).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
 
 
@@ -609,19 +609,19 @@ public class RiderItems {
 			,new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false)
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 4,true,false)).setCreativeTab(Tabs.tabagito);
-	
+
 	public static Item alter_ring_miracle = new item_agitodriver("alter_ring_miracle",ArmorMaterial.DIAMOND, 4,"agito_miracle",(Item_form_change) agito_miracle).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
-	
-	
+
+
 	public static Item another_agito_burning_form = new Item_form_change("another_agito_burning_form",item_agitodriver.class,blanknoitem,"",""
 			,new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 5,true,false)
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 4,true,false)).setCreativeTab(Tabs.tabagito);
-	
+
 	public static Item ank_point_burning = new item_agitodriver("ank_point_burning",ArmorMaterial.DIAMOND, 4,"another_agito_burning",(Item_form_change) another_agito_burning_form).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
 
-		
+
 
 	//ryuki
 	public static Item drag_visor = new Item_ore("drag_visor").setCreativeTab(Tabs.tabryuki);
@@ -800,7 +800,7 @@ public class RiderItems {
 	public static Item blayrouzer = new ItemBaseSword("blayrouzer",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabblade);
 	public static Item kingrouzer = new ItemBaseSword("kingrouzer",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabblade);
 
-	
+
 	public static Item leanglerouzer = new ItemBaseSword("leanglerouzer",Tabs.leanglerouzer).setMaxStackSize(1).setCreativeTab(Tabs.tabblade);
 	public static Item garrenrouzer = new Item_gun("garrenrouzer",Tabs.den_dengu).setMaxStackSize(1).setCreativeTab(Tabs.tabblade);
 
@@ -1073,7 +1073,7 @@ public class RiderItems {
 	public static Item basshaamagnum = new Item_gun("basshaamagnum",Tabs.bashaamagnum).setMaxStackSize(1).setCreativeTab(Tabs.tabkiva);
 	public static Item dogga_hammer = new ItemBaseSword("dogga_hammer",Tabs.dogga_hammer).setMaxStackSize(1).setCreativeTab(Tabs.tabkiva);
 
-	
+
 	public static Item ixa_caliber = new Item_sword_gun("ixa_caliber",Tabs.garulu_saber).setMaxStackSize(1).setCreativeTab(Tabs.tabkiva);
 
 	public static Item ixariser = new Item_gun("ixariser",Tabs.bashaamagnum).setMaxStackSize(1).setCreativeTab(Tabs.tabkiva);
@@ -1152,7 +1152,7 @@ public class RiderItems {
 	public static Item ryukicard = new Itemrider_cards(7,0,"ryukicard").setCreativeTab(Tabs.tabdecade);
 	public static Item agitocard = new Itemrider_cards(8,0,"agitocard").setCreativeTab(Tabs.tabdecade);
 	public static Item kuugacard = new Itemrider_cards(9,1,"kuugacard").setCreativeTab(Tabs.tabdecade);
-	
+
 
 
 	public static Item k_touch_diend = new Itemrider_cards(0,1,"k_touch_diend").setCreativeTab(Tabs.tabdecade);
@@ -1184,7 +1184,7 @@ public class RiderItems {
 	public static Item survive_ryukicard = new Item_ore("survive_ryukicard").setCreativeTab(Tabs.tabdecade);
 	public static Item shining_agitocard = new Item_ore("shining_agitocard").setCreativeTab(Tabs.tabdecade);
 	public static Item ultimate_kuugacard = new Item_ore("ultimate_kuugacard").setCreativeTab(Tabs.tabdecade);
-	
+
 	public static Item ichigocard = new Itemrider_cards(10,0,"ichigocard").setCreativeTab(Tabs.tabdecade);
 	public static Item nigocard = new Itemrider_cards(10,1,"nigocard").setCreativeTab(Tabs.tabdecade);
 	public static Item v3card = new Itemrider_cards(10,2,"v3card").setCreativeTab(Tabs.tabdecade);
@@ -1209,7 +1209,7 @@ public class RiderItems {
 	public static Item caucasuscard = new Item_ore("caucasuscard").setCreativeTab(Tabs.tabdecade);
 	public static Item arccard = new Item_ore("arccard").setCreativeTab(Tabs.tabdecade);
 	public static Item skullcard = new Item_ore("skullcard").setCreativeTab(Tabs.tabdecade);
-	
+
 	public static Item wcard = new Itemrider_cards(11,0,"wcard").setCreativeTab(Tabs.tabdecade);
 	public static Item ooocard = new Itemrider_cards(11,1,"ooocard").setCreativeTab(Tabs.tabdecade);
 	public static Item fourzecard = new Itemrider_cards(11,2,"fourzecard").setCreativeTab(Tabs.tabdecade);
@@ -1225,7 +1225,7 @@ public class RiderItems {
 	public static Item metal_shaft = new Item_metal_shaft("metal_shaft",Tabs.den_denro).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 	public static Item prism_bicker = new ItemChargeSword("prism_bicker",Tabs.denkamen_sword).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 	public static Item shield_prism_bicker = new ItemBaseShield("shield_prism_bicker").setMaxStackSize(1).setCreativeTab(Tabs.tabW);
-	
+
 	public static Item eternal_edge = new ItemBaseSword("eternal_edge",Tabs.den_denso).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 	public static Item skull_magnum = new Item_gun("skull_magnum",Tabs.den_dengu).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 	public static Item engine_blade = new ItemBaseSword("engine_blade",Tabs.den_denso).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
@@ -1237,8 +1237,8 @@ public class RiderItems {
 	public static Item Wdriver = new item_Wdriver("wdriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 
 	public static Item cyclone_joker_gold_xtreme_wings = new Item_ore("cyclone_joker_gold_xtreme_wings");
-	
-	
+
+
 	public static Item wdriverj = new Item_ore("wdriverj");
 	public static Item wdriverc = new Item_ore("wdriverc");
 	public static Item wdrivert = new Item_ore("wdrivert");
@@ -1260,10 +1260,12 @@ public class RiderItems {
 	public static Item lostdrivere = new Item_ore("lostdrivere");
 	public static Item lostdriverj = new Item_ore("lostdriverj");
 
+	public static Item accel_driver = new item_Wdriver("accel_driver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 
 	public static Item lostdriver = new item_Wdriver("lostdriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
-
-	public static Item accel_driver = new item_Wdriver("accel_driver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
+	public static Item lostdriver_skull = new item_Wdriver("lostdriver_skull",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
+	public static Item lostdriver_eternal = new item_Wdriver("lostdriver_eternal",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
+	public static Item lostdriver_cyclone = new item_Wdriver("lostdriver_cyclone",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 
 	public static Item cyclone_memory = new Item_memory(0, "3","cyclone_memory",1,20).setCreativeTab(Tabs.tabW);
 	public static Item heat_memory = new Item_memory(1, "3","heat_memory",1,10).setCreativeTab(Tabs.tabW);
@@ -1281,10 +1283,11 @@ public class RiderItems {
 	public static Item cyclonecyclone_memory = new Item_memory(3, "1","cyclonecyclone_memory").setCreativeTab(Tabs.tabW);
 	public static Item jokerjoker_memory = new Item_memory(4, "3","jokerjoker_memory").setCreativeTab(Tabs.tabW);
 
-	public static Item joker_t2_memory = new Item_memory(0, "4","joker_t2_memory",2,5).setCreativeTab(Tabs.tabW);
-	public static Item skull_memory = new Item_memory(1, "4","skull_memory",1,5).setCreativeTab(Tabs.tabW);
-	public static Item eternal_t2_memory = new Item_memory(2, "4","eternal_t2_memory",2,5).setCreativeTab(Tabs.tabW);
-	public static Item eternal_memory = new Item_memory(3, "4","eternal_memory",1,1).setCreativeTab(Tabs.tabW);
+	public static Item joker_t2_memory = new Item_memory("joker_t2_memory",2,5).setCreativeTab(Tabs.tabW);
+	public static Item skull_memory = new Item_memory("skull_memory",1,5).setCreativeTab(Tabs.tabW);
+	public static Item eternal_t2_memory = new Item_memory(0, "4","eternal_t2_memory",2,5).setCreativeTab(Tabs.tabW);
+	public static Item eternal_memory = new Item_memory(1, "4","eternal_memory",1,1).setCreativeTab(Tabs.tabW);
+
 
 	public static Item accel_memory = new Item_memory(0, "5","accel_memory",0,5).setCreativeTab(Tabs.tabW);
 	public static Item trial_memory = new Item_memory(1, "5","trial_memory").setCreativeTab(Tabs.tabW);
@@ -1295,14 +1298,14 @@ public class RiderItems {
 
 	public static Item shippu_memory = new Item_memory(0, "3","shippu_memory").setCreativeTab(Tabs.tabW);
 	public static Item kirifuda_memory = new Item_memory(0, "1","kirifuda_memory").setCreativeTab(Tabs.tabW);
-	
+
 	public static Item trial_memory_un = new Item_memory("trial_memory_un",0,2).setCreativeTab(Tabs.tabW);
 	public static Item fang_memory_un = new Item_memory("fang_memory_un",1,5).setCreativeTab(Tabs.tabW);
 	public static Item bomb_memory = new Item_memory("bomb_memory",1,1).setCreativeTab(Tabs.tabW);
-	
+
 	public static Item xtreme_memory_g = new Item_memory("xtreme_memory_g",0,1).setCreativeTab(Tabs.tabW);
 	public static Item xtreme_memory_s = new Item_memory("xtreme_memory_s",1,1).setCreativeTab(Tabs.tabW);
-	
+
 	public static Item accel_t2_memory = new Item_memory("accel_t2_memory",2,1).setCreativeTab(Tabs.tabW);
 	public static Item bird_t2_memory = new Item_memory("bird_t2_memory",2,1).setCreativeTab(Tabs.tabW);
 	public static Item cyclone_t2_memory = new Item_memory("cyclone_t2_memory",2,1).setCreativeTab(Tabs.tabW);
@@ -1332,8 +1335,8 @@ public class RiderItems {
 	public static Item unrefined_memory_g = new Item_ore("unrefined_memory_g").setCreativeTab(Tabs.tabW);
 	public static Item unrefined_memory_s = new Item_ore("unrefined_memory_s").setCreativeTab(Tabs.tabW);
 	public static Item unrefined_memory_t2 = new Item_ore("unrefined_memory_t2").setCreativeTab(Tabs.tabW);
-	
-	
+
+
 	//OOO
 	public static Item medajalibur = new ItemChargeSword("medajalibur",Tabs.medajalibur).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 
@@ -1400,10 +1403,10 @@ public class RiderItems {
 	public static Item love_OOOdriver = new Item_ore("love_ooodriver");
 	public static Item love2_OOOdriver = new Item_ore("love2_ooodriver");
 	public static Item love3_OOOdriver = new Item_ore("love3_ooodriver");
-	
+
 	public static Item tajador_wings = new Item_ore("tajador_wings");
 	public static Item condor_wings = new Item_ore("condor_wings");
-		
+
 	public static Item OOOdriver = new item_OOOdriver("ooodriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 	public static Item birth_driver = new item_OOOdriver("birth_driver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 	public static Item birth_driver_prototype = new item_OOOdriver("birth_driver_prototype",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
@@ -1413,7 +1416,7 @@ public class RiderItems {
 	public static Item core_driver = new item_OOOdriver("core_driver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 	public static Item core_driver_power_up = new item_OOOdriver("core_driver_power_up",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 
-		
+
 	public static Item taka = new Itemmedal(0, "1","taka").setCreativeTab(Tabs.tabOOO);
 	public static Item kuwagata = new Itemmedal(1, "1","kuwagata").setCreativeTab(Tabs.tabOOO);
 	public static Item lion = new Itemmedal(2, "1","lion").setCreativeTab(Tabs.tabOOO);
@@ -1448,7 +1451,7 @@ public class RiderItems {
 	public static Item kani_new = new Itemmedal(16, "2","kani_new").setCreativeTab(Tabs.tabOOO);
 	public static Item yadokari = new Itemmedal(17, "2","yadokari").setCreativeTab(Tabs.tabOOO);
 	public static Item taiga = new Itemmedal(18, "2","taiga").setCreativeTab(Tabs.tabOOO);
-	
+
 	public static Item batta = new Itemmedal(0, "3","batta").setCreativeTab(Tabs.tabOOO);
 	public static Item cheetah = new Itemmedal(1, "3","cheetah").setCreativeTab(Tabs.tabOOO);
 	public static Item zou = new Itemmedal(2, "3","zou").setCreativeTab(Tabs.tabOOO);
@@ -1469,17 +1472,17 @@ public class RiderItems {
 	public static Item love_core = new Itemmedal(8, "1","love_core").setCreativeTab(Tabs.tabOOO);
 	public static Item love_core2 = new Itemmedal(11, "2","love_core2").setCreativeTab(Tabs.tabOOO);
 	public static Item love_core3 = new Itemmedal(10, "3","love_core3").setCreativeTab(Tabs.tabOOO);
-		
+
 
 	public static Item sasori = new Item_ore("sasori").setCreativeTab(Tabs.tabOOO);
 	public static Item kani = new Item_ore("kani").setCreativeTab(Tabs.tabOOO);
 	public static Item ebi = new Item_ore("ebi").setCreativeTab(Tabs.tabOOO);
 
 	public static Item proto_birth_core = new Item_ore("proto_birth_core").setCreativeTab(Tabs.tabOOO);
-		
+
 	public static Item o_scanner = new Itemo_scanner("o_scanner").setCreativeTab(Tabs.tabOOO);
 
-		
+
 	//Fourze
 	public static Item billytherod = new ItemBaseSword("billytherod",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabFourze);
 	public static Item hee_hackgun = new Item_fireball_gun("hee_hackgun", ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabFourze);
@@ -1554,7 +1557,7 @@ public class RiderItems {
 	public static Item solu_switch = new Item_ore("solu_switch").setCreativeTab(Tabs.tabFourze);
 	public static Item core_switch = new Item_ore("core_switch").setCreativeTab(Tabs.tabFourze);
 
-			
+
 	// Wizard
 	public static Item wizarswordgun = new Item_sword_gun("wizarswordgun",Tabs.wizarswordgun).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	public static Item axcalibur = new ItemChargeSword("axcalibur",Tabs.axcalibur).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
@@ -1573,608 +1576,608 @@ public class RiderItems {
 	public static Item whitewizardriver = new item_wizarddriver("whitewizardriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	public static Item magewizardriver = new item_wizarddriver("magewizardriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	public static Item magewizardriver_b = new item_wizarddriver("magewizardriver_b",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item magewizardriver_g = new item_wizarddriver("magewizardriver_g",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item sorcererdriver = new item_wizarddriver("sorcererdriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item whitewizardriverf = new item_wizarddriver("whitewizardriverf",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-
-			public static Item darkwizardriver = new item_wizarddriver("darkwizardriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item blackwizardriver = new item_wizarddriver("blackwizardriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-
-			
-			public static Item flame_ring = new Item_wizard_ring(0, "1","flame_ring").setCreativeTab(Tabs.tabwizard);
-			public static Item water_ring = new Item_wizard_ring(1, "1","water_ring").setCreativeTab(Tabs.tabwizard);
-			public static Item hurricane_ring = new Item_wizard_ring(2, "1","hurricane_ring").setCreativeTab(Tabs.tabwizard);
-			public static Item land_ring = new Item_wizard_ring(3, "1","land_ring").setCreativeTab(Tabs.tabwizard);
-			public static Item flame_ring_dragon = new Item_wizard_ring(4, "1","flame_ring_dragon").setCreativeTab(Tabs.tabwizard);
-			public static Item water_ring_dragon = new Item_wizard_ring(5, "1","water_ring_dragon").setCreativeTab(Tabs.tabwizard);
-			public static Item hurricane_ring_dragon = new Item_wizard_ring(6, "1","hurricane_ring_dragon").setCreativeTab(Tabs.tabwizard);
-			public static Item land_ring_dragon = new Item_wizard_ring(7, "1","land_ring_dragon").setCreativeTab(Tabs.tabwizard);
-			public static Item infinity_ring = new Item_wizard_ring(8, "1","infinity_ring").setCreativeTab(Tabs.tabwizard);
-
-			public static Item drago_timer = new Item_wizard_ring(1, "2","drago_timer").setCreativeTab(Tabs.tabwizard);
-			public static Item special_ring = new Item_wizard_ring(2, "2","special_ring").setCreativeTab(Tabs.tabwizard);
-			public static Item finish_strike_ring = new Item_wizard_ring(3 , "2","finish_strike_ring").setCreativeTab(Tabs.tabwizard);
-			public static Item hope_ring = new Item_ore("hope_ring").setCreativeTab(Tabs.tabwizard);
-			public static Item special_rush_ring = new Item_wizard_ring(9 , "2","special_rush_ring").setCreativeTab(Tabs.tabwizard);
-			public static Item dress_up_ring = new Item_wizard_ring(11, "1","dress_up_ring").setCreativeTab(Tabs.tabwizard);
-
-			public static Item beast_ring = new Item_wizard_ring(0, "3","beast_ring").setCreativeTab(Tabs.tabwizard);
-			public static Item falco_ring = new Item_wizard_ring(1, "3","falco_ring").setCreativeTab(Tabs.tabwizard);
-			public static Item chameleo_ring = new Item_wizard_ring(2, "3","chameleo_ring").setCreativeTab(Tabs.tabwizard);
-			public static Item buffa_ring = new Item_wizard_ring(3, "3","buffa_ring").setCreativeTab(Tabs.tabwizard);
-			public static Item dolphi_ring = new Item_wizard_ring(4, "3","dolphi_ring").setCreativeTab(Tabs.tabwizard);
-			public static Item hyper_ring = new Item_wizard_ring(5, "3","hyper_ring").setCreativeTab(Tabs.tabwizard);
-
-			public static Item wiseman_ring = new Item_ore("wiseman_ring").setCreativeTab(Tabs.tabwizard);
-			public static Item mage_o_ring = new Item_ore("mage_o_ring").setCreativeTab(Tabs.tabwizard);
-			public static Item mage_b_ring = new Item_ore("mage_b_ring").setCreativeTab(Tabs.tabwizard);
-			public static Item mage_g_ring = new Item_ore("mage_g_ring").setCreativeTab(Tabs.tabwizard);
-			public static Item sorcerer_ring = new Item_ore("sorcerer_ring").setCreativeTab(Tabs.tabwizard);
-			public static Item black_ring = new Item_ore("black_ring").setCreativeTab(Tabs.tabwizard);
-			public static Item dark_ring = new Item_ore("dark_ring").setCreativeTab(Tabs.tabwizard);
-
-			public static Item light_ring = new Item_wizard_rings_efts(1 , "0","light_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item excite_ring = new Item_wizard_rings_efts(2 , "0","excite_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item defend_ring = new Item_wizard_rings_efts(3 , "0","defend_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item thunder_ring = new Item_wizard_rings_efts(4 , "0","thunder_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item explosion_ring = new Item_wizard_rings_efts(5 , "0","explosion_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item sleep_ring = new Item_wizard_rings_efts(6 , "0","sleep_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item bind_ring = new Item_wizard_rings_efts(7 , "0","bind_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item teleport_ring = new Item_wizard_rings_efts(8 , "0","teleport_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item fall_ring = new Item_wizard_rings_efts(9 , "0","fall_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item connect_ring = new Item_wizard_rings_efts(10 , "0","connect_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item kick_strike_ring = new Item_wizard_rings_efts(11 , "0","kick_strike_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item eclipse_ring = new Item_wizard_rings_efts(12 , "0","eclipse_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item liquid_ring = new Item_wizard_rings_efts(13 , "0","liquid_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item drill_ring = new Item_wizard_rings_efts(14 , "0","drill_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-
-
-
-			public static Item engage_ring = new Item_ore("engage_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item please_ring = new Item_ore("please_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item small_ring = new Item_ore("small_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item big_ring = new Item_ore("big_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-
-			public static Item copy_ring = new Item_ore("copy_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item smell_ring = new Item_ore("smell_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item extend_ring = new Item_ore("extend_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item merry_christmas_ring = new Item_ore("merry_christmas_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);			
-			public static Item blizzard_ring = new Item_ore("blizzard_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item gravity_ring = new Item_ore("gravity_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item miracle_ring = new Item_ore("miracle_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item flower_ring = new Item_ore("flower_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item dance_ring = new Item_ore("dance_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			public static Item time_ring = new Item_ore("time_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-			
-			
-			//Gaim
-			public static Item musou_saber = new ItemBaseSword("musou_saber",Tabs.musou_saber).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item musou_saber_naginata = new ItemBaseSword("musou_saber_naginata",Tabs.musou_saber_naginata).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item blood_musou_saber_naginata = new ItemBaseSword("blood_musou_saber_naginata",Tabs.musou_saber_naginata).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item musou_saber_kusarigama = new ItemBaseSword("musou_saber_kusarigama",Tabs.musou_saber_kusarigama).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item dj_gun = new Item_gun("dj_gun",Tabs.dj_gun).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-
-			public static Item dj_gun_taiken_mode_big  = new Item_ore("dj_gun_taiken_mode_big");
-			public static Item dj_gun_taiken_mode = new ItemBaseSword("dj_gun_taiken_mode",Tabs.dj_gun_taiken_mode).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-
-			public static Item kagematsu_l  = new Item_ore("kagematsu_l");
-			public static Item kagematsu = new ItemBaseSword("kagematsu",Tabs.kagematsu).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item donkachi= new ItemBaseSword("donkachi",Tabs.donkachi).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item melon_defender = new ItemBaseShield("melon_defender").setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item pine_iron = new ItemBaseSword("pine_iron",Tabs.pine_iron).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item ichigo_kunai = new ItemBaseSword("ichigo_kunai",Tabs.ichigo_kunai).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item daidaimaru = new ItemBaseSword("daidaimaru",Tabs.daidaimaru).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item banana_spear= new ItemBaseSword("banana_spear",Tabs.banana_spear).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item budou_ryuhou = new Item_gun("budou_ryuhou",Tabs.budou_ryuhou).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item mango_punisher = new ItemBaseSword("mango_punisher",Tabs.mango_punisher).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item duri_noko = new ItemBaseSword("duri_noko",Tabs.duri_noko).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item kiwi_gekirin = new ItemBaseSword("kiwi_gekirin",Tabs.kiwi_gekirin).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item sonic_arrow = new Item_gun("sonic_arrow",Tabs.sonic_arrow).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item kagematsu_shin = new ItemBaseSword("kagematsu_shin",Tabs.kagematsu_shin).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item suika_sojinto = new ItemBaseSword("suika_sojinto",Tabs.suika_sojinto).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item suika_sojinto_baron_ver = new ItemBaseSword("suika_sojinto_baron_ver",Tabs.suika_sojinto_baron_ver).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item suika_sojinto_knuckle_ver = new ItemBaseSword("suika_sojinto_knuckle_ver",Tabs.suika_sojinto_baron_ver).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-
-			public static Item blood_daidaimaru = new ItemBaseSword("blood_daidaimaru",Tabs.daidaimaru).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item yomimaru = new ItemBaseSword("yomimaru",Tabs.yomimaru).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item sword_bringer = new ItemBaseSword("sword_bringer",Tabs.sword_bringer).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item apple_reflecter = new ItemBaseShield("apple_reflecter").setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			
-			public static Item souginjou = new ItemBaseSword("souginjou",Tabs.souginjou).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item dark_daidaimaru = new ItemBaseSword("dark_daidaimaru",Tabs.daidaimaru).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item watermelon_defender = new ItemBaseShield("watermelon_defender").setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item savior_arrow = new Item_gun("savior_arrow",Tabs.savior_arrow).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-
-			public static Item kabi_daidaimaru = new ItemBaseSword("kabi_daidaimaru",ToolMaterial.WOOD).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item maja_yomimaru = new ItemBaseSword("maja_yomimaru",Tabs.yomimaru).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-
-
-			public static Item Gaimhead = new item_Gaimarmor3("gaimhead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item Gaimtroso = new item_Gaimarmor("gaimtroso",ArmorMaterial.DIAMOND, 4,EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item Gaimlegs = new item_Gaimarmor2("gaimlegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_matsubokkuri  = new Item_ore("sengoku_driver_matsubokkuri");
-			public static Item sengoku_driver_kurumi  = new Item_ore("sengoku_driver_kurumi");
-			public static Item sengoku_driver_donguri  = new Item_ore("sengoku_driver_donguri");
-			public static Item sengoku_driver_melon  = new Item_ore("sengoku_driver_melon");
-			public static Item sengoku_driver_pine  = new Item_ore("sengoku_driver_pine");
-			public static Item sengoku_driver_ichigo  = new Item_ore("sengoku_driver_ichigo");
-			public static Item sengoku_driver_orange  = new Item_ore("sengoku_driver_orange");
-			public static Item sengoku_driver_banana  = new Item_ore("sengoku_driver_banana");
-			public static Item sengoku_driver_budou = new Item_ore("sengoku_driver_budou");
-			public static Item sengoku_driver_suika  = new Item_ore("sengoku_driver_suika");
-			public static Item sengoku_driver_mango  = new Item_ore("sengoku_driver_mango");
-			public static Item sengoku_driver_durian  = new Item_ore("sengoku_driver_durian");
-			public static Item sengoku_driver_kiwi  = new Item_ore("sengoku_driver_kiwi");
-			public static Item sengoku_driver_lemon  = new Item_ore("sengoku_driver_lemon");
-
-			public static Item sengoku_driver_lemon_energy  = new Item_ore("sengoku_driver_lemon_energy");
-			public static Item sengoku_driver_jinba_lemon = new Item_ore("sengoku_driver_jinba_lemon");
-			public static Item lemon_energy_lockseed = new Item_lockseed(2,13,"lemon_energy_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_cherry_energy  = new Item_ore("sengoku_driver_cherry_energy");
-			public static Item sengoku_driver_jinba_cherry = new Item_ore("sengoku_driver_jinba_cherry");
-			public static Item cherry_energy_lockseed = new Item_lockseed(2,14,"cherry_energy_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_peach_energy  = new Item_ore("sengoku_driver_peach_energy");
-			public static Item sengoku_driver_jinba_peach = new Item_ore("sengoku_driver_jinba_peach");
-			public static Item peach_energy_lockseed = new Item_lockseed(2,15,"peach_energy_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_melon_energy = new Item_ore("sengoku_driver_melon_energy");
-			public static Item sengoku_driver_jinba_melon = new Item_ore("sengoku_driver_jinba_melon");
-			public static Item sengoku_driver_jinba_melon_melon = new Item_ore("sengoku_driver_jinba_melon_melon");
-			public static Item sengoku_driver_jinba_melon_durian = new Item_ore("sengoku_driver_jinba_melon_durian");
-			public static Item melon_energy_lockseed = new Item_lockseed(2,16,"melon_energy_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_matsubokkuri_energy  = new Item_ore("sengoku_driver_matsubokkuri_energy");
-			public static Item matsubokkuri_energy_lockseed = new Item_lockseed(2,21,"matsubokkuri_energy_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_jinba_dragon = new Item_ore("sengoku_driver_jinba_dragon");
-			public static Item sengoku_driver_dragon_fruits_energy  = new Item_ore("sengoku_driver_dragon_fruits_energy");
-			public static Item dragon_fruits_energy_lockseed = new Item_lockseed(2,42,"dragon_fruits_energy_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_jinba_marron = new Item_ore("sengoku_driver_jinba_marron");
-			public static Item marron_energy_lockseed = new Item_lockseed(2,46,"marron_energy_lockseed").setCreativeTab(Tabs.tabGaim);
-
-
-
-			public static Item sengoku_driver_kachidoki  = new Item_ore("sengoku_driver_kachidoki");
-			public static Item kachidoki_lockseed  = new Item_lockseed(3,22,"kachidoki_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_kiwami = new Item_ore("sengoku_driver_kiwami");
-			public static Item kiwami_lockseed  = new Item_lockseed(3,23,"kiwami_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_yomotsu_heguri  = new Item_ore("sengoku_driver_yomotsu_heguri");
-			public static Item yomotsu_heguri_lockseed = new Item_lockseed(1,24,"yomotsu_heguri_lockseed").setCreativeTab(Tabs.tabGaim);
-
-
-			public static Item sengoku_driver_blood_orange  = new Item_ore("sengoku_driver_blood_orange");
-			public static Item blood_orange_lockseed = new Item_lockseed(1,25,"blood_orange_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_fifteen_lock  = new Item_ore("sengoku_driver_fifteen_lock");
-			public static Item fifteen_lockseed = new Item_lockseed(1,26,"fifteen_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_golden_ringo  = new Item_ore("sengoku_driver_golden_ringo");
-			public static Item golden_ringo_lockseed = new Item_lockseed(1,27,"golden_ringo_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_silver_ringo  = new Item_ore("sengoku_driver_silver_ringo");
-			public static Item silver_ringo_lockseed = new Item_lockseed(1,28,"silver_ringo_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_black_ringo  = new Item_ore("sengoku_driver_black_ringo");
-			public static Item black_ringo_lockseed = new Item_lockseed(1,29,"black_ringo_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_watermelon  = new Item_ore("sengoku_driver_watermelon");
-			public static Item watermelon_lockseed = new Item_lockseed(1,30,"watermelon_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_forbidden_ringo  = new Item_ore("sengoku_driver_forbidden_ringo");
-			public static Item forbidden_ringo_lockseed = new Item_lockseed(1,31,"forbidden_ringo_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_blood_zakuro  = new Item_ore("sengoku_driver_blood_zakuro");
-			public static Item zakuro_lockseed = new Item_lockseed(1,47,"zakuro_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_black_baron  = new Item_ore("sengoku_driver_black_baron");
-			public static Item black_baron_lockseed  = new Item_lockseed(1,8,"black_baron_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_jinba_black  = new Item_ore("sengoku_driver_jinba_black");
-			public static Item dark_orange_lockseed = new Item_lockseed(3,33,"dark_orange_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item dark_lemon_energy_lockseed = new Item_lockseed(3,33,"dark_lemon_energy_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_orange_fr  = new Item_ore("sengoku_driver_orange_fr");
-			public static Item fresh_orange_lockseed = new Item_lockseed(1,44,"fresh_orange_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item fresh_pine_lockseed = new Item_ore("fresh_pine_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_natsumikan  = new Item_ore("sengoku_driver_natsumikan");
-			public static Item natsumikan_lockseed = new Item_lockseed(1,63,"natsumikan_lockseed").setCreativeTab(Tabs.tabGaim);
-
-
-			public static Item sengoku_driver_drive  = new Item_ore("sengoku_driver_drive");
-			public static Item drive_lockseed  = new Item_lockseed(4,45,"drive_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_wizard  = new Item_ore("sengoku_driver_wizard");
-			public static Item wizard_lockseed  = new Item_lockseed(4,34,"wizard_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_fourze  = new Item_ore("sengoku_driver_fourze");
-			public static Item fourze_lockseed  = new Item_lockseed(4,35,"fourze_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_ooo  = new Item_ore("sengoku_driver_ooo");
-			public static Item ooo_lockseed  = new Item_lockseed(4,36,"ooo_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_w  = new Item_ore("sengoku_driver_w");
-			public static Item w_lockseed  = new Item_lockseed(4,37,"w_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_decade  = new Item_ore("sengoku_driver_decade");
-			public static Item decade_lockseed  = new Item_lockseed(4,38,"decade_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_kuuga  = new Item_ore("sengoku_driver_kuuga");
-			public static Item kuuga_lockseed  = new Item_lockseed(4,48,"kuuga_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_agito  = new Item_ore("sengoku_driver_agito");
-			public static Item agito_lockseed  = new Item_lockseed(4,49,"agito_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_ryuki  = new Item_ore("sengoku_driver_ryuki");
-			public static Item ryuki_lockseed  = new Item_lockseed(4,50,"ryuki_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_faiz  = new Item_ore("sengoku_driver_faiz");
-			public static Item faiz_lockseed  = new Item_lockseed(4,51,"faiz_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_blade  = new Item_ore("sengoku_driver_blade");
-			public static Item blade_lockseed  = new Item_lockseed(4,52,"blade_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_hibiki  = new Item_ore("sengoku_driver_hibiki");
-			public static Item hibiki_lockseed  = new Item_lockseed(4,53,"hibiki_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_kaubuto  = new Item_ore("sengoku_driver_kabuto");
-			public static Item kaubuto_lockseed  = new Item_lockseed(4,54,"kaubuto_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_den_o  = new Item_ore("sengoku_driver_den_o");
-			public static Item den_o_lockseed  = new Item_lockseed(4,55,"den_o_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_kiva  = new Item_ore("sengoku_driver_kiva");
-			public static Item kiva_lockseed  = new Item_lockseed(4,56,"kiva_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_gaim_lock  = new Item_ore("sengoku_driver_gaim_lock");
-			public static Item gaim_lockseed  = new Item_lockseed(4,57,"gaim_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item gaim_lockseed_movie_special  = new Item_lockseed(4,57,"gaim_lockseed_movie_special").setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_rider_ichigo  = new Item_ore("sengoku_driver_rider_ichigo");
-			public static Item rider_ichigo_lockseed  = new Item_lockseed(4,39,"rider_ichigo_lockseed").setCreativeTab(Tabs.tabGaim);
-			
-			public static Item showa_rider_lockseed  = new Item_lockseed(4,39,"showa_rider_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item heisei_rider_lockseed  = new Item_lockseed(4,57,"heisei_rider_lockseed").setCreativeTab(Tabs.tabGaim);
-			
-			public static Item sengoku_driver_ryugen_yomi  = new Item_ore("sengoku_driver_ryugen_yomi");
-			public static Item sengoku_driver_zangetsu_watermelon  = new Item_ore("sengoku_driver_zangetsu_watermelon");
-
-			public static Item sengoku_driver_kabi_orange  = new Item_ore("sengoku_driver_kabi_orange");
-			public static Item kabi_orange_lockseed  = new Item_lockseed(4,58,"kabi_orange_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_maja_lock  = new Item_ore("sengoku_driver_maja_lock");
-			public static Item maja_lockseed  = new Item_lockseed(4,59,"maja_lockseed").setCreativeTab(Tabs.tabGaim);
-
-
-			public static Item sengoku_driver_gaim = new item_Gaimdriver("sengoku_driver_gaim",ArmorMaterial.DIAMOND, 4, 3,"gaim","orange_arms",0,sengoku_driver_orange).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_zangetsu = new item_Gaimdriver("sengoku_driver_zangetsu",ArmorMaterial.DIAMOND, 4, 3,"zangetsu","melon_arms",0,sengoku_driver_melon).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_ryugen = new item_Gaimdriver("sengoku_driver_ryugen",ArmorMaterial.DIAMOND, 4, 3,"ryugen","budou_arms",0,sengoku_driver_budou).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_baron = new item_Gaimdriver("sengoku_driver_baron",ArmorMaterial.DIAMOND, 4, 3,"baron","banana_arms",0,sengoku_driver_banana).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_kurokage = new item_Gaimdriver("sengoku_driver_kurokage",ArmorMaterial.DIAMOND, 4, 3,"kurokage","matsubokkuri_arms",0,sengoku_driver_matsubokkuri).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_gridon = new item_Gaimdriver("sengoku_driver_gridon",ArmorMaterial.DIAMOND, 4, 3,"gridon","donguri_arms",0,sengoku_driver_donguri).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_barvo = new item_Gaimdriver("sengoku_driver_barvo",ArmorMaterial.DIAMOND, 4, 3,"barvo","durian_arms",0,sengoku_driver_durian ).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_knuckle = new item_Gaimdriver("sengoku_driver_knuckle",ArmorMaterial.DIAMOND, 4, 3,"knuckle","kurumi_arms",0,sengoku_driver_kurumi).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_bujin_gaim = new item_Gaimdriver("sengoku_driver_bujin_gaim",ArmorMaterial.DIAMOND, 4, 3,"bujin_gaim","blood_orange_arms",0,sengoku_driver_blood_orange).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_fifteen = new item_Gaimdriver("sengoku_driver_fifteen",ArmorMaterial.DIAMOND, 4, 3,"fifteen","fifteen_arms",0,sengoku_driver_fifteen_lock).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_mars = new item_Gaimdriver("sengoku_driver_mars",ArmorMaterial.DIAMOND, 4, 3,"mars","golden_arms",0,sengoku_driver_golden_ringo).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_kamuro = new item_Gaimdriver("sengoku_driver_kamuro",ArmorMaterial.DIAMOND, 4, 3,"kamuro","silver_arms",0,sengoku_driver_silver_ringo).setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_jam = new item_Gaimdriver("sengoku_driver_jam",ArmorMaterial.DIAMOND, 4, 3,"jam","darkness_arms",0,sengoku_driver_black_ringo).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_kurokage_troopers = new item_Gaimdriver("sengoku_driver_kurokage_troopers",ArmorMaterial.DIAMOND, 4, 3,"kurokage_shin","matsubokkuri_arms",0,sengoku_driver_matsubokkuri).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_idunn = new item_Gaimdriver("sengoku_driver_idunn",ArmorMaterial.DIAMOND, 4, 3,"idunn","ringo_arms",0,sengoku_driver_forbidden_ringo).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_duke = new item_Gaimdriver("sengoku_driver_duke",ArmorMaterial.DIAMOND, 4, 3,"sengoku_duke","lemon_arms",0,sengoku_driver_lemon).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_baron_black = new item_Gaimdriver("sengoku_driver_baron_black",ArmorMaterial.DIAMOND, 4, 3,"baron_black","banana_arms",0,sengoku_driver_banana).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item sengoku_driver_savior = new item_Gaimdriver("sengoku_driver_savior",ArmorMaterial.DIAMOND, 4, 3,"savior","blood_zakuro_arms",0,sengoku_driver_blood_zakuro).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_maja = new item_Gaimdriver("sengoku_driver_maja",ArmorMaterial.DIAMOND, 4, 3,"maja","maja_arms",0,sengoku_driver_maja_lock).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-
-			public static Item sengoku_driver_gaim_natsumikan = new item_Gaimdriver("sengoku_driver_gaim_natsumikan",ArmorMaterial.DIAMOND, 4, 3,"gaim_natsumikan","natsumikan_arms",0,sengoku_driver_natsumikan).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-
-			public static Item genesis_driver_zangetsu_shin = new item_Gaimdriver("genesis_driver_zangetsu_shin",ArmorMaterial.DIAMOND, 4, 3,"zangetsu_shin","energy_melon_arms",1,sengoku_driver_melon_energy).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item genesis_driver_duke = new item_Gaimdriver("genesis_driver_duke",ArmorMaterial.DIAMOND, 4, 3,"duke","energy_lemon_arms",1,sengoku_driver_lemon_energy).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item genesis_driver_sigurd = new item_Gaimdriver("genesis_driver_sigurd",ArmorMaterial.DIAMOND, 4, 3,"sigurd","energy_cherry_arms",1,sengoku_driver_cherry_energy).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item genesis_driver_marika = new item_Gaimdriver("genesis_driver_marika",ArmorMaterial.DIAMOND, 4, 3,"marika","energy_peach_arms",1,sengoku_driver_peach_energy).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item genesis_driver_baron = new item_Gaimdriver("genesis_driver_baron",ArmorMaterial.DIAMOND, 4, 3,"baron_shin","energy_lemon_arms",1,sengoku_driver_lemon_energy).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item genesis_driver_kurokage_shin = new item_Gaimdriver("genesis_driver_kurokage_shin",ArmorMaterial.DIAMOND, 4, 3,"kurokage_shin","energy_matsubokkuri_arms",1,sengoku_driver_matsubokkuri_energy).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-			public static Item genesis_driver_tyrant = new item_Gaimdriver("genesis_driver_tyrant",ArmorMaterial.DIAMOND, 4, 3,"tyrant","energy_prototype_dragon_fruits_arms",1,sengoku_driver_dragon_fruits_energy).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-
-			public static Item matsubokkuri_lockseed = new Item_lockseed(1,1,"matsubokkuri_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item kurumi_lockseed = new Item_lockseed(1,2,"kurumi_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item donguri_lockseed = new Item_lockseed(1,3,"donguri_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item melon_lockseed = new Item_lockseed(1,4,"melon_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item pine_lockseed = new Item_lockseed(1,5,"pine_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item ichigo_lockseed = new Item_lockseed(1,6,"ichigo_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item orange_lockseed = new Item_lockseed(1,7,"orange_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item banana_lockseed = new Item_lockseed(1,8,"banana_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item budou_lockseed = new Item_lockseed(1,9,"budou_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item suika_lockseed = new Item_lockseed(1,40,"suika_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item mango_lockseed = new Item_lockseed(1,10,"mango_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item durian_lockseed = new Item_lockseed(1,11,"durian_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item kiwi_lockseed = new Item_lockseed(1,12,"kiwi_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item lemon_lockseed = new Item_lockseed(1,41,"lemon_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			public static Item sakura_hurricane = new Item_ore("sakura_hurricane").setCreativeTab(Tabs.tabGaim);
-			public static Item rose_attacker = new Item_ore("rose_attacker").setCreativeTab(Tabs.tabGaim);
-			public static Item dandeliner = new Item_ore("dandeliner").setCreativeTab(Tabs.tabGaim);
-			public static Item tulip_hopper = new Item_ore("tulip_hopper").setCreativeTab(Tabs.tabGaim);
-
-			public static Item christmas_lockseed = new Item_ore("christmas_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item roulette_lockseed = new Item_ore("roulette_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			public static Item fake_donguri_lockseed = new item_fake_donguri("fake_donguri_lockseed").setCreativeTab(Tabs.tabGaim);
-			
-			public static Item sid_lockseed = new Item_ore("sid_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			public static Item xiaolongbao_lockseed = new Item_ore("xiaolongbao_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item hsiao_lung_pao_lockseed = new Item_ore("hsiao_lung_pao_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item tom_yum_kung_lockseed = new Item_ore("tom_yum_kung_lockseed").setCreativeTab(Tabs.tabGaim);
-			public static Item yummy_lockseed = new Item_ore("yummy_lockseed").setCreativeTab(Tabs.tabGaim);	
-			public static Item hero_lockseed = new Item_ore("hero_lockseed").setCreativeTab(Tabs.tabGaim);
-			
-			public static Item drained_suika_lockseed = new Item_ore("drained_suika_lockseed").setCreativeTab(Tabs.tabGaim);
-
-			//drive
-			public static Item handle_sword = new ItemBaseSword("handle_sword",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-			public static Item door_ju = new Item_gun("door_ju",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-			public static Item trailer_hou = new Item_gun("trailer_hou",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-
-			public static Item zenrin_shooter = new Item_gun("zenrin_shooter",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-
-			public static Item break_gunner = new Item_break_gunner("break_gunner",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-			public static Item shingouax = new ItemBaseSword("shingouax",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-
-			public static Item lupin_gunner = new Item_lupin_gunner("lupin_gunner",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-			public static Item blade_gunner = new ItemBaseSword("blade_gunner",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-
-			public static Item drivehead = new item_drivearmor("drivehead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-			public static Item drivetroso = new item_drivearmor2("drivetroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-			public static Item drivelegs = new item_drivearmor2("drivelegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-
-			public static Item drivedriver = new item_drivedriver("drivedriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-			public static Item mach_driver_honoh = new item_drivedriver("mach_driver_honoh",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-			public static Item drivedrivergold = new item_drivedriver("drivedrivergold",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-			public static Item metro_pd_driver_honoh = new item_drivedriver("metro_pd_driver_honoh",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-			public static Item break_gunner_2 = new item_drivedriver("break_gunner_2",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-			public static Item lupin_belt = new item_drivedriver("lupin_belt",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-			
-			
-			public static Item speedshift  = new Item_shift_car(1, 0,"speedshift").setCreativeTab(Tabs.tabdrive);
-			public static Item wildshift  = new Item_shift_car(1, 1,"wildshift").setCreativeTab(Tabs.tabdrive);
-			public static Item techniqueshift  = new Item_shift_car(1, 13,"techniqueshift").setCreativeTab(Tabs.tabdrive);
-			public static Item dead_heat  = new Item_shift_car(1, 21,"dead_heat").setCreativeTab(Tabs.tabdrive);
-			public static Item formulashift  = new Item_shift_car(1, 23,"formulashift").setCreativeTab(Tabs.tabdrive);
-			public static Item tridoronshift  = new Item_shift_car(1, 24,"tridoronshift").setCreativeTab(Tabs.tabdrive);
-
-			public static Item fruitsshift  = new Item_shift_car(1, 20,"fruitsshift").setCreativeTab(Tabs.tabdrive);
-			public static Item highspeedshift  = new Item_shift_car(1, 10,"highspeedshift").setCreativeTab(Tabs.tabdrive);
-
-			public static Item shift_next  = new Item_shift_car(1, 29,"shift_next").setCreativeTab(Tabs.tabdrive);
-			public static Item shift_special  = new Item_shift_car(1, 30,"shift_special").setCreativeTab(Tabs.tabdrive);
-
-			public static Item heartronshift  = new Item_shift_car(1, 35,"heartronshift").setCreativeTab(Tabs.tabdrive);
-			public static Item speedwildtechnicshift  = new Item_shift_car(1, 36,"speedwildtechnicshift").setCreativeTab(Tabs.tabdrive);
-
-			public static Item maxflare = new Item_shift_car(2, 2,"maxflare").setCreativeTab(Tabs.tabdrive);
-			public static Item funkyspike = new Item_shift_car(2, 3,"funkyspike").setCreativeTab(Tabs.tabdrive);
-			public static Item midnightshadow  = new Item_shift_car(2, 4,"midnightshadow").setCreativeTab(Tabs.tabdrive);
-			public static Item justice_hunter  = new Item_shift_car(2, 5,"justice_hunter").setCreativeTab(Tabs.tabdrive);
-			public static Item dream_vegas  = new Item_shift_car(2, 6,"dream_vegas").setCreativeTab(Tabs.tabdrive);
-			public static Item dimension_cab  = new Item_shift_car(2, 7,"dimension_cab").setCreativeTab(Tabs.tabdrive);
-			public static Item massive_monster  = new Item_shift_car(2, 8,"massive_monster").setCreativeTab(Tabs.tabdrive);
-			public static Item spin_mixer  = new Item_shift_car(2, 9,"spin_mixer").setCreativeTab(Tabs.tabdrive);
-			public static Item rumble_dump  = new Item_shift_car(2, 14,"rumble_dump").setCreativeTab(Tabs.tabdrive);
-			public static Item mad_doctor  = new Item_shift_car(2, 15,"mad_doctor").setCreativeTab(Tabs.tabdrive);
-			public static Item hooking_wrecker  = new Item_shift_car(2, 16,"hooking_wrecker").setCreativeTab(Tabs.tabdrive);
-
-			public static Item fire_braver  = new Item_shift_car(2, 17,"fire_braver").setCreativeTab(Tabs.tabdrive);
-			public static Item rolling_gravity  = new Item_shift_car(2, 18,"rolling_gravity").setCreativeTab(Tabs.tabdrive);
-			public static Item road_winter  = new Item_shift_car(2, 19,"road_winter").setCreativeTab(Tabs.tabdrive);
-
-			public static Item mantarn_f01  = new Item_shift_car(2, 31,"mantarn_f01").setCreativeTab(Tabs.tabdrive);
-			public static Item jacky_f02  = new Item_shift_car(2, 32,"jacky_f02").setCreativeTab(Tabs.tabdrive);
-			public static Item sparner_f03  = new Item_shift_car(2, 33,"sparner_f03").setCreativeTab(Tabs.tabdrive);
-
-
-			public static Item mega_maxflare  = new Item_shift_car(2, 12,"mega_maxflare").setCreativeTab(Tabs.tabdrive);
-
-			public static Item signal_mach  = new Item_shift_car(3, 0,"signal_mach").setCreativeTab(Tabs.tabdrive);
-			public static Item signal_magarl  = new Item_shift_car(3, 1,"signal_magarl").setCreativeTab(Tabs.tabdrive);
-			public static Item signal_kaksarn  = new Item_shift_car(3, 2,"signal_kaksarn").setCreativeTab(Tabs.tabdrive);
-			public static Item signal_tomarle  = new Item_shift_car(3, 3,"signal_tomarle").setCreativeTab(Tabs.tabdrive);
-			public static Item signal_kikern  = new Item_shift_car(3, 4,"signal_kikern").setCreativeTab(Tabs.tabdrive);
-			public static Item shift_ride_crosser  = new Item_shift_car(3, 7,"shift_ride_crosser").setCreativeTab(Tabs.tabdrive);
-
-			public static Item tridoron_key  = new Item_shift_car(3, 6,"tridoron_key").setCreativeTab(Tabs.tabdrive);
-
-			public static Item rhino_super  = new Item_shift_car(4, 6,"rhino_super").setCreativeTab(Tabs.tabdrive);
-
-
-			public static Item burning_solar = new Item_ore("burning_solar").setCreativeTab(Tabs.tabdrive);
-			public static Item colorful_commercial = new Item_ore("colorful_commercial").setCreativeTab(Tabs.tabdrive);
-			public static Item deco_traveller = new Item_ore("deco_traveller").setCreativeTab(Tabs.tabdrive);
-			public static Item amazing_circus = new Item_ore("amazing_circus").setCreativeTab(Tabs.tabdrive);
-
-			public static Item next_hunter = new Item_ore("next_hunter").setCreativeTab(Tabs.tabdrive);
-			public static Item next_traveller = new Item_ore("next_traveller").setCreativeTab(Tabs.tabdrive);
-			public static Item next_builder = new Item_ore("next_builder").setCreativeTab(Tabs.tabdrive);
-			public static Item tokujoka_key = new Item_ore("tokujoka_key").setCreativeTab(Tabs.tabdrive);
-
-			
-			//ghost
-
-			public static Item gan_gun_saber_blade  = new ItemBaseSword("gan_gun_saber_blade",Tabs.gan_gun_saber_blade).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-			public static Item gan_gun_saber_nitouryu = new ItemBaseSword("gan_gun_saber_nitouryu",Tabs.gan_gun_saber_nitouryu).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-			public static Item gan_gun_saber_nitouryu_2 = new ItemBaseSword("gan_gun_saber_nitouryu_2",Tabs.gan_gun_saber_nitouryu).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-			public static Item gan_gun_saber_gun = new Item_gun("gan_gun_saber_gun",Tabs.gan_gun_saber_gun).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-			public static Item gan_gun_saber_naginata  = new ItemBaseSword("gan_gun_saber_naginata",Tabs.gan_gun_saber_naginata).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-			public static Item gan_gun_saber_condor_denwor = new Item_gun("gan_gun_saber_condor_denwor",Tabs.gan_gun_saber_condor_denwor).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-			public static Item gan_gun_saber_rifle = new Item_gun("gan_gun_saber_rifle",Tabs.gan_gun_saber_rifle).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-			public static Item gan_gun_saber_hammer  = new ItemBaseSword("gan_gun_saber_hammer",Tabs.gan_gun_saber_hammer).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-	
-			public static Item sunglasseslasher_sword = new Item_sword_gun("sunglasseslasher_sword",Tabs.sunglasseslasher_sword).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-
-			
-			public static Item gan_gun_hand_rod = new Item_sword_gun("gan_gun_hand_rod",Tabs.gan_gun_hand_rod).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-
-			public static Item gan_gun_hand_kama = new ItemBaseSword("gan_gun_hand_kama",Tabs.gan_gun_hand_kama).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-
-			public static Item deep_slasher_sword = new Item_sword_gun("deep_slasher_sword",Tabs.deep_slasher_sword).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-
-			public static Item gan_gun_catcher_rod = new Item_sword_gun("gan_gun_catcher_rod",Tabs.gan_gun_catcher_rod).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-
-			public static Item ghosthead = new item_ghost_armor3("ghosthead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-			public static Item ghosttroso = new item_ghostarmor("ghosttroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-			public static Item ghostlegs = new item_ghost_armor2("ghostlegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-
-			public static Item ghostdriver = new item_ghostdriver("ghostdriver",ArmorMaterial.DIAMOND, 4, 3,"ghost","ore",1).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-			public static Item specterdriver = new item_ghostdriver("specterdriver",ArmorMaterial.DIAMOND, 4, 3,"specter","specter",2).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-			public static Item mega_ulorder = new item_ghostdriver("mega_ulorder",ArmorMaterial.DIAMOND, 4, 3,"necrom","necrom",0).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-
-			public static Item unfinished_eyecon_driver_g = new Item_ore("unfinished_eyecon_driver_g").setCreativeTab(Tabs.tabghost);
-			public static Item eyecon_driver_g = new item_ghostdriver("eyecon_driver_g",ArmorMaterial.DIAMOND, 4, 3,"ghost_grateful","grateful",4).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-
-			public static Item dark_ghostdriver = new item_ghostdriver("dark_ghostdriver",ArmorMaterial.DIAMOND, 4, 3,"dark_ghost","dark",1).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-			public static Item zero_specterdriver = new item_ghostdriver("zero_specterdriver",ArmorMaterial.DIAMOND, 4, 3,"zero_specter","zero_specter",2).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-			public static Item proto_mega_ulorder_r = new item_ghostdriver("proto_mega_ulorder_r",ArmorMaterial.DIAMOND, 4, 3,"dark_necrom","dark_necrom_red",0).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-			public static Item proto_mega_ulorder_b = new item_ghostdriver("proto_mega_ulorder_b",ArmorMaterial.DIAMOND, 4, 3,"dark_necrom","dark_necrom_blue",0).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-			public static Item proto_mega_ulorder_y = new item_ghostdriver("proto_mega_ulorder_y",ArmorMaterial.DIAMOND, 4, 3,"dark_necrom","dark_necrom_yellow",0).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-			public static Item proto_mega_ulorder_p = new item_ghostdriver("proto_mega_ulorder_p",ArmorMaterial.DIAMOND, 4, 3,"dark_necrom","dark_necrom_pink",0).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-
-			public static Item extremer_driver = new item_ghostdriver("extremer_driver",ArmorMaterial.DIAMOND, 4, 3,"extremer","extremer",4).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-
-			public static Item new_ghostdriver = new item_ghostdriver("new_ghostdriver",ArmorMaterial.DIAMOND, 4, 3,"dark_ghost","new_ore",1).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-			
-			
-
-			public static Item ore_ghost_icon  = new Item_ghost_Icons(0, 0,1,"ore_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item new_ore_ghost_icon  = new Item_ghost_Icons(0, 64,1,"new_ore_ghost_icon").setCreativeTab(Tabs.tabghost);
-			
-			public static Item toucon_boost_icon  = new Item_ghost_Icons(1, 13,3,"toucon_boost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item mugen_icon  = new Item_ghost_Icons(2, 35,5,"mugen_icon").setCreativeTab(Tabs.tabghost);
-
-			public static Item specter_ghost_icon  = new Item_ghost_Icons(0, 5,2,"specter_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item deep_specter_ghost_icon  = new Item_ghost_Icons(1, 24,4,"deep_specter_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item sin_specter_icon  = new Item_ghost_Icons(2, 38,4,"sin_specter_icon").setCreativeTab(Tabs.tabghost);
-
-			public static Item necrom_ghost_icon  = new Item_ghost_Icons(0, 19,0,"necrom_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item yujou_burst_icon  = new Item_ghost_Icons(1, 41,0,"yujou_burst_icon").setCreativeTab(Tabs.tabghost);
-
-			public static Item dark_ghost_icon  = new Item_ghost_Icons(0, 25,1,"dark_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item zero_specter_ghost_icon  = new Item_ghost_Icons(0, 30,0,"zero_specter_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item dark_necrom_red_ghost_icon  = new Item_ghost_Icons(0, 26,0,"dark_necrom_red_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item dark_necrom_blue_ghost_icon  = new Item_ghost_Icons(0, 27,0,"dark_necrom_blue_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item dark_necrom_yellow_ghost_icon  = new Item_ghost_Icons(0, 28,0,"dark_necrom_yellow_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item dark_necrom_pink_ghost_icon  = new Item_ghost_Icons(0, 29,0,"dark_necrom_pink_ghost_icon").setCreativeTab(Tabs.tabghost);
-
-			public static Item edison_ghost_icon  = new Item_ghost_Icons(0, 1,1,"edison_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item newton_ghost_icon  = new Item_ghost_Icons(0, 2,1,"newton_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item musashi_ghost_icon  = new Item_ghost_Icons(0, 3,1,"musashi_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item robin_ghost_icon  = new Item_ghost_Icons(0, 4,1,"robin_ghost_icon").setCreativeTab(Tabs.tabghost);
-
-			public static Item billy_the_kid_icon  = new Item_ghost_Icons(0, 6,1,"billy_the_kid_icon").setCreativeTab(Tabs.tabghost);
-			public static Item beethoven_icon  = new Item_ghost_Icons(0, 7,1,"beethoven_icon").setCreativeTab(Tabs.tabghost);
-			public static Item benkei_icon  = new Item_ghost_Icons(0, 8,1,"benkei_icon").setCreativeTab(Tabs.tabghost);
-
-			public static Item goemon_icon  = new Item_ghost_Icons(0, 14,3,"goemon_icon").setCreativeTab(Tabs.tabghost);
-			public static Item ryoma_icon  = new Item_ghost_Icons(0, 15,3,"ryoma_icon").setCreativeTab(Tabs.tabghost);
-			public static Item himiko_ghost_icon  = new Item_ghost_Icons(0, 20,3,"himiko_ghost_icon").setCreativeTab(Tabs.tabghost);
-
-			public static Item tutankhamun_icon  = new Item_ghost_Icons(0, 9,2,"tutankhamun_icon").setCreativeTab(Tabs.tabghost);
-			public static Item nobunaga_icon  = new Item_ghost_Icons(0, 10,2,"nobunaga_icon").setCreativeTab(Tabs.tabghost);
-			public static Item houdini_icon  = new Item_ghost_Icons(0, 21,2,"houdini_icon").setCreativeTab(Tabs.tabghost);
-
-			public static Item grimm_icon  = new Item_ghost_Icons(0, 22,0,"grimm_icon").setCreativeTab(Tabs.tabghost);
-			public static Item sanzo_icon  = new Item_ghost_Icons(0, 23,0,"sanzo_icon").setCreativeTab(Tabs.tabghost);
-
-			public static Item napoleon_icon  = new Item_ghost_Icons(0, 36,1,"napoleon_icon").setCreativeTab(Tabs.tabghost);
-			public static Item darwin_icon  = new Item_ghost_Icons(0, 37,1,"darwin_icon").setCreativeTab(Tabs.tabghost);
-
-			public static Item ikkyu_icon  = new Item_ghost_Icons(0, 11,1,"ikkyu_icon").setCreativeTab(Tabs.tabghost);
-			public static Item pythagoras_icon  = new Item_ghost_Icons(0, 16,2,"pythagoras_icon").setCreativeTab(Tabs.tabghost);
-			public static Item santa_icon  = new Item_ghost_Icons(0, 12,1,"santa_icon").setCreativeTab(Tabs.tabghost);
-			public static Item nightingale_icon  = new Item_ghost_Icons(0, 32,1,"nightingale_icon").setCreativeTab(Tabs.tabghost);
-			public static Item special_ore_icon  = new Item_ghost_Icons(0, 18,1,"special_ore_icon").setCreativeTab(Tabs.tabghost);
-			public static Item ore_specter_ghost_icon  = new Item_ghost_Icons(0, 62,1,"ore_specter_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item ishinomori_ghost_icon  = new Item_ore("ishinomori_ghost_icon").setCreativeTab(Tabs.tabghost);
-
-			public static Item columbus_icon  = new Item_ghost_Icons(0, 34,1,"columbus_icon").setCreativeTab(Tabs.tabghost);
-			public static Item shakespeare_icon  = new Item_ghost_Icons(0, 31,1,"shakespeare_icon").setCreativeTab(Tabs.tabghost);
-			public static Item kamehameha_icon  = new Item_ghost_Icons(0, 17,1,"kamehameha_icon").setCreativeTab(Tabs.tabghost);
-			public static Item galileo_icon  = new Item_ghost_Icons(0, 33,1,"galileo_icon").setCreativeTab(Tabs.tabghost);
-			public static Item da_vinci_ghost_icon  = new Item_ghost_Icons(0, 42,1,"da_vinci_ghost_icon").setCreativeTab(Tabs.tabghost);
-
-			public static Item tenkatoitsu_icon  = new Item_ghost_Icons(0, 39,1,"tenkatoitsu_icon").setCreativeTab(Tabs.tabghost);
-			public static Item shinsengumi_icon  = new Item_ghost_Icons(0, 40,1,"shinsengumi_icon").setCreativeTab(Tabs.tabghost);
-
-			public static Item showa_ghost_icon  = new Item_ghost_Icons(0, 43,1,"showa_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item kuuga_ghost_icon  = new Item_ghost_Icons(0, 44,1,"kuuga_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item agito_ghost_icon  = new Item_ghost_Icons(0, 45,1,"agito_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item ryuki_ghost_icon  = new Item_ghost_Icons(0, 46,1,"ryuki_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item faiz_ghost_icon  = new Item_ghost_Icons(0, 47,1,"faiz_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item blade_ghost_icon  = new Item_ghost_Icons(0, 48,1,"blade_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item hibiki_ghost_icon  = new Item_ghost_Icons(0, 49,1,"hibiki_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item kabuto_ghost_icon  = new Item_ghost_Icons(0, 50,1,"kabuto_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item den_o_ghost_icon  = new Item_ghost_Icons(0, 51,1,"den_o_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item kiva_ghost_icon  = new Item_ghost_Icons(0, 52,1,"kiva_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item decade_ghost_icon  = new Item_ghost_Icons(0, 53,1,"decade_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item double_ghost_icon  = new Item_ghost_Icons(0, 54,1,"double_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item ooo_ghost_icon  = new Item_ghost_Icons(0, 55,1,"ooo_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item fourze_ghost_icon  = new Item_ghost_Icons(0, 56,1,"fourze_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item wizard_ghost_icon  = new Item_ghost_Icons(0, 57,1,"wizard_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item gaim_ghost_icon  = new Item_ghost_Icons(0, 58,1,"gaim_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item drive_ghost_icon  = new Item_ghost_Icons(0, 59,1,"drive_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item ghost_ghost_icon  = new Item_ghost_Icons(0, 0,1,"ghost_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item ex_aid_ghost_icon  = new Item_ghost_Icons(0, 60,1,"ex_aid_ghost_icon").setCreativeTab(Tabs.tabghost);
-
-			public static Item unfinished_fourtyfive_heisei_ghost_icon  = new Item_ore("unfinished_fourtyfive_heisei_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item fourtyfive_heisei_ghost_icon  = new Item_ghost_Icons(3, 63,6,"fourtyfive_heisei_ghost_icon").setCreativeTab(Tabs.tabghost);
-			public static Item fourtyfive_showa_ghost_icon  = new Item_ghost_Icons(0, 61,1,"fourtyfive_showa_ghost_icon").setCreativeTab(Tabs.tabghost);
-
-			public static Item royalty_gamma_icon  = new Item_ore("royalty_gamma_icon").setCreativeTab(Tabs.tabghost);
-			public static Item transform_gamma_icon  = new Item_ore("transform_gamma_icon").setCreativeTab(Tabs.tabghost);
-			public static Item knife_gamma_icon  = new Item_ore("knife_gamma_icon").setCreativeTab(Tabs.tabghost);
-
-			public static Item yurusen_gamma_icon  = new Item_ore("yurusen_gamma_icon").setCreativeTab(Tabs.tabghost);
-			public static Item sister_gamma_icon  = new Item_ore("sister_gamma_icon").setCreativeTab(Tabs.tabghost);
-			
-			
-
-			// Ex-Aid
-			public static Item gashacon_breaker = new ItemBaseSword("gashacon_breaker",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-			public static Item gashacon_breaker_ham = new ItemBaseSword("gashacon_breaker_ham",Tabs.gashacon_breaker_ham).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-
-			public static Item gashacon_key_slasher = new ItemBaseSword("gashacon_key_slasher",Tabs.gashacon_key_slasher).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-
-			public static Item gashacon_sword = new ItemBaseSword("gashacon_sword",Tabs.gashacon_sword).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-			public static Item gashacon_sword_ice = new ItemBaseSword("gashacon_sword_ice",Tabs.gashacon_sword).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-
-			public static Item gashacon_magnum_gun = new Item_gun("gashacon_magnum_gun",Tabs.gashacon_magnum_gun).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-
-			public static Item gashacon_sparrow_sickle_a = new ItemBaseSword("gashacon_sparrow_sickle_a",Tabs.gashacon_sparrow_sickle).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-			public static Item gashacon_sparrow_sickle_b = new ItemBaseSword("gashacon_sparrow_sickle_b",Tabs.gashacon_sparrow_sickle).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-			public static Item gashacon_sparrow_arrow = new Item_gun("gashacon_sparrow_arrow",Tabs.gashacon_sparrow_arrow).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-
-			public static Item gashacon_bugvisor = new Item_sword_gun("gashacon_bugvisor",Tabs.parabragun_axe).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-
-			public static Item gashacon_bugvisor_ii = new Item_sword_gun("gashacon_bugvisor_ii",Tabs.parabragun_axe).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-
-			public static Item gashacon_bugvisor_g = new Item_sword_gun("gashacon_bugvisor_g",Tabs.parabragun_axe).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-
-			
-			public static Item parabragun_axe = new Item_sword_gun("parabragun_axe",Tabs.parabragun_axe).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-
-			public static Item ride_weapon = new Item_sword_gun("ride_weapon",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-
-			public static Item true_brave_sword = new ItemBaseSword("true_brave_sword",Tabs.true_brave_sword).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-			public static Item fuuma_sword = new ItemBaseSword("fuuma_sword",Tabs.fuuma_sword).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-
-			public static Item bugster_trident = new ItemBaseSword("bugster_trident",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-
-			public static Item deus_rusher = new ItemBaseSword("deus_rusher",Tabs.gashacon_key_slasher).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-			public static Item deus_rusher_red = new ItemBaseSword("deus_rusher_red",Tabs.gashacon_key_slasher).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-
-			public static Item ex_aidhead = new item_ex_aidarmor("ex_aidhead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-			public static Item ex_aidtroso = new item_ex_aidarmor2("ex_aidtroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-			public static Item ex_aidlegs = new item_ex_aidarmor2("ex_aidlegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-
-			public static Item gamer_driver_ex_aid = new item_ex_aiddriver("gamer_driver_ex_aid",ArmorMaterial.DIAMOND, 4, 3,"ex_aid",0).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-			public static Item gamer_driver_brave = new item_ex_aiddriver("gamer_driver_brave",ArmorMaterial.DIAMOND, 4, 3,"brave",0).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-			public static Item gamer_driver_snipe = new item_ex_aiddriver("gamer_driver_snipe",ArmorMaterial.DIAMOND, 4, 3,"snipe",0).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-			public static Item gamer_driver_lazer = new item_ex_aiddriver("gamer_driver_lazer",ArmorMaterial.DIAMOND, 4, 3,"lazer",1).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-			public static Item gamer_driver_lazer_turbo = new item_ex_aiddriver("gamer_driver_lazer_turbo",ArmorMaterial.DIAMOND, 4, 3,"lazer_turbo",0).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-			public static Item gamer_driver_paradox = new item_ex_aiddriver("gamer_driver_paradox",ArmorMaterial.DIAMOND, 4, 3,"paradox99",2).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-			public static Item gamer_driver_chronos = new item_ex_aiddriver("gamer_driver_chronos",ArmorMaterial.DIAMOND, 4, 3,"chronos",2).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item magewizardriver_g = new item_wizarddriver("magewizardriver_g",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item sorcererdriver = new item_wizarddriver("sorcererdriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item whitewizardriverf = new item_wizarddriver("whitewizardriverf",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+
+	public static Item darkwizardriver = new item_wizarddriver("darkwizardriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item blackwizardriver = new item_wizarddriver("blackwizardriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+
+
+	public static Item flame_ring = new Item_wizard_ring(0, "1","flame_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item water_ring = new Item_wizard_ring(1, "1","water_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item hurricane_ring = new Item_wizard_ring(2, "1","hurricane_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item land_ring = new Item_wizard_ring(3, "1","land_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item flame_ring_dragon = new Item_wizard_ring(4, "1","flame_ring_dragon").setCreativeTab(Tabs.tabwizard);
+	public static Item water_ring_dragon = new Item_wizard_ring(5, "1","water_ring_dragon").setCreativeTab(Tabs.tabwizard);
+	public static Item hurricane_ring_dragon = new Item_wizard_ring(6, "1","hurricane_ring_dragon").setCreativeTab(Tabs.tabwizard);
+	public static Item land_ring_dragon = new Item_wizard_ring(7, "1","land_ring_dragon").setCreativeTab(Tabs.tabwizard);
+	public static Item infinity_ring = new Item_wizard_ring(8, "1","infinity_ring").setCreativeTab(Tabs.tabwizard);
+
+	public static Item drago_timer = new Item_wizard_ring(1, "2","drago_timer").setCreativeTab(Tabs.tabwizard);
+	public static Item special_ring = new Item_wizard_ring(2, "2","special_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item finish_strike_ring = new Item_wizard_ring(3 , "2","finish_strike_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item hope_ring = new Item_ore("hope_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item special_rush_ring = new Item_wizard_ring(9 , "2","special_rush_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item dress_up_ring = new Item_wizard_ring(11, "1","dress_up_ring").setCreativeTab(Tabs.tabwizard);
+
+	public static Item beast_ring = new Item_wizard_ring(0, "3","beast_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item falco_ring = new Item_wizard_ring(1, "3","falco_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item chameleo_ring = new Item_wizard_ring(2, "3","chameleo_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item buffa_ring = new Item_wizard_ring(3, "3","buffa_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item dolphi_ring = new Item_wizard_ring(4, "3","dolphi_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item hyper_ring = new Item_wizard_ring(5, "3","hyper_ring").setCreativeTab(Tabs.tabwizard);
+
+	public static Item wiseman_ring = new Item_ore("wiseman_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item mage_o_ring = new Item_ore("mage_o_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item mage_b_ring = new Item_ore("mage_b_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item mage_g_ring = new Item_ore("mage_g_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item sorcerer_ring = new Item_ore("sorcerer_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item black_ring = new Item_ore("black_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item dark_ring = new Item_ore("dark_ring").setCreativeTab(Tabs.tabwizard);
+
+	public static Item light_ring = new Item_wizard_rings_efts(1 , "0","light_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item excite_ring = new Item_wizard_rings_efts(2 , "0","excite_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item defend_ring = new Item_wizard_rings_efts(3 , "0","defend_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item thunder_ring = new Item_wizard_rings_efts(4 , "0","thunder_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item explosion_ring = new Item_wizard_rings_efts(5 , "0","explosion_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item sleep_ring = new Item_wizard_rings_efts(6 , "0","sleep_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item bind_ring = new Item_wizard_rings_efts(7 , "0","bind_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item teleport_ring = new Item_wizard_rings_efts(8 , "0","teleport_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item fall_ring = new Item_wizard_rings_efts(9 , "0","fall_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item connect_ring = new Item_wizard_rings_efts(10 , "0","connect_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item kick_strike_ring = new Item_wizard_rings_efts(11 , "0","kick_strike_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item eclipse_ring = new Item_wizard_rings_efts(12 , "0","eclipse_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item liquid_ring = new Item_wizard_rings_efts(13 , "0","liquid_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item drill_ring = new Item_wizard_rings_efts(14 , "0","drill_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+
+
+
+	public static Item engage_ring = new Item_ore("engage_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item please_ring = new Item_ore("please_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item small_ring = new Item_ore("small_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item big_ring = new Item_ore("big_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+
+	public static Item copy_ring = new Item_ore("copy_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item smell_ring = new Item_ore("smell_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item extend_ring = new Item_ore("extend_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item merry_christmas_ring = new Item_ore("merry_christmas_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);			
+	public static Item blizzard_ring = new Item_ore("blizzard_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item gravity_ring = new Item_ore("gravity_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item miracle_ring = new Item_ore("miracle_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item flower_ring = new Item_ore("flower_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item dance_ring = new Item_ore("dance_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item time_ring = new Item_ore("time_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+
+
+	//Gaim
+	public static Item musou_saber = new ItemBaseSword("musou_saber",Tabs.musou_saber).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item musou_saber_naginata = new ItemBaseSword("musou_saber_naginata",Tabs.musou_saber_naginata).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item blood_musou_saber_naginata = new ItemBaseSword("blood_musou_saber_naginata",Tabs.musou_saber_naginata).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item musou_saber_kusarigama = new ItemBaseSword("musou_saber_kusarigama",Tabs.musou_saber_kusarigama).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item dj_gun = new Item_gun("dj_gun",Tabs.dj_gun).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+
+	public static Item dj_gun_taiken_mode_big  = new Item_ore("dj_gun_taiken_mode_big");
+	public static Item dj_gun_taiken_mode = new ItemBaseSword("dj_gun_taiken_mode",Tabs.dj_gun_taiken_mode).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+
+	public static Item kagematsu_l  = new Item_ore("kagematsu_l");
+	public static Item kagematsu = new ItemBaseSword("kagematsu",Tabs.kagematsu).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item donkachi= new ItemBaseSword("donkachi",Tabs.donkachi).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item melon_defender = new ItemBaseShield("melon_defender").setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item pine_iron = new ItemBaseSword("pine_iron",Tabs.pine_iron).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item ichigo_kunai = new ItemBaseSword("ichigo_kunai",Tabs.ichigo_kunai).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item daidaimaru = new ItemBaseSword("daidaimaru",Tabs.daidaimaru).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item banana_spear= new ItemBaseSword("banana_spear",Tabs.banana_spear).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item budou_ryuhou = new Item_gun("budou_ryuhou",Tabs.budou_ryuhou).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item mango_punisher = new ItemBaseSword("mango_punisher",Tabs.mango_punisher).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item duri_noko = new ItemBaseSword("duri_noko",Tabs.duri_noko).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item kiwi_gekirin = new ItemBaseSword("kiwi_gekirin",Tabs.kiwi_gekirin).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item sonic_arrow = new Item_gun("sonic_arrow",Tabs.sonic_arrow).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item kagematsu_shin = new ItemBaseSword("kagematsu_shin",Tabs.kagematsu_shin).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item suika_sojinto = new ItemBaseSword("suika_sojinto",Tabs.suika_sojinto).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item suika_sojinto_baron_ver = new ItemBaseSword("suika_sojinto_baron_ver",Tabs.suika_sojinto_baron_ver).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item suika_sojinto_knuckle_ver = new ItemBaseSword("suika_sojinto_knuckle_ver",Tabs.suika_sojinto_baron_ver).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+
+	public static Item blood_daidaimaru = new ItemBaseSword("blood_daidaimaru",Tabs.daidaimaru).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item yomimaru = new ItemBaseSword("yomimaru",Tabs.yomimaru).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item sword_bringer = new ItemBaseSword("sword_bringer",Tabs.sword_bringer).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item apple_reflecter = new ItemBaseShield("apple_reflecter").setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+
+	public static Item souginjou = new ItemBaseSword("souginjou",Tabs.souginjou).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item dark_daidaimaru = new ItemBaseSword("dark_daidaimaru",Tabs.daidaimaru).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item watermelon_defender = new ItemBaseShield("watermelon_defender").setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item savior_arrow = new Item_gun("savior_arrow",Tabs.savior_arrow).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+
+	public static Item kabi_daidaimaru = new ItemBaseSword("kabi_daidaimaru",ToolMaterial.WOOD).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item maja_yomimaru = new ItemBaseSword("maja_yomimaru",Tabs.yomimaru).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+
+
+	public static Item Gaimhead = new item_Gaimarmor3("gaimhead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item Gaimtroso = new item_Gaimarmor("gaimtroso",ArmorMaterial.DIAMOND, 4,EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item Gaimlegs = new item_Gaimarmor2("gaimlegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_matsubokkuri  = new Item_ore("sengoku_driver_matsubokkuri");
+	public static Item sengoku_driver_kurumi  = new Item_ore("sengoku_driver_kurumi");
+	public static Item sengoku_driver_donguri  = new Item_ore("sengoku_driver_donguri");
+	public static Item sengoku_driver_melon  = new Item_ore("sengoku_driver_melon");
+	public static Item sengoku_driver_pine  = new Item_ore("sengoku_driver_pine");
+	public static Item sengoku_driver_ichigo  = new Item_ore("sengoku_driver_ichigo");
+	public static Item sengoku_driver_orange  = new Item_ore("sengoku_driver_orange");
+	public static Item sengoku_driver_banana  = new Item_ore("sengoku_driver_banana");
+	public static Item sengoku_driver_budou = new Item_ore("sengoku_driver_budou");
+	public static Item sengoku_driver_suika  = new Item_ore("sengoku_driver_suika");
+	public static Item sengoku_driver_mango  = new Item_ore("sengoku_driver_mango");
+	public static Item sengoku_driver_durian  = new Item_ore("sengoku_driver_durian");
+	public static Item sengoku_driver_kiwi  = new Item_ore("sengoku_driver_kiwi");
+	public static Item sengoku_driver_lemon  = new Item_ore("sengoku_driver_lemon");
+
+	public static Item sengoku_driver_lemon_energy  = new Item_ore("sengoku_driver_lemon_energy");
+	public static Item sengoku_driver_jinba_lemon = new Item_ore("sengoku_driver_jinba_lemon");
+	public static Item lemon_energy_lockseed = new Item_lockseed(2,13,"lemon_energy_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_cherry_energy  = new Item_ore("sengoku_driver_cherry_energy");
+	public static Item sengoku_driver_jinba_cherry = new Item_ore("sengoku_driver_jinba_cherry");
+	public static Item cherry_energy_lockseed = new Item_lockseed(2,14,"cherry_energy_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_peach_energy  = new Item_ore("sengoku_driver_peach_energy");
+	public static Item sengoku_driver_jinba_peach = new Item_ore("sengoku_driver_jinba_peach");
+	public static Item peach_energy_lockseed = new Item_lockseed(2,15,"peach_energy_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_melon_energy = new Item_ore("sengoku_driver_melon_energy");
+	public static Item sengoku_driver_jinba_melon = new Item_ore("sengoku_driver_jinba_melon");
+	public static Item sengoku_driver_jinba_melon_melon = new Item_ore("sengoku_driver_jinba_melon_melon");
+	public static Item sengoku_driver_jinba_melon_durian = new Item_ore("sengoku_driver_jinba_melon_durian");
+	public static Item melon_energy_lockseed = new Item_lockseed(2,16,"melon_energy_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_matsubokkuri_energy  = new Item_ore("sengoku_driver_matsubokkuri_energy");
+	public static Item matsubokkuri_energy_lockseed = new Item_lockseed(2,21,"matsubokkuri_energy_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_jinba_dragon = new Item_ore("sengoku_driver_jinba_dragon");
+	public static Item sengoku_driver_dragon_fruits_energy  = new Item_ore("sengoku_driver_dragon_fruits_energy");
+	public static Item dragon_fruits_energy_lockseed = new Item_lockseed(2,42,"dragon_fruits_energy_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_jinba_marron = new Item_ore("sengoku_driver_jinba_marron");
+	public static Item marron_energy_lockseed = new Item_lockseed(2,46,"marron_energy_lockseed").setCreativeTab(Tabs.tabGaim);
+
+
+
+	public static Item sengoku_driver_kachidoki  = new Item_ore("sengoku_driver_kachidoki");
+	public static Item kachidoki_lockseed  = new Item_lockseed(3,22,"kachidoki_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_kiwami = new Item_ore("sengoku_driver_kiwami");
+	public static Item kiwami_lockseed  = new Item_lockseed(3,23,"kiwami_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_yomotsu_heguri  = new Item_ore("sengoku_driver_yomotsu_heguri");
+	public static Item yomotsu_heguri_lockseed = new Item_lockseed(1,24,"yomotsu_heguri_lockseed").setCreativeTab(Tabs.tabGaim);
+
+
+	public static Item sengoku_driver_blood_orange  = new Item_ore("sengoku_driver_blood_orange");
+	public static Item blood_orange_lockseed = new Item_lockseed(1,25,"blood_orange_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_fifteen_lock  = new Item_ore("sengoku_driver_fifteen_lock");
+	public static Item fifteen_lockseed = new Item_lockseed(1,26,"fifteen_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_golden_ringo  = new Item_ore("sengoku_driver_golden_ringo");
+	public static Item golden_ringo_lockseed = new Item_lockseed(1,27,"golden_ringo_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_silver_ringo  = new Item_ore("sengoku_driver_silver_ringo");
+	public static Item silver_ringo_lockseed = new Item_lockseed(1,28,"silver_ringo_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_black_ringo  = new Item_ore("sengoku_driver_black_ringo");
+	public static Item black_ringo_lockseed = new Item_lockseed(1,29,"black_ringo_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_watermelon  = new Item_ore("sengoku_driver_watermelon");
+	public static Item watermelon_lockseed = new Item_lockseed(1,30,"watermelon_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_forbidden_ringo  = new Item_ore("sengoku_driver_forbidden_ringo");
+	public static Item forbidden_ringo_lockseed = new Item_lockseed(1,31,"forbidden_ringo_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_blood_zakuro  = new Item_ore("sengoku_driver_blood_zakuro");
+	public static Item zakuro_lockseed = new Item_lockseed(1,47,"zakuro_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_black_baron  = new Item_ore("sengoku_driver_black_baron");
+	public static Item black_baron_lockseed  = new Item_lockseed(1,8,"black_baron_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_jinba_black  = new Item_ore("sengoku_driver_jinba_black");
+	public static Item dark_orange_lockseed = new Item_lockseed(3,33,"dark_orange_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item dark_lemon_energy_lockseed = new Item_lockseed(3,33,"dark_lemon_energy_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_orange_fr  = new Item_ore("sengoku_driver_orange_fr");
+	public static Item fresh_orange_lockseed = new Item_lockseed(1,44,"fresh_orange_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item fresh_pine_lockseed = new Item_ore("fresh_pine_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_natsumikan  = new Item_ore("sengoku_driver_natsumikan");
+	public static Item natsumikan_lockseed = new Item_lockseed(1,63,"natsumikan_lockseed").setCreativeTab(Tabs.tabGaim);
+
+
+	public static Item sengoku_driver_drive  = new Item_ore("sengoku_driver_drive");
+	public static Item drive_lockseed  = new Item_lockseed(4,45,"drive_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_wizard  = new Item_ore("sengoku_driver_wizard");
+	public static Item wizard_lockseed  = new Item_lockseed(4,34,"wizard_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_fourze  = new Item_ore("sengoku_driver_fourze");
+	public static Item fourze_lockseed  = new Item_lockseed(4,35,"fourze_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_ooo  = new Item_ore("sengoku_driver_ooo");
+	public static Item ooo_lockseed  = new Item_lockseed(4,36,"ooo_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_w  = new Item_ore("sengoku_driver_w");
+	public static Item w_lockseed  = new Item_lockseed(4,37,"w_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_decade  = new Item_ore("sengoku_driver_decade");
+	public static Item decade_lockseed  = new Item_lockseed(4,38,"decade_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_kuuga  = new Item_ore("sengoku_driver_kuuga");
+	public static Item kuuga_lockseed  = new Item_lockseed(4,48,"kuuga_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_agito  = new Item_ore("sengoku_driver_agito");
+	public static Item agito_lockseed  = new Item_lockseed(4,49,"agito_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_ryuki  = new Item_ore("sengoku_driver_ryuki");
+	public static Item ryuki_lockseed  = new Item_lockseed(4,50,"ryuki_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_faiz  = new Item_ore("sengoku_driver_faiz");
+	public static Item faiz_lockseed  = new Item_lockseed(4,51,"faiz_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_blade  = new Item_ore("sengoku_driver_blade");
+	public static Item blade_lockseed  = new Item_lockseed(4,52,"blade_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_hibiki  = new Item_ore("sengoku_driver_hibiki");
+	public static Item hibiki_lockseed  = new Item_lockseed(4,53,"hibiki_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_kaubuto  = new Item_ore("sengoku_driver_kabuto");
+	public static Item kaubuto_lockseed  = new Item_lockseed(4,54,"kaubuto_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_den_o  = new Item_ore("sengoku_driver_den_o");
+	public static Item den_o_lockseed  = new Item_lockseed(4,55,"den_o_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_kiva  = new Item_ore("sengoku_driver_kiva");
+	public static Item kiva_lockseed  = new Item_lockseed(4,56,"kiva_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_gaim_lock  = new Item_ore("sengoku_driver_gaim_lock");
+	public static Item gaim_lockseed  = new Item_lockseed(4,57,"gaim_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item gaim_lockseed_movie_special  = new Item_lockseed(4,57,"gaim_lockseed_movie_special").setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_rider_ichigo  = new Item_ore("sengoku_driver_rider_ichigo");
+	public static Item rider_ichigo_lockseed  = new Item_lockseed(4,39,"rider_ichigo_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item showa_rider_lockseed  = new Item_lockseed(4,39,"showa_rider_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item heisei_rider_lockseed  = new Item_lockseed(4,57,"heisei_rider_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_ryugen_yomi  = new Item_ore("sengoku_driver_ryugen_yomi");
+	public static Item sengoku_driver_zangetsu_watermelon  = new Item_ore("sengoku_driver_zangetsu_watermelon");
+
+	public static Item sengoku_driver_kabi_orange  = new Item_ore("sengoku_driver_kabi_orange");
+	public static Item kabi_orange_lockseed  = new Item_lockseed(4,58,"kabi_orange_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_maja_lock  = new Item_ore("sengoku_driver_maja_lock");
+	public static Item maja_lockseed  = new Item_lockseed(4,59,"maja_lockseed").setCreativeTab(Tabs.tabGaim);
+
+
+	public static Item sengoku_driver_gaim = new item_Gaimdriver("sengoku_driver_gaim",ArmorMaterial.DIAMOND, 4, 3,"gaim","orange_arms",0,sengoku_driver_orange).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_zangetsu = new item_Gaimdriver("sengoku_driver_zangetsu",ArmorMaterial.DIAMOND, 4, 3,"zangetsu","melon_arms",0,sengoku_driver_melon).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_ryugen = new item_Gaimdriver("sengoku_driver_ryugen",ArmorMaterial.DIAMOND, 4, 3,"ryugen","budou_arms",0,sengoku_driver_budou).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_baron = new item_Gaimdriver("sengoku_driver_baron",ArmorMaterial.DIAMOND, 4, 3,"baron","banana_arms",0,sengoku_driver_banana).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_kurokage = new item_Gaimdriver("sengoku_driver_kurokage",ArmorMaterial.DIAMOND, 4, 3,"kurokage","matsubokkuri_arms",0,sengoku_driver_matsubokkuri).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_gridon = new item_Gaimdriver("sengoku_driver_gridon",ArmorMaterial.DIAMOND, 4, 3,"gridon","donguri_arms",0,sengoku_driver_donguri).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_barvo = new item_Gaimdriver("sengoku_driver_barvo",ArmorMaterial.DIAMOND, 4, 3,"barvo","durian_arms",0,sengoku_driver_durian ).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_knuckle = new item_Gaimdriver("sengoku_driver_knuckle",ArmorMaterial.DIAMOND, 4, 3,"knuckle","kurumi_arms",0,sengoku_driver_kurumi).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_bujin_gaim = new item_Gaimdriver("sengoku_driver_bujin_gaim",ArmorMaterial.DIAMOND, 4, 3,"bujin_gaim","blood_orange_arms",0,sengoku_driver_blood_orange).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_fifteen = new item_Gaimdriver("sengoku_driver_fifteen",ArmorMaterial.DIAMOND, 4, 3,"fifteen","fifteen_arms",0,sengoku_driver_fifteen_lock).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_mars = new item_Gaimdriver("sengoku_driver_mars",ArmorMaterial.DIAMOND, 4, 3,"mars","golden_arms",0,sengoku_driver_golden_ringo).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_kamuro = new item_Gaimdriver("sengoku_driver_kamuro",ArmorMaterial.DIAMOND, 4, 3,"kamuro","silver_arms",0,sengoku_driver_silver_ringo).setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_jam = new item_Gaimdriver("sengoku_driver_jam",ArmorMaterial.DIAMOND, 4, 3,"jam","darkness_arms",0,sengoku_driver_black_ringo).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_kurokage_troopers = new item_Gaimdriver("sengoku_driver_kurokage_troopers",ArmorMaterial.DIAMOND, 4, 3,"kurokage_shin","matsubokkuri_arms",0,sengoku_driver_matsubokkuri).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_idunn = new item_Gaimdriver("sengoku_driver_idunn",ArmorMaterial.DIAMOND, 4, 3,"idunn","ringo_arms",0,sengoku_driver_forbidden_ringo).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_duke = new item_Gaimdriver("sengoku_driver_duke",ArmorMaterial.DIAMOND, 4, 3,"sengoku_duke","lemon_arms",0,sengoku_driver_lemon).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_baron_black = new item_Gaimdriver("sengoku_driver_baron_black",ArmorMaterial.DIAMOND, 4, 3,"baron_black","banana_arms",0,sengoku_driver_banana).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item sengoku_driver_savior = new item_Gaimdriver("sengoku_driver_savior",ArmorMaterial.DIAMOND, 4, 3,"savior","blood_zakuro_arms",0,sengoku_driver_blood_zakuro).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_maja = new item_Gaimdriver("sengoku_driver_maja",ArmorMaterial.DIAMOND, 4, 3,"maja","maja_arms",0,sengoku_driver_maja_lock).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+
+	public static Item sengoku_driver_gaim_natsumikan = new item_Gaimdriver("sengoku_driver_gaim_natsumikan",ArmorMaterial.DIAMOND, 4, 3,"gaim_natsumikan","natsumikan_arms",0,sengoku_driver_natsumikan).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+
+	public static Item genesis_driver_zangetsu_shin = new item_Gaimdriver("genesis_driver_zangetsu_shin",ArmorMaterial.DIAMOND, 4, 3,"zangetsu_shin","energy_melon_arms",1,sengoku_driver_melon_energy).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item genesis_driver_duke = new item_Gaimdriver("genesis_driver_duke",ArmorMaterial.DIAMOND, 4, 3,"duke","energy_lemon_arms",1,sengoku_driver_lemon_energy).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item genesis_driver_sigurd = new item_Gaimdriver("genesis_driver_sigurd",ArmorMaterial.DIAMOND, 4, 3,"sigurd","energy_cherry_arms",1,sengoku_driver_cherry_energy).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item genesis_driver_marika = new item_Gaimdriver("genesis_driver_marika",ArmorMaterial.DIAMOND, 4, 3,"marika","energy_peach_arms",1,sengoku_driver_peach_energy).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item genesis_driver_baron = new item_Gaimdriver("genesis_driver_baron",ArmorMaterial.DIAMOND, 4, 3,"baron_shin","energy_lemon_arms",1,sengoku_driver_lemon_energy).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item genesis_driver_kurokage_shin = new item_Gaimdriver("genesis_driver_kurokage_shin",ArmorMaterial.DIAMOND, 4, 3,"kurokage_shin","energy_matsubokkuri_arms",1,sengoku_driver_matsubokkuri_energy).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item genesis_driver_tyrant = new item_Gaimdriver("genesis_driver_tyrant",ArmorMaterial.DIAMOND, 4, 3,"tyrant","energy_prototype_dragon_fruits_arms",1,sengoku_driver_dragon_fruits_energy).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+
+	public static Item matsubokkuri_lockseed = new Item_lockseed(1,1,"matsubokkuri_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item kurumi_lockseed = new Item_lockseed(1,2,"kurumi_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item donguri_lockseed = new Item_lockseed(1,3,"donguri_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item melon_lockseed = new Item_lockseed(1,4,"melon_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item pine_lockseed = new Item_lockseed(1,5,"pine_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item ichigo_lockseed = new Item_lockseed(1,6,"ichigo_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item orange_lockseed = new Item_lockseed(1,7,"orange_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item banana_lockseed = new Item_lockseed(1,8,"banana_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item budou_lockseed = new Item_lockseed(1,9,"budou_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item suika_lockseed = new Item_lockseed(1,40,"suika_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item mango_lockseed = new Item_lockseed(1,10,"mango_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item durian_lockseed = new Item_lockseed(1,11,"durian_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item kiwi_lockseed = new Item_lockseed(1,12,"kiwi_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item lemon_lockseed = new Item_lockseed(1,41,"lemon_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item sakura_hurricane = new Item_ore("sakura_hurricane").setCreativeTab(Tabs.tabGaim);
+	public static Item rose_attacker = new Item_ore("rose_attacker").setCreativeTab(Tabs.tabGaim);
+	public static Item dandeliner = new Item_ore("dandeliner").setCreativeTab(Tabs.tabGaim);
+	public static Item tulip_hopper = new Item_ore("tulip_hopper").setCreativeTab(Tabs.tabGaim);
+
+	public static Item christmas_lockseed = new Item_ore("christmas_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item roulette_lockseed = new Item_ore("roulette_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item fake_donguri_lockseed = new item_fake_donguri("fake_donguri_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item sid_lockseed = new Item_ore("sid_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item xiaolongbao_lockseed = new Item_ore("xiaolongbao_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item hsiao_lung_pao_lockseed = new Item_ore("hsiao_lung_pao_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item tom_yum_kung_lockseed = new Item_ore("tom_yum_kung_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item yummy_lockseed = new Item_ore("yummy_lockseed").setCreativeTab(Tabs.tabGaim);	
+	public static Item hero_lockseed = new Item_ore("hero_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	public static Item drained_suika_lockseed = new Item_ore("drained_suika_lockseed").setCreativeTab(Tabs.tabGaim);
+
+	//drive
+	public static Item handle_sword = new ItemBaseSword("handle_sword",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	public static Item door_ju = new Item_gun("door_ju",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	public static Item trailer_hou = new Item_gun("trailer_hou",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+
+	public static Item zenrin_shooter = new Item_gun("zenrin_shooter",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+
+	public static Item break_gunner = new Item_break_gunner("break_gunner",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	public static Item shingouax = new ItemBaseSword("shingouax",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+
+	public static Item lupin_gunner = new Item_lupin_gunner("lupin_gunner",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	public static Item blade_gunner = new ItemBaseSword("blade_gunner",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+
+	public static Item drivehead = new item_drivearmor("drivehead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	public static Item drivetroso = new item_drivearmor2("drivetroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	public static Item drivelegs = new item_drivearmor2("drivelegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+
+	public static Item drivedriver = new item_drivedriver("drivedriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	public static Item mach_driver_honoh = new item_drivedriver("mach_driver_honoh",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	public static Item drivedrivergold = new item_drivedriver("drivedrivergold",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	public static Item metro_pd_driver_honoh = new item_drivedriver("metro_pd_driver_honoh",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	public static Item break_gunner_2 = new item_drivedriver("break_gunner_2",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	public static Item lupin_belt = new item_drivedriver("lupin_belt",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+
+
+	public static Item speedshift  = new Item_shift_car(1, 0,"speedshift").setCreativeTab(Tabs.tabdrive);
+	public static Item wildshift  = new Item_shift_car(1, 1,"wildshift").setCreativeTab(Tabs.tabdrive);
+	public static Item techniqueshift  = new Item_shift_car(1, 13,"techniqueshift").setCreativeTab(Tabs.tabdrive);
+	public static Item dead_heat  = new Item_shift_car(1, 21,"dead_heat").setCreativeTab(Tabs.tabdrive);
+	public static Item formulashift  = new Item_shift_car(1, 23,"formulashift").setCreativeTab(Tabs.tabdrive);
+	public static Item tridoronshift  = new Item_shift_car(1, 24,"tridoronshift").setCreativeTab(Tabs.tabdrive);
+
+	public static Item fruitsshift  = new Item_shift_car(1, 20,"fruitsshift").setCreativeTab(Tabs.tabdrive);
+	public static Item highspeedshift  = new Item_shift_car(1, 10,"highspeedshift").setCreativeTab(Tabs.tabdrive);
+
+	public static Item shift_next  = new Item_shift_car(1, 29,"shift_next").setCreativeTab(Tabs.tabdrive);
+	public static Item shift_special  = new Item_shift_car(1, 30,"shift_special").setCreativeTab(Tabs.tabdrive);
+
+	public static Item heartronshift  = new Item_shift_car(1, 35,"heartronshift").setCreativeTab(Tabs.tabdrive);
+	public static Item speedwildtechnicshift  = new Item_shift_car(1, 36,"speedwildtechnicshift").setCreativeTab(Tabs.tabdrive);
+
+	public static Item maxflare = new Item_shift_car(2, 2,"maxflare").setCreativeTab(Tabs.tabdrive);
+	public static Item funkyspike = new Item_shift_car(2, 3,"funkyspike").setCreativeTab(Tabs.tabdrive);
+	public static Item midnightshadow  = new Item_shift_car(2, 4,"midnightshadow").setCreativeTab(Tabs.tabdrive);
+	public static Item justice_hunter  = new Item_shift_car(2, 5,"justice_hunter").setCreativeTab(Tabs.tabdrive);
+	public static Item dream_vegas  = new Item_shift_car(2, 6,"dream_vegas").setCreativeTab(Tabs.tabdrive);
+	public static Item dimension_cab  = new Item_shift_car(2, 7,"dimension_cab").setCreativeTab(Tabs.tabdrive);
+	public static Item massive_monster  = new Item_shift_car(2, 8,"massive_monster").setCreativeTab(Tabs.tabdrive);
+	public static Item spin_mixer  = new Item_shift_car(2, 9,"spin_mixer").setCreativeTab(Tabs.tabdrive);
+	public static Item rumble_dump  = new Item_shift_car(2, 14,"rumble_dump").setCreativeTab(Tabs.tabdrive);
+	public static Item mad_doctor  = new Item_shift_car(2, 15,"mad_doctor").setCreativeTab(Tabs.tabdrive);
+	public static Item hooking_wrecker  = new Item_shift_car(2, 16,"hooking_wrecker").setCreativeTab(Tabs.tabdrive);
+
+	public static Item fire_braver  = new Item_shift_car(2, 17,"fire_braver").setCreativeTab(Tabs.tabdrive);
+	public static Item rolling_gravity  = new Item_shift_car(2, 18,"rolling_gravity").setCreativeTab(Tabs.tabdrive);
+	public static Item road_winter  = new Item_shift_car(2, 19,"road_winter").setCreativeTab(Tabs.tabdrive);
+
+	public static Item mantarn_f01  = new Item_shift_car(2, 31,"mantarn_f01").setCreativeTab(Tabs.tabdrive);
+	public static Item jacky_f02  = new Item_shift_car(2, 32,"jacky_f02").setCreativeTab(Tabs.tabdrive);
+	public static Item sparner_f03  = new Item_shift_car(2, 33,"sparner_f03").setCreativeTab(Tabs.tabdrive);
+
+
+	public static Item mega_maxflare  = new Item_shift_car(2, 12,"mega_maxflare").setCreativeTab(Tabs.tabdrive);
+
+	public static Item signal_mach  = new Item_shift_car(3, 0,"signal_mach").setCreativeTab(Tabs.tabdrive);
+	public static Item signal_magarl  = new Item_shift_car(3, 1,"signal_magarl").setCreativeTab(Tabs.tabdrive);
+	public static Item signal_kaksarn  = new Item_shift_car(3, 2,"signal_kaksarn").setCreativeTab(Tabs.tabdrive);
+	public static Item signal_tomarle  = new Item_shift_car(3, 3,"signal_tomarle").setCreativeTab(Tabs.tabdrive);
+	public static Item signal_kikern  = new Item_shift_car(3, 4,"signal_kikern").setCreativeTab(Tabs.tabdrive);
+	public static Item shift_ride_crosser  = new Item_shift_car(3, 7,"shift_ride_crosser").setCreativeTab(Tabs.tabdrive);
+
+	public static Item tridoron_key  = new Item_shift_car(3, 6,"tridoron_key").setCreativeTab(Tabs.tabdrive);
+
+	public static Item rhino_super  = new Item_shift_car(4, 6,"rhino_super").setCreativeTab(Tabs.tabdrive);
+
+
+	public static Item burning_solar = new Item_ore("burning_solar").setCreativeTab(Tabs.tabdrive);
+	public static Item colorful_commercial = new Item_ore("colorful_commercial").setCreativeTab(Tabs.tabdrive);
+	public static Item deco_traveller = new Item_ore("deco_traveller").setCreativeTab(Tabs.tabdrive);
+	public static Item amazing_circus = new Item_ore("amazing_circus").setCreativeTab(Tabs.tabdrive);
+
+	public static Item next_hunter = new Item_ore("next_hunter").setCreativeTab(Tabs.tabdrive);
+	public static Item next_traveller = new Item_ore("next_traveller").setCreativeTab(Tabs.tabdrive);
+	public static Item next_builder = new Item_ore("next_builder").setCreativeTab(Tabs.tabdrive);
+	public static Item tokujoka_key = new Item_ore("tokujoka_key").setCreativeTab(Tabs.tabdrive);
+
+
+	//ghost
+
+	public static Item gan_gun_saber_blade  = new ItemBaseSword("gan_gun_saber_blade",Tabs.gan_gun_saber_blade).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+	public static Item gan_gun_saber_nitouryu = new ItemBaseSword("gan_gun_saber_nitouryu",Tabs.gan_gun_saber_nitouryu).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+	public static Item gan_gun_saber_nitouryu_2 = new ItemBaseSword("gan_gun_saber_nitouryu_2",Tabs.gan_gun_saber_nitouryu).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+	public static Item gan_gun_saber_gun = new Item_gun("gan_gun_saber_gun",Tabs.gan_gun_saber_gun).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+	public static Item gan_gun_saber_naginata  = new ItemBaseSword("gan_gun_saber_naginata",Tabs.gan_gun_saber_naginata).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+	public static Item gan_gun_saber_condor_denwor = new Item_gun("gan_gun_saber_condor_denwor",Tabs.gan_gun_saber_condor_denwor).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+	public static Item gan_gun_saber_rifle = new Item_gun("gan_gun_saber_rifle",Tabs.gan_gun_saber_rifle).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+	public static Item gan_gun_saber_hammer  = new ItemBaseSword("gan_gun_saber_hammer",Tabs.gan_gun_saber_hammer).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+
+	public static Item sunglasseslasher_sword = new Item_sword_gun("sunglasseslasher_sword",Tabs.sunglasseslasher_sword).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+
+
+	public static Item gan_gun_hand_rod = new Item_sword_gun("gan_gun_hand_rod",Tabs.gan_gun_hand_rod).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+
+	public static Item gan_gun_hand_kama = new ItemBaseSword("gan_gun_hand_kama",Tabs.gan_gun_hand_kama).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+
+	public static Item deep_slasher_sword = new Item_sword_gun("deep_slasher_sword",Tabs.deep_slasher_sword).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+
+	public static Item gan_gun_catcher_rod = new Item_sword_gun("gan_gun_catcher_rod",Tabs.gan_gun_catcher_rod).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+
+	public static Item ghosthead = new item_ghost_armor3("ghosthead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+	public static Item ghosttroso = new item_ghostarmor("ghosttroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+	public static Item ghostlegs = new item_ghost_armor2("ghostlegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+
+	public static Item ghostdriver = new item_ghostdriver("ghostdriver",ArmorMaterial.DIAMOND, 4, 3,"ghost","ore",1).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+	public static Item specterdriver = new item_ghostdriver("specterdriver",ArmorMaterial.DIAMOND, 4, 3,"specter","specter",2).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+	public static Item mega_ulorder = new item_ghostdriver("mega_ulorder",ArmorMaterial.DIAMOND, 4, 3,"necrom","necrom",0).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+
+	public static Item unfinished_eyecon_driver_g = new Item_ore("unfinished_eyecon_driver_g").setCreativeTab(Tabs.tabghost);
+	public static Item eyecon_driver_g = new item_ghostdriver("eyecon_driver_g",ArmorMaterial.DIAMOND, 4, 3,"ghost_grateful","grateful",4).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+
+	public static Item dark_ghostdriver = new item_ghostdriver("dark_ghostdriver",ArmorMaterial.DIAMOND, 4, 3,"dark_ghost","dark",1).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+	public static Item zero_specterdriver = new item_ghostdriver("zero_specterdriver",ArmorMaterial.DIAMOND, 4, 3,"zero_specter","zero_specter",2).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+	public static Item proto_mega_ulorder_r = new item_ghostdriver("proto_mega_ulorder_r",ArmorMaterial.DIAMOND, 4, 3,"dark_necrom","dark_necrom_red",0).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+	public static Item proto_mega_ulorder_b = new item_ghostdriver("proto_mega_ulorder_b",ArmorMaterial.DIAMOND, 4, 3,"dark_necrom","dark_necrom_blue",0).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+	public static Item proto_mega_ulorder_y = new item_ghostdriver("proto_mega_ulorder_y",ArmorMaterial.DIAMOND, 4, 3,"dark_necrom","dark_necrom_yellow",0).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+	public static Item proto_mega_ulorder_p = new item_ghostdriver("proto_mega_ulorder_p",ArmorMaterial.DIAMOND, 4, 3,"dark_necrom","dark_necrom_pink",0).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+
+	public static Item extremer_driver = new item_ghostdriver("extremer_driver",ArmorMaterial.DIAMOND, 4, 3,"extremer","extremer",4).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+
+	public static Item new_ghostdriver = new item_ghostdriver("new_ghostdriver",ArmorMaterial.DIAMOND, 4, 3,"dark_ghost","new_ore",1).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+
+
+
+	public static Item ore_ghost_icon  = new Item_ghost_Icons(0, 0,1,"ore_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item new_ore_ghost_icon  = new Item_ghost_Icons(0, 64,1,"new_ore_ghost_icon").setCreativeTab(Tabs.tabghost);
+
+	public static Item toucon_boost_icon  = new Item_ghost_Icons(1, 13,3,"toucon_boost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item mugen_icon  = new Item_ghost_Icons(2, 35,5,"mugen_icon").setCreativeTab(Tabs.tabghost);
+
+	public static Item specter_ghost_icon  = new Item_ghost_Icons(0, 5,2,"specter_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item deep_specter_ghost_icon  = new Item_ghost_Icons(1, 24,4,"deep_specter_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item sin_specter_icon  = new Item_ghost_Icons(2, 38,4,"sin_specter_icon").setCreativeTab(Tabs.tabghost);
+
+	public static Item necrom_ghost_icon  = new Item_ghost_Icons(0, 19,0,"necrom_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item yujou_burst_icon  = new Item_ghost_Icons(1, 41,0,"yujou_burst_icon").setCreativeTab(Tabs.tabghost);
+
+	public static Item dark_ghost_icon  = new Item_ghost_Icons(0, 25,1,"dark_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item zero_specter_ghost_icon  = new Item_ghost_Icons(0, 30,0,"zero_specter_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item dark_necrom_red_ghost_icon  = new Item_ghost_Icons(0, 26,0,"dark_necrom_red_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item dark_necrom_blue_ghost_icon  = new Item_ghost_Icons(0, 27,0,"dark_necrom_blue_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item dark_necrom_yellow_ghost_icon  = new Item_ghost_Icons(0, 28,0,"dark_necrom_yellow_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item dark_necrom_pink_ghost_icon  = new Item_ghost_Icons(0, 29,0,"dark_necrom_pink_ghost_icon").setCreativeTab(Tabs.tabghost);
+
+	public static Item edison_ghost_icon  = new Item_ghost_Icons(0, 1,1,"edison_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item newton_ghost_icon  = new Item_ghost_Icons(0, 2,1,"newton_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item musashi_ghost_icon  = new Item_ghost_Icons(0, 3,1,"musashi_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item robin_ghost_icon  = new Item_ghost_Icons(0, 4,1,"robin_ghost_icon").setCreativeTab(Tabs.tabghost);
+
+	public static Item billy_the_kid_icon  = new Item_ghost_Icons(0, 6,1,"billy_the_kid_icon").setCreativeTab(Tabs.tabghost);
+	public static Item beethoven_icon  = new Item_ghost_Icons(0, 7,1,"beethoven_icon").setCreativeTab(Tabs.tabghost);
+	public static Item benkei_icon  = new Item_ghost_Icons(0, 8,1,"benkei_icon").setCreativeTab(Tabs.tabghost);
+
+	public static Item goemon_icon  = new Item_ghost_Icons(0, 14,3,"goemon_icon").setCreativeTab(Tabs.tabghost);
+	public static Item ryoma_icon  = new Item_ghost_Icons(0, 15,3,"ryoma_icon").setCreativeTab(Tabs.tabghost);
+	public static Item himiko_ghost_icon  = new Item_ghost_Icons(0, 20,3,"himiko_ghost_icon").setCreativeTab(Tabs.tabghost);
+
+	public static Item tutankhamun_icon  = new Item_ghost_Icons(0, 9,2,"tutankhamun_icon").setCreativeTab(Tabs.tabghost);
+	public static Item nobunaga_icon  = new Item_ghost_Icons(0, 10,2,"nobunaga_icon").setCreativeTab(Tabs.tabghost);
+	public static Item houdini_icon  = new Item_ghost_Icons(0, 21,2,"houdini_icon").setCreativeTab(Tabs.tabghost);
+
+	public static Item grimm_icon  = new Item_ghost_Icons(0, 22,0,"grimm_icon").setCreativeTab(Tabs.tabghost);
+	public static Item sanzo_icon  = new Item_ghost_Icons(0, 23,0,"sanzo_icon").setCreativeTab(Tabs.tabghost);
+
+	public static Item napoleon_icon  = new Item_ghost_Icons(0, 36,1,"napoleon_icon").setCreativeTab(Tabs.tabghost);
+	public static Item darwin_icon  = new Item_ghost_Icons(0, 37,1,"darwin_icon").setCreativeTab(Tabs.tabghost);
+
+	public static Item ikkyu_icon  = new Item_ghost_Icons(0, 11,1,"ikkyu_icon").setCreativeTab(Tabs.tabghost);
+	public static Item pythagoras_icon  = new Item_ghost_Icons(0, 16,2,"pythagoras_icon").setCreativeTab(Tabs.tabghost);
+	public static Item santa_icon  = new Item_ghost_Icons(0, 12,1,"santa_icon").setCreativeTab(Tabs.tabghost);
+	public static Item nightingale_icon  = new Item_ghost_Icons(0, 32,1,"nightingale_icon").setCreativeTab(Tabs.tabghost);
+	public static Item special_ore_icon  = new Item_ghost_Icons(0, 18,1,"special_ore_icon").setCreativeTab(Tabs.tabghost);
+	public static Item ore_specter_ghost_icon  = new Item_ghost_Icons(0, 62,1,"ore_specter_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item ishinomori_ghost_icon  = new Item_ore("ishinomori_ghost_icon").setCreativeTab(Tabs.tabghost);
+
+	public static Item columbus_icon  = new Item_ghost_Icons(0, 34,1,"columbus_icon").setCreativeTab(Tabs.tabghost);
+	public static Item shakespeare_icon  = new Item_ghost_Icons(0, 31,1,"shakespeare_icon").setCreativeTab(Tabs.tabghost);
+	public static Item kamehameha_icon  = new Item_ghost_Icons(0, 17,1,"kamehameha_icon").setCreativeTab(Tabs.tabghost);
+	public static Item galileo_icon  = new Item_ghost_Icons(0, 33,1,"galileo_icon").setCreativeTab(Tabs.tabghost);
+	public static Item da_vinci_ghost_icon  = new Item_ghost_Icons(0, 42,1,"da_vinci_ghost_icon").setCreativeTab(Tabs.tabghost);
+
+	public static Item tenkatoitsu_icon  = new Item_ghost_Icons(0, 39,1,"tenkatoitsu_icon").setCreativeTab(Tabs.tabghost);
+	public static Item shinsengumi_icon  = new Item_ghost_Icons(0, 40,1,"shinsengumi_icon").setCreativeTab(Tabs.tabghost);
+
+	public static Item showa_ghost_icon  = new Item_ghost_Icons(0, 43,1,"showa_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item kuuga_ghost_icon  = new Item_ghost_Icons(0, 44,1,"kuuga_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item agito_ghost_icon  = new Item_ghost_Icons(0, 45,1,"agito_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item ryuki_ghost_icon  = new Item_ghost_Icons(0, 46,1,"ryuki_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item faiz_ghost_icon  = new Item_ghost_Icons(0, 47,1,"faiz_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item blade_ghost_icon  = new Item_ghost_Icons(0, 48,1,"blade_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item hibiki_ghost_icon  = new Item_ghost_Icons(0, 49,1,"hibiki_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item kabuto_ghost_icon  = new Item_ghost_Icons(0, 50,1,"kabuto_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item den_o_ghost_icon  = new Item_ghost_Icons(0, 51,1,"den_o_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item kiva_ghost_icon  = new Item_ghost_Icons(0, 52,1,"kiva_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item decade_ghost_icon  = new Item_ghost_Icons(0, 53,1,"decade_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item double_ghost_icon  = new Item_ghost_Icons(0, 54,1,"double_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item ooo_ghost_icon  = new Item_ghost_Icons(0, 55,1,"ooo_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item fourze_ghost_icon  = new Item_ghost_Icons(0, 56,1,"fourze_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item wizard_ghost_icon  = new Item_ghost_Icons(0, 57,1,"wizard_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item gaim_ghost_icon  = new Item_ghost_Icons(0, 58,1,"gaim_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item drive_ghost_icon  = new Item_ghost_Icons(0, 59,1,"drive_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item ghost_ghost_icon  = new Item_ghost_Icons(0, 0,1,"ghost_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item ex_aid_ghost_icon  = new Item_ghost_Icons(0, 60,1,"ex_aid_ghost_icon").setCreativeTab(Tabs.tabghost);
+
+	public static Item unfinished_fourtyfive_heisei_ghost_icon  = new Item_ore("unfinished_fourtyfive_heisei_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item fourtyfive_heisei_ghost_icon  = new Item_ghost_Icons(3, 63,6,"fourtyfive_heisei_ghost_icon").setCreativeTab(Tabs.tabghost);
+	public static Item fourtyfive_showa_ghost_icon  = new Item_ghost_Icons(0, 61,1,"fourtyfive_showa_ghost_icon").setCreativeTab(Tabs.tabghost);
+
+	public static Item royalty_gamma_icon  = new Item_ore("royalty_gamma_icon").setCreativeTab(Tabs.tabghost);
+	public static Item transform_gamma_icon  = new Item_ore("transform_gamma_icon").setCreativeTab(Tabs.tabghost);
+	public static Item knife_gamma_icon  = new Item_ore("knife_gamma_icon").setCreativeTab(Tabs.tabghost);
+
+	public static Item yurusen_gamma_icon  = new Item_ore("yurusen_gamma_icon").setCreativeTab(Tabs.tabghost);
+	public static Item sister_gamma_icon  = new Item_ore("sister_gamma_icon").setCreativeTab(Tabs.tabghost);
+
+
+
+	// Ex-Aid
+	public static Item gashacon_breaker = new ItemBaseSword("gashacon_breaker",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item gashacon_breaker_ham = new ItemBaseSword("gashacon_breaker_ham",Tabs.gashacon_breaker_ham).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+
+	public static Item gashacon_key_slasher = new ItemBaseSword("gashacon_key_slasher",Tabs.gashacon_key_slasher).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+
+	public static Item gashacon_sword = new ItemBaseSword("gashacon_sword",Tabs.gashacon_sword).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item gashacon_sword_ice = new ItemBaseSword("gashacon_sword_ice",Tabs.gashacon_sword).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+
+	public static Item gashacon_magnum_gun = new Item_gun("gashacon_magnum_gun",Tabs.gashacon_magnum_gun).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+
+	public static Item gashacon_sparrow_sickle_a = new ItemBaseSword("gashacon_sparrow_sickle_a",Tabs.gashacon_sparrow_sickle).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item gashacon_sparrow_sickle_b = new ItemBaseSword("gashacon_sparrow_sickle_b",Tabs.gashacon_sparrow_sickle).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item gashacon_sparrow_arrow = new Item_gun("gashacon_sparrow_arrow",Tabs.gashacon_sparrow_arrow).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+
+	public static Item gashacon_bugvisor = new Item_sword_gun("gashacon_bugvisor",Tabs.parabragun_axe).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+
+	public static Item gashacon_bugvisor_ii = new Item_sword_gun("gashacon_bugvisor_ii",Tabs.parabragun_axe).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+
+	public static Item gashacon_bugvisor_g = new Item_sword_gun("gashacon_bugvisor_g",Tabs.parabragun_axe).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+
+
+	public static Item parabragun_axe = new Item_sword_gun("parabragun_axe",Tabs.parabragun_axe).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+
+	public static Item ride_weapon = new Item_sword_gun("ride_weapon",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+
+	public static Item true_brave_sword = new ItemBaseSword("true_brave_sword",Tabs.true_brave_sword).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item fuuma_sword = new ItemBaseSword("fuuma_sword",Tabs.fuuma_sword).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+
+	public static Item bugster_trident = new ItemBaseSword("bugster_trident",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+
+	public static Item deus_rusher = new ItemBaseSword("deus_rusher",Tabs.gashacon_key_slasher).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item deus_rusher_red = new ItemBaseSword("deus_rusher_red",Tabs.gashacon_key_slasher).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+
+	public static Item ex_aidhead = new item_ex_aidarmor("ex_aidhead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item ex_aidtroso = new item_ex_aidarmor2("ex_aidtroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item ex_aidlegs = new item_ex_aidarmor2("ex_aidlegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+
+	public static Item gamer_driver_ex_aid = new item_ex_aiddriver("gamer_driver_ex_aid",ArmorMaterial.DIAMOND, 4, 3,"ex_aid",0).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item gamer_driver_brave = new item_ex_aiddriver("gamer_driver_brave",ArmorMaterial.DIAMOND, 4, 3,"brave",0).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item gamer_driver_snipe = new item_ex_aiddriver("gamer_driver_snipe",ArmorMaterial.DIAMOND, 4, 3,"snipe",0).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item gamer_driver_lazer = new item_ex_aiddriver("gamer_driver_lazer",ArmorMaterial.DIAMOND, 4, 3,"lazer",1).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item gamer_driver_lazer_turbo = new item_ex_aiddriver("gamer_driver_lazer_turbo",ArmorMaterial.DIAMOND, 4, 3,"lazer_turbo",0).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item gamer_driver_paradox = new item_ex_aiddriver("gamer_driver_paradox",ArmorMaterial.DIAMOND, 4, 3,"paradox99",2).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item gamer_driver_chronos = new item_ex_aiddriver("gamer_driver_chronos",ArmorMaterial.DIAMOND, 4, 3,"chronos",2).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 
 	public static Item gamer_driver_truebrave = new item_ex_aiddriver("gamer_driver_truebrave",ArmorMaterial.DIAMOND, 4, 3,"truebrave",2).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 	public static Item gamer_driver_fuuma = new item_ex_aiddriver("gamer_driver_fuuma",ArmorMaterial.DIAMOND, 4, 3,"fuuma",2).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
@@ -2194,7 +2197,7 @@ public class RiderItems {
 
 	public static Item bugster_buckle = new Item_ore("bugster_buckle");
 	public static Item bugster_buckle_ii = new Item_ore("bugster_buckle_ii");
-			
+
 	public static Item paradoxbelt = new item_ex_aiddriver("paradoxbelt",ArmorMaterial.DIAMOND, 4, 3,"paradox",3).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 	public static Item rideplayerbelt = new item_ex_aiddriver("rideplayerbelt",ArmorMaterial.DIAMOND, 4, 3,"ride_player",3).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 	public static Item rideplayerbelt_nico = new item_ex_aiddriver("rideplayerbelt_nico",ArmorMaterial.DIAMOND, 4, 3,"ride_player_nico",3).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
@@ -2244,7 +2247,7 @@ public class RiderItems {
 	public static Item agito_of_the_sun_gashat = new Item_gashat(0, 0,"agito_of_the_sun_gashat").setCreativeTab(Tabs.tabex_aid);
 	public static Item adventure_guy_kuuga_gashat = new Item_gashat(0, 0,"adventure_guy_kuuga_gashat").setCreativeTab(Tabs.tabex_aid);
 	public static Item lets_go_ichigou_gashat = new Item_gashat(0, 0,"lets_go_ichigou_gashat").setCreativeTab(Tabs.tabex_aid);
-			
+
 
 	public static Item gekitotsu_robots_gashat = new Item_gashat(1, 1,"gekitotsu_robots_gashat").setCreativeTab(Tabs.tabex_aid);
 	public static Item proto_gekitotsu_robots_gashat = new Item_gashat(1, 2,"proto_gekitotsu_robots_gashat").setCreativeTab(Tabs.tabex_aid);
@@ -2326,14 +2329,14 @@ public class RiderItems {
 	public static Item gamer_driver_godmaximum = new Item_ore("gamer_driver_godmaximum");
 	public static Item gamer_driver_muteki = new Item_ore("gamer_driver_muteki");
 	public static Item gamer_driver_origin = new Item_ore("gamer_driver_origin");
-			
+
 	public static Item gamer_driver_ex_aid_lv1 = new Item_ore("gamer_driver_ex_aid_lv1");
 	public static Item gamer_driver_brave_lv1 = new Item_ore("gamer_driver_brave_lv1");
 	public static Item gamer_driver_snipe_lv1 = new Item_ore("gamer_driver_snipe_lv1");
 	public static Item gamer_driver_lazer_lv1 = new Item_ore("gamer_driver_lazer_lv1");
 	public static Item gamer_driver_genm_lv1 = new Item_ore("gamer_driver_genm_lv1");
 	public static Item gamer_driver_proto_lv1 = new Item_ore("gamer_driver_proto_lv1");
-		
+
 	public static Item gamer_driver_ghost = new Item_ore("gamer_driver_ghost");
 	public static Item gamer_driver_drive = new Item_ore("gamer_driver_drive");
 	public static Item gamer_driver_gaim = new Item_ore("gamer_driver_gaim");
@@ -2352,15 +2355,15 @@ public class RiderItems {
 	public static Item gamer_driver_agito = new Item_ore("gamer_driver_agito");
 	//used Drive for kuuga
 	public static Item gamer_driver_ichigo = new Item_ore("gamer_driver_ichigo");
-			
-			
+
+
 	//public static Item gamer_driver_ = new Item_ore("gamer_driver_");
-			
-			
+
+
 	//build
-			
+
 	public static Item smash_bottle = new Item_full_bottle(0, "0","smash_bottle").setCreativeTab(Tabs.tabbuild);
-			
+
 	public static Item drill_crusher = new Item_sword_gun("drill_crusher",Tabs.musou_saber).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 	public static Item hawk_gatlinger = new Item_gun("hawk_gatlinger",Tabs.gashacon_magnum_gun).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 	public static Item koma_ninpoutou = new ItemBaseSword("koma_ninpoutou",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
@@ -2370,7 +2373,7 @@ public class RiderItems {
 	public static Item full_bottle_buster = new Item_sword_gun("full_bottle_buster",Tabs.faiz_blaster).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 	public static Item magma_knuckle = new ItemBaseSword("magma_knuckle",Tabs.dogga_hammer).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 	public static Item blizzard_knuckle = new ItemBaseSword("blizzard_knuckle",Tabs.dogga_hammer).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
-	
+
 	public static Item pandora_panel_green = new item_panel("pandora_panel_green", Green).setCreativeTab(Tabs.tabbuild);
 	public static Item pandora_panel_red = new item_panel("pandora_panel_red", Red).setCreativeTab(Tabs.tabbuild);
 	public static Item pandora_panel_blue = new item_panel("pandora_panel_blue", Blue).setCreativeTab(Tabs.tabbuild);
@@ -2387,7 +2390,7 @@ public class RiderItems {
 	public static Item build_driver_rogue = new item_builddriver("build_driver_rogue",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 	public static Item build_driver_blood = new item_builddriver("build_driver_blood",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 	public static Item build_driver_killbas = new item_builddriver("build_driver_killbas",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
-			
+
 	public static Item sclash_driver_grease = new item_builddriver("sclash_driver_grease",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 	public static Item sclash_driver_cross_z_charge = new item_builddriver("sclash_driver_cross_z_charge",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 	public static Item sclash_driver_rogue = new item_builddriver("sclash_driver_rogue",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
@@ -2407,7 +2410,7 @@ public class RiderItems {
 	public static Item nebulasteamgun_rifle = new Item_gun("nebulasteamgun_rifle",Tabs.den_dengu).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 
 	public static Item build_phone = new item_buildphone("build_phone").setCreativeTab(Tabs.tabbuild);
-			
+
 	public static Item rabbit_full_bottle = new Item_full_bottle(0, "3","rabbit_full_bottle",10).setCreativeTab(Tabs.tabbuild);
 	public static Item gorilla_full_bottle = new Item_full_bottle(1, "3","gorilla_full_bottle",5).setCreativeTab(Tabs.tabbuild);
 	public static Item taka_full_bottle = new Item_full_bottle(2, "3","taka_full_bottle",5).setCreativeTab(Tabs.tabbuild);
@@ -2484,7 +2487,7 @@ public class RiderItems {
 	public static Item fullfull_bottle_tank = new Item_full_bottle(4, "2","fullfull_bottle_tank",0).setCreativeTab(Tabs.tabbuild);
 	public static Item genius_full_bottle = new Item_full_bottle(5, "2","genius_full_bottle",0).setCreativeTab(Tabs.tabbuild);
 	public static Item cross_z_build_can = new Item_full_bottle(6, "2","cross_z_build_can",0).setCreativeTab(Tabs.tabbuild);
-						
+
 	public static Item mic_full_bottle = new Item_full_bottle(11, "1","mic_full_bottle",2).setCreativeTab(Tabs.tabbuild);
 	public static Item cake_full_bottle = new Item_full_bottle(8, "1","cake_full_bottle",2).setCreativeTab(Tabs.tabbuild);
 	public static Item televi_full_bottle = new Item_full_bottle(16, "1","televi_full_bottle",2).setCreativeTab(Tabs.tabbuild);
@@ -2496,7 +2499,7 @@ public class RiderItems {
 	public static Item usb_memory_full_bottle = new Item_full_bottle(12, "1","usb_memory_full_bottle",0).setCreativeTab(Tabs.tabbuild);
 	public static Item parka_full_bottle = new Item_full_bottle(17, "1","parka_full_bottle",0).setCreativeTab(Tabs.tabbuild);
 	public static Item low_rabbit_full_bottle = new Item_full_bottle(0, "0","low_rabbit_full_bottle").setCreativeTab(Tabs.tabbuild);
-			
+
 	public static Item ex_aid_full_bottle = new Item_full_bottle(0, "0","ex_aid_full_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item ghost_full_bottle = new Item_full_bottle(0, "0","ghost_full_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item drive_full_bottle = new Item_full_bottle(0, "0","drive_full_bottle").setCreativeTab(Tabs.tabbuild);
@@ -2518,7 +2521,7 @@ public class RiderItems {
 	public static Item gear_remocon = new Item_full_bottle(1, "5","gear_remocon",0).setCreativeTab(Tabs.tabbuild);
 	public static Item gear_red = new Item_full_bottle(2, "5","gear_red",0).setCreativeTab(Tabs.tabbuild);
 	public static Item gear_blue = new Item_full_bottle(3, "5","gear_blue",0).setCreativeTab(Tabs.tabbuild);
-			
+
 	public static Item cobra_evol_bottle = new Item_full_bottle(0, "6","cobra_evol_bottle",0).setCreativeTab(Tabs.tabbuild);
 	public static Item rider_system_evol_bottle = new Item_full_bottle(0, "0","rider_system_evol_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item dragon_evol_bottle = new Item_full_bottle(1, "6","dragon_evol_bottle",0).setCreativeTab(Tabs.tabbuild);
@@ -2530,9 +2533,9 @@ public class RiderItems {
 	public static Item north_blizzard_full_bottle = new Item_full_bottle(0, "0","north_blizzard_full_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item prime_rogue_full_bottle = new Item_full_bottle(0, "0","prime_rogue_full_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item killbas_spider_full_bottle = new Item_full_bottle(0, "0","killbas_spider_full_bottle").setCreativeTab(Tabs.tabbuild);
-			
+
 	public static Item evol_trigger = new Item_full_bottle(3, "6","evol_trigger",0).setCreativeTab(Tabs.tabbuild);
-			
+
 	public static Item lost_bat_full_bottle = new Item_full_bottle(0, "0","lost_bat_full_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item lost_cobra_full_bottle = new Item_full_bottle(0, "0","lost_cobra_full_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item lost_castle_full_bottle = new Item_full_bottle(0, "0","lost_castle_full_bottle").setCreativeTab(Tabs.tabbuild);
@@ -2543,12 +2546,12 @@ public class RiderItems {
 	public static Item lost_spanner_full_bottle = new Item_full_bottle(0, "0","lost_spanner_full_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item lost_hasami_full_bottle = new Item_full_bottle(0, "0","lost_hasami_full_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item lost_cd_full_bottle = new Item_full_bottle(0, "0","lost_cd_full_bottle").setCreativeTab(Tabs.tabbuild);
-	
+
 	public static Item golden_bangle = new Item_ore("golden_bangle").setCreativeTab(Tabs.tabbuild);
 	public static Item Pandora_bottle = new Item_full_bottle(0, "0","pandora_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item nebula_gas_sample = new Item_ore("nebula_gas_sample").setCreativeTab(Tabs.tabbuild);
 	public static Item genius_full_bottle_blank = new Item_full_bottle(0, "0","genius_full_bottle_blank").setCreativeTab(Tabs.tabbuild);
-			
+
 	public static Item build_driver_rabbit = new Item_ore("build_driver_rabbit");
 	public static Item build_driver_gorilla = new Item_ore("build_driver_gorilla");
 	public static Item build_driver_taka = new Item_ore("build_driver_taka");
@@ -2585,7 +2588,7 @@ public class RiderItems {
 	public static Item build_driver_rabbit_gold = new Item_ore("build_driver_rabbit_gold");
 	public static Item build_driver_scorpion = new Item_ore("build_driver_scorpion");
 	public static Item build_driver_sai = new Item_ore("build_driver_sai");
-			
+
 	public static Item build_driver_tank = new Item_ore("build_driver_tank");
 	public static Item build_driver_diamond = new Item_ore("build_driver_diamond");
 	public static Item build_driver_gatling = new Item_ore("build_driver_gatling");
@@ -2617,20 +2620,20 @@ public class RiderItems {
 	public static Item build_driver_fridge = new Item_ore("build_driver_fridge");
 	public static Item build_driver_dragon_silver = new Item_ore("build_driver_dragon_silver");
 	public static Item build_driver_gold = new Item_ore("build_driver_gold");
-			
-			
+
+
 	public static Item build_driver_sp = new Item_ore("build_driver_sp");
 	public static Item build_driver_hazard = new Item_ore("build_driver_hazard");
 	public static Item build_driver_hazard_rabbit = new Item_ore("build_driver_hazard_rabbit");
 	public static Item build_driver_hazard_tank = new Item_ore("build_driver_hazard_tank");
 	public static Item build_driver_genius = new Item_ore("build_driver_genius");
 	public static Item build_driver_cross_z_build = new Item_ore("build_driver_cross_z_build");
-			
+
 	public static Item hawk_gatling_wings = new Item_ore("hawk_gatling_wings");
 	public static Item phoenix_robo_wings = new Item_ore("phoenix_robo_wings");	
 	public static Item night_rogue_wings = new Item_ore("night_rogue_wings");
 	public static Item mad_rogue_wings = new Item_ore("mad_rogue_wings");
-			
+
 	public static Item evol_driver_cobra = new Item_ore("evol_driver_cobra");
 	public static Item evol_driver_dragon = new Item_ore("evol_driver_dragon");
 	public static Item evol_driver_rabbit = new Item_ore("evol_driver_rabbit");
@@ -2640,12 +2643,12 @@ public class RiderItems {
 	public static Item build_driver_magma = new Item_ore("build_driver_magma");
 	public static Item build_driver_cross_z_great = new Item_ore("build_driver_cross_z_great");
 	public static Item build_driver_galaxy = new Item_ore("build_driver_galaxy");
-	
+
 	//public static Item build_driver_ = new Item_ore("build_driver_");
 
 	//Zi-O
 	public static Item gaim_armor_wings = new Item_ore("gaim_armor_wings");
-	
+
 	public static Item zi_ohead = new item_zi_oarmor("zi_ohead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item zi_otroso = new item_zi_oarmor2("zi_otroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item zi_olegs = new item_zi_oarmor2("zi_olegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
@@ -2657,14 +2660,14 @@ public class RiderItems {
 
 	public static Item shinobi_driver = new item_zikudriver("shinobi_driver",ArmorMaterial.DIAMOND, 4, "shinobi",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item quiz_driver = new item_zikudriver("quiz_driver",ArmorMaterial.DIAMOND, 4, "quiz",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
-	
-	
+
+
 	public static Item zikan_grade = new Item_sword_gun("zikan_grade",Tabs.musou_saber).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item zikan_zax = new Item_sword_gun("zikan_zax",Tabs.musou_saber).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item drill_crusher_crusher = new ItemBaseSword("drill_crusher_crusher",Tabs.den_denaxe).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item faiz_phone_x = new Item_gun("faiz_phone_x",Tabs.den_dengu).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item ride_heisaber = new ItemBaseSword("ride_heisaber",Tabs.den_denaxe).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
-            
+
 	public static Item zi_o_ridewatch = new Item_ridewatches(0, 0,"zi_o_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item geiz_ridewatch = new Item_ridewatches(0, 0,"geiz_ridewatch").setCreativeTab(Tabs.tabzi_o);
 
@@ -2690,15 +2693,15 @@ public class RiderItems {
 	public static Item ryuki_ridewatch = new Item_ridewatches(1, 16,"ryuki_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item agito_ridewatch = new Item_ridewatches(1, 17,"agito_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item kuuga_ridewatch = new Item_ridewatches(1, 18,"kuuga_ridewatch").setCreativeTab(Tabs.tabzi_o);
-	
+
 	public static Item woz_miridewatch = new Item_ridewatches(0, 0,"woz_miridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item quiz_miridewatch = new Item_ridewatches(2, 22,"quiz_miridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item shinobi_miridewatch = new Item_ridewatches(2, 23,"shinobi_miridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item kikai_miridewatch = new Item_ridewatches(2, 24,"kikai_miridewatch").setCreativeTab(Tabs.tabzi_o);
-            
+
 	public static Item kodama_suika_arms = new item_kodamawatch("kodama_suika_arms").setCreativeTab(Tabs.tabzi_o);
 	public static Item another_build_ridewatch = new Item_ore("another_build_ridewatch").setCreativeTab(Tabs.tabzi_o);  
-	
+
 
 	public static Item ziku_driver_build = new Item_ore("ziku_driver_build");
 	public static Item ziku_driver_exaid = new Item_ore("ziku_driver_exaid");
@@ -2719,12 +2722,12 @@ public class RiderItems {
 	public static Item ziku_driver_ryuki = new Item_ore("ziku_driver_ryuki");
 	public static Item ziku_driver_agito = new Item_ore("ziku_driver_agito");
 	public static Item ziku_driver_kuuga = new Item_ore("ziku_driver_kuuga");
-	
+
 
 	public static Item ziku_driver_genm = new Item_ore("ziku_driver_genm");
-	
+
 	public static Item oma_zi_o_cape = new Item_ore("oma_zi_o_cape");
-            
+
 	public static Item amazonshead = new item_amazonsarmor("amazonshead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);
 	public static Item amazonstroso = new item_amazonsarmor2("amazonstroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);
 	public static Item amazonslegs = new item_amazonsarmor2("amazonslegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);
@@ -2736,7 +2739,7 @@ public class RiderItems {
 	public static Item amazons_driver_sigma = new item_amazonsdriver("amazons_driver_sigma",ArmorMaterial.DIAMOND, 4, "amazon_sigma").setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);
 	public static Item neo_amazons_driver_neo = new item_amazonsdriver("neo_amazons_driver_neo",ArmorMaterial.DIAMOND, 4, "amazon_neo").setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);
 	public static Item neo_amazons_driver_neo_alpha = new item_amazonsdriver("neo_amazons_driver_neo_alpha",ArmorMaterial.DIAMOND, 4, "amazon_neo_alpha").setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);
-			
+
 	public static Item condorer_core_alpha = new Item_ore("condorer_core_alpha").setCreativeTab(Tabs.tabamazons);
 	public static Item condorer_core_omega = new Item_ore("condorer_core_omega").setCreativeTab(Tabs.tabamazons);
 	public static Item condorer_core_sigma = new Item_ore("condorer_core_sigma").setCreativeTab(Tabs.tabamazons);
@@ -2745,10 +2748,10 @@ public class RiderItems {
 	public static Item amazon_injector_neo = new Item_ore("amazon_injector_neo").setCreativeTab(Tabs.tabamazons);
 	public static Item amazon_injector_new_omega = new Item_ore("amazon_injector_new_omega").setCreativeTab(Tabs.tabamazons);
 
-    public static void init() {
-    }
+	public static void init() {
+	}
 
-    //public static void init(){}
+	//public static void init(){}
 }
 
 

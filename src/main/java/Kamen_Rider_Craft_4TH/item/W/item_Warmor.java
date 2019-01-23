@@ -16,8 +16,10 @@ import net.minecraft.nbt.NBTTagCompound;
 public class item_Warmor extends ItemArmor implements IHasModel
 {
 	public static final String[] CoreName= new String[] {"core","xtreme","gold_xtreme","xtreme"};
-	public static final String[] CoreName3= new String[] {"joker","skull","eternal","eternal_red","cyclone"};
+	public static final String[] CoreName3= new String[] {"eternal","eternal_red","cyclone"};
 	public static final String[] CoreName4= new String[] {"accel","accel_trial","accel_booster"};
+	
+	//"joker","skull","eternal","eternal_red","cyclone"
 	
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
 	public String armorNamePrefix;
@@ -66,8 +68,7 @@ public class item_Warmor extends ItemArmor implements IHasModel
 					{
 						return null;
 					}
-				}else
-					if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.lostdriver){
+				}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.lostdriver_eternal){
 
 						if ( slot == EntityEquipmentSlot.HEAD)
 						{
@@ -81,6 +82,63 @@ public class item_Warmor extends ItemArmor implements IHasModel
 						if ( slot == EntityEquipmentSlot.LEGS)
 						{
 							return Refercence.MODID+":textures/armor/"+ CoreName3[item_Wdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"3")]+"_r" +".png";
+						}
+						else
+						{
+							return null;
+						}
+					}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.lostdriver_cyclone){
+
+						if ( slot == EntityEquipmentSlot.HEAD)
+						{
+							return Refercence.MODID+":textures/armor/cyclone_l" +".png";
+						}
+						if ( slot == EntityEquipmentSlot.CHEST)
+						{
+							return Refercence.MODID+":textures/armor/cyclone_core" +".png";
+						}
+
+						if ( slot == EntityEquipmentSlot.LEGS)
+						{
+							return Refercence.MODID+":textures/armor/cyclone_r" +".png";
+						}
+						else
+						{
+							return null;
+						}
+					}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.lostdriver_skull){
+
+						if ( slot == EntityEquipmentSlot.HEAD)
+						{
+							return Refercence.MODID+":textures/armor/skull_l" +".png";
+						}
+						if ( slot == EntityEquipmentSlot.CHEST)
+						{
+							return Refercence.MODID+":textures/armor/skull_core" +".png";
+						}
+
+						if ( slot == EntityEquipmentSlot.LEGS)
+						{
+							return Refercence.MODID+":textures/armor/skull_r" +".png";
+						}
+						else
+						{
+							return null;
+						}
+					}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.lostdriver){
+
+						if ( slot == EntityEquipmentSlot.HEAD)
+						{
+							return Refercence.MODID+":textures/armor/joker_l" +".png";
+						}
+						if ( slot == EntityEquipmentSlot.CHEST)
+						{
+							return Refercence.MODID+":textures/armor/joker_core" +".png";
+						}
+
+						if ( slot == EntityEquipmentSlot.LEGS)
+						{
+							return Refercence.MODID+":textures/armor/joker_r" +".png";
 						}
 						else
 						{

@@ -44,6 +44,7 @@ import Kamen_Rider_Craft_4TH.mobs.bikes.EntityExaidBike;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityMachineBuilder;
 import Kamen_Rider_Craft_4TH.mobs.bikes.Entity_ridoron;
 import Kamen_Rider_Craft_4TH.mobs.bikes.Entityhardboilder;
+import Kamen_Rider_Craft_4TH.mobs.bikes.Entitymachine_tornador;
 import Kamen_Rider_Craft_4TH.mobs.bikes.Entityskullboilder;
 import Kamen_Rider_Craft_4TH.model.MobWithBeltModel;
 import Kamen_Rider_Craft_4TH.model.ModelAnkh;
@@ -124,6 +125,8 @@ public class ClientProxyRider extends CommonProxyRider
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityAcrobatter.class, new RenderRiderMob2(new Model_machine_builder(), 0.5F,"textures/entities/acrobatter.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_ridoron.class, new RenderRiderMob2(new model_ridoron(), 0.5F,"textures/entities/ridoron.png"));
+		
+		RenderingRegistry.registerEntityRenderingHandler(Entitymachine_tornador.class, new RenderRiderMob2(new Model_hardboilder(), 0.5F,"textures/entities/machine_tornador.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entityhardboilder.class, new RenderRiderMob2(new Model_hardboilder(), 0.5F,"textures/entities/hardboilder.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entityskullboilder.class, new RenderRiderMob2(new Model_hardboilder(), 0.5F,"textures/entities/skullboilder.png"));

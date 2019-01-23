@@ -142,24 +142,12 @@ public class Item_memory extends Item  implements IHasModel
 
 					}
 				}
-				if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.lostdriver){
+				if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.lostdriver_eternal){
 					if (num2 == "4"){
 
 						item_Wdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), num, "1");
 						item_Wdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), num, "2");
 						item_Wdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), num, "3");
-					}
-					if (num2 == "1" & num ==0){
-						item_Wdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), 0, "1");
-						item_Wdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), 0, "2");
-						item_Wdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), 0, "3");
-
-					}
-					if (num2 == "3" & num ==0){
-						item_Wdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), 4, "1");
-						item_Wdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), 4, "2");
-						item_Wdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), 4, "3");
-
 					}
 
 				}

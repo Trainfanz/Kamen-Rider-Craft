@@ -8,3 +8,7 @@ run/
 \.gradle/
 
 build/
+src/main/resources/assets/kamenridercraft4th/textures/items/tajador_wings.png
+src/main/resources/assets/kamenridercraft4th/textures/items/tajador_wings.png
+src/main/resources/assets/kamenridercraft4th/textures/items/condor_wings.png
+src/main/java/Kamen_Rider_Craft_4TH/item/W/item_Wdriver.java

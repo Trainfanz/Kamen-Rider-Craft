@@ -80,8 +80,7 @@ public class model_belt_w extends ModelBiped
 			Item[] LOCK2= new Item[] {RiderItems.wdriverc,RiderItems.wdriverh,RiderItems.wdriverl,RiderItems.wdriverf,RiderItems.wdriverjj,RiderItems.wdriverx,RiderItems.wdriverx};
 
 			Item[] LOCKa= new Item[] {RiderItems.blanknoitem,RiderItems.accel_drivert,RiderItems.accel_driverb};
-			Item[] LOCKl= new Item[] {RiderItems.blanknoitem,RiderItems.lostdriverj,RiderItems.lostdrivere,RiderItems.lostdrivere,RiderItems.lostdriverc,RiderItems.lostdriverj};
-
+			
 			Item sidea= RiderItems.blanknoitem;
 			Item sideb= RiderItems.blanknoitem;
 			Item sideex= RiderItems.blanknoitem;
@@ -101,8 +100,6 @@ public class model_belt_w extends ModelBiped
 					}
 				}else if(stack.getItem() ==RiderItems.accel_driver){
 					sidea= LOCKa[stack.getTagCompound().getInteger("core1")];
-				}else if(stack.getItem() ==RiderItems.lostdriver){
-					sidea= LOCKl[stack.getTagCompound().getInteger("core1")];
 				}	
 			}else {
 				if(stack.getItem() ==RiderItems.Wdriver){
@@ -110,9 +107,6 @@ public class model_belt_w extends ModelBiped
 					sideb= LOCK2[0];
 				}else if(stack.getItem() ==RiderItems.accel_driver){
 					sidea= LOCKa[0];
-					sideb=RiderItems.blanknoitem;
-				}else if(stack.getItem() ==RiderItems.lostdriver){
-					sidea= LOCKl[1];
 					sideb=RiderItems.blanknoitem;
 				}	
 			}
