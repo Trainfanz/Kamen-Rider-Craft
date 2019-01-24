@@ -380,6 +380,9 @@ public class RiderItems {
 	public static Item tsukuyomi_belt = new item_Ichigodriver("tsukuyomi_belt",ArmorMaterial.DIAMOND, 4,"tsukuyomi").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item amaterasu_belt = new item_Ichigodriver("amaterasu_belt",ArmorMaterial.DIAMOND, 4,"amaterasu").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 
+	public static Item g_belt = new item_Ichigodriver("g_belt",ArmorMaterial.DIAMOND, 4,"kamen_rider_g").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	
+	
 	public static Item typhoon_core = new Item_ore("typhoon_core").setCreativeTab(Tabs.tabIchigo);
 	public static Item riderman_belt_core = new Item_ore("riderman_belt_core").setCreativeTab(Tabs.tabIchigo);
 	public static Item ridol_core = new Item_ore("ridol_core").setCreativeTab(Tabs.tabIchigo);
