@@ -22,7 +22,7 @@ public class Item_ridewatches extends Item implements IHasModel
 	public int num2;
 	public boolean works_with_decade_ridewatch=false;
 
-	public static String[] ARMS= new String[] {"base","build","exaid","ghost","drive","gaim","wizard","fourze","ooo","w","kiva","deno","kabuto","hibiki","blade","faiz","ryuki","agito","kuuga","genm","decade","exaid_w","quiz","shinobi","kikai","zi_o_ii"};
+	public static String[] ARMS= new String[] {"base","build","exaid","ghost","drive","gaim","wizard","fourze","ooo","w","kiva","deno","kabuto","hibiki","blade","faiz","ryuki","agito","kuuga","genm","decade","exaid_w","quiz","shinobi","kikai"};
 
 
 
