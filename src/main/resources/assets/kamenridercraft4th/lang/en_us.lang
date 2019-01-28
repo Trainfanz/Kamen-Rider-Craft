@@ -38,6 +38,7 @@ entity.hardboilder.name=Hardboilder
 entity.AccelMob.name=Kamen Rider Accel
 entity.Acrobatter.name=Acrobatter
 entity.ridoron.name=Ridoron
+entity.machine_tornador.name=Machine Tornador
 
 effect.fly=Flying
 effect.fire_punch=Fire Punch
@@ -273,7 +274,10 @@ item.wtroso.name=W Chestplate
 item.wlegs.name=W Leggings
 
 item.wdriver.name=Double Driver
-item.lostdriver.name=Lost Driver
+item.lostdriver.name=Lost Driver (Joker)
+item.lostdriver_cyclone.name=Lost Driver (Cyclone)
+item.lostdriver_eternal.name=Lost Driver (Eternal)
+item.lostdriver_skull.name=Lost Driver (Skull)
 item.accel_driver.name=Accel Driver
 
 item.cyclone_memory.name=Cyclone Memory
@@ -1460,6 +1464,7 @@ item.sunriser.name=Sunriser
 item.grasshopper_dna.name=Grasshopper DNA
 item.zo_core.name=ZO's Core
 item.j_spirit.name=J Spirit
+item.g_belt.name=G Belt
 
 item.bio_rider.name=Bio Rider
 item.robo_rider.name=Robo Rider
@@ -1937,6 +1942,8 @@ item.faiz_ridewatch.name=Faiz Ridewatch
 item.ryuki_ridewatch.name=Ryuki Ridewatch
 item.agito_ridewatch.name=Agito Ridewatch
 item.kuuga_ridewatch.name=Kuuga Ridewatch
+
+item.zi_o_ii_ridewatch.name=Zi-O II Ridewatch
 
 item.genm_ridewatch.name=Genm Ridewatch
 item.cross_z_ridewatch.name=Cross-Z Ridewatch

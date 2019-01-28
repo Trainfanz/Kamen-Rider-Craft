@@ -2697,6 +2697,8 @@ public class RiderItems {
 	public static Item agito_ridewatch = new Item_ridewatches(1, 17,"agito_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item kuuga_ridewatch = new Item_ridewatches(1, 18,"kuuga_ridewatch").setCreativeTab(Tabs.tabzi_o);
 
+	public static Item zi_o_ii_ridewatch = new Item_ridewatches(0, 25,"zi_o_ii_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	
 	public static Item woz_miridewatch = new Item_ridewatches(0, 0,"woz_miridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item quiz_miridewatch = new Item_ridewatches(2, 22,"quiz_miridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item shinobi_miridewatch = new Item_ridewatches(2, 23,"shinobi_miridewatch").setCreativeTab(Tabs.tabzi_o);
@@ -2726,6 +2728,7 @@ public class RiderItems {
 	public static Item ziku_driver_agito = new Item_ore("ziku_driver_agito");
 	public static Item ziku_driver_kuuga = new Item_ore("ziku_driver_kuuga");
 
+	public static Item ziku_driver_zi_o_ii = new Item_ore("ziku_driver_zi_o_ii");
 
 	public static Item ziku_driver_genm = new Item_ore("ziku_driver_genm");
 
