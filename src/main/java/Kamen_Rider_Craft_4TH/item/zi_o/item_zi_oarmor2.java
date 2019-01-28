@@ -23,7 +23,7 @@ import net.minecraftforge.fml.relauncher.Side;
 
 public class item_zi_oarmor2 extends ItemArmor implements IHasModel
 {
-	public static final String[] CoreName= new String[] {"","_decade"};
+	public static final String[] CoreName= new String[] {"","_decade","_ii"};
 
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
 	public String armorNamePrefix;
