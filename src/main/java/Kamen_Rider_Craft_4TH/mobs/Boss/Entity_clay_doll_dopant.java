@@ -92,21 +92,17 @@ public class Entity_clay_doll_dopant extends EntityBossBase
 if (!this.world.isRemote){
 
 
-	switch (this.rand.nextInt(4))
+	switch (this.rand.nextInt(3))
 	{   		   	    		
 	case 0:
 		this.dropItem(RiderItems.unrefined_memory_g, 1);
 		break;
 		
 	case 1:
-		this.dropItem(RiderItems.unrefined_memory_g, 1);
-		break;
-		
-	case 2:
 		this.dropItem(RiderItems.unrefined_memory_s, 2);
 		break;
 		
-	case 3:				
+	case 2:				
 		break;
    		
 			}
