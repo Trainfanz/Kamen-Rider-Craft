@@ -8,6 +8,7 @@ import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityBossBase;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_clay_doll_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_grease;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_nazca_dopant;
 import net.minecraft.block.Block;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
@@ -56,6 +57,7 @@ public class EntityMasquerade extends Entity_base_henchmen
 			if (this.getAttackTarget()instanceof EntityPlayer){
 				 EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
 				 EntityBossBase entityboss  = new Entity_clay_doll_dopant(world);
+				 EntityBossBase entityboss2  = new Entity_nazca_dopant(world);
 			switch (this.rand.nextInt(10))
 			{
 			case 0:
@@ -63,6 +65,13 @@ public class EntityMasquerade extends Entity_base_henchmen
 				entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
 				world.spawnEntity(entityboss);
 				break;
+				
+			case 1:
+				playerIn.sendMessage( new TextComponentString(TextFormatting.AQUA+"Nazca!"));
+				entityboss2.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				world.spawnEntity(entityboss2);
+				break;
+				
 				}
 			}switch (this.rand.nextInt(25))
 			{
