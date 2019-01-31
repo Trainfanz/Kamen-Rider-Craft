@@ -1332,7 +1332,7 @@ public class ore_block extends Block implements IHasModel
 				return CRYSTAL;
 			}
 		}if (CRYSTAL==RiderItems.blank_watch){
-			int rand = generator.nextInt(180);
+			int rand = generator.nextInt(200);
 			if (rand<30){
 				return RiderItems.zi_o_ridewatch;
 			}else if (rand<35){
@@ -1381,7 +1381,7 @@ public class ore_block extends Block implements IHasModel
 				return RiderItems.w_ridewatch;
 			}else if (rand<137){
 				return RiderItems.kuuga_ridewatch;
-			}else if (rand<138){
+			}else if (rand<139){
 				return RiderItems.zi_o_ii_ridewatch;
 				
 			
