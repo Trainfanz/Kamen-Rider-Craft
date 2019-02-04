@@ -11,6 +11,8 @@ import org.lwjgl.opengl.GL11;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Build_RT;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_2;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_3;
 import Kamen_Rider_Craft_4TH.util.Refercence;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.ModelBiped;
@@ -232,7 +234,7 @@ public class MobWithBeltModel extends ModelBiped
 			ItemStack stack = new ItemStack (BELT);
 			ItemStack stack2 = new ItemStack (RiderItems.evol_driver_blackhole);
 
-			if (entity instanceof Entity_evolt){
+			if (entity instanceof Entity_evolt_2||entity instanceof Entity_evolt_3){
 				stack2 = new ItemStack (RiderItems.evol_driver_blackhole);
 			}else if (entity instanceof Entity_Build_RT){
 				stack2 = new ItemStack (RiderItems.build_driver);	
