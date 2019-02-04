@@ -344,6 +344,14 @@ public class item_zikudriver extends ItemArmor  implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));		
+										}
+									}
+									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.ziku_driver_zi_o_mirror){
+										
+										if (item_zikudriver.get_core(armor, "1")==0){											
+											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));		
 									}
 								}
 							}

@@ -748,6 +748,8 @@ public class CraftingRecipeForRider {
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":ziku_driver_zi_o"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ziku_driver_zi_o,1), "aaa","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.zi_o_ridewatch);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":ziku_driver_geiz"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ziku_driver_geiz,1), "aaa","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.geiz_ridewatch);
+		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":ziku_driver_zi_o_mirror"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ziku_driver_zi_o_mirror,1), "aaa","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.zi_o_mirror_ridewatch);
+
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":zikan_grade"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.zikan_grade,1), "ama","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.base_sword, 'm',  RiderItems.zi_o_ridewatch);		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":zikan_zax"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.zikan_zax,1), "ama","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.base_sword, 'm',  RiderItems.geiz_ridewatch);		
@@ -758,6 +760,8 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":ride_heisaber"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ride_heisaber,1), "ama","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.base_sword, 'm',  RiderItems.decade_ridewatch);		
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":kodama_suika_arms"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.kodama_suika_arms,1), "aaa","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.suika_lockseed);		
+
+		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":zi_o_mirror_ridewatch"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.zi_o_mirror_ridewatch), new Ingredient[]{Ingredient.fromItem(RiderItems.zi_o_ridewatch),Ingredient.fromStacks(new ItemStack (Blocks.GLASS))});
 
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":amazonshead"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.amazonshead,1), "aaa","a a", 'a', RiderItems.amazon_cell_vial);

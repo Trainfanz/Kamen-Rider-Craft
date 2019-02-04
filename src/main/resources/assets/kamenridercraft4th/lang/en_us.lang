@@ -1913,6 +1913,7 @@ item.oma_ziku_driver.name=Oma Ziku Driver
 item.beyondriver.name=BeyonDriver
 item.shinobi_driver.name=Shinobi Driver
 item.quiz_driver.name=Quiz Driver
+item.ziku_driver_zi_o_mirror.name=Ziku Driver (Mirror Zi-O)
 
 item.zikan_grade.name=Zikan Grade
 item.zikan_zax.name=Zikan Zax
@@ -1922,6 +1923,7 @@ item.ride_heisaber.name=Ride Heisaber
 
 item.zi_o_ridewatch.name=Zi-O Ridewatch
 item.geiz_ridewatch.name=Geiz Ridewatch
+item.zi_o_mirror_ridewatch.name=Mirror Zi-O Ridewatch
 
 item.build_ridewatch.name=Build Ridewatch
 item.exaid_ridewatch.name=Ex-Aid Ridewatch
