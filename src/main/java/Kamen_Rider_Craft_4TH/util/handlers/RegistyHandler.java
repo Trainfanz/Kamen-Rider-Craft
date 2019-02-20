@@ -17,6 +17,7 @@ import net.minecraft.init.MobEffects;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
+import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.biome.Biome;
 import net.minecraftforge.client.event.ColorHandlerEvent;
@@ -42,8 +43,8 @@ public class RegistyHandler {
 	@SubscribeEvent
 	public static void onFly(TickEvent.PlayerTickEvent event) {
 		boolean fly = false;
-		if(event.player.isPotionActive(PotionCore.FLY_POTION))
-			fly = true;
+		if(event.player.isPotionActive(PotionCore.FLY_POTION)) fly = true;
+		if(event.player.isPotionActive(Potion.getPotionFromResourceLocation("supersentaicraft"+ ":" + "fly"))) fly = true;
 		if(fly || event.player.isCreative() || event.player.isSpectator()) {
 			event.player.capabilities.allowFlying = true;
 			event.player.fallDistance = 0.0f;
