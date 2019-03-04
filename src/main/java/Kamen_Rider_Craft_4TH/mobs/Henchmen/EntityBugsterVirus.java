@@ -59,7 +59,7 @@ public class EntityBugsterVirus extends Entity_base_henchmen
 	{
 		if (!this.world.isRemote){
 
-			this.dropItem(RiderItems.blank_gashat, 1);
+			this.dropItem(RiderItems.bugster_virus_dna, 1);
 			switch (this.rand.nextInt(25))
 			{
 			case 0:

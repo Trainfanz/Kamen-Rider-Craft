@@ -28,6 +28,10 @@ public class GameCreatorBlock extends machine_block  {
 	}
 	public static final List<Item> gashat = new ArrayList<Item>();
 	public static final List<Item> gashatBugvisor = new ArrayList<Item>();
+	public static final List<Item> gashatMaximum = new ArrayList<Item>();
+	public static final List<Item> gashatDual = new ArrayList<Item>();
+	public static final List<Item> gashatHyper = new ArrayList<Item>();
+	
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(Item.getItemFromBlock(this),0,"inventory");
@@ -38,6 +42,15 @@ public class GameCreatorBlock extends machine_block  {
 		if (num ==1){
 			int rand = generator.nextInt(gashatBugvisor.size());
 			return gashatBugvisor.get(rand);
+		}else if (num ==2){
+			int rand = generator.nextInt(gashatMaximum.size());
+			return gashatMaximum.get(rand);
+		}else if (num ==3){
+			int rand = generator.nextInt(gashatDual.size());
+			return gashatDual.get(rand);
+		}else if (num ==4){
+			int rand = generator.nextInt(gashatHyper.size());
+			return gashatHyper.get(rand);
 		}else{
 			int rand = generator.nextInt(gashat.size());
 			return gashat.get(rand);
@@ -49,6 +62,9 @@ public class GameCreatorBlock extends machine_block  {
 		if (!worldIn.isRemote) {
 			if (player.getHeldItem(hand).getItem() == RiderItems.blank_gashat) process(player, worldIn, pos, hand, getGameDrop(0));
 			else if (player.getHeldItem(hand).getItem() == RiderItems.unfinished_kamen_rider_chronicle_gashat) process(player, worldIn, pos, hand, getGameDrop(1));
+			else if (player.getHeldItem(hand).getItem() == RiderItems.unfinished_maximum_mighty_x_gashat) process(player, worldIn, pos, hand, getGameDrop(2));
+			else if (player.getHeldItem(hand).getItem() == RiderItems.mighty_brothers_xx_unfinished_gashat) process(player, worldIn, pos, hand, getGameDrop(3));
+			else if (player.getHeldItem(hand).getItem() == RiderItems.unfinished_hyper_muteki_gashat) process(player, worldIn, pos, hand, getGameDrop(4));
 			return true;
 		}
 

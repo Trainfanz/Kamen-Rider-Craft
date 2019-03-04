@@ -72,7 +72,7 @@ public class EntityNebulaBugsterVirus extends Entity_base_henchmen
 	{
 		if (!this.world.isRemote){
 
-			this.dropItem(RiderItems.unfinished_kamen_rider_chronicle_gashat, 1);
+			this.dropItem(RiderItems.xx_bugster_virus_dna, 1);
 				if (this.getAttackTarget()instanceof EntityPlayer){
 					EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();						
 					 Entity_base_henchmen entitymob  = new Entity_needle_smash(world);

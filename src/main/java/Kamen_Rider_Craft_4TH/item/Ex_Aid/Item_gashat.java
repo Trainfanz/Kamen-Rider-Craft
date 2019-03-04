@@ -60,6 +60,31 @@ public class Item_gashat extends Item implements IHasModel
 		}
         return this;
     }
+    
+    public Item AddMaxGashatToBlockList(int num)
+    {
+    	for (int i1 = 0; i1 < num; ++i1)
+		{
+    		GameCreatorBlock.gashatMaximum.add(this);
+		}
+        return this;
+    }
+    public Item AddDualGashatToBlockList(int num)
+    {
+    	for (int i1 = 0; i1 < num; ++i1)
+		{
+    		GameCreatorBlock.gashatDual.add(this);
+		}
+        return this;
+    }
+    public Item AddHyperGashatToBlockList(int num)
+    {
+    	for (int i1 = 0; i1 < num; ++i1)
+		{
+    		GameCreatorBlock.gashatHyper.add(this);
+		}
+        return this;
+    }
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
