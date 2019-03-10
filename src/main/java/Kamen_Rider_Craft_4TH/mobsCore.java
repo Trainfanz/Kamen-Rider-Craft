@@ -108,7 +108,7 @@ public class mobsCore {
 		
 		EntityRegistry.registerModEntity(new ResourceLocation("Model_machine_tornador"),Entitymachine_tornador.class, "machine_tornador", 539, TokuCraft_core.instance, 80, 3, false, 0xd20023,0xe1c901);
 		
-		EntityRegistry.registerModEntity(new ResourceLocation("Modelaccel"),Entityaccel.class, "AccelMob", 532, TokuCraft_core.instance, 80, 3, false, 0xdf0000,0xdadada);
+		EntityRegistry.registerModEntity(new ResourceLocation("Modelaccel"),Entityaccel.class, "AccelMob", 540, TokuCraft_core.instance, 80, 3, false, 0xdf0000,0xdadada);
 		
 		EntityRegistry.registerModEntity(new ResourceLocation("NightRogueMob"),Entity_NightRogue.class, "NightRogueMob", 517, TokuCraft_core.instance, 80, 3, false, 0x131313,0xDDC862);
 		EntityRegistry.registerModEntity(new ResourceLocation("BloodStalkMob"),Entity_BloodStalk.class, "BloodStalkMob", 518, TokuCraft_core.instance, 80, 3, false, 0x7F100F,0x50C5CA);

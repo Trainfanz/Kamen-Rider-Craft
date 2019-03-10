@@ -98,6 +98,9 @@ public class item_Gaimarmor2 extends ItemArmor implements IHasModel
 							if (item_Gaimdriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="watermelon_arms"){
 
 								return Refercence.MODID+":textures/armor/"+ "zangetsu_watermelon" +".png";
+							}else if (item_Gaimdriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="zangetsu_kachidoki_arms"){
+
+								return Refercence.MODID+":textures/armor/"+ "zangetsu_kachidoki" +".png";
 							}else
 								return Refercence.MODID+":textures/armor/"+ "zangetsu" +".png";
 						}else if (belt.RIDER == "duke"){
