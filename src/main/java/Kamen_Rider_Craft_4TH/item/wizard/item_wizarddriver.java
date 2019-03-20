@@ -300,7 +300,7 @@ public class item_wizarddriver extends ItemArmor implements IHasModel
 
 										}if (this.get_core(armor, "2")==6){											
 											player.fallDistance=0; 
-											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION(), 5, 4,true,false));										
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));										
 										}else if (this.get_core(armor, "2")==5){
 											if (player.isSneaking()){
 												if(player.isInWater()){

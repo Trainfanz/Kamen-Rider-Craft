@@ -214,7 +214,7 @@ public class item_builddriver extends ItemArmor implements IHasModel
 												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25,0,true,false));
-												player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION(), 5, 4,true,false));
+												player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));
 											}
 										}else 	if (get_core(ItemStack,"3")==3){
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
@@ -231,7 +231,7 @@ public class item_builddriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));	
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));	
 											if (get_core(ItemStack,"1")==5){
-												player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION(), 5, 4,true,false));
+												player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));
 											}
 										}else 	if (get_core(ItemStack,"3")==8){
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false));
@@ -316,7 +316,7 @@ public class item_builddriver extends ItemArmor implements IHasModel
 											if (get_core(ItemStack,"1")==20){
 												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));	
-												player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION(), 5, 4,true,false));
+												player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));
 											}
 
 										}else 	if (get_core(ItemStack,"3")==25){
@@ -333,7 +333,7 @@ public class item_builddriver extends ItemArmor implements IHasModel
 											if (get_core(ItemStack,"1")==22){
 												if (player.isInWater()){
 													player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25,0,true,false));
-													player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION(), 5, 4,true,false));										
+													player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));										
 												}
 											}
 										}else 	if (get_core(ItemStack,"3")==27){
@@ -623,7 +623,7 @@ public class item_builddriver extends ItemArmor implements IHasModel
 									}
 									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.sclash_driver_cross_z_charge){
 										if (player.getHeldItem(EnumHand.OFF_HAND).getItem()==RiderItems.taka_full_bottle){
-											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION(), 5, 4,true,false));	
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));	
 										}
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));	
@@ -651,7 +651,7 @@ public class item_builddriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));	
 											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false));
-											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION(), 5, 4,true,false));	
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));	
 										}
 										else if (get_core(ItemStack,"1")==1){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));
@@ -730,7 +730,7 @@ public class item_builddriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
-											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION(), 5, 4,true,false));	
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));	
 										}		
 										else if (get_core(ItemStack,"1")==4){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));
@@ -739,7 +739,7 @@ public class item_builddriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
-											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION(), 5, 4,true,false));	
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));	
 										}
 									}
 									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.evol_driver_mad_rogue){
@@ -748,7 +748,7 @@ public class item_builddriver extends ItemArmor implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));	
 										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
-										player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION(), 5, 4,true,false));	
+										player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));	
 									}
 									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.build_driver_grease){
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));	

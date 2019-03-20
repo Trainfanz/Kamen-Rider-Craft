@@ -530,10 +530,10 @@ public class item_ex_aiddriver extends ItemArmor  implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.WITHER, 5, 0,true,false));
 										}else if (this.get_lock(armor)=="combatgamer"){
 											player.fallDistance=0; 
-											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION(), 5, 4,true,false));											
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));											
 										}else  if (this.get_lock(armor)=="protocombatgamer"){
 											player.fallDistance=0; 
-											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION(), 5, 4,true,false));
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.WITHER, 5, 0,true,false));
 										}else if (this.get_lock(armor)=="sportsgamer"){
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
@@ -576,7 +576,7 @@ public class item_ex_aiddriver extends ItemArmor  implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
 										}else if (this.get_lock(armor)=="xeviousgamer"){
 											player.fallDistance=0;
-											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION(), 5, 4,true,false));
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));
 										}else  if (this.get_lock(armor)=="safarigamer"){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));

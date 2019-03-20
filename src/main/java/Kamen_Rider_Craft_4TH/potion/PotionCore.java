@@ -9,11 +9,13 @@ import net.minecraftforge.fml.common.registry.ForgeRegistries;
 public class PotionCore {
 
 	private static final Potion FLY= new PotionFly();
+	public static final Potion FLY_POTION = FLY_POTION();
+	
 	public static final Potion FIRE_PUNCH_POTION = new PotionFirePunch();
 	public static final Potion PUNCH_BOOST_POTION = new PotionPunchBoost();
 	public static final Potion BIG_POTION = new PotionBig();
 	
-	public static Potion FLY_POTION(){
+	private static Potion FLY_POTION(){
 		if (Potion.getPotionFromResourceLocation("tokuPotions"+ ":" + "fly")!=null){
 			return Potion.getPotionFromResourceLocation("tokuPotions"+ ":" + "fly");
 		}else{
