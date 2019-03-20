@@ -236,7 +236,7 @@ public class item_ghostdriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
 											player.fallDistance=0; 
-											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));											
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION(), 5, 4,true,false));											
 										}else if (this.get_lock(armor)==Item_ghost_Icons.ARMS[22]){
 											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 300, 0,true,false));	
 											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 2,true,false));

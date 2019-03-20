@@ -2676,6 +2676,7 @@ public class RiderItems {
 	public static Item ziku_driver_zi_o_mirror = new item_zikudriver("ziku_driver_zi_o_mirror",ArmorMaterial.DIAMOND, 4, "zi_o_mirror",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 
 	public static Item shinobi_driver = new item_zikudriver("shinobi_driver",ArmorMaterial.DIAMOND, 4, "shinobi",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
+	public static Item hattari_driver = new item_zikudriver("hattari_driver",ArmorMaterial.DIAMOND, 4, "hattari",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item quiz_driver = new item_zikudriver("quiz_driver",ArmorMaterial.DIAMOND, 4, "quiz",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item kikai_driver = new item_zikudriver("kikai_driver",ArmorMaterial.DIAMOND, 4, "kikai",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 

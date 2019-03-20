@@ -232,7 +232,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED,20, 1,true,false));
 											player.fallDistance=0;
-											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION(), 5, 4,true,false));
 											player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false));
 											}								
 										}
