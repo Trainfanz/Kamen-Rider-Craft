@@ -125,6 +125,8 @@ tile.solidifyer.name=Full Bottle Solidifier
 
 tile.gaia_memory_refiner.name=Gaia Memory Refiner
 
+tile.gamecreator.name=Game Creator
+
 tile.monitor.name=Computer Monitor
 tile.pandorabox.name=Pandora Box
 tile.mighty_block.name=Mighty Action X Block
@@ -471,6 +473,12 @@ item.sengoku_driver_mars.name=Sengoku Driver (Mars)
 item.sengoku_driver_kamuro.name=Sengoku Driver (Kamuro)
 item.sengoku_driver_jam.name=Sengoku Driver (Jam)
 item.sengoku_driver_kurokage_troopers.name=Sengoku Driver (Kurokage Troopers)
+
+item.sengoku_driver_proto_gaim.name=Sengoku Driver (Proto Gaim)
+item.sengoku_driver_proto_baron.name=Sengoku Driver (Proto Baron)
+item.sengoku_driver_proto_ryugen.name=Sengoku Driver (Proto Ryugen)
+item.sengoku_driver_proto_gridon.name=Sengoku Driver (Proto Gridon)
+item.sengoku_driver_proto_barvo.name=Sengoku Driver (Proto Bravo)
 
 
 item.genesis_driver_zangetsu_shin.name=Genesis Driver (Zangetsu Shin)
@@ -1122,6 +1130,8 @@ item.natsumikan_lockseed.name=Natsumikan Lockseed
 item.xiaolongbao_lockseed.name=Xiaolongbao Lockseed
 item.drained_suika_lockseed.name=Drained Suika Lockseed
 
+item.zangetsu_kachidoki_lockseed.name=Zangetsu Kachidoki Lockseed
+
 item.techniqueshift.name=Shift Technique
 item.proto_speedshift.name=Shift Proto Speed
 item.fruitsshift.name=Shift Fruits
@@ -1564,6 +1574,10 @@ item.galileo_icon.name=Galileo Eyecon
 item.deus_rusher.name=Deus Rusher
 item.deus_rusher_red.name=Deus Rusher Machina
 
+item.bugster_virus_dna.name=Bugster Virus DNA
+item.xx_bugster_virus_dna.name=XX Bugster Virus DNA
+item.gamedeus_bugster_virus_dna.name=Gamedeus Bugster Virus DNA
+
 item.gashacon_breaker.name=Gashacon Breaker
 item.gashacon_breaker_ham.name=Gashacon Breaker
 item.gashacon_key_slasher.name=Gashacon Key Slasher
@@ -1646,6 +1660,10 @@ item.hyper_muteki_gashat.name=Hyper Muteki Gashat
 item.god_maximum_mighty_x_gashat.name=God Maximum Mighty X Gashat
 
 item.gamedeus_hyper_muteki_gashat.name=Gamedeus Hyper Muteki Gashat
+
+item.unfinished_hyper_muteki_gashat.name=Unfinished Hyper Muteki Gashat
+item.unfinished_maximum_mighty_x_gashat.name=Unfinished Maximum Mighty X Gashat
+item.mighty_brothers_xx_unfinished_gashat.name=Unfinished Mighty Brothers XX Gashat
         
 item.kaigan_ghost_gashat.name=Kaigan Ghost Gashat
 item.full_throttle_drive_gashat.name=Full Throttle Drive Gashat
@@ -1912,7 +1930,9 @@ item.ziku_driver_geiz.name=Ziku Driver (Geiz)
 item.oma_ziku_driver.name=Oma Ziku Driver
 item.beyondriver.name=BeyonDriver
 item.shinobi_driver.name=Shinobi Driver
+item.hattari_driver.name=Hattari Driver
 item.quiz_driver.name=Quiz Driver
+item.kikai_driver.name=Kikai Driver
 item.ziku_driver_zi_o_mirror.name=Ziku Driver (Mirror Zi-O)
 
 item.zikan_grade.name=Zikan Grade

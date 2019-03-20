@@ -2711,7 +2711,7 @@ public class RiderItems {
 	public static Item hibiki_ridewatch = new Item_ridewatches(1, 13,"hibiki_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item blade_ridewatch = new Item_ridewatches(1, 14,"blade_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item faiz_ridewatch = new Item_ridewatches(1, 15,"faiz_ridewatch",true).setCreativeTab(Tabs.tabzi_o);
-	public static Item ryuki_ridewatch = new Item_ridewatches(1, 16,"ryuki_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item ryuki_ridewatch = new Item_ridewatches(1, 16,"ryuki_ridewatch",true).setCreativeTab(Tabs.tabzi_o);
 	public static Item agito_ridewatch = new Item_ridewatches(1, 17,"agito_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item kuuga_ridewatch = new Item_ridewatches(1, 18,"kuuga_ridewatch").setCreativeTab(Tabs.tabzi_o);
 
