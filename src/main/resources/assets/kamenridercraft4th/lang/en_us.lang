@@ -406,6 +406,7 @@ item.stamper_switch.name=Stamper Switch
 item.cosmic_swich.name=Cosmic Switch
 
 item.super_rocket_swich.name=Rocket Switch Super-1
+item.super_launcher_swich.name=Launcher Switch Super-2
 item.super_drill_swich.name=Drill Switch Super-3
 item.clear_drill_swich.name=Clear Drill Switch
 
@@ -1576,7 +1577,7 @@ item.deus_rusher_red.name=Deus Rusher Machina
 
 item.bugster_virus_dna.name=Bugster Virus DNA
 item.xx_bugster_virus_dna.name=XX Bugster Virus DNA
-item.gamedeus_bugster_virus_dna.name=Gamedeus Bugster Virus DNA
+item.gamedeus_virus_dna.name=Gamedeus Virus DNA
 
 item.gashacon_breaker.name=Gashacon Breaker
 item.gashacon_breaker_ham.name=Gashacon Breaker
@@ -1729,6 +1730,8 @@ item.doctor_mighty_xx_gashat.name=Doctor Mighty XX Gashat
 
 item.taiko_no_tatsujin_gashat.name=Taiko No Tatsujin Gashat
 item.gabarizing_gashat.name=Ganbarizing Gashat
+
+item.mighty_novel_x_gashat.name=Mighty Novel X Gashat
 
 item.drill_crusher.name=Drill Crusher
 item.hawk_gatlinger.name=Hawk Gatlinger

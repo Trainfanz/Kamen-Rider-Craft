@@ -198,7 +198,7 @@ public class item_Wdriver extends ItemArmor implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
 
-									}if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.lostdriver_skull){
+									}if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.lostdriver_eternal){
 										if (get_core(ItemStack,"1")==0){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
