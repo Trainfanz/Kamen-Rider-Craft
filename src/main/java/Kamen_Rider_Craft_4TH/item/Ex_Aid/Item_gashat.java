@@ -277,6 +277,12 @@ public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer play
 								item_ex_aiddriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),28, "1");
 
 
+							}else if (this == RiderItems.mighty_novel_x_gashat){
+
+								item_ex_aiddriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
+								item_ex_aiddriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),29, "1");
+
+
 							}
 						}
 						else if (belt.Rider=="brave"& this == RiderItems.taddle_quest_gashat){

@@ -702,6 +702,7 @@ public class RiderItems {
 	public static Item v_buckle_scissors = new item_ryukidriver("v_buckle_scissors",ArmorMaterial.DIAMOND, 4, "scissors").setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
 
 	public static Item v_buckle_zolda = new item_ryukidriver("v_buckle_zolda",ArmorMaterial.DIAMOND, 4, "zolda").setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_raia_survive = new Item_ore("v_buckle_raia_survive");
 	public static Item v_buckle_raia = new item_ryukidriver("v_buckle_raia",ArmorMaterial.DIAMOND, 4, "raia").setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
 	public static Item v_buckle_gai = new item_ryukidriver("v_buckle_gai",ArmorMaterial.DIAMOND, 4, "gai").setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
 	public static Item v_buckle_ouja = new item_ryukidriver("v_buckle_ouja",ArmorMaterial.DIAMOND, 4, "ouja").setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
@@ -723,7 +724,7 @@ public class RiderItems {
 	public static Item darkwing_advent = new Item_advent_cards("darkwing_advent",0,"2").setCreativeTab(Tabs.tabryuki);
 	public static Item volcancer_advent = new Item_ore("volcancer_advent").setCreativeTab(Tabs.tabryuki);
 	public static Item magnugiga_advent = new Item_ore("magnugiga_advent").setCreativeTab(Tabs.tabryuki);
-	public static Item evildiver_advent = new Item_ore("evildiver_advent").setCreativeTab(Tabs.tabryuki);
+	public static Item evildiver_advent = new Item_advent_cards("evildiver_advent",0,"4").setCreativeTab(Tabs.tabryuki);
 	public static Item metalgelas_advent = new Item_ore("metalgelas_advent").setCreativeTab(Tabs.tabryuki);
 	public static Item venosnaker_advent = new Item_ore("venosnaker_advent").setCreativeTab(Tabs.tabryuki);
 	public static Item destwilder_advent = new Item_ore("destwilder_advent").setCreativeTab(Tabs.tabryuki);
@@ -1550,6 +1551,7 @@ public class RiderItems {
 	public static Item cosmic_swich = new Item_astroswitch(4, "1","circle",10,"cosmic_swich").setCreativeTab(Tabs.tabFourze);
 
 	public static Item super_rocket_swich = new Item_astroswitch(5, "1","circle",1,"super_rocket_swich").setCreativeTab(Tabs.tabFourze);
+	public static Item super_launcher_swich = new Item_astroswitch(9, "1","circle",14,"super_launcher_swich").setCreativeTab(Tabs.tabFourze);
 	public static Item super_drill_swich = new Item_ore("super_drill_swich").setCreativeTab(Tabs.tabFourze);
 
 	public static Item clear_drill_swich = new Item_astroswitch(6, "1","circle",13,"clear_drill_swich").setCreativeTab(Tabs.tabFourze);
@@ -2243,6 +2245,8 @@ public class RiderItems {
 	public static Item hyper_muteki_gashat = new Item_gashat(0, 0,"hyper_muteki_gashat").AddHyperGashatToBlockList(10).setCreativeTab(Tabs.tabex_aid);
 	public static Item mighty_creator_vrx_gashat = new Item_gashat(0, 29,"mighty_creator_vrx_gashat").AddGashatToBlockList(4).setCreativeTab(Tabs.tabex_aid);
 
+	public static Item mighty_novel_x_gashat = new Item_gashat(0, 0,"mighty_novel_x_gashat").setCreativeTab(Tabs.tabex_aid);
+	
 	public static Item knock_out_fighter_2_gashat = new Item_gashat(0, 30,"knock_out_fighter_2_gashat").AddDualGashatToBlockList(2).setCreativeTab(Tabs.tabex_aid);
 	public static Item gashat_gear_dual_another = new Item_gashat(4, 0,"gashat_gear_dual_another").AddDualGashatToBlockList(1).setCreativeTab(Tabs.tabex_aid);
 

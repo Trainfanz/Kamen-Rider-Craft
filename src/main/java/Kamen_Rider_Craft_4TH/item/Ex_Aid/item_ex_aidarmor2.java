@@ -23,7 +23,7 @@ import net.minecraftforge.fml.relauncher.Side;
 
 public class item_ex_aidarmor2 extends ItemArmor implements IHasModel
 {
-	public static final String[] CoreName= new String[] {"","_bike","_xxr","_xxl","_lv1","_lvx","_maximum","_ghost_lv1","_ghost","_drive","_gaim","_wizard","_fourze","_ooo","_w","_decade","_kiva","_den_o","_kabuto","_hibiki","_blade","_faiz","_ryuki","_agito","_kuuga","_ichigou","_invincible","_vrx","_knock_out_fighter_2"};
+	public static final String[] CoreName= new String[] {"","_bike","_xxr","_xxl","_lv1","_lvx","_maximum","_ghost_lv1","_ghost","_drive","_gaim","_wizard","_fourze","_ooo","_w","_decade","_kiva","_den_o","_kabuto","_hibiki","_blade","_faiz","_ryuki","_agito","_kuuga","_ichigou","_invincible","_vrx","_knock_out_fighter_2","_novel"};
 	public static final String[] CoreNameparadox= new String[] {"","fighter_"};
 	public static final String[] CoreNamegenm= new String[] {"","_0","_0zombie","","","","_maximum","","","_drive","_gaim","_wizard","_fourze","_ooo","_w","_decade","_kiva","_den_o","_kabuto","_hibiki","_blade","_faiz","_ryuki","_agito","_kuuga","_ichigou"};
 	//public static final String[] CoreNamelazer= new String[] {"","_turbo"};

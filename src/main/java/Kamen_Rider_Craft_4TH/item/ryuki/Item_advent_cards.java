@@ -60,7 +60,15 @@ public class Item_advent_cards extends Item implements IHasModel
 				}else if (num2 == "3"){
 					item_ryukidriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), num);
 				}
+			}else if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.v_buckle_raia){
+				if (this==RiderItems.survive_shippu_advent){
+					item_ryukidriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), num);
+				}else if (num2 == "4"){
+					item_ryukidriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), num);
+				}
 			}
+
+			
 
 			
 			else if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.v_buckle_knight){

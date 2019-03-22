@@ -87,6 +87,10 @@ public class item_ryukidriver extends ItemArmor implements IHasModel
 					
 					armorModel.belt=new ItemStack(RiderItems.v_buckle_knight_survive);		
 					
+				}else if (stack.getItem()==RiderItems.v_buckle_raia&this.get_core(stack)==1){
+					
+					armorModel.belt=new ItemStack(RiderItems.v_buckle_raia_survive);		
+					
 				}else if (stack.getItem()==RiderItems.v_buckle_ryuga&this.get_core(stack)==1){
 					
 					armorModel.belt=new ItemStack(RiderItems.v_buckle_ryuga_survive);

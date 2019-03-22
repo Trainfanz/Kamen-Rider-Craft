@@ -1,11 +1,11 @@
 package Kamen_Rider_Craft_4TH;
 
 import Kamen_Rider_Craft_4TH.mobs.EntityAnkh;
-import Kamen_Rider_Craft_4TH.mobs.EntityChronos;
 import Kamen_Rider_Craft_4TH.mobs.EntityLazer;
 import Kamen_Rider_Craft_4TH.mobs.EntityPoppy;
 import Kamen_Rider_Craft_4TH.mobs.Entity_kodama_suika_arms;
 import Kamen_Rider_Craft_4TH.mobs.Entityaccel;
+import Kamen_Rider_Craft_4TH.mobs.Boss.EntityChronos;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_BloodStalk;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Build_RT;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_EngineBros;

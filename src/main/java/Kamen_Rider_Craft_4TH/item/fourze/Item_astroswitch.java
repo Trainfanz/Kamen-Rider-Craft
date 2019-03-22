@@ -76,7 +76,7 @@ public class Item_astroswitch extends Item implements IHasModel
 					if (item_Fourzedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))==3||item_Fourzedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))==5){
 
 						item_Fourzedriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), 0,"square");
-					}else if (item_Fourzedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))==8){
+					}else if (item_Fourzedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))==8||item_Fourzedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))==9){
 
 						item_Fourzedriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), 0,"circle");
 						item_Fourzedriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), 0,"triangle");
@@ -98,6 +98,10 @@ public class Item_astroswitch extends Item implements IHasModel
 					}else{
 						if (this== RiderItems.super_rocket_swich){
 							item_Fourzedriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), 11,"square");
+						}else if (this== RiderItems.super_launcher_swich){
+							item_Fourzedriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), 12,"triangle");
+							item_Fourzedriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), 1,"cross");
+							item_Fourzedriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), 13,"square");
 						}
 						item_Fourzedriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), numod,"circle");
 						item_Fourzedriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),0,"");
@@ -105,7 +109,7 @@ public class Item_astroswitch extends Item implements IHasModel
 				}
 				else if ( slot=="square"){
 					
-				if (item_Fourzedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))==8){
+				if (item_Fourzedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))==8||item_Fourzedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))==9){
 
 						item_Fourzedriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), 0,"circle");
 						item_Fourzedriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), 0,"triangle");
@@ -123,7 +127,7 @@ public class Item_astroswitch extends Item implements IHasModel
 						}}
 				}
 				else if ( slot=="triangle"){
-					if (item_Fourzedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))==8){
+					if (item_Fourzedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))==8||item_Fourzedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))==9){
 
 						item_Fourzedriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), 0,"circle");
 						item_Fourzedriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), 0,"triangle");
@@ -141,7 +145,7 @@ public class Item_astroswitch extends Item implements IHasModel
 					}
 					}
 				}else if ( slot=="cross"){
-					if (item_Fourzedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))==8){
+					if (item_Fourzedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))==8||item_Fourzedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))==9){
 
 						item_Fourzedriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), 0,"circle");
 						item_Fourzedriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), 0,"triangle");
@@ -151,7 +155,6 @@ public class Item_astroswitch extends Item implements IHasModel
 					}
 
 					if (player.isSneaking()){
-
 						item_Fourzedriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), 0,"cross");
 					}else{
 						item_Fourzedriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), numod,"cross");

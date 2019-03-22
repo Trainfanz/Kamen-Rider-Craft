@@ -14,7 +14,7 @@ import net.minecraft.nbt.NBTTagCompound;
 
 public class item_Fourzearmor extends ItemArmor implements IHasModel
 {
-	public static final String[] CoreName= new String[] {"base","elek","fire","magnet","cosmic","rocket","rocket_drill","meteor_fusion_states","meteor_nadeshiko_fusion_states"};
+	public static final String[] CoreName= new String[] {"base","elek","fire","magnet","cosmic","rocket","rocket_drill","meteor_fusion_states","meteor_nadeshiko_fusion_states","launcher"};
 
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
 	public String armorNamePrefix;
