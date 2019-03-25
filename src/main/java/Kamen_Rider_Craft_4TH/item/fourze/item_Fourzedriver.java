@@ -91,6 +91,13 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 			if(stack.getItem() instanceof ItemArmor)
 			{
 				Bipedswich armorModel = new Bipedswich();
+				
+				if(stack.getItem() == RiderItems.ikarosdriver) {
+					armorModel.wings=new ItemStack(RiderItems.ikaros_wing);
+                }else{
+                	  armorModel.wings=new ItemStack(RiderItems.blanknoitem);
+                }
+				
 				if (living.getItemStackFromSlot(EntityEquipmentSlot.HEAD)!=null&living.getItemStackFromSlot(EntityEquipmentSlot.CHEST)!=null&living.getItemStackFromSlot(EntityEquipmentSlot.LEGS)!=null){
 					if (living.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == RiderItems.Fourzehead&living.getItemStackFromSlot(EntityEquipmentSlot.LEGS).getItem() == RiderItems.Fourzelegs&living.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == RiderItems.Fourzetroso ){
 						armorModel.bipedRightArm2.showModel = slot == EntityEquipmentSlot.FEET;

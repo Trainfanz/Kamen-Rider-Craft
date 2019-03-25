@@ -22,7 +22,7 @@ public class Item_ridewatches extends Item implements IHasModel
 	public int num2;
 	public boolean works_with_decade_ridewatch=false;
 
-	public static String[] ARMS= new String[] {"base","build","exaid","ghost","drive","gaim","wizard","fourze","ooo","w","kiva","deno","kabuto","hibiki","blade","faiz","ryuki","agito","kuuga","genm","decade","exaid_w","quiz","shinobi","kikai"};
+	public static String[] ARMS= new String[] {"base","build","exaid","ghost","drive","gaim","wizard","fourze","ooo","w","kiva","deno","kabuto","hibiki","blade","faiz","ryuki","agito","kuuga","genm","decade","exaid_w","quiz","shinobi","kikai","revive_goretsu","revive_shippu"};
 
 
 
@@ -90,18 +90,34 @@ public class Item_ridewatches extends Item implements IHasModel
 								item_zikudriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
 								item_zikudriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),2, "1");
 
+							}else if (this == RiderItems.trinity_ridewatch){
+
+								item_zikudriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
+								item_zikudriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),4, "1");
+
 							}
 						}else if (belt.Rider=="geiz"){
 
 							if (this == RiderItems.geiz_ridewatch){
 
 								item_zikudriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
-								item_zikudriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "1");									
+								item_zikudriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "1");	
+								
+							}	
+							else if (this == RiderItems.geizrevive_ridewatch){
+								
+								if (item_zikudriver.get_locknum(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET))==num2){
+									item_zikudriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2+1);
+								}else{
+									item_zikudriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
+								}
+								item_zikudriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),3, "1");
+																
 							}		
 						}		
 					}
 					else if (num==1){
-						if (works_with_decade_ridewatch||item_zikudriver.get_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==0)
+						if (works_with_decade_ridewatch&item_zikudriver.get_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==1||item_zikudriver.get_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==0)
 
 							if (this == RiderItems.exaid_ridewatch&item_zikudriver.get_locknum(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET))==2){
 								item_zikudriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),21);
