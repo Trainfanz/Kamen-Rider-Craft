@@ -29,6 +29,8 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class Bipedswich extends ModelBiped
 {
+	
+	
 	/** The Biped's Right Arm */
 	public ModelRenderer bipedRightArm2;
 	/** The Biped's Left Arm */
@@ -39,6 +41,7 @@ public class Bipedswich extends ModelBiped
 	public ModelRenderer bipedLeftLeg2;
 	
 	public ItemStack belt;
+	public ItemStack wings;
 	
 	public Bipedswich()
 	{
@@ -192,6 +195,17 @@ public class Bipedswich extends ModelBiped
 		GL11.glTranslatef((float) (0f+dri),-1.1f,0.3f);
 		Minecraft.getMinecraft().getItemRenderer().renderItem(living,belt,null);
 		GL11.glPopMatrix();
+		GL11.glPushMatrix();
+
+		if(entity.isSneaking()){
+			GL11.glRotatef(20, 1, 0, 0);	
+		}
+		GL11.glRotatef(180, 0, 1, 0);
+		GL11.glRotatef(180, 0, 0, 1);
+		GL11.glScaled(3,3,1);
+		GL11.glTranslatef((float) (0f),-0.05f,-0.2f);
+		Minecraft.getMinecraft().getItemRenderer().renderItem(living,wings,null);
+		GL11.glPopMatrix();	
 
 	}
 

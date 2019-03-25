@@ -21,9 +21,9 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class item_zi_oarmor extends ItemArmor implements IHasModel
 {
 
-	public static final String[] CoreName= new String[] {"","_decade","_ii"};
+	public static final String[] CoreName= new String[] {"","_decade","_ii","","_trinity"};
 
-	
+
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
 	public String armorNamePrefix;
 	public ArmorMaterial material;
@@ -39,7 +39,7 @@ public class item_zi_oarmor extends ItemArmor implements IHasModel
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
 	}
-	
+
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
@@ -60,15 +60,16 @@ public class item_zi_oarmor extends ItemArmor implements IHasModel
 				if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_zikudriver){
 
 					String rider = ((item_zikudriver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider;
-				
-					
+
+
 					if (item_zikudriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==1){
+
 						return Refercence.MODID+":textures/armor/"+item_zikudriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+"_decade_ver"+"_1.png";
-						}else if (item_zikudriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")>1){
-								return Refercence.MODID+":textures/armor/"+rider+CoreName[item_zikudriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")]+"_base_1.png";
-								}else{
-						return Refercence.MODID+":textures/armor/"+item_zikudriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+"_1.png";
-						}
+
+					}else{
+
+						return Refercence.MODID+":textures/armor/"+rider+CoreName[item_zikudriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")]+"_" +item_zikudriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+"_1.png";
+					}
 
 				}
 				return Refercence.MODID+":textures/armor/blank.png";
@@ -83,7 +84,7 @@ public class item_zi_oarmor extends ItemArmor implements IHasModel
 
 
 		}
-		
+
 		return Refercence.MODID+":textures/armor/blank.png";
 
 	}
@@ -104,9 +105,9 @@ public class item_zi_oarmor extends ItemArmor implements IHasModel
 				armorModel.bipedBody2.showModel = slot == EntityEquipmentSlot.HEAD;
 				armorModel.bipedLeftLeg2.showModel = slot == EntityEquipmentSlot.HEAD;
 				armorModel.bipedRightLeg2.showModel = slot == EntityEquipmentSlot.HEAD;
-				
+
 				armorModel.bipedBody3.showModel = slot == EntityEquipmentSlot.HEAD;
-				
+
 				armorModel.bipedHead2.showModel = slot == EntityEquipmentSlot.HEAD;
 				armorModel.bipedHeadwear2.showModel = slot == EntityEquipmentSlot.HEAD;
 
@@ -135,5 +136,5 @@ public class item_zi_oarmor extends ItemArmor implements IHasModel
 		return maxDamageArray;
 	}
 
-	
+
 }
