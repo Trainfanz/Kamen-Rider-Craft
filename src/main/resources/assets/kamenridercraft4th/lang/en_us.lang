@@ -359,6 +359,7 @@ item.fourzetroso.name=Fourze Chestplate
 item.fourzelegs.name=Fourze Leggings
 
 item.fourzedriver.name=Fourze Driver
+item.ikarosdriver.name=Ikaros Driver
 
 
 item.rocket_swich.name=Rocket Switch
@@ -1937,6 +1938,8 @@ item.hattari_driver.name=Hattari Driver
 item.quiz_driver.name=Quiz Driver
 item.kikai_driver.name=Kikai Driver
 item.ziku_driver_zi_o_mirror.name=Ziku Driver (Mirror Zi-O)
+item.another_build_driver.name=Another Build Driver
+item.another_exaid_driver.name=Another Ex-Aid Driver
 
 item.zikan_grade.name=Zikan Grade
 item.zikan_zax.name=Zikan Zax
@@ -1969,6 +1972,9 @@ item.agito_ridewatch.name=Agito Ridewatch
 item.kuuga_ridewatch.name=Kuuga Ridewatch
 
 item.zi_o_ii_ridewatch.name=Zi-O II Ridewatch
+item.trinity_ridewatch.name=Zi-O Trinity Ridewatch
+
+item.geizrevive_ridewatch.name=Geiz Revive Ridewatch
 
 item.genm_ridewatch.name=Genm Ridewatch
 item.cross_z_ridewatch.name=Cross-Z Ridewatch
