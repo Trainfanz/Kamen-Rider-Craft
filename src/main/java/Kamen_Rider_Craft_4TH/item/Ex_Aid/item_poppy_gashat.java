@@ -81,7 +81,6 @@ public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer play
 			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_ex_aiddriver){
 				EntityPoppy entitybike  = new EntityPoppy(worldIn);
 			playerIn.sendMessage( new TextComponentString(TextFormatting.WHITE+"Let's Game! "+TextFormatting.YELLOW+"Meccha Game! "+TextFormatting.WHITE+"Muchha Game! "+TextFormatting.YELLOW+"Whatcha Name!? "+TextFormatting.LIGHT_PURPLE+"I'm Poppy Pipopapo!"));
-			
 			entitybike.setLocationAndAngles(playerIn.posX, playerIn.posY, playerIn.posZ, 0, 0.0F);
             worldIn.spawnEntity(entitybike);
 			if (!playerIn.capabilities.isCreativeMode){

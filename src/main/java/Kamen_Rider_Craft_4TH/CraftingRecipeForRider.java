@@ -4,6 +4,7 @@ package Kamen_Rider_Craft_4TH;
 import Kamen_Rider_Craft_4TH.util.Refercence;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.ResourceLocation;
@@ -784,9 +785,9 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":neo_amazons_driver_new_omega"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.neo_amazons_driver_omega,1), "aaa","aca","aaa", 'a', RiderItems.amazon_cell_vial, 'c', RiderItems.amazon_injector_new_omega);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":amazons_driver_blind_alpha"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.amazons_driver_blind_alpha,1), "aaa","aca","aaa", 'a', RiderItems.amazon_cell_vial, 'c', RiderItems.condorer_core_blind_alpha);
 
-		
-		//	GameRegistry.addShapedRecipe(new ResourceLocation("masked_rider_craft:masked_rider_head"), new ResourceLocation("masked_rider_craft:masked_rider"),new ItemStack(RiderItems.masked_rider_head,1), "aaa","a a", 'a', RiderItems.ecto_gem);
-				
+		if (Item.getByNameOrId("supersentaicraft:red_ryusoul") != null){
+			GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":ryusoulger_ridewatch"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ryusoulger_ridewatch), new Ingredient[]{Ingredient.fromItem(RiderItems.blank_watch),Ingredient.fromItem(Item.getByNameOrId("supersentaicraft:red_ryusoul"))});
+		}		
 	}
 
 }
