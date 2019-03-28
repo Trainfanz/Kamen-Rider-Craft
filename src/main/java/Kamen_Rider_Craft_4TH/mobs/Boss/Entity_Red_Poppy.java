@@ -120,7 +120,7 @@ if (!this.world.isRemote){
 			this.dropItem(RiderItems.toki_meki_crisis_gashat, 1);
 			break;
 		case 1:
-			this.dropItem(RiderItems.toki_meki_crisis_gashat, 1);
+			this.dropItem(RiderItems.poppy_doremifa_beat_gashat, 1);
 			break;
 		}
        }
