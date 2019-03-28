@@ -13,6 +13,8 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_HellBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Kaiser;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_KaiserReverse;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_NightRogue;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Para_dx;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Red_Poppy;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_RemoconBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_another_build;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_bikaiser;
@@ -27,6 +29,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_taboo_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMasquerade;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityNebulaBugsterVirus;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityRidePlayer;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_hard_guardian;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_needle_smash;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entitygamma_commando;
@@ -74,6 +77,12 @@ public class mobsCore {
 		EntityRegistry.addSpawn(Entitygamma_commando.class,  15, 1, 4, EnumCreatureType.MONSTER,Biome.getBiome(1),Biome.getBiome(2),Biome.getBiome(3),Biome.getBiome(4),Biome.getBiome(5),Biome.getBiome(6),Biome.getBiome(7),Biome.getBiome(10),Biome.getBiome(11),Biome.getBiome(12),Biome.getBiome(14),Biome.getBiome(15),Biome.getBiome(16),Biome.getBiome(17),Biome.getBiome(18),Biome.getBiome(19),Biome.getBiome(20),Biome.getBiome(21),Biome.getBiome(22),Biome.getBiome(23),Biome.getBiome(24),Biome.getBiome(25),Biome.getBiome(26),Biome.getBiome(27),Biome.getBiome(28),Biome.getBiome(29),Biome.getBiome(30),Biome.getBiome(31),Biome.getBiome(32),Biome.getBiome(33),Biome.getBiome(34),Biome.getBiome(35),Biome.getBiome(36),Biome.getBiome(37),Biome.getBiome(38),Biome.getBiome(39),Biome.getBiome(129),Biome.getBiome(130),Biome.getBiome(131),Biome.getBiome(132),Biome.getBiome(133),Biome.getBiome(134),Biome.getBiome(140),Biome.getBiome(149),Biome.getBiome(151),Biome.getBiome(155),Biome.getBiome(156),Biome.getBiome(157),Biome.getBiome(158),Biome.getBiome(160),Biome.getBiome(161),Biome.getBiome(162),Biome.getBiome(163),Biome.getBiome(164),Biome.getBiome(165),Biome.getBiome(166),Biome.getBiome(167));
 	
 		EntityRegistry.registerModEntity(new ResourceLocation("PoppyMob"),EntityPoppy.class, "PoppyMob", 504, TokuCraft_core.instance, 80, 3, false, 0xfcfb81,0xff84ac);
+		
+		EntityRegistry.registerModEntity(new ResourceLocation("RidePlayerMob"),EntityRidePlayer.class, "RidePlayerMob", 543, TokuCraft_core.instance, 80, 3, false,0xf1c192, 0x854303);
+		EntityRegistry.addSpawn(EntityRidePlayer.class,  15, 1, 4, EnumCreatureType.MONSTER,Biome.getBiome(8));
+		
+		EntityRegistry.registerModEntity(new ResourceLocation("Para_dxMob"),Entity_Para_dx.class, "Para_dxMob", 542, TokuCraft_core.instance, 80, 3, false,0xff0000, 0x2a00ff);
+		EntityRegistry.registerModEntity(new ResourceLocation("Red_PoppyMob"),Entity_Red_Poppy.class, "Red_PoppyMob", 544, TokuCraft_core.instance, 80, 3, false, 0xfcfb81,0xff84ac);
 		
 		EntityRegistry.registerModEntity(new ResourceLocation("ChronosMob"),EntityChronos.class, "ChronosMob", 505, TokuCraft_core.instance, 80, 3, false,000000, 0x44df00);
 		

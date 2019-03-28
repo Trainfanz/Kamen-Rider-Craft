@@ -86,7 +86,7 @@ public class item_ex_aiddriver extends ItemArmor  implements IHasModel
 				
 				if(living.getHeldItemMainhand()!=null){
 					if( living.getHeldItemMainhand().getItem()==RiderItems.gashacon_bugvisor_ii){
-						if( this==RiderItems.gashacon_bugvisor_ii_chronicle_bugster||this==RiderItems.gashacon_bugvisor_ii_chronos||this==RiderItems.gashacon_bugvisor_ii_chronos_gemdeus||this==RiderItems.gashacon_bugvisor_ii_poppy){
+						if( this==RiderItems.gashacon_bugvisor_ii_chronicle_bugster||this==RiderItems.gashacon_bugvisor_ii_chronos||this==RiderItems.gashacon_bugvisor_ii_chronos_gemdeus||this==RiderItems.gashacon_bugvisor_ii_poppy_red||this==RiderItems.gashacon_bugvisor_ii_poppy){
 							armorModel.belt=new ItemStack( RiderItems.bugster_buckle_ii);
 						}else{
 							armorModel.belt=stack;

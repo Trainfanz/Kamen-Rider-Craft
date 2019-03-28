@@ -24,6 +24,7 @@ import Kamen_Rider_Craft_4TH.item.Ex_Aid.Item_gashat;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_ex_aidarmor;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_ex_aidarmor2;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_ex_aiddriver;
+import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_poppy_gashat;
 import Kamen_Rider_Craft_4TH.item.Ichigo.Item_showa_change;
 import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigoarmor;
 import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigoarmor2;
@@ -2209,6 +2210,8 @@ public class RiderItems {
 	public static Item gamer_driver_genmu = new item_ex_aiddriver("gamer_driver_genmu",ArmorMaterial.DIAMOND, 4, 3,"genmu",0).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 	public static Item gashacon_bugvisor_genmu = new item_ex_aiddriver("gashacon_bugvisor_genmu",ArmorMaterial.DIAMOND, 4, 3,"zombie_genmu",2).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 	public static Item gashacon_bugvisor_ii_poppy = new item_ex_aiddriver("gashacon_bugvisor_ii_poppy",ArmorMaterial.DIAMOND, 4, 3,"poppy",2).setCreativeTab(Tabs.tabex_aid);
+	public static Item gashacon_bugvisor_ii_poppy_red = new item_ex_aiddriver("gashacon_bugvisor_ii_poppy_red",ArmorMaterial.DIAMOND, 4, 3,"poppy_red",2).setCreativeTab(Tabs.tabex_aid);
+	
 	public static Item gashacon_bugvisor_ii_chronos = new item_ex_aiddriver("gashacon_bugvisor_ii_chronos",ArmorMaterial.DIAMOND, 4, 3,"chronos",2).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 	public static Item gashacon_bugvisor_ii_chronos_gemdeus = new item_ex_aiddriver("gashacon_bugvisor_ii_chronos_gemdeus",ArmorMaterial.DIAMOND, 4, 3,"chronos_gemdeus",2).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 	public static Item gashacon_bugvisor_ii_lazer = new item_ex_aiddriver("gashacon_bugvisor_ii_lazer",ArmorMaterial.DIAMOND, 4, 3,"lazer_x",2).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
@@ -2322,6 +2325,8 @@ public class RiderItems {
 	public static Item taiko_no_tatsujin_gashat = new Item_gashat(4, 0,"taiko_no_tatsujin_gashat").AddGashatToBlockList(4).setCreativeTab(Tabs.tabex_aid);
 	public static Item gabarizing_gashat = new Item_gashat(4, 0,"gabarizing_gashat").AddGashatToBlockList(4).setCreativeTab(Tabs.tabex_aid);
 
+	public static Item poppy_doremifa_beat_gashat = new item_poppy_gashat("poppy_doremifa_beat_gashat").setCreativeTab(Tabs.tabex_aid);
+	
 	public static Item gamer_driver_robots = new Item_ore("gamer_driver_robots");
 	public static Item gamer_driver_protorobots = new Item_ore("gamer_driver_protorobots");
 	public static Item gamer_driver_doremifa = new Item_ore("gamer_driver_doremifa");
@@ -2382,6 +2387,7 @@ public class RiderItems {
 	//used Drive for kuuga
 	public static Item gamer_driver_ichigo = new Item_ore("gamer_driver_ichigo");
 
+	
 	
 
 	//build
