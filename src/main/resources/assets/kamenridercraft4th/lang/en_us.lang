@@ -39,6 +39,9 @@ entity.AccelMob.name=Kamen Rider Accel
 entity.Acrobatter.name=Acrobatter
 entity.ridoron.name=Ridoron
 entity.machine_tornador.name=Machine Tornador
+entity.RidePlayerMob.name=Ride Player
+entity.Para_dxMob.name=Kamen Rider ParaDX
+entity.Red_PoppyMob.name=Kamen Rider Poppy
 
 effect.fly=Flying
 effect.fire_punch=Fire Punch
@@ -1628,6 +1631,7 @@ item.gamer_driver_nico_snipe.name=Gamer Driver (Nico Snipe)
       
 item.gashacon_bugvisor_genmu.name=Gashacon Bugvisor (Genm)
 item.gashacon_bugvisor_ii_poppy.name=Gashacon Bugvisor II (Poppy)
+item.gashacon_bugvisor_ii_poppy_red.name=Gashacon Bugvisor II (Controlled Poppy)
 item.gashacon_bugvisor_ii_chronos.name=Gashacon Bugvisor II (Chronos)
 item.gashacon_bugvisor_ii_chronos_gemdeus.name=Gashacon Bugvisor II (Chronos Gemdeus)
 
@@ -1692,6 +1696,7 @@ item.proto_gekitotsu_robots_gashat.name=Proto Gekitotsu Robots Gashat
         
 item.doremifa_beat_gashat.name=DoReMiFa Beat Gashat
 item.proto_doremifa_beat_gashat.name=Proto DoReMiFa Beat Gashat
+item.poppy_doremifa_beat_gashat.name=DoReMiFa Beat Gashat (Poppy Ver.)
         
 item.jet_combat_gashat.name=Jet Combat Gashat
 item.proto_jet_combat_gashat.name=Proto Jet Combat Gashat
