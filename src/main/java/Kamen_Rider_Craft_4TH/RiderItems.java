@@ -20,6 +20,7 @@ import Kamen_Rider_Craft_4TH.blocks.pandora_box_block;
 import Kamen_Rider_Craft_4TH.blocks.purifyer_block;
 import Kamen_Rider_Craft_4TH.blocks.solidifyer_block;
 import Kamen_Rider_Craft_4TH.item.*;
+import Kamen_Rider_Craft_4TH.item.Ex_Aid.Item_gashacon_breaker;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.Item_gashat;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_ex_aidarmor;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_ex_aidarmor2;
@@ -2154,13 +2155,13 @@ public class RiderItems {
 
 
 	// Ex-Aid
-	public static Item gashacon_breaker = new ItemBaseSword("gashacon_breaker",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-	public static Item gashacon_breaker_ham = new ItemBaseSword("gashacon_breaker_ham",Tabs.gashacon_breaker_ham).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item gashacon_breaker = new Item_gashacon_breaker("gashacon_breaker",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	//public static Item gashacon_breaker_ham = new ItemBaseSword("gashacon_breaker_ham",Tabs.gashacon_breaker_ham).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 
 	public static Item gashacon_key_slasher = new ItemBaseSword("gashacon_key_slasher",Tabs.gashacon_key_slasher).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 
-	public static Item gashacon_sword = new ItemBaseSword("gashacon_sword",Tabs.gashacon_sword).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-	public static Item gashacon_sword_ice = new ItemBaseSword("gashacon_sword_ice",Tabs.gashacon_sword).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item gashacon_sword = new Item_gashacon_breaker("gashacon_sword",Tabs.gashacon_sword).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	//public static Item gashacon_sword_ice = new ItemBaseSword("gashacon_sword_ice",Tabs.gashacon_sword).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 
 	public static Item gashacon_magnum_gun = new Item_gun("gashacon_magnum_gun",Tabs.gashacon_magnum_gun).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 
