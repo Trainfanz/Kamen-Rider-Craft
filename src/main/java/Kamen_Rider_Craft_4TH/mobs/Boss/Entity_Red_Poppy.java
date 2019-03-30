@@ -70,24 +70,14 @@ public class Entity_Red_Poppy extends EntityBossBase
 	public Entity_Red_Poppy(World par1World)
 	{
 		super(par1World);
-		
-	}
-	
-	/**
-	 * Gives armor or weapon for entity based on given DifficultyInstance
-	 */
-	protected void setEquipmentBasedOnDifficulty(DifficultyInstance difficulty)
-	{
-		//super.setEquipmentBasedOnDifficulty(difficulty);
 		this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.gashacon_bugvisor_ii));
 		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.ex_aidtroso));
 		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.ex_aidhead));
 		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(RiderItems.gashacon_bugvisor_ii_poppy_red));
 		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.ex_aidlegs));
+		
 	}
   
- 
-    
     protected void applyEntityAttributes()
     {
         super.applyEntityAttributes();

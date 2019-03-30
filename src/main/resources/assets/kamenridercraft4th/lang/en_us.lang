@@ -122,6 +122,7 @@ tile.night_rogue_block.name=Night Rogue Block
 tile.hell_bros_block.name=Hell Bros Block
 tile.bi_kaiser_block.name=Bi Kaiser Block
 tile.another_build_block.name=Another Build Block
+tile.cronus_block.name=Chronos Block
 
 tile.purifyer.name=Full Bottle Purifier
 tile.solidifyer.name=Full Bottle Solidifier

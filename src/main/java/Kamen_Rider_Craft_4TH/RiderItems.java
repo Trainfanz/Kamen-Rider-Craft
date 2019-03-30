@@ -310,6 +310,7 @@ public class RiderItems {
 	public static Block hell_bros_block = new mob_block("hell_bros_block",Material.ROCK, "hell_bros", 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
 	public static Block bi_kaiser_block = new mob_block("bi_kaiser_block",Material.ROCK, "bi_kaiser", 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
 	public static Block another_build_block = new mob_block("another_build_block",Material.ROCK, "another_build", 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabzi_o);
+	public static Block cronus_block = new mob_block("cronus_block",Material.ROCK, "cronus", 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabex_aid);
 
 	public static Item rider_circuit = new Item_ore("rider_circuit").setCreativeTab(Tabs.tabIchigo);
 

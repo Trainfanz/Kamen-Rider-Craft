@@ -5,6 +5,7 @@ import java.util.Random;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.gaim.item_Gaimdriver;
+import Kamen_Rider_Craft_4TH.mobs.Boss.EntityChronos;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_HellBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_NightRogue;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_another_build;
@@ -74,6 +75,8 @@ public class mob_block extends Block implements IHasModel
 				entitychicken = new Entity_HellBros(worldIn);	
 			}else if (CRYSTAL == "bi_kaiser"){
 				entitychicken = new Entity_bikaiser(worldIn);	
+			}else if (CRYSTAL == "cronus"){
+				entitychicken = new EntityChronos(worldIn);	
 			}else{
 				entitychicken = new Entity_another_build(worldIn);
 			}

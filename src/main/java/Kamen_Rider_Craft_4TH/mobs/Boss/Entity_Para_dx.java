@@ -70,23 +70,13 @@ public class Entity_Para_dx extends EntityBossBase
 	public Entity_Para_dx(World par1World)
 	{
 		super(par1World);
-		
-	}
-	
-	/**
-	 * Gives armor or weapon for entity based on given DifficultyInstance
-	 */
-	protected void setEquipmentBasedOnDifficulty(DifficultyInstance difficulty)
-	{
-		//super.setEquipmentBasedOnDifficulty(difficulty);
 		this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.parabragun_axe));
 		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.ex_aidtroso));
 		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.ex_aidhead));
 		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(RiderItems.gamer_driver_paradox));
 		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.ex_aidlegs));
+		
 	}
-  
- 
     
     protected void applyEntityAttributes()
     {

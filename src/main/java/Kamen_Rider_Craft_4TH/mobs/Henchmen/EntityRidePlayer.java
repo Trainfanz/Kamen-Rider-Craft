@@ -55,20 +55,13 @@ public class EntityRidePlayer extends Entity_base_henchmen
 	public EntityRidePlayer(World par1World)
 	{
 		super(par1World);
-	}
-
-	/**
-	 * Gives armor or weapon for entity based on given DifficultyInstance
-	 */
-	protected void setEquipmentBasedOnDifficulty(DifficultyInstance difficulty)
-	{
-		//super.setEquipmentBasedOnDifficulty(difficulty);
 		this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.ride_weapon));
 		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.ex_aidtroso));
 		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.ex_aidhead));
 		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(RiderItems.rideplayerbelt));
 		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.ex_aidlegs));
 	}
+
 	protected void applyEntityAttributes()
 	{
 		super.applyEntityAttributes();
