@@ -2239,10 +2239,10 @@ public class RiderItems {
 	public static Item taddle_quest_gashat = new Item_gashat(0, 0,"taddle_quest_gashat").AddGashatToBlockList(10).setCreativeTab(Tabs.tabex_aid);
 	public static Item bang_bang_shooting_gashat = new Item_gashat(0, 0,"bang_bang_shooting_gashat").AddGashatToBlockList(10).setCreativeTab(Tabs.tabex_aid);
 	public static Item bakusou_bike_gashat = new Item_gashat(0, 0,"bakusou_bike_gashat").AddGashatToBlockList(10).setCreativeTab(Tabs.tabex_aid);
-	public static Item proto_mighty_action_x_gashat = new Item_gashat(0, 0,"proto_mighty_action_x_gashat").AddGashatToBlockList(10).setCreativeTab(Tabs.tabex_aid);
-	public static Item proto_taddle_quest_gashat = new Item_gashat(0, 0,"proto_taddle_quest_gashat").AddGashatToBlockList(10).setCreativeTab(Tabs.tabex_aid);
-	public static Item proto_bang_bang_shooting_gashat = new Item_gashat(0, 0,"proto_bang_bang_shooting_gashat").AddGashatToBlockList(10).setCreativeTab(Tabs.tabex_aid);
-	public static Item proto_bakusou_bike_gashat = new Item_gashat(4, 0,"proto_bakusou_bike_gashat").AddGashatToBlockList(10).setCreativeTab(Tabs.tabex_aid);
+	public static Item proto_mighty_action_x_gashat = new Item_gashat(0, 0,"proto_mighty_action_x_gashat").setCreativeTab(Tabs.tabex_aid);
+	public static Item proto_taddle_quest_gashat = new Item_gashat(0, 0,"proto_taddle_quest_gashat").setCreativeTab(Tabs.tabex_aid);
+	public static Item proto_bang_bang_shooting_gashat = new Item_gashat(0, 0,"proto_bang_bang_shooting_gashat").setCreativeTab(Tabs.tabex_aid);
+	public static Item proto_bakusou_bike_gashat = new Item_gashat(4, 0,"proto_bakusou_bike_gashat").setCreativeTab(Tabs.tabex_aid);
 
 	public static Item proto_mighty_action_x_gashat_origin = new Item_gashat(0, 0,"proto_mighty_action_x_gashat_origin").AddGashatToBlockList(4).setCreativeTab(Tabs.tabex_aid);
 	public static Item dangerous_zombie_gashat = new Item_gashat(0, 25,"dangerous_zombie_gashat").AddBugvisorGashatToBlockList(5).setCreativeTab(Tabs.tabex_aid);
@@ -2282,23 +2282,23 @@ public class RiderItems {
 	public static Item lets_go_ichigou_gashat = new Item_gashat(0, 0,"lets_go_ichigou_gashat").setCreativeTab(Tabs.tabex_aid);
 
 	public static Item gekitotsu_robots_gashat = new Item_gashat(1, 1,"gekitotsu_robots_gashat").AddGashatToBlockList(10).setCreativeTab(Tabs.tabex_aid);
-	public static Item proto_gekitotsu_robots_gashat = new Item_gashat(1, 2,"proto_gekitotsu_robots_gashat").AddGashatToBlockList(10).setCreativeTab(Tabs.tabex_aid);
+	public static Item proto_gekitotsu_robots_gashat = new Item_gashat(1, 2,"proto_gekitotsu_robots_gashat").setCreativeTab(Tabs.tabex_aid);
 
 	public static Item doremifa_beat_gashat = new Item_gashat(1, 3,"doremifa_beat_gashat").AddGashatToBlockList(10).setCreativeTab(Tabs.tabex_aid);
-	public static Item proto_doremifa_beat_gashat = new Item_gashat(1, 4,"proto_doremifa_beat_gashat").AddGashatToBlockList(10).setCreativeTab(Tabs.tabex_aid);
+	public static Item proto_doremifa_beat_gashat = new Item_gashat(1, 4,"proto_doremifa_beat_gashat").setCreativeTab(Tabs.tabex_aid);
 
 	public static Item jet_combat_gashat = new Item_gashat(1, 5,"jet_combat_gashat").AddGashatToBlockList(10).setCreativeTab(Tabs.tabex_aid);
-	public static Item proto_jet_combat_gashat = new Item_gashat(1, 6,"proto_jet_combat_gashat").AddGashatToBlockList(10).setCreativeTab(Tabs.tabex_aid);
+	public static Item proto_jet_combat_gashat = new Item_gashat(1, 6,"proto_jet_combat_gashat").setCreativeTab(Tabs.tabex_aid);
 
 	public static Item giri_giri_chambara_gashat = new Item_gashat(0, 14,"giri_giri_chambara_gashat").AddGashatToBlockList(10).setCreativeTab(Tabs.tabex_aid);
-	public static Item proto_giri_giri_chambara_gashat = new Item_gashat(0, 15,"proto_giri_giri_chambara_gashat").AddGashatToBlockList(10).setCreativeTab(Tabs.tabex_aid);
+	public static Item proto_giri_giri_chambara_gashat = new Item_gashat(0, 15,"proto_giri_giri_chambara_gashat").setCreativeTab(Tabs.tabex_aid);
 
 	public static Item shakariki_sports_gashat = new Item_gashat(1, 7,"shakariki_sports_gashat").AddGashatToBlockList(10).setCreativeTab(Tabs.tabex_aid);
-	public static Item proto_shakariki_sports_gashat = new Item_gashat(1, 8,"proto_shakariki_sports_gashat").AddGashatToBlockList(10).setCreativeTab(Tabs.tabex_aid);
+	public static Item proto_shakariki_sports_gashat = new Item_gashat(1, 8,"proto_shakariki_sports_gashat").setCreativeTab(Tabs.tabex_aid);
 
 
 	public static Item drago_knight_hunter_z_gashat = new Item_gashat(1, 9,"drago_knight_hunter_z_gashat").AddGashatToBlockList(5).setCreativeTab(Tabs.tabex_aid);
-	public static Item proto_drago_knight_hunter_z_gashat = new Item_gashat(4, 0,"proto_drago_knight_hunter_z_gashat").AddGashatToBlockList(5).setCreativeTab(Tabs.tabex_aid);
+	public static Item proto_drago_knight_hunter_z_gashat = new Item_gashat(4, 0,"proto_drago_knight_hunter_z_gashat").setCreativeTab(Tabs.tabex_aid);
 
 	public static Item ju_ju_burger_gashat = new Item_gashat(1, 17,"ju_ju_burger_gashat").AddGashatToBlockList(7).setCreativeTab(Tabs.tabex_aid);
 	public static Item night_of_safari_gashat = new Item_gashat(1, 21,"night_of_safari_gashat").AddGashatToBlockList(7).setCreativeTab(Tabs.tabex_aid);

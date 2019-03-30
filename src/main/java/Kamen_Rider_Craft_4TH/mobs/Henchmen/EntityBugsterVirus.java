@@ -5,6 +5,10 @@ import java.util.Calendar;
 import java.util.UUID;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.mobs.Boss.EntityBossBase;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Para_dx;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Red_Poppy;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_genm;
 import net.minecraft.block.Block;
 
 import net.minecraft.entity.Entity;
@@ -29,6 +33,7 @@ import net.minecraft.entity.monster.EntityZombie;
 import net.minecraft.entity.passive.EntityVillager;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
+import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
@@ -37,6 +42,8 @@ import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.text.TextComponentString;
+import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
 
 public class EntityBugsterVirus extends Entity_base_henchmen
@@ -59,6 +66,18 @@ public class EntityBugsterVirus extends Entity_base_henchmen
 	{
 		if (!this.world.isRemote){
 
+			if (this.getAttackTarget()instanceof EntityPlayer){
+				EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
+				 EntityBossBase entityboss  = new Entity_genm(world);
+			switch (this.rand.nextInt(25))
+			{
+			case 0:
+				playerIn.sendMessage( new TextComponentString(TextFormatting.WHITE+"Gachan! Level up!"+TextFormatting.DARK_PURPLE+" Mighty Jump! Mighty Kick! Mighty Action X!"));
+				entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				world.spawnEntity(entityboss);
+				break;
+	
+			}
 			this.dropItem(RiderItems.bugster_virus_dna, 1);
 			switch (this.rand.nextInt(25))
 			{
@@ -74,10 +93,8 @@ public class EntityBugsterVirus extends Entity_base_henchmen
 			case 3:
 				this.dropItem(RiderItems.bakusou_bike_gashat, 1); 
 				break;
-			case 4:
-				this.dropItem(RiderItems.proto_mighty_action_x_gashat, 1);
-				break;
 			}
 		}
-	}
+		}
+		}
 }
