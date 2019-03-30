@@ -22,6 +22,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_clay_doll_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_2;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_3;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_genm;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_grease;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_red_nazca_dopant;
@@ -80,6 +81,8 @@ public class mobsCore {
 		
 		EntityRegistry.registerModEntity(new ResourceLocation("RidePlayerMob"),EntityRidePlayer.class, "RidePlayerMob", 543, TokuCraft_core.instance, 80, 3, false,0xf1c192, 0x854303);
 		EntityRegistry.addSpawn(EntityRidePlayer.class,  15, 1, 4, EnumCreatureType.MONSTER,Biome.getBiome(8));
+		
+		EntityRegistry.registerModEntity(new ResourceLocation("genmMob"),Entity_genm.class, "genmMob", 545, TokuCraft_core.instance, 80, 3, false,0x262626, 0x9a03d9);
 		
 		EntityRegistry.registerModEntity(new ResourceLocation("Para_dxMob"),Entity_Para_dx.class, "Para_dxMob", 542, TokuCraft_core.instance, 80, 3, false,0xff0000, 0x2a00ff);
 		EntityRegistry.registerModEntity(new ResourceLocation("Red_PoppyMob"),Entity_Red_Poppy.class, "Red_PoppyMob", 544, TokuCraft_core.instance, 80, 3, false, 0xfcfb81,0xff84ac);

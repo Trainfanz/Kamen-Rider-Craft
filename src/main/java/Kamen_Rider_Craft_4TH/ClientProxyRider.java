@@ -27,6 +27,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_clay_doll_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_2;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_3;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_genm;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_grease;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_red_nazca_dopant;
@@ -89,6 +90,8 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entityshocker_combatman.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/shocker_combatman.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entityguardian.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/guardian.png"));
+		
+		RenderingRegistry.registerEntityRenderingHandler(Entity_genm.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/genm.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityChronos.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/chronos.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_Para_dx.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/para_dx.png"));
