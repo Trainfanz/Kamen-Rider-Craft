@@ -2748,6 +2748,12 @@ public class RiderItems {
 	public static Item another_build_ridewatch = new Item_ore("another_build_ridewatch").setCreativeTab(Tabs.tabzi_o);  
 
 	public static Item ryusoulger_ridewatch = new Item_ore("ryusoulger_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	
+	public static Item shuriken_starter = new Item_ore("shuriken_starter").setCreativeTab(Tabs.tabzi_o);
+	public static Item shuriken_starter_hattari = new Item_ore("shuriken_starter_hattari").setCreativeTab(Tabs.tabzi_o);
+	public static Item quiz_topper = new Item_ore("quiz_topper").setCreativeTab(Tabs.tabzi_o);
+	public static Item spannerder_screwder = new Item_ore("spannerder_screwder").setCreativeTab(Tabs.tabzi_o);
+	public static Item ginga_globe = new Item_ore("ginga_globe").setCreativeTab(Tabs.tabzi_o);
 
 	public static Item ziku_driver_build = new Item_ore("ziku_driver_build");
 	public static Item ziku_driver_exaid = new Item_ore("ziku_driver_exaid");

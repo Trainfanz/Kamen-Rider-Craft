@@ -42,6 +42,7 @@ entity.machine_tornador.name=Machine Tornador
 entity.RidePlayerMob.name=Ride Player
 entity.Para_dxMob.name=Kamen Rider ParaDX
 entity.Red_PoppyMob.name=Kamen Rider Poppy
+entity.genmMob.name=Kamen Rider GENM
 
 effect.fly=Flying
 effect.fire_punch=Fire Punch
@@ -1944,6 +1945,7 @@ item.shinobi_driver.name=Shinobi Driver
 item.hattari_driver.name=Hattari Driver
 item.quiz_driver.name=Quiz Driver
 item.kikai_driver.name=Kikai Driver
+item.ginga_driver.name=Ginga Driver
 item.ziku_driver_zi_o_mirror.name=Ziku Driver (Mirror Zi-O)
 item.another_build_driver.name=Another Build Driver
 item.another_exaid_driver.name=Another Ex-Aid Driver
@@ -1994,6 +1996,13 @@ item.kikai_miridewatch.name=Kikai Miridewatch
 
 item.kodama_suika_arms.name=Kodama Suika Arms
 item.another_build_ridewatch.name=Another Build Ridewatch
+item.ryusoulger_ridewatch.name=Ryusoulger Ridewatch
+
+item.shuriken_starter.name=Shuriken Starter (Shinobi)
+item.shuriken_starter_hattari.name=Shuriken Starter (Hattari)
+item.quiz_topper.name=Quiz Topper
+item.spannerder_screwder.name=Spannerder and Screwder
+item.ginga_globe.name=Ginga Globe
         
                 
 item.amazonshead.name=Amazons Helmet
