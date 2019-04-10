@@ -318,6 +318,24 @@ public class item_zikudriver extends ItemArmor  implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
 
+										}else if (item_zikudriver.get_core(armor, "1")==3){
+										if (item_zikudriver.get_lockbase(armor)=="revive_goretsu"){
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));	
+											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.HUNGER, 5, 1,true,false));		
+										}else  if (item_zikudriver.get_lockbase(armor)=="revive_shippu"){
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));	
+											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 4,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.HUNGER, 5, 1,true,false));	
+
+											}
+										}else if (item_zikudriver.get_core(armor, "1")==4){
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
 										}
 									}
 										
@@ -344,6 +362,24 @@ public class item_zikudriver extends ItemArmor  implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));		
+										}
+									}
+									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.shinobi_driver){
+										
+										if (item_zikudriver.get_core(armor, "1")==0){											
+											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));	
+											if (item_OOOdriver.get_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET)) > 45){
+												if (player.isSneaking()){
+
+													Vec3d look = player.getLookVec();
+													player.motionX=look.x*3;
+													player.motionY=look.y;
+													player.motionZ=look.z*3;
+													item_OOOdriver.set_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),0);
+
+												}}
 										}
 									}
 									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.ziku_driver_zi_o_mirror){

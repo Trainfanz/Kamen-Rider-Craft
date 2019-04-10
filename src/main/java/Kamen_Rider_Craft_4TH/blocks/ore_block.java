@@ -1390,7 +1390,7 @@ public class ore_block extends Block implements IHasModel
 			}
 		}
 		if (CRYSTAL==RiderItems.blank_miridewatch){
-			int rand = generator.nextInt(75);
+			int rand = generator.nextInt(120);
 			if (rand<30){
 				return RiderItems.woz_miridewatch;
 			}else if (rand<35){
@@ -1399,6 +1399,16 @@ public class ore_block extends Block implements IHasModel
 				return RiderItems.quiz_miridewatch;
 			}else if (rand<45){
 				return RiderItems.kikai_miridewatch;	
+			}else if (rand<48){
+				return RiderItems.shuriken_starter;	
+			}else if (rand<51){
+				return RiderItems.shuriken_starter_hattari;	
+			}else if (rand<54){
+				return RiderItems.quiz_topper;	
+			}else if (rand<57){
+				return RiderItems.spannerder_screwder;	
+			}else if (rand<60){
+				return RiderItems.ginga_globe;	
 			}{
 				return CRYSTAL;
 			}

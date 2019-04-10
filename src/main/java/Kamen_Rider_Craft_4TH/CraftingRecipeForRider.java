@@ -773,7 +773,10 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":kodama_suika_arms"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.kodama_suika_arms,1), "aaa","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.suika_lockseed);		
 
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":zi_o_mirror_ridewatch"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.zi_o_mirror_ridewatch), new Ingredient[]{Ingredient.fromItem(RiderItems.zi_o_ridewatch),Ingredient.fromStacks(new ItemStack (Blocks.GLASS))});
+		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":trinity_ridewatch"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.trinity_ridewatch,1), "ebe","eae","dec", 'a', RiderItems.blank_watch, 'b', RiderItems.zi_o_ridewatch, 'c', RiderItems.geiz_ridewatch, 'd', RiderItems.woz_miridewatch, 'e', Items.IRON_INGOT);
+		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":geizrevive_ridewatch"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.geizrevive_ridewatch,1), "ebe","eae","dec", 'a', RiderItems.blank_watch, 'b', RiderItems.shinobi_miridewatch, 'c', RiderItems.quiz_miridewatch, 'd', RiderItems.kikai_miridewatch, 'e', Items.IRON_INGOT);
 
+		
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":amazonshead"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.amazonshead,1), "aaa","a a", 'a', RiderItems.amazon_cell_vial);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":amazonstroso"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.amazonstroso,1), "a a","aaa","aaa", 'a', RiderItems.amazon_cell_vial);
