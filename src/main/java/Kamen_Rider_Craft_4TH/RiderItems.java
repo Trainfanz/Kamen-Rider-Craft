@@ -2709,6 +2709,7 @@ public class RiderItems {
 	public static Item ride_heisaber = new ItemBaseSword("ride_heisaber",Tabs.den_denaxe).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item saikyo_girade = new ItemBaseSword("saikyo_girade",Tabs.den_denaxe).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item saikyo_zikan_girade = new ItemBaseSword("saikyo_zikan_girade",Tabs.sunglasseslasher_sword).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
+	public static Item zikan_despear = new ItemBaseSword("zikan_despear",Tabs.den_denso).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item zikan_zaclaw = new Item_gashacon_breaker("zikan_zaclaw",Tabs.den_denaxe).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	
 	public static Item zi_o_ridewatch = new Item_ridewatches(0, 0,"zi_o_ridewatch").setCreativeTab(Tabs.tabzi_o);
