@@ -1135,6 +1135,8 @@ public class RiderItems {
 	//decade
 	public static Item ride_booker = new Item_sword_gun("ride_booker",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabdecade);
 	public static Item diend_driver = new Item_dienddriver("diend_driver",Tabs.den_dengu).setMaxStackSize(1).setCreativeTab(Tabs.tabdecade);
+	public static Item neo_diend_driver = new Item_dienddriver("neo_diend_driver",Tabs.den_dengu).setMaxStackSize(1).setCreativeTab(Tabs.tabdecade);
+
 
 	public static Item ongekibo_rekka_decade = new ItemBaseSword("ongekibo_rekka_decade",Tabs.ongekibo).setMaxStackSize(1).setCreativeTab(Tabs.tabdecade);
 	public static Item ongekibo_rekka_diend = new ItemBaseSword("ongekibo_rekka_diend",Tabs.ongekibo).setMaxStackSize(1).setCreativeTab(Tabs.tabdecade);
@@ -2705,6 +2707,8 @@ public class RiderItems {
 	public static Item drill_crusher_crusher = new ItemBaseSword("drill_crusher_crusher",Tabs.den_denaxe).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item faiz_phone_x = new Item_gun("faiz_phone_x",Tabs.den_dengu).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item ride_heisaber = new ItemBaseSword("ride_heisaber",Tabs.den_denaxe).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
+	public static Item saikyo_girade = new ItemBaseSword("saikyo_girade",Tabs.den_denaxe).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
+	public static Item saikyo_zikan_girade = new ItemBaseSword("saikyo_zikan_girade",Tabs.sunglasseslasher_sword).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item zikan_zaclaw = new Item_gashacon_breaker("zikan_zaclaw",Tabs.den_denaxe).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	
 	public static Item zi_o_ridewatch = new Item_ridewatches(0, 0,"zi_o_ridewatch").setCreativeTab(Tabs.tabzi_o);

@@ -771,6 +771,7 @@ item.k_touch_diend.name=Final Kamen Terminal K-Touch (Diend)
 
 item.ride_booker.name=Ride Booker
 item.diend_driver.name=Diend Driver
+item.neo_diend_driver.name=Neo Diend Driver
 
 item.ongekibo_rekka_decade.name=Ongekibo Rekka (Decade)
 item.ongekibo_rekka_diend.name=Ongekibo Rekka (Diend)
@@ -1955,6 +1956,8 @@ item.zikan_zax.name=Zikan Zax
 item.drill_crusher_crusher.name=Drill Crusher Crusher
 item.faiz_phone_x.name=Faiz Phone X
 item.ride_heisaber.name=Ride Heisaber
+item.saikyo_girade.name=Saikyo Girade
+item.saikyo_zikan_girade.name=Saikyo Zikan Girade
 item.zikan_zaclaw.name=Zikan Zaclaw
 
 item.zi_o_ridewatch.name=Zi-O Ridewatch

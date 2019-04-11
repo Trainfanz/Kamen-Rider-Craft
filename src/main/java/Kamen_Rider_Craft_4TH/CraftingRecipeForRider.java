@@ -769,6 +769,9 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":faiz_phone_x"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.faiz_phone_x,1), "ama","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.base_sword, 'm',  RiderItems.faiz_ridewatch);		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":daidaimaru_2"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.daidaimaru,1), "ama","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.base_sword, 'm',  RiderItems.gaim_ridewatch);		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":ride_heisaber"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ride_heisaber,1), "ama","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.base_sword, 'm',  RiderItems.decade_ridewatch);		
+		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":saikyo_girade"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.saikyo_girade,1), "ama","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.base_sword, 'm',  RiderItems.zi_o_ii_ridewatch);		
+		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":saikyo_zikan_girade"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.saikyo_zikan_girade), new Ingredient[]{Ingredient.fromItem(RiderItems.zikan_grade),Ingredient.fromItem(RiderItems.saikyo_girade)});
+
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":kodama_suika_arms"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.kodama_suika_arms,1), "aaa","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.suika_lockseed);		
 

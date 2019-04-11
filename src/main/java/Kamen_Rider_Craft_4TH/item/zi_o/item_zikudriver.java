@@ -336,6 +336,7 @@ public class item_zikudriver extends ItemArmor  implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
 										}
 									}
 										
@@ -380,6 +381,22 @@ public class item_zikudriver extends ItemArmor  implements IHasModel
 													item_OOOdriver.set_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),0);
 
 												}}
+										}
+									}
+									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.quiz_driver){
+										
+										if (item_zikudriver.get_core(armor, "1")==0){											
+											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));		
+										}
+									}
+									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.kikai_driver){
+										
+										if (item_zikudriver.get_core(armor, "1")==0){											
+											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));		
 										}
 									}
 									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.ziku_driver_zi_o_mirror){
