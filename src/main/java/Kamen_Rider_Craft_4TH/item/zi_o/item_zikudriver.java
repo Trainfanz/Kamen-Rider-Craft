@@ -333,10 +333,10 @@ public class item_zikudriver extends ItemArmor  implements IHasModel
 											}
 										}else if (item_zikudriver.get_core(armor, "1")==4){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));
-											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
-											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
-											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
 										}
 									}
 										
