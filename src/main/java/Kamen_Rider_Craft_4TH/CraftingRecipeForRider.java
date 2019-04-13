@@ -768,6 +768,7 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":zikan_despear_kama"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.zikan_despear_kama), new Ingredient[]{Ingredient.fromItem(RiderItems.zikan_despear)});
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":zikan_despear_tsue"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.zikan_despear_tsue), new Ingredient[]{Ingredient.fromItem(RiderItems.zikan_despear_kama)});
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":zikan_despear2"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.zikan_despear), new Ingredient[]{Ingredient.fromItem(RiderItems.zikan_despear_tsue)});
+		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":zikan_zaclaw"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.zikan_zaclaw,1), "ama","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.base_sword, 'm',  RiderItems.geizrevive_ridewatch);		
 
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":drill_crusher_crusher"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.drill_crusher_crusher,1), "ama","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.base_sword, 'm',  RiderItems.build_ridewatch);		
