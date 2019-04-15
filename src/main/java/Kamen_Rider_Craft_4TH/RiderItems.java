@@ -1674,10 +1674,8 @@ public class RiderItems {
 	public static Item musou_saber_kusarigama = new ItemBaseSword("musou_saber_kusarigama",Tabs.musou_saber_kusarigama).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
 	public static Item dj_gun = new Item_gun("dj_gun",Tabs.dj_gun).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
 
-	public static Item dj_gun_taiken_mode_big  = new Item_ore("dj_gun_taiken_mode_big");
 	public static Item dj_gun_taiken_mode = new ItemBaseSword("dj_gun_taiken_mode",Tabs.dj_gun_taiken_mode).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
 
-	public static Item kagematsu_l  = new Item_ore("kagematsu_l");
 	public static Item kagematsu = new ItemBaseSword("kagematsu",Tabs.kagematsu).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
 	public static Item donkachi= new ItemBaseSword("donkachi",Tabs.donkachi).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
 	public static Item melon_defender = new ItemBaseShield("melon_defender").setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
@@ -1896,19 +1894,19 @@ public class RiderItems {
 	public static Item genesis_driver_kurokage_shin = new item_Gaimdriver("genesis_driver_kurokage_shin",ArmorMaterial.DIAMOND, 4, 3,"kurokage_shin","energy_matsubokkuri_arms",1,sengoku_driver_matsubokkuri_energy).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
 	public static Item genesis_driver_tyrant = new item_Gaimdriver("genesis_driver_tyrant",ArmorMaterial.DIAMOND, 4, 3,"tyrant","energy_prototype_dragon_fruits_arms",1,sengoku_driver_dragon_fruits_energy).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
 
-	public static Item matsubokkuri_lockseed = new Item_lockseed(1,1,"matsubokkuri_lockseed").setCreativeTab(Tabs.tabGaim);
-	public static Item kurumi_lockseed = new Item_lockseed(1,2,"kurumi_lockseed").setCreativeTab(Tabs.tabGaim);
-	public static Item donguri_lockseed = new Item_lockseed(1,3,"donguri_lockseed").setCreativeTab(Tabs.tabGaim);
-	public static Item melon_lockseed = new Item_lockseed(1,4,"melon_lockseed").setCreativeTab(Tabs.tabGaim);
-	public static Item pine_lockseed = new Item_lockseed(1,5,"pine_lockseed").setCreativeTab(Tabs.tabGaim);
-	public static Item ichigo_lockseed = new Item_lockseed(1,6,"ichigo_lockseed").setCreativeTab(Tabs.tabGaim);
-	public static Item orange_lockseed = new Item_lockseed(1,7,"orange_lockseed").setCreativeTab(Tabs.tabGaim);
-	public static Item banana_lockseed = new Item_lockseed(1,8,"banana_lockseed").setCreativeTab(Tabs.tabGaim);
-	public static Item budou_lockseed = new Item_lockseed(1,9,"budou_lockseed").setCreativeTab(Tabs.tabGaim);
-	public static Item suika_lockseed = new Item_lockseed(1,40,"suika_lockseed").setCreativeTab(Tabs.tabGaim);
-	public static Item mango_lockseed = new Item_lockseed(1,10,"mango_lockseed").setCreativeTab(Tabs.tabGaim);
-	public static Item durian_lockseed = new Item_lockseed(1,11,"durian_lockseed").setCreativeTab(Tabs.tabGaim);
-	public static Item kiwi_lockseed = new Item_lockseed(1,12,"kiwi_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item matsubokkuri_lockseed = new Item_lockseed(1,1,"matsubokkuri_lockseed").AddlockseedToHelheimVine(20).setCreativeTab(Tabs.tabGaim);
+	public static Item kurumi_lockseed = new Item_lockseed(1,2,"kurumi_lockseed").AddlockseedToHelheimVine(20).setCreativeTab(Tabs.tabGaim);
+	public static Item donguri_lockseed = new Item_lockseed(1,3,"donguri_lockseed").AddlockseedToHelheimVine(20).setCreativeTab(Tabs.tabGaim);
+	public static Item melon_lockseed = new Item_lockseed(1,4,"melon_lockseed").AddlockseedToHelheimVine(10).setCreativeTab(Tabs.tabGaim);
+	public static Item pine_lockseed = new Item_lockseed(1,5,"pine_lockseed").AddlockseedToHelheimVine(10).setCreativeTab(Tabs.tabGaim);
+	public static Item ichigo_lockseed = new Item_lockseed(1,6,"ichigo_lockseed").AddlockseedToHelheimVine(7).setCreativeTab(Tabs.tabGaim);
+	public static Item orange_lockseed = new Item_lockseed(1,7,"orange_lockseed").AddlockseedToHelheimVine(10).setCreativeTab(Tabs.tabGaim);
+	public static Item banana_lockseed = new Item_lockseed(1,8,"banana_lockseed").AddlockseedToHelheimVine(10).setCreativeTab(Tabs.tabGaim);
+	public static Item budou_lockseed = new Item_lockseed(1,9,"budou_lockseed").AddlockseedToHelheimVine(10).setCreativeTab(Tabs.tabGaim);
+	public static Item suika_lockseed = new Item_lockseed(1,40,"suika_lockseed").AddlockseedToHelheimVine(1).setCreativeTab(Tabs.tabGaim);
+	public static Item mango_lockseed = new Item_lockseed(1,10,"mango_lockseed").AddlockseedToHelheimVine(3).setCreativeTab(Tabs.tabGaim);
+	public static Item durian_lockseed = new Item_lockseed(1,11,"durian_lockseed").AddlockseedToHelheimVine(6).setCreativeTab(Tabs.tabGaim);
+	public static Item kiwi_lockseed = new Item_lockseed(1,12,"kiwi_lockseed").AddlockseedToHelheimVine(3).setCreativeTab(Tabs.tabGaim);
 	public static Item lemon_lockseed = new Item_lockseed(1,41,"lemon_lockseed").setCreativeTab(Tabs.tabGaim);
 
 	public static Item sakura_hurricane = new Item_ore("sakura_hurricane").setCreativeTab(Tabs.tabGaim);

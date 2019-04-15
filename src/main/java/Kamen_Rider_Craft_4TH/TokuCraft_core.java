@@ -5,10 +5,14 @@ import Kamen_Rider_Craft_4TH.potion.PotionFirePunch;
 import Kamen_Rider_Craft_4TH.potion.PotionFly;
 import Kamen_Rider_Craft_4TH.potion.PotionPunchBoost;
 import Kamen_Rider_Craft_4TH.util.Refercence;
+import Kamen_Rider_Craft_4TH.world.WorldTypeHelheim;
 import Kamen_Rider_Craft_4TH.world.gen.WorldGenCustomStructures;
+import Kamen_Rider_Craft_4TH.world.gen.modDimensionWorldGen;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.potion.Potion;
+import net.minecraft.world.WorldType;
+import net.minecraftforge.common.DimensionManager;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -36,17 +40,22 @@ public class TokuCraft_core {
 
 	@EventHandler
 	public static void preInit(FMLPreInitializationEvent event) {
+		RiderBlocks.init();
 		RiderItems.init();
+		DimensionManager.registerDimension(modDimensionWorldGen.HELHEIM_DIM_ID,modDimensionWorldGen.HELHEIM_DIM_TYPE);
 	}
 
 	@EventHandler
 	public static void init(FMLInitializationEvent event) {
+		//GameRegistry.registerWorldGenerator()
 		proxy.preInit();
 		PotionCore.init(event);
 	}
 
 	@EventHandler
-	public static void postInit(FMLPostInitializationEvent event) {}
+	public static void postInit(FMLPostInitializationEvent event) {
+		WorldType HELHEIM = new WorldTypeHelheim();
+	}
 
 	@EventHandler
 	public void load(FMLInitializationEvent event) {

@@ -13,14 +13,18 @@ import Kamen_Rider_Craft_4TH.mobs.RenderRiderMob2;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityChronos;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_BloodStalk;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Build_RT;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Duke;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_EngineBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_HellBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Kaiser;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_KaiserReverse;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Marika;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_NightRogue;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Para_dx;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Red_Poppy;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_RemoconBros;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Sigurd;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_ZangetsuShin;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_another_build;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_bikaiser;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_clay_doll_dopant;
@@ -33,6 +37,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_red_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_taboo_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityBugsterVirus;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityKurokageTroopers;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMasquerade;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityNebulaBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityRidePlayer;
@@ -90,6 +95,16 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entityshocker_combatman.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/shocker_combatman.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entityguardian.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/guardian.png"));
+		
+		
+		
+		RenderingRegistry.registerEntityRenderingHandler(EntityKurokageTroopers.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/kurokagetroopers.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_ZangetsuShin.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/zangetsu_shin.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_Marika.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/marika.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_Sigurd.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/sigurd.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_Duke.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/duke.png"));
+		
+		
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_genm.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/genm.png"));
 		

@@ -35,10 +35,6 @@ public class decor_block extends Block implements IHasModel
         TokuCraft_core.BLOCKS.add(this);
 	}
 
-	public int getExpDrop(IBlockAccess world, int metadata, int fortune)
-	{
-		return 5;
-	}
 
 	@Override
 	public void registerModels() {

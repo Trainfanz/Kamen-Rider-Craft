@@ -1,5 +1,6 @@
 package Kamen_Rider_Craft_4TH;
 
+import Kamen_Rider_Craft_4TH.biome.riderBiomes;
 import Kamen_Rider_Craft_4TH.mobs.EntityAnkh;
 import Kamen_Rider_Craft_4TH.mobs.EntityLazer;
 import Kamen_Rider_Craft_4TH.mobs.EntityPoppy;
@@ -8,14 +9,18 @@ import Kamen_Rider_Craft_4TH.mobs.Entityaccel;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityChronos;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_BloodStalk;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Build_RT;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Duke;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_EngineBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_HellBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Kaiser;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_KaiserReverse;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Marika;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_NightRogue;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Para_dx;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Red_Poppy;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_RemoconBros;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Sigurd;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_ZangetsuShin;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_another_build;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_bikaiser;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_clay_doll_dopant;
@@ -28,6 +33,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_red_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_taboo_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityBugsterVirus;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityKurokageTroopers;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMasquerade;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityNebulaBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityRidePlayer;
@@ -144,5 +150,18 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new ResourceLocation("NazcaDopantMob"),Entity_nazca_dopant.class, "NazcaDopantMob", 535, TokuCraft_core.instance, 80, 3, false, 0x161616,0x0092BB);
 		EntityRegistry.registerModEntity(new ResourceLocation("RedNazcaDopantMob"),Entity_red_nazca_dopant.class, "RedNazcaDopantMob", 536, TokuCraft_core.instance, 80, 3, false, 0x161616,0x0092BB);
 		EntityRegistry.registerModEntity(new ResourceLocation("TabooDopantMob"),Entity_taboo_dopant.class, "TabooDopantMob", 537, TokuCraft_core.instance, 80, 3, false, 0x161616,0x0092BB);
+	
+		EntityRegistry.registerModEntity(new ResourceLocation("KurokageTroopersMob"),EntityKurokageTroopers.class, "KurokageTroopersMob", 546, TokuCraft_core.instance, 80, 3, false,0x6a4916, 0x333333);
+		//EntityRegistry.addSpawn(EntityKurokageTroopers.class,  20, 4, 6, EnumCreatureType.MONSTER,riderBiomes.Helheim);
+		
+	EntityRegistry.registerModEntity(new ResourceLocation("ZangetsuShinMob"),Entity_ZangetsuShin.class, "ZangetsuShinMob", 547, TokuCraft_core.instance, 80, 3, false,0xa0ffa9, 0xfefefe);
+		EntityRegistry.registerModEntity(new ResourceLocation("MarikaMob"),Entity_Marika.class, "MarikaMob", 548, TokuCraft_core.instance, 80, 3, false,0xfcfb81,0xff84ac);
+		EntityRegistry.registerModEntity(new ResourceLocation("SigurdMob"),Entity_Sigurd.class, "SigurdMob", 549, TokuCraft_core.instance, 80, 3, false,0xff0000, 0xd2f3e8);
+		EntityRegistry.registerModEntity(new ResourceLocation("DukeMob"),Entity_Duke.class, "DukeMob", 550, TokuCraft_core.instance, 80, 3, false,0xe5ec25, 0x25c1ec);
+		
+	
 	}
+	
+	
+	
 }

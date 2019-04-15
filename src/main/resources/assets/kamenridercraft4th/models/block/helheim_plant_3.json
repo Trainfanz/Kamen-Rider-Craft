@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "kamenridercraft4th:blocks/helheim_plant_3"
+    }
+}
