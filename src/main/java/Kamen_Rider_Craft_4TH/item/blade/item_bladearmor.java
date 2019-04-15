@@ -16,7 +16,7 @@ import net.minecraft.nbt.NBTTagCompound;
 
 public class item_bladearmor extends ItemArmor implements IHasModel
 {
-	public static final String[] CoreName= new String[] {"","_jack","_king","_wild"};
+	public static final String[] CoreName= new String[] {"","_jack","_king","_wild","_yellow"};
 
 	public item_bladearmor (String name,ArmorMaterial par2EnumArmorMaterial, int par3, EntityEquipmentSlot par4)
 	{
