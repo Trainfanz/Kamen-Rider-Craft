@@ -37,6 +37,9 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_red_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_taboo_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityBugsterVirus;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityElementaryInvesBlue;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityElementaryInvesGreen;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityElementaryInvesRed;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityKurokageTroopers;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMasquerade;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityNebulaBugsterVirus;
@@ -59,6 +62,7 @@ import Kamen_Rider_Craft_4TH.model.MobWithBeltModel;
 import Kamen_Rider_Craft_4TH.model.ModelAnkh;
 import Kamen_Rider_Craft_4TH.model.ModelPoppy;
 import Kamen_Rider_Craft_4TH.model.Model_accel_bike_form;
+import Kamen_Rider_Craft_4TH.model.Model_elementary_inves;
 import Kamen_Rider_Craft_4TH.model.Model_hardboilder;
 import Kamen_Rider_Craft_4TH.model.Model_kodama_suika_arms;
 import Kamen_Rider_Craft_4TH.model.Model_lazer_bike;
@@ -97,6 +101,10 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entityguardian.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/guardian.png"));
 		
 		
+		
+		RenderingRegistry.registerEntityRenderingHandler(EntityElementaryInvesGreen.class, new RenderRiderMob2(new Model_elementary_inves(), 0.5F,"textures/entities/elementary_inves_green.png"));
+		RenderingRegistry.registerEntityRenderingHandler(EntityElementaryInvesRed.class, new RenderRiderMob2(new Model_elementary_inves(), 0.5F,"textures/entities/elementary_inves_red.png"));
+		RenderingRegistry.registerEntityRenderingHandler(EntityElementaryInvesBlue.class, new RenderRiderMob2(new Model_elementary_inves(), 0.5F,"textures/entities/elementary_inves_blue.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityKurokageTroopers.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/kurokagetroopers.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_ZangetsuShin.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/zangetsu_shin.png"));

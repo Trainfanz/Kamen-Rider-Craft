@@ -33,6 +33,9 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_red_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_taboo_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityBugsterVirus;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityElementaryInvesBlue;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityElementaryInvesGreen;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityElementaryInvesRed;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityKurokageTroopers;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMasquerade;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityNebulaBugsterVirus;
@@ -152,7 +155,11 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new ResourceLocation("TabooDopantMob"),Entity_taboo_dopant.class, "TabooDopantMob", 537, TokuCraft_core.instance, 80, 3, false, 0x161616,0x0092BB);
 	
 		EntityRegistry.registerModEntity(new ResourceLocation("KurokageTroopersMob"),EntityKurokageTroopers.class, "KurokageTroopersMob", 546, TokuCraft_core.instance, 80, 3, false,0x6a4916, 0x333333);
-		//EntityRegistry.addSpawn(EntityKurokageTroopers.class,  20, 4, 6, EnumCreatureType.MONSTER,riderBiomes.Helheim);
+		
+		EntityRegistry.registerModEntity(new ResourceLocation("ElementaryInvesGreenMob"),EntityElementaryInvesGreen.class, "ElementaryInvesGreenMob", 547, TokuCraft_core.instance, 80, 3, false,0xefefee,0x007800);
+		EntityRegistry.registerModEntity(new ResourceLocation("ElementaryInvesRedMob"),EntityElementaryInvesRed.class, "ElementaryInvesRedMob", 548, TokuCraft_core.instance, 80, 3, false,0xefefee,0x750010);
+		EntityRegistry.registerModEntity(new ResourceLocation("ElementaryInvesBlueMob"),EntityElementaryInvesBlue.class, "ElementaryInvesBlueMob", 549, TokuCraft_core.instance, 80, 3, false,0xefefee,0x002575);
+		
 		
 	EntityRegistry.registerModEntity(new ResourceLocation("ZangetsuShinMob"),Entity_ZangetsuShin.class, "ZangetsuShinMob", 547, TokuCraft_core.instance, 80, 3, false,0xa0ffa9, 0xfefefe);
 		EntityRegistry.registerModEntity(new ResourceLocation("MarikaMob"),Entity_Marika.class, "MarikaMob", 548, TokuCraft_core.instance, 80, 3, false,0xfcfb81,0xff84ac);
