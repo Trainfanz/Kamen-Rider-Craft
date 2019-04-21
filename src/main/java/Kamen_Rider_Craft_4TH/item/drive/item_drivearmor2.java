@@ -83,6 +83,17 @@ public class item_drivearmor2 extends ItemArmor implements IHasModel
 						{
 							return Refercence.MODID+":textures/armor/drive_gold" +"_1.png";
 						}
+					}else 	if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.drivedriverbrain){
+
+
+						if ( slot == EntityEquipmentSlot.LEGS)
+						{
+							return Refercence.MODID+":textures/armor/brain" +"_2.png";
+						}
+						if (slot == EntityEquipmentSlot.HEAD||slot == EntityEquipmentSlot.CHEST )
+						{
+							return Refercence.MODID+":textures/armor/brain" +"_1.png";
+						}
 					}else 	if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.metro_pd_driver_honoh){
 
 

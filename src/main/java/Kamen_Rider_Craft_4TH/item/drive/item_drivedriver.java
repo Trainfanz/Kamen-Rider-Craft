@@ -152,6 +152,9 @@ public class item_drivedriver extends ItemArmor implements IHasModel
 	}else if (belt==RiderItems.drivedrivergold){
 		return itemstack.hasTagCompound() ? tireName[itemstack.getTagCompound().getInteger("core2")] : "gold";
 
+	}else if (belt==RiderItems.drivedriverbrain){
+		return itemstack.hasTagCompound() ? tireName[itemstack.getTagCompound().getInteger("core2")] : "brain";
+
 	}else if (belt==RiderItems.metro_pd_driver_honoh||belt==RiderItems.lupin_belt){
 		return itemstack.hasTagCompound() ? tireName[itemstack.getTagCompound().getInteger("core2")] : "type_proto_speed";
 
