@@ -24,7 +24,7 @@ public class Item_clock_up_pad extends Item implements IHasModel
 	public Item_clock_up_pad(String name)
 	{
 		super();
-		this.setHasSubtypes(true);
+		
 		this.setMaxDamage(0);
 
 		setUnlocalizedName(name);

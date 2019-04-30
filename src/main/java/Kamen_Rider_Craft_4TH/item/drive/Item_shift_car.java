@@ -23,7 +23,7 @@ public class Item_shift_car extends Item implements IHasModel
 	public Item_shift_car(int NUM ,int NUM2,String name)
 	{
 		super();
-		this.setHasSubtypes(true);
+		
 		this.setMaxDamage(0);
 
 		num=NUM;

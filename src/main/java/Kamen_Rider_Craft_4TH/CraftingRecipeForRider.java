@@ -791,7 +791,7 @@ public class CraftingRecipeForRider {
 		
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":amazonshead"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.amazonshead,1), "aaa","a a", 'a', RiderItems.amazon_cell_vial);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":amazonstroso"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.amazonstroso,1), "a a","aaa","aaa", 'a', RiderItems.amazon_cell_vial);
+		//GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":amazonstroso"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.amazonstroso,1), "a a","aaa","aaa", 'a', RiderItems.amazon_cell_vial);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":amazonslegs"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.amazonslegs,1), "aaa","a a","a a", 'a', RiderItems.amazon_cell_vial);
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":amazons_driver_alpha"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.amazons_driver_alpha,1), "aaa","aca","aaa", 'a', RiderItems.amazon_cell_vial, 'c', RiderItems.condorer_core_alpha);

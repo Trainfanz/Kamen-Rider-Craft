@@ -29,7 +29,7 @@ public class Itemmedal extends Item  implements IHasModel
 	public Itemmedal(int NUM ,String NUM2,String name)
 	{
 		super();
-		this.setHasSubtypes(true);
+		
 		this.setMaxDamage(0);
 		num=NUM;
 		num2=NUM2;

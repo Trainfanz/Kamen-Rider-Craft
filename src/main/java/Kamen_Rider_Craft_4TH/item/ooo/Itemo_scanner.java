@@ -30,7 +30,7 @@ public class Itemo_scanner extends Item  implements IHasModel
 	public Itemo_scanner(String name)
 	{
 		super();
-		setHasSubtypes(true);
+		
 		setMaxDamage(0);
 		maxStackSize = 1;
 	       setUnlocalizedName(name);

@@ -24,7 +24,6 @@ public class Item_vent extends Item implements IHasModel
 	public Item_vent(String name,String rider ,Item wepon, int num,Item visors)
 	{
 		super();
-		this.setHasSubtypes(true);
 		this.setMaxDamage(0);
 
 		RIDER=rider;

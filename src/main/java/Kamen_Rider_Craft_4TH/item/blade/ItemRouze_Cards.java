@@ -20,7 +20,6 @@ public class ItemRouze_Cards extends Item implements IHasModel
 	public ItemRouze_Cards(String name,int NUM,String rider)
 	{
 		super();
-		this.setHasSubtypes(true);
 		this.setMaxDamage(0);
 		num=NUM;
 		RIDER=rider;

@@ -29,7 +29,6 @@ public class Item_ridewatches extends Item implements IHasModel
 	public Item_ridewatches(int NUM ,int arms,String name)
 	{
 		super();
-		this.setHasSubtypes(true);
 		this.setMaxDamage(0);
 		num=NUM;
 		num2=arms;

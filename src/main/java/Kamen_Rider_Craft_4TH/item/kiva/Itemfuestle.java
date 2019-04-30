@@ -23,7 +23,7 @@ public class Itemfuestle extends Item implements IHasModel
 	public Itemfuestle(int NUM,int NUM2,String name)
 	{
 		super();
-		this.setHasSubtypes(true);
+		
 		this.setMaxDamage(0);
 		num=NUM;
 		num2=NUM2;

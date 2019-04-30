@@ -29,7 +29,7 @@ public class Item_gashat extends Item implements IHasModel
 	public Item_gashat(int NUM ,int arms,String name)
 	{
 		super();
-		this.setHasSubtypes(true);
+		
 		this.setMaxDamage(0);
 
 		num=NUM;

@@ -24,7 +24,7 @@ package Kamen_Rider_Craft_4TH.item.Ichigo;
 		public Item_showa_change(String name,int NUM, Item belt)
 		{
 			super();
-			this.setHasSubtypes(true);
+			
 			this.setMaxDamage(0);
 			num=NUM;
 			BELT=belt;

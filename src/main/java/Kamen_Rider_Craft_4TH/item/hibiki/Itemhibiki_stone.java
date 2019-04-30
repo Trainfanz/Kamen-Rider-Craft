@@ -23,7 +23,7 @@ public class Itemhibiki_stone extends Item implements IHasModel
 	public Itemhibiki_stone(String name,int NUM)
 	{
 		super();
-		this.setHasSubtypes(true);
+		
 		this.setMaxDamage(0);
 		num=NUM;
         setUnlocalizedName(name);

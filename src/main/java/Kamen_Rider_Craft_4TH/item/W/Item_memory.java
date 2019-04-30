@@ -27,7 +27,6 @@ public class Item_memory extends Item  implements IHasModel
 	public Item_memory(int NUM ,String NUM2,String name,int gen1,int gen2)
 	{
 		super();
-		this.setHasSubtypes(true);
 		this.setMaxDamage(0);
 		num=NUM;
 		num2=NUM2;

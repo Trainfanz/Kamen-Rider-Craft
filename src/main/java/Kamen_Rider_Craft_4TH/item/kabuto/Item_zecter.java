@@ -23,7 +23,7 @@ public class Item_zecter extends Item implements IHasModel
 	public Item_zecter(String name,String NUM)
 	{
 		super();
-		this.setHasSubtypes(true);
+		
 		this.setMaxDamage(0);
 		num=NUM;
         setUnlocalizedName(name);

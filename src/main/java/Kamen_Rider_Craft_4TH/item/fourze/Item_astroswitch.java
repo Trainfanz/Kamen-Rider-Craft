@@ -23,7 +23,7 @@ public class Item_astroswitch extends Item implements IHasModel
 	public Item_astroswitch(int NUM ,String NUM2,String SLOT,int NUMOD,String name)
 	{
 		super();
-		this.setHasSubtypes(true);
+		
 		this.setMaxDamage(0);
 
 		num=NUM;

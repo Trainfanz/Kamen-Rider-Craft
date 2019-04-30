@@ -26,7 +26,7 @@ public class Item_ghost_Icons extends Item implements IHasModel
 	public Item_ghost_Icons(int NUM ,int arms,int rider,String name)
 	{
 		super();
-		this.setHasSubtypes(true);
+		
 		this.setMaxDamage(0);
 		
 		num=NUM;

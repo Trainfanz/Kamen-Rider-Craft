@@ -24,7 +24,6 @@ public class Item_advent_cards extends Item implements IHasModel
 	public Item_advent_cards(String name,int NUM ,String NUM2)
 	{
 		super();
-		this.setHasSubtypes(true);
 		this.setMaxDamage(0);
 
 		num=NUM;

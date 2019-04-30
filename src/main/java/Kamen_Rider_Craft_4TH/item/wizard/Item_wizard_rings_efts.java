@@ -51,7 +51,6 @@ public class Item_wizard_rings_efts extends Item_wizard_ring
 	public Item_wizard_rings_efts(int NUM ,String NUM2,String name)
 	{
 		super(0, "0",name);
-		this.setHasSubtypes(true);
 		this.setMaxDamage(0);
 		maxStackSize = 1;
 		num=NUM;

@@ -25,7 +25,6 @@ public class Item_full_bottle extends Item implements IHasModel
 	public Item_full_bottle(int NUM ,String NUM2,String name,int NUM3)
 	{
 		super();
-		this.setHasSubtypes(true);
 		this.setMaxDamage(0);
 		num=NUM;
 		num2=NUM2;

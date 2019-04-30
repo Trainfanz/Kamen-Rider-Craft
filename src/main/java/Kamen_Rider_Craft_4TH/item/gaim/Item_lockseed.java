@@ -28,7 +28,7 @@ public class Item_lockseed extends Item implements IHasModel
 	public Item_lockseed(int NUM ,int arms,String name)
 	{
 		super();
-		this.setHasSubtypes(true);
+		
 		this.setMaxDamage(0);
 
 		num=NUM;

@@ -20,7 +20,7 @@ public class Item_mission_memory extends Item implements IHasModel
 	public Item_mission_memory(String name,int NUM)
 	{
 		super();
-		this.setHasSubtypes(true);
+		
 		this.setMaxDamage(0);
 		num=NUM;
         setUnlocalizedName(name);

@@ -23,7 +23,6 @@ public class Item_wizard_ring extends Item implements IHasModel
 	public Item_wizard_ring(int NUM ,String NUM2,String name)
 	{
 		super();
-		this.setHasSubtypes(true);
 		this.setMaxDamage(0);
 
 		num=NUM;
