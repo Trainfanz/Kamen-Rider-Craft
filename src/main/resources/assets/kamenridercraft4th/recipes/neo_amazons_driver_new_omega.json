@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:amazon_cell_vial"
+    }, "C": {
+      "item": "kamenridercraft4th:amazon_injector_new_omega"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:neo_amazons_driver_omega"
+  }
+}

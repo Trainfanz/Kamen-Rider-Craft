@@ -6,6 +6,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.model.ModelBiped;
 import net.minecraft.client.model.ModelSkeleton;
+import net.minecraft.client.model.ModelZombie;
 import net.minecraft.client.renderer.entity.RenderBiped;
 import net.minecraft.client.renderer.entity.RenderLiving;
 import net.minecraft.client.renderer.entity.RenderManager;
@@ -26,14 +27,16 @@ public class RenderRiderMob2 extends RenderBiped
     {
         super(Minecraft.getMinecraft().getRenderManager(), par1ModelBase, 0);
         texture = new ResourceLocation( Refercence.MODID, string);
-        this.addLayer(new LayerBipedArmor(this)
+        LayerBipedArmor layerbipedarmor = new LayerBipedArmor(this)
         {
             protected void initArmor()
             {
-                this.modelLeggings = new ModelSkeleton(0.5F, true);
-                this.modelArmor = new ModelSkeleton(1.0F, true);
+                this.modelLeggings = new ModelZombie(0.5F, true);
+                this.modelArmor = new ModelZombie(1.0F, true);
             }
-        });
+        };
+        this.addLayer(layerbipedarmor);
+        ;
     }
 
 
