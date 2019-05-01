@@ -1697,7 +1697,9 @@ public class RiderItems {
 	public static Item yomimaru = new ItemBaseSword("yomimaru",Tabs.yomimaru).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
 	public static Item sword_bringer = new ItemBaseSword("sword_bringer",Tabs.sword_bringer).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
 	public static Item apple_reflecter = new ItemBaseShield("apple_reflecter").setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
-
+	
+	public static Item lemon_rapier = new ItemBaseSword("lemon_rapier",Tabs.daidaimaru).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	
 	public static Item souginjou = new ItemBaseSword("souginjou",Tabs.souginjou).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
 	public static Item dark_daidaimaru = new ItemBaseSword("dark_daidaimaru",Tabs.daidaimaru).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
 	public static Item watermelon_defender = new ItemBaseShield("watermelon_defender").setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:himawari_lockseed"
+    }, 
+    {
+      "item": "kamenridercraft4th:rocket_swich"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:fourze_lockseed"
+  }
+}

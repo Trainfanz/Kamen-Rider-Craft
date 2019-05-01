@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XBC",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:himawari_energy_lockseed"
+    }, "C": {
+      "item": "kamenridercraft4th:banana_lockseed"
+    }, "B": {
+      "item": "kamenridercraft4th:lemon_energy_lockseed"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:genesis_driver_baron"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:himawari_lockseed"
+    }, 
+    {
+      "item": "kamenridercraft4th:rider_ticket_sword"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:den_o_lockseed"
+  }
+}

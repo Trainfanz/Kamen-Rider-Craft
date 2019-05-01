@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:himawari_lockseed"
+    }, "C": {
+      "item": "kamenridercraft4th:lemon_lockseed"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:sengoku_driver_duke"
+  }
+}

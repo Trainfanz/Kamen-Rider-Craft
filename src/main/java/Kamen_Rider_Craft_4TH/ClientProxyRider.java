@@ -37,9 +37,11 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_red_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_taboo_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityBugsterVirus;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityByakkoInves;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityElementaryInvesBlue;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityElementaryInvesGreen;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityElementaryInvesRed;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityHekijaInves;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityKurokageTroopers;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMasquerade;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityNebulaBugsterVirus;
@@ -105,6 +107,10 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(EntityElementaryInvesGreen.class, new RenderRiderMob2(new Model_elementary_inves(), 0.5F,"textures/entities/elementary_inves_green.png"));
 		RenderingRegistry.registerEntityRenderingHandler(EntityElementaryInvesRed.class, new RenderRiderMob2(new Model_elementary_inves(), 0.5F,"textures/entities/elementary_inves_red.png"));
 		RenderingRegistry.registerEntityRenderingHandler(EntityElementaryInvesBlue.class, new RenderRiderMob2(new Model_elementary_inves(), 0.5F,"textures/entities/elementary_inves_blue.png"));
+		
+		RenderingRegistry.registerEntityRenderingHandler(EntityByakkoInves.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/byakko_inves.png"));
+		RenderingRegistry.registerEntityRenderingHandler(EntityHekijaInves.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/hekija_inves.png"));
+		
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityKurokageTroopers.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/kurokagetroopers.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_ZangetsuShin.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/zangetsu_shin.png"));

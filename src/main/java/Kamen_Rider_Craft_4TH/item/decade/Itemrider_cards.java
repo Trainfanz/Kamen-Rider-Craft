@@ -22,7 +22,6 @@ public class Itemrider_cards extends Item implements IHasModel
 	public Itemrider_cards(int NUM,int NUM2,String name)
 	{
 		super();
-		this.setHasSubtypes(true);
 		this.setMaxDamage(0);
 
 		num=NUM;

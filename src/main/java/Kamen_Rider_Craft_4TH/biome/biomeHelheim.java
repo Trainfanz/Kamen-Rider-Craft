@@ -4,9 +4,11 @@ import java.util.Random;
 
 import Kamen_Rider_Craft_4TH.RiderBlocks;
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityByakkoInves;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityElementaryInvesBlue;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityElementaryInvesGreen;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityElementaryInvesRed;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityHekijaInves;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityKurokageTroopers;
 import Kamen_Rider_Craft_4TH.world.gen.modDimensionWorldGen;
 import Kamen_Rider_Craft_4TH.world.gen.trees.WorldGenHelheimTrees;
@@ -83,6 +85,9 @@ public class biomeHelheim extends Biome
         
         this.spawnableMonsterList.add(new Biome.SpawnListEntry(EntityElementaryInvesBlue.class,  20, 4, 6));
         this.spawnableCreatureList.add(new Biome.SpawnListEntry(EntityElementaryInvesBlue.class,  10, 2, 4));
+        
+        this.spawnableMonsterList.add(new Biome.SpawnListEntry(EntityByakkoInves.class,  20, 1, 4));
+        this.spawnableMonsterList.add(new Biome.SpawnListEntry(EntityHekijaInves.class,  20, 1, 4));
 	}
 
 
