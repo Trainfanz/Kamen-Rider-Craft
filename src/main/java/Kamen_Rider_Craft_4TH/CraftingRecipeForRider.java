@@ -788,19 +788,6 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":trinity_ridewatch"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.trinity_ridewatch,1), "ebe","eae","dec", 'a', RiderItems.blank_watch, 'b', RiderItems.zi_o_ridewatch, 'c', RiderItems.geiz_ridewatch, 'd', RiderItems.woz_miridewatch, 'e', Items.IRON_INGOT);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":geizrevive_ridewatch"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.geizrevive_ridewatch,1), "ebe","eae","dec", 'a', RiderItems.blank_watch, 'b', RiderItems.shinobi_miridewatch, 'c', RiderItems.quiz_miridewatch, 'd', RiderItems.kikai_miridewatch, 'e', Items.IRON_INGOT);
 
-		
-		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":amazonshead"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.amazonshead,1), "aaa","a a", 'a', RiderItems.amazon_cell_vial);
-		//GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":amazonstroso"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.amazonstroso,1), "a a","aaa","aaa", 'a', RiderItems.amazon_cell_vial);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":amazonslegs"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.amazonslegs,1), "aaa","a a","a a", 'a', RiderItems.amazon_cell_vial);
-		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":amazons_driver_alpha"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.amazons_driver_alpha,1), "aaa","aca","aaa", 'a', RiderItems.amazon_cell_vial, 'c', RiderItems.condorer_core_alpha);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":amazons_driver_omega"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.amazons_driver_omega,1), "aaa","aca","aaa", 'a', RiderItems.amazon_cell_vial, 'c', RiderItems.condorer_core_omega);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":amazons_driver_sigma"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.amazons_driver_sigma,1), "aaa","aca","aaa", 'a', RiderItems.amazon_cell_vial, 'c', RiderItems.condorer_core_sigma);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":neo_amazons_driver_neo"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.neo_amazons_driver_neo,1), "aaa","aca","aaa", 'a', RiderItems.amazon_cell_vial, 'c', RiderItems.amazon_injector_neo);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":neo_amazons_driver_new_omega"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.neo_amazons_driver_omega,1), "aaa","aca","aaa", 'a', RiderItems.amazon_cell_vial, 'c', RiderItems.amazon_injector_new_omega);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":amazons_driver_blind_alpha"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.amazons_driver_blind_alpha,1), "aaa","aca","aaa", 'a', RiderItems.amazon_cell_vial, 'c', RiderItems.condorer_core_blind_alpha);
-
 		if (Item.getByNameOrId("supersentaicraft:red_ryusoul") != null){
 			GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":ryusoulger_ridewatch"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ryusoulger_ridewatch), new Ingredient[]{Ingredient.fromItem(RiderItems.blank_watch),Ingredient.fromItem(Item.getByNameOrId("supersentaicraft:red_ryusoul"))});
 		}		
