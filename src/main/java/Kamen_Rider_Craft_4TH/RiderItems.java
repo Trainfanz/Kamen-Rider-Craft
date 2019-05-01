@@ -1941,6 +1941,8 @@ public class RiderItems {
 
 	public static Item lupin_gunner = new Item_lupin_gunner("lupin_gunner",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
 	public static Item blade_gunner = new ItemBaseSword("blade_gunner",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	
+	public static Item brain_sword = new ItemBaseSword("brain_sword",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
 
 	public static Item drivehead = new item_drivearmor("drivehead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
 	public static Item drivetroso = new item_drivearmor2("drivetroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
