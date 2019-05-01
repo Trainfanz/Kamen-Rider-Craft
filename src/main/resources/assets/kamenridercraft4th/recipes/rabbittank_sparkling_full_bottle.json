@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:pandora_bottle"
+    }, 
+    {
+      "item": "kamenridercraft4th:rabbit_full_bottle"
+    }, 
+    {
+      "item": "kamenridercraft4th:tank_full_bottle"
+    }  
+    ],
+  "result": {
+    "item": "kamenridercraft4th:rabbittank_sparkling_full_bottle"
+  }
+}

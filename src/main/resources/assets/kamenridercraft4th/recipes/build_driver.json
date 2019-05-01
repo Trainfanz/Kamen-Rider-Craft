@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "LXR",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:full_bottle"
+    }, "L": {
+      "item": "kamenridercraft4th:rabbit_full_bottle"
+    }, "R": {
+      "item": "kamenridercraft4th:tank_full_bottle"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:build_driver"
+  }
+}

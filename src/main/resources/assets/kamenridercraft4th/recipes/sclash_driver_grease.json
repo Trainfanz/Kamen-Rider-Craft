@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:sclashjelly"
+    }, "C": {
+      "item": "kamenridercraft4th:robot_sclashjelly"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:sclash_driver_grease"
+  }
+}

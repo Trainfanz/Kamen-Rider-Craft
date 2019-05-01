@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:fullfull_bottle_tank"
+    }
+    ],
+  "result": {
+    "item": "kamenridercraft4th:fullfull_bottle_rabbit"
+  }
+}
