@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:blank_miridewatch"
+    }, "C": {
+      "item": "kamenridercraft4th:woz_miridewatch"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:beyondriver"
+  }
+}
