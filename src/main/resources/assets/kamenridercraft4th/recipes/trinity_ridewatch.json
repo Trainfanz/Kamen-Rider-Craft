@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XCX",
+    "XBX",
+    "WXG"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    }, "C": {
+      "item": "kamenridercraft4th:zi_o_ridewatch"
+    }, "W": {
+      "item": "kamenridercraft4th:woz_miridewatch"
+    }, "G": {
+      "item": "kamenridercraft4th:geiz_ridewatch"
+    }, "B": {
+      "item": "kamenridercraft4th:blank_watch"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:trinity_ridewatch"
+  }
+}
