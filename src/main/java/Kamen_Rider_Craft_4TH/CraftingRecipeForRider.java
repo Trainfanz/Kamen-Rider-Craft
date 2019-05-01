@@ -734,7 +734,7 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":zikan_despear_tsue"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.zikan_despear_tsue), new Ingredient[]{Ingredient.fromItem(RiderItems.zikan_despear_kama)});
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":zikan_despear2"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.zikan_despear), new Ingredient[]{Ingredient.fromItem(RiderItems.zikan_despear_tsue)});
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":zikan_zaclaw"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.zikan_zaclaw,1), "ama","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.base_sword, 'm',  RiderItems.geizrevive_ridewatch);		
-**/
+
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":drill_crusher_crusher"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.drill_crusher_crusher,1), "ama","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.base_sword, 'm',  RiderItems.build_ridewatch);		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":faiz_phone_x"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.faiz_phone_x,1), "ama","aba","aaa", 'a', RiderItems.blank_watch, 'b', RiderItems.base_sword, 'm',  RiderItems.faiz_ridewatch);		
@@ -749,7 +749,7 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":zi_o_mirror_ridewatch"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.zi_o_mirror_ridewatch), new Ingredient[]{Ingredient.fromItem(RiderItems.zi_o_ridewatch),Ingredient.fromStacks(new ItemStack (Blocks.GLASS))});
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":trinity_ridewatch"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.trinity_ridewatch,1), "ebe","eae","dec", 'a', RiderItems.blank_watch, 'b', RiderItems.zi_o_ridewatch, 'c', RiderItems.geiz_ridewatch, 'd', RiderItems.woz_miridewatch, 'e', Items.IRON_INGOT);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":geizrevive_ridewatch"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.geizrevive_ridewatch,1), "ebe","eae","dec", 'a', RiderItems.blank_watch, 'b', RiderItems.shinobi_miridewatch, 'c', RiderItems.quiz_miridewatch, 'd', RiderItems.kikai_miridewatch, 'e', Items.IRON_INGOT);
-
+**/
 		if (Item.getByNameOrId("supersentaicraft:red_ryusoul") != null){
 			GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":ryusoulger_ridewatch"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ryusoulger_ridewatch), new Ingredient[]{Ingredient.fromItem(RiderItems.blank_watch),Ingredient.fromItem(Item.getByNameOrId("supersentaicraft:red_ryusoul"))});
 		}		

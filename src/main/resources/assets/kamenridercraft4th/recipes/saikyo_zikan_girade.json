@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:zikan_grade"
+    }, 
+    {
+      "item": "kamenridercraft4th:saikyo_girade"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:saikyo_zikan_girade"
+  }
+}

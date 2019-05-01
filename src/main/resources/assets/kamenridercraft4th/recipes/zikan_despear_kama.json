@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:zikan_despear"
+    }
+    ],
+  "result": {
+    "item": "kamenridercraft4th:zikan_despear_kama"
+  }
+}
