@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:full_bottle"
+    }, "C": {
+      "item": "kamenridercraft4th:mighty_action_x_gashat"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:ex_aid_full_bottle"
+  }
+}

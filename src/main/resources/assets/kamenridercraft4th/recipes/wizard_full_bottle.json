@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:full_bottle"
+    }, "C": {
+      "item": "kamenridercraft4th:flame_ring"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:wizard_full_bottle"
+  }
+}

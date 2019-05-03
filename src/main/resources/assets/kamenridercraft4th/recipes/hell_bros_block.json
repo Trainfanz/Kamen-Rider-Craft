@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "LXR",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:full_bottle"
+    }, "L": {
+      "item": "kamenridercraft4th:gear_engine"
+    }, "R": {
+      "item": "kamenridercraft4th:gear_remocon"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:hell_bros_block"
+  }
+}

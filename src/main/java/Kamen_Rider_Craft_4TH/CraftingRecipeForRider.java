@@ -675,27 +675,26 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":cross_z_build_can"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.cross_z_build_can), new Ingredient[]{Ingredient.fromItem(RiderItems.Pandora_bottle),Ingredient.fromItem(RiderItems.rabbit_gold_full_bottle),Ingredient.fromItem(RiderItems.dragon_silver_full_bottle)});		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":fullfull_bottle_rabbit_2"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.fullfull_bottle_rabbit,1), "dbd","ada","aca", 'a', Items.IRON_INGOT, 'b', RiderItems.low_rabbit_full_bottle, 'c',  RiderItems.rabbit_full_bottle, 'd',  Items.GOLD_INGOT);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":genius_full_bottle"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.genius_full_bottle,1), "aaa","aba","aaa", 'a', RiderItems.rider_circuit, 'b', RiderItems.genius_full_bottle_blank);
-**/	
+
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":north_blizzard_full_bottle"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.north_blizzard_full_bottle,1), "aba","aca","dae", 'a', Items.SNOWBALL, 'b', RiderItems.fukurou_full_bottle, 'c',  RiderItems.robot_sclashjelly, 'd',  RiderItems.castle_full_bottle, 'e',  RiderItems.kuwagata_full_bottle);
 
-		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":ex_aid_full_bottle"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ex_aid_full_bottle,1), "aaa","aba","aaa", 'a', RiderItems.full_bottle, 'b', RiderItems.mighty_action_x_gashat);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":ghost_full_bottle"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ghost_full_bottle,1), "aaa","aba","aaa", 'a', RiderItems.full_bottle, 'b', RiderItems.ore_ghost_icon);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":drive_full_bottle"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.drive_full_bottle,1), "aaa","aba","aaa", 'a', RiderItems.full_bottle, 'b', RiderItems.speedshift);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":gaim_full_bottle"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.gaim_full_bottle,1), "aaa","aba","aaa", 'a', RiderItems.full_bottle, 'b', RiderItems.orange_lockseed);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":wizard_full_bottle"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.wizard_full_bottle,1), "aaa","aba","aaa", 'a', RiderItems.full_bottle, 'b', RiderItems.flame_ring);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":fourze_full_bottle"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.fourze_full_bottle,1), "aaa","aba","aaa", 'a', RiderItems.full_bottle, 'b', RiderItems.rocket_swich);
-		
+
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":transteamgun"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.transteamgun,1), "aba","aca","aaa", 'a', RiderItems.full_bottle, 'b', RiderItems.bat_full_bottle, 'c', RiderItems.base_sword);		
 	//	GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":nebulasteamgun"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.nebulasteamgun,1), "aaa","aba","aaa", 'a', RiderItems.full_bottle, 'b', RiderItems.gear_engine);
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":hell_bros_block"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.hell_bros_block,1), "aaa","bac","aaa", 'a', RiderItems.full_bottle, 'b', RiderItems.gear_engine, 'c', RiderItems.gear_remocon);		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":bi_kaiser_block"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.bi_kaiser_block,1), "aaa","bac","aaa", 'a', RiderItems.full_bottle, 'b', RiderItems.gear_red, 'c', RiderItems.gear_blue);		
-	
+				
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":steam_blade"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.steam_blade,1), "aba","aca","aaa", 'a', RiderItems.full_bottle, 'b', RiderItems.cobra_full_bottle, 'c', RiderItems.base_sword);		
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":transteamgun_rifle"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.transteamgun_rifle), new Ingredient[]{Ingredient.fromItem(RiderItems.transteamgun),Ingredient.fromItem(RiderItems.steam_blade)});
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":nebulasteamgun_rifle"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.nebulasteamgun_rifle), new Ingredient[]{Ingredient.fromItem(RiderItems.nebulasteamgun),Ingredient.fromItem(RiderItems.steam_blade)});
-		
+	**/
 		GameRegistry.addSmelting(new ItemStack(RiderItems.dragon_sclashjelly),new ItemStack(RiderItems.dragon_magma_full_bottle), 1);
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":drill_crusher"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.drill_crusher,1), "aaa","rbt","aaa", 'a', RiderItems.full_bottle, 'b', RiderItems.base_sword,'t', RiderItems.tank_full_bottle, 'r',  RiderItems.rabbit_full_bottle);

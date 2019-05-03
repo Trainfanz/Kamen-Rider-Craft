@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:transteamgun"
+    }, 
+    {
+      "item": "kamenridercraft4th:steam_blade"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:transteamgun_rifle"
+  }
+}

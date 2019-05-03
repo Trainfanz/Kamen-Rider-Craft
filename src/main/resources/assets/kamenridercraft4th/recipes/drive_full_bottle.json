@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:full_bottle"
+    }, "C": {
+      "item": "kamenridercraft4th:speedshift"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:drive_full_bottle"
+  }
+}
