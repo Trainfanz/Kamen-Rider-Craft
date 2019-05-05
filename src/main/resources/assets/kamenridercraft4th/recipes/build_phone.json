@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XCX",
+    "XZX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    }, "C": {
+      "item": "kamenridercraft4th:rider_circuit"
+    }, "Z": {
+      "item": "kamenridercraft4th:lion_full_bottle"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:build_phone"
+  }
+}

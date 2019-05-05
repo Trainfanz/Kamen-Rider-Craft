@@ -696,7 +696,7 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":nebulasteamgun_rifle"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.nebulasteamgun_rifle), new Ingredient[]{Ingredient.fromItem(RiderItems.nebulasteamgun),Ingredient.fromItem(RiderItems.steam_blade)});
 	**/
 		GameRegistry.addSmelting(new ItemStack(RiderItems.dragon_sclashjelly),new ItemStack(RiderItems.dragon_magma_full_bottle), 1);
-		
+	/**	
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":drill_crusher"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.drill_crusher,1), "aaa","rbt","aaa", 'a', RiderItems.full_bottle, 'b', RiderItems.base_sword,'t', RiderItems.tank_full_bottle, 'r',  RiderItems.rabbit_full_bottle);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":hawk_gatlinger"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.hawk_gatlinger,1), "aaa","rbt","aaa", 'a', RiderItems.full_bottle, 'b', RiderItems.base_sword,'t', RiderItems.gatling_full_bottle, 'r',  RiderItems.taka_full_bottle);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":koma_ninpoutou"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.koma_ninpoutou,1), "aaa","rbt","aaa", 'a', RiderItems.full_bottle, 'b', RiderItems.base_sword,'t', RiderItems.comic_full_bottle, 'r',  RiderItems.ninjya_full_bottle);
@@ -713,8 +713,8 @@ public class CraftingRecipeForRider {
 
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":purifyer"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.purifyer,1), "aaa","aba","aaa", 'a', Items.IRON_INGOT, 'b', RiderItems.nebula_gas_sample);		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":solidifyer"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.solidifyer,1), "aaa","aba","aaa", 'a', Items.IRON_INGOT, 'b', RiderItems.sclashjelly);		
-		
-		/**
+
+	
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":zi_ohead"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.zi_ohead,1), "aaa","a a", 'a', RiderItems.blank_watch);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":zi_otroso"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.zi_otroso,1), "a a","aaa","aaa", 'a', RiderItems.blank_watch);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":zi_olegs"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.zi_olegs,1), "aaa","a a","a a", 'a', RiderItems.blank_watch);
