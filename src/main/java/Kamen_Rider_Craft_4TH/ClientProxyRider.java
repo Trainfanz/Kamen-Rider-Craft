@@ -56,6 +56,7 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityshocker_combatman;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityAcrobatter;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityExaidBike;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityMachineBuilder;
+import Kamen_Rider_Craft_4TH.mobs.bikes.EntitySakuraHurricane;
 import Kamen_Rider_Craft_4TH.mobs.bikes.Entity_ridoron;
 import Kamen_Rider_Craft_4TH.mobs.bikes.Entityhardboilder;
 import Kamen_Rider_Craft_4TH.mobs.bikes.Entitymachine_tornador;
@@ -63,6 +64,7 @@ import Kamen_Rider_Craft_4TH.mobs.bikes.Entityskullboilder;
 import Kamen_Rider_Craft_4TH.model.MobWithBeltModel;
 import Kamen_Rider_Craft_4TH.model.ModelAnkh;
 import Kamen_Rider_Craft_4TH.model.ModelPoppy;
+import Kamen_Rider_Craft_4TH.model.Model_Sakura_Hurricane;
 import Kamen_Rider_Craft_4TH.model.Model_accel_bike_form;
 import Kamen_Rider_Craft_4TH.model.Model_elementary_inves;
 import Kamen_Rider_Craft_4TH.model.Model_hardboilder;
@@ -170,6 +172,7 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entityskullboilder.class, new RenderRiderMob2(new Model_hardboilder(), 0.5F,"textures/entities/skullboilder.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entityaccel.class, new RenderRiderMob2(new Model_accel_bike_form(), 0.5F,"textures/entities/accel_bike_form.png"));
 		
+		RenderingRegistry.registerEntityRenderingHandler(EntitySakuraHurricane.class, new RenderRiderMob2(new Model_Sakura_Hurricane(), 0.5F,"textures/entities/sakura_hurricane.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityLazer.class, new RenderRiderMob2(new Model_lazer_bike(), 0.5F,"textures/entities/model_lazer.png"));
 		
