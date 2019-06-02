@@ -86,6 +86,7 @@ public class item_builddriver extends ItemArmor implements IHasModel
 				Item[] build_organic= new Item[] {RiderItems.build_driver_rabbit,RiderItems.build_driver_gorilla,RiderItems.build_driver_taka,RiderItems.build_driver_harinezumi,RiderItems.build_driver_ninja,RiderItems.build_driver_panda,RiderItems.build_driver_lion,RiderItems.build_driver_dragon,RiderItems.build_driver_santa,RiderItems.build_driver_orange,RiderItems.build_driver_doctor,RiderItems.build_driver_dog,RiderItems.build_driver_mahoutsukai,RiderItems.build_driver_tantei,RiderItems.build_driver_kaizoku,RiderItems.build_driver_octopus,RiderItems.build_driver_phoenix,RiderItems.build_driver_kuma,RiderItems.build_driver_momotaros,RiderItems.build_driver_yujou,RiderItems.build_driver_obake,RiderItems.build_driver_wolf,RiderItems.build_driver_beetle,RiderItems.build_driver_card,RiderItems.build_driver_rose,RiderItems.build_driver_tora,RiderItems.build_driver_kujira,RiderItems.build_driver_kirin,RiderItems.build_driver_unicorn,RiderItems.build_driver_turtle,RiderItems.build_driver_deer,RiderItems.build_driver_penguin,RiderItems.build_driver_spider,RiderItems.build_driver_rabbit_gold,RiderItems.build_driver_spider,RiderItems.build_driver_kujira,RiderItems.build_driver_kirin,RiderItems.build_driver_sai,RiderItems.build_driver_scorpion};				
 				Item[] evol_form= new Item[] {RiderItems.evol_driver_cobra,RiderItems.evol_driver_dragon,RiderItems.evol_driver_rabbit,RiderItems.evol_driver_blackhole,RiderItems.evol_driver_blackhole};
 				Item[] cross_form= new Item[] {RiderItems.build_driver_cross_z_dragon,RiderItems.build_driver_magma,RiderItems.build_driver_cross_z_great,RiderItems.build_driver_galaxy};
+				Item[] grease_form= new Item[] {RiderItems.build_driver_grease,RiderItems.build_driver_grease_perfect_kingdom};
 
 				armorModel.belt=stack;
 
@@ -111,7 +112,8 @@ public class item_builddriver extends ItemArmor implements IHasModel
 				    } else {
 				        armorModel.wings=new ItemStack(RiderItems.blanknoitem);
 				    }
-				} if(stack.getItem() == RiderItems.transteamgun_2) {
+				}
+				if(stack.getItem() == RiderItems.transteamgun_2) {
 					if(living.isSneaking() || (living instanceof EntityPlayer && (((EntityPlayer) living).capabilities.isFlying))){
 					    if (item_OOOdriver.get_core(stack,"1")==0) {
 							armorModel.wings=new ItemStack(RiderItems.night_rogue_wings);
@@ -131,6 +133,10 @@ public class item_builddriver extends ItemArmor implements IHasModel
 
 				if(stack.getItem() == RiderItems.build_driver_cross_z) {
 					armorModel.belt2=new ItemStack(cross_form[item_OOOdriver.get_core(stack,"1")]);						
+				}
+
+				if(stack.getItem() == RiderItems.build_driver_grease) {
+					armorModel.belt2=new ItemStack(grease_form[item_OOOdriver.get_core(stack,"1")]);						
 				}
 
 				if (stack.getItem()!= RiderItems.nebulasteamgun_2 & stack.getItem()!= RiderItems.transteamgun_2){

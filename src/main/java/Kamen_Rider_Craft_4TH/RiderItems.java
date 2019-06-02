@@ -2427,7 +2427,8 @@ public class RiderItems {
 	public static Item build_driver_rogue = new item_builddriver("build_driver_rogue",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 	public static Item build_driver_blood = new item_builddriver("build_driver_blood",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 	public static Item build_driver_killbas = new item_builddriver("build_driver_killbas",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
-
+	public static Item build_driver_build_metal = new item_builddriver("build_driver_build_metal",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
+	
 	public static Item sclash_driver_grease = new item_builddriver("sclash_driver_grease",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 	public static Item sclash_driver_cross_z_charge = new item_builddriver("sclash_driver_cross_z_charge",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 	public static Item sclash_driver_rogue = new item_builddriver("sclash_driver_rogue",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
@@ -2567,7 +2568,8 @@ public class RiderItems {
 	public static Item dragon_magma_full_bottle = new Item_full_bottle(1, "7","dragon_magma_full_bottle",0).setCreativeTab(Tabs.tabbuild);
 	public static Item dragon_evol_bottle_gold = new Item_full_bottle(2, "7","dragon_evol_bottle_gold",0).setCreativeTab(Tabs.tabbuild);
 	public static Item muscle_galaxy_full_bottle = new Item_full_bottle(3, "7","muscle_galaxy_full_bottle",0).setCreativeTab(Tabs.tabbuild);
-	public static Item north_blizzard_full_bottle = new Item_full_bottle(0, "0","north_blizzard_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item north_blizzard_full_bottle = new Item_full_bottle(0, "8","north_blizzard_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item grease_full_bottle = new Item_full_bottle(1, "8","grease_full_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item prime_rogue_full_bottle = new Item_full_bottle(0, "0","prime_rogue_full_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item killbas_spider_full_bottle = new Item_full_bottle(0, "0","killbas_spider_full_bottle").setCreativeTab(Tabs.tabbuild);
 
@@ -2589,6 +2591,8 @@ public class RiderItems {
 	public static Item nebula_gas_sample = new Item_ore("nebula_gas_sample").setCreativeTab(Tabs.tabbuild);
 	public static Item genius_full_bottle_blank = new Item_full_bottle(0, "0","genius_full_bottle_blank").setCreativeTab(Tabs.tabbuild);
 
+	public static Item build_driver_grease_perfect_kingdom = new Item_ore("build_driver_grease_perfect_kingdom");
+	
 	public static Item build_driver_rabbit = new Item_ore("build_driver_rabbit");
 	public static Item build_driver_gorilla = new Item_ore("build_driver_gorilla");
 	public static Item build_driver_taka = new Item_ore("build_driver_taka");
@@ -2752,6 +2756,7 @@ public class RiderItems {
 	public static Item quiz_miridewatch = new Item_ridewatches(2, 22,"quiz_miridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item shinobi_miridewatch = new Item_ridewatches(2, 23,"shinobi_miridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item kikai_miridewatch = new Item_ridewatches(2, 24,"kikai_miridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item ginga_miridewatch = new Item_ridewatches(2, 27,"ginga_miridewatch").setCreativeTab(Tabs.tabzi_o);
 	
 	public static Item zi_o_mirror_ridewatch = new Item_ore("zi_o_mirror_ridewatch").setCreativeTab(Tabs.tabzi_o);
 

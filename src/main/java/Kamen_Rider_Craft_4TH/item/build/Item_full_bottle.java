@@ -64,13 +64,19 @@ public class Item_full_bottle extends Item implements IHasModel
 	
 		if (par3EntityPlayer.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
 
-			if (par3EntityPlayer.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.transteamgun_2){
+			if (par3EntityPlayer.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.build_driver_grease){
+
+				if (num2=="8"){
+					item_builddriver.set_core(par3EntityPlayer.getItemStackFromSlot(EntityEquipmentSlot.FEET), num, "1");
+				}
+				
+			}else if (par3EntityPlayer.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.transteamgun_2){
 
 				if (num2=="4"){
 					item_builddriver.set_core(par3EntityPlayer.getItemStackFromSlot(EntityEquipmentSlot.FEET), num, "1");
 				}
 				
-			}
+			}else
 			if (par3EntityPlayer.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.evol_driver_evol){
 
 				if (num2=="6"){
@@ -86,7 +92,7 @@ public class Item_full_bottle extends Item implements IHasModel
 				}else{
 					item_builddriver.set_core(par3EntityPlayer.getItemStackFromSlot(EntityEquipmentSlot.FEET), num, "1");
 				}
-			}
+			}else
 			if (par3EntityPlayer.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.nebulasteamgun_2){
 
 				if (num2=="5"){
@@ -103,7 +109,7 @@ public class Item_full_bottle extends Item implements IHasModel
 						item_builddriver.set_core(par3EntityPlayer.getItemStackFromSlot(EntityEquipmentSlot.FEET), num, "1");
 						}
 					}
-				}
+				}else
 			if (par3EntityPlayer.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.build_driver_cross_z){
 
 				if (num2 == "7"){

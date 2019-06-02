@@ -39,8 +39,10 @@ public class item_buildarmor2 extends ItemArmor implements IHasModel
 	
 	public static final String[] evolName= new String[] {"cobra","dragon","rabbit","blackhole","monster"};
 	
-	public static final String[] crosszName= new String[] {"","_magma","_great","_evol"};
+	public static final String[] greaseName= new String[] {"_blizzard","_perfect_kingdom"};
 
+	public static final String[] crosszName= new String[] {"","_magma","_great","_evol"};
+	
 	private static final int[] maxDamageArray = new int[] {11, 20, 15, 13};
 
 	public String armorNamePrefix;
@@ -365,18 +367,43 @@ public class item_buildarmor2 extends ItemArmor implements IHasModel
 					if (slot == EntityEquipmentSlot.HEAD)
 					{
 
-						return Refercence.MODID+":textures/armor/"+"grease_blizzard_1"+".png";
+						return Refercence.MODID+":textures/armor/"+"grease"+greaseName[item_builddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")] +"_1"+".png";
 					}
 
 
 					if (slot == EntityEquipmentSlot.CHEST)
 					{
 
-						return Refercence.MODID+":textures/armor/"+"grease_blizzard_2"+".png";
+						return Refercence.MODID+":textures/armor/"+"grease"+greaseName[item_builddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")] +"_2"+".png";
 					}  
 					if (slot == EntityEquipmentSlot.LEGS)
 					{
-						return Refercence.MODID+":textures/armor/"+"grease_blizzard_2"+".png";
+						return Refercence.MODID+":textures/armor/"+"grease"+greaseName[item_builddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")] +"_2"+".png";
+					}
+					else
+					{
+						return null;
+					}
+
+
+				}	else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.build_driver_build_metal){
+
+
+					if (slot == EntityEquipmentSlot.HEAD)
+					{
+
+						return Refercence.MODID+":textures/armor/"+"build_metal_1"+".png";
+					}
+
+
+					if (slot == EntityEquipmentSlot.CHEST)
+					{
+
+						return Refercence.MODID+":textures/armor/"+"build_metal_2"+".png";
+					}  
+					if (slot == EntityEquipmentSlot.LEGS)
+					{
+						return Refercence.MODID+":textures/armor/"+"build_metal_2"+".png";
 					}
 					else
 					{
