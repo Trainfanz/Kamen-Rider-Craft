@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kamenridercraft4th:kuuga_dragon"
+    }, 
+    {
+      "item": "kamenridercraft4th:kuuga_dragon"
+    }, 
+    {
+      "item": "kamenridercraft4th:kuuga_dragon"
+    }, 
+    {
+      "item": "kamenridercraft4th:kuuga_dragon"
+    }, 
+    {
+      "item": "kamenridercraft4th:kuuga_dragon"
+    }, 
+    {
+      "item": "kamenridercraft4th:kuuga_dragon"
+    }, 
+    {
+      "item": "kamenridercraft4th:kuuga_dragon"
+    }, 
+    {
+      "item": "kamenridercraft4th:kuuga_dragon"
+    }, 
+    {
+      "item": "kamenridercraft4th:kuuga_dragon"
+    }
+    ],
+  "result": {
+    "item": "kamenridercraft4th:kuuga_rising_dragon"
+  }
+}

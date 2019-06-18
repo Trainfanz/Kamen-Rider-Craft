@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kamenridercraft4th:kuuga_rising_mighty"
+    }, 
+    {
+      "item": "kamenridercraft4th:kuuga_rising_mighty"
+    }, 
+    {
+      "item": "kamenridercraft4th:kuuga_rising_mighty"
+    }, 
+    {
+      "item": "kamenridercraft4th:kuuga_rising_mighty"
+    }, 
+    {
+      "item": "kamenridercraft4th:kuuga_rising_mighty"
+    }, 
+    {
+      "item": "kamenridercraft4th:kuuga_rising_mighty"
+    }, 
+    {
+      "item": "kamenridercraft4th:kuuga_rising_mighty"
+    }, 
+    {
+      "item": "kamenridercraft4th:kuuga_rising_mighty"
+    }, 
+    {
+      "item": "kamenridercraft4th:kuuga_rising_mighty"
+    }
+    ],
+  "result": {
+    "item": "kamenridercraft4th:kuuga_amazing_mighty"
+  }
+}
