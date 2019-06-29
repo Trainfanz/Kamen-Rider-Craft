@@ -30,7 +30,7 @@ public class Item_vent extends Item implements IHasModel
 		WEP=wepon;
 		FORM=num;
 		WEP2=visors;
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
 	}

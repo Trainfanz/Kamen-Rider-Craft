@@ -61,7 +61,7 @@ public class Item_kuuga_mode_change_gun_im extends ItemBow  implements IHasModel
 		 this.attackDamage = 3.0F + material.getAttackDamage();
 		this.maxStackSize = 1;
 		this.setMaxDamage(par2EnumToolMaterial.getMaxUses());
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
 		this.addPropertyOverride(new ResourceLocation("pull"), new IItemPropertyGetter()

@@ -44,7 +44,7 @@ public class Item_kuuga_mode_change_sword_im extends ItemSword implements IHasMo
         this.setMaxDamage(par2EnumToolMaterial.getMaxUses());
       
        // Imcharge=charge; 
-        setUnlocalizedName(name);
+        setTranslationKey(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 

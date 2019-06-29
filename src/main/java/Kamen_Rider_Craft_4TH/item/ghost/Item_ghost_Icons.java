@@ -35,7 +35,7 @@ public class Item_ghost_Icons extends Item implements IHasModel
 		
 		num3=rider;
 		
-	    setUnlocalizedName(name);
+	    setTranslationKey(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 

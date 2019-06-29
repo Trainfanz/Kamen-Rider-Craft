@@ -11,7 +11,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumHand;
-import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.world.World;
 
 
@@ -28,9 +27,10 @@ public class Item_full_bottle extends Item implements IHasModel
 		this.setMaxDamage(0);
 		num=NUM;
 		num2=NUM2;
-	    setUnlocalizedName(name);
+	    setTranslationKey(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
+
         for (int i1 = 0; i1 < NUM3; ++i1)
         {
         	purifyer_block.BOTTLE.add(this);
@@ -44,7 +44,7 @@ public class Item_full_bottle extends Item implements IHasModel
 
 		num=NUM;
 		num2=NUM2;
-	    setUnlocalizedName(name);
+	    setTranslationKey(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 	}

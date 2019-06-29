@@ -1,25 +1,32 @@
 package Kamen_Rider_Craft_4TH.world.gen;
 
 
-
+import Kamen_Rider_Craft_4TH.world.BiomeProviderHelheim;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.DimensionType;
 import net.minecraft.world.WorldProvider;
+import net.minecraft.world.biome.BiomeProvider;
 import net.minecraft.world.chunk.Chunk;
-import net.minecraft.world.gen.IChunkGenerator;
 
 
-public class worldProviderHelheimForest extends WorldProvider
-{
-
+public class worldProviderHelheimForest extends WorldProvider {
     @Override
     public DimensionType getDimensionType()
     {
         return modDimensionWorldGen.HELHEIM_DIM_TYPE;
     }
-    
 
-    
+    @Override
+    protected void init() {
+        super.init();
+        biomeProvider = new BiomeProviderHelheim();
+    }
+
+    @Override
+    public BiomeProvider getBiomeProvider()     {
+        return biomeProvider;
+    }
+
     /**
      * Returns 'true' if in the "main surface world", but 'false' if in the Nether or End dimensions.
      *
@@ -36,7 +43,6 @@ public class worldProviderHelheimForest extends WorldProvider
     {
         return true;
     }
-    
 
     @Override
     public boolean canDoRainSnowIce(Chunk chunk)

@@ -23,7 +23,7 @@ public class ItemRouze_Cards extends Item implements IHasModel
 		this.setMaxDamage(0);
 		num=NUM;
 		RIDER=rider;
-        setUnlocalizedName(name);
+        setTranslationKey(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 	}

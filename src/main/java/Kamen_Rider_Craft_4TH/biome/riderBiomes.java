@@ -13,29 +13,26 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 import net.minecraftforge.registries.IForgeRegistry;
 
-// TODO: Auto-generated Javadoc
 @ObjectHolder(Refercence.MODID)
 public class riderBiomes
 {
     // instantiate Biomes
-    public final static biomeHelheim Helheim = null;
+    public final static biomeHelheim Helheim = new biomeHelheim();
 
     @Mod.EventBusSubscriber(modid = Refercence.MODID)
-    public static class RegistrationHandler
-    {
+    public static class RegistrationHandler {
         /**
          * Register this mod's {@link Biome}s.
          *
          * @param event The event
          */
         @SubscribeEvent
-        public static void onEvent(final RegistryEvent.Register<Biome> event)
-        {
+        public static void onEvent(final RegistryEvent.Register<Biome> event) {
             final IForgeRegistry<Biome> registry = event.getRegistry();
 
             System.out.println("Registering biomes");
             
-            registry.register(new biomeHelheim().setRegistryName(Refercence.MODID, modDimensionWorldGen.HELHEIM_NAME));
+            registry.register(Helheim.setRegistryName(Refercence.MODID, modDimensionWorldGen.HELHEIM_NAME));
         }
     }
     
@@ -43,8 +40,7 @@ public class riderBiomes
      * This method should be called during the "init" FML lifecycle 
      * because it must happen after object handler injection.
      */
-    public static void initBiomeManagerAndDictionary()
-    {
+    public static void initBiomeManagerAndDictionary() {
         BiomeManager.addBiome(BiomeType.WARM, new BiomeEntry(Helheim, 10));
         BiomeManager.addSpawnBiome(Helheim);
         BiomeDictionary.addTypes(Helheim, 

@@ -30,7 +30,7 @@ public class Item_astroswitch extends Item implements IHasModel
 		num2=NUM2;
 		slot=SLOT;
 		numod=NUMOD;
-        setUnlocalizedName(name);
+        setTranslationKey(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 	}

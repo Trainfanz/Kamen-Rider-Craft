@@ -27,7 +27,7 @@ public class glass_ore_block extends Block implements IHasModel
 		this.setHarvestLevel("pickaxe", lv);
 		setHardness(9.9F);
 		setLightLevel(0.1f);
-		setUnlocalizedName(string);
+		setTranslationKey(string);
 		setRegistryName(string);
 		CRYSTAL = ore;
 

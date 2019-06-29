@@ -1,7 +1,5 @@
 package Kamen_Rider_Craft_4TH.blocks;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
-import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.block.BlockHorizontal;
 import net.minecraft.block.material.Material;
@@ -12,12 +10,9 @@ import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemBlock;
 import net.minecraft.util.*;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-
-import java.util.Random;
 
 public abstract class machine_block extends BlockHorizontal implements IHasModel {
 
@@ -28,7 +23,7 @@ public abstract class machine_block extends BlockHorizontal implements IHasModel
         this.setHarvestLevel("pickaxe", lv);
         setHardness(9.9F);
         setLightLevel(0.1f);
-        setUnlocalizedName(string);
+        setTranslationKey(string);
         setRegistryName(string);
         this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
     }
@@ -38,7 +33,7 @@ public abstract class machine_block extends BlockHorizontal implements IHasModel
     }
 
     public IBlockState getStateFromMeta(int meta) {
-        EnumFacing enumfacing = EnumFacing.getFront(meta);
+        EnumFacing enumfacing = EnumFacing.byIndex(meta);
 
         if (enumfacing.getAxis() == EnumFacing.Axis.Y) {
             enumfacing = EnumFacing.NORTH;
@@ -47,11 +42,9 @@ public abstract class machine_block extends BlockHorizontal implements IHasModel
         return this.getDefaultState().withProperty(FACING, enumfacing);
     }
 
-    public int getMetaFromState(IBlockState state)
-    {
+    public int getMetaFromState(IBlockState state) {
         return state.getValue(FACING).getIndex();
     }
-
 
     public IBlockState withRotation(IBlockState state, Rotation rot) {
         return state.withProperty(FACING, rot.rotate(state.getValue(FACING)));

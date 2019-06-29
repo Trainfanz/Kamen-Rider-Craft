@@ -32,7 +32,7 @@ public class Item_ridewatches extends Item implements IHasModel
 		this.setMaxDamage(0);
 		num=NUM;
 		num2=arms;
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
 
@@ -45,7 +45,7 @@ public class Item_ridewatches extends Item implements IHasModel
 		num=NUM;
 		num2=arms;
 		works_with_decade_ridewatch=decade;
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
 	}

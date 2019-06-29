@@ -1,35 +1,26 @@
 package Kamen_Rider_Craft_4TH.item.amazons;
 
-import javax.annotation.Nullable;
-
-import org.lwjgl.opengl.GL11;
-
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
 import Kamen_Rider_Craft_4TH.model.model_belt;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import Kamen_Rider_Craft_4TH.util.Refercence;
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.ModelBiped;
-import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.entity.effect.EntityLightningBolt;
-import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.MobEffects;
 import net.minecraft.inventory.EntityEquipmentSlot;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
-import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nullable;
 
 public class item_amazonsdriver extends ItemArmor implements IHasModel
 {
@@ -40,15 +31,15 @@ public class item_amazonsdriver extends ItemArmor implements IHasModel
 
 	public String Rider;
 
-	public item_amazonsdriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, String rider)
+	public item_amazonsdriver (String name, ArmorMaterial par2EnumArmorMaterial, int par3, String rider)
 	{
 		super(par2EnumArmorMaterial, par3, EntityEquipmentSlot.FEET);
 		this.material = par2EnumArmorMaterial;
 		par2EnumArmorMaterial.getDamageReductionAmount(EntityEquipmentSlot.FEET);
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(EntityEquipmentSlot.FEET));
 		this.maxStackSize = 1;
-		Rider=rider;
-		setUnlocalizedName(name);
+		Rider = rider;
+		setTranslationKey(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
 	}
@@ -56,7 +47,7 @@ public class item_amazonsdriver extends ItemArmor implements IHasModel
 	@Override
 	public String getArmorTexture(ItemStack stack, Entity entity, EntityEquipmentSlot slot, String type)
 	{
-		return Refercence.MODID+":textures/armor/blank.png";
+		return Refercence.MODID + ":textures/armor/blank.png";
 
 	}
 	

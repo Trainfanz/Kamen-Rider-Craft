@@ -27,7 +27,7 @@ public class Item_wizard_ring extends Item implements IHasModel
 
 		num=NUM;
 		num2=NUM2;
-        setUnlocalizedName(name);
+        setTranslationKey(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 	}

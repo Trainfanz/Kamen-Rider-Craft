@@ -28,7 +28,7 @@ public class Item_advent_cards extends Item implements IHasModel
 
 		num=NUM;
 		num2=NUM2;
-		 setUnlocalizedName(name);
+		 setTranslationKey(name);
 	        setRegistryName(name);
 	        TokuCraft_core.ITEMS.add(this);
 		}

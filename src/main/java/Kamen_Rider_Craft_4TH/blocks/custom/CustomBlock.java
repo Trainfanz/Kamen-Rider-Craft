@@ -182,7 +182,7 @@ public class CustomBlock extends Block implements IHasModel {
             CustomBlock block = type.get(material, mapColor != null ? mapColor : material.getMaterialMapColor(), properties);
 
             //if(name == null) throw new Exception("Block name can't be null!");
-            block.setUnlocalizedName(name);
+            block.setTranslationKey(name);
             block.setRegistryName(name);
             block.setLightLevel(lightLevel);
             block.setLightOpacity(lightOpacity);

@@ -89,18 +89,18 @@ public class Entity_NightRogue extends EntityBossBase
     {
         return new ItemStack(RiderItems.steam_blade);
     }
- 	protected boolean shouldBurnInDay()
+
+    protected boolean shouldBurnInDay()
     {
         return false;
     }
-    public void onDeath(DamageSource cause)
-    {
-if (!this.world.isRemote){
 
-   		this.dropItem(RiderItems.smash_bottle, 4);
-   		this.dropItem(RiderItems.bat_full_bottle, 1);
-   		this.entityDropItem(new ItemStack(RiderItems.pandorabox, 1), 1f);
-       }
+    public void onDeath(DamageSource cause) {
+	    if (!this.world.isRemote){
+	        this.dropItem(RiderItems.smash_bottle, 4);
+	        this.dropItem(RiderItems.bat_full_bottle, 1);
+	        this.entityDropItem(new ItemStack(RiderItems.pandorabox, 1), 1f);
+	    }
    }
 }
     

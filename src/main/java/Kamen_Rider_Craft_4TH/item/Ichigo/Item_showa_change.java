@@ -28,7 +28,7 @@ package Kamen_Rider_Craft_4TH.item.Ichigo;
 			this.setMaxDamage(0);
 			num=NUM;
 			BELT=belt;
-	        setUnlocalizedName(name);
+	        setTranslationKey(name);
 	        setRegistryName(name);
 	        TokuCraft_core.ITEMS.add(this);
 

@@ -1,16 +1,13 @@
 package Kamen_Rider_Craft_4TH;
 
+import Kamen_Rider_Craft_4TH.biome.riderBiomes;
 import Kamen_Rider_Craft_4TH.potion.PotionCore;
-import Kamen_Rider_Craft_4TH.potion.PotionFirePunch;
-import Kamen_Rider_Craft_4TH.potion.PotionFly;
-import Kamen_Rider_Craft_4TH.potion.PotionPunchBoost;
 import Kamen_Rider_Craft_4TH.util.Refercence;
 import Kamen_Rider_Craft_4TH.world.WorldTypeHelheim;
 import Kamen_Rider_Craft_4TH.world.gen.WorldGenCustomStructures;
 import Kamen_Rider_Craft_4TH.world.gen.modDimensionWorldGen;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
-import net.minecraft.potion.Potion;
 import net.minecraft.world.WorldType;
 import net.minecraftforge.common.DimensionManager;
 import net.minecraftforge.fml.common.Mod;
@@ -20,7 +17,6 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import java.util.ArrayList;
@@ -42,13 +38,14 @@ public class TokuCraft_core {
 	public static void preInit(FMLPreInitializationEvent event) {
 		RiderBlocks.init();
 		RiderItems.init();
-		DimensionManager.registerDimension(modDimensionWorldGen.HELHEIM_DIM_ID,modDimensionWorldGen.HELHEIM_DIM_TYPE);
+		DimensionManager.registerDimension(modDimensionWorldGen.HELHEIM_DIM_ID, modDimensionWorldGen.HELHEIM_DIM_TYPE);
 	}
 
 	@EventHandler
 	public static void init(FMLInitializationEvent event) {
 		//GameRegistry.registerWorldGenerator()
 		proxy.preInit();
+		riderBiomes.initBiomeManagerAndDictionary();
 		PotionCore.init(event);
 	}
 
