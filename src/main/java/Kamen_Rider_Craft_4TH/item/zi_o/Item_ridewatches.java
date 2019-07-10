@@ -22,7 +22,7 @@ public class Item_ridewatches extends Item implements IHasModel
 	public int num2;
 	public boolean works_with_decade_ridewatch=false;
 
-	public static String[] ARMS= new String[] {"base","build","exaid","ghost","drive","gaim","wizard","fourze","ooo","w","kiva","deno","kabuto","hibiki","blade","faiz","ryuki","agito","kuuga","genm","decade","exaid_w","quiz","shinobi","kikai","revive_goretsu","revive_shippu","ginga_finaly","ginga_wakusei","ginga_taiyo"};
+	public static String[] ARMS= new String[] {"base","build","exaid","ghost","drive","gaim","wizard","fourze","ooo","w","kiva","deno","kabuto","hibiki","blade","faiz","ryuki","agito","kuuga","genm","decade","exaid_w","quiz","shinobi","kikai","revive_goretsu","revive_shippu","ginga_finaly","ginga_wakusei","ginga_taiyo","","","","","","","","",""};
 
 
 
@@ -106,6 +106,11 @@ public class Item_ridewatches extends Item implements IHasModel
 								item_zikudriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
 								item_zikudriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "1");	
 								
+							}else if (this == RiderItems.bibiru_geiz_ridewatch){
+
+								item_zikudriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
+								item_zikudriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),6, "1");
+
 							}	
 							else if (this == RiderItems.geizrevive_ridewatch){
 								
