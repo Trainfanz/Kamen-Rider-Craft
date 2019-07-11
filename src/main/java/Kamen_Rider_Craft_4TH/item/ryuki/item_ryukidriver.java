@@ -47,7 +47,7 @@ public class item_ryukidriver extends ItemArmor implements IHasModel
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(EntityEquipmentSlot.FEET));
 		this.maxStackSize = 1;
 		Rider=rider;
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
 	}

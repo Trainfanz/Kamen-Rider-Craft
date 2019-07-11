@@ -1,8 +1,6 @@
 
 package Kamen_Rider_Craft_4TH.world;
 
-import java.util.Random;
-
 import Kamen_Rider_Craft_4TH.world.gen.modDimensionWorldGen;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiCreateWorld;
@@ -10,21 +8,19 @@ import net.minecraft.world.World;
 import net.minecraft.world.WorldServer;
 import net.minecraft.world.WorldType;
 import net.minecraft.world.biome.BiomeProvider;
-import net.minecraft.world.gen.IChunkGenerator;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
+import java.util.Random;
+
 // TODO: Auto-generated Javadoc
-public class WorldTypeHelheim extends WorldType
-{    
-    
+public class WorldTypeHelheim extends WorldType {
     /**
      * Instantiates a new world type Helheim.
      */
-    public WorldTypeHelheim()
-    {
+    public WorldTypeHelheim() {
         super(modDimensionWorldGen.HELHEIM_NAME);
-        
+
         // DEBUG
         System.out.println("Constructing WorldTypeHelheim");
     }
@@ -37,10 +33,6 @@ public class WorldTypeHelheim extends WorldType
     {
         return new BiomeProviderHelheim();
     }
-
-
-
-
 
     /* (non-Javadoc)
      * @see net.minecraft.world.WorldType#handleSlimeSpawnReduction(java.util.Random, net.minecraft.world.World)
@@ -66,8 +58,7 @@ public class WorldTypeHelheim extends WorldType
      * @return Fuzz for entity initial spawn in blocks.
      */
     @Override
-    public int getSpawnFuzz(WorldServer world, net.minecraft.server.MinecraftServer server)
-    {
+    public int getSpawnFuzz(WorldServer world, net.minecraft.server.MinecraftServer server) {
         return Math.max(0, server.getSpawnRadius(world));
     }
 
@@ -79,8 +70,7 @@ public class WorldTypeHelheim extends WorldType
      */
     @Override
     @SideOnly(Side.CLIENT)
-    public void onCustomizeButton(Minecraft mc, GuiCreateWorld guiCreateWorld)
-    {
+    public void onCustomizeButton(Minecraft mc, GuiCreateWorld guiCreateWorld) {
     }
 
     /**
@@ -106,6 +96,4 @@ public class WorldTypeHelheim extends WorldType
     {
         return true;
     }
-
-   
 }

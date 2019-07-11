@@ -57,7 +57,7 @@ public class Item_lupin_gunner extends ItemBow  implements IHasModel
 		 this.attackDamage = 3.0F + material.getAttackDamage();
 		this.maxStackSize = 1;
 		this.setMaxDamage(par2EnumToolMaterial.getMaxUses());
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
 	}

@@ -30,7 +30,7 @@ public class Item_memory extends Item  implements IHasModel
 		this.setMaxDamage(0);
 		num=NUM;
 		num2=NUM2;
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
 		for (int i1 = 0; i1 < gen2; ++i1)
@@ -52,7 +52,7 @@ public class Item_memory extends Item  implements IHasModel
 		this.setMaxDamage(0);
 		num=NUM;
 		num2=NUM2;
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
 	}
@@ -64,7 +64,7 @@ public class Item_memory extends Item  implements IHasModel
 		this.setMaxDamage(0);
 		num=0;
 		num2="0";
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
 	}
@@ -76,7 +76,7 @@ public class Item_memory extends Item  implements IHasModel
 		this.setMaxDamage(0);
 		num=0;
 		num2="0";
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
 		for (int i1 = 0; i1 < gen2; ++i1)

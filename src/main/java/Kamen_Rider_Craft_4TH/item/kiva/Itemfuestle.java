@@ -27,7 +27,7 @@ public class Itemfuestle extends Item implements IHasModel
 		this.setMaxDamage(0);
 		num=NUM;
 		num2=NUM2;
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
 

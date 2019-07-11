@@ -27,7 +27,7 @@ public class Item_clock_up_pad extends Item implements IHasModel
 		
 		this.setMaxDamage(0);
 
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
 

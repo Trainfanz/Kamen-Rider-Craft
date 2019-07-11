@@ -33,7 +33,7 @@ public class Itemo_scanner extends Item  implements IHasModel
 		
 		setMaxDamage(0);
 		maxStackSize = 1;
-	       setUnlocalizedName(name);
+	       setTranslationKey(name);
 	        setRegistryName(name);
 	        TokuCraft_core.ITEMS.add(this);
 		}

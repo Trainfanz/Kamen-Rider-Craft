@@ -54,7 +54,7 @@ public class item_Gaimdriver extends ItemArmor  implements IHasModel
 		LOCK = lock;
 		DRIVER = driver;
 		DIFLOCK=difLock;
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
 	}

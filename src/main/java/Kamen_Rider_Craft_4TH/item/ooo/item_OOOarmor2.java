@@ -35,7 +35,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 			this.setMaxDamage(par2EnumArmorMaterial.getDurability(par4));
 			this.maxStackSize = 1;
 			
-	        setUnlocalizedName(name);
+	        setTranslationKey(name);
 	        setRegistryName(name);
 	        TokuCraft_core.ITEMS.add(this);
 		}

@@ -1,24 +1,8 @@
 package Kamen_Rider_Craft_4TH;
 
-import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
+import Kamen_Rider_Craft_4TH.blocks.*;
 import Kamen_Rider_Craft_4TH.blocks.custom.BlockType;
 import Kamen_Rider_Craft_4TH.blocks.custom.CustomBlock;
-import Kamen_Rider_Craft_4TH.blocks.custom.Property;
-import Kamen_Rider_Craft_4TH.blocks.GameCreatorBlock;
-import Kamen_Rider_Craft_4TH.blocks.decor_block;
-import Kamen_Rider_Craft_4TH.blocks.gaia_memory_refiner_block;
-import Kamen_Rider_Craft_4TH.blocks.glass_ore_block;
-import Kamen_Rider_Craft_4TH.blocks.mob_block;
-import Kamen_Rider_Craft_4TH.blocks.ore_block;
-import Kamen_Rider_Craft_4TH.blocks.pandora_box_block;
-import Kamen_Rider_Craft_4TH.blocks.purifyer_block;
-import Kamen_Rider_Craft_4TH.blocks.solidifyer_block;
 import Kamen_Rider_Craft_4TH.item.*;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.Item_gashacon_breaker;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.Item_gashat;
@@ -32,7 +16,6 @@ import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigoarmor2;
 import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigodriver;
 import Kamen_Rider_Craft_4TH.item.W.Item_memory;
 import Kamen_Rider_Craft_4TH.item.W.Item_metal_shaft;
-import Kamen_Rider_Craft_4TH.item.W.item_Warmor;
 import Kamen_Rider_Craft_4TH.item.W.item_Wdriver;
 import Kamen_Rider_Craft_4TH.item.W.item_warmor2;
 import Kamen_Rider_Craft_4TH.item.agito.item_agitodriver;
@@ -125,31 +108,19 @@ import Kamen_Rider_Craft_4TH.item.zi_o.item_kodamawatch;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zi_oarmor;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zi_oarmor2;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
+import Kamen_Rider_Craft_4TH.mobs.Boss.*;
 import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.ItemMeshDefinition;
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.init.Items;
 import net.minecraft.init.MobEffects;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
-import net.minecraft.item.ItemBlock;
-import net.minecraft.item.ItemStack;
-import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
-import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import static Kamen_Rider_Craft_4TH.blocks.custom.Property.TRANSPARENT;
-import static Kamen_Rider_Craft_4TH.blocks.custom.Property.WALKTHROUGH;
 import static Kamen_Rider_Craft_4TH.item.item_panel.PanelColor.*;
-import static java.util.Objects.*;
 
 public class RiderItems {
 
@@ -288,6 +259,9 @@ public class RiderItems {
 	public static Item amazon_cell_vial = new Item_ore("amazon_cell_vial").setCreativeTab(Tabs.tabamazons);
 	public static Block amazon_cell_block = new ore_block("amazon_cell_block",Material.ROCK, amazon_cell_vial, 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabamazons);
 
+	//helheim blocks
+	public static Block helheim_crack = new helheim_crack();
+
 	//decor blocks
 
 	public static Block monitor = CustomBlock.builder().material(Material.IRON).hardness(9.9F).lightLevel(0.1F).harvestLevel("pickaxe", 2).blockType(BlockType.DIRECTIONAL).name("monitor").setCreativeTabe(Tabs.tabdecor).build();
@@ -304,13 +278,12 @@ public class RiderItems {
 
 
 	//boss blocks
-
-	public static Block evolt_block = new mob_block("evolt_block",Material.ROCK, "evolt", 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
-	public static Block night_rogue_block = new mob_block("night_rogue_block",Material.ROCK, "night_rogue", 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
-	public static Block hell_bros_block = new mob_block("hell_bros_block",Material.ROCK, "hell_bros", 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
-	public static Block bi_kaiser_block = new mob_block("bi_kaiser_block",Material.ROCK, "bi_kaiser", 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
-	public static Block another_build_block = new mob_block("another_build_block",Material.ROCK, "another_build", 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabzi_o);
-	public static Block cronus_block = new mob_block("cronus_block",Material.ROCK, "cronus", 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabex_aid);
+	public static Block evolt_block = new mob_block("evolt_block", Entity_evolt::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
+	public static Block night_rogue_block = new mob_block("night_rogue_block", Entity_NightRogue::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
+	public static Block hell_bros_block = new mob_block("hell_bros_block", Entity_HellBros::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
+	public static Block bi_kaiser_block = new mob_block("bi_kaiser_block", Entity_bikaiser::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
+	public static Block another_build_block = new mob_block("another_build_block", Entity_another_build::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabzi_o);
+	public static Block cronus_block = new mob_block("cronus_block", EntityChronos::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabex_aid);
 
 	public static Item rider_circuit = new Item_ore("rider_circuit").setCreativeTab(Tabs.tabIchigo);
 
@@ -636,8 +609,8 @@ public class RiderItems {
 	//ryuki
 	public static Item drag_visor = new Item_ore("drag_visor").setCreativeTab(Tabs.tabryuki);
 	public static Item ride_saber = new ItemBaseSword("ride_saber",Tabs.den_denso).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item drag_saber = new ItemBaseSword("drag_saber",Tabs.den_denso).setMaxStackSize(1).setUnlocalizedName("drag_saber").setCreativeTab(Tabs.tabryuki);
-	public static Item drag_claw = new ItemBaseSword("drag_claw",Tabs.den_denro).setMaxStackSize(1).setUnlocalizedName("drag_claw").setCreativeTab(Tabs.tabryuki);
+	public static Item drag_saber = new ItemBaseSword("drag_saber",Tabs.den_denso).setMaxStackSize(1).setTranslationKey("drag_saber").setCreativeTab(Tabs.tabryuki);
+	public static Item drag_claw = new ItemBaseSword("drag_claw",Tabs.den_denro).setMaxStackSize(1).setTranslationKey("drag_claw").setCreativeTab(Tabs.tabryuki);
 
 	public static Item drag_shield = new ItemBaseShield("drag_shield").setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
 
@@ -958,7 +931,7 @@ public class RiderItems {
 	public static Item gatack_rider_belt = new item_kabutodriver("gatack_rider_belt",ArmorMaterial.DIAMOND, 4,"gatack",gatack_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
 
 	public static Item thebee_rider_belt_cast = new Item_ore("thebee_rider_belt_cast");
-	public static Item thebee_rider_belt = new item_kabutodriver("thebee_rider_belt",ArmorMaterial.DIAMOND, 4, "thebee",thebee_rider_belt_cast).setMaxStackSize(1).setUnlocalizedName("thebee_rider_belt").setCreativeTab(Tabs.tabkabuto);
+	public static Item thebee_rider_belt = new item_kabutodriver("thebee_rider_belt",ArmorMaterial.DIAMOND, 4, "thebee",thebee_rider_belt_cast).setMaxStackSize(1).setTranslationKey("thebee_rider_belt").setCreativeTab(Tabs.tabkabuto);
 
 	public static Item drake_rider_belt_cast = new Item_ore("drake_rider_belt_cast");
 	public static Item drake_rider_belt = new item_kabutodriver("drake_rider_belt",ArmorMaterial.DIAMOND, 4, "drake",drake_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);

@@ -43,7 +43,7 @@ public class item_zikudriver extends ItemArmor  implements IHasModel
 		this.maxStackSize = 1;
 		Rider=rider;
 		DRIVER = driver;
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
 	}

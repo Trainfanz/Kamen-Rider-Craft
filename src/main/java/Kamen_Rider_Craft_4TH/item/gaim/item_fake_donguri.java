@@ -44,7 +44,7 @@ public class item_fake_donguri extends Item implements IHasModel
     {
         super();
         this.maxStackSize = 1;
-        setUnlocalizedName(name);
+        setTranslationKey(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
       

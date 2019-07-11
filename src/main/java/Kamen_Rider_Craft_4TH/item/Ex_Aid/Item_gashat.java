@@ -37,7 +37,7 @@ public class Item_gashat extends Item implements IHasModel
 		num2=arms;
 
 		
-	    setUnlocalizedName(name);
+	    setTranslationKey(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 

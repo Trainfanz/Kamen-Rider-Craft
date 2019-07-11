@@ -55,7 +55,7 @@ public class item_ghostdriver extends ItemArmor implements IHasModel
 		RIDER = rider; 
 		LOCK = lock;
 		DRIVER = driver;
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
 	}

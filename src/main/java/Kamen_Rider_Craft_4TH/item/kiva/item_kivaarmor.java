@@ -29,7 +29,7 @@ public class item_kivaarmor extends ItemArmor implements IHasModel
 		par2EnumArmorMaterial.getDamageReductionAmount(par4);
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(par4));
 		this.maxStackSize = 1;
-        setUnlocalizedName(name);
+        setTranslationKey(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 	}

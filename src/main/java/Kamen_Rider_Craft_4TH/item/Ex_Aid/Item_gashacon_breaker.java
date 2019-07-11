@@ -47,7 +47,7 @@ public class Item_gashacon_breaker extends ItemSword implements IHasModel
 		this.setMaxDamage(par2EnumToolMaterial.getMaxUses());
 
 		// Imcharge=charge; 
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
 

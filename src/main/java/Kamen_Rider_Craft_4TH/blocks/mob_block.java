@@ -1,49 +1,31 @@
 package Kamen_Rider_Craft_4TH.blocks;
 
-import java.util.Random;
-
-import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
-import Kamen_Rider_Craft_4TH.item.gaim.item_Gaimdriver;
-import Kamen_Rider_Craft_4TH.mobs.Boss.EntityChronos;
-import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_HellBros;
-import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_NightRogue;
-import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_another_build;
-import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_bikaiser;
-import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockFalling;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.monster.EntityMob;
-import net.minecraft.entity.passive.EntityChicken;
-import net.minecraft.init.Blocks;
-import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.text.TextComponentString;
-import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class mob_block extends Block implements IHasModel
-{
+import java.util.Random;
+import java.util.function.Function;
 
-	public String CRYSTAL;
-	public mob_block(String string, Material par3Material,String ore,int lv)
-	{
-		super(par3Material);
-		// TODO Auto-generated constructor stub
-		this.setHarvestLevel("pickaxe", lv);
+public class mob_block extends Block implements IHasModel {
+	private final Function<World, EntityMob> mobFuntion;
+
+	public mob_block(String string, Function<World, EntityMob> mobFunction) {
+		super(Material.ROCK);
+		this.setHarvestLevel("pickaxe", 2);
 		setHardness(9.9F);
 		setLightLevel(0.1f);
-		setUnlocalizedName(string);
+		setTranslationKey(string);
 		setRegistryName(string);
-		CRYSTAL = ore;
+		this.mobFuntion = mobFunction;
         TokuCraft_core.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
         TokuCraft_core.BLOCKS.add(this);
 	}
@@ -51,48 +33,31 @@ public class mob_block extends Block implements IHasModel
 	/**
 	 * Returns the ID of the items to drop on destruction.
 	 */
-	 @Override
-		public Item getItemDropped(IBlockState state, Random random, int fortune){
-		 return null;
-	 }
+	@Override
+	public Item getItemDropped(IBlockState state, Random random, int fortune){
+		return null;
+	}
 
 	@Override
-	   /**
+	/**
      * Called after a player destroys this Block - the posiiton pos may no longer hold the state indicated.
      */
-    public void onBlockDestroyedByPlayer(World worldIn, BlockPos pos, IBlockState state)
-    {
-		if (!worldIn.isRemote)
-		{
-			EntityMob entitychicken;
-			if (CRYSTAL == "another_build"){
-				entitychicken = new Entity_another_build(worldIn);
-			}else if (CRYSTAL == "evolt"){
-				entitychicken = new Entity_evolt(worldIn);	
-			}else if (CRYSTAL == "night_rogue"){
-				entitychicken = new Entity_NightRogue(worldIn);	
-			}else if (CRYSTAL == "hell_bros"){
-				entitychicken = new Entity_HellBros(worldIn);	
-			}else if (CRYSTAL == "bi_kaiser"){
-				entitychicken = new Entity_bikaiser(worldIn);	
-			}else if (CRYSTAL == "cronus"){
-				entitychicken = new EntityChronos(worldIn);	
-			}else{
-				entitychicken = new Entity_another_build(worldIn);
-			}
+    public void onPlayerDestroy(World worldIn, BlockPos pos, IBlockState state) {
+		if (!worldIn.isRemote) {
+			EntityMob entitychicken = mobFuntion.apply(worldIn);
+
             entitychicken.setLocationAndAngles(pos.getX(), pos.getY(), pos.getZ(), 0, 0.0F);
             worldIn.spawnEntity(entitychicken);
 		}
     }
 
-	public int getExpDrop(IBlockAccess world, int metadata, int fortune)
-	{
-		return 5;
+	@Override
+	public int getExpDrop(IBlockState state, IBlockAccess world, BlockPos pos, int fortune) {
+    	return 5;
 	}
 
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(Item.getItemFromBlock(this),0,"inventory");
 	}
-
 }

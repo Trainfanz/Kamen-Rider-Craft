@@ -26,7 +26,7 @@ public class Item_zecter extends Item implements IHasModel
 		
 		this.setMaxDamage(0);
 		num=NUM;
-        setUnlocalizedName(name);
+        setTranslationKey(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 

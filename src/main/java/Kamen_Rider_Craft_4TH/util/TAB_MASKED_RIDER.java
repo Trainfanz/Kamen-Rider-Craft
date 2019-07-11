@@ -12,7 +12,7 @@ public class TAB_MASKED_RIDER extends CreativeTabs{
 	}
 
 	@Override
-	public ItemStack getTabIconItem() {
+	public ItemStack createIcon() {
 		return new ItemStack(RiderItems.agito_of_seed);
 	}
 	

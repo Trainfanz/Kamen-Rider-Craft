@@ -1,20 +1,16 @@
 package Kamen_Rider_Craft_4TH.gui;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
-import Kamen_Rider_Craft_4TH.item.item_panel;
 import Kamen_Rider_Craft_4TH.item.build.Item_full_bottle;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
-import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.IItemHandler;
-import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.SlotItemHandler;
 
 import javax.annotation.Nonnull;
-import java.util.function.Supplier;
 
 public class ContainerPanel extends Container {
     public ContainerPanel(InventoryPlayer inventory, IItemHandler handler) {
@@ -41,7 +37,7 @@ public class ContainerPanel extends Container {
         });
     }
 
-    protected void bindPlayerInventory(InventoryPlayer playerInventory) {
+    private void bindPlayerInventory(InventoryPlayer playerInventory) {
         for (int i = 0; i < 3; ++i) {
             for (int j = 0; j < 9; ++j) {
                 this.addSlotToContainer(new Slot(playerInventory, j + i * 9 + 9, 8 + j * 18, 84 + i * 18));
