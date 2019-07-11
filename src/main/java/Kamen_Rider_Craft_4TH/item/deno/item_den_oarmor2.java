@@ -23,7 +23,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class item_den_oarmor2 extends ItemArmor implements IHasModel
 {
 
-	public static final String[] CoreName= new String[] {"_plat","_sword","_rod","_ax","_gun","_wing","_climax","_super_climax","_liner"};
+	public static final String[] CoreName= new String[] {"_plat","_sword","_rod","_ax","_gun","_wing","_climax","_climax","_liner"};
 	public static final String[] CoreNamezeronos= new String[] {"_plat_","_altair_","_vega_","_zero_"};
 	public static final String[] CoreNamenewdeno= new String[] {"_plat","_strike","_vega"};
 

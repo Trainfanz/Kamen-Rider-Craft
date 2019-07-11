@@ -7,6 +7,7 @@ import org.lwjgl.opengl.GL11;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.model.model_belt;
+import Kamen_Rider_Craft_4TH.model.model_belt_plus;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import Kamen_Rider_Craft_4TH.util.Refercence;
 import net.minecraft.client.Minecraft;
@@ -261,10 +262,21 @@ public class item_den_odriver extends ItemArmor implements IHasModel
 		{
 			if(stack.getItem() instanceof item_den_odriver)
 			{
+				model_belt_plus armorModel = new model_belt_plus();
 
-				model_belt armorModel = new model_belt();
 
-				int form = this.get_core(stack);
+				armorModel.belt=stack;
+		
+			int form = this.get_core(stack);
+			if(stack.getItem() == RiderItems.den_odriver)
+			{
+				if (form == 7){
+					armorModel.wings=new ItemStack(RiderItems.chou_climax_wings);
+				}else{
+					armorModel.wings=new ItemStack(RiderItems.blanknoitem);
+				}
+			}
+			
 				if (stack.getItem()==RiderItems.den_odriver){
 					if(form == 0){
 						armorModel.belt=new ItemStack(RiderItems.den_odriver_bl);

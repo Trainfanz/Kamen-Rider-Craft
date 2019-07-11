@@ -1038,6 +1038,8 @@ public class RiderItems {
 	public static Item den_odriverwing = new Item_ore("den_odriverwing");
 	public static Item den_obeltclimax = new Item_ore("den_obeltclimax");
 
+	public static Item chou_climax_wings = new Item_ore("chou_climax_wings");
+	
 	public static Item den_odriver = new item_den_odriver("den_odriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
 
 
@@ -2729,6 +2731,7 @@ public class RiderItems {
 	public static Item zi_o_ii_ridewatch = new Item_ridewatches(0, 0,"zi_o_ii_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item trinity_ridewatch = new Item_ridewatches(0, 0,"trinity_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item grandzi_o_ridewatch = new Item_ridewatches(0, 0,"grandzi_o_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item ohmazi_o_ridewatch = new Item_ridewatches(0, 0,"ohmazi_o_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	
 	public static Item geiz_ridewatch = new Item_ridewatches(0, 0,"geiz_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item geizrevive_ridewatch = new Item_ridewatches(0, 25,"geizrevive_ridewatch").setCreativeTab(Tabs.tabzi_o);
@@ -2800,6 +2803,7 @@ public class RiderItems {
 	public static Item ziku_driver_zi_o_ii = new Item_ore("ziku_driver_zi_o_ii");
 	public static Item ziku_driver_zi_o_trinity = new Item_ore("ziku_driver_zi_o_trinity");
 	public static Item ziku_driver_zi_o_grand = new Item_ore("ziku_driver_zi_o_grand");
+	public static Item ziku_driver_zio_ohma = new Item_ore("ziku_driver_zio_ohma");
 	public static Item ziku_driver_geizrevive = new Item_ore("ziku_driver_geizrevive");
 	public static Item ziku_driver_bibiru_geiz = new Item_ore("ziku_driver_bibiru_geiz");
 	
