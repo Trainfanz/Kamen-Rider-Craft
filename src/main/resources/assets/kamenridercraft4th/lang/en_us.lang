@@ -43,6 +43,17 @@ entity.RidePlayerMob.name=Ride Player
 entity.Para_dxMob.name=Kamen Rider ParaDX
 entity.Red_PoppyMob.name=Kamen Rider Poppy
 entity.genmMob.name=Kamen Rider GENM
+entity.SakuraHurricaneMob.name=Sakura Hurricane
+entity.KurokageTroopersMob.name=Kurokage Trooper
+entity.ElementaryInvesGreenMob.name=Elementary Inves (Green)
+entity.ElementaryInvesRedMob.name=Elementary Inves (Red)
+entity.ElementaryInvesBlueMob.name=Elementary Inves (Blue)
+entity.byakkoInvesMob.name=Byakko Inves
+entity.hekijaInvesMob.name=Hekija Inves
+entity.ZangetsuShinMob.name=Kamen Rider Zangetsu Shin
+entity.MarikaMob.name=Kamen Rider Malika
+entity.SigurdMob.name=Kamen Rider Sigurd
+entity.DukeMob.name=Kamen Rider Duke
 
 effect.fly=Flying
 effect.fire_punch=Fire Punch
@@ -130,6 +141,8 @@ tile.solidifyer.name=Full Bottle Solidifier
 
 tile.gaia_memory_refiner.name=Gaia Memory Refiner
 
+tile.helheim_vine.name=Helheim Vine
+
 tile.gamecreator.name=Game Creator
 
 tile.monitor.name=Computer Monitor
@@ -137,6 +150,11 @@ tile.pandorabox.name=Pandora Box
 tile.mighty_block.name=Mighty Action X Block
 tile.wallplate.name=Metal Wall Plate
 tile.fangire_glass.name=Fangire Glass
+
+tile.helheim_plant.name=Helheim Plant
+tile.helheim_plant_2.name=Helheim Plant
+tile.helheim_plant_3.name=Helheim Plant
+tile.helheim_plant_4.name=Helheim Plant
 
 item.energy.name=Energy Shot
 
@@ -554,6 +572,7 @@ item.drivetroso.name=Drive Chestplate
 item.drivelegs.name=Drive Leggings
 
 item.drivedriver.name=Drive Driver
+item.drivedriverbrain.name=Drive Driver (Brain)
 
 item.speedshift.name=Shift Speed
 item.wildshift.name=Shift Wild
@@ -1329,6 +1348,7 @@ item.musashi_ghost_icon.name=Musashi Ghost Eyecon
 item.new_ore_ghost_icon.name=New Ore Ghost Eyecon
 
 item.savior_arrow.name=Savior Arrow
+item.lemon_rapier.name=Lemon Rapier
 
 item.specter_ghost_icon.name=Specter Ghost Eyecon
 
@@ -1773,6 +1793,7 @@ item.nebulasteamgun_2.name=Nebula Steam Gun (Belt)
 item.build_driver_grease.name=Build Driver (Grease)
 item.build_driver_rogue.name=Build Driver (Rogue)
 item.build_driver_killbas.name=Build Driver (Killbas)
+item.build_driver_build_metal.name=Build Driver (Metal Build)
 
 item.evol_driver_evol.name=Evol Driver (Evol)
 item.evol_driver_mad_rogue.name=Evol Driver (Mad Rogue)
@@ -1891,6 +1912,7 @@ item.north_blizzard_full_bottle.name=North Blizzard Full Bottle
 item.prime_rogue_full_bottle.name=Prime Rogue Full Bottle
 item.muscle_galaxy_full_bottle.name=Muscle Galaxy Full Bottle
 item.killbas_spider_full_bottle.name=Killbas Spider Full Bottle
+item.grease_full_bottle.name=Grease Full Bottle
 
 item.gear_engine.name=Gear Engine
 item.gear_remocon.name=Gear Remocon
@@ -1949,6 +1971,9 @@ item.quiz_driver.name=Quiz Driver
 item.kikai_driver.name=Kikai Driver
 item.ginga_driver.name=Ginga Driver
 item.ziku_driver_zi_o_mirror.name=Ziku Driver (Mirror Zi-O)
+item.ziku_driver_barlckxs.name=Ziku Driver (Barlckxs)
+item.ziku_driver_zonjis.name=Ziku Driver (Zonjis)
+item.ziku_driver_zamonas.name=Ziku Driver (Zamonas)
 item.another_build_driver.name=Another Build Driver
 item.another_exaid_driver.name=Another Ex-Aid Driver
 
@@ -1990,8 +2015,11 @@ item.kuuga_ridewatch.name=Kuuga Ridewatch
 
 item.zi_o_ii_ridewatch.name=Zi-O II Ridewatch
 item.trinity_ridewatch.name=Zi-O Trinity Ridewatch
+item.grandzi_o_ridewatch.name=Grand Zi-O Ridewatch
+item.ohmazi_o_ridewatch.name=Oma Zi-O Ridewatch
 
 item.geizrevive_ridewatch.name=Geiz Revive Ridewatch
+item.bibiru_geiz_ridewatch.name=Bibiru Geiz Ridewatch
 
 item.genm_ridewatch.name=Genm Ridewatch
 item.cross_z_ridewatch.name=Cross-Z Ridewatch
@@ -2001,6 +2029,7 @@ item.woz_miridewatch.name=Woz Miridewatch
 item.quiz_miridewatch.name=Quiz Miridewatch
 item.shinobi_miridewatch.name=Shinobi Miridewatch
 item.kikai_miridewatch.name=Kikai Miridewatch
+item.ginga_miridewatch.name=Ginga Miridewatch
 
 item.kodama_suika_arms.name=Kodama Suika Arms
 item.another_build_ridewatch.name=Another Build Ridewatch
