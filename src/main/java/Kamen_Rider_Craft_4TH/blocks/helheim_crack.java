@@ -59,7 +59,10 @@ public class helheim_crack extends BlockHorizontal {
         if(!worldIn.isRemote) {
 
         }
-
+if (entityIn.dimension==modDimensionWorldGen.HELHEIM_DIM_ID){
+	 entityIn.changeDimension(0, new HelhiemTeleporter());
+}else{
         entityIn.changeDimension(modDimensionWorldGen.HELHEIM_DIM_ID, new HelhiemTeleporter());
     }
+}
 }

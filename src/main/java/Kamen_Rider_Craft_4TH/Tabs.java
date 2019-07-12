@@ -12,13 +12,14 @@ import net.minecraftforge.common.util.EnumHelper;
 import java.util.function.BiFunction;
 
 public class Tabs {
+	/**
 	private static BiFunction<String, Item, CreativeTabs> function = (name, item) -> new CreativeTabs(name) {
 		@Override
 		public ItemStack createIcon() {
 			return new ItemStack(item);
 		}
 	};
-
+**/
 	public static ToolMaterial tokuToolMaterial = EnumHelper.addToolMaterial("tokuToolMaterial", 10, 3500, 12.0F, 5.0F, 22);
 
 	public static ToolMaterial ridol_stick = EnumHelper.addToolMaterial("ridol_stick", 10, 6000, 12.0F, 3.0F, 22);
@@ -134,11 +135,12 @@ public class Tabs {
 	
 	public static ToolMaterial kaizoku_hassha = EnumHelper.addToolMaterial("kaizoku_hassha", 10, 5000, 12.0F, 4.0F, 22);
 	
+	
+	/**
 	public static CreativeTabs tabIchigo = function.apply("tabIichigo", RiderItems.ichigohead);
 	
 	public static CreativeTabs tabkuuga = function.apply("tabkuuga", RiderItems.kuugahead);
 
-	
 	public static CreativeTabs tabagito = function.apply("tabagito", RiderItems.agitohead);
 
 	public  static CreativeTabs tabryuki = function.apply("tabryuki", RiderItems.ryukihead);
@@ -158,7 +160,6 @@ public class Tabs {
 	public  static CreativeTabs tabdecade = function.apply("tabdecade", RiderItems.decadehead);
 
 	public static CreativeTabs tabW = function.apply("tabW", RiderItems.Whead);
-
 
 	public static CreativeTabs tabOOO = function.apply("tabOOO", RiderItems.OOOhead);
 
@@ -183,8 +184,176 @@ public class Tabs {
 	public static CreativeTabs tabdecor = function.apply("tabdecor", Item.getItemFromBlock(RiderItems.monitor));
 
 	public static CreativeTabs tabmisc = function.apply("tabmisc", RiderItems.icepop1);
+**/
+	public static CreativeTabs tabIchigo= new CreativeTabs("tabIichigo")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.ichigohead);
+		}
+	};
 
+	public static CreativeTabs tabkuuga = new CreativeTabs("tabkuuga")
+	{@Override
+		public ItemStack createIcon() {
+		return new ItemStack(RiderItems.kuugahead);
+	}
+	};
 	
+	public static CreativeTabs tabagito = new CreativeTabs("tabagito")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.agitohead);
+		}
+	};
+	public  static CreativeTabs tabryuki = new CreativeTabs("tabryuki")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.ryukihead);
+		}
+	};
+	public static CreativeTabs tabfaiz = new CreativeTabs("tabfaiz")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.faizhead);
+		}
+	};
+	public static CreativeTabs tabblade = new CreativeTabs("tabblade")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.bladehead);
+		}
+	};
+	public static CreativeTabs tabhibiki = new CreativeTabs("tabhibiki")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.hibikihead);
+		}
+	};
+	public static CreativeTabs tabkabuto = new CreativeTabs("tabkabuto")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.kabutohead);
+		}
+	};
+	public static CreativeTabs tabden_o = new CreativeTabs("tabden_o")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.den_ohead);
+		}
+	};
+	public static CreativeTabs tabkiva = new CreativeTabs("tabkiva")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.kivahead);
+		}
+	};
+	public  static CreativeTabs tabdecade = new CreativeTabs("tabdecade")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.decadehead);
+		}
+	};
+	public static CreativeTabs tabW = new CreativeTabs("tabW")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.Whead);
+		}
+	};
+	public static CreativeTabs tabOOO = new CreativeTabs("tabOOO")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.OOOhead);
+		}
+	};
+	public static CreativeTabs tabFourze = new CreativeTabs("tabFourze")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.Fourzehead);
+		}
+	};
+	public static CreativeTabs tabwizard = new CreativeTabs("tabwizard")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.wizardhead);
+		}
+	};
+	public static CreativeTabs tabGaim = new CreativeTabs("tabGaim")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.Gaimhead);
+		}
+	};
+	public static CreativeTabs tabdrive = new CreativeTabs("tabdrive")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.drivehead);
+		}
+	};
+	public static CreativeTabs tabghost = new CreativeTabs("tabghost")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.ghosthead);
+		}
+	};
+	public static CreativeTabs tabex_aid = new CreativeTabs("tabex_aid")
+	{
+		@Override
+		public ItemStack createIcon() {
+		return new ItemStack(RiderItems.ex_aidhead);
+		}
+	};
+	public static CreativeTabs tabbuild = new CreativeTabs("tabbuild")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.buildhead);
+		}
+	};
+	public static CreativeTabs tabzi_o = new CreativeTabs("tabzi_o")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.zi_ohead);
+		}
+	};
+	public static CreativeTabs tabamazons = new CreativeTabs("tabamazons")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.amazonshead);
+		}
+	};
+	public static CreativeTabs tabdecor = new CreativeTabs("tabdecor")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.monitor);
+		}
+	};
+	public static CreativeTabs tabmisc = new CreativeTabs("tabmisc")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.icepop1);
+		}
+	};
 	/**
 	public static TAB_MASKED_RIDER tab_masked_rider= new TAB_MASKED_RIDER("tab_masked_rider", RiderItems.masked_rider_head);
 	**/
