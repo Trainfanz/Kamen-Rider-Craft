@@ -5,7 +5,10 @@
       "kamenridercraft4th:whead",
       "kamenridercraft4th:wtroso",
       "kamenridercraft4th:wlegs",
-      "kamenridercraft4th:gaia_memory_refiner"
+      "kamenridercraft4th:gaia_memory_refiner",
+      "kamenridercraft4th:unrefined_memory_g",
+      "kamenridercraft4th:unrefined_memory_s",
+      "kamenridercraft4th:unrefined_memory_t2"
     ]
   },
   "criteria": {
@@ -42,6 +45,24 @@
       "conditions": {
         "recipe": "kamenridercraft4th:gaia_memory_refiner"
       }
+    },
+    "has_the_recipe4": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:unrefined_memory_g"
+      }
+    },
+    "has_the_recipe5": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:unrefined_memory_s"
+      }
+    },
+    "has_the_recipe6": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:unrefined_memory_t2"
+      }
     }
   },
   "requirements": [
@@ -50,7 +71,10 @@
       "has_the_recipe",
       "has_the_recipe1",
       "has_the_recipe2",
-      "has_the_recipe3"
+      "has_the_recipe3",
+      "has_the_recipe4",
+      "has_the_recipe5",
+      "has_the_recipe6"
     ]
   ]
 }
