@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "kamenridercraft4th:saikyo_girade"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kamenridercraft4th:zi_o_ii_ridewatch"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:saikyo_girade"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logo",
+      "has_the_recipe"
+    ]
+  ]
+}

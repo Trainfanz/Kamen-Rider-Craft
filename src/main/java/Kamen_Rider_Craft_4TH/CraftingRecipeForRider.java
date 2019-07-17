@@ -41,13 +41,13 @@ public class CraftingRecipeForRider {
 
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":ridol_stick"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ridol_stick,1), "aca","aba","aaa", 'a', RiderItems.rider_circuit, 'b', RiderItems.base_sword, 'c', RiderItems.ridol_core);		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":revolcane"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.revolcane,1), "aca","aba","aaa", 'a', RiderItems.rider_circuit, 'b', RiderItems.base_sword, 'c', RiderItems.king_stone_split);		
-
+/**
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":kuugahead"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.kuugahead,1), "aaa","a a", 'a', RiderItems.kuuga_growing);		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":kuugatroso"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.kuugatroso,1), "a a","aaa","aaa", 'a', RiderItems.kuuga_growing);		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":kuugalegs"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.kuugalegs,1), "aaa","a a","a a", 'a', RiderItems.kuuga_growing);		
-		
+
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":arcle"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.arcle,1), "aaa","aba","aaa", 'a', RiderItems.kuuga_growing, 'b', RiderItems.kuuga_mighty);		
-		
+	
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":dragon_rod"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.dragon_rod,1), "aca","aba","aaa", 'a', RiderItems.kuuga_growing, 'b', RiderItems.base_sword, 'c', RiderItems.kuuga_dragon);		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":pegasus_bowgun"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.pegasus_bowgun,1), "aca","aba","aaa", 'a', RiderItems.kuuga_growing, 'b', RiderItems.base_sword, 'c', RiderItems.kuuga_pegasus);	
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":titan_sword"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.titan_sword,1), "aca","aba","aaa", 'a', RiderItems.kuuga_growing, 'b', RiderItems.base_sword, 'c', RiderItems.kuuga_titan);	
@@ -58,9 +58,9 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":rising_titan"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.kuuga_rising_titan), new Ingredient[]{Ingredient.fromItem(RiderItems.kuuga_titan),Ingredient.fromItem(RiderItems.kuuga_titan),Ingredient.fromItem(RiderItems.kuuga_titan),Ingredient.fromItem(RiderItems.kuuga_titan),Ingredient.fromItem(RiderItems.kuuga_titan),Ingredient.fromItem(RiderItems.kuuga_titan),Ingredient.fromItem(RiderItems.kuuga_titan),Ingredient.fromItem(RiderItems.kuuga_titan),Ingredient.fromItem(RiderItems.kuuga_titan)});	
 		
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":amazing_mighty"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.kuuga_amazing_mighty), new Ingredient[]{Ingredient.fromItem(RiderItems.kuuga_rising_mighty),Ingredient.fromItem(RiderItems.kuuga_rising_mighty),Ingredient.fromItem(RiderItems.kuuga_rising_mighty),Ingredient.fromItem(RiderItems.kuuga_rising_mighty),Ingredient.fromItem(RiderItems.kuuga_rising_mighty),Ingredient.fromItem(RiderItems.kuuga_rising_mighty),Ingredient.fromItem(RiderItems.kuuga_rising_mighty),Ingredient.fromItem(RiderItems.kuuga_rising_mighty),Ingredient.fromItem(RiderItems.kuuga_rising_mighty)});	
-		
+	
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":ultimate"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.kuuga_ultimate), new Ingredient[]{Ingredient.fromItem(RiderItems.kuuga_rising_mighty),Ingredient.fromItem(RiderItems.kuuga_rising_dragon),Ingredient.fromItem(RiderItems.kuuga_rising_pegasus),Ingredient.fromItem(RiderItems.kuuga_rising_titan),Ingredient.fromItem(RiderItems.kuuga_amazing_mighty)});	
-		
+**/			
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":agitohead"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.agitohead,1), "aaa","a a", 'a', RiderItems.agito_of_seed);		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":agitotroso"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.agitotroso,1), "a a","aaa","aaa", 'a', RiderItems.agito_of_seed);		
@@ -351,7 +351,8 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":arccard"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.arccard), new Ingredient[]{Ingredient.fromItem(RiderItems.blankcard),Ingredient.fromItem(RiderItems.keyfuestle)});			
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":skullcard"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.skullcard), new Ingredient[]{Ingredient.fromItem(RiderItems.blankcard),Ingredient.fromItem(RiderItems.skull_memory)});			
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":k_touch_diend"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.k_touch_diend), new Ingredient[]{Ingredient.fromItem(RiderItems.g4card),Ingredient.fromItem(RiderItems.ryugacard),Ingredient.fromItem(RiderItems.orgacard),Ingredient.fromItem(RiderItems.glaivecard),Ingredient.fromItem(RiderItems.kabukicard),Ingredient.fromItem(RiderItems.caucasuscard),Ingredient.fromItem(RiderItems.arccard),Ingredient.fromItem(RiderItems.skullcard)});	
-		
+
+	
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":Whead"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.Whead,1), "aaa","a a", 'a', RiderItems.gaiamemory);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":Wtroso"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.Wtroso,1), "a a","aaa","aaa", 'a', RiderItems.gaiamemory);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":Wlegs"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.Wlegs,1), "aaa","a a","a a", 'a', RiderItems.gaiamemory);
@@ -384,6 +385,7 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":eternal_edge"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.eternal_edge,1), "ama","aba","aaa", 'a', RiderItems.gaiamemory, 'b', RiderItems.base_sword, 'm', RiderItems.eternal_t2_memory);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":skull_magnum"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.skull_magnum,1), "ama","aba","aaa", 'a', RiderItems.gaiamemory, 'b', RiderItems.base_sword, 'm', RiderItems.skull_memory);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":engine_blade"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.engine_blade,1), "ama","aba","aaa", 'a', RiderItems.gaiamemory, 'b', RiderItems.base_sword, 'm', RiderItems.engine_memory);
+
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":OOOhead"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.OOOhead,1), "aaa","a a", 'a', RiderItems.cellmedal);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":OOOtroso"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.OOOtroso,1), "a a","aaa","aaa", 'a', RiderItems.cellmedal);

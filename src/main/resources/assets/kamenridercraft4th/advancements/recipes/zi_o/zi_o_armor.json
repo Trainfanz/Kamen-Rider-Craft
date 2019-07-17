@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "kamenridercraft4th:zi_ohead",
+      "kamenridercraft4th:zi_otroso",
+      "kamenridercraft4th:zi_olegs"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kamenridercraft4th:blank_watch"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:zi_ohead"
+      }
+    },
+    "has_the_recipe1": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:zi_otroso"
+      }
+    },
+    "has_the_recipe2": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:zi_olegs"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logo",
+      "has_the_recipe",
+      "has_the_recipe1",
+      "has_the_recipe2"
+    ]
+  ]
+}
