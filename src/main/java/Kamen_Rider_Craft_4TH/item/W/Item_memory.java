@@ -48,7 +48,6 @@ public class Item_memory extends Item  implements IHasModel
 	public Item_memory(int NUM ,String NUM2,String name)
 	{
 		super();
-		this.setHasSubtypes(true);
 		this.setMaxDamage(0);
 		num=NUM;
 		num2=NUM2;
@@ -60,7 +59,6 @@ public class Item_memory extends Item  implements IHasModel
 	public Item_memory(String name)
 	{
 		super();
-		this.setHasSubtypes(true);
 		this.setMaxDamage(0);
 		num=0;
 		num2="0";
@@ -72,7 +70,6 @@ public class Item_memory extends Item  implements IHasModel
 	public Item_memory(String name,int gen1,int gen2)
 	{
 		super();
-		this.setHasSubtypes(true);
 		this.setMaxDamage(0);
 		num=0;
 		num2="0";
