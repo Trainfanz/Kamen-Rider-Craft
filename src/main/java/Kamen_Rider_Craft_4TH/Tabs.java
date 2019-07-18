@@ -333,6 +333,13 @@ public class Tabs {
 			return new ItemStack(RiderItems.zi_ohead);
 		}
 	};
+	public static CreativeTabs tabzero_one = new CreativeTabs("tabzero_one")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.zero_onehead);
+		}
+	};
 	public static CreativeTabs tabamazons = new CreativeTabs("tabamazons")
 	{
 		@Override

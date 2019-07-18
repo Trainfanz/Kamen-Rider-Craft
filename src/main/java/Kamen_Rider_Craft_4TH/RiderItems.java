@@ -62,6 +62,7 @@ import Kamen_Rider_Craft_4TH.item.gaim.item_Gaimarmor;
 import Kamen_Rider_Craft_4TH.item.gaim.item_Gaimarmor2;
 import Kamen_Rider_Craft_4TH.item.gaim.item_Gaimarmor3;
 import Kamen_Rider_Craft_4TH.item.gaim.item_Gaimdriver;
+import Kamen_Rider_Craft_4TH.item.gaim.item_Sid_lockseed;
 import Kamen_Rider_Craft_4TH.item.gaim.item_fake_donguri;
 import Kamen_Rider_Craft_4TH.item.ghost.Item_ghost_Icons;
 import Kamen_Rider_Craft_4TH.item.ghost.item_ghost_armor2;
@@ -1896,7 +1897,7 @@ public class RiderItems {
 
 	public static Item fake_donguri_lockseed = new item_fake_donguri("fake_donguri_lockseed").setCreativeTab(Tabs.tabGaim);
 
-	public static Item sid_lockseed = new Item_ore("sid_lockseed").setCreativeTab(Tabs.tabGaim);
+	public static Item sid_lockseed = new item_Sid_lockseed("sid_lockseed").setCreativeTab(Tabs.tabGaim);
 
 	public static Item xiaolongbao_lockseed = new Item_ore("xiaolongbao_lockseed").setCreativeTab(Tabs.tabGaim);
 	public static Item hsiao_lung_pao_lockseed = new Item_ore("hsiao_lung_pao_lockseed").setCreativeTab(Tabs.tabGaim);
@@ -2784,6 +2785,9 @@ public class RiderItems {
 
 	public static Item oma_zi_o_cape = new Item_ore("oma_zi_o_cape");
 
+	
+	public static Item zero_onehead = new Item_ore("zero_onehead");
+	
 	public static Item amazonshead = new item_amazonsarmor("amazonshead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);
 	public static Item amazonstroso = new item_amazonsarmor2("amazonstroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);
 	public static Item amazonslegs = new item_amazonsarmor2("amazonslegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);
