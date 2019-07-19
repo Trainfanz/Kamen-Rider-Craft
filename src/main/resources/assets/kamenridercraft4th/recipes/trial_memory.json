@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BYR",
+    "III",
+    " M "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:IRON_INGOT"
+    }, "M": {
+      "item": "kamenridercraft4th:trial_memory_un"
+    }, "B": {
+      "item": "minecraft:STAINED_GLASS",
+      "data": 11
+    }, "Y": {
+      "item": "minecraft:STAINED_GLASS",
+      "data": 4
+    }, "R": {
+      "item": "minecraft:STAINED_GLASS",
+      "data": 14
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:trial_memory"
+  }
+}

@@ -363,7 +363,7 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":lostdriver_eternal"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.lostdriver_eternal,1), "aaa","aca","aaa", 'a', RiderItems.gaiamemory,  'c', RiderItems.eternal_t2_memory);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":lostdriver_cyclone"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.lostdriver_cyclone,1), "aaa","aca","aaa", 'a', RiderItems.gaiamemory,  'c', RiderItems.cyclone_t2_memory);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":accel_driver"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.accel_driver,1), "aaa","aca","aaa", 'a', RiderItems.gaiamemory,  'c', RiderItems.accel_memory);
-**/	
+
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":unrefined_memory_g"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.unrefined_memory_g), new Ingredient[]{Ingredient.fromItem(RiderItems.gaiamemory),Ingredient.fromItem(Items.GOLD_INGOT)});
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":unrefined_memory_s"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.unrefined_memory_s), new Ingredient[]{Ingredient.fromItem(RiderItems.gaiamemory),Ingredient.fromItem(Items.IRON_INGOT)});
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":unrefined_memory_t2"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.unrefined_memory_t2), new Ingredient[]{Ingredient.fromItem(RiderItems.gaiamemory),Ingredient.fromItem(Items.DIAMOND)});
@@ -385,7 +385,7 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":eternal_edge"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.eternal_edge,1), "ama","aba","aaa", 'a', RiderItems.gaiamemory, 'b', RiderItems.base_sword, 'm', RiderItems.eternal_t2_memory);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":skull_magnum"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.skull_magnum,1), "ama","aba","aaa", 'a', RiderItems.gaiamemory, 'b', RiderItems.base_sword, 'm', RiderItems.skull_memory);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":engine_blade"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.engine_blade,1), "ama","aba","aaa", 'a', RiderItems.gaiamemory, 'b', RiderItems.base_sword, 'm', RiderItems.engine_memory);
-
+**/	
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":OOOhead"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.OOOhead,1), "aaa","a a", 'a', RiderItems.cellmedal);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":OOOtroso"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.OOOtroso,1), "a a","aaa","aaa", 'a', RiderItems.cellmedal);

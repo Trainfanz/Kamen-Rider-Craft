@@ -7,12 +7,12 @@
   ],
   "key": {
     "X": {
-      "item": "kamenridercraft4th:gaiamemory"
+      "item": "minecraft:BONE"
     }, "C": {
-      "item": "kamenridercraft4th:skull_memory"
+      "item": "kamenridercraft4th:fang_memory_un"
     }
   },
   "result": {
-    "item": "kamenridercraft4th:lostdriver_skull"
+    "item": "kamenridercraft4th:fang_memory"
   }
 }

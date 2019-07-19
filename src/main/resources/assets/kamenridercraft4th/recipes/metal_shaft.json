@@ -1,18 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "XXX",
     "XCX",
+    "XZX",
     "XXX"
   ],
   "key": {
     "X": {
       "item": "kamenridercraft4th:gaiamemory"
     }, "C": {
-      "item": "kamenridercraft4th:skull_memory"
+      "item": "kamenridercraft4th:metal_memory"
+    }, "Z": {
+      "item": "kamenridercraft4th:base_sword"
     }
   },
   "result": {
-    "item": "kamenridercraft4th:lostdriver_skull"
+    "item": "kamenridercraft4th:metal_shaft"
   }
 }
