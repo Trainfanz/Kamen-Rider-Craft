@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:gaiamemory"
+    }, "C": {
+      "item": "kamenridercraft4th:skull_t2_memory"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:lostdriver_skull"
+  }
+}
