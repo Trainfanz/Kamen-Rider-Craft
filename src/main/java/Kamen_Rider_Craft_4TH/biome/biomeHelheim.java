@@ -1,11 +1,15 @@
 package Kamen_Rider_Craft_4TH.biome;
 
 import Kamen_Rider_Craft_4TH.RiderBlocks;
+import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.*;
+import Kamen_Rider_Craft_4TH.world.gen.WorldGenCustomStructures;
 import Kamen_Rider_Craft_4TH.world.gen.modDimensionWorldGen;
+import Kamen_Rider_Craft_4TH.world.gen.generators.WorldGenblocks;
 import Kamen_Rider_Craft_4TH.world.gen.trees.WorldGenHelheimTrees;
 import net.minecraft.block.BlockBush;
 import net.minecraft.block.BlockDoublePlant;
+import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.biome.Biome;
@@ -104,7 +108,14 @@ public class biomeHelheim extends Biome {
 			new WorldGenBush((BlockBush) RiderBlocks.Helheim_plant_4).generate(worldIn, rand,pos.add(j, l, k));	
 
 		}
+		
+		if (rand.nextInt(8)==1) {
+			int j = rand.nextInt(16) + 8;
+			int k = rand.nextInt(16) + 8;
+			int l = rand.nextInt(worldIn.getHeight(pos.add(j, 0, k)).getY() + 32);
+			new WorldGenblocks( RiderItems.helheim_crack).generate(worldIn, rand,pos.add(j, l, k));	
 
+		}
 		super.decorate(worldIn, rand, pos);
 	}
 

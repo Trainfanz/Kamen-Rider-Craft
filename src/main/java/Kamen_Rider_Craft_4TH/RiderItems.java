@@ -261,7 +261,7 @@ public class RiderItems {
 	public static Block amazon_cell_block = new ore_block("amazon_cell_block",Material.ROCK, amazon_cell_vial, 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabamazons);
 
 	//helheim blocks
-	public static Block helheim_crack = new helheim_crack();
+	public static Block helheim_crack = new helheim_crack().setLightLevel(1f);
 
 	//decor blocks
 
