@@ -2676,6 +2676,8 @@ public class RiderItems {
 	public static Item beyondriver = new item_zikudriver("beyondriver",ArmorMaterial.DIAMOND, 4, "woz",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item ziku_driver_zi_o_mirror = new item_zikudriver("ziku_driver_zi_o_mirror",ArmorMaterial.DIAMOND, 4, "zi_o_mirror",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 
+	public static Item ziku_driver_tsukuyomi = new item_zikudriver("ziku_driver_tsukuyomi",ArmorMaterial.DIAMOND, 4, "zio_tsukuyomi",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
+	
 	public static Item ziku_driver_barlckxs = new item_zikudriver("ziku_driver_barlckxs",ArmorMaterial.DIAMOND, 4, "barx",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item ziku_driver_zonjis = new item_zikudriver("ziku_driver_zonjis",ArmorMaterial.DIAMOND, 4, "zonjis",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item ziku_driver_zamonas = new item_zikudriver("ziku_driver_zamonas",ArmorMaterial.DIAMOND, 4, "zamonas",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
