@@ -1977,6 +1977,8 @@ item.ziku_driver_zonjis.name=Ziku Driver (Zonjis)
 item.ziku_driver_zamonas.name=Ziku Driver (Zamonas)
 item.another_build_driver.name=Another Build Driver
 item.another_exaid_driver.name=Another Ex-Aid Driver
+item.another_fourze_driver.name=Another Fourze Driver
+item.another_faiz_driver.name=Another Faiz Driver
 
 item.zikan_grade.name=Zikan Grade
 item.zikan_zax.name=Zikan Zax
