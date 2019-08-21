@@ -34,6 +34,8 @@ public class WorldGenCustomStructures implements IWorldGenerator
 	public static final WorldGenStructure ROGUE_BASE = new WorldGenStructure("rogue_base");
 	public static final WorldGenStructure PANDORA_TOWER = new WorldGenStructure("pandora_tower");
 	
+
+	public static final WorldGenStructure yggdrasill_base = new WorldGenStructure("yggdrasill_base");
 	
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
@@ -43,11 +45,14 @@ public class WorldGenCustomStructures implements IWorldGenerator
 			case 0:
 				generateStructure(ROGUE_BASE, world, random, chunkX, chunkZ,11, 1000, Blocks.DIRT, BiomePlains.class,BiomeSavanna.class,BiomeForest.class,BiomeHills.class);
 				generateStructure(PANDORA_TOWER, world, random, chunkX, chunkZ,-1, 1500, Blocks.DIRT, BiomePlains.class,BiomeSavanna.class,BiomeForest.class,BiomeHills.class);
-				generateStructure(HELHEIM_CRACK, world, random, chunkX, chunkZ,-1, 100, Blocks.DIRT, BiomePlains.class,BiomeMesa.class,BiomeForest.class,BiomeJungle.class);
+				generateStructure(HELHEIM_CRACK, world, random, chunkX, chunkZ,-1, 1000, Blocks.DIRT, BiomePlains.class,BiomeMesa.class,BiomeForest.class,BiomeJungle.class);
 				
 				break;
 			case -1:
-				
+		}
+		if (modDimensionWorldGen.HELHEIM_DIM_ID==world.provider.getDimension()){
+			generateStructure(yggdrasill_base, world, random, chunkX, chunkZ,-1, 1000, Blocks.DIRT,biomeHelheim.class);
+			
 		}
 	}
 	
