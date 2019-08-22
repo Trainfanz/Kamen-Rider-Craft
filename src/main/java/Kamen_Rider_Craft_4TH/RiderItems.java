@@ -104,6 +104,10 @@ import Kamen_Rider_Craft_4TH.item.wizard.Item_wizard_rings_efts;
 import Kamen_Rider_Craft_4TH.item.wizard.item_wizardarmor;
 import Kamen_Rider_Craft_4TH.item.wizard.item_wizardarmor2;
 import Kamen_Rider_Craft_4TH.item.wizard.item_wizarddriver;
+import Kamen_Rider_Craft_4TH.item.zero_one.Item_progrise_keys;
+import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onearmor;
+import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onearmor2;
+import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onedriver;
 import Kamen_Rider_Craft_4TH.item.zi_o.Item_ridewatches;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_kodamawatch;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zi_oarmor;
@@ -2791,7 +2795,15 @@ public class RiderItems {
 	public static Item oma_zi_o_cape = new Item_ore("oma_zi_o_cape");
 
 	
-	public static Item zero_onehead = new Item_ore("zero_onehead");
+	public static Item zero_onehead = new item_zero_onearmor("zero_onehead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item zero_onetroso = new item_zero_onearmor2("zero_onetroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item zero_onelegs = new item_zero_onearmor2("zero_onelegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+
+	public static Item hiden_zero_one_driver = new item_zero_onedriver("hiden_zero_one_driver",ArmorMaterial.DIAMOND, 4, "zero_one",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	
+	public static Item rising_hopper_progrise_key = new Item_progrise_keys(0, 0,"rising_hopper_progrise_key").setCreativeTab(Tabs.tabzero_one);
+	public static Item flying_falcon_progrise_key = new Item_progrise_keys(0, 1,"flying_falcon_progrise_key").setCreativeTab(Tabs.tabzero_one);
+
 	
 	public static Item amazonshead = new item_amazonsarmor("amazonshead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);
 	public static Item amazonstroso = new item_amazonsarmor2("amazonstroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);
