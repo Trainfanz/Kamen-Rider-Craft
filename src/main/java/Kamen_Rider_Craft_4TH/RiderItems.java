@@ -1212,6 +1212,8 @@ public class RiderItems {
 	public static Item ghostcard = new Itemrider_cards(11,6,"ghostcard").setCreativeTab(Tabs.tabdecade);
 	public static Item exaidcard = new Itemrider_cards(11,7,"exaidcard").setCreativeTab(Tabs.tabdecade);
 	public static Item buildcard = new Itemrider_cards(11,8,"buildcard").setCreativeTab(Tabs.tabdecade);
+	public static Item zi_ocard = new Itemrider_cards(11,9,"zi_ocard").setCreativeTab(Tabs.tabdecade);
+
 
 	//W
 	public static Item trigger_magnum = new Item_gun("trigger_magnum",Tabs.den_dengu).setMaxStackSize(1).setCreativeTab(Tabs.tabW);	

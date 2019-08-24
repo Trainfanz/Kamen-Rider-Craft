@@ -753,6 +753,7 @@ item.drivecard.name=KamenRide Drive
 item.ghostcard.name=KamenRide Ghost
 item.exaidcard.name=KamenRide Ex-Aid
 item.buildcard.name=KamenRide Build
+item.zi_ocard.name=KamenRide Zi-O
 
 item.diendcard.name=KamenRide Diend
 item.darkdecadecard.name=KamenRide Dark Decade
