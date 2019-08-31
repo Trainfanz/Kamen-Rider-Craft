@@ -74,7 +74,15 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 				//Item[] armor_watch= new Item[] {RiderItems.blanknoitem};
 				
 				
-				armorModel.belt=stack;
+				if(living.getHeldItemMainhand()!=null){
+					if( living.getHeldItemMainhand().getItem()==RiderItems.shot_riser_gun){
+						if( this==RiderItems.shot_riser_vulcan||this==RiderItems.shot_riser_valkyrie){
+							armorModel.belt=new ItemStack( RiderItems.shot_riser_belt);
+						}else{
+							armorModel.belt=stack;
+						}
+					}
+				}	
 				
 			  armorModel.wings=new ItemStack(RiderItems.blanknoitem);
               

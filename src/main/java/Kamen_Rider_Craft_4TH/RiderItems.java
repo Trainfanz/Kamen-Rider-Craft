@@ -2805,6 +2805,10 @@ public class RiderItems {
 	public static Item shot_riser_vulcan = new item_zero_onedriver("shot_riser_vulcan",ArmorMaterial.DIAMOND, 4, "vulcan",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item shot_riser_valkyrie = new item_zero_onedriver("shot_riser_valkyrie",ArmorMaterial.DIAMOND, 4, "valkyrie",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
+	public static Item shot_riser_belt = new Item_ore("shot_riser_belt");
+	
+	public static Item shot_riser_gun = new Item_gun("shot_riser_gun",Tabs.den_dengu).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
+	
 	public static Item rising_hopper_progrise_key = new Item_progrise_keys(0, 0,"rising_hopper_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item flying_falcon_progrise_key = new Item_progrise_keys(0, 1,"flying_falcon_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item biting_shark_progrise_key = new Item_progrise_keys(0, 2,"biting_shark_progrise_key").setCreativeTab(Tabs.tabzero_one);
