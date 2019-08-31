@@ -81,12 +81,13 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 						}else{
 							armorModel.belt=stack;
 						}
+					}else{
+						armorModel.belt=stack;
 					}
 				}	
 				
 			  armorModel.wings=new ItemStack(RiderItems.blanknoitem);
-              
-						armorModel.belt=stack;
+			  
 						//armorModel.belt2=new ItemStack(form_watch[item_zero_onedriver.get_core(stack,"1")]);	
 						//armorModel.belt3=new ItemStack(armor_watch[item_zero_onedriver.get_locknum(stack)]);
 					
