@@ -12,6 +12,8 @@ import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_ex_aiddriver;
 import Kamen_Rider_Craft_4TH.item.gaim.item_Gaimdriver;
 import Kamen_Rider_Craft_4TH.item.ghost.item_ghostdriver;
+import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onearmor;
+import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onedriver;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zi_oarmor;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
 import Kamen_Rider_Craft_4TH.util.Refercence;
@@ -226,6 +228,11 @@ public class BipedLockseed extends ModelBiped
 						Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Refercence.MODID+":textures/armor/"+((item_zikudriver)stack.getItem()).Rider+ item_zi_oarmor.CoreName[item_zikudriver.get_core(stack, "1")]+"_" +item_zikudriver.get_lockbase(stack)+"_2.png"));
 						
 						}
+				}else if (stack.getItem() instanceof item_zero_onedriver){
+					
+						Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Refercence.MODID+":textures/armor/"+((item_zero_onedriver)stack.getItem()).Rider+ item_zero_onearmor.CoreName[item_zero_onedriver.get_core(stack, "1")]+"_" +item_zero_onedriver.get_lockbase(stack)+"_2.png"));
+						
+						
 				}else if (stack.getItem() instanceof item_ex_aiddriver){
 					
 				

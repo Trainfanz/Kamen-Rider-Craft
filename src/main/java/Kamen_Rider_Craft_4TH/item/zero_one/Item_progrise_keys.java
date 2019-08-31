@@ -20,9 +20,8 @@ public class Item_progrise_keys extends Item implements IHasModel
 
 	public int num;
 	public int num2;
-	public boolean works_with_decade_ridewatch=false;
 
-	public static String[] ARMS= new String[] {"hopper","falcon","","","","","","",""};
+	public static String[] ARMS= new String[] {"hopper","falcon","shark","","","","","",""};
 
 
 
@@ -38,18 +37,7 @@ public class Item_progrise_keys extends Item implements IHasModel
 
 	}
 
-	public Item_progrise_keys(int NUM ,int arms,String name,boolean decade)
-	{
-		super();
-		this.setMaxDamage(0);
-		num=NUM;
-		num2=arms;
-		works_with_decade_ridewatch=decade;
-		setTranslationKey(name);
-		setRegistryName(name);
-		TokuCraft_core.ITEMS.add(this);
-	}
-
+	
 
 	@Override
 	public void registerModels() {
