@@ -2813,13 +2813,16 @@ public class RiderItems {
 	
 	public static Item shot_riser_belt = new Item_ore("shot_riser_belt");
 	
-	public static Item shot_riser_gun = new Item_gun("shot_riser_gun",Tabs.den_dengu).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
+	public static Item shot_riser_gun = new Item_gun("shot_riser_gun",Tabs.den_dengu).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item rising_hopper_progrise_key = new Item_progrise_keys(0, 0,"rising_hopper_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item flying_falcon_progrise_key = new Item_progrise_keys(0, 1,"flying_falcon_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item biting_shark_progrise_key = new Item_progrise_keys(0, 2,"biting_shark_progrise_key").setCreativeTab(Tabs.tabzero_one);
 
-	
+	public static Item shooting_wolf_progrise_key = new Item_ore("shooting_wolf_progrise_key").setCreativeTab(Tabs.tabzero_one);
+	public static Item rushing_cheetah_progrise_key = new Item_ore("rushing_cheetah_progrise_key").setCreativeTab(Tabs.tabzero_one);
+	public static Item sting_scorpion_progrise_key = new Item_ore("sting_scorpion_progrise_key").setCreativeTab(Tabs.tabzero_one);
+
 	public static Item amazonshead = new item_amazonsarmor("amazonshead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);
 	public static Item amazonstroso = new item_amazonsarmor2("amazonstroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);
 	public static Item amazonslegs = new item_amazonsarmor2("amazonslegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);

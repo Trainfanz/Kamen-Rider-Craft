@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:lemon_energy_lockseed"
+    }, 
+    {
+      "item": "minecraft:DYE",
+      "data": 0
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:dark_lemon_energy_lockseed"
+  }
+}

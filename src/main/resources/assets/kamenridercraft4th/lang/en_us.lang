@@ -1980,6 +1980,7 @@ item.another_build_driver.name=Another Build Driver
 item.another_exaid_driver.name=Another Ex-Aid Driver
 item.another_fourze_driver.name=Another Fourze Driver
 item.another_faiz_driver.name=Another Faiz Driver
+item.ziku_driver_tsukuyomi.name=Ziku Driver (Tsukuyomi)
 
 item.zikan_grade.name=Zikan Grade
 item.zikan_zax.name=Zikan Zax
@@ -2044,7 +2045,25 @@ item.shuriken_starter_hattari.name=Shuriken Starter (Hattari)
 item.quiz_topper.name=Quiz Topper
 item.spannerder_screwder.name=Spannerder and Screwder
 item.ginga_globe.name=Ginga Globe
-        
+      
+      
+item.zero_onehead.name=Zero One Helmet   
+item.zero_onetroso.name=Zero One Chestplate     
+item.zero_onelegs.name=Zero One Leggings   
+
+item.hiden_zero_one_driver.name=Hiden Zero One Driver   
+item.shot_riser_vulcan.name=AIMS Shot Riser (Vulcan) 
+item.shot_riser_valkyrie.name=AIMS Shot Riser (Valkyrie) 
+
+item.shot_riser_gun.name=AIMS Shot Riser 
+
+item.rising_hopper_progrise_key.name=Rising Hopper Progrise Key
+item.flying_falcon_progrise_key.name=Flying Falcon Progrise Key
+item.biting_shark_progrise_key.name=Biting Shark Progrise Key
+
+item.shooting_wolf_progrise_key.name=Shooting Wolf Progrise Key
+item.rushing_cheetah_progrise_key.name=Rushing Cheetah Progrise Key
+item.sting_scorpion_progrise_key.name=Sting Scorpion Progrise Key
                 
 item.amazonshead.name=Amazons Helmet
 item.amazonstroso.name=Amazons Chestplate 
