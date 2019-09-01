@@ -481,6 +481,11 @@ item.daidaimaru.name=Daidaimaru
 item.blood_daidaimaru.name=Daidaimaru(Blood Orange Ver)
 item.banana_spear.name=Banana Spear
 
+item.joeshuimu.name=Joushuimu
+item.sheimu.name=Sheimu
+item.dau.name=Dau
+item.guronbaryamu.name=Guronbaryamu
+
 item.gaimhead.name=Gaim Helmet
 item.gaimtroso.name=Gaim Chestplate
 item.gaimlegs.name=Gaim Leggings
@@ -2029,6 +2034,9 @@ item.bibiru_geiz_ridewatch.name=Bibiru Geiz Ridewatch
 item.genm_ridewatch.name=Genm Ridewatch
 item.cross_z_ridewatch.name=Cross-Z Ridewatch
 item.beast_ridewatch.name=Beast Ridewatch
+item.knight_ridewatch.name=Knight Ridewatch
+item.mach_ridewatch.name=Mach Ridewatch
+item.chalice_ridewatch.name=Chalice Ridewatch
 
 item.woz_miridewatch.name=Woz Miridewatch
 item.quiz_miridewatch.name=Quiz Miridewatch

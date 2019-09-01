@@ -2734,6 +2734,7 @@ public class RiderItems {
 	public static Item genm_ridewatch = new Item_ridewatches(1, 19,"genm_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item ghost_ridewatch = new Item_ridewatches(1, 3,"ghost_ridewatch",true).setCreativeTab(Tabs.tabzi_o);
 	public static Item drive_ridewatch = new Item_ridewatches(1, 4,"drive_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item mach_ridewatch = new Item_ore("mach_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item gaim_ridewatch = new Item_ridewatches(1, 5,"gaim_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item wizard_ridewatch = new Item_ridewatches(1, 6,"wizard_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item beast_ridewatch = new Item_ore("beast_ridewatch").setCreativeTab(Tabs.tabzi_o);
@@ -2746,8 +2747,10 @@ public class RiderItems {
 	public static Item kabuto_ridewatch = new Item_ridewatches(1, 12,"kabuto_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item hibiki_ridewatch = new Item_ridewatches(1, 13,"hibiki_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item blade_ridewatch = new Item_ridewatches(1, 14,"blade_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item chalice_ridewatch = new Item_ore("chalice_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item faiz_ridewatch = new Item_ridewatches(1, 15,"faiz_ridewatch",true).setCreativeTab(Tabs.tabzi_o);
 	public static Item ryuki_ridewatch = new Item_ridewatches(1, 16,"ryuki_ridewatch",true).setCreativeTab(Tabs.tabzi_o);
+	public static Item knight_ridewatch = new Item_ore("knight_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item agito_ridewatch = new Item_ridewatches(1, 17,"agito_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item kuuga_ridewatch = new Item_ridewatches(1, 18,"kuuga_ridewatch").setCreativeTab(Tabs.tabzi_o);
 
