@@ -56,6 +56,7 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityshocker_combatman;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityAcrobatter;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityExaidBike;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityMachineBuilder;
+import Kamen_Rider_Craft_4TH.mobs.bikes.EntityRoseAttacker;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntitySakuraHurricane;
 import Kamen_Rider_Craft_4TH.mobs.bikes.Entity_ridoron;
 import Kamen_Rider_Craft_4TH.mobs.bikes.Entityhardboilder;
@@ -71,6 +72,7 @@ import Kamen_Rider_Craft_4TH.model.Model_hardboilder;
 import Kamen_Rider_Craft_4TH.model.Model_kodama_suika_arms;
 import Kamen_Rider_Craft_4TH.model.Model_lazer_bike;
 import Kamen_Rider_Craft_4TH.model.Model_machine_builder;
+import Kamen_Rider_Craft_4TH.model.Model_rose_attacker;
 import Kamen_Rider_Craft_4TH.model.model_ridoron;
 import Kamen_Rider_Craft_4TH.model.tokuMobModel;
 import Kamen_Rider_Craft_4TH.util.Refercence;
@@ -173,6 +175,7 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entityaccel.class, new RenderRiderMob2(new Model_accel_bike_form(), 0.5F,"textures/entities/accel_bike_form.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntitySakuraHurricane.class, new RenderRiderMob2(new Model_Sakura_Hurricane(), 0.5F,"textures/entities/sakura_hurricane.png"));
+		RenderingRegistry.registerEntityRenderingHandler(EntityRoseAttacker.class, new RenderRiderMob2(new Model_rose_attacker(), 0.5F,"textures/entities/rose_attacker.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityLazer.class, new RenderRiderMob2(new Model_lazer_bike(), 0.5F,"textures/entities/model_lazer.png"));
 		
