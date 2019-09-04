@@ -58,6 +58,7 @@ import Kamen_Rider_Craft_4TH.item.fourze.item_Fourzearmor;
 import Kamen_Rider_Craft_4TH.item.fourze.item_Fourzearmor2;
 import Kamen_Rider_Craft_4TH.item.fourze.item_Fourzedriver;
 import Kamen_Rider_Craft_4TH.item.gaim.Item_lockseed;
+import Kamen_Rider_Craft_4TH.item.gaim.Item_lockseed_Bike;
 import Kamen_Rider_Craft_4TH.item.gaim.item_Gaimarmor;
 import Kamen_Rider_Craft_4TH.item.gaim.item_Gaimarmor2;
 import Kamen_Rider_Craft_4TH.item.gaim.item_Gaimarmor3;
@@ -114,6 +115,7 @@ import Kamen_Rider_Craft_4TH.item.zi_o.item_zi_oarmor;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zi_oarmor2;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
 import Kamen_Rider_Craft_4TH.mobs.Boss.*;
+import Kamen_Rider_Craft_4TH.mobs.bikes.EntitySakuraHurricane;
 import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -1899,8 +1901,8 @@ public class RiderItems {
 	public static Item kiwi_lockseed = new Item_lockseed(1,12,"kiwi_lockseed").AddlockseedToHelheimVine(3).setCreativeTab(Tabs.tabGaim);
 	public static Item lemon_lockseed = new Item_lockseed(1,41,"lemon_lockseed").setCreativeTab(Tabs.tabGaim);
 
-	public static Item sakura_hurricane = new Item_ore("sakura_hurricane").setCreativeTab(Tabs.tabGaim);
-	public static Item rose_attacker = new Item_ore("rose_attacker").setCreativeTab(Tabs.tabGaim);
+	public static Item sakura_hurricane = new Item_lockseed_Bike("sakura_hurricane",0).setCreativeTab(Tabs.tabGaim);
+	public static Item rose_attacker = new Item_lockseed_Bike("rose_attacker",1).setCreativeTab(Tabs.tabGaim);
 	public static Item dandeliner = new Item_ore("dandeliner").setCreativeTab(Tabs.tabGaim);
 	public static Item tulip_hopper = new Item_ore("tulip_hopper").setCreativeTab(Tabs.tabGaim);
 
