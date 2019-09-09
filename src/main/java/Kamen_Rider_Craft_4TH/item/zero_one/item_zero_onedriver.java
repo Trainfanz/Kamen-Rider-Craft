@@ -104,10 +104,6 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 		}
 		return null;
 	}
-	public static int get_locknum(ItemStack itemstack)
-    {
-        return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("seed") : 0;
-    }
 	
 	public static int get_eftTime(ItemStack itemstack)
 	{
@@ -137,15 +133,11 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 		itemstack.getTagCompound().setInteger("core"+slot, flag);
 	}
 	
-	public static String get_lock(ItemStack itemstack)
-	{	
-		
-		return itemstack.hasTagCompound() ? ((item_zero_onedriver)itemstack.getItem()).Rider+"_"+Item_progrise_keys.ARMS[itemstack.getTagCompound().getInteger("seed")] : ((item_zero_onedriver)itemstack.getItem()).Rider+"_base";
-	}
+	
 	public static String get_lockbase(ItemStack itemstack)
 	{	
 		
-		return itemstack.hasTagCompound() ? Item_progrise_keys.ARMS[itemstack.getTagCompound().getInteger("seed")] : "hopper";
+		return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("seed")!=0? Item_progrise_keys.ARMS[itemstack.getTagCompound().getInteger("seed")]: "base" : "base";
 	}
 	
 

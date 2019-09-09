@@ -28,6 +28,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_ZangetsuShin;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_another_build;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_bikaiser;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_clay_doll_dopant;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_demushu;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_2;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_3;
@@ -35,6 +36,8 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_genm;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_grease;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_red_nazca_dopant;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_redyue;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_roshuo;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_taboo_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityByakkoInves;
@@ -115,12 +118,15 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(EntityByakkoInves.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/byakko_inves.png"));
 		RenderingRegistry.registerEntityRenderingHandler(EntityHekijaInves.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/hekija_inves.png"));
 		
-		
 		RenderingRegistry.registerEntityRenderingHandler(EntityKurokageTroopers.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/kurokagetroopers.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_ZangetsuShin.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/zangetsu_shin.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_Marika.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/marika.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_Sigurd.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/sigurd.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_Duke.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/duke.png"));
+		
+		RenderingRegistry.registerEntityRenderingHandler(Entity_roshuo.class, new RenderRiderMob2(new tokuMobModel("roshuo_2"), 0.5F,"textures/entities/roshuo_1.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_demushu.class, new RenderRiderMob2(new tokuMobModel("demushu_2"), 0.5F,"textures/entities/demushu_1.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_redyue.class, new RenderRiderMob2(new tokuMobModel("redyue_2"), 0.5F,"textures/entities/redyue_1.png"));
 		
 		
 		

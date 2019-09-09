@@ -24,6 +24,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_ZangetsuShin;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_another_build;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_bikaiser;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_clay_doll_dopant;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_demushu;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_2;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_3;
@@ -31,6 +32,8 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_genm;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_grease;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_red_nazca_dopant;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_redyue;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_roshuo;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_taboo_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityByakkoInves;
@@ -176,6 +179,10 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":MarikaMob"),Entity_Marika.class, "MarikaMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xfcfb81,0xff84ac);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":SigurdMob"),Entity_Sigurd.class, "SigurdMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xff0000, 0xd2f3e8);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":DukeMob"),Entity_Duke.class, "DukeMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xe5ec25, 0x25c1ec);
+		
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":roshuoMob"),Entity_roshuo.class, "roshuoMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xa0ffa9, 0xfefefe);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":redyueMob"),Entity_redyue.class, "redyueMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xa0ffa9, 0xfefefe);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":demushuMob"),Entity_demushu.class, "demushuMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xa0ffa9, 0xfefefe);
 		
 	
 	}

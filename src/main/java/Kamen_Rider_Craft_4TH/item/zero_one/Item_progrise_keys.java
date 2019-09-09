@@ -21,7 +21,7 @@ public class Item_progrise_keys extends Item implements IHasModel
 	public int num;
 	public int num2;
 
-	public static String[] ARMS= new String[] {"hopper","falcon","shark","","","","","",""};
+	public static String[] ARMS= new String[] {"hopper","falcon","shark","wolf","cheetah","","","",""};
 
 
 

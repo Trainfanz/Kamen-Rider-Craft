@@ -93,7 +93,7 @@ public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer play
 			{
 			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_Gaimdriver){
 				EntityBikeBase entitybike  = get_bike(worldIn, NUM);
-			playerIn.sendMessage( new TextComponentString(TextFormatting.GREEN+"Lock Open!"));
+			//playerIn.sendMessage( new TextComponentString(TextFormatting.GREEN+"Lock On!"));
 			
 			entitybike.setLocationAndAngles(playerIn.posX, playerIn.posY, playerIn.posZ, 0, 0.0F);
             worldIn.spawnEntity(entitybike);
