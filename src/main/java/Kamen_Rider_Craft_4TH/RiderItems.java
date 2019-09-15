@@ -2211,6 +2211,8 @@ public class RiderItems {
 
 	public static Item gamer_driver_genmu = new item_ex_aiddriver("gamer_driver_genmu",ArmorMaterial.DIAMOND, 4, 3,"genmu",0).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 	public static Item gashacon_bugvisor_genmu = new item_ex_aiddriver("gashacon_bugvisor_genmu",ArmorMaterial.DIAMOND, 4, 3,"zombie_genmu",2).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item gashacon_bugvisor_genmu_totema = new item_ex_aiddriver("gashacon_bugvisor_genmu_totema",ArmorMaterial.DIAMOND, 4, 3,"zombie_genmu",2).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	
 	public static Item gashacon_bugvisor_ii_poppy = new item_ex_aiddriver("gashacon_bugvisor_ii_poppy",ArmorMaterial.DIAMOND, 4, 3,"poppy",2).setCreativeTab(Tabs.tabex_aid);
 	public static Item gashacon_bugvisor_ii_poppy_red = new item_ex_aiddriver("gashacon_bugvisor_ii_poppy_red",ArmorMaterial.DIAMOND, 4, 3,"poppy_red",2).setCreativeTab(Tabs.tabex_aid);
 	
@@ -2389,7 +2391,7 @@ public class RiderItems {
 	//used Drive for kuuga
 	public static Item gamer_driver_ichigo = new Item_ore("gamer_driver_ichigo");
 
-	
+	public static Item totema_wings = new Item_ore("totema_wings");
 	
 
 	//build
@@ -2423,6 +2425,7 @@ public class RiderItems {
 	public static Item build_driver_blood = new item_builddriver("build_driver_blood",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 	public static Item build_driver_killbas = new item_builddriver("build_driver_killbas",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 	public static Item build_driver_build_metal = new item_builddriver("build_driver_build_metal",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
+	public static Item build_driver_build_phantom = new item_builddriver("build_driver_build_phantom",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 	
 	public static Item sclash_driver_grease = new item_builddriver("sclash_driver_grease",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);
 	public static Item sclash_driver_cross_z_charge = new item_builddriver("sclash_driver_cross_z_charge",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabbuild);

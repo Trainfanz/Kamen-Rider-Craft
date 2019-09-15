@@ -410,6 +410,30 @@ public class item_buildarmor2 extends ItemArmor implements IHasModel
 						return null;
 					}
 					
+				}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.build_driver_build_phantom){
+
+
+					if (slot == EntityEquipmentSlot.HEAD)
+					{
+
+						return Refercence.MODID+":textures/armor/"+"build_phantom_1"+".png";
+					}
+
+
+					if (slot == EntityEquipmentSlot.CHEST)
+					{
+
+						return Refercence.MODID+":textures/armor/"+"build_phantom_2"+".png";
+					}  
+					if (slot == EntityEquipmentSlot.LEGS)
+					{
+						return Refercence.MODID+":textures/armor/"+"build_phantom_2"+".png";
+					}
+					else
+					{
+						return null;
+					}
+					
 				}	else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.build_driver_killbas){
 
 
