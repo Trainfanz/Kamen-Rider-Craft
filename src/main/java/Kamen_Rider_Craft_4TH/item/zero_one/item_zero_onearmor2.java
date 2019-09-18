@@ -58,6 +58,9 @@ public class item_zero_onearmor2 extends ItemArmor implements IHasModel
 				if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_zero_onedriver){
 					String rider = ((item_zero_onedriver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider;
 				
+if (rider == "vulcan"&item_zero_onedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!="wolf"&item_zero_onedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!="base"){
+	rider = rider+"_base";
+}
 
 {
 							if ( slot == EntityEquipmentSlot.LEGS)

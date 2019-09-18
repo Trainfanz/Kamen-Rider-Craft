@@ -30,6 +30,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_2;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_3;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_genm;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_grease;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_lord_baron;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_red_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_redyue;
@@ -180,9 +181,10 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":SigurdMob"),Entity_Sigurd.class, "SigurdMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xff0000, 0xd2f3e8);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":DukeMob"),Entity_Duke.class, "DukeMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xe5ec25, 0x25c1ec);
 		
-		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":roshuoMob"),Entity_roshuo.class, "roshuoMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xa0ffa9, 0xfefefe);
-		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":redyueMob"),Entity_redyue.class, "redyueMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xa0ffa9, 0xfefefe);
-		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":demushuMob"),Entity_demushu.class, "demushuMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xa0ffa9, 0xfefefe);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":roshuoMob"),Entity_roshuo.class, "roshuoMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xefefef, 0x97c3c5);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":redyueMob"),Entity_redyue.class, "redyueMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xb69d02, 0x277a44);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":demushuMob"),Entity_demushu.class, "demushuMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xb50000, 0x790000);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":lord_baronMob"),Entity_lord_baron.class, "lord_baronMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x970000, 0xb3a500);
 		
 	
 	}

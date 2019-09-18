@@ -2832,7 +2832,8 @@ public class RiderItems {
 	public static Item flying_falcon_progrise_key = new Item_progrise_keys(0, 1,"flying_falcon_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item biting_shark_progrise_key = new Item_progrise_keys(0, 2,"biting_shark_progrise_key").setCreativeTab(Tabs.tabzero_one);
 
-	public static Item shooting_wolf_progrise_key = new Item_progrise_keys(0, 3,"shooting_wolf_progrise_key").setCreativeTab(Tabs.tabzero_one);
+	public static Item shooting_wolf_progrise_key = new Item_progrise_keys(1, 3,"shooting_wolf_progrise_key").setCreativeTab(Tabs.tabzero_one);
+	public static Item punching_kong_progrise_key = new Item_progrise_keys(1, 5,"punching_kong_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item rushing_cheetah_progrise_key = new Item_ore("rushing_cheetah_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item sting_scorpion_progrise_key = new Item_ore("sting_scorpion_progrise_key").setCreativeTab(Tabs.tabzero_one);
 

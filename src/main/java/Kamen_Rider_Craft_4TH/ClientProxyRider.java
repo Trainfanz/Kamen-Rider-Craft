@@ -34,6 +34,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_2;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_3;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_genm;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_grease;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_lord_baron;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_red_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_redyue;
@@ -127,8 +128,7 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entity_roshuo.class, new RenderRiderMob2(new tokuMobModel("roshuo_2"), 0.5F,"textures/entities/roshuo_1.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_demushu.class, new RenderRiderMob2(new tokuMobModel("demushu_2"), 0.5F,"textures/entities/demushu_1.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_redyue.class, new RenderRiderMob2(new tokuMobModel("redyue_2"), 0.5F,"textures/entities/redyue_1.png"));
-		
-		
+		RenderingRegistry.registerEntityRenderingHandler(Entity_lord_baron.class, new RenderRiderMob2(new tokuMobModel("lord_baron_2"), 0.5F,"textures/entities/lord_baron_1.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_genm.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/genm.png"));
 		
