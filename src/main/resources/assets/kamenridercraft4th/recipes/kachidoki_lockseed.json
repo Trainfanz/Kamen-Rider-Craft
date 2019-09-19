@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:lemon_energy_lockseed"
+    }, 
+    {
+      "item": "kamenridercraft4th:peach_energy_lockseed"
+    } , 
+    {
+      "item": "kamenridercraft4th:melon_energy_lockseed"
+    } , 
+    {
+      "item": "kamenridercraft4th:cherry_energy_lockseed"
+    } , 
+    {
+      "item": "kamenridercraft4th:orange_lockseed"
+    }
+    ],
+  "result": {
+    "item": "kamenridercraft4th:kachidoki_lockseed"
+  }
+}

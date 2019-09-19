@@ -38,7 +38,7 @@ public class WorldGenCustomStructures implements IWorldGenerator
 	public static final WorldGenStructure yggdrasill_base = new WorldGenStructure("yggdrasill_base");
 	public static final WorldGenStructure rosyuo_helheim_city = new WorldGenStructure("rosyuo_helheim_city");
 	public static final WorldGenStructure demushu_helheim_city = new WorldGenStructure("demushu_helheim_city");
-	
+	public static final WorldGenStructure redyue_helheim_city = new WorldGenStructure("redyue_helheim_city");
 	
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
@@ -57,7 +57,8 @@ public class WorldGenCustomStructures implements IWorldGenerator
 			generateStructure(yggdrasill_base, world, random, chunkX, chunkZ,-1, 500, Blocks.DIRT,biomeHelheim.class);
 
 			generateStructure(rosyuo_helheim_city, world, random, chunkX, chunkZ,-1, 1000, Blocks.DIRT,biomeHelheim.class);
-			generateStructure(demushu_helheim_city, world, random, chunkX, chunkZ,7, 1000, Blocks.DIRT,biomeHelheim.class);
+			generateStructure(demushu_helheim_city, world, random, chunkX, chunkZ,7, 700, Blocks.DIRT,biomeHelheim.class);
+			generateStructure(redyue_helheim_city, world, random, chunkX, chunkZ,0, 700, Blocks.DIRT,biomeHelheim.class);
 			
 		}
 	}

@@ -2,6 +2,7 @@ package Kamen_Rider_Craft_4TH.item.gaim;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.blocks.wood.BlockHelheimVine;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityBikeBase;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityMachineBuilder;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityRoseAttacker;
@@ -82,6 +83,14 @@ public class Item_lockseed_Bike extends Item implements IHasModel
 		return  entitybike;
 	}
 	
+	 public Item AddlockseedToHelheimVine(int num)
+	    {
+	    	for (int i1 = 0; i1 < num; ++i1)
+			{
+	    		 BlockHelheimVine.LOCKSEED.add(this);
+			}
+	        return this;
+	    }
 	   /**
 * Called when the equipped item is right clicked.
 */

@@ -99,12 +99,12 @@ public class Entity_lord_baron extends EntityBossBase
 if (!this.world.isRemote){
 
    		this.dropItem(RiderItems.forbidden_ringo_lockseed, 1);
-   		this.dropItem(RiderItems.blood_orange_lockseed, 1);
+   		this.dropItem(RiderItems.fifteen_lockseed, 1);
    		
    		switch (this.rand.nextInt(5))
 		{
 		case 0:
-			this.dropItem(RiderItems.zakuro_lockseed, 1);
+			this.dropItem(RiderItems.maja_lockseed, 1);
 			break;
 		}
        }

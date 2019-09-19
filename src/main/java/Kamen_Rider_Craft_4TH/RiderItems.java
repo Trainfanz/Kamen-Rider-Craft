@@ -1906,8 +1906,8 @@ public class RiderItems {
 	public static Item kiwi_lockseed = new Item_lockseed(1,12,"kiwi_lockseed").AddlockseedToHelheimVine(3).setCreativeTab(Tabs.tabGaim);
 	public static Item lemon_lockseed = new Item_lockseed(1,41,"lemon_lockseed").setCreativeTab(Tabs.tabGaim);
 
-	public static Item sakura_hurricane = new Item_lockseed_Bike("sakura_hurricane",0).setCreativeTab(Tabs.tabGaim);
-	public static Item rose_attacker = new Item_lockseed_Bike("rose_attacker",1).setCreativeTab(Tabs.tabGaim);
+	public static Item sakura_hurricane = new Item_lockseed_Bike("sakura_hurricane",0).AddlockseedToHelheimVine(3).setCreativeTab(Tabs.tabGaim);
+	public static Item rose_attacker = new Item_lockseed_Bike("rose_attacker",1).AddlockseedToHelheimVine(3).setCreativeTab(Tabs.tabGaim);
 	public static Item dandeliner = new Item_ore("dandeliner").setCreativeTab(Tabs.tabGaim);
 	public static Item tulip_hopper = new Item_ore("tulip_hopper").setCreativeTab(Tabs.tabGaim);
 
