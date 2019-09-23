@@ -44,6 +44,7 @@ entity.Para_dxMob.name=Kamen Rider ParaDX
 entity.Red_PoppyMob.name=Kamen Rider Poppy
 entity.genmMob.name=Kamen Rider GENM
 entity.SakuraHurricaneMob.name=Sakura Hurricane
+entity.RoseAttackerMob.name=Rose Attacker
 entity.KurokageTroopersMob.name=Kurokage Trooper
 entity.ElementaryInvesGreenMob.name=Elementary Inves (Green)
 entity.ElementaryInvesRedMob.name=Elementary Inves (Red)
@@ -54,6 +55,10 @@ entity.ZangetsuShinMob.name=Kamen Rider Zangetsu Shin
 entity.MarikaMob.name=Kamen Rider Malika
 entity.SigurdMob.name=Kamen Rider Sigurd
 entity.DukeMob.name=Kamen Rider Duke
+entity.roshuoMob.name=Roshuo
+entity.redyueMob.name=Redyue
+entity.demushuMob.name=Demushu
+entity.lord_baronMob.name=Lord Baron
 
 effect.fly=Flying
 effect.fire_punch=Fire Punch
@@ -136,6 +141,9 @@ tile.hell_bros_block.name=Hell Bros Block
 tile.bi_kaiser_block.name=Bi Kaiser Block
 tile.another_build_block.name=Another Build Block
 tile.cronus_block.name=Chronos Block
+tile.redyue_boss_block.name=Redyue Block
+tile.rosyuo_boss_block.name=Roshuo Block
+tile.demushu_boss_block.name=Demushu Block
 
 tile.purifyer.name=Full Bottle Purifier
 tile.solidifyer.name=Full Bottle Solidifier
@@ -1661,6 +1669,7 @@ item.gamer_driver_gamedeus_muteki.name=Gamer Driver (Gamedeus Muteki)
 item.gamer_driver_nico_snipe.name=Gamer Driver (Nico Snipe)
       
 item.gashacon_bugvisor_genmu.name=Gashacon Bugvisor (Genm)
+item.gashacon_bugvisor_genmu_totema.name=Gashacon Bugvisor (Genm Totema)
 item.gashacon_bugvisor_ii_poppy.name=Gashacon Bugvisor II (Poppy)
 item.gashacon_bugvisor_ii_poppy_red.name=Gashacon Bugvisor II (Controlled Poppy)
 item.gashacon_bugvisor_ii_chronos.name=Gashacon Bugvisor II (Chronos)
@@ -1801,6 +1810,7 @@ item.build_driver_grease.name=Build Driver (Grease)
 item.build_driver_rogue.name=Build Driver (Rogue)
 item.build_driver_killbas.name=Build Driver (Killbas)
 item.build_driver_build_metal.name=Build Driver (Metal Build)
+item.build_driver_build_phantom.name=Build Driver (Phantom Build)
 
 item.evol_driver_evol.name=Evol Driver (Evol)
 item.evol_driver_mad_rogue.name=Evol Driver (Mad Rogue)
@@ -2070,6 +2080,8 @@ item.flying_falcon_progrise_key.name=Flying Falcon Progrise Key
 item.biting_shark_progrise_key.name=Biting Shark Progrise Key
 
 item.shooting_wolf_progrise_key.name=Shooting Wolf Progrise Key
+item.punching_kong_progrise_key.name=Punching Kong Progrise Key
+
 item.rushing_cheetah_progrise_key.name=Rushing Cheetah Progrise Key
 item.sting_scorpion_progrise_key.name=Sting Scorpion Progrise Key
                 
