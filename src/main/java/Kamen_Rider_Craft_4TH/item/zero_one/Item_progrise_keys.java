@@ -21,7 +21,7 @@ public class Item_progrise_keys extends Item implements IHasModel
 	public int num;
 	public int num2;
 
-	public static String[] ARMS= new String[] {"hopper","falcon","shark","wolf","cheetah","kong","","",""};
+	public static String[] ARMS= new String[] {"hopper","falcon","shark","wolf","cheetah","kong","tiger","",""};
 
 
 
@@ -56,18 +56,16 @@ public class Item_progrise_keys extends Item implements IHasModel
 				item_zero_onedriver belt = (item_zero_onedriver) playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem();
 
 				
-					if (num == 0||this==RiderItems.shooting_wolf_progrise_key){
-
+					
 						if (belt.Rider=="zero_one"){
+							if (num == 0||this==RiderItems.shooting_wolf_progrise_key||this==RiderItems.punching_kong_progrise_key){
 
 								item_zero_onedriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
 								item_zero_onedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "1");			
 									
 						}		
-					}else if (num == 1){
-
-						if (belt.Rider=="vulcan"){
-
+					}else if (belt.Rider=="vulcan"){
+						if (num == 1){
 								item_zero_onedriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
 								item_zero_onedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "1");			
 									
