@@ -129,9 +129,6 @@ public class EntityKurokageTroopers extends Entity_base_henchmen
 			case 3:
 				this.dropItem(RiderItems.sengoku_driver_kurokage_troopers, 1); 
 				break;
-			case 4:
-				this.dropItem(RiderItems.sengoku_driver_kurokage_troopers, 1);
-				break;
 				}
 			}
 		}

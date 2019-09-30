@@ -3,7 +3,7 @@
   "rewards": {
     "recipes": [
       "kamenridercraft4th:titan_sword",
-      "kamenridercraft4th:kuuga_rising_titan"
+      "kamenridercraft4th:rising_titan"
     ]
   },
   "criteria": {
@@ -26,7 +26,7 @@
     "has_the_recipe1": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "kamenridercraft4th:kuuga_rising_titan"
+        "recipe": "kamenridercraft4th:rising_titan"
       }
     }
   },

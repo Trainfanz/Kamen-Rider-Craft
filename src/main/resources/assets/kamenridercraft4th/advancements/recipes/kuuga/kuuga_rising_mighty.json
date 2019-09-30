@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "kamenridercraft4th:kuuga_amazing_mighty"
+      "kamenridercraft4th:amazing_mighty"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "kamenridercraft4th:kuuga_amazing_mighty"
+        "recipe": "kamenridercraft4th:amazing_mighty"
       }
     }
   },
