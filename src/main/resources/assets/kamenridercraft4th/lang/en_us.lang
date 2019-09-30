@@ -2084,11 +2084,13 @@ item.rising_hopper_progrise_key.name=Rising Hopper Progrise Key
 item.flying_falcon_progrise_key.name=Flying Falcon Progrise Key
 item.biting_shark_progrise_key.name=Biting Shark Progrise Key
 item.flaming_tiger_progrise_key.name=Flaming Tiger Progrise Key
+item.freezing_bear_progrise_key.name=Freezing Bear Progrise Key
 
 item.shooting_wolf_progrise_key.name=Shooting Wolf Progrise Key
 item.punching_kong_progrise_key.name=Punching Kong Progrise Key
 
 item.rushing_cheetah_progrise_key.name=Rushing Cheetah Progrise Key
+item.lightning_hornet_progrise_key.name=Lightning Hornet Progrise Key
 item.sting_scorpion_progrise_key.name=Sting Scorpion Progrise Key
                 
 item.amazonshead.name=Amazons Helmet
