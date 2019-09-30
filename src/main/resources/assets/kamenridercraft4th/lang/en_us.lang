@@ -144,6 +144,7 @@ tile.cronus_block.name=Chronos Block
 tile.redyue_boss_block.name=Redyue Block
 tile.rosyuo_boss_block.name=Roshuo Block
 tile.demushu_boss_block.name=Demushu Block
+tile.lord_baron_boss_block.name=Lord Baron Block
 
 tile.purifyer.name=Full Bottle Purifier
 tile.solidifyer.name=Full Bottle Solidifier
@@ -544,6 +545,10 @@ item.sakura_hurricane.name=Sakura Hurricane Lock Vehicle
 item.rose_attacker.name=Rose Attacker Lock Vehicle
 item.dandeliner.name=Dandeliner Lock Vehicle
 item.tulip_hopper.name=Tulip Hopper Lock Vehicle
+
+item.lord_baron_boss_block_part1.name=Lord Baron Fragment
+item.lord_baron_boss_block_part2.name=Lord Baron Fragment
+item.lord_baron_boss_block_part3.name=Lord Baron Fragment
 
 item.lemon_energy_lockseed.name=Lemon Energy Lockseed
 item.cherry_energy_lockseed.name=Cherry Energy Lockseed
@@ -2078,6 +2083,7 @@ item.shot_riser_gun.name=AIMS Shot Riser
 item.rising_hopper_progrise_key.name=Rising Hopper Progrise Key
 item.flying_falcon_progrise_key.name=Flying Falcon Progrise Key
 item.biting_shark_progrise_key.name=Biting Shark Progrise Key
+item.flaming_tiger_progrise_key.name=Flaming Tiger Progrise Key
 
 item.shooting_wolf_progrise_key.name=Shooting Wolf Progrise Key
 item.punching_kong_progrise_key.name=Punching Kong Progrise Key

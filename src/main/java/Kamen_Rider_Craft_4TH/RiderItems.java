@@ -2034,7 +2034,6 @@ public class RiderItems {
 
 	public static Item sunglasseslasher_sword = new Item_sword_gun("sunglasseslasher_sword",Tabs.sunglasseslasher_sword).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
 
-
 	public static Item gan_gun_hand_rod = new Item_sword_gun("gan_gun_hand_rod",Tabs.gan_gun_hand_rod).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
 
 	public static Item gan_gun_hand_kama = new ItemBaseSword("gan_gun_hand_kama",Tabs.gan_gun_hand_kama).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
@@ -2064,8 +2063,6 @@ public class RiderItems {
 	public static Item extremer_driver = new item_ghostdriver("extremer_driver",ArmorMaterial.DIAMOND, 4, 3,"extremer","extremer",4).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
 
 	public static Item new_ghostdriver = new item_ghostdriver("new_ghostdriver",ArmorMaterial.DIAMOND, 4, 3,"dark_ghost","new_ore",1).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
-
-
 
 	public static Item ore_ghost_icon  = new Item_ghost_Icons(0, 0,1,"ore_ghost_icon").setCreativeTab(Tabs.tabghost);
 	public static Item new_ore_ghost_icon  = new Item_ghost_Icons(0, 64,1,"new_ore_ghost_icon").setCreativeTab(Tabs.tabghost);
