@@ -97,7 +97,7 @@ public class Entity_roshuo extends EntityBossBase
     public void onDeath(DamageSource cause)
     {
 if (!this.world.isRemote){
-
+	this.dropItem(RiderItems.lord_baron_boss_block_part1, 1);
    		this.dropItem(RiderItems.golden_ringo_lockseed, 1);
    		this.dropItem(RiderItems.kiwami_lockseed, 1);
    		

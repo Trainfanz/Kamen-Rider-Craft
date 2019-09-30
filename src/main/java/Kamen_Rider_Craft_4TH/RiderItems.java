@@ -295,6 +295,7 @@ public class RiderItems {
 	public static Block rosyuo_boss_block = new mob_block("rosyuo_boss_block", Entity_roshuo::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabGaim);
 	public static Block demushu_boss_block = new mob_block("demushu_boss_block", Entity_demushu::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabGaim);
 	public static Block redyue_boss_block = new mob_block("redyue_boss_block", Entity_redyue::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabGaim);
+	public static Block lord_baron_boss_block = new mob_block("lord_baron_boss_block", Entity_lord_baron::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabGaim);
 	
 	
 	public static Item rider_circuit = new Item_ore("rider_circuit").setCreativeTab(Tabs.tabIchigo);
@@ -1926,6 +1927,10 @@ public class RiderItems {
 
 	public static Item drained_suika_lockseed = new Item_ore("drained_suika_lockseed").setCreativeTab(Tabs.tabGaim);
 
+	public static Item lord_baron_boss_block_part1 = new Item_ore("lord_baron_boss_block_part1").setCreativeTab(Tabs.tabGaim);
+	public static Item lord_baron_boss_block_part2 = new Item_ore("lord_baron_boss_block_part2").setCreativeTab(Tabs.tabGaim);
+	public static Item lord_baron_boss_block_part3 = new Item_ore("lord_baron_boss_block_part3").setCreativeTab(Tabs.tabGaim);
+	
 	//drive
 	public static Item handle_sword = new ItemBaseSword("handle_sword",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
 	public static Item door_ju = new Item_gun("door_ju",ToolMaterial.DIAMOND).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
@@ -2822,7 +2827,7 @@ public class RiderItems {
 
 	public static Item hiden_zero_one_driver = new item_zero_onedriver("hiden_zero_one_driver",ArmorMaterial.DIAMOND, 4, "zero_one",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item shot_riser_vulcan = new item_zero_onedriver("shot_riser_vulcan",ArmorMaterial.DIAMOND, 4, "vulcan",3).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
-	public static Item shot_riser_valkyrie = new item_zero_onedriver("shot_riser_valkyrie",ArmorMaterial.DIAMOND, 4, "valkyrie",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item shot_riser_valkyrie = new item_zero_onedriver("shot_riser_valkyrie",ArmorMaterial.DIAMOND, 4, "valkyrie",7).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item shot_riser_belt = new Item_ore("shot_riser_belt");
 	
@@ -2835,7 +2840,7 @@ public class RiderItems {
 
 	public static Item shooting_wolf_progrise_key = new Item_progrise_keys(1, 3,"shooting_wolf_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item punching_kong_progrise_key = new Item_progrise_keys(1, 5,"punching_kong_progrise_key").setCreativeTab(Tabs.tabzero_one);
-	public static Item rushing_cheetah_progrise_key = new Item_ore("rushing_cheetah_progrise_key").setCreativeTab(Tabs.tabzero_one);
+	public static Item rushing_cheetah_progrise_key = new Item_progrise_keys(2, 7,"rushing_cheetah_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item sting_scorpion_progrise_key = new Item_ore("sting_scorpion_progrise_key").setCreativeTab(Tabs.tabzero_one);
 
 	public static Item amazonshead = new item_amazonsarmor("amazonshead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);
