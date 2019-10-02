@@ -1,6 +1,7 @@
 package Kamen_Rider_Craft_4TH;
 
 import Kamen_Rider_Craft_4TH.blocks.*;
+import Kamen_Rider_Craft_4TH.blocks.portals.*;
 import Kamen_Rider_Craft_4TH.blocks.custom.BlockType;
 import Kamen_Rider_Craft_4TH.blocks.custom.CustomBlock;
 import Kamen_Rider_Craft_4TH.item.*;
@@ -273,7 +274,7 @@ public class RiderItems {
 
 	public static Block monitor = CustomBlock.builder().material(Material.IRON).hardness(9.9F).lightLevel(0.1F).harvestLevel("pickaxe", 2).blockType(BlockType.DIRECTIONAL).name("monitor").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block mighty_block = CustomBlock.builder().material(Material.IRON).hardness(9.9F).harvestLevel("pickaxe", 2).name("mighty_block").setCreativeTabe(Tabs.tabdecor).build();
-	public static Block fangire_glass = CustomBlock.builder().material(Material.IRON).hardness(9.9F).lightOpacity(1).harvestLevel("pickaxe", 2).name("fangire_glass").property(TRANSPARENT).setCreativeTabe(Tabs.tabdecor).build();
+	public static Block fangire_glass = new rider_glass_block("fangire_glass",Material.GLASS).setCreativeTab(Tabs.tabdecor);
 	public static Block wallplate = CustomBlock.builder().material(Material.IRON).hardness(9.9F).harvestLevel("pickaxe", 2).name("wallplate").setCreativeTabe(Tabs.tabdecor).build();
 
 

@@ -1,4 +1,6 @@
-package Kamen_Rider_Craft_4TH.blocks;
+package Kamen_Rider_Craft_4TH.blocks.portals;
+
+import java.util.Random;
 
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.util.Refercence;
@@ -54,6 +56,13 @@ public class helheim_crack extends BlockHorizontal {
 		return false;
 	}
 
+	  /**
+     * Returns the quantity of items to drop on block destruction.
+     */
+    public int quantityDropped(Random random)
+    {
+        return 0;
+    }
 	@Override
 	public void onEntityCollision(World worldIn, BlockPos pos, IBlockState state, Entity entityIn) {
 		if(!worldIn.isRemote) {

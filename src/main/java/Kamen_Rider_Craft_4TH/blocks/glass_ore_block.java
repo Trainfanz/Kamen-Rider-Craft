@@ -6,12 +6,15 @@ import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockBreakable;
 import net.minecraft.block.BlockFalling;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.util.BlockRenderLayer;
+import net.minecraft.util.EnumFacing;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -37,24 +40,28 @@ public class glass_ore_block extends Block implements IHasModel
 
 	 
 	 @SideOnly(Side.CLIENT)
-	    public BlockRenderLayer getBlockLayer()
+	 @Override
+	    public BlockRenderLayer getRenderLayer()
 	    {
 	        return BlockRenderLayer.TRANSLUCENT;
 	    }
-	   
-	  public boolean isFullCube(IBlockState state)
-	    {
-	        return false;
-	    }
-	  /**
-	     * Used to determine ambient occlusion and culling when rebuilding chunks for render
+	 
+	    /**
+	     * @deprecated call via {@link IBlockState#isFullCube()} whenever possible. Implementing/overriding is fine.
 	     */
-	    public boolean isOpaqueCube(IBlockState state)
-	    {
-	        return false;
-	    }   	
-	        
-	    
+	       @Override
+	       public boolean isFullCube(IBlockState state)
+	       {
+	           return false;
+	       }
+	    /**
+		 * Is this block (a) opaque and (B) a full 1m cube?  This determines whether or not to render the shared face of two
+		 * adjacent blocks and also whether the player can attach torches, redstone wire, etc to this block.
+		 */
+	       public boolean isOpaqueCube(IBlockState state)
+	       {
+	           return false;
+	       }
 
 	/**
 	 * Returns the ID of the items to drop on destruction.
@@ -158,7 +165,6 @@ public class glass_ore_block extends Block implements IHasModel
 		}
 		return CRYSTAL;
 
-		
 	}
 
 	public int getExpDrop(IBlockAccess world, int metadata, int fortune)
@@ -169,6 +175,30 @@ public class glass_ore_block extends Block implements IHasModel
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(Item.getItemFromBlock(this),0,"inventory");
 	}
+
+	  /**
+     * @deprecated call via {@link IBlockState#shouldSideBeRendered(IBlockAccess,BlockPos,EnumFacing)} whenever
+     * possible. Implementing/overriding is fine.
+     */
+    @SideOnly(Side.CLIENT)
+    @Override
+    public boolean shouldSideBeRendered(IBlockState blockState, IBlockAccess blockAccess, BlockPos pos, EnumFacing side)
+    {
+        IBlockState iblockstate = blockAccess.getBlockState(pos.offset(side));
+        Block block = iblockstate.getBlock();
+
+            if (blockState != iblockstate)
+            {
+                return true;
+            }
+
+            if (block == this)
+            {
+                return false;
+            }
+        
+        return false;
+    }
 
 
 
