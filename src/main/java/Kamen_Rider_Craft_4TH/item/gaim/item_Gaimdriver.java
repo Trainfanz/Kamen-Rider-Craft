@@ -277,7 +277,7 @@ public class item_Gaimdriver extends ItemArmor  implements IHasModel
 			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
 			player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
 			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
-		}else if (this.get_lock(armor)=="kachidoki_arms"){
+		}else if (this.get_lock(armor)=="kachidoki_arms"||this.get_lock(armor)=="zangetsu_kachidoki_arms"){
 			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
 			player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
 			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
