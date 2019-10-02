@@ -134,7 +134,7 @@ public class Item_sword_gun extends ItemBow  implements IHasModel
 					ItemArrow itemarrow = (ItemArrow) Items.ARROW;
 					EntityArrow fireball = itemarrow.createArrow(worldIn, new ItemStack(Items.ARROW), playerIn);
 
-					fireball.setPosition(playerIn.posX + look.x * 1.6,playerIn.posY + 1,playerIn.posZ + look.z * 1.6);
+					fireball.shoot(playerIn, playerIn.rotationPitch, playerIn.rotationYaw, 0.0F, 3.0F, 1.0F);
 
 					fireball.motionX = look.x*3;
 					fireball.motionY = look.y*3;

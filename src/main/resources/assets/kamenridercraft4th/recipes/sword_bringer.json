@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XMX",
+    "XSX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:himawari_lockseed"
+    },
+    "S": {
+      "item": "kamenridercraft4th:base_sword"
+    },
+    "M": {
+      "item": "kamenridercraft4th:golden_ringo_lockseed"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:sword_bringer"
+  }    
+}
+
