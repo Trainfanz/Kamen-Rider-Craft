@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:musou_saber"
+    }, 
+    {
+      "item": "kamenridercraft4th:blood_daidaimaru"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:blood_musou_saber_naginata"
+  }
+}
