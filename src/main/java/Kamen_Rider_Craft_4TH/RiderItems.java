@@ -343,8 +343,8 @@ public class RiderItems {
 	public static Item sunriser_br = new Item_ore("sunriser_br");
 	public static Item sunriser = new item_Ichigodriver("sunriser",ArmorMaterial.DIAMOND, 4,"black_rx").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 
-	public static Item bio_rider = new Item_showa_change("bio_rider",1,sunriser).setCreativeTab(Tabs.tabIchigo);
-	public static Item robo_rider = new Item_showa_change("robo_rider",2,sunriser).setCreativeTab(Tabs.tabIchigo);
+	public static Item bio_rider = new Item_showa_change("bio_rider",2,sunriser).setCreativeTab(Tabs.tabIchigo);
+	public static Item robo_rider = new Item_showa_change("robo_rider",1,sunriser).setCreativeTab(Tabs.tabIchigo);
 
 	public static Item grasshopper_dna = new item_Ichigodriver("grasshopper_dna",ArmorMaterial.DIAMOND, 4,"shin").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item zo_core = new item_Ichigodriver("zo_core",ArmorMaterial.DIAMOND, 4,"zo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
@@ -2743,6 +2743,10 @@ public class RiderItems {
 	
 	public static Item build_ridewatch = new Item_ridewatches(1, 1,"build_ridewatch",true).setCreativeTab(Tabs.tabzi_o);
 	public static Item cross_z_ridewatch = new Item_ore("cross_z_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	//public static Item grease_ridewatch = new Item_ore("grease_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	//public static Item rogue_ridewatch = new Item_ore("rogue_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	//public static Item evol_ridewatch = new Item_ore("evol_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	//public static Item madrogue_ridewatch = new Item_ore("madrogue_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item exaid_ridewatch = new Item_ridewatches(1, 2,"exaid_ridewatch",true).setCreativeTab(Tabs.tabzi_o);
 	public static Item genm_ridewatch = new Item_ridewatches(1, 19,"genm_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item ghost_ridewatch = new Item_ridewatches(1, 3,"ghost_ridewatch",true).setCreativeTab(Tabs.tabzi_o);
@@ -2775,7 +2779,12 @@ public class RiderItems {
 	public static Item ginga_miridewatch = new Item_ridewatches(2, 27,"ginga_miridewatch").setCreativeTab(Tabs.tabzi_o);
 	
 	public static Item zi_o_mirror_ridewatch = new Item_ore("zi_o_mirror_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item barlckxs_ridewatch = new Item_ore("barlckxs_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item zonjis_ridewatch = new Item_ore("zonjis_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item zamonas_ridewatch = new Item_ore("zamonas_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item tsukuyomi_ridewatch = new Item_ore("tsukuyomi_ridewatch").setCreativeTab(Tabs.tabzi_o);
 
+	
 	public static Item kodama_suika_arms = new item_kodamawatch("kodama_suika_arms").setCreativeTab(Tabs.tabzi_o);
 	public static Item another_build_ridewatch = new Item_ore("another_build_ridewatch").setCreativeTab(Tabs.tabzi_o);  
 
