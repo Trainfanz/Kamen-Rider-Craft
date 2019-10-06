@@ -3,8 +3,7 @@
     "textures": {
         "layer0": "kamenridercraft4th:items/suika_sojinto"
     },
-   
-"display": {
+    "display": {
 "ground": {
 "rotation": [ 0, 0, 0 ],
 "translation": [ 0, 2, 0],
@@ -16,7 +15,7 @@
 "scale":[ 1, 1, 1]
 },
 "thirdperson_lefthand": {    
- "rotation": [ 0, -90, -30 ],
+ "rotation": [ 0, 90, -50 ],
            "translation": [ 0, 1.25, 0 ],
             "scale": [ 1.7, 1.7, 0.85 ]
 
@@ -32,8 +31,8 @@
             "translation": [ 0, 6, 3 ],
             "scale": [ 1.7, 1.7, 0.85 ]
 },
-"firstperson_lefthand": {      
- "rotation": [ 20, 90, 80 ],
+"firstperson_lefthand": {    
+ "rotation": [ -70, 90, 10 ],
            "translation": [ 0, 6, 3],
             "scale": [ 1.7, 1.7, 0.85 ]
 

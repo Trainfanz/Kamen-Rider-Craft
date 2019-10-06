@@ -3,5 +3,44 @@
   "parent": "item/handheld",
   "textures": {
     "layer0": "kamenridercraft4th:items/blood_musou_saber_naginata"
-  }
+  },
+    "display": {
+"ground": {
+"rotation": [ 0, 0, 0 ],
+"translation": [ 0, 2, 0],
+"scale":[ 0.5, 0.5, 0.5 ]
+},
+"head": {
+"rotation": [ 0, 0, 0 ],
+"translation": [ 0, 13, 7],
+"scale":[ 1, 1, 1]
+},
+"thirdperson_lefthand": {    
+ "rotation": [ 0, 90, -50 ],
+           "translation": [ 0, 1.25, 0 ],
+            "scale": [ 1.7, 1.7, 0.85 ]
+
+},
+"thirdperson_righthand": {    
+ "rotation": [ 0, -90, 50 ],
+           "translation": [ 0, 1.25, 0 ],
+            "scale": [ 1.7, 1.7, 0.85 ]
+
+},
+"firstperson_righthand": {
+            "rotation": [  -20, -90, 40 ],
+            "translation": [ 0, 6, 3 ],
+            "scale": [ 1.7, 1.7, 0.85 ]
+},
+"firstperson_lefthand": {    
+ "rotation": [ -70, 90, 10 ],
+           "translation": [ 0, 6, 3],
+            "scale": [ 1.7, 1.7, 0.85 ]
+
+},
+"fixed": {
+"rotation": [ 0, 0, 0 ],
+"scale": [ 1, 1, 1 ]
+}
+}
 }

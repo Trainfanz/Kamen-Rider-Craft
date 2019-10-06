@@ -60,7 +60,7 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":amazing_mighty"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.kuuga_amazing_mighty), new Ingredient[]{Ingredient.fromItem(RiderItems.kuuga_rising_mighty),Ingredient.fromItem(RiderItems.kuuga_rising_mighty),Ingredient.fromItem(RiderItems.kuuga_rising_mighty),Ingredient.fromItem(RiderItems.kuuga_rising_mighty),Ingredient.fromItem(RiderItems.kuuga_rising_mighty),Ingredient.fromItem(RiderItems.kuuga_rising_mighty),Ingredient.fromItem(RiderItems.kuuga_rising_mighty),Ingredient.fromItem(RiderItems.kuuga_rising_mighty),Ingredient.fromItem(RiderItems.kuuga_rising_mighty)});	
 	
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":ultimate"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.kuuga_ultimate), new Ingredient[]{Ingredient.fromItem(RiderItems.kuuga_rising_mighty),Ingredient.fromItem(RiderItems.kuuga_rising_dragon),Ingredient.fromItem(RiderItems.kuuga_rising_pegasus),Ingredient.fromItem(RiderItems.kuuga_rising_titan),Ingredient.fromItem(RiderItems.kuuga_amazing_mighty)});	
-**/			
+			
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":agitohead"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.agitohead,1), "aaa","a a", 'a', RiderItems.agito_of_seed);		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":agitotroso"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.agitotroso,1), "a a","aaa","aaa", 'a', RiderItems.agito_of_seed);		
@@ -82,7 +82,7 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":storm_halberd"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.storm_halberd,1), "ama","aba","aaa", 'a', RiderItems.agito_of_seed, 'b', RiderItems.base_sword, 'm', RiderItems.agito_storm);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":shining_caliber_summoned"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.shining_caliber_summoned,1), "ama","aba","aaa", 'a', RiderItems.agito_of_seed, 'b', RiderItems.base_sword, 'm', RiderItems.agito_burning);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":shining_caliber"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.shining_caliber,1), "ama","aba","aaa", 'a', RiderItems.agito_of_seed, 'b', RiderItems.base_sword, 'm', RiderItems.agito_shining);
-		
+**/		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":ryukihead"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ryukihead,1), "aaa","a a", 'a', RiderItems.contract_advent);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":ryukitroso"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ryukitroso,1), "a a","aaa","aaa", 'a', RiderItems.contract_advent);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":ryukilegs"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ryukilegs,1), "aaa","a a","a a", 'a', RiderItems.contract_advent);

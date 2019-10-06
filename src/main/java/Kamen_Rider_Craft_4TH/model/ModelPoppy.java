@@ -40,56 +40,53 @@ public boolean isSneak;
       rightchest.addBox(-3.5F, 0F, 0F, 4, 4, 4);
       rightchest.setRotationPoint(-1F, 0.5F, -3F);
       rightchest.setTextureSize(64, 32);
-      rightchest.mirror = true;
       setRotation(rightchest, 0.1889913F, 0.1396263F, 0.0523599F);
       
       head = new ModelRenderer(this, 0, 0);
       head.addBox(-4F, -8F, -4F, 8, 8, 8);
-      head.setRotationPoint(-0.5F, 0F, 0F);
+      head.setRotationPoint(0F, -1F, 0F);
       head.setTextureSize(64, 32);
-      head.mirror = true;
       setRotation(head, 0F, 0F, 0F);
-
       
       body = new ModelRenderer(this, 12, 16);
       body.addBox(-4F, 0F, -2F, 7, 12, 4);
-      body.setRotationPoint(0F, 0F, 0F);
+      body.setRotationPoint(0.5F, -1F, 0F);
       body.setTextureSize(64, 32);
-      body.mirror = true;
       setRotation(body, 0F, 0F, 0F);
       
       leftchest = new ModelRenderer(this, 15, 17);
+      leftchest.mirror = true;
       leftchest.addBox(-0.5F, 0F, 0F, 4, 4, 4);
       leftchest.setRotationPoint(0F, 0.5F, -3F);
       leftchest.setTextureSize(64, 32);
-      leftchest.mirror = true;
       setRotation(leftchest, 0.1889913F, -0.1396263F, -0.0523599F);
       
 
       this.bipedRightArm = new ModelRenderer(this, 35, 17);
-      this.bipedRightArm.addBox(-1.5F, -2F, -1.5F, 3, 12, 3);
-      this.bipedRightArm.setRotationPoint(-3.5F, 2F, 0F);
-      setRotation(bipedRightArm, 0F, 0F, 0.0872665F);
+      this.bipedRightArm.addBox(-1F, -2F, -2F, 3, 12, 3);
+      this.bipedRightArm.setRotationPoint(-3.5F, 1F, 0.5F);
+      this.bipedRightArm.setTextureSize(64, 32);
+      setRotation(this.bipedRightArm, 0F, 0F, 0F);
       
       this.bipedLeftArm = new ModelRenderer(this, 35, 17);
-      this.bipedLeftArm.addBox(-2.5F, -2F, -1.5F, 3, 12, 3);  
-      this.bipedLeftArm.setRotationPoint(3.5F, 2F, 0F);
+      this.bipedLeftArm.mirror = true;
+      this.bipedLeftArm.addBox(-3F, -2F, -2F, 3, 12, 3);
+      this.bipedLeftArm.setRotationPoint(4.5F, 1F, 0.5F);
       this.bipedLeftArm.setTextureSize(64, 32);
-      setRotation(bipedLeftArm, 0F, 0F, -0.0872665F);
+      setRotation(this.bipedLeftArm, 0F, 0F, 0F);
       
       
       rightleg = new ModelRenderer(this, 0, 16);
-      rightleg.addBox(-1.5F, 0F, -1.5F, 3, 12, 3);
-      rightleg.setRotationPoint(-2F, 12F, 0F);
+      rightleg.addBox(-2F, -1F, -2F, 3, 13, 3);
+      rightleg.setRotationPoint(-1F, 11F, 0.5F);
       rightleg.setTextureSize(64, 32);
-      rightleg.mirror = false;
       setRotation(rightleg, 0F, 0F, 0F);
       
       leftleg = new ModelRenderer(this, 0, 16);
-      leftleg.addBox(-1.5F, 0F, -1.5F, 3, 12, 3);
-      leftleg.setRotationPoint(1F, 12F, 0F);
-      leftleg.setTextureSize(64, 32);
       leftleg.mirror = true;
+      leftleg.addBox(-2F, -1F, -2F, 3, 13, 3);
+      leftleg.setRotationPoint(2F, 11F, 0.5F);
+      leftleg.setTextureSize(64, 32);
       setRotation(leftleg, 0F, 0F, 0F);
 
   }
@@ -130,7 +127,7 @@ public void setRotationAngles(float par1, float par2, float par3, float par4, fl
     this.bipedRightArm.rotateAngleX = MathHelper.cos(par1 * 0.6662F + (float)Math.PI) * 2.0F * par2 * 0.5F;
     this.bipedLeftArm.rotateAngleX = MathHelper.cos(par1 * 0.6662F) * 2.0F * par2 * 0.5F;
     this.bipedRightArm.rotateAngleZ = 0.0F+0.0872665F;
-    this.bipedLeftArm.rotateAngleZ = 0.0F;
+    this.bipedLeftArm.rotateAngleZ = 0.0F-0.0872665F;
     this.rightleg.rotateAngleX = MathHelper.cos(par1 * 0.6662F) * 1.4F * par2;
     this.leftleg.rotateAngleX = MathHelper.cos(par1 * 0.6662F + (float)Math.PI) * 1.4F * par2;
     this.rightleg.rotateAngleY = 0.0F;
