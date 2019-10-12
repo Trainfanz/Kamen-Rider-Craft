@@ -90,8 +90,8 @@ public class item_warmor2 extends ItemArmor implements IHasModel
 						if (item_Wdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"2")>0){
 							return Refercence.MODID+":textures/armor/"+"w_"+ CoreName[item_Wdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"2")+3] +".png";
 						}
-						if (item_Wdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")==0 & item_Wdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")==0& item_Wdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"3")==3){
-							return Refercence.MODID+":textures/armor/"+"w_"+ "fang_joker"+".png";
+						if (item_Wdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"3")==3){
+							return Refercence.MODID+":textures/armor/"+"w_"+ "fang_"+CoreName[item_Wdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")]+".png";
 
 						}
 						return Refercence.MODID+":textures/armor/"+"w_"+ CoreName[item_Wdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")] +".png";

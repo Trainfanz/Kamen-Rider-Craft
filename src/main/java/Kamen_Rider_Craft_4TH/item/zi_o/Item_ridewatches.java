@@ -116,6 +116,11 @@ public class Item_ridewatches extends Item implements IHasModel
 								item_zikudriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
 								item_zikudriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),6, "1");
 
+							}else if (this == RiderItems.geiz_majesty_ridewatch){
+
+								item_zikudriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
+								item_zikudriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),8, "1");
+
 							}	
 							else if (this == RiderItems.geizrevive_ridewatch){
 								

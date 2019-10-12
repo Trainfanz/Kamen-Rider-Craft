@@ -168,7 +168,7 @@ public class model_belt_plus extends ModelBiped
 			
 			if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_zikudriver)
 			{
-			if (item_zikudriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==1||item_zikudriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==5){
+			if (item_zikudriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==1||item_zikudriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==5||item_zikudriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==8){
 
 				GL11.glTranslated(0.25,0,0.001);
 			}
