@@ -2017,6 +2017,10 @@ item.zikan_despear_tsue.name=Zikan Despear (Tsue)
 item.zi_o_ridewatch.name=Zi-O Ridewatch
 item.geiz_ridewatch.name=Geiz Ridewatch
 item.zi_o_mirror_ridewatch.name=Mirror Zi-O Ridewatch
+item.barlckxs_ridewatch.name=Barlckxs Ridewatch
+item.zonjis_ridewatch.name=Zonjis Ridewatch
+item.zamonas_ridewatch.name=Zamonas Ridewatch
+item.tsukuyomi_ridewatch.name=Tsukuyomi Ridewatch
 
 item.build_ridewatch.name=Build Ridewatch
 item.exaid_ridewatch.name=Ex-Aid Ridewatch
@@ -2045,6 +2049,7 @@ item.ohmazi_o_ridewatch.name=Oma Zi-O Ridewatch
 
 item.geizrevive_ridewatch.name=Geiz Revive Ridewatch
 item.bibiru_geiz_ridewatch.name=Bibiru Geiz Ridewatch
+item.geiz_majesty_ridewatch.name=Geiz Majesty Ridewatch
 
 item.genm_ridewatch.name=Genm Ridewatch
 item.cross_z_ridewatch.name=Cross-Z Ridewatch
