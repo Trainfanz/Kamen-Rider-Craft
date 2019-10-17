@@ -102,7 +102,8 @@ if (!this.world.isRemote){
    		this.dropItem(RiderItems.blood_orange_lockseed, 1);
    		
    		this.dropItem(RiderItems.lord_baron_boss_block_part3, 1);
-   		
+
+   		this.dropItem(RiderItems.sheimu, 1);
    		switch (this.rand.nextInt(5))
 		{
 		case 0:

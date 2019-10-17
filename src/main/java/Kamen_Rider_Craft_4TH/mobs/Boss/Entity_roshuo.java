@@ -101,6 +101,7 @@ if (!this.world.isRemote){
    		this.dropItem(RiderItems.golden_ringo_lockseed, 1);
    		this.dropItem(RiderItems.kiwami_lockseed, 1);
    		
+   		this.dropItem(RiderItems.joeshuimu, 1);
        }
        
    }

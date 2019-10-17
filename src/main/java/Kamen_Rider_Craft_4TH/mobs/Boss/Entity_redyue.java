@@ -100,6 +100,7 @@ if (!this.world.isRemote){
 	this.dropItem(RiderItems.lord_baron_boss_block_part2, 1);
    		this.dropItem(RiderItems.silver_ringo_lockseed, 1);
    		this.dropItem(RiderItems.yomotsu_heguri_lockseed, 1);
+   		this.dropItem(RiderItems.dau, 1);
    		
        }
        

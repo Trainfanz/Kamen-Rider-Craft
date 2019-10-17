@@ -100,7 +100,7 @@ if (!this.world.isRemote){
 
    		this.dropItem(RiderItems.forbidden_ringo_lockseed, 1);
    		this.dropItem(RiderItems.fifteen_lockseed, 1);
-   		
+   		this.dropItem(RiderItems.guronbaryamu, 1);
    		switch (this.rand.nextInt(5))
 		{
 		case 0:
