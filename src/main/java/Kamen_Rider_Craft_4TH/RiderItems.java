@@ -2789,6 +2789,7 @@ public class RiderItems {
 	public static Item kodama_suika_arms = new item_kodamawatch("kodama_suika_arms").setCreativeTab(Tabs.tabzi_o);
 	public static Item another_build_ridewatch = new Item_ore("another_build_ridewatch").setCreativeTab(Tabs.tabzi_o);  
 
+	public static Item woz_ridewatch = new Item_ridewatches(0, 0,"woz_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item ryusoulger_ridewatch = new Item_ore("ryusoulger_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	
 	public static Item shuriken_starter = new Item_ore("shuriken_starter").setCreativeTab(Tabs.tabzi_o);
@@ -2821,6 +2822,7 @@ public class RiderItems {
 	public static Item ziku_driver_zi_o_trinity = new Item_ore("ziku_driver_zi_o_trinity");
 	public static Item ziku_driver_zi_o_grand = new Item_ore("ziku_driver_zi_o_grand");
 	public static Item ziku_driver_zio_ohma = new Item_ore("ziku_driver_zio_ohma");
+	public static Item ziku_driver_woz = new Item_ore("ziku_driver_woz");
 	public static Item ziku_driver_geizrevive = new Item_ore("ziku_driver_geizrevive");
 	public static Item ziku_driver_bibiru_geiz = new Item_ore("ziku_driver_bibiru_geiz");
 	public static Item ziku_driver_majesty = new Item_ore("ziku_driver_majesty");
