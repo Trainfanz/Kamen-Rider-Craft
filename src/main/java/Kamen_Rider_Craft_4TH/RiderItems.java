@@ -2785,7 +2785,8 @@ public class RiderItems {
 	public static Item zamonas_ridewatch = new Item_ore("zamonas_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item tsukuyomi_ridewatch = new Item_ore("tsukuyomi_ridewatch").setCreativeTab(Tabs.tabzi_o);
 
-	
+	public static Item unfinished_grandzi_o_ridewatch_1 = new Item_ore("unfinished_grandzi_o_ridewatch_1").setCreativeTab(Tabs.tabzi_o);
+	public static Item unfinished_grandzi_o_ridewatch_2 = new Item_ore("unfinished_grandzi_o_ridewatch_2").setCreativeTab(Tabs.tabzi_o);
 	public static Item kodama_suika_arms = new item_kodamawatch("kodama_suika_arms").setCreativeTab(Tabs.tabzi_o);
 	public static Item another_build_ridewatch = new Item_ore("another_build_ridewatch").setCreativeTab(Tabs.tabzi_o);  
 

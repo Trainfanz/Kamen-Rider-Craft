@@ -2065,7 +2065,8 @@ item.kikai_miridewatch.name=Kikai Miridewatch
 item.ginga_miridewatch.name=Ginga Miridewatch
 
 item.woz_ridewatch.name=Woz Ridewatch
-
+item.unfinished_grandzi_o_ridewatch_1.name=Unfinished Grand Zi-O Ridewatch Part
+item.unfinished_grandzi_o_ridewatch_2.name=Unfinished Grand Zi-O Ridewatch Part
 item.kodama_suika_arms.name=Kodama Suika Arms
 item.another_build_ridewatch.name=Another Build Ridewatch
 item.ryusoulger_ridewatch.name=Ryusoulger Ridewatch
@@ -2074,7 +2075,7 @@ item.shuriken_starter.name=Shuriken Starter (Shinobi)
 item.shuriken_starter_hattari.name=Shuriken Starter (Hattari)
 item.quiz_topper.name=Quiz Topper
 item.spannerder_screwder.name=Spannerder and Screwder
-item.ginga_globe.name=Ginga Globe
+item.ginga_globe.name=Ginga Scope
       
       
 item.zero_onehead.name=Zero One Helmet   

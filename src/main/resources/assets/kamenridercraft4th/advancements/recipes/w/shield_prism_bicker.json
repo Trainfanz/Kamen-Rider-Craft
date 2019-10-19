@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "kamenridercraft4th:shield_prism_bicker"
+      "kamenridercraft4th:prism_bicker_shield"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "kamenridercraft4th:shield_prism_bicker"
+        "recipe": "kamenridercraft4th:prism_bicker_shield"
       }
     }
   },

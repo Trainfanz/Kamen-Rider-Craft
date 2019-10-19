@@ -2,11 +2,12 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "kamenridercraft4th:sengoku_driver_gaim",
-      "kamenridercraft4th:daidaimaru",
-      "kamenridercraft4th:dark_orange_lockseed",
-      "kamenridercraft4th:fresh_orange_lockseed",
-      "kamenridercraft4th:kabi_orange_lockseed"
+      "kamenridercraft4th:genesis_driver_duke",
+      "kamenridercraft4th:genesis_driver_baron",
+      "kamenridercraft4th:sonic_arrow",
+      "kamenridercraft4th:kachidoki_lockseed",
+      "kamenridercraft4th:zangetsu_kachidoki_lockseed",
+      "kamenridercraft4th:dark_lemon_energy_lockseed"
     ]
   },
   "criteria": {
@@ -15,7 +16,7 @@
       "conditions": {
         "items": [
           {
-            "item": "kamenridercraft4th:orange_lockseed"
+            "item": "kamenridercraft4th:lemon_energy_lockseed"
           }
         ]
       }
@@ -23,31 +24,37 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "kamenridercraft4th:sengoku_driver_gaim"
+        "recipe": "kamenridercraft4th:genesis_driver_duke"
       }
     },
     "has_the_recipe1": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "kamenridercraft4th:daidaimaru"
+        "recipe": "kamenridercraft4th:genesis_driver_baron"
       }
     },
     "has_the_recipe2": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "kamenridercraft4th:dark_orange_lockseed"
+        "recipe": "kamenridercraft4th:sonic_arrow"
       }
     },
     "has_the_recipe3": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "kamenridercraft4th:fresh_orange_lockseed"
+        "recipe": "kamenridercraft4th:kachidoki_lockseed"
       }
     },
     "has_the_recipe4": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "kamenridercraft4th:kabi_orange_lockseed"
+        "recipe": "kamenridercraft4th:zangetsu_kachidoki_lockseed"
+      }
+    },
+    "has_the_recipe5": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:dark_lemon_energy_lockseed"
       }
     }
   },
@@ -58,7 +65,8 @@
       "has_the_recipe1",
       "has_the_recipe2",
       "has_the_recipe3",
-      "has_the_recipe4"
+      "has_the_recipe4",
+      "has_the_recipe5"
     ]
   ]
 }
