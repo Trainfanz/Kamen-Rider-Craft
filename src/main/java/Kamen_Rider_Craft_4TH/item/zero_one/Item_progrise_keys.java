@@ -3,6 +3,7 @@ package Kamen_Rider_Craft_4TH.item.zero_one;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.blocks.wood.BlockHelheimVine;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
@@ -20,8 +21,9 @@ public class Item_progrise_keys extends Item implements IHasModel
 
 	public int num;
 	public int num2;
-
-	public static String[] ARMS= new String[] {"hopper","falcon","shark","wolf","cheetah","kong","tiger","cheetah","bear","hornet"};
+	public boolean CanZeroOneUse = false;
+	
+	public static String[] ARMS= new String[] {"hopper","falcon","shark","wolf","cheetah","kong","tiger","cheetah","bear","hornet","scorpion"};
 
 
 
@@ -44,6 +46,12 @@ public class Item_progrise_keys extends Item implements IHasModel
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
 	}
 
+	 public Item AddZeroOneCanUse()
+	    {
+		 CanZeroOneUse=true;
+		 return this;
+	    }
+	 
 	/**
 	 * Called when the equipped item is right clicked.
 	 */
@@ -58,7 +66,7 @@ public class Item_progrise_keys extends Item implements IHasModel
 				
 					
 						if (belt.Rider=="zero_one"){
-							if (num == 0||this==RiderItems.shooting_wolf_progrise_key||this==RiderItems.punching_kong_progrise_key||this==RiderItems.rushing_cheetah_progrise_key){
+							if (num == 0||CanZeroOneUse==true){
 
 								item_zero_onedriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
 								item_zero_onedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "1");			

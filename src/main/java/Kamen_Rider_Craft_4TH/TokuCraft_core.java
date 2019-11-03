@@ -3,7 +3,6 @@ package Kamen_Rider_Craft_4TH;
 import Kamen_Rider_Craft_4TH.biome.riderBiomes;
 import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import Kamen_Rider_Craft_4TH.util.Refercence;
-import Kamen_Rider_Craft_4TH.world.WorldTypeHelheim;
 import Kamen_Rider_Craft_4TH.world.gen.WorldGenCustomStructures;
 import Kamen_Rider_Craft_4TH.world.gen.modDimensionWorldGen;
 import net.minecraft.block.Block;
@@ -39,6 +38,7 @@ public class TokuCraft_core {
 		RiderBlocks.init();
 		RiderItems.init();
 		DimensionManager.registerDimension(modDimensionWorldGen.HELHEIM_DIM_ID, modDimensionWorldGen.HELHEIM_DIM_TYPE);
+		DimensionManager.registerDimension(modDimensionWorldGen.SANDSOFTIME_DIM_ID, modDimensionWorldGen.SANDSOFTIME_DIM_TYPE);
 	}
 
 	@EventHandler
@@ -51,7 +51,7 @@ public class TokuCraft_core {
 
 	@EventHandler
 	public static void postInit(FMLPostInitializationEvent event) {
-		WorldType HELHEIM = new WorldTypeHelheim();
+		
 	}
 
 	@EventHandler

@@ -41,6 +41,7 @@ import Kamen_Rider_Craft_4TH.item.decade.item_decadearmor2;
 import Kamen_Rider_Craft_4TH.item.decade.item_decadedriver;
 import Kamen_Rider_Craft_4TH.item.deno.Itemdenkamen_sword;
 import Kamen_Rider_Craft_4TH.item.deno.Itemrider_ticket;
+import Kamen_Rider_Craft_4TH.item.deno.item_RiderPass;
 import Kamen_Rider_Craft_4TH.item.deno.item_den_oarmor;
 import Kamen_Rider_Craft_4TH.item.deno.item_den_oarmor2;
 import Kamen_Rider_Craft_4TH.item.deno.item_den_odriver;
@@ -182,9 +183,6 @@ public class RiderItems {
 
 	public static Item imaginsand = new Item_ore("imaginsand").setCreativeTab(Tabs.tabden_o);
 	public static Block imaginsandblock = new ore_block("imaginsandblock",Material.ROCK, imaginsand, 2).setHardness(9.9F).setCreativeTab(Tabs.tabden_o);
-
-	public static Item rider_ticket_strike = new Item_ore ("rider_ticket_strike").setCreativeTab(Tabs.tabden_o);
-	public static Block hellimaginsandblock = new ore_block("hellimaginsandblock",Material.ROCK, rider_ticket_strike, 3).setHardness(9.9F).setCreativeTab(Tabs.tabden_o);
 
 	public static Item fuestle = new Item_ore("fuestle").setCreativeTab(Tabs.tabkiva);
 	public static Block fuestleblock = new ore_block("fuestleblock",Material.ROCK, fuestle, 2).setHardness(9.9F).setCreativeTab(Tabs.tabkiva);
@@ -1047,9 +1045,9 @@ public class RiderItems {
 
 	public static Item gden_odriver = new item_den_odriver("gden_odriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
 
-	public static Item den_oriderpass = new Item_ore("den_oriderpass").setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
-	public static Item den_o_master_pass = new Item_ore("den_o_master_pass").setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
-	public static Item gden_oriderpass = new Item_ore("gden_oriderpass").setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
+	public static Item den_oriderpass = new item_RiderPass("den_oriderpass").setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
+	public static Item den_o_master_pass = new item_RiderPass("den_o_master_pass").setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
+	public static Item gden_oriderpass = new item_RiderPass("gden_oriderpass").setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
 
 	public static Item rider_ticket = new Itemrider_ticket(0,0,"rider_ticket").setCreativeTab(Tabs.tabden_o);
 	public static Item rider_ticket_sword = new Itemrider_ticket(1,0,"rider_ticket_sword").setCreativeTab(Tabs.tabden_o);
@@ -1061,6 +1059,8 @@ public class RiderItems {
 	public static Item rider_ticket_yuuki = new Itemrider_ticket(5,0,"rider_ticket_yuuki").setCreativeTab(Tabs.tabden_o);
 	public static Item rider_ticket_g = new Itemrider_ticket(5,0,"rider_ticket_g").setCreativeTab(Tabs.tabden_o);
 	public static Item rider_ticket_gaoh = new Itemrider_ticket(5,0,"rider_ticket_gaoh").setCreativeTab(Tabs.tabden_o);
+	public static Item rider_ticket_strike = new Item_ore ("rider_ticket_strike").setCreativeTab(Tabs.tabden_o);
+
 	public static Item ktaros = new Itemrider_ticket(6,0,"ktaros").setCreativeTab(Tabs.tabden_o);
 
 	public static Item zeronos_plat_card = new Itemrider_ticket(0,1,"zeronos_plat_card").setCreativeTab(Tabs.tabden_o);
@@ -2838,24 +2838,34 @@ public class RiderItems {
 	public static Item zero_onelegs = new item_zero_onearmor2("zero_onelegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 
 	public static Item hiden_zero_one_driver = new item_zero_onedriver("hiden_zero_one_driver",ArmorMaterial.DIAMOND, 4, "zero_one",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	
 	public static Item shot_riser_vulcan = new item_zero_onedriver("shot_riser_vulcan",ArmorMaterial.DIAMOND, 4, "vulcan",3).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item shot_riser_valkyrie = new item_zero_onedriver("shot_riser_valkyrie",ArmorMaterial.DIAMOND, 4, "valkyrie",7).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	
+	public static Item forceriser_jin = new item_zero_onedriver("forceriser_jin",ArmorMaterial.DIAMOND, 4, "jin",1).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item forceriser_horobi = new item_zero_onedriver("forceriser_horobi",ArmorMaterial.DIAMOND, 4, "horobi",10).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	
+	public static Item forceriser_001 = new item_zero_onedriver("forceriser_001",ArmorMaterial.DIAMOND, 4, "zero_zero_one",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+
 	
 	public static Item shot_riser_belt = new Item_ore("shot_riser_belt");
 	
 	public static Item shot_riser_gun = new Item_gun("shot_riser_gun",Tabs.den_dengu).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item rising_hopper_progrise_key = new Item_progrise_keys(0, 0,"rising_hopper_progrise_key").setCreativeTab(Tabs.tabzero_one);
-	public static Item flying_falcon_progrise_key = new Item_progrise_keys(0, 1,"flying_falcon_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item biting_shark_progrise_key = new Item_progrise_keys(0, 2,"biting_shark_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item flaming_tiger_progrise_key = new Item_progrise_keys(0, 6,"flaming_tiger_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item freezing_bear_progrise_key = new Item_progrise_keys(0, 8,"freezing_bear_progrise_key").setCreativeTab(Tabs.tabzero_one);
 
-	public static Item shooting_wolf_progrise_key = new Item_progrise_keys(1, 3,"shooting_wolf_progrise_key").setCreativeTab(Tabs.tabzero_one);
-	public static Item punching_kong_progrise_key = new Item_progrise_keys(1, 5,"punching_kong_progrise_key").setCreativeTab(Tabs.tabzero_one);
-	public static Item rushing_cheetah_progrise_key = new Item_progrise_keys(2, 7,"rushing_cheetah_progrise_key").setCreativeTab(Tabs.tabzero_one);
-	public static Item sting_scorpion_progrise_key = new Item_ore("sting_scorpion_progrise_key").setCreativeTab(Tabs.tabzero_one);
+	public static Item shooting_wolf_progrise_key = new Item_progrise_keys(1, 3,"shooting_wolf_progrise_key").AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
+	public static Item punching_kong_progrise_key = new Item_progrise_keys(1, 5,"punching_kong_progrise_key").AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
+	
+	public static Item rushing_cheetah_progrise_key = new Item_progrise_keys(2, 7,"rushing_cheetah_progrise_key").AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
+	
+	public static Item sting_scorpion_progrise_key = new Item_progrise_keys(3, 10,"sting_scorpion_progrise_key").AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
 
+	public static Item flying_falcon_progrise_key = new Item_progrise_keys(4, 1,"flying_falcon_progrise_key").AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
+	
 	public static Item amazonshead = new item_amazonsarmor("amazonshead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);
 	public static Item amazonstroso = new item_amazonsarmor2("amazonstroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);
 	public static Item amazonslegs = new item_amazonsarmor2("amazonslegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);

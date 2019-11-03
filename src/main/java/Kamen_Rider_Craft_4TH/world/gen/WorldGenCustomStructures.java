@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.biome.biomeHelheim;
+import Kamen_Rider_Craft_4TH.biome.biomeSandOfTime;
 import Kamen_Rider_Craft_4TH.world.gen.generators.WorldGenStructure;
 import com.google.common.collect.Lists;
 import net.minecraft.block.Block;
@@ -40,6 +42,8 @@ public class WorldGenCustomStructures implements IWorldGenerator
 	public static final WorldGenStructure demushu_helheim_city = new WorldGenStructure("demushu_helheim_city");
 	public static final WorldGenStructure redyue_helheim_city = new WorldGenStructure("redyue_helheim_city");
 	
+	public static final WorldGenStructure denliner = new WorldGenStructure("denliner");
+	
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
 		switch(world.provider.getDimension()) {
@@ -60,7 +64,10 @@ public class WorldGenCustomStructures implements IWorldGenerator
 			generateStructure(demushu_helheim_city, world, random, chunkX, chunkZ,7, 700, Blocks.DIRT,biomeHelheim.class);
 			generateStructure(redyue_helheim_city, world, random, chunkX, chunkZ,0, 700, Blocks.DIRT,biomeHelheim.class);
 			
-		}
+		}else if (modDimensionWorldGen.SANDSOFTIME_DIM_ID==world.provider.getDimension()){
+			generateStructure(denliner, world, random, chunkX, chunkZ,0, 200, RiderItems.imaginsandblock,biomeSandOfTime.class);
+			}
+			
 	}
 	
 	
@@ -90,7 +97,7 @@ public class WorldGenCustomStructures implements IWorldGenerator
 		while(!foundGround && y-- >= 0) {
 			Block block = world.getBlockState(new BlockPos(x,y,z)).getBlock();
 			
-			foundGround = block == Blocks.DIRT;
+			foundGround = block == topBlock;
 		}
 
 		return y;

@@ -134,6 +134,8 @@ public class ore_block extends Block implements IHasModel {
 			return CRYSTAL;
 		}
 
+		
+/**
 		if (CRYSTAL == RiderItems.imaginsand){
 			int rand = generator.nextInt(120);
 
@@ -146,28 +148,7 @@ public class ore_block extends Block implements IHasModel {
 			return CRYSTAL;
 
 		}
-
-		if (CRYSTAL == RiderItems.t2gaiamemory){
-			int rand = generator.nextInt(200);
-
-			if (rand < 30) return RiderItems.accel_memory;
-			if (rand < 40) return RiderItems.trial_memory;
-			if (rand < 45) return RiderItems.accel_booster_memory;
-			if (rand < 55) return RiderItems.eternal_memory;
-			if (rand < 60) return RiderItems.eternal_t2_memory;
-			if (rand < 80) return RiderItems.joker_t2_memory;
-			if (rand < 85) return RiderItems.skull_memory;
-			if (rand < 100) return RiderItems.engine_memory;
-			if (rand < 101) return RiderItems.shippu_memory;
-			if (rand < 102) return RiderItems.kirifuda_memory;
-			if (rand < 103) return RiderItems.xtreme_gold_memory;
-			if (rand < 104) return RiderItems.xtreme_accel_memory;
-			if (rand < 107) return RiderItems.cyclonecyclone_memory;
-			if (rand < 110) return RiderItems.jokerjoker_memory;
-			return CRYSTAL;
-		}
-
-		if (CRYSTAL == RiderItems.rider_ticket_strike){
+				if (CRYSTAL == RiderItems.rider_ticket_strike){
 			int rand = generator.nextInt(220);
 
 			if (rand < 70) return RiderItems.imaginsand;
@@ -182,6 +163,9 @@ public class ore_block extends Block implements IHasModel {
 			if (rand < 148) return RiderItems.zeronos_zero_card;
 			return CRYSTAL;
 		}
+**/
+		
+
 
 		if (CRYSTAL == RiderItems.kuuga_growing){
 			int rand = generator.nextInt(100);
@@ -389,107 +373,6 @@ public class ore_block extends Block implements IHasModel {
 			return CRYSTAL;
 		}
 
-		if (CRYSTAL == RiderItems.full_bottle){
-			int rand = generator.nextInt(300);
-
-			if (rand < 20) return RiderItems.rabbit_full_bottle;
-			if (rand < 40) return RiderItems.tank_full_bottle;
-			if (rand < 50) return RiderItems.gorilla_full_bottle;
-			if (rand < 60) return RiderItems.diamond_full_bottle;
-			if (rand < 70) return RiderItems.taka_full_bottle;
-			if (rand < 80) return RiderItems.gatling_full_bottle;
-			if (rand < 85) return RiderItems.ninjya_full_bottle;
-			if (rand < 90) return RiderItems.comic_full_bottle;
-			if (rand < 95) return RiderItems.rocket_full_bottle;
-			if (rand < 100) return RiderItems.panda_full_bottle;
-			if (rand < 110) return RiderItems.harinezumi_full_bottle;
-			if (rand < 115) return RiderItems.shoubousha_full_bottle;
-			if (rand < 120) return RiderItems.lion_full_bottle;
-			if (rand < 130) return RiderItems.soujiki_full_bottle;
-			if (rand < 135) return RiderItems.lock_full_bottle;
-			if (rand < 145) return RiderItems.dragon_full_bottle;
-			if (rand < 150) return RiderItems.ressha_full_bottle;
-			if (rand < 155) return RiderItems.kaizoku_full_bottle;
-			if (rand < 160) return RiderItems.octopus_full_bottle;
-			if (rand < 165) return RiderItems.light_full_bottle;
-			if (rand < 166) return RiderItems.rabbittank_sparkling_full_bottle;
-			if (rand < 167) return RiderItems.hazard_trigger;
-			if (rand < 168) return RiderItems.low_rabbit_full_bottle;
-			if (rand < 169) return RiderItems.fullfull_bottle_rabbit;
-			if (rand < 170) return RiderItems.genius_full_bottle;
-			if (rand < 171) return RiderItems.rabbit_gold_full_bottle;
-			if (rand < 172) return RiderItems.dragon_silver_full_bottle;
-			if (rand < 173) return RiderItems.cross_z_build_can;
-			return CRYSTAL;
-		}
-
-		if (CRYSTAL == RiderItems.sclashjelly){
-			int rand = generator.nextInt(300);
-
-			if (rand < 10) return RiderItems.dragon_sclashjelly;
-			if (rand < 20) return RiderItems.robot_sclashjelly;
-			if (rand < 25) return RiderItems.kuma_full_bottle;
-			if (rand < 30) return RiderItems.televi_full_bottle;
-			if (rand < 35) return RiderItems.wolf_full_bottle;
-			if (rand < 40) return RiderItems.smartphone_full_bottle;
-			if (rand < 45) return RiderItems.phoenix_full_bottle;
-			if (rand < 50) return RiderItems.robo_full_bottle;
-			if (rand < 55) return RiderItems.cake_full_bottle;
-			if (rand < 60) return RiderItems.santa_full_bottle;
-			if (rand < 75) return RiderItems.dog_full_bottle;
-			if (rand < 80) return RiderItems.mic_full_bottle;
-			if (rand < 85) return RiderItems.beetle_full_bottle;
-			if (rand < 90) return RiderItems.camera_full_bottle;
-			if (rand < 100) return RiderItems.bat_full_bottle;
-			if (rand < 110) return RiderItems.cobra_full_bottle;
-			if (rand < 113) return RiderItems.castle_full_bottle;
-			if (rand < 116) return RiderItems.kuwagata_full_bottle;
-			if (rand < 119) return RiderItems.fukurou_full_bottle;
-			if (rand < 124) return RiderItems.helicopter_full_bottle;
-			if (rand < 129) return RiderItems.rose_full_bottle;
-			if (rand < 134) return RiderItems.turtle_full_bottle;
-			if (rand < 139) return RiderItems.watch_full_bottle;
-			if (rand < 144) return RiderItems.unicorn_full_bottle;
-			if (rand < 149) return RiderItems.eraser_full_bottle;
-			if (rand < 154) return RiderItems.spider_full_bottle;
-			if (rand < 159) return RiderItems.fridge_full_bottle;
-			if (rand < 160) return RiderItems.north_blizzard_full_bottle;
-			return CRYSTAL;
-		}
-
-		if (CRYSTAL == RiderItems.unfinished_gear){
-			int rand = generator.nextInt(300);
-
-			if (rand < 10) return RiderItems.crocodile_crack_full_bottle;
-			if (rand < 15) return RiderItems.tora_full_bottle;
-			if (rand < 20) return RiderItems.ufo_full_bottle;
-			if (rand < 25) return RiderItems.kujira_full_bottle;
-			if (rand < 30) return RiderItems.jet_full_bottle;
-			if (rand < 35) return RiderItems.kirin_full_bottle;
-			if (rand < 40) return RiderItems.cyclone_full_bottle;
-			if (rand < 43) return RiderItems.gear_engine;
-			if (rand < 46) return RiderItems.gear_remocon;
-			if (rand < 47) return RiderItems.gear_red;
-			if (rand < 48) return RiderItems.gear_blue;
-			if (rand < 49) return RiderItems.dragon_evol_bottle_gold;
-			if (rand < 54) return RiderItems.bat_full_bottle_2;
-			if (rand < 59) return RiderItems.engine_full_bottle;
-			if (rand < 64) return RiderItems.obake_full_bottle;
-			if (rand < 70) return RiderItems.same_full_bottle;
-			if (rand < 74) return RiderItems.bike_full_bottle;
-			if (rand < 79) return RiderItems.magnet_full_bottle;
-			if (rand < 84) return RiderItems.hachi_full_bottle;
-			if (rand < 89) return RiderItems.submarine_full_bottle;
-			if (rand < 94) return RiderItems.penguin_full_bottle;
-			if (rand < 99) return RiderItems.skateboard_full_bottle;
-			if (rand < 104) return RiderItems.deer_full_bottle;
-			if (rand < 109) return RiderItems.pyramid_full_bottle;
-			if (rand < 114) return RiderItems.sai_full_bottle;
-			if (rand < 119) return RiderItems.dryer_full_bottle;
-			if (rand < 120) return RiderItems.prime_rogue_full_bottle;
-			if (rand < 121) return RiderItems.muscle_galaxy_full_bottle;
-			return CRYSTAL;
-		}
 
 		if (CRYSTAL == RiderItems.wizardgem){
 			int rand = generator.nextInt(200);
@@ -528,66 +411,6 @@ public class ore_block extends Block implements IHasModel {
 			return CRYSTAL;
 		}
 
-		if (CRYSTAL == RiderItems.himawari_lockseed){
-			int rand = generator.nextInt(200);
-
-			if (rand < 10) return RiderItems.matsubokkuri_lockseed;
-			if (rand < 20) return RiderItems.kurumi_lockseed;
-			if (rand < 30) return RiderItems.donguri_lockseed;
-			if (rand < 40) return RiderItems.melon_lockseed;
-			if (rand < 45) return RiderItems.ichigo_lockseed;
-			if (rand < 50) return RiderItems.pine_lockseed;
-			if (rand < 55) return RiderItems.orange_lockseed;
-			if (rand < 60) return RiderItems.banana_lockseed;
-			if (rand < 65) return RiderItems.budou_lockseed;
-			if (rand < 67) return RiderItems.mango_lockseed;
-			if (rand < 70) return RiderItems.durian_lockseed;
-			if (rand < 72) return RiderItems.kiwi_lockseed;
-			if (rand < 74) return RiderItems.lemon_lockseed;
-			if (rand < 76) return RiderItems.watermelon_lockseed;
-			if (rand < 78) return RiderItems.forbidden_ringo_lockseed;
-			if (rand < 79) return RiderItems.sakura_hurricane;
-			if (rand < 80) return RiderItems.rose_attacker;
-			if (rand < 81) return RiderItems.suika_lockseed;
-			if (rand < 82) return RiderItems.kachidoki_lockseed;
-			if (rand < 83) return RiderItems.kiwami_lockseed;
-			if (rand < 84) return RiderItems.fresh_orange_lockseed;
-			if (rand < 85) return RiderItems.fresh_pine_lockseed;
-			if (rand < 86) return RiderItems.fake_donguri_lockseed;
-			return CRYSTAL;
-		}
-
-		if (CRYSTAL == RiderItems.himawari_energy_lockseed){
-			int rand = generator.nextInt(200);
-
-			if (rand < 10) return RiderItems.lemon_energy_lockseed;
-			if (rand < 20) return RiderItems.cherry_energy_lockseed;
-			if (rand < 30) return RiderItems.peach_energy_lockseed;
-			if (rand < 40) return RiderItems.melon_energy_lockseed;
-			if (rand < 45) return RiderItems.matsubokkuri_energy_lockseed;
-			if (rand < 50) return RiderItems.marron_energy_lockseed;
-			if (rand < 55) return RiderItems.fifteen_lockseed;
-			if (rand < 60) return RiderItems.blood_orange_lockseed;
-			if (rand < 65) return RiderItems.silver_ringo_lockseed;
-			if (rand < 67) return RiderItems.golden_ringo_lockseed;
-			if (rand < 68) return RiderItems.dandeliner;
-			if (rand < 69) return RiderItems.tulip_hopper;
-			if (rand < 70) return RiderItems.black_ringo_lockseed;
-			if (rand < 72) return RiderItems.dragon_fruits_energy_lockseed;
-			if (rand < 74) return RiderItems.sid_lockseed;
-			if (rand < 76) return RiderItems.zakuro_lockseed;
-			if (rand < 77) return RiderItems.black_baron_lockseed;
-			if (rand < 78) return RiderItems.dark_lemon_energy_lockseed;
-			if (rand < 80) return RiderItems.dark_orange_lockseed;
-			if (rand < 81) return RiderItems.natsumikan_lockseed;
-			if (rand < 82) return RiderItems.maja_lockseed;
-			if (rand < 84) return RiderItems.kabi_orange_lockseed;
-			if (rand < 85) return RiderItems.yomotsu_heguri_lockseed;
-			if (rand < 86) return RiderItems.christmas_lockseed;
-			if (rand < 87) return RiderItems.roulette_lockseed;
-			if (rand < 88) return RiderItems.xiaolongbao_lockseed;
-			return CRYSTAL;
-		}
 
 		if (CRYSTAL == RiderItems.ghost_icons) {
 			int rand = generator.nextInt(300);
@@ -649,65 +472,6 @@ public class ore_block extends Block implements IHasModel {
 			return CRYSTAL;
 		}
 
-		if (CRYSTAL==RiderItems.blank_gashat){
-			int rand = generator.nextInt(300);
-
-			if (rand < 30) return RiderItems.mighty_action_x_gashat;
-			if (rand < 40) return RiderItems.taddle_quest_gashat;
-			if (rand < 50) return RiderItems.bang_bang_shooting_gashat;
-			if (rand < 60) return RiderItems.bakusou_bike_gashat;
-			if (rand < 67) return RiderItems.gekitotsu_robots_gashat;
-			if (rand < 74) return RiderItems.doremifa_beat_gashat;
-			if (rand < 81) return RiderItems.jet_combat_gashat;
-			if (rand < 88) return RiderItems.giri_giri_chambara_gashat;
-			if (rand < 95) return RiderItems.shakariki_sports_gashat;
-			if (rand < 100) return RiderItems.proto_mighty_action_x_gashat;
-			if (rand < 105) return RiderItems.proto_taddle_quest_gashat;
-			if (rand < 110) return RiderItems.proto_bang_bang_shooting_gashat;
-			if (rand < 115) return RiderItems.proto_bakusou_bike_gashat;
-			if (rand < 119) return RiderItems.proto_gekitotsu_robots_gashat;
-			if (rand < 123) return RiderItems.proto_doremifa_beat_gashat;
-			if (rand < 127) return RiderItems.proto_jet_combat_gashat;
-			if (rand < 131) return RiderItems.proto_giri_giri_chambara_gashat;
-			if (rand < 135) return RiderItems.proto_shakariki_sports_gashat;
-			if (rand < 137) return RiderItems.mighty_brothers_xx_gashat;
-			if (rand < 140) return RiderItems.proto_bakusou_bike_combi_fukkatsu_gashat;
-			if (rand < 142) return RiderItems.proto_mighty_action_x_gashat_origin;
-			if (rand < 146) return RiderItems.ju_ju_burger_gashat;
-			if (rand < 150) return RiderItems.night_of_safari_gashat;
-			if (rand < 154) return RiderItems.drago_knight_hunter_z_gashat;
-			if (rand < 156) return RiderItems.proto_drago_knight_hunter_z_gashat;
-			if (rand < 158) return RiderItems.mighty_creator_vrx_gashat;
-			if (rand < 159) return RiderItems.maximum_mighty_x_gashat;
-			if (rand < 160) return RiderItems.hyper_muteki_gashat;
-			return CRYSTAL;
-		}
-
-		if (CRYSTAL==RiderItems.unfinished_kamen_rider_chronicle_gashat){
-			int rand = generator.nextInt(260);
-
-			if (rand < 20) return RiderItems.dangerous_zombie_gashat;
-			if (rand < 30) return RiderItems.toki_meki_crisis_gashat;
-			if (rand < 40) return RiderItems.kamen_rider_chronicle_gashat;
-			if (rand < 42) return RiderItems.doctor_mighty_xx_gashat;
-			if (rand < 47) return RiderItems.xevious_gashat;
-			if (rand < 52) return RiderItems.pac_adventure_gashat;
-			if (rand < 57) return RiderItems.famitsa_gashat;
-			if (rand < 62) return RiderItems.galaxian_gashat;
-			if (rand < 67) return RiderItems.taiko_no_tatsujin_gashat;
-			if (rand < 87) return RiderItems.knock_out_fighter_gashat;
-			if (rand < 97) return RiderItems.perfect_puzzle_gashat;
-			if (rand < 100) return RiderItems.gabarizing_gashat;
-			if (rand < 101) return RiderItems.bang_bang_tank_gashat;
-			if (rand < 103) return RiderItems.taddle_legacy_gashat;
-			if (rand < 108) return RiderItems.taddle_fantasy_gashat;
-			if (rand < 113) return RiderItems.bang_bang_simulation_gashat;
-			if (rand < 118) return RiderItems.hurricane_ninja_gashat;
-			if (rand < 119) return RiderItems.god_maximum_mighty_x_gashat;
-			if (rand < 121) return RiderItems.gashat_gear_dual_another;
-			if (rand < 122) return RiderItems.gamedeus_hyper_muteki_gashat;
-			return CRYSTAL;
-		}
 
 		if (CRYSTAL == RiderItems.cellmedal){
 			int rand = generator.nextInt(180);

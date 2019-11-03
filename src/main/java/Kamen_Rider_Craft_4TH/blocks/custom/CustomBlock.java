@@ -40,10 +40,23 @@ public class CustomBlock extends Block implements IHasModel {
     // TRANSPARENT
 
     @SideOnly(Side.CLIENT)
-    public BlockRenderLayer getBlockLayer() {
-        return isTransparent ? BlockRenderLayer.TRANSLUCENT : BlockRenderLayer.SOLID;
+	@Override
+	public BlockRenderLayer getRenderLayer()
+	{  return isTransparent ? BlockRenderLayer.TRANSLUCENT : BlockRenderLayer.SOLID;
     }
 
+	  /**
+     * @deprecated call via {@link IBlockState#shouldSideBeRendered(IBlockAccess,BlockPos,EnumFacing)} whenever
+     * possible. Implementing/overriding is fine.
+     */
+    @SideOnly(Side.CLIENT)
+    @Override
+    public boolean shouldSideBeRendered(IBlockState blockState, IBlockAccess blockAccess, BlockPos pos, EnumFacing side)
+    {
+        return true;
+    }
+    
+    
     public boolean isOpaqueCube(IBlockState state)
     {
         return isTransparent;

@@ -126,6 +126,7 @@ public class item_zi_oarmor extends ItemArmor implements IHasModel
 	}
 
 
+	
 
 	/**
 	 * Returns the 'max damage' factor array for the armor, each piece of armor have a durability factor (that gets

@@ -137,19 +137,7 @@ public class oreworldgen implements IWorldGenerator
 			new WorldGenMinable(RiderItems.hellwizardgemblock.getDefaultState(), 9, BlockMatcher.forBlock(Blocks.NETHERRACK)).generate(world, rand,position);
 			
 		}
-		for (int i = 0; i < 2; i++)
-		{
-			//16x16 area up to y = 64
-					int randPosX = chunkX + rand.nextInt(16);
-			int randPosY = rand.nextInt(128);
-			int randPosZ = chunkZ + rand.nextInt(16);
-			// 10 blocks per vein
-			BlockPos position = new BlockPos(randPosX, randPosY, randPosZ);
-			//(new WorldGenMinable(RiderItems.hellrock_lockseedblock.getDefaultState(), 1)).generate(world, rand,position);
-
-			new WorldGenMinable(RiderItems.hellimaginsandblock.getDefaultState(), 9, BlockMatcher.forBlock(Blocks.NETHERRACK)).generate(world, rand,position);
-			
-		}
+		
 		for (int i = 0; i < 2; i++)
 		{
 			//16x16 area up to y = 64
@@ -357,15 +345,6 @@ public class oreworldgen implements IWorldGenerator
 			// 10 blocks per vein
 			BlockPos position = new BlockPos(randPosX, randPosY, randPosZ);
 			(new WorldGenMinable(RiderItems.gaiamemoryblock.getDefaultState(), 10)).generate(world, rand,position);
-		}for (int i = 0; i < 4; i++)
-		{
-			//16x16 area up to y = 64
-			int randPosX = chunkX + rand.nextInt(16);
-			int randPosY = rand.nextInt(60);
-			int randPosZ = chunkZ + rand.nextInt(16);
-			// 10 blocks per vein
-			BlockPos position = new BlockPos(randPosX, randPosY, randPosZ);
-			(new WorldGenMinable(RiderItems.imaginsandblock.getDefaultState(), 10)).generate(world, rand,position);
 		}for (int i = 0; i < 4; i++)
 		{
 			//16x16 area up to y = 64
