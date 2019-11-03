@@ -5,6 +5,7 @@ import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.blocks.GameCreatorBlock;
 import Kamen_Rider_Craft_4TH.blocks.gaia_memory_refiner_block;
+import Kamen_Rider_Craft_4TH.blocks.ganbarizing_block;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
@@ -85,6 +86,16 @@ public class Item_gashat extends Item implements IHasModel
 		}
         return this;
     }
+    
+    public Item AddLegendGashatToBlockList(int num)
+    {
+    	for (int i1 = 0; i1 < num; ++i1)
+		{
+    		ganbarizing_block.gashatLegend.add(this);
+		}
+        return this;
+    }
+    
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");

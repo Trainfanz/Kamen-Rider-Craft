@@ -278,6 +278,7 @@ public class RiderItems {
 
 	public static Block gaia_memory_refiner = new gaia_memory_refiner_block("gaia_memory_refiner",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabW);
 	public static Block gamecreator = new GameCreatorBlock("gamecreator",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabex_aid);
+	public static Block ganbarizing = new ganbarizing_block("ganbarizing",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabex_aid);
 	public static Block pandorabox = new pandora_box_block("pandorabox",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
 	public static Block purifyer = new purifyer_block("purifyer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
 	public static Block solidifyer = new solidifyer_block("solidifyer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
@@ -2266,25 +2267,25 @@ public class RiderItems {
 
 	public static Item gamedeus_hyper_muteki_gashat = new Item_gashat(4, 0,"gamedeus_hyper_muteki_gashat").AddHyperGashatToBlockList(1).setCreativeTab(Tabs.tabex_aid);
 
-	public static Item kamen_rider_build_gashat = new Item_gashat(4, 0,"kamen_rider_build_gashat").setCreativeTab(Tabs.tabex_aid);
-	public static Item kaigan_ghost_gashat = new Item_gashat(0, 0,"kaigan_ghost_gashat").setCreativeTab(Tabs.tabex_aid);
-	public static Item full_throttle_drive_gashat = new Item_gashat(0, 0,"full_throttle_drive_gashat").setCreativeTab(Tabs.tabex_aid);
-	public static Item toukenden_gaim_gashat = new Item_gashat(0, 0,"toukenden_gaim_gashat").setCreativeTab(Tabs.tabex_aid);
-	public static Item magic_the_wizard_gashat = new Item_gashat(0, 0,"magic_the_wizard_gashat").setCreativeTab(Tabs.tabex_aid);
-	public static Item space_galaxy_fourze_gashat = new Item_gashat(0, 0,"space_galaxy_fourze_gashat").setCreativeTab(Tabs.tabex_aid);
-	public static Item jungle_ooo_gashat = new Item_gashat(0, 0,"jungle_ooo_gashat").setCreativeTab(Tabs.tabex_aid);
-	public static Item detective_double_gashat = new Item_gashat(0, 0,"detective_double_gashat").setCreativeTab(Tabs.tabex_aid);
-	public static Item barcode_warrior_decade_gashat = new Item_gashat(0, 0,"barcode_warrior_decade_gashat").setCreativeTab(Tabs.tabex_aid);
-	public static Item dokidoki_makai_castle_kiva_gashat = new Item_gashat(0, 0,"dokidoki_makai_castle_kiva_gashat").setCreativeTab(Tabs.tabex_aid);
-	public static Item time_express_den_o_gashat = new Item_gashat(0, 0,"time_express_den_o_gashat").setCreativeTab(Tabs.tabex_aid);
-	public static Item insect_wars_kabuto_gashat = new Item_gashat(0, 0,"insect_wars_kabuto_gashat").setCreativeTab(Tabs.tabex_aid);
-	public static Item taiko_master_hibik_gashat = new Item_gashat(0, 0,"taiko_master_hibik_gashat").setCreativeTab(Tabs.tabex_aid);
-	public static Item king_of_poker_blade_gashat = new Item_gashat(0, 0,"king_of_poker_blade_gashat").setCreativeTab(Tabs.tabex_aid);
-	public static Item moshi_moshi_faiz_gashat = new Item_gashat(0, 0,"moshi_moshi_faiz_gashat").setCreativeTab(Tabs.tabex_aid);
-	public static Item mirror_labryinth_ryuki_gashat = new Item_gashat(0, 0,"mirror_labryinth_ryuki_gashat").setCreativeTab(Tabs.tabex_aid);
-	public static Item agito_of_the_sun_gashat = new Item_gashat(0, 0,"agito_of_the_sun_gashat").setCreativeTab(Tabs.tabex_aid);
-	public static Item adventure_guy_kuuga_gashat = new Item_gashat(0, 0,"adventure_guy_kuuga_gashat").setCreativeTab(Tabs.tabex_aid);
-	public static Item lets_go_ichigou_gashat = new Item_gashat(0, 0,"lets_go_ichigou_gashat").setCreativeTab(Tabs.tabex_aid);
+	public static Item kamen_rider_build_gashat = new Item_gashat(4, 0,"kamen_rider_build_gashat").AddLegendGashatToBlockList(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item kaigan_ghost_gashat = new Item_gashat(0, 0,"kaigan_ghost_gashat").AddLegendGashatToBlockList(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item full_throttle_drive_gashat = new Item_gashat(0, 0,"full_throttle_drive_gashat").AddLegendGashatToBlockList(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item toukenden_gaim_gashat = new Item_gashat(0, 0,"toukenden_gaim_gashat").AddLegendGashatToBlockList(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item magic_the_wizard_gashat = new Item_gashat(0, 0,"magic_the_wizard_gashat").AddLegendGashatToBlockList(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item space_galaxy_fourze_gashat = new Item_gashat(0, 0,"space_galaxy_fourze_gashat").AddLegendGashatToBlockList(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item jungle_ooo_gashat = new Item_gashat(0, 0,"jungle_ooo_gashat").AddLegendGashatToBlockList(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item detective_double_gashat = new Item_gashat(0, 0,"detective_double_gashat").AddLegendGashatToBlockList(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item barcode_warrior_decade_gashat = new Item_gashat(0, 0,"barcode_warrior_decade_gashat").AddLegendGashatToBlockList(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item dokidoki_makai_castle_kiva_gashat = new Item_gashat(0, 0,"dokidoki_makai_castle_kiva_gashat").AddLegendGashatToBlockList(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item time_express_den_o_gashat = new Item_gashat(0, 0,"time_express_den_o_gashat").AddLegendGashatToBlockList(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item insect_wars_kabuto_gashat = new Item_gashat(0, 0,"insect_wars_kabuto_gashat").AddLegendGashatToBlockList(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item taiko_master_hibik_gashat = new Item_gashat(0, 0,"taiko_master_hibik_gashat").AddLegendGashatToBlockList(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item king_of_poker_blade_gashat = new Item_gashat(0, 0,"king_of_poker_blade_gashat").AddLegendGashatToBlockList(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item moshi_moshi_faiz_gashat = new Item_gashat(0, 0,"moshi_moshi_faiz_gashat").AddLegendGashatToBlockList(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item mirror_labryinth_ryuki_gashat = new Item_gashat(0, 0,"mirror_labryinth_ryuki_gashat").AddLegendGashatToBlockList(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item agito_of_the_sun_gashat = new Item_gashat(0, 0,"agito_of_the_sun_gashat").AddLegendGashatToBlockList(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item adventure_guy_kuuga_gashat = new Item_gashat(0, 0,"adventure_guy_kuuga_gashat").AddLegendGashatToBlockList(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item lets_go_ichigou_gashat = new Item_gashat(0, 0,"lets_go_ichigou_gashat").AddLegendGashatToBlockList(1).setCreativeTab(Tabs.tabex_aid);
 
 	public static Item gekitotsu_robots_gashat = new Item_gashat(1, 1,"gekitotsu_robots_gashat").AddGashatToBlockList(10).setCreativeTab(Tabs.tabex_aid);
 	public static Item proto_gekitotsu_robots_gashat = new Item_gashat(1, 2,"proto_gekitotsu_robots_gashat").setCreativeTab(Tabs.tabex_aid);
