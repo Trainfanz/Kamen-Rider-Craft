@@ -2718,7 +2718,7 @@ public class RiderItems {
 	public static Item another_exaid_driver = new item_zikudriver("another_exaid_driver",ArmorMaterial.DIAMOND, 4, "another_ex_aid",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item another_fourze_driver = new item_zikudriver("another_fourze_driver",ArmorMaterial.DIAMOND, 4, "another_fourze",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item another_faiz_driver = new item_zikudriver("another_faiz_driver",ArmorMaterial.DIAMOND, 4, "another_faiz",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
-
+	public static Item another_wizard_driver = new item_zikudriver("another_wizard_driver",ArmorMaterial.DIAMOND, 4, "another_wizard",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	
 	public static Item zikan_grade = new Item_sword_gun("zikan_grade",Tabs.musou_saber).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item zikan_zax = new Item_sword_gun("zikan_zax",Tabs.musou_saber).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
