@@ -23,7 +23,7 @@ public class Item_progrise_keys extends Item implements IHasModel
 	public int num2;
 	public boolean CanZeroOneUse = false;
 	
-	public static String[] ARMS= new String[] {"hopper","falcon","shark","wolf","cheetah","kong","tiger","cheetah","bear","hornet","scorpion"};
+	public static String[] ARMS= new String[] {"hopper","falcon","shark","wolf","cheetah","kong","tiger","cheetah","bear","hornet","scorpion","giraffe"};
 
 
 
