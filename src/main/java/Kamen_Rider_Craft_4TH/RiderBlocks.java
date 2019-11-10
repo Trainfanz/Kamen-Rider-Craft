@@ -24,6 +24,8 @@ public class RiderBlocks {
 	public static Block denliner_interior_windo = CustomBlock.builder().property(Property.TRANSPARENT).material(Material.ROCK).blockType(BlockType.DIRECTIONAL).name("denliner_interior_windo").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block denliner_side_with_line = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("denliner_side_with_line").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block denliner_side_with_start_line = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.DIRECTIONAL).name("denliner_side_with_start_line").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block denliner_side_with_line_ikazuchi = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("denliner_side_with_line_ikazuchi").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block denliner_side_with_line_rekkou = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("denliner_side_with_line_rekkou").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block denliner_roof = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("denliner_roof").setCreativeTabe(Tabs.tabdecor).build();
 	
 	public static Block denliner_logo_top = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("denliner_logo_top").setCreativeTabe(Tabs.tabdecor).build();
@@ -34,7 +36,11 @@ public class RiderBlocks {
 	public static Block denliner_glass = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("denliner_glass").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block denliner_glass2 = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("denliner_glass2").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block denliner_glass3 = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("denliner_glass3").setCreativeTabe(Tabs.tabdecor).build();
-
+	public static Block denliner_glass_ikazuchi = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("denliner_glass_ikazuchi").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block denliner_glass_rekkou = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("denliner_glass_rekkou").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block nega_denliner_glass = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("nega_denliner_glass").setCreativeTabe(Tabs.tabdecor).build();
+	
+	public static Block denliner_gold = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("denliner_gold").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block denliner_matel = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("denliner_matel").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block denliner_matel_top = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("denliner_matel_top").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block denliner_matel_top2 = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("denliner_matel_top2").setCreativeTabe(Tabs.tabdecor).build();
