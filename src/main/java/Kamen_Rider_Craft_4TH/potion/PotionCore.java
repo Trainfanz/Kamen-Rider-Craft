@@ -24,9 +24,7 @@ public class PotionCore {
 	}
 		
 	public static void init(FMLInitializationEvent event) {
-		if (Potion.getPotionFromResourceLocation("tokuPotions"+ ":" + "fly")!=null){
-		ForgeRegistries.POTIONS.register(FLY_POTION);
-		}
+		ForgeRegistries.POTIONS.register(FLY);
 		ForgeRegistries.POTIONS.register(FIRE_PUNCH_POTION);
 		ForgeRegistries.POTIONS.register(PUNCH_BOOST_POTION);
 		ForgeRegistries.POTIONS.register(BIG_POTION);
