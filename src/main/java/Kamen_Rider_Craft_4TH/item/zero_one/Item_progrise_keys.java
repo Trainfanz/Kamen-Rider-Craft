@@ -23,7 +23,7 @@ public class Item_progrise_keys extends Item implements IHasModel
 	public int num2;
 	public boolean CanZeroOneUse = false;
 	
-	public static String[] ARMS= new String[] {"hopper","falcon","shark","wolf","cheetah","kong","tiger","cheetah","bear","hornet","scorpion","giraffe"};
+	public static String[] ARMS= new String[] {"hopper","falcon","shark","wolf","cheetah","kong","tiger","cheetah","bear","hornet","scorpion","giraffe","hercules","hedgehog"};
 
 
 
@@ -76,9 +76,15 @@ public class Item_progrise_keys extends Item implements IHasModel
 						if (num == 1){
 								item_zero_onedriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
 								item_zero_onedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "1");			
-									
+						}	
 								
-					}
+					}else if (belt.Rider=="valkyrie"){
+						if (num == 2){
+							item_zero_onedriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
+							item_zero_onedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "1");			
+								
+							
+				}
 				
 				}
 			}

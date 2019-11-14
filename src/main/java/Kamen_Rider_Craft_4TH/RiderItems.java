@@ -2858,11 +2858,14 @@ public class RiderItems {
 	public static Item flaming_tiger_progrise_key = new Item_progrise_keys(0, 6,"flaming_tiger_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item freezing_bear_progrise_key = new Item_progrise_keys(0, 8,"freezing_bear_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item sparking_giraffe_progrise_key = new Item_progrise_keys(0, 11,"sparking_giraffe_progrise_key").setCreativeTab(Tabs.tabzero_one);
+	public static Item amazing_hercules_progrise_key = new Item_progrise_keys(0, 12,"amazing_hercules_progrise_key").setCreativeTab(Tabs.tabzero_one);
+	public static Item gatling_hedgehog_progrise_key = new Item_progrise_keys(0, 13,"gatling_hedgehog_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item shooting_wolf_progrise_key = new Item_progrise_keys(1, 3,"shooting_wolf_progrise_key").AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
 	public static Item punching_kong_progrise_key = new Item_progrise_keys(1, 5,"punching_kong_progrise_key").AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item rushing_cheetah_progrise_key = new Item_progrise_keys(2, 7,"rushing_cheetah_progrise_key").AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
+	public static Item lightning_hornet_progrise_key = new Item_progrise_keys(2, 9,"lightning_hornet_progrise_key").AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item sting_scorpion_progrise_key = new Item_progrise_keys(3, 10,"sting_scorpion_progrise_key").AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
 
