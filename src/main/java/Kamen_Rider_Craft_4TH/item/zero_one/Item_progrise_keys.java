@@ -22,8 +22,11 @@ public class Item_progrise_keys extends Item implements IHasModel
 	public int num;
 	public int num2;
 	public boolean CanZeroOneUse = false;
+	public boolean CanVulcanUse = false;
 	
-	public static String[] ARMS= new String[] {"hopper","falcon","shark","wolf","cheetah","kong","tiger","cheetah","bear","hornet","scorpion","giraffe","hercules","hedgehog"};
+	public static String[] ARMS= new String[] {"base","falcon","shark","wolf","cheetah",
+			"kong","tiger","cheetah","bear","hornet","scorpion","giraffe","hercules",
+			"hedgehog","kangaroo","buffalo","stag","spider","penguin","hopper"};
 
 
 
@@ -52,6 +55,12 @@ public class Item_progrise_keys extends Item implements IHasModel
 		 return this;
 	    }
 	 
+	 public Item AddVulcanCanUse()
+	    {
+		 CanVulcanUse=true;
+		 return this;
+	    }
+	 
 	/**
 	 * Called when the equipped item is right clicked.
 	 */
@@ -73,7 +82,7 @@ public class Item_progrise_keys extends Item implements IHasModel
 									
 						}		
 					}else if (belt.Rider=="vulcan"){
-						if (num == 1){
+						if (num == 1||CanVulcanUse){
 								item_zero_onedriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
 								item_zero_onedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "1");			
 						}	

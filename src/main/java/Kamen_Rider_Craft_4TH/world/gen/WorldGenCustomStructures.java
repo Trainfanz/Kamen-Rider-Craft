@@ -43,6 +43,11 @@ public class WorldGenCustomStructures implements IWorldGenerator
 	public static final WorldGenStructure redyue_helheim_city = new WorldGenStructure("redyue_helheim_city");
 	
 	public static final WorldGenStructure denliner = new WorldGenStructure("denliner");
+	public static final WorldGenStructure denliner_ikazuchi = new WorldGenStructure("denliner_ikazuchi");
+	public static final WorldGenStructure denliner_isurugi = new WorldGenStructure("denliner_isurugi");
+	public static final WorldGenStructure denliner_rekkou = new WorldGenStructure("denliner_rekkou");
+	public static final WorldGenStructure newdenliner = new WorldGenStructure("newdenliner");
+	public static final WorldGenStructure nega_denliner = new WorldGenStructure("nega_denliner");
 	
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
@@ -66,6 +71,13 @@ public class WorldGenCustomStructures implements IWorldGenerator
 			
 		}else if (modDimensionWorldGen.SANDSOFTIME_DIM_ID==world.provider.getDimension()){
 			generateStructure(denliner, world, random, chunkX, chunkZ,0, 200, RiderItems.imaginsandblock,biomeSandOfTime.class);
+			
+			generateStructure(denliner_ikazuchi, world, random, chunkX, chunkZ,0, 800, RiderItems.imaginsandblock,biomeSandOfTime.class);
+			generateStructure(denliner_isurugi, world, random, chunkX, chunkZ,0, 800, RiderItems.imaginsandblock,biomeSandOfTime.class);
+			generateStructure(denliner_rekkou, world, random, chunkX, chunkZ,0, 800, RiderItems.imaginsandblock,biomeSandOfTime.class);
+
+			generateStructure(newdenliner, world, random, chunkX, chunkZ,0, 2000, RiderItems.imaginsandblock,biomeSandOfTime.class);
+			generateStructure(nega_denliner, world, random, chunkX, chunkZ,0, 2000, RiderItems.imaginsandblock,biomeSandOfTime.class);
 			}
 			
 	}
