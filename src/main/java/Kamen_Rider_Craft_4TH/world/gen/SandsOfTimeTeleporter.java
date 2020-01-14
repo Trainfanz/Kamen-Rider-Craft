@@ -55,9 +55,9 @@ public class SandsOfTimeTeleporter implements ITeleporter {
                     {
                         blockpos2 = blockpos1.down();
 
-                        if (world.getBlockState(blockpos1).getBlock() == Blocks.OAK_DOOR)
+                        if (world.getBlockState(blockpos1).getBlock() == RiderItems.imaginsandblock)
                         {
-                            for (blockpos2 = blockpos1.down();world.getBlockState(blockpos2).getBlock() == Blocks.OAK_DOOR; blockpos2 = blockpos2.down())
+                            for (blockpos2 = blockpos1.down();world.getBlockState(blockpos2).getBlock() == RiderItems.imaginsandblock; blockpos2 = blockpos2.down())
                             {
                                 blockpos1 = blockpos2;
                             }
@@ -113,7 +113,7 @@ public class SandsOfTimeTeleporter implements ITeleporter {
     public boolean makePortal(Entity entityIn, World world)
     {
     	int Y = calculateGenerationHeight(world,entityIn.posX, entityIn.posZ);
-    	 world.setBlockState(new BlockPos(entityIn.posX,Y+1, entityIn.posZ), Blocks.OAK_DOOR.getDefaultState());
+    	 world.setBlockState(new BlockPos(entityIn.posX,Y+1, entityIn.posZ), RiderItems.imaginsandblock.getDefaultState());
 		return true;
         }
 
