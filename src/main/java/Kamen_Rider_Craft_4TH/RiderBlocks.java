@@ -58,6 +58,14 @@ public class RiderBlocks {
 	public static Block new_denliner_matel_top2 = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("new_denliner_matel_top2").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block new_denliner_matel_side = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("new_denliner_matel_side").setCreativeTabe(Tabs.tabdecor).build();
 	
+	public static Block king_liner_red = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("king_liner_red").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block king_liner_logo_top = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("king_liner_logo_top").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block king_liner_logo_bottom = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("king_liner_logo_bottom").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block king_liner_logo_side = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("king_liner_logo_side").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block king_liner_logo_sider = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("king_liner_logo_sider").setCreativeTabe(Tabs.tabdecor).build();
+
+	public static Block king_liner__windo = CustomBlock.builder().property(Property.TRANSPARENT).material(Material.ROCK).blockType(BlockType.DIRECTIONAL).name("king_liner__windo").setCreativeTabe(Tabs.tabdecor).build();
+	
 	
 public static void init() {
 	
