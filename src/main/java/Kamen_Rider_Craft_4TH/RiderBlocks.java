@@ -66,6 +66,9 @@ public class RiderBlocks {
 
 	public static Block king_liner__windo = CustomBlock.builder().property(Property.TRANSPARENT).material(Material.ROCK).blockType(BlockType.DIRECTIONAL).name("king_liner__windo").setCreativeTabe(Tabs.tabdecor).build();
 	
+	public static Block gaoh_liner_gold = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("gaoh_liner_gold").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block gaoh_liner_green = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("gaoh_liner_green").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block gaoh_liner_windo = CustomBlock.builder().property(Property.TRANSPARENT).material(Material.ROCK).blockType(BlockType.DIRECTIONAL).name("gaoh_liner_windo").setCreativeTabe(Tabs.tabdecor).build();
 	
 public static void init() {
 	
