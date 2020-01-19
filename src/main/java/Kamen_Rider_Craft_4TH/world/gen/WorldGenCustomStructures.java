@@ -48,6 +48,9 @@ public class WorldGenCustomStructures implements IWorldGenerator
 	public static final WorldGenStructure denliner_rekkou = new WorldGenStructure("denliner_rekkou");
 	public static final WorldGenStructure newdenliner = new WorldGenStructure("newdenliner");
 	public static final WorldGenStructure nega_denliner = new WorldGenStructure("nega_denliner");
+
+	public static final WorldGenStructure gaoh_liner = new WorldGenStructure("gaoh_liner");
+	public static final WorldGenStructure kingliner = new WorldGenStructure("kingliner");
 	
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
@@ -70,14 +73,17 @@ public class WorldGenCustomStructures implements IWorldGenerator
 			generateStructure(redyue_helheim_city, world, random, chunkX, chunkZ,0, 700, Blocks.DIRT,biomeHelheim.class);
 			
 		}else if (modDimensionWorldGen.SANDSOFTIME_DIM_ID==world.provider.getDimension()){
-			generateStructure(denliner, world, random, chunkX, chunkZ,0, 200, RiderItems.imaginsandblock,biomeSandOfTime.class);
+			generateStructureWM(denliner, world, random, chunkX, chunkZ,0, 300, RiderItems.imaginsandblock,biomeSandOfTime.class);
 			
-			generateStructure(denliner_ikazuchi, world, random, chunkX, chunkZ,0, 800, RiderItems.imaginsandblock,biomeSandOfTime.class);
-			generateStructure(denliner_isurugi, world, random, chunkX, chunkZ,0, 800, RiderItems.imaginsandblock,biomeSandOfTime.class);
-			generateStructure(denliner_rekkou, world, random, chunkX, chunkZ,0, 800, RiderItems.imaginsandblock,biomeSandOfTime.class);
+			generateStructureWM(denliner_ikazuchi, world, random, chunkX, chunkZ,0, 700, RiderItems.imaginsandblock,biomeSandOfTime.class);
+			generateStructureWM(denliner_isurugi, world, random, chunkX, chunkZ,0, 700, RiderItems.imaginsandblock,biomeSandOfTime.class);
+			generateStructure(denliner_rekkou, world, random, chunkX, chunkZ,0, 700, RiderItems.imaginsandblock,biomeSandOfTime.class);
 
-			generateStructure(newdenliner, world, random, chunkX, chunkZ,0, 2000, RiderItems.imaginsandblock,biomeSandOfTime.class);
-			generateStructure(nega_denliner, world, random, chunkX, chunkZ,0, 2000, RiderItems.imaginsandblock,biomeSandOfTime.class);
+			generateStructureWM(newdenliner, world, random, chunkX, chunkZ,0, 3500, RiderItems.imaginsandblock,biomeSandOfTime.class);
+			generateStructureWM(nega_denliner, world, random, chunkX, chunkZ,0, 5000, RiderItems.imaginsandblock,biomeSandOfTime.class);
+			
+			generateStructureWM(gaoh_liner, world, random, chunkX, chunkZ,0, 2000, RiderItems.imaginsandblock,biomeSandOfTime.class);
+			generateStructureWM(kingliner, world, random, chunkX, chunkZ,0, 3500, RiderItems.imaginsandblock,biomeSandOfTime.class);
 			}
 			
 	}
@@ -88,6 +94,24 @@ public class WorldGenCustomStructures implements IWorldGenerator
 		List<Class<? extends Biome>> classesList = Lists.newArrayList(classes);
 		int x = (chunkX * 16+ random.nextInt(15));
 		int z = (chunkZ * 16+ random.nextInt(15));
+		int y = calculateGenerationHeight(world, x, z, topBlock);
+		BlockPos pos = new BlockPos (x,y - PosY ,z);
+		
+		Class<? extends Biome> biome = world.provider.getBiomeForCoords(pos).getClass();
+		
+		if(world.getWorldType() != WorldType.FLAT) {
+			if(classesList.contains(biome)) {
+				if(random.nextInt(chance) == 0) {
+					generator.generate(world, random, pos);
+				}
+			}
+		}
+	}
+	
+	public static void generateStructureWM(WorldGenerator generator, World world, Random random, int chunkX, int chunkZ, int PosY, int chance, Block topBlock,Class<? extends Biome>... classes) {
+		List<Class<? extends Biome>> classesList = Lists.newArrayList(classes);
+		int x = (chunkX * 16);
+		int z = (chunkZ * 16);
 		int y = calculateGenerationHeight(world, x, z, topBlock);
 		BlockPos pos = new BlockPos (x,y - PosY ,z);
 		
