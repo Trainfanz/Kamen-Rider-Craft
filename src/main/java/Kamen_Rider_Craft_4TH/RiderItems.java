@@ -1013,6 +1013,10 @@ public class RiderItems {
 	public static Item gaoh_gasher = new ItemBaseSword("gaoh_gasher",Tabs.gaoh_gasher).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
 	public static Item den_gasher_vega = new ItemBaseSword("den_gasher_vega",Tabs.den_gasher_vega).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
 
+	public static Item momotaro_sword = new ItemBaseSword("momotaro_sword",Tabs.momotaken).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
+	public static Item uratarod = new ItemBaseSword("uratarod",Tabs.uratazao).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
+	
+	
 	public static Item zerogasher = new ItemBaseSword("zerogasher",Tabs.zerogasher).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
 
 	public static Item den_ohead = new item_den_oarmor("den_ohead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
