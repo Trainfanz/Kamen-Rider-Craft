@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:imaginsand"
+    }, "C": {
+      "item": "kamenridercraft4th:rider_ticket_strike"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:newden_obelt"
+  }
+}

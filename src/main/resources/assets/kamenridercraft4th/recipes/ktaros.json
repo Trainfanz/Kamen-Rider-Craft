@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XSX",
+    "RXA",
+    "XGX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:imaginsand"
+    }, "S": {
+      "item": "kamenridercraft4th:rider_ticket_sword"
+    }, "A": {
+      "item": "kamenridercraft4th:rider_ticket_ax"
+    }, "R": {
+      "item": "kamenridercraft4th:rider_ticket_rod"
+    }, "G": {
+      "item": "kamenridercraft4th:rider_ticket_gun"
+    }
+
+  },
+  "result": {
+    "item": "kamenridercraft4th:ktaros"
+  }
+}

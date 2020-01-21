@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XCX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:imaginsand"
+    }, "C": {
+      "item": "kamenridercraft4th:rider_ticket_yuuki"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:yuukibelt_hijack"
+  }
+}
