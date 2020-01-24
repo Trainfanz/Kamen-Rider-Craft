@@ -2215,6 +2215,7 @@ public class RiderItems {
 	public static Item gamer_driver_fuuma = new item_ex_aiddriver("gamer_driver_fuuma",ArmorMaterial.DIAMOND, 4, 3,"fuuma",2).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 	public static Item gamer_driver_proto_brave = new item_ex_aiddriver("gamer_driver_proto_brave",ArmorMaterial.DIAMOND, 4, 3,"proto_brave",0).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 	public static Item gamer_driver_proto_snipe = new item_ex_aiddriver("gamer_driver_proto_snipe",ArmorMaterial.DIAMOND, 4, 3,"proto_snipe",0).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item gamer_driver_proto_lazer = new item_ex_aiddriver("gamer_driver_proto_lazer",ArmorMaterial.DIAMOND, 4, 3,"proto_lazer_lvl_1",1).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 	public static Item gamer_driver_anotherparadox = new item_ex_aiddriver("gamer_driver_anotherparadox",ArmorMaterial.DIAMOND, 4, 3,"anotherparadox",2).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 	public static Item gamer_driver_gamedeus_muteki = new item_ex_aiddriver("gamer_driver_gamedeus_muteki",ArmorMaterial.DIAMOND, 4, 3,"gamedeus_muteki",2).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 	public static Item gamer_driver_nico_snipe = new item_ex_aiddriver("gamer_driver_nico_snipe",ArmorMaterial.DIAMOND, 4, 3,"nico_snipe",0).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);

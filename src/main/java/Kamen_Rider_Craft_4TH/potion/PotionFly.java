@@ -11,9 +11,7 @@ public class PotionFly extends Potion {
 		super(false, 0xacf8ff);
 		setPotionName("effect.fly");
 		setIconIndex(0, 0);
-		//setRegistryName(new ResourceLocation(Refercence.MODID + ":" + "fly"));
-
-		setRegistryName(new ResourceLocation("tokuPotions:" + "fly"));
+		setRegistryName(new ResourceLocation(Refercence.MODID + ":" + "fly"));
 	}
 	
 	@Override
