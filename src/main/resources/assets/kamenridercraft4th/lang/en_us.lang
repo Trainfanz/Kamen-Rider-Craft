@@ -59,6 +59,8 @@ entity.roshuoMob.name=Roshuo
 entity.redyueMob.name=Redyue
 entity.demushuMob.name=Demushu
 entity.lord_baronMob.name=Lord Baron
+entity.GaohMob.name=Kamen Rider Gaoh
+entity.MachineDenBirdMob.name=Machine Den-Bird
 
 effect.fly=Flying
 effect.fire_punch=Fire Punch
@@ -145,6 +147,7 @@ tile.redyue_boss_block.name=Redyue Block
 tile.rosyuo_boss_block.name=Roshuo Block
 tile.demushu_boss_block.name=Demushu Block
 tile.lord_baron_boss_block.name=Lord Baron Block
+tile.gaoh_boss_block.name=Gaoh Block
 
 tile.purifyer.name=Full Bottle Purifier
 tile.solidifyer.name=Full Bottle Solidifier
@@ -160,11 +163,59 @@ tile.pandorabox.name=Pandora Box
 tile.mighty_block.name=Mighty Action X Block
 tile.wallplate.name=Metal Wall Plate
 tile.fangire_glass.name=Fangire Glass
+tile.ganbarizing.name=Ganbarizing Machine
+
+tile.denliner_interior.name=Denliner Interior
+tile.denliner_interior_darker.name=Denliner Interior (Dark)
+tile.denliner_interior_with_line.name=Denliner Interior (Line)
+tile.denliner_interior_windo.name=Denliner Interior (Window)
+tile.denliner_side_with_line.name=Denliner Side (Line)
+tile.denliner_side_with_start_line.name=Denliner Side (Line Start)
+tile.denliner_side_with_line_ikazuchi.name=Denliner Ikazuchi Side (Line)
+tile.denliner_side_with_line_rekkou.name=Denliner Rekkou Side (Line)
+tile.denliner_roof.name=Denliner Roof
+tile.denliner_logo_top.name=Denliner Logo (Top)
+tile.denliner_logo_bottom.name=Denliner Logo (Bottom)
+tile.denliner_logo_side.name=Denliner Logo (Left Side)
+tile.denliner_logo_sider.name=Denliner Logo (Right Side)
+tile.denliner_glass.name=Denliner Glass
+tile.denliner_glass2.name=Denliner Glass 2
+tile.denliner_glass3.name=Denliner Glass 3
+tile.denliner_glass_ikazuchi.name=Denliner Ikazuchi Glass
+tile.denliner_glass_rekkou.name=Denliner Rekkou Glass
+tile.nega_denliner_glass.name=Nega Denliner Glass
+tile.denliner_gold.name=Denliner Gold
+tile.denliner_matel.name=Denliner Metal
+tile.denliner_matel_top.name=Denliner Metal (Top)
+tile.denliner_matel_top2.name=Denliner Metal (Top 2)
+tile.denliner_matel_side.name=Denliner Metal (Side)
+tile.denliner_matel_dark.name=Denliner Metal (Dark)
+tile.denliner_matel_dark_line.name=Denliner Metal (Dark Line)
+tile.new_denliner_interior.name=New Denliner Interior
+tile.new_denliner_side_with_line.name=New Denliner Side (Line)
+tile.new_denliner_side_with_start_line.name=New Denliner Side (Line Start)
+tile.new_denliner_logo_top.name=New Denliner Logo (Top)
+tile.new_denliner_logo_bottom.name=New Denliner Logo (Bottom)
+tile.new_denliner_matel_top.name=New Denliner Metal (Top)
+tile.new_denliner_matel_top2.name=New Denliner Metal (Top 2)
+tile.new_denliner_matel_side.name=New Denliner Metal (Side)
+tile.king_liner_red.name=King Liner Red
+tile.king_liner_logo_top.name=King Liner Logo (Top)
+tile.king_liner_logo_bottom.name=King Liner Logo (Bottom)
+tile.king_liner_logo_side.name=King Liner Logo (Left Side)
+tile.king_liner_logo_sider.name=King Liner Logo (Right Side)
+tile.king_liner__windo.name=King Liner Window
+tile.gaoh_liner_gold.name=Gaoh Liner Gold
+tile.gaoh_liner_green.name=Gaoh Liner Green
+tile.gaoh_liner_windo.name=Gaoh Liner Window
+
 
 tile.helheim_plant.name=Helheim Plant
 tile.helheim_plant_2.name=Helheim Plant
 tile.helheim_plant_3.name=Helheim Plant
 tile.helheim_plant_4.name=Helheim Plant
+
+tile.counter_95do.name=9-5 Counter
 
 item.energy.name=Energy Shot
 
@@ -627,6 +678,8 @@ item.kintaono.name=Kintaono
 item.gden_denjutte.name=G DenGasher Jutte Mode
 item.macheteddy.name=Macheteddy
 item.gden_dengu.name=G DenGasher Gun Mode
+item.momotaro_sword.name=Momotaro Sword
+item.uratarod.name=Uratarod
 
 item.zerogasher.name=ZeroGasher
 
@@ -1998,6 +2051,7 @@ item.ziku_driver_zonjis.name=Ziku Driver (Zonjis)
 item.ziku_driver_zamonas.name=Ziku Driver (Zamonas)
 item.another_build_driver.name=Another Build Driver
 item.another_exaid_driver.name=Another Ex-Aid Driver
+item.another_wizard_driver.name=Another Wizard Driver
 item.another_fourze_driver.name=Another Fourze Driver
 item.another_faiz_driver.name=Another Faiz Driver
 item.ziku_driver_tsukuyomi.name=Ziku Driver (Tsukuyomi)
@@ -2085,21 +2139,43 @@ item.zero_onelegs.name=Zero One Leggings
 item.hiden_zero_one_driver.name=Hiden Zero One Driver   
 item.shot_riser_vulcan.name=AIMS Shot Riser (Vulcan) 
 item.shot_riser_valkyrie.name=AIMS Shot Riser (Valkyrie) 
+item.zaia_thousandriver.name=ZAIA Thousandriver
+item.forceriser_jin.name=MetsubouJinrai ForceRiser (Jin)
+item.forceriser_horobi.name=MetsubouJinrai ForceRiser (Horobi)
+item.forceriser_ikazuchi.name=MetsubouJinrai ForceRiser (Ikazuchi)
+item.forceriser_001.name=MetsubouJinrai ForceRiser (001)
 
 item.shot_riser_gun.name=AIMS Shot Riser 
 
-item.rising_hopper_progrise_key.name=Rising Hopper Progrise Key
 item.flying_falcon_progrise_key.name=Flying Falcon Progrise Key
 item.biting_shark_progrise_key.name=Biting Shark Progrise Key
 item.flaming_tiger_progrise_key.name=Flaming Tiger Progrise Key
 item.freezing_bear_progrise_key.name=Freezing Bear Progrise Key
-
-item.shooting_wolf_progrise_key.name=Shooting Wolf Progrise Key
-item.punching_kong_progrise_key.name=Punching Kong Progrise Key
-
+item.sparking_giraffe_progrise_key.name=Sparking Giraffe Progrise Key
+item.amazing_hercules_progrise_key.name=Amazing Hercules Progrise Key
+item.crushing_buffalo_progrise_key.name=Crushing Buffalo Progrise Key
+item.exciting_stag_progrise_key.name=Exciting Stag Progrise Key
+item.gatling_hedgehog_progrise_key.name=Gatling Hedgehog Progrise Key
+item.freezing_bear_progrise_key.name=Freezing Bear Progrise Key
+item.trapping_spider_progrise_key.name=Trapping Spider Progrise Key
+item.storming_penguin_progrise_key.name=Storming Penguin Progrise Key
+item.hopping_kangaroo_progrise_key.name=Hopping Kangaroo Progrise Key
+item.splashing_whale_progrise_key.name=Splashing Whale Progrise Key
 item.rushing_cheetah_progrise_key.name=Rushing Cheetah Progrise Key
 item.lightning_hornet_progrise_key.name=Lightning Hornet Progrise Key
+
+item.rising_hopper_progrise_key.name=Rising Hopper Progrise Key
+item.shining_hopper_progrise_key.name=Shining Hopper Progrise Key
+item.shining_assault_hopper_progrise_key.name=Shining Assault Hopper Progrise Key
+
+item.shooting_wolf_progrise_key.name=Shooting Wolf Progrise Key
+item.assault_wolf_progrise_key.name=Assault Wolf Progrise Key
+item.punching_kong_progrise_key.name=Punching Kong Progrise Key
+
 item.sting_scorpion_progrise_key.name=Sting Scorpion Progrise Key
+
+item.amazing_caucasus_progrise_key.name=Amazing Caucasus Progrise Key
+
                 
 item.amazonshead.name=Amazons Helmet
 item.amazonstroso.name=Amazons Chestplate 
