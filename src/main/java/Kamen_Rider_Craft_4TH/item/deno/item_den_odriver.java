@@ -228,7 +228,7 @@ public class item_den_odriver extends ItemArmor implements IHasModel
 
 	public static int  get_core(ItemStack itemstack)
 	{
-		return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("core") :1;
+		return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("core") :0;
 	}
 
 	public static void set_core(ItemStack itemstack, int flag)

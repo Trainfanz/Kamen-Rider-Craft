@@ -70,6 +70,8 @@ public class RiderBlocks {
 	public static Block gaoh_liner_green = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("gaoh_liner_green").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block gaoh_liner_windo = CustomBlock.builder().property(Property.TRANSPARENT).material(Material.ROCK).blockType(BlockType.DIRECTIONAL).name("gaoh_liner_windo").setCreativeTabe(Tabs.tabdecor).build();
 	
+	public static Block zero_liner_green = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("zero_liner_green").setCreativeTabe(Tabs.tabdecor).build();
+	
 public static void init() {
 	
 }

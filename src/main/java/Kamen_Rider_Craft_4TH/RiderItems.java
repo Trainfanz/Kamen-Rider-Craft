@@ -1062,11 +1062,11 @@ public class RiderItems {
 	public static Item rider_ticket_ax = new Itemrider_ticket(3,0,"rider_ticket_ax").setCreativeTab(Tabs.tabden_o);
 	public static Item rider_ticket_gun = new Itemrider_ticket(4,0,"rider_ticket_gun").setCreativeTab(Tabs.tabden_o);
 	public static Item rider_ticket_wing = new Itemrider_ticket(5,0,"rider_ticket_wing").setCreativeTab(Tabs.tabden_o);
-	public static Item rider_ticket_nega = new Itemrider_ticket(5,0,"rider_ticket_nega").setCreativeTab(Tabs.tabden_o);
-	public static Item rider_ticket_yuuki = new Itemrider_ticket(5,0,"rider_ticket_yuuki").setCreativeTab(Tabs.tabden_o);
-	public static Item rider_ticket_g = new Itemrider_ticket(5,0,"rider_ticket_g").setCreativeTab(Tabs.tabden_o);
-	public static Item rider_ticket_gaoh = new Itemrider_ticket(5,0,"rider_ticket_gaoh").setCreativeTab(Tabs.tabden_o);
-	public static Item rider_ticket_strike = new Item_ore ("rider_ticket_strike").setCreativeTab(Tabs.tabden_o);
+	public static Item rider_ticket_nega = new Itemrider_ticket(0,3,"rider_ticket_nega").setCreativeTab(Tabs.tabden_o);
+	public static Item rider_ticket_yuuki = new Itemrider_ticket(0,3,"rider_ticket_yuuki").setCreativeTab(Tabs.tabden_o);
+	public static Item rider_ticket_g = new Itemrider_ticket(0,3,"rider_ticket_g").setCreativeTab(Tabs.tabden_o);
+	public static Item rider_ticket_gaoh = new Itemrider_ticket(0,3,"rider_ticket_gaoh").setCreativeTab(Tabs.tabden_o);
+	public static Item rider_ticket_strike = new Itemrider_ticket(1,2,"rider_ticket_strike").setCreativeTab(Tabs.tabden_o);
 
 	public static Item ktaros = new Itemrider_ticket(6,0,"ktaros").setCreativeTab(Tabs.tabden_o);
 

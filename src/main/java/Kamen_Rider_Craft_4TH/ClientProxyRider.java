@@ -57,6 +57,8 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entitygamma_commando;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityguardian;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityguardian_hokuto;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityguardian_seito;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entitynew_mole_imagin;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entitynew_mole_imagin_sand;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityshocker_combatman;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityAcrobatter;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityExaidBike;
@@ -68,6 +70,7 @@ import Kamen_Rider_Craft_4TH.mobs.bikes.Entity_ridoron;
 import Kamen_Rider_Craft_4TH.mobs.bikes.Entityhardboilder;
 import Kamen_Rider_Craft_4TH.mobs.bikes.Entitymachine_tornador;
 import Kamen_Rider_Craft_4TH.mobs.bikes.Entityskullboilder;
+import Kamen_Rider_Craft_4TH.model.ImaginSandModel;
 import Kamen_Rider_Craft_4TH.model.MobWithBeltModel;
 import Kamen_Rider_Craft_4TH.model.ModelAnkh;
 import Kamen_Rider_Craft_4TH.model.ModelPoppy;
@@ -101,6 +104,11 @@ public class ClientProxyRider extends CommonProxyRider
 		
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_gaoh.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/gaoh.png"));
+		
+		RenderingRegistry.registerEntityRenderingHandler(Entitynew_mole_imagin_sand.class, new RenderRiderMob2(new ImaginSandModel(), 0.5F,"textures/entities/new_mole_imagin_sand.png"));
+		
+		RenderingRegistry.registerEntityRenderingHandler(Entitynew_mole_imagin.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/new_mole_imagin.png"));
+		
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityMasquerade.class, new RenderRiderMob2( new ModelBiped(), 0.4F,"textures/entities/masquerade.png"));
 		

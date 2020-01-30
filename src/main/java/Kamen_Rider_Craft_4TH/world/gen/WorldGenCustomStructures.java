@@ -51,6 +51,8 @@ public class WorldGenCustomStructures implements IWorldGenerator
 
 	public static final WorldGenStructure gaoh_liner = new WorldGenStructure("gaoh_liner");
 	public static final WorldGenStructure kingliner = new WorldGenStructure("kingliner");
+	public static final WorldGenStructure zeroliner = new WorldGenStructure("zeroliner");
+	
 	
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
@@ -84,6 +86,8 @@ public class WorldGenCustomStructures implements IWorldGenerator
 			
 			generateStructureWM(gaoh_liner, world, random, chunkX, chunkZ,0, 2000, RiderItems.imaginsandblock,biomeSandOfTime.class);
 			generateStructureWM(kingliner, world, random, chunkX, chunkZ,0, 3500, RiderItems.imaginsandblock,biomeSandOfTime.class);
+
+			generateStructureWM(zeroliner, world, random, chunkX, chunkZ,0, 1000, RiderItems.imaginsandblock,biomeSandOfTime.class);
 			}
 			
 	}
