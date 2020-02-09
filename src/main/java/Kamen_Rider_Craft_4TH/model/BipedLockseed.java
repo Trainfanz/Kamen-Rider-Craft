@@ -89,7 +89,7 @@ public class BipedLockseed extends ModelBiped
 	@Override
 	public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5)
 	{
-		
+
 		this.setRotationAngles(f, f1, f2, f3, f4, f5, entity);
 
 		GL11.glPushMatrix();
@@ -184,7 +184,7 @@ public class BipedLockseed extends ModelBiped
 
 		GL11.glPopMatrix();
 
-	
+
 
 		GL11.glPopMatrix();
 		GL11.glPushMatrix();
@@ -203,9 +203,9 @@ public class BipedLockseed extends ModelBiped
 
 		if (entity instanceof  EntityLivingBase){
 			ItemStack stack  =   ((EntityLivingBase) entity).getItemStackFromSlot(EntityEquipmentSlot.FEET);
-
+			ItemStack stack2  =   ((EntityLivingBase) entity).getItemStackFromSlot(EntityEquipmentSlot.HEAD);
 			if (stack!=null){
-				if (stack.getItem() instanceof item_Gaimdriver){
+				if (stack.getItem() instanceof item_Gaimdriver & stack2.getItem()==RiderItems.Gaimhead){
 					if (item_Gaimdriver.get_lock(stack)=="energy_dragon_fruits_arms"){
 
 						Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Refercence.MODID+":textures/armor/energy_prototype_dragon_fruits_arms.png"));
@@ -216,7 +216,7 @@ public class BipedLockseed extends ModelBiped
 
 					}
 
-				}else if (stack.getItem() instanceof item_ghostdriver){
+				}else if (stack.getItem() instanceof item_ghostdriver& stack2.getItem()==RiderItems.ghosthead){
 					if (stack.getItem()==RiderItems.eyecon_driver_g){
 
 						Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Refercence.MODID+":textures/armor/grateful_damashii_2.png"));
@@ -225,30 +225,26 @@ public class BipedLockseed extends ModelBiped
 				}else if (stack.getItem() instanceof item_zikudriver){
 					if (item_zikudriver.get_core(stack, "1")==1){
 						Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Refercence.MODID+":textures/armor/"+item_zikudriver.get_lock(stack)+"_decade_ver"+"_2.png"));
-						}else{
+					}else{
 						Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Refercence.MODID+":textures/armor/"+((item_zikudriver)stack.getItem()).Rider+ item_zi_oarmor.CoreName[item_zikudriver.get_core(stack, "1")]+"_" +item_zikudriver.get_lockbase(stack)+"_2.png"));
-						
-						}
-				}else if (stack.getItem() instanceof item_zero_onedriver){
-					
-					 String form;
-						if (item_zero_onedriver.get_lockbase(stack)!="base"){
-							form = item_zero_onedriver.get_lockbase(stack);
-						}else{
-							form = Item_progrise_keys.ARMS[((item_zero_onedriver)stack.getItem()).DRIVER];
-						}
-						Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Refercence.MODID+":textures/armor/"+((item_zero_onedriver)stack.getItem()).Rider+ item_zero_onearmor.CoreName[item_zero_onedriver.get_core(stack, "1")]+"_" +form+"_2.png"));
-						
-						
-						
 
-											
-						
-				}else if (stack.getItem() instanceof item_ex_aiddriver){
-					
-				
-						Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Refercence.MODID+":textures/armor/"+item_ex_aiddriver.get_lock(stack) +"_2.png"));
-				
+					}
+				}else if (stack.getItem() instanceof item_zero_onedriver&& stack2.getItem()==RiderItems.zero_onehead){
+
+					String form;
+					if (item_zero_onedriver.get_lockbase(stack)!="base"){
+						form = item_zero_onedriver.get_lockbase(stack);
+					}else{
+						form = Item_progrise_keys.ARMS[((item_zero_onedriver)stack.getItem()).DRIVER];
+					}
+					Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Refercence.MODID+":textures/armor/"+((item_zero_onedriver)stack.getItem()).Rider+ item_zero_onearmor.CoreName[item_zero_onedriver.get_core(stack, "1")]+"_" +form+"_2.png"));
+
+
+				}else if (stack.getItem() instanceof item_ex_aiddriver& stack2.getItem()==RiderItems.ex_aidhead){
+
+
+					Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Refercence.MODID+":textures/armor/"+item_ex_aiddriver.get_lock(stack) +"_2.png"));
+
 				}
 			}
 		}
@@ -281,12 +277,7 @@ public class BipedLockseed extends ModelBiped
 
 			if (stack!=null){
 
-				/**
-					if (stack.getItem()==RiderItems.eyecon_driver_g){
 
-						Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Refercence.MODID+":textures/armor/grateful_damashii_2.png"));
-	
-				}**/
 			}
 		}
 		GL11.glPopMatrix();
@@ -297,33 +288,33 @@ public class BipedLockseed extends ModelBiped
 	public void setRotationAngles(float p_78087_1_, float p_78087_2_, float p_78087_3_, float p_78087_4_, float p_78087_5_, float p_78087_6_, Entity entityIn)
 	{
 		if (entityIn instanceof EntityArmorStand)
-        {
-            EntityArmorStand entityarmorstand = (EntityArmorStand)entityIn;
-            this.bipedHead.rotateAngleX = 0.017453292F * entityarmorstand.getHeadRotation().getX();
-            this.bipedHead.rotateAngleY = 0.017453292F * entityarmorstand.getHeadRotation().getY();
-            this.bipedHead.rotateAngleZ = 0.017453292F * entityarmorstand.getHeadRotation().getZ();
-            this.bipedHead.setRotationPoint(0.0F, 1.0F, 0.0F);
-            this.bipedBody.rotateAngleX = 0.017453292F * entityarmorstand.getBodyRotation().getX();
-            this.bipedBody.rotateAngleY = 0.017453292F * entityarmorstand.getBodyRotation().getY();
-            this.bipedBody.rotateAngleZ = 0.017453292F * entityarmorstand.getBodyRotation().getZ();
-            this.bipedLeftArm.rotateAngleX = 0.017453292F * entityarmorstand.getLeftArmRotation().getX();
-            this.bipedLeftArm.rotateAngleY = 0.017453292F * entityarmorstand.getLeftArmRotation().getY();
-            this.bipedLeftArm.rotateAngleZ = 0.017453292F * entityarmorstand.getLeftArmRotation().getZ();
-            this.bipedRightArm.rotateAngleX = 0.017453292F * entityarmorstand.getRightArmRotation().getX();
-            this.bipedRightArm.rotateAngleY = 0.017453292F * entityarmorstand.getRightArmRotation().getY();
-            this.bipedRightArm.rotateAngleZ = 0.017453292F * entityarmorstand.getRightArmRotation().getZ();
-            this.bipedLeftLeg.rotateAngleX = 0.017453292F * entityarmorstand.getLeftLegRotation().getX();
-            this.bipedLeftLeg.rotateAngleY = 0.017453292F * entityarmorstand.getLeftLegRotation().getY();
-            this.bipedLeftLeg.rotateAngleZ = 0.017453292F * entityarmorstand.getLeftLegRotation().getZ();
-            this.bipedLeftLeg.setRotationPoint(1.9F, 11.0F, 0.0F);
-            this.bipedRightLeg.rotateAngleX = 0.017453292F * entityarmorstand.getRightLegRotation().getX();
-            this.bipedRightLeg.rotateAngleY = 0.017453292F * entityarmorstand.getRightLegRotation().getY();
-            this.bipedRightLeg.rotateAngleZ = 0.017453292F * entityarmorstand.getRightLegRotation().getZ();
-            this.bipedRightLeg.setRotationPoint(-1.9F, 11.0F, 0.0F);
-            copyModelAngles(this.bipedHead, this.bipedHeadwear);
-        }else{
-        	super.setRotationAngles(p_78087_1_, p_78087_2_, p_78087_3_, p_78087_4_, p_78087_5_, p_78087_6_, entityIn);
-        }
+		{
+			EntityArmorStand entityarmorstand = (EntityArmorStand)entityIn;
+			this.bipedHead.rotateAngleX = 0.017453292F * entityarmorstand.getHeadRotation().getX();
+			this.bipedHead.rotateAngleY = 0.017453292F * entityarmorstand.getHeadRotation().getY();
+			this.bipedHead.rotateAngleZ = 0.017453292F * entityarmorstand.getHeadRotation().getZ();
+			this.bipedHead.setRotationPoint(0.0F, 1.0F, 0.0F);
+			this.bipedBody.rotateAngleX = 0.017453292F * entityarmorstand.getBodyRotation().getX();
+			this.bipedBody.rotateAngleY = 0.017453292F * entityarmorstand.getBodyRotation().getY();
+			this.bipedBody.rotateAngleZ = 0.017453292F * entityarmorstand.getBodyRotation().getZ();
+			this.bipedLeftArm.rotateAngleX = 0.017453292F * entityarmorstand.getLeftArmRotation().getX();
+			this.bipedLeftArm.rotateAngleY = 0.017453292F * entityarmorstand.getLeftArmRotation().getY();
+			this.bipedLeftArm.rotateAngleZ = 0.017453292F * entityarmorstand.getLeftArmRotation().getZ();
+			this.bipedRightArm.rotateAngleX = 0.017453292F * entityarmorstand.getRightArmRotation().getX();
+			this.bipedRightArm.rotateAngleY = 0.017453292F * entityarmorstand.getRightArmRotation().getY();
+			this.bipedRightArm.rotateAngleZ = 0.017453292F * entityarmorstand.getRightArmRotation().getZ();
+			this.bipedLeftLeg.rotateAngleX = 0.017453292F * entityarmorstand.getLeftLegRotation().getX();
+			this.bipedLeftLeg.rotateAngleY = 0.017453292F * entityarmorstand.getLeftLegRotation().getY();
+			this.bipedLeftLeg.rotateAngleZ = 0.017453292F * entityarmorstand.getLeftLegRotation().getZ();
+			this.bipedLeftLeg.setRotationPoint(1.9F, 11.0F, 0.0F);
+			this.bipedRightLeg.rotateAngleX = 0.017453292F * entityarmorstand.getRightLegRotation().getX();
+			this.bipedRightLeg.rotateAngleY = 0.017453292F * entityarmorstand.getRightLegRotation().getY();
+			this.bipedRightLeg.rotateAngleZ = 0.017453292F * entityarmorstand.getRightLegRotation().getZ();
+			this.bipedRightLeg.setRotationPoint(-1.9F, 11.0F, 0.0F);
+			copyModelAngles(this.bipedHead, this.bipedHeadwear);
+		}else{
+			super.setRotationAngles(p_78087_1_, p_78087_2_, p_78087_3_, p_78087_4_, p_78087_5_, p_78087_6_, entityIn);
+		}
 		copyModelAngles(this.bipedBody, this.bipedBody2);
 		copyModelAngles(this.bipedBody, this.bipedBody3);
 
