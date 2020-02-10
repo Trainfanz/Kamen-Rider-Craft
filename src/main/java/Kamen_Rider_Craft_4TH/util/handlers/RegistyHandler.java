@@ -36,13 +36,21 @@ public class RegistyHandler {
 
 	@SubscribeEvent
 	public static void onLivingUpate(TickEvent.PlayerTickEvent event) {
+		
+		
+		
 		if(event.player.isPotionActive(PotionCore.PUNCH_BOOST_POTION)) {
 			if(event.player.getHeldItemMainhand().isEmpty()) {
 				event.player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,event.player.getActivePotionEffect(PotionCore.PUNCH_BOOST_POTION).getAmplifier(), 4,true,false));
 			}
 		}
-
-		if(event.player.isPotionActive(PotionCore.BIG_POTION)){
+		
+		boolean big = false;
+		if(event.player.isPotionActive(PotionCore.BIG_POTION)) big = true;
+		if(event.player.isPotionActive(Potion.getPotionFromResourceLocation("supersentaicraft"+ ":" + "big"))) big = true;
+		
+		
+		if(big){
 				event.player.height=4+(event.player.getDefaultEyeHeight());
 				event.player.eyeHeight=4;
 				

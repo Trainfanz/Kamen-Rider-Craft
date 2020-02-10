@@ -5,7 +5,9 @@ import javax.annotation.Nullable;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
+import Kamen_Rider_Craft_4TH.model.Model_breaking_mammoth;
 import Kamen_Rider_Craft_4TH.model.model_belt_plus;
+import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.client.model.ModelBiped;
 import net.minecraft.entity.EntityLivingBase;
@@ -68,7 +70,7 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 			if(stack.getItem() instanceof ItemArmor)
 			{
 
-				model_belt_plus armorModel = new model_belt_plus();
+				model_belt_plus armorModel = new Model_breaking_mammoth();
 
 				//Item[] form_watch= new Item[] {RiderItems.blanknoitem};
 				//Item[] armor_watch= new Item[] {RiderItems.blanknoitem};
@@ -96,6 +98,7 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 				armorModel.isRiding = defaultModel.isRiding;
 				armorModel.isChild = defaultModel.isChild;
 
+				armorModel.swingProgress = living.swingProgress;
 				armorModel.rightArmPose = defaultModel.rightArmPose;
 				armorModel.leftArmPose = defaultModel.leftArmPose;
 
@@ -153,6 +156,11 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 							if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == RiderItems.zero_onetroso){
 								if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == RiderItems.zero_onehead){		
 									
+
+									if (item_zero_onedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="mammoth"){
+
+										player.addPotionEffect(new PotionEffect(PotionCore.BIG_POTION, 5, 0,true,false));
+									}
 						
 								}
 						}

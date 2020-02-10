@@ -2870,6 +2870,7 @@ public class RiderItems {
 	public static Item biting_shark_progrise_key = new Item_progrise_keys(0, 2,"biting_shark_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item flaming_tiger_progrise_key = new Item_progrise_keys(0, 6,"flaming_tiger_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item freezing_bear_progrise_key = new Item_progrise_keys(0, 8,"freezing_bear_progrise_key").setCreativeTab(Tabs.tabzero_one);
+	public static Item breaking_mammoth_progrise_key = new Item_progrise_keys(0, 23,"breaking_mammoth_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item sparking_giraffe_progrise_key = new Item_progrise_keys(0, 11,"sparking_giraffe_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item amazing_hercules_progrise_key = new Item_progrise_keys(0, 12,"amazing_hercules_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item crushing_buffalo_progrise_key = new Item_progrise_keys(0, 15,"crushing_buffalo_progrise_key").setCreativeTab(Tabs.tabzero_one);

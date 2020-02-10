@@ -57,23 +57,27 @@ public class item_zero_onearmor2 extends ItemArmor implements IHasModel
 
 				if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_zero_onedriver){
 					String rider = ((item_zero_onedriver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider;
-				
-if (rider == "vulcan"&item_zero_onedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!="wolf"&item_zero_onedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!="base"||rider == "valkyrie"&item_zero_onedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!="cheetah"&item_zero_onedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!="base"){
-	rider = rider+"_base";
-}
 
-{
-							if ( slot == EntityEquipmentSlot.LEGS)
-							{
+					if (rider == "vulcan"&item_zero_onedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!="wolf"&item_zero_onedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!="base"||rider == "valkyrie"&item_zero_onedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!="cheetah"&item_zero_onedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!="base"){
+						rider = rider+"_base";
+					}
 
-									return Refercence.MODID+":textures/armor/"+rider+CoreName[item_zero_onedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")]+"_2.png";	
-								
+					{
+						if ( slot == EntityEquipmentSlot.LEGS)
+						{
+							if (item_zero_onedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="mammoth"){
+								return Refercence.MODID+":textures/armor/blank.png";
+							}else{
+								return Refercence.MODID+":textures/armor/"+rider+CoreName[item_zero_onedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")]+"_2.png";	
+							}						
+						}
+						if (slot == EntityEquipmentSlot.HEAD||slot == EntityEquipmentSlot.CHEST )
+						{
+							if (item_zero_onedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="mammoth"){
+								return Refercence.MODID+":textures/armor/blank.png";
+							}else{
+							return Refercence.MODID+":textures/armor/"+rider+CoreName[item_zero_onedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")]+"_1.png";	
 							}
-							if (slot == EntityEquipmentSlot.HEAD||slot == EntityEquipmentSlot.CHEST )
-							{
-								
-										return Refercence.MODID+":textures/armor/"+rider+CoreName[item_zero_onedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")]+"_1.png";	
-									
 						}
 					}
 
@@ -101,12 +105,12 @@ if (rider == "vulcan"&item_zero_onedriver.get_lockbase(player.getItemStackFromSl
 	@Nullable
 	public ModelBiped getArmorModel(EntityLivingBase living, ItemStack stack, EntityEquipmentSlot slot, ModelBiped defaultModel)
 	{
-		
+
 		if(!stack.isEmpty())
 		{
 			if(stack.getItem() instanceof item_zero_onearmor2)
 			{ tokuArmorModel armorModel = new tokuArmorModel();
-	if(armorModel != null){
+			if(armorModel != null){
 
 				armorModel.bipedBody2.showModel = slot == EntityEquipmentSlot.LEGS;
 				armorModel.bipedRightArm2.showModel = slot == EntityEquipmentSlot.CHEST;
@@ -130,7 +134,7 @@ if (rider == "vulcan"&item_zero_onedriver.get_lockbase(player.getItemStackFromSl
 			}
 
 			}
-			}
+		}
 		return null;
 	}
 }
