@@ -5,7 +5,9 @@ import com.jcraft.jorbis.Block;
 
 import Kamen_Rider_Craft_4TH.mobs.EntityAnkh;
 import Kamen_Rider_Craft_4TH.mobs.EntityLazer;
+import Kamen_Rider_Craft_4TH.mobs.EntityMomotaros;
 import Kamen_Rider_Craft_4TH.mobs.EntityPoppy;
+import Kamen_Rider_Craft_4TH.mobs.EntityUrataros;
 import Kamen_Rider_Craft_4TH.mobs.Entity_kodama_suika_arms;
 import Kamen_Rider_Craft_4TH.mobs.Entityaccel;
 import Kamen_Rider_Craft_4TH.mobs.RenderRiderMob;
@@ -108,6 +110,10 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entitynew_mole_imagin_sand.class, new RenderRiderMob2(new ImaginSandModel(), 0.5F,"textures/entities/new_mole_imagin_sand.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entitynew_mole_imagin.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/new_mole_imagin.png"));
+		
+		RenderingRegistry.registerEntityRenderingHandler(EntityMomotaros.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/momotaros.png"));
+		RenderingRegistry.registerEntityRenderingHandler(EntityUrataros.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/urataros.png"));
+		
 		
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityMasquerade.class, new RenderRiderMob2( new ModelBiped(), 0.4F,"textures/entities/masquerade.png"));

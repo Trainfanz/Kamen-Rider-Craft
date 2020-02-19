@@ -137,8 +137,7 @@ public class item_RiderPass extends ItemBow  implements IHasModel
 
 				if (get_ammo(stack)==100){
 
-					if (entityLiving.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_den_odriver){
-
+					
 							if (!entityLiving.isRiding() && !entityLiving.isBeingRidden() && entityLiving.isNonBoss())
 							{
 							}
@@ -157,7 +156,7 @@ public class item_RiderPass extends ItemBow  implements IHasModel
 								}
 
 							}
-						}
+						
 				}
 			}
 			playerIn.addStat(StatList.getObjectUseStats(this));

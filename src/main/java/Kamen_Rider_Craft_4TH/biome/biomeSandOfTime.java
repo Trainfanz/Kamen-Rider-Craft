@@ -32,6 +32,13 @@ public class biomeSandOfTime extends Biome {
 		this.topBlock=RiderItems.imaginsandblock.getDefaultState();
 		this.fillerBlock=RiderItems.imaginsandblock.getDefaultState();
 		
+		this.spawnableCreatureList.clear();
+		this.spawnableMonsterList.clear();
+		
+		this.spawnableMonsterList.add(new Biome.SpawnListEntry(Entitynew_mole_imagin_sand.class,  20, 4, 7));
+        this.spawnableCreatureList.add(new Biome.SpawnListEntry(Entitynew_mole_imagin_sand.class,  10, 2, 4));
+        
+		
 	}
 
 

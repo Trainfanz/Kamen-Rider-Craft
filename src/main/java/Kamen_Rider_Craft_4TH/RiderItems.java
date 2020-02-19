@@ -1017,7 +1017,9 @@ public class RiderItems {
 
 	public static Item momotaro_sword = new ItemBaseSword("momotaro_sword",Tabs.momotaken).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
 	public static Item uratarod = new ItemBaseSword("uratarod",Tabs.uratazao).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
-	
+	public static Item kintaros_ax = new ItemBaseSword("kintaros_ax",Tabs.kintaono).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
+	public static Item ryu_volver = new Item_gun("ryu_volver",Tabs.gden_dengu).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
+
 	
 	public static Item zerogasher = new ItemBaseSword("zerogasher",Tabs.zerogasher).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
 

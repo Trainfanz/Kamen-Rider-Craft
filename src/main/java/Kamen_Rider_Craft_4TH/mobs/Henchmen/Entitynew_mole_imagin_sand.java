@@ -59,7 +59,19 @@ public class Entitynew_mole_imagin_sand extends Entity_base_henchmen
 	{
 		if (!this.world.isRemote){
 
-			
+			if (this.getAttackTarget()instanceof EntityPlayer){
+				EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
+				 Entitynew_mole_imagin entityboss  = new Entitynew_mole_imagin(world);
+			switch (this.rand.nextInt(25))
+			{
+			case 0:
+				playerIn.sendMessage( new TextComponentString(TextFormatting.WHITE+"Say your wish. I can grant any wish. You can pay me with one thing only."));
+				entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				world.spawnEntity(entityboss);
+				break;
+	
+			}
+			}
 			this.dropItem(RiderItems.imaginsand, 2);
 			switch (this.rand.nextInt(10))
 			{
