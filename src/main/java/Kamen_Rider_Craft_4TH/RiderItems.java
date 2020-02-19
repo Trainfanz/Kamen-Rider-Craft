@@ -145,6 +145,8 @@ public class RiderItems {
 	public static Item icepop3  = new riderfood(2, true,"icepop3").setCreativeTab(Tabs.tabmisc);
 
 	public static Item base_sword = new Item_ore("base_sword").setCreativeTab(Tabs.tabmisc);
+	
+	public static Item shocker_emblem = new Item_ore("shocker_emblem").setCreativeTab(Tabs.tabmisc);
 	//public static Item base_gun = new Item_ore("base_gun").setCreativeTab(Tabs.tabmisc);
 
 	//ore blocks
