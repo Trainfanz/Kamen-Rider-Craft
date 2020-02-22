@@ -4,6 +4,7 @@ package Kamen_Rider_Craft_4TH;
 import com.jcraft.jorbis.Block;
 
 import Kamen_Rider_Craft_4TH.mobs.EntityAnkh;
+import Kamen_Rider_Craft_4TH.mobs.EntityKintaros;
 import Kamen_Rider_Craft_4TH.mobs.EntityLazer;
 import Kamen_Rider_Craft_4TH.mobs.EntityMomotaros;
 import Kamen_Rider_Craft_4TH.mobs.EntityPoppy;
@@ -113,6 +114,7 @@ public class ClientProxyRider extends CommonProxyRider
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityMomotaros.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/momotaros.png"));
 		RenderingRegistry.registerEntityRenderingHandler(EntityUrataros.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/urataros.png"));
+		RenderingRegistry.registerEntityRenderingHandler(EntityKintaros.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/kintaros.png"));
 		
 		
 		

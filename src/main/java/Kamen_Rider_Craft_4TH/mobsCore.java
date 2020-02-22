@@ -2,6 +2,7 @@ package Kamen_Rider_Craft_4TH;
 
 import Kamen_Rider_Craft_4TH.biome.riderBiomes;
 import Kamen_Rider_Craft_4TH.mobs.EntityAnkh;
+import Kamen_Rider_Craft_4TH.mobs.EntityKintaros;
 import Kamen_Rider_Craft_4TH.mobs.EntityLazer;
 import Kamen_Rider_Craft_4TH.mobs.EntityMomotaros;
 import Kamen_Rider_Craft_4TH.mobs.EntityPoppy;
@@ -95,6 +96,7 @@ public class mobsCore {
 		
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":MomotarosMob"), EntityMomotaros.class, "MomotarosMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x790000,0xef0000);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":UratarosMob"), EntityUrataros.class, "UratarosMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x0075ec,0x003d7d);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":KintarosMob"), EntityKintaros.class, "KintarosMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x212121,0xd2a900);
 		
 		
 		
