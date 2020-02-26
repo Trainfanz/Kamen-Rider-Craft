@@ -8,6 +8,7 @@ import Kamen_Rider_Craft_4TH.mobs.EntityKintaros;
 import Kamen_Rider_Craft_4TH.mobs.EntityLazer;
 import Kamen_Rider_Craft_4TH.mobs.EntityMomotaros;
 import Kamen_Rider_Craft_4TH.mobs.EntityPoppy;
+import Kamen_Rider_Craft_4TH.mobs.EntityRyutaros;
 import Kamen_Rider_Craft_4TH.mobs.EntityUrataros;
 import Kamen_Rider_Craft_4TH.mobs.Entity_kodama_suika_arms;
 import Kamen_Rider_Craft_4TH.mobs.Entityaccel;
@@ -115,6 +116,7 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(EntityMomotaros.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/momotaros.png"));
 		RenderingRegistry.registerEntityRenderingHandler(EntityUrataros.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/urataros.png"));
 		RenderingRegistry.registerEntityRenderingHandler(EntityKintaros.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/kintaros.png"));
+		RenderingRegistry.registerEntityRenderingHandler(EntityRyutaros.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/ryutaros.png"));
 		
 		
 		

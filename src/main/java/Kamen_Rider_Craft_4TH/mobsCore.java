@@ -6,6 +6,7 @@ import Kamen_Rider_Craft_4TH.mobs.EntityKintaros;
 import Kamen_Rider_Craft_4TH.mobs.EntityLazer;
 import Kamen_Rider_Craft_4TH.mobs.EntityMomotaros;
 import Kamen_Rider_Craft_4TH.mobs.EntityPoppy;
+import Kamen_Rider_Craft_4TH.mobs.EntityRyutaros;
 import Kamen_Rider_Craft_4TH.mobs.EntityUrataros;
 import Kamen_Rider_Craft_4TH.mobs.Entity_kodama_suika_arms;
 import Kamen_Rider_Craft_4TH.mobs.Entityaccel;
@@ -97,6 +98,7 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":MomotarosMob"), EntityMomotaros.class, "MomotarosMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x790000,0xef0000);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":UratarosMob"), EntityUrataros.class, "UratarosMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x0075ec,0x003d7d);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":KintarosMob"), EntityKintaros.class, "KintarosMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x212121,0xd2a900);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":RyutarosMob"), EntityRyutaros.class, "RyutarosMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x3b114e,0x2a0b38);
 		
 		
 		
