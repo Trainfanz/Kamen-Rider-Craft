@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:zeronos_altair_card"
+    }
+
+  },
+  "result": {
+    "item": "kamenridercraft4th:zeronos_zero_card"
+  }
+}
