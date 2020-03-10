@@ -58,10 +58,11 @@ public class Itemdenkamen_sword extends ItemSword implements IHasModel
     	if (playerIn.inventory.armorInventory.get(1)!= null){
 
 			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()== RiderItems.den_odriver){
-		
+				if (playerIn.inventory.hasItemStack(new ItemStack(RiderItems.ktaros))){
+					
 							item_Ichigodriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), 8);
 
-					
+				}
 				}
 			}
 			
