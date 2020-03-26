@@ -10,7 +10,9 @@ import Kamen_Rider_Craft_4TH.biome.biomeSandOfTime;
 import Kamen_Rider_Craft_4TH.world.gen.generators.WorldGenStructure;
 import com.google.common.collect.Lists;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockFire;
 import net.minecraft.init.Blocks;
+import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldType;
@@ -36,7 +38,8 @@ public class WorldGenCustomStructures implements IWorldGenerator
 	public static final WorldGenStructure ROGUE_BASE = new WorldGenStructure("rogue_base");
 	public static final WorldGenStructure PANDORA_TOWER = new WorldGenStructure("pandora_tower");
 	
-
+	public static final WorldGenStructure GINGA = new WorldGenStructure("ginga");
+	
 	public static final WorldGenStructure yggdrasill_base = new WorldGenStructure("yggdrasill_base");
 	public static final WorldGenStructure rosyuo_helheim_city = new WorldGenStructure("rosyuo_helheim_city");
 	public static final WorldGenStructure demushu_helheim_city = new WorldGenStructure("demushu_helheim_city");
@@ -62,7 +65,10 @@ public class WorldGenCustomStructures implements IWorldGenerator
 			case 0:
 				generateStructure(ROGUE_BASE, world, random, chunkX, chunkZ,11, 1000, Blocks.DIRT, BiomePlains.class,BiomeSavanna.class,BiomeForest.class,BiomeHills.class);
 				generateStructure(PANDORA_TOWER, world, random, chunkX, chunkZ,-1, 1500, Blocks.DIRT, BiomePlains.class,BiomeSavanna.class,BiomeForest.class,BiomeHills.class);
-				generateStructure(HELHEIM_CRACK, world, random, chunkX, chunkZ,-1, 1000, Blocks.DIRT, BiomePlains.class,BiomeMesa.class,BiomeForest.class,BiomeJungle.class);
+				generateStructure(HELHEIM_CRACK, world, random, chunkX, chunkZ,-1, 500, Blocks.DIRT, BiomePlains.class,BiomeMesa.class,BiomeForest.class,BiomeJungle.class);
+				
+				generateStructureFlames(GINGA, world, random, chunkX, chunkZ,1, 800, Blocks.STONE, BiomeHills.class);
+				
 				
 				break;
 			case -1:
@@ -92,6 +98,33 @@ public class WorldGenCustomStructures implements IWorldGenerator
 			
 	}
 	
+	
+	public static void generateStructureFlames(WorldGenerator generator, World world, Random random, int chunkX, int chunkZ, int PosY, int chance, Block topBlock,Class<? extends Biome>... classes) {
+		List<Class<? extends Biome>> classesList = Lists.newArrayList(classes);
+		int x = (chunkX * 16+ random.nextInt(15));
+		int z = (chunkZ * 16+ random.nextInt(15));
+		int y = calculateGenerationHeight(world, x, z, topBlock);
+		BlockPos pos = new BlockPos (x,y - PosY ,z);
+		
+		Class<? extends Biome> biome = world.provider.getBiomeForCoords(pos).getClass();
+		
+		if(world.getWorldType() != WorldType.FLAT) {
+			if(classesList.contains(biome)) {
+
+				if(random.nextInt(chance) == 0) {
+
+					generator.generate(world, random, pos);
+					
+					for (int x2 = 0; x2 < 9; x2++)
+					{for (int z2 = 0; z2 < 9; z2++)
+					{
+						addFire(world, x-4+x2, z-4+z2);
+					}
+					}
+				}
+			}
+		}
+	}
 	
 	
 	public static void generateStructure(WorldGenerator generator, World world, Random random, int chunkX, int chunkZ, int PosY, int chance, Block topBlock,Class<? extends Biome>... classes) {
@@ -130,6 +163,20 @@ public class WorldGenCustomStructures implements IWorldGenerator
 		}
 	}
 		
+	private static  void addFire(World world, int x, int z) {
+		int y = world.getHeight();
+		boolean foundGround = false;
+			
+		while(!foundGround && y-- >= 0) {
+			Block block = world.getBlockState(new BlockPos(x,y,z)).getBlock();
+			
+			foundGround = block != Blocks.AIR;
+		}
+
+
+		world.setBlockState(new BlockPos(x, y+1, z), Blocks.FIRE.getDefaultState());
+	}
+	
 	private static int calculateGenerationHeight(World world, int x, int z, Block topBlock) {
 		int y = world.getHeight();
 		boolean foundGround = false;

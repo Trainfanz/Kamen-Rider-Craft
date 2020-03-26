@@ -12,8 +12,11 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.item.EntityTNTPrimed;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.util.BlockRenderLayer;
+import net.minecraft.util.EnumFacing;
+import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.Explosion;
@@ -23,7 +26,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class helheim_crack extends BlockHorizontal {
-	protected static final AxisAlignedBB CACTUS_COLLISION_AABB = new AxisAlignedBB(0.0625D, 0.0D, 0.0625D, 0.9375D, 0.9375D, 0.9375D);
+	protected static final AxisAlignedBB TallBlock = new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 2.0D, 1.0D);
 
 	public helheim_crack() {
 		super(Material.GROUND);
@@ -33,9 +36,7 @@ public class helheim_crack extends BlockHorizontal {
 		TokuCraft_core.ITEMS.add(new ItemBlock(this).setRegistryName(getRegistryName()));
 	}
 
-	public AxisAlignedBB getCollisionBoundingBox(IBlockState blockState, IBlockAccess worldIn, BlockPos pos) {
-		return CACTUS_COLLISION_AABB;
-	}
+
 
 	@SideOnly(Side.CLIENT)
 	public BlockRenderLayer getRenderLayer()
@@ -55,6 +56,18 @@ public class helheim_crack extends BlockHorizontal {
 	public boolean isOpaqueCube(IBlockState state) {
 		return false;
 	}
+	
+
+    @Override
+    public boolean isFullCube(IBlockState state)
+    {
+        return true;
+    }
+	
+    public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos)
+    {
+        return TallBlock;
+    }
 
 	  /**
      * Returns the quantity of items to drop on block destruction.
@@ -63,17 +76,23 @@ public class helheim_crack extends BlockHorizontal {
     {
         return 0;
     }
-	@Override
-	public void onEntityCollision(World worldIn, BlockPos pos, IBlockState state, Entity entityIn) {
-		if(!worldIn.isRemote) {
-			if (!entityIn.isRiding() && !entityIn.isBeingRidden() && entityIn.isNonBoss())
+
+    /**
+     * Called when the block is right clicked by a player.
+     */
+    public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
+    	if(!worldIn.isRemote) {
+			if (!playerIn.isRiding() && !playerIn.isBeingRidden() && playerIn.isNonBoss())
 			{
 			}
-			if (entityIn.dimension==modDimensionWorldGen.HELHEIM_DIM_ID){
-				entityIn.changeDimension(0, new HelhiemTeleporter());
+			if (playerIn.dimension==modDimensionWorldGen.HELHEIM_DIM_ID){
+				playerIn.changeDimension(0, new HelhiemTeleporter());
 			}else{
-				entityIn.changeDimension(modDimensionWorldGen.HELHEIM_DIM_ID, new HelhiemTeleporter());
+				playerIn.changeDimension(modDimensionWorldGen.HELHEIM_DIM_ID, new HelhiemTeleporter());
 			}
-		}
-	}
+            return true;
+        }
+    	
+        return false;
+    }
 }

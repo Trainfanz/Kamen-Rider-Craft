@@ -72,6 +72,9 @@ public class RiderBlocks {
 	
 	public static Block zero_liner_green = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("zero_liner_green").setCreativeTabe(Tabs.tabdecor).build();
 	
+	public static Block ginga_meteor = CustomBlock.builder().material(Material.ROCK).lightLevel(1f).blockType(BlockType.BASIC).name("ginga_meteor").setCreativeTabe(Tabs.tabdecor).build();
+	
+	
 public static void init() {
 	
 }

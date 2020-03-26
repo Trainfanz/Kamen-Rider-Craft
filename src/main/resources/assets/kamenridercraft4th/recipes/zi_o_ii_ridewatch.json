@@ -6,10 +6,10 @@
       "item": "kamenridercraft4th:zi_o_ridewatch"
     }, 
     {
-      "item": "minecraft:glass"
+      "item": "kamenridercraft4th:zi_o_mirror_ridewatch"
     } 
     ],
   "result": {
-    "item": "kamenridercraft4th:zi_o_mirror_ridewatch"
+    "item": "kamenridercraft4th:zi_o_ii_ridewatch"
   }
 }
