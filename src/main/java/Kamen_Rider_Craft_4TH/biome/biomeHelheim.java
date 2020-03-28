@@ -39,17 +39,17 @@ public class biomeHelheim extends Biome {
         //this.spawnableMonsterList.add(new Biome.SpawnListEntry(EntityKurokageTroopers.class,  20, 4, 6));
         //this.spawnableCreatureList.add(new Biome.SpawnListEntry(EntityKurokageTroopers.class,  10, 2, 4));
         
-		this.spawnableMonsterList.add(new Biome.SpawnListEntry(EntityElementaryInvesRed.class,  20, 4, 6));
-        this.spawnableCreatureList.add(new Biome.SpawnListEntry(EntityElementaryInvesRed.class,  10, 2, 4));
+		this.spawnableMonsterList.add(new Biome.SpawnListEntry(EntityElementaryInvesRed.class,  20, 2, 4));
+        this.spawnableCreatureList.add(new Biome.SpawnListEntry(EntityElementaryInvesRed.class,  10, 1, 1));
         
-        this.spawnableMonsterList.add(new Biome.SpawnListEntry(EntityElementaryInvesGreen.class,  20, 4, 6));
-        this.spawnableCreatureList.add(new Biome.SpawnListEntry(EntityElementaryInvesGreen.class,  10, 2, 4));
+        this.spawnableMonsterList.add(new Biome.SpawnListEntry(EntityElementaryInvesGreen.class,  20, 2, 4));
+        this.spawnableCreatureList.add(new Biome.SpawnListEntry(EntityElementaryInvesGreen.class,  10, 1, 1));
         
-        this.spawnableMonsterList.add(new Biome.SpawnListEntry(EntityElementaryInvesBlue.class,  20, 4, 6));
-        this.spawnableCreatureList.add(new Biome.SpawnListEntry(EntityElementaryInvesBlue.class,  10, 2, 4));
+        this.spawnableMonsterList.add(new Biome.SpawnListEntry(EntityElementaryInvesBlue.class,  20, 2, 4));
+        this.spawnableCreatureList.add(new Biome.SpawnListEntry(EntityElementaryInvesBlue.class,  10, 1, 1));
         
-        this.spawnableMonsterList.add(new Biome.SpawnListEntry(EntityByakkoInves.class,  20, 1, 4));
-        this.spawnableMonsterList.add(new Biome.SpawnListEntry(EntityHekijaInves.class,  20, 1, 4));
+        this.spawnableMonsterList.add(new Biome.SpawnListEntry(EntityByakkoInves.class,  10, 1, 4));
+        this.spawnableMonsterList.add(new Biome.SpawnListEntry(EntityHekijaInves.class,  10, 1, 4));
 	}
 
 
