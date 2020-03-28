@@ -84,7 +84,7 @@ public class EntityKurokageTroopers extends Entity_base_henchmen
 					 EntityBossBase entityboss3  = new Entity_Sigurd(world);
 					 EntityBossBase entityboss4  = new Entity_Duke(world);
 					 
-				switch (this.rand.nextInt(35))
+				switch (this.rand.nextInt(15))
 				{
 				case 0:
 					playerIn.sendMessage( new TextComponentString(TextFormatting.GREEN+"Soda! Melon Energy Arms!"));
