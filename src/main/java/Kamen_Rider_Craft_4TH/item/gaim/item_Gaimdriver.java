@@ -39,6 +39,7 @@ public class item_Gaimdriver extends ItemArmor  implements IHasModel
 	public String LOCK;
 	public int DRIVER;
 	public Item DIFLOCK;
+	public static String[] ARMS= new String[] {"","matsubokkuri_arms","kurumi_arms", "donguri_arms","melon_arms","pine_arms", "ichigo_arms", "orange_arms", "banana_arms", "budou_arms", "mango_arms", "durian_arms", "kiwi_arms", "energy_lemon_arms", "energy_cherry_arms", "energy_peach_arms", "energy_melon_arms","jimbar_lemon_arms","jimbar_cherry_arms","jimbar_peach_arms","jimbar_melon_arms", "energy_matsubokkuri_arms", "kachidoki_arms", "kiwami_arms", "yomotsu_heguri_arms", "blood_orange_arms", "fifteen_arms", "golden_arms", "silver_arms", "darkness_arms", "watermelon_arms", "ringo_arms","baron_ringo_arms","jimbar_black_arms", "wizard_arms", "fourze_arms", "ooo_arms", "w_arms", "decade_arms", "rider_ichigo_arms","suika_arms","lemon_arms","energy_dragon_fruits_arms","energy_prototype_dragon_fruits_arms","fresh_orange_arms","drive_arms","jimbar_marron_arms","blood_zakuro_arms","kuuga_arms","agito_arms","ryuki_arms","faiz_arms","blade_arms","hibiki_arms","kabuto_arms","den_o_arms","kiva_arms","gaim_arms","kabi_orange_arms","maja_arms","jimbar_dragon_arms","jimbar_melon_arms_zangetsu","jimbar_melon_arms_barvo","natsumikan_arms","black_baron_arms", "zangetsu_kachidoki_arms"};
 
 
 
@@ -61,7 +62,7 @@ public class item_Gaimdriver extends ItemArmor  implements IHasModel
 	@SideOnly(Side.CLIENT)
 	public boolean hasEffect(ItemStack par1ItemStack)
 	{
-			return !true;
+		return !true;
 	}
 	@Override
 	public void registerModels() {
@@ -78,25 +79,30 @@ public class item_Gaimdriver extends ItemArmor  implements IHasModel
 			if(stack.getItem() instanceof ItemArmor)
 			{
 				model_belt_plus armorModel = new model_belt_plus();
-				
+
 				if (this.RIDER=="ryugen"&this.get_lock(stack)=="yomotsu_heguri_arms"){
 					armorModel.belt = new ItemStack(RiderItems.sengoku_driver_ryugen_yomi);
-					
+
 				}else if (this.RIDER=="zangetsu"&this.get_lock(stack)=="watermelon_arms"){
 					armorModel.belt = new ItemStack(RiderItems.sengoku_driver_zangetsu_watermelon);
-					
+
 				}else{
 					armorModel.belt=stack;
 				}
-				
+
 				Item[] LOCK= new Item[] {RiderItems.himawari_lockseed,RiderItems.sengoku_driver_matsubokkuri,RiderItems.sengoku_driver_kurumi,RiderItems.sengoku_driver_donguri,RiderItems.sengoku_driver_melon,RiderItems.sengoku_driver_pine, RiderItems.sengoku_driver_ichigo, RiderItems.sengoku_driver_orange, RiderItems.sengoku_driver_banana, RiderItems.sengoku_driver_budou, RiderItems.sengoku_driver_mango, RiderItems.sengoku_driver_durian, RiderItems.sengoku_driver_kiwi, RiderItems.sengoku_driver_lemon_energy, RiderItems.sengoku_driver_cherry_energy, RiderItems.sengoku_driver_peach_energy, RiderItems.sengoku_driver_melon_energy,RiderItems.sengoku_driver_jinba_lemon,RiderItems.sengoku_driver_jinba_cherry,RiderItems.sengoku_driver_jinba_peach,RiderItems.sengoku_driver_jinba_melon,RiderItems.sengoku_driver_matsubokkuri_energy,RiderItems.sengoku_driver_kachidoki,RiderItems.sengoku_driver_kiwami,RiderItems.sengoku_driver_yomotsu_heguri,RiderItems.sengoku_driver_blood_orange,RiderItems.sengoku_driver_fifteen_lock,RiderItems.sengoku_driver_golden_ringo,RiderItems.sengoku_driver_silver_ringo,RiderItems.sengoku_driver_black_ringo,RiderItems.sengoku_driver_watermelon,RiderItems.sengoku_driver_forbidden_ringo,RiderItems.sengoku_driver_forbidden_ringo,RiderItems.sengoku_driver_jinba_black,RiderItems.sengoku_driver_wizard,RiderItems.sengoku_driver_fourze,RiderItems.sengoku_driver_ooo,RiderItems.sengoku_driver_w,RiderItems.sengoku_driver_decade,RiderItems.sengoku_driver_rider_ichigo,RiderItems.sengoku_driver_suika,RiderItems.sengoku_driver_lemon,RiderItems.sengoku_driver_dragon_fruits_energy,RiderItems.sengoku_driver_dragon_fruits_energy,RiderItems.sengoku_driver_orange_fr,RiderItems.sengoku_driver_drive,RiderItems.sengoku_driver_jinba_marron,RiderItems.sengoku_driver_blood_zakuro,RiderItems.sengoku_driver_kuuga,RiderItems.sengoku_driver_agito,RiderItems.sengoku_driver_ryuki,RiderItems.sengoku_driver_faiz,RiderItems.sengoku_driver_blade,RiderItems.sengoku_driver_hibiki,RiderItems.sengoku_driver_kaubuto,RiderItems.sengoku_driver_den_o,RiderItems.sengoku_driver_kiva,RiderItems.sengoku_driver_gaim_lock,RiderItems.sengoku_driver_kabi_orange,RiderItems.sengoku_driver_maja_lock,RiderItems.sengoku_driver_jinba_dragon,RiderItems.sengoku_driver_jinba_melon_melon,RiderItems.sengoku_driver_jinba_melon_durian,RiderItems.sengoku_driver_natsumikan,RiderItems.sengoku_driver_black_baron,RiderItems.sengoku_driver_zangetsu_kachidoki};
-				
-					if (stack.hasTagCompound())
+
+				if (stack.hasTagCompound()){
+					if( stack.getTagCompound().getInteger("seed")!=0)
 					{
-				armorModel.belt2=new ItemStack(LOCK[stack.getTagCompound().getInteger("seed")]);
+						armorModel.belt2=new ItemStack(LOCK[stack.getTagCompound().getInteger("seed")]);
+
 					}else{
 						armorModel.belt2=new ItemStack(DIFLOCK);	
 					}
+				}else{
+					armorModel.belt2=new ItemStack(DIFLOCK);	
+				}
 				//armorModel.bipedRightLeg.showModel = slot == EntityEquipmentSlot.FEET;
 				//armorModel.bipedLeftLeg.showModel = slot == EntityEquipmentSlot.FEET;
 
@@ -112,7 +118,7 @@ public class item_Gaimdriver extends ItemArmor  implements IHasModel
 		}
 		return null;
 	}
-	
+
 
 	@Override
 	public String getArmorTexture(ItemStack stack, Entity entity, EntityEquipmentSlot slot, String type)
@@ -143,11 +149,10 @@ public class item_Gaimdriver extends ItemArmor  implements IHasModel
 	{	
 		item_Gaimdriver belt = (item_Gaimdriver) itemstack.getItem();
 
-
-	return itemstack.hasTagCompound() ? Item_lockseed.ARMS[itemstack.getTagCompound().getInteger("seed")] : belt.LOCK;
+		return itemstack.hasTagCompound() ?itemstack.getTagCompound().getInteger("seed")!= 0 ? ARMS[itemstack.getTagCompound().getInteger("seed")] : belt.LOCK: belt.LOCK;
 	}
-	
-	
+
+
 
 
 	public static void set_lock(ItemStack itemstack,int flag)
@@ -171,237 +176,237 @@ public class item_Gaimdriver extends ItemArmor  implements IHasModel
 						if (player.getItemStackFromSlot(EntityEquipmentSlot.LEGS).getItem() == RiderItems.Gaimlegs){
 							if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == RiderItems.Gaimtroso){
 								if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == RiderItems.Gaimhead){
-	
+
 									player.addPotionEffect(new PotionEffect(MobEffects.SATURATION, 250, 5,true,false));
 
-									
-		if (this.get_lock(armor)=="matsubokkuri_arms"){
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
 
-		}
-		else if (this.get_lock(armor)=="kurumi_arms"){
+									if (this.get_lock(armor)=="matsubokkuri_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
 
-			if (player.getHeldItemMainhand().isEmpty())
-			{
-				player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));
+									}
+									else if (this.get_lock(armor)=="kurumi_arms"){
 
-			}
+										if (player.getHeldItemMainhand().isEmpty())
+										{
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));
 
-
-	}else if (this.get_lock(armor)=="donguri_arms"){
-
-		player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
-
-	}
+										}
 
 
-		else if (this.get_lock(armor)=="melon_arms"){
+									}else if (this.get_lock(armor)=="donguri_arms"){
+
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
+
+									}
 
 
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
-			
-		}else if (this.get_lock(armor)=="pine_arms"){
+									else if (this.get_lock(armor)=="melon_arms"){
 
 
-			player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));
-		}
-	else if (this.get_lock(armor)=="ichigo_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
+
+									}else if (this.get_lock(armor)=="pine_arms"){
 
 
-		player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 0,true,false));
-		player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
-		
-		}else if (this.get_lock(armor)=="banana_arms"){
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
-		}else if (this.get_lock(armor)=="budou_arms"){
-
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
-		}else if (this.get_lock(armor)=="mango_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));
+									}
+									else if (this.get_lock(armor)=="ichigo_arms"){
 
 
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
-		}
-	else if (this.get_lock(armor)=="durian_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
 
-		player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
-		player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
-		}else if (this.get_lock(armor)=="kiwi_arms"){
+									}else if (this.get_lock(armor)=="banana_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+									}else if (this.get_lock(armor)=="budou_arms"){
 
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
-			
-		}else if (this.get_lock(armor)=="jimbar_lemon_arms"||this.get_lock(armor)=="jimbar_black_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+									}else if (this.get_lock(armor)=="mango_arms"){
 
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.INVISIBILITY, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
-		}else if (this.get_lock(armor)=="jimbar_cherry_arms"){
 
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
-		}else if (this.get_lock(armor)=="jimbar_peach_arms"){
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
-		}else if (this.get_lock(armor)=="jimbar_dragon_arms"){
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
-		}else if (this.get_lock(armor)=="jimbar_marron_arms"){
-			if (player.getHeldItemMainhand().isEmpty())
-			{player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 6,true,false));
-			}player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
-	}else if (this.get_lock(armor)=="watermelon_arms"){
-		player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
-		player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
-		player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
-		player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
-		player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
-		player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
-	}else if (this.get_lock(armor)=="jimbar_melon_arms"||this.get_lock(armor)=="jimbar_melon_arms_zangetsu"||this.get_lock(armor)=="jimbar_melon_arms_barvo"){
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
-		}else if (this.get_lock(armor)=="kachidoki_arms"||this.get_lock(armor)=="zangetsu_kachidoki_arms"){
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
+									}
+									else if (this.get_lock(armor)=="durian_arms"){
 
-		}else if (this.get_lock(armor)=="energy_lemon_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+									}else if (this.get_lock(armor)=="kiwi_arms"){
 
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.INVISIBILITY, 5, 1,true,false));
-		}else if (this.get_lock(armor)=="lemon_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
 
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.INVISIBILITY, 5, 1,true,false));
-		}else if (this.get_lock(armor)=="energy_dragon_fruits_arms"||this.get_lock(armor)=="energy_prototype_dragon_fruits_arms"){
+									}else if (this.get_lock(armor)=="jimbar_lemon_arms"||this.get_lock(armor)=="jimbar_black_arms"){
 
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
-		}else if (this.get_lock(armor)=="energy_cherry_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.INVISIBILITY, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+									}else if (this.get_lock(armor)=="jimbar_cherry_arms"){
 
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
-		}else if (this.get_lock(armor)=="energy_peach_arms"){
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
-		}else if (this.get_lock(armor)=="energy_melon_arms"){
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
-		}else if (this.get_lock(armor)=="energy_matsubokkuri_arms"){
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
-			
-			
-		}
-		else if (this.get_lock(armor)=="orange_arms"||this.get_lock(armor)=="natsumikan_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+									}else if (this.get_lock(armor)=="jimbar_peach_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+									}else if (this.get_lock(armor)=="jimbar_dragon_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
+									}else if (this.get_lock(armor)=="jimbar_marron_arms"){
+										if (player.getHeldItemMainhand().isEmpty())
+										{player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 6,true,false));
+										}player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+									}else if (this.get_lock(armor)=="watermelon_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+									}else if (this.get_lock(armor)=="jimbar_melon_arms"||this.get_lock(armor)=="jimbar_melon_arms_zangetsu"||this.get_lock(armor)=="jimbar_melon_arms_barvo"){
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+									}else if (this.get_lock(armor)=="kachidoki_arms"||this.get_lock(armor)=="zangetsu_kachidoki_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
 
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
-			
-		}else if (this.get_lock(armor)=="kabi_orange_arms"){
+									}else if (this.get_lock(armor)=="energy_lemon_arms"){
 
-			player.addPotionEffect(new PotionEffect(MobEffects.WEAKNESS, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.MINING_FATIGUE, 5, 0,true,false));
-			
-		}else if (this.get_lock(armor)=="fresh_orange_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.INVISIBILITY, 5, 1,true,false));
+									}else if (this.get_lock(armor)=="lemon_arms"){
 
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
-			
-		}else if (this.get_lock(armor)=="kiwami_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.INVISIBILITY, 5, 1,true,false));
+									}else if (this.get_lock(armor)=="energy_dragon_fruits_arms"||this.get_lock(armor)=="energy_prototype_dragon_fruits_arms"){
 
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 3,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 2,true,false));
-		}else if (this.get_lock(armor)=="blood_orange_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
+									}else if (this.get_lock(armor)=="energy_cherry_arms"){
 
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
-		}else if (this.get_lock(armor)=="yomotsu_heguri_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
+									}else if (this.get_lock(armor)=="energy_peach_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+									}else if (this.get_lock(armor)=="energy_melon_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
+									}else if (this.get_lock(armor)=="energy_matsubokkuri_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
 
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 3,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.WITHER, 5, 5,true,false));
-		}else if (this.get_lock(armor)=="fifteen_arms"||this.get_lock(armor)=="maja_arms"){
 
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
-		}else if (this.get_lock(armor)=="golden_arms"){
+									}
+									else if (this.get_lock(armor)=="orange_arms"||this.get_lock(armor)=="natsumikan_arms"){
 
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 1,true,false));
-		}else if (this.get_lock(armor)=="darkness_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
 
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 2,true,false));
-		}else if (this.get_lock(armor)=="ringo_arms"||this.get_lock(armor)=="baron_ringo_arms"){
+									}else if (this.get_lock(armor)=="kabi_orange_arms"){
 
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 1,true,false));
-		}else if (this.get_lock(armor)=="silver_arms"){
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
-		}else if (this.get_lock(armor)=="blood_zakuro_arms"){
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.BLINDNESS, 5, 0,true,false));
-		}else if (this.get_lock(armor)=="suika_arms"){
-			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 4,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.MINING_FATIGUE, 5, 1,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false));
-			
-		}else if (this.get_lock(armor)=="black_baron_arms"){
-			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
-			
-		}
-		}}}}}}}}
+										player.addPotionEffect(new PotionEffect(MobEffects.WEAKNESS, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.MINING_FATIGUE, 5, 0,true,false));
+
+									}else if (this.get_lock(armor)=="fresh_orange_arms"){
+
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+
+									}else if (this.get_lock(armor)=="kiwami_arms"){
+
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 2,true,false));
+									}else if (this.get_lock(armor)=="blood_orange_arms"){
+
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+									}else if (this.get_lock(armor)=="yomotsu_heguri_arms"){
+
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.WITHER, 5, 5,true,false));
+									}else if (this.get_lock(armor)=="fifteen_arms"||this.get_lock(armor)=="maja_arms"){
+
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
+									}else if (this.get_lock(armor)=="golden_arms"){
+
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 1,true,false));
+									}else if (this.get_lock(armor)=="darkness_arms"){
+
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 2,true,false));
+									}else if (this.get_lock(armor)=="ringo_arms"||this.get_lock(armor)=="baron_ringo_arms"){
+
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 1,true,false));
+									}else if (this.get_lock(armor)=="silver_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
+									}else if (this.get_lock(armor)=="blood_zakuro_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.BLINDNESS, 5, 0,true,false));
+									}else if (this.get_lock(armor)=="suika_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.MINING_FATIGUE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false));
+
+									}else if (this.get_lock(armor)=="black_baron_arms"){
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+
+									}
+								}}}}}}}}
 	/**else if (this.get_lock(armor)=="wizard_arms"){
 
 
@@ -432,16 +437,16 @@ public class item_Gaimdriver extends ItemArmor  implements IHasModel
 
 	}
 	/**
- * Returns the 'max damage' factor array for the armor, each piece of armor have a durability factor (that gets
- * multiplied by armor material factor)
- */
-static int[] getMaxDamageArray()
-{
-	return maxDamageArray;
-}
+	 * Returns the 'max damage' factor array for the armor, each piece of armor have a durability factor (that gets
+	 * multiplied by armor material factor)
+	 */
+	static int[] getMaxDamageArray()
+	{
+		return maxDamageArray;
+	}
 
 
-/**
+	/**
 @Override
 public IIcon getIcon(ItemStack stack, int renderPass){
 
@@ -538,7 +543,7 @@ public IIcon getIcon(ItemStack stack, int renderPass){
 			return itemIcongenesis_lemon;
 		}else if (this.get_lock(stack)=="energy_dragon_fruits_arms"||this.get_lock(stack)=="energy_prototype_dragon_fruits_arms"){
 
-			
+
 			return itemIcongenesis_dragon;
 		}else if (this.get_lock(stack)=="energy_cherry_arms"){
 
@@ -626,13 +631,13 @@ public IIcon getIcon(ItemStack stack, int renderPass){
 
 			return itemIconlemon;
 		}else if (this.get_lock(stack)=="suika_arms"){
-		
+
 			return itemIconsuika;
 		}else if (this.get_lock(stack)=="black_baron_arms"){
-		
+
 			return itemIconblack_baron;
 
-		
+
 
 		else {
 			if ( DRIVER==0){
@@ -650,6 +655,6 @@ public IIcon getIcon(ItemStack stack, int renderPass){
 	}
 
 }
-**/
+	 **/
 
 }
