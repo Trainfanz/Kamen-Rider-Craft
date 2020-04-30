@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:blank_watch"
+    }, 
+    {
+      "item": "kamenridercraft4th:agito_ground"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:agito_ridewatch"
+  }
+}

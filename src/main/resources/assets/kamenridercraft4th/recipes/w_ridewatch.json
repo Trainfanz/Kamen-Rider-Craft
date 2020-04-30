@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:blank_watch"
+    }, 
+    {
+      "item": "kamenridercraft4th:joker_memory"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:w_ridewatch"
+  }
+}
