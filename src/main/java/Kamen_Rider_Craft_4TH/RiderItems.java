@@ -2787,6 +2787,19 @@ public class RiderItems {
 	public static Item agito_ridewatch = new Item_ridewatches(1, 17,"agito_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item kuuga_ridewatch = new Item_ridewatches(1, 18,"kuuga_ridewatch").setCreativeTab(Tabs.tabzi_o);
 
+	public static Item zero_one_ridewatch = new Item_ore("zero_one_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	
+	public static Item amazon_omega_ridewatch = new Item_ore("amazon_omega_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item amazon_alpha_ridewatch = new Item_ore("amazon_alpha_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item amazon_neo_ridewatch = new Item_ore("amazon_neo_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	
+	public static Item j_ridewatch = new Item_ore("j_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item zo_ridewatch = new Item_ore("zo_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item shin_ridewatch = new Item_ore("shin_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	
+	public static Item black_rx_ridewatch = new Item_ore("black_rx_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item robo_rider_ridewatch = new Item_ore("robo_rider_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item bio_rider_ridewatch = new Item_ore("bio_rider_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	
 	public static Item woz_miridewatch = new Item_ridewatches(0, 0,"woz_miridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item quiz_miridewatch = new Item_ridewatches(2, 22,"quiz_miridewatch").setCreativeTab(Tabs.tabzi_o);
