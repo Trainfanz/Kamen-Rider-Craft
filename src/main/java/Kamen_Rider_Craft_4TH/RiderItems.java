@@ -111,6 +111,7 @@ import Kamen_Rider_Craft_4TH.item.zero_one.Item_progrise_keys;
 import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onearmor;
 import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onearmor2;
 import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onedriver;
+import Kamen_Rider_Craft_4TH.item.zi_o.Item_blank_ridewatches2;
 import Kamen_Rider_Craft_4TH.item.zi_o.Item_ridewatches;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_kodamawatch;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zi_oarmor;
@@ -257,12 +258,6 @@ public class RiderItems {
 
 	public static Item unfinished_gear = new Item_ore("unfinished_gear").setCreativeTab(Tabs.tabbuild);
 	public static Block pandora_box_hellrock_2 = new ore_block("pandora_box_hellrock_2",Material.ROCK, unfinished_gear, 3).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
-
-	public static Item blank_watch = new Item_ore("blank_watch").setCreativeTab(Tabs.tabzi_o);
-	public static Block watch_stone = new ore_block("watch_stone",Material.ROCK, blank_watch, 2).setHardness(9.9F).setCreativeTab(Tabs.tabzi_o);
-
-	public static Item blank_miridewatch = new Item_ore("blank_miridewatch").setCreativeTab(Tabs.tabzi_o);
-	public static Block watch_hellrock = new ore_block("watch_hellrock",Material.ROCK, blank_miridewatch, 2).setHardness(9.9F).setCreativeTab(Tabs.tabzi_o);
 
 	public static Item amazon_cell_vial = new Item_ore("amazon_cell_vial").setCreativeTab(Tabs.tabamazons);
 	public static Block amazon_cell_block = new ore_block("amazon_cell_block",Material.ROCK, amazon_cell_vial, 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabamazons);
@@ -2819,6 +2814,10 @@ public class RiderItems {
 
 	public static Item woz_ridewatch = new Item_ridewatches(0, 0,"woz_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item ryusoulger_ridewatch = new Item_ore("ryusoulger_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	
+	public static Item blank_watch = new Item_blank_ridewatches2("blank_watch").setCreativeTab(Tabs.tabzi_o);
+	public static Item blank_miridewatch = new Item_ore("blank_miridewatch").setCreativeTab(Tabs.tabzi_o);
+
 	
 	public static Item shuriken_starter = new Item_ore("shuriken_starter").setCreativeTab(Tabs.tabzi_o);
 	public static Item shuriken_starter_hattari = new Item_ore("shuriken_starter_hattari").setCreativeTab(Tabs.tabzi_o);
