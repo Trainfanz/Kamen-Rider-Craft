@@ -62,6 +62,15 @@ entity.lord_baronMob.name=Lord Baron
 entity.GaohMob.name=Kamen Rider Gaoh
 entity.MachineDenBirdMob.name=Machine Den-Bird
 
+entity.new_mole_imagin_sandMob.name=New Mole Imagin (Sand)
+entity.new_mole_imaginMob.name=New Mole Imagin
+entity.MomotarosMob.name=Momotaros
+entity.UratarosMob.name=Urataros
+entity.KintarosMob.name=Kintaros
+entity.RyutarosMob.name=Ryutaros
+entity.WhiteWozMob.name=Kamen Rider Woz (White)
+entity.GingaMob.name=Kamen Rider Ginga
+
 effect.fly=Flying
 effect.fire_punch=Fire Punch
 effect.punch_boost=Punch Boost
@@ -2146,6 +2155,8 @@ item.forceriser_jin.name=MetsubouJinrai ForceRiser (Jin)
 item.forceriser_horobi.name=MetsubouJinrai ForceRiser (Horobi)
 item.forceriser_ikazuchi.name=MetsubouJinrai ForceRiser (Ikazuchi)
 item.forceriser_001.name=MetsubouJinrai ForceRiser (001)
+
+item.zaia_slashriser_jin.name=ZAIA SlashRiser (Jin)
 
 item.shot_riser_gun.name=AIMS Shot Riser 
 
