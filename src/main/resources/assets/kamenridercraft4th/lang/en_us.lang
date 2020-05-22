@@ -217,7 +217,7 @@ tile.king_liner__windo.name=King Liner Window
 tile.gaoh_liner_gold.name=Gaoh Liner Gold
 tile.gaoh_liner_green.name=Gaoh Liner Green
 tile.gaoh_liner_windo.name=Gaoh Liner Window
-
+tile.zero_liner_green.name=Zero Liner Green
 
 tile.helheim_plant.name=Helheim Plant
 tile.helheim_plant_2.name=Helheim Plant
@@ -225,6 +225,8 @@ tile.helheim_plant_3.name=Helheim Plant
 tile.helheim_plant_4.name=Helheim Plant
 
 tile.counter_95do.name=9-5 Counter
+
+tile.ginga_meteor.name=Ginga Meteor Rock
 
 item.energy.name=Energy Shot
 
@@ -691,6 +693,8 @@ item.macheteddy.name=Macheteddy
 item.gden_dengu.name=G DenGasher Gun Mode
 item.momotaro_sword.name=Momotaro Sword
 item.uratarod.name=Uratarod
+item.kintaros_ax.name=Kintaros Ax
+item.ryu_volver.name=Ryuvolver
 
 item.zerogasher.name=ZeroGasher
 
@@ -1732,6 +1736,7 @@ item.gamer_driver_truebrave.name=Gamer Driver (True Brave)
 item.gamer_driver_fuuma.name=Gamer Driver (Fuuma)
 item.gamer_driver_proto_brave.name=Gamer Driver (Proto Brave)
 item.gamer_driver_proto_snipe.name=Gamer Driver (Proto Snipe)
+item.gamer_driver_proto_lazer.name=Gamer Driver (Proto Lazer)
 item.gamer_driver_chronos.name=Gamer Driver (Chronos)     
 item.gamer_driver_anotherparadox.name=Gamer Driver (Another Paradox)
 item.gamer_driver_gamedeus_muteki.name=Gamer Driver (Gamedeus Muteki)
@@ -2062,8 +2067,11 @@ item.ziku_driver_zonjis.name=Ziku Driver (Zonjis)
 item.ziku_driver_zamonas.name=Ziku Driver (Zamonas)
 item.another_build_driver.name=Another Build Driver
 item.another_exaid_driver.name=Another Ex-Aid Driver
+item.another_ghost_driver.name=Another Ghost Driver
+item.another_gaim_driver.name=Another Gaim Driver
 item.another_wizard_driver.name=Another Wizard Driver
 item.another_fourze_driver.name=Another Fourze Driver
+item.another_ooo_driver.name=Another OOO Driver
 item.another_faiz_driver.name=Another Faiz Driver
 item.ziku_driver_tsukuyomi.name=Ziku Driver (Tsukuyomi)
 
@@ -2128,6 +2136,20 @@ item.quiz_miridewatch.name=Quiz Miridewatch
 item.shinobi_miridewatch.name=Shinobi Miridewatch
 item.kikai_miridewatch.name=Kikai Miridewatch
 item.ginga_miridewatch.name=Ginga Miridewatch
+
+item.j_ridewatch.name=J Ridewatch
+item.zo_ridewatch.name=ZO Ridewatch
+item.shin_ridewatch.name=Shin Ridewatch
+
+item.black_rx_ridewatch.name=Black RX Ridewatch
+item.robo_rider_ridewatch.name=Robo Rider Ridewatch
+item.bio_rider_ridewatch.name=Bio Rider Ridewatch
+
+item.amazon_omega_ridewatch.name=Amazon Omega Ridewatch
+item.amazon_alpha_ridewatch.name=Amazon Alpha Ridewatch
+item.amazon_neo_ridewatch.name=Amazon Neo Ridewatch
+
+item.zero_one_ridewatch.name=Zero-One Ridewatch
 
 item.woz_ridewatch.name=Woz Ridewatch
 item.unfinished_grandzi_o_ridewatch_1.name=Unfinished Grand Zi-O Ridewatch Part

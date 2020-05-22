@@ -4,7 +4,11 @@
     "recipes": [
       "kamenridercraft4th:ziku_driver_zi_o",
       "kamenridercraft4th:zikan_grade",
-	  "kamenridercraft4th:zi_o_mirror_ridewatch"
+	  "kamenridercraft4th:zi_o_mirror_ridewatch",
+      "kamenridercraft4th:zi_o_ii_ridewatch",
+      "kamenridercraft4th:grandzi_o_ridewatch",
+      "kamenridercraft4th:unfinished_grandzi_o_ridewatch_1",
+      "kamenridercraft4th:unfinished_grandzi_o_ridewatch_2"
     ]
   },
   "criteria": {
