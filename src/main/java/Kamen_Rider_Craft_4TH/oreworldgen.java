@@ -190,8 +190,6 @@ public class oreworldgen implements IWorldGenerator
 
 			new WorldGenMinable(RiderItems.ooo_hellrock.getDefaultState(), 9, BlockMatcher.forBlock(Blocks.NETHERRACK)).generate(world, rand,position);
 	}	
-
-	
 		for (int i = 0; i < 2; i++)
 		{
 			//16x16 area up to y = 64
@@ -353,7 +351,6 @@ public class oreworldgen implements IWorldGenerator
 			BlockPos position = new BlockPos(randPosX, randPosY, randPosZ);
 			(new WorldGenMinable(RiderItems.drive_stone.getDefaultState(), 10)).generate(world, rand,position);
 		}
-	
 		for (int i = 0; i < 4; i++)
 		{
 			//16x16 area up to y = 64
@@ -364,8 +361,6 @@ public class oreworldgen implements IWorldGenerator
 			BlockPos position = new BlockPos(randPosX, randPosY, randPosZ);
 			(new WorldGenMinable(RiderItems.amazon_cell_block.getDefaultState(), 10)).generate(world, rand,position);
 		}
-	
-
 	}
 
 	public void generateEnd()

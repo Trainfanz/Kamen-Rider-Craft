@@ -2722,6 +2722,7 @@ public class RiderItems {
 	
 	public static Item another_build_driver = new item_zikudriver("another_build_driver",ArmorMaterial.DIAMOND, 4, "another_build",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item another_exaid_driver = new item_zikudriver("another_exaid_driver",ArmorMaterial.DIAMOND, 4, "another_ex_aid",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
+	public static Item another_ghost_driver = new item_zikudriver("another_ghost_driver",ArmorMaterial.DIAMOND, 4, "another_ghost",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item another_gaim_driver = new item_zikudriver("another_gaim_driver",ArmorMaterial.DIAMOND, 4, "another_gaim",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item another_wizard_driver = new item_zikudriver("another_wizard_driver",ArmorMaterial.DIAMOND, 4, "another_wizard",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item another_fourze_driver = new item_zikudriver("another_fourze_driver",ArmorMaterial.DIAMOND, 4, "another_fourze",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
@@ -2814,11 +2815,10 @@ public class RiderItems {
 
 	public static Item woz_ridewatch = new Item_ridewatches(0, 0,"woz_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item ryusoulger_ridewatch = new Item_ore("ryusoulger_ridewatch").setCreativeTab(Tabs.tabzi_o);
-	
+
 	public static Item blank_watch = new Item_blank_ridewatches2("blank_watch").setCreativeTab(Tabs.tabzi_o);
 	public static Item blank_miridewatch = new Item_ore("blank_miridewatch").setCreativeTab(Tabs.tabzi_o);
 
-	
 	public static Item shuriken_starter = new Item_ore("shuriken_starter").setCreativeTab(Tabs.tabzi_o);
 	public static Item shuriken_starter_hattari = new Item_ore("shuriken_starter_hattari").setCreativeTab(Tabs.tabzi_o);
 	public static Item quiz_topper = new Item_ore("quiz_topper").setCreativeTab(Tabs.tabzi_o);
