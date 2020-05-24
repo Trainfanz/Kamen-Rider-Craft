@@ -160,7 +160,7 @@ public class RiderItems {
 	public static Item contract_advent = new Item_advent_cards("contract_advent",2,"1").setCreativeTab(Tabs.tabryuki);
 	public static Block advent_glass= new glass_ore_block("advent_glass",Material.ROCK, contract_advent, 2).setHardness(9.9F).setCreativeTab(Tabs.tabryuki);
 
-	public static Item dragblacker_advent = new Item_ore("dragblacker_advent").setCreativeTab(Tabs.tabryuki);
+	public static Item dragblacker_advent = new Item_advent_cards("dragblacker_advent",0,"3").setCreativeTab(Tabs.tabryuki);
 	public static Block hell_advent_glass= new glass_ore_block("hell_advent_glass",Material.ROCK, dragblacker_advent, 3).setHardness(9.9F).setCreativeTab(Tabs.tabryuki);
 
 	public static Item blank_mission_memory = new Item_ore("blank_mission_memory").setCreativeTab(Tabs.tabfaiz);
@@ -626,7 +626,7 @@ public class RiderItems {
 
 	public static Item drag_shield = new ItemBaseShield("drag_shield").setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
 
-	public static Item drag_visor_zwei_big = new Item_ore("drag_visor_zwei_big");
+	//public static Item drag_visor_zwei_big = new Item_ore("drag_visor_zwei_big");
 	public static Item drag_visor_zwei = new ItemBaseSword("drag_visor_zwei",Tabs.denkamen_sword).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
 
 	public static Item dark_visor = new ItemBaseSword("dark_visor",Tabs.den_denso).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
@@ -737,7 +737,7 @@ public class RiderItems {
 	public static Item wing_slasher_vent = new Item_vent("wing_slasher_vent","femme",wing_slasher,0,blanc_visor).setCreativeTab(Tabs.tabryuki);
 	public static Item ryuga_drag_saber_vent = new Item_vent("ryuga_drag_saber_vent","ryuga",drag_saber_ryuga,0,dark_drag_visor).setCreativeTab(Tabs.tabryuki);
 	public static Item gold_sabers_vent = new Item_vent("gold_sabers_vent","odin",gold_sabers,0,gold_visor).setCreativeTab(Tabs.tabryuki);
-	public static Item drag_visor_zwei_sword_mode_vent = new Item_vent("drag_visor_zwei_sword_mode_vent","ryuki",drag_visor_zwei,1,drag_visor_zwei).setCreativeTab(Tabs.tabryuki);
+	public static Item drag_visor_zwei_sword_mode_vent = new Item_vent("drag_visor_zwei_sword_mode_vent","ryuki",drag_visor_zwei,1,drag_visor).setCreativeTab(Tabs.tabryuki);
 	public static Item dark_blade_vent = new Item_vent("dark_blade_vent","knight",dark_blade,1,dark_visor).setCreativeTab(Tabs.tabryuki);
 
 	public static Item abyss_saber_vent = new Item_vent("abyss_saber_vent","abyss",abyss_saber,0,abyss_visor).setCreativeTab(Tabs.tabryuki);

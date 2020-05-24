@@ -77,7 +77,7 @@ public class ore_block extends Block implements IHasModel {
 			if (rand < 66) return RiderItems.henshin_onsa_touki;
 			if (rand < 69) return RiderItems.henshin_onsa_kirameki;
 			if (rand < 71) return RiderItems.henshin_onsa_nishiki;
-			if (rand < 73) return RiderItems.henshin_onibue_fubuki;
+			if (rand < 73) return RiderItems.henshin_onsa_habataki;
 			return CRYSTAL;
 		}
 		

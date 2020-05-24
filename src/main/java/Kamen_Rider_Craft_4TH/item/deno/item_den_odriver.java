@@ -84,7 +84,7 @@ public class item_den_odriver extends ItemArmor implements IHasModel
 								if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == RiderItems.den_ohead){
 
 									
-									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.den_odriver&player.inventory.hasItemStack(new ItemStack (RiderItems.den_oriderpass))){
+									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.den_odriver){
 
 										if (this.get_core(armor)==0){
 											player.addPotionEffect(new PotionEffect(MobEffects.WEAKNESS, 5, 0,true,false));
@@ -153,7 +153,7 @@ public class item_den_odriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 1,true,false));
 
 										}										
-									}if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.newden_obelt&player.inventory.hasItemStack(new ItemStack (RiderItems.den_oriderpass))){
+									}if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.newden_obelt){
 										if (this.get_core(armor)==1){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
@@ -169,14 +169,14 @@ public class item_den_odriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
 										
 									}
-								}if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.nega_den_odriver&player.inventory.hasItemStack(new ItemStack (RiderItems.den_oriderpass))){
+								}if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.nega_den_odriver){
 									player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
 									player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
 									player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
 									player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
 								}
 							}
-							}if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.yuukibelt_skull&player.inventory.hasItemStack(new ItemStack (RiderItems.den_oriderpass))){
+							}if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.yuukibelt_skull){
 								player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
 								player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
 								player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
@@ -184,7 +184,7 @@ public class item_den_odriver extends ItemArmor implements IHasModel
 								player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 1,true,false));
 								player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
 							}
-					}if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.yuukibelt_hijack&player.inventory.hasItemStack(new ItemStack (RiderItems.den_oriderpass))){
+					}if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.yuukibelt_hijack){
 						player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
 						player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 4,true,false));
 						player.addPotionEffect(new PotionEffect(MobEffects.SLOWNESS, 5, 0,true,false));
@@ -192,14 +192,14 @@ public class item_den_odriver extends ItemArmor implements IHasModel
 						player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
 					}
 				}
-				}if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.gden_odriver&player.inventory.hasItemStack(new ItemStack (RiderItems.gden_oriderpass))){	
+				}if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.gden_odriver){	
 					player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,0,true,false));
 					player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 					player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
 					player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 0,true,false));
 					player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
 			}
-			}if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.gaohbelt&player.inventory.hasItemStack(new ItemStack (RiderItems.den_o_master_pass))){	
+			}if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.gaohbelt){	
 				player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
 				player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));	
 		}
