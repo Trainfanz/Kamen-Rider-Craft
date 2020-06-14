@@ -167,7 +167,23 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 							return Refercence.MODID+":textures/armor/"+"core_power_up_3" +".png";
 						}
 						return Refercence.MODID+":textures/armor/blank.png";
+					}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.greeed_blet_ankh){
+						if ( slot == EntityEquipmentSlot.HEAD)
+						{
+							return Refercence.MODID+":textures/armor/"+"ankh_complete_1" +".png";
+						}
+						if ( slot == EntityEquipmentSlot.CHEST)
+						{
+							return Refercence.MODID+":textures/armor/"+"ankh_complete_2" +".png";
+						}
+
+						if ( slot == EntityEquipmentSlot.LEGS)
+						{
+							return Refercence.MODID+":textures/armor/"+"ankh_complete_3" +".png";
+						}
+						return Refercence.MODID+":textures/armor/blank.png";
 					}
+
 
 
 				}
