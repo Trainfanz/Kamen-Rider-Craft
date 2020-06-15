@@ -2901,6 +2901,8 @@ public class RiderItems {
 	public static Item storming_penguin_progrise_key = new Item_progrise_keys(0, 18,"storming_penguin_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item hopping_kangaroo_progrise_key = new Item_progrise_keys(0, 14,"hopping_kangaroo_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item splashing_whale_progrise_key = new Item_progrise_keys(0, 22,"splashing_whale_progrise_key").setCreativeTab(Tabs.tabzero_one);
+
+	public static Item dynamaiting_lion_progrise_key = new Item_progrise_keys(0, 24,"dynamaiting_lion_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item shooting_wolf_progrise_key = new Item_progrise_keys(1, 3,"shooting_wolf_progrise_key").AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
 	public static Item assault_wolf_progrise_key = new Item_progrise_keys(1, 3,"assault_wolf_progrise_key").AddChangeBase(2).setCreativeTab(Tabs.tabzero_one);
