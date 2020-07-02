@@ -2876,8 +2876,14 @@ public class RiderItems {
 	public static Item forceriser_ikazuchi = new item_zero_onedriver("forceriser_ikazuchi",ArmorMaterial.DIAMOND, 4, "ikazuchi",20).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item forceriser_001 = new item_zero_onedriver("forceriser_001",ArmorMaterial.DIAMOND, 4, "zero_zero_one",19).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 
+	public static Item cycloneriser_ichigata = new item_zero_onedriver("Cycloneriser_ichigata",ArmorMaterial.DIAMOND, 4, "ichigata",19).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	
 	public static Item zaia_slashriser_jin = new item_zero_onedriver("zaia_slashriser_jin",ArmorMaterial.DIAMOND, 4, "jin_burning",1).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
+	public static Item ark_driver_zero = new item_zero_onedriver("ark_driver_zero",ArmorMaterial.DIAMOND, 4, "ark_zero",19).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	
+	
+	public static Item hiden_zero_two_driver = new Item_ore("hiden_zero_two_driver");
 	public static Item shot_riser_belt = new Item_ore("shot_riser_belt");
 	
 	public static Item shot_riser_gun = new Item_gun("shot_riser_gun",Tabs.den_dengu).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
@@ -2886,6 +2892,7 @@ public class RiderItems {
 	public static Item shining_hopper_progrise_key = new Item_progrise_keys(0, 19,"shining_hopper_progrise_key").AddChangeBase(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item shining_assault_hopper_progrise_key = new Item_progrise_keys(0, 19,"shining_assault_hopper_progrise_key").AddChangeBase(2).setCreativeTab(Tabs.tabzero_one);
 	public static Item metalcluster_hopper_progrise_key = new Item_progrise_keys(0, 19,"metalcluster_hopper_progrise_key").AddChangeBase(3).setCreativeTab(Tabs.tabzero_one);
+	public static Item zero_two_progrise_key = new Item_progrise_keys(0, 19,"zero_two_progrise_key").AddChangeBase(4).setCreativeTab(Tabs.tabzero_one);
 	
 	
 	public static Item biting_shark_progrise_key = new Item_progrise_keys(0, 2,"biting_shark_progrise_key").setCreativeTab(Tabs.tabzero_one);
@@ -2906,6 +2913,7 @@ public class RiderItems {
 	
 	public static Item shooting_wolf_progrise_key = new Item_progrise_keys(1, 3,"shooting_wolf_progrise_key").AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
 	public static Item assault_wolf_progrise_key = new Item_progrise_keys(1, 3,"assault_wolf_progrise_key").AddChangeBase(2).setCreativeTab(Tabs.tabzero_one);
+	public static Item rampage_gatling_progrise_key = new Item_progrise_keys(1, 3,"rampage_gatling_progrise_key").AddChangeBase(5).setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item punching_kong_progrise_key = new Item_progrise_keys(1, 5,"punching_kong_progrise_key").AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
 	
