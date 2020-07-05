@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:hiden_metal"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:zero_onehead"
+  }
+}

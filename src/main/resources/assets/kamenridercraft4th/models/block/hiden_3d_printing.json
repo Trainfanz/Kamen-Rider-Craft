@@ -1,0 +1,24 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "particle": "kamenridercraft4th:blocks/hiden_3d_printing_side",
+        "0": "kamenridercraft4th:blocks/hiden_3d_printing_front",
+        "1": "kamenridercraft4th:blocks/hiden_3d_printing_top",
+        "2": "kamenridercraft4th:blocks/hiden_3d_printing_side"
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 0.0, 0.0, 0.0 ], 
+            "to": [ 16.0, 16.0, 16.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "east": { "texture": "#2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "south": { "texture": "#2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "west": { "texture": "#2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "up": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "down": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        }
+    ]
+}

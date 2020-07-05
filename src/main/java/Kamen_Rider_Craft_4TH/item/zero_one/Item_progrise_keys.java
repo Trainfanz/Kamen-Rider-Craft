@@ -3,6 +3,8 @@ package Kamen_Rider_Craft_4TH.item.zero_one;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.blocks.hiden_3d_printing;
+import Kamen_Rider_Craft_4TH.blocks.zaia_3d_printing;
 import Kamen_Rider_Craft_4TH.blocks.wood.BlockHelheimVine;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.entity.Entity;
@@ -29,7 +31,7 @@ public class Item_progrise_keys extends Item implements IHasModel
 	public static String[] ARMS= new String[] {"base","falcon","shark","wolf","cheetah",
 			"kong","tiger","cheetah","bear","hornet","scorpion","giraffe","hercules",
 			"hedgehog","kangaroo","buffalo","stag","spider","penguin","hopper","dodo",
-			"caucasus","whale","mammoth","lion"};
+			"caucasus","whale","mammoth","lion","panda","burning_falcon"};
 
 
 
@@ -51,19 +53,36 @@ public class Item_progrise_keys extends Item implements IHasModel
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
 	}
-
-	 public Item AddZeroOneCanUse()
+	 public Item_progrise_keys AddToHiden3DPrinter(int num)
+	    {
+	    	for (int i1 = 0; i1 < num; ++i1)
+			{
+	    		hiden_3d_printing.hiden_progrise_keys.add(this);
+			}
+	        return this;
+	    }
+	 public Item_progrise_keys AddToZaia3DPrinter(int num)
+	    {
+	    	for (int i1 = 0; i1 < num; ++i1)
+			{
+	    		zaia_3d_printing.zaia_progrise_keys.add(this);
+			}
+	        return this;
+	    }
+	 
+	
+	 public Item_progrise_keys AddZeroOneCanUse()
 	    {
 		 CanZeroOneUse=true;
 		 return this;
 	    }
 	 
-	 public Item AddVulcanCanUse()
+	 public Item_progrise_keys AddVulcanCanUse()
 	    {
 		 CanVulcanUse=true;
 		 return this;
 	    }
-	 public Item AddChangeBase(int num)
+	 public Item_progrise_keys AddChangeBase(int num)
 	    {
 		 setBase=num;
 		 return this;
