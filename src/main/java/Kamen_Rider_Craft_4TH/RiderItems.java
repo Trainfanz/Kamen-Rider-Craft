@@ -2885,6 +2885,14 @@ public class RiderItems {
 	
 	public static Item ark_driver_zero = new item_zero_onedriver("ark_driver_zero",ArmorMaterial.DIAMOND, 4, "ark_zero",19).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
+	public static Item zetsumeriser_berothra = new item_zero_onedriver("zetsumeriser_berothra",ArmorMaterial.DIAMOND, 4, "magia_berothra",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item zetsumeriser_kuehne = new item_zero_onedriver("zetsumeriser_kuehne",ArmorMaterial.DIAMOND, 4, "magia_kuehne",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item zetsumeriser_ekal = new item_zero_onedriver("zetsumeriser_ekal",ArmorMaterial.DIAMOND, 4, "magia_ekal",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item zetsumeriser_dodo = new item_zero_onedriver("zetsumeriser_dodo",ArmorMaterial.DIAMOND, 4, "magia_dodo",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	
+	public static Item zetsumeriser_dodo_custom = new item_zero_onedriver("zetsumeriser_dodo_custom",ArmorMaterial.DIAMOND, 4, "magia_dodo_custom",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item zetsumeriser_dodo_custom_v2 = new item_zero_onedriver("zetsumeriser_dodo_custom_v2",ArmorMaterial.DIAMOND, 4, "magia_dodo_custom_v2",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	
 	
 	public static Item hiden_zero_two_driver = new Item_ore("hiden_zero_two_driver");
 	public static Item shot_riser_belt = new Item_ore("shot_riser_belt");
