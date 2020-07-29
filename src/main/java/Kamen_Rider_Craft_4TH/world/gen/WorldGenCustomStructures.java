@@ -23,6 +23,7 @@ import net.minecraft.world.biome.BiomeJungle;
 import net.minecraft.world.biome.BiomeMesa;
 import net.minecraft.world.biome.BiomePlains;
 import net.minecraft.world.biome.BiomeSavanna;
+import net.minecraft.world.biome.BiomeSwamp;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.IChunkGenerator;
 import net.minecraft.world.gen.feature.WorldGenerator;
@@ -56,6 +57,7 @@ public class WorldGenCustomStructures implements IWorldGenerator
 	public static final WorldGenStructure kingliner = new WorldGenStructure("kingliner");
 	public static final WorldGenStructure zeroliner = new WorldGenStructure("zeroliner");
 	
+	public static final WorldGenStructure day_brake_town = new WorldGenStructure("day_brake_town");
 	
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
@@ -66,6 +68,7 @@ public class WorldGenCustomStructures implements IWorldGenerator
 				generateStructure(ROGUE_BASE, world, random, chunkX, chunkZ,11, 1000, Blocks.DIRT, BiomePlains.class,BiomeSavanna.class,BiomeForest.class,BiomeHills.class);
 				generateStructure(PANDORA_TOWER, world, random, chunkX, chunkZ,-1, 1500, Blocks.DIRT, BiomePlains.class,BiomeSavanna.class,BiomeForest.class,BiomeHills.class);
 				generateStructure(HELHEIM_CRACK, world, random, chunkX, chunkZ,-1, 500, Blocks.DIRT, BiomePlains.class,BiomeMesa.class,BiomeForest.class,BiomeJungle.class);
+				generateStructure(day_brake_town, world, random, chunkX, chunkZ,5, 1000, Blocks.DIRT, BiomePlains.class,BiomeSavanna.class,BiomeForest.class,BiomeSwamp.class);
 				
 				generateStructureFlames(GINGA, world, random, chunkX, chunkZ,1, 800, Blocks.STONE, BiomeHills.class);
 				

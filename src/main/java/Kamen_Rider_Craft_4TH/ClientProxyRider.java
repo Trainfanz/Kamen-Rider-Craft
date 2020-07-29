@@ -4,6 +4,7 @@ package Kamen_Rider_Craft_4TH;
 import com.jcraft.jorbis.Block;
 
 import Kamen_Rider_Craft_4TH.mobs.EntityAnkh;
+import Kamen_Rider_Craft_4TH.mobs.EntityIS;
 import Kamen_Rider_Craft_4TH.mobs.EntityKintaros;
 import Kamen_Rider_Craft_4TH.mobs.EntityLazer;
 import Kamen_Rider_Craft_4TH.mobs.EntityMomotaros;
@@ -41,6 +42,8 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_3;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_gaoh;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_genm;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_grease;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_horobi;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_jin;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_lord_baron;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_magia;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_nazca_dopant;
@@ -140,6 +143,12 @@ public class ClientProxyRider extends CommonProxyRider
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_trilobite_magia.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_magia.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
+		
+		RenderingRegistry.registerEntityRenderingHandler(Entity_horobi.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_jin.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
+
+		RenderingRegistry.registerEntityRenderingHandler(EntityIS.class, new RenderRiderMob2(new ModelPoppy(), 0.5F,"textures/entities/is.png"));
+		
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityElementaryInvesGreen.class, new RenderRiderMob2(new Model_elementary_inves(), 0.5F,"textures/entities/elementary_inves_green.png"));
 		RenderingRegistry.registerEntityRenderingHandler(EntityElementaryInvesRed.class, new RenderRiderMob2(new Model_elementary_inves(), 0.5F,"textures/entities/elementary_inves_red.png"));

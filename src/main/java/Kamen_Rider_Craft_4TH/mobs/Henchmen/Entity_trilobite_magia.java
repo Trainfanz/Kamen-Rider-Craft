@@ -9,6 +9,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.EntityBossBase;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Para_dx;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Red_Poppy;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_genm;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_jin;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_magia;
 import net.minecraft.block.Block;
 
@@ -62,17 +63,44 @@ public class Entity_trilobite_magia extends Entity_base_henchmen
 			if (this.getAttackTarget()instanceof EntityPlayer){
 				EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
 				 EntityBossBase entityboss  = new Entity_magia(world);
-			switch (this.rand.nextInt(25))
+
+				 EntityBossBase entity_jin  = new Entity_jin(world);
+			switch (this.rand.nextInt(50))
 			{
 			case 0:
 				playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Zetsumerise!"));
 				entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
 				world.spawnEntity(entityboss);
 				break;
+			case 1:
+				playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Zetsumerise!"));
+				entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				world.spawnEntity(entityboss);
+				break;
+			case 2:
+				playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Zetsumerise!"));
+				entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				world.spawnEntity(entityboss);
+				break;
+			case 3:
+				playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Zetsumerise!"));
+				entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				world.spawnEntity(entityboss);
+				break;
+			case 4:
+				playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Zetsumerise!"));
+				entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				world.spawnEntity(entityboss);
+				break;
+			case 5:
+				playerIn.sendMessage( new TextComponentString(TextFormatting.LIGHT_PURPLE+"Forcerise! Flying Falcon! Break down."));
+				entity_jin.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				world.spawnEntity(entityboss);
+				break;
 	
 			}
 			this.dropItem(RiderItems.blank_progrise_key, 1);
-			this.dropItem(RiderItems.hiden_metal, 1);
+			this.dropItem(RiderItems.hiden_metal, 2);
 			switch (this.rand.nextInt(25))
 			{
 			case 0:

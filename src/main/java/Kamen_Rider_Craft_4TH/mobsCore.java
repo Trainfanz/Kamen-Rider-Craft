@@ -2,6 +2,7 @@ package Kamen_Rider_Craft_4TH;
 
 import Kamen_Rider_Craft_4TH.biome.riderBiomes;
 import Kamen_Rider_Craft_4TH.mobs.EntityAnkh;
+import Kamen_Rider_Craft_4TH.mobs.EntityIS;
 import Kamen_Rider_Craft_4TH.mobs.EntityKintaros;
 import Kamen_Rider_Craft_4TH.mobs.EntityLazer;
 import Kamen_Rider_Craft_4TH.mobs.EntityMomotaros;
@@ -37,6 +38,8 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_3;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_gaoh;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_genm;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_grease;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_horobi;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_jin;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_lord_baron;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_magia;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_nazca_dopant;
@@ -220,6 +223,10 @@ public class mobsCore {
 		EntityRegistry.addSpawn(Entity_trilobite_magia.class,  15, 1, 4, EnumCreatureType.MONSTER,Biome.getBiome(1),Biome.getBiome(4),Biome.getBiome(5),Biome.getBiome(6),Biome.getBiome(7),Biome.getBiome(11),Biome.getBiome(129),Biome.getBiome(132),Biome.getBiome(155),Biome.getBiome(156),Biome.getBiome(14),Biome.getBiome(15),Biome.getBiome(21),Biome.getBiome(22),Biome.getBiome(23),Biome.getBiome(27),Biome.getBiome(28));
 		
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":MagiaMob"),Entity_magia.class, "MagiaMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x060606,0xa2a2a2);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":horobiMob"),Entity_horobi.class, "horobiMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x8a00c3,0x383838);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":jinMob"),Entity_jin.class, "jinMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xff65b9,0xd5d5d5);
+		
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":IsMob"),EntityIS.class, "IsMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xf7f7f7,0x20cc89);
 		
 		
 	}
