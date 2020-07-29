@@ -83,6 +83,13 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 						armorModel.belt=stack;
 					}
 				}
+				else if( this==RiderItems.ark_driver_zero){
+					if (this.get_core(stack, "1")==6){
+						armorModel.belt=new ItemStack( RiderItems.ark_driver_one);
+					}else{
+						armorModel.belt=stack;
+					}
+				}
 				
 				else if(living.getHeldItemMainhand()!=null){
 					if( living.getHeldItemMainhand().getItem()==RiderItems.shot_riser_gun){

@@ -16,6 +16,7 @@ import Kamen_Rider_Craft_4TH.mobs.Entityaccel;
 import Kamen_Rider_Craft_4TH.mobs.RenderRiderMob;
 import Kamen_Rider_Craft_4TH.mobs.RenderRiderMob2;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityChronos;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Arc_zero;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_BloodStalk;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Build_RT;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Duke;
@@ -149,6 +150,7 @@ public class ClientProxyRider extends CommonProxyRider
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_horobi.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_jin.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_Arc_zero.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
 
 		RenderingRegistry.registerEntityRenderingHandler(EntityIS.class, new RenderRiderMob2(new ModelPoppy(), 0.5F,"textures/entities/is.png"));
 		

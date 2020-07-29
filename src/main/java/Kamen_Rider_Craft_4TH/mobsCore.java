@@ -12,6 +12,7 @@ import Kamen_Rider_Craft_4TH.mobs.EntityUrataros;
 import Kamen_Rider_Craft_4TH.mobs.Entity_kodama_suika_arms;
 import Kamen_Rider_Craft_4TH.mobs.Entityaccel;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityChronos;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Arc_zero;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_BloodStalk;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Build_RT;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Duke;
@@ -225,6 +226,9 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":MagiaMob"),Entity_magia.class, "MagiaMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x060606,0xa2a2a2);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":horobiMob"),Entity_horobi.class, "horobiMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x8a00c3,0x383838);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":jinMob"),Entity_jin.class, "jinMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xff65b9,0xd5d5d5);
+		
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":Arc_zeroMob"),Entity_Arc_zero.class, "Arc_zeroMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x161616,0xC40000);
+		
 		
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":IsMob"),EntityIS.class, "IsMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xf7f7f7,0x20cc89);
 		

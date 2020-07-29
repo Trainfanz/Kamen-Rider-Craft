@@ -113,7 +113,18 @@ public class Item_progrise_keys extends Item implements IHasModel
 								item_zero_onedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),setBase, "1");			
 						}	
 								
-					}else if (belt.Rider=="valkyrie"){
+					}else if (belt.Rider=="ark_zero"){
+						if (num == 6){
+							item_zero_onedriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
+							
+							if (item_zero_onedriver.get_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")!=setBase) {
+							item_zero_onedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),setBase, "1");			
+							}else {
+								item_zero_onedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "1");	
+							}
+					}	
+							
+				}else if (belt.Rider=="valkyrie"){
 						if (num == 2){
 							item_zero_onedriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
 							item_zero_onedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),setBase, "1");			

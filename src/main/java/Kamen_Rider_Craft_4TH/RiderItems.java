@@ -2909,6 +2909,7 @@ public class RiderItems {
 	
 	public static Item hiden_zero_two_driver = new Item_ore("hiden_zero_two_driver");
 	public static Item shot_riser_belt = new Item_ore("shot_riser_belt");
+	public static Item ark_driver_one = new Item_ore("ark_driver_one");
 	
 	public static Item shot_riser_gun = new Item_gun("shot_riser_gun",Tabs.den_dengu).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
@@ -2950,6 +2951,9 @@ public class RiderItems {
 	public static Item burning_falcon_progrise_key = new Item_progrise_keys(4, 26,"burning_falcon_progrise_key").AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item amazing_caucasus_progrise_key = new Item_progrise_keys(5, 21,"amazing_caucasus_progrise_key").AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
+	
+	public static Item ark_one_progrise_key = new Item_progrise_keys(6, 19,"ark_one_progrise_key").AddChangeBase(6).setCreativeTab(Tabs.tabzero_one);
+	
 	
 	public static Item dodomagia_zetsumerisekey = new Item_ore("dodomagia_zetsumerisekey").setCreativeTab(Tabs.tabzero_one);
 	public static Item japanese_wolf_zetsumerisekey = new Item_ore("japanese_wolf_zetsumerisekey").setCreativeTab(Tabs.tabzero_one);
