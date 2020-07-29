@@ -228,6 +228,8 @@ public class mobsCore {
 		
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":IsMob"),EntityIS.class, "IsMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xf7f7f7,0x20cc89);
 		
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":IsMob"),EntityIS.class, "IsMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xf7f7f7,0x20cc89);
+		
 		
 	}
 	

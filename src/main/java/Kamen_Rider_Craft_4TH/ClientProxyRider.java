@@ -143,6 +143,9 @@ public class ClientProxyRider extends CommonProxyRider
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_trilobite_magia.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_magia.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
+
+		RenderingRegistry.registerEntityRenderingHandler(EntityIS.class, new RenderRiderMob2(new ModelPoppy(), 0.5F,"textures/entities/is.png"));
+		
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_horobi.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_jin.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
