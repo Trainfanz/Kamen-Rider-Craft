@@ -102,7 +102,13 @@ public class Entity_base_henchmen extends EntityZombie
     {
         return false;
     }
-    
+    /**
+     * Checks to make sure the light is not too bright where the mob is spawning
+     */
+    protected boolean isValidLightLevel()
+    {
+        return true;
+    }
 	protected boolean shouldBurnInDay()
     {
         return false;

@@ -63,14 +63,14 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.DifficultyInstance;
 import net.minecraft.world.World;
 
-public class Entity_magia extends EntityBossBase
+public class Entity_dodomagia extends EntityBossBase
 //implements IBossDisplayData
 {
     
-	public static final Item[] belt = new Item[] {RiderItems.zetsumeriser_berothra,RiderItems.zetsumeriser_ekal,RiderItems.zetsumeriser_kuehne,RiderItems.zetsumeriser_berothra};
+	public static final Item[] belt = new Item[] {RiderItems.zetsumeriser_dodo,RiderItems.zetsumeriser_dodo_custom,RiderItems.zetsumeriser_dodo_custom_v2};
 	
 	private String texture;
-	public Entity_magia(World par1World)
+	public Entity_dodomagia(World par1World)
 	{
 		super(par1World);
 		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.zero_onetroso));
@@ -85,7 +85,7 @@ public class Entity_magia extends EntityBossBase
     protected void applyEntityAttributes()
     {
         super.applyEntityAttributes();
-        this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(40.0D);
+        this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(100.0D);
         this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.30000001192092896D);
         this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(10.0D);
         this.getEntityAttribute(SharedMonsterAttributes.FOLLOW_RANGE).setBaseValue(128.0D);
@@ -107,15 +107,15 @@ public class Entity_magia extends EntityBossBase
 if (!this.world.isRemote){
 
    		this.dropItem(RiderItems.humagear_progrise_key, 1);
-   		this.dropItem(RiderItems.hiden_metal, 4);
-
+   		this.dropItem(RiderItems.hiden_metal, 5);
+   		this.entityDropItem(new ItemStack(RiderItems.ikazuchi_boss_block),1);
    		switch (this.rand.nextInt(5))
 		{
 		case 0:
 			this.dropItem(this.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem(), 1);
 			break;
 		}
-   		
+   	
        }
        
    }

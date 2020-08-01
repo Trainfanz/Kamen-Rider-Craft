@@ -1,7 +1,6 @@
 package Kamen_Rider_Craft_4TH.mobs.Boss;
 
 
-import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collections;
 import java.util.List;
@@ -14,6 +13,7 @@ import javax.annotation.Nullable;
 import com.google.common.collect.Sets;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -63,29 +63,26 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.DifficultyInstance;
 import net.minecraft.world.World;
 
-public class Entity_magia extends EntityBossBase
+public class Entity_ikazuchi extends EntityBossBase
 //implements IBossDisplayData
 {
     
-	public static final Item[] belt = new Item[] {RiderItems.zetsumeriser_berothra,RiderItems.zetsumeriser_ekal,RiderItems.zetsumeriser_kuehne,RiderItems.zetsumeriser_berothra};
-	
 	private String texture;
-	public Entity_magia(World par1World)
+	public Entity_ikazuchi(World par1World)
 	{
 		super(par1World);
 		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.zero_onetroso));
 		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.zero_onehead));
-		Random generator = new Random();
-		int rand = generator.nextInt(4);
-		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(belt[rand]));
+		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(RiderItems.forceriser_ikazuchi));
 		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.zero_onelegs));
 		
 	}
-  
+    
+	
     protected void applyEntityAttributes()
     {
         super.applyEntityAttributes();
-        this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(40.0D);
+        this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(80.0D);
         this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.30000001192092896D);
         this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(10.0D);
         this.getEntityAttribute(SharedMonsterAttributes.FOLLOW_RANGE).setBaseValue(128.0D);
@@ -104,22 +101,21 @@ public class Entity_magia extends EntityBossBase
     }
     public void onDeath(DamageSource cause)
     {
-if (!this.world.isRemote){
-
-   		this.dropItem(RiderItems.humagear_progrise_key, 1);
-   		this.dropItem(RiderItems.hiden_metal, 4);
-
-   		switch (this.rand.nextInt(5))
+    	this.dropItem(RiderItems.blank_progrise_key, 4);
+		this.dropItem(RiderItems.hiden_metal, 6);
+		this.dropItem(RiderItems.ikazuchi_progrise_key, 1);
+		this.dropItem(RiderItems.dodomagia_zetsumerisekey, 1);
+	
+		switch (this.rand.nextInt(5))
 		{
 		case 0:
-			this.dropItem(this.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem(), 1);
+			this.dropItem(RiderItems.zetsumeriser_dodo_custom_v2, 1);
+			break;
+		case 1:
+			this.dropItem(RiderItems.zetsumeriser_dodo_custom, 1);
 			break;
 		}
-   		
        }
-       
-   }
-
-
+  
 }
     

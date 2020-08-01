@@ -8,6 +8,7 @@ import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityBossBase;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Para_dx;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Red_Poppy;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_dodomagia;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_genm;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_jin;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_magia;
@@ -48,13 +49,12 @@ import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
 
-public class Entity_trilobite_magia extends Entity_base_henchmen
+public class Entity_magiadodo_chick extends Entity_base_henchmen
 {
-	public Entity_trilobite_magia(World par1World)
+	public Entity_magiadodo_chick(World par1World)
 	{
 		super(par1World);	
 	}
-
 
 	public void onDeath(DamageSource cause)
 	{
@@ -62,63 +62,38 @@ public class Entity_trilobite_magia extends Entity_base_henchmen
 
 			if (this.getAttackTarget()instanceof EntityPlayer){
 				EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
-				EntityBossBase entityboss  = new Entity_magia(world);
+				EntityBossBase entityboss  = new Entity_dodomagia(world);
 
-				EntityBossBase entity_jin  = new Entity_jin(world);
-				switch (this.rand.nextInt(50))
+				switch (this.rand.nextInt(10))
 				{
 				case 0:
 					playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Zetsumerise!"));
 					entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
 					world.spawnEntity(entityboss);
 					break;
-				case 1:
-					playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Zetsumerise!"));
-					entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
-					world.spawnEntity(entityboss);
-					break;
-				case 2:
-					playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Zetsumerise!"));
-					entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
-					world.spawnEntity(entityboss);
-					break;
-				case 3:
-					playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Zetsumerise!"));
-					entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
-					world.spawnEntity(entityboss);
-					break;
-				case 4:
-					playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Zetsumerise!"));
-					entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
-					world.spawnEntity(entityboss);
-					break;
-				case 5:
-					playerIn.sendMessage( new TextComponentString(TextFormatting.LIGHT_PURPLE+"Forcerise! Flying Falcon! Break down."));
-					entity_jin.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
-					world.spawnEntity(entityboss);
-					break;
+
 
 				}
 			}
 		}
-		this.dropItem(RiderItems.blank_progrise_key, 1);
+		this.dropItem(RiderItems.blank_progrise_key,3);
 		this.dropItem(RiderItems.hiden_metal, 2);
 		switch (this.rand.nextInt(25))
 		{
 		case 0:
-			this.dropItem(RiderItems.rising_hopper_progrise_key, 1);
+			this.dropItem(RiderItems.punching_kong_progrise_key, 1);
 			break;
 		case 1:
-			this.dropItem(RiderItems.shooting_wolf_progrise_key, 1);
+			this.dropItem(RiderItems.lightning_hornet_progrise_key, 1);
 			break;
 		case 2:
-			this.dropItem(RiderItems.rushing_cheetah_progrise_key, 1);
+			this.dropItem(RiderItems.rocking_hopper_zetsumerisekey, 1);
 			break;
 		case 3:
 			this.dropItem(RiderItems.humagear_progrise_key, 1); 
 			break;
 		}
-	}
 
+	}
 
 }

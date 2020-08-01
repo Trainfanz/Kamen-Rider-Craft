@@ -33,6 +33,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_another_build;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_bikaiser;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_clay_doll_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_demushu;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_dodomagia;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_2;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt_3;
@@ -40,6 +41,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_gaoh;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_genm;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_grease;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_horobi;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_ikazuchi;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_jin;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_lord_baron;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_magia;
@@ -59,6 +61,7 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMasquerade;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityNebulaBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityRidePlayer;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_hard_guardian;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_magiadodo_chick;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_needle_smash;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_trilobite_magia;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entitygamma_commando;
@@ -223,9 +226,14 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":TrilobiteMagiaMob"),Entity_trilobite_magia.class, "TrilobiteMagiaMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x060606,0xa2a2a2);
 		EntityRegistry.addSpawn(Entity_trilobite_magia.class,  15, 1, 4, EnumCreatureType.MONSTER,Biome.getBiome(1),Biome.getBiome(4),Biome.getBiome(5),Biome.getBiome(6),Biome.getBiome(7),Biome.getBiome(11),Biome.getBiome(129),Biome.getBiome(132),Biome.getBiome(155),Biome.getBiome(156),Biome.getBiome(14),Biome.getBiome(15),Biome.getBiome(21),Biome.getBiome(22),Biome.getBiome(23),Biome.getBiome(27),Biome.getBiome(28));
 		
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":dodoChickMob"),Entity_magiadodo_chick.class, "dodoChickMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x7d0b0a,0x242424);
+		EntityRegistry.addSpawn(Entity_magiadodo_chick.class,  15, 1, 4, EnumCreatureType.MONSTER,Biome.getBiome(8));
+		
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":MagiaMob"),Entity_magia.class, "MagiaMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x060606,0xa2a2a2);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":horobiMob"),Entity_horobi.class, "horobiMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x8a00c3,0x383838);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":jinMob"),Entity_jin.class, "jinMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xff65b9,0xd5d5d5);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":ikazuchiMob"),Entity_ikazuchi.class, "ikazuchiMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x7d0b0a,0x242424);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":dodoMagiaMob"),Entity_dodomagia.class, "dodoMagiaMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x7d0b0a,0x242424);
 		
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":Arc_zeroMob"),Entity_Arc_zero.class, "Arc_zeroMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x161616,0xC40000);
 		
