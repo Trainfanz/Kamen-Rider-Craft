@@ -2908,7 +2908,6 @@ public class RiderItems {
 	public static Item zetsumeriser_dodo_custom = new item_zero_onedriver("zetsumeriser_dodo_custom",ArmorMaterial.DIAMOND, 4, "magia_dodo_custom",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item zetsumeriser_dodo_custom_v2 = new item_zero_onedriver("zetsumeriser_dodo_custom_v2",ArmorMaterial.DIAMOND, 4, "magia_dodo_custom_v2",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
-	
 	public static Item hiden_zero_two_driver = new Item_ore("hiden_zero_two_driver");
 	public static Item shot_riser_belt = new Item_ore("shot_riser_belt");
 	public static Item ark_driver_one = new Item_ore("ark_driver_one");
@@ -2937,15 +2936,16 @@ public class RiderItems {
 	public static Item splashing_whale_progrise_key = new Item_progrise_keys(0, 22,"splashing_whale_progrise_key").AddToZaia3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
 	public static Item dynamaiting_lion_progrise_key = new Item_progrise_keys(0, 24,"dynamaiting_lion_progrise_key").AddToZaia3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
 	public static Item scouting_panda_progrise_key = new Item_progrise_keys(0, 25,"scouting_panda_progrise_key").AddToZaia3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
+	public static Item invading_horseshoe_crab_progrise_key = new Item_progrise_keys(0, 27,"invading_horseshoe_crab_progrise_key").AddToZaia3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item shooting_wolf_progrise_key = new Item_progrise_keys(1, 3,"shooting_wolf_progrise_key").AddToZaia3DPrinter(20).AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
 	public static Item assault_wolf_progrise_key = new Item_progrise_keys(1, 3,"assault_wolf_progrise_key").AddToZaia3DPrinter(2).AddChangeBase(2).setCreativeTab(Tabs.tabzero_one);
 	public static Item rampage_gatling_progrise_key = new Item_progrise_keys(1, 3,"rampage_gatling_progrise_key").AddChangeBase(5).setCreativeTab(Tabs.tabzero_one);
-	
 	public static Item punching_kong_progrise_key = new Item_progrise_keys(1, 5,"punching_kong_progrise_key").AddToZaia3DPrinter(5).AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item rushing_cheetah_progrise_key = new Item_progrise_keys(2, 7,"rushing_cheetah_progrise_key").AddToZaia3DPrinter(20).AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
 	public static Item lightning_hornet_progrise_key = new Item_progrise_keys(2, 9,"lightning_hornet_progrise_key").AddToZaia3DPrinter(5).AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
+	public static Item fighting_jackal_progrise_key = new Item_progrise_keys(0, 28,"fighting_jackal_progrise_key").AddToZaia3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item sting_scorpion_progrise_key = new Item_progrise_keys(3, 10,"sting_scorpion_progrise_key").AddToZaia3DPrinter(10).AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
 
@@ -2953,9 +2953,9 @@ public class RiderItems {
 	public static Item burning_falcon_progrise_key = new Item_progrise_keys(4, 26,"burning_falcon_progrise_key").AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item amazing_caucasus_progrise_key = new Item_progrise_keys(5, 21,"amazing_caucasus_progrise_key").AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
+	public static Item awaking_arsino_zetsumerise_key = new Item_ore("awaking_arsino_zetsumerise_key").setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item ark_one_progrise_key = new Item_progrise_keys(6, 19,"ark_one_progrise_key").AddChangeBase(6).setCreativeTab(Tabs.tabzero_one);
-	
 	
 	public static Item dodomagia_zetsumerisekey = new Item_ore("dodomagia_zetsumerisekey").setCreativeTab(Tabs.tabzero_one);
 	public static Item japanese_wolf_zetsumerisekey = new Item_ore("japanese_wolf_zetsumerisekey").setCreativeTab(Tabs.tabzero_one);

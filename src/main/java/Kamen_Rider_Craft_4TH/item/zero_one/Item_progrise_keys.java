@@ -31,7 +31,7 @@ public class Item_progrise_keys extends Item implements IHasModel
 	public static String[] ARMS= new String[] {"base","falcon","shark","wolf","cheetah",
 			"kong","tiger","cheetah","bear","hornet","scorpion","giraffe","hercules",
 			"hedgehog","kangaroo","buffalo","stag","spider","penguin","hopper","dodo",
-			"caucasus","whale","mammoth","lion","panda","burning_falcon"};
+			"caucasus","whale","mammoth","lion","panda","burning_falcon","horseshoe_crab","jackal"};
 
 
 

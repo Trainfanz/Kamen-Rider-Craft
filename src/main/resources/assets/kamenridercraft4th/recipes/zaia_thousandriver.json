@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "CXA",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:hiden_metal"
+    }, "C": {
+      "item": "kamenridercraft4th:amazing_caucasus_progrise_key"
+    }, "A": {
+      "item": "kamenridercraft4th:awaking_arsino_zetsumerise_key"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:zaia_thousandriver"
+  }
+}
