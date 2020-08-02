@@ -37,9 +37,8 @@ public class hiden_3d_printing extends machine_block  {
 			int rand = generator.nextInt(hiden_progrise_keys.size());
 			return hiden_progrise_keys.get(rand);
 		} else {
-			//int rand = generator.nextInt(Humagear_progrise_keys.size());
-			return RiderItems.is_progrise_key;
-			//return Humagear_progrise_keys.get(rand);
+			int rand = generator.nextInt(Humagear_progrise_keys.size());
+			return Humagear_progrise_keys.get(rand);
 		} 
 	}
 

@@ -2909,6 +2909,7 @@ public class RiderItems {
 	public static Item zetsumeriser_dodo_custom_v2 = new item_zero_onedriver("zetsumeriser_dodo_custom_v2",ArmorMaterial.DIAMOND, 4, "magia_dodo_custom_v2",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item hiden_zero_two_driver = new Item_ore("hiden_zero_two_driver");
+	public static Item hiden_zero_one_driver_red = new Item_ore("hiden_zero_one_driver_red");
 	public static Item shot_riser_belt = new Item_ore("shot_riser_belt");
 	public static Item ark_driver_one = new Item_ore("ark_driver_one");
 	
@@ -2919,6 +2920,7 @@ public class RiderItems {
 	public static Item shining_assault_hopper_progrise_key = new Item_progrise_keys(0, 19,"shining_assault_hopper_progrise_key").AddChangeBase(2).setCreativeTab(Tabs.tabzero_one);
 	public static Item metalcluster_hopper_progrise_key = new Item_progrise_keys(0, 19,"metalcluster_hopper_progrise_key").AddChangeBase(3).setCreativeTab(Tabs.tabzero_one);
 	public static Item zero_two_progrise_key = new Item_progrise_keys(0, 19,"zero_two_progrise_key").AddChangeBase(4).setCreativeTab(Tabs.tabzero_one);
+	public static Item red_rising_hopper_progrise_key = new Item_progrise_keys(0, 19,"red_rising_hopper_progrise_key").AddChangeBase(7).setCreativeTab(Tabs.tabzero_one);
 	
 	
 	public static Item biting_shark_progrise_key = new Item_progrise_keys(0, 2,"biting_shark_progrise_key").AddToHiden3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
@@ -2936,7 +2938,7 @@ public class RiderItems {
 	public static Item splashing_whale_progrise_key = new Item_progrise_keys(0, 22,"splashing_whale_progrise_key").AddToZaia3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
 	public static Item dynamaiting_lion_progrise_key = new Item_progrise_keys(0, 24,"dynamaiting_lion_progrise_key").AddToZaia3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
 	public static Item scouting_panda_progrise_key = new Item_progrise_keys(0, 25,"scouting_panda_progrise_key").AddToZaia3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
-	public static Item invading_horseshoe_crab_progrise_key = new Item_progrise_keys(0, 27,"invading_horseshoe_crab_progrise_key").AddToZaia3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
+	public static Item invading_horseshoe_crab_progrise_key = new Item_progrise_keys(0, 27,"invading_horseshoe_crab_progrise_key").AddToZaia3DPrinter(5).AddToZaia3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item shooting_wolf_progrise_key = new Item_progrise_keys(1, 3,"shooting_wolf_progrise_key").AddToZaia3DPrinter(20).AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
 	public static Item assault_wolf_progrise_key = new Item_progrise_keys(1, 3,"assault_wolf_progrise_key").AddToZaia3DPrinter(2).AddChangeBase(2).setCreativeTab(Tabs.tabzero_one);
@@ -2963,7 +2965,25 @@ public class RiderItems {
 	
 	public static Item blank_progrise_key = new Item_ore("blank_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item humagear_progrise_key = new Item_ore("Humagear_progrise_key").setCreativeTab(Tabs.tabzero_one);
-	public static Item is_progrise_key = new Item_ore("is_progrise_key").setCreativeTab(Tabs.tabzero_one);
+	
+	public static Item is_progrise_key = new Item_progrise_keys("is_progrise_key").AddToHumagearHiden3DPrinter().setCreativeTab(Tabs.tabzero_one);
+	public static Item uchuyaro_subaru_progrise_key = new Item_progrise_keys("uchuyaro_subaru_progrise_key").AddToHumagearHiden3DPrinter().setCreativeTab(Tabs.tabzero_one);
+	public static Item saikyo_takumi_oyakata_progrise_key = new Item_progrise_keys("saikyo_takumi_oyakata_progrise_key").AddToHumagearHiden3DPrinter().setCreativeTab(Tabs.tabzero_one);
+	public static Item dr_omigoto_progrise_key = new Item_progrise_keys("dr_omigoto_progrise_key").AddToHumagearHiden3DPrinter().setCreativeTab(Tabs.tabzero_one);
+	public static Item sumida_smile_progrise_key = new Item_progrise_keys("sumida_smile_progrise_key").AddToHumagearHiden3DPrinter().setCreativeTab(Tabs.tabzero_one);
+	public static Item mamoru_progrise_key = new Item_progrise_keys("mamoru_progrise_key").AddToHumagearHiden3DPrinter().setCreativeTab(Tabs.tabzero_one);
+	public static Item bengoshi_bingo_progrise_key = new Item_progrise_keys("bengoshi_bingo_progrise_key").AddToHumagearHiden3DPrinter().setCreativeTab(Tabs.tabzero_one);
+	public static Item ikkan_nigiro_progrise_key = new Item_progrise_keys("ikkan_nigiro_progrise_key").AddToHumagearHiden3DPrinter().setCreativeTab(Tabs.tabzero_one);
+	public static Item matsuda_enji_progrise_key = new Item_progrise_keys("matsuda_enji_progrise_key").AddToHumagearHiden3DPrinter().setCreativeTab(Tabs.tabzero_one);
+	public static Item morifude_g_pen_progrise_key = new Item_progrise_keys("morifude_g_pen_progrise_key").AddToHumagearHiden3DPrinter().setCreativeTab(Tabs.tabzero_one);
+	public static Item fukkinhoukai_taro_progrise_key = new Item_progrise_keys("fukkinhoukai_taro_progrise_key").AddToHumagearHiden3DPrinter().setCreativeTab(Tabs.tabzero_one);
+	public static Item shesta_progrise_key = new Item_progrise_keys("shesta_progrise_key").AddToHumagearHiden3DPrinter().setCreativeTab(Tabs.tabzero_one);
+	public static Item love_chan_progrise_key = new Item_progrise_keys("love_chan_progrise_key").AddToHumagearHiden3DPrinter().setCreativeTab(Tabs.tabzero_one);
+	public static Item hakase_bot_progrise_key = new Item_progrise_keys("hakase_bot_progrise_key").AddToHumagearHiden3DPrinter().setCreativeTab(Tabs.tabzero_one);
+	public static Item okureru_progrise_key = new Item_progrise_keys("okureru_progrise_key").AddToHumagearHiden3DPrinter().setCreativeTab(Tabs.tabzero_one);
+	public static Item delmo_progrise_key = new Item_progrise_keys("delmo_progrise_key").AddToHumagearHiden3DPrinter().setCreativeTab(Tabs.tabzero_one);
+	
+	public static Item matsurida_z_progrise_key = new Item_ore("matsurida_z_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item horobi_progrise_key = new Item_ore("horobi_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item jin_progrise_key = new Item_ore("jin_progrise_key").setCreativeTab(Tabs.tabzero_one);

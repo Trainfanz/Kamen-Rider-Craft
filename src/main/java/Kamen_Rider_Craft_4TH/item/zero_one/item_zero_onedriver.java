@@ -79,6 +79,8 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 				if( this==RiderItems.hiden_zero_one_driver){
 					if (this.get_core(stack, "1")==4){
 						armorModel.belt=new ItemStack( RiderItems.hiden_zero_two_driver);
+					}else if (this.get_core(stack, "1")==7){
+						armorModel.belt=new ItemStack( RiderItems.hiden_zero_one_driver_red);
 					}else{
 						armorModel.belt=stack;
 					}

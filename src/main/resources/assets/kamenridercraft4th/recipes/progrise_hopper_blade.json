@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:bengoshi_bingo_progrise_key"
+    }, 
+    {
+      "item": "kamenridercraft4th:ikkan_nigiro_progrise_key"
+    }, 
+    {
+      "item": "kamenridercraft4th:saikyo_takumi_oyakata_progrise_key"
+    } , 
+    {
+      "item": "kamenridercraft4th:matsuda_enji_progrise_key"
+    } , 
+    {
+      "item": "kamenridercraft4th:morifude_g_pen_progrise_key"
+    } , 
+    {
+      "item": "kamenridercraft4th:okureru_progrise_key"
+    } , 
+    {
+      "item": "kamenridercraft4th:dr_omigoto_progrise_key"
+    } , 
+    {
+      "item": "kamenridercraft4th:sumida_smile_progrise_key"
+    } , 
+    {
+      "item": "kamenridercraft4th:mamoru_progrise_key"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:progrise_hopper_blade"
+  }
+}

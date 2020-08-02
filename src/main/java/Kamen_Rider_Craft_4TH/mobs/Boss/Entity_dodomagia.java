@@ -106,6 +106,8 @@ public class Entity_dodomagia extends EntityBossBase
     {
 if (!this.world.isRemote){
 
+
+		this.dropItem(RiderItems.matsurida_z_progrise_key, 1);
    		this.dropItem(RiderItems.humagear_progrise_key, 1);
    		this.dropItem(RiderItems.hiden_metal, 5);
    		this.entityDropItem(new ItemStack(RiderItems.ikazuchi_boss_block),1);
