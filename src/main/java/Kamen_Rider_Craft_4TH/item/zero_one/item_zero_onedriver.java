@@ -3,6 +3,7 @@ package Kamen_Rider_Craft_4TH.item.zero_one;
 import javax.annotation.Nullable;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.Tabs;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
 import Kamen_Rider_Craft_4TH.model.Model_breaking_mammoth;
@@ -71,10 +72,6 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 			{
 
 				model_belt_plus armorModel = new Model_breaking_mammoth();
-
-				//Item[] form_watch= new Item[] {RiderItems.blanknoitem};
-				//Item[] armor_watch= new Item[] {RiderItems.blanknoitem};
-				
 				
 				if( this==RiderItems.hiden_zero_one_driver){
 					if (this.get_core(stack, "1")==4){
@@ -171,14 +168,245 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 					if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
 						if (player.getItemStackFromSlot(EntityEquipmentSlot.LEGS).getItem() == RiderItems.zero_onelegs){
 							if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == RiderItems.zero_onetroso){
-								if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == RiderItems.zero_onehead){		
+								if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == RiderItems.zero_onehead){	
 									
-
-									if (item_zero_onedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="mammoth"){
-
-										player.addPotionEffect(new PotionEffect(PotionCore.BIG_POTION, 5, 0,true,false));
+									
+									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.ark_driver_zero){
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,0,true,false));
 									}
-						
+									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.zaia_slashriser_jin){
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 0,true,false));
+									}
+									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.forceriser_naki){
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,2,true,false));
+									}
+										
+									String form = Item_progrise_keys.ARMS[DRIVER];
+									int base = item_zero_onedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1");
+									
+									if (item_zero_onedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!="base") {
+										form = item_zero_onedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET));
+									}
+								
+									if (base==1){
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,5,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,1,true,false));
+										
+									}else if (base==2){
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,6,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,0,true,false));
+										
+									}else if (base==3){
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,6,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,2,true,false));
+										
+									}else if (base==4){
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,6,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,3,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 25, 8,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 25,0,true,false));
+										
+									}else if (base==5){
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 25,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 25,0,true,false));
+										
+									}else if (base==6){
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,3,true,false));
+										
+									}
+									
+									if (form=="falcon"){
+										player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 0,true,false));
+										
+									}else if (form=="shark"){
+										if (player.isInWater()){
+											if (player.isSneaking()){
+											Vec3d look = player.getLookVec();
+											player.motionX=look.x/2;
+											player.motionY=look.y/2;
+											player.motionZ=look.z/2;
+										}}
+										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
+									}
+									else if (form=="wolf"){
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,0,true,false));
+									}
+									else if (form=="cheetah"){
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,0,true,false));
+									}
+									else if (form=="kong"){
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,1,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 25, 4,true,false));
+									}
+									else if (form=="tiger"){
+										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 25,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,0,true,false));
+									}
+									else if (form=="bear"){
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,0,true,false));
+									}
+									else if (form=="hornet"){
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,0,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 0,true,false));
+									}
+									else if (form=="scorpion"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,1,true,false));
+										player.removeActivePotionEffect(MobEffects.POISON);
+									}
+									else if (form=="giraffe"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,1,true,false));
+										
+									}
+									else if (form=="hercules"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,1,true,false));
+										
+									}
+									else if (form=="hedgehog"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,2,true,false));
+										
+									}
+									else if (form=="kangaroo"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,3,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 25, 6,true,false));
+									}
+									else if (form=="buffalo"){	
+										if (player.isSneaking()){
+											Vec3d look = player.getLookVec();
+											player.motionX=look.x/2;
+											player.motionZ=look.z/2;
+										}
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,1,true,false));
+									}
+									else if (form=="stag"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,1,true,false));
+									
+									}
+									else if (form=="spider"){	
+										player.removeActivePotionEffect(MobEffects.POISON);
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,2,true,false));
+									}
+									else if (form=="penguin"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,1,true,false));
+									}
+									else if (form=="hopper"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,3,true,false));
+									}
+									else if (form=="dodo"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,1,true,false));
+									
+									}
+									else if (form=="caucasus"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,1,true,false));
+									
+									}
+									else if (form=="whale"){	
+										if (player.isInWater()){
+											if (player.isSneaking()){
+											Vec3d look = player.getLookVec();
+											player.motionX=look.x/4;
+											player.motionY=look.y/4;
+											player.motionZ=look.z/4;
+										}}
+										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,1,true,false));
+									
+									}
+									else if (form=="mammoth"){
+
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.BIG_POTION, 25, 0,true,false));
+									}
+									else if (form=="caucasus"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,1,true,false));
+									
+									}
+									else if (form=="lion"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,2,true,false));
+									
+									}	
+									else if (form=="panda"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
+									
+									}	
+									else if (form=="burning_falcon"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 0,true,false));
+									
+									}	
+									else if (form=="horseshoe_crab"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,2,true,false));
+									
+									}
+									else if (form=="jackal"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,2,true,false));
+									}
 								}
 						}
 					}

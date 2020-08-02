@@ -31,7 +31,8 @@ public class Item_progrise_keys extends Item implements IHasModel
 	public static String[] ARMS= new String[] {"base","falcon","shark","wolf","cheetah",
 			"kong","tiger","cheetah","bear","hornet","scorpion","giraffe","hercules",
 			"hedgehog","kangaroo","buffalo","stag","spider","penguin","hopper","dodo",
-			"caucasus","whale","mammoth","lion","panda","burning_falcon","horseshoe_crab","jackal"};
+			"caucasus","whale","mammoth","lion","panda","burning_falcon","horseshoe_crab"
+			,"jackal"};
 
 
 
@@ -54,6 +55,8 @@ public class Item_progrise_keys extends Item implements IHasModel
 		setTranslationKey(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
+		num=-10;
+		num2=10;
 
 	}
 
@@ -61,13 +64,15 @@ public class Item_progrise_keys extends Item implements IHasModel
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
 	}
-	
-	public Item_progrise_keys AddToHumagearHiden3DPrinter()
+
+	public Item_progrise_keys AddToHumagearHiden3DPrinter(int num)
 	{
-		hiden_3d_printing.Humagear_progrise_keys.add(this);
+		for (int i1 = 0; i1 < num; ++i1)
+		{	hiden_3d_printing.Humagear_progrise_keys.add(this);
+		}
 		return this;
 	}
-	
+
 	public Item_progrise_keys AddToHiden3DPrinter(int num)
 	{
 		for (int i1 = 0; i1 < num; ++i1)
@@ -76,7 +81,7 @@ public class Item_progrise_keys extends Item implements IHasModel
 		}
 		return this;
 	}
-	
+
 	public Item_progrise_keys AddToZaia3DPrinter(int num)
 	{
 		for (int i1 = 0; i1 < num; ++i1)
