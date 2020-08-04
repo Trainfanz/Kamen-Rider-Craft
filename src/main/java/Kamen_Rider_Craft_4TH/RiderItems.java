@@ -2959,7 +2959,18 @@ public class RiderItems {
 	
 	public static Item ark_one_progrise_key = new Item_progrise_keys(6, 19,"ark_one_progrise_key").AddChangeBase(6).setCreativeTab(Tabs.tabzero_one);
 	
+	public static Item berothamagia_zetsumerisekey = new Item_progrise_keys("berothamagia_zetsumerisekey").setCreativeTab(Tabs.tabzero_one);
+	public static Item kuehnemagia_zetsumerisekey = new Item_progrise_keys("kuehnemagia_zetsumerisekey").setCreativeTab(Tabs.tabzero_one);
+	public static Item ekalmagia_zetsumerisekey = new Item_progrise_keys("ekalmagia_zetsumerisekey").setCreativeTab(Tabs.tabzero_one);
+	public static Item neohimagia_zetsumerisekey = new Item_progrise_keys("neohimagia_zetsumerisekey").setCreativeTab(Tabs.tabzero_one);
+	public static Item onychomagia_zetsumerisekey = new Item_progrise_keys("onychomagia_zetsumerisekey").setCreativeTab(Tabs.tabzero_one);
+	public static Item vicaryamagia_zetsumerisekey = new Item_progrise_keys("vicaryamagia_zetsumerisekey").setCreativeTab(Tabs.tabzero_one);
+	public static Item gaerumagia_zetsumerisekey = new Item_progrise_keys("gaerumagia_zetsumerisekey").setCreativeTab(Tabs.tabzero_one);
 	public static Item dodomagia_zetsumerisekey = new Item_progrise_keys("dodomagia_zetsumerisekey").setCreativeTab(Tabs.tabzero_one);
+	public static Item mammothmagia_zetsumerisekey = new Item_progrise_keys("mammothmagia_zetsumerisekey").setCreativeTab(Tabs.tabzero_one);
+	public static Item arsinomagia_zetsumerisekey = new Item_progrise_keys("arsinomagia_zetsumerisekey").setCreativeTab(Tabs.tabzero_one);
+	public static Item unknown_zetsumerisekey = new Item_progrise_keys("unknown_zetsumerisekey").setCreativeTab(Tabs.tabzero_one);
+	
 	public static Item japanese_wolf_zetsumerisekey = new Item_progrise_keys("japanese_wolf_zetsumerisekey").setCreativeTab(Tabs.tabzero_one);
 	public static Item rocking_hopper_zetsumerisekey = new Item_progrise_keys("rocking_hopper_zetsumerisekey").setCreativeTab(Tabs.tabzero_one);
 	
@@ -2982,13 +2993,14 @@ public class RiderItems {
 	public static Item hakase_bot_progrise_key = new Item_progrise_keys("hakase_bot_progrise_key").AddToHumagearHiden3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
 	public static Item okureru_progrise_key = new Item_progrise_keys("okureru_progrise_key").AddToHumagearHiden3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
 	public static Item delmo_progrise_key = new Item_progrise_keys("delmo_progrise_key").AddToHumagearHiden3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
-	
 	public static Item matsurida_z_progrise_key = new Item_progrise_keys("matsurida_z_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item horobi_progrise_key = new Item_progrise_keys("horobi_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item jin_progrise_key = new Item_progrise_keys("jin_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item ikazuchi_progrise_key = new Item_progrise_keys("ikazuchi_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item naki_progrise_key = new Item_progrise_keys("naki_progrise_key").AddToHumagearHiden3DPrinter(5).setCreativeTab(Tabs.tabzero_one);	
+	
+	public static Item merry_hopper_progrise_key = new Item_progrise_keys("merry_hopper_progrise_key").AddToHumagearHiden3DPrinter(5).setCreativeTab(Tabs.tabzero_one);	
 	
 	public static Item hiden_metal = new Item_ore("hiden_metal").setCreativeTab(Tabs.tabzero_one);
 	
