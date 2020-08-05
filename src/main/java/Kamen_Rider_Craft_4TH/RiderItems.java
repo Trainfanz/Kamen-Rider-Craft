@@ -102,6 +102,7 @@ import Kamen_Rider_Craft_4TH.item.ryuki.Item_vent;
 import Kamen_Rider_Craft_4TH.item.ryuki.item_ryukiarmor;
 import Kamen_Rider_Craft_4TH.item.ryuki.item_ryukiarmor2;
 import Kamen_Rider_Craft_4TH.item.ryuki.item_ryukidriver;
+import Kamen_Rider_Craft_4TH.item.saber.Item_wonder_ride_book;
 import Kamen_Rider_Craft_4TH.item.saber.item_saberarmor_head;
 import Kamen_Rider_Craft_4TH.item.saber.item_saberdriver;
 import Kamen_Rider_Craft_4TH.item.wizard.Item_wizard_ring;
@@ -3008,14 +3009,20 @@ public class RiderItems {
 	
 	
 
-	public static Item brave_dragon_wonderride_book = new Item_form_change("brave_dragon_wonderride_book",item_kuugadriver.class,blanknoitem,""
-			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false)).setCreativeTab(Tabs.tabsaber);
+	public static Item brave_dragon_wonderride_book = new Item_wonder_ride_book("l",1,"brave_dragon_wonderride_book").resetBook("saber").setCreativeTab(Tabs.tabsaber);
 
+	public static Item lion_senki_wonderride_book = new Item_wonder_ride_book("m",1,"lion_senki_wonderride_book").resetBook("blaze").setCreativeTab(Tabs.tabsaber);
+	
+	public static Item peter_fantasista_wonderride_book = new Item_wonder_ride_book("r",1,"peter_fantasista_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item jackun_to_domamenoki_wonderride_book = new Item_wonder_ride_book("r",2,"jackun_to_domamenoki_wonderride_book").setCreativeTab(Tabs.tabsaber);
+
+	
 	public static Item saberhead = new item_saberarmor_head("saberhead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item sabertroso = new item_saberarmor_head("sabertroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item saberlegs = new item_saberarmor_head("saberlegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 
-	public static Item seiken_swordriver = new item_saberdriver("seiken_swordriver",ArmorMaterial.DIAMOND, 4,"saber",1,0,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item seiken_swordriver_saber = new item_saberdriver("seiken_swordriver_saber",ArmorMaterial.DIAMOND, 4,"saber",1,0,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item seiken_swordriver_blaze = new item_saberdriver("seiken_swordriver_blaze",ArmorMaterial.DIAMOND, 4,"blaze",0,1,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 
 	
 	public static Item amazonshead = new item_amazonsarmor("amazonshead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);

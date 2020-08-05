@@ -41,17 +41,19 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 	public String armorNamePrefix;
 	public ArmorMaterial material;
 
-	public static String[] book_l= new String[] {"base_l","brave_dragon","","","","","","","","",""};
-	public static String[] book_m= new String[] {"base_m","","","","","","","","","",""};
-	public static String[] book_r= new String[] {"base_r","","","","","","","","","",""};
-
-
-
+	
 	public String Rider;
 	public int BOOK_L;
 	public int BOOK_M;
 	public int BOOK_R;
 
+	public static String[] book_l= new String[] {"base_l","brave_dragon","","","","","","","","",""};
+	public static String[] book_m= new String[] {"base_m","lion_senki","","","","","","","","",""};
+	public static String[] book_r= new String[] {"base_r","peter","jackun","","","","","","","",""};
+
+
+
+	
 	public item_saberdriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, String rider,int book_l,int book_m, int book_r)
 	{
 		super(par2EnumArmorMaterial, par3, EntityEquipmentSlot.FEET);
@@ -143,16 +145,23 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 
 		if (slot == "l") {
 			if (itemstack.hasTagCompound()) {
-				form=((item_saberdriver)itemstack.getItem()).Rider+"_"+book_l[itemstack.getTagCompound().getInteger("core"+slot)];
+				form=book_l[itemstack.getTagCompound().getInteger("core"+slot)];
 			}else {
-				form=((item_saberdriver)itemstack.getItem()).Rider+"_"+book_l[((item_saberdriver)itemstack.getItem()).BOOK_L];
+				form=book_l[((item_saberdriver)itemstack.getItem()).BOOK_L];
+			}
+			if (form == "base_l") {
+				form = ((item_saberdriver)itemstack.getItem()).Rider+"_base_l";
 			}
 		}else if (slot == "r"){
 			if (itemstack.hasTagCompound()) {
-				form=((item_saberdriver)itemstack.getItem()).Rider+"_"+book_r[itemstack.getTagCompound().getInteger("core"+slot)];
+				form=book_r[itemstack.getTagCompound().getInteger("core"+slot)];
 			}else {
-				form=((item_saberdriver)itemstack.getItem()).Rider+"_"+book_r[((item_saberdriver)itemstack.getItem()).BOOK_R];
+				form=book_r[((item_saberdriver)itemstack.getItem()).BOOK_R];
 			}
+			if (form == "base_r") {
+				form = ((item_saberdriver)itemstack.getItem()).Rider+"_base_r";
+			}
+			
 		}else {
 			if (itemstack.hasTagCompound()) {
 				form=((item_saberdriver)itemstack.getItem()).Rider+"_"+book_m[itemstack.getTagCompound().getInteger("core"+slot)];
@@ -169,6 +178,10 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 		if (!itemstack.hasTagCompound())
 		{
 			itemstack.setTagCompound(new NBTTagCompound());
+			itemstack.getTagCompound().setInteger("corel", ((item_saberdriver)itemstack.getItem()).BOOK_L);
+			itemstack.getTagCompound().setInteger("corem", ((item_saberdriver)itemstack.getItem()).BOOK_M);
+			itemstack.getTagCompound().setInteger("corer", ((item_saberdriver)itemstack.getItem()).BOOK_R);
+			
 		}
 		itemstack.getTagCompound().setInteger("core"+slot, flag);
 	}
