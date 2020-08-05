@@ -2896,7 +2896,7 @@ public class RiderItems {
 	public static Item forceriser_naki = new item_zero_onedriver("forceriser_naki",ArmorMaterial.DIAMOND, 4, "naki",3).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item forceriser_001 = new item_zero_onedriver("forceriser_001",ArmorMaterial.DIAMOND, 4, "zero_zero_one",19).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 
-	public static Item cycloneriser_ichigata = new item_zero_onedriver("Cycloneriser_ichigata",ArmorMaterial.DIAMOND, 4, "ichigata",19).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item cycloneriser_ichigata = new item_zero_onedriver("cycloneriser_ichigata",ArmorMaterial.DIAMOND, 4, "ichigata",19).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item zaia_slashriser_jin = new item_zero_onedriver("zaia_slashriser_jin",ArmorMaterial.DIAMOND, 4, "jin_burning",1).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
@@ -2977,7 +2977,7 @@ public class RiderItems {
 	public static Item rocking_hopper_zetsumerisekey = new Item_progrise_keys("rocking_hopper_zetsumerisekey").setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item blank_progrise_key = new Item_ore("blank_progrise_key").setCreativeTab(Tabs.tabzero_one);
-	public static Item humagear_progrise_key = new Item_ore("Humagear_progrise_key").setCreativeTab(Tabs.tabzero_one);
+	public static Item humagear_progrise_key = new Item_ore("humagear_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item is_progrise_key = new Item_progrise_keys("is_progrise_key").AddToHumagearHiden3DPrinter(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item uchuyaro_subaru_progrise_key = new Item_progrise_keys("uchuyaro_subaru_progrise_key").AddToHumagearHiden3DPrinter(5).setCreativeTab(Tabs.tabzero_one);

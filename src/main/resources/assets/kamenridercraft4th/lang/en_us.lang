@@ -311,6 +311,8 @@ item.aqua_driver.name=Aqua Driver
 item.core_driver.name=Core Driver
 item.core_driver_power_up.name=Core Driver Power Up
 
+item.greeed_blet_ankh.name=Greeed Blet Ankh
+
 item.taka.name=Taka Core Medal
 item.kuwagata.name=Kuwagata Core Medal
 item.lion.name=Lion Core Medal
@@ -2306,7 +2308,7 @@ item.jin_progrise_key.name=Jin Progrise Key
 item.ikazuchi_progrise_key.name=Ikazuchi Progrise Key
 item.naki_progrise_key.name=Naki Progrise Key
 
-item.merry_hopper_progrise_key.name=Christmas　Rising Hopper Progrise Key
+item.merry_hopper_progrise_key.name=Christmas Rising Hopper Progrise Key
 
 item.hiden_metal.name=Hiden Metal
            
