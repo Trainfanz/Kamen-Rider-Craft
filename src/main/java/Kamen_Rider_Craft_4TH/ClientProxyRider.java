@@ -78,6 +78,7 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityshocker_combatman;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityAcrobatter;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityExaidBike;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityMachineBuilder;
+import Kamen_Rider_Craft_4TH.mobs.bikes.EntityRiseHopperBike;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityRoseAttacker;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntitySakuraHurricane;
 import Kamen_Rider_Craft_4TH.mobs.bikes.Entity_machine_denbird;
@@ -246,7 +247,8 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(EntityExaidBike.class, new RenderRiderMob2(new Model_lazer_bike(), 0.5F,"textures/entities/model_exaid_bike.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityMachineBuilder.class, new RenderRiderMob2(new Model_machine_builder(), 0.5F,"textures/entities/model_machine_builder.png"));
-		
+
+		RenderingRegistry.registerEntityRenderingHandler(EntityRiseHopperBike.class, new RenderRiderMob2(new Model_Sakura_Hurricane(), 0.5F,"textures/entities/rise_hopper_bike.png"));
 	}
 
 	public void registerItemRender(Item item, int i, String string) {
