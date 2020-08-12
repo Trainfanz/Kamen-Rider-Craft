@@ -111,6 +111,7 @@ import Kamen_Rider_Craft_4TH.item.wizard.item_wizardarmor;
 import Kamen_Rider_Craft_4TH.item.wizard.item_wizardarmor2;
 import Kamen_Rider_Craft_4TH.item.wizard.item_wizarddriver;
 import Kamen_Rider_Craft_4TH.item.zero_one.Item_progrise_keys;
+import Kamen_Rider_Craft_4TH.item.zero_one.item_risephone;
 import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onearmor;
 import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onearmor2;
 import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onedriver;
@@ -2916,6 +2917,9 @@ public class RiderItems {
 	public static Item ark_driver_one = new Item_ore("ark_driver_one");
 	
 	public static Item shot_riser_gun = new Item_gun("shot_riser_gun",Tabs.den_dengu).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	
+	public static Item hiden_risephone = new item_risephone("hiden_risephone").setCreativeTab(Tabs.tabzero_one);
+
 	
 	public static Item rising_hopper_progrise_key = new Item_progrise_keys(0, 19,"rising_hopper_progrise_key").AddToHiden3DPrinter(10).AddVulcanCanUse().setCreativeTab(Tabs.tabzero_one);
 	public static Item shining_hopper_progrise_key = new Item_progrise_keys(0, 19,"shining_hopper_progrise_key").AddToHiden3DPrinter(2).AddChangeBase(1).setCreativeTab(Tabs.tabzero_one);
