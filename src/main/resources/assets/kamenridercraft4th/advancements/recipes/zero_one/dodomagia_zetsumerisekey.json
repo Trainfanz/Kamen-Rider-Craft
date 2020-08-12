@@ -2,10 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "kamenridercraft4th:progrise_hopper_blade",
-       "kamenridercraft4th:progrise_hopper_blade_naginata",
-       "kamenridercraft4th:hiden_risephone",
-       "kamenridercraft4th:ark_one_boss_block"
+      "kamenridercraft4th:forceriser_ikazuchi"
     ]
   },
   "criteria": {
@@ -14,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "item": "kamenridercraft4th:humagear_progrise_key"
+            "item": "kamenridercraft4th:dodomagia_zetsumerisekey"
           }
         ]
       }
@@ -22,7 +19,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "kamenridercraft4th:progrise_hopper_blade"
+        "recipe": "kamenridercraft4th:forceriser_ikazuchi"
       }
     }
   },
