@@ -1,15 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "XXX",
-    "XCX",
-    "XXX"
+    "XRX",
+    "YCM",
+    "XSX"
   ],
   "key": {
     "X": {
       "item": "kamenridercraft4th:blank_progrise_key"
     }, "C": {
       "item": "kamenridercraft4th:is_progrise_key"
+    }, "Y": {
+      "item": "kamenridercraft4th:metalcluster_hopper_progrise_key"
+    }, "M": {
+      "item": "kamenridercraft4th:shining_assault_hopper_progrise_key"
+    }, "S": {
+      "item": "kamenridercraft4th:shining_hopper_progrise_key"
+    }, "R": {
+      "item": "kamenridercraft4th:rising_hopper_progrise_key"
     }
   },
   "result": {

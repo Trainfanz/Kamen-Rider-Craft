@@ -64,7 +64,7 @@ public class Entity_magiadodo_chick extends Entity_base_henchmen
 				EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
 				EntityBossBase entityboss  = new Entity_dodomagia(world);
 
-				switch (this.rand.nextInt(10))
+				switch (this.rand.nextInt(5))
 				{
 				case 0:
 					playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Zetsumerise!"));
@@ -78,7 +78,7 @@ public class Entity_magiadodo_chick extends Entity_base_henchmen
 		}
 		this.dropItem(RiderItems.blank_progrise_key,3);
 		this.dropItem(RiderItems.hiden_metal, 2);
-		switch (this.rand.nextInt(25))
+		switch (this.rand.nextInt(15))
 		{
 		case 0:
 			this.dropItem(RiderItems.punching_kong_progrise_key, 1);

@@ -2917,9 +2917,7 @@ public class RiderItems {
 	public static Item ark_driver_one = new Item_ore("ark_driver_one");
 	
 	public static Item shot_riser_gun = new Item_gun("shot_riser_gun",Tabs.den_dengu).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
-	
 	public static Item hiden_risephone = new item_risephone("hiden_risephone").setCreativeTab(Tabs.tabzero_one);
-
 	
 	public static Item rising_hopper_progrise_key = new Item_progrise_keys(0, 19,"rising_hopper_progrise_key").AddToHiden3DPrinter(10).AddVulcanCanUse().setCreativeTab(Tabs.tabzero_one);
 	public static Item shining_hopper_progrise_key = new Item_progrise_keys(0, 19,"shining_hopper_progrise_key").AddToHiden3DPrinter(2).AddChangeBase(1).setCreativeTab(Tabs.tabzero_one);
@@ -2927,7 +2925,6 @@ public class RiderItems {
 	public static Item metalcluster_hopper_progrise_key = new Item_progrise_keys(0, 19,"metalcluster_hopper_progrise_key").AddChangeBase(3).setCreativeTab(Tabs.tabzero_one);
 	public static Item zero_two_progrise_key = new Item_progrise_keys(0, 19,"zero_two_progrise_key").AddChangeBase(4).setCreativeTab(Tabs.tabzero_one);
 	public static Item red_rising_hopper_progrise_key = new Item_progrise_keys(0, 19,"red_rising_hopper_progrise_key").AddToHiden3DPrinter(1).AddChangeBase(7).setCreativeTab(Tabs.tabzero_one);
-	
 	
 	public static Item biting_shark_progrise_key = new Item_progrise_keys(0, 2,"biting_shark_progrise_key").AddToHiden3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
 	public static Item flaming_tiger_progrise_key = new Item_progrise_keys(0, 6,"flaming_tiger_progrise_key").AddToHiden3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
@@ -3006,12 +3003,12 @@ public class RiderItems {
 	public static Item ikazuchi_progrise_key = new Item_progrise_keys("ikazuchi_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item naki_progrise_key = new Item_progrise_keys("naki_progrise_key").AddToHumagearHiden3DPrinter(5).setCreativeTab(Tabs.tabzero_one);	
 	
-	public static Item merry_hopper_progrise_key = new Item_progrise_keys("merry_hopper_progrise_key").AddToHumagearHiden3DPrinter(5).setCreativeTab(Tabs.tabzero_one);	
+	public static Item merry_hopper_progrise_key = new Item_progrise_keys("merry_hopper_progrise_key").AddToHiden3DPrinter(1).setCreativeTab(Tabs.tabzero_one);	
 	
 	public static Item hiden_metal = new Item_ore("hiden_metal").setCreativeTab(Tabs.tabzero_one);
 	
 	
-	
+//Saber
 
 	public static Item brave_dragon_wonderride_book = new Item_wonder_ride_book("l",1,"brave_dragon_wonderride_book").resetBook("saber").setCreativeTab(Tabs.tabsaber);
 

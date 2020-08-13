@@ -65,7 +65,7 @@ public class Entity_trilobite_magia extends Entity_base_henchmen
 				EntityBossBase entityboss  = new Entity_magia(world);
 
 				EntityBossBase entity_jin  = new Entity_jin(world);
-				switch (this.rand.nextInt(50))
+				switch (this.rand.nextInt(25))
 				{
 				case 0:
 					playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Zetsumerise!"));
@@ -83,19 +83,9 @@ public class Entity_trilobite_magia extends Entity_base_henchmen
 					world.spawnEntity(entityboss);
 					break;
 				case 3:
-					playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Zetsumerise!"));
-					entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
-					world.spawnEntity(entityboss);
-					break;
-				case 4:
-					playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Zetsumerise!"));
-					entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
-					world.spawnEntity(entityboss);
-					break;
-				case 5:
 					playerIn.sendMessage( new TextComponentString(TextFormatting.LIGHT_PURPLE+"Forcerise! Flying Falcon! Break down."));
 					entity_jin.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
-					world.spawnEntity(entityboss);
+					world.spawnEntity(entity_jin);
 					break;
 
 				}
