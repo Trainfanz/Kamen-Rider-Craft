@@ -48,6 +48,7 @@ public class RegistyHandler {
 		boolean big = false;
 	
 		if(event.player.isPotionActive(PotionCore.BIG_POTION)) big = true;
+		if(event.player.isPotionActive(Potion.getPotionFromResourceLocation("supersentaicraft"+ ":" + "fly"))) big = true;
 		
 		if(big){
 				event.player.height=4+(event.player.getDefaultEyeHeight());
