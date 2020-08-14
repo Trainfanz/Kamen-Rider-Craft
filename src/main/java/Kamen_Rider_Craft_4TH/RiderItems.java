@@ -1061,6 +1061,8 @@ public class RiderItems {
 
 	public static Item gden_odriver = new item_den_odriver("gden_odriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
 
+	public static Item pretty_den_odriver = new item_den_odriver("pretty_den_odriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
+
 	public static Item den_oriderpass = new item_RiderPass("den_oriderpass").setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
 	public static Item den_o_master_pass = new item_RiderPass("den_o_master_pass").setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
 	public static Item gden_oriderpass = new item_RiderPass("gden_oriderpass").setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);

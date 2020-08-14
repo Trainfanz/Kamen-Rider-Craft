@@ -109,6 +109,16 @@ public class item_den_oarmor extends ItemArmor implements IHasModel
 						{
 							return Refercence.MODID+":textures/armor/"+"gaoh_1.png";
 						}
+					}else if(player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.pretty_den_odriver){
+
+						if ( slot == EntityEquipmentSlot.LEGS)
+						{
+							return Refercence.MODID+":textures/armor/"+"pretty_deno_2.png";
+						}
+						if (slot == EntityEquipmentSlot.HEAD||slot == EntityEquipmentSlot.CHEST )
+						{
+							return Refercence.MODID+":textures/armor/"+"pretty_deno_1.png";
+						}
 					}else if(player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.yuukibelt_hijack){
 
 						if ( slot == EntityEquipmentSlot.LEGS)
