@@ -22,7 +22,7 @@ public class RegistyHandler {
 	public static void onFly(TickEvent.PlayerTickEvent event) {
 		boolean fly = false;
 		if(event.player.isPotionActive(PotionCore.FLY_POTION)) fly = true;
-		if(event.player.isPotionActive(Potion.getPotionFromResourceLocation("tokuPotions"+ ":" + "fly"))) fly = true;
+		if(event.player.isPotionActive(Potion.getPotionFromResourceLocation("supersentaicraft"+ ":" + "fly"))) fly = true;
 		
 		if(fly || event.player.isCreative() || event.player.isSpectator()) {
 			event.player.capabilities.allowFlying = true;
@@ -46,8 +46,8 @@ public class RegistyHandler {
 		}
 		
 		boolean big = false;
+	
 		if(event.player.isPotionActive(PotionCore.BIG_POTION)) big = true;
-		
 		
 		if(big){
 				event.player.height=4+(event.player.getDefaultEyeHeight());
