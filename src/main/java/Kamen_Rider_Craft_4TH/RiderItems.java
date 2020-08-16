@@ -2976,7 +2976,7 @@ public class RiderItems {
 	public static Item arsinomagia_zetsumerisekey = new Item_progrise_keys("arsinomagia_zetsumerisekey").setCreativeTab(Tabs.tabzero_one);
 	public static Item unknown_zetsumerisekey = new Item_progrise_keys("unknown_zetsumerisekey").setCreativeTab(Tabs.tabzero_one);
 	
-	public static Item japanese_wolf_zetsumerisekey = new Item_progrise_keys("japanese_wolf_zetsumerisekey").setCreativeTab(Tabs.tabzero_one);
+	public static Item japanese_wolf_zetsumerisekey = new Item_progrise_keys(1, 3,"japanese_wolf_zetsumerisekey").AddChangeBase(8).setCreativeTab(Tabs.tabzero_one);
 	public static Item rocking_hopper_zetsumerisekey = new Item_progrise_keys("rocking_hopper_zetsumerisekey").setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item blank_progrise_key = new Item_ore("blank_progrise_key").setCreativeTab(Tabs.tabzero_one);
