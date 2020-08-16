@@ -59,6 +59,8 @@ public class WorldGenCustomStructures implements IWorldGenerator
 	
 	public static final WorldGenStructure day_brake_town = new WorldGenStructure("day_brake_town");
 	
+	public static final WorldGenStructure mighty_action_x = new WorldGenStructure("mighty_action_x");
+	
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
 		switch(world.provider.getDimension()) {
@@ -69,6 +71,7 @@ public class WorldGenCustomStructures implements IWorldGenerator
 				generateStructure(PANDORA_TOWER, world, random, chunkX, chunkZ,-1, 1500, Blocks.DIRT, BiomePlains.class,BiomeSavanna.class,BiomeForest.class,BiomeHills.class);
 				generateStructure(HELHEIM_CRACK, world, random, chunkX, chunkZ,-1, 500, Blocks.DIRT, BiomePlains.class,BiomeMesa.class,BiomeForest.class,BiomeJungle.class);
 				generateStructure(day_brake_town, world, random, chunkX, chunkZ,5, 1000, Blocks.DIRT, BiomePlains.class,BiomeSavanna.class,BiomeForest.class,BiomeSwamp.class);
+				generateStructure(mighty_action_x, world, random, chunkX, chunkZ,-1, 1000, Blocks.DIRT, BiomePlains.class,BiomeSavanna.class,BiomeForest.class,BiomeSwamp.class);
 				
 				generateStructureFlames(GINGA, world, random, chunkX, chunkZ,1, 800, Blocks.STONE, BiomeHills.class);
 				
