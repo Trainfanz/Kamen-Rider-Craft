@@ -2,14 +2,16 @@
 {
   "modid": "kamenridercraft4th",
   "name": "Kamen Rider Craft The 4th",
-  "description": "Adds items from the Kamen Rider Series.",
+  "description": "Since 1971, The Kamen Rider Series has captivated people across the world with it's stories, characters, and it's 'tokusatsu' production techniques. Now, nearly 50 years of Japanese cultural icons arrives in Minecraft!
+Kamen Rider Craft began as a small project in late 2012 by Kelco_K22, and has since evolved into a spawling mod with hundreds of items, weapons, and forms with multiple developers on board.
+Collect items, assemble an arsenal of armors and weapons, and fight a variety of new mobs and bosses! Every series and era of Kamen Rider is represented in some form, including toy-exclusive and extra-canonical items!",
   "version": "1.6.pre",
   "mcversion": "1.12.2",
   "url": "https://www.curseforge.com/minecraft/mc-mods/kamen-rider-craft",
   "updateUrl": "",
   "authorList": ["Kelco_K22, Trainfanz, Waterpicker, LiasDan"],
   "credits": "Those on the Discord who helped with various textures.",
-  "logoFile": "",
+  "logoFile": "assets/krc.png",
   "screenshots": [],
   "dependencies": []
 }
