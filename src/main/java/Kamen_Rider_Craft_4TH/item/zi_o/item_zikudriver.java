@@ -367,6 +367,19 @@ public class item_zikudriver extends ItemArmor  implements IHasModel
 												player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));		
 										}
+									}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.oma_ziku_driver){
+										
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 8,true,false));	
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 8,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 8,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 5,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SATURATION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 8,true,false));
+										
 									}
 									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.beyondriver){
 										

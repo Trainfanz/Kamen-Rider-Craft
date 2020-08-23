@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:ooo_ridewatch"
+    }, 
+    {
+      "item": "kamenridercraft4th:ptera"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:ooo_putotyra_ridewatch"
+  }
+}

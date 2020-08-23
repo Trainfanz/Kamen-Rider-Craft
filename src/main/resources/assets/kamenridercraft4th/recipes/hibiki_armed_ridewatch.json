@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:hibiki_ridewatch"
+    }, 
+    {
+      "item": "kamenridercraft4th:armed_saber"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:hibiki_armed_ridewatch"
+  }
+}

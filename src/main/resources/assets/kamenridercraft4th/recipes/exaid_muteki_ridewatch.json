@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:exaid_ridewatch"
+    }, 
+    {
+      "item": "kamenridercraft4th:hyper_muteki_gashat"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:exaid_muteki_ridewatch"
+  }
+}

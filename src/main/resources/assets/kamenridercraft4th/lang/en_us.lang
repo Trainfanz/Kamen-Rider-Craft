@@ -2076,7 +2076,7 @@ item.zi_olegs.name=Zi-O Leggings
 
 item.ziku_driver_zi_o.name=Ziku Driver (Zi-O)
 item.ziku_driver_geiz.name=Ziku Driver (Geiz)
-item.oma_ziku_driver.name=Oma Ziku Driver
+item.oma_ziku_driver.name=Ohma Ziku Driver
 item.beyondriver.name=BeyonDriver
 item.shinobi_driver.name=Shinobi Driver
 item.hattari_driver.name=Hattari Driver
@@ -2096,6 +2096,10 @@ item.another_fourze_driver.name=Another Fourze Driver
 item.another_ooo_driver.name=Another OOO Driver
 item.another_faiz_driver.name=Another Faiz Driver
 item.ziku_driver_tsukuyomi.name=Ziku Driver (Tsukuyomi)
+
+
+item.unfinished_ohma_zi_o_driver_1.name=Unfinished Ohma Ziku Driver Part
+item.unfinished_ohma_zi_o_driver_2.name=Unfinished Ohma Ziku Driver Part
 
 item.zikan_grade.name=Zikan Grade
 item.zikan_zax.name=Zikan Zax
@@ -2137,10 +2141,30 @@ item.ryuki_ridewatch.name=Ryuki Ridewatch
 item.agito_ridewatch.name=Agito Ridewatch
 item.kuuga_ridewatch.name=Kuuga Ridewatch
 
+item.build_genius_ridewatch.name=Build Genius Form Ridewatch
+item.exaid_muteki_ridewatch.name=Ex-Aid Muteki Gamer Ridewatch
+item.ghost_mugen_ridewatch.name=Ghost Mugen Damashii Ridewatch
+item.drive_tridron_ridewatch.name=Drive Type Tridoron Ridewatch
+item.gaim_kiwami_ridewatch.name=Gaim Kiwami Arms Ridewatch
+item.wizard_infinity_ridewatch.name=Wizard Infinity Style Ridewatch
+item.fourze_cosmic_ridewatch.name=Fourze Cosmicstates Ridewatch
+item.ooo_putotyra_ridewatch.name=OOO Putotyra Combo Ridewatch
+item.w_extreme_ridewatch.name=W CycloneJokerXtreme Ridewatch
+item.decade_complete_ridewatch.name=Decade Complete Form Ridewatch
+item.kiva_emperor_ridewatch.name=Kiva Emperor Form Ridewatch
+item.deno_liner_ridewatch.name=Den-O Liner Form Ridewatch
+item.kabuto_hyper_ridewatch.name=Kabuto Hyper Form Ridewatch
+item.hibiki_armed_ridewatch.name=Armed Hibiki Ridewatch
+item.blade_king_ridewatch.name=Blade King Form Ridewatch
+item.faiz_blaster_ridewatch.name=Faiz Blaster Form Ridewatch
+item.ryuki_survive_ridewatch.name=Ryuki Survive Ridewatch
+item.agito_shinning_ridewatch.name=Agito Shining Form Ridewatch
+item.kuuga_ultimate_ridewatch.name=Kuuga Ultimate Form Ridewatch
+
 item.zi_o_ii_ridewatch.name=Zi-O II Ridewatch
 item.trinity_ridewatch.name=Zi-O Trinity Ridewatch
 item.grandzi_o_ridewatch.name=Grand Zi-O Ridewatch
-item.ohmazi_o_ridewatch.name=Oma Zi-O Ridewatch
+item.ohmazi_o_ridewatch.name=Ohma Zi-O Ridewatch
 
 item.geizrevive_ridewatch.name=Geiz Revive Ridewatch
 item.bibiru_geiz_ridewatch.name=Bibiru Geiz Ridewatch
