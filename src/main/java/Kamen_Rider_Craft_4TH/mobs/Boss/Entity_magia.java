@@ -67,7 +67,8 @@ public class Entity_magia extends EntityBossBase
 //implements IBossDisplayData
 {
     
-	public static final Item[] belt = new Item[] {RiderItems.zetsumeriser_berothra,RiderItems.zetsumeriser_ekal,RiderItems.zetsumeriser_kuehne,RiderItems.zetsumeriser_berothra};
+	public static final Item[] belt = new Item[] {RiderItems.zetsumeriser_berothra,RiderItems.zetsumeriser_ekal,RiderItems.zetsumeriser_kuehne,RiderItems.zetsumeriser_berothra
+			,RiderItems.zetsumeriser_neohi};
 	
 	private String texture;
 	public Entity_magia(World par1World)
@@ -76,7 +77,7 @@ public class Entity_magia extends EntityBossBase
 		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.zero_onetroso));
 		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.zero_onehead));
 		Random generator = new Random();
-		int rand = generator.nextInt(4);
+		int rand = generator.nextInt(belt.length);
 		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(belt[rand]));
 		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.zero_onelegs));
 		
@@ -113,6 +114,37 @@ if (!this.world.isRemote){
 		{
 		case 0:
 			this.dropItem(this.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem(), 1);
+			break;
+		}
+   		
+   		switch (this.rand.nextInt(25))
+		{
+		case 0:
+			this.dropItem(RiderItems.berothamagia_zetsumerisekey, 1);
+			break;
+		case 1:
+			this.dropItem(RiderItems.kuehnemagia_zetsumerisekey, 1);
+			break;
+		case 2:
+			this.dropItem(RiderItems.ekalmagia_zetsumerisekey, 1);
+			break;
+		case 3:
+			this.dropItem(RiderItems.neohimagia_zetsumerisekey, 1); 
+			break;
+		case 4:
+			this.dropItem(RiderItems.onychomagia_zetsumerisekey, 1);
+			break;
+		case 5:
+			this.dropItem(RiderItems.vicaryamagia_zetsumerisekey, 1);
+			break;
+		case 6:
+			this.dropItem(RiderItems.gaerumagia_zetsumerisekey, 1); 
+			break;
+		case 7:
+			this.dropItem(RiderItems.mammothmagia_zetsumerisekey, 1);
+			break;
+		case 8:
+			this.dropItem(RiderItems.arsinomagia_zetsumerisekey, 1);
 			break;
 		}
    		

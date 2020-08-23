@@ -49,6 +49,14 @@ public class Entity_hard_guardian extends Entity_base_henchmen
 		this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(60.0D);	     
 	}
 
+	 /**
+     * Checks to make sure the light is not too bright where the mob is spawning
+     */
+    protected boolean isValidLightLevel()
+    {
+        return true;
+    }
+    
 	public void onDeath(DamageSource cause)
 	{
 		if (!this.world.isRemote){

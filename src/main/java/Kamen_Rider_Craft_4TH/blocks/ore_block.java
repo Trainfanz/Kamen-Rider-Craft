@@ -134,38 +134,6 @@ public class ore_block extends Block implements IHasModel {
 			return CRYSTAL;
 		}
 
-		
-/**
-		if (CRYSTAL == RiderItems.imaginsand){
-			int rand = generator.nextInt(120);
-
-			if (rand < 30) return RiderItems.rider_ticket_sword;
-			if (rand < 40) return RiderItems.rider_ticket_rod;
-			if (rand < 50) return RiderItems.rider_ticket_ax;
-			if (rand < 54) return RiderItems.rider_ticket_gun;
-			if (rand < 56) return RiderItems.rider_ticket_wing;
-			if (rand < 57) return RiderItems.rider_ticket;
-			return CRYSTAL;
-
-		}
-				if (CRYSTAL == RiderItems.rider_ticket_strike){
-			int rand = generator.nextInt(220);
-
-			if (rand < 70) return RiderItems.imaginsand;
-			if (rand < 90) return RiderItems.rider_ticket_strike;
-			if (rand < 100) return RiderItems.rider_ticket_gaoh;
-			if (rand < 110) return RiderItems.zeronos_altair_card;
-			if (rand < 117) return RiderItems.zeronos_vega_card;
-			if (rand < 124) return RiderItems.zeronos_plat_card;
-			if (rand < 131) return RiderItems.rider_ticket_nega;
-			if (rand < 138) return RiderItems.rider_ticket_yuuki;
-			if (rand < 143) return RiderItems.rider_ticket_g;
-			if (rand < 148) return RiderItems.zeronos_zero_card;
-			return CRYSTAL;
-		}
-**/
-		
-
 
 		if (CRYSTAL == RiderItems.kuuga_growing){
 			int rand = generator.nextInt(100);
@@ -538,52 +506,6 @@ public class ore_block extends Block implements IHasModel {
 			return CRYSTAL;
 		}
 
-		if (CRYSTAL == RiderItems.blank_watch){
-			int rand = generator.nextInt(200);
-
-			if (rand < 30) return RiderItems.zi_o_ridewatch;
-			if (rand < 35) return RiderItems.geiz_ridewatch;
-			if (rand < 40) return RiderItems.build_ridewatch;
-			if (rand < 45) return RiderItems.exaid_ridewatch;
-			if (rand < 50) return RiderItems.ghost_ridewatch;
-			if (rand < 55) return RiderItems.drive_ridewatch;
-			if (rand < 60) return RiderItems.faiz_ridewatch;
-			if (rand < 65) return RiderItems.fourze_ridewatch;
-			if (rand < 70) return RiderItems.ryuki_ridewatch;
-			if (rand < 75) return RiderItems.wizard_ridewatch;
-			if (rand < 80) return RiderItems.ooo_ridewatch;
-			if (rand < 85) return RiderItems.kabuto_ridewatch;
-			if (rand < 90) return RiderItems.hibiki_ridewatch;
-			if (rand < 95) return RiderItems.deno_ridewatch;
-			if (rand < 100) return RiderItems.kiva_ridewatch;
-			if (rand < 105) return RiderItems.gaim_ridewatch;
-			if (rand < 110) return RiderItems.blade_ridewatch;
-			if (rand < 115) return RiderItems.agito_ridewatch;
-			if (rand < 118) return RiderItems.genm_ridewatch;
-			if (rand < 121) return RiderItems.cross_z_ridewatch;
-			if (rand < 124) return RiderItems.beast_ridewatch;
-			if (rand < 127) return RiderItems.decade_ridewatch;
-			if (rand < 132) return RiderItems.w_ridewatch;
-			if (rand < 137) return RiderItems.kuuga_ridewatch;
-			if (rand < 139) return RiderItems.zi_o_ii_ridewatch;
-			return CRYSTAL;
-		}
-
-		if (CRYSTAL == RiderItems.blank_miridewatch){
-			int rand = generator.nextInt(120);
-
-			if (rand < 30) return RiderItems.woz_miridewatch;
-			if (rand < 35) return RiderItems.shinobi_miridewatch;
-			if (rand < 40) return RiderItems.quiz_miridewatch;
-			if (rand < 45) return RiderItems.kikai_miridewatch;
-			if (rand < 48) return RiderItems.shuriken_starter;
-			if (rand < 51) return RiderItems.shuriken_starter_hattari;
-			if (rand < 54) return RiderItems.quiz_topper;
-			if (rand < 57) return RiderItems.spannerder_screwder;
-			if (rand < 60) return RiderItems.ginga_globe;
-			return CRYSTAL;
-
-		}
 
 		if (CRYSTAL == RiderItems.amazon_cell_vial){
 			int rand = generator.nextInt(120);

@@ -72,6 +72,14 @@ public class EntityKurokageTroopers extends Entity_base_henchmen
 		this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(8.0D);
 	}
 
+	 /**
+     * Checks to make sure the light is not too bright where the mob is spawning
+     */
+    protected boolean isValidLightLevel()
+    {
+        return true;
+    }
+    
 	public void onDeath(DamageSource cause)
 	{
 		if (!this.world.isRemote){

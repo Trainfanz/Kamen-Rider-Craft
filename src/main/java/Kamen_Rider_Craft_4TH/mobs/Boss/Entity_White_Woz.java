@@ -82,7 +82,7 @@ public class Entity_White_Woz extends EntityBossBase
 	public void onEntityUpdate(){
 		super.onEntityUpdate();
 		if (this.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.beyondriver){
-		switch (this.rand.nextInt(200))
+		switch (this.rand.nextInt(500))
 		{
 		case 0:
 			item_zikudriver.set_lock(this.getItemStackFromSlot(EntityEquipmentSlot.FEET),22);
@@ -97,7 +97,7 @@ public class Entity_White_Woz extends EntityBossBase
 			this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.zikan_despear));
 			break;
 		
-		case 3|4|5|6|7:
+		case 3|4|5|6|7|8|9|10|11:
 			item_zikudriver.set_lock(this.getItemStackFromSlot(EntityEquipmentSlot.FEET),0);
 			this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.zikan_despear));
 			break;
@@ -130,7 +130,7 @@ if (!this.world.isRemote){
 
    		this.dropItem(RiderItems.woz_miridewatch, 1);
 
-   		switch (this.rand.nextInt(5))
+   		switch (this.rand.nextInt(4))
 		{
 		case 0:
 			this.dropItem(RiderItems.quiz_miridewatch, 1);

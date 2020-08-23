@@ -169,6 +169,7 @@ tile.rosyuo_boss_block.name=Roshuo Block
 tile.demushu_boss_block.name=Demushu Block
 tile.lord_baron_boss_block.name=Lord Baron Block
 tile.gaoh_boss_block.name=Gaoh Block
+tile.woz_boss_block.name=Woz (White) Block
 tile.horobi_boss_block.name=Horobi Block
 tile.ikazuchi_boss_block.name=Ikazuchi Block
 tile.ark_one_boss_block.name=Ark-One Block
@@ -311,7 +312,7 @@ item.aqua_driver.name=Aqua Driver
 item.core_driver.name=Core Driver
 item.core_driver_power_up.name=Core Driver Power Up
 
-item.greeed_blet_ankh.name=Greeed Blet Ankh
+item.greeed_blet_ankh.name=Greeed Belt Ankh
 
 item.taka.name=Taka Core Medal
 item.kuwagata.name=Kuwagata Core Medal
@@ -2172,6 +2173,8 @@ item.amazon_neo_ridewatch.name=Amazon Neo Ridewatch
 
 item.zero_one_ridewatch.name=Zero-One Ridewatch
 
+item.ohma_advent_calendar.name=Ohma Advent Calendar
+
 item.woz_ridewatch.name=Woz Ridewatch
 item.unfinished_grandzi_o_ridewatch_1.name=Unfinished Grand Zi-O Ridewatch Part
 item.unfinished_grandzi_o_ridewatch_2.name=Unfinished Grand Zi-O Ridewatch Part
@@ -2212,6 +2215,7 @@ item.zetsumeriser_berothra.name=ZetsumeRiser (Berotha Magia)
 item.zetsumeriser_kuehne.name=ZetsumeRiser (Kuehne Magia)
 item.zetsumeriser_ekal.name=ZetsumeRiser (Ekal Magia)
 item.zetsumeriser_dodo.name=ZetsumeRiser (Dodo Magia)
+item.zetsumeriser_neohi.name=ZetsumeRiser (Neohi Magia)
 
 item.zetsumeriser_dodo_custom.name=ZetsumeRiser (Dodo Magia Custom)
 item.zetsumeriser_dodo_custom_v2.name=ZetsumeRiser (Dodo Magia Custom　Two)

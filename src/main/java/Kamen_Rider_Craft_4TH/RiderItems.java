@@ -118,6 +118,7 @@ import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onedriver;
 import Kamen_Rider_Craft_4TH.item.zi_o.Item_blank_ridewatches2;
 import Kamen_Rider_Craft_4TH.item.zi_o.Item_ridewatches;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_kodamawatch;
+import Kamen_Rider_Craft_4TH.item.zi_o.item_ohma_advent_calendar;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zi_oarmor;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zi_oarmor2;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
@@ -141,6 +142,7 @@ public class RiderItems {
 	public static Item blanknoitem = new Item_ore("blanknoitem");
 	public static Item blanknoform = new Item_form_change("blanknoform",item_kuugadriver.class,blanknoitem,"");
 
+	public static Item rider_circuit = new Item_ore("rider_circuit").setCreativeTab(Tabs.tabmisc);
 
 	public static Item energy = new Item_ore("energy").setCreativeTab(Tabs.tabmisc);
 
@@ -292,7 +294,6 @@ public class RiderItems {
 	public static Block night_rogue_block = new mob_block("night_rogue_block", Entity_NightRogue::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
 	public static Block hell_bros_block = new mob_block("hell_bros_block", Entity_HellBros::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
 	public static Block bi_kaiser_block = new mob_block("bi_kaiser_block", Entity_bikaiser::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
-	public static Block another_build_block = new mob_block("another_build_block", Entity_another_build::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabzi_o);
 	public static Block cronus_block = new mob_block("cronus_block", EntityChronos::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabex_aid);
 
 	public static Block rosyuo_boss_block = new mob_block("rosyuo_boss_block", Entity_roshuo::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabGaim);
@@ -302,13 +303,15 @@ public class RiderItems {
 	
 	public static Block gaoh_boss_block = new mob_block("gaoh_boss_block", Entity_gaoh::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabden_o);
 	
+	public static Block another_build_block = new mob_block("another_build_block", Entity_another_build::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabzi_o);
+	public static Block woz_boss_block = new mob_block("woz_boss_block", Entity_White_Woz::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabzi_o);
+	
+	
 	public static Block horobi_boss_block = new mob_block("horobi_boss_block", Entity_horobi::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabzero_one);
 	public static Block ikazuchi_boss_block = new mob_block("ikazuchi_boss_block", Entity_ikazuchi::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabzero_one);
 	public static Block ark_one_boss_block = new mob_block("ark_one_boss_block", Entity_Arc_zero::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabzero_one);
 
 	
-	public static Item rider_circuit = new Item_ore("rider_circuit").setCreativeTab(Tabs.tabIchigo);
-
 	public static Item ichigohead = new item_Ichigoarmor("ichigohead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item ichigotroso = new item_Ichigoarmor2("ichigotroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item ichigolegs = new item_Ichigoarmor2("ichigolegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
@@ -2795,6 +2798,26 @@ public class RiderItems {
 	public static Item agito_ridewatch = new Item_ridewatches(1, 17,"agito_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item kuuga_ridewatch = new Item_ridewatches(1, 18,"kuuga_ridewatch").setCreativeTab(Tabs.tabzi_o);
 
+	public static Item build_genius_ridewatch = new Item_ore("build_genius_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item exaid_muteki_ridewatch = new Item_ore("exaid_muteki_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item ghost_mugen_ridewatch = new Item_ore("ghost_mugen_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item drive_tridron_ridewatch = new Item_ore("drive_tridron_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item gaim_kiwami_ridewatch = new Item_ore("gaim_kiwami_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item wizard_infinity_ridewatch = new Item_ore("wizard_infinity_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item fourze_cosmic_ridewatch = new Item_ore("fourze_cosmic_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item ooo_putotyra_ridewatch = new Item_ore("ooo_putotyra_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item w_extreme_ridewatch = new Item_ore("w_extreme_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item decade_complete_ridewatch = new Item_ore("decade_complete_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item kiva_emperor_ridewatch = new Item_ore("kiva_emperor_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item deno_liner_ridewatch = new Item_ore("deno_liner_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item kabuto_hyper_ridewatch = new Item_ore("kabuto_hyper_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item hibiki_armed_ridewatch = new Item_ore("hibiki_armed_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item blade_king_ridewatch = new Item_ore("blade_king_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item faiz_blaster_ridewatch = new Item_ore("faiz_blaster_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item ryuki_survive_ridewatch = new Item_ore("ryuki_survive_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item agito_shinning_ridewatch = new Item_ore("agito_shinning_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item kuuga_ultimate_ridewatch = new Item_ore("kuuga_ultimate_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	
 	public static Item zero_one_ridewatch = new Item_ore("zero_one_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	
 	public static Item amazon_omega_ridewatch = new Item_ore("amazon_omega_ridewatch").setCreativeTab(Tabs.tabzi_o);
@@ -2823,6 +2846,11 @@ public class RiderItems {
 
 	public static Item unfinished_grandzi_o_ridewatch_1 = new Item_ore("unfinished_grandzi_o_ridewatch_1").setCreativeTab(Tabs.tabzi_o);
 	public static Item unfinished_grandzi_o_ridewatch_2 = new Item_ore("unfinished_grandzi_o_ridewatch_2").setCreativeTab(Tabs.tabzi_o);
+	
+	public static Item unfinished_ohma_zi_o_driver_1 = new Item_ore("unfinished_ohma_zi_o_driver_1").setCreativeTab(Tabs.tabzi_o);
+	public static Item unfinished_ohma_zi_o_driver_2 = new Item_ore("unfinished_ohma_zi_o_driver_2").setCreativeTab(Tabs.tabzi_o);
+	public static Item ohma_advent_calendar = new item_ohma_advent_calendar("ohma_advent_calendar").setCreativeTab(Tabs.tabzi_o);
+	
 	public static Item kodama_suika_arms = new item_kodamawatch("kodama_suika_arms").setCreativeTab(Tabs.tabzi_o);
 	public static Item another_build_ridewatch = new Item_ore("another_build_ridewatch").setCreativeTab(Tabs.tabzi_o);  
 
@@ -2870,16 +2898,15 @@ public class RiderItems {
 	public static Item ziku_driver_genm = new Item_ore("ziku_driver_genm");
 
 	public static Item oma_zi_o_cape = new Item_ore("oma_zi_o_cape");
-
 	
 	//Zero-one
 	public static Item attache_calibur = new ItemBaseSword("attache_calibur",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item attache_shotgun = new Item_gun("attache_shotgun",Tabs.den_dengu).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item attache_arrow = new Item_gun("attache_arrow",Tabs.den_dengu).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item authorise_buster = new Item_sword_gun("authorise_buster",Tabs.parabragun_axe).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
-	public static Item progrise_hopper_blade = new ItemBaseSword("progrise_hopper_blade",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
-	public static Item progrise_hopper_blade_naginata = new ItemBaseSword("progrise_hopper_blade_naginata",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
-	public static Item thousand_jacker = new ItemBaseSword("thousand_jacker",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item progrise_hopper_blade = new ItemBaseSword("progrise_hopper_blade",Tabs.dj_gun).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item progrise_hopper_blade_naginata = new ItemBaseSword("progrise_hopper_blade_naginata",Tabs.dj_gun_taiken_mode).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item thousand_jacker = new ItemBaseSword("thousand_jacker",Tabs.souginjou).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
 	
 	public static Item zero_onehead = new item_zero_onearmor("zero_onehead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
@@ -2908,6 +2935,7 @@ public class RiderItems {
 	public static Item zetsumeriser_berothra = new item_zero_onedriver("zetsumeriser_berothra",ArmorMaterial.DIAMOND, 4, "magia_berothra",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item zetsumeriser_kuehne = new item_zero_onedriver("zetsumeriser_kuehne",ArmorMaterial.DIAMOND, 4, "magia_kuehne",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item zetsumeriser_ekal = new item_zero_onedriver("zetsumeriser_ekal",ArmorMaterial.DIAMOND, 4, "magia_ekal",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item zetsumeriser_neohi = new item_zero_onedriver("zetsumeriser_neohi",ArmorMaterial.DIAMOND, 4, "magia_neohi",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item zetsumeriser_dodo = new item_zero_onedriver("zetsumeriser_dodo",ArmorMaterial.DIAMOND, 4, "magia_dodo",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item zetsumeriser_dodo_custom = new item_zero_onedriver("zetsumeriser_dodo_custom",ArmorMaterial.DIAMOND, 4, "magia_dodo_custom",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);

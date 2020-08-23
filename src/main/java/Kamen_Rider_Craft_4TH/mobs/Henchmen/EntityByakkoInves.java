@@ -68,6 +68,7 @@ public class EntityByakkoInves extends Entity_base_henchmen
 		this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(60.0D);	  
 	}
 
+	
 	public void onDeath(DamageSource cause)
 	{
 		if (!this.world.isRemote){

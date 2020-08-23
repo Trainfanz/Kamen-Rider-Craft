@@ -62,6 +62,14 @@ public class Entitynew_mole_imagin extends Entity_base_henchmen
 	}
 
 
+	 /**
+     * Checks to make sure the light is not too bright where the mob is spawning
+     */
+    protected boolean isValidLightLevel()
+    {
+        return true;
+    }
+    
 	public void onDeath(DamageSource cause)
 	{
 		if (!this.world.isRemote){

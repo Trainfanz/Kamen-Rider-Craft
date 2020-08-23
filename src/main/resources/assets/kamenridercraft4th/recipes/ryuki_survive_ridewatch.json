@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:ryuki_ridewatch"
+    }, 
+    {
+      "item": "kamenridercraft4th:survive_advent"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:ryuki_survive_ridewatch"
+  }
+}

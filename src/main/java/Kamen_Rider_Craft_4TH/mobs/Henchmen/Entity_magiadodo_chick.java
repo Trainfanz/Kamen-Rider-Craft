@@ -56,6 +56,14 @@ public class Entity_magiadodo_chick extends Entity_base_henchmen
 		super(par1World);	
 	}
 
+	 /**
+     * Checks to make sure the light is not too bright where the mob is spawning
+     */
+    protected boolean isValidLightLevel()
+    {
+        return true;
+    }
+    
 	public void onDeath(DamageSource cause)
 	{
 		if (!this.world.isRemote){
