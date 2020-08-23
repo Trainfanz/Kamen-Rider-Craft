@@ -387,6 +387,8 @@ public class RiderItems {
 
 	public static Item g_belt = new item_Ichigodriver("g_belt",ArmorMaterial.DIAMOND, 4,"kamen_rider_g").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	
+	public static Item nophoon_kamen_norider = new item_Ichigodriver("nophoon_kamen_norider",ArmorMaterial.DIAMOND, 4,"kamen_norider").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	
 	
 	public static Item typhoon_core = new Item_ore("typhoon_core").setCreativeTab(Tabs.tabIchigo);
 	public static Item riderman_belt_core = new Item_ore("riderman_belt_core").setCreativeTab(Tabs.tabIchigo);
@@ -2926,6 +2928,8 @@ public class RiderItems {
 	public static Item forceriser_naki = new item_zero_onedriver("forceriser_naki",ArmorMaterial.DIAMOND, 4, "naki",3).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item forceriser_001 = new item_zero_onedriver("forceriser_001",ArmorMaterial.DIAMOND, 4, "zero_zero_one",19).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 
+	public static Item zetsumetsu_driver = new item_zero_onedriver("zetsumetsu_driver",ArmorMaterial.DIAMOND, 4, "horobi_ark",10).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	
 	public static Item cycloneriser_ichigata = new item_zero_onedriver("cycloneriser_ichigata",ArmorMaterial.DIAMOND, 4, "ichigata",19).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item zaia_slashriser_jin = new item_zero_onedriver("zaia_slashriser_jin",ArmorMaterial.DIAMOND, 4, "jin_burning",1).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
@@ -2983,7 +2987,8 @@ public class RiderItems {
 	public static Item fighting_jackal_progrise_key = new Item_progrise_keys(0, 28,"fighting_jackal_progrise_key").AddToZaia3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item sting_scorpion_progrise_key = new Item_progrise_keys(3, 10,"sting_scorpion_progrise_key").AddToZaia3DPrinter(10).AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
-
+	public static Item ark_scorpion_progrise_key = new Item_progrise_keys("ark_scorpion_progrise_key").setCreativeTab(Tabs.tabzero_one);
+	
 	public static Item flying_falcon_progrise_key = new Item_progrise_keys(4, 1,"flying_falcon_progrise_key").AddToHiden3DPrinter(5).AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
 	public static Item burning_falcon_progrise_key = new Item_progrise_keys(4, 26,"burning_falcon_progrise_key").AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
 	

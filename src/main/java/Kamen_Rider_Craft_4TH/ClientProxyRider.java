@@ -68,6 +68,7 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_hard_guardian;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_magiadodo_chick;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_needle_smash;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_trilobite_magia;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_zu_gumun_ba;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entitygamma_commando;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityguardian;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityguardian_hokuto;
@@ -117,7 +118,7 @@ public class ClientProxyRider extends CommonProxyRider
 	@Override
 	public void registerRenderThings()
 	{
-		
+		RenderingRegistry.registerEntityRenderingHandler(Entity_zu_gumun_ba.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/zu_gumun_ba.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_gaoh.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/gaoh.png"));
 		
