@@ -42,6 +42,11 @@ public class tokuArmorModelSaber extends ModelBiped
 	/** The Biped's Left Leg */
 	public ModelRenderer bipedLeftLeg2;
 
+	/** The Biped's Right Leg */
+	public ModelRenderer bipedRightLeg3;
+	/** The Biped's Left Leg */
+	public ModelRenderer bipedLeftLeg3;
+	
 	public tokuArmorModelSaber()
 	{
 		
@@ -75,6 +80,15 @@ public class tokuArmorModelSaber extends ModelBiped
 		this.bipedLeftLeg2.mirror = true;
 		this.bipedLeftLeg2.addBox(-2.0F, 0.0F, -2.0F, 4, 12, 4, 1);
 		this.bipedLeftLeg2.setRotationPoint(1.9F, 12.0F , 0.0F);
+		
+		this.bipedRightLeg3 = new ModelRenderer(this, 0, 16);
+		this.bipedRightLeg3.addBox(-2.0F, 0.0F, -2.0F, 4, 12, 4, 1);
+		this.bipedRightLeg3.setRotationPoint(-1.9F, 12.0F , 0.0F);
+		this.bipedLeftLeg3 = new ModelRenderer(this, 0, 16);
+		this.bipedLeftLeg3.mirror = true;
+		this.bipedLeftLeg3.addBox(-2.0F, 0.0F, -2.0F, 4, 12, 4, 1);
+		this.bipedLeftLeg3.setRotationPoint(1.9F, 12.0F , 0.0F);
+
 	}
 	
 	
@@ -142,6 +156,27 @@ public class tokuArmorModelSaber extends ModelBiped
 
 
 		GL11.glPopMatrix();
+
+		GL11.glPushMatrix();
+		GL11.glScalef(1F*height,1F*height,1F*height);
+
+		if (entity.isSneaking()){
+			GL11.glTranslatef(0, 0.3F, 0);
+
+		}else {
+			GL11.glTranslatef(0, 0.02F, 0);
+
+
+		}
+
+		GL11.glTranslatef(0,height2,0);
+		this.bipedLeftLeg3.offsetX=0.045f;
+		this.bipedRightLeg3.offsetX=-0.045f;
+		this.bipedLeftLeg3.render(f5);
+		this.bipedRightLeg3.render(f5);
+
+		GL11.glPopMatrix();
+		
 		GL11.glPushMatrix();
 
 
@@ -232,6 +267,10 @@ public class tokuArmorModelSaber extends ModelBiped
 		copyModelAngles(this.bipedBody, this.bipedBody2);
 		copyModelAngles(this.bipedBody, this.bipedBody3);
 
+
+		copyModelAngles(this.bipedRightLeg, this.bipedRightLeg3);
+		copyModelAngles(this.bipedLeftLeg, this.bipedLeftLeg3);
+	
 		copyModelAngles(this.bipedLeftArm, this.bipedLeftArm2);
 		copyModelAngles(this.bipedLeftLeg, this.bipedLeftLeg2);
 		copyModelAngles(this.bipedRightArm, this.bipedRightArm2);

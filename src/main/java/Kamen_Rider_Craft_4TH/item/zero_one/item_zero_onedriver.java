@@ -2,6 +2,7 @@ package Kamen_Rider_Craft_4TH.item.zero_one;
 
 import javax.annotation.Nullable;
 
+import Kamen_Rider_Craft_4TH.RiderBlocks;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.Tabs;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
@@ -81,7 +82,10 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 					}else{
 						armorModel.belt=stack;
 					}
+					
 				}
+
+				
 				else if( this==RiderItems.ark_driver_zero){
 					if (this.get_core(stack, "1")==6){
 						armorModel.belt=new ItemStack( RiderItems.ark_driver_one);
@@ -102,8 +106,11 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 					}
 				}	
 				
-			  armorModel.wings=new ItemStack(RiderItems.blanknoitem);
-			  
+				if (this==RiderItems.hiden_zero_one_driver&this.get_core(stack, "1")==9){
+					armorModel.wings=new ItemStack( RiderItems.realize_hopper_lines);
+				}else{
+					armorModel.wings=new ItemStack( RiderItems.blanknoitem);
+				}
 						//armorModel.belt2=new ItemStack(form_watch[item_zero_onedriver.get_core(stack,"1")]);	
 						//armorModel.belt3=new ItemStack(armor_watch[item_zero_onedriver.get_locknum(stack)]);
 					
@@ -248,6 +255,16 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,4,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,4,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,3,true,false));
+										
+									}else if (base==9){
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 25,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 25,0,true,false));
 										
 									}
 									

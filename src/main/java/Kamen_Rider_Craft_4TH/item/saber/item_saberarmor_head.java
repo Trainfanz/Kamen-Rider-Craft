@@ -94,9 +94,13 @@ public class item_saberarmor_head extends ItemArmor  implements IHasModel
 				armorModel.bipedRightArm2.showModel = slot == EntityEquipmentSlot.HEAD;
 				armorModel.bipedLeftArm2.showModel = slot != EntityEquipmentSlot.HEAD;
 
-				armorModel.bipedLeftLeg2.showModel = slot != EntityEquipmentSlot.HEAD;
-				armorModel.bipedRightLeg2.showModel = slot != EntityEquipmentSlot.LEGS;
+				armorModel.bipedLeftLeg2.showModel = slot == EntityEquipmentSlot.CHEST;
+				armorModel.bipedRightLeg2.showModel = slot == EntityEquipmentSlot.CHEST;
 
+				armorModel.bipedLeftLeg3.showModel = slot ==EntityEquipmentSlot.LEGS;
+				armorModel.bipedRightLeg3.showModel = slot == EntityEquipmentSlot.HEAD;
+
+				
 				armorModel.bipedBody3.showModel = slot == EntityEquipmentSlot.CHEST;
 
 				armorModel.bipedHead2.showModel = true;

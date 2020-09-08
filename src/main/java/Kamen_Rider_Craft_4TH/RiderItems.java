@@ -2902,6 +2902,8 @@ public class RiderItems {
 	public static Item oma_zi_o_cape = new Item_ore("oma_zi_o_cape");
 	
 	//Zero-one
+	public static Item realize_hopper_lines = new Item_ore("realize_hopper_lines");
+	
 	public static Item attache_calibur = new ItemBaseSword("attache_calibur",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item attache_shotgun = new Item_gun("attache_shotgun",Tabs.den_dengu).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item attache_arrow = new Item_gun("attache_arrow",Tabs.den_dengu).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
@@ -2959,6 +2961,7 @@ public class RiderItems {
 	public static Item metalcluster_hopper_progrise_key = new Item_progrise_keys(0, 19,"metalcluster_hopper_progrise_key").AddChangeBase(3).setCreativeTab(Tabs.tabzero_one);
 	public static Item zero_two_progrise_key = new Item_progrise_keys(0, 19,"zero_two_progrise_key").AddChangeBase(4).setCreativeTab(Tabs.tabzero_one);
 	public static Item red_rising_hopper_progrise_key = new Item_progrise_keys(0, 19,"red_rising_hopper_progrise_key").AddToHiden3DPrinter(1).AddChangeBase(7).setCreativeTab(Tabs.tabzero_one);
+	public static Item realize_rising_hopper_progrise_key = new Item_progrise_keys(0, 19,"realize_rising_hopper_progrise_key").AddChangeBase(9).setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item biting_shark_progrise_key = new Item_progrise_keys(0, 2,"biting_shark_progrise_key").AddToHiden3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
 	public static Item flaming_tiger_progrise_key = new Item_progrise_keys(0, 6,"flaming_tiger_progrise_key").AddToHiden3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
@@ -3045,13 +3048,6 @@ public class RiderItems {
 	
 //Saber
 
-	public static Item brave_dragon_wonderride_book = new Item_wonder_ride_book("l",1,"brave_dragon_wonderride_book").resetBook("saber").setCreativeTab(Tabs.tabsaber);
-
-	public static Item lion_senki_wonderride_book = new Item_wonder_ride_book("m",1,"lion_senki_wonderride_book").resetBook("blaze").setCreativeTab(Tabs.tabsaber);
-	
-	public static Item peter_fantasista_wonderride_book = new Item_wonder_ride_book("r",1,"peter_fantasista_wonderride_book").setCreativeTab(Tabs.tabsaber);
-	public static Item jackun_to_domamenoki_wonderride_book = new Item_wonder_ride_book("r",2,"jackun_to_domamenoki_wonderride_book").setCreativeTab(Tabs.tabsaber);
-
 	
 	public static Item saberhead = new item_saberarmor_head("saberhead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item sabertroso = new item_saberarmor_head("sabertroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
@@ -3060,6 +3056,16 @@ public class RiderItems {
 	public static Item seiken_swordriver_saber = new item_saberdriver("seiken_swordriver_saber",ArmorMaterial.DIAMOND, 4,"saber",1,0,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item seiken_swordriver_blaze = new item_saberdriver("seiken_swordriver_blaze",ArmorMaterial.DIAMOND, 4,"blaze",0,1,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 
+
+	public static Item brave_dragon_wonderride_book = new Item_wonder_ride_book("l",1,"brave_dragon_wonderride_book").resetBook("saber").setCreativeTab(Tabs.tabsaber);
+
+	public static Item lion_senki_wonderride_book = new Item_wonder_ride_book("m",1,"lion_senki_wonderride_book").resetBook("blaze").setCreativeTab(Tabs.tabsaber);
+	
+	public static Item peter_fantasista_wonderride_book = new Item_wonder_ride_book("r",1,"peter_fantasista_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item jackun_to_domamenoki_wonderride_book = new Item_wonder_ride_book("r",2,"jackun_to_domamenoki_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item needle_hedgehog_wonderride_book= new Item_wonder_ride_book("m",2,"needle_hedgehog_wonderride_book").setCreativeTab(Tabs.tabsaber);
+
+	
 	
 	public static Item amazonshead = new item_amazonsarmor("amazonshead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);
 	public static Item amazonstroso = new item_amazonsarmor2("amazonstroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);

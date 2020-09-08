@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:ark_one_progrise_key"
+    }, 
+    {
+      "item": "kamenridercraft4th:zero_two_progrise_key"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:realize_rising_hopper_progrise_key"
+  }
+}

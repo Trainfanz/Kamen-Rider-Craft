@@ -48,7 +48,7 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 	public int BOOK_R;
 
 	public static String[] book_l= new String[] {"base_l","brave_dragon","","","","","","","","",""};
-	public static String[] book_m= new String[] {"base_m","lion_senki","","","","","","","","",""};
+	public static String[] book_m= new String[] {"base_m","lion_senki","needle_hedgehog","","","","","","","",""};
 	public static String[] book_r= new String[] {"base_r","peter","jackun","","","","","","","",""};
 
 
