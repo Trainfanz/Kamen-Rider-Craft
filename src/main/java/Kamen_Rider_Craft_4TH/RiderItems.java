@@ -2938,6 +2938,9 @@ public class RiderItems {
 	
 	public static Item ark_driver_zero = new item_zero_onedriver("ark_driver_zero",ArmorMaterial.DIAMOND, 4, "ark_zero",19).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
+	public static Item eden_driver = new item_zero_onedriver("eden_driver",ArmorMaterial.DIAMOND, 4, "eden",19).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	
+	
 	public static Item zetsumeriser_berothra = new item_zero_onedriver("zetsumeriser_berothra",ArmorMaterial.DIAMOND, 4, "magia_berothra",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item zetsumeriser_kuehne = new item_zero_onedriver("zetsumeriser_kuehne",ArmorMaterial.DIAMOND, 4, "magia_kuehne",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item zetsumeriser_ekal = new item_zero_onedriver("zetsumeriser_ekal",ArmorMaterial.DIAMOND, 4, "magia_ekal",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
