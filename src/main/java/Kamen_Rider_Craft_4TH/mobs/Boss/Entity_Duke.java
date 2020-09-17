@@ -101,7 +101,8 @@ public class Entity_Duke extends EntityBossBase
     public void onDeath(DamageSource cause)
     {
 if (!this.world.isRemote){
-
+	this.dropItem(RiderItems.himawari_energy_lockseed, 5);
+		
    		this.dropItem(RiderItems.lemon_energy_lockseed, 1);
 
    		switch (this.rand.nextInt(5))

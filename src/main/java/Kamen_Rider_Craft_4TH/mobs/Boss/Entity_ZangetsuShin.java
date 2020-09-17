@@ -103,7 +103,9 @@ public class Entity_ZangetsuShin extends EntityBossBase
 if (!this.world.isRemote){
 
    		this.dropItem(RiderItems.melon_energy_lockseed, 1);
-
+   		
+   		this.dropItem(RiderItems.himawari_energy_lockseed, 5);
+		
    		switch (this.rand.nextInt(5))
 		{
 		case 0:
