@@ -63,6 +63,11 @@ entity.GaohMob.name=Kamen Rider Gaoh
 entity.MachineDenBirdMob.name=Machine Den-Bird
 entity.RiseHopperBikeMob.name=Rise Hopper
 
+entity.ZuGumunBaMob.name=Zu-Gumun-Ba
+
+entity.RiotrooperMob.name=Riotrooper
+entity.OrgaMob.name=Horse Orpnoch
+
 entity.new_mole_imagin_sandMob.name=New Mole Imagin (Sand)
 entity.new_mole_imaginMob.name=New Mole Imagin
 entity.MomotarosMob.name=Momotaros
@@ -1562,6 +1567,8 @@ item.king_stone_split.name=Split King Stone
 item.typhoon_ichigo.name=Typhoon (Ichigo)
 item.typhoon_nigo.name=Typhoon (Nigo)
 
+item.nophoon_kamen_norider.name=Typhoon(Kamen Norider)
+
 item.new_typhoon.name=Typhoon (2016)
 
 item.typhoon_sango.name=Typhoon (Sango)
@@ -1593,6 +1600,7 @@ item.typhoon_shocker_rider_9.name=Typhoon (Shocker Rider 9)
 item.typhoon_shocker_rider_10.name=Typhoon (Shocker Rider 10)
 item.typhoon_shocker_rider_11.name=Typhoon (Shocker Rider 11)
 item.typhoon_shocker_rider_12.name=Typhoon (Shocker Rider 12)
+
 
 item.double_typhoon.name=Double Typhoon
 item.riderman_belt.name=Riderman Belt
@@ -2235,6 +2243,9 @@ item.zaia_slashriser_jin.name=ZAIA SlashRiser (Jin)
 
 item.ark_driver_zero.name=Ark Driver-Zero (Ark-Zero)
 
+item.zetsumetsu_driver.name=Zetsumetsu Driver
+item.eden_driver.name=Eden Driver
+
 item.zetsumeriser_berothra.name=ZetsumeRiser (Berotha Magia)
 item.zetsumeriser_kuehne.name=ZetsumeRiser (Kuehne Magia)
 item.zetsumeriser_ekal.name=ZetsumeRiser (Ekal Magia)
@@ -2337,6 +2348,9 @@ item.jin_progrise_key.name=Jin Progrise Key
 item.ikazuchi_progrise_key.name=Ikazuchi Progrise Key
 item.naki_progrise_key.name=Naki Progrise Key
 
+item.ark_scorpion_progrise_key.name=Ark Scorpion Progrisekey
+item.realize_rising_hopper_progrise_key.name=Rising Hopper Progrisekey (Realize Ver.)
+
 item.merry_hopper_progrise_key.name=Christmas Rising Hopper Progrise Key
 
 item.hiden_metal.name=Hiden Metal
@@ -2355,6 +2369,7 @@ item.lion_senki_wonderride_book.name=Lion Senki WonderRide Book
 
 item.peter_fantasista_wonderride_book.name=Peter Fantasista WonderRide Book
 item.jackun_to_domamenoki_wonderride_book.name=Jackun-to-Domamenoki WonderRide Book
+item.needle_hedgehog_wonderride_book.name=Needle Hedgehog WonderRide Book
 		   
 item.amazonshead.name=Amazons Helmet
 item.amazonstroso.name=Amazons Chestplate 

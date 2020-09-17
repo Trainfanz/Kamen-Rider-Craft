@@ -50,6 +50,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_jin;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_lord_baron;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_magia;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_nazca_dopant;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_orga;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_red_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_redyue;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_roshuo;
@@ -64,6 +65,7 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityKurokageTroopers;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMasquerade;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityNebulaBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityRidePlayer;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityRiotrooper;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_hard_guardian;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_magiadodo_chick;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_needle_smash;
@@ -119,6 +121,9 @@ public class ClientProxyRider extends CommonProxyRider
 	public void registerRenderThings()
 	{
 		RenderingRegistry.registerEntityRenderingHandler(Entity_zu_gumun_ba.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/zu_gumun_ba.png"));
+
+		RenderingRegistry.registerEntityRenderingHandler(EntityRiotrooper.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/riotrooper.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_orga.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/horse_orpnoch.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_gaoh.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/gaoh.png"));
 		
@@ -130,7 +135,6 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(EntityUrataros.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/urataros.png"));
 		RenderingRegistry.registerEntityRenderingHandler(EntityKintaros.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/kintaros.png"));
 		RenderingRegistry.registerEntityRenderingHandler(EntityRyutaros.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/ryutaros.png"));
-		
 		
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityMasquerade.class, new RenderRiderMob2( new ModelBiped(), 0.4F,"textures/entities/masquerade.png"));

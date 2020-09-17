@@ -190,7 +190,6 @@ public class Entity_Arc_zero extends EntityBossBase
 	}
 
 
-
 	static class AIFireballAttack extends EntityAIBase
 	{
 		private final Entity_Arc_zero blaze;
