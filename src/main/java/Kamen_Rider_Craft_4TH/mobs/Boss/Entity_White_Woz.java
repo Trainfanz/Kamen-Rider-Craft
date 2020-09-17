@@ -130,6 +130,8 @@ if (!this.world.isRemote){
 
    		this.dropItem(RiderItems.woz_miridewatch, 1);
 
+   		this.dropItem(RiderItems.blank_miridewatch, 5);
+   		
    		switch (this.rand.nextInt(4))
 		{
 		case 0:
