@@ -124,6 +124,11 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 			{
 				model_belt_plus armorModel = new model_belt_plus();
 
+				if (stack.getItem()==RiderItems.sword_of_logos_buckle_buster){
+					if(living.getHeldItemMainhand().getItem()!= RiderItems.dogouken_gekido&living.getHeldItemOffhand().getItem()!= RiderItems.dogouken_gekido){
+						armorModel.wings= new ItemStack(RiderItems.dogouken_gekido_back);
+					}
+				}
 				armorModel.belt=stack;
 				armorModel.isSneak = defaultModel.isSneak;
 				armorModel.isRiding = defaultModel.isRiding;
@@ -142,7 +147,8 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 	public static String get_core(ItemStack itemstack,String slot)
 	{
 		String form = "base";
-
+		String rider = ((item_saberdriver)itemstack.getItem()).Rider;
+		
 		if (slot == "l") {
 			if (itemstack.hasTagCompound()) {
 				form=book_l[itemstack.getTagCompound().getInteger("core"+slot)];
@@ -150,23 +156,27 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 				form=book_l[((item_saberdriver)itemstack.getItem()).BOOK_L];
 			}
 			if (form == "base_l") {
-				form = ((item_saberdriver)itemstack.getItem()).Rider+"_base_l";
+				form = rider+"_base_l";
 			}
 		}else if (slot == "r"){
 			if (itemstack.hasTagCompound()) {
+				if (rider == "buster"){
+					form=rider+"_"+book_r[itemstack.getTagCompound().getInteger("core"+slot)];
+				}else{
 				form=book_r[itemstack.getTagCompound().getInteger("core"+slot)];
+				}
 			}else {
 				form=book_r[((item_saberdriver)itemstack.getItem()).BOOK_R];
 			}
 			if (form == "base_r") {
-				form = ((item_saberdriver)itemstack.getItem()).Rider+"_base_r";
+				form = rider+"_base_r";
 			}
 			
 		}else {
 			if (itemstack.hasTagCompound()) {
-				form=((item_saberdriver)itemstack.getItem()).Rider+"_"+book_m[itemstack.getTagCompound().getInteger("core"+slot)];
+				form=rider+"_"+book_m[itemstack.getTagCompound().getInteger("core"+slot)];
 			}else {
-				form=((item_saberdriver)itemstack.getItem()).Rider+"_"+book_m[((item_saberdriver)itemstack.getItem()).BOOK_M];
+				form=rider+"_"+book_m[((item_saberdriver)itemstack.getItem()).BOOK_M];
 			}
 		}
 
