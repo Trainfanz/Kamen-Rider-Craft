@@ -79,7 +79,11 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),belt.BOOK_M, "m");
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),belt.BOOK_R, "r");
 					}
-					else if (belt.Rider!="buster"){
+					else if(belt.Rider=="buster"){
+						if (this==RiderItems.jackun_to_domamenoki_wonderride_book){
+						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
+						}
+					} else if (belt.Rider!="calibur"){
  
 						String basebook="";
 						if (belt.BOOK_L!=0){
@@ -93,9 +97,6 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
 						}
 						
-					}else if (belt.Rider=="buster"){
-						if (num=="r")
-						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
 					}
 				}
 			}

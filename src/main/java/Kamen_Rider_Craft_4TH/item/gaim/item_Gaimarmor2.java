@@ -89,8 +89,9 @@ public class item_Gaimarmor2 extends ItemArmor implements IHasModel
 						}else if (belt.RIDER == "barvo"){
 
 							if (item_Gaimdriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="jimbar_melon_arms_barvo"){
-
 								return Refercence.MODID+":textures/armor/"+ "barvo_jimber" +".png";
+							}else if (item_Gaimdriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="king_durian_arms"){
+								return Refercence.MODID+":textures/armor/"+ "barvo_king" +".png";
 							}else
 								return Refercence.MODID+":textures/armor/"+ "barvo" +".png";
 						}else if (belt.RIDER == "zangetsu"){
@@ -110,6 +111,14 @@ public class item_Gaimarmor2 extends ItemArmor implements IHasModel
 								return Refercence.MODID+":textures/armor/"+ "duke_hex" +".png";
 							}else
 								return Refercence.MODID+":textures/armor/"+ "duke" +".png";
+							
+						}else if (belt.RIDER == "gridon"){
+
+							if (item_Gaimdriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="lychee_arms"){
+
+								return Refercence.MODID+":textures/armor/"+ "gridon_lychee" +".png";
+							}else
+								return Refercence.MODID+":textures/armor/"+ "gridon" +".png";
 							
 						}
 					
