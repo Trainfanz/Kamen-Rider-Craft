@@ -3092,12 +3092,15 @@ public class RiderItems {
 	
 	public static Item lion_senki_wonderride_book = new Item_wonder_ride_book("m",1,"lion_senki_wonderride_book").resetBook("blaze").setCreativeTab(Tabs.tabsaber);
 	public static Item peter_fantasista_wonderride_book = new Item_wonder_ride_book("r",1,"peter_fantasista_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item tenkuu_no_pegasus_wonderride_book = new Item_wonder_ride_book("l",4,"tenkuu_no_pegasus_wonderride_book").setCreativeTab(Tabs.tabsaber);
 	
 	public static Item lamp_do_alngina_wonderride_book = new Item_wonder_ride_book("r",3,"lamp_do_alngina_wonderride_book").resetBook("espada").setCreativeTab(Tabs.tabsaber);
 	public static Item needle_hedgehog_wonderride_book= new Item_wonder_ride_book("m",2,"needle_hedgehog_wonderride_book").setCreativeTab(Tabs.tabsaber);
 	
 	public static Item genbu_shinwa_wonderride_book = new Item_wonder_ride_book("l",2,"genbu_shinwa_wonderride_book").resetBook("buster").setCreativeTab(Tabs.tabsaber);
 	public static Item jackun_to_domamenoki_wonderride_book = new Item_wonder_ride_book("r",2,"jackun_to_domamenoki_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	
+	public static Item kobuta_3_kyouda_wonderride_book = new Item_wonder_ride_book("r",4,"kobuta_3_kyouda_wonderride_book").setCreativeTab(Tabs.tabsaber);
 	
 	
 	public static Item jaaku_dragon_wonder_ride_book = new Item_wonder_ride_book("l",3,"jaaku_dragon_wonder_ride_book").resetBook("calibur").setCreativeTab(Tabs.tabsaber);
