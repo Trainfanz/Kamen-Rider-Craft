@@ -3084,6 +3084,8 @@ public class RiderItems {
 
 	public static Item sword_of_logos_buckle_buster = new item_saberdriver("sword_of_logos_buckle_buster",ArmorMaterial.DIAMOND, 4,"buster",0,0,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 
+	public static Item sword_of_logos_buckle_kenzan = new item_saberdriver("sword_of_logos_buckle_kenzan",ArmorMaterial.DIAMOND, 4,"kenzan",0,0,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	
 	public static Item jaken_caliburdriver = new item_saberdriver("jaken_caliburdriver",ArmorMaterial.DIAMOND, 4,"calibur",3,0,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 
 	public static Item brave_dragon_wonderride_book = new Item_wonder_ride_book("l",1,"brave_dragon_wonderride_book").resetBook("saber").setCreativeTab(Tabs.tabsaber);
@@ -3100,6 +3102,7 @@ public class RiderItems {
 	public static Item genbu_shinwa_wonderride_book = new Item_wonder_ride_book("l",2,"genbu_shinwa_wonderride_book").resetBook("buster").setCreativeTab(Tabs.tabsaber);
 	public static Item jackun_to_domamenoki_wonderride_book = new Item_wonder_ride_book("r",2,"jackun_to_domamenoki_wonderride_book").setCreativeTab(Tabs.tabsaber);
 	
+	public static Item sarutobi_ninjaden_wonderride_book = new Item_wonder_ride_book("r",5,"sarutobi_ninjaden_wonderride_book").resetBook("kenzan").setCreativeTab(Tabs.tabsaber);
 	public static Item kobuta_3_kyouda_wonderride_book = new Item_wonder_ride_book("r",4,"kobuta_3_kyouda_wonderride_book").setCreativeTab(Tabs.tabsaber);
 	
 	

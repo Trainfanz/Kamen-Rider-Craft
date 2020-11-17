@@ -83,6 +83,10 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 						if (this==RiderItems.jackun_to_domamenoki_wonderride_book){
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
 						}
+					}else if(belt.Rider=="kenzan"){
+						if (this==RiderItems.kobuta_3_kyouda_wonderride_book){
+						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
+						}
 					} else if (belt.Rider!="calibur"){
  
 						String basebook="";

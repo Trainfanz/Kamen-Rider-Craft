@@ -49,7 +49,7 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 
 	public static String[] book_l= new String[] {"base_l","brave_dragon","genbu_shinwa","jaaku_dragon","tenkuu_no_pegasus","","","","","",""};
 	public static String[] book_m= new String[] {"base_m","lion_senki","needle_hedgehog","storm_eagle","","","","","","",""};
-	public static String[] book_r= new String[] {"base_r","peter","jackun","lamp_do_alngina","kobuta_3_kyouda","","","","","",""};
+	public static String[] book_r= new String[] {"base_r","peter","jackun","lamp_do_alngina","kobuta_3_kyouda","sarutobi_ninjaden","","","","",""};
 
 
 
@@ -160,7 +160,7 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 			}
 		}else if (slot == "r"){
 			if (itemstack.hasTagCompound()) {
-				if (rider == "buster"){
+				if (rider == "buster"||rider=="kenzan"){
 					form=rider+"_"+book_r[itemstack.getTagCompound().getInteger("core"+slot)];
 				}else{
 				form=book_r[itemstack.getTagCompound().getInteger("core"+slot)];
