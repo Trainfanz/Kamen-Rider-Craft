@@ -87,7 +87,11 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 						if (this==RiderItems.kobuta_3_kyouda_wonderride_book){
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
 						}
-					} else if (belt.Rider!="calibur"){
+					} else if(belt.Rider=="slash"){
+						if (this==RiderItems.bremen_no_rock_band_wonderride_book){
+						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
+						}
+					}else if (belt.Rider!="calibur"){
  
 						String basebook="";
 						if (belt.BOOK_L!=0){

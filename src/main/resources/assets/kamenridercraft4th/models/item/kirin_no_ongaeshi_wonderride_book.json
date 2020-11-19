@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "kamenridercraft4th:items/kirin_no_ongaeshi_wonderride_book"
+    }
+}
