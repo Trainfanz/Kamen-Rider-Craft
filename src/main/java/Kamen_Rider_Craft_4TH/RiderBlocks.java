@@ -1,12 +1,16 @@
 package Kamen_Rider_Craft_4TH;
 
+import Kamen_Rider_Craft_4TH.blocks.BlockCustomDoor;
 import Kamen_Rider_Craft_4TH.blocks.custom.BlockType;
 import Kamen_Rider_Craft_4TH.blocks.custom.CustomBlock;
 import Kamen_Rider_Craft_4TH.blocks.custom.Property;
 import Kamen_Rider_Craft_4TH.blocks.wood.BlockHelheimPlant;
 import Kamen_Rider_Craft_4TH.blocks.wood.BlockHelheimVine;
+import Kamen_Rider_Craft_4TH.item.Item_custom_door;
+import Kamen_Rider_Craft_4TH.item.Item_ore;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.item.Item;
 
 public class RiderBlocks {
 
@@ -17,6 +21,14 @@ public class RiderBlocks {
 	public static Block Helheim_plant_4 = new BlockHelheimPlant("helheim_plant_4").setCreativeTab(Tabs.tabmisc);
 	
 	public static Block counter_95do = CustomBlock.builder().material(Material.WOOD).blockType(BlockType.DIRECTIONAL).name("counter_95do").setCreativeTabe(Tabs.tabdecor).build();
+	
+	public static Block planks_light_blue = CustomBlock.builder().material(Material.WOOD).blockType(BlockType.BASIC).name("planks_light_blue").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block planks_dark_blue = CustomBlock.builder().material(Material.WOOD).blockType(BlockType.BASIC).name("planks_dark_blue").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block planks_white = CustomBlock.builder().material(Material.WOOD).blockType(BlockType.BASIC).name("planks_white").setCreativeTabe(Tabs.tabdecor).build();
+	
+	public static Block kamiyama_wall = CustomBlock.builder().material(Material.WOOD).blockType(BlockType.BASIC).name("kamiyama_wall").setCreativeTabe(Tabs.tabdecor).build();
+	
+	public static Block door_kamiyama = new BlockCustomDoor("door_kamiyama").setCreativeTab(Tabs.tabdecor);
 	
 	public static Block denliner_interior = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("denliner_interior").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block denliner_interior_darker = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("denliner_interior_darker").setCreativeTabe(Tabs.tabdecor).build();

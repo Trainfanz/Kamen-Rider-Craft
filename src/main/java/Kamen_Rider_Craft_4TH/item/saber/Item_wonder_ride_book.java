@@ -4,8 +4,10 @@ package Kamen_Rider_Craft_4TH.item.saber;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.blocks.hiden_3d_printing;
+import Kamen_Rider_Craft_4TH.blocks.sword_of_logos_book_analyzer;
 import Kamen_Rider_Craft_4TH.blocks.zaia_3d_printing;
 import Kamen_Rider_Craft_4TH.blocks.wood.BlockHelheimVine;
+import Kamen_Rider_Craft_4TH.item.zero_one.Item_progrise_keys;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
@@ -51,6 +53,14 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 
 	}
 
+	public Item_wonder_ride_book AddToSwordOfLogosBookAnalyzer(int num)
+	{
+		for (int i1 = 0; i1 < num; ++i1)
+		{
+			sword_of_logos_book_analyzer.wonder_ride_books.add(this);
+		}
+		return this;
+	}
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");

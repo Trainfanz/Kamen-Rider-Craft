@@ -18,4 +18,6 @@ public class CommonProxyRider
 	public void preInit() {
 		NetworkRegistry.INSTANCE.registerGuiHandler(TokuCraft_core.instance, new GuiHandler());
 	}
+
+	
 }

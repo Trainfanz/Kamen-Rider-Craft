@@ -286,9 +286,11 @@ public class RiderItems {
 	public static Block purifyer = new purifyer_block("purifyer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
 	public static Block solidifyer = new solidifyer_block("solidifyer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
 
-	public static Block hiden_3d_printing = new hiden_3d_printing("hiden_3d_printing",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabzero_one);
-	public static Block zaia_3d_printing = new zaia_3d_printing("zaia_3d_printing",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabzero_one);
+	public static Block hiden_3d_printing = new hiden_3d_printing("hiden_3d_printing",Material.ROCK, 2).setCreativeTab(Tabs.tabzero_one);
+	public static Block zaia_3d_printing = new zaia_3d_printing("zaia_3d_printing",Material.ROCK, 2).setCreativeTab(Tabs.tabzero_one);
 
+	public static Block sword_of_logos_book_analyzer = new sword_of_logos_book_analyzer("sword_of_logos_book_analyzer",Material.ROCK, 2).setCreativeTab(Tabs.tabsaber);
+	
 	//boss blocks
 	public static Block evolt_block = new mob_block("evolt_block", Entity_evolt::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
 	public static Block night_rogue_block = new mob_block("night_rogue_block", Entity_NightRogue::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
@@ -3088,35 +3090,35 @@ public class RiderItems {
 	
 	public static Item jaken_caliburdriver = new item_saberdriver("jaken_caliburdriver",ArmorMaterial.DIAMOND, 4,"calibur",3,0,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 
-	public static Item brave_dragon_wonderride_book = new Item_wonder_ride_book("l",1,"brave_dragon_wonderride_book").resetBook("saber").setCreativeTab(Tabs.tabsaber);
-	public static Item storm_eagle_wonderride_book = new Item_wonder_ride_book("m",3,"storm_eagle_wonderride_book").setCreativeTab(Tabs.tabsaber);
-	public static Item saiyuu_journey_wonderride_book = new Item_wonder_ride_book("r",10,"saiyuu_journey_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item brave_dragon_wonderride_book = new Item_wonder_ride_book("l",1,"brave_dragon_wonderride_book").resetBook("saber").AddToSwordOfLogosBookAnalyzer(30).setCreativeTab(Tabs.tabsaber);
+	public static Item storm_eagle_wonderride_book = new Item_wonder_ride_book("m",3,"storm_eagle_wonderride_book").AddToSwordOfLogosBookAnalyzer(15).setCreativeTab(Tabs.tabsaber);
+	public static Item saiyuu_journey_wonderride_book = new Item_wonder_ride_book("r",10,"saiyuu_journey_wonderride_book").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
 		
 	public static Item king_of_arthur_wonderride_book = new Item_wonder_ride_book("r",6,"king_of_arthur_wonderride_book").setCreativeTab(Tabs.tabsaber);
 	
-	public static Item lion_senki_wonderride_book = new Item_wonder_ride_book("m",1,"lion_senki_wonderride_book").resetBook("blaze").setCreativeTab(Tabs.tabsaber);
-	public static Item peter_fantasista_wonderride_book = new Item_wonder_ride_book("r",1,"peter_fantasista_wonderride_book").setCreativeTab(Tabs.tabsaber);
-	public static Item tenkuu_no_pegasus_wonderride_book = new Item_wonder_ride_book("l",4,"tenkuu_no_pegasus_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item lion_senki_wonderride_book = new Item_wonder_ride_book("m",1,"lion_senki_wonderride_book").resetBook("blaze").AddToSwordOfLogosBookAnalyzer(25).setCreativeTab(Tabs.tabsaber);
+	public static Item peter_fantasista_wonderride_book = new Item_wonder_ride_book("r",1,"peter_fantasista_wonderride_book").AddToSwordOfLogosBookAnalyzer(15).setCreativeTab(Tabs.tabsaber);
+	public static Item tenkuu_no_pegasus_wonderride_book = new Item_wonder_ride_book("l",4,"tenkuu_no_pegasus_wonderride_book").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
 	
-	public static Item lamp_do_alngina_wonderride_book = new Item_wonder_ride_book("r",3,"lamp_do_alngina_wonderride_book").resetBook("espada").setCreativeTab(Tabs.tabsaber);
-	public static Item needle_hedgehog_wonderride_book= new Item_wonder_ride_book("m",2,"needle_hedgehog_wonderride_book").setCreativeTab(Tabs.tabsaber);
-	public static Item tri_cerberus_wonderride_book = new Item_wonder_ride_book("l",5,"tri_cerberus_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item lamp_do_alngina_wonderride_book = new Item_wonder_ride_book("r",3,"lamp_do_alngina_wonderride_book").resetBook("espada").AddToSwordOfLogosBookAnalyzer(25).setCreativeTab(Tabs.tabsaber);
+	public static Item needle_hedgehog_wonderride_book= new Item_wonder_ride_book("m",2,"needle_hedgehog_wonderride_book").AddToSwordOfLogosBookAnalyzer(15).setCreativeTab(Tabs.tabsaber);
+	public static Item tri_cerberus_wonderride_book = new Item_wonder_ride_book("l",5,"tri_cerberus_wonderride_book").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
 	
-	public static Item genbu_shinwa_wonderride_book = new Item_wonder_ride_book("l",2,"genbu_shinwa_wonderride_book").resetBook("buster").setCreativeTab(Tabs.tabsaber);
-	public static Item jackun_to_domamenoki_wonderride_book = new Item_wonder_ride_book("r",2,"jackun_to_domamenoki_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item genbu_shinwa_wonderride_book = new Item_wonder_ride_book("l",2,"genbu_shinwa_wonderride_book").resetBook("buster").AddToSwordOfLogosBookAnalyzer(10).setCreativeTab(Tabs.tabsaber);
+	public static Item jackun_to_domamenoki_wonderride_book = new Item_wonder_ride_book("r",2,"jackun_to_domamenoki_wonderride_book").AddToSwordOfLogosBookAnalyzer(15).setCreativeTab(Tabs.tabsaber);
 	
-	public static Item sarutobi_ninjaden_wonderride_book = new Item_wonder_ride_book("r",5,"sarutobi_ninjaden_wonderride_book").resetBook("kenzan").setCreativeTab(Tabs.tabsaber);
-	public static Item kobuta_3_kyouda_wonderride_book = new Item_wonder_ride_book("r",4,"kobuta_3_kyouda_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item sarutobi_ninjaden_wonderride_book = new Item_wonder_ride_book("r",5,"sarutobi_ninjaden_wonderride_book").resetBook("kenzan").AddToSwordOfLogosBookAnalyzer(10).setCreativeTab(Tabs.tabsaber);
+	public static Item kobuta_3_kyouda_wonderride_book = new Item_wonder_ride_book("r",4,"kobuta_3_kyouda_wonderride_book").AddToSwordOfLogosBookAnalyzer(15).setCreativeTab(Tabs.tabsaber);
 	
-	public static Item hanselnuts_to_gretel_wonderride_book = new Item_wonder_ride_book("r",11,"hanselnuts_to_gretel_wonderride_book").resetBook("slash").setCreativeTab(Tabs.tabsaber);
-	public static Item bremen_no_rock_band_wonderride_book = new Item_wonder_ride_book("r",12,"bremen_no_rock_band_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item hanselnuts_to_gretel_wonderride_book = new Item_wonder_ride_book("r",11,"hanselnuts_to_gretel_wonderride_book").AddToSwordOfLogosBookAnalyzer(10).resetBook("slash").setCreativeTab(Tabs.tabsaber);
+	public static Item bremen_no_rock_band_wonderride_book = new Item_wonder_ride_book("r",12,"bremen_no_rock_band_wonderride_book").AddToSwordOfLogosBookAnalyzer(15).setCreativeTab(Tabs.tabsaber);
 	
 	public static Item jaaku_dragon_wonder_ride_book = new Item_wonder_ride_book("l",3,"jaaku_dragon_wonder_ride_book").resetBook("calibur").setCreativeTab(Tabs.tabsaber);
 
-	public static Item kirin_no_ongaeshi_wonderride_book = new Item_wonder_ride_book("r",7,"kirin_no_ongaeshi_wonderride_book").setCreativeTab(Tabs.tabsaber);
-	public static Item sarukani_wars_wonderride_book = new Item_wonder_ride_book("r",8,"sarukani_wars_wonderride_book").setCreativeTab(Tabs.tabsaber);
-	public static Item bakusou_usagi_to_kame_wonderride_book = new Item_wonder_ride_book("r",9,"bakusou_usagi_to_kame_wonderride_book").setCreativeTab(Tabs.tabsaber);
-	public static Item hoshin_kamen_engi_wonderride_book = new Item_wonder_ride_book("r",13,"hoshin_kamen_engi_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item kirin_no_ongaeshi_wonderride_book = new Item_wonder_ride_book("r",7,"kirin_no_ongaeshi_wonderride_book").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
+	public static Item sarukani_wars_wonderride_book = new Item_wonder_ride_book("r",8,"sarukani_wars_wonderride_book").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
+	public static Item bakusou_usagi_to_kame_wonderride_book = new Item_wonder_ride_book("r",9,"bakusou_usagi_to_kame_wonderride_book").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
+	public static Item hoshin_kamen_engi_wonderride_book = new Item_wonder_ride_book("r",13,"hoshin_kamen_engi_wonderride_book").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
 	
 	public static Item book_gate_wonder_ride_book = new Item_ore("book_gate_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
 	public static Item blank_wonder_ride_book = new Item_ore("blank_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
