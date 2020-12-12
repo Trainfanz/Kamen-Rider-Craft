@@ -53,9 +53,10 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 	
 	public static String[] book_r= new String[] {"base_r","peter","jackun","lamp_do_alngina","kobuta_3_kyouda","sarutobi_ninjaden","king_of_arthur",
 			"kirin_no_ongaeshi","sarukani_wars","bakusou_usagi_to_kame","saiyuu_journey","hanselnuts_to_grete","bremen_no_rock_band","hoshin_kamen_engi",
-			""};
+			"tsuki_no_hime_kaguyan","osha_jizou_san","issun_bushi"};
 
-
+	public static String[] book_mode= new String[] {"","_jaou_dragon","","","","",""};
+	
 
 	
 	public item_saberdriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, String rider,int book_l,int book_m, int book_r)
@@ -151,7 +152,14 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 	public static String get_core(ItemStack itemstack,String slot)
 	{
 		String form = "base";
-		String rider = ((item_saberdriver)itemstack.getItem()).Rider;
+		String rider;
+		String riderName=((item_saberdriver)itemstack.getItem()).Rider;
+		
+		if (itemstack.hasTagCompound()) {
+			rider=((item_saberdriver)itemstack.getItem()).Rider+book_mode[itemstack.getTagCompound().getInteger("core"+"f")];
+		}else {
+			rider=((item_saberdriver)itemstack.getItem()).Rider;
+		}
 		
 		if (slot == "l") {
 			if (itemstack.hasTagCompound()) {
@@ -164,7 +172,7 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 			}
 		}else if (slot == "r"){
 			if (itemstack.hasTagCompound()) {
-				if (rider == "buster"||rider=="kenzan"||rider=="slash"){
+				if (riderName == "buster"||riderName=="kenzan"||riderName=="slash"){
 					form=rider+"_"+book_r[itemstack.getTagCompound().getInteger("core"+slot)];
 				}else{
 				form=book_r[itemstack.getTagCompound().getInteger("core"+slot)];
@@ -195,6 +203,7 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 			itemstack.getTagCompound().setInteger("corel", ((item_saberdriver)itemstack.getItem()).BOOK_L);
 			itemstack.getTagCompound().setInteger("corem", ((item_saberdriver)itemstack.getItem()).BOOK_M);
 			itemstack.getTagCompound().setInteger("corer", ((item_saberdriver)itemstack.getItem()).BOOK_R);
+			itemstack.getTagCompound().setInteger("coref",0);
 			
 		}
 		itemstack.getTagCompound().setInteger("core"+slot, flag);

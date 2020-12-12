@@ -88,6 +88,7 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),belt.BOOK_L, "l");
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),belt.BOOK_M, "m");
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),belt.BOOK_R, "r");
+						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, "f");
 					}
 					else if(belt.Rider=="buster"){
 						if (this==RiderItems.jackun_to_domamenoki_wonderride_book){
@@ -101,7 +102,12 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 						if (this==RiderItems.bremen_no_rock_band_wonderride_book){
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
 						}
-					}else if (belt.Rider!="calibur"){
+					}else if(belt.Rider=="calibur"){
+						if (this==RiderItems.jaou_dragon_wonder_ride_book){
+						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
+						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),1, "f");
+						}
+					}else {
  
 						String basebook="";
 						if (belt.BOOK_L!=0){

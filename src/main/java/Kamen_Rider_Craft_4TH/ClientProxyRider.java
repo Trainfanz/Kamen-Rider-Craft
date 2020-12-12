@@ -66,6 +66,7 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMasquerade;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityNebulaBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityRidePlayer;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityRiotrooper;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityShimi;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_hard_guardian;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_magiadodo_chick;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_needle_smash;
@@ -231,6 +232,7 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entity_taboo_dopant.class, new RenderRiderMob2(new tokuMobModel("taboo_dopant_2"), 0.5F,"textures/entities/taboo_dopant_1.png"));
 		
 		
+		RenderingRegistry.registerEntityRenderingHandler(EntityShimi.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/shimi.png"));
 		
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityAcrobatter.class, new RenderRiderMob2(new Model_machine_builder(), 0.5F,"textures/entities/acrobatter.png"));
