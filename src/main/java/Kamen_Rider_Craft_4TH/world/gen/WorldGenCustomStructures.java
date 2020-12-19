@@ -18,6 +18,8 @@ import net.minecraft.world.World;
 import net.minecraft.world.WorldType;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.biome.BiomeForest;
+import net.minecraft.world.biome.BiomeHell;
+import net.minecraft.world.biome.BiomeHellDecorator;
 import net.minecraft.world.biome.BiomeHills;
 import net.minecraft.world.biome.BiomeJungle;
 import net.minecraft.world.biome.BiomeMesa;
@@ -38,6 +40,7 @@ public class WorldGenCustomStructures implements IWorldGenerator
 	
 	public static final WorldGenStructure ROGUE_BASE = new WorldGenStructure("rogue_base");
 	public static final WorldGenStructure PANDORA_TOWER = new WorldGenStructure("pandora_tower");
+	public static final WorldGenStructure BUILD_WAREHOUSE = new WorldGenStructure("build_warehouse");
 	
 	public static final WorldGenStructure GINGA = new WorldGenStructure("ginga");
 	
@@ -78,6 +81,8 @@ public class WorldGenCustomStructures implements IWorldGenerator
 				
 				break;
 			case -1:
+				generateStructure(BUILD_WAREHOUSE, world, random, chunkX, chunkZ, 88, 70, Blocks.NETHERRACK, BiomeHell.class);
+				
 		}
 		if (modDimensionWorldGen.HELHEIM_DIM_ID==world.provider.getDimension()){
 			generateStructure(yggdrasill_base, world, random, chunkX, chunkZ,-1, 500, Blocks.DIRT,biomeHelheim.class);

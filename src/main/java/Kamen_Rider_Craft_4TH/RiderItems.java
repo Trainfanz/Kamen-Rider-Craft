@@ -2613,6 +2613,7 @@ public class RiderItems {
 	public static Item grease_full_bottle = new Item_full_bottle(1, "8","grease_full_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item prime_rogue_full_bottle = new Item_full_bottle(0, "0","prime_rogue_full_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item killbas_spider_full_bottle = new Item_full_bottle(0, "0","killbas_spider_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item metal_tanktank_full_bottle = new Item_full_bottle(0, "0","metal_tanktank_full_bottle").setCreativeTab(Tabs.tabbuild);
 
 	public static Item evol_trigger = new Item_full_bottle(3, "6","evol_trigger",0).setCreativeTab(Tabs.tabbuild);
 
@@ -2631,7 +2632,8 @@ public class RiderItems {
 	public static Item Pandora_bottle = new Item_full_bottle(0, "0","pandora_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item nebula_gas_sample = new Item_ore("nebula_gas_sample").setCreativeTab(Tabs.tabbuild);
 	public static Item genius_full_bottle_blank = new Item_full_bottle(0, "0","genius_full_bottle_blank").setCreativeTab(Tabs.tabbuild);
-
+	public static Item metal_full_bottle = new Item_ore("metal_full_bottle").setCreativeTab(Tabs.tabbuild);
+	
 	public static Item build_driver_grease_perfect_kingdom = new Item_ore("build_driver_grease_perfect_kingdom");
 	
 	public static Item build_driver_rabbit = new Item_ore("build_driver_rabbit");

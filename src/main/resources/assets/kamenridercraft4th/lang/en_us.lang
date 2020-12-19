@@ -87,6 +87,12 @@ entity.dodoMagiaMob.name=Dodo Magia
 entity.Arc_zeroMob.name=Kamen Rider Ark-Zero
 entity.IsMob.name=Is
 
+entity.DownfallGuardianMob.name=DownFall Guardian
+entity.PhantomCrusherMob.name=Phantom Crusher
+entity.BloodMob.name=Kamen Rider Blood
+entity.KillbusMob.name=Kamen Rider Killbus
+entity.MetalBuildMob.name=Kamen Rider Metal Build
+
 effect.fly=Flying
 effect.fire_punch=Fire Punch
 effect.punch_boost=Punch Boost
@@ -2032,8 +2038,9 @@ item.crocodile_crack_full_bottle.name=Crocodile Crack Full Bottle
 item.north_blizzard_full_bottle.name=North Blizzard Full Bottle
 item.prime_rogue_full_bottle.name=Prime Rogue Full Bottle
 item.muscle_galaxy_full_bottle.name=Muscle Galaxy Full Bottle
-item.killbas_spider_full_bottle.name=Killbas Spider Full Bottle
+item.killbas_spider_full_bottle.name=Killbus Spider Full Bottle
 item.grease_full_bottle.name=Grease Full Bottle
+item.metal_tanktank_full_bottle.name=Metal TankTank Full Bottle
 
 item.gear_engine.name=Gear Engine
 item.gear_remocon.name=Gear Remocon
@@ -2068,6 +2075,8 @@ item.nebula_gas_sample.name=Nebula Gas Sample
 item.genius_full_bottle_blank.name=Unfinished Genius Full Bottle
 
 item.dragon_magma_full_bottle.name=Dragon Magma Full Bottle
+
+item.metal_full_bottle.name=Metal Full Bottle
 
 item.evol_trigger.name=Evol Trigger
 

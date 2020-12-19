@@ -55,6 +55,9 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_red_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_redyue;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_roshuo;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_taboo_dopant;
+import Kamen_Rider_Craft_4TH.mobs.Boss.entity_blood;
+import Kamen_Rider_Craft_4TH.mobs.Boss.entity_killbus;
+import Kamen_Rider_Craft_4TH.mobs.Boss.entity_metal_build;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityByakkoInves;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityElementaryInvesBlue;
@@ -79,6 +82,8 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityguardian_seito;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entitynew_mole_imagin;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entitynew_mole_imagin_sand;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityshocker_combatman;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_guardian_downfall;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_phantom_crusher;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityAcrobatter;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityExaidBike;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityMachineBuilder;
@@ -225,6 +230,13 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entityguardian_hokuto.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/guardian_hokuto.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entityguardian_seito.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/guardian_seito.png"));
+		
+		RenderingRegistry.registerEntityRenderingHandler(entity_guardian_downfall.class, new RenderRiderMob2( new ModelBiped(), 0.4F,"textures/entities/guardian_downfall.png"));
+		RenderingRegistry.registerEntityRenderingHandler(entity_phantom_crusher.class, new RenderRiderMob2( new ModelBiped(), 0.4F,"textures/entities/phantom_crusher.png"));
+		
+		RenderingRegistry.registerEntityRenderingHandler(entity_blood.class, new RenderRiderMob2(new MobWithBeltModel(RiderItems.build_driver_blood,"blood_2"), 0.5F,"textures/entities/blood_1.png"));
+		RenderingRegistry.registerEntityRenderingHandler(entity_killbus.class, new RenderRiderMob2(new MobWithBeltModel(RiderItems.build_driver_killbas,"killbas_2"), 0.5F,"textures/entities/killbas_1.png"));
+		RenderingRegistry.registerEntityRenderingHandler(entity_metal_build.class, new RenderRiderMob2(new MobWithBeltModel(RiderItems.build_driver_build_metal,"metal_build_2"), 0.5F,"textures/entities/metal_build_1.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_clay_doll_dopant.class, new RenderRiderMob2(new tokuMobModel("clay_doll_dopant_2"), 0.5F,"textures/entities/clay_doll_dopant_1.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_nazca_dopant.class, new RenderRiderMob2(new tokuMobModel("nazca_dopant_2"), 0.5F,"textures/entities/nazca_dopant_1.png"));

@@ -84,6 +84,8 @@ public class RiderBlocks {
 	
 	public static Block zero_liner_green = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("zero_liner_green").setCreativeTabe(Tabs.tabdecor).build();
 	
+	public static Block white_wallplate = CustomBlock.builder().material(Material.IRON).hardness(9.9F).harvestLevel("pickaxe", 2).name("white_wallplate").setCreativeTabe(Tabs.tabdecor).build();
+
 	public static Block ginga_meteor = CustomBlock.builder().material(Material.ROCK).lightLevel(1f).blockType(BlockType.BASIC).name("ginga_meteor").setCreativeTabe(Tabs.tabdecor).build();
 	
 	
