@@ -3095,6 +3095,8 @@ public class RiderItems {
 	
 	public static Item jaken_caliburdriver = new item_saberdriver("jaken_caliburdriver",ArmorMaterial.DIAMOND, 4,"calibur",3,0,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 
+	public static Item seiken_swordriver_falchion = new item_saberdriver("seiken_swordriver_falchion",ArmorMaterial.DIAMOND, 4,"falchion",0,0,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	
 	public static Item brave_dragon_wonderride_book = new Item_wonder_ride_book("l",1,"brave_dragon_wonderride_book").resetBook("saber").AddToSwordOfLogosBookAnalyzer(30).setCreativeTab(Tabs.tabsaber);
 	public static Item storm_eagle_wonderride_book = new Item_wonder_ride_book("m",3,"storm_eagle_wonderride_book").AddToSwordOfLogosBookAnalyzer(15).setCreativeTab(Tabs.tabsaber);
 	public static Item saiyuu_journey_wonderride_book = new Item_wonder_ride_book("r",10,"saiyuu_journey_wonderride_book").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
