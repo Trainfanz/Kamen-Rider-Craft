@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DBD",
+    "ADA",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    }, "B": {
+      "item": "kamenridercraft4th:bat_full_bottle"
+    }, "C": {
+      "item": "kamenridercraft4th:crocodile_crack_full_bottle"
+    }, "D": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:prime_rogue_full_bottle"
+  }
+}

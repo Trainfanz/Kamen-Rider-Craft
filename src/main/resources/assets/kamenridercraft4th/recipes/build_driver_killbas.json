@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:full_bottle"
+    }, "C": {
+      "item": "kamenridercraft4th:killbas_spider_full_bottle"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:build_driver_killbas"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RXX",
+    "LXL",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:full_bottle"
+    }, "L": {
+      "item": "kamenridercraft4th:metal_tanktank_full_bottle"
+    }, "R": {
+      "item": "kamenridercraft4th:hazard_trigger"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:build_driver_build_metal"
+  }
+}
