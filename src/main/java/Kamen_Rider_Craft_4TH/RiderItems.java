@@ -2985,7 +2985,7 @@ public class RiderItems {
 	public static Item zero_two_progrise_key = new Item_progrise_keys(0, 19,"zero_two_progrise_key").AddChangeBase(4).setCreativeTab(Tabs.tabzero_one);
 	public static Item red_rising_hopper_progrise_key = new Item_progrise_keys(0, 19,"red_rising_hopper_progrise_key").AddToHiden3DPrinter(1).AddChangeBase(7).setCreativeTab(Tabs.tabzero_one);
 	public static Item realize_rising_hopper_progrise_key = new Item_progrise_keys(0, 19,"realize_rising_hopper_progrise_key").AddChangeBase(9).setCreativeTab(Tabs.tabzero_one);
-	public static Item hell_hopper_progrise_key = new Item_progrise_keys(0, 19,"hell_rising_hopper_progrise_key").AddChangeBase(10).setCreativeTab(Tabs.tabzero_one);
+	public static Item hell_hopper_progrise_key = new Item_progrise_keys(0, 19,"hell_hopper_progrise_key").AddChangeBase(10).setCreativeTab(Tabs.tabzero_one);
 	
 	
 	public static Item biting_shark_progrise_key = new Item_progrise_keys(0, 2,"biting_shark_progrise_key").AddToHiden3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
@@ -3079,6 +3079,8 @@ public class RiderItems {
 	public static Item raimeiken_ikazuchi = new ItemBaseSword("raimeiken_ikazuchi",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item ankokuken_kurayami = new ItemBaseSword("ankokuken_kurayami",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	
+	public static Item mumeiken_kyomu = new ItemBaseSword("mumeiken_kyomu",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	
 	public static Item dogouken_gekido_back = new Item_ore("dogouken_gekido_back");
 	
 	public static Item shimi_lot = new ItemBaseSword("shimi_lot",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
@@ -3126,6 +3128,9 @@ public class RiderItems {
 	public static Item jaaku_dragon_wonder_ride_book = new Item_wonder_ride_book("l",3,"jaaku_dragon_wonder_ride_book").resetBook("calibur").setCreativeTab(Tabs.tabsaber);
 	public static Item jaou_dragon_wonder_ride_book = new Item_wonder_ride_book("l",0,"jaou_dragon_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
 
+	public static Item eternal_phoenix_wonderride_book = new Item_wonder_ride_book("l",6,"eternal_phoenix_wonderride_book").resetBook("falchion").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
+	
+	
 	public static Item kirin_no_ongaeshi_wonderride_book = new Item_wonder_ride_book("r",7,"kirin_no_ongaeshi_wonderride_book").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
 	public static Item sarukani_wars_wonderride_book = new Item_wonder_ride_book("r",8,"sarukani_wars_wonderride_book").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
 	public static Item bakusou_usagi_to_kame_wonderride_book = new Item_wonder_ride_book("r",9,"bakusou_usagi_to_kame_wonderride_book").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);

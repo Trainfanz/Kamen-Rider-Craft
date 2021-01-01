@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:blank_wonder_ride_book"
+    }, "C": {
+      "item": "kamenridercraft4th:lion_senki_wonderride_book"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:seiken_swordriver_blaze"
+  }
+}

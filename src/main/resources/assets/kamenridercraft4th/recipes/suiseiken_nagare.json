@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XMX",
+    "XSX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:blank_wonder_ride_book"
+    },
+    "S": {
+      "item": "kamenridercraft4th:base_sword"
+    },
+    "M": {
+      "item": "kamenridercraft4th:lion_senki_wonderride_book"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:suiseiken_nagare"
+  }    
+}
+
