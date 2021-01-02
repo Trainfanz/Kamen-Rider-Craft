@@ -25,9 +25,18 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 
 	public String num;
 	public int num2;
-
+	public int form=0;
 	public String setBase = "thingy";
 
+	public boolean Basic=false;
+	public boolean Saber=false;
+	public boolean Blades=false;
+	public boolean Espada=false;
+	public boolean Buster=false;
+	public boolean Kenzan=false;
+	public boolean Calibur=false;
+	public boolean Slash=false;
+	public boolean Saikou=false;
 
 	public Item_wonder_ride_book(String NUM ,int arms,String name)
 	{
@@ -53,6 +62,65 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 
 	}
 
+	public Item_wonder_ride_book ChangeForm(int num)
+	{
+		form = num;
+		return this;
+	}
+
+	public Item_wonder_ride_book NotBasicBook()
+	{
+		Basic = true;
+		return this;
+	}
+
+	public Item_wonder_ride_book SaberBook()
+	{
+		Saber = true;
+		return this;
+	}
+
+	public Item_wonder_ride_book BladesBook()
+	{
+		Blades = true;
+		return this;
+	}
+
+	public Item_wonder_ride_book EspadaBook()
+	{
+		Espada = true;
+		return this;
+	}
+
+	public Item_wonder_ride_book BusterBook()
+	{
+		Buster = true;
+		return this;
+	}
+
+	public Item_wonder_ride_book KenzanBook()
+	{
+		Kenzan = true;
+		return this;
+	}
+	public Item_wonder_ride_book  CaliburBook()
+	{
+		Calibur = true;
+		return this;
+	}
+
+	public Item_wonder_ride_book  SlashBook()
+	{
+		Slash = true;
+		return this;
+	}
+
+	public Item_wonder_ride_book  SaikouBook()
+	{
+		Saikou = true;
+		return this;
+	}
+
 	public Item_wonder_ride_book AddToSwordOfLogosBookAnalyzer(int num)
 	{
 		for (int i1 = 0; i1 < num; ++i1)
@@ -61,6 +129,7 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 		}
 		return this;
 	}
+
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
@@ -88,39 +157,29 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),belt.BOOK_L, "l");
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),belt.BOOK_M, "m");
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),belt.BOOK_R, "r");
-						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, "f");
+						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "f");
 					}
-					else if(belt.Rider=="buster"){
-						if (this==RiderItems.jackun_to_domamenoki_wonderride_book){
+					else if(belt.Rider=="buster"&Buster||belt.Rider=="kenzan"&Kenzan||belt.Rider=="slash"&Slash||belt.Rider=="calibur"&Calibur){
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
-						}
-					}else if(belt.Rider=="kenzan"){
-						if (this==RiderItems.kobuta_3_kyouda_wonderride_book){
-						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
-						}
-					} else if(belt.Rider=="slash"){
-						if (this==RiderItems.bremen_no_rock_band_wonderride_book){
-						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
-						}
-					}else if(belt.Rider=="calibur"){
-						if (this==RiderItems.jaou_dragon_wonder_ride_book){
-						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
-						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),1, "f");
-						}
+						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),form, "f");
 					}else {
- 
-						String basebook="";
-						if (belt.BOOK_L!=0){
-							basebook="l";
-						}else if (belt.BOOK_M!=0){
-							basebook="m";
-						}else if (belt.BOOK_R!=0){
-							basebook="r";
-						}	
-						if (basebook != num){
-						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
-						}
+						if(belt.Rider=="saber"||belt.Rider=="blades"||belt.Rider=="espada"){							
+						if(!Basic||belt.Rider=="saber"&Saber||belt.Rider=="blades"&Blades||belt.Rider=="espada"&Espada){
+							String basebook="";
+							if (belt.BOOK_L!=0){
+								basebook="l";
+							}else if (belt.BOOK_M!=0){
+								basebook="m";
+							}else if (belt.BOOK_R!=0){
+								basebook="r";
+							}
 						
+							if (basebook != num||form!=0){
+								item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
+								item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),form, "f");
+							}
+						}	
+						}		
 					}
 				}
 			}

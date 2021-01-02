@@ -56,7 +56,7 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 			"kirin_no_ongaeshi","sarukani_wars","bakusou_usagi_to_kame","saiyuu_journey","hanselnuts_to_grete","bremen_no_rock_band","hoshin_kamen_engi",
 			"tsuki_no_hime_kaguyan","osha_jizou_san","issun_bushi"};
 
-	public static String[] book_mode= new String[] {"","_jaou_dragon","","","","",""};
+	public static String[] book_mode= new String[] {"","_jaou_dragon","_dragonic_knight","","","",""};
 	
 
 	
