@@ -152,8 +152,10 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 
 			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_saberdriver){
 				item_saberdriver belt = (item_saberdriver) playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem();
+				 boolean BasicForm=item_saberdriver.get_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), "f") !="base";
+				
 				if (num!="thingy") {
-					if (setBase==belt.Rider) {
+					if (setBase==belt.Rider||BasicForm&form==0) {
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),belt.BOOK_L, "l");
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),belt.BOOK_M, "m");
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),belt.BOOK_R, "r");
@@ -174,7 +176,12 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 								basebook="r";
 							}
 						
-							if (basebook != num||form!=0){
+							if (form!=0){
+								item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "m");
+								item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "r");
+								item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "l");
+								item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),form, "f");
+							}else if (basebook != num & form==0){
 								item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
 								item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),form, "f");
 							}

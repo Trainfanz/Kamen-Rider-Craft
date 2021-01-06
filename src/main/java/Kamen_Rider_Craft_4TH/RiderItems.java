@@ -3107,6 +3107,7 @@ public class RiderItems {
 	public static Item saiyuu_journey_wonderride_book = new Item_wonder_ride_book("r",10,"saiyuu_journey_wonderride_book").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
 	
 	public static Item dragonic_knight_wonder_ride_book = new Item_wonder_ride_book("l",0,"dragonic_knight_wonder_ride_book").ChangeForm(2).NotBasicBook().SaberBook().setCreativeTab(Tabs.tabsaber);
+	public static Item emotional_dragon_wonder_ride_book = new Item_wonder_ride_book("l",0,"emotional_dragon_wonder_ride_book").ChangeForm(3).NotBasicBook().SaberBook().setCreativeTab(Tabs.tabsaber);
 	
 	public static Item king_of_arthur_wonderride_book = new Item_wonder_ride_book("r",6,"king_of_arthur_wonderride_book").setCreativeTab(Tabs.tabsaber);
 	
