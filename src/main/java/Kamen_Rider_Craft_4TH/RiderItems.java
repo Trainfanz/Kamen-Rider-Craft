@@ -1167,7 +1167,8 @@ public class RiderItems {
 	public static Item decadecard = new Itemrider_cards(0,0,"decadecard").setCreativeTab(Tabs.tabdecade);
 	public static Item k_touch = new Itemrider_cards(0,1,"k_touch").setCreativeTab(Tabs.tabdecade);
 	public static Item decadecard_violent_emotion = new Itemrider_cards(0,2,"decadecard_violent_emotion").setCreativeTab(Tabs.tabdecade);
-
+	public static Item neo_k_touch = new Itemrider_cards(0,4,"neo_k_touch").setCreativeTab(Tabs.tabdecade);
+	
 	public static Item darkdecadecard = new Item_ore("darkdecadecard").setCreativeTab(Tabs.tabdecade);
 
 	public static Item kivacard = new Itemrider_cards(1,0,"kivacard").setCreativeTab(Tabs.tabdecade);
@@ -2841,7 +2842,8 @@ public class RiderItems {
 	public static Item kuuga_ultimate_ridewatch = new Item_ore("kuuga_ultimate_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	
 	public static Item zero_one_ridewatch = new Item_ore("zero_one_ridewatch").setCreativeTab(Tabs.tabzi_o);
-	
+	public static Item saber_ridewatch = new Item_ridewatches(1, 30,"saber_ridewatch",true).setCreativeTab(Tabs.tabzi_o);
+
 	public static Item amazon_omega_ridewatch = new Item_ore("amazon_omega_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item amazon_alpha_ridewatch = new Item_ore("amazon_alpha_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item amazon_neo_ridewatch = new Item_ore("amazon_neo_ridewatch").setCreativeTab(Tabs.tabzi_o);
@@ -2908,6 +2910,8 @@ public class RiderItems {
 	public static Item ziku_driver_agito = new Item_ore("ziku_driver_agito");
 	public static Item ziku_driver_kuuga = new Item_ore("ziku_driver_kuuga");
 
+	public static Item ziku_driver_saber = new Item_ore("ziku_driver_saber");
+	
 	public static Item ziku_driver_zi_o_ii = new Item_ore("ziku_driver_zi_o_ii");
 	public static Item ziku_driver_zi_o_trinity = new Item_ore("ziku_driver_zi_o_trinity");
 	public static Item ziku_driver_zi_o_grand = new Item_ore("ziku_driver_zi_o_grand");

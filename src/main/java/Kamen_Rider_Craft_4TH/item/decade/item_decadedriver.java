@@ -51,7 +51,7 @@ public class item_decadedriver extends ItemArmor implements IHasModel
 
 	public static final String[] bladeCoreName= new String[] {"decade_blade","blade_jack","blade_king"};
 
-	public static final String[] decadeCoreName= new String[] {"decade","decade_complete","decade_violent_emotion","decade_cyan"};
+	public static final String[] decadeCoreName= new String[] {"decade","decade_complete","decade_violent_emotion","decade_cyan","decade_neo_complete"};
 	public static final String[] diendCoreName= new String[] {"diend","diend_complete","diend_green"};
 	public static final String[] dark_decadeCoreName= new String[] {"dark_decade","dark_decade_complete"};
 		
@@ -97,6 +97,8 @@ public class item_decadedriver extends ItemArmor implements IHasModel
 
 				if (this.get_core(stack)=="decade_complete"){
 					armorModel.belt=new ItemStack(RiderItems.k_touch);
+				}else if (this.get_core(stack)=="decade_neo_complete"){
+					armorModel.belt=new ItemStack(RiderItems.neo_k_touch);
 				}else if (this.get_core(stack)=="diend_complete"){
 					armorModel.belt=new ItemStack(RiderItems.k_touch_diend);
 				}else{

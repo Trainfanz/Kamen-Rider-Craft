@@ -163,8 +163,14 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 		}
 
 		if (slot == "f"){
-			if (itemstack.getTagCompound().getInteger("core"+"f")!=0){
-				form = book_mode[itemstack.getTagCompound().getInteger("core"+"f")];
+
+
+			if (itemstack.hasTagCompound()) {
+				if (itemstack.getTagCompound().getInteger("core"+"f")!=0){
+					form = book_mode[itemstack.getTagCompound().getInteger("core"+"f")];
+				}else{
+					form = "base";
+				}
 			}else{
 				form = "base";
 			}
