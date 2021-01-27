@@ -3082,6 +3082,13 @@ public class RiderItems {
 	public static Item dogouken_gekido = new ItemBaseSword("dogouken_gekido",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item raimeiken_ikazuchi = new ItemBaseSword("raimeiken_ikazuchi",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item ankokuken_kurayami = new ItemBaseSword("ankokuken_kurayami",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item onjuuken_suzune = new Item_sword_gun("onjuuken_suzune",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	
+	public static Item fuusouken_hayate_ittouryu = new ItemBaseSword("fuusouken_hayate_ittouryu",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item fuusouken_hayate_nitouryu = new ItemBaseSword("fuusouken_hayate_nitouryu",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item fuusouken_hayate_nitouryu2 = new ItemBaseSword("fuusouken_hayate_nitouryu2",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item fuusouken_hayate_shuriken  = new ItemBaseSword("fuusouken_hayate_shuriken",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	
 	
 	public static Item mumeiken_kyomu = new ItemBaseSword("mumeiken_kyomu",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	
