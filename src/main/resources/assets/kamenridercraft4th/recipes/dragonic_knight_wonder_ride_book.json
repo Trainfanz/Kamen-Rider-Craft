@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XBX",
+    "CXA",
+    "XDX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:blank_wonder_ride_book"
+    }, "C": {
+      "item": "kamenridercraft4th:storm_eagle_wonderride_book"
+    }, "A": {
+      "item": "kamenridercraft4th:saiyuu_journey_wonderride_book"
+    }, "B": {
+      "item": "kamenridercraft4th:brave_dragon_wonderride_book"
+    }, "D": {
+      "item": "kamenridercraft4th:king_of_arthur_wonderride_book"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:dragonic_knight_wonder_ride_book"
+  }
+}
