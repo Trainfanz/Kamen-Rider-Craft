@@ -109,6 +109,25 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 								if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == RiderItems.saberhead){
 									ItemStack ItemStack = player.getItemStackFromSlot(EntityEquipmentSlot.FEET);
 
+									if (Rider == "buster"){
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));
+									
+									}else if (Rider == "kenzan"){
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 6,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
+									
+									}else if (Rider == "slash"){
+										player.addPotionEffect(new PotionEffect(MobEffects.SATURATION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+									
+									}else if (Rider == "falchion"){
+										player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 250, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 0,true,false));
+									}
+									
 									if (get_core_for_forms(ItemStack,"l")==1){
 										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
@@ -141,6 +160,53 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 0,true,false));
 									}
+									
+									if (get_core_for_forms(ItemStack,"r")==1){
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
+									}else if (get_core_for_forms(ItemStack,"r")==2){
+										player.addPotionEffect(new PotionEffect(MobEffects.SATURATION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+									}else if (get_core_for_forms(ItemStack,"r")==3){
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
+									}else if (get_core_for_forms(ItemStack,"r")==4){
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
+									}else if (get_core_for_forms(ItemStack,"r")==5){
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 6,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
+									}else if (get_core_for_forms(ItemStack,"r")==6){
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
+									}else if (get_core_for_forms(ItemStack,"r")==7){
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
+									}else if (get_core_for_forms(ItemStack,"r")==8){
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
+									}else if (get_core_for_forms(ItemStack,"r")==9){
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 5,true,false));
+									}else if (get_core_for_forms(ItemStack,"r")==10){
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
+									}else if (get_core_for_forms(ItemStack,"r")==11){
+										player.addPotionEffect(new PotionEffect(MobEffects.SATURATION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+									}else if (get_core_for_forms(ItemStack,"r")==12){
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 4,true,false));
+									}else if (get_core_for_forms(ItemStack,"r")==13){
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+									}else if (get_core_for_forms(ItemStack,"r")==14){
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+									}else if (get_core_for_forms(ItemStack,"r")==15){
+									}else if (get_core_for_forms(ItemStack,"r")==16){
+									}else if (get_core_for_forms(ItemStack,"r")==17){
+									}
+									
 								}
 							}
 						}
