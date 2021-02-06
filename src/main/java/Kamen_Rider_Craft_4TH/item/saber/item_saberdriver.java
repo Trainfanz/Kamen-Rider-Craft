@@ -109,7 +109,38 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 								if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == RiderItems.saberhead){
 									ItemStack ItemStack = player.getItemStackFromSlot(EntityEquipmentSlot.FEET);
 
-
+									if (get_core_for_forms(ItemStack,"l")==1){
+										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+									}else if (get_core_for_forms(ItemStack,"l")==2){
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));
+									}else if (get_core_for_forms(ItemStack,"l")==3){
+										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+									}else if (get_core_for_forms(ItemStack,"l")==4){
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
+									}else if (get_core_for_forms(ItemStack,"l")==5){
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
+									}else if (get_core_for_forms(ItemStack,"l")==6){
+										player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 250, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 0,true,false));
+									}
+										
+									
+									if (get_core_for_forms(ItemStack,"m")==1){
+										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+									}else if (get_core_for_forms(ItemStack,"m")==2){
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+									}else if (get_core_for_forms(ItemStack,"m")==3){
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 0,true,false));
+									}
 								}
 							}
 						}
@@ -149,7 +180,45 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 		return null;
 	}
 
+	public static int  get_core_for_forms(ItemStack itemstack,String slot)
+	{
+		 int form = 0;
 
+		if (slot == "f"){
+
+			if (itemstack.hasTagCompound()) {
+				if (itemstack.getTagCompound().getInteger("core"+"f")!=0){
+					form = itemstack.getTagCompound().getInteger("core"+"f");
+				}else{
+					form = 0;
+				}
+			}
+		}else if (slot == "l") {
+
+			if (itemstack.hasTagCompound()) {
+				form=itemstack.getTagCompound().getInteger("core"+slot);
+			}else {
+				form=((item_saberdriver)itemstack.getItem()).BOOK_L;
+			}
+		}else if (slot == "r"){
+			if (itemstack.hasTagCompound()) {
+					form=itemstack.getTagCompound().getInteger("core"+slot);
+			}else {
+				form=((item_saberdriver)itemstack.getItem()).BOOK_R;
+			}
+		}else {
+			if (itemstack.hasTagCompound()) {
+				form=itemstack.getTagCompound().getInteger("core"+slot);
+			}else {
+				form=((item_saberdriver)itemstack.getItem()).BOOK_M;
+			}
+		}
+
+		return form;
+	}
+
+	
+	
 	public static String get_core(ItemStack itemstack,String slot)
 	{
 		String form = "base";
