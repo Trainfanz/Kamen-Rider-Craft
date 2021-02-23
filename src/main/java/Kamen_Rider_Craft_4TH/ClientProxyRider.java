@@ -58,6 +58,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_taboo_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_blood;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_killbus;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_metal_build;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Calibur;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityByakkoInves;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityElementaryInvesBlue;
@@ -245,6 +246,7 @@ public class ClientProxyRider extends CommonProxyRider
 		
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityShimi.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/shimi.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_Calibur.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/calibur.png"));
 		
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityAcrobatter.class, new RenderRiderMob2(new Model_machine_builder(), 0.5F,"textures/entities/acrobatter.png"));

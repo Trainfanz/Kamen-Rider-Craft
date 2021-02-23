@@ -6,6 +6,7 @@ import java.util.UUID;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityBossBase;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Calibur;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Para_dx;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Red_Poppy;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_genm;
@@ -66,9 +67,22 @@ public class EntityShimi extends Entity_base_henchmen
 	{
 		if (!this.world.isRemote){
 
-
+			if (this.getAttackTarget()instanceof EntityPlayer){
+				EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
+				 EntityBossBase entityboss  = new Entity_Calibur(world);
+			switch (this.rand.nextInt(20))
+			{
+			case 0:
+				playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_PURPLE+"Jaaku Dragon!"));
+				entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				world.spawnEntity(entityboss);
+				break;
+	
+			}
+			}
+			
 			this.dropItem(RiderItems.blank_wonder_ride_book, 1);
-			switch (this.rand.nextInt(25))
+			switch (this.rand.nextInt(20))
 			{
 			case 0:
 				this.dropItem(RiderItems.brave_dragon_wonderride_book, 1);
