@@ -1694,12 +1694,18 @@ public class RiderItems {
 
 	public static Item dj_gun_taiken_mode = new ItemBaseSword("dj_gun_taiken_mode",Tabs.dj_gun_taiken_mode).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
 
+	public static Item zangetsu_dj_gun = new Item_gun("zangetsu_dj_gun",Tabs.dj_gun).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item zangetsu_dj_gun_taiken_mode = new ItemBaseSword("zangetsu_dj_gun_taiken_mode",Tabs.dj_gun_taiken_mode).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+
+	
 	public static Item joeshuimu = new ItemBaseSword("joeshuimu",Tabs.dj_gun_taiken_mode).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
 	public static Item sheimu = new ItemBaseSword("sheimu",Tabs.dj_gun_taiken_mode).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
 	public static Item dau = new ItemBaseSword("dau",Tabs.dj_gun_taiken_mode).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
 	public static Item guronbaryamu = new ItemBaseSword("guronbaryamu",Tabs.dj_gun_taiken_mode).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
 
+	public static Item shine_donkachi= new ItemBaseSword("shine_donkachi",Tabs.donkachi).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
 	public static Item shine_lychee_sword = new ItemBaseSword("shine_lychee_sword",Tabs.dj_gun_taiken_mode).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	public static Item hells_cane = new ItemBaseSword("hells_cane",Tabs.dj_gun_taiken_mode).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
 	
 	public static Item kagematsu = new ItemBaseSword("kagematsu",Tabs.kagematsu).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
 	public static Item donkachi= new ItemBaseSword("donkachi",Tabs.donkachi).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
