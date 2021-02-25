@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "kamenridercraft4th:blank_watch"
+         "kamenridercraft4th:blank_wonder_ride_book"
     ]
   },
   "criteria": {

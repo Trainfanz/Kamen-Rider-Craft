@@ -2,9 +2,8 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "kamenridercraft4th:seiken_swordriver_saber",
-      "kamenridercraft4th:kaenken_rekka",
-      "kamenridercraft4th:dragonic_knight_wonder_ride_book"
+      "kamenridercraft4th:seiken_swordriver_falchion",
+      "kamenridercraft4th:mumeiken_kyomu"
     ]
   },
   "criteria": {
@@ -13,7 +12,7 @@
       "conditions": {
         "items": [
           {
-            "item": "kamenridercraft4th:brave_dragon_wonderride_book"
+            "item": "kamenridercraft4th:eternal_phoenix_wonderride_book"
           }
         ]
       }
@@ -21,13 +20,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "kamenridercraft4th:seiken_swordriver_saber"
+        "recipe": "kamenridercraft4th:seiken_swordriver_falchion"
       }
     },
     "has_the_recipe1": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "kamenridercraft4th:kaenken_rekka"
+        "recipe": "kamenridercraft4th:mumeiken_kyomu"
       }
     }
   },
