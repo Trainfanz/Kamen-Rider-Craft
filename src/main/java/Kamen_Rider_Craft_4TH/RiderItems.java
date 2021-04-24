@@ -2949,6 +2949,7 @@ public class RiderItems {
 
 	public static Item hiden_zero_one_driver = new item_zero_onedriver("hiden_zero_one_driver",ArmorMaterial.DIAMOND, 4, "zero_one",19).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item zaia_thousandriver = new item_zero_onedriver("zaia_thousandriver",ArmorMaterial.DIAMOND, 4, "thouser",21).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item zaia_thousandriver_zaia = new item_zero_onedriver("zaia_thousandriver_zaia",ArmorMaterial.DIAMOND, 4, "zaia",21).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
 	
 	public static Item shot_riser_vulcan = new item_zero_onedriver("shot_riser_vulcan",ArmorMaterial.DIAMOND, 4, "vulcan",3).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
