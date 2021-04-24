@@ -2962,6 +2962,7 @@ public class RiderItems {
 	public static Item forceriser_001 = new item_zero_onedriver("forceriser_001",ArmorMaterial.DIAMOND, 4, "zero_zero_one",19).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 
 	public static Item zetsumetsu_driver = new item_zero_onedriver("zetsumetsu_driver",ArmorMaterial.DIAMOND, 4, "horobi_ark",10).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item metsuboujinrai_driver = new item_zero_onedriver("metsuboujinrai_driver",ArmorMaterial.DIAMOND, 4, "metsuboujinrai",10).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item cycloneriser_ichigata = new item_zero_onedriver("cycloneriser_ichigata",ArmorMaterial.DIAMOND, 4, "ichigata",19).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
