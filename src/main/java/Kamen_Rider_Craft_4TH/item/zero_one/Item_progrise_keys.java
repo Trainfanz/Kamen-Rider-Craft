@@ -32,7 +32,7 @@ public class Item_progrise_keys extends Item implements IHasModel
 			"kong","tiger","cheetah","bear","hornet","scorpion","giraffe","hercules",
 			"hedgehog","kangaroo","buffalo","stag","spider","penguin","hopper","dodo",
 			"caucasus","whale","mammoth","lion","panda","burning_falcon","horseshoe_crab"
-			,"jackal"};
+			,"jackal","justice_serval"};
 
 
 
