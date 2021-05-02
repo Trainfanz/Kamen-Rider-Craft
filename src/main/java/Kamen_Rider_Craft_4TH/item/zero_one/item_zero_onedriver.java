@@ -101,7 +101,29 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 						}else{
 							armorModel.belt=stack;
 						}
-					}else{
+					}
+					else if( living.getHeldItemMainhand().getItem()==RiderItems.zaia_slashriser_sword){
+						if( this==RiderItems.zaia_slashriser_jin){
+							armorModel.belt=new ItemStack( RiderItems.zaia_slashriser_belt);
+						}else{
+							armorModel.belt=stack;
+						}
+					}
+					else if( living.getHeldItemMainhand().getItem()==RiderItems.shot_abaddo_gun){
+						if( this==RiderItems.shot_abaddo_riser||this==RiderItems.shot_abaddo_riser_b||this==RiderItems.shot_abaddo_riser_g){
+							armorModel.belt=new ItemStack( RiderItems.abaddo_riser_belt);
+						}else{
+							armorModel.belt=stack;
+						}
+					}
+					else if( living.getHeldItemMainhand().getItem()==RiderItems.slash_abaddo_sword){
+						if( this==RiderItems.slash_abaddo_riser||this==RiderItems.slash_abaddo_riser_o||this==RiderItems.slash_abaddo_riser_r){
+							armorModel.belt=new ItemStack( RiderItems.abaddo_riser_belt);
+						}else{
+							armorModel.belt=stack;
+						}
+					}
+					else{
 						armorModel.belt=stack;
 					}
 				}	
