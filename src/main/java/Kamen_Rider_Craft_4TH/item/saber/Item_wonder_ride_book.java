@@ -161,10 +161,13 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),belt.BOOK_R, "r");
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "f");
 					}
-					else if(belt.Rider=="buster"&Buster||belt.Rider=="kenzan"&Kenzan||belt.Rider=="slash"&Slash||belt.Rider=="calibur"&Calibur||belt.Rider=="saikou_shadow"&Saikou){
+					else if(belt.Rider=="buster"&Buster||belt.Rider=="kenzan"&Kenzan||belt.Rider=="slash"&Slash||belt.Rider=="calibur"&Calibur){
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),form, "f");
-					}else {
+					}else if (belt.Rider=="saikou_shadow"&Saikou){
+						
+					}
+					else {
 						if(belt.Rider=="saber"||belt.Rider=="blaze"||belt.Rider=="espada"){							
 						if(!Basic||belt.Rider=="saber"&Saber||belt.Rider=="blaze"&Blades||belt.Rider=="espada"&Espada){
 							String basebook="";
