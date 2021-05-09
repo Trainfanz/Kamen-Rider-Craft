@@ -2973,7 +2973,6 @@ public class RiderItems {
 	public static Item eden_driver = new item_zero_onedriver("eden_driver",ArmorMaterial.DIAMOND, 4, "eden",19).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item lucifer_driver = new item_zero_onedriver("lucifer_driver",ArmorMaterial.DIAMOND, 4, "lucifer",19).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
-
 	public static Item slash_abaddo_riser_r = new item_zero_onedriver("slash_abaddo_riser_r",ArmorMaterial.DIAMOND, 4, "abaddon_r",19).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item shot_abaddo_riser_g = new item_zero_onedriver("shot_abaddo_riser_g",ArmorMaterial.DIAMOND, 4, "abaddon_g",19).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item shot_abaddo_riser_b = new item_zero_onedriver("shot_abaddo_riser_b",ArmorMaterial.DIAMOND, 4, "abaddon_b",19).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
@@ -2983,16 +2982,20 @@ public class RiderItems {
 
 	public static Item hiden_zero_one_driver_vulcan = new item_zero_onedriver("hiden_zero_one_driver_vulcan",ArmorMaterial.DIAMOND, 4, "vulcan_lone",3).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
-
-	
 	public static Item zetsumeriser_berothra = new item_zero_onedriver("zetsumeriser_berothra",ArmorMaterial.DIAMOND, 4, "magia_berothra",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item zetsumeriser_kuehne = new item_zero_onedriver("zetsumeriser_kuehne",ArmorMaterial.DIAMOND, 4, "magia_kuehne",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item zetsumeriser_ekal = new item_zero_onedriver("zetsumeriser_ekal",ArmorMaterial.DIAMOND, 4, "magia_ekal",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item zetsumeriser_neohi = new item_zero_onedriver("zetsumeriser_neohi",ArmorMaterial.DIAMOND, 4, "magia_neohi",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
-	public static Item zetsumeriser_dodo = new item_zero_onedriver("zetsumeriser_dodo",ArmorMaterial.DIAMOND, 4, "magia_dodo",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item zetsumeriser_onycho = new item_zero_onedriver("zetsumeriser_onycho",ArmorMaterial.DIAMOND, 4, "magia_onycho",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item zetsumeriser_vicarya = new item_zero_onedriver("zetsumeriser_vicarya",ArmorMaterial.DIAMOND, 4, "magia_vicarya",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item zetsumeriser_gaeru = new item_zero_onedriver("zetsumeriser_gaeru",ArmorMaterial.DIAMOND, 4, "magia_gaeru",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item zetsumeriser_mammoth = new item_zero_onedriver("zetsumeriser_mammoth",ArmorMaterial.DIAMOND, 4, "magia_mammoth",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
+	public static Item zetsumeriser_dodo = new item_zero_onedriver("zetsumeriser_dodo",ArmorMaterial.DIAMOND, 4, "magia_dodo",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item zetsumeriser_dodo_custom = new item_zero_onedriver("zetsumeriser_dodo_custom",ArmorMaterial.DIAMOND, 4, "magia_dodo_custom",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item zetsumeriser_dodo_custom_v2 = new item_zero_onedriver("zetsumeriser_dodo_custom_v2",ArmorMaterial.DIAMOND, 4, "magia_dodo_custom_v2",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	
+	public static Item zetsumeriser_arsino = new item_zero_onedriver("zetsumeriser_arsino",ArmorMaterial.DIAMOND, 4, "magia_arsino",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item hiden_zero_two_driver = new Item_ore("hiden_zero_two_driver");
 	public static Item hiden_zero_one_driver_red = new Item_ore("hiden_zero_one_driver_red");
@@ -3043,8 +3046,7 @@ public class RiderItems {
 	public static Item lightning_hornet_progrise_key = new Item_progrise_keys(2, 9,"lightning_hornet_progrise_key").AddToZaia3DPrinter(5).AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
 	public static Item fighting_jackal_progrise_key = new Item_progrise_keys(0, 28,"fighting_jackal_progrise_key").AddToZaia3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
 	public static Item serval_tiger_zetsumerisekey = new Item_progrise_keys(2, 29,"serval_tiger_zetsumerisekey").setCreativeTab(Tabs.tabzero_one);
-	
-	
+
 	public static Item sting_scorpion_progrise_key = new Item_progrise_keys(3, 10,"sting_scorpion_progrise_key").AddToZaia3DPrinter(10).AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
 	public static Item ark_scorpion_progrise_key = new Item_progrise_keys("ark_scorpion_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	

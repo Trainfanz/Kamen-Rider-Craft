@@ -55,7 +55,10 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_red_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_redyue;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_roshuo;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_taboo_dopant;
+import Kamen_Rider_Craft_4TH.mobs.Boss.entity_abaddon_high;
+import Kamen_Rider_Craft_4TH.mobs.Boss.entity_ark_zero_one;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_blood;
+import Kamen_Rider_Craft_4TH.mobs.Boss.entity_eden;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_killbus;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_metal_build;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Calibur;
@@ -83,6 +86,7 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityguardian_seito;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entitynew_mole_imagin;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entitynew_mole_imagin_sand;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityshocker_combatman;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_abaddon_low;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_guardian_downfall;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_phantom_crusher;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityAcrobatter;
@@ -162,17 +166,19 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entity_magia.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_dodomagia.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_magiadodo_chick.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/magiadodo_chick.png"));
+		RenderingRegistry.registerEntityRenderingHandler(entity_abaddon_low.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
 
 		RenderingRegistry.registerEntityRenderingHandler(EntityIS.class, new RenderRiderMob2(new ModelPoppy(), 0.5F,"textures/entities/is.png"));
-		
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_horobi.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_jin.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_ikazuchi.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_Arc_zero.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
 
-		RenderingRegistry.registerEntityRenderingHandler(EntityIS.class, new RenderRiderMob2(new ModelPoppy(), 0.5F,"textures/entities/is.png"));
+		RenderingRegistry.registerEntityRenderingHandler(entity_ark_zero_one.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
 		
+		RenderingRegistry.registerEntityRenderingHandler(entity_eden.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
+		RenderingRegistry.registerEntityRenderingHandler(entity_abaddon_high.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityElementaryInvesGreen.class, new RenderRiderMob2(new Model_elementary_inves(), 0.5F,"textures/entities/elementary_inves_green.png"));
 		RenderingRegistry.registerEntityRenderingHandler(EntityElementaryInvesRed.class, new RenderRiderMob2(new Model_elementary_inves(), 0.5F,"textures/entities/elementary_inves_red.png"));

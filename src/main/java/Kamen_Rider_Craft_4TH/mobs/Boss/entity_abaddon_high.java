@@ -63,36 +63,45 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.DifficultyInstance;
 import net.minecraft.world.World;
 
-public class Entity_magia extends EntityBossBase
+public class entity_abaddon_high extends EntityBossBase
 //implements IBossDisplayData
 {
     
-	public static final Item[] belt = new Item[] {RiderItems.zetsumeriser_berothra,RiderItems.zetsumeriser_ekal,RiderItems.zetsumeriser_kuehne,RiderItems.zetsumeriser_berothra
-			,RiderItems.zetsumeriser_neohi,RiderItems.zetsumeriser_onycho,RiderItems.zetsumeriser_vicarya,RiderItems.zetsumeriser_gaeru};
+	public static final Item[] belt = new Item[] {RiderItems.shot_abaddo_riser_b,RiderItems.shot_abaddo_riser_g
+			,RiderItems.slash_abaddo_riser_o, RiderItems.slash_abaddo_riser_r};
 	
 	private String texture;
-	public Entity_magia(World par1World)
+	
+	public entity_abaddon_high(World par1World)
 	{
 		super(par1World);
+		
 		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.zero_onetroso));
 		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.zero_onehead));
 		Random generator = new Random();
 		int rand = generator.nextInt(belt.length);
 		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(belt[rand]));
 		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.zero_onelegs));
+		
+		if (this.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.shot_abaddo_riser_b|this.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.shot_abaddo_riser_g)
+		{
+			this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.shot_abaddo_gun));
+		}
+		if (this.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.slash_abaddo_riser_o|this.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.slash_abaddo_riser_r)
+		{
+			this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.slash_abaddo_sword));
+		}
 	}
   
     protected void applyEntityAttributes()
     {
         super.applyEntityAttributes();
-        this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(40.0D);
+        this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(100.0D);
         this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.30000001192092896D);
         this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(10.0D);
         this.getEntityAttribute(SharedMonsterAttributes.FOLLOW_RANGE).setBaseValue(128.0D);
     }
-  
- 
-    
+   
  	public EnumCreatureAttribute getCreatureAttribute()
  	{
  		return EnumCreatureAttribute.UNDEAD;
@@ -102,55 +111,14 @@ public class Entity_magia extends EntityBossBase
     {
         return false;
     }
+ 	
     public void onDeath(DamageSource cause)
     {
-if (!this.world.isRemote){
-
-   		this.dropItem(RiderItems.humagear_progrise_key, 1);
-   		this.dropItem(RiderItems.hiden_metal, 4);
-
-   		switch (this.rand.nextInt(5))
-		{
-		case 0:
-			this.dropItem(this.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem(), 1);
-			break;
-		}
-   		
-   		switch (this.rand.nextInt(25))
-		{
-		case 0:
-			this.dropItem(RiderItems.berothamagia_zetsumerisekey, 1);
-			break;
-		case 1:
-			this.dropItem(RiderItems.kuehnemagia_zetsumerisekey, 1);
-			break;
-		case 2:
-			this.dropItem(RiderItems.ekalmagia_zetsumerisekey, 1);
-			break;
-		case 3:
-			this.dropItem(RiderItems.neohimagia_zetsumerisekey, 1); 
-			break;
-		case 4:
-			this.dropItem(RiderItems.onychomagia_zetsumerisekey, 1);
-			break;
-		case 5:
-			this.dropItem(RiderItems.vicaryamagia_zetsumerisekey, 1);
-			break;
-		case 6:
-			this.dropItem(RiderItems.gaerumagia_zetsumerisekey, 1); 
-			break;
-		case 7:
-			this.dropItem(RiderItems.mammothmagia_zetsumerisekey, 1);
-			break;
-		case 8:
-			this.dropItem(RiderItems.arsinomagia_zetsumerisekey, 1);
-			break;
-		}
-   		
-       }
-       
-   }
-
-
+    	if (!this.world.isRemote)
+    	{
+    		this.dropItem(RiderItems.crowding_hopper_progrise_key, 1);
+    		this.dropItem(RiderItems.hiden_metal, 5);
+    	}   
+    }
 }
     

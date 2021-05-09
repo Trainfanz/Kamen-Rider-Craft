@@ -52,7 +52,10 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_red_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_redyue;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_roshuo;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_taboo_dopant;
+import Kamen_Rider_Craft_4TH.mobs.Boss.entity_abaddon_high;
+import Kamen_Rider_Craft_4TH.mobs.Boss.entity_ark_zero_one;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_blood;
+import Kamen_Rider_Craft_4TH.mobs.Boss.entity_eden;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_killbus;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_metal_build;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityBugsterVirus;
@@ -79,6 +82,7 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityguardian_seito;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entitynew_mole_imagin;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entitynew_mole_imagin_sand;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityshocker_combatman;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_abaddon_low;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_guardian_downfall;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_phantom_crusher;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityAcrobatter;
@@ -258,6 +262,9 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":dodoChickMob"),Entity_magiadodo_chick.class, "dodoChickMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x7d0b0a,0x242424);
 		EntityRegistry.addSpawn(Entity_magiadodo_chick.class,  15, 1, 4, EnumCreatureType.MONSTER,Biome.getBiome(8));
 		
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":AbaddonMob"),entity_abaddon_low.class, "AbaddonMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x5d6837,0xc1b810);
+		EntityRegistry.addSpawn(entity_abaddon_low.class,  15, 1, 4, EnumCreatureType.MONSTER,Biome.getBiome(8));
+		
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":MagiaMob"),Entity_magia.class, "MagiaMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x060606,0xa2a2a2);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":horobiMob"),Entity_horobi.class, "horobiMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x8a00c3,0x383838);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":jinMob"),Entity_jin.class, "jinMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xff65b9,0xd5d5d5);
@@ -265,7 +272,10 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":dodoMagiaMob"),Entity_dodomagia.class, "dodoMagiaMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x7d0b0a,0x242424);
 		
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":Arc_zeroMob"),Entity_Arc_zero.class, "Arc_zeroMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x161616,0xC40000);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":ArkZeroOneMob"),entity_ark_zero_one.class, "ArkZeroOneMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xcf1630,0x0a0a0a);
 		
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":EdenMob"),entity_eden.class, "EdenMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x0e1257,0x910101);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":AbaddonHighMob"),entity_abaddon_high.class, "AbaddonHighMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x5d6837,0xc30000);
 		
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":IsMob"),EntityIS.class, "IsMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xf7f7f7,0x20cc89);
 		
