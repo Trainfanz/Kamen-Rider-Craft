@@ -166,6 +166,23 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),form, "f");
 					}else if (belt.Rider=="saikou_shadow"&Saikou){
 						
+						
+						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
+						
+
+						if(item_saberdriver.get_core_for_forms(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f")==5){
+							item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
+							item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),form+1, "f");
+						}
+						else if(item_saberdriver.get_core_for_forms(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f")==6){
+							item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
+							item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),form+2, "f");
+						}
+						else{
+							item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
+							item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),form, "f");
+						}
+						
 					}
 					else {
 						if(belt.Rider=="saber"||belt.Rider=="blaze"||belt.Rider=="espada"){							
