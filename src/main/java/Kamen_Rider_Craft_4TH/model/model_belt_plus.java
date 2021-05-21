@@ -106,7 +106,12 @@ public class model_belt_plus extends ModelBiped
 			{					
 				dri = 0.5; 
 				GL11.glRotatef(160, 0, 0, 1);
-			}else{
+			}else if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_battle)
+			{				
+				dri = 0.5; 
+				GL11.glTranslated(-0.275,0.1,0.0);
+				GL11.glRotatef(135, 0, 0, 1);
+			}else {
 
 				GL11.glRotatef(180, 0, 0, 1);
 			}
@@ -142,6 +147,11 @@ public class model_belt_plus extends ModelBiped
 			{					
 				dri = 0.5; 
 				GL11.glRotatef(160, 0, 0, 1);
+			}else if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_battle)
+			{					
+				dri = 0.5; 
+				GL11.glTranslated(-0.275,0.1,0);
+				GL11.glRotatef(135, 0, 0, 1);
 			}else{
 
 				GL11.glRotatef(180, 0, 0, 1);

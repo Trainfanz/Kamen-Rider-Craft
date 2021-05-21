@@ -2997,6 +2997,8 @@ public class RiderItems {
 	
 	public static Item zetsumeriser_arsino = new item_zero_onedriver("zetsumeriser_arsino",ArmorMaterial.DIAMOND, 4, "magia_arsino",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
+	public static Item raidriser_battle = new item_zero_onedriver("raidriser_battle",ArmorMaterial.DIAMOND, 4, "raider_battle",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	
 	public static Item hiden_zero_two_driver = new Item_ore("hiden_zero_two_driver");
 	public static Item hiden_zero_one_driver_red = new Item_ore("hiden_zero_one_driver_red");
 	public static Item shot_riser_belt = new Item_ore("shot_riser_belt");
