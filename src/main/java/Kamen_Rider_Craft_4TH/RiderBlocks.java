@@ -1,6 +1,7 @@
 package Kamen_Rider_Craft_4TH;
 
 import Kamen_Rider_Craft_4TH.blocks.BlockCustomDoor;
+import Kamen_Rider_Craft_4TH.blocks.BlockCustomStaris;
 import Kamen_Rider_Craft_4TH.blocks.custom.BlockType;
 import Kamen_Rider_Craft_4TH.blocks.custom.CustomBlock;
 import Kamen_Rider_Craft_4TH.blocks.custom.Property;
@@ -9,7 +10,9 @@ import Kamen_Rider_Craft_4TH.blocks.wood.BlockHelheimVine;
 import Kamen_Rider_Craft_4TH.item.Item_custom_door;
 import Kamen_Rider_Craft_4TH.item.Item_ore;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockPlanks;
 import net.minecraft.block.material.Material;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 
 public class RiderBlocks {
@@ -87,6 +90,11 @@ public class RiderBlocks {
 	public static Block white_wallplate = CustomBlock.builder().material(Material.IRON).hardness(9.9F).harvestLevel("pickaxe", 2).name("white_wallplate").setCreativeTabe(Tabs.tabdecor).build();
 
 	public static Block ginga_meteor = CustomBlock.builder().material(Material.ROCK).lightLevel(1f).blockType(BlockType.BASIC).name("ginga_meteor").setCreativeTabe(Tabs.tabdecor).build();
+	
+	
+	public static Block  sword_of_logos_stairs = new BlockCustomStaris(Blocks.PLANKS.getDefaultState(), "sword_of_logos_stairs").setCreativeTab(Tabs.tabdecor);
+	public static Block sword_of_logos_bookshelf = CustomBlock.builder().material(Material.WOOD).blockType(BlockType.BASIC).name("sword_of_logos_bookshelf").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block planks_big_oak_golden_trim = CustomBlock.builder().material(Material.WOOD).blockType(BlockType.BASIC).name("planks_big_oak_golden_trim").setCreativeTabe(Tabs.tabdecor).build();
 	
 	
 public static void init() {
