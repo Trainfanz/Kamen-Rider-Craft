@@ -106,7 +106,13 @@ public class model_belt_plus extends ModelBiped
 			{					
 				dri = 0.5; 
 				GL11.glRotatef(160, 0, 0, 1);
-			}else if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_battle)
+			}else if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_battle
+					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_buffalo
+					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_whale
+					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_lion
+					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_penguin
+					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_panda
+					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_jackal)
 			{				
 				dri = 0.5; 
 				GL11.glTranslated(-0.275,0.1,0.0);
@@ -129,7 +135,10 @@ public class model_belt_plus extends ModelBiped
 
 			if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_ex_aiddriver)
 			{
-			if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.gamer_driver_proto_lazer||item_ex_aiddriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")==4||item_ex_aiddriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")==5||item_ex_aiddriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")==6){
+			if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.gamer_driver_proto_lazer
+					||item_ex_aiddriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")==4
+					||item_ex_aiddriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")==5
+					||item_ex_aiddriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")==6){
 
 				GL11.glTranslated(0, 0, 0.05);
 			}
@@ -147,7 +156,13 @@ public class model_belt_plus extends ModelBiped
 			{					
 				dri = 0.5; 
 				GL11.glRotatef(160, 0, 0, 1);
-			}else if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_battle)
+			}else if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_battle
+					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_buffalo
+					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_whale
+					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_lion
+					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_penguin
+					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_panda
+					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_jackal)
 			{					
 				dri = 0.5; 
 				GL11.glTranslated(-0.275,0.1,0);
@@ -170,7 +185,9 @@ public class model_belt_plus extends ModelBiped
 
 			if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_ex_aiddriver)
 			{
-			if (item_ex_aiddriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")==4||item_ex_aiddriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")==5||item_ex_aiddriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")==6){
+			if (item_ex_aiddriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")==4
+					||item_ex_aiddriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")==5
+					||item_ex_aiddriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")==6){
 
 				GL11.glTranslated(0, 0, 0.05);
 			}
@@ -178,7 +195,9 @@ public class model_belt_plus extends ModelBiped
 			
 			if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_zikudriver)
 			{
-			if (item_zikudriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==1||item_zikudriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==5||item_zikudriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==8){
+			if (item_zikudriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==1
+					||item_zikudriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==5
+					||item_zikudriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==8){
 
 				GL11.glTranslated(0.25,0,0.001);
 			}

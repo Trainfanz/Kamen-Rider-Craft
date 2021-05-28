@@ -2998,6 +2998,12 @@ public class RiderItems {
 	public static Item zetsumeriser_arsino = new item_zero_onedriver("zetsumeriser_arsino",ArmorMaterial.DIAMOND, 4, "magia_arsino",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item raidriser_battle = new item_zero_onedriver("raidriser_battle",ArmorMaterial.DIAMOND, 4, "raider_battle",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item raidriser_buffalo = new item_zero_onedriver("raidriser_buffalo",ArmorMaterial.DIAMOND, 4, "raider_buffalo",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item raidriser_whale = new item_zero_onedriver("raidriser_whale",ArmorMaterial.DIAMOND, 4, "raider_whale",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item raidriser_lion = new item_zero_onedriver("raidriser_lion",ArmorMaterial.DIAMOND, 4, "raider_lion",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item raidriser_penguin = new item_zero_onedriver("raidriser_penguin",ArmorMaterial.DIAMOND, 4, "raider_penguin",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item raidriser_panda = new item_zero_onedriver("raidriser_panda",ArmorMaterial.DIAMOND, 4, "raider_panda",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item raidriser_jackal = new item_zero_onedriver("raidriser_jackal",ArmorMaterial.DIAMOND, 4, "raider_jackal",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item hiden_zero_two_driver = new Item_ore("hiden_zero_two_driver");
 	public static Item hiden_zero_one_driver_red = new Item_ore("hiden_zero_one_driver_red");
