@@ -3191,7 +3191,7 @@ public class RiderItems {
 	public static Item hanselnuts_to_gretel_wonderride_book = new Item_wonder_ride_book("r",11,"hanselnuts_to_gretel_wonderride_book").AddToSwordOfLogosBookAnalyzer(10).resetBook("slash").setCreativeTab(Tabs.tabsaber);
 	public static Item bremen_no_rock_band_wonderride_book = new Item_wonder_ride_book("r",12,"bremen_no_rock_band_wonderride_book").SlashBook().BusterBook().AddToSwordOfLogosBookAnalyzer(15).setCreativeTab(Tabs.tabsaber);
 	
-	public static Item jaaku_dragon_wonder_ride_book = new Item_wonder_ride_book("l",3,"jaaku_dragon_wonder_ride_book").AddToSwordOfLogosBookAnalyzer(10).resetBook("calibur").setCreativeTab(Tabs.tabsaber);
+	public static Item jaaku_dragon_wonder_ride_book = new Item_wonder_ride_book("l",3,"jaaku_dragon_wonder_ride_book").resetBook("calibur").setCreativeTab(Tabs.tabsaber);
 	public static Item jaou_dragon_wonder_ride_book = new Item_wonder_ride_book("l",0,"jaou_dragon_wonder_ride_book").ChangeForm(1).NotBasicBook().CaliburBook().setCreativeTab(Tabs.tabsaber);
 
 	public static Item kin_no_buki_gin_no_buki_wonderride_book = new Item_wonder_ride_book("l",0,"kin_no_buki_gin_no_buki_wonderride_book").SaikouBook().resetBook("saikou_shadow").ChangeForm(0).NotBasicBook().setCreativeTab(Tabs.tabsaber);
