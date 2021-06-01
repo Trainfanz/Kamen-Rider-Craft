@@ -121,7 +121,7 @@ public class Entity_Calibur extends EntityBossBase
 		super.onEntityUpdate();
 
 		if (this.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.jaken_caliburdriver){
-			if (this.getHealth()<15&item_saberdriver.get_core_for_forms(this.getItemStackFromSlot(EntityEquipmentSlot.FEET), "f")!=1) {
+			if (this.getHealth()<30&item_saberdriver.get_core_for_forms(this.getItemStackFromSlot(EntityEquipmentSlot.FEET), "f")!=1) {
 				if (this.getAttackTarget()instanceof EntityPlayer){
 					EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
 					playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Jaou Read! Ankokuken Kurayami!"));
@@ -130,6 +130,11 @@ public class Entity_Calibur extends EntityBossBase
 					playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"You make right a just, no matter dark joke. Fury in the dark."));
 					playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Jaou Dragon! Dare mo Nogare Rarenai"));
 
+					if (playerIn.inventory.hasItemStack(new ItemStack(RiderItems.king_of_arthur_wonderride_book))){
+						playerIn.inventory.addItemStackToInventory(new ItemStack(RiderItems.dragonic_knight_wonder_ride_book));
+						playerIn.sendMessage( new TextComponentString(TextFormatting.RED+"Dragonic Knight!"));
+					}
+					
 					this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.3);
 					this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(7.0D);
 				}
