@@ -940,11 +940,11 @@ item.birth_driver_prototype.name=Prototype Birth Driver
 item.meteor_driver.name=Meteor Driver
 item.nadeshikodriver.name=Nadeshiko Driver
 
-item.fusion_swich.name=Fusion switch
+item.fusion_swich.name=Fusion Switch
 
 
-item.meteor_swich.name=Meteor switch
-item.meteor_storm_swich.name=Meteor Storm switch
+item.meteor_swich.name=Meteor Switch
+item.meteor_storm_swich.name=Meteor Storm Switch
 item.nadeshiko_switch.name=Nadeshiko Switch
 
 item.ride_saber.name=Ride Saber
