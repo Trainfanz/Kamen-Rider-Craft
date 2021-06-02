@@ -103,6 +103,7 @@ import Kamen_Rider_Craft_4TH.item.ryuki.item_ryukiarmor;
 import Kamen_Rider_Craft_4TH.item.ryuki.item_ryukiarmor2;
 import Kamen_Rider_Craft_4TH.item.ryuki.item_ryukidriver;
 import Kamen_Rider_Craft_4TH.item.saber.Item_wonder_ride_book;
+import Kamen_Rider_Craft_4TH.item.saber.item_book_of_ruin;
 import Kamen_Rider_Craft_4TH.item.saber.item_saberarmor_head;
 import Kamen_Rider_Craft_4TH.item.saber.item_saberdriver;
 import Kamen_Rider_Craft_4TH.item.wizard.Item_wizard_ring;
@@ -3217,6 +3218,8 @@ public class RiderItems {
 	
 	public static Item book_gate_wonder_ride_book = new Item_ore("book_gate_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
 	public static Item blank_wonder_ride_book = new Item_ore("blank_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
+
+	public static Item book_of_ruin = new item_book_of_ruin("book_of_ruin").setCreativeTab(Tabs.tabsaber);
 
 	
 	public static Item amazonshead = new item_amazonsarmor("amazonshead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);

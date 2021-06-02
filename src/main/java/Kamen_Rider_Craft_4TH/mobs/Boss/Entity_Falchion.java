@@ -58,6 +58,7 @@ import net.minecraft.entity.projectile.EntitySmallFireball;
 import net.minecraft.entity.projectile.EntityWitherSkull;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
+import net.minecraft.init.MobEffects;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
@@ -104,9 +105,9 @@ public class Entity_Falchion extends EntityBossBase
 	protected void applyEntityAttributes()
 	{
 		super.applyEntityAttributes();
-		this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(60.0D);
-		this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.15000001192092896D);
-		this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(5.0D);
+		this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(70.0D);
+		this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.2D);
+		this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(2.0D);
 		this.getEntityAttribute(SharedMonsterAttributes.FOLLOW_RANGE).setBaseValue(128.0D);
 	}
 
@@ -122,9 +123,14 @@ public class Entity_Falchion extends EntityBossBase
 		if (this.getAttackTarget()instanceof EntityPlayer){
 			EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
 			
-			if (this.getHealth()<30&!playerIn.inventory.hasItemStack(new ItemStack(RiderItems.emotional_dragon_wonder_ride_book))) {
+			if (!playerIn.inventory.hasItemStack(new ItemStack(RiderItems.emotional_dragon_wonder_ride_book))) {
+				   this.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
+			}
+				
 			
-					if (playerIn.inventory.hasItemStack(new ItemStack(RiderItems.brave_dragon_wonderride_book))){
+			if (this.getHealth()<60) {
+			
+					if (playerIn.inventory.hasItemStack(new ItemStack(RiderItems.brave_dragon_wonderride_book))&!playerIn.inventory.hasItemStack(new ItemStack(RiderItems.emotional_dragon_wonder_ride_book))){
 						playerIn.inventory.addItemStackToInventory(new ItemStack(RiderItems.emotional_dragon_wonder_ride_book));
 						playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Emotional Dragon!"));
 					}
@@ -150,6 +156,8 @@ public class Entity_Falchion extends EntityBossBase
 		if (!this.world.isRemote){
 
 			this.dropItem(RiderItems.eternal_phoenix_wonderride_book, 1);
+			this.dropItem(RiderItems.seiken_swordriver_falchion, 1);
+			this.dropItem(RiderItems.mumeiken_kyomu, 1);
 			this.dropItem(RiderItems.blank_wonder_ride_book, 10);
 
 		}

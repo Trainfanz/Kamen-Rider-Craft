@@ -92,7 +92,7 @@ public class RiderBlocks {
 	public static Block ginga_meteor = CustomBlock.builder().material(Material.ROCK).lightLevel(1f).blockType(BlockType.BASIC).name("ginga_meteor").setCreativeTabe(Tabs.tabdecor).build();
 	
 	
-	public static Block  sword_of_logos_stairs = new BlockCustomStaris(Blocks.PLANKS.getDefaultState(), "sword_of_logos_stairs").setCreativeTab(Tabs.tabdecor);
+	public static Block  sword_of_logos_stairs = new BlockCustomStaris(Blocks.ACACIA_STAIRS.getDefaultState(), "sword_of_logos_stairs").setCreativeTab(Tabs.tabdecor);
 	public static Block sword_of_logos_bookshelf = CustomBlock.builder().material(Material.WOOD).blockType(BlockType.BASIC).name("sword_of_logos_bookshelf").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block planks_big_oak_golden_trim = CustomBlock.builder().material(Material.WOOD).blockType(BlockType.BASIC).name("planks_big_oak_golden_trim").setCreativeTabe(Tabs.tabdecor).build();
 	

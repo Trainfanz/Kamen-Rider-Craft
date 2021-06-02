@@ -1,5 +1,6 @@
 {
     "variants": {
+    "inventory":  { "model": "kamenridercraft4th:sword_of_logos_stairs" },
         "facing=east,half=bottom,shape=straight":  { "model": "kamenridercraft4th:sword_of_logos_stairs" },
         "facing=west,half=bottom,shape=straight":  { "model": "kamenridercraft4th:sword_of_logos_stairs", "y": 180, "uvlock": true },
         "facing=south,half=bottom,shape=straight": { "model": "kamenridercraft4th:sword_of_logos_stairs", "y": 90, "uvlock": true },

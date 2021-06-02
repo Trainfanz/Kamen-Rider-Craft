@@ -79,12 +79,7 @@ public class EntityShimi extends Entity_base_henchmen
 				entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
 				world.spawnEntity(entityboss);
 				break;
-			case 1:
-				playerIn.sendMessage( new TextComponentString(TextFormatting.GOLD+"Eternal Phoenix!"));
-				entityboss2.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
-				world.spawnEntity(entityboss2);
-				break;
-	
+
 			}
 			}
 			
