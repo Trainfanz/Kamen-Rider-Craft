@@ -57,7 +57,6 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_redyue;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_roshuo;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_taboo_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_abaddon_high;
-import Kamen_Rider_Craft_4TH.mobs.Boss.entity_ark_zero_one;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_blood;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_eden;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_killbus;
@@ -176,8 +175,6 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entity_ikazuchi.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_Arc_zero.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
 
-		RenderingRegistry.registerEntityRenderingHandler(entity_ark_zero_one.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
-		
 		RenderingRegistry.registerEntityRenderingHandler(entity_eden.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
 		RenderingRegistry.registerEntityRenderingHandler(entity_abaddon_high.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
 		

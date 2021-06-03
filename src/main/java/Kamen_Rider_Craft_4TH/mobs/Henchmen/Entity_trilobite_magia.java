@@ -11,7 +11,6 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Red_Poppy;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_genm;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_jin;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_magia;
-import Kamen_Rider_Craft_4TH.mobs.Boss.entity_ark_zero_one;
 import net.minecraft.block.Block;
 
 import net.minecraft.entity.Entity;
@@ -66,7 +65,6 @@ public class Entity_trilobite_magia extends Entity_base_henchmen
 				EntityBossBase entityboss  = new Entity_magia(world);
 
 				EntityBossBase entity_jin  = new Entity_jin(world);
-				EntityBossBase entity_azu  = new entity_ark_zero_one(world);
 				switch (this.rand.nextInt(25))
 				{
 				case 0:
@@ -88,11 +86,6 @@ public class Entity_trilobite_magia extends Entity_base_henchmen
 					playerIn.sendMessage( new TextComponentString(TextFormatting.LIGHT_PURPLE+"Forcerise! Flying Falcon! Break down."));
 					entity_jin.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
 					world.spawnEntity(entity_jin);
-					break;
-				case 4:
-					playerIn.sendMessage( new TextComponentString(TextFormatting.RED+"Progrise! Final Conclusion! Ark Rising Hopper!"));
-					entity_azu.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
-					world.spawnEntity(entity_azu);
 					break;
 				}
 			}

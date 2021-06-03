@@ -3035,25 +3035,26 @@ public class RiderItems {
 	public static Item breaking_mammoth_progrise_key = new Item_progrise_keys(0, 23,"breaking_mammoth_progrise_key").AddToHiden3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
 	public static Item sparking_giraffe_progrise_key = new Item_progrise_keys(0, 11,"sparking_giraffe_progrise_key").AddToZaia3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
 	public static Item amazing_hercules_progrise_key = new Item_progrise_keys(0, 12,"amazing_hercules_progrise_key").AddToZaia3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
-	public static Item crushing_buffalo_progrise_key = new Item_progrise_keys(0, 15,"crushing_buffalo_progrise_key").AddToZaia3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
+	public static Item crushing_buffalo_progrise_key = new Item_progrise_keys(0, 15,"crushing_buffalo_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item exciting_stag_progrise_key = new Item_progrise_keys(0, 16,"exciting_stag_progrise_key").AddToZaia3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
 	public static Item gatling_hedgehog_progrise_key = new Item_progrise_keys(0, 13,"gatling_hedgehog_progrise_key").AddToZaia3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
 	public static Item trapping_spider_progrise_key = new Item_progrise_keys(0, 17,"trapping_spider_progrise_key").AddToZaia3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
-	public static Item storming_penguin_progrise_key = new Item_progrise_keys(0, 18,"storming_penguin_progrise_key").AddToZaia3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
+	public static Item storming_penguin_progrise_key = new Item_progrise_keys(0, 18,"storming_penguin_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item hopping_kangaroo_progrise_key = new Item_progrise_keys(0, 14,"hopping_kangaroo_progrise_key").AddToHiden3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
-	public static Item splashing_whale_progrise_key = new Item_progrise_keys(0, 22,"splashing_whale_progrise_key").AddToZaia3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
-	public static Item dynamaiting_lion_progrise_key = new Item_progrise_keys(0, 24,"dynamaiting_lion_progrise_key").AddToZaia3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
-	public static Item scouting_panda_progrise_key = new Item_progrise_keys(0, 25,"scouting_panda_progrise_key").AddToZaia3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
-	public static Item invading_horseshoe_crab_progrise_key = new Item_progrise_keys(0, 27,"invading_horseshoe_crab_progrise_key").AddToZaia3DPrinter(5).AddToZaia3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
+	public static Item splashing_whale_progrise_key = new Item_progrise_keys(0, 22,"splashing_whale_progrise_key").setCreativeTab(Tabs.tabzero_one);
+	public static Item dynamaiting_lion_progrise_key = new Item_progrise_keys(0, 24,"dynamaiting_lion_progrise_key").setCreativeTab(Tabs.tabzero_one);
+	public static Item scouting_panda_progrise_key = new Item_progrise_keys(0, 25,"scouting_panda_progrise_key").setCreativeTab(Tabs.tabzero_one);
+	public static Item invading_horseshoe_crab_progrise_key = new Item_progrise_keys(0, 27,"invading_horseshoe_crab_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item shooting_wolf_progrise_key = new Item_progrise_keys(1, 3,"shooting_wolf_progrise_key").AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
 	public static Item assault_wolf_progrise_key = new Item_progrise_keys(1, 3,"assault_wolf_progrise_key").AddToZaia3DPrinter(2).AddChangeBase(2).setCreativeTab(Tabs.tabzero_one);
 	public static Item rampage_gatling_progrise_key = new Item_progrise_keys(1, 3,"rampage_gatling_progrise_key").AddChangeBase(5).setCreativeTab(Tabs.tabzero_one);
 	public static Item punching_kong_progrise_key = new Item_progrise_keys(1, 5,"punching_kong_progrise_key").AddToZaia3DPrinter(5).AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
+	public static Item dire_wolf_zetsumerise_key = new Item_progrise_keys("dire_wolf_zetsumerise_key").setCreativeTab(Tabs.tabzero_one);
 	
 	public static Item rushing_cheetah_progrise_key = new Item_progrise_keys(2, 7,"rushing_cheetah_progrise_key").AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
 	public static Item lightning_hornet_progrise_key = new Item_progrise_keys(2, 9,"lightning_hornet_progrise_key").AddToZaia3DPrinter(5).AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
-	public static Item fighting_jackal_progrise_key = new Item_progrise_keys(0, 28,"fighting_jackal_progrise_key").AddToZaia3DPrinter(5).setCreativeTab(Tabs.tabzero_one);
+	public static Item fighting_jackal_progrise_key = new Item_progrise_keys(0, 28,"fighting_jackal_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item serval_tiger_zetsumerisekey = new Item_progrise_keys(2, 29,"serval_tiger_zetsumerisekey").setCreativeTab(Tabs.tabzero_one);
 
 	public static Item sting_scorpion_progrise_key = new Item_progrise_keys(3, 10,"sting_scorpion_progrise_key").AddToZaia3DPrinter(10).AddZeroOneCanUse().setCreativeTab(Tabs.tabzero_one);
@@ -3121,7 +3122,6 @@ public class RiderItems {
 	public static Item hiden_metal = new Item_ore("hiden_metal").setCreativeTab(Tabs.tabzero_one);
 	
 //Saber
-
 	public static Item kaenken_rekka = new ItemBaseSword("kaenken_rekka",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item kingexcalibur = new ItemBaseSword("kingexcalibur",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item suiseiken_nagare = new ItemBaseSword("suiseiken_nagare",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
@@ -3137,13 +3137,11 @@ public class RiderItems {
 	
 	public static Item kougouken_saikou = new Item_sword_gun("kougouken_saikou",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	
-	
 	public static Item mumeiken_kyomu = new ItemBaseSword("mumeiken_kyomu",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	
 	public static Item dogouken_gekido_back = new Item_ore("dogouken_gekido_back");
 	
 	public static Item shimi_lot = new ItemBaseSword("shimi_lot",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
-	
 	
 	public static Item saberhead = new item_saberarmor_head("saberhead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item sabertroso = new item_saberarmor_head("sabertroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);

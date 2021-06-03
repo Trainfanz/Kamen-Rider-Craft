@@ -79,12 +79,20 @@ entity.GingaMob.name=Kamen Rider Ginga
 
 entity.TrilobiteMagiaMob.name=Trilobite Magia
 entity.dodoChickMob.name=Dodo Magia Chick
+entity.BattleRaiderMob.name=Battle Raider
+entity.AbaddonMob.name=Kamen Rider Abaddon
 entity.MagiaMob.name=Magia
 entity.horobiMob.name=Kamen Rider Horobi
 entity.jinMob.name=Kamen Rider Jin
 entity.ikazuchiMob.name=Kamen Rider Ikazuchi
 entity.dodoMagiaMob.name=Dodo Magia
+entity.RaiderMob.name=Raider
 entity.Arc_zeroMob.name=Kamen Rider Ark-Zero
+entity.AbaddonHighMob.name=Kamen Rider Abaddon
+entity.EdenMob.name=Kamen Rider Eden
+entity.ZaiaMob.name=Kamen Rider ZAIA
+entity.DireWolfSoldMagiaMob.name=Dire Wolf Sold Magia
+entity.ServalTigerSoldMagiaMob.name=Serval Tiger Sold Magia
 entity.IsMob.name=Is
 
 entity.DownfallGuardianMob.name=DownFall Guardian
@@ -210,12 +218,14 @@ tile.white_wallplate.name=Metal Wall Plate
 tile.fangire_glass.name=Fangire Glass
 tile.ganbarizing.name=Ganbarizing Machine
 
-
 tile.planks_light_blue.name=Wooden Planks
 tile.planks_dark_blue.name=Wooden Planks
 tile.planks_white.name=Wooden Planks
 tile.kamiyama_wall.name=Fantastic Bookstore Kamiyama Interior Wall Block
 tile.door_kamiyama.name=Fantastic Bookstore Kamiyama Door
+tile.sword_of_logos_stairs.name=Southern Base Stairs
+tile.sword_of_logos_bookshelf.name=Southern Base Bookshelf
+tile.planks_big_oak_golden_trim.name=Wooden Planks
 
 tile.denliner_interior.name=Denliner Interior
 tile.denliner_interior_darker.name=Denliner Interior (Dark)
@@ -1145,7 +1155,7 @@ item.duri_noko.name=Duri Noko
 item.kiwi_gekirin.name=Kiwi Gekirin
 
 ‎‎
-item.shine_onkachi.name=Shine Donkachi 
+item.shine_donkachi.name=Shine Donkachi
 item.hells_cane.name=Hells Cane
 item.shine_lychee_sword.name=Shine Lychee Sword
 item.king_duri_noko.name=King Duri Noko
@@ -2263,9 +2273,9 @@ item.zero_onehead.name=Zero One Helmet
 item.zero_onetroso.name=Zero One Chestplate     
 item.zero_onelegs.name=Zero One Leggings   
 
-item.hiden_zero_one_driver.name=Hiden Zero One Driver   
-item.zaia_thousandriver.name=ZAIA Thousandriver
-
+item.hiden_zero_one_driver.name=Hiden Zero One Driver (Zero-One)
+item.zaia_thousandriver.name=ZAIA Thousandriver (Thouser)
+item.zaia_thousandriver_zaia.name=ZAIA Thousandriver (ZAIA)
 item.shot_riser_vulcan.name=AIMS Shot Riser (Vulcan) 
 item.shot_riser_valkyrie.name=AIMS Shot Riser (Valkyrie) 
 
@@ -2275,32 +2285,62 @@ item.forceriser_ikazuchi.name=MetsubouJinrai ForceRiser (Ikazuchi)
 item.forceriser_naki.name=MetsubouJinrai ForceRiser (Naki)
 item.forceriser_001.name=MetsubouJinrai ForceRiser (001)
 
+item.zetsumetsu_driver.name=Zetsumetsu Driver
+item.metsuboujinrai_driver.name=MetsuBouJinRai Driver
+
 item.cycloneriser_ichigata.name=CycloneRiser (Ichi-Gata)
 
 item.zaia_slashriser_jin.name=ZAIA SlashRiser (Jin)
 
 item.ark_driver_zero.name=Ark Driver-Zero (Ark-Zero)
+item.hiden_zero_one_driver.name=Hiden Zero One Driver (Ark Zero-One)
 
-item.zetsumetsu_driver.name=Zetsumetsu Driver
-item.eden_driver.name=Eden Driver
+item.eden_driver.name=Eden Driver (Eden)
+item.lucifer_driver.name=Eden Driver (Lucifer)
+
+item.slash_abaddo_riser_r.name=Slash AbadoRiser (Red)
+item.shot_abaddo_riser_g.name=Shot AbaddoRiser (Grey)
+item.shot_abaddo_riser_b.name=Shot AbaddoRiser (Blue)
+item.slash_abaddo_riser_o.name=Slash AbadoRiser (Orange)
+item.shot_abaddo_riser.name=Shot AbaddoRiser (Abaddon)
+item.slash_abaddo_riser.name=Slash AbaddoRiser (Abaddon)
+
+item.hiden_zero_one_driver_vulcan.name=Hiden Zero One Driver (Vulcan)
 
 item.zetsumeriser_berothra.name=ZetsumeRiser (Berotha Magia)
 item.zetsumeriser_kuehne.name=ZetsumeRiser (Kuehne Magia)
 item.zetsumeriser_ekal.name=ZetsumeRiser (Ekal Magia)
 item.zetsumeriser_dodo.name=ZetsumeRiser (Dodo Magia)
 item.zetsumeriser_neohi.name=ZetsumeRiser (Neohi Magia)
+item.zetsumeriser_onycho.name=ZetsumeRiser (Onycho Magia)
+item.zetsumeriser_vicarya.name=ZetsumeRiser (Vicarya Magia)
+item.zetsumeriser_gaeru.name=ZetsumeRiser (Gaeru Magia)
+item.zetsumeriser_mammoth.name=ZetsumeRiser (Mammoth Magia)
 
 item.zetsumeriser_dodo_custom.name=ZetsumeRiser (Dodo Magia Custom)
-item.zetsumeriser_dodo_custom_v2.name=ZetsumeRiser (Dodo Magia Customã€€Two)
+item.zetsumeriser_dodo_custom_v2.name=ZetsumeRiser (Dodo Magia Custom Two)
+
+item.zetsumeriser_arsino.name=ZetsumeRiser (Arsino Magia)
+
+item.raidriser_battle.name=RaidRiser (Battle Raider)
+item.raidriser_buffalo.name=RaidRiser (Crushing Buffalo Raider)
+item.raidriser_whale.name=RaidRiser (Splashing Whale Raider)
+item.raidriser_lion.name=RaidRiser (Dynamaiting Lion Raider)
+item.raidriser_penguin.name=RaidRiser (Storming Penguin Raider)
+item.raidriser_panda.name=RaidRiser (Scouting Panda Raider)
+item.raidriser_jackal.name=RaidRiser (Fighting Jackal Raider)
 
 item.shot_riser_gun.name=AIMS Shot Riser 
+item.zaia_slashriser_sword.name=ZAIA Slash Riser
+item.shot_abaddo_gun.name=Shot AbaddoRiser
+item.slash_abaddo_sword.name=Slash AbaddoRiser
 item.attache_calibur.name=Attache Calibur
 item.attache_shotgun.name=Attache Shotgun
 item.attache_arrow.name=Attache Arrow
 item.authorise_buster.name=Authorise Buster
 item.progrise_hopper_blade.name=Progrise Hopper Blade
 item.progrise_hopper_blade_naginata.name=Progrise Hopper Blade (Naginata)
-item.thousand_jacker.name=Thousand Jacker
+item.thousand_jacker.name=Thousand Jacker	
 
 item.rising_hopper_progrise_key.name=Rising Hopper Progrise Key
 item.shining_hopper_progrise_key.name=Shining Hopper Progrise Key
@@ -2331,12 +2371,15 @@ item.shooting_wolf_progrise_key.name=Shooting Wolf Progrise Key
 item.assault_wolf_progrise_key.name=Assault Wolf Progrise Key
 item.rampage_gatling_progrise_key.name=Rampage Gatling Progrise Key
 item.punching_kong_progrise_key.name=Punching Kong Progrise Key
+item.dire_wolf_zetsumerise_key.name=Dire Wolf Zetsumerise Key
 
 item.rushing_cheetah_progrise_key.name=Rushing Cheetah Progrise Key
 item.lightning_hornet_progrise_key.name=Lightning Hornet Progrise Key
 item.fighting_jackal_progrise_key.name=Fighting Jackal Progrise Key
+item.serval_tiger_zetsumerisekey.name=Serval Tiger Zetsumerise Key
 
 item.sting_scorpion_progrise_key.name=Sting Scorpion Progrise Key
+item.ark_scorpion_progrise_key.name=Ark Scorpion Progrise Key
 
 item.flying_falcon_progrise_key.name=Flying Falcon Progrise Key
 item.burning_falcon_progrise_key.name=Burning Falcon Progrise Key
@@ -2345,6 +2388,13 @@ item.amazing_caucasus_progrise_key.name=Amazing Caucasus Progrise Key
 item.awaking_arsino_zetsumerise_key.name=Awaking Arsino Zetsumerise Key
 
 item.ark_one_progrise_key.name=Ark-One Progrise Key
+item.ark_zero_one_progrise_key.name=Ark Zero-One Progrise Key
+
+item.eden_zetsumerise_key.name=Eden Zetsumerise Key
+item.crowding_hopper_progrise_key.name=Crowding Hopper Progrise Key
+item.triceratops_zetsumerise_key.name=Triceratops Zetsumerise Key
+item.carnotaurus_zetsumerise_key.name=Carnotaurus Zetsumerise Key
+item.mass_brain_zetsumerise_key.name=Mass Brain Zetsumerise Key
 
 item.berothamagia_zetsumerisekey.name=Berotha Zetsumerise Key
 item.kuehnemagia_zetsumerisekey.name=Kuehne Zetsumerise Key
