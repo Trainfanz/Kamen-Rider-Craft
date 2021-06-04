@@ -196,11 +196,17 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 								basebook="r";
 							}
 						
+							
 							if (form!=0){
+								if (this==RiderItems.elemental_dragon_wonder_ride_book&!playerIn.inventory.hasItemStack(new ItemStack(RiderItems.primitive_dragon_wonder_ride_book))){
+									
+								}else
+								{
 								item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "m");
 								item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "r");
 								item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "l");
 								item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),form, "f");
+								}
 							}else if (basebook != num & form==0){
 								item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
 								item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),form, "f");
