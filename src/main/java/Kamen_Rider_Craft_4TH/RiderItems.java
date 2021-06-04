@@ -3168,6 +3168,7 @@ public class RiderItems {
 	public static Item dragonic_knight_wonder_ride_book = new Item_wonder_ride_book("l",0,"dragonic_knight_wonder_ride_book").ChangeForm(2).NotBasicBook().SaberBook().setCreativeTab(Tabs.tabsaber);
 	public static Item emotional_dragon_wonder_ride_book = new Item_wonder_ride_book("l",0,"emotional_dragon_wonder_ride_book").ChangeForm(3).NotBasicBook().SaberBook().setCreativeTab(Tabs.tabsaber);
 	public static Item primitive_dragon_wonder_ride_book = new Item_wonder_ride_book("l",0,"primitive_dragon_wonder_ride_book").ChangeForm(9).NotBasicBook().SaberBook().setCreativeTab(Tabs.tabsaber);
+	public static Item elemental_dragon_wonder_ride_book = new Item_wonder_ride_book("l",0,"elemental_dragon_wonder_ride_book").ChangeForm(10).NotBasicBook().SaberBook().setCreativeTab(Tabs.tabsaber);
 	
 	public static Item king_of_arthur_wonderride_book = new Item_wonder_ride_book("r",6,"king_of_arthur_wonderride_book").AddToSwordOfLogosBookAnalyzer(2).setCreativeTab(Tabs.tabsaber);
 	public static Item televi_kun_wonderride_book = new Item_wonder_ride_book("r",17,"televi_kun_wonderride_book").AddToSwordOfLogosBookAnalyzer(1).setCreativeTab(Tabs.tabsaber);
