@@ -1,7 +1,6 @@
 package Kamen_Rider_Craft_4TH.mobs.Boss;
 
 
-import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collections;
 import java.util.List;
@@ -14,6 +13,7 @@ import javax.annotation.Nullable;
 import com.google.common.collect.Sets;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -63,45 +63,33 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.DifficultyInstance;
 import net.minecraft.world.World;
 
-public class entity_abaddon_high extends EntityBossBase
+public class Entity_naki extends EntityBossBase
 //implements IBossDisplayData
 {
     
-	public static final Item[] belt = new Item[] {RiderItems.shot_abaddo_riser_b,RiderItems.shot_abaddo_riser_g
-			,RiderItems.slash_abaddo_riser_o, RiderItems.slash_abaddo_riser_r};
-	
 	private String texture;
-	
-	public entity_abaddon_high(World par1World)
+	public Entity_naki(World par1World)
 	{
 		super(par1World);
-		
 		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.zero_onetroso));
 		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.zero_onehead));
-		Random generator = new Random();
-		int rand = generator.nextInt(belt.length);
-		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(belt[rand]));
+		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(RiderItems.forceriser_naki));
 		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.zero_onelegs));
 		
-		if (this.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.shot_abaddo_riser_b||this.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.shot_abaddo_riser_g)
-		{
-			this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.shot_abaddo_gun));
-		}
-		if (this.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.slash_abaddo_riser_o||this.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.slash_abaddo_riser_r)
-		{
-			this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.slash_abaddo_sword));
-		}
 	}
-  
+    
+	
     protected void applyEntityAttributes()
     {
         super.applyEntityAttributes();
-        this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(100.0D);
+        this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(80.0D);
         this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.30000001192092896D);
         this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(10.0D);
         this.getEntityAttribute(SharedMonsterAttributes.FOLLOW_RANGE).setBaseValue(128.0D);
     }
-   
+  
+ 
+    
  	public EnumCreatureAttribute getCreatureAttribute()
  	{
  		return EnumCreatureAttribute.UNDEAD;
@@ -111,14 +99,13 @@ public class entity_abaddon_high extends EntityBossBase
     {
         return false;
     }
- 	
     public void onDeath(DamageSource cause)
     {
-    	if (!this.world.isRemote)
-    	{
-    		this.dropItem(RiderItems.crowding_hopper_progrise_key, 1);
-    		this.dropItem(RiderItems.hiden_metal, 5);
-    	}   
+    	this.dropItem(RiderItems.blank_progrise_key, 4);
+		this.dropItem(RiderItems.hiden_metal, 6);
+		this.dropItem(RiderItems.naki_progrise_key, 1);
+		this.dropItem(RiderItems.japanese_wolf_zetsumerisekey, 1);
     }
+  
 }
     

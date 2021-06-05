@@ -183,7 +183,7 @@ public class Entity_Arc_zero extends EntityBossBase
 			this.dropItem(RiderItems.ark_one_progrise_key, 1);
 			this.dropItem(RiderItems.blank_progrise_key, 10);
 			this.dropItem(RiderItems.hiden_metal, 20);
-			this.dropItem(RiderItems.japanese_wolf_zetsumerisekey, 1);
+			this.dropItem(RiderItems.ark_scorpion_progrise_key, 1);
 			this.dropItem(RiderItems.ark_zero_one_progrise_key, 1);
 		}
 

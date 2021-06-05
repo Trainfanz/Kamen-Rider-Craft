@@ -3200,6 +3200,7 @@ public class RiderItems {
 	public static Item kin_no_buki_gin_no_buki_wonderride_book = new Item_wonder_ride_book("l",0,"kin_no_buki_gin_no_buki_wonderride_book").SaikouBook().resetBook("saikou_shadow").ChangeForm(0).NotBasicBook().setCreativeTab(Tabs.tabsaber);
 	public static Item x_swordman_wonderride_book= new Item_wonder_ride_book("l",0,"x_swordman_ride_book").SaikouBook().ChangeForm(5).NotBasicBook().setCreativeTab(Tabs.tabsaber);
 
+	public static Item konchuu_daihyakka_wonderride_book = new Item_ore("konchuu_daihyakka_wonderride_book").setCreativeTab(Tabs.tabsaber);
 	
 	public static Item eternal_phoenix_wonderride_book = new Item_wonder_ride_book("l",6,"eternal_phoenix_wonderride_book").resetBook("falchion").setCreativeTab(Tabs.tabsaber);
 	
