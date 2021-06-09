@@ -3139,6 +3139,8 @@ public class RiderItems {
 	
 	public static Item mumeiken_kyomu = new ItemBaseSword("mumeiken_kyomu",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item eneiken_noroshi = new ItemBaseSword("eneiken_noroshi",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item jikokuken_kaiji = new Item_sword_gun("jikokuken_kaiji",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item caladbolg = new ItemBaseSword("caladbolg",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	
 	public static Item dogouken_gekido_back = new Item_ore("dogouken_gekido_back");
 	
@@ -3159,9 +3161,11 @@ public class RiderItems {
 	public static Item jaken_caliburdriver = new item_saberdriver("jaken_caliburdriver",ArmorMaterial.DIAMOND, 4,"calibur",3,0,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 
 	public static Item seiken_saikou_driver = new item_saberdriver("seiken_saikou_driver",ArmorMaterial.DIAMOND, 4,"saikou_shadow",0,0,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item solomon_driver = new item_saberdriver("solomon_driver",ArmorMaterial.DIAMOND, 4,"solomon",0,0,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	
 	public static Item seiken_swordriver_falchion = new item_saberdriver("seiken_swordriver_falchion",ArmorMaterial.DIAMOND, 4,"falchion",0,0,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item sword_of_logos_buckle_sabela = new item_saberdriver("sword_of_logos_buckle_sabela",ArmorMaterial.DIAMOND, 4,"sabela",0,0,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item sword_of_logos_buckle_durendal = new item_saberdriver("sword_of_logos_buckle_durendal",ArmorMaterial.DIAMOND, 4,"durendal",0,0,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	
 	public static Item brave_dragon_wonderride_book = new Item_wonder_ride_book("l",1,"brave_dragon_wonderride_book").resetBook("saber").AddToSwordOfLogosBookAnalyzer(30).setCreativeTab(Tabs.tabsaber);
 	public static Item storm_eagle_wonderride_book = new Item_wonder_ride_book("m",3,"storm_eagle_wonderride_book").AddToSwordOfLogosBookAnalyzer(15).setCreativeTab(Tabs.tabsaber);
@@ -3180,6 +3184,7 @@ public class RiderItems {
 	public static Item tenkuu_no_pegasus_wonderride_book = new Item_wonder_ride_book("l",4,"tenkuu_no_pegasus_wonderride_book").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
 	
 	public static Item king_lion_daisenki_wonderride_book = new Item_wonder_ride_book("m",0,"king_lion_daisenki_wonderride_book").ChangeForm(8).NotBasicBook().BladesBook().setCreativeTab(Tabs.tabsaber);
+	public static Item tategami_hyoujuu_senki_wonderride_book = new Item_wonder_ride_book("m",0,"tategami_hyoujuu_senki_wonderride_book").ChangeForm(11).NotBasicBook().BladesBook().setCreativeTab(Tabs.tabsaber);
 	
 	public static Item lamp_do_alngina_wonderride_book = new Item_wonder_ride_book("r",3,"lamp_do_alngina_wonderride_book").resetBook("espada").AddToSwordOfLogosBookAnalyzer(25).setCreativeTab(Tabs.tabsaber);
 	public static Item needle_hedgehog_wonderride_book= new Item_wonder_ride_book("m",2,"needle_hedgehog_wonderride_book").AddToSwordOfLogosBookAnalyzer(15).setCreativeTab(Tabs.tabsaber);
@@ -3198,7 +3203,7 @@ public class RiderItems {
 	public static Item jaou_dragon_wonder_ride_book = new Item_wonder_ride_book("l",0,"jaou_dragon_wonder_ride_book").ChangeForm(1).NotBasicBook().CaliburBook().setCreativeTab(Tabs.tabsaber);
 
 	public static Item kin_no_buki_gin_no_buki_wonderride_book = new Item_wonder_ride_book("l",0,"kin_no_buki_gin_no_buki_wonderride_book").SaikouBook().resetBook("saikou_shadow").ChangeForm(0).NotBasicBook().setCreativeTab(Tabs.tabsaber);
-	public static Item x_swordman_wonderride_book= new Item_wonder_ride_book("l",0,"x_swordman_ride_book").SaikouBook().ChangeForm(5).NotBasicBook().setCreativeTab(Tabs.tabsaber);
+	public static Item x_swordman_wonderride_book= new Item_wonder_ride_book("l",0,"x_swordman_wonderride_book").SaikouBook().ChangeForm(5).NotBasicBook().setCreativeTab(Tabs.tabsaber);
 
 	public static Item konchuu_daihyakka_wonderride_book = new Item_ore("konchuu_daihyakka_wonderride_book").setCreativeTab(Tabs.tabsaber);
 	
