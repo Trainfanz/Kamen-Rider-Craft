@@ -104,6 +104,8 @@ entity.MetalBuildMob.name=Kamen Rider Metal Build
 
 entity.ShimiMob.name=Shimi
 entity.CaliburMob.name=Kamen Rider Calibur
+entity.FalchionMob.name=Kamen Rider Falchion
+
 
 effect.fly=Flying
 effect.fire_punch=Fire Punch
@@ -2307,6 +2309,7 @@ item.shot_abaddo_riser.name=Shot AbaddoRiser (Abaddon)
 item.slash_abaddo_riser.name=Slash AbaddoRiser (Abaddon)
 
 item.hiden_zero_one_driver_vulcan.name=Hiden Zero One Driver (Vulcan)
+item.hiden_zero_one_driver_azu.name=Hiden Zero One Driver (Azu)
 
 item.zetsumeriser_berothra.name=ZetsumeRiser (Berotha Magia)
 item.zetsumeriser_kuehne.name=ZetsumeRiser (Kuehne Magia)
@@ -2454,6 +2457,14 @@ item.raimeiken_ikazuchi.name=Raimeiken Ikazuchi
 item.ankokuken_kurayami.name=Ankokuken Kurayami
 item.onjuuken_suzune.name=Onjuuken Suzune
     
+
+item.kingexcalibur.name=Kingexcalibur
+item.kougouken_saikou.name=Kougouken Saikou
+item.eneiken_noroshi.name=Eneiken Noroshi
+item.jikokuken_kaiji.name=Jikokuken Kaiji
+item.caladbolg.name=Caladbolg
+item.haouken_xross_saber.name=Haouken Xross Saber
+    
 item.fuusouken_hayate_ittouryu.name=Fuusouken Hayate(Ittouryu Mode)
 item.fuusouken_hayate_nitouryu.name=Fuusouken Hayate(Nitouryu Mode)
 item.fuusouken_hayate_nitouryu2.name=Fuusouken Hayate(Nitouryu Mode)
@@ -2476,6 +2487,11 @@ item.sword_of_logos_buckle_slash.name=Sword of Logos Buckle (Slash)
     
 item.jaken_caliburdriver.name=Jaken Caliburdriver
 item.seiken_swordriver_falchion.name=Haken Bladriver
+
+item.sword_of_logos_buckle_sabela.name=Sword of Logos Buckle (Sabela)
+item.sword_of_logos_buckle_durendal.name=Sword of Logos Buckle (Durendal)
+item.seiken_saikou_driver.name=Seiken Saikou Driver
+item.solomon_driver.name=Dooms Driver
 
 item.brave_dragon_wonderride_book.name=Brave Dragon Wonder Ride Book
 item.storm_eagle_wonderride_book.name=Storm Eagle Wonder Ride Book
@@ -2508,6 +2524,23 @@ item.jaou_dragon_wonder_ride_book.name=Jaou Dragon Wonder Ride Book
 
 item.eternal_phoenix_wonderride_book.name=Eternal Phoenix Wonder Ride Book
 
+item.primitive_dragon_wonder_ride_book.name=Primitive Dragon Wonder Ride Book
+item.elemental_dragon_wonder_ride_book.name=Elemental Dragon Wonder Ride Book
+item.televi_kun_wonderride_book.name=Televi-Kun Wonder Ride Book
+item.king_lion_daisenki_wonderride_book.name=King Lion Daisenki Wonder Ride Book
+item.tategami_hyoujuu_senki_wonderride_book.name=Tategami Hyoujuu Senki Wonder Ride Book
+item.ghost_ijinroku_wonderride_book.name=Ghost Ijinroku Wonder Ride Book
+
+item.daishougun_momoichirou_wonderride_book.name=Daishougun Momoichirou Wonder Ride Book
+item.daikengou_urashimajirou_wonderride_book.name=Daikengou Urashimajirou Wonder Ride Book
+item.daiyokozuna_kinzaburou_wonderride_book.name=Daiyokozuna Kinzaburou Wonder Ride Book
+item.kin_no_buki_gin_no_buki_wonderride_book.name=Kin no Buki Gin no Buki Wonder Ride Book
+item.x_swordman_wonderride_book.name=X-Swordman Wonder Ride Book
+
+item.konchuu_daihyakka_wonderride_book.name=Konchuu Daihyakka Wonder Ride Book
+item.ocean_history_wonderride_book.name=Ocean History Wonder Ride Book
+item.omni_force_wonderride_book.name=Omni Force Wonder Ride Book
+
 item.kirin_no_ongaeshi_wonderride_book.name=Kirin no Ongaeshi Wonder Ride Book
 item.sarukani_wars_wonderride_book.name=Sarukani Wars Wonder Ride Book
 item.bakusou_usagi_to_kame_wonderride_book.name=Bakusou Usagi to Kame Wonder Ride Book
@@ -2518,7 +2551,8 @@ item.issun_bushi_wonderride_book.name=Issun Bushi Wonder Ride Book
 
 item.book_gate_wonder_ride_book.name=Book Gate Wonder Ride Book
 item.blank_wonder_ride_book.name=Blank Wonder Ride Book
- 
+item.book_of_ruin.name=Book Of Ruin
+  
                
 item.amazonshead.name=Amazons Helmet
 item.amazonstroso.name=Amazons Chestplate 

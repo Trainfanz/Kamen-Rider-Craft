@@ -236,7 +236,7 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 									}else if (get_core_for_forms(ItemStack,"f")==2){
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 4,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
 									}else if (get_core_for_forms(ItemStack,"f")==3){
@@ -252,23 +252,37 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
 									}else if (get_core_for_forms(ItemStack,"f")==6){
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
 									}else if (get_core_for_forms(ItemStack,"f")==7){
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 4,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
 									}else if (get_core_for_forms(ItemStack,"f")==8){
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+									}else if (get_core_for_forms(ItemStack,"f")==9){
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
+									}else if (get_core_for_forms(ItemStack,"f")==10){
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
 									}
 
 								}

@@ -1511,6 +1511,50 @@ public class RiderItems {
 	public static Item kani = new Item_ore("kani").setCreativeTab(Tabs.tabOOO);
 	public static Item ebi = new Item_ore("ebi").setCreativeTab(Tabs.tabOOO);
 
+	/**
+	public static Item foundation_x_taka = new Itemmedal(0, "1","foundation_x_taka").setCreativeTab(Tabs.tabOOO);
+	public static Item foundation_x_kuwagata = new Itemmedal(1, "1","foundation_x_kuwagata").setCreativeTab(Tabs.tabOOO);
+	public static Item foundation_x_lion = new Itemmedal(2, "1","foundation_x_lion").setCreativeTab(Tabs.tabOOO);
+	public static Item foundation_x_sai = new Itemmedal(3, "1","foundation_x_sai").setCreativeTab(Tabs.tabOOO);
+	public static Item foundation_x_shachi = new Itemmedal(4, "1","foundation_x_shachi").setCreativeTab(Tabs.tabOOO);
+
+	public static Item foundation_x_tora = new Itemmedal(0, "2","foundation_x_tora").setCreativeTab(Tabs.tabOOO);
+	public static Item foundation_x_kamakiri = new Itemmedal(1, "2","foundation_x_kamakiri").setCreativeTab(Tabs.tabOOO);
+	public static Item foundation_x_gorilla = new Itemmedal(2, "2","foundation_x_gorilla").setCreativeTab(Tabs.tabOOO);
+	public static Item foundation_x_kujaku = new Itemmedal(3, "2","foundation_x_kujaku").setCreativeTab(Tabs.tabOOO);
+	public static Item foundation_x_unagi = new Itemmedal(4, "2","foundation_x_unagi").setCreativeTab(Tabs.tabOOO);
+
+	public static Item foundation_x_batta = new Itemmedal(0, "3","foundation_x_batta").setCreativeTab(Tabs.tabOOO);
+	public static Item foundation_x_cheetah = new Itemmedal(1, "3","foundation_x_cheetah").setCreativeTab(Tabs.tabOOO);
+	public static Item foundation_x_zou = new Itemmedal(2, "3","foundation_x_zou").setCreativeTab(Tabs.tabOOO);
+	public static Item foundation_x_condor = new Itemmedal(3, "3","foundation_x_condor").setCreativeTab(Tabs.tabOOO);
+	public static Item foundation_x_tako = new Itemmedal(4, "3","foundation_x_tako").setCreativeTab(Tabs.tabOOO);
+
+	public static Item zeus_taka = new Itemmedal(0, "1","zeus_taka").setCreativeTab(Tabs.tabOOO);
+	public static Item zeus_kuwagata = new Itemmedal(1, "1","zeus_kuwagata").setCreativeTab(Tabs.tabOOO);
+	public static Item zeus_lion = new Itemmedal(2, "1","zeus_lion").setCreativeTab(Tabs.tabOOO);
+	public static Item zeus_sai = new Itemmedal(3, "1","zeus_sai").setCreativeTab(Tabs.tabOOO);
+	public static Item zeus_shachi = new Itemmedal(4, "1","zeus_shachi").setCreativeTab(Tabs.tabOOO);
+	public static Item zeus_ptera = new Itemmedal(5, "1","zeus_ptera").setCreativeTab(Tabs.tabOOO);
+	public static Item zeus_mukade = new Itemmedal(12, "1","zeus_mukade").setCreativeTab(Tabs.tabOOO);
+
+	public static Item zeus_tora = new Itemmedal(0, "2","zeus_tora").setCreativeTab(Tabs.tabOOO);
+	public static Item zeus_kamakiri = new Itemmedal(1, "2","zeus_kamakiri").setCreativeTab(Tabs.tabOOO);
+	public static Item zeus_gorilla = new Itemmedal(2, "2","zeus_gorilla").setCreativeTab(Tabs.tabOOO);
+	public static Item zeus_kujaku = new Itemmedal(3, "2","zeus_kujaku").setCreativeTab(Tabs.tabOOO);
+	public static Item zeus_unagi = new Itemmedal(4, "2","zeus_unagi").setCreativeTab(Tabs.tabOOO);
+	public static Item zeus_tricera = new Itemmedal(5, "2","zeus_tricera").setCreativeTab(Tabs.tabOOO);
+	public static Item zeus_hachi = new Itemmedal(15, "2","zeus_hachi").setCreativeTab(Tabs.tabOOO);
+
+	public static Item zeus_batta = new Itemmedal(0, "3","zeus_batta").setCreativeTab(Tabs.tabOOO);
+	public static Item zeus_cheetah = new Itemmedal(1, "3","zeus_cheetah").setCreativeTab(Tabs.tabOOO);
+	public static Item zeus_zou = new Itemmedal(2, "3","zeus_zou").setCreativeTab(Tabs.tabOOO);
+	public static Item zeus_condor = new Itemmedal(3, "3","zeus_condor").setCreativeTab(Tabs.tabOOO);
+	public static Item zeus_tako = new Itemmedal(4, "3","zeus_tako").setCreativeTab(Tabs.tabOOO);
+	public static Item zeus_tyranno = new Itemmedal(5, "3","zeus_tyranno").setCreativeTab(Tabs.tabOOO);
+	public static Item zeus_ari = new Itemmedal(14, "3","zeus_ari").setCreativeTab(Tabs.tabOOO);
+**/
+	
 	public static Item proto_birth_core = new Item_ore("proto_birth_core").setCreativeTab(Tabs.tabOOO);
 
 	public static Item o_scanner = new Itemo_scanner("o_scanner").setCreativeTab(Tabs.tabOOO);
@@ -3209,6 +3253,8 @@ public class RiderItems {
 	public static Item x_swordman_wonderride_book= new Item_wonder_ride_book("l",0,"x_swordman_wonderride_book").SaikouBook().ChangeForm(5).NotBasicBook().setCreativeTab(Tabs.tabsaber);
 
 	public static Item konchuu_daihyakka_wonderride_book = new Item_ore("konchuu_daihyakka_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item ocean_history_wonderride_book = new Item_ore("ocean_history_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item omni_force_wonderride_book = new Item_ore("omni_force_wonderride_book").setCreativeTab(Tabs.tabsaber);
 	
 	public static Item eternal_phoenix_wonderride_book = new Item_wonder_ride_book("l",6,"eternal_phoenix_wonderride_book").resetBook("falchion").setCreativeTab(Tabs.tabsaber);
 	
@@ -3255,8 +3301,6 @@ public class RiderItems {
 
 	public static void init() {
 	}
-
-	//public static void init(){}
 }
 
 

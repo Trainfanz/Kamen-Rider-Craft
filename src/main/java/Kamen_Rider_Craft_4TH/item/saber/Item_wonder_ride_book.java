@@ -208,7 +208,7 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 							}
 						
 							
-							if (form!=0&!isXrossSaber){
+							if (form!=0){
 								if (this==RiderItems.elemental_dragon_wonder_ride_book&!playerIn.inventory.hasItemStack(new ItemStack(RiderItems.primitive_dragon_wonder_ride_book))){
 									
 								}else
