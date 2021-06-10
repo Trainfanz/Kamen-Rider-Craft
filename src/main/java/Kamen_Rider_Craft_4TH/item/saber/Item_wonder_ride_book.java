@@ -37,6 +37,7 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 	public boolean Calibur=false;
 	public boolean Slash=false;
 	public boolean Saikou=false;
+	public boolean XrossSaber=false;
 
 	public Item_wonder_ride_book(String NUM ,int arms,String name)
 	{
@@ -120,6 +121,12 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 		Saikou = true;
 		return this;
 	}
+	
+	public Item_wonder_ride_book  XrossSaberBook()
+	{
+		XrossSaber = true;
+		return this;
+	}
 
 	public Item_wonder_ride_book AddToSwordOfLogosBookAnalyzer(int num)
 	{
@@ -153,9 +160,13 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_saberdriver){
 				item_saberdriver belt = (item_saberdriver) playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem();
 				 boolean BasicForm=item_saberdriver.get_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), "f") !="base";
-				
+				 boolean isXrossSaber =item_saberdriver.get_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), "f") =="_xross";
+				 
+			
+			
+				 
 				if (num!="thingy") {
-					if (setBase==belt.Rider||BasicForm&form==0) {
+					if (setBase==belt.Rider||BasicForm&form==0&!isXrossSaber) {
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),belt.BOOK_L, "l");
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),belt.BOOK_M, "m");
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),belt.BOOK_R, "r");
@@ -197,7 +208,7 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 							}
 						
 							
-							if (form!=0){
+							if (form!=0&!isXrossSaber){
 								if (this==RiderItems.elemental_dragon_wonder_ride_book&!playerIn.inventory.hasItemStack(new ItemStack(RiderItems.primitive_dragon_wonder_ride_book))){
 									
 								}else
@@ -207,6 +218,8 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 								item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "l");
 								item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),form, "f");
 								}
+							}else if (isXrossSaber&XrossSaber){
+								item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
 							}else if (basebook != num & form==0){
 								item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
 								item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),form, "f");

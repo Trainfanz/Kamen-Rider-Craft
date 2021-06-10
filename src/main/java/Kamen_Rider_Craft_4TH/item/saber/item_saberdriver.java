@@ -57,7 +57,7 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 			"tsuki_no_hime_kaguyan","osha_jizou_san","issun_bushi","saber_televi_kun","daishougun_momoichirou","daikengou_urashimajirou","daiyokozuna_kinzaburou"};
 
 	public static String[] book_mode= new String[] {"","_jaou_dragon","_dragonic_knight","_emotional_dragon","_ghost","_x_swordman","_x_swordman_wonderful"
-			,"_x_swordman_powerful","_king_lion","_primitive_dragon","_elemental_primitive_dragon","_tategami_hyoujuu_senki"};
+			,"_x_swordman_powerful","_king_lion","_primitive_dragon","_elemental_primitive_dragon","_tategami_hyoujuu_senki","_xross"};
 
 
 
@@ -129,7 +129,7 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.INVISIBILITY, 5, 0,true,false));
 									}
-									
+
 									if (get_core_for_forms(ItemStack,"l")==1){
 										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
@@ -150,8 +150,8 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 0,true,false));
 									}
-										
-									
+
+
 									if (get_core_for_forms(ItemStack,"m")==1){
 										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
@@ -162,7 +162,7 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 										player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 0,true,false));
 									}
-									
+
 									if (get_core_for_forms(ItemStack,"r")==1){
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 									}else if (get_core_for_forms(ItemStack,"r")==2){
@@ -226,7 +226,7 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
 									}
-									
+
 									if (get_core_for_forms(ItemStack,"f")==1){
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false));
@@ -270,7 +270,7 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
 									}
-									
+
 								}
 							}
 						}
@@ -312,7 +312,7 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 
 	public static int  get_core_for_forms(ItemStack itemstack,String slot)
 	{
-		 int form = 0;
+		int form = 0;
 
 		if (slot == "f"){
 
@@ -332,7 +332,7 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 			}
 		}else if (slot == "r"){
 			if (itemstack.hasTagCompound()) {
-					form=itemstack.getTagCompound().getInteger("core"+slot);
+				form=itemstack.getTagCompound().getInteger("core"+slot);
 			}else {
 				form=((item_saberdriver)itemstack.getItem()).BOOK_R;
 			}
@@ -347,16 +347,20 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 		return form;
 	}
 
-	
-	
+
+
 	public static String get_core(ItemStack itemstack,String slot)
 	{
 		String form = "base";
 		String rider;
 		String riderName=((item_saberdriver)itemstack.getItem()).Rider;
+		boolean is_form = false;
 
 		if (itemstack.hasTagCompound()) {
 			rider=((item_saberdriver)itemstack.getItem()).Rider+book_mode[itemstack.getTagCompound().getInteger("core"+"f")];
+			if (itemstack.getTagCompound().getInteger("core"+"f")!=0){
+				is_form = true;
+			}
 		}else {
 			rider=((item_saberdriver)itemstack.getItem()).Rider;
 		}
@@ -376,7 +380,11 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 		}else if (slot == "l") {
 
 			if (itemstack.hasTagCompound()) {
-				form=book_l[itemstack.getTagCompound().getInteger("core"+slot)];
+				if (is_form){
+					form=rider+"_"+book_l[itemstack.getTagCompound().getInteger("core"+slot)];
+				}else{
+					form=book_l[itemstack.getTagCompound().getInteger("core"+slot)];
+				}
 			}else {
 				form=book_l[((item_saberdriver)itemstack.getItem()).BOOK_L];
 			}
@@ -388,7 +396,11 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 				if (riderName == "buster"||riderName=="kenzan"||riderName=="slash"){
 					form=rider+"_"+book_r[itemstack.getTagCompound().getInteger("core"+slot)];
 				}else{
+					if (is_form){
+						form=rider+"_"+book_r[itemstack.getTagCompound().getInteger("core"+slot)];
+					}else{
 					form=book_r[itemstack.getTagCompound().getInteger("core"+slot)];
+					}
 				}
 			}else {
 				form=book_r[((item_saberdriver)itemstack.getItem()).BOOK_R];
