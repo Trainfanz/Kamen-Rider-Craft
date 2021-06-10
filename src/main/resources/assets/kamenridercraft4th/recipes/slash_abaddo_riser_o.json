@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XDX",
+    "XCX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:hiden_metal"
+    }, "C": {
+      "item": "kamenridercraft4th:crowding_hopper_progrise_key"
+    }, "D": {
+      "item": "minecraft:dye",
+	  "data": 14
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:slash_abaddo_riser_o"
+  }
+}
