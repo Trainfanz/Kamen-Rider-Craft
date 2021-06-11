@@ -75,6 +75,7 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityNebulaBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityRidePlayer;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityRiotrooper;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityShimi;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_giger;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_hard_guardian;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_magiadodo_chick;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_needle_smash;
@@ -282,6 +283,8 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":dodoMagiaMob"),Entity_dodomagia.class, "dodoMagiaMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x7d0b0a,0x242424);
 		
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":RaiderMob"),entity_raider.class, "RaiderMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x1d1d1d,0x000000);
+		
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":gigerMob"),Entity_giger.class, "gigerMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x9c00b2,0x1f1f1f);
 		
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":Arc_zeroMob"),Entity_Arc_zero.class, "Arc_zeroMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x161616,0xC40000);
 		

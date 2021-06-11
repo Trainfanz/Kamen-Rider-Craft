@@ -94,6 +94,7 @@ entity.EdenMob.name=Kamen Rider Eden
 entity.ZaiaMob.name=Kamen Rider ZAIA
 entity.DireWolfSoldMagiaMob.name=Dire Wolf Sold Magia
 entity.ServalTigerSoldMagiaMob.name=Serval Tiger Sold Magia
+entity.gigerMob.name=Giger
 entity.IsMob.name=Is
 
 entity.DownfallGuardianMob.name=DownFall Guardian

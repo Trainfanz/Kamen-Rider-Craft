@@ -3168,26 +3168,26 @@ public class RiderItems {
 	
 //Saber
 	public static Item kaenken_rekka = new ItemBaseSword("kaenken_rekka",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
-	public static Item kingexcalibur = new ItemBaseSword("kingexcalibur",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item kingexcalibur = new ItemBaseSword("kingexcalibur",Tabs.gashacon_sparrow_arrow).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item suiseiken_nagare = new ItemBaseSword("suiseiken_nagare",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
-	public static Item dogouken_gekido = new ItemBaseSword("dogouken_gekido",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item dogouken_gekido = new ItemBaseSword("dogouken_gekido",Tabs.gan_gun_saber_hammer).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item raimeiken_ikazuchi = new ItemBaseSword("raimeiken_ikazuchi",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
-	public static Item ankokuken_kurayami = new ItemBaseSword("ankokuken_kurayami",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item ankokuken_kurayami = new ItemBaseSword("ankokuken_kurayami",Tabs.dis_halberd).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item onjuuken_suzune = new Item_sword_gun("onjuuken_suzune",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	
-	public static Item fuusouken_hayate_ittouryu = new ItemBaseSword("fuusouken_hayate_ittouryu",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
-	public static Item fuusouken_hayate_nitouryu = new ItemBaseSword("fuusouken_hayate_nitouryu",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
-	public static Item fuusouken_hayate_nitouryu2 = new ItemBaseSword("fuusouken_hayate_nitouryu2",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
-	public static Item fuusouken_hayate_shuriken  = new ItemBaseSword("fuusouken_hayate_shuriken",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item fuusouken_hayate_ittouryu = new ItemBaseSword("fuusouken_hayate_ittouryu",Tabs.gan_gun_saber_nitouryu).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item fuusouken_hayate_nitouryu = new ItemBaseSword("fuusouken_hayate_nitouryu",Tabs.gan_gun_saber_nitouryu).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item fuusouken_hayate_nitouryu2 = new ItemBaseSword("fuusouken_hayate_nitouryu2",Tabs.gan_gun_saber_nitouryu).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item fuusouken_hayate_shuriken  = new ItemBaseSword("fuusouken_hayate_shuriken",Tabs.gan_gun_saber_nitouryu).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	
-	public static Item kougouken_saikou = new ItemBaseSword("kougouken_saikou",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item kougouken_saikou = new ItemBaseSword("kougouken_saikou",Tabs.souginjou).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	
 	public static Item mumeiken_kyomu = new ItemBaseSword("mumeiken_kyomu",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
-	public static Item eneiken_noroshi = new ItemBaseSword("eneiken_noroshi",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
-	public static Item jikokuken_kaiji = new ItemBaseSword("jikokuken_kaiji",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
-	public static Item caladbolg = new ItemBaseSword("caladbolg",Tabs.gashacon_breaker).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item eneiken_noroshi = new ItemBaseSword("eneiken_noroshi",Tabs.souginjou).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item jikokuken_kaiji = new ItemBaseSword("jikokuken_kaiji",Tabs.true_brave_sword).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item caladbolg = new ItemBaseSword("caladbolg",Tabs.gashacon_key_slasher).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	
-	public static Item haouken_xross_saber = new  Item_haouken_xross_saber("haouken_xross_saber",Tabs.gashacon_breaker).setCreativeTab(Tabs.tabsaber);
+	public static Item haouken_xross_saber = new  Item_haouken_xross_saber("haouken_xross_saber",Tabs.gashacon_key_slasher).setCreativeTab(Tabs.tabsaber);
 	
 	public static Item dogouken_gekido_back = new Item_ore("dogouken_gekido_back");
 	

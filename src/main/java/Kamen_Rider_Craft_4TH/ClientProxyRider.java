@@ -16,6 +16,7 @@ import Kamen_Rider_Craft_4TH.mobs.Entityaccel;
 import Kamen_Rider_Craft_4TH.mobs.RenderRiderMob;
 import Kamen_Rider_Craft_4TH.mobs.RenderRiderMob2;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityChronos;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_giger;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Arc_zero;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_BloodStalk;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Build_RT;
@@ -113,6 +114,7 @@ import Kamen_Rider_Craft_4TH.model.ModelPoppy;
 import Kamen_Rider_Craft_4TH.model.Model_Sakura_Hurricane;
 import Kamen_Rider_Craft_4TH.model.Model_accel_bike_form;
 import Kamen_Rider_Craft_4TH.model.Model_elementary_inves;
+import Kamen_Rider_Craft_4TH.model.Model_giger;
 import Kamen_Rider_Craft_4TH.model.Model_hardboilder;
 import Kamen_Rider_Craft_4TH.model.Model_kodama_suika_arms;
 import Kamen_Rider_Craft_4TH.model.Model_lazer_bike;
@@ -189,6 +191,7 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(entity_zaia.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/trilobite_magia.png"));
 		RenderingRegistry.registerEntityRenderingHandler(entity_dire_wolf_sold_magia.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/dire_wolf_sold_magia.png"));
 		RenderingRegistry.registerEntityRenderingHandler(entity_serval_tiger_sold_magia.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/serval_tiger_sold_magia.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_giger.class, new RenderRiderMob2(new Model_giger(), 0.5F,"textures/entities/giger.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityElementaryInvesGreen.class, new RenderRiderMob2(new Model_elementary_inves(), 0.5F,"textures/entities/elementary_inves_green.png"));
 		RenderingRegistry.registerEntityRenderingHandler(EntityElementaryInvesRed.class, new RenderRiderMob2(new Model_elementary_inves(), 0.5F,"textures/entities/elementary_inves_red.png"));
