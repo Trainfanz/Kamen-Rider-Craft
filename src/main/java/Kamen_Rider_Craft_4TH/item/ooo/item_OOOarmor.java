@@ -239,5 +239,9 @@ public class item_OOOarmor extends ItemArmor  implements IHasModel
 	{
 		return maxDamageArray;
 	}
-
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.cellmedal == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+	}
 }

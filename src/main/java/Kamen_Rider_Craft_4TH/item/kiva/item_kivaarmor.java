@@ -160,6 +160,11 @@ public class item_kivaarmor extends ItemArmor implements IHasModel
 			{
 				return maxDamageArray;
 			}
+			
+			public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+			{
+				return RiderItems.fuestle == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+			}
 
 
 		}

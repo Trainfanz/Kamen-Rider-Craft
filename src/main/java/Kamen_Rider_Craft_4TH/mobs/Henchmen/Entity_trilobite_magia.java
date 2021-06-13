@@ -63,6 +63,7 @@ public class Entity_trilobite_magia extends Entity_base_henchmen
 			if (this.getAttackTarget()instanceof EntityPlayer){
 				EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
 				EntityBossBase entityboss  = new Entity_magia(world);
+				Entity_giger entityboss1  = new Entity_giger(world);
 
 				EntityBossBase entity_jin  = new Entity_jin(world);
 				switch (this.rand.nextInt(25))
@@ -86,6 +87,10 @@ public class Entity_trilobite_magia extends Entity_base_henchmen
 					playerIn.sendMessage( new TextComponentString(TextFormatting.LIGHT_PURPLE+"Forcerise! Flying Falcon! Break down."));
 					entity_jin.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
 					world.spawnEntity(entity_jin);
+					break;
+				case 4:
+					entityboss1.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+					world.spawnEntity(entityboss1);
 					break;
 				}
 			}

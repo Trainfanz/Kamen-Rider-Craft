@@ -8,6 +8,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
@@ -19,8 +20,9 @@ public class item_rider_armor extends ItemArmor  implements IHasModel
 	public String armorNamePrefix;
 	public ArmorMaterial material;
 	public Class<? extends item_rider_driver> BELTCLASS;
+	private final Item base;   
 	
-	public item_rider_armor (String name,Class<? extends item_rider_driver> beltClass,ArmorMaterial par2EnumArmorMaterial, int par3, EntityEquipmentSlot par4)
+	public item_rider_armor (String name,Class<? extends item_rider_driver> beltClass,ArmorMaterial par2EnumArmorMaterial, int par3, EntityEquipmentSlot par4, Item item)
 	{
 		super(par2EnumArmorMaterial, par3, par4);
 		this.material = par2EnumArmorMaterial;
@@ -31,6 +33,7 @@ public class item_rider_armor extends ItemArmor  implements IHasModel
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
         BELTCLASS=beltClass;
+        base = item;
 	}
 
 
@@ -79,6 +82,11 @@ public class item_rider_armor extends ItemArmor  implements IHasModel
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
+	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return base == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 
 }

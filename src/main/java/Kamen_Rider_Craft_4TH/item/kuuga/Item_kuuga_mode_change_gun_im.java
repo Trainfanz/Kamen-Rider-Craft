@@ -244,12 +244,10 @@ public class Item_kuuga_mode_change_gun_im extends ItemBow  implements IHasModel
      * @param toRepair the {@code ItemStack} being repaired
      * @param repair the {@code ItemStack} being used to perform the repair
      */
-    public boolean getIsRepairable(ItemStack toRepair, ItemStack repair)
-    {
-        ItemStack mat = this.material.getRepairItemStack();
-        if (!mat.isEmpty() && net.minecraftforge.oredict.OreDictionary.itemMatches(mat, repair, false)) return true;
-        return super.getIsRepairable(toRepair, repair);
-    }
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.kuuga_growing == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+	}
 
     /**
      * Gets a map of item attribute modifiers, used by ItemSword to increase hit damage.

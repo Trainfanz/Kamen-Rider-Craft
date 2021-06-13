@@ -12,6 +12,7 @@ import net.minecraft.client.model.ModelBiped;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.item.ItemStack;
@@ -25,15 +26,17 @@ public class item_rider_armor2 extends item_rider_armor implements IHasModel
 	public String armorNamePrefix;
 	public ArmorMaterial material;
 	public Class<? extends item_rider_driver> BELTCLASS;
+	private final Item base;   
 	
-	public item_rider_armor2 (String name,Class<? extends item_rider_driver> beltClass,ArmorMaterial par2EnumArmorMaterial, int par3, EntityEquipmentSlot par4)
+	public item_rider_armor2 (String name,Class<? extends item_rider_driver> beltClass,ArmorMaterial par2EnumArmorMaterial, int par3, EntityEquipmentSlot par4, Item item)
 	{
-		super(name, beltClass, par2EnumArmorMaterial, par3, par4);
+		super(name, beltClass, par2EnumArmorMaterial, par3, par4, item);
 		this.material = par2EnumArmorMaterial;
 		par2EnumArmorMaterial.getDamageReductionAmount(par4);
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(par4));
 		this.maxStackSize = 1;
         BELTCLASS=beltClass;
+        base = item;
 	}
 	@Override
 	public String getArmorTexture(ItemStack stack, Entity entity, EntityEquipmentSlot slot, String type)
@@ -104,5 +107,10 @@ public class item_rider_armor2 extends item_rider_armor implements IHasModel
 			}
 		}
 		return null;
+	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return base == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 }

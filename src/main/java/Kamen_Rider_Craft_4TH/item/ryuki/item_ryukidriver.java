@@ -279,4 +279,9 @@ public class item_ryukidriver extends ItemArmor implements IHasModel
 			}
 		}
 	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.contract_advent == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+	}
 }

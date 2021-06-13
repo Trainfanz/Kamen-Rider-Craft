@@ -228,11 +228,9 @@ public class Item_nebulasteamgun extends ItemBow  implements IHasModel
      * @param toRepair the {@code ItemStack} being repaired
      * @param repair the {@code ItemStack} being used to perform the repair
      */
-    public boolean getIsRepairable(ItemStack toRepair, ItemStack repair)
+    public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
     {
-        ItemStack mat = this.material.getRepairItemStack();
-        if (!mat.isEmpty() && net.minecraftforge.oredict.OreDictionary.itemMatches(mat, repair, false)) return true;
-        return super.getIsRepairable(toRepair, repair);
+    	return RiderItems.full_bottle == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
     }
 
     /**

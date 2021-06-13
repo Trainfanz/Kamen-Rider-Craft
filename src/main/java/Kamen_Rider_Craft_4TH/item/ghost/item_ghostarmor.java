@@ -3,6 +3,7 @@ package Kamen_Rider_Craft_4TH.item.ghost;
 
 import javax.annotation.Nullable;
 
+import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.gaim.item_Gaimarmor;
 import Kamen_Rider_Craft_4TH.model.tokuArmorModel;
@@ -144,6 +145,11 @@ public class item_ghostarmor extends ItemArmor implements IHasModel
 	static int[] getMaxDamageArray()
 	{
 		return maxDamageArray;
+	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.ghost_icons == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 
 }

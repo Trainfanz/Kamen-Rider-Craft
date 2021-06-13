@@ -455,4 +455,9 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 	{
 		return maxDamageArray;
 	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.blank_wonder_ride_book == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+	}
 }

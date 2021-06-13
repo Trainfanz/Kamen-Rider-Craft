@@ -189,5 +189,10 @@ static int[] getMaxDamageArray()
 	return maxDamageArray;
 }
 
+public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+{
+	return RiderItems.imaginsand == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+}
+
 
 }

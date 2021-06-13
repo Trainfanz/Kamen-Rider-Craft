@@ -4,6 +4,8 @@ package Kamen_Rider_Craft_4TH.item.gaim;
 import javax.annotation.Nullable;
 
 import org.lwjgl.opengl.GL11;
+
+import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.hibiki.item_hibikidriver;
 import Kamen_Rider_Craft_4TH.model.tokuArmorModel;
@@ -212,6 +214,11 @@ public class item_Gaimarmor2 extends ItemArmor implements IHasModel
 	static int[] getMaxDamageArray()
 	{
 		return maxDamageArray;
+	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.himawari_lockseed == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 
 }

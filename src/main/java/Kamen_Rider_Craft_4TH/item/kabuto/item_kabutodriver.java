@@ -308,6 +308,11 @@ public class item_kabutodriver extends ItemArmor implements IHasModel
 	{
 		return maxDamageArray;
 	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.mini_zecter == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+	}
 
 	
 /**

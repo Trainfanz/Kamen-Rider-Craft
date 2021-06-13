@@ -3,6 +3,7 @@ package Kamen_Rider_Craft_4TH.item.faiz;
 
 import javax.annotation.Nullable;
 
+import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.agito.item_agitodriver;
 import Kamen_Rider_Craft_4TH.model.tokuArmorModel;
@@ -124,5 +125,10 @@ public class item_faizarmor2 extends ItemArmor implements IHasModel
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
+	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.blank_mission_memory == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 }

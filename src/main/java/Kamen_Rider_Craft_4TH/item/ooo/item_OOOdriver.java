@@ -249,4 +249,9 @@ public class item_OOOdriver extends ItemArmor implements IHasModel
 	{
 		return stack.getItem()==RiderItems.OOOdriver || getColor(stack) != 0x00FFFFFF;
 	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.cellmedal == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+	}
 }

@@ -781,6 +781,11 @@ public class item_builddriver extends ItemArmor implements IHasModel
 			}
 		}
 	}
+	
+    public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+    {
+    	return RiderItems.full_bottle == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+    }
 }		
 
 

@@ -1,6 +1,7 @@
 package Kamen_Rider_Craft_4TH.item.ryuki;
 
 
+import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import Kamen_Rider_Craft_4TH.util.Refercence;
@@ -90,6 +91,11 @@ public class item_ryukiarmor extends ItemArmor  implements IHasModel
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
+	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.contract_advent == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 
 	

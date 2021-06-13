@@ -77,6 +77,11 @@ public class Item_kuuga_mode_change_sword_im extends ItemSword implements IHasMo
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
 	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.kuuga_growing == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+	}
 
 	
   

@@ -540,6 +540,11 @@ public class item_decadedriver extends ItemArmor implements IHasModel
 	{
 		return maxDamageArray;
 	}
+	
+    public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+    {
+    	return RiderItems.blankcard == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+    }
 
 
 

@@ -396,6 +396,11 @@ public class item_ghostdriver extends ItemArmor implements IHasModel
 	{
 		return maxDamageArray;
 	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.ghost_icons == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+	}
 
 
 

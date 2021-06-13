@@ -180,4 +180,9 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 		itemstack.getTagCompound().setInteger("slot"+SLOT, Item.getIdFromItem(ITEM));
 
 	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.blanknoitem == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+	}
 }

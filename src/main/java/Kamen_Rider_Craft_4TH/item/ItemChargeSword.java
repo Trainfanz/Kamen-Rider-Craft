@@ -33,7 +33,8 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class ItemChargeSword extends ItemSword implements IHasModel
 {
 
-	public ItemChargeSword(String name,ToolMaterial par2EnumToolMaterial)
+	private final Item base;   
+	public ItemChargeSword(String name,ToolMaterial par2EnumToolMaterial, Item item)
 	{
 
 		super(par2EnumToolMaterial);
@@ -44,6 +45,7 @@ public class ItemChargeSword extends ItemSword implements IHasModel
 		setTranslationKey(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
+        base = item;
 
 
 		this.addPropertyOverride(new ResourceLocation("pull"), new IItemPropertyGetter()
@@ -106,6 +108,11 @@ public class ItemChargeSword extends ItemSword implements IHasModel
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
+	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return base == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 
 }

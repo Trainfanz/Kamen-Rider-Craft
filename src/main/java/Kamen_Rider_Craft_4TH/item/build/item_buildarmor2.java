@@ -555,5 +555,10 @@ public class item_buildarmor2 extends ItemArmor implements IHasModel
 	{
 		return maxDamageArray;
 	}
+	
+    public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+    {
+    	return RiderItems.full_bottle == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+    }
 
 }

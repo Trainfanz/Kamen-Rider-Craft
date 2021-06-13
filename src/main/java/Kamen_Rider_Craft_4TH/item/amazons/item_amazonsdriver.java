@@ -217,6 +217,11 @@ public class item_amazonsdriver extends ItemArmor implements IHasModel
 	{
 		return maxDamageArray;
 	}
+	
+    public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+    {
+    	return RiderItems.amazon_cell_vial == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+    }
 
 
 	

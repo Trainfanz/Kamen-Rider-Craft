@@ -187,4 +187,9 @@ public class item_RiderPass extends ItemBow  implements IHasModel
 			return new ActionResult<ItemStack>(EnumActionResult.SUCCESS, itemstack);
 		}
 	}
+
+public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+{
+	return RiderItems.imaginsand == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+}
 }

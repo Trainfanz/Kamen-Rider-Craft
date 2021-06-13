@@ -1,6 +1,7 @@
 package Kamen_Rider_Craft_4TH.item.amazons;
 
 
+import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.model.tokuArmorModel;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
@@ -100,4 +101,9 @@ public class item_amazonsarmor2 extends ItemArmor implements IHasModel
 	static int[] getMaxDamageArray() {
 		return maxDamageArray;
 	}
+	
+    public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+    {
+    	return RiderItems.amazon_cell_vial == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+    }
 }

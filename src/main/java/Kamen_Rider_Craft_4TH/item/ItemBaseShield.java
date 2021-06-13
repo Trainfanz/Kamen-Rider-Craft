@@ -25,7 +25,8 @@ import net.minecraft.world.World;
 
 public class ItemBaseShield extends ItemShield implements IHasModel
 {
-    public ItemBaseShield(String name)
+	private final Item base;   
+    public ItemBaseShield(String name, Item item)
     {
     	
         super();
@@ -33,6 +34,7 @@ public class ItemBaseShield extends ItemShield implements IHasModel
         setTranslationKey(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
+        base = item;
     }
     
     public String getItemStackDisplayName(ItemStack stack)
@@ -43,6 +45,11 @@ public class ItemBaseShield extends ItemShield implements IHasModel
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
+	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return base == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
     
 }

@@ -246,5 +246,10 @@ public class item_wizardarmor2 extends ItemArmor implements IHasModel
 		{
 			return maxDamageArray;
 		}
+		
+		public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+		{
+			return RiderItems.wizardgem == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+		}
 
 	}

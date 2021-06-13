@@ -456,6 +456,11 @@ public class item_zikudriver extends ItemArmor  implements IHasModel
 		}
 		itemstack.getTagCompound().setInteger("seed", flag);
 	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.blank_watch == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+	}
 }
 
 

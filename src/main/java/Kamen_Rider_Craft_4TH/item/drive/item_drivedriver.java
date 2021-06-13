@@ -572,6 +572,11 @@ public class item_drivedriver extends ItemArmor implements IHasModel
 	{
 		return maxDamageArray;
 	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.proto_speedshift == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+	}
 
 
 }

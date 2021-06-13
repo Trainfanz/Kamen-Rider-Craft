@@ -2,6 +2,7 @@ package Kamen_Rider_Craft_4TH.item.decade;
 
 import javax.annotation.Nullable;
 
+import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.kiva.item_kivaarmor2;
 import Kamen_Rider_Craft_4TH.model.tokuArmorModel;
@@ -127,5 +128,10 @@ public class item_decadearmor2 extends ItemArmor implements IHasModel
 		{
 			return maxDamageArray;
 		}
+		
+	    public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	    {
+	    	return RiderItems.blankcard == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+	    }
 
 	}

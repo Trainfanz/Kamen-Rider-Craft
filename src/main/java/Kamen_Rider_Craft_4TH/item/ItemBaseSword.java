@@ -27,8 +27,9 @@ public class ItemBaseSword extends ItemSword implements IHasModel
 
     public float ENT;
     private final ToolMaterial toolMaterial;
+	private final Item base;   
 
-    public ItemBaseSword(String name,ToolMaterial par2EnumToolMaterial)
+    public ItemBaseSword(String name,ToolMaterial par2EnumToolMaterial, Item item)
     {
     	
         super(par2EnumToolMaterial);
@@ -39,11 +40,17 @@ public class ItemBaseSword extends ItemSword implements IHasModel
         setTranslationKey(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
+        base = item;
     }
     
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
+	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return base == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
     
 }

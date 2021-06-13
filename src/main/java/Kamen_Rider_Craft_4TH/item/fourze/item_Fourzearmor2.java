@@ -168,5 +168,10 @@ public class item_Fourzearmor2 extends ItemArmor implements IHasModel
 	{
 		return maxDamageArray;
 	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.astroswitch == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+	}
 
 }

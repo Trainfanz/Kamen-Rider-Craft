@@ -80,4 +80,9 @@ public class Item_metal_shaft extends ItemSword implements IHasModel
 
 	}
 	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.gaiamemory == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+	}
+	
 }

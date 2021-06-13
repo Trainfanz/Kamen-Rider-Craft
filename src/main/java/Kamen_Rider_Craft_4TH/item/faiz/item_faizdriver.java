@@ -236,6 +236,11 @@ public class item_faizdriver extends ItemArmor implements IHasModel
 	{
 		return maxDamageArray;
 	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.blank_mission_memory == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+	}
 
 
 

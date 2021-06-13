@@ -1,6 +1,8 @@
 package Kamen_Rider_Craft_4TH.item.Ex_Aid;
 
 import javax.annotation.Nullable;
+
+import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ghost.item_ghost_armor3;
 import Kamen_Rider_Craft_4TH.model.BipedLockseed;
@@ -130,6 +132,11 @@ public class item_ex_aidarmor extends ItemArmor implements IHasModel
 	static int[] getMaxDamageArray()
 	{
 		return maxDamageArray;
+	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.blank_gashat == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 
 	

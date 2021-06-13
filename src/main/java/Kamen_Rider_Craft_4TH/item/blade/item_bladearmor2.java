@@ -2,6 +2,7 @@ package Kamen_Rider_Craft_4TH.item.blade;
 
 import javax.annotation.Nullable;
 
+import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.agito.item_agitodriver;
 import Kamen_Rider_Craft_4TH.item.faiz.item_faizarmor2;
@@ -118,6 +119,11 @@ public class item_bladearmor2 extends ItemArmor implements IHasModel
 		}
 		return null;
 	}
+	
+    public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+    {
+    	return RiderItems.bladecard == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+    }
 
 
 }

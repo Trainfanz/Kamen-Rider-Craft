@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RIR",
+    "IGI",
+    "RIR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:IRON_INGOT"
+    }, "I": {
+      "item": "minecraft:REDSTONE"
+    }, "G": {
+      "item": "kamenridercraft4th:rider_circuit"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:monitor"
+  }
+}

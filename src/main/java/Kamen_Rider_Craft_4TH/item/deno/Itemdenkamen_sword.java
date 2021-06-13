@@ -69,4 +69,9 @@ public class Itemdenkamen_sword extends ItemSword implements IHasModel
         playerIn.setActiveHand(handIn);
         return new ActionResult<ItemStack>(EnumActionResult.SUCCESS, playerIn.getHeldItem(handIn));
     }
+
+public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+{
+	return RiderItems.imaginsand == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+}
 }

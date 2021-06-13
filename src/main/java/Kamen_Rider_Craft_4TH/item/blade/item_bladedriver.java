@@ -265,4 +265,9 @@ public class item_bladedriver extends ItemArmor implements IHasModel
 	{
 		return maxDamageArray;
 	}
+	
+    public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+    {
+    	return RiderItems.bladecard == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+    }
 }

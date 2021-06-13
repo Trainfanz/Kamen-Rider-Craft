@@ -2,6 +2,7 @@ package Kamen_Rider_Craft_4TH.item.hibiki;
 
 import javax.annotation.Nullable;
 
+import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.agito.item_agitodriver;
 import Kamen_Rider_Craft_4TH.item.faiz.item_faizarmor2;
@@ -124,5 +125,10 @@ public class item_hibikiarmor2 extends ItemArmor implements IHasModel
 		}
 		return Refercence.MODID+":textures/armor/blank.png";
 
+	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.oni_ore == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 }

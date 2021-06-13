@@ -198,4 +198,9 @@ public class item_ex_aidarmor2 extends ItemArmor implements IHasModel
 			}
 		return null;
 	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.blank_gashat == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+	}
 }

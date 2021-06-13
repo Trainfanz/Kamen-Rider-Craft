@@ -4,6 +4,7 @@ import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
+import net.minecraft.item.ItemStack;
 
 public class item_agitodriver extends item_rider_driver implements IHasModel
 {
@@ -17,6 +18,11 @@ public class item_agitodriver extends item_rider_driver implements IHasModel
 	public item_agitodriver (String name, ArmorMaterial par2EnumArmorMaterial, int par3, String rider, Item_form_change baseFormItem) {
 		super(name, par2EnumArmorMaterial, par3, rider,baseFormItem, RiderItems.agitohead, RiderItems.agitotroso, RiderItems.agitolegs);
 	}
+	
+    public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+    {
+    	return RiderItems.agito_of_seed == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+    }
 
 
 /**	@Override

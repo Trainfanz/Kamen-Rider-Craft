@@ -117,10 +117,9 @@ public class entity_abaddon_low extends Entity_base_henchmen
 				 		world.spawnEntity(entityboss);
 				 		break;
 				 	case 1:
-				 		playerIn.sendMessage( new TextComponentString(TextFormatting.GRAY+"Progrise ARK! Over the Eden!"));
-				 		entityboss.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(RiderItems.lucifer_driver));
-				 		entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
-				 		world.spawnEntity(entityboss);
+				 		playerIn.sendMessage( new TextComponentString(TextFormatting.GOLD+"ThinkNet Rise! Crowding Hopper!"));
+				 		entitymob.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				 		world.spawnEntity(entitymob);
 				 		break;
 				 	case 2:
 				 		playerIn.sendMessage( new TextComponentString(TextFormatting.GOLD+"ThinkNet Rise! Crowding Hopper!"));
@@ -153,11 +152,6 @@ public class entity_abaddon_low extends Entity_base_henchmen
 				 		world.spawnEntity(entitymob);
 				 		break;
 				 	case 8:
-				 		playerIn.sendMessage( new TextComponentString(TextFormatting.GOLD+"ThinkNet Rise! Crowding Hopper!"));
-				 		entitymob.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
-				 		world.spawnEntity(entitymob);
-				 		break;
-				 	case 9:
 				 		playerIn.sendMessage( new TextComponentString(TextFormatting.GOLD+"ThinkNet Rise! Crowding Hopper!"));
 				 		entitymob.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
 				 		world.spawnEntity(entitymob);

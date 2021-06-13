@@ -573,6 +573,11 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 		}
 		itemstack.getTagCompound().setInteger("seed", flag);
 	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.hiden_metal == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+	}
 }
 
 

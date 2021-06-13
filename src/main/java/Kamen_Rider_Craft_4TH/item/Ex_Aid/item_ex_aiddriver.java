@@ -661,6 +661,11 @@ public class item_ex_aiddriver extends ItemArmor  implements IHasModel
 		}
 		itemstack.getTagCompound().setInteger("seed", flag);
 	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.blank_gashat == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+	}
 }
 
 

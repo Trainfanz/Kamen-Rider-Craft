@@ -161,5 +161,10 @@ public class item_Ichigoarmor2 extends ItemArmor  implements IHasModel
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
 	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.rider_circuit == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+	}
 
 }

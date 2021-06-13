@@ -1,6 +1,8 @@
 package Kamen_Rider_Craft_4TH.item.Ex_Aid;
 
 import javax.annotation.Nullable;
+
+import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.kuuga.item_kuugadriver;
 import Kamen_Rider_Craft_4TH.mobs.EntityPoppy;
@@ -38,13 +40,15 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class Item_gashacon_breaker extends ItemSword implements IHasModel
 {
+	private final Item base;
 
-	public Item_gashacon_breaker(String name,ToolMaterial par2EnumToolMaterial)
+	public Item_gashacon_breaker(String name,ToolMaterial par2EnumToolMaterial, Item item)
 	{
 
 		super(par2EnumToolMaterial);
 		this.maxStackSize = 1;
 		this.setMaxDamage(par2EnumToolMaterial.getMaxUses());
+		base = item;
 
 		// Imcharge=charge; 
 		setTranslationKey(name);
@@ -109,6 +113,11 @@ public class Item_gashacon_breaker extends ItemSword implements IHasModel
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
+	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return base == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 
 }

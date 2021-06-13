@@ -45,6 +45,11 @@ public class item_kuugadriver extends item_rider_driver implements IHasModel
 	{
 		super(name,par2EnumArmorMaterial,par3,rider,baseFormItem,RiderItems.kuugahead,RiderItems.kuugatroso,RiderItems.kuugalegs);
 	}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.kuuga_growing == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+	}
 
 /**
 	@Override

@@ -89,7 +89,7 @@ entity.NakiMob.name=Kamen Rider Naki
 entity.dodoMagiaMob.name=Dodo Magia
 entity.RaiderMob.name=Raider
 entity.Arc_zeroMob.name=Kamen Rider Ark-Zero
-entity.AbaddonHighMob.name=Kamen Rider Abaddon
+entity.AbaddonHighMob.name=Kamen Rider Abaddon (High-class)
 entity.EdenMob.name=Kamen Rider Eden
 entity.ZaiaMob.name=Kamen Rider ZAIA
 entity.DireWolfSoldMagiaMob.name=Dire Wolf Sold Magia
@@ -1311,8 +1311,8 @@ item.fresh_orange_lockseed.name=Fresh Orange Lockseed
 item.fresh_pine_lockseed.name=Fresh Pine Lockseed
 item.suika_lockseed.name=Suika Lockseed
 
-item.lychee_lockseed.name=Kingdurian Lockseed
-item.king_durian_lockseed.name=Donguri Lockseed
+item.lychee_lockseed.name=Lychee Lockseed
+item.king_durian_lockseed.name=King Durian Lockseed
 item.helheim_lockseed.name=Helheim Lockseed
 
 item.natsumikan_lockseed.name=Natsumikan Lockseed
@@ -1320,7 +1320,7 @@ item.natsumikan_lockseed.name=Natsumikan Lockseed
 item.xiaolongbao_lockseed.name=Xiaolongbao Lockseed
 item.drained_suika_lockseed.name=Drained Suika Lockseed
 
-item.zangetsu_kachidoki_lockseed.name=Zangetsu Kachidoki Lockseed
+item.zangetsu_kachidoki_lockseed.name=Shin Kachidoki Lockseed
 
 item.techniqueshift.name=Shift Technique
 item.proto_speedshift.name=Shift Proto Speed
@@ -2297,7 +2297,7 @@ item.cycloneriser_ichigata.name=CycloneRiser (Ichi-Gata)
 item.zaia_slashriser_jin.name=ZAIA SlashRiser (Jin)
 
 item.ark_driver_zero.name=Ark Driver-Zero (Ark-Zero)
-item.hiden_zero_one_driver.name=Hiden Zero One Driver (Ark Zero-One)
+item.hiden_zero_one_driver_azu.name=Hiden Zero One Driver (Ark Zero-One)
 
 item.eden_driver.name=Eden Driver (Eden)
 item.lucifer_driver.name=Eden Driver (Lucifer)
@@ -2310,7 +2310,6 @@ item.shot_abaddo_riser.name=Shot AbaddoRiser (Abaddon)
 item.slash_abaddo_riser.name=Slash AbaddoRiser (Abaddon)
 
 item.hiden_zero_one_driver_vulcan.name=Hiden Zero One Driver (Vulcan)
-item.hiden_zero_one_driver_azu.name=Hiden Zero One Driver (Azu)
 
 item.zetsumeriser_berothra.name=ZetsumeRiser (Berotha Magia)
 item.zetsumeriser_kuehne.name=ZetsumeRiser (Kuehne Magia)
@@ -2489,8 +2488,8 @@ item.sword_of_logos_buckle_slash.name=Sword of Logos Buckle (Slash)
 item.jaken_caliburdriver.name=Jaken Caliburdriver
 item.seiken_swordriver_falchion.name=Haken Bladriver
 
-item.sword_of_logos_buckle_sabela.name=Sword of Logos Buckle (Sabela)
-item.sword_of_logos_buckle_durendal.name=Sword of Logos Buckle (Durendal)
+item.sword_of_logos_buckle_sabela.name=Royal Sword of Logos Buckle (Sabela)
+item.sword_of_logos_buckle_durendal.name=Royal Sword of Logos Buckle (Durendal)
 item.seiken_saikou_driver.name=Seiken Saikou Driver
 item.solomon_driver.name=Dooms Driver
 

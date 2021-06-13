@@ -67,8 +67,9 @@ public class Entity_magia extends EntityBossBase
 //implements IBossDisplayData
 {
     
-	public static final Item[] belt = new Item[] {RiderItems.zetsumeriser_berothra,RiderItems.zetsumeriser_ekal,RiderItems.zetsumeriser_kuehne,RiderItems.zetsumeriser_berothra
-			,RiderItems.zetsumeriser_neohi,RiderItems.zetsumeriser_onycho,RiderItems.zetsumeriser_vicarya,RiderItems.zetsumeriser_gaeru};
+	public static final Item[] belt = new Item[] {RiderItems.zetsumeriser_berothra,RiderItems.zetsumeriser_kuehne,RiderItems.zetsumeriser_ekal,
+			RiderItems.zetsumeriser_neohi,RiderItems.zetsumeriser_onycho,RiderItems.zetsumeriser_vicarya,
+			RiderItems.zetsumeriser_gaeru,RiderItems.zetsumeriser_mammoth,RiderItems.zetsumeriser_arsino};
 	
 	private String texture;
 	public Entity_magia(World par1World)

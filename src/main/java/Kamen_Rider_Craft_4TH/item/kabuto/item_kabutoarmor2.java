@@ -3,6 +3,7 @@ package Kamen_Rider_Craft_4TH.item.kabuto;
 
 import javax.annotation.Nullable;
 
+import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.agito.item_agitodriver;
 import Kamen_Rider_Craft_4TH.item.faiz.item_faizdriver;
@@ -112,5 +113,10 @@ public class item_kabutoarmor2 extends ItemArmor implements IHasModel
 			return Refercence.MODID+":textures/armor/blank.png";
 
 		}
+	
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.mini_zecter == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+	}
 	
 	}
