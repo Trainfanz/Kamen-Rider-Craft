@@ -2,8 +2,9 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "kamenridercraft4th:zaia_slashriser_jin",
-      "kamenridercraft4th:zaia_slashriser_sword"
+      "kamenridercraft4th:planks_dark_blue",
+      "kamenridercraft4th:planks_light_blue",
+      "kamenridercraft4th:planks_white"
     ]
   },
   "criteria": {
@@ -12,7 +13,8 @@
       "conditions": {
         "items": [
           {
-            "item": "kamenridercraft4th:burning_falcon_progrise_key"
+            "item": "minecraft:planks",
+             "data": 0
           }
         ]
       }
@@ -20,13 +22,19 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "kamenridercraft4th:zaia_slashriser_jin"
+        "recipe": "kamenridercraft4th:planks_dark_blue"
       }
     },
     "has_the_recipe1": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "kamenridercraft4th:zaia_slashriser_sword"
+        "recipe": "kamenridercraft4th:planks_light_blue"
+      }
+    },
+    "has_the_recipe2": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:planks_white"
       }
     }
   },
@@ -34,7 +42,8 @@
     [
       "has_logo",
       "has_the_recipe",
-      "has_the_recipe1"
+      "has_the_recipe1",
+      "has_the_recipe2"
     ]
   ]
 }

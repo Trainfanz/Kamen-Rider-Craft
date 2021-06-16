@@ -1,0 +1,112 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "kamenridercraft4th:denliner_matel",
+      "kamenridercraft4th:denliner_matel_dark",
+      "kamenridercraft4th:denliner_matel_dark_line",
+      "kamenridercraft4th:denliner_matel_side",
+      "kamenridercraft4th:denliner_matel_top",
+      "kamenridercraft4th:denliner_matel_top2",
+      "kamenridercraft4th:gaoh_liner_windo",
+      "kamenridercraft4th:king_liner__windo",
+      "kamenridercraft4th:new_denliner_matel_side",
+      "kamenridercraft4th:new_denliner_matel_top",
+      "kamenridercraft4th:new_denliner_matel_top2"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kamenridercraft4th:denliner_matel"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:denliner_matel"
+      }
+    },
+    "has_the_recipe1": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:denliner_matel_dark"
+      }
+    },
+    "has_the_recipe2": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:denliner_matel_dark_line"
+      }
+    },
+    "has_the_recipe3": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:denliner_matel_side"
+      }
+    },
+    "has_the_recipe4": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:denliner_matel_top"
+      }
+    },
+    "has_the_recipe5": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:denliner_matel_top2"
+      }
+    },
+    "has_the_recipe6": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:gaoh_liner_windo"
+      }
+    },
+    "has_the_recipe7": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:king_liner__windo"
+      }
+    },
+    "has_the_recipe8": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:new_denliner_matel_side"
+      }
+    },
+    "has_the_recipe9": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:new_denliner_matel_top"
+      }
+    },
+    "has_the_recipe10": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:new_denliner_matel_top2"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logo",
+      "has_the_recipe",
+      "has_the_recipe1",
+      "has_the_recipe2",
+      "has_the_recipe3",
+      "has_the_recipe4",
+      "has_the_recipe5",
+      "has_the_recipe6",
+      "has_the_recipe7",
+      "has_the_recipe8",
+      "has_the_recipe9",
+      "has_the_recipe10"
+    ]
+  ]
+}

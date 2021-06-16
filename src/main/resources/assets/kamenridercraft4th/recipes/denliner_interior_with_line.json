@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "ddd",
+    "###"
+  ],
+  "key": {
+    "#": {
+	  "item": "kamenridercraft4th:denliner_interior"
+    },
+	"d": {
+	  "item": "kamenridercraft4th:denliner_interior_darker"
+	}
+  },
+  "result": {
+    "item": "kamenridercraft4th:denliner_interior_with_line",
+	"count": 9
+  }
+}

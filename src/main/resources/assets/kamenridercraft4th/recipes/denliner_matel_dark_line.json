@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "ddd",
+    "###"
+  ],
+  "key": {
+    "#": {
+	  "item": "kamenridercraft4th:denliner_matel_dark"
+    },
+	"d": {
+	  "item": "kamenridercraft4th:denliner_roof"
+	}
+  },
+  "result": {
+    "item": "kamenridercraft4th:denliner_matel_dark_line",
+	"count": 9
+  }
+}

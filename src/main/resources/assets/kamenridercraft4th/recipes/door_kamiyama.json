@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "kamenridercraft4th:planks_light_blue"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:door_kamiyama",
+	"count": 3
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CRC",
+    "WDW",
+    "BBB"
+  ],
+  "key": {
+    "C": {
+	  "item": "minecraft:carpet",
+	  "data": 14
+    }, "R": {
+      "item": "minecraft:clock"
+    }, "W": {
+      "item": "minecraft:planks",
+      "data": 2
+    }, "D": {
+      "item": "minecraft:planks",
+      "data": 5
+    }, "B": {
+      "item": "minecraft:concrete",
+      "data": 7
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:counter_95do"
+  }
+}

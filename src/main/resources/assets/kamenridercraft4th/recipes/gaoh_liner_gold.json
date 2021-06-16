@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RIR",
+    "IGI",
+    "RIR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:IRON_INGOT"
+    }, "I": {
+      "item": "kamenridercraft4th:imaginsand"
+    }, "G": {
+      "item": "minecraft:dye",
+	  "data": 14
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:gaoh_liner_gold"
+  }
+}

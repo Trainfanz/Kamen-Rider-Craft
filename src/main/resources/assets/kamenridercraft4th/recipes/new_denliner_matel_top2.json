@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "daa",
+    "dda",
+    "idd"
+  ],
+  "key": {
+    "a": {
+	  "item": "kamenridercraft4th:denliner_matel"
+    },
+	"d": {
+	  "item": "kamenridercraft4th:denliner_roof"
+	},
+	"i": {
+	  "item": "kamenridercraft4th:new_denliner_interior"
+	}
+  },
+  "result": {
+    "item": "kamenridercraft4th:new_denliner_matel_top2",
+	"count": 9
+  }
+}

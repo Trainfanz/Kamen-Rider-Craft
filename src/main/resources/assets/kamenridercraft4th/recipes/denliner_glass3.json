@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "daa",
+    "dda",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+	  "item": "kamenridercraft4th:denliner_glass"
+    },
+	"d": {
+	  "item": "kamenridercraft4th:denliner_roof"
+	}
+  },
+  "result": {
+    "item": "kamenridercraft4th:denliner_glass3",
+	"count": 9
+  }
+}

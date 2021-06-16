@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ada",
+    "dad",
+    "ada"
+  ],
+  "key": {
+    "a": {
+	  "item": "kamenridercraft4th:denliner_glass"
+    },
+	"d": {
+	  "item": "kamenridercraft4th:denliner_glass_ikazuchi"
+	}
+  },
+  "result": {
+    "item": "kamenridercraft4th:nega_denliner_glass",
+	"count": 9
+  }
+}

@@ -3160,7 +3160,7 @@ public class RiderItems {
 	public static Item horobi_progrise_key = new Item_progrise_keys("horobi_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item jin_progrise_key = new Item_progrise_keys("jin_progrise_key").setCreativeTab(Tabs.tabzero_one);
 	public static Item ikazuchi_progrise_key = new Item_progrise_keys("ikazuchi_progrise_key").setCreativeTab(Tabs.tabzero_one);
-	public static Item naki_progrise_key = new Item_progrise_keys("naki_progrise_key").AddToHumagearHiden3DPrinter(5).setCreativeTab(Tabs.tabzero_one);	
+	public static Item naki_progrise_key = new Item_progrise_keys("naki_progrise_key").setCreativeTab(Tabs.tabzero_one);	
 	
 	public static Item merry_hopper_progrise_key = new Item_progrise_keys("merry_hopper_progrise_key").AddToHiden3DPrinter(1).setCreativeTab(Tabs.tabzero_one);	
 	

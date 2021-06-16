@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#d#",
+    "###"
+  ],
+  "key": {
+    "#": {
+	  "item": "kamenridercraft4th:denliner_glass"
+    },
+	"d": {
+      "item": "minecraft:dye",
+      "data": 0
+	}
+  },
+  "result": {
+    "item": "kamenridercraft4th:king_liner_red",
+	"count": 8
+  }
+}

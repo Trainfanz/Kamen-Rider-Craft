@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#d#",
+    "###"
+  ],
+  "key": {
+    "#": {
+	  "item": "kamenridercraft4th:denliner_matel_dark"
+    },
+	"d": {
+	  "item": "minecraft:stained_glass_pane",
+	  "data": 5
+	}
+  },
+  "result": {
+    "item": "kamenridercraft4th:gaoh_liner_windo",
+	"count": 8
+  }
+}

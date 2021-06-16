@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "aai",
+    "aii"
+  ],
+  "key": {
+    "a": {
+	  "item": "kamenridercraft4th:denliner_matel"
+    },
+	"i": {
+	  "item": "kamenridercraft4th:denliner_interior"
+	}
+  },
+  "result": {
+    "item": "kamenridercraft4th:denliner_matel_side",
+	"count": 9
+  }
+}

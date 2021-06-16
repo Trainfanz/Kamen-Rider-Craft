@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#a#",
+    "#a#",
+    "#a#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+	"a": {
+      "item": "kamenridercraft4th:rider_circuit"
+	}
+  },
+  "result": {
+    "item": "kamenridercraft4th:wallplate"
+  }
+}

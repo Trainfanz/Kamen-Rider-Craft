@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#d#",
+    "###"
+  ],
+  "key": {
+    "#": {
+	  "item": "minecraft:concrete",
+	  "data": 3
+    },
+	"d": {
+      "item": "minecraft:dye",
+      "data": 15
+	}
+  },
+  "result": {
+    "item": "kamenridercraft4th:kamiyama_wall",
+	"count": 8
+  }
+}
