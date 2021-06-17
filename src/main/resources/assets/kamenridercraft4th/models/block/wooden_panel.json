@@ -2,6 +2,6 @@
     "parent": "block/cube_column",
     "textures": {
         "end": "kamenridercraft4th:blocks/sword_of_logos_planks",
-        "side": "kamenridercraft4th:blocks/dark_oak_bookshelf"
+        "side": "kamenridercraft4th:blocks/wooden_panel"
     }
 }

@@ -22,11 +22,17 @@ public class modDimensionWorldGen
     public static final int SANDSOFTIME_DIM_ID = DimensionManager.getNextFreeDimId()+1;
     public static final DimensionType SANDSOFTIME_DIM_TYPE = DimensionType.register(SANDSOFTIME_NAME, "_"+SANDSOFTIME_NAME, SANDSOFTIME_DIM_ID, worldProviderSandOfTime.class, true);
    
+    public static final String NORTHERN_BASE_NAME = "northern_base";
+    public static final int NORTHERN_BASE_DIM_ID = DimensionManager.getNextFreeDimId()+2;
+    public static final DimensionType NORTHERN_BASE_DIM_TYPE = DimensionType.register(NORTHERN_BASE_NAME, "_"+NORTHERN_BASE_NAME, NORTHERN_BASE_DIM_ID, worldProvider_northern_base.class, true);
+   
+    
     /**
      * Register dimensions.
      */
     public static final void registerDimensions() {
         DimensionManager.registerDimension(HELHEIM_DIM_ID, HELHEIM_DIM_TYPE);
         DimensionManager.registerDimension(SANDSOFTIME_DIM_ID, SANDSOFTIME_DIM_TYPE);
+        DimensionManager.registerDimension(NORTHERN_BASE_DIM_ID, NORTHERN_BASE_DIM_TYPE);
     }
 }

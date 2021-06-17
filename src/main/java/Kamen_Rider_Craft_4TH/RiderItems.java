@@ -104,6 +104,7 @@ import Kamen_Rider_Craft_4TH.item.ryuki.item_ryukiarmor2;
 import Kamen_Rider_Craft_4TH.item.ryuki.item_ryukidriver;
 import Kamen_Rider_Craft_4TH.item.saber.Item_haouken_xross_saber;
 import Kamen_Rider_Craft_4TH.item.saber.Item_wonder_ride_book;
+import Kamen_Rider_Craft_4TH.item.saber.item_book_gate_wonder_ride_book;
 import Kamen_Rider_Craft_4TH.item.saber.item_book_of_ruin;
 import Kamen_Rider_Craft_4TH.item.saber.item_saberarmor_head;
 import Kamen_Rider_Craft_4TH.item.saber.item_saberdriver;
@@ -3270,7 +3271,7 @@ public class RiderItems {
 	public static Item daiyokozuna_kinzaburou_wonderride_book = new Item_wonder_ride_book("r",20,"daiyokozuna_kinzaburou_wonderride_book").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
 	
 	
-	public static Item book_gate_wonder_ride_book = new Item_ore("book_gate_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item book_gate_wonder_ride_book = new item_book_gate_wonder_ride_book("book_gate_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
 	public static Item blank_wonder_ride_book = new Item_ore("blank_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
 
 	public static Item book_of_ruin = new item_book_of_ruin("book_of_ruin").setCreativeTab(Tabs.tabsaber);

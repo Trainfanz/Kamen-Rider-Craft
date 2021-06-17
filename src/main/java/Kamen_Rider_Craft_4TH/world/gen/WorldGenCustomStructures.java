@@ -7,6 +7,7 @@ import java.util.Random;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.biome.biomeHelheim;
 import Kamen_Rider_Craft_4TH.biome.biomeSandOfTime;
+import Kamen_Rider_Craft_4TH.biome.biome_northern_base;
 import Kamen_Rider_Craft_4TH.world.gen.generators.WorldGenStructure;
 import com.google.common.collect.Lists;
 import net.minecraft.block.Block;
@@ -64,6 +65,8 @@ public class WorldGenCustomStructures implements IWorldGenerator
 	
 	public static final WorldGenStructure mighty_action_x = new WorldGenStructure("mighty_action_x");
 	
+	public static final WorldGenStructure northern_base = new WorldGenStructure("northern_base");
+	
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
 		switch(world.provider.getDimension()) {
@@ -91,6 +94,12 @@ public class WorldGenCustomStructures implements IWorldGenerator
 			generateStructure(demushu_helheim_city, world, random, chunkX, chunkZ,7, 700, Blocks.DIRT,biomeHelheim.class);
 			generateStructure(redyue_helheim_city, world, random, chunkX, chunkZ,0, 700, Blocks.DIRT,biomeHelheim.class);
 			
+		}else 	if (modDimensionWorldGen.NORTHERN_BASE_DIM_ID==world.provider.getDimension()){
+
+			
+			if (world.getChunk(new BlockPos(world.getSpawnPoint().getX(),world.getSpawnPoint().getY(),world.getSpawnPoint().getZ()))==world.getChunk(chunkX, chunkZ)){
+			MustGenerateStructure(northern_base, world, random, chunkX, chunkZ,-2, 700, Blocks.ICE,biome_northern_base.class);
+			}
 		}else if (modDimensionWorldGen.SANDSOFTIME_DIM_ID==world.provider.getDimension()){
 			generateStructureWM(denliner, world, random, chunkX, chunkZ,0, 300, RiderItems.imaginsandblock,biomeSandOfTime.class);
 			
@@ -152,6 +161,22 @@ public class WorldGenCustomStructures implements IWorldGenerator
 				if(random.nextInt(chance) == 0) {
 					generator.generate(world, random, pos);
 				}
+			}
+		}
+	}
+	
+	public static void MustGenerateStructure(WorldGenerator generator, World world, Random random, int chunkX, int chunkZ, int PosY, int chance, Block topBlock,Class<? extends Biome>... classes) {
+		List<Class<? extends Biome>> classesList = Lists.newArrayList(classes);
+		int x = (chunkX * 16);
+		int z = (chunkZ * 16);
+		int y = calculateGenerationHeight(world, x, z, topBlock);
+		BlockPos pos = new BlockPos (x,80 ,z);
+		
+		Class<? extends Biome> biome = world.provider.getBiomeForCoords(pos).getClass();
+		
+		if(world.getWorldType() != WorldType.FLAT) {
+			if(classesList.contains(biome)) {
+					generator.generate(world, random, pos);
 			}
 		}
 	}

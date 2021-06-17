@@ -19,6 +19,7 @@ public class riderBiomes
     // instantiate Biomes
     public final static biomeHelheim Helheim = new biomeHelheim();
     public final static biomeSandOfTime SandOfTime = new biomeSandOfTime();
+    public final static biome_northern_base NORTHERN_BASE = new biome_northern_base();
     
     @Mod.EventBusSubscriber(modid = Refercence.MODID)
     public static class RegistrationHandler {
@@ -35,6 +36,7 @@ public class riderBiomes
             
             registry.register(Helheim.setRegistryName(Refercence.MODID, modDimensionWorldGen.HELHEIM_NAME));
             registry.register(SandOfTime.setRegistryName(Refercence.MODID, modDimensionWorldGen.SANDSOFTIME_NAME));
+            registry.register(NORTHERN_BASE.setRegistryName(Refercence.MODID, modDimensionWorldGen.NORTHERN_BASE_NAME));
         }
     }
     
