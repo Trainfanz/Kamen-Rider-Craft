@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "kamenridercraft4th:sword_of_logos_tabel_top" },
+        "facing=south": { "model": "kamenridercraft4th:sword_of_logos_tabel_top", "y": 180 },
+        "facing=west":  { "model": "kamenridercraft4th:sword_of_logos_tabel_top", "y": 270 },
+        "facing=east":  { "model": "kamenridercraft4th:sword_of_logos_tabel_top", "y": 90 }
+    }
+}

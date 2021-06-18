@@ -101,6 +101,9 @@ public class RiderBlocks {
 	public static Block sword_of_logos_wood = CustomBlock.builder().material(Material.WOOD).blockType(BlockType.BASIC).name("sword_of_logos_wood").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block  sword_of_logos_wood_stairs = new BlockCustomStaris(Blocks.ACACIA_STAIRS.getDefaultState(), "sword_of_logos_wood_stairs").setCreativeTab(Tabs.tabdecor);
 	
+	public static Block sword_of_logos_tabel = new BlockCustomStaris(Blocks.ACACIA_STAIRS.getDefaultState(), "sword_of_logos_tabel").setCreativeTab(Tabs.tabdecor);
+	public static Block sword_of_logos_tabel_top = CustomBlock.builder().material(Material.WOOD).blockType(BlockType.DIRECTIONAL).lightLevel(1).name("sword_of_logos_tabel_top").setCreativeTabe(Tabs.tabdecor).build();
+	
 	public static Block sword_of_logos_wood2 = CustomBlock.builder().material(Material.WOOD).blockType(BlockType.DIRECTIONAL).name("sword_of_logos_wood2").setCreativeTabe(Tabs.tabdecor).build();
 	
 	

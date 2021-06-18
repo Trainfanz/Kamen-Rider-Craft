@@ -1,0 +1,8 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "kamenridercraft4th:blocks/sword_of_logos_tabel_top",
+        "front": "kamenridercraft4th:blocks/sword_of_logos_tabel",
+        "side": "kamenridercraft4th:blocks/sword_of_logos_tabel"
+    }
+}
