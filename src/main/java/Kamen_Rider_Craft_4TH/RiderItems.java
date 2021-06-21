@@ -3222,7 +3222,7 @@ public class RiderItems {
 	public static Item primitive_dragon_wonder_ride_book = new Item_wonder_ride_book("l",0,"primitive_dragon_wonder_ride_book").ChangeForm(9).NotBasicBook().SaberBook().setCreativeTab(Tabs.tabsaber);
 	public static Item elemental_dragon_wonder_ride_book = new Item_wonder_ride_book("l",0,"elemental_dragon_wonder_ride_book").ChangeForm(10).NotBasicBook().SaberBook().setCreativeTab(Tabs.tabsaber);
 	
-	public static Item king_of_arthur_wonderride_book = new Item_wonder_ride_book("r",6,"king_of_arthur_wonderride_book").AddToSwordOfLogosBookAnalyzer(2).setCreativeTab(Tabs.tabsaber);
+	public static Item king_of_arthur_wonderride_book = new Item_wonder_ride_book("r",6,"king_of_arthur_wonderride_book").AddToSwordOfLogosBookAnalyzer(3).setCreativeTab(Tabs.tabsaber);
 	public static Item televi_kun_wonderride_book = new Item_wonder_ride_book("r",17,"televi_kun_wonderride_book").AddToSwordOfLogosBookAnalyzer(1).setCreativeTab(Tabs.tabsaber);
 	
 	public static Item lion_senki_wonderride_book = new Item_wonder_ride_book("m",1,"lion_senki_wonderride_book").resetBook("blaze").XrossSaberBook().AddToSwordOfLogosBookAnalyzer(25).setCreativeTab(Tabs.tabsaber);
@@ -3248,7 +3248,7 @@ public class RiderItems {
 	public static Item jaaku_dragon_wonder_ride_book = new Item_wonder_ride_book("l",3,"jaaku_dragon_wonder_ride_book").resetBook("calibur").setCreativeTab(Tabs.tabsaber);
 	public static Item jaou_dragon_wonder_ride_book = new Item_wonder_ride_book("l",0,"jaou_dragon_wonder_ride_book").ChangeForm(1).NotBasicBook().CaliburBook().setCreativeTab(Tabs.tabsaber);
 
-	public static Item kin_no_buki_gin_no_buki_wonderride_book = new Item_wonder_ride_book("l",0,"kin_no_buki_gin_no_buki_wonderride_book").SaikouBook().resetBook("saikou_shadow").ChangeForm(0).NotBasicBook().setCreativeTab(Tabs.tabsaber);
+	public static Item kin_no_buki_gin_no_buki_wonderride_book = new Item_wonder_ride_book("l",0,"kin_no_buki_gin_no_buki_wonderride_book").AddToSwordOfLogosBookAnalyzer(3).SaikouBook().resetBook("saikou_shadow").ChangeForm(0).NotBasicBook().setCreativeTab(Tabs.tabsaber);
 	public static Item x_swordman_wonderride_book= new Item_wonder_ride_book("l",0,"x_swordman_wonderride_book").SaikouBook().ChangeForm(5).NotBasicBook().setCreativeTab(Tabs.tabsaber);
 
 	public static Item konchuu_daihyakka_wonderride_book = new Item_ore("konchuu_daihyakka_wonderride_book").setCreativeTab(Tabs.tabsaber);
@@ -3270,9 +3270,20 @@ public class RiderItems {
 	public static Item daikengou_urashimajirou_wonderride_book = new Item_wonder_ride_book("r",19,"daikengou_urashimajirou_wonderride_book").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
 	public static Item daiyokozuna_kinzaburou_wonderride_book = new Item_wonder_ride_book("r",20,"daiyokozuna_kinzaburou_wonderride_book").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
 	
+	public static Item wonder_world_story_of_kaenken_rekka_wonderride_book = new Item_ore("wonder_world_story_of_kaenken_rekka_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item wonder_world_story_of_suiseiken_nagare_wonderride_book = new Item_ore("wonder_world_story_of_suiseiken_nagare_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item wonder_world_story_of_raimeiken_ikazuchi_wonderride_book = new Item_ore("wonder_world_story_of_raimeiken_ikazuchi_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item wonder_world_story_of_ankokuken_kurayami_wonderride_book = new Item_ore("wonder_world_story_of_ankokuken_kurayami_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item wonder_world_story_of_dogouken_gekido_wonderride_book = new Item_ore("wonder_world_story_of_dogouken_gekido_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item wonder_world_story_of_fuusouken_hayate_wonderride_book = new Item_ore("wonder_world_story_of_fuusouken_hayate_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item wonder_world_story_of_onjuuken_suzune_wonderride_book = new Item_ore("wonder_world_story_of_onjuuken_suzune_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item wonder_world_story_of_kougouken_saikou_wonderride_book = new Item_ore("wonder_world_story_of_kougouken_saikou_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item wonder_world_story_of_mumeiken_kyomu_wonderride_book = new Item_ore("wonder_world_story_of_mumeiken_kyomu_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item wonder_world_story_of_eneiken_noroshi_wonderride_book = new Item_ore("wonder_world_story_of_eneiken_noroshi_wonderride_book").setCreativeTab(Tabs.tabsaber);
 	
 	public static Item book_gate_wonder_ride_book = new item_book_gate_wonder_ride_book("book_gate_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
 	public static Item blank_wonder_ride_book = new Item_ore("blank_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item blank_wonder_world_story_wonder_ride_book = new Item_ore("blank_wonder_world_story_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
 
 	public static Item book_of_ruin = new item_book_of_ruin("book_of_ruin").setCreativeTab(Tabs.tabsaber);
 

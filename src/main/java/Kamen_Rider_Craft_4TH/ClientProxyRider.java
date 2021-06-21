@@ -21,6 +21,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Arc_zero;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_BloodStalk;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Build_RT;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Duke;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Durendal;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_EngineBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Falchion;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Ginga;
@@ -32,6 +33,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_NightRogue;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Para_dx;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Red_Poppy;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_RemoconBros;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Sabela;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Sigurd;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_White_Woz;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_ZangetsuShin;
@@ -267,6 +269,8 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(EntityShimi.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/shimi.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_Calibur.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/calibur.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_Falchion.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/falchion.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_Sabela.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/sabela.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_Durendal.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/durendal.png"));
 		
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityAcrobatter.class, new RenderRiderMob2(new Model_machine_builder(), 0.5F,"textures/entities/acrobatter.png"));

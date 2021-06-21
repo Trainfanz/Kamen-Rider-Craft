@@ -17,6 +17,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_BloodStalk;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Build_RT;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Calibur;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Duke;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Durendal;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_EngineBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Falchion;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Ginga;
@@ -28,6 +29,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_NightRogue;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Para_dx;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Red_Poppy;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_RemoconBros;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Sabela;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Sigurd;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_White_Woz;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_ZangetsuShin;
@@ -302,6 +304,8 @@ public class mobsCore {
 		
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":CaliburMob"),Entity_Calibur.class, "CaliburMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x060606,0xa2a2a2);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":FalchionMob"),Entity_Falchion.class, "FalchionMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x0d0d0d,0xff5503);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":SabelaMob"),Entity_Sabela.class, "SabelaMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x8c1f1f,0xe2ab27);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":DurendalMob"),Entity_Durendal.class, "DurendalMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xe181818,0x04b9d5);
 		
 		
 	}
