@@ -158,6 +158,7 @@ public class Entity_Falchion extends EntityBossBase
 			this.dropItem(RiderItems.eternal_phoenix_wonderride_book, 1);
 			this.dropItem(RiderItems.seiken_swordriver_falchion, 1);
 			this.dropItem(RiderItems.mumeiken_kyomu, 1);
+			this.dropItem(RiderItems.blank_wonder_world_story_wonder_ride_book, 1);
 			this.dropItem(RiderItems.blank_wonder_ride_book, 10);
 
 		}

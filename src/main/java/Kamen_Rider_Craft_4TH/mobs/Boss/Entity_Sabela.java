@@ -152,6 +152,7 @@ public class Entity_Sabela extends EntityBossBase
 			this.dropItem(RiderItems.sword_of_logos_buckle_sabela, 1);
 			this.dropItem(RiderItems.eneiken_noroshi, 1);
 			this.dropItem(RiderItems.konchuu_daihyakka_wonderride_book, 1);
+			this.dropItem(RiderItems.blank_wonder_world_story_wonder_ride_book, 1);
 			this.dropItem(RiderItems.blank_wonder_ride_book, 10);
 
 			

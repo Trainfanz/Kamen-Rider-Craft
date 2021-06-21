@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+    "item": "kamenridercraft4th:wonder_world_story_of_kaenken_rekka_wonderride_book"
+    }, 
+    {
+      "item":  "kamenridercraft4th:forbidden_tome"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:primitive_dragon_wonder_ride_book"
+  }
+}

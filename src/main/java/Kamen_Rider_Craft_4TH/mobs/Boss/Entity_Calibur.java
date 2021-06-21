@@ -162,7 +162,7 @@ public class Entity_Calibur extends EntityBossBase
 
 			this.dropItem(RiderItems.jaaku_dragon_wonder_ride_book, 1);
 			this.dropItem(RiderItems.blank_wonder_ride_book, 10);
-
+			this.dropItem(RiderItems.blank_wonder_world_story_wonder_ride_book, 1);
 			switch (this.rand.nextInt(5))
 			{
 			case 0:
