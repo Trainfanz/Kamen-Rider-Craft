@@ -163,7 +163,7 @@ public class item_book_gate_wonder_ride_book extends ItemBow  implements IHasMod
 							entityLiving.setPosition(get_pos(stack,"X"),get_pos(stack,"Y"),get_pos(stack,"Z"));
 							entityLiving.changeDimension(0, new NorthernBaseTeleporter());;	
 						}else{
-							entityLiving.setPosition(worldIn.getSpawnPoint().getX(),worldIn.getSpawnPoint().getY(),worldIn.getSpawnPoint().getZ());
+							entityLiving.setPosition(worldIn.getSpawnPoint().getX(),calculateGenerationHeightAir(worldIn, worldIn.getSpawnPoint().getX(), worldIn.getSpawnPoint().getZ()),worldIn.getSpawnPoint().getZ());
 							entityLiving.changeDimension(0, new NorthernBaseTeleporter());
 						}
 						set_ammo(stack,0);
@@ -200,6 +200,19 @@ public class item_book_gate_wonder_ride_book extends ItemBow  implements IHasMod
 			Block block = world.getBlockState(new BlockPos(x,y,z)).getBlock();
 			
 			foundGround = block == topBlock;
+		}
+
+		return y;
+	}
+
+	private static int calculateGenerationHeightAir(World world, int x, int z) {
+		int y = world.getHeight();
+		boolean foundGround = false;
+			
+		while(!foundGround && y-- >= 0) {
+			Block block = world.getBlockState(new BlockPos(x,y,z)).getBlock();
+			
+			foundGround = block != Blocks.AIR;
 		}
 
 		return y;

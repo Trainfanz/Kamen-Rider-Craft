@@ -51,6 +51,8 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_grease;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_horobi;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_ikazuchi;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_jin;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_legeiel;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_legeiel_forbidden;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_lord_baron;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_magia;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_naki;
@@ -59,7 +61,10 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_orga;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_red_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_redyue;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_roshuo;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_storious;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_taboo_dopant;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_zooous;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_zooous_predator;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_abaddon_high;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_blood;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_dire_wolf_sold_magia;
@@ -271,6 +276,11 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entity_Falchion.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/falchion.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_Sabela.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/sabela.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_Durendal.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/durendal.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_legeiel.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/legeiel.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_legeiel_forbidden.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/legeiel_forbidden.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_storious.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/storious.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_zooous.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/zooous.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_zooous_predator.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/zooous_predator.png"));
 		
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityAcrobatter.class, new RenderRiderMob2(new Model_machine_builder(), 0.5F,"textures/entities/acrobatter.png"));

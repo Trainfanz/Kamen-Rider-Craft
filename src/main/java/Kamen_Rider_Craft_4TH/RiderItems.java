@@ -3283,12 +3283,18 @@ public class RiderItems {
 	public static Item wonder_world_story_of_mumeiken_kyomu_wonderride_book = new Item_ore("wonder_world_story_of_mumeiken_kyomu_wonderride_book").setCreativeTab(Tabs.tabsaber);
 	public static Item wonder_world_story_of_eneiken_noroshi_wonderride_book = new Item_ore("wonder_world_story_of_eneiken_noroshi_wonderride_book").setCreativeTab(Tabs.tabsaber);
 	
+	public static Item happy_brave_dragon_wonder_ride_book = new Item_ore("happy_brave_dragon_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
+	
+	public static Item charybdis_alter_ride_book = new Item_ore("charybdis_alter_ride_book").setCreativeTab(Tabs.tabsaber);
+	
+	
 	public static Item book_gate_wonder_ride_book = new item_book_gate_wonder_ride_book("book_gate_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
 	public static Item blank_wonder_ride_book = new Item_ore("blank_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
 	public static Item blank_wonder_world_story_wonder_ride_book = new Item_ore("blank_wonder_world_story_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
 
 	public static Item book_of_ruin = new item_book_of_ruin("book_of_ruin").setCreativeTab(Tabs.tabsaber);
 	public static Item forbidden_tome = new Item_ore("forbidden_tome").setCreativeTab(Tabs.tabsaber);
+	public static Item great_book_fragment = new Item_ore("great_book_fragment").setCreativeTab(Tabs.tabsaber);
 	
 	
 	public static Item amazonshead = new item_amazonsarmor("amazonshead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);

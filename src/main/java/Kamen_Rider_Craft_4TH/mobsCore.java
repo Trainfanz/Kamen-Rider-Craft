@@ -47,6 +47,8 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_grease;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_horobi;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_ikazuchi;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_jin;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_legeiel;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_legeiel_forbidden;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_lord_baron;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_magia;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_naki;
@@ -55,7 +57,10 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_orga;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_red_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_redyue;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_roshuo;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_storious;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_taboo_dopant;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_zooous;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_zooous_predator;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_abaddon_high;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_blood;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_dire_wolf_sold_magia;
@@ -306,6 +311,15 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":FalchionMob"),Entity_Falchion.class, "FalchionMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x0d0d0d,0xff5503);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":SabelaMob"),Entity_Sabela.class, "SabelaMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x8c1f1f,0xe2ab27);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":DurendalMob"),Entity_Durendal.class, "DurendalMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xe181818,0x04b9d5);
+		
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":LegeielMob"),Entity_legeiel.class, "LegeielMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xaa5d43,0xdedede);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":LegeielForbiddenMob"),Entity_legeiel_forbidden.class, "LegeielForbiddenMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xad7c1c,0x8a0000);
+		
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":ZooousMob"),Entity_zooous.class, "ZooousMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xf9f9f9,0x004ad8);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":ZooousPredatorMob"),Entity_zooous_predator.class, "ZooousPredatorMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x6b0200,0x060606);
+	
+		
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":StoriousMob"),Entity_storious.class, "StoriousMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x00652f,0x870000);
 		
 		
 	}
