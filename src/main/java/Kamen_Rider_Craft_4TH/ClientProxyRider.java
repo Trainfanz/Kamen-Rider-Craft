@@ -104,6 +104,7 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_battle_raider;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_guardian_downfall;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_phantom_crusher;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityAcrobatter;
+import Kamen_Rider_Craft_4TH.mobs.bikes.EntityDiagoSpeedy;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityExaidBike;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityMachineBuilder;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityRiseHopperBike;
@@ -118,6 +119,7 @@ import Kamen_Rider_Craft_4TH.model.ImaginSandModel;
 import Kamen_Rider_Craft_4TH.model.MobWithBeltModel;
 import Kamen_Rider_Craft_4TH.model.ModelAnkh;
 import Kamen_Rider_Craft_4TH.model.ModelPoppy;
+import Kamen_Rider_Craft_4TH.model.Model_Diago_Speedy;
 import Kamen_Rider_Craft_4TH.model.Model_Sakura_Hurricane;
 import Kamen_Rider_Craft_4TH.model.Model_accel_bike_form;
 import Kamen_Rider_Craft_4TH.model.Model_elementary_inves;
@@ -304,6 +306,8 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(EntityMachineBuilder.class, new RenderRiderMob2(new Model_machine_builder(), 0.5F,"textures/entities/model_machine_builder.png"));
 
 		RenderingRegistry.registerEntityRenderingHandler(EntityRiseHopperBike.class, new RenderRiderMob2(new Model_Sakura_Hurricane(), 0.5F,"textures/entities/rise_hopper_bike.png"));
+
+		RenderingRegistry.registerEntityRenderingHandler(EntityDiagoSpeedy.class, new RenderRiderMob2(new Model_Diago_Speedy(), 0.5F,"textures/entities/diago_speedy.png"));
 	}
 
 	public void registerItemRender(Item item, int i, String string) {

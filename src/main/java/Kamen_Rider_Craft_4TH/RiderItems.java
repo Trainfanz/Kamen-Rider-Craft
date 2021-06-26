@@ -106,6 +106,7 @@ import Kamen_Rider_Craft_4TH.item.saber.Item_haouken_xross_saber;
 import Kamen_Rider_Craft_4TH.item.saber.Item_wonder_ride_book;
 import Kamen_Rider_Craft_4TH.item.saber.item_book_gate_wonder_ride_book;
 import Kamen_Rider_Craft_4TH.item.saber.item_book_of_ruin;
+import Kamen_Rider_Craft_4TH.item.saber.item_diago_speedy;
 import Kamen_Rider_Craft_4TH.item.saber.item_saberarmor_head;
 import Kamen_Rider_Craft_4TH.item.saber.item_saberdriver;
 import Kamen_Rider_Craft_4TH.item.wizard.Item_wizard_ring;
@@ -3284,6 +3285,8 @@ public class RiderItems {
 	public static Item wonder_world_story_of_eneiken_noroshi_wonderride_book = new Item_ore("wonder_world_story_of_eneiken_noroshi_wonderride_book").setCreativeTab(Tabs.tabsaber);
 	
 	public static Item happy_brave_dragon_wonder_ride_book = new Item_ore("happy_brave_dragon_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
+	
+	public static Item diago_speedy_wonder_ride_book = new item_diago_speedy("diago_speedy_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
 	
 	public static Item charybdis_alter_ride_book = new Item_ore("charybdis_alter_ride_book").setCreativeTab(Tabs.tabsaber);
 	
