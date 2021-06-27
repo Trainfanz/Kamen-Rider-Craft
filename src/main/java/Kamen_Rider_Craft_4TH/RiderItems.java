@@ -2161,6 +2161,9 @@ public class RiderItems {
 
 	public static Item new_ghostdriver = new item_ghostdriver("new_ghostdriver",ArmorMaterial.DIAMOND, 4, 3,"dark_ghost","new_ore",1).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
 
+	public static Item kanonghostdriver = new item_ghostdriver("kanonghostdriver",ArmorMaterial.DIAMOND, 4, 3,"kanon","kanon",2).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
+	
+	
 	public static Item ore_ghost_icon  = new Item_ghost_Icons(0, 0,1,"ore_ghost_icon").setCreativeTab(Tabs.tabghost);
 	public static Item new_ore_ghost_icon  = new Item_ghost_Icons(0, 64,1,"new_ore_ghost_icon").setCreativeTab(Tabs.tabghost);
 
@@ -2181,6 +2184,9 @@ public class RiderItems {
 	public static Item dark_necrom_yellow_ghost_icon  = new Item_ghost_Icons(0, 28,0,"dark_necrom_yellow_ghost_icon").setCreativeTab(Tabs.tabghost);
 	public static Item dark_necrom_pink_ghost_icon  = new Item_ghost_Icons(0, 29,0,"dark_necrom_pink_ghost_icon").setCreativeTab(Tabs.tabghost);
 
+	public static Item kanon_specter_ghost_icon  = new Item_ghost_Icons(0, 65,0,"kanon_specter_ghost_icon").setCreativeTab(Tabs.tabghost);
+	
+	
 	public static Item edison_ghost_icon  = new Item_ghost_Icons(0, 1,1,"edison_ghost_icon").setCreativeTab(Tabs.tabghost);
 	public static Item newton_ghost_icon  = new Item_ghost_Icons(0, 2,1,"newton_ghost_icon").setCreativeTab(Tabs.tabghost);
 	public static Item musashi_ghost_icon  = new Item_ghost_Icons(0, 3,1,"musashi_ghost_icon").setCreativeTab(Tabs.tabghost);
@@ -3225,8 +3231,11 @@ public class RiderItems {
 	public static Item primitive_dragon_wonder_ride_book = new Item_wonder_ride_book("l",0,"primitive_dragon_wonder_ride_book").ChangeForm(9).NotBasicBook().SaberBook().setCreativeTab(Tabs.tabsaber);
 	public static Item elemental_dragon_wonder_ride_book = new Item_wonder_ride_book("l",0,"elemental_dragon_wonder_ride_book").ChangeForm(10).NotBasicBook().SaberBook().setCreativeTab(Tabs.tabsaber);
 	
+	public static Item super_hero_senki_wonder_ride_book = new Item_wonder_ride_book("l",0,"super_hero_senki_wonder_ride_book").ChangeForm(14).NotBasicBook().SaberBook().setCreativeTab(Tabs.tabsaber);
+	
 	public static Item king_of_arthur_wonderride_book = new Item_wonder_ride_book("r",6,"king_of_arthur_wonderride_book").AddToSwordOfLogosBookAnalyzer(3).setCreativeTab(Tabs.tabsaber);
 	public static Item televi_kun_wonderride_book = new Item_wonder_ride_book("r",17,"televi_kun_wonderride_book").AddToSwordOfLogosBookAnalyzer(1).setCreativeTab(Tabs.tabsaber);
+	
 	
 	public static Item lion_senki_wonderride_book = new Item_wonder_ride_book("m",1,"lion_senki_wonderride_book").resetBook("blaze").XrossSaberBook().AddToSwordOfLogosBookAnalyzer(25).setCreativeTab(Tabs.tabsaber);
 	public static Item peter_fantasista_wonderride_book = new Item_wonder_ride_book("r",1,"peter_fantasista_wonderride_book").AddToSwordOfLogosBookAnalyzer(15).setCreativeTab(Tabs.tabsaber);
@@ -3260,8 +3269,6 @@ public class RiderItems {
 	
 	public static Item eternal_phoenix_wonderride_book = new Item_wonder_ride_book("l",6,"eternal_phoenix_wonderride_book").resetBook("falchion").setCreativeTab(Tabs.tabsaber);
 	
-	public static Item ghost_ijinroku_wonderride_book = new Item_wonder_ride_book("l",0,"ghost_ijinroku_wonderride_book").ChangeForm(4).NotBasicBook().SaberBook().setCreativeTab(Tabs.tabsaber);
-	
 	public static Item kirin_no_ongaeshi_wonderride_book = new Item_wonder_ride_book("r",7,"kirin_no_ongaeshi_wonderride_book").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
 	public static Item sarukani_wars_wonderride_book = new Item_wonder_ride_book("r",8,"sarukani_wars_wonderride_book").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
 	public static Item bakusou_usagi_to_kame_wonderride_book = new Item_wonder_ride_book("r",9,"bakusou_usagi_to_kame_wonderride_book").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
@@ -3289,7 +3296,12 @@ public class RiderItems {
 	public static Item diago_speedy_wonder_ride_book = new item_diago_speedy("diago_speedy_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
 	
 	public static Item charybdis_alter_ride_book = new Item_ore("charybdis_alter_ride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item legeiel_alter_ride_book = new Item_ore("legeiel_alter_ride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item zooous_alter_ride_book = new Item_ore("zooous_alter_ride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item storious_alter_ride_book = new Item_ore("storious_alter_ride_book").setCreativeTab(Tabs.tabsaber);
 	
+	public static Item ghost_ijinroku_wonderride_book = new Item_wonder_ride_book("l",0,"ghost_ijinroku_wonderride_book").ChangeForm(4).NotBasicBook().SaberBook().setCreativeTab(Tabs.tabsaber);
+	public static Item specter_gekikou_senki_wonderride_book = new Item_wonder_ride_book("l",0,"specter_gekikou_senki_wonderride_book").ChangeForm(13).NotBasicBook().BladesBook().setCreativeTab(Tabs.tabsaber);
 	
 	public static Item book_gate_wonder_ride_book = new item_book_gate_wonder_ride_book("book_gate_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
 	public static Item blank_wonder_ride_book = new Item_ore("blank_wonder_ride_book").setCreativeTab(Tabs.tabsaber);

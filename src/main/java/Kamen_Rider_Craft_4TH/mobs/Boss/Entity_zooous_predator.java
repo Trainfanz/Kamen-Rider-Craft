@@ -95,6 +95,7 @@ public class Entity_zooous_predator extends EntityBossBase
 		if (!this.world.isRemote){
 
 
+			this.dropItem(RiderItems.zooous_alter_ride_book, 1);
 			this.dropItem(RiderItems.blank_wonder_world_story_wonder_ride_book, 1);
 			this.dropItem(RiderItems.blank_wonder_ride_book, 10);
 

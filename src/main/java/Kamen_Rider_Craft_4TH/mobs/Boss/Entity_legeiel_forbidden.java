@@ -115,7 +115,7 @@ public class Entity_legeiel_forbidden extends EntityBossBase
 	{
 		if (!this.world.isRemote){
 
-
+			this.dropItem(RiderItems.legeiel_alter_ride_book, 1);
 			this.dropItem(RiderItems.blank_wonder_world_story_wonder_ride_book, 1);
 			this.dropItem(RiderItems.blank_wonder_ride_book, 10);
 

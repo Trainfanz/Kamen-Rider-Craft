@@ -62,6 +62,7 @@ entity.lord_baronMob.name=Lord Baron
 entity.GaohMob.name=Kamen Rider Gaoh
 entity.MachineDenBirdMob.name=Machine Den-Bird
 entity.RiseHopperBikeMob.name=Rise Hopper
+entity.Diago_SpeedyMob.name=Diago Speedy
 
 entity.ZuGumunBaMob.name=Zu-Gumun-Ba
 
@@ -1501,6 +1502,7 @@ item.ghostdriver.name=Ghost Driver (Ghost)
 item.specterdriver.name=Ghost Driver (Specter)
 item.mega_ulorder.name=Mega Ulorder
 item.new_ghostdriver.name=Ghost Driver (New Ghost)
+item.kanonghostdriver.name=Ghost Driver (Kanon Specter)
 
 item.extremer_driver.name=Extremer Driver
 
@@ -1509,7 +1511,7 @@ item.edison_ghost_icon.name=Edison Ghost Eyecon
 item.newton_ghost_icon.name=Newton Ghost Eyecon
 item.musashi_ghost_icon.name=Musashi Ghost Eyecon
 item.new_ore_ghost_icon.name=New Ore Ghost Eyecon
-
+item.kanon_specter_ghost_icon.name=Kanon Specter Eyecon
 item.savior_arrow.name=Savior Arrow
 item.lemon_rapier.name=Lemon Rapier
 
@@ -2530,6 +2532,8 @@ item.televi_kun_wonderride_book.name=Televi-Kun Wonder Ride Book
 item.king_lion_daisenki_wonderride_book.name=King Lion Daisenki Wonder Ride Book
 item.tategami_hyoujuu_senki_wonderride_book.name=Tategami Hyoujuu Senki Wonder Ride Book
 item.ghost_ijinroku_wonderride_book.name=Ghost Ijinroku Wonder Ride Book
+item.specter_gekikou_senki_wonderride_book.name=Specter Gekikou Senki Wonder Ride Book
+item.super_hero_senki_wonder_ride_book.name=Super Hero Senki Senki Wonder Ride Book
 
 item.daishougun_momoichirou_wonderride_book.name=Daishougun Momoichirou Wonder Ride Book
 item.daikengou_urashimajirou_wonderride_book.name=Daikengou Urashimajirou Wonder Ride Book
@@ -2549,10 +2553,32 @@ item.tsuki_no_hime_kaguyan_wonderride_book.name=Tsuki no Hime Kaguyan Wonder Rid
 item.osha_jizou_san_wonderride_book.name=Osha Jizou San Wonder Ride Book
 item.issun_bushi_wonderride_book.name=Issun Bushi Wonder Ride Book
 
+item.wonder_world_story_of_kaenken_rekka_wonderride_book.name=Wonder World Story of Kaenken Rekka Wonder Ride Book
+item.wonder_world_story_of_suiseiken_nagare_wonderride_book.name=Wonder World Story of Suiseiken Nagare Wonder Ride Book
+item.wonder_world_story_of_raimeiken_ikazuchi_wonderride_book.name=Wonder World Story of Raimeiken Ikazuchi Wonder Ride Book
+item.wonder_world_story_of_ankokuken_kurayami_wonderride_book.name=Wonder World Story of Ankokuken Kurayami Wonder Ride Book
+item.wonder_world_story_of_dogouken_gekido_wonderride_book.name=Wonder World Story of Dogouken Gekido Wonder Ride Book
+item.wonder_world_story_of_fuusouken_hayate_wonderride_book.name=Wonder World Story of Fuusouken Hayate Wonder Ride Book
+item.wonder_world_story_of_onjuuken_suzune_wonderride_book.name=Wonder World Story of Onjuuken Suzune Wonder Ride Book
+item.wonder_world_story_of_kougouken_saikou_wonderride_book.name=Wonder World Story of Kougouken Saikou Wonder Ride Book
+item.wonder_world_story_of_mumeiken_kyomu_wonderride_book.name=Wonder World Story of Mumeiken Kyomu Wonder Ride Book
+item.wonder_world_story_of_eneiken_noroshi_wonderride_book.name=Wonder World Story of Eneiken Noroshi Wonder Ride Book
+ 
+item.charybdis_alter_ride_book.name=Charybdis Alter Ride Book
+item.legeiel_alter_ride_book.name=Legeiel Alter Ride Book
+item.zooous_alter_ride_book.name=Zooous Alter Ride Book
+item.storious_alter_ride_book.name=Storious Alter Ride Book
+
+    
+item.happy_brave_dragon_wonder_ride_book.name=Happy Brave Dragon Wonder Ride Book
+    
+item.diago_speedy_wonder_ride_book.name=Diago Speedy Wonder Ride Book
 item.book_gate_wonder_ride_book.name=Book Gate Wonder Ride Book
 item.blank_wonder_ride_book.name=Blank Wonder Ride Book
+item.blank_wonder_world_story_wonder_ride_book.name=Blank Wonder Ride Book
 item.book_of_ruin.name=Book Of Ruin
-  
+item.forbidden_tome.name=Forbidden Tome
+item.great_book_fragment.name=Great Book Fragment  
                
 item.amazonshead.name=Amazons Helmet
 item.amazonstroso.name=Amazons Chestplate 

@@ -57,7 +57,7 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 			"tsuki_no_hime_kaguyan","osha_jizou_san","issun_bushi","saber_televi_kun","daishougun_momoichirou","daikengou_urashimajirou","daiyokozuna_kinzaburou"};
 
 	public static String[] book_mode= new String[] {"","_jaou_dragon","_dragonic_knight","_emotional_dragon","_ghost","_x_swordman","_x_swordman_wonderful"
-			,"_x_swordman_powerful","_king_lion","_primitive_dragon","_elemental_primitive_dragon","_tategami_hyoujuu_senki","_xross"};
+			,"_x_swordman_powerful","_king_lion","_primitive_dragon","_elemental_primitive_dragon","_tategami_hyoujuu_senki","_xross","_specter","_zenkaiger"};
 
 
 
@@ -298,10 +298,10 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 											player.motionY=look.y/2;
 											player.motionZ=look.z/2;
 										}}
-									}else if (get_core_for_forms(ItemStack,"f")==11){
+									}else if (get_core_for_forms(ItemStack,"f")==12){
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 4,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 4,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 5,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
