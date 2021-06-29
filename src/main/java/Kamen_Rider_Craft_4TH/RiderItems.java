@@ -318,6 +318,7 @@ public class RiderItems {
 	public static Block ark_one_boss_block = new mob_block("ark_one_boss_block", Entity_Arc_zero::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabzero_one);
 
 	public static Block sabela_boss_block = new mob_block("sabela_boss_block", Entity_Sabela::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabsaber);
+	public static Block durendal_boss_block = new mob_block("durendal_boss_block", Entity_Durendal::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabsaber);
 
 	
 	public static Item ichigohead = new item_Ichigoarmor("ichigohead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
@@ -2163,7 +2164,6 @@ public class RiderItems {
 
 	public static Item kanonghostdriver = new item_ghostdriver("kanonghostdriver",ArmorMaterial.DIAMOND, 4, 3,"kanon","kanon",2).setMaxStackSize(1).setCreativeTab(Tabs.tabghost);
 	
-	
 	public static Item ore_ghost_icon  = new Item_ghost_Icons(0, 0,1,"ore_ghost_icon").setCreativeTab(Tabs.tabghost);
 	public static Item new_ore_ghost_icon  = new Item_ghost_Icons(0, 64,1,"new_ore_ghost_icon").setCreativeTab(Tabs.tabghost);
 
@@ -3290,6 +3290,7 @@ public class RiderItems {
 	public static Item wonder_world_story_of_kougouken_saikou_wonderride_book = new Item_ore("wonder_world_story_of_kougouken_saikou_wonderride_book").setCreativeTab(Tabs.tabsaber);
 	public static Item wonder_world_story_of_mumeiken_kyomu_wonderride_book = new Item_ore("wonder_world_story_of_mumeiken_kyomu_wonderride_book").setCreativeTab(Tabs.tabsaber);
 	public static Item wonder_world_story_of_eneiken_noroshi_wonderride_book = new Item_ore("wonder_world_story_of_eneiken_noroshi_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item wonder_world_story_of_jikokuken_kaiji_wonderride_book = new Item_ore("wonder_world_story_of_jikokuken_kaiji_wonderride_book").setCreativeTab(Tabs.tabsaber);
 	
 	public static Item happy_brave_dragon_wonder_ride_book = new Item_ore("happy_brave_dragon_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
 	

@@ -38,11 +38,11 @@ public class sword_of_logos_book_analyzer extends machine_block  {
 	}
 	private Item get_wonder_world_storyDrop() {
 		Random generator = new Random();
-			int rand = generator.nextInt(10);
+			int rand = generator.nextInt(11);
 			 Item[] wonder_world_story_wonder_ride_books = new Item[] {RiderItems.wonder_world_story_of_ankokuken_kurayami_wonderride_book,RiderItems.wonder_world_story_of_dogouken_gekido_wonderride_book
 					,RiderItems.wonder_world_story_of_eneiken_noroshi_wonderride_book,RiderItems.wonder_world_story_of_fuusouken_hayate_wonderride_book,RiderItems.wonder_world_story_of_kaenken_rekka_wonderride_book
 					,RiderItems.wonder_world_story_of_kougouken_saikou_wonderride_book,RiderItems.wonder_world_story_of_mumeiken_kyomu_wonderride_book,RiderItems.wonder_world_story_of_onjuuken_suzune_wonderride_book
-					,RiderItems.wonder_world_story_of_raimeiken_ikazuchi_wonderride_book,RiderItems.wonder_world_story_of_suiseiken_nagare_wonderride_book};
+					,RiderItems.wonder_world_story_of_raimeiken_ikazuchi_wonderride_book,RiderItems.wonder_world_story_of_suiseiken_nagare_wonderride_book,RiderItems.wonder_world_story_of_jikokuken_kaiji_wonderride_book};
 
 			return wonder_world_story_wonder_ride_books[rand];
 		
