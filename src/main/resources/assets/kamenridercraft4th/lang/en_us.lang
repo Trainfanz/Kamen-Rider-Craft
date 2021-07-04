@@ -163,7 +163,7 @@ tile.himawari_lockseedblock.name=Helheim Fruit Ore
 tile.ghost_iconsblock.name=Ghost Eyecon Ore
 tile.ghost_icons_hellrock.name=Gamma Eyecon Ore
 tile.bugsters_stone.name=Bugsters Virus
-tile.pandora_box.name=Touto Full Bottle Ore
+tile.pandora_box.name=Touto Fullbottle Ore
 tile.amazon_cell_block.name=Amazon Cell Ore
 tile.watch_stone.name=Ridewatch Ore
 
@@ -179,8 +179,8 @@ tile.hellrock_drive.name=Shift Car Ore
 tile.gemdeus_stone.name=Gemdeus Virus
 tile.fuestlehellrock.name=Fake Fuestle Ore
 tile.swichhellrock.name=Core Switch Ore
-tile.pandora_box_hellrock.name=Hokuto Full Bottle Ore
-tile.pandora_box_hellrock_2.name=Seito Full Bottle Ore
+tile.pandora_box_hellrock.name=Hokuto Fullbottle Ore
+tile.pandora_box_hellrock_2.name=Seito Fullbottle Ore
 tile.neozecthellrock.name=Neo-ZECT Ore
 tile.hell_advent_glass.name=Dark Advent Glass
 tile.bladecard_hellrock.name=Rouze Card Ore
@@ -202,8 +202,8 @@ tile.horobi_boss_block.name=Horobi Block
 tile.ikazuchi_boss_block.name=Ikazuchi Block
 tile.ark_one_boss_block.name=Ark-One Block
 
-tile.purifyer.name=Full Bottle Purifier
-tile.solidifyer.name=Full Bottle Solidifier
+tile.purifyer.name=Fullbottle Purifier
+tile.solidifyer.name=Fullbottle Solidifier
 
 tile.gaia_memory_refiner.name=Gaia Memory Refiner
 
@@ -1946,7 +1946,7 @@ item.nebulasteamgun.name=Nebula Steam Gun
 item.steam_blade.name=Steam Blade
 item.transteamgun_rifle.name=Transteam Gun Rifle Mode
 item.nebulasteamgun_rifle.name=Nebula Steam Gun Rifle Mode
-item.full_bottle_buster.name=Full Bottle Buster
+item.full_bottle_buster.name=Fullbottle Buster
 item.magma_knuckle.name=Magma Knuckle
 item.blizzard_knuckle.name=Blizzard Knuckle
         
@@ -1981,122 +1981,122 @@ item.pandora_panel_blue.name=Pandora Panel (Blue)
 item.pandora_panel_black.name=Pandora Panel (Black)
 item.pandora_panel_white.name=Pandora Panel (White)
 
-item.rabbit_full_bottle.name=Rabbit Full Bottle
-item.gorilla_full_bottle.name=Gorilla Full Bottle
+item.rabbit_full_bottle.name=Rabbit Fullbottle
+item.gorilla_full_bottle.name=Gorilla Fullbottle
         
-item.tank_full_bottle.name=Tank Full Bottle
-item.diamond_full_bottle.name=Diamond Full Bottle
+item.tank_full_bottle.name=Tank Fullbottle
+item.diamond_full_bottle.name=Diamond Fullbottle
 
 
-item.taka_full_bottle.name=Taka Full Bottle
-item.harinezumi_full_bottle.name=Harinezumi Full Bottle
-item.ninjya_full_bottle.name=Ninjya Full Bottle
-item.panda_full_bottle.name=Panda Full Bottle
-item.lion_full_bottle.name=Lion Full Bottle
-item.dragon_full_bottle.name=Dragon Full Bottle
-item.kaizoku_full_bottle.name=Kaizoku Full Bottle
-item.octopus_full_bottle.name=Octopus Full Bottle
-item.phoenix_full_bottle.name=Phoenix Full Bottle
-item.rose_full_bottle.name=Rose Full Bottle
-item.tora_full_bottle.name=Tora Full Bottle
-item.kujira_full_bottle.name=Kujira Full Bottle
-item.kirin_full_bottle.name=Kirin Full Bottle
-item.unicorn_full_bottle.name=Unicorn Full Bottle
-item.turtle_full_bottle.name=Turtle Full Bottle
-item.deer_full_bottle.name=Deer Full Bottle
-item.penguin_full_bottle.name=Penguin Full Bottle
-item.spider_full_bottle.name=Spider Full Bottle
-item.rabbit_gold_full_bottle.name=Gold Rabbit Full Bottle
-item.bat_full_bottle_2.name=Bat Full Bottle
-item.same_full_bottle.name=Same Full Bottle
-item.hachi_full_bottle.name=Hachi Full Bottle
-item.sai_full_bottle.name=Sai Full Bottle
-item.scorpion_full_bottle.name=Scorpion Full Bottle
+item.taka_full_bottle.name=Taka Fullbottle
+item.harinezumi_full_bottle.name=Harinezumi Fullbottle
+item.ninjya_full_bottle.name=Ninjya Fullbottle
+item.panda_full_bottle.name=Panda Fullbottle
+item.lion_full_bottle.name=Lion Fullbottle
+item.dragon_full_bottle.name=Dragon Fullbottle
+item.kaizoku_full_bottle.name=Kaizoku Fullbottle
+item.octopus_full_bottle.name=Octopus Fullbottle
+item.phoenix_full_bottle.name=Phoenix Fullbottle
+item.rose_full_bottle.name=Rose Fullbottle
+item.tora_full_bottle.name=Tora Fullbottle
+item.kujira_full_bottle.name=Kujira Fullbottle
+item.kirin_full_bottle.name=Kirin Fullbottle
+item.unicorn_full_bottle.name=Unicorn Fullbottle
+item.turtle_full_bottle.name=Turtle Fullbottle
+item.deer_full_bottle.name=Deer Fullbottle
+item.penguin_full_bottle.name=Penguin Fullbottle
+item.spider_full_bottle.name=Spider Fullbottle
+item.rabbit_gold_full_bottle.name=Gold Rabbit Fullbottle
+item.bat_full_bottle_2.name=Bat Fullbottle
+item.same_full_bottle.name=Same Fullbottle
+item.hachi_full_bottle.name=Hachi Fullbottle
+item.sai_full_bottle.name=Sai Fullbottle
+item.scorpion_full_bottle.name=Scorpion Fullbottle
 
-item.rabbittank_sparkling_full_bottle.name=Rabbit Tank Sparkling Full Bottle
+item.rabbittank_sparkling_full_bottle.name=Rabbit Tank Sparkling Fullbottle
 item.hazard_trigger.name=Hazard Trigger
 item.fullfull_bottle_rabbit.name=FullFull Rabbit Tank Bottle (Rabbit)
 item.fullfull_bottle_tank.name=FullFull Rabbit Tank Bottle (Tank)
-item.genius_full_bottle.name=Genius Full Bottle
+item.genius_full_bottle.name=Genius Fullbottle
 item.cross_z_build_can.name=Cross-Z Build Can
         
-item.dog_full_bottle.name=Dog Full Bottle
-item.santa_full_bottle.name=Santa Claus Full Bottle
-item.kuma_full_bottle.name=Kuma Full Bottle
-item.wolf_full_bottle.name=Wolf Full Bottle
-item.beetle_full_bottle.name=Kabutomushi Full Bottle
+item.dog_full_bottle.name=Dog Fullbottle
+item.santa_full_bottle.name=Santa Claus Fullbottle
+item.kuma_full_bottle.name=Kuma Fullbottle
+item.wolf_full_bottle.name=Wolf Fullbottle
+item.beetle_full_bottle.name=Kabutomushi Fullbottle
         
-item.doctor_full_bottle.name=Doctor Full Bottle
-item.orange_full_bottle.name=Orange Full Bottle
-item.mahoutskai_full_bottle.name=Mahoutsukai Full Bottle
-item.tantei_full_bottle.name=Tantei Full Bottle
-item.momotaros_full_bottle.name=Momotaros Full Bottle
-item.yujou_full_bottle.name=Yujou Full Bottle
-item.obake_full_bottle.name=Obake Full Bottle    
-item.card_full_bottle.name=Card Full Bottle    
+item.doctor_full_bottle.name=Doctor Fullbottle
+item.orange_full_bottle.name=Orange Fullbottle
+item.mahoutskai_full_bottle.name=Mahoutsukai Fullbottle
+item.tantei_full_bottle.name=Tantei Fullbottle
+item.momotaros_full_bottle.name=Momotaros Fullbottle
+item.yujou_full_bottle.name=Yujou Fullbottle
+item.obake_full_bottle.name=Obake Fullbottle    
+item.card_full_bottle.name=Card Fullbottle    
         
-item.gatling_full_bottle.name=Gatling Full Bottle
-item.soujiki_full_bottle.name=Soujiki Full Bottle
-item.comic_full_bottle.name=Comic Full Bottle
-item.rocket_full_bottle.name=Rocket Full Bottle
-item.shoubousha_full_bottle.name=Shoubousha Full Bottle
-item.lock_full_bottle.name=Lock Full Bottle
-item.ressha_full_bottle.name=Densha Full Bottle
-item.light_full_bottle.name=Light Full Bottle
-item.robo_full_bottle.name=Robo Full Bottle
-item.helicopter_full_bottle.name=Helicopter Full Bottle
-item.ufo_full_bottle.name=UFO Full Bottle
-item.jet_full_bottle.name=Jet Full Bottle
-item.cyclone_full_bottle.name=Cyclone Full Bottle
-item.eraser_full_bottle.name=Keshigomu Full Bottle
-item.watch_full_bottle.name=Watch Full Bottle
-item.pyramid_full_bottle.name=Pyramid Full Bottle
-item.skateboard_full_bottle.name=Skateboard Full Bottle
-item.fridge_full_bottle.name=Fridge Full Bottle
-item.dragon_silver_full_bottle.name=Silver Dragon Full Bottle
-item.engine_full_bottle.name=Engine Full Bottle
-item.bike_full_bottle.name=Bike Full Bottle
-item.magnet_full_bottle.name=Magnet Full Bottle
-item.submarine_full_bottle.name=Submarine Full Bottle
-item.dryer_full_bottle.name=Dryer Full Bottle
-item.gold_full_bottle.name=Gold Full Bottle
+item.gatling_full_bottle.name=Gatling Fullbottle
+item.soujiki_full_bottle.name=Soujiki Fullbottle
+item.comic_full_bottle.name=Comic Fullbottle
+item.rocket_full_bottle.name=Rocket Fullbottle
+item.shoubousha_full_bottle.name=Shoubousha Fullbottle
+item.lock_full_bottle.name=Lock Fullbottle
+item.ressha_full_bottle.name=Densha Fullbottle
+item.light_full_bottle.name=Light Fullbottle
+item.robo_full_bottle.name=Robo Fullbottle
+item.helicopter_full_bottle.name=Helicopter Fullbottle
+item.ufo_full_bottle.name=UFO Fullbottle
+item.jet_full_bottle.name=Jet Fullbottle
+item.cyclone_full_bottle.name=Cyclone Fullbottle
+item.eraser_full_bottle.name=Keshigomu Fullbottle
+item.watch_full_bottle.name=Watch Fullbottle
+item.pyramid_full_bottle.name=Pyramid Fullbottle
+item.skateboard_full_bottle.name=Skateboard Fullbottle
+item.fridge_full_bottle.name=Fridge Fullbottle
+item.dragon_silver_full_bottle.name=Silver Dragon Fullbottle
+item.engine_full_bottle.name=Engine Fullbottle
+item.bike_full_bottle.name=Bike Fullbottle
+item.magnet_full_bottle.name=Magnet Fullbottle
+item.submarine_full_bottle.name=Submarine Fullbottle
+item.dryer_full_bottle.name=Dryer Fullbottle
+item.gold_full_bottle.name=Gold Fullbottle
         
-item.mic_full_bottle.name=Mic Full Bottle
-item.cake_full_bottle.name=Cake Full Bottle
-item.televi_full_bottle.name=Televi Full Bottle
-item.smartphone_full_bottle.name=Smartphone Full Bottle
-item.camera_full_bottle.name=Camera Full Bottle
+item.mic_full_bottle.name=Mic Fullbottle
+item.cake_full_bottle.name=Cake Fullbottle
+item.televi_full_bottle.name=Televi Fullbottle
+item.smartphone_full_bottle.name=Smartphone Fullbottle
+item.camera_full_bottle.name=Camera Fullbottle
 
 item.pandora_bottle.name=Pandora Bottle
 item.golden_bangle.name=Golden Bangle
-item.low_rabbit_full_bottle.name=Low Rabbit Full Bottle
+item.low_rabbit_full_bottle.name=Low Rabbit Fullbottle
         
-item.game_full_bottle.name=Game Full Bottle
-item.medal_full_bottle.name=Medal Full Bottle
-item.usb_memory_full_bottle.name=USB Memory Full Bottle
-item.parka_full_bottle.name=Parka Full Bottle
+item.game_full_bottle.name=Game Fullbottle
+item.medal_full_bottle.name=Medal Fullbottle
+item.usb_memory_full_bottle.name=USB Memory Fullbottle
+item.parka_full_bottle.name=Parka Fullbottle
 
 item.sclashjelly.name=Empty Sclash Jelly
 item.robot_sclashjelly.name=Robot Sclash Jelly
 item.dragon_sclashjelly.name=Dragon Sclash Jelly
-item.crocodile_crack_full_bottle.name=Crocodile Crack Full Bottle
-item.north_blizzard_full_bottle.name=North Blizzard Full Bottle
-item.prime_rogue_full_bottle.name=Prime Rogue Full Bottle
-item.muscle_galaxy_full_bottle.name=Muscle Galaxy Full Bottle
-item.killbas_spider_full_bottle.name=Killbus Spider Full Bottle
-item.grease_full_bottle.name=Grease Full Bottle
-item.metal_tanktank_full_bottle.name=Metal TankTank Full Bottle
+item.crocodile_crack_full_bottle.name=Crocodile Crack Fullbottle
+item.north_blizzard_full_bottle.name=North Blizzard Fullbottle
+item.prime_rogue_full_bottle.name=Prime Rogue Fullbottle
+item.muscle_galaxy_full_bottle.name=Muscle Galaxy Fullbottle
+item.killbas_spider_full_bottle.name=Killbus Spider Fullbottle
+item.grease_full_bottle.name=Grease Fullbottle
+item.metal_tanktank_full_bottle.name=Metal TankTank Fullbottle
 
 item.gear_engine.name=Gear Engine
 item.gear_remocon.name=Gear Remocon
 item.gear_red.name=Gear Remocon Red
 item.gear_blue.name=Gear Engine Blue
 
-item.bat_full_bottle.name=Bat Full Bottle
-item.cobra_full_bottle.name=Cobra Full Bottle
-item.fukurou_full_bottle.name=Fukurou Full Bottle
-item.kuwagata_full_bottle.name=Kuwagata Full Bottle
-item.castle_full_bottle.name=Castle Full Bottle
+item.bat_full_bottle.name=Bat Fullbottle
+item.cobra_full_bottle.name=Cobra Fullbottle
+item.fukurou_full_bottle.name=Fukurou Fullbottle
+item.kuwagata_full_bottle.name=Kuwagata Fullbottle
+item.castle_full_bottle.name=Castle Fullbottle
 
 item.cobra_evol_bottle.name=Cobra Evol Bottle
 item.rider_system_evol_bottle.name=Rider System Evol Bottle
@@ -2104,33 +2104,39 @@ item.dragon_evol_bottle.name=Dragon Evol Bottle
 item.rabbit_evol_bottle.name=Rabbit Evol Bottle
 item.dragon_evol_bottle_gold.name=Great Dragon Evol Bottle
 
-item.lost_bat_full_bottle.name=Lost Bat Full Bottle
-item.lost_cobra_full_bottle.name=Lost Cobra Full Bottle
-item.lost_castle_full_bottle.name=Lost Castle Full Bottle
-item.lost_kuwagata_full_bottle.name=Lost Kuwagata Full Bottle
-item.lost_fukurou_full_bottle.name=Lost Fukurou Full Bottle
-item.lost_hammer_full_bottle.name=Lost Hammer Full Bottle
-item.lost_shimauma_full_bottle.name=Lost Shimauma Full Bottle
-item.lost_spanner_full_bottle.name=Lost Spanner Full Bottle
-item.lost_hasami_full_bottle.name=Lost Hasami Full Bottle
+item.lost_bat_full_bottle.name=Lost Bat Fullbottle
+item.lost_cobra_full_bottle.name=Lost Cobra Fullbottle
+item.lost_castle_full_bottle.name=Lost Castle Fullbottle
+item.lost_kuwagata_full_bottle.name=Lost Kuwagata Fullbottle
+item.lost_fukurou_full_bottle.name=Lost Fukurou Fullbottle
+item.lost_hammer_full_bottle.name=Lost Hammer Fullbottle
+item.lost_shimauma_full_bottle.name=Lost Shimauma Fullbottle
+item.lost_spanner_full_bottle.name=Lost Spanner Fullbottle
+item.lost_hasami_full_bottle.name=Lost Hasami Fullbottle
 item.lost_cd_full_bottle.name=Lost CD Bottle
 
 item.nebula_gas_sample.name=Nebula Gas Sample
 
-item.genius_full_bottle_blank.name=Unfinished Genius Full Bottle
+item.genius_full_bottle_blank.name=Unfinished Genius Fullbottle
 
-item.dragon_magma_full_bottle.name=Dragon Magma Full Bottle
+item.dragon_magma_full_bottle.name=Dragon Magma Fullbottle
 
-item.metal_full_bottle.name=Metal Full Bottle
+
+item.buttobasoul_full_bottle.name=Buttobasoul Fullbottle
+item.ganbarizing_full_bottle.name=Ganbarizing Fullbottle
+item.super_sentai_full_bottle.name=Super Sentai Fullbottle
+item.kamen_rider_full_bottle.name=Kamen Rider Fullbottle
+
+item.metal_full_bottle.name=Metal Fullbottle
 
 item.evol_trigger.name=Evol Trigger
 
-item.ex_aid_full_bottle.name=Ex-Aid Full Bottle
-item.ghost_full_bottle.name=Ghost Full Bottle
-item.drive_full_bottle.name=Drive Full Bottle
-item.gaim_full_bottle.name=Gaim Full Bottle
-item.wizard_full_bottle.name=Wizard Full Bottle
-item.fourze_full_bottle.name=Fourze Full Bottle
+item.ex_aid_full_bottle.name=Ex-Aid Fullbottle
+item.ghost_full_bottle.name=Ghost Fullbottle
+item.drive_full_bottle.name=Drive Fullbottle
+item.gaim_full_bottle.name=Gaim Fullbottle
+item.wizard_full_bottle.name=Wizard Fullbottle
+item.fourze_full_bottle.name=Fourze Fullbottle
 
 item.zi_ohead.name=Zi-O Helmet
 item.zi_otroso.name=Zi-O Chestplate
@@ -2494,7 +2500,8 @@ item.seiken_swordriver_falchion.name=Haken Bladriver
 item.sword_of_logos_buckle_sabela.name=Royal Sword of Logos Buckle (Sabela)
 item.sword_of_logos_buckle_durendal.name=Royal Sword of Logos Buckle (Durendal)
 item.seiken_saikou_driver.name=Seiken Saikou Driver
-item.solomon_driver.name=Dooms Driver
+item.solomon_driver.name=Dooms Driver (Solomon)
+item.storious_driver.name=Dooms Driver (Storious)
 
 item.brave_dragon_wonderride_book.name=Brave Dragon Wonder Ride Book
 item.storm_eagle_wonderride_book.name=Storm Eagle Wonder Ride Book
@@ -2545,6 +2552,10 @@ item.x_swordman_wonderride_book.name=X-Swordman Wonder Ride Book
 item.konchuu_daihyakka_wonderride_book.name=Konchuu Daihyakka Wonder Ride Book
 item.ocean_history_wonderride_book.name=Ocean History Wonder Ride Book
 item.omni_force_wonderride_book.name=Omni Force Wonder Ride Book
+item.omni_force_wonderride_book_part.name=Omni Force Wonder Ride Book Part
+item.omni_force_wonderride_book_part2.name=Omni Force Wonder Ride Book Part
+
+item.grimoire_wonderride_book.name=Grimoire Wonder Ride Book
 
 item.kirin_no_ongaeshi_wonderride_book.name=Kirin no Ongaeshi Wonder Ride Book
 item.sarukani_wars_wonderride_book.name=Sarukani Wars Wonder Ride Book
