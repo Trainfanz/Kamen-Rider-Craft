@@ -280,6 +280,7 @@ public class Entity_Arc_zero extends EntityBossBase
 							this.blaze.world.spawnEntity(entitysmallfireball);
 						}
 					}
+				
 				}
 			}
 			this.blaze.getLookHelper().setLookPositionWithEntity(entitylivingbase, 10.0F, 10.0F);

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XKX",
+    "ACB",
+    "XNX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:blank_wonder_ride_book"
+    }, "C": {
+      "item": "kamenridercraft4th:great_book_fragment"
+    }, "A": {
+      "item": "kamenridercraft4th:omni_force_wonderride_book_part"
+    }, "B": {
+      "item": "kamenridercraft4th:omni_force_wonderride_book_part2"
+    }, "N": {
+      "item": "kamenridercraft4th:eternal_phoenix_wonderride_book"
+    }, "K": {
+      "item": "kamenridercraft4th:king_of_arthur_wonderride_book"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:solomon_boss_block"
+  }
+}

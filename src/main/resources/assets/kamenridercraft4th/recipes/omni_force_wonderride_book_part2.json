@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:genbu_shinwa_wonderride_book"
+    }, 
+    {
+      "item": "kamenridercraft4th:sarutobi_ninjaden_wonderride_book"
+    } , 
+    {
+      "item": "kamenridercraft4th:hanselnuts_to_gretel_wonderride_book"
+    } , 
+    {
+      "item": "kamenridercraft4th:jaaku_dragon_wonder_ride_book"
+    } , 
+    {
+      "item": "kamenridercraft4th:jaou_dragon_wonder_ride_book"
+    } , 
+    {
+      "item": "kamenridercraft4th:kin_no_buki_gin_no_buki_wonderride_book"
+    } , 
+    {
+      "item": "kamenridercraft4th:x_swordman_wonderride_book"
+    } , 
+    {
+      "item": "kamenridercraft4th:konchuu_daihyakka_wonderride_book"
+    } , 
+    {
+      "item": "kamenridercraft4th:ocean_history_wonderride_book"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:omni_force_wonderride_book_part2"
+  }
+}

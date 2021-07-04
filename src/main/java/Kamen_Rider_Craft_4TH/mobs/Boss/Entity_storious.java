@@ -96,6 +96,7 @@ public class Entity_storious extends EntityBossBase
 			this.dropItem(RiderItems.blank_wonder_world_story_wonder_ride_book, 1);
 			this.dropItem(RiderItems.blank_wonder_ride_book, 10);
 			this.dropItem(RiderItems.forbidden_tome, 1);
+			this.dropItem(RiderItems.storious_alter_ride_book, 1);
 
 		}
 	}

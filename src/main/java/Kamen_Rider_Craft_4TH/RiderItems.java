@@ -319,6 +319,7 @@ public class RiderItems {
 
 	public static Block sabela_boss_block = new mob_block("sabela_boss_block", Entity_Sabela::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabsaber);
 	public static Block durendal_boss_block = new mob_block("durendal_boss_block", Entity_Durendal::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabsaber);
+	public static Block solomon_boss_block = new mob_block("solomon_boss_block", Entity_Solomon::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabsaber);
 
 	
 	public static Item ichigohead = new item_Ichigoarmor("ichigohead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
@@ -1257,6 +1258,8 @@ public class RiderItems {
 	public static Item zi_ocard = new Itemrider_cards(11,9,"zi_ocard").setCreativeTab(Tabs.tabdecade);
 
 
+	public static Item rekka_daizantou_card = new Item_ore("rekka_daizantou_card").setCreativeTab(Tabs.tabdecade);
+
 	//W
 	public static Item trigger_magnum = new Item_gun("trigger_magnum",Tabs.den_dengu, RiderItems.gaiamemory).setMaxStackSize(1).setCreativeTab(Tabs.tabW);	
 	public static Item metal_shaft = new Item_metal_shaft("metal_shaft",Tabs.den_denro).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
@@ -1734,6 +1737,7 @@ public class RiderItems {
 	public static Item flower_ring = new Item_ore("flower_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	public static Item dance_ring = new Item_ore("dance_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	public static Item time_ring = new Item_ore("time_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item super_sentai_ring = new Item_ore("super_sentai_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 
 
 	//Gaim
@@ -2691,6 +2695,12 @@ public class RiderItems {
 	public static Item lost_hasami_full_bottle = new Item_full_bottle(0, "0","lost_hasami_full_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item lost_cd_full_bottle = new Item_full_bottle(0, "0","lost_cd_full_bottle").setCreativeTab(Tabs.tabbuild);
 
+	public static Item buttobasoul_full_bottle = new Item_full_bottle(0, "0","buttobasoul_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item ganbarizing_full_bottle = new Item_full_bottle(0, "0","ganbarizing_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item super_sentai_full_bottle = new Item_full_bottle(0, "0","super_sentai_full_bottle").setCreativeTab(Tabs.tabbuild);
+	public static Item kamen_rider_full_bottle = new Item_full_bottle(0, "0","kamen_rider_full_bottle").setCreativeTab(Tabs.tabbuild);
+
+	
 	public static Item golden_bangle = new Item_ore("golden_bangle").setCreativeTab(Tabs.tabbuild);
 	public static Item Pandora_bottle = new Item_full_bottle(0, "0","pandora_bottle").setCreativeTab(Tabs.tabbuild);
 	public static Item nebula_gas_sample = new Item_ore("nebula_gas_sample").setCreativeTab(Tabs.tabbuild);
@@ -3217,6 +3227,7 @@ public class RiderItems {
 
 	public static Item seiken_saikou_driver = new item_saberdriver("seiken_saikou_driver",ArmorMaterial.DIAMOND, 4,"saikou_shadow",0,0,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item solomon_driver = new item_saberdriver("solomon_driver",ArmorMaterial.DIAMOND, 4,"solomon",0,0,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item storious_driver = new item_saberdriver("storious_driver",ArmorMaterial.DIAMOND, 4,"storious",0,0,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	
 	public static Item seiken_swordriver_falchion = new item_saberdriver("seiken_swordriver_falchion",ArmorMaterial.DIAMOND, 4,"falchion",0,0,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item sword_of_logos_buckle_sabela = new item_saberdriver("sword_of_logos_buckle_sabela",ArmorMaterial.DIAMOND, 4,"sabela",0,0,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
@@ -3266,6 +3277,7 @@ public class RiderItems {
 	public static Item konchuu_daihyakka_wonderride_book = new Item_ore("konchuu_daihyakka_wonderride_book").setCreativeTab(Tabs.tabsaber);
 	public static Item ocean_history_wonderride_book = new Item_ore("ocean_history_wonderride_book").setCreativeTab(Tabs.tabsaber);
 	public static Item omni_force_wonderride_book = new Item_ore("omni_force_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	public static Item grimoire_wonderride_book = new Item_ore("grimoire_wonderride_book").setCreativeTab(Tabs.tabsaber);
 	
 	public static Item eternal_phoenix_wonderride_book = new Item_wonder_ride_book("l",6,"eternal_phoenix_wonderride_book").resetBook("falchion").setCreativeTab(Tabs.tabsaber);
 	
@@ -3308,9 +3320,14 @@ public class RiderItems {
 	public static Item blank_wonder_ride_book = new Item_ore("blank_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
 	public static Item blank_wonder_world_story_wonder_ride_book = new Item_ore("blank_wonder_world_story_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
 
+	public static Item omni_force_wonderride_book_part = new Item_ore("omni_force_wonderride_book_part").setCreativeTab(Tabs.tabsaber);
+	public static Item omni_force_wonderride_book_part2 = new Item_ore("omni_force_wonderride_book_part2").setCreativeTab(Tabs.tabsaber);
+
 	public static Item book_of_ruin = new item_book_of_ruin("book_of_ruin").setCreativeTab(Tabs.tabsaber);
 	public static Item forbidden_tome = new Item_ore("forbidden_tome").setCreativeTab(Tabs.tabsaber);
 	public static Item great_book_fragment = new Item_ore("great_book_fragment").setCreativeTab(Tabs.tabsaber);
+	
+	public static Item revice_head = new Item_ore("revice_head");
 	
 	
 	public static Item amazonshead = new item_amazonsarmor("amazonshead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);

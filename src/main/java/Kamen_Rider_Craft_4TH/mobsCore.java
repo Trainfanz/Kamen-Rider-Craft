@@ -31,6 +31,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Red_Poppy;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_RemoconBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Sabela;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Sigurd;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Solomon;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_White_Woz;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_ZangetsuShin;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_another_build;
@@ -314,6 +315,8 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":FalchionMob"),Entity_Falchion.class, "FalchionMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x0d0d0d,0xff5503);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":SabelaMob"),Entity_Sabela.class, "SabelaMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x8c1f1f,0xe2ab27);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":DurendalMob"),Entity_Durendal.class, "DurendalMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xe181818,0x04b9d5);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":SolomonMob"),Entity_Solomon.class, "SolomonMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xed1d1d1,0xd0a33e);
+		
 		
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":LegeielMob"),Entity_legeiel.class, "LegeielMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xaa5d43,0xdedede);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":LegeielForbiddenMob"),Entity_legeiel_forbidden.class, "LegeielForbiddenMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xad7c1c,0x8a0000);

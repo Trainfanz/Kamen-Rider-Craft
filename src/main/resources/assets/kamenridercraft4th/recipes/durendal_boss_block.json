@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:blank_wonder_ride_book"
+    }, "C": {
+      "item": "kamenridercraft4th:wonder_world_story_of_jikokuken_kaiji_wonderride_book"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:durendal_boss_block"
+  }
+}
