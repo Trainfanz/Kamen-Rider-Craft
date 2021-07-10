@@ -170,7 +170,7 @@ public class WorldGenCustomStructures implements IWorldGenerator
 		int x = (chunkX * 16);
 		int z = (chunkZ * 16);
 		int y = calculateGenerationHeight(world, x, z, topBlock);
-		BlockPos pos = new BlockPos (x,82 ,z);
+		BlockPos pos = new BlockPos (x,80 ,z);
 		
 		Class<? extends Biome> biome = world.provider.getBiomeForCoords(pos).getClass();
 		

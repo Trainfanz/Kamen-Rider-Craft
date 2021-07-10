@@ -180,7 +180,7 @@ public class item_book_gate_wonder_ride_book extends ItemBow  implements IHasMod
 						
 						int Y = calculateGenerationHeight(worldIn,(chunk.x*16)+15,(chunk.z*16)+5,Blocks.CONCRETE);
 						
-						entityLiving.setPosition((chunk.x*16)+15,83,(chunk.z*16)+5);
+						entityLiving.setPosition((chunk.x*16)+15,81,(chunk.z*16)+5);
 						entityLiving.changeDimension(modDimensionWorldGen.NORTHERN_BASE_DIM_ID, new NorthernBaseTeleporter());
 						set_ammo(stack,0);
 
