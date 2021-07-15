@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "GGG",
+    "BBB"
+  ],
+  "key": {
+    "W": {
+	  "item": "minecraft:carpet",
+	  "data": 14
+    },
+	"G": {
+      "item": "minecraft:gold_ingot"
+    },
+	"B": {
+      "item": "kamenridercraft4th:sword_of_logos_wood"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:sword_of_logos_tabel_top",
+	"count": 3
+  }
+}

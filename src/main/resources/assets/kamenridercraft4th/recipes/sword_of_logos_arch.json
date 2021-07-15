@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WAA",
+    "AGG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+	  "item": "kamenridercraft4th:sword_of_logos_wood"
+    },
+	"W": {
+      "item": "kamenridercraft4th:sword_of_logos_brick"
+    },
+	"A": {
+      "item": "kamenridercraft4th:sword_of_logos_gold_block"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:sword_of_logos_arch",
+	"count": 9
+  }
+}

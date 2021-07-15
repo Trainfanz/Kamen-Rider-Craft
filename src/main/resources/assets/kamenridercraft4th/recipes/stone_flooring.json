@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WGW",
+    "GWG",
+    "WGW"
+  ],
+  "key": {
+    "W": {
+	  "item": "minecraft:stone",
+	  "data": 0
+    },
+	"G": {
+	  "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:stone_flooring",
+	"count": 9
+  }
+}

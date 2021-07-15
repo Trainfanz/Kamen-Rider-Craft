@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#d#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brick_block"
+    },
+	"d": {
+      "item": "minecraft:dye",
+      "data": 15
+	}
+  },
+  "result": {
+    "item": "kamenridercraft4th:sword_of_logos_brick",
+	"count": 8
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "G": {
+	  "item": "minecraft:gold_block"
+    },
+	"W": {
+      "item": "kamenridercraft4th:sword_of_logos_wood"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:planks_big_oak_golden_trim",
+	"count": 9
+  }
+}

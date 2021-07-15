@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#d#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:planks",
+	  "data": 0
+    },
+	"d": {
+      "item": "minecraft:dye",
+      "data": 3
+	}
+  },
+  "result": {
+    "item": "kamenridercraft4th:planks_brown",
+	"count": 8
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "ddd",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "kamenridercraft4th:planks_brown"
+    },
+	"d": {
+      "item": "minecraft:book"
+	}
+  },
+  "result": {
+    "item": "kamenridercraft4th:sword_of_logos_bookshelf"
+  }
+}

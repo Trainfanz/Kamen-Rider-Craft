@@ -1,0 +1,25 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "particle": "kamenridercraft4th:blocks/wooden_panel6",
+        "0": "kamenridercraft4th:blocks/wooden_panel4",
+        "1": "kamenridercraft4th:blocks/wooden_panel2",
+        "2": "kamenridercraft4th:blocks/wooden_panel5",
+        "3": "kamenridercraft4th:blocks/wooden_panel3"
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 0.0, 0.0, 0.0 ], 
+            "to": [ 16.0, 16.0, 16.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "east": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "south": { "texture": "#2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "west": { "texture": "#3", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "up": { "texture": "#2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "down": { "texture": "#2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        }
+    ]
+}

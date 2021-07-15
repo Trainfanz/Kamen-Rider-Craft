@@ -4,7 +4,8 @@
     "recipes": [
       "kamenridercraft4th:planks_dark_blue",
       "kamenridercraft4th:planks_light_blue",
-      "kamenridercraft4th:planks_white"
+      "kamenridercraft4th:planks_white",
+      "kamenridercraft4th:planks_brown"
     ]
   },
   "criteria": {
@@ -36,6 +37,12 @@
       "conditions": {
         "recipe": "kamenridercraft4th:planks_white"
       }
+    },
+    "has_the_recipe3": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:planks_brown"
+      }
     }
   },
   "requirements": [
@@ -43,7 +50,8 @@
       "has_logo",
       "has_the_recipe",
       "has_the_recipe1",
-      "has_the_recipe2"
+      "has_the_recipe2",
+      "has_the_recipe3"
     ]
   ]
 }

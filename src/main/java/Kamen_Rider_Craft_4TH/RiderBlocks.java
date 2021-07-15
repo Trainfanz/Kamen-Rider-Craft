@@ -99,13 +99,14 @@ public class RiderBlocks {
 	public static Block sword_of_logos_brick = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("sword_of_logos_brick").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block wooden_panel = CustomBlock.builder().material(Material.WOOD).blockType(BlockType.BASIC).name("wooden_panel").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block sword_of_logos_wood = CustomBlock.builder().material(Material.WOOD).blockType(BlockType.BASIC).name("sword_of_logos_wood").setCreativeTabe(Tabs.tabdecor).build();
-	public static Block  sword_of_logos_wood_stairs = new BlockCustomStaris(Blocks.ACACIA_STAIRS.getDefaultState(), "sword_of_logos_wood_stairs").setCreativeTab(Tabs.tabdecor);
-	public static Block  sword_of_logos_gold_stairs = new BlockCustomStaris(Blocks.STONE.getDefaultState(), "sword_of_logos_gold_stairs").setCreativeTab(Tabs.tabdecor);
+	public static Block sword_of_logos_wood2 = CustomBlock.builder().material(Material.WOOD).blockType(BlockType.BASIC).name("sword_of_logos_wood2").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block sword_of_logos_wood_stairs = new BlockCustomStaris(Blocks.ACACIA_STAIRS.getDefaultState(), "sword_of_logos_wood_stairs").setCreativeTab(Tabs.tabdecor);
+	public static Block sword_of_logos_gold_stairs = new BlockCustomStaris(Blocks.STONE.getDefaultState(), "sword_of_logos_gold_stairs").setCreativeTab(Tabs.tabdecor);
 	
 	public static Block sword_of_logos_tabel = new BlockCustomStaris(Blocks.ACACIA_STAIRS.getDefaultState(), "sword_of_logos_tabel").setCreativeTab(Tabs.tabdecor);
 	public static Block sword_of_logos_tabel_top = CustomBlock.builder().material(Material.WOOD).blockType(BlockType.DIRECTIONAL).lightLevel(1).name("sword_of_logos_tabel_top").setCreativeTabe(Tabs.tabdecor).build();
 	
-	public static Block sword_of_logos_wood2 = CustomBlock.builder().material(Material.WOOD).blockType(BlockType.DIRECTIONAL).name("sword_of_logos_wood2").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block wooden_panel2 = CustomBlock.builder().material(Material.WOOD).blockType(BlockType.DIRECTIONAL).name("wooden_panel2").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block quartz_block_gold_trim = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("quartz_block_gold_trim").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block sword_of_logos_gold_trim = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("sword_of_logos_gold_trim").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block sword_of_logos_gold_block = CustomBlock.builder().material(Material.ROCK).blockType(BlockType.BASIC).name("sword_of_logos_gold_block").setCreativeTabe(Tabs.tabdecor).build();
@@ -114,6 +115,7 @@ public class RiderBlocks {
 	public static Block sword_of_logos_sword_blade = CustomBlock.builder().material(Material.IRON).blockType(BlockType.DIRECTIONAL).name("sword_of_logos_sword_blade").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block sword_of_logos_arch = CustomBlock.builder().material(Material.WOOD).blockType(BlockType.DIRECTIONAL).name("sword_of_logos_arch").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block sword_of_logos_wood_trim = CustomBlock.builder().material(Material.WOOD).blockType(BlockType.DIRECTIONAL).name("sword_of_logos_wood_trim").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block planks_brown = CustomBlock.builder().material(Material.WOOD).blockType(BlockType.BASIC).name("planks_brown").setCreativeTabe(Tabs.tabdecor).build();
 	
 	
 	

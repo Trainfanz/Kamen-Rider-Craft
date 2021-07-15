@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  W",
+    " WW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+	  "item": "kamenridercraft4th:sword_of_logos_gold_block"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:sword_of_logos_gold_stairs",
+	"count": 6
+  }
+}

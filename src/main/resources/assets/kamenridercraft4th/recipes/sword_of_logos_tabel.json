@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGW",
+    "GWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+	  "item": "kamenridercraft4th:sword_of_logos_wood"
+    },
+	"G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:sword_of_logos_tabel",
+	"count": 6
+  }
+}
