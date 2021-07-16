@@ -86,6 +86,21 @@ public class item_OOOarmor extends ItemArmor  implements IHasModel
 						return Refercence.MODID+":textures/armor/"+"birth_3" +".png";
 					}
 					return Refercence.MODID+":textures/armor/blank.png";
+				}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.rebirth_driver){
+					if ( slot == EntityEquipmentSlot.HEAD)
+					{
+						return Refercence.MODID+":textures/armor/"+"rebirth_1" +".png";
+					}
+					if ( slot == EntityEquipmentSlot.CHEST)
+					{
+						return Refercence.MODID+":textures/armor/"+"rebirth_2" +".png";
+					}
+
+					if ( slot == EntityEquipmentSlot.LEGS)
+					{
+						return Refercence.MODID+":textures/armor/"+"rebirth_3" +".png";
+					}
+					return Refercence.MODID+":textures/armor/blank.png";
 				}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.birth_driver_prototype){
 					if ( slot == EntityEquipmentSlot.HEAD)
 					{
