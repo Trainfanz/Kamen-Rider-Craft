@@ -78,6 +78,16 @@ entity.RyutarosMob.name=Ryutaros
 entity.WhiteWozMob.name=Kamen Rider Woz (White)
 entity.GingaMob.name=Kamen Rider Ginga
 
+
+entity.SabelaMob.name=Kamen Rider Sabela
+entity.DurendalMob.name=Kamen Rider Durendal
+entity.SolomonMob.name=Kamen Rider Solomon
+entity.LegeielMob.name=Legeiel
+entity.LegeielForbiddenMob.name=Legeiel Forbidden
+entity.ZooousMob.name=Zooous
+entity.ZooousPredatorMob.name=Zooous Predator
+entity.StoriousMob.name=Storious
+
 entity.TrilobiteMagiaMob.name=Trilobite Magia
 entity.dodoChickMob.name=Dodo Magia Chick
 entity.BattleRaiderMob.name=Battle Raider
