@@ -3328,6 +3328,8 @@ public class RiderItems {
 	public static Item forbidden_tome = new Item_ore("forbidden_tome").setCreativeTab(Tabs.tabsaber);
 	public static Item great_book_fragment = new Item_ore("great_book_fragment").setCreativeTab(Tabs.tabsaber);
 
+	public static Item seiken_swordriver = new Item_ore("seiken_swordriver");
+	
 	public static Item seiken_swordriver_dragon = new Item_ore("seiken_swordriver_dragon");
 	public static Item seiken_swordriver_pegasus = new Item_ore("seiken_swordriver_pegasus");
 	public static Item seiken_swordriver_cerberus = new Item_ore("seiken_swordriver_cerberus");
