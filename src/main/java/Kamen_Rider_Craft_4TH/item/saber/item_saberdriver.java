@@ -6,6 +6,7 @@ import org.lwjgl.opengl.GL11;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
 import Kamen_Rider_Craft_4TH.model.model_belt;
 import Kamen_Rider_Craft_4TH.model.model_belt_plus;
@@ -362,13 +363,38 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 			if(stack.getItem() instanceof ItemArmor)
 			{
 				model_belt_plus armorModel = new model_belt_plus();
+				
+				armorModel.belt=stack;
+				
+				Item[] shinjuu= new Item[] {stack.getItem(),RiderItems.seiken_swordriver_dragon,RiderItems.seiken_swordriver_genbu,
+						RiderItems.seiken_swordriver_jaaku_dragon,RiderItems.seiken_swordriver_pegasus,RiderItems.seiken_swordriver_cerberus,
+						RiderItems.seiken_swordriver_phoenix};
+				Item[] seibutsu= new Item[] {stack.getItem(),RiderItems.seiken_swordriver_lion,RiderItems.seiken_swordriver_hedgehog,
+						RiderItems.seiken_swordriver_eagle};
+				Item[] monogatari= new Item[] {stack.getItem(),RiderItems.seiken_swordriver_peter,RiderItems.seiken_swordriver_jackun,
+						RiderItems.seiken_swordriver_alangina,RiderItems.seiken_swordriver_butasan,RiderItems.seiken_swordriver_ninja,
+						RiderItems.seiken_swordriver_arthur,RiderItems.seiken_swordriver_kirin,RiderItems.seiken_swordriver_sarukani,
+						RiderItems.seiken_swordriver_usakame,RiderItems.seiken_swordriver_saiyuu,RiderItems.seiken_swordriver_hansel,
+						RiderItems.seiken_swordriver_bremen,RiderItems.seiken_swordriver_houshin_engi,RiderItems.seiken_swordriver_kaguyan,
+						RiderItems.seiken_swordriver_jizousan,RiderItems.seiken_swordriver_issun,RiderItems.seiken_swordriver_televikun,
+						RiderItems.seiken_swordriver_momoichirou,RiderItems.seiken_swordriver_urashima_jirou,RiderItems.seiken_swordriver_kinzaburou};
+				Item[] others= new Item[] {RiderItems.blanknoitem,RiderItems.jaken_caliburdriver_jaou,RiderItems.seiken_swordriver_dragonic,
+						RiderItems.seiken_swordriver_emotional,RiderItems.seiken_swordriver_ghost,RiderItems.seiken_saikou_driver_x_swordman,
+						RiderItems.seiken_saikou_driver_x_swordman2,RiderItems.seiken_saikou_driver_x_swordman1,RiderItems.seiken_swordriver_king_lion,
+						RiderItems.seiken_swordriver_primitive,RiderItems.seiken_swordriver_elemental,RiderItems.seiken_swordriver_tategami,
+						RiderItems.blanknoitem,RiderItems.seiken_swordriver_specter,RiderItems.seiken_swordriver_super_hero_senki};
 
 				if (stack.getItem()==RiderItems.sword_of_logos_buckle_buster){
 					if(living.getHeldItemMainhand().getItem()!= RiderItems.dogouken_gekido&living.getHeldItemOffhand().getItem()!= RiderItems.dogouken_gekido){
 						armorModel.wings= new ItemStack(RiderItems.dogouken_gekido_back);
 					}
 				}
-				armorModel.belt=stack;
+				
+				armorModel.belt5=new ItemStack(others[this.get_core_for_forms(stack,"f")]);
+				armorModel.belt2=new ItemStack(shinjuu[this.get_core_for_forms(stack,"l")]);
+				armorModel.belt3=new ItemStack(seibutsu[this.get_core_for_forms(stack,"m")]);
+				armorModel.belt4=new ItemStack(monogatari[this.get_core_for_forms(stack,"r")]);
+				
 				armorModel.isSneak = defaultModel.isSneak;
 				armorModel.isRiding = defaultModel.isRiding;
 				armorModel.isChild = defaultModel.isChild;

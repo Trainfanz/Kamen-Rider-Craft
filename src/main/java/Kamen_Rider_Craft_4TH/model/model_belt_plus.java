@@ -42,6 +42,7 @@ public class model_belt_plus extends ModelBiped
 	public ItemStack belt2=new ItemStack(RiderItems.blanknoitem);
 	public ItemStack belt3=new ItemStack(RiderItems.blanknoitem);
 	public ItemStack belt4=new ItemStack(RiderItems.blanknoitem);
+	public ItemStack belt5=new ItemStack(RiderItems.blanknoitem);
 	public ItemStack wings=new ItemStack(RiderItems.blanknoitem);
 
 	public model_belt_plus()
@@ -206,6 +207,7 @@ public class model_belt_plus extends ModelBiped
 			Minecraft.getMinecraft().getItemRenderer().renderItem(living,belt2,null);
 			Minecraft.getMinecraft().getItemRenderer().renderItem(living,belt3,null);
 			Minecraft.getMinecraft().getItemRenderer().renderItem(living,belt4,null);
+			Minecraft.getMinecraft().getItemRenderer().renderItem(living,belt5,null);
 			GL11.glPopMatrix();
 			GL11.glPopMatrix();
 			

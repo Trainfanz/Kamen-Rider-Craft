@@ -3327,6 +3327,55 @@ public class RiderItems {
 	public static Item book_of_ruin = new item_book_of_ruin("book_of_ruin").setCreativeTab(Tabs.tabsaber);
 	public static Item forbidden_tome = new Item_ore("forbidden_tome").setCreativeTab(Tabs.tabsaber);
 	public static Item great_book_fragment = new Item_ore("great_book_fragment").setCreativeTab(Tabs.tabsaber);
+
+	public static Item seiken_swordriver_dragon = new Item_ore("seiken_swordriver_dragon");
+	public static Item seiken_swordriver_pegasus = new Item_ore("seiken_swordriver_pegasus");
+	public static Item seiken_swordriver_cerberus = new Item_ore("seiken_swordriver_cerberus");
+	public static Item seiken_swordriver_genbu = new Item_ore("seiken_swordriver_genbu");
+	public static Item seiken_swordriver_jaaku_dragon = new Item_ore("seiken_swordriver_jaaku_dragon");
+	public static Item seiken_swordriver_phoenix = new Item_ore("seiken_swordriver_phoenix");
+	
+	public static Item seiken_swordriver_eagle = new Item_ore("seiken_swordriver_eagle");
+	public static Item seiken_swordriver_lion = new Item_ore("seiken_swordriver_lion");
+	public static Item seiken_swordriver_hedgehog = new Item_ore("seiken_swordriver_hedgehog");
+	
+	public static Item seiken_swordriver_saiyuu = new Item_ore("seiken_swordriver_saiyuu");
+	public static Item seiken_swordriver_peter = new Item_ore("seiken_swordriver_peter");
+	public static Item seiken_swordriver_alangina = new Item_ore("seiken_swordriver_alangina");
+	public static Item seiken_swordriver_jackun = new Item_ore("seiken_swordriver_jackun");
+	public static Item seiken_swordriver_ninja = new Item_ore("seiken_swordriver_ninja");
+	public static Item seiken_swordriver_butasan = new Item_ore("seiken_swordriver_butasan");
+	public static Item seiken_swordriver_hansel = new Item_ore("seiken_swordriver_hansel");
+	public static Item seiken_swordriver_bremen = new Item_ore("seiken_swordriver_bremen");
+	public static Item seiken_swordriver_arthur = new Item_ore("seiken_swordriver_arthur");
+	public static Item seiken_swordriver_kirin = new Item_ore("seiken_swordriver_kirin");
+	public static Item seiken_swordriver_houshin_engi = new Item_ore("seiken_swordriver_houshin_engi");
+	public static Item seiken_swordriver_jizousan = new Item_ore("seiken_swordriver_jizousan");
+	public static Item seiken_swordriver_usakame = new Item_ore("seiken_swordriver_usakame");
+	public static Item seiken_swordriver_kaguyan = new Item_ore("seiken_swordriver_kaguyan");
+	public static Item seiken_swordriver_issun = new Item_ore("seiken_swordriver_issun");
+	public static Item seiken_swordriver_sarukani = new Item_ore("seiken_swordriver_sarukani");
+	public static Item seiken_swordriver_televikun = new Item_ore("seiken_swordriver_televikun");
+	public static Item seiken_swordriver_momoichirou = new Item_ore("seiken_swordriver_momoichirou");
+	public static Item seiken_swordriver_urashima_jirou = new Item_ore("seiken_swordriver_urashima_jirou");
+	public static Item seiken_swordriver_kinzaburou = new Item_ore("seiken_swordriver_kinzaburou");
+
+	public static Item seiken_swordriver_dragonic = new Item_ore("seiken_swordriver_dragonic");
+	public static Item seiken_swordriver_primitive = new Item_ore("seiken_swordriver_primitive");
+	public static Item seiken_swordriver_elemental = new Item_ore("seiken_swordriver_elemental");
+	public static Item seiken_swordriver_emotional = new Item_ore("seiken_swordriver_emotional");
+	public static Item seiken_swordriver_ghost = new Item_ore("seiken_swordriver_ghost");
+	public static Item seiken_swordriver_super_hero_senki = new Item_ore("seiken_swordriver_super_hero_senki");
+
+	public static Item seiken_swordriver_king_lion = new Item_ore("seiken_swordriver_king_lion");
+	public static Item seiken_swordriver_tategami = new Item_ore("seiken_swordriver_tategami");
+	public static Item seiken_swordriver_specter = new Item_ore("seiken_swordriver_specter");
+	
+	public static Item jaken_caliburdriver_jaou = new Item_ore("jaken_caliburdriver_jaou");
+	
+	public static Item seiken_saikou_driver_x_swordman = new Item_ore("seiken_saikou_driver_x_swordman");
+	public static Item seiken_saikou_driver_x_swordman1 = new Item_ore("seiken_saikou_driver_x_swordman1");
+	public static Item seiken_saikou_driver_x_swordman2 = new Item_ore("seiken_saikou_driver_x_swordman2");
 	
 	public static Item revice_head = new Item_ore("revice_head");
 	

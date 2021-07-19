@@ -2,6 +2,6 @@
   "_comment": "Generated using MiningMark48's JSON Generator.",
   "parent": "item/generated",
   "textures": {
-    "layer0": "kamenridercraft4th:items/seiken_swordriver"
+    "layer0": "kamenridercraft4th:items/seiken_swordriver_elemental"
   }
 }
