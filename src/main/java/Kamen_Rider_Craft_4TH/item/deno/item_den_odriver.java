@@ -290,6 +290,8 @@ public class item_den_odriver extends ItemArmor implements IHasModel
 						armorModel.belt=new ItemStack(RiderItems.den_odriverwing);
 					}else if(form == 3){
 						armorModel.belt=new ItemStack(RiderItems.den_odriveraxe);
+					}else if(form == 9){
+						armorModel.belt=new ItemStack(RiderItems.den_obeltpudding);
 					}else{
 						armorModel.belt=new ItemStack(RiderItems.den_obeltclimax);
 					}

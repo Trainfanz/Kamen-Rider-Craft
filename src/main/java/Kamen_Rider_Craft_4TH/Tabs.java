@@ -471,7 +471,7 @@ public class Tabs {
 		
 		@Override
 		public ItemStack createIcon() {
-			return new ItemStack(RiderItems.revice_head);
+			return new ItemStack(RiderItems.revicehead);
 		}
 	};
 	public static CreativeTabs tabamazons = new CreativeTabs("tabamazons")

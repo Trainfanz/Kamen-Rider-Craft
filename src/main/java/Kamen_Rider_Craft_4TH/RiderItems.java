@@ -94,6 +94,9 @@ import Kamen_Rider_Craft_4TH.item.ooo.Itemo_scanner;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOarmor;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOarmor2;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
+import Kamen_Rider_Craft_4TH.item.revice.item_revicearmor;
+import Kamen_Rider_Craft_4TH.item.revice.item_revicearmor2;
+import Kamen_Rider_Craft_4TH.item.revice.item_revicedriver;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_armor;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_armor2;
@@ -327,6 +330,9 @@ public class RiderItems {
 	public static Item ichigolegs = new item_Ichigoarmor2("ichigolegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 
 	public static Item typhoon_ichigo = new item_Ichigodriver("typhoon_ichigo",ArmorMaterial.DIAMOND, 4,"ichigo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_original_ichigo = new item_Ichigodriver("typhoon_original_ichigo",ArmorMaterial.DIAMOND, 4,"original_ichigo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_sakurajima_ichigo = new item_Ichigodriver("typhoon_sakurajima_ichigo",ArmorMaterial.DIAMOND, 4,"sakurajima_ichigo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	
 	public static Item typhoon_nigo = new item_Ichigodriver("typhoon_nigo",ArmorMaterial.DIAMOND, 4,"nigo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 
 	public static Item new_typhoon = new item_Ichigodriver("new_typhoon",ArmorMaterial.DIAMOND, 4,"new_ichigo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
@@ -346,6 +352,8 @@ public class RiderItems {
 	public static Item typhoon_shocker_rider_12 = new item_Ichigodriver("typhoon_shocker_rider_12",ArmorMaterial.DIAMOND, 4,"shocker_rider_12").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 
 	public static Item double_typhoon = new item_Ichigodriver("double_typhoon",ArmorMaterial.DIAMOND, 4,"v3").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item double_typhoon_blue = new item_Ichigodriver("double_typhoon_blue",ArmorMaterial.DIAMOND, 4,"blue_v3").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	
 	public static Item riderman_belt = new item_Ichigodriver("riderman_belt",ArmorMaterial.DIAMOND, 4,"riderman").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item ridol = new item_Ichigodriver("ridol",ArmorMaterial.DIAMOND, 4,"x").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item condorer = new item_Ichigodriver("condorer",ArmorMaterial.DIAMOND, 4,"amazon").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
@@ -1034,7 +1042,8 @@ public class RiderItems {
 	public static Item nega_den_gasher = new ItemBaseSword("nega_den_gasher",Tabs.nega_den_gasher, RiderItems.imaginsand).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
 	public static Item gaoh_gasher = new ItemBaseSword("gaoh_gasher",Tabs.gaoh_gasher, RiderItems.imaginsand).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
 	public static Item den_gasher_vega = new ItemBaseSword("den_gasher_vega",Tabs.den_gasher_vega, RiderItems.imaginsand).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
-
+	public static Item den_den_pudding = new ItemBaseSword("den_den_pudding",Tabs.den_denro, RiderItems.imaginsand).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
+	
 	public static Item momotaro_sword = new ItemBaseSword("momotaro_sword",Tabs.momotaken, RiderItems.imaginsand).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
 	public static Item uratarod = new ItemBaseSword("uratarod",Tabs.uratazao, RiderItems.imaginsand).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
 	public static Item kintaros_ax = new ItemBaseSword("kintaros_ax",Tabs.kintaono, RiderItems.imaginsand).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
@@ -1053,7 +1062,7 @@ public class RiderItems {
 	public static Item den_odrivergun = new Item_ore("den_odrivergun");
 	public static Item den_odriverwing = new Item_ore("den_odriverwing");
 	public static Item den_obeltclimax = new Item_ore("den_obeltclimax");
-
+	public static Item den_obeltpudding = new Item_ore("den_obeltpudding");	
 	public static Item chou_climax_wings = new Item_ore("chou_climax_wings");
 	
 	public static Item den_odriver = new item_den_odriver("den_odriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
@@ -1093,6 +1102,7 @@ public class RiderItems {
 	public static Item rider_ticket_g = new Itemrider_ticket(0,3,"rider_ticket_g").setCreativeTab(Tabs.tabden_o);
 	public static Item rider_ticket_gaoh = new Itemrider_ticket(0,3,"rider_ticket_gaoh").setCreativeTab(Tabs.tabden_o);
 	public static Item rider_ticket_strike = new Itemrider_ticket(1,2,"rider_ticket_strike").setCreativeTab(Tabs.tabden_o);
+	public static Item rider_ticket_pudding = new Itemrider_ticket(9,0,"rider_ticket_pudding").setCreativeTab(Tabs.tabden_o);
 
 	public static Item ktaros = new Itemrider_ticket(6,0,"ktaros").setCreativeTab(Tabs.tabden_o);
 
@@ -1458,6 +1468,8 @@ public class RiderItems {
 	public static Item core_driver_power_up = new item_OOOdriver("core_driver_power_up",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 
 	public static Item greeed_blet_ankh = new item_OOOdriver("greeed_blet_ankh",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+	public static Item greeed_blet_uva = new item_OOOdriver("greeed_blet_uva",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+	public static Item greeed_blet_kazari = new item_OOOdriver("greeed_blet_kazari",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 
 	public static Item taka = new Itemmedal(0, "1","taka").setCreativeTab(Tabs.tabOOO);
 	public static Item kuwagata = new Itemmedal(1, "1","kuwagata").setCreativeTab(Tabs.tabOOO);
@@ -3379,7 +3391,12 @@ public class RiderItems {
 	public static Item seiken_saikou_driver_x_swordman1 = new Item_ore("seiken_saikou_driver_x_swordman1");
 	public static Item seiken_saikou_driver_x_swordman2 = new Item_ore("seiken_saikou_driver_x_swordman2");
 	
-	public static Item revice_head = new Item_ore("revice_head");
+	
+	public static Item revicehead = new item_revicearmor("revicehead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	public static Item revicetroso = new item_revicearmor2("revicetroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	public static Item revicelegs = new item_revicearmor2("revicelegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+
+	public static Item revice_driver = new item_revicedriver("revice_driver",ArmorMaterial.DIAMOND, 4, "revi",0).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	
 	
 	public static Item amazonshead = new item_amazonsarmor("amazonshead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);
