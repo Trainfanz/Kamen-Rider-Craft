@@ -440,71 +440,7 @@ public class ore_block extends Block implements IHasModel {
 			return CRYSTAL;
 		}
 
-
-		if (CRYSTAL == RiderItems.cellmedal){
-			int rand = generator.nextInt(180);
-
-			if (rand < 10) return RiderItems.taka;
-			if (rand < 20) return RiderItems.tora;
-			if (rand < 30) return RiderItems.batta;
-			if (rand < 35) return RiderItems.cheetah;
-			if (rand < 40) return RiderItems.kamakiri;
-			if (rand < 44) return RiderItems.lion;
-			if (rand < 48) return RiderItems.kuwagata;
-			if (rand < 53) return RiderItems.sai;
-			if (rand < 55) return RiderItems.gorilla;
-			if (rand < 59) return RiderItems.zou;
-			if (rand < 61) return RiderItems.condor;
-			if (rand < 63) return RiderItems.kujaku;
-			if (rand < 65) return RiderItems.shachi;
-			if (rand < 67) return RiderItems.unagi;
-			if (rand < 69) return RiderItems.tako;
-			if (rand < 70) return RiderItems.ptera;
-			if (rand < 71) return RiderItems.tricera;
-			if (rand < 72) return RiderItems.tyranno;
-			return CRYSTAL;
-		}
-
-		if (CRYSTAL == RiderItems.birth_core){
-			int rand = generator.nextInt(180);
-
-			if (rand < 30) return RiderItems.cellmedal;
-			if (rand < 35) return RiderItems.proto_birth_core;
-			if (rand < 40) return RiderItems.cobra;
-			if (rand < 45) return RiderItems.kame;
-			if (rand < 50) return RiderItems.wani;
-			if (rand < 55) return RiderItems.panda;
-			if (rand < 60) return RiderItems.kangaroo;
-			if (rand < 65) return RiderItems.kangaroo2;
-			if (rand < 68) return RiderItems.imagin;
-			if (rand < 71) return RiderItems.shocker;
-			if (rand < 74) return RiderItems.same;
-			if (rand < 77) return RiderItems.kujira;
-			if (rand < 80) return RiderItems.ookamiuo;
-			if (rand < 85) return RiderItems.sasori;
-			if (rand < 90) return RiderItems.kani;
-			if (rand < 95) return RiderItems.ebi;
-			if (rand < 97) return RiderItems.super_taka;
-			if (rand < 99) return RiderItems.super_tora;
-			if (rand < 101) return RiderItems.super_batta;
-			if (rand < 102) return RiderItems.love_core;
-			if (rand < 103) return RiderItems.love_core2;
-			if (rand < 104) return RiderItems.love_core3;
-			if (rand < 109) return RiderItems.shika;
-			if (rand < 114) return RiderItems.gazelle;
-			if (rand < 119) return RiderItems.ushi;
-			if (rand < 124) return RiderItems.seiuchi;
-			if (rand < 129) return RiderItems.shirokuma;
-			if (rand < 134) return RiderItems.penguin;
-			if (rand < 139) return RiderItems.mukade;
-			if (rand < 144) return RiderItems.hachi;
-			if (rand < 149) return RiderItems.ari;
-			if (rand < 154) return RiderItems.ebi_new;
-			if (rand < 159) return RiderItems.kani_new;
-			if (rand < 164) return RiderItems.sasori_new;
-			if (rand < 169) return RiderItems.yadokari;
-			return CRYSTAL;
-		}
+	
 
 
 		if (CRYSTAL == RiderItems.amazon_cell_vial){

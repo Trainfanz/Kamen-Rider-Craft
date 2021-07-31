@@ -1457,19 +1457,21 @@ public class RiderItems {
 	public static Item tajador_wings = new Item_ore("tajador_wings");
 	public static Item condor_wings = new Item_ore("condor_wings");
 
-	public static Item OOOdriver = new item_OOOdriver("ooodriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
-	public static Item birth_driver = new item_OOOdriver("birth_driver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
-	public static Item birth_driver_prototype = new item_OOOdriver("birth_driver_prototype",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
-	public static Item rebirth_driver = new item_OOOdriver("rebirth_driver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
-	public static Item poseidon_driver = new item_OOOdriver("poseidon_driver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
-	public static Item aqua_driver = new item_OOOdriver("aqua_driver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+	public static Item OOOdriver = new item_OOOdriver("ooodriver",ArmorMaterial.DIAMOND, 4,"ooo").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+	public static Item birth_driver = new item_OOOdriver("birth_driver",ArmorMaterial.DIAMOND, 4,"birth").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+	public static Item birth_driver_prototype = new item_OOOdriver("birth_driver_prototype",ArmorMaterial.DIAMOND, 4,"birth_prototype").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+	public static Item rebirth_driver = new item_OOOdriver("rebirth_driver",ArmorMaterial.DIAMOND, 4,"rebirth").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+	public static Item poseidon_driver = new item_OOOdriver("poseidon_driver",ArmorMaterial.DIAMOND, 4,"poseidon").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+	public static Item aqua_driver = new item_OOOdriver("aqua_driver",ArmorMaterial.DIAMOND, 4,"aqua").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 
-	public static Item core_driver = new item_OOOdriver("core_driver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
-	public static Item core_driver_power_up = new item_OOOdriver("core_driver_power_up",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
-
-	public static Item greeed_blet_ankh = new item_OOOdriver("greeed_blet_ankh",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
-	public static Item greeed_blet_uva = new item_OOOdriver("greeed_blet_uva",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
-	public static Item greeed_blet_kazari = new item_OOOdriver("greeed_blet_kazari",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+	public static Item core_driver = new item_OOOdriver("core_driver",ArmorMaterial.DIAMOND, 4,"core").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+	public static Item core_driver_power_up = new item_OOOdriver("core_driver_power_up",ArmorMaterial.DIAMOND, 4,"core_power_up").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+	
+	public static Item greeed_blet_ankh = new item_OOOdriver("greeed_blet_ankh",ArmorMaterial.DIAMOND, 4,"ankh_complete").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+	public static Item greeed_blet_uva = new item_OOOdriver("greeed_blet_uva",ArmorMaterial.DIAMOND, 4,"uva_complete").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+	public static Item greeed_blet_kazari = new item_OOOdriver("greeed_blet_kazari",ArmorMaterial.DIAMOND, 4,"kazari_complete").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+	public static Item greeed_blet_mezool = new item_OOOdriver("greeed_blet_mezool",ArmorMaterial.DIAMOND, 4,"mezool_complete").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+	public static Item greeed_blet_gamel = new item_OOOdriver("greeed_blet_gamel",ArmorMaterial.DIAMOND, 4,"gamel_complete").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 
 	public static Item taka = new Itemmedal(0, "1","taka").setCreativeTab(Tabs.tabOOO);
 	public static Item kuwagata = new Itemmedal(1, "1","kuwagata").setCreativeTab(Tabs.tabOOO);
@@ -1497,7 +1499,7 @@ public class RiderItems {
 	public static Item imagin = new Itemmedal(7, "2","imagin").setCreativeTab(Tabs.tabOOO);
 	public static Item panda = new Itemmedal(8, "2","panda").setCreativeTab(Tabs.tabOOO);
 	public static Item super_tora = new Itemmedal(9, "2","super_tora").setCreativeTab(Tabs.tabOOO);
-	public static Item kangaroo = new Itemmedal(10, "2","kangaroo").setCreativeTab(Tabs.tabOOO);
+	public static Item kangaroo = new Itemmedal(10, "2","kangaroo").Shift_form(9, "3").setCreativeTab(Tabs.tabOOO);
 	public static Item kujira = new Itemmedal(12, "2","kujira").setCreativeTab(Tabs.tabOOO);
 	public static Item gazelle = new Itemmedal(13, "2","gazelle").setCreativeTab(Tabs.tabOOO);
 	public static Item shirokuma = new Itemmedal(14, "2","shirokuma").setCreativeTab(Tabs.tabOOO);
@@ -1513,9 +1515,8 @@ public class RiderItems {
 	public static Item tako = new Itemmedal(4, "3","tako").setCreativeTab(Tabs.tabOOO);
 	public static Item tyranno = new Itemmedal(5, "3","tyranno").setCreativeTab(Tabs.tabOOO);
 	public static Item wani = new Itemmedal(6, "3","wani").setCreativeTab(Tabs.tabOOO);
-	public static Item shocker = new Itemmedal(7, "3","shocker").setCreativeTab(Tabs.tabOOO);
+	public static Item shocker = new Itemmedal(7, "3","shocker").Shift_form(16, "1").setCreativeTab(Tabs.tabOOO);
 	public static Item super_batta = new Itemmedal(8, "3","super_batta").setCreativeTab(Tabs.tabOOO);
-	public static Item kangaroo2 = new Itemmedal(9, "3","kangaroo2").setCreativeTab(Tabs.tabOOO);
 	public static Item ookamiuo = new Itemmedal(11, "3","ookamiuo").setCreativeTab(Tabs.tabOOO);
 	public static Item ushi = new Itemmedal(12, "3","ushi").setCreativeTab(Tabs.tabOOO);
 	public static Item penguin = new Itemmedal(13, "3","penguin").setCreativeTab(Tabs.tabOOO);
@@ -1526,13 +1527,15 @@ public class RiderItems {
 	public static Item love_core = new Itemmedal(8, "1","love_core").setCreativeTab(Tabs.tabOOO);
 	public static Item love_core2 = new Itemmedal(11, "2","love_core2").setCreativeTab(Tabs.tabOOO);
 	public static Item love_core3 = new Itemmedal(10, "3","love_core3").setCreativeTab(Tabs.tabOOO);
-
-
+	
 	public static Item sasori = new Item_ore("sasori").setCreativeTab(Tabs.tabOOO);
 	public static Item kani = new Item_ore("kani").setCreativeTab(Tabs.tabOOO);
 	public static Item ebi = new Item_ore("ebi").setCreativeTab(Tabs.tabOOO);
 
-	/**
+	public static Item x_core = new Item_ore("x_core").setCreativeTab(Tabs.tabOOO);
+	public static Item amazon_core = new Item_ore("amazon_core").setCreativeTab(Tabs.tabOOO);
+	public static Item stronger_core = new Item_ore("stronger_core").setCreativeTab(Tabs.tabOOO);
+	
 	public static Item foundation_x_taka = new Itemmedal(0, "1","foundation_x_taka").setCreativeTab(Tabs.tabOOO);
 	public static Item foundation_x_kuwagata = new Itemmedal(1, "1","foundation_x_kuwagata").setCreativeTab(Tabs.tabOOO);
 	public static Item foundation_x_lion = new Itemmedal(2, "1","foundation_x_lion").setCreativeTab(Tabs.tabOOO);
@@ -1574,7 +1577,17 @@ public class RiderItems {
 	public static Item zeus_tako = new Itemmedal(4, "3","zeus_tako").setCreativeTab(Tabs.tabOOO);
 	public static Item zeus_tyranno = new Itemmedal(5, "3","zeus_tyranno").setCreativeTab(Tabs.tabOOO);
 	public static Item zeus_ari = new Itemmedal(14, "3","zeus_ari").setCreativeTab(Tabs.tabOOO);
-**/
+
+
+	public static Item gel_shocker_core = new Itemmedal(19, "2","gel_shocker_core").setCreativeTab(Tabs.tabOOO);
+	public static Item destron_core = new Itemmedal(17, "3","destron_core").setCreativeTab(Tabs.tabOOO);
+	public static Item god_core = new Item_ore("god_core").setCreativeTab(Tabs.tabOOO);
+	public static Item garanda_core = new Item_ore("garanda_core").setCreativeTab(Tabs.tabOOO);
+	public static Item delza_core = new Item_ore("delza_core").setCreativeTab(Tabs.tabOOO);
+	public static Item neo_shocker_core = new Item_ore("neo_shocker_core").setCreativeTab(Tabs.tabOOO);
+	public static Item jin_dogma_core = new Item_ore("jin_dogma_core").setCreativeTab(Tabs.tabOOO);
+	public static Item badan_core = new Item_ore("badan_core").setCreativeTab(Tabs.tabOOO);
+
 	
 	public static Item proto_birth_core = new Item_ore("proto_birth_core").setCreativeTab(Tabs.tabOOO);
 

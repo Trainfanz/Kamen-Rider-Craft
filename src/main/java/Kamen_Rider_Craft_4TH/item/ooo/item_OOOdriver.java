@@ -39,20 +39,19 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class item_OOOdriver extends ItemArmor implements IHasModel
 {
-	public static final int[] Corecol1= new int[] {0xff0000,0x7dff09,0xff9204,0xd2d2d2,0x1560c5,0xd919ea,0xe0ba5d,0xff0000};
-	public static final int[] Corecol2= new int[] {0xfcff00,0x6cc43e,0x818181,0xff0000,0x2c41ff,0xd45ef3,0xd9bb64,0xff0000,0xffffff,0xfcff00,0xe8cc00};
-	public static final int[] Corecol3= new int[] {0x0a6e03,0xfff725,0x2e2e2e,0xff0000,0x57b7ff,0x8819ea,0xe0ba5d,0xb79449,0x0a6e03,0xe8cc00};
-
+	
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
 	public String armorNamePrefix;
 	public ArmorMaterial material;
-
-	public item_OOOdriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3)
+	public String Rider;
+	
+	public item_OOOdriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, String rider)
 	{
 		super(par2EnumArmorMaterial, par3, EntityEquipmentSlot.FEET);
 		this.material = par2EnumArmorMaterial;
 		par2EnumArmorMaterial.getDamageReductionAmount(EntityEquipmentSlot.FEET);
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(EntityEquipmentSlot.FEET));
+		Rider=rider;
 		this.maxStackSize = 1;
 		setTranslationKey(name);
 		setRegistryName(name);
@@ -158,9 +157,9 @@ public class item_OOOdriver extends ItemArmor implements IHasModel
 
 				model_belt_plus armorModel = new model_belt_plus();
 
-				Item[] Medel_head= new Item[] {RiderItems.taka_OOOdriver,RiderItems.kuwagata_OOOdriver,RiderItems.lion_OOOdriver,RiderItems.sai_OOOdriver,RiderItems.shachi_OOOdriver,RiderItems.ptera_OOOdriver,RiderItems.cobra_OOOdriver,RiderItems.super_taka_OOOdriver,RiderItems.love_OOOdriver,RiderItems.same_OOOdriver,RiderItems.shika_OOOdriver,RiderItems.seiuchi_OOOdriver,RiderItems.mukade_OOOdriver,RiderItems.sasori_new_OOOdriver,RiderItems.taka_OOOdriver,RiderItems.taka_OOOdriver};
-				Item[] Medel_chest= new Item[] {RiderItems.tora_OOOdriver,RiderItems.kamakiri_OOOdriver,RiderItems.gorilla_OOOdriver,RiderItems.kujaku_OOOdriver,RiderItems.unagi_OOOdriver,RiderItems.tricera_OOOdriver,RiderItems.kame_OOOdriver,RiderItems.imagin_OOOdriver,RiderItems.panda_OOOdriver,RiderItems.super_tora_OOOdriver,RiderItems.kangaroo_OOOdriver,RiderItems.love2_OOOdriver,RiderItems.kujira_OOOdriver,RiderItems.gazelle_OOOdriver,RiderItems.shirokuma_OOOdriver,RiderItems.hachi_OOOdriver,RiderItems.kani_new_OOOdriver,RiderItems.yadokari_OOOdriver,RiderItems.tora_OOOdriver};
-				Item[] Medel_legs= new Item[] {RiderItems.batta_OOOdriver,RiderItems.cheetah_OOOdriver,RiderItems.zou_OOOdriver,RiderItems.condor_OOOdriver,RiderItems.tako_OOOdriver,RiderItems.tyranno_OOOdriver,RiderItems.wani_OOOdriver,RiderItems.shocker_OOOdriver,RiderItems.super_batta_OOOdriver,RiderItems.kangaroo2_OOOdriver,RiderItems.love3_OOOdriver,RiderItems.ookamiuo_OOOdriver,RiderItems.ushi_OOOdriver,RiderItems.penguin_OOOdriver,RiderItems.ari_OOOdriver,RiderItems.ebi_new_OOOdriver,RiderItems.batta_OOOdriver};
+				Item[] Medel_head= new Item[] {RiderItems.taka_OOOdriver,RiderItems.kuwagata_OOOdriver,RiderItems.lion_OOOdriver,RiderItems.sai_OOOdriver,RiderItems.shachi_OOOdriver,RiderItems.ptera_OOOdriver,RiderItems.cobra_OOOdriver,RiderItems.super_taka_OOOdriver,RiderItems.love_OOOdriver,RiderItems.same_OOOdriver,RiderItems.shika_OOOdriver,RiderItems.seiuchi_OOOdriver,RiderItems.mukade_OOOdriver,RiderItems.sasori_new_OOOdriver,RiderItems.taka_OOOdriver,RiderItems.taka_OOOdriver,RiderItems.cobra_OOOdriver,RiderItems.taka_OOOdriver};
+				Item[] Medel_chest= new Item[] {RiderItems.tora_OOOdriver,RiderItems.kamakiri_OOOdriver,RiderItems.gorilla_OOOdriver,RiderItems.kujaku_OOOdriver,RiderItems.unagi_OOOdriver,RiderItems.tricera_OOOdriver,RiderItems.kame_OOOdriver,RiderItems.imagin_OOOdriver,RiderItems.panda_OOOdriver,RiderItems.super_tora_OOOdriver,RiderItems.kangaroo_OOOdriver,RiderItems.love2_OOOdriver,RiderItems.kujira_OOOdriver,RiderItems.gazelle_OOOdriver,RiderItems.shirokuma_OOOdriver,RiderItems.hachi_OOOdriver,RiderItems.kani_new_OOOdriver,RiderItems.yadokari_OOOdriver,RiderItems.tora_OOOdriver,RiderItems.gorilla_OOOdriver};
+				Item[] Medel_legs= new Item[] {RiderItems.batta_OOOdriver,RiderItems.cheetah_OOOdriver,RiderItems.zou_OOOdriver,RiderItems.condor_OOOdriver,RiderItems.tako_OOOdriver,RiderItems.tyranno_OOOdriver,RiderItems.wani_OOOdriver,RiderItems.shocker_OOOdriver,RiderItems.super_batta_OOOdriver,RiderItems.kangaroo2_OOOdriver,RiderItems.love3_OOOdriver,RiderItems.ookamiuo_OOOdriver,RiderItems.ushi_OOOdriver,RiderItems.penguin_OOOdriver,RiderItems.ari_OOOdriver,RiderItems.ebi_new_OOOdriver,RiderItems.batta_OOOdriver,RiderItems.ookamiuo_OOOdriver};
 
 				armorModel.belt=stack;
 
