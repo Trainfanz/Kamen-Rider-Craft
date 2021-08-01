@@ -1468,6 +1468,7 @@ public class RiderItems {
 	public static Item core_driver_power_up = new item_OOOdriver("core_driver_power_up",ArmorMaterial.DIAMOND, 4,"core_power_up").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 	
 	public static Item greeed_blet_ankh = new item_OOOdriver("greeed_blet_ankh",ArmorMaterial.DIAMOND, 4,"ankh_complete").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+	public static Item greeed_blet_ankh_lost = new item_OOOdriver("greeed_blet_ankh_lost",ArmorMaterial.DIAMOND, 4,"ankh_lost").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 	public static Item greeed_blet_uva = new item_OOOdriver("greeed_blet_uva",ArmorMaterial.DIAMOND, 4,"uva_complete").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 	public static Item greeed_blet_kazari = new item_OOOdriver("greeed_blet_kazari",ArmorMaterial.DIAMOND, 4,"kazari_complete").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 	public static Item greeed_blet_mezool = new item_OOOdriver("greeed_blet_mezool",ArmorMaterial.DIAMOND, 4,"mezool_complete").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
