@@ -68,38 +68,64 @@ public class Entity_Kaiser extends EntityBossBase
 	public Entity_Kaiser(World par1World)
 	{
 		super(par1World);
-		
+
 	}
-	
-    protected void applyEntityAttributes()
-    {
-        super.applyEntityAttributes();
 
-        this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(10.0D);
-        this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(100.0D);
-        this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.4000000238418579D);
-        this.getEntityAttribute(SharedMonsterAttributes.FOLLOW_RANGE).setBaseValue(40.0D);
-        this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(3.0D);
-        
-    }
+	protected void applyEntityAttributes()
+	{
+		super.applyEntityAttributes();
 
-    @Override
-    public ItemStack getHeldItemMainhand()
-    {
-        return new ItemStack(RiderItems.nebulasteamgun);
-    }
- 	protected boolean shouldBurnInDay()
-    {
-        return false;
-    }
-    public void onDeath(DamageSource cause)
-    {
-if (!this.world.isRemote){
+		this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(10.0D);
+		this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(100.0D);
+		this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.4000000238418579D);
+		this.getEntityAttribute(SharedMonsterAttributes.FOLLOW_RANGE).setBaseValue(40.0D);
+		this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(3.0D);
 
-   		this.dropItem(RiderItems.smash_bottle, 4);
-   		this.dropItem(RiderItems.gear_blue, 1);
-   		
-       }
-   }
+	}
+
+	@Override
+	public ItemStack getHeldItemMainhand()
+	{
+		return new ItemStack(RiderItems.nebulasteamgun);
+	}
+	protected boolean shouldBurnInDay()
+	{
+		return false;
+	}
+	public void onDeath(DamageSource cause)
+	{
+		if (!this.world.isRemote){
+
+			this.dropItem(RiderItems.smash_bottle, 4);
+			this.dropItem(RiderItems.gear_blue, 1);
+			switch (this.rand.nextInt(9))
+			{
+
+			case 0:
+				this.dropItem(RiderItems.foundation_x_kuwagata, 1);
+				break;
+			case 1:
+				this.dropItem(RiderItems.foundation_x_lion, 1);
+				break;
+			case 2:
+				this.dropItem(RiderItems.foundation_x_shachi, 1);
+				break;
+			case 3:
+				this.dropItem(RiderItems.foundation_x_kamakiri, 1); 
+				break;
+			case 4:
+				this.dropItem(RiderItems.foundation_x_gorilla, 1);
+				break;
+			case 5:
+				this.dropItem(RiderItems.foundation_x_unagi, 1);
+				break;
+			case 6:
+				this.dropItem(RiderItems.foundation_x_cheetah, 1);
+				break;
+			case 7:
+				this.dropItem(RiderItems.foundation_x_taka, 1);
+				break;
+			}
+		}
+	}
 }
-    
