@@ -11,6 +11,7 @@ import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_ex_aidarmor;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_ex_aidarmor2;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_ex_aiddriver;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_poppy_gashat;
+import Kamen_Rider_Craft_4TH.item.GoRider.item_GoRiderTyphoon;
 import Kamen_Rider_Craft_4TH.item.Ichigo.Item_showa_change;
 import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigoarmor;
 import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigoarmor2;
@@ -390,11 +391,6 @@ public class RiderItems {
 	public static Item typhoon_sango = new item_Ichigodriver("typhoon_sango",ArmorMaterial.DIAMOND, 4,"sango").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item typhoon_yongo = new item_Ichigodriver("typhoon_yongo",ArmorMaterial.DIAMOND, 4,"yongo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 
-	public static Item typhoon_akarider = new item_Ichigodriver("typhoon_akarider",ArmorMaterial.DIAMOND, 4,"akarider").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_aorider = new item_Ichigodriver("typhoon_aorider",ArmorMaterial.DIAMOND, 4,"aorider").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_kirider = new item_Ichigodriver("typhoon_kirider",ArmorMaterial.DIAMOND, 4,"kirider").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_momorider = new item_Ichigodriver("typhoon_momorider",ArmorMaterial.DIAMOND, 4,"momorider").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_midorider = new item_Ichigodriver("typhoon_midorider",ArmorMaterial.DIAMOND, 4,"midorider").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 
 	public static Item moonriser = new item_Ichigodriver("moonriser",ArmorMaterial.DIAMOND, 4,"white_rx").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item king_stone_red_shadow_moon = new item_Ichigodriver("king_stone_red_shadow_moon",ArmorMaterial.DIAMOND, 4,"red_shadow_moon").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);	
@@ -3433,6 +3429,47 @@ public class RiderItems {
 	public static Item amazon_injector_neo = new Item_ore("amazon_injector_neo").setCreativeTab(Tabs.tabamazons);
 	public static Item amazon_injector_new_omega = new Item_ore("amazon_injector_new_omega").setCreativeTab(Tabs.tabamazons);
 
+	//GoRider
+	public static Item akarider_card = new Item_form_change("akarider_card",item_GoRiderTyphoon.class,blanknoitem,"",""
+			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
+			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
+			).setCreativeTab(Tabs.tabGoRider);
+
+	public static Item aorider_card = new Item_form_change("aorider_card",item_GoRiderTyphoon.class,blanknoitem,"",""
+			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
+			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
+			).setCreativeTab(Tabs.tabGoRider);
+
+	public static Item kirider_card = new Item_form_change("kirider_card",item_GoRiderTyphoon.class,blanknoitem,"",""
+			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
+			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
+			).setCreativeTab(Tabs.tabGoRider);
+
+	public static Item momorider_card = new Item_form_change("momorider_card",item_GoRiderTyphoon.class,blanknoitem,"",""
+			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
+			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
+			).setCreativeTab(Tabs.tabGoRider);
+
+	public static Item midorider_card = new Item_form_change("midorider_card",item_GoRiderTyphoon.class,blanknoitem,"",""
+			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
+			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
+			).setCreativeTab(Tabs.tabGoRider);
+
+	
+
+
+	public static Item akariderhead = new item_rider_armor("akariderhead",item_GoRiderTyphoon.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, RiderItems.akarider_card).setMaxStackSize(1).setCreativeTab(Tabs.tabGoRider);
+	public static Item akaridertroso = new item_rider_armor2("akaridertroso",item_GoRiderTyphoon.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, RiderItems.akarider_card).setMaxStackSize(1).setCreativeTab(Tabs.tabGoRider);
+	public static Item akariderlegs = new item_rider_armor2("akariderlegs",item_GoRiderTyphoon.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, RiderItems.akarider_card).setMaxStackSize(1).setCreativeTab(Tabs.tabGoRider);
+
+	public static Item typhoon_akarider = new item_GoRiderTyphoon("typhoon_akarider",ArmorMaterial.DIAMOND, 4,"akarider",(Item_form_change) akarider_card).setMaxStackSize(1).setCreativeTab(Tabs.tabGoRider);
+	public static Item typhoon_aorider = new item_GoRiderTyphoon("typhoon_aorider",ArmorMaterial.DIAMOND, 4,"aorider",(Item_form_change) aorider_card).setMaxStackSize(1).setCreativeTab(Tabs.tabGoRider);
+	public static Item typhoon_kirider = new item_GoRiderTyphoon("typhoon_kirider",ArmorMaterial.DIAMOND, 4,"kirider",(Item_form_change) kirider_card).setMaxStackSize(1).setCreativeTab(Tabs.tabGoRider);
+	public static Item typhoon_momorider = new item_GoRiderTyphoon("typhoon_momorider",ArmorMaterial.DIAMOND, 4,"momorider",(Item_form_change) momorider_card).setMaxStackSize(1).setCreativeTab(Tabs.tabGoRider);
+	public static Item typhoon_midorider = new item_GoRiderTyphoon("typhoon_midorider",ArmorMaterial.DIAMOND, 4,"midorider",(Item_form_change) midorider_card).setMaxStackSize(1).setCreativeTab(Tabs.tabGoRider);
+	
+
+	
 	public static void init() {
 	}
 }

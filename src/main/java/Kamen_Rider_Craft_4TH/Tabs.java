@@ -405,6 +405,7 @@ public class Tabs {
 			return new ItemStack(RiderItems.ghosthead);
 		}
 	};
+	
 	public static CreativeTabs tabex_aid = new CreativeTabs("tabex_aid")
 	{
 		@SideOnly(Side.CLIENT)
@@ -416,6 +417,17 @@ public class Tabs {
 		public ItemStack createIcon() {
 		return new ItemStack(RiderItems.ex_aidhead);
 		}
+	};
+	public static CreativeTabs tabGoRider = new CreativeTabs("tabgo_rider")
+	{	
+		@SideOnly(Side.CLIENT)
+    public net.minecraft.util.ResourceLocation getBackgroundImage()
+    {
+        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_gorider_items.png");
+    }
+		public ItemStack createIcon() {
+		return new ItemStack(RiderItems.akariderhead);
+	}
 	};
 	public static CreativeTabs tabbuild = new CreativeTabs("tabbuild")
 	{
