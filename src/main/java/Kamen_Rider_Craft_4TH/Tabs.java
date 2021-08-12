@@ -138,55 +138,7 @@ public class Tabs {
 	public static ToolMaterial kaizoku_hassha = EnumHelper.addToolMaterial("kaizoku_hassha", 10, 5000, 12.0F, 4.0F, 22);
 	
 	
-	/**
-	public static CreativeTabs tabIchigo = function.apply("tabIichigo", RiderItems.ichigohead);
 	
-	public static CreativeTabs tabkuuga = function.apply("tabkuuga", RiderItems.kuugahead);
-
-	public static CreativeTabs tabagito = function.apply("tabagito", RiderItems.agitohead);
-
-	public  static CreativeTabs tabryuki = function.apply("tabryuki", RiderItems.ryukihead);
-
-	public static CreativeTabs tabfaiz = function.apply("tabfaiz", RiderItems.faizhead);
-
-	public static CreativeTabs tabblade = function.apply("tabblade", RiderItems.bladehead);
-
-	public static CreativeTabs tabhibiki = function.apply("tabhibiki", RiderItems.hibikihead);
-
-	public static CreativeTabs tabkabuto = function.apply("tabkabuto", RiderItems.kabutohead);
-
-	public static CreativeTabs tabden_o = function.apply("tabden_o", RiderItems.den_ohead);
-
-	public static CreativeTabs tabkiva = function.apply("tabkiva", RiderItems.kivahead);
-
-	public  static CreativeTabs tabdecade = function.apply("tabdecade", RiderItems.decadehead);
-
-	public static CreativeTabs tabW = function.apply("tabW", RiderItems.Whead);
-
-	public static CreativeTabs tabOOO = function.apply("tabOOO", RiderItems.OOOhead);
-
-	public static CreativeTabs tabFourze = function.apply("tabFourze", RiderItems.Fourzehead);
-
-	public static CreativeTabs tabwizard = function.apply("tabwizard", RiderItems.wizardhead);
-
-	public static CreativeTabs tabGaim = function.apply("tabGaim", RiderItems.Gaimhead);
-
-	public static CreativeTabs tabdrive = function.apply("tabdrive", RiderItems.drivehead);
-
-	public static CreativeTabs tabghost = function.apply("tabghost", RiderItems.ghosthead);
-
-	public static CreativeTabs tabex_aid = function.apply("tabex_aid", RiderItems.ex_aidhead);
-
-	public static CreativeTabs tabbuild = function.apply("tabbuild", RiderItems.buildhead);
-
-	public static CreativeTabs tabzi_o = function.apply("tabzi_o", RiderItems.zi_ohead);
-
-	public static CreativeTabs tabamazons = function.apply("tabamazons", RiderItems.amazonshead);
-
-	public static CreativeTabs tabdecor = function.apply("tabdecor", Item.getItemFromBlock(RiderItems.monitor));
-
-	public static CreativeTabs tabmisc = function.apply("tabmisc", RiderItems.icepop1);
-**/
 	public static CreativeTabs tabIchigo= new CreativeTabs("tabIichigo")
 	{
 		@SideOnly(Side.CLIENT)
@@ -199,7 +151,13 @@ public class Tabs {
 			return new ItemStack(RiderItems.ichigohead);
 		}
 	};
-
+	public static CreativeTabs tabj = new CreativeTabs("tabj")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.jhead);
+		}
+	};
 	public static CreativeTabs tabkuuga = new CreativeTabs("tabkuuga")
 	{@Override
 		@SideOnly(Side.CLIENT)
@@ -496,6 +454,13 @@ public class Tabs {
 		@Override
 		public ItemStack createIcon() {
 			return new ItemStack(RiderItems.amazonshead);
+		}
+	};
+	public static CreativeTabs tabG = new CreativeTabs("tabG")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.ghead);
 		}
 	};
 	public static CreativeTabs tabdecor = new CreativeTabs("tabdecor")

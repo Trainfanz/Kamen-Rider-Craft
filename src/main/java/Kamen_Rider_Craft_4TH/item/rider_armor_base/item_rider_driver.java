@@ -8,6 +8,8 @@ import org.lwjgl.opengl.GL11;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.blocks.hiden_3d_printing;
+import Kamen_Rider_Craft_4TH.item.zero_one.Item_progrise_keys;
 import Kamen_Rider_Craft_4TH.model.model_belt;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import Kamen_Rider_Craft_4TH.util.Refercence;
@@ -45,6 +47,8 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 	private Item TORSO;
 	private Item LEGS;
 
+	private Item belt = RiderItems.taka;
+
 	public item_rider_driver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, String rider,Item_form_change baseFormItem,Item head,Item torso,Item legs)
 	{
 		super(par2EnumArmorMaterial, par3, EntityEquipmentSlot.FEET);
@@ -62,6 +66,13 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 		LEGS=legs;
 
 	}
+
+	public item_rider_driver belt(Item num)
+	{
+		belt=num;
+		return this;
+	}
+	
 	@SideOnly(Side.CLIENT)
 	public boolean hasEffect(ItemStack par1ItemStack)
 	{
@@ -116,10 +127,13 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 			if(stack.getItem() instanceof ItemArmor)
 			{
 				model_belt armorModel = new model_belt();
-
-				if (get_Form_Item(stack,1).getBelt()==RiderItems.blanknoitem ){
+				
+				if(belt != RiderItems.taka){
+					armorModel.belt=new ItemStack(belt);
+				}else if (get_Form_Item(stack,1).getBelt()==RiderItems.blanknoitem ){
 					armorModel.belt=stack;
-				}else{
+				}else 
+				{
 					armorModel.belt=new ItemStack(get_Form_Item(stack,1).getBelt());
 				}
 				armorModel.isSneak = defaultModel.isSneak;
