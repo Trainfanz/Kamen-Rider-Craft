@@ -377,9 +377,6 @@ public class RiderItems {
 	public static Item bio_rider = new Item_showa_change("bio_rider",2,sunriser).setCreativeTab(Tabs.tabIchigo);
 	public static Item robo_rider = new Item_showa_change("robo_rider",1,sunriser).setCreativeTab(Tabs.tabIchigo);
 
-	public static Item grasshopper_dna = new item_Ichigodriver("grasshopper_dna",ArmorMaterial.DIAMOND, 4,"shin").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item zo_core = new item_Ichigodriver("zo_core",ArmorMaterial.DIAMOND, 4,"zo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-
 	public static Item ridol_stick = new ItemBaseSword("ridol_stick",Tabs.ridol_stick, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 
 	public static Item revolcane = new ItemBaseSword("revolcane",ToolMaterial.DIAMOND, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
@@ -415,6 +412,37 @@ public class RiderItems {
 	public static Item king_stone_split = new Item_ore("king_stone_split").setCreativeTab(Tabs.tabIchigo);
 
 
+	//shin
+
+		public static Item shin_stone = new Item_form_change("shin_stone",item_rider_driver.class,blanknoitem,"",""
+				,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
+				new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
+				).setCreativeTab(Tabs.tabshin);
+
+		
+		public static Item shinhead = new item_rider_armor("shinhead",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabshin);
+		public static Item shintroso = new item_rider_armor2("shintroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabshin);
+		public static Item shinlegs = new item_rider_armor2("shinlegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabshin);
+
+		public static Item grasshopper_dna = new item_rider_driver("grasshopper_dna",ArmorMaterial.DIAMOND, 4,"shin", (Item_form_change) RiderItems.zo_stone, shinhead, shintroso, shinlegs).belt(blanknoitem).setMaxStackSize(1).setCreativeTab(Tabs.tabshin);
+		
+	
+	//ZO
+
+	public static Item zo_stone = new Item_form_change("zo_stone",item_rider_driver.class,blanknoitem,"",""
+			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
+			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
+			).setCreativeTab(Tabs.tabzo);
+
+	
+	public static Item zohead = new item_rider_armor("zohead",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabzo);
+	public static Item zotroso = new item_rider_armor2("zotroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabzo);
+	public static Item zolegs = new item_rider_armor2("zolegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabzo);
+
+	public static Item zo_core = new item_rider_driver("zo_core",ArmorMaterial.DIAMOND, 4,"zo", (Item_form_change) RiderItems.zo_stone, zohead, zotroso, zolegs).belt(blanknoitem).setMaxStackSize(1).setCreativeTab(Tabs.tabzo);
+	
+	
+	
 	//J
 
 	public static Item j_stone = new Item_form_change("j_stone",item_rider_driver.class,blanknoitem,"",""

@@ -151,6 +151,20 @@ public class Tabs {
 			return new ItemStack(RiderItems.ichigohead);
 		}
 	};
+	public static CreativeTabs tabshin = new CreativeTabs("tabshin")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.shinhead);
+		}
+	};
+	public static CreativeTabs tabzo = new CreativeTabs("tabzo")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.zohead);
+		}
+	};
 	public static CreativeTabs tabj = new CreativeTabs("tabj")
 	{
 		@Override
