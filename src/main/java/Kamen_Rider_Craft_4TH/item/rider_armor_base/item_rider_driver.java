@@ -43,11 +43,11 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 	public ArmorMaterial material;
 	private Item_form_change Base_Form_Item;
 	public String Rider;
-	private Item HEAD;
-	private Item TORSO;
-	private Item LEGS;
+	public Item HEAD;
+	public Item TORSO;
+	public Item LEGS;
 
-	private Item belt = RiderItems.taka;
+	private boolean belt=false;
 
 	public item_rider_driver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, String rider,Item_form_change baseFormItem,Item head,Item torso,Item legs)
 	{
@@ -67,7 +67,7 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 
 	}
 
-	public item_rider_driver belt(Item num)
+	public item_rider_driver belt(boolean num)
 	{
 		belt=num;
 		return this;
@@ -128,8 +128,8 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 			{
 				model_belt armorModel = new model_belt();
 				
-				if(belt != RiderItems.taka){
-					armorModel.belt=new ItemStack(belt);
+				if(belt == true){
+					armorModel.belt=new ItemStack(RiderItems.blanknoitem);
 				}else if (get_Form_Item(stack,1).getBelt()==RiderItems.blanknoitem ){
 					armorModel.belt=stack;
 				}else 

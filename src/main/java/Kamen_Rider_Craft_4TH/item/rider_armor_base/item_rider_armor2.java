@@ -52,14 +52,15 @@ public class item_rider_armor2 extends item_rider_armor implements IHasModel
 
 					String rider = ((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider;
 				
-					if ( slot == EntityEquipmentSlot.LEGS)
+					if ( slot == EntityEquipmentSlot.LEGS& ((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).LEGS==this)
 					{
 						return Refercence.MODID+":textures/armor/"+rider+item_rider_driver.get_Form_Item_tex(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).getFormName() +"_2.png";
 					}
-					if (slot == EntityEquipmentSlot.HEAD||slot == EntityEquipmentSlot.CHEST )
+					if (slot == EntityEquipmentSlot.HEAD&((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).HEAD==this||slot == EntityEquipmentSlot.CHEST&((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).TORSO==this )
 					{
 						return Refercence.MODID+":textures/armor/"+rider+item_rider_driver.get_Form_Item_tex(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).getFormName() +"_1.png";
 					}
+					
 					}
 				return Refercence.MODID+":textures/armor/blank.png";
 			}

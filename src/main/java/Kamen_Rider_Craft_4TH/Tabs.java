@@ -151,6 +151,13 @@ public class Tabs {
 			return new ItemStack(RiderItems.ichigohead);
 		}
 	};
+	public static CreativeTabs tabblack_rx = new CreativeTabs("tabblack_rx")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.black_rx_head);
+		}
+	};
 	public static CreativeTabs tabshin = new CreativeTabs("tabshin")
 	{
 		@Override

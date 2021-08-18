@@ -370,26 +370,13 @@ public class RiderItems {
 	public static Item king_stone = new item_Ichigodriver("king_stone",ArmorMaterial.DIAMOND, 4,"black").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item king_stone_shadow_moon = new item_Ichigodriver("king_stone_shadow_moon",ArmorMaterial.DIAMOND, 4,"shadow_moon").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);	
 
-	public static Item sunriser_rr = new Item_ore("sunriser_rr");
-	public static Item sunriser_br = new Item_ore("sunriser_br");
-	public static Item sunriser = new item_Ichigodriver("sunriser",ArmorMaterial.DIAMOND, 4,"black_rx").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-
-	public static Item bio_rider = new Item_showa_change("bio_rider",2,sunriser).setCreativeTab(Tabs.tabIchigo);
-	public static Item robo_rider = new Item_showa_change("robo_rider",1,sunriser).setCreativeTab(Tabs.tabIchigo);
 
 	public static Item ridol_stick = new ItemBaseSword("ridol_stick",Tabs.ridol_stick, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-
-	public static Item revolcane = new ItemBaseSword("revolcane",ToolMaterial.DIAMOND, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item vortech_shooter = new Item_gun("vortech_shooter",Tabs.den_dengu, RiderItems.rider_circuit).setCreativeTab(Tabs.tabIchigo);
-	public static Item bio_blade = new ItemBaseSword("bio_blade",ToolMaterial.DIAMOND, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-
-	public static Item shadow_saber_short = new ItemBaseSword("shadow_saber_short",ToolMaterial.DIAMOND, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 
 	public static Item typhoon_sango = new item_Ichigodriver("typhoon_sango",ArmorMaterial.DIAMOND, 4,"sango").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item typhoon_yongo = new item_Ichigodriver("typhoon_yongo",ArmorMaterial.DIAMOND, 4,"yongo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 
 
-	public static Item moonriser = new item_Ichigodriver("moonriser",ArmorMaterial.DIAMOND, 4,"white_rx").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item king_stone_red_shadow_moon = new item_Ichigodriver("king_stone_red_shadow_moon",ArmorMaterial.DIAMOND, 4,"red_shadow_moon").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);	
 
 	public static Item susanoo_belt = new item_Ichigodriver("susanoo_belt",ArmorMaterial.DIAMOND, 4,"susanoo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
@@ -409,9 +396,44 @@ public class RiderItems {
 	public static Item cyclode_core = new Item_ore("cyclode_core").setCreativeTab(Tabs.tabIchigo);
 	public static Item zx_belt_core = new Item_ore("zx_belt_core").setCreativeTab(Tabs.tabIchigo);
 	public static Item king_stone_core = new Item_ore("king_stone_core").setCreativeTab(Tabs.tabIchigo);
-	public static Item king_stone_split = new Item_ore("king_stone_split").setCreativeTab(Tabs.tabIchigo);
 
 
+	//Black RX
+	public static Item revolcane = new ItemBaseSword("revolcane",ToolMaterial.DIAMOND, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
+	public static Item vortech_shooter = new Item_gun("vortech_shooter",Tabs.den_dengu, RiderItems.rider_circuit).setCreativeTab(Tabs.tabblack_rx);
+	public static Item bio_blade = new ItemBaseSword("bio_blade",ToolMaterial.DIAMOND, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
+
+	public static Item shadow_saber_short = new ItemBaseSword("shadow_saber_short",ToolMaterial.DIAMOND, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
+
+	public static Item sunriser_rr = new Item_ore("sunriser_rr");
+	public static Item sunriser_br = new Item_ore("sunriser_br");
+	
+	public static Item rx_rider = new Item_form_change("rx_rider",item_rider_driver.class,blanknoitem,"","black_rx"
+			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
+			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
+			).setCreativeTab(Tabs.tabblack_rx);
+	
+	public static Item bio_rider = new Item_form_change("bio_rider",item_rider_driver.class,sunriser_rr,"_bio_rider","black_rx"
+			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
+			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
+			).setCreativeTab(Tabs.tabblack_rx);
+
+	public static Item robo_rider = new Item_form_change("robo_rider",item_rider_driver.class,sunriser_br,"_robo_rider","black_rx"
+			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
+			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
+			).setCreativeTab(Tabs.tabblack_rx);
+	
+	public static Item black_rx_head = new item_rider_armor("black_rx_head",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
+	public static Item black_rx_troso = new item_rider_armor2("black_rx_troso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
+	public static Item black_rx_legs = new item_rider_armor2("black_rx_legs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
+
+	public static Item sunriser = new item_rider_driver("sunriser",ArmorMaterial.DIAMOND, 4,"black_rx", (Item_form_change) RiderItems.rx_rider, black_rx_head, black_rx_troso, black_rx_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
+	public static Item moonriser = new item_rider_driver("moonriser",ArmorMaterial.DIAMOND, 4,"white_rx", (Item_form_change) RiderItems.rx_rider, black_rx_head, black_rx_troso, black_rx_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
+
+	public static Item king_stone_split = new Item_ore("king_stone_split").setCreativeTab(Tabs.tabblack_rx);
+
+
+	
 	//shin
 
 		public static Item shin_stone = new Item_form_change("shin_stone",item_rider_driver.class,blanknoitem,"",""
@@ -424,7 +446,7 @@ public class RiderItems {
 		public static Item shintroso = new item_rider_armor2("shintroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabshin);
 		public static Item shinlegs = new item_rider_armor2("shinlegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabshin);
 
-		public static Item grasshopper_dna = new item_rider_driver("grasshopper_dna",ArmorMaterial.DIAMOND, 4,"shin", (Item_form_change) RiderItems.zo_stone, shinhead, shintroso, shinlegs).belt(blanknoitem).setMaxStackSize(1).setCreativeTab(Tabs.tabshin);
+		public static Item grasshopper_dna = new item_rider_driver("grasshopper_dna",ArmorMaterial.DIAMOND, 4,"shin", (Item_form_change) RiderItems.shin_stone, shinhead, shintroso, shinlegs).belt(true).setMaxStackSize(1).setCreativeTab(Tabs.tabshin);
 		
 	
 	//ZO
@@ -439,7 +461,7 @@ public class RiderItems {
 	public static Item zotroso = new item_rider_armor2("zotroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabzo);
 	public static Item zolegs = new item_rider_armor2("zolegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabzo);
 
-	public static Item zo_core = new item_rider_driver("zo_core",ArmorMaterial.DIAMOND, 4,"zo", (Item_form_change) RiderItems.zo_stone, zohead, zotroso, zolegs).belt(blanknoitem).setMaxStackSize(1).setCreativeTab(Tabs.tabzo);
+	public static Item zo_core = new item_rider_driver("zo_core",ArmorMaterial.DIAMOND, 4,"zo", (Item_form_change) RiderItems.zo_stone, zohead, zotroso, zolegs).belt(true).setMaxStackSize(1).setCreativeTab(Tabs.tabzo);
 	
 	
 	
@@ -455,7 +477,7 @@ public class RiderItems {
 	public static Item jtroso = new item_rider_armor2("jtroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabj);
 	public static Item jlegs = new item_rider_armor2("jlegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabj);
 
-	public static Item j_spirit = new item_rider_driver("j_spirit",ArmorMaterial.DIAMOND, 4,"j", (Item_form_change) RiderItems.j_stone, jhead, jtroso, jlegs).belt(blanknoitem).setMaxStackSize(1).setCreativeTab(Tabs.tabj);
+	public static Item j_spirit = new item_rider_driver("j_spirit",ArmorMaterial.DIAMOND, 4,"j", (Item_form_change) RiderItems.j_stone, jhead, jtroso, jlegs).belt(true).setMaxStackSize(1).setCreativeTab(Tabs.tabj);
 	
 	
 	
@@ -3307,6 +3329,7 @@ public class RiderItems {
 	public static Item emotional_dragon_wonder_ride_book = new Item_wonder_ride_book("l",0,"emotional_dragon_wonder_ride_book").ChangeForm(3).NotBasicBook().SaberBook().setCreativeTab(Tabs.tabsaber);
 	public static Item primitive_dragon_wonder_ride_book = new Item_wonder_ride_book("l",0,"primitive_dragon_wonder_ride_book").ChangeForm(9).NotBasicBook().SaberBook().setCreativeTab(Tabs.tabsaber);
 	public static Item elemental_dragon_wonder_ride_book = new Item_wonder_ride_book("l",0,"elemental_dragon_wonder_ride_book").ChangeForm(10).NotBasicBook().SaberBook().setCreativeTab(Tabs.tabsaber);
+	public static Item wonder_almighty_wonder_ride_book = new Item_wonder_ride_book("l",1,"wonder_almighty_wonder_ride_book").ChangeForm(15).NotBasicBook().SaberBook().setCreativeTab(Tabs.tabsaber);
 	
 	public static Item super_hero_senki_wonder_ride_book = new Item_wonder_ride_book("l",0,"super_hero_senki_wonder_ride_book").ChangeForm(14).NotBasicBook().SaberBook().setCreativeTab(Tabs.tabsaber);
 	
@@ -3433,6 +3456,7 @@ public class RiderItems {
 	public static Item seiken_swordriver_emotional = new Item_ore("seiken_swordriver_emotional");
 	public static Item seiken_swordriver_ghost = new Item_ore("seiken_swordriver_ghost");
 	public static Item seiken_swordriver_super_hero_senki = new Item_ore("seiken_swordriver_super_hero_senki");
+	public static Item seiken_swordriver_wonder = new Item_ore("seiken_swordriver_wonder");
 
 	public static Item seiken_swordriver_king_lion = new Item_ore("seiken_swordriver_king_lion");
 	public static Item seiken_swordriver_tategami = new Item_ore("seiken_swordriver_tategami");
