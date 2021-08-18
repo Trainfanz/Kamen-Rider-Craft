@@ -366,24 +366,12 @@ public class RiderItems {
 
 	public static Item tornado = new item_Ichigodriver("tornado",ArmorMaterial.DIAMOND, 4,"skyrider").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item cyclode = new item_Ichigodriver("cyclode",ArmorMaterial.DIAMOND, 4,"super1").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);	
-	public static Item zx_belt = new item_Ichigodriver("zx_belt",ArmorMaterial.DIAMOND, 4,"zx").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item king_stone = new item_Ichigodriver("king_stone",ArmorMaterial.DIAMOND, 4,"black").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item king_stone_shadow_moon = new item_Ichigodriver("king_stone_shadow_moon",ArmorMaterial.DIAMOND, 4,"shadow_moon").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);	
-
 
 	public static Item ridol_stick = new ItemBaseSword("ridol_stick",Tabs.ridol_stick, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 
 	public static Item typhoon_sango = new item_Ichigodriver("typhoon_sango",ArmorMaterial.DIAMOND, 4,"sango").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item typhoon_yongo = new item_Ichigodriver("typhoon_yongo",ArmorMaterial.DIAMOND, 4,"yongo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 
-
-	public static Item king_stone_red_shadow_moon = new item_Ichigodriver("king_stone_red_shadow_moon",ArmorMaterial.DIAMOND, 4,"red_shadow_moon").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);	
-
-	public static Item susanoo_belt = new item_Ichigodriver("susanoo_belt",ArmorMaterial.DIAMOND, 4,"susanoo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item tsukuyomi_belt = new item_Ichigodriver("tsukuyomi_belt",ArmorMaterial.DIAMOND, 4,"tsukuyomi").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item amaterasu_belt = new item_Ichigodriver("amaterasu_belt",ArmorMaterial.DIAMOND, 4,"amaterasu").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-
-	
 	public static Item nophoon_kamen_norider = new item_Ichigodriver("nophoon_kamen_norider",ArmorMaterial.DIAMOND, 4,"kamen_norider").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	
 	
@@ -394,10 +382,40 @@ public class RiderItems {
 	public static Item electrer_core = new Item_ore("electrer_core").setCreativeTab(Tabs.tabIchigo);
 	public static Item tornado_core = new Item_ore("tornado_core").setCreativeTab(Tabs.tabIchigo);
 	public static Item cyclode_core = new Item_ore("cyclode_core").setCreativeTab(Tabs.tabIchigo);
-	public static Item zx_belt_core = new Item_ore("zx_belt_core").setCreativeTab(Tabs.tabIchigo);
-	public static Item king_stone_core = new Item_ore("king_stone_core").setCreativeTab(Tabs.tabIchigo);
 
+	//ZX
+	
+			public static Item zx_belt_core = new Item_form_change("zx_belt_core",item_rider_driver.class,blanknoitem,"",""
+					,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
+					new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
+					).setCreativeTab(Tabs.tabzx);
+					
+			public static Item zx_head = new item_rider_armor("zx_head",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabzx);
+			public static Item zx_troso = new item_rider_armor2("zx_troso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabzx);
+			public static Item zx_legs = new item_rider_armor2("zx_legs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabzx);
 
+			public static Item zx_belt = new item_rider_driver("zx_belt",ArmorMaterial.DIAMOND, 4,"zx", (Item_form_change) RiderItems.zx_belt_core, zx_head, zx_troso, zx_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabzx);
+			public static Item susanoo_belt = new item_rider_driver("susanoo_belt",ArmorMaterial.DIAMOND, 4,"susanoo", (Item_form_change) RiderItems.zx_belt_core, zx_head, zx_troso, zx_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabzx);
+			public static Item tsukuyomi_belt = new item_rider_driver("tsukuyomi_belt",ArmorMaterial.DIAMOND, 4,"tsukuyomi", (Item_form_change) RiderItems.zx_belt_core, zx_head, zx_troso, zx_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabzx);
+			public static Item amaterasu_belt = new item_rider_driver("amaterasu_belt",ArmorMaterial.DIAMOND, 4,"amaterasu", (Item_form_change) RiderItems.zx_belt_core, zx_head, zx_troso, zx_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabzx);
+			
+	
+	//Black
+			
+		public static Item king_stone_core = new Item_form_change("king_stone_core",item_rider_driver.class,blanknoitem,"",""
+				,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
+				new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
+				).setCreativeTab(Tabs.tabblack);
+				
+		public static Item black_head = new item_rider_armor("black_head",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
+		public static Item black_troso = new item_rider_armor2("black_troso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
+		public static Item black_legs = new item_rider_armor2("black_legs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
+
+		public static Item king_stone = new item_rider_driver("king_stone",ArmorMaterial.DIAMOND, 4,"black", (Item_form_change) RiderItems.king_stone_core, black_head, black_troso, black_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
+		public static Item king_stone_shadow_moon = new item_rider_driver("king_stone_shadow_moon",ArmorMaterial.DIAMOND, 4,"shadow_moon", (Item_form_change) RiderItems.king_stone_core, black_head, black_troso, black_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
+		public static Item king_stone_red_shadow_moon = new item_rider_driver("king_stone_red_shadow_moon",ArmorMaterial.DIAMOND, 4,"red_shadow_moon", (Item_form_change) RiderItems.king_stone_core, black_head, black_troso, black_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
+		
+		
 	//Black RX
 	public static Item revolcane = new ItemBaseSword("revolcane",ToolMaterial.DIAMOND, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
 	public static Item vortech_shooter = new Item_gun("vortech_shooter",Tabs.den_dengu, RiderItems.rider_circuit).setCreativeTab(Tabs.tabblack_rx);
