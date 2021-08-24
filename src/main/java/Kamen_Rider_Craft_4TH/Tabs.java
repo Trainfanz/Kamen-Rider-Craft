@@ -151,6 +151,48 @@ public class Tabs {
 			return new ItemStack(RiderItems.ichigohead);
 		}
 	};	
+	public static CreativeTabs tabv3 = new CreativeTabs("tabv3")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.v3head);
+		}
+	};
+	public static CreativeTabs tabx = new CreativeTabs("tabx")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.xhead);
+		}
+	};
+	public static CreativeTabs tabamazon = new CreativeTabs("tabamazon")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.amazonhead);
+		}
+	};
+	public static CreativeTabs tabstronger = new CreativeTabs("tabstronger")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.strongerhead);
+		}
+	};
+	public static CreativeTabs tabskyrider = new CreativeTabs("tabskyrider")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.skyriderhead);
+		}
+	};
+	public static CreativeTabs tabsuper_1 = new CreativeTabs("tabsuper_1")
+	{
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(RiderItems.super_1head);
+		}
+	};
 	public static CreativeTabs tabzx = new CreativeTabs("tabzx")
 	{
 		@Override
