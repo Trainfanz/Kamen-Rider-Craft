@@ -3565,6 +3565,7 @@ public class RiderItems {
 	public static Item revicelegs = new item_revicearmor2("revicelegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 
 	public static Item revice_driver = new item_revicedriver("revice_driver",ArmorMaterial.DIAMOND, 4, "revi",0).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	public static Item vice_belt = new item_revicedriver("vice_belt",ArmorMaterial.DIAMOND, 4, "vice",0).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 
 
 	public static Item amazonshead = new item_amazonsarmor("amazonshead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);
