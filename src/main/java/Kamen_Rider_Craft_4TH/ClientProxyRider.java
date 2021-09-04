@@ -106,6 +106,7 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entitynew_mole_imagin_sand;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityshocker_combatman;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_abaddon_low;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_battle_raider;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_chap;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_guardian_downfall;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_phantom_crusher;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityAcrobatter;
@@ -188,6 +189,8 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entitygamma_commando.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/gamma_commandos.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entityshocker_combatman.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/shocker_combatman.png"));
+		
+		RenderingRegistry.registerEntityRenderingHandler(entity_chap.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/chap.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entityguardian.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/guardian.png"));
 		

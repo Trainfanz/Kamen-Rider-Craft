@@ -485,9 +485,10 @@ public class RiderItems {
 	public static Item black_legs = new item_rider_armor2("black_legs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
 
 	public static Item king_stone = new item_rider_driver("king_stone",ArmorMaterial.DIAMOND, 4,"black", (Item_form_change) RiderItems.king_stone_core, black_head, black_troso, black_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
+	public static Item king_stone_green = new item_rider_driver("king_stone_green",ArmorMaterial.DIAMOND, 4,"black_green", (Item_form_change) RiderItems.king_stone_core, black_head, black_troso, black_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
 	public static Item king_stone_shadow_moon = new item_rider_driver("king_stone_shadow_moon",ArmorMaterial.DIAMOND, 4,"shadow_moon", (Item_form_change) RiderItems.king_stone_core, black_head, black_troso, black_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
 	public static Item king_stone_red_shadow_moon = new item_rider_driver("king_stone_red_shadow_moon",ArmorMaterial.DIAMOND, 4,"red_shadow_moon", (Item_form_change) RiderItems.king_stone_core, black_head, black_troso, black_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
-
+	
 
 	//Black RX
 	public static Item revolcane = new ItemBaseSword("revolcane",ToolMaterial.DIAMOND, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
@@ -3177,6 +3178,7 @@ public class RiderItems {
 	public static Item oma_zi_o_cape = new Item_ore("oma_zi_o_cape");
 
 	//Zero-one
+	public static Item hiden_metal = new Item_ore("hiden_metal").setCreativeTab(Tabs.tabzero_one);
 	public static Item realize_hopper_lines = new Item_ore("realize_hopper_lines");
 
 	public static Item attache_calibur = new ItemBaseSword("attache_calibur",Tabs.gashacon_breaker, RiderItems.hiden_metal).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
@@ -3363,9 +3365,9 @@ public class RiderItems {
 
 	public static Item merry_hopper_progrise_key = new Item_progrise_keys("merry_hopper_progrise_key").AddToHiden3DPrinter(1).setCreativeTab(Tabs.tabzero_one);	
 
-	public static Item hiden_metal = new Item_ore("hiden_metal").setCreativeTab(Tabs.tabzero_one);
-
 	//Saber
+	public static Item blank_wonder_ride_book = new Item_ore("blank_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
+	
 	public static Item kaenken_rekka = new ItemBaseSword("kaenken_rekka",Tabs.gashacon_breaker, RiderItems.blank_wonder_ride_book).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item kingexcalibur = new ItemBaseSword("kingexcalibur",Tabs.gashacon_sparrow_arrow, RiderItems.blank_wonder_ride_book).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);public static Item suiseiken_nagare = new ItemBaseSword("suiseiken_nagare",Tabs.gashacon_breaker, RiderItems.blank_wonder_ride_book).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item dogouken_gekido = new ItemBaseSword("dogouken_gekido",Tabs.gan_gun_saber_hammer, RiderItems.blank_wonder_ride_book).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);public static Item raimeiken_ikazuchi = new ItemBaseSword("raimeiken_ikazuchi",Tabs.gashacon_breaker, RiderItems.blank_wonder_ride_book).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
@@ -3497,7 +3499,6 @@ public class RiderItems {
 	public static Item specter_gekikou_senki_wonderride_book = new Item_wonder_ride_book("l",0,"specter_gekikou_senki_wonderride_book").ChangeForm(13).NotBasicBook().BladesBook().setCreativeTab(Tabs.tabsaber);
 
 	public static Item book_gate_wonder_ride_book = new item_book_gate_wonder_ride_book("book_gate_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
-	public static Item blank_wonder_ride_book = new Item_ore("blank_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
 	public static Item blank_wonder_world_story_wonder_ride_book = new Item_ore("blank_wonder_world_story_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
 
 	public static Item omni_force_wonderride_book_part = new Item_ore("omni_force_wonderride_book_part").setCreativeTab(Tabs.tabsaber);
