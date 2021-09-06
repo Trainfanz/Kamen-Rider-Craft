@@ -3560,7 +3560,8 @@ public class RiderItems {
 	public static Item seiken_saikou_driver_x_swordman1 = new Item_ore("seiken_saikou_driver_x_swordman1");
 	public static Item seiken_saikou_driver_x_swordman2 = new Item_ore("seiken_saikou_driver_x_swordman2");
 
-
+//Revice
+	
 	public static Item revicehead = new item_revicearmor("revicehead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item revicetroso = new item_revicearmor2("revicetroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item revicelegs = new item_revicearmor2("revicelegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);

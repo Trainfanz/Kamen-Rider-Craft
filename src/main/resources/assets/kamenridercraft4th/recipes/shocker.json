@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:shocker_emblem"
+    }, 
+    {
+      "item": "kamenridercraft4th:cellmedal"
+    } , 
+    {
+      "item": "kamenridercraft4th:rider_circuit"
+    } , 
+    {
+      "item": "kamenridercraft4th:rider_circuit"
+    }, 
+    {
+      "item": "kamenridercraft4th:rider_circuit"
+    }
+    ],
+  "result": {
+    "item": "kamenridercraft4th:shocker"
+  }
+}

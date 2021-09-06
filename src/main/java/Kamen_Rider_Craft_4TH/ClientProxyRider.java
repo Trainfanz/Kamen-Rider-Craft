@@ -38,6 +38,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Sigurd;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Solomon;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_White_Woz;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_ZangetsuShin;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_ankh_lost;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_another_build;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_bikaiser;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_clay_doll_dopant;
@@ -96,6 +97,7 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_hard_guardian;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_magiadodo_chick;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_needle_smash;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_trilobite_magia;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_yummy;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_zu_gumun_ba;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entitygamma_commando;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityguardian;
@@ -173,12 +175,14 @@ public class ClientProxyRider extends CommonProxyRider
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityMasquerade.class, new RenderRiderMob2( new ModelBiped(), 0.4F,"textures/entities/masquerade.png"));
 		
+
+		RenderingRegistry.registerEntityRenderingHandler(Entity_yummy.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/yummy.png"));
 		RenderingRegistry.registerEntityRenderingHandler(EntityAnkh.class, new RenderRiderMob(new ModelAnkh(0), 0.5F,"textures/entities/ankh.png"));
-		RenderingRegistry.registerEntityRenderingHandler(Entity_uva.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/uva.png"));
-		RenderingRegistry.registerEntityRenderingHandler(Entity_kazari.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/kazari.png"));
-		RenderingRegistry.registerEntityRenderingHandler(Entity_mezool.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/mezool.png"));
-		RenderingRegistry.registerEntityRenderingHandler(Entity_gamel.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/gamel.png"));
-		//RenderingRegistry.registerEntityRenderingHandler(Entity_ankh_lost.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/ankh_lost.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_uva.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/yummy.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_kazari.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/yummy.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_mezool.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/yummy.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_gamel.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/yummy.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_ankh_lost.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/yummy.png"));
 		
 		
 		
