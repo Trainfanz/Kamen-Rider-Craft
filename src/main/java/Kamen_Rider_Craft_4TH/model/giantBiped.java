@@ -26,7 +26,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 
-public class tokuArmorModel extends ModelBiped
+public class giantBiped extends ModelBiped
 {
 	public ModelRenderer bipedHead2;
 	public ModelRenderer bipedHeadwear2;
@@ -42,7 +42,7 @@ public class tokuArmorModel extends ModelBiped
 	/** The Biped's Left Leg */
 	public ModelRenderer bipedLeftLeg2;
 
-	public tokuArmorModel()
+	public giantBiped()
 	{
 		
 		 this.bipedHead2 = new ModelRenderer(this, 0, 0);

@@ -42,6 +42,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_ankh_lost;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_another_build;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_bikaiser;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_clay_doll_dopant;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_core;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_demushu;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_dodomagia;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_evolt;
@@ -63,6 +64,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_mezool;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_naki;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_orga;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_power_up_core;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_red_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_redyue;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_roshuo;
@@ -183,8 +185,8 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entity_mezool.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/yummy.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_gamel.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/yummy.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_ankh_lost.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/yummy.png"));
-		
-		
+		RenderingRegistry.registerEntityRenderingHandler(Entity_core.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/blank.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_power_up_core.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/blank.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityBugsterVirus.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/bugster_virus.png"));
 		

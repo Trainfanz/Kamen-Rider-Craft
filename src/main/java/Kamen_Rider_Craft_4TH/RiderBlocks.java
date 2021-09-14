@@ -2,6 +2,7 @@ package Kamen_Rider_Craft_4TH;
 
 import Kamen_Rider_Craft_4TH.blocks.BlockCustomDoor;
 import Kamen_Rider_Craft_4TH.blocks.BlockCustomStaris;
+import Kamen_Rider_Craft_4TH.blocks.rider_glass_block;
 import Kamen_Rider_Craft_4TH.blocks.custom.BlockType;
 import Kamen_Rider_Craft_4TH.blocks.custom.CustomBlock;
 import Kamen_Rider_Craft_4TH.blocks.custom.Property;
@@ -117,6 +118,7 @@ public class RiderBlocks {
 	public static Block sword_of_logos_wood_trim = CustomBlock.builder().material(Material.WOOD).blockType(BlockType.DIRECTIONAL).name("sword_of_logos_wood_trim").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block planks_brown = CustomBlock.builder().material(Material.WOOD).blockType(BlockType.BASIC).name("planks_brown").setCreativeTabe(Tabs.tabdecor).build();
 	
+	public static Block pure_gaia_memory_block = new rider_glass_block("pure_gaia_memory_block",Material.GLASS).setLightLevel(0.75f).setCreativeTab(Tabs.tabdecor);
 	
 	
 public static void init() {

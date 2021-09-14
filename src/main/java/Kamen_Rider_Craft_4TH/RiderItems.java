@@ -313,10 +313,11 @@ public class RiderItems {
 	public static Block lord_baron_boss_block = new mob_block("lord_baron_boss_block", Entity_lord_baron::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabGaim);
 
 	public static Block gaoh_boss_block = new mob_block("gaoh_boss_block", Entity_gaoh::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabden_o);
+	
+	public static Block core_boss_block = new mob_block("core_boss_block", Entity_core::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabden_o);
 
 	public static Block another_build_block = new mob_block("another_build_block", Entity_another_build::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabzi_o);
 	public static Block woz_boss_block = new mob_block("woz_boss_block", Entity_White_Woz::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabzi_o);
-
 
 	public static Block horobi_boss_block = new mob_block("horobi_boss_block", Entity_horobi::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabzero_one);
 	public static Block ikazuchi_boss_block = new mob_block("ikazuchi_boss_block", Entity_ikazuchi::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabzero_one);
@@ -325,7 +326,6 @@ public class RiderItems {
 	public static Block sabela_boss_block = new mob_block("sabela_boss_block", Entity_Sabela::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabsaber);
 	public static Block durendal_boss_block = new mob_block("durendal_boss_block", Entity_Durendal::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabsaber);
 	public static Block solomon_boss_block = new mob_block("solomon_boss_block", Entity_Solomon::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabsaber);
-
 
 	public static Item ichigohead = new item_Ichigoarmor("ichigohead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item ichigotroso = new item_Ichigoarmor2("ichigotroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
@@ -1539,7 +1539,8 @@ public class RiderItems {
 	public static Item unrefined_memory_s = new Item_ore("unrefined_memory_s").setCreativeTab(Tabs.tabW);
 	public static Item unrefined_memory_t2 = new Item_ore("unrefined_memory_t2").setCreativeTab(Tabs.tabW);
 
-
+	public static Item memory_memory = new Item_ore("memory_memory").setCreativeTab(Tabs.tabW);
+	
 	//OOO
 	public static Item medajalibur = new ItemChargeSword("medajalibur",Tabs.medajalibur, RiderItems.cellmedal).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 

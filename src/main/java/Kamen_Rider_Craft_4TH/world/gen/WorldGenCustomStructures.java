@@ -67,6 +67,9 @@ public class WorldGenCustomStructures implements IWorldGenerator
 	
 	public static final WorldGenStructure northern_base = new WorldGenStructure("northern_base");
 	
+
+	public static final WorldGenStructure core_boss_structuer = new WorldGenStructure("core_boss_structuer");
+	
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
 		switch(world.provider.getDimension()) {
@@ -84,7 +87,8 @@ public class WorldGenCustomStructures implements IWorldGenerator
 				
 				break;
 			case -1:
-				generateStructure(BUILD_WAREHOUSE, world, random, chunkX, chunkZ, 88, 70, Blocks.NETHERRACK, BiomeHell.class);
+				generateStructure(core_boss_structuer, world, random, chunkX, chunkZ, random.nextInt(15)+60, 70, Blocks.NETHERRACK, BiomeHell.class);
+				generateStructure(BUILD_WAREHOUSE, world, random, chunkX, chunkZ, 88, 20, Blocks.NETHERRACK, BiomeHell.class);
 				
 		}
 		if (modDimensionWorldGen.HELHEIM_DIM_ID==world.provider.getDimension()){
@@ -146,6 +150,7 @@ public class WorldGenCustomStructures implements IWorldGenerator
 		}
 	}
 	
+
 	
 	public static void generateStructure(WorldGenerator generator, World world, Random random, int chunkX, int chunkZ, int PosY, int chance, Block topBlock,Class<? extends Biome>... classes) {
 		List<Class<? extends Biome>> classesList = Lists.newArrayList(classes);

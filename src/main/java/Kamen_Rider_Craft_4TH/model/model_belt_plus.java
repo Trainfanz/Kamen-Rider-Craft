@@ -62,8 +62,8 @@ public class model_belt_plus extends ModelBiped
 		float height2=0f;
 		float height3=1f;
 		float height4=-1.3f;
-		if (entity instanceof EntityPlayer){
-			EntityPlayer player =((EntityPlayer) entity);
+		if (entity instanceof EntityLivingBase){
+			EntityLivingBase player =((EntityLivingBase) entity);
 			
 			if(player.isPotionActive(PotionCore.BIG_POTION)){
 				height=0.5f;
