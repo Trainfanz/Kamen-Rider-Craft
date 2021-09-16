@@ -69,6 +69,7 @@ public class WorldGenCustomStructures implements IWorldGenerator
 	
 
 	public static final WorldGenStructure core_boss_structuer = new WorldGenStructure("core_boss_structuer");
+	public static final WorldGenStructure BURAKAWANI = new WorldGenStructure("burakawani");
 	
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
@@ -83,6 +84,8 @@ public class WorldGenCustomStructures implements IWorldGenerator
 				generateStructure(mighty_action_x, world, random, chunkX, chunkZ,-1, 1000, Blocks.DIRT, BiomePlains.class,BiomeSavanna.class,BiomeForest.class,BiomeSwamp.class);
 				
 				generateStructureFlames(GINGA, world, random, chunkX, chunkZ,1, 800, Blocks.STONE, BiomeHills.class);
+				
+				generateStructure(BURAKAWANI, world, random, chunkX, chunkZ,-1, 100, Blocks.DIRT, BiomeForest.class, BiomePlains.class);
 				
 				
 				break;
