@@ -126,7 +126,7 @@ public class Entityaccel extends EntityHorse
     {
 if (!this.world.isRemote){
 
-    			this.dropItem(RiderItems.accel_memory, 1);
+    			this.dropItem(RiderItems.accel_bike, 1);
 
         
     }

@@ -61,7 +61,7 @@ public class EntityAcrobatter extends EntityBikeBase
     {
 if (!this.world.isRemote){
 
-    			this.dropItem(RiderItems.rider_circuit, 5);
+    			this.dropItem(RiderItems.acro_batter, 1);
 
         
     }

@@ -126,7 +126,7 @@ public class EntityLazer extends EntityHorse
     {
 if (!this.world.isRemote){
 
-    			this.dropItem(RiderItems.rabbit_full_bottle, 1);
+    			this.dropItem(RiderItems.lazer_bike, 1);
 
         
     }

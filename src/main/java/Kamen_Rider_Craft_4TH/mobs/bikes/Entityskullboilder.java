@@ -61,7 +61,7 @@ public class Entityskullboilder extends EntityBikeBase
     {
 if (!this.world.isRemote){
 
-    			this.dropItem(RiderItems.rider_circuit, 5);
+    			this.dropItem(RiderItems.skull_boilder, 1);
 
         
     }

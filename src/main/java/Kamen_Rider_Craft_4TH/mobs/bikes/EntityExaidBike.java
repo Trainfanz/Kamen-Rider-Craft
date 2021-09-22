@@ -61,7 +61,7 @@ public class EntityExaidBike extends EntityBikeBase
     {
 if (!this.world.isRemote){
 
-    			this.dropItem(RiderItems.rabbit_full_bottle, 1);
+    			this.dropItem(RiderItems.bike_gamer, 1);
 
         
     }

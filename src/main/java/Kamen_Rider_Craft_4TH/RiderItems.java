@@ -131,8 +131,17 @@ import Kamen_Rider_Craft_4TH.item.zi_o.item_ohma_advent_calendar;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zi_oarmor;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zi_oarmor2;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
+import Kamen_Rider_Craft_4TH.mobs.EntityLazer;
+import Kamen_Rider_Craft_4TH.mobs.Entityaccel;
 import Kamen_Rider_Craft_4TH.mobs.Boss.*;
+import Kamen_Rider_Craft_4TH.mobs.bikes.EntityAcrobatter;
+import Kamen_Rider_Craft_4TH.mobs.bikes.EntityExaidBike;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntitySakuraHurricane;
+import Kamen_Rider_Craft_4TH.mobs.bikes.Entity_machine_denbird;
+import Kamen_Rider_Craft_4TH.mobs.bikes.Entity_ridoron;
+import Kamen_Rider_Craft_4TH.mobs.bikes.Entityhardboilder;
+import Kamen_Rider_Craft_4TH.mobs.bikes.Entitymachine_tornador;
+import Kamen_Rider_Craft_4TH.mobs.bikes.Entityskullboilder;
 import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -161,6 +170,7 @@ public class RiderItems {
 	public static Item icepop3  = new riderfood(2, true,"icepop3").setCreativeTab(Tabs.tabmisc);
 
 	public static Item base_sword = new Item_ore("base_sword").setCreativeTab(Tabs.tabmisc);
+	public static Item base_bike = new Item_ore("base_bike").setCreativeTab(Tabs.tabmisc);
 
 	public static Item shocker_emblem = new Item_ore("shocker_emblem").setCreativeTab(Tabs.tabmisc);
 	//public static Item base_gun = new Item_ore("base_gun").setCreativeTab(Tabs.tabmisc);
@@ -524,7 +534,8 @@ public class RiderItems {
 
 	public static Item king_stone_split = new Item_ore("king_stone_split").setCreativeTab(Tabs.tabblack_rx);
 
-
+	public static Item acro_batter = new item_bikes("acro_batter",EntityAcrobatter::new).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
+	public static Item ridoron = new item_bikes("ridoron",Entity_ridoron::new).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
 
 	//shin
 
@@ -802,7 +813,7 @@ public class RiderItems {
 
 	public static Item ank_point_burning = new item_agitodriver("ank_point_burning",ArmorMaterial.DIAMOND, 4,"another_agito_burning",(Item_form_change) another_agito_burning_form).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
 
-
+	public static Item tornader = new item_bikes("tornader",Entitymachine_tornador::new).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 
 	//ryuki
 	public static Item drag_visor = new Item_ore("drag_visor").setCreativeTab(Tabs.tabryuki);
@@ -1263,6 +1274,8 @@ public class RiderItems {
 	public static Item zeronos_altair_card = new Itemrider_ticket(1,1,"zeronos_altair_card").setCreativeTab(Tabs.tabden_o);
 	public static Item zeronos_vega_card = new Itemrider_ticket(2,1,"zeronos_vega_card").setCreativeTab(Tabs.tabden_o);
 	public static Item zeronos_zero_card = new Itemrider_ticket(3,1,"zeronos_zero_card").setCreativeTab(Tabs.tabden_o);
+	
+	public static Item den_bird = new item_bikes("den_bird",Entity_machine_denbird::new).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
 
 	//kiva	
 	public static Item garulu_saber = new ItemBaseSword("garulu_saber",Tabs.garulu_saber, RiderItems.fuestle).setMaxStackSize(1).setCreativeTab(Tabs.tabkiva);
@@ -1539,8 +1552,15 @@ public class RiderItems {
 	public static Item unrefined_memory_s = new Item_ore("unrefined_memory_s").setCreativeTab(Tabs.tabW);
 	public static Item unrefined_memory_t2 = new Item_ore("unrefined_memory_t2").setCreativeTab(Tabs.tabW);
 
+<<<<<<< Updated upstream
 	public static Item memory_memory = new Item_ore("memory_memory").setCreativeTab(Tabs.tabW);
 	
+=======
+	public static Item hard_boilder = new item_bikes("hard_boilder",Entityhardboilder::new).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
+	public static Item accel_bike = new item_bikes("accel_bike",Entityaccel::new).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
+	public static Item skull_boilder = new item_bikes("skull_boilder",Entityskullboilder::new).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
+
+>>>>>>> Stashed changes
 	//OOO
 	public static Item medajalibur = new ItemChargeSword("medajalibur",Tabs.medajalibur, RiderItems.cellmedal).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 
@@ -2622,6 +2642,9 @@ public class RiderItems {
 
 	public static Item poppy_doremifa_beat_gashat = new item_poppy_gashat("poppy_doremifa_beat_gashat").setCreativeTab(Tabs.tabex_aid);
 
+	public static Item lazer_bike = new item_bikes("lazer_bike",EntityLazer::new).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item bike_gamer = new item_bikes("bike_gamer",EntityExaidBike::new).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	
 	public static Item gamer_driver_robots = new Item_ore("gamer_driver_robots");
 	public static Item gamer_driver_protorobots = new Item_ore("gamer_driver_protorobots");
 	public static Item gamer_driver_doremifa = new Item_ore("gamer_driver_doremifa");

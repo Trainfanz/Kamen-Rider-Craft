@@ -61,7 +61,7 @@ public class Entityhardboilder extends EntityBikeBase
     {
 if (!this.world.isRemote){
 
-    			this.dropItem(RiderItems.rider_circuit, 5);
+    			this.dropItem(RiderItems.hard_boilder, 1);
 
         
     }

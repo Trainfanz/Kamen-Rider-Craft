@@ -77,7 +77,7 @@ public class Entity_ridoron extends EntityBikeBase
    public void onDeath(DamageSource cause)
     {
 if (!this.world.isRemote){
-    			this.dropItem(RiderItems.rider_circuit, 5);   
+    			this.dropItem(RiderItems.ridoron, 1);   
     }
     }
 }

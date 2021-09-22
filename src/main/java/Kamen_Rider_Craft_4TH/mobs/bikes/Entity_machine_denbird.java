@@ -61,7 +61,7 @@ public class Entity_machine_denbird extends EntityBikeBase
     {
 if (!this.world.isRemote){
 
-    			this.dropItem(RiderItems.rider_circuit, 5);
+    			this.dropItem(RiderItems.den_bird, 1);
 
         
     }
