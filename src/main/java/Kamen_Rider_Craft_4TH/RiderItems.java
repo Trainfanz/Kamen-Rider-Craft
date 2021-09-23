@@ -324,7 +324,8 @@ public class RiderItems {
 
 	public static Block gaoh_boss_block = new mob_block("gaoh_boss_block", Entity_gaoh::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabden_o);
 	
-	public static Block core_boss_block = new mob_block("core_boss_block", Entity_core::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabden_o);
+	public static Block core_boss_block = new mob_block("core_boss_block", Entity_core::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabOOO);
+	public static Block power_up_core_boss_block = new mob_block("power_up_core_boss_block", Entity_power_up_core::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabOOO);
 
 	public static Block another_build_block = new mob_block("another_build_block", Entity_another_build::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabzi_o);
 	public static Block woz_boss_block = new mob_block("woz_boss_block", Entity_White_Woz::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabzi_o);
@@ -1552,15 +1553,14 @@ public class RiderItems {
 	public static Item unrefined_memory_s = new Item_ore("unrefined_memory_s").setCreativeTab(Tabs.tabW);
 	public static Item unrefined_memory_t2 = new Item_ore("unrefined_memory_t2").setCreativeTab(Tabs.tabW);
 
-<<<<<<< Updated upstream
 	public static Item memory_memory = new Item_ore("memory_memory").setCreativeTab(Tabs.tabW);
 	
-=======
+
 	public static Item hard_boilder = new item_bikes("hard_boilder",Entityhardboilder::new).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 	public static Item accel_bike = new item_bikes("accel_bike",Entityaccel::new).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 	public static Item skull_boilder = new item_bikes("skull_boilder",Entityskullboilder::new).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 
->>>>>>> Stashed changes
+
 	//OOO
 	public static Item medajalibur = new ItemChargeSword("medajalibur",Tabs.medajalibur, RiderItems.cellmedal).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 
