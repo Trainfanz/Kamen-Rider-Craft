@@ -90,6 +90,7 @@ import Kamen_Rider_Craft_4TH.item.kiva.item_kivadriver;
 import Kamen_Rider_Craft_4TH.item.kuuga.Item_kuuga_mode_change_gun_im;
 import Kamen_Rider_Craft_4TH.item.kuuga.Item_kuuga_mode_change_sword_im;
 import Kamen_Rider_Craft_4TH.item.kuuga.item_kuugadriver;
+import Kamen_Rider_Craft_4TH.item.ooo.Item_purple_medals;
 import Kamen_Rider_Craft_4TH.item.ooo.Itemmedal;
 import Kamen_Rider_Craft_4TH.item.ooo.Itemo_scanner;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOarmor;
@@ -326,7 +327,8 @@ public class RiderItems {
 	
 	public static Block core_boss_block = new mob_block("core_boss_block", Entity_core::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabOOO);
 	public static Block power_up_core_boss_block = new mob_block("power_up_core_boss_block", Entity_power_up_core::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabOOO);
-
+	public static Block poseidon_boss_block = new mob_block("poseidon_boss_block", Entity_poseidon::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabOOO);
+	
 	public static Block another_build_block = new mob_block("another_build_block", Entity_another_build::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabzi_o);
 	public static Block woz_boss_block = new mob_block("woz_boss_block", Entity_White_Woz::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabzi_o);
 
@@ -1766,6 +1768,11 @@ public class RiderItems {
 
 	public static Item proto_birth_core = new Item_ore("proto_birth_core").setCreativeTab(Tabs.tabOOO);
 
+
+	public static Item purple_medals_sealed = new Item_ore("purple_medals_sealed").setCreativeTab(Tabs.tabOOO);
+	public static Item purple_medals_opened = new Item_purple_medals("purple_medals_opened").setCreativeTab(Tabs.tabOOO);
+	public static Item purple_medals_empty = new Item_ore("purple_medals_empty").setCreativeTab(Tabs.tabOOO);
+	
 	public static Item o_scanner = new Itemo_scanner("o_scanner").setCreativeTab(Tabs.tabOOO);
 
 

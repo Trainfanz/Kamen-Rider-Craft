@@ -4,9 +4,9 @@ import Kamen_Rider_Craft_4TH.RiderItems;
 import net.minecraft.util.DamageSource;
 import net.minecraft.world.World;
 
-public class entity_chap extends Entity_base_henchmen
+public class Entityred_follower extends Entity_base_henchmen
 {
-	public entity_chap(World par1World)
+	public Entityred_follower(World par1World)
 	{
 		super(par1World);
 	}
@@ -15,12 +15,13 @@ public class entity_chap extends Entity_base_henchmen
 	{
 		if (!this.world.isRemote){   
 
-			this.dropItem(RiderItems.rider_circuit,this.rand.nextInt(3));
+			this.dropItem(RiderItems.rider_circuit, this.rand.nextInt(3));
 			switch (this.rand.nextInt(5))
 			{   		   	    		
 			case 0:
-				this.dropItem(RiderItems.king_stone_core, 1);
+				this.dropItem(RiderItems.condorer_wheel, 1);
 				break;
+
 			}
 		}
 	}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:tora"
+    }, 
+    {
+      "item": "kamenridercraft4th:kamakiri"
+    } , 
+    {
+      "item": "kamenridercraft4th:gorilla"
+    } , 
+    {
+      "item": "kamenridercraft4th:kujaku"
+    } , 
+    {
+      "item": "kamenridercraft4th:unagi"
+    } , 
+    {
+      "item": "kamenridercraft4th:tricera"
+    } , 
+    {
+      "item": "kamenridercraft4th:kame"
+    } , 
+    {
+      "item": "kamenridercraft4th:kujira"
+    } , 
+    {
+      "item": "kamenridercraft4th:kani_new"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:super_tora"
+  }
+}

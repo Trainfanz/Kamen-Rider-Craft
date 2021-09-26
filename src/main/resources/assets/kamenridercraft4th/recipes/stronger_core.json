@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:cellmedal"
+    }, 
+    {
+      "item": "kamenridercraft4th:electrer_core"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:stronger_core"
+  }
+}

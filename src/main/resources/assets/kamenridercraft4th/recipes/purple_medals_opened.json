@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [ 
+    {
+      "item": "kamenridercraft4th:purple_medals_sealed"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:purple_medals_opened"
+  }
+}
