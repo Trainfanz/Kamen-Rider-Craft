@@ -38,7 +38,8 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 	public boolean Slash=false;
 	public boolean Saikou=false;
 	public boolean XrossSaber=false;
-
+	public boolean Falchion=false;
+	
 	public Item_wonder_ride_book(String NUM ,int arms,String name)
 	{
 		super();
@@ -121,6 +122,11 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 		Saikou = true;
 		return this;
 	}
+	public Item_wonder_ride_book  FalchionBook()
+	{
+		Falchion = true;
+		return this;
+	}
 	
 	public Item_wonder_ride_book  XrossSaberBook()
 	{
@@ -172,7 +178,7 @@ public class Item_wonder_ride_book extends Item implements IHasModel
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),belt.BOOK_R, "r");
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "f");
 					}
-					else if(belt.Rider=="buster"&Buster||belt.Rider=="kenzan"&Kenzan||belt.Rider=="slash"&Slash||belt.Rider=="calibur"&Calibur){
+					else if(belt.Rider=="buster"&Buster||belt.Rider=="kenzan"&Kenzan||belt.Rider=="slash"&Slash||belt.Rider=="calibur"&Calibur||belt.Rider=="falchion"&Falchion){
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2, num);
 						item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),form, "f");
 					}else if (belt.Rider=="saikou_shadow"&Saikou){

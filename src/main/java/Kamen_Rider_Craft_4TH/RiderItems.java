@@ -3418,7 +3418,9 @@ public class RiderItems {
 	public static Item caladbolg = new ItemBaseSword("caladbolg",Tabs.gashacon_key_slasher, RiderItems.blank_wonder_ride_book).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 
 	public static Item haouken_xross_saber = new  Item_haouken_xross_saber("haouken_xross_saber",Tabs.gashacon_key_slasher).setCreativeTab(Tabs.tabsaber);
-
+	
+	public static Item gekkou_raimeiken_ikazuchi = new ItemBaseSword("gekkou_raimeiken_ikazuchi",Tabs.gashacon_key_slasher, RiderItems.blank_wonder_ride_book).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	
 	public static Item dogouken_gekido_back = new Item_ore("dogouken_gekido_back");
 
 	public static Item shimi_lot = new ItemBaseSword("shimi_lot",Tabs.gashacon_breaker, RiderItems.blank_wonder_ride_book).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
@@ -3472,6 +3474,8 @@ public class RiderItems {
 	public static Item needle_hedgehog_wonderride_book= new Item_wonder_ride_book("m",2,"needle_hedgehog_wonderride_book").AddToSwordOfLogosBookAnalyzer(15).setCreativeTab(Tabs.tabsaber);
 	public static Item tri_cerberus_wonderride_book = new Item_wonder_ride_book("l",5,"tri_cerberus_wonderride_book").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
 
+	public static Item arabiana_night_wonderride_book = new Item_wonder_ride_book("l",0,"arabiana_night_wonderride_book").NotBasicBook().ChangeForm(17).EspadaBook().setCreativeTab(Tabs.tabsaber);
+	
 	public static Item genbu_shinwa_wonderride_book = new Item_wonder_ride_book("l",2,"genbu_shinwa_wonderride_book").resetBook("buster").AddToSwordOfLogosBookAnalyzer(10).setCreativeTab(Tabs.tabsaber);
 	public static Item jackun_to_domamenoki_wonderride_book = new Item_wonder_ride_book("r",2,"jackun_to_domamenoki_wonderride_book").BusterBook().KenzanBook().AddToSwordOfLogosBookAnalyzer(15).setCreativeTab(Tabs.tabsaber);
 
@@ -3493,6 +3497,7 @@ public class RiderItems {
 	public static Item grimoire_wonderride_book = new Item_ore("grimoire_wonderride_book").setCreativeTab(Tabs.tabsaber);
 
 	public static Item eternal_phoenix_wonderride_book = new Item_wonder_ride_book("l",6,"eternal_phoenix_wonderride_book").resetBook("falchion").setCreativeTab(Tabs.tabsaber);
+	public static Item amazing_siren_wonderride_book = new Item_wonder_ride_book("l",6,"amazing_siren_wonderride_book").NotBasicBook().ChangeForm(16).FalchionBook().setCreativeTab(Tabs.tabsaber);
 
 	public static Item kirin_no_ongaeshi_wonderride_book = new Item_wonder_ride_book("r",7,"kirin_no_ongaeshi_wonderride_book").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
 	public static Item sarukani_wars_wonderride_book = new Item_wonder_ride_book("r",8,"sarukani_wars_wonderride_book").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
