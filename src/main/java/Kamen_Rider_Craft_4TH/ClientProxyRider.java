@@ -114,8 +114,12 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entitynew_mole_imagin_sand;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityred_follower;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityshocker_combatman;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_abaddon_low;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_ari_commando;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_battle_raider;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_black_satan_soldier;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_chap;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_combat_roid;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_dogma_fighter;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_guardian_downfall;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_phantom_crusher;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityAcrobatter;
@@ -206,7 +210,10 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entitydestron_combatman.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/destron_combatman.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entitygod_warfare_agent.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/god_warfare_agent.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entityred_follower.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/red_follower.png"));
-		
+		RenderingRegistry.registerEntityRenderingHandler(entity_black_satan_soldier.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/black_satan_soldier.png"));
+		RenderingRegistry.registerEntityRenderingHandler(entity_ari_commando.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/ari_commando.png"));
+		RenderingRegistry.registerEntityRenderingHandler(entity_dogma_fighter.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/dogma_fighter.png"));
+		RenderingRegistry.registerEntityRenderingHandler(entity_combat_roid.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/combat_roid.png"));
 		RenderingRegistry.registerEntityRenderingHandler(entity_chap.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/chap.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entityguardian.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/guardian.png"));
