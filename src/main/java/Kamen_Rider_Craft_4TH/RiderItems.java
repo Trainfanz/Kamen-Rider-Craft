@@ -3497,7 +3497,7 @@ public class RiderItems {
 	public static Item grimoire_wonderride_book = new Item_ore("grimoire_wonderride_book").setCreativeTab(Tabs.tabsaber);
 
 	public static Item eternal_phoenix_wonderride_book = new Item_wonder_ride_book("l",6,"eternal_phoenix_wonderride_book").resetBook("falchion").setCreativeTab(Tabs.tabsaber);
-	public static Item amazing_siren_wonderride_book = new Item_wonder_ride_book("l",6,"amazing_siren_wonderride_book").NotBasicBook().ChangeForm(16).FalchionBook().setCreativeTab(Tabs.tabsaber);
+	public static Item amazing_siren_wonderride_book = new Item_wonder_ride_book("l",0,"amazing_siren_wonderride_book").NotBasicBook().ChangeForm(16).FalchionBook().setCreativeTab(Tabs.tabsaber);
 
 	public static Item kirin_no_ongaeshi_wonderride_book = new Item_wonder_ride_book("r",7,"kirin_no_ongaeshi_wonderride_book").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
 	public static Item sarukani_wars_wonderride_book = new Item_wonder_ride_book("r",8,"sarukani_wars_wonderride_book").AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
@@ -3590,12 +3590,17 @@ public class RiderItems {
 	public static Item seiken_swordriver_tategami = new Item_ore("seiken_swordriver_tategami");
 	public static Item seiken_swordriver_specter = new Item_ore("seiken_swordriver_specter");
 
+	public static Item seiken_swordriver_siren = new Item_ore("seiken_swordriver_siren");
+	public static Item seiken_swordriver_arabiana = new Item_ore("seiken_swordriver_arabiana");
+	
 	public static Item jaken_caliburdriver_jaou = new Item_ore("jaken_caliburdriver_jaou");
 
 	public static Item seiken_saikou_driver_x_swordman = new Item_ore("seiken_saikou_driver_x_swordman");
 	public static Item seiken_saikou_driver_x_swordman1 = new Item_ore("seiken_saikou_driver_x_swordman1");
 	public static Item seiken_saikou_driver_x_swordman2 = new Item_ore("seiken_saikou_driver_x_swordman2");
 
+	public static Item wonder_ride_books = new Item_ore("wonder_ride_books");
+	
 //Revice
 	
 	public static Item revicehead = new item_revicearmor("revicehead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);

@@ -387,8 +387,10 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 						RiderItems.seiken_saikou_driver_x_swordman2,RiderItems.seiken_saikou_driver_x_swordman1,RiderItems.seiken_swordriver_king_lion,
 						RiderItems.seiken_swordriver_primitive,RiderItems.seiken_swordriver_elemental,RiderItems.seiken_swordriver_tategami,
 						RiderItems.blanknoitem,RiderItems.seiken_swordriver_specter,RiderItems.seiken_swordriver_super_hero_senki,
-						RiderItems.seiken_swordriver_wonder,RiderItems.blanknoitem,RiderItems.blanknoitem};
+						RiderItems.seiken_swordriver_wonder,RiderItems.seiken_swordriver_siren,RiderItems.seiken_swordriver_arabiana};
 
+	
+				
 				if (stack.getItem()==RiderItems.sword_of_logos_buckle_buster){
 					if(living.getHeldItemMainhand().getItem()!= RiderItems.dogouken_gekido&living.getHeldItemOffhand().getItem()!= RiderItems.dogouken_gekido){
 						armorModel.wings= new ItemStack(RiderItems.dogouken_gekido_back);
@@ -396,6 +398,9 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 				}
 				
 				if (stack.getItem()==RiderItems.seiken_swordriver_saber||stack.getItem()==RiderItems.seiken_swordriver_blaze||stack.getItem()==RiderItems.seiken_swordriver_espada){
+					if (this.get_core_for_forms(stack,"f")==15){
+					armorModel.wings= new ItemStack(RiderItems.wonder_ride_books);
+					}
 					armorModel.belt=new ItemStack(RiderItems.seiken_swordriver);
 					armorModel.belt2=new ItemStack(shinjuu[this.get_core_for_forms(stack,"l")]);
 				armorModel.belt3=new ItemStack(seibutsu[this.get_core_for_forms(stack,"m")]);
