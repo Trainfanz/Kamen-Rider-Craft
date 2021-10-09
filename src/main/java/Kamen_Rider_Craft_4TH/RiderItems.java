@@ -1649,6 +1649,7 @@ public class RiderItems {
 	public static Item greeed_blet_kazari = new item_OOOdriver("greeed_blet_kazari",ArmorMaterial.DIAMOND, 4,"kazari_complete").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 	public static Item greeed_blet_mezool = new item_OOOdriver("greeed_blet_mezool",ArmorMaterial.DIAMOND, 4,"mezool_complete").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 	public static Item greeed_blet_gamel = new item_OOOdriver("greeed_blet_gamel",ArmorMaterial.DIAMOND, 4,"gamel_complete").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+	public static Item greeed_blet_muchiri = new item_OOOdriver("greeed_blet_muchiri",ArmorMaterial.DIAMOND, 4,"muchiri_complete").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 
 	public static Item taka = new Itemmedal(0, "1","taka").setCreativeTab(Tabs.tabOOO);
 	public static Item kuwagata = new Itemmedal(1, "1","kuwagata").setCreativeTab(Tabs.tabOOO);
