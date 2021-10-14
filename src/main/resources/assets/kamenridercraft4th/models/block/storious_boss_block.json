@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "kamenridercraft4th:blocks/sword_of_logos_planks",
+        "side": "kamenridercraft4th:blocks/storious_boss_block"
+    }
+}

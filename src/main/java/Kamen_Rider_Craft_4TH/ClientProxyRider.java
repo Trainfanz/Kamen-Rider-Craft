@@ -78,12 +78,14 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_zooous;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_zooous_predator;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_abaddon_high;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_blood;
+import Kamen_Rider_Craft_4TH.mobs.Boss.entity_desast;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_dire_wolf_sold_magia;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_eden;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_killbus;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_metal_build;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_raider;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_serval_tiger_sold_magia;
+import Kamen_Rider_Craft_4TH.mobs.Boss.entity_storious_rider;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_zaia;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Calibur;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityBugsterVirus;
@@ -329,6 +331,8 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entity_zooous.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/zooous.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_zooous_predator.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/zooous_predator.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_Solomon.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/solomon.png"));
+		RenderingRegistry.registerEntityRenderingHandler(entity_desast.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/desast.png"));
+		RenderingRegistry.registerEntityRenderingHandler(entity_storious_rider.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/storious.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityAcrobatter.class, new RenderRiderMob2(new Model_machine_builder(), 0.5F,"textures/entities/acrobatter.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_ridoron.class, new RenderRiderMob2(new model_ridoron(), 0.5F,"textures/entities/ridoron.png"));

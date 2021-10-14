@@ -14,6 +14,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_genm;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_legeiel;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_storious;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_zooous;
+import Kamen_Rider_Craft_4TH.mobs.Boss.entity_desast;
 import net.minecraft.block.Block;
 
 import net.minecraft.entity.Entity;
@@ -77,6 +78,7 @@ public class EntityShimi extends Entity_base_henchmen
 				 EntityBossBase entityboss2  = new Entity_legeiel(world);
 				 EntityBossBase entityboss3  = new Entity_storious(world);
 				 EntityBossBase entityboss4  = new Entity_zooous(world);
+				 EntityBossBase entityboss5  = new entity_desast(world);
 				 
 			switch (this.rand.nextInt(20))
 			{
@@ -101,6 +103,12 @@ public class EntityShimi extends Entity_base_henchmen
 				playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_BLUE+"Zooous!"));
 				entityboss4.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
 				world.spawnEntity(entityboss4);
+				break;
+				
+			case 4:
+				playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Desast!"));
+				entityboss4.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				world.spawnEntity(entityboss5);
 				break;
 			}
 			}

@@ -333,6 +333,7 @@ public class RiderItems {
 	public static Block sabela_boss_block = new mob_block("sabela_boss_block", Entity_Sabela::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabsaber);
 	public static Block durendal_boss_block = new mob_block("durendal_boss_block", Entity_Durendal::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabsaber);
 	public static Block solomon_boss_block = new mob_block("solomon_boss_block", Entity_Solomon::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabsaber);
+	public static Block storious_boss_block = new mob_block("storious_boss_block", entity_storious_rider::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabsaber);
 
 	//Kamen Rider
 	public static Item ichigohead = new item_Ichigoarmor("ichigohead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
@@ -3422,6 +3423,7 @@ public class RiderItems {
 	public static Item eneiken_noroshi = new ItemBaseSword("eneiken_noroshi",Tabs.souginjou, RiderItems.blank_wonder_ride_book).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item jikokuken_kaiji = new ItemBaseSword("jikokuken_kaiji",Tabs.true_brave_sword, RiderItems.blank_wonder_ride_book).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item caladbolg = new ItemBaseSword("caladbolg",Tabs.gashacon_key_slasher, RiderItems.blank_wonder_ride_book).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item storious_sword = new ItemBaseSword("storious_sword",Tabs.gashacon_key_slasher, RiderItems.blank_wonder_ride_book).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 
 	public static Item haouken_xross_saber = new  Item_haouken_xross_saber("haouken_xross_saber",Tabs.gashacon_key_slasher).setCreativeTab(Tabs.tabsaber);
 	
@@ -3532,6 +3534,7 @@ public class RiderItems {
 
 	public static Item diago_speedy_wonder_ride_book = new item_diago_speedy("diago_speedy_wonder_ride_book").setCreativeTab(Tabs.tabsaber);
 
+	public static Item desast_alter_ride_book = new Item_ore("desast_alter_ride_book").setCreativeTab(Tabs.tabsaber);
 	public static Item charybdis_alter_ride_book = new Item_ore("charybdis_alter_ride_book").setCreativeTab(Tabs.tabsaber);
 	public static Item legeiel_alter_ride_book = new Item_ore("legeiel_alter_ride_book").setCreativeTab(Tabs.tabsaber);
 	public static Item zooous_alter_ride_book = new Item_ore("zooous_alter_ride_book").setCreativeTab(Tabs.tabsaber);
