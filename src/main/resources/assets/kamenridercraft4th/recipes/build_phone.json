@@ -6,9 +6,9 @@
     "XXX"
   ],
   "key": {
-    "X": {
-      "item": "minecraft:iron_ingot"
-    }, "C": {
+    "C": {
+      "item": "kamenridercraft4th:base_bike"
+    }, "X": {
       "item": "kamenridercraft4th:rider_circuit"
     }, "Z": {
       "item": "kamenridercraft4th:lion_full_bottle"

@@ -334,6 +334,7 @@ public class RiderItems {
 	public static Block durendal_boss_block = new mob_block("durendal_boss_block", Entity_Durendal::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabsaber);
 	public static Block solomon_boss_block = new mob_block("solomon_boss_block", Entity_Solomon::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabsaber);
 
+	//Kamen Rider
 	public static Item ichigohead = new item_Ichigoarmor("ichigohead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item ichigotroso = new item_Ichigoarmor2("ichigotroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item ichigolegs = new item_Ichigoarmor2("ichigolegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
@@ -1559,13 +1560,12 @@ public class RiderItems {
 
 	//OOO
 	public static Item cellmedal = new Item_ore("cellmedal").setCreativeTab(Tabs.tabOOO);
-
+	
 	public static Item medajalibur = new ItemChargeSword("medajalibur",Tabs.medajalibur, RiderItems.cellmedal).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 
 	public static Item tajaspinner = new Item_fireball_gun("tajaspinner",Tabs.tajaspinner, RiderItems.cellmedal).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 
 	public static Item medagaburyu = new Item_sword_gun("medagaburyu",Tabs.medagaburyu, RiderItems.cellmedal).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
-
 
 	public static Item birth_buster = new Item_gun("birth_buster",Tabs.birth_buster, RiderItems.cellmedal).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 	public static Item deepest_harpoon = new ItemBaseSword("deepest_harpoon",Tabs.medagaburyu, RiderItems.cellmedal).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
@@ -1645,7 +1645,7 @@ public class RiderItems {
 	public static Item greeed_blet_kazari = new item_OOOdriver("greeed_blet_kazari",ArmorMaterial.DIAMOND, 4,"kazari_complete").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 	public static Item greeed_blet_mezool = new item_OOOdriver("greeed_blet_mezool",ArmorMaterial.DIAMOND, 4,"mezool_complete").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 	public static Item greeed_blet_gamel = new item_OOOdriver("greeed_blet_gamel",ArmorMaterial.DIAMOND, 4,"gamel_complete").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
-	public static Item greeed_blet_muchiri = new item_OOOdriver("greeed_blet_muchiri",ArmorMaterial.DIAMOND, 4,"muchiri_complete").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+    public static Item greeed_blet_muchiri = new item_OOOdriver("greeed_blet_muchiri",ArmorMaterial.DIAMOND, 4,"muchiri_complete").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 
 	public static Item taka = new Itemmedal(0, "1","taka").setCreativeTab(Tabs.tabOOO);
 	public static Item kuwagata = new Itemmedal(1, "1","kuwagata").setCreativeTab(Tabs.tabOOO);
@@ -1752,7 +1752,6 @@ public class RiderItems {
 	public static Item zeus_tyranno = new Itemmedal(5, "3","zeus_tyranno").setCreativeTab(Tabs.tabOOO);
 	public static Item zeus_ari = new Itemmedal(14, "3","zeus_ari").setCreativeTab(Tabs.tabOOO);
 
-
 	public static Item gel_shocker_core = new Itemmedal(19, "2","gel_shocker_core").setCreativeTab(Tabs.tabOOO);
 	public static Item destron_core = new Itemmedal(17, "3","destron_core").setCreativeTab(Tabs.tabOOO);
 	public static Item god_core = new Item_ore("god_core").setCreativeTab(Tabs.tabOOO);
@@ -1761,7 +1760,6 @@ public class RiderItems {
 	public static Item neo_shocker_core = new Item_ore("neo_shocker_core").setCreativeTab(Tabs.tabOOO);
 	public static Item jin_dogma_core = new Item_ore("jin_dogma_core").setCreativeTab(Tabs.tabOOO);
 	public static Item badan_core = new Item_ore("badan_core").setCreativeTab(Tabs.tabOOO);
-
 
 	public static Item birth_core= new Item_ore("birth_core").setCreativeTab(Tabs.tabOOO);
 	public static Item proto_birth_core = new Item_ore("proto_birth_core").setCreativeTab(Tabs.tabOOO);
@@ -1775,7 +1773,6 @@ public class RiderItems {
 	public static Item birth_core_breast_cannon= new Itemmedal(6, "birth","birth_core_breast_cannon").setCreativeTab(Tabs.tabOOO);
 	public static Item birth_core_eyes= new Itemmedal(7, "birth","birth_core_eyes").setCreativeTab(Tabs.tabOOO);
 	
-	
 	public static Item cell_alloy_ingot= new Item_ore("cell_alloy_ingot").setCreativeTab(Tabs.tabOOO);
 	
 	public static Item purple_medals_sealed = new Item_ore("purple_medals_sealed").setCreativeTab(Tabs.tabOOO);
@@ -1783,7 +1780,6 @@ public class RiderItems {
 	public static Item purple_medals_empty = new Item_ore("purple_medals_empty").setCreativeTab(Tabs.tabOOO);
 	
 	public static Item o_scanner = new Itemo_scanner("o_scanner").setCreativeTab(Tabs.tabOOO);
-
 
 	//Fourze
 	public static Item billytherod = new ItemBaseSword("billytherod",ToolMaterial.DIAMOND, RiderItems.astroswitch).setMaxStackSize(1).setCreativeTab(Tabs.tabFourze);
@@ -2482,6 +2478,8 @@ public class RiderItems {
 
 
 	// Ex-Aid
+	public static Item blank_gashat = new Item_ore("blank_gashat").setCreativeTab(Tabs.tabex_aid);
+	
 	public static Item gashacon_breaker = new Item_gashacon_breaker("gashacon_breaker",Tabs.gashacon_breaker, RiderItems.blank_gashat).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 	//public static Item gashacon_breaker_ham = new ItemBaseSword("gashacon_breaker_ham",Tabs.gashacon_breaker_ham).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 
@@ -2556,7 +2554,6 @@ public class RiderItems {
 	public static Item rideplayerbelt_nico = new item_ex_aiddriver("rideplayerbelt_nico",ArmorMaterial.DIAMOND, 4, 3,"ride_player_nico",3).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 	public static Item ninjaplayerbelt = new item_ex_aiddriver("ninjaplayerbelt",ArmorMaterial.DIAMOND, 4, 3,"ninjaplayer",3).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 
-	public static Item blank_gashat = new Item_ore("blank_gashat").setCreativeTab(Tabs.tabex_aid);
 	public static Item mighty_brothers_xx_unfinished_gashat = new Item_ore("mighty_brothers_xx_unfinished_gashat").setCreativeTab(Tabs.tabex_aid);
 	public static Item unfinished_maximum_mighty_x_gashat = new Item_ore("unfinished_maximum_mighty_x_gashat").setCreativeTab(Tabs.tabex_aid);
 	public static Item unfinished_hyper_muteki_gashat = new Item_ore("unfinished_hyper_muteki_gashat").setCreativeTab(Tabs.tabex_aid);
@@ -3024,6 +3021,9 @@ public class RiderItems {
 	//public static Item build_driver_ = new Item_ore("build_driver_");
 
 	//Zi-O
+	public static Item blank_watch = new Item_blank_ridewatches2("blank_watch").setCreativeTab(Tabs.tabzi_o);
+	public static Item blank_miridewatch = new Item_ore("blank_miridewatch").setCreativeTab(Tabs.tabzi_o);
+
 	public static Item gaim_armor_wings = new Item_ore("gaim_armor_wings");
 
 	public static Item zi_ohead = new item_zi_oarmor("zi_ohead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
@@ -3172,9 +3172,6 @@ public class RiderItems {
 
 	public static Item woz_ridewatch = new Item_ridewatches(0, 0,"woz_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item ryusoulger_ridewatch = new Item_ore("ryusoulger_ridewatch").setCreativeTab(Tabs.tabzi_o);
-
-	public static Item blank_watch = new Item_blank_ridewatches2("blank_watch").setCreativeTab(Tabs.tabzi_o);
-	public static Item blank_miridewatch = new Item_ore("blank_miridewatch").setCreativeTab(Tabs.tabzi_o);
 
 	public static Item shuriken_starter = new Item_ore("shuriken_starter").setCreativeTab(Tabs.tabzi_o);
 	public static Item shuriken_starter_hattari = new Item_ore("shuriken_starter_hattari").setCreativeTab(Tabs.tabzi_o);
@@ -3610,7 +3607,7 @@ public class RiderItems {
 
 	public static Item wonder_ride_books = new Item_ore("wonder_ride_books");
 	
-//Revice
+	//Revice
 	
 	public static Item revicehead = new item_revicearmor("revicehead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item revicetroso = new item_revicearmor2("revicetroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
