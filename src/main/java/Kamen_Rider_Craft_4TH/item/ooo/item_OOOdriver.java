@@ -3,7 +3,6 @@ package Kamen_Rider_Craft_4TH.item.ooo;
 import javax.annotation.Nullable;
 
 import org.lwjgl.opengl.GL11;
-
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.model.model_belt_plus;
@@ -24,6 +23,8 @@ import net.minecraft.entity.effect.EntityLightningBolt;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.item.EntityItemFrame;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.projectile.EntityFireball;
+import net.minecraft.entity.projectile.EntityLargeFireball;
 import net.minecraft.init.MobEffects;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
@@ -39,12 +40,12 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class item_OOOdriver extends ItemArmor implements IHasModel
 {
-	
+
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
 	public String armorNamePrefix;
 	public ArmorMaterial material;
 	public String Rider;
-	
+
 	public item_OOOdriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, String rider)
 	{
 		super(par2EnumArmorMaterial, par3, EntityEquipmentSlot.FEET);
@@ -61,7 +62,7 @@ public class item_OOOdriver extends ItemArmor implements IHasModel
 	@SideOnly(Side.CLIENT)
 	public boolean hasEffect(ItemStack par1ItemStack)
 	{
-			return !true;
+		return !true;
 	}
 	@Override
 	public void registerModels() {
@@ -89,9 +90,47 @@ public class item_OOOdriver extends ItemArmor implements IHasModel
 
 										item_OOOdriver.set_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),item_OOOdriver.get_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+1);
 									}
-									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.birth_driver){
+									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.birth_driver||player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.birth_driver_prototype){
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+										if (this.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "birth1")==1){
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 0,true,false));
+										}
+										if (this.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "birth2")==1){
+											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
+										}	
+										if (this.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "birth3")==1){
+											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
+										}
+										if (this.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "birth4")==1){
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
+										}	
+										if (this.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "birth5")==1){
+											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
+										}	
+										if (this.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "birth6")==1){
+											if (player.isSneaking()){
+												if (item_OOOdriver.get_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET)) > 99){
+
+													Vec3d look = player.getLookVec();
+													EntityFireball fireball = new EntityLargeFireball(world, player, 1, 1, 1);
+													fireball.setPosition(
+															player.posX + look.x * 1.6,
+															player.posY + 1,
+															player.posZ + look.z * 1.6);
+													fireball.accelerationX = look.x * 0.1;
+													fireball.accelerationY = look.y * 0.1;
+													fireball.accelerationZ = look.z * 0.1;
+													world.spawnEntity(fireball);
+													item_OOOdriver.set_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),0);
+
+
+												}
+											}
+										}	
+										if (this.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "birth7")==1){
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 400, 0,true,false));
+										}
 									}
 									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.birth_driver_prototype){
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
@@ -164,23 +203,31 @@ public class item_OOOdriver extends ItemArmor implements IHasModel
 				armorModel.belt=stack;
 
 
-
+				if(stack.getItem() == RiderItems.birth_driver)
+				{	
+					if (item_OOOdriver.get_core(stack,"birth1")==1){
+						armorModel.wings=new ItemStack(RiderItems.cutter_wing);	
+					}else{
+						armorModel.wings=new ItemStack(RiderItems.blanknoitem);
+					}	
+				}
 				if(stack.getItem() == RiderItems.OOOdriver)
 				{	
-						if (item_OOOdriver.get_core(stack,"1") == 0&item_OOOdriver.get_core(stack,"2") == 3&item_OOOdriver.get_core(stack,"3")==3){
-							if(living.isSneaking() || (living instanceof EntityPlayer && (((EntityPlayer) living).capabilities.isFlying))){
+					if (item_OOOdriver.get_core(stack,"1") == 0&item_OOOdriver.get_core(stack,"2") == 3&item_OOOdriver.get_core(stack,"3")==3){
+						if(living.isSneaking() || (living instanceof EntityPlayer && (((EntityPlayer) living).capabilities.isFlying))){
 							armorModel.wings=new ItemStack(RiderItems.tajador_wings);	
-							}
-						}if (item_OOOdriver.get_core(stack,"1") == 7&item_OOOdriver.get_core(stack,"2") == 9&item_OOOdriver.get_core(stack,"3")==8){
-							if(living.isSneaking() || (living instanceof EntityPlayer && (((EntityPlayer) living).capabilities.isFlying))){
+						}
+					}if (item_OOOdriver.get_core(stack,"1") == 7&item_OOOdriver.get_core(stack,"2") == 9&item_OOOdriver.get_core(stack,"3")==8){
+						if(living.isSneaking() || (living instanceof EntityPlayer && (((EntityPlayer) living).capabilities.isFlying))){
 							armorModel.wings=new ItemStack(RiderItems.tajador_wings);	
-							}
-						}else if (item_OOOdriver.get_core(stack,"1") == 15&item_OOOdriver.get_core(stack,"2") == 3&item_OOOdriver.get_core(stack,"3")==3){
-							if(living.isSneaking() || (living instanceof EntityPlayer && (((EntityPlayer) living).capabilities.isFlying))){
+						}
+					}else if (item_OOOdriver.get_core(stack,"1") == 15&item_OOOdriver.get_core(stack,"2") == 3&item_OOOdriver.get_core(stack,"3")==3){
+						if(living.isSneaking() || (living instanceof EntityPlayer && (((EntityPlayer) living).capabilities.isFlying))){
 							armorModel.wings=new ItemStack(RiderItems.condor_wings);
-							}else{
+						}else{
 							armorModel.wings=new ItemStack(RiderItems.blanknoitem);
 						}	
+
 					}
 					{
 						armorModel.belt2=new ItemStack(Medel_head[item_OOOdriver.get_core(stack,"1")]);
@@ -203,9 +250,30 @@ public class item_OOOdriver extends ItemArmor implements IHasModel
 	}
 
 
+	public static String get_claws_legs(ItemStack itemstack)
+	{
+		return itemstack.hasTagCompound() ? item_OOOdriver.get_core(itemstack,"birth2")==1 ? "birth_catepillar_leg" : "blank" : "blank";
+	}
 
+	public static String get_claws_l_arms(ItemStack itemstack)
+	{
+		return itemstack.hasTagCompound() ? item_OOOdriver.get_core(itemstack,"birth3")==1 ? item_OOOdriver.get_core(itemstack,"birth4")==1 ?"birth_crane_arm_drill_arm": "birth_crane_arm" : item_OOOdriver.get_core(itemstack,"birth4")==1 ?"birth_drill_arm": "blank" : "blank";
+	}
 
+	public static String get_claws_r_arms(ItemStack itemstack)
+	{
+		return itemstack.hasTagCompound() ? item_OOOdriver.get_core(itemstack,"birth5")==1 ? "birth_shovel_arm" : "blank" : "blank";
+	}
 
+	public static String get_claws_torso(ItemStack itemstack)
+	{
+		return itemstack.hasTagCompound() ? item_OOOdriver.get_core(itemstack,"birth6")==1 ? "birth_breast_cannon" : "blank" : "blank";
+	}
+
+	public static String get_claws_eyes(ItemStack itemstack)
+	{
+		return itemstack.hasTagCompound() ? item_OOOdriver.get_core(itemstack,"birth7")==1 ? "_eyes" : "_1" : "_1";
+	}
 
 	public static int get_eftTime(ItemStack itemstack)
 	{
@@ -252,9 +320,10 @@ public class item_OOOdriver extends ItemArmor implements IHasModel
 	{
 		return stack.getItem()==RiderItems.OOOdriver || getColor(stack) != 0x00FFFFFF;
 	}
-	
+
 	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
 	{
 		return RiderItems.cellmedal == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
+
 }

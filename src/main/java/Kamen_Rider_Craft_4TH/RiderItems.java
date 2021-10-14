@@ -231,12 +231,6 @@ public class RiderItems {
 	public static Item t2gaiamemory = new Item_ore("t2gaiamemory").setCreativeTab(Tabs.tabW);
 	public static Block gaiamemoryhellrock = new ore_block("gaiamemoryhellrock",Material.ROCK, t2gaiamemory, 3).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabW);
 
-	public static Item cellmedal = new Item_ore("cellmedal").setCreativeTab(Tabs.tabOOO);
-	public static Block cellmedalblock = new ore_block("cellmedalblock",Material.ROCK, cellmedal, 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabOOO);
-
-	public static Item birth_core= new Item_ore("birth_core").setCreativeTab(Tabs.tabOOO);
-	public static Block ooo_hellrock = new ore_block("ooo_hellrock",Material.ROCK, birth_core, 3).setHardness(9.9F).setCreativeTab(Tabs.tabOOO);
-
 	public static Item astroswitch = new Item_ore("astroswitch").setCreativeTab(Tabs.tabFourze);
 	public static Block astroswitchblock = new ore_block("astroswitchblock",Material.ROCK, astroswitch, 2).setHardness(9.9F).setCreativeTab(Tabs.tabFourze);
 
@@ -1564,6 +1558,8 @@ public class RiderItems {
 
 
 	//OOO
+	public static Item cellmedal = new Item_ore("cellmedal").setCreativeTab(Tabs.tabOOO);
+
 	public static Item medajalibur = new ItemChargeSword("medajalibur",Tabs.medajalibur, RiderItems.cellmedal).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 
 	public static Item tajaspinner = new Item_fireball_gun("tajaspinner",Tabs.tajaspinner, RiderItems.cellmedal).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
@@ -1767,9 +1763,21 @@ public class RiderItems {
 	public static Item badan_core = new Item_ore("badan_core").setCreativeTab(Tabs.tabOOO);
 
 
+	public static Item birth_core= new Item_ore("birth_core").setCreativeTab(Tabs.tabOOO);
 	public static Item proto_birth_core = new Item_ore("proto_birth_core").setCreativeTab(Tabs.tabOOO);
 
-
+	public static Item birth_core_cutter_wing= new Itemmedal(1, "birth","birth_core_cutter_wing").setCreativeTab(Tabs.tabOOO);
+	public static Item cutter_wing= new Item_ore("cutter_wing");
+	public static Item birth_core_catepillar_leg= new Itemmedal(2, "birth","birth_core_catepillar_leg").setCreativeTab(Tabs.tabOOO);
+	public static Item birth_core_crane_arm= new Itemmedal(3, "birth","birth_core_crane_arm").setCreativeTab(Tabs.tabOOO);
+	public static Item birth_core_drill_arm= new Itemmedal(4, "birth","birth_core_drill_arm").setCreativeTab(Tabs.tabOOO);
+	public static Item birth_core_shovel_arm= new Itemmedal(5, "birth","birth_core_shovel_arm").setCreativeTab(Tabs.tabOOO);
+	public static Item birth_core_breast_cannon= new Itemmedal(6, "birth","birth_core_breast_cannon").setCreativeTab(Tabs.tabOOO);
+	public static Item birth_core_eyes= new Itemmedal(7, "birth","birth_core_eyes").setCreativeTab(Tabs.tabOOO);
+	
+	
+	public static Item cell_alloy_ingot= new Item_ore("cell_alloy_ingot").setCreativeTab(Tabs.tabOOO);
+	
 	public static Item purple_medals_sealed = new Item_ore("purple_medals_sealed").setCreativeTab(Tabs.tabOOO);
 	public static Item purple_medals_opened = new Item_purple_medals("purple_medals_opened").setCreativeTab(Tabs.tabOOO);
 	public static Item purple_medals_empty = new Item_ore("purple_medals_empty").setCreativeTab(Tabs.tabOOO);

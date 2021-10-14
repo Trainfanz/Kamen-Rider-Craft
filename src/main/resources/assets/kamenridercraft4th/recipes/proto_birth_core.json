@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ACA",
+    "AAA"
+  ],
+  "key": {
+     "A": {
+      "item": "minecraft:REDSTONE"
+    }, "C": {
+      "item": "kamenridercraft4th:birth_core"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:proto_birth_core"
+  }
+}

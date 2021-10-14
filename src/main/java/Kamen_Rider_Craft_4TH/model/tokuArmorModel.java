@@ -8,6 +8,9 @@ package Kamen_Rider_Craft_4TH.model;
 
 import org.lwjgl.opengl.GL11;
 
+import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.item.fourze.item_Fourzedriver;
+import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
 import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import Kamen_Rider_Craft_4TH.util.Refercence;
 import net.minecraft.client.Minecraft;
@@ -133,6 +136,8 @@ public class tokuArmorModel extends ModelBiped
 
 
 		}
+
+		
 		GL11.glTranslatef(0,height2,0);
 		this.bipedLeftLeg2.offsetX=0.045f;
 		this.bipedRightLeg2.offsetX=-0.045f;

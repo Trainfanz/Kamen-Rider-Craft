@@ -33,7 +33,7 @@ public class Itemmedal extends Item  implements IHasModel
 	public Itemmedal(int NUM ,String NUM2,String name)
 	{
 		super();
-		
+
 		this.setMaxDamage(0);
 		num=NUM;
 		num2=NUM2;
@@ -57,7 +57,7 @@ public class Itemmedal extends Item  implements IHasModel
 	public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer player, EnumHand handIn)
 	{
 		if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
-			if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.OOOdriver){
+			if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.OOOdriver&num2!="birth"){
 
 				if (this==RiderItems.taka_ankh){
 					item_OOOdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), num, num2);
@@ -65,8 +65,24 @@ public class Itemmedal extends Item  implements IHasModel
 					if (shift == true&player.isSneaking()) {
 						item_OOOdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), shift_num, shift_num2);
 					}else {
-				item_OOOdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), num, num2);
+						item_OOOdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), num, num2);
 					}
+				}
+			}if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.birth_driver){
+				if (num2=="birth"){
+					int mode = 0;
+					if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"birth"+num)==0){
+						mode=1;
+					}
+					item_OOOdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), mode, "birth"+num);
+				}
+			}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.birth_driver_prototype){
+				if (this==RiderItems.birth_core_crane_arm||this==RiderItems.birth_core_breast_cannon||this==RiderItems.birth_core_eyes){
+					int mode = 0;
+					if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"birth"+num)==0){
+						mode=1;
+					}
+					item_OOOdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), mode, "birth"+num);
 				}
 			}
 		}
