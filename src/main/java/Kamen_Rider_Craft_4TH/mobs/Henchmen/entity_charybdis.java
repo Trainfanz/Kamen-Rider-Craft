@@ -14,6 +14,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_genm;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_legeiel;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_storious;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_zooous;
+import Kamen_Rider_Craft_4TH.mobs.Boss.entity_charybdis_hercules;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_desast;
 import net.minecraft.block.Block;
 
@@ -52,89 +53,33 @@ import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
 
-public class EntityShimi extends Entity_base_henchmen
+public class entity_charybdis extends Entity_base_henchmen
 {
-	public EntityShimi(World par1World)
+	public entity_charybdis(World par1World)
 	{
 		super(par1World);	
 	}
 
-	/**
-	 * Returns the item that this EntityLiving is holding, if any.
-	 */
-	@Override
-	public ItemStack getHeldItemMainhand()
-	{
-		return new ItemStack(RiderItems.shimi_lot);
-	}
-
 	public void onDeath(DamageSource cause)
 	{
-		if (!this.world.isRemote){
-
-			if (this.getAttackTarget()instanceof EntityPlayer){
-				EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
-				 EntityBossBase entityboss  = new Entity_Calibur(world);
-				 EntityBossBase entityboss2  = new Entity_legeiel(world);
-				 EntityBossBase entityboss3  = new Entity_storious(world);
-				 EntityBossBase entityboss4  = new Entity_zooous(world);
-				 EntityBossBase entityboss5  = new entity_desast(world);
-				 
-			switch (this.rand.nextInt(20))
+		if (!this.world.isRemote)
+		{
+			if (this.getAttackTarget()instanceof EntityPlayer)
 			{
-			case 0:
-				playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_PURPLE+"Jaaku Dragon!"));
-				entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
-				world.spawnEntity(entityboss);
-				break;
-			case 1:
-				playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Legeiel!"));
-				entityboss2.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
-				world.spawnEntity(entityboss2);
-				break;
-
-			case 2:
-				playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_GREEN+"Storious!"));
-				entityboss3.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
-				world.spawnEntity(entityboss3);
-				break;
-
-			case 3:
-				playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_BLUE+"Zooous!"));
-				entityboss4.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
-				world.spawnEntity(entityboss4);
-				break;
-				
-			case 4:
-				playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Desast!"));
-				entityboss5.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
-				world.spawnEntity(entityboss5);
-				break;
-			}
+				EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
+				EntityBossBase entityboss  = new entity_charybdis_hercules(world);
+	 
+				switch (this.rand.nextInt(20))
+				{
+				case 0:
+					playerIn.sendMessage( new TextComponentString(TextFormatting.WHITE+"Charybdis!"));
+					entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+					world.spawnEntity(entityboss);
+					break;
+				}
 			}
 			
 			this.dropItem(RiderItems.blank_wonder_ride_book, 1);
-			switch (this.rand.nextInt(20))
-			{
-			case 0:
-				this.dropItem(RiderItems.brave_dragon_wonderride_book, 1);
-				break;
-			case 1:
-				this.dropItem(RiderItems.lion_senki_wonderride_book, 1);
-				break;
-			case 2:
-				this.dropItem(RiderItems.lamp_do_alngina_wonderride_book, 1);
-				break;
-			case 3:
-				this.dropItem(RiderItems.jackun_to_domamenoki_wonderride_book, 1); 
-				break;
-			case 4:
-				this.dropItem(RiderItems.book_gate_wonder_ride_book, 1); 
-				break;
-			}
-			
-			
-			
 		}
 	}	
 }

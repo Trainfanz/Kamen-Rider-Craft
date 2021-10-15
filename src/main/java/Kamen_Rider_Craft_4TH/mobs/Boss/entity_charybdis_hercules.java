@@ -62,13 +62,13 @@ import net.minecraft.world.BossInfoServer;
 import net.minecraft.world.EnumDifficulty;
 import net.minecraft.world.World;
 
-public class entity_desast extends EntityBossBase
+public class entity_charybdis_hercules extends EntityBossBase
 //implements IBossDisplayData
 {
 
 
  
-	public entity_desast(World par1World)
+	public entity_charybdis_hercules(World par1World)
 	{
 		super(par1World);
 		
@@ -96,7 +96,7 @@ public class entity_desast extends EntityBossBase
     	{
 			this.dropItem(RiderItems.blank_wonder_world_story_wonder_ride_book, 1);
 			this.dropItem(RiderItems.blank_wonder_ride_book, 10);
-    		this.dropItem(RiderItems.desast_alter_ride_book, 1);
+    		this.dropItem(RiderItems.charybdis_alter_ride_book, 1);
     	}   
     }
 } 

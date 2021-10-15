@@ -497,7 +497,6 @@ public class RiderItems {
 	public static Item king_stone_green = new item_rider_driver("king_stone_green",ArmorMaterial.DIAMOND, 4,"black_green", (Item_form_change) RiderItems.king_stone_core, black_head, black_troso, black_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
 	public static Item king_stone_shadow_moon = new item_rider_driver("king_stone_shadow_moon",ArmorMaterial.DIAMOND, 4,"shadow_moon", (Item_form_change) RiderItems.king_stone_core, black_head, black_troso, black_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
 	public static Item king_stone_red_shadow_moon = new item_rider_driver("king_stone_red_shadow_moon",ArmorMaterial.DIAMOND, 4,"red_shadow_moon", (Item_form_change) RiderItems.king_stone_core, black_head, black_troso, black_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
-	
 
 	//Black RX
 	public static Item revolcane = new ItemBaseSword("revolcane",ToolMaterial.DIAMOND, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
