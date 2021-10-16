@@ -3457,6 +3457,8 @@ public class RiderItems {
 	public static Item sword_of_logos_buckle_sabela = new item_saberdriver("sword_of_logos_buckle_sabela",ArmorMaterial.DIAMOND, 4,"sabela",0,0,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item sword_of_logos_buckle_durendal = new item_saberdriver("sword_of_logos_buckle_durendal",ArmorMaterial.DIAMOND, 4,"durendal",0,0,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 
+	public static Item seiken_swordriver_tassel = new item_saberdriver("seiken_swordriver_tassel",ArmorMaterial.DIAMOND, 4,"tassel",0,0,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	
 	public static Item brave_dragon_wonderride_book = new Item_wonder_ride_book("l",1,"brave_dragon_wonderride_book").resetBook("saber").AddToSwordOfLogosBookAnalyzer(30).setCreativeTab(Tabs.tabsaber);
 	public static Item storm_eagle_wonderride_book = new Item_wonder_ride_book("m",3,"storm_eagle_wonderride_book").XrossSaberBook().AddToSwordOfLogosBookAnalyzer(15).setCreativeTab(Tabs.tabsaber);
 	public static Item saiyuu_journey_wonderride_book = new Item_wonder_ride_book("r",10,"saiyuu_journey_wonderride_book").XrossSaberBook().AddToSwordOfLogosBookAnalyzer(5).setCreativeTab(Tabs.tabsaber);
@@ -3471,7 +3473,7 @@ public class RiderItems {
 
 	public static Item king_of_arthur_wonderride_book = new Item_wonder_ride_book("r",6,"king_of_arthur_wonderride_book").AddToSwordOfLogosBookAnalyzer(3).setCreativeTab(Tabs.tabsaber);
 	public static Item televi_kun_wonderride_book = new Item_wonder_ride_book("r",17,"televi_kun_wonderride_book").AddToSwordOfLogosBookAnalyzer(1).setCreativeTab(Tabs.tabsaber);
-
+	public static Item ultimate_bahamut_wonder_ride_book = new Item_wonder_ride_book("l",0,"ultimate_bahamut_wonder_ride_book").ChangeForm(18).NotBasicBook().SaberBook().setCreativeTab(Tabs.tabsaber);
 
 	public static Item lion_senki_wonderride_book = new Item_wonder_ride_book("m",1,"lion_senki_wonderride_book").resetBook("blaze").XrossSaberBook().AddToSwordOfLogosBookAnalyzer(25).setCreativeTab(Tabs.tabsaber);
 	public static Item peter_fantasista_wonderride_book = new Item_wonder_ride_book("r",1,"peter_fantasista_wonderride_book").AddToSwordOfLogosBookAnalyzer(15).setCreativeTab(Tabs.tabsaber);
@@ -3603,6 +3605,8 @@ public class RiderItems {
 
 	public static Item seiken_swordriver_siren = new Item_ore("seiken_swordriver_siren");
 	public static Item seiken_swordriver_arabiana = new Item_ore("seiken_swordriver_arabiana");
+	
+	public static Item seiken_swordriver_bahamut = new Item_ore("seiken_swordriver_bahamut");
 	
 	public static Item jaken_caliburdriver_jaou = new Item_ore("jaken_caliburdriver_jaou");
 

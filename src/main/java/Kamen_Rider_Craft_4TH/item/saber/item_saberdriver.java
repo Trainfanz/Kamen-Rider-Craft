@@ -60,7 +60,7 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 
 	public static String[] book_mode= new String[] {"","_jaou_dragon","_dragonic_knight","_emotional_dragon","_ghost","_x_swordman","_x_swordman_wonderful"
 			,"_x_swordman_powerful","_king_lion","_primitive_dragon","_elemental_primitive_dragon","_tategami_hyoujuu_senki","_xross","_specter","_zenkaiger"
-			,"","_amazing_siren","_arabiana_night"};
+			,"","_amazing_siren","_arabiana_night","_ultimate_bahamut"};
 
 
 
@@ -387,7 +387,8 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 						RiderItems.seiken_saikou_driver_x_swordman2,RiderItems.seiken_saikou_driver_x_swordman1,RiderItems.seiken_swordriver_king_lion,
 						RiderItems.seiken_swordriver_primitive,RiderItems.seiken_swordriver_elemental,RiderItems.seiken_swordriver_tategami,
 						RiderItems.blanknoitem,RiderItems.seiken_swordriver_specter,RiderItems.seiken_swordriver_super_hero_senki,
-						RiderItems.seiken_swordriver_wonder,RiderItems.seiken_swordriver_siren,RiderItems.seiken_swordriver_arabiana};
+						RiderItems.seiken_swordriver_wonder,RiderItems.seiken_swordriver_siren,RiderItems.seiken_swordriver_arabiana,
+						RiderItems.seiken_swordriver_bahamut};
 
 	
 				
