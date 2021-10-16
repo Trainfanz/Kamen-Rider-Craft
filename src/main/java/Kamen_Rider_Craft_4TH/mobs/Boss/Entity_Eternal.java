@@ -78,7 +78,6 @@ public class Entity_Eternal extends EntityBossBase
 		Random generator = new Random();
 		int num = generator.nextInt(2);
 		ItemStack belt=new ItemStack(RiderItems.lostdriver_eternal);
-		
 		item_Wdriver.set_core(belt, num, "1");
 		item_Wdriver.set_core(belt, num, "2");
 		item_Wdriver.set_core(belt, num, "3");

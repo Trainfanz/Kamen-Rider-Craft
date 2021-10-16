@@ -294,6 +294,9 @@ public class RiderItems {
 
 
 	public static Block gaia_memory_refiner = new gaia_memory_refiner_block("gaia_memory_refiner",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabW);
+	
+	public static Block cell_medal_programer = new cell_medal_programer_block("cell_medal_programer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabOOO);
+	
 	public static Block gamecreator = new GameCreatorBlock("gamecreator",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabex_aid);
 	public static Block ganbarizing = new ganbarizing_block("ganbarizing",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabex_aid);
 	public static Block pandorabox = new pandora_box_block("pandorabox",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);

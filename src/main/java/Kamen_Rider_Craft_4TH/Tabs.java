@@ -535,6 +535,11 @@ public class Tabs {
 	};
 	public static CreativeTabs tabG = new CreativeTabs("tabG")
 	{
+		 @SideOnly(Side.CLIENT)
+		    public net.minecraft.util.ResourceLocation getBackgroundImage()
+		    {
+		        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_g_items.png");
+		    }
 		@Override
 		public ItemStack createIcon() {
 			return new ItemStack(RiderItems.ghead);
