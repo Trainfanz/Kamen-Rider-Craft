@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:cellmedal"
+    }, "C": {
+      "item": "minecraft:ENDER_PEARL"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:o_scanner"
+  }
+}

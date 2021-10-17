@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ACB",
+    "XSX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:cellmedal"
+    }, "C": {
+      "item": "kamenridercraft4th:tricera"
+    }, "A": {
+      "item": "kamenridercraft4th:ptera"
+    }, "B": {
+      "item": "kamenridercraft4th:tyranno"
+    },
+    "S": {
+      "item": "kamenridercraft4th:base_sword"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:medagaburyu"
+  }    
+}
+

@@ -1778,6 +1778,17 @@ public class RiderItems {
 	
 	public static Item cell_alloy_ingot= new Item_ore("cell_alloy_ingot").setCreativeTab(Tabs.tabOOO);
 	
+	public static Item taka_candroid= new Item_ore("taka_candroid").setCreativeTab(Tabs.tabOOO);
+	public static Item tako_candroid= new Item_ore("tako_candroid").setCreativeTab(Tabs.tabOOO);
+	public static Item batta_candroid= new Item_ore("batta_candroid").setCreativeTab(Tabs.tabOOO);
+	public static Item tora_candroid= new Item_ore("tora_candroid").setCreativeTab(Tabs.tabOOO);
+	public static Item denkiunagi_candroid= new Item_ore("denkiunagi_candroid").setCreativeTab(Tabs.tabOOO);
+	public static Item gorilla_candroid= new Item_ore("gorilla_candroid").setCreativeTab(Tabs.tabOOO);
+	public static Item kujaku_candroid= new Item_ore("kujaku_candroid").setCreativeTab(Tabs.tabOOO);
+	public static Item ptera_candroid= new Item_ore("ptera_candroid").setCreativeTab(Tabs.tabOOO);
+	public static Item torikera_candroid= new Item_ore("torikera_candroid").setCreativeTab(Tabs.tabOOO);
+	public static Item furifuri_candroid= new Item_ore("furifuri_candroid").setCreativeTab(Tabs.tabOOO);
+	
 	public static Item purple_medals_sealed = new Item_ore("purple_medals_sealed").setCreativeTab(Tabs.tabOOO);
 	public static Item purple_medals_opened = new Item_purple_medals("purple_medals_opened").setCreativeTab(Tabs.tabOOO);
 	public static Item purple_medals_empty = new Item_ore("purple_medals_empty").setCreativeTab(Tabs.tabOOO);

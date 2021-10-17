@@ -1,12 +1,15 @@
 package Kamen_Rider_Craft_4TH.blocks;
 
+import Kamen_Rider_Craft_4TH.RiderBlocks;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
@@ -38,11 +41,19 @@ public class cell_medal_programer_block extends machine_block  {
 			return birth_core[rand];
 		
 	}
+	private Item get_core_Drop() {
+		Random generator = new Random();
+			int rand = generator.nextInt(3);
+			 Item[] birth_core = new Item[] {RiderItems.seiuchi,RiderItems.shirokuma,RiderItems.penguin};
 
+			return birth_core[rand];
+		
+	}
 	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
 		if (!worldIn.isRemote) {
 			 if (player.getHeldItem(hand).getItem() == RiderItems.cellmedal) process(player, worldIn, pos, hand, get_birth_core_Drop());
-			
+			 else  if (player.getHeldItem(hand).getItem() == new ItemStack(Blocks.PACKED_ICE).getItem()) process(player, worldIn, pos, hand, get_core_Drop());
+				
 			return true;
 		}
 
