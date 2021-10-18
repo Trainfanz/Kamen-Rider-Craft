@@ -129,6 +129,7 @@ import Kamen_Rider_Craft_4TH.mobs.bikes.EntityAcrobatter;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityDiagoSpeedy;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityExaidBike;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityMachineBuilder;
+import Kamen_Rider_Craft_4TH.mobs.bikes.EntityRidevendor;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityRiseHopperBike;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityRoseAttacker;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntitySakuraHurricane;
@@ -289,6 +290,7 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":RoseAttacker"),EntityRoseAttacker.class, "RoseAttackerMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xc50000,0x0f7801);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":RiseHopperBike"),EntityRiseHopperBike.class, "RiseHopperBikeMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xe1f000,0x0a0a0a);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":Diago_Speedy"),EntityDiagoSpeedy.class, "Diago_SpeedyMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xbcbcbc,0xdd0606);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":Ridevendor"),EntityRidevendor.class, "RidevendorMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x1d211c,0xffd529);
 		
 		
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":machine_denbird"),Entity_machine_denbird.class, "MachineDenBirdMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xf8f8f8, 0x435ee6);
