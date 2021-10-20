@@ -2,6 +2,7 @@ package Kamen_Rider_Craft_4TH.item.rider_armor_base;
 
 
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.item.saber.Item_wonder_ride_book;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import com.google.common.collect.Lists;
 import net.minecraft.entity.player.EntityPlayer;
@@ -67,6 +68,17 @@ public class Item_form_change extends Item implements IHasModel
 	public String getFormName() {
 		return FORM_NAME;
 	}
+	
+	public  Item_form_change keep_item()
+	{
+		this.setContainerItem(this);
+		getContainerItem();
+		return this;
+	}
+	
+
+		
+	
 	
 	/**
      * Called when the equipped item is right clicked.
