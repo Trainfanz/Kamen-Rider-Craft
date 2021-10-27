@@ -23,6 +23,7 @@ import net.minecraft.entity.ai.EntityAIWatchClosest;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.ai.attributes.RangedAttribute;
 import net.minecraft.entity.monster.EntityMob;
+import net.minecraft.entity.monster.EntityPigZombie;
 import net.minecraft.entity.monster.EntityZombie;
 import net.minecraft.entity.passive.AbstractHorse;
 import net.minecraft.entity.passive.EntityAnimal;
@@ -33,6 +34,7 @@ import net.minecraft.entity.passive.HorseArmorType;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
+import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
@@ -40,6 +42,7 @@ import net.minecraft.pathfinding.PathNavigateGround;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.DamageSource;
+import net.minecraft.util.EnumHand;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.MathHelper;
@@ -57,11 +60,41 @@ public class EntityRidevendor extends EntityBikeBase
 
         this.setSize(0.7964844F, 1F);
 	}
+	
+	@Override 
+	public boolean processInteract(EntityPlayer player, EnumHand hand)
+	{
+		ItemStack itemstack = player.getHeldItem(hand);
+		 if (!this.world.isRemote && !this.isDead)
+		 {
+			 if(itemstack.getItem()== RiderItems.tora_candroid){
+			 EntityToridevendor entity = new EntityToridevendor(this.world);
+	            entity.setLocationAndAngles(this.posX, this.posY, this.posZ, this.rotationYaw, this.rotationPitch);
+
+	            if (this.hasCustomName())
+	            {
+	                entity.setCustomNameTag(this.getCustomNameTag());
+	                entity.setAlwaysRenderNameTag(this.getAlwaysRenderNameTag());
+	            }
+	            this.setDead();
+	            this.world.spawnEntity(entity);
+	           
+	            if (!player.capabilities.isCreativeMode){
+					player.getHeldItem(hand).shrink(1);
+				}
+	            return true;
+	            
+	        }
+			 }
+		
+		return super.processInteract(player, hand);
+	}
+	
    public void onDeath(DamageSource cause)
     {
 if (!this.world.isRemote){
 
-    			this.dropItem(RiderItems.rider_circuit, 1);
+    			this.dropItem(RiderItems.ride_vendor, 1);
 
         
     }

@@ -1797,7 +1797,6 @@ public class RiderItems {
 	public static Item o_scanner = new Itemo_scanner("o_scanner").setCreativeTab(Tabs.tabOOO);
 	
 	public static Item ride_vendor = new item_bikes("ride_vendor",EntityRidevendor::new).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
-	public static Item toride_vendor = new Item_ore("toride_vendor").setCreativeTab(Tabs.tabOOO);
 	
 	//Fourze
 	public static Item billytherod = new ItemBaseSword("billytherod",ToolMaterial.DIAMOND, RiderItems.astroswitch).setMaxStackSize(1).setCreativeTab(Tabs.tabFourze);

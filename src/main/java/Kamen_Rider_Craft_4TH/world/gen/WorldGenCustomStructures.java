@@ -85,7 +85,7 @@ public class WorldGenCustomStructures implements IWorldGenerator
 				
 				generateStructureFlames(GINGA, world, random, chunkX, chunkZ,1, 800, Blocks.STONE, BiomeHills.class);
 				
-				generateStructure(BURAKAWANI, world, random, chunkX, chunkZ,-1, 100, Blocks.DIRT, BiomeForest.class, BiomePlains.class);
+				generateStructure(BURAKAWANI, world, random, chunkX, chunkZ,-1, 800, Blocks.DIRT, BiomeForest.class, BiomePlains.class);
 				
 				
 				break;

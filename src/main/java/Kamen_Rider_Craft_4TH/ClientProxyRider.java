@@ -137,6 +137,7 @@ import Kamen_Rider_Craft_4TH.mobs.bikes.EntityRidevendor;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityRiseHopperBike;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityRoseAttacker;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntitySakuraHurricane;
+import Kamen_Rider_Craft_4TH.mobs.bikes.EntityToridevendor;
 import Kamen_Rider_Craft_4TH.mobs.bikes.Entity_machine_denbird;
 import Kamen_Rider_Craft_4TH.mobs.bikes.Entity_ridoron;
 import Kamen_Rider_Craft_4TH.mobs.bikes.Entityhardboilder;
@@ -158,6 +159,7 @@ import Kamen_Rider_Craft_4TH.model.Model_machine_builder;
 import Kamen_Rider_Craft_4TH.model.Model_rose_attacker;
 import Kamen_Rider_Craft_4TH.model.model_ridevendor;
 import Kamen_Rider_Craft_4TH.model.model_ridoron;
+import Kamen_Rider_Craft_4TH.model.model_toridevendor;
 import Kamen_Rider_Craft_4TH.model.tokuMobModel;
 import Kamen_Rider_Craft_4TH.util.Refercence;
 import net.minecraft.client.Minecraft;
@@ -362,7 +364,8 @@ public class ClientProxyRider extends CommonProxyRider
 
 		RenderingRegistry.registerEntityRenderingHandler(EntityRiseHopperBike.class, new RenderRiderMob2(new Model_Sakura_Hurricane(), 0.5F,"textures/entities/rise_hopper_bike.png"));
 		RenderingRegistry.registerEntityRenderingHandler(EntityRidevendor.class, new RenderRiderMob2(new model_ridevendor(), 0.5F,"textures/entities/ridevendor.png"));
-
+		RenderingRegistry.registerEntityRenderingHandler(EntityToridevendor.class, new RenderRiderMob2(new model_toridevendor(), 0.5F,"textures/entities/toridevendor.png"));
+		
 		RenderingRegistry.registerEntityRenderingHandler(EntityDiagoSpeedy.class, new RenderRiderMob2(new Model_Diago_Speedy(), 0.5F,"textures/entities/diago_speedy.png"));
 	}
 

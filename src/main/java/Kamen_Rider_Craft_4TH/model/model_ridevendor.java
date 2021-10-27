@@ -92,8 +92,8 @@ public class model_ridevendor extends model_belt_plus
       Shape9.setRotationPoint(3F, 14.73333F, -16F);
       Shape9.setTextureSize(64, 128);
       setRotation(Shape9, 0F, 0F, 0F);
-      
       Shape9.mirror = false;
+      
       Shape10 = new ModelRenderer(this, 0, 38);
       Shape10.addBox(0F, -1F, 0F, 1, 4, 8);
       Shape10.setRotationPoint(-1F, 15F, -16F);
