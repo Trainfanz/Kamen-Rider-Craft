@@ -1555,7 +1555,7 @@ public class RiderItems {
 	public static Item unrefined_memory_t2 = new Item_ore("unrefined_memory_t2").setCreativeTab(Tabs.tabW);
 
 	public static Item memory_memory = new Item_ore("memory_memory").setCreativeTab(Tabs.tabW);
-	
+	public static Item egg_chicken_memory = new Item_ore("egg_chicken_memory").setCreativeTab(Tabs.tabW);
 
 	public static Item hard_boilder = new item_bikes("hard_boilder",Entityhardboilder::new).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 	public static Item accel_bike = new item_bikes("accel_bike",Entityaccel::new).setMaxStackSize(1).setCreativeTab(Tabs.tabW);

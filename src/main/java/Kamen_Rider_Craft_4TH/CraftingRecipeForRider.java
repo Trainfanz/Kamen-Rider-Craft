@@ -493,7 +493,8 @@ public class CraftingRecipeForRider {
 		GameRegistry.addSmelting(new ItemStack(RiderItems.dragon_sclashjelly),new ItemStack(RiderItems.dragon_magma_full_bottle), 1);
 
 		GameRegistry.addSmelting(new ItemStack(RiderItems.cellmedal),new ItemStack(RiderItems.cell_alloy_ingot), 1);
-
+		GameRegistry.addSmelting(new ItemStack(RiderItems.purple_medals_empty),new ItemStack(Blocks.STONE), 1);
+		
 		if (Item.getByNameOrId("supersentaicraft:red_ryusoul") != null){
 			GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":ryusoulger_ridewatch"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ryusoulger_ridewatch), new Ingredient[]{Ingredient.fromItem(RiderItems.blank_watch),Ingredient.fromItem(Item.getByNameOrId("supersentaicraft:red_ryusoul"))});
 		}		
