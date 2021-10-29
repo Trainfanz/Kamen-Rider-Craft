@@ -100,12 +100,12 @@ public class RegistyHandler {
 	 
 	    if (event.getName().equals(LootTableList.CHESTS_NETHER_BRIDGE)) {
 	 
-	        final LootPool pool2 = event.getTable().getPool("pool3");
+	        final LootPool pool2 = event.getTable().getPool("main");
 	 
 	        if (pool2 != null) {
 	 
 	            // pool2.addEntry(new LootEntryItem(ITEM, WEIGHT, QUALITY, FUNCTIONS, CONDITIONS, NAME));
-	            pool2.addEntry(new LootEntryItem(RiderItems.purple_medals_sealed, 10, 0, new LootFunction[0], new LootCondition[0], Refercence.MODID+":purple_medals"));
+	            pool2.addEntry(new LootEntryItem(RiderItems.purple_medals_sealed, 20, 0, new LootFunction[0], new LootCondition[0], Refercence.MODID+":purple_medals"));
 	           }
 	    }
 	    
