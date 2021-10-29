@@ -90,8 +90,8 @@ public class WorldGenCustomStructures implements IWorldGenerator
 				
 				break;
 			case -1:
-				generateStructure(core_boss_structuer, world, random, chunkX, chunkZ, random.nextInt(15)+60, 70, Blocks.NETHERRACK, BiomeHell.class);
-				generateStructure(BUILD_WAREHOUSE, world, random, chunkX, chunkZ, 88, 20, Blocks.NETHERRACK, BiomeHell.class);
+				generateStructure(core_boss_structuer, world, random, chunkX, chunkZ, random.nextInt(15)+60, 190, Blocks.NETHERRACK, BiomeHell.class);
+				generateStructure(BUILD_WAREHOUSE, world, random, chunkX, chunkZ, 88, 250, Blocks.NETHERRACK, BiomeHell.class);
 				
 		}
 		if (modDimensionWorldGen.HELHEIM_DIM_ID==world.provider.getDimension()){
