@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:ichigolegs"
+    }, 
+    {
+      "item": "kamenridercraft4th:zo_stone"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:zolegs"
+  }
+}

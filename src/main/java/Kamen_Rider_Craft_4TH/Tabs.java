@@ -153,6 +153,11 @@ public class Tabs {
 	};	
 	public static CreativeTabs tabv3 = new CreativeTabs("tabv3")
 	{
+		@SideOnly(Side.CLIENT)
+    public net.minecraft.util.ResourceLocation getBackgroundImage()
+    {
+        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_iichigo_items.png");
+    }
 		@Override
 		public ItemStack createIcon() {
 			return new ItemStack(RiderItems.v3head);
@@ -160,6 +165,11 @@ public class Tabs {
 	};
 	public static CreativeTabs tabx = new CreativeTabs("tabx")
 	{
+		@SideOnly(Side.CLIENT)
+	    public net.minecraft.util.ResourceLocation getBackgroundImage()
+	    {
+	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_iichigo_items.png");
+	    }
 		@Override
 		public ItemStack createIcon() {
 			return new ItemStack(RiderItems.xhead);
@@ -167,6 +177,11 @@ public class Tabs {
 	};
 	public static CreativeTabs tabamazon = new CreativeTabs("tabamazon")
 	{
+		@SideOnly(Side.CLIENT)
+	    public net.minecraft.util.ResourceLocation getBackgroundImage()
+	    {
+	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_iichigo_items.png");
+	    }
 		@Override
 		public ItemStack createIcon() {
 			return new ItemStack(RiderItems.amazonhead);
@@ -174,6 +189,11 @@ public class Tabs {
 	};
 	public static CreativeTabs tabstronger = new CreativeTabs("tabstronger")
 	{
+		@SideOnly(Side.CLIENT)
+	    public net.minecraft.util.ResourceLocation getBackgroundImage()
+	    {
+	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_iichigo_items.png");
+	    }
 		@Override
 		public ItemStack createIcon() {
 			return new ItemStack(RiderItems.strongerhead);
@@ -181,6 +201,11 @@ public class Tabs {
 	};
 	public static CreativeTabs tabskyrider = new CreativeTabs("tabskyrider")
 	{
+		@SideOnly(Side.CLIENT)
+	    public net.minecraft.util.ResourceLocation getBackgroundImage()
+	    {
+	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_iichigo_items.png");
+	    }
 		@Override
 		public ItemStack createIcon() {
 			return new ItemStack(RiderItems.skyriderhead);
@@ -188,6 +213,11 @@ public class Tabs {
 	};
 	public static CreativeTabs tabsuper_1 = new CreativeTabs("tabsuper_1")
 	{
+		@SideOnly(Side.CLIENT)
+	    public net.minecraft.util.ResourceLocation getBackgroundImage()
+	    {
+	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_iichigo_items.png");
+	    }
 		@Override
 		public ItemStack createIcon() {
 			return new ItemStack(RiderItems.super_1head);
@@ -195,6 +225,11 @@ public class Tabs {
 	};
 	public static CreativeTabs tabzx = new CreativeTabs("tabzx")
 	{
+		@SideOnly(Side.CLIENT)
+	    public net.minecraft.util.ResourceLocation getBackgroundImage()
+	    {
+	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_iichigo_items.png");
+	    }
 		@Override
 		public ItemStack createIcon() {
 			return new ItemStack(RiderItems.zx_head);
@@ -202,6 +237,11 @@ public class Tabs {
 	};
 	public static CreativeTabs tabblack = new CreativeTabs("tabblack")
 	{
+		@SideOnly(Side.CLIENT)
+	    public net.minecraft.util.ResourceLocation getBackgroundImage()
+	    {
+	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_iichigo_items.png");
+	    }
 		@Override
 		public ItemStack createIcon() {
 			return new ItemStack(RiderItems.black_head);
@@ -209,6 +249,11 @@ public class Tabs {
 	};
 	public static CreativeTabs tabblack_rx = new CreativeTabs("tabblack_rx")
 	{
+		@SideOnly(Side.CLIENT)
+	    public net.minecraft.util.ResourceLocation getBackgroundImage()
+	    {
+	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_iichigo_items.png");
+	    }
 		@Override
 		public ItemStack createIcon() {
 			return new ItemStack(RiderItems.black_rx_head);
@@ -216,6 +261,11 @@ public class Tabs {
 	};
 	public static CreativeTabs tabshin = new CreativeTabs("tabshin")
 	{
+		@SideOnly(Side.CLIENT)
+	    public net.minecraft.util.ResourceLocation getBackgroundImage()
+	    {
+	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_iichigo_items.png");
+	    }
 		@Override
 		public ItemStack createIcon() {
 			return new ItemStack(RiderItems.shinhead);
@@ -223,6 +273,11 @@ public class Tabs {
 	};
 	public static CreativeTabs tabzo = new CreativeTabs("tabzo")
 	{
+		@SideOnly(Side.CLIENT)
+	    public net.minecraft.util.ResourceLocation getBackgroundImage()
+	    {
+	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_iichigo_items.png");
+	    }
 		@Override
 		public ItemStack createIcon() {
 			return new ItemStack(RiderItems.zohead);
@@ -230,6 +285,11 @@ public class Tabs {
 	};
 	public static CreativeTabs tabj = new CreativeTabs("tabj")
 	{
+		@SideOnly(Side.CLIENT)
+	    public net.minecraft.util.ResourceLocation getBackgroundImage()
+	    {
+	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_iichigo_items.png");
+	    }
 		@Override
 		public ItemStack createIcon() {
 			return new ItemStack(RiderItems.jhead);
@@ -515,7 +575,11 @@ public class Tabs {
 	};
 	public static CreativeTabs tabrevice = new CreativeTabs("tabrevice")
 	{
-		
+		@SideOnly(Side.CLIENT)
+	    public net.minecraft.util.ResourceLocation getBackgroundImage()
+	    {
+	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_revice_items.png");
+	    }
 		@Override
 		public ItemStack createIcon() {
 			return new ItemStack(RiderItems.revicehead);

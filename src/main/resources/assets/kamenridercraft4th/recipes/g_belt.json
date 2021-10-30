@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XMX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:rider_circuit"
+    },
+    "M": {
+      "item": "kamenridercraft4th:goro_wine_bottle"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:g_belt"
+  }    
+}
