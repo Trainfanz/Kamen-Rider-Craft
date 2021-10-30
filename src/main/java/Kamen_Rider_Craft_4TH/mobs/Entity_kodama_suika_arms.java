@@ -56,7 +56,7 @@ public class Entity_kodama_suika_arms extends EntityGolem
 	public Entity_kodama_suika_arms(World par1World)
 	{
 		super(par1World);
-		this.setSize(2F, 0.7F);
+		this.setSize(0.4F, 0.7F);
 		this.tasks.addTask(1, new EntityAIAttackMelee(this, 1.0D, true));
         this.tasks.addTask(2, new EntityAIMoveTowardsTarget(this, 0.9D, 32.0F));
         this.tasks.addTask(3, new EntityAIMoveThroughVillage(this, 0.6D, true));
