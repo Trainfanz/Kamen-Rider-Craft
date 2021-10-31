@@ -10,6 +10,7 @@ import Kamen_Rider_Craft_4TH.mobs.EntityPoppy;
 import Kamen_Rider_Craft_4TH.mobs.EntityRyutaros;
 import Kamen_Rider_Craft_4TH.mobs.EntityUrataros;
 import Kamen_Rider_Craft_4TH.mobs.Entity_kodama_suika_arms;
+import Kamen_Rider_Craft_4TH.mobs.Entity_ridevendor_vending;
 import Kamen_Rider_Craft_4TH.mobs.Entityaccel;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityChronos;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Arc_zero;
@@ -293,6 +294,7 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":Diago_Speedy"),EntityDiagoSpeedy.class, "Diago_SpeedyMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xbcbcbc,0xdd0606);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":Ridevendor"),EntityRidevendor.class, "RidevendorMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x1d211c,0xffd529);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":ToRidevendor"),EntityToridevendor.class, "ToRidevendorMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x1d211c,0xffd529);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":ridevendor_vending"),Entity_ridevendor_vending.class, "ridevendorVendingMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x1d211c,0xffd529);
 		
 		
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":machine_denbird"),Entity_machine_denbird.class, "MachineDenBirdMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xf8f8f8, 0x435ee6);
