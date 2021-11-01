@@ -36,6 +36,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Sigurd;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Solomon;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_White_Woz;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_ZangetsuShin;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_ankh_complete;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_ankh_lost;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_another_build;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_bikaiser;
@@ -202,6 +203,7 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":gamelMob"), Entity_gamel.class, "gamelMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xc7c7c7,0x373737);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":ankhLostMob"), Entity_ankh_lost.class, "ankhLostMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xFF0000, 0x1FFF2E);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":muchiriMob"), Entity_muchiri.class, "muchiriMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xeec72b,0xff4000);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":ankhcompleteMob"), Entity_ankh_complete .class, "ankhcompleteMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xFF0000, 0x1FFF2E);
 		
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":CoreMob"), Entity_core.class, "CoreMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xe89316, 0xce5207);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":CorePowerUpMob"), Entity_power_up_core.class, "CorePowerUpMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xda0ad5, 0x9107b6);
