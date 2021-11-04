@@ -6,7 +6,13 @@ import Kamen_Rider_Craft_4TH.util.Refercence;
 import Kamen_Rider_Craft_4TH.world.gen.WorldGenCustomStructures;
 import Kamen_Rider_Craft_4TH.world.gen.modDimensionWorldGen;
 import net.minecraft.block.Block;
+import net.minecraft.entity.IMerchant;
+import net.minecraft.entity.passive.EntityVillager.ITradeList;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.village.MerchantRecipe;
+import net.minecraft.village.MerchantRecipeList;
 import net.minecraft.world.WorldType;
 import net.minecraft.world.storage.loot.LootEntry;
 import net.minecraft.world.storage.loot.LootEntryItem;
@@ -29,6 +35,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 
 @Mod(modid = Refercence.MODID, name = Refercence.NAME, version = Refercence.VERSION)
@@ -74,6 +81,9 @@ public class TokuCraft_core {
 		CraftingRecipeForRider.Crafrting();
 		mobsCore.Addmob();
 	}
+	
+	
+	
 }
 
 

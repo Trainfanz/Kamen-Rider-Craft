@@ -258,36 +258,8 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION,20, 0,true,false));
 									}								
 								}
-								if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.zo_core){
-
-									if (this.get_core(armor)==0){
-
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.SPEED,20, 1,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false));
-										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false));
-									}
-								}
-								if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.j_spirit){
-
-									if (this.get_core(armor)==0){
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.SPEED,20, 1,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false));
-										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false));
-										player.addPotionEffect(new PotionEffect(PotionCore.BIG_POTION, 5, 4,true,false));
-									}
-								}
-								if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.grasshopper_dna){
-
-									if (this.get_core(armor)==0){
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.SPEED,20, 1,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false));
-										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false));
-									}
-								}
-
+						
+								
 
 								if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.typhoon_shocker_rider_1){
 

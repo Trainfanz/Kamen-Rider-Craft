@@ -1,14 +1,28 @@
 package Kamen_Rider_Craft_4TH;
 
 
+import java.util.Random;
 import Kamen_Rider_Craft_4TH.util.Refercence;
+import net.minecraft.entity.IMerchant;
+import net.minecraft.entity.passive.EntityVillager.ITradeList;
+import net.minecraft.entity.passive.EntityVillager.PriceInfo;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.village.MerchantRecipe;
+import net.minecraft.village.MerchantRecipeList;
+import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.fml.common.registry.VillagerRegistry;
+import net.minecraftforge.fml.common.registry.VillagerRegistry.VillagerCareer;
+import net.minecraftforge.fml.common.registry.VillagerRegistry.VillagerProfession;
+import net.minecraftforge.registries.IForgeRegistry;
 
 public class CraftingRecipeForRider {
 	public static void Crafrting(){
@@ -498,6 +512,9 @@ public class CraftingRecipeForRider {
 		if (Item.getByNameOrId("supersentaicraft:red_ryusoul") != null){
 			GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":ryusoulger_ridewatch"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ryusoulger_ridewatch), new Ingredient[]{Ingredient.fromItem(RiderItems.blank_watch),Ingredient.fromItem(Item.getByNameOrId("supersentaicraft:red_ryusoul"))});
 		}		
-	}
+	
 
+	VillagerRegistry.VillagerProfession librarian=ForgeRegistries.VILLAGER_PROFESSIONS.getValue(new ResourceLocation("minecraft:librarian"));
+	librarian.getCareer(5).addTrade(1,new Rider_trades());
+	}
 }
