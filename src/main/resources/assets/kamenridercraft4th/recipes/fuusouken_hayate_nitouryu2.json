@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [ 
+    {
+      "item": "kamenridercraft4th:fuusouken_hayate_shuriken"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:fuusouken_hayate_nitouryu"
+  }
+}

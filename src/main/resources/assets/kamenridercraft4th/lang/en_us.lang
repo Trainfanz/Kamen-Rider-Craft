@@ -1098,7 +1098,7 @@ item.dark_blade.name=Dark Blade
 
 item.veno_saber.name=Veno Saber
 
-item.gold_sabers.name=Gold Sabers
+item.gold_sabers.name=Gold Saber
 
 item.wing_slasher.name=Wing Slasher
 
@@ -1107,7 +1107,7 @@ item.ryuga_drag_claw.name=Drag Claw (Ryuga Ver)
 
 item.abyss_saber.name=Abyss Saber
 
-item.alternative_sword.name=Alternative Sword
+item.alternative_sword.name=Slash Dagger
 
 item.ryukihead.name=Ryuki Helmet
 item.ryukitroso.name=Ryuki Chestplate
@@ -1132,8 +1132,8 @@ item.v_buckle_femme.name=V Buckle (Femme)
 item.v_buckle_verde.name=V Buckle (Verde)
 item.v_buckle_abyss.name=V Buckle (Abyss)
 
-item.alternativebelt.name=Alternative Belt
-item.alternativezerobelt.name=Alternative Zero Belt
+item.alternativebelt.name=V Buckle (Alternative)
+item.alternativezerobelt.name=V Buckle (Alternative Zero)
 
 item.drag_visor.name=Drag Visor
 item.veno_visor.name=Veno Visor
@@ -1192,15 +1192,15 @@ item.ryuga_drag_saber_vent.name=Drag Saber Sword Vent(Ryuga Ver)
 item.drag_claw.name=Drag Claw
 item.drag_shield.name=Drag Shield
 
-item.scissors_pincer.name=Scissors Pincer
+item.scissors_pincer.name=Scissors Pinch
 item.incisor_guard.name=Shell Defense  
 item.torque_guard.name=Giga Armor  
 item.hetal_horn.name=Metal Horn     
-item.dest_claws.name=Dest Claws
+item.dest_claws.name=Dest Claw
 item.gold_shield.name=Gold Shield
 item.wing_shield.name=Wing Shield
 item.ryuga_drag_shield.name=Drag Shield (Ryuga Ver)
-item.abyssmash.name=Abyssmash
+item.abyssmash.name=Abyss Claw
        
 item.drag_claw_vent.name=Drag Claw Strike Vent
 item.scissors_pincer_vent.name=Scissors Pincer Strike Vent
@@ -1780,7 +1780,13 @@ item.jhead.name=J Helmet
 item.jtroso.name=J Chestplate
 item.jlegs.name=J Leggings
 
+item.ghead.name=G Helmet
+item.gtroso.name=G Chestplate
+item.glegs.name=G Leggings
+item.goro_wine_bottle.name=Goro Wine Bottle
+
 item.typhoon_core.name=Typhoon Core
+item.double_typhoon_core.name=Double Typhoon Core
 item.riderman_belt_core.name=Riderman Belt Core
 item.ridol_core.name=Ridol Core
 item.condorer_wheel.name=Condorer Wheel
@@ -1790,6 +1796,10 @@ item.cyclode_core.name=Cyclode Core
 item.zx_belt_core.name=ZX Belt Core
 item.king_stone_core.name=Raw King Stone
 item.king_stone_split.name=Split King Stone
+
+item.shin_stone.name=Shin Stone
+item.j_stone.name=J Stone
+item.zo_stone.name=ZO Stone
 
 item.typhoon_ichigo.name=Typhoon (Ichigo)
 item.typhoon_nigo.name=Typhoon (Nigo)

@@ -3426,10 +3426,10 @@ public class RiderItems {
 	public static Item ankokuken_kurayami = new ItemBaseSword("ankokuken_kurayami",Tabs.dis_halberd, RiderItems.blank_wonder_ride_book).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item onjuuken_suzune = new Item_sword_gun("onjuuken_suzune",Tabs.gashacon_breaker, RiderItems.blank_wonder_ride_book).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 
-	public static Item fuusouken_hayate_ittouryu = new ItemBaseSword("fuusouken_hayate_ittouryu",Tabs.gan_gun_saber_nitouryu, RiderItems.blank_wonder_ride_book).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item fuusouken_hayate_nitouryu = new ItemBaseSword("fuusouken_hayate_nitouryu",Tabs.gan_gun_saber_nitouryu, RiderItems.blank_wonder_ride_book).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
-	public static Item fuusouken_hayate_nitouryu2 = new ItemBaseSword("fuusouken_hayate_nitouryu2",Tabs.gan_gun_saber_nitouryu, RiderItems.blank_wonder_ride_book).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
-	public static Item fuusouken_hayate_shuriken  = new ItemBaseSword("fuusouken_hayate_shuriken",Tabs.gan_gun_saber_nitouryu, RiderItems.blank_wonder_ride_book).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item fuusouken_hayate_nitouryu2 = new ItemBaseSword("fuusouken_hayate_nitouryu2",Tabs.gan_gun_saber_nitouryu, RiderItems.blank_wonder_ride_book).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);	
+	public static Item fuusouken_hayate_ittouryu = new ItemBaseSword("fuusouken_hayate_ittouryu",Tabs.gan_gun_saber_nitouryu, RiderItems.blank_wonder_ride_book).keep_item(fuusouken_hayate_nitouryu2).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item fuusouken_hayate_shuriken  = new ItemBaseSword("fuusouken_hayate_shuriken",Tabs.gan_gun_saber_nitouryu, RiderItems.blank_wonder_ride_book).keep_item(fuusouken_hayate_nitouryu2).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 
 	public static Item kougouken_saikou = new ItemBaseSword("kougouken_saikou",Tabs.souginjou, RiderItems.blank_wonder_ride_book).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 

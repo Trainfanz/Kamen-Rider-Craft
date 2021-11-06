@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S",
+    "M"
+  ],
+  "key": {
+   
+    "S": {
+      "item": "kamenridercraft4th:fuusouken_hayate_nitouryu"
+    },
+    "M": {
+      "item": "kamenridercraft4th:fuusouken_hayate_nitouryu2"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:fuusouken_hayate_ittouryu"
+  }    
+}
+

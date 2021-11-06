@@ -3,6 +3,7 @@ package Kamen_Rider_Craft_4TH.item;
 
 
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -42,6 +43,15 @@ public class ItemBaseSword extends ItemSword implements IHasModel
         TokuCraft_core.ITEMS.add(this);
         base = item;
     }
+    
+	public  ItemBaseSword keep_item(Item item)
+	{
+		this.setContainerItem(item);
+		getContainerItem();
+		return this;
+	}
+	
+
     
 	@Override
 	public void registerModels() {
