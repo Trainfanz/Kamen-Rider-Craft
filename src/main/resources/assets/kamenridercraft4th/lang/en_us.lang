@@ -498,6 +498,28 @@ item.zeus_tako.name=Tako Zeus Core Medal
 item.zeus_tyranno.name=Tyranno Zeus Core Medal
 item.zeus_ari.name=Ari Zeus Core Medal
 
+item.gel_shocker_core.name=Gel Shocker Core Medal 
+item.destron_core.name=Destron Core Medal
+item.god_core.name=G.O.D. Core Medal
+item.garanda_core.name=Garander Core Medal
+item.delza_core.name=Delzer Core Medal
+item.neo_shocker_core.name=Neo Shocker Core Medal
+item.jin_dogma_core.name=Jin Dogma Core Medal
+item.badan_core.name=Badan Core Medal
+
+item.x_core.name=X Core Medal
+item.amazon_core.name=Amazon Core Medal
+item.stronger_core.name=Stronger Core Medal
+
+item.birth_core_cutter_wing.name=Cutter Wing Birth Medal
+item.birth_core_catepillar_leg.name=Catepillar Leg Birth Medal
+item.birth_core_crane_arm.name=Crane Arm Birth Medal
+item.birth_core_drill_arm.name=Drill Arm Birth Medal
+item.birth_core_shovel_arm.name=Shovel Arm Birth Medal
+item.birth_core_breast_cannon.name=Breast Cannon Birth Medal
+item.birth_core_eyes.name=Glowing Eyes Birth Medal
+
+
 item.proto_birth_core.name=Proto Birth Core
 
 item.metal_shaft.name=Metal Shaft
