@@ -57,7 +57,8 @@
 	import net.minecraft.entity.projectile.EntityWitherSkull;
 	import net.minecraft.init.Blocks;
 	import net.minecraft.init.Items;
-	import net.minecraft.init.SoundEvents;
+import net.minecraft.init.MobEffects;
+import net.minecraft.init.SoundEvents;
 	import net.minecraft.inventory.EntityEquipmentSlot;
 	import net.minecraft.item.Item;
 	import net.minecraft.item.ItemArrow;
@@ -126,16 +127,6 @@
 		}
 
 
-		public void onEntityUpdate(){
-			super.onEntityUpdate();
-
-		
-
-			
-			
-		}
-
-
 
 		public EnumCreatureAttribute getCreatureAttribute()
 		{
@@ -157,6 +148,25 @@
 				this.dropItem(RiderItems.blank_wonder_ride_book, 20);
 			}
 
+		}
+		public void onEntityUpdate(){
+			super.onEntityUpdate();
+			if (this.getAttackTarget()instanceof EntityPlayer){
+				EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
+				
+				if (!playerIn.inventory.hasItemStack(new ItemStack(RiderItems.wonder_almighty_wonder_ride_book))) {
+					   this.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
+				}
+				if (this.getHealth()<180) {
+				
+					if (!playerIn.inventory.hasItemStack(new ItemStack(RiderItems.wonder_almighty_wonder_ride_book))) {
+							playerIn.inventory.addItemStackToInventory(new ItemStack(RiderItems.wonder_almighty_wonder_ride_book));
+							playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Wonder Almighty!"));
+						}
+						this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.3);
+						this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(7.0D);
+					}
+				}
 		}
 
 
@@ -213,7 +223,7 @@
 					this.blaze.getMoveHelper().setMoveTo(entitylivingbase.posX, entitylivingbase.posY, entitylivingbase.posZ, 1.0D);
 				}
 				
-				else if (itemstack.getItem() == RiderItems.attache_arrow||itemstack.getItem() == RiderItems.attache_shotgun||itemstack.getItem() == RiderItems.shot_riser_gun)
+				else if (itemstack.getItem() == RiderItems.storious_sword)
 				{ if (d0 < this.getFollowDistance() * this.getFollowDistance()) 
 				{
 					double d1 = entitylivingbase.posX - this.blaze.posX;

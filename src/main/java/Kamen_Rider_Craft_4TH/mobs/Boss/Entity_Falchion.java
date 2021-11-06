@@ -112,34 +112,46 @@ public class Entity_Falchion extends EntityBossBase
 	}
 
 
-	  @Override
-	    public ItemStack getHeldItemMainhand()
-	    {
-	        return new ItemStack(RiderItems.mumeiken_kyomu);
-	    }
-	
+	@Override
+	public ItemStack getHeldItemMainhand()
+	{
+		return new ItemStack(RiderItems.mumeiken_kyomu);
+	}
+
 	public void onEntityUpdate(){
 		super.onEntityUpdate();
 		if (this.getAttackTarget()instanceof EntityPlayer){
 			EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
-			
-			if (!playerIn.inventory.hasItemStack(new ItemStack(RiderItems.emotional_dragon_wonder_ride_book))) {
-				   this.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
-			}
-				
 
-			
-			
-			if (this.getHealth()<60) {
-			
-					if (playerIn.inventory.hasItemStack(new ItemStack(RiderItems.brave_dragon_wonderride_book))&!playerIn.inventory.hasItemStack(new ItemStack(RiderItems.emotional_dragon_wonder_ride_book))){
-						playerIn.inventory.addItemStackToInventory(new ItemStack(RiderItems.emotional_dragon_wonder_ride_book));
-						playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Emotional Dragon!"));
-					}
-					this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.3);
-					this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(7.0D);
-				}
+			if (!playerIn.inventory.hasItemStack(new ItemStack(RiderItems.emotional_dragon_wonder_ride_book))) {
+				this.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
 			}
+			if (playerIn.inventory.hasItemStack(new ItemStack(RiderItems.arabiana_night_wonderride_book))) {
+				if (item_saberdriver.get_core_for_forms(this.getItemStackFromSlot(EntityEquipmentSlot.FEET), "f")!=16) {
+					playerIn.sendMessage( new TextComponentString(TextFormatting.GOLD+"Battou!"));
+					playerIn.sendMessage( new TextComponentString(TextFormatting.BLACK+"Eternal Power!"));
+					playerIn.sendMessage( new TextComponentString(TextFormatting.WHITE+"Kyomu! Shinjuu no hono de subete ga mu ni kisu!"));
+
+				
+					this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.4);
+					this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(10.0D);
+
+					item_zero_onedriver.set_core(this.getItemStackFromSlot(EntityEquipmentSlot.FEET),16, "f");		
+				}	
+			}
+
+
+
+			if (this.getHealth()<60) {
+
+				if (playerIn.inventory.hasItemStack(new ItemStack(RiderItems.brave_dragon_wonderride_book))&!playerIn.inventory.hasItemStack(new ItemStack(RiderItems.emotional_dragon_wonder_ride_book))){
+					playerIn.inventory.addItemStackToInventory(new ItemStack(RiderItems.emotional_dragon_wonder_ride_book));
+					playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Emotional Dragon!"));
+				}
+				this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.3);
+				this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(7.0D);
+			}
+		}
 	}
 
 
@@ -162,24 +174,29 @@ public class Entity_Falchion extends EntityBossBase
 			this.dropItem(RiderItems.mumeiken_kyomu, 1);
 			this.dropItem(RiderItems.blank_wonder_world_story_wonder_ride_book, 1);
 			this.dropItem(RiderItems.blank_wonder_ride_book, 10);
+			
+
 			if (this.getAttackTarget()instanceof EntityPlayer){
 				EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
-			
-			if (playerIn.inventory.hasItemStack(new ItemStack(RiderItems.ankokuken_kurayami))&
-					playerIn.inventory.hasItemStack(new ItemStack(RiderItems.dogouken_gekido))&
-					playerIn.inventory.hasItemStack(new ItemStack(RiderItems.eneiken_noroshi))&
-					playerIn.inventory.hasItemStack(new ItemStack(RiderItems.fuusouken_hayate_ittouryu))&
-					playerIn.inventory.hasItemStack(new ItemStack(RiderItems.jikokuken_kaiji))&
-					playerIn.inventory.hasItemStack(new ItemStack(RiderItems.kaenken_rekka))&
-					playerIn.inventory.hasItemStack(new ItemStack(RiderItems.kougouken_saikou))&
-					playerIn.inventory.hasItemStack(new ItemStack(RiderItems.onjuuken_suzune))&
-					playerIn.inventory.hasItemStack(new ItemStack(RiderItems.raimeiken_ikazuchi))&
-					playerIn.inventory.hasItemStack(new ItemStack(RiderItems.suiseiken_nagare))&
-					!playerIn.inventory.hasItemStack(new ItemStack(RiderItems.haouken_xross_saber))){
-				
-				playerIn.inventory.addItemStackToInventory(new ItemStack(RiderItems.haouken_xross_saber));
-				playerIn.sendMessage( new TextComponentString(TextFormatting.BLUE+"Haouken Xross Saber!"));
-			}
+				if (playerIn.inventory.hasItemStack(new ItemStack(RiderItems.arabiana_night_wonderride_book))){
+					this.dropItem(RiderItems.amazing_siren_wonderride_book, 1);
+				}
+						
+				if (playerIn.inventory.hasItemStack(new ItemStack(RiderItems.ankokuken_kurayami))&
+						playerIn.inventory.hasItemStack(new ItemStack(RiderItems.dogouken_gekido))&
+						playerIn.inventory.hasItemStack(new ItemStack(RiderItems.eneiken_noroshi))&
+						playerIn.inventory.hasItemStack(new ItemStack(RiderItems.fuusouken_hayate_ittouryu))&
+						playerIn.inventory.hasItemStack(new ItemStack(RiderItems.jikokuken_kaiji))&
+						playerIn.inventory.hasItemStack(new ItemStack(RiderItems.kaenken_rekka))&
+						playerIn.inventory.hasItemStack(new ItemStack(RiderItems.kougouken_saikou))&
+						playerIn.inventory.hasItemStack(new ItemStack(RiderItems.onjuuken_suzune))&
+						playerIn.inventory.hasItemStack(new ItemStack(RiderItems.raimeiken_ikazuchi))&
+						playerIn.inventory.hasItemStack(new ItemStack(RiderItems.suiseiken_nagare))&
+						!playerIn.inventory.hasItemStack(new ItemStack(RiderItems.haouken_xross_saber))){
+
+					playerIn.inventory.addItemStackToInventory(new ItemStack(RiderItems.haouken_xross_saber));
+					playerIn.sendMessage( new TextComponentString(TextFormatting.BLUE+"Haouken Xross Saber!"));
+				}
 			}
 		}
 	}

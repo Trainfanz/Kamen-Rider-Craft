@@ -88,6 +88,11 @@ entity.ZooousMob.name=Zooous
 entity.ZooousPredatorMob.name=Zooous Predator
 entity.StoriousMob.name=Storious
 
+entity.StoriousRiderMob.name=Kamen Rider Storious
+entity.DesastMob.name=Desast
+entity.ChaybdisMob.name=Chaybdis Megid
+entity.ChaybdisHerculesMob.name=Chaybdis Megid Hercules
+
 entity.TrilobiteMagiaMob.name=Trilobite Magia
 entity.dodoChickMob.name=Dodo Magia Chick
 entity.BattleRaiderMob.name=Battle Raider
@@ -450,6 +455,48 @@ item.ichigo.name=Ichigo Core Medal
 item.love.name=Love Core Medal(Head)
 item.love2.name=Love Core Medal(Arms)
 item.love3.name=Love Core Medal(legs)
+
+item.foundation_x_taka.name=Taka Foundation X Core Medal
+item.foundation_x_kuwagata.name=Kuwagata Foundation X Core Medal
+item.foundation_x_lion.name=Lion Foundation X Core Medal
+item.foundation_x_sai.name=Sai Foundation X Core Medal
+item.foundation_x_shachi.name=Shachi Foundation X Core Medal
+
+item.foundation_x_tora.name=Tora Foundation X Core Medal
+item.foundation_x_kamakiri.name=Kamakiri Foundation X Core Medal
+item.foundation_x_gorilla.name=Gorilla Foundation X Core Medal
+item.foundation_x_kujaku.name=Kujaku Foundation X Core Medal
+item.foundation_x_unagi.name=Unagi Foundation X Core Medal
+
+item.foundation_x_batta.name=Batta Foundation X Core Medal
+item.foundation_x_cheetah.name=Cheetah Foundation X Core Medal
+item.foundation_x_zou.name=Zou Foundation X Core Medal
+item.foundation_x_condor.name=Condor Foundation X Core Medal
+item.foundation_x_tako.name=Tako Foundation X Core Medal
+
+item.zeus_taka.name=Taka Zeus Core Medal
+item.zeus_kuwagata.name=Kuwagata Zeus Core Medal
+item.zeus_lion.name=Lion Zeus Core Medal
+item.zeus_sai.name=Sai Zeus Core Medal
+item.zeus_shachi.name=Shachi Zeus Core Medal
+item.zeus_ptera.name=Ptera Zeus Core Medal
+item.zeus_mukade.name=Mukade Zeus Core Medal
+
+item.zeus_tora.name=Tora Zeus Core Medal
+item.zeus_kamakiri.name=Kamakiri Zeus Core Medal
+item.zeus_gorilla.name=Gorilla Zeus Core Medal
+item.zeus_kujaku.name=Kujaku Zeus Core Medal
+item.zeus_unagi.name=Unagi Zeus Core Medal
+item.zeus_tricera.name=Tricera Zeus Core Medal
+item.zeus_hachi.name=Hachi Zeus Core Medal
+
+item.zeus_batta.name=Batta Zeus Core Medal
+item.zeus_cheetah.name=Cheetah Zeus Core Medal
+item.zeus_zou.name=Zou Zeus Core Medal
+item.zeus_condor.name=Condor Zeus Core Medal
+item.zeus_tako.name=Tako Zeus Core Medal
+item.zeus_tyranno.name=Tyranno Zeus Core Medal
+item.zeus_ari.name=Ari Zeus Core Medal
 
 item.proto_birth_core.name=Proto Birth Core
 
@@ -2499,6 +2546,7 @@ item.kaenken_rekka.name=Kaenken Rekka
 item.suiseiken_nagare.name=Suiseiken Nagare
 item.dogouken_gekido.name=Dogouken Gekido
 item.raimeiken_ikazuchi.name=Raimeiken Ikazuchi
+item.gekkou_raimeiken_ikazuchi.name=Gekkou Raimeiken Ikazuchi
 item.ankokuken_kurayami.name=Ankokuken Kurayami
 item.onjuuken_suzune.name=Onjuuken Suzune
     
@@ -2509,6 +2557,9 @@ item.eneiken_noroshi.name=Eneiken Noroshi
 item.jikokuken_kaiji.name=Jikokuken Kaiji
 item.caladbolg.name=Caladbolg
 item.haouken_xross_saber.name=Haouken Xross Saber
+
+item.gekkou_raimeiken_ikazuchi.name=Gekkou Raimeiken Ikazuchi
+item.storious_sword.name=Storiou's sword
     
 item.fuusouken_hayate_ittouryu.name=Fuusouken Hayate(Ittouryu Mode)
 item.fuusouken_hayate_nitouryu.name=Fuusouken Hayate(Nitouryu Mode)
@@ -2531,7 +2582,8 @@ item.sword_of_logos_buckle_kenzan.name=Sword of Logos Buckle (Kenzan)
 item.sword_of_logos_buckle_slash.name=Sword of Logos Buckle (Slash)
     
 item.jaken_caliburdriver.name=Jaken Caliburdriver
-item.seiken_swordriver_falchion.name=Haken Bladriver
+item.seiken_swordriver_falchion.name=Haken Bladriver (Falchion)
+item.seiken_swordriver_tassel.name=Haken Bladriver (Tassel)
 
 item.sword_of_logos_buckle_sabela.name=Royal Sword of Logos Buckle (Sabela)
 item.sword_of_logos_buckle_durendal.name=Royal Sword of Logos Buckle (Durendal)
@@ -2618,6 +2670,11 @@ item.legeiel_alter_ride_book.name=Legeiel Alter Ride Book
 item.zooous_alter_ride_book.name=Zooous Alter Ride Book
 item.storious_alter_ride_book.name=Storious Alter Ride Book
 
+item.arabiana_night_wonderride_book.name=Arabiana Night Wonder Ride Book
+item.amazing_siren_wonderride_book.name=Amazing Siren Wonder Ride Book
+item.wonder_almighty_wonder_ride_book.name=Wonder Almighty Wonder Ride Book
+item.ultimate_bahamut_wonder_ride_book.name=Ultimate Bahamut Wonder Ride Book
+item.desast_alter_ride_book.name=Desast Alter Ride Book
     
 item.happy_brave_dragon_wonder_ride_book.name=Happy Brave Dragon Wonder Ride Book
     
