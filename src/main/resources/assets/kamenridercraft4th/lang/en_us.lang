@@ -329,6 +329,7 @@ item.energy.name=Energy Shot
 
 item.base_sword.name=Base Weapon
 item.base_gun.name=Base Gun
+item.base_bike.name=Base Bike
 
 item.shocker_emblem.name=Shocker Emblem
 
@@ -391,6 +392,12 @@ item.core_driver.name=Core Driver
 item.core_driver_power_up.name=Core Driver Power Up
 
 item.greeed_blet_ankh.name=Greeed Belt Ankh
+item.greeed_blet_ankh_lost.name=Greeed Belt Ankh(Lost)
+item.greeed_blet_uva.name=Greeed Belt Uva
+item.greeed_blet_kazari.name=Greeed Belt Kazari
+item.greeed_blet_mezool.name=Greeed Belt Mezool
+item.greeed_blet_gamel.name=Greeed Belt Gamel
+item.greeed_blet_muchiri.name=Greeed Belt Muchiri
 
 item.taka.name=Taka Core Medal
 item.kuwagata.name=Kuwagata Core Medal
@@ -519,6 +526,12 @@ item.birth_core_shovel_arm.name=Shovel Arm Birth Medal
 item.birth_core_breast_cannon.name=Breast Cannon Birth Medal
 item.birth_core_eyes.name=Glowing Eyes Birth Medal
 
+item.purple_medals_sealed.name=Sealed Purple Medals
+item.purple_medals_opened.name=Opened Purple Medals
+item.purple_medals_empty.name=Empty Purple Medal Holder 
+
+item.cell_alloy_ingot.name=Cell Alloy Ingot
+item.ride_vendor.name=Ride Vendor
 
 item.proto_birth_core.name=Proto Birth Core
 
@@ -541,70 +554,75 @@ item.lostdriver_eternal.name=Lost Driver (Eternal)
 item.lostdriver_skull.name=Lost Driver (Skull)
 item.accel_driver.name=Accel Driver
 
-item.cyclone_memory.name=Cyclone Memory
-item.heat_memory.name=Heat Memory
-item.luna_memory.name=Luna Memory
-item.fang_memory.name=Fang Memory
-item.joker_memory.name=Joker Memory
-item.metal_memory.name=Metal Memory
-item.trigger_memory.name=Trigger Memory
+item.cyclone_memory.name=Cyclone Gaia Memory
+item.heat_memory.name=Heat Gaia Memory
+item.luna_memory.name=Luna Gaia Memory
+item.fang_memory.name=Fang Gaia Memory
+item.joker_memory.name=Joker Gaia Memory
+item.metal_memory.name=Metal Gaia Memory
+item.trigger_memory.name=Trigger Gaia Memory
 item.xtreme_memory.name=Xtreme Memory
 item.xtreme_gold_memory.name=Xtreme Gold Memory
 item.xtreme_accel_memory.name=Xtreme Accel Memory
-item.cyclonecyclone_memory.name=Cyclone Memory (Cyclone Cyclone Ver)
-item.jokerjoker_memory.name=Joker Memory (Joker Joker Ver)
-item.prism_memory.name=Prism Memory
-item.engine_memory.name=Engine Memory
+item.cyclonecyclone_memory.name=Cyclone Gaia Memory (Cyclone Cyclone Ver)
+item.jokerjoker_memory.name=Joker Gaia Memory (Joker Joker Ver)
+item.prism_memory.name=Prism Gaia Memory
+item.engine_memory.name=Engine Gaia Memory
 
-item.joker_t2_memory.name=T2 Joker Memory
-item.skull_memory.name=Skull Memory
-item.eternal_memory.name=Eternal Memory
-item.eternal_t2_memory.name=T2 Eternal Memory
+item.joker_t2_memory.name=T2 Joker Gaia Memory
+item.skull_memory.name=Skull Gaia Memory
+item.eternal_memory.name=Eternal Gaia Memory
+item.eternal_t2_memory.name=T2 Eternal Gaia Memory
 
-item.shippu_memory.name=Shippu Memory
-item.kirifuda_memory.name=Kirifuda Memory
+item.shippu_memory.name=Shippu Gaia Memory
+item.kirifuda_memory.name=Kirifuda Gaia Memory
 
+item.memory_memory.name=Memory Gaia Memory
+item.egg_chicken_memory.name=Egg & Chicken Gaia Memory
 
-item.accel_memory.name=Accel Memory
-item.trial_memory.name=Trial Memory
-item.accel_booster_memory.name=Accel Memory With Booster
+item.accel_memory.name=Accel Gaia Memory
+item.trial_memory.name=Trial Gaia Memory
+item.accel_booster_memory.name=Accel Gaia Memory With Booster
 
-item.bomb_memory.name=Bomb Memory
-item.dummy_memory.name=Dummy Memory
-item.fang_memory_un.name=Unfinished Fang Memory
-item.trial_memory_un.name=Unfinished Trial Memory
-item.xtreme_memory_g.name=Xtreme Memory (Gold)
-item.xtreme_memory_s.name=Xtreme Memory (Silver)
+item.bomb_memory.name=Bomb Gaia Memory
+item.dummy_memory.name=Dummy Gaia Memory
+item.fang_memory_un.name=Unfinished Fang Gaia Memory
+item.trial_memory_un.name=Unfinished Trial Gaia Memory
+item.xtreme_memory_g.name=Xtreme Gaia Memory (Gold)
+item.xtreme_memory_s.name=Xtreme Gaia Memory (Silver)
 
+item.accel_t2_memory.name=T2 Accel Gaia Memory
+item.bird_t2_memory.name=T2 Bird Gaia Memory
+item.cyclone_t2_memory.name=T2 Cyclone Gaia Memory
+item.fang_t2_memory.name=T2 Fang Gaia Memory
+item.gene_t2_memory.name=T2 Gene Gaia Memory
+item.heat_t2_memory.name=T2 Heat Gaia Memory
+item.iceage_t2_memory.name=T2 Ice Age Gaia Memory
+item.key_t2_memory.name=T2 Key Gaia Memory
+item.luna_t2_memory.name=T2 Luna Gaia Memory
+item.metal_t2_memory.name=T2 Metal Gaia Memory
+item.nasca_t2_memory.name=T2 Nasca Gaia Memory
+item.ocean_t2_memory.name=T2 Ocean Gaia Memory
+item.puppeteer_t2_memory.name=T2 Puppeteer Gaia Memory
+item.queen_t2_memory.name=T2 Queen Gaia Memory
+item.rocket_t2_memory.name=T2 Rocket Gaia Memory
+item.skull_t2_memory.name=T2 Skull Gaia Memory
+item.trial_t2_memory.name=T2 Trial Gaia Memory
+item.trigger_t2_memory.name=T2 Trigger Gaia Memory
+item.unicorn_t2_memory.name=T2 Unicorn Gaia Memory
+item.violence_t2_memory.name=T2 Violence Gaia Memory
+item.weather_t2_memory.name=T2 Weather Gaia Memory
+item.xtreme_t2_memory.name=T2 Xtreme Gaia Memory
+item.yesterday_t2_memory.name=T2 Yesterday Gaia Memory
+item.zone_t2_memory.name=T2 Zone Gaia Memory
 
-item.accel_t2_memory.name=T2 Accel Memory
-item.bird_t2_memory.name=T2 Bird Memory
-item.cyclone_t2_memory.name=T2 Cyclone Memory
-item.fang_t2_memory.name=T2 Fang Memory
-item.gene_t2_memory.name=T2 Gene Memory
-item.heat_t2_memory.name=T2 Heat Memory
-item.iceage_t2_memory.name=T2 Ice Age Memory
-item.key_t2_memory.name=T2 Key Memory
-item.luna_t2_memory.name=T2 Luna Memory
-item.metal_t2_memory.name=T2 Metal Memory
-item.nasca_t2_memory.name=T2 Nasca Memory
-item.ocean_t2_memory.name=T2 Ocean Memory
-item.puppeteer_t2_memory.name=T2 Puppeteer Memory
-item.queen_t2_memory.name=T2 Queen Memory
-item.rocket_t2_memory.name=T2 Rocket Memory
-item.skull_t2_memory.name=T2 Skull Memory
-item.trial_t2_memory.name=T2 Trial Memory
-item.trigger_t2_memory.name=T2 Trigger Memory
-item.unicorn_t2_memory.name=T2 Unicorn Memory
-item.violence_t2_memory.name=T2 Violence Memory
-item.weather_t2_memory.name=T2 Weather Memory
-item.xtreme_t2_memory.name=T2 Xtreme Memory
-item.yesterday_t2_memory.name=T2 Yesterday Memory
-item.zone_t2_memory.name=T2 Zone Memory
+item.unrefined_memory_g.name=Unrefined Gaia Memory (Gold)
+item.unrefined_memory_s.name=Unrefined Gaia Memory (Silver)
+item.unrefined_memory_t2.name=Unrefined T2 Gaia Memory
 
-item.unrefined_memory_g.name=Unrefined Memory (Gold)
-item.unrefined_memory_s.name=Unrefined Memory (Silver)
-item.unrefined_memory_t2.name=Unrefined T2 Memory
+item.hard_boilder.name=Hardboilder
+item.accel_bike.name=Accel (BikeForm)
+item.skull_boilder.name=Skullboilder
 
 
 item.rocket.name=Rocket Module
@@ -861,6 +879,7 @@ item.momotaro_sword.name=Momotaro Sword
 item.uratarod.name=Uratarod
 item.kintaros_ax.name=Kintaros Ax
 item.ryu_volver.name=Ryuvolver
+item.den_den_pudding.name=DenGasher Pudding Mode
 
 item.zerogasher.name=ZeroGasher
 
@@ -883,6 +902,7 @@ item.rider_ticket_rod.name=Rider Ticket Urataros
 item.rider_ticket_ax.name=Rider Ticket Kintaros
 item.rider_ticket_gun.name=Rider Ticket Ryutaros
 item.rider_ticket_wing.name=Rider Ticket Sieg
+item.rider_ticket_pudding.name=Rider Ticket Pudding
 item.ktaros.name=K-Taros
 item.rider_ticket_strike.name=Rider Ticket Teddy
 item.rider_ticket_nega.name=Rider Ticket Negataros
@@ -895,6 +915,7 @@ item.zeronos_altair_card.name=Zeronos Altair Card
 item.zeronos_vega_card.name=Zeronos Vega Card
 item.zeronos_zero_card.name=Zeronos Zero Card
 
+item.den_bird.name=DenBird
 
 item.garulu_saber.name=Garulu Saber
 item.basshaamagnum.name=Basshaa Magnum
@@ -1514,6 +1535,7 @@ item.another_agito.name=Another Agito
 item.agito_miracle.name=Agito Miracle
 item.another_agito_burning_form.name=Another Agito Burning
 
+item.tornader.name=Tornader
 
 item.kabuto_kunai.name=Kabuto Kunai Gun
 item.kabuto_kunai_kunai.name=Kabuto Kunai Gun (Kunai Mode)
@@ -1703,11 +1725,60 @@ item.den_oriderpass.name=Rider Pass
 item.gden_oriderpass.name=G Den-O Rider Pass
 item.den_o_master_pass.name=Master Pass
    
-   
+item.acro_batter.name=Acro Batter
+item.ridoron.name=Ridoron
 
 item.ichigohead.name=Ichigo Helmet
 item.ichigotroso.name=Ichigo Chestplate
 item.ichigolegs.name=Ichigo Leggings
+
+item.v3head.name=V3 Helmet
+item.v3troso.name=V3 Chestplate
+item.v3legs.name=V3 Leggings
+
+item.xhead.name=X Helmet
+item.xtroso.name=X Chestplate
+item.xlegs.name=X Leggings
+
+item.amazonhead.name=Amazon Helmet
+item.amazontroso.name=Amazon Chestplate
+item.amazonlegs.name=Amazon Leggings
+
+item.strongerhead.name=Stronger Helmet
+item.strongertroso.name=Stronger Chestplate
+item.strongerlegs.name=Stronger Leggings
+
+item.skyriderhead.name=Skyrider Helmet
+item.skyridertroso.name=Skyrider Chestplate
+item.skyriderlegs.name=Skyrider Leggings
+
+item.super_1head.name=Super 1 Helmet
+item.super_1troso.name=Super 1 Chestplate
+item.super_1legs.name=Super 1 Leggings
+
+item.zx_head.name=ZX Helmet
+item.zx_troso.name=ZX Chestplate
+item.zx_legs.name=ZX Leggings
+
+item.shinhead.name=Shin Helmet
+item.shintroso.name=Shin Chestplate
+item.shinlegs.name=Shin Leggings
+
+item.black_head.name=Black Helmet
+item.black_troso.name=Black Chestplate
+item.black_legs.name=Black Leggings
+
+item.black_rx_head.name=Black RX Helmet
+item.black_rx_troso.name=Black RX Chestplate
+item.black_rx_legs.name=Black RX Leggings
+
+item.zohead.name=ZO Helmet
+item.zotroso.name=ZO Chestplate
+item.zolegs.name=ZO Leggings
+
+item.jhead.name=J Helmet
+item.jtroso.name=J Chestplate
+item.jlegs.name=J Leggings
 
 item.typhoon_core.name=Typhoon Core
 item.riderman_belt_core.name=Riderman Belt Core
@@ -1722,6 +1793,8 @@ item.king_stone_split.name=Split King Stone
 
 item.typhoon_ichigo.name=Typhoon (Ichigo)
 item.typhoon_nigo.name=Typhoon (Nigo)
+item.typhoon_original_ichigo.name=Typhoon (Original Ichigo)
+item.typhoon_sakurajima_ichigo.name=Typhoon (Sakurajima Ichigo)
 
 item.nophoon_kamen_norider.name=Typhoon(Kamen Norider)
 
@@ -2707,7 +2780,14 @@ item.blank_wonder_world_story_wonder_ride_book.name=Blank Wonder World Story Won
 item.book_of_ruin.name=Book Of Ruin
 item.forbidden_tome.name=Forbidden Tome
 item.great_book_fragment.name=Great Book Fragment  
-               
+          
+item.revicehead.name=Revice Helmet
+item.revicetroso.name=Revice Chestplate 
+item.revicelegs.name=Revice Leggings
+        
+item.revice_driver.name=Revice Driver       
+item.vice_belt.name=Buddy Buckle(vice)    
+                
 item.amazonshead.name=Amazons Helmet
 item.amazonstroso.name=Amazons Chestplate 
 item.amazonslegs.name=Amazons Leggings
