@@ -66,6 +66,15 @@ entity.Diago_SpeedyMob.name=Diago Speedy
 
 entity.ZuGumunBaMob.name=Zu-Gumun-Ba
 
+entity.DestronCombatmanMob.name=Destron Combatman
+entity.GodWarfareAgentMob.name=God Warfare Agent
+entity.RedFollowerMob.name=Red Follower
+entity.BlackSatanSoldierMob.name=Black Satan Soldier
+entity.AriCommandoMob.name=Ari Commando
+entity.DogmaFighterMob.name=Dogma Fighter
+entity.CombatRoidMob.name=CombatRoid
+entity.ChapMob.name=Chap
+
 entity.RiotrooperMob.name=Riotrooper
 entity.OrgaMob.name=Horse Orphnoch
 
@@ -158,6 +167,21 @@ itemGroup.tabsaber=Kamen Rider Saber
 itemGroup.tabdecor=Decorative Items
 itemGroup.tabmisc=Misc Rider Items
 
+itemGroup.tabv3=Kamen Rider V3
+itemGroup.tabx=Kamen Rider X
+itemGroup.tabamazon=Kamen Rider Amazon
+itemGroup.tabstronger=Kamen Rider Stronger
+itemGroup.tabskyrider=Kamen Rider Skyrider
+itemGroup.tabsuper_1=Kamen Rider Super 1
+itemGroup.tabzx=Kamen Rider ZX
+itemGroup.tabblack=Kamen Rider Black
+itemGroup.tabblack_rx=Kamen Rider Black RX
+itemGroup.tabshin=Kamen Rider Shin
+itemGroup.tabzo=Kamen Rider ZO
+itemGroup.tabj=Kamen Rider J
+itemGroup.tabG=Kamen Rider G
+itemGroup.tabGoRider=Kamen Sentai Gorider
+
 tile.stone_kuuga.name=Kuuga Ore
 tile.stone_agito.name=Agito Ore
 tile.advent_glass.name= Advent Glass
@@ -220,6 +244,14 @@ tile.ark_one_boss_block.name=Ark-One Block
 tile.sabela_boss_block.name=Sabela Block
 tile.durendal_boss_block.name=Durendal Block
 tile.solomon_boss_block.name=Solomon Block
+
+
+tile.storious_boss_block.name=Storious Block
+tile.core_boss_block.name=Core Block
+tile.power_up_core_boss_block.name=Powered Up Core Block
+tile.poseidon_boss_block.name=Poseidon Block
+tile.pure_gaia_memory_block.name=Pure Gaia Memory Block
+tile.cell_medal_programer.name=Cell Medal Programer
 
 tile.purifyer.name=Fullbottle Purifier
 tile.solidifyer.name=Fullbottle Solidifier
@@ -534,6 +566,18 @@ item.cell_alloy_ingot.name=Cell Alloy Ingot
 item.ride_vendor.name=Ride Vendor
 
 item.proto_birth_core.name=Proto Birth Core
+
+item.taka_candroid.name=Taka Candroid
+item.tako_candroid.name=Tako Candroid
+item.batta_candroid.name=Batta Candroid
+item.tora_candroid.name=Tora Candroid
+item.denkiunagi_candroid.name=Denkiunagi Candroid
+item.gorilla_candroid.name=Gorilla Candroid
+item.kujaku_candroid.name=Kujyaku Candroid
+item.ptera_candroid.name=Ptera Candroid
+item.torikera_candroid.name=Torikera Candroid
+item.furifuri_candroid.name=Furifuri Candroid
+
 
 item.metal_shaft.name=Metal Shaft
 item.prism_bicker.name=Prism Bicker
@@ -1820,6 +1864,16 @@ item.amaterasu_belt.name=Amaterasu Belt
 item.moonriser.name=Moonriser
 item.king_stone_red_shadow_moon.name=King Stone (Red Shadow Moon)
 
+item.akariderhead.name=Gorider Helmet
+item.akaridertroso.name=Gorider Chestplate 
+item.akariderlegs.name=Gorider Leggings
+
+item.akarider_card.name=Akarider Card 
+item.aorider_card.name=Aorider Card 
+item.kirider_card.name=Kirider Card 
+item.momorider_card.name=Momorider Card 
+item.midorider_card.name=Midorider Card 
+
 item.typhoon_akarider.name=Typhoon (Akarider)
 item.typhoon_aorider.name=Typhoon (Aorider)
 item.typhoon_kirider.name=Typhoon (Kirider)
@@ -1842,6 +1896,7 @@ item.typhoon_shocker_rider_12.name=Typhoon (Shocker Rider 12)
 
 
 item.double_typhoon.name=Double Typhoon
+item.double_typhoon_blue.name=Double Typhoon(Blue V3)
 item.riderman_belt.name=Riderman Belt
 item.ridol.name=Ridol
 item.condorer.name=Condorer
@@ -1855,6 +1910,7 @@ item.zx_belt.name=ZX Belt
 item.tornado.name=Tornado
 item.cyclode.name=Cyclode
 item.king_stone.name=King Stone
+item.king_stone_green.name=King Stone(Batta Man)
 item.king_stone_shadow_moon.name=King Stone (Shadow Moon)
 item.sunriser.name=Sunriser
 item.grasshopper_dna.name=Grasshopper DNA
@@ -1862,6 +1918,7 @@ item.zo_core.name=ZO's Core
 item.j_spirit.name=J Spirit
 item.g_belt.name=G Belt
 
+item.rx_rider.name=RX Rider
 item.bio_rider.name=Bio Rider
 item.robo_rider.name=Robo Rider
 item.charge_up.name=Charge Up
@@ -2122,6 +2179,9 @@ item.taiko_no_tatsujin_gashat.name=Taiko No Tatsujin Gashat
 item.gabarizing_gashat.name=Ganbarizing Gashat
 
 item.mighty_novel_x_gashat.name=Mighty Novel X Gashat
+
+item.lazer_bike.name=Lazer(Bike Gamer Level 2)
+item.bike_gamer.name=Bike Gamer
 
 item.drill_crusher.name=Drill Crusher
 item.hawk_gatlinger.name=Hawk Gatlinger
@@ -2796,12 +2856,13 @@ item.revicetroso.name=Revice Chestplate
 item.revicelegs.name=Revice Leggings
         
 item.revice_driver.name=Revice Driver       
-item.vice_belt.name=Buddy Buckle(vice)    
-                
+item.vice_belt.name=Buddy Buckle(Vice)    
+       
+       
 item.amazonshead.name=Amazons Helmet
 item.amazonstroso.name=Amazons Chestplate 
-item.amazonslegs.name=Amazons Leggings
-        
+item.amazonslegs.name=Amazons Leggings   
+            
 item.amazons_driver_omega.name=Amazons Driver (Omega)
 item.neo_amazons_driver_omega.name=Neo Amazons Driver (New Omega)
 item.amazons_driver_alpha.name=Amazons Driver (Alpha)
