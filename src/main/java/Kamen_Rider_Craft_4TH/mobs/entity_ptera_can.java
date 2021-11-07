@@ -29,7 +29,9 @@ import net.minecraft.entity.ai.EntityAISwimming;
 import net.minecraft.entity.ai.EntityAITempt;
 import net.minecraft.entity.ai.EntityAIWander;
 import net.minecraft.entity.ai.EntityAIWanderAvoidWater;
+import net.minecraft.entity.ai.EntityAIWanderAvoidWaterFlying;
 import net.minecraft.entity.ai.EntityAIWatchClosest;
+import net.minecraft.entity.ai.EntityFlyHelper;
 import net.minecraft.entity.monster.EntityCreeper;
 import net.minecraft.entity.monster.EntityGolem;
 import net.minecraft.entity.monster.IMob;
@@ -39,6 +41,8 @@ import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemSeeds;
 import net.minecraft.item.ItemStack;
+import net.minecraft.pathfinding.PathNavigate;
+import net.minecraft.pathfinding.PathNavigateFlying;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.ResourceLocation;
@@ -56,14 +60,14 @@ public class entity_ptera_can extends EntityGolem
 	public entity_ptera_can(World par1World)
 	{
 		super(par1World);
-		this.setSize(2F, 0.7F);
+        this.setSize(0.6F, 0.5F);
+        this.moveHelper = new EntityFlyHelper(this);
 		this.tasks.addTask(1, new EntityAIAttackMelee(this, 1.0D, true));
-        this.tasks.addTask(2, new EntityAIMoveTowardsTarget(this, 0.9D, 32.0F));
-        this.tasks.addTask(3, new EntityAIMoveThroughVillage(this, 0.6D, true));
+        this.tasks.addTask(2, new EntityAIWanderAvoidWaterFlying(this, 1.0D));
+        this.tasks.addTask(3, new EntityAIMoveTowardsTarget(this, 0.9D, 32.0F));
         this.tasks.addTask(4, new EntityAIMoveTowardsRestriction(this, 1.0D));
-        this.tasks.addTask(5, new EntityAIWanderAvoidWater(this, 0.6D));
-        this.tasks.addTask(6, new EntityAIWatchClosest(this, EntityPlayer.class, 6.0F));
-        this.tasks.addTask(7, new EntityAILookIdle(this));
+        this.tasks.addTask(5, new EntityAIWatchClosest(this, EntityPlayer.class, 6.0F));
+        this.tasks.addTask(6, new EntityAILookIdle(this));
    	        this.targetTasks.addTask(1, new EntityAIHurtByTarget(this, false, new Class[0]));
 	        this.targetTasks.addTask(3, new EntityAINearestAttackableTarget(this, EntityLiving.class, 10, false, true, new Predicate<EntityLiving>()
 	        {
@@ -81,14 +85,27 @@ public class entity_ptera_can extends EntityGolem
 		return true;
 	}
 
-	protected void applyEntityAttributes()
-	{
-		super.applyEntityAttributes();
-		this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(10.0D);
-		this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.4D);
 
-	}
-	
+    protected void applyEntityAttributes()
+    {
+        super.applyEntityAttributes();
+        this.getAttributeMap().registerAttribute(SharedMonsterAttributes.FLYING_SPEED);
+        this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(10.0D);
+        this.getEntityAttribute(SharedMonsterAttributes.FLYING_SPEED).setBaseValue(0.4000000059604645D);
+        this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.20000000298023224D);
+    }
+
+    /**
+     * Returns new PathNavigateGround instance
+     */
+    protected PathNavigate createNavigator(World worldIn)
+    {
+        PathNavigateFlying pathnavigateflying = new PathNavigateFlying(this, worldIn);
+        pathnavigateflying.setCanOpenDoors(false);
+        pathnavigateflying.setCanFloat(true);
+        pathnavigateflying.setCanEnterDoors(true);
+        return pathnavigateflying;
+    }
 
     /**
      * Called frequently so the entity can update its state every tick as required. For example, zombies and skeletons
