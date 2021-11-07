@@ -78,6 +78,28 @@ entity.ChapMob.name=Chap
 entity.RiotrooperMob.name=Riotrooper
 entity.OrgaMob.name=Horse Orphnoch
 
+
+entity.FoundationXMasqueradeMob.name=Foundation X Masquerade Dopant
+entity.EternalMob.name=Kamen Rider Eternal
+
+entity.yummyMob.name=Yummy
+entity.knight_soldierMob.name=Knight Soldier
+entity.uvaMob.name=Uva
+entity.kazariMob.name=Kazari
+entity.mezoolMob.name=Mezool
+entity.gamelMob.name=Gamel
+entity.ankhLostMob.name=Lost Ankh
+entity.muchiriMob.name=Muchiri
+entity.ankhcompleteMob.name=Complete Ankh
+entity.CoreMob.name=Kamen Rider Core
+entity.CorePowerUpMob.name=Kamen Rider Core (Powered Up)
+entity.poseidonMob.name=Kamen Rider Poseidon
+
+
+entity.ridevendorVendingMob.name=Ridevendor (Machine Vendor Mode)
+entity.RidevendorMob.name=Ridevendor (Bike Mode)
+entity.ToRidevendorMob.name=ToRidevendor
+
 entity.new_mole_imagin_sandMob.name=New Mole Imagin (Sand)
 entity.new_mole_imaginMob.name=New Mole Imagin
 entity.MomotarosMob.name=Momotaros
@@ -96,6 +118,7 @@ entity.LegeielForbiddenMob.name=Legeiel Forbidden
 entity.ZooousMob.name=Zooous
 entity.ZooousPredatorMob.name=Zooous Predator
 entity.StoriousMob.name=Storious
+
 
 entity.StoriousRiderMob.name=Kamen Rider Storious
 entity.DesastMob.name=Desast
