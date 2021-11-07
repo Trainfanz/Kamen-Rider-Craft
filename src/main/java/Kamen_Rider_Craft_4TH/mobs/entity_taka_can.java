@@ -130,7 +130,7 @@ public class entity_taka_can extends EntityGolem
 	public void onDeath(DamageSource cause)
 	{
 		if (!this.world.isRemote){
-			this.dropItem(RiderItems.kodama_suika_arms, 1);
+			this.dropItem(RiderItems.taka_candroid, 1);
 		}
 	}
 

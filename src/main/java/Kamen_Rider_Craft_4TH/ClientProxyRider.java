@@ -16,6 +16,7 @@ import Kamen_Rider_Craft_4TH.mobs.Entity_ridevendor_vending;
 import Kamen_Rider_Craft_4TH.mobs.Entityaccel;
 import Kamen_Rider_Craft_4TH.mobs.RenderRiderMob;
 import Kamen_Rider_Craft_4TH.mobs.RenderRiderMob2;
+import Kamen_Rider_Craft_4TH.mobs.entity_taka_can;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityChronos;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_giger;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Arc_zero;
@@ -163,6 +164,7 @@ import Kamen_Rider_Craft_4TH.model.Model_rose_attacker;
 import Kamen_Rider_Craft_4TH.model.model_ridevendor;
 import Kamen_Rider_Craft_4TH.model.model_ridevendor_vending;
 import Kamen_Rider_Craft_4TH.model.model_ridoron;
+import Kamen_Rider_Craft_4TH.model.model_taka_can;
 import Kamen_Rider_Craft_4TH.model.model_toridevendor;
 import Kamen_Rider_Craft_4TH.model.tokuMobModel;
 import Kamen_Rider_Craft_4TH.util.Refercence;
@@ -218,6 +220,8 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entity_ankh_complete.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/yummy.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_knight_soldier.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/knight_soldier.png"));
+		
+		RenderingRegistry.registerEntityRenderingHandler(entity_taka_can.class, new RenderRiderMob(new model_taka_can(), 0.5F,"textures/entities/taka_can.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityBugsterVirus.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/bugster_virus.png"));
 		
