@@ -135,7 +135,15 @@ import Kamen_Rider_Craft_4TH.item.zi_o.item_zi_oarmor2;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
 import Kamen_Rider_Craft_4TH.mobs.EntityLazer;
 import Kamen_Rider_Craft_4TH.mobs.Entityaccel;
+import Kamen_Rider_Craft_4TH.mobs.entity_batta_can;
+import Kamen_Rider_Craft_4TH.mobs.entity_gorilla_can;
+import Kamen_Rider_Craft_4TH.mobs.entity_kujaku_can;
+import Kamen_Rider_Craft_4TH.mobs.entity_ptera_can;
 import Kamen_Rider_Craft_4TH.mobs.entity_taka_can;
+import Kamen_Rider_Craft_4TH.mobs.entity_tako_can;
+import Kamen_Rider_Craft_4TH.mobs.entity_tora_can;
+import Kamen_Rider_Craft_4TH.mobs.entity_tricera_can;
+import Kamen_Rider_Craft_4TH.mobs.entity_unagi_can;
 import Kamen_Rider_Craft_4TH.mobs.Boss.*;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityAcrobatter;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityExaidBike;
@@ -1774,14 +1782,14 @@ public class RiderItems {
 	public static Item cell_alloy_ingot= new Item_ore("cell_alloy_ingot").setCreativeTab(Tabs.tabOOO);
 	
 	public static Item taka_candroid= new item_candroid("taka_candroid", entity_taka_can::new).setCreativeTab(Tabs.tabOOO);
-	public static Item tako_candroid= new Item_ore("tako_candroid").setCreativeTab(Tabs.tabOOO);
-	public static Item batta_candroid= new Item_ore("batta_candroid").setCreativeTab(Tabs.tabOOO);
-	public static Item tora_candroid= new Item_ore("tora_candroid").setCreativeTab(Tabs.tabOOO);
-	public static Item denkiunagi_candroid= new Item_ore("denkiunagi_candroid").setCreativeTab(Tabs.tabOOO);
-	public static Item gorilla_candroid= new Item_ore("gorilla_candroid").setCreativeTab(Tabs.tabOOO);
-	public static Item kujaku_candroid= new Item_ore("kujaku_candroid").setCreativeTab(Tabs.tabOOO);
-	public static Item ptera_candroid= new Item_ore("ptera_candroid").setCreativeTab(Tabs.tabOOO);
-	public static Item torikera_candroid= new Item_ore("torikera_candroid").setCreativeTab(Tabs.tabOOO);
+	public static Item tako_candroid= new item_candroid("tako_candroid", entity_tako_can::new).setCreativeTab(Tabs.tabOOO);
+	public static Item batta_candroid= new item_candroid("batta_candroid", entity_batta_can::new).setCreativeTab(Tabs.tabOOO);
+	public static Item tora_candroid= new item_candroid("tora_candroid", entity_tora_can::new).setCreativeTab(Tabs.tabOOO);
+	public static Item denkiunagi_candroid= new item_candroid("denkiunagi_candroid", entity_unagi_can::new).setCreativeTab(Tabs.tabOOO);
+	public static Item gorilla_candroid= new item_candroid("gorilla_candroid", entity_gorilla_can::new).setCreativeTab(Tabs.tabOOO);
+	public static Item kujaku_candroid= new item_candroid("kujaku_candroid", entity_kujaku_can::new).setCreativeTab(Tabs.tabOOO);
+	public static Item ptera_candroid= new item_candroid("ptera_candroid", entity_ptera_can::new).setCreativeTab(Tabs.tabOOO);
+	public static Item torikera_candroid= new item_candroid("torikera_candroid", entity_tricera_can::new).setCreativeTab(Tabs.tabOOO);
 	public static Item furifuri_candroid= new Item_ore("furifuri_candroid").setCreativeTab(Tabs.tabOOO);
 	
 	public static Item purple_medals_sealed = new Item_ore("purple_medals_sealed").setCreativeTab(Tabs.tabOOO);

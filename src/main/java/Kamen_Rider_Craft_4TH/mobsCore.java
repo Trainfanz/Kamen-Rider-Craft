@@ -12,7 +12,15 @@ import Kamen_Rider_Craft_4TH.mobs.EntityUrataros;
 import Kamen_Rider_Craft_4TH.mobs.Entity_kodama_suika_arms;
 import Kamen_Rider_Craft_4TH.mobs.Entity_ridevendor_vending;
 import Kamen_Rider_Craft_4TH.mobs.Entityaccel;
+import Kamen_Rider_Craft_4TH.mobs.entity_batta_can;
+import Kamen_Rider_Craft_4TH.mobs.entity_gorilla_can;
+import Kamen_Rider_Craft_4TH.mobs.entity_kujaku_can;
+import Kamen_Rider_Craft_4TH.mobs.entity_ptera_can;
 import Kamen_Rider_Craft_4TH.mobs.entity_taka_can;
+import Kamen_Rider_Craft_4TH.mobs.entity_tako_can;
+import Kamen_Rider_Craft_4TH.mobs.entity_tora_can;
+import Kamen_Rider_Craft_4TH.mobs.entity_tricera_can;
+import Kamen_Rider_Craft_4TH.mobs.entity_unagi_can;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityChronos;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Arc_zero;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_BloodStalk;
@@ -301,6 +309,14 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":poseidonMob"), Entity_poseidon.class, "poseidonMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xff0000, 0x08dfdd);
 
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":TakaCanMob"), entity_taka_can.class, "TakaCanMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xb8b8b8, 0xbd0000);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":TakoCanMob"), entity_tako_can.class, "TakoCanMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xb8b8b8, 0x2b61ea);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":BattaCanMob"), entity_batta_can.class, "BattaCanMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xb8b8b8, 0x089800);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":ToraCanMob"), entity_tora_can.class, "ToraCanMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xb8b8b8, 0xc0a700);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":UnagiCanMob"), entity_unagi_can.class, "UnagiCanMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xb8b8b8, 0x0500c8);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":GorillaCanMob"), entity_gorilla_can.class, "GorillaCanMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xb8b8b8, 0x151515);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":KujakuCanMob"), entity_kujaku_can.class, "KujakuCanMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xb8b8b8, 0xe37b00);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":PteraCanMob"), entity_ptera_can.class, "PteraCanMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xb8b8b8, 0xaa00cf);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":TriceraCanMob"), entity_tricera_can.class, "TriceraCanMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xb8b8b8, 0x246b4e);
 
 		EntityRegistry.registerModEntity(new ResourceLocation( Refercence.MODID+":BugsterVirusMob"),EntityBugsterVirus.class, "BugsterVirusMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xe88936,000000);
 		EntityRegistry.addSpawn(EntityBugsterVirus.class,  15, 1, 4, EnumCreatureType.MONSTER,Biome.getBiome(1),Biome.getBiome(2),Biome.getBiome(3),Biome.getBiome(4),Biome.getBiome(5),Biome.getBiome(6),Biome.getBiome(7),Biome.getBiome(10),Biome.getBiome(11),Biome.getBiome(12),Biome.getBiome(14),Biome.getBiome(15),Biome.getBiome(16),Biome.getBiome(17),Biome.getBiome(18),Biome.getBiome(19),Biome.getBiome(20),Biome.getBiome(21),Biome.getBiome(22),Biome.getBiome(23),Biome.getBiome(24),Biome.getBiome(25),Biome.getBiome(26),Biome.getBiome(27),Biome.getBiome(28),Biome.getBiome(29),Biome.getBiome(30),Biome.getBiome(31),Biome.getBiome(32),Biome.getBiome(33),Biome.getBiome(34),Biome.getBiome(35),Biome.getBiome(36),Biome.getBiome(37),Biome.getBiome(38),Biome.getBiome(39),Biome.getBiome(129),Biome.getBiome(130),Biome.getBiome(131),Biome.getBiome(132),Biome.getBiome(133),Biome.getBiome(134),Biome.getBiome(140),Biome.getBiome(149),Biome.getBiome(151),Biome.getBiome(155),Biome.getBiome(156),Biome.getBiome(157),Biome.getBiome(158),Biome.getBiome(160),Biome.getBiome(161),Biome.getBiome(162),Biome.getBiome(163),Biome.getBiome(164),Biome.getBiome(165),Biome.getBiome(166),Biome.getBiome(167));
