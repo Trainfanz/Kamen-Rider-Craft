@@ -1,7 +1,14 @@
 package Kamen_Rider_Craft_4TH.mobs.Henchmen;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.mobs.Boss.EntityBossBase;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_jin;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_magia;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_shocker_riders;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.DamageSource;
+import net.minecraft.util.text.TextComponentString;
+import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
 
 public class Entityshocker_combatman extends Entity_base_henchmen
@@ -15,45 +22,40 @@ public class Entityshocker_combatman extends Entity_base_henchmen
 	{
 		if (!this.world.isRemote){   
 
+			if (this.getAttackTarget()instanceof EntityPlayer){
+				EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
+				EntityBossBase entityboss  = new Entity_shocker_riders(world);
+				EntityBossBase entity_jin  = new Entity_jin(world);
+				switch (this.rand.nextInt(20))
+				{
+				case 0:
+					entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+					world.spawnEntity(entityboss);
+					break;
+				case 1:
+					entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+					world.spawnEntity(entityboss);
+					break;
+				case 2:
+					entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+					world.spawnEntity(entityboss);
+					break;
+					/**
+					case 3:
+						playerIn.sendMessage( new TextComponentString(TextFormatting.LIGHT_PURPLE+"Forcerise! Flying Falcon! Break down."));
+						entity_jin.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+						world.spawnEntity(entity_jin);
+						break;
+					 **/
+				}
+			}
 			this.dropItem(RiderItems.rider_circuit,this.rand.nextInt(3));
-			switch (this.rand.nextInt(15))
+
+			switch (this.rand.nextInt(5))
 			{   		   	    		
 			case 0:
 				this.dropItem(RiderItems.typhoon_core, 1);
 				break;
-
-			case 1:
-				this.dropItem(RiderItems.riderman_belt_core, 1);
-				break;
-
-			case 2:
-				this.dropItem(RiderItems.ridol_core, 1);
-				break;
-
-			case 3:
-				this.dropItem(RiderItems.condorer_wheel, 1);
-				break;
-
-			case 4:
-				this.dropItem(RiderItems.electrer_core, 1);
-				break;
-
-			case 5:
-				this.dropItem(RiderItems.tornado_core, 1);
-				break;
-
-			case 6:
-				this.dropItem(RiderItems.cyclode_core, 1);
-				break;
-
-			case 7:
-				this.dropItem(RiderItems.zx_belt_core, 1);
-				break;
-
-			case 8:
-				this.dropItem(RiderItems.king_stone_core, 1);
-				break;
-
 			}
 		}
 	}

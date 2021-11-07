@@ -73,6 +73,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_power_up_core;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_red_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_redyue;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_roshuo;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_shocker_riders;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_storious;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_taboo_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_uva;
@@ -233,6 +234,8 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(entity_dogma_fighter.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/dogma_fighter.png"));
 		RenderingRegistry.registerEntityRenderingHandler(entity_combat_roid.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/combat_roid.png"));
 		RenderingRegistry.registerEntityRenderingHandler(entity_chap.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/chap.png"));
+		
+		RenderingRegistry.registerEntityRenderingHandler(Entity_shocker_riders.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/shocker_combatman.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entityguardian.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/guardian.png"));
 		

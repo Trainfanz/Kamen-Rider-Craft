@@ -75,6 +75,8 @@ entity.DogmaFighterMob.name=Dogma Fighter
 entity.CombatRoidMob.name=CombatRoid
 entity.ChapMob.name=Chap
 
+entity.shocker_ridersMob.name=Shocker Rider
+
 entity.RiotrooperMob.name=Riotrooper
 entity.OrgaMob.name=Horse Orphnoch
 
