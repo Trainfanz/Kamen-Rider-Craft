@@ -66,6 +66,16 @@ entity.Diago_SpeedyMob.name=Diago Speedy
 
 entity.ZuGumunBaMob.name=Zu-Gumun-Ba
 
+entity.TakaCanMob.name=Taka Candroid
+entity.TakoCanMob.name=Tako Candroid
+entity.BattaCanMob.name=Batta Candroid
+entity.ToraCanMob.name=Tora Candroid
+entity.UnagiCanMob.name=Denkiunagi Candroid
+entity.GorillaCanMob.name=Gorilla Candroid
+entity.KujakuCanMob.name=Kujyaku Candroid
+entity.PteraCanMob.name=Ptera Candroid
+entity.TriceraCanMob.name=Torikera Candroid
+
 entity.DestronCombatmanMob.name=Destron Combatman
 entity.GodWarfareAgentMob.name=God Warfare Agent
 entity.RedFollowerMob.name=Red Follower
@@ -1796,6 +1806,8 @@ item.den_o_master_pass.name=Master Pass
    
 item.acro_batter.name=Acro Batter
 item.ridoron.name=Ridoron
+
+item.satan_sabre.name=Satan Sabre
 
 item.ichigohead.name=Ichigo Helmet
 item.ichigotroso.name=Ichigo Chestplate

@@ -495,7 +495,9 @@ public class RiderItems {
 
 
 	//Black
-
+	public static Item satan_sabre = new ItemBaseSword("satan_sabre",ToolMaterial.DIAMOND, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
+	public static Item shadow_saber_short = new ItemBaseSword("shadow_saber_short",ToolMaterial.DIAMOND, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
+	
 	public static Item king_stone_core = new Item_form_change("king_stone_core",item_rider_driver.class,blanknoitem,"",""
 			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.HASTE,20, 1,true,false)
 			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
@@ -515,8 +517,7 @@ public class RiderItems {
 	public static Item vortech_shooter = new Item_gun("vortech_shooter",Tabs.den_dengu, RiderItems.rider_circuit).setCreativeTab(Tabs.tabblack_rx);
 	public static Item bio_blade = new ItemBaseSword("bio_blade",ToolMaterial.DIAMOND, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
 
-	public static Item shadow_saber_short = new ItemBaseSword("shadow_saber_short",ToolMaterial.DIAMOND, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
-
+	
 	public static Item sunriser_rr = new Item_ore("sunriser_rr");
 	public static Item sunriser_br = new Item_ore("sunriser_br");
 
