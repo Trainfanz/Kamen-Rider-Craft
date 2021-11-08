@@ -7,14 +7,14 @@
   ],
   "key": {
     "X": {
-      "item": "kamenridercraft4th:hiden_metal"
+      "item": "kamenridercraft4th:blank_gashat"
     }, "C": {
-      "item": "kamenridercraft4th:uchuyaro_subaru_progrise_key"
+      "item": "kamenridercraft4th:bakusou_bike_gashat"
     }, "Z": {
       "item": "kamenridercraft4th:base_bike"
     }
   },
   "result": {
-    "item": "kamenridercraft4th:hiden_risephone"
+    "item": "kamenridercraft4th:lazer_bike"
   }
 }

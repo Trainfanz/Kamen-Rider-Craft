@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "CZJ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:gaiamemory"
+    }, "C": {
+      "item": "kamenridercraft4th:cyclone_memory"
+    }, "J": {
+      "item": "kamenridercraft4th:joker_memory"
+    }, "Z": {
+      "item": "kamenridercraft4th:base_bike"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:hard_boilder"
+  }
+}

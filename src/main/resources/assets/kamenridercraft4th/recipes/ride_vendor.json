@@ -1,20 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "XCX",
+    "XXX",
     "XZX",
     "XXX"
   ],
   "key": {
     "X": {
-      "item": "kamenridercraft4th:hiden_metal"
-    }, "C": {
-      "item": "kamenridercraft4th:uchuyaro_subaru_progrise_key"
+      "item": "kamenridercraft4th:cellmedal"
     }, "Z": {
       "item": "kamenridercraft4th:base_bike"
     }
   },
   "result": {
-    "item": "kamenridercraft4th:hiden_risephone"
+    "item": "kamenridercraft4th:ride_vendor"
   }
 }
