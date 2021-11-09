@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:snowball"
+    }, "Z": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:icepop3"
+  }
+}

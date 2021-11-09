@@ -28,34 +28,7 @@ public class CraftingRecipeForRider {
 	public static void Crafrting(){
 		
 		//GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":energy"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.energy,5), " a ","aba"," a ", 'a', new ItemStack(Items.DYE, 1, 4), 'b', Items.REDSTONE);		
-		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":icepop1"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.icepop1,1), " a "," a "," b ", 'a', Items.SNOWBALL, 'b', Items.STICK);		
-		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":rider_circuit"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.rider_circuit,1), "aba","bab","aba", 'a', Items.IRON_INGOT, 'b', Items.GOLD_INGOT);
-		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":base_sword"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.base_sword,1), " a "," a "," b ", 'a', RiderItems.rider_circuit, 'b', Items.IRON_INGOT);		
 		//GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":base_gun"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.base_gun,1), "a  "," a "," ba", 'a', RiderItems.rider_circuit, 'b', Items.IRON_INGOT);	
-		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":ichigohead"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ichigohead,1), "aaa","a a", 'a', RiderItems.rider_circuit);		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":ichigotroso"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ichigotroso,1), "a a","aaa","aaa", 'a', RiderItems.rider_circuit);		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":ichigolegs"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ichigolegs,1), "aaa","a a","a a", 'a', RiderItems.rider_circuit);		
-		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":typhoon_ichigo"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.typhoon_ichigo,1), "aba","aaa","aaa", 'a', RiderItems.rider_circuit, 'b', RiderItems.typhoon_core);		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":typhoon_nigo"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.typhoon_nigo,1), "aaa","aaa","aba", 'a', RiderItems.rider_circuit, 'b', RiderItems.typhoon_core);		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":double_typhoon"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.double_typhoon,1), "aaa","bab","aaa", 'a', RiderItems.rider_circuit, 'b', RiderItems.typhoon_core);		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":riderman_belt"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.riderman_belt,1), "aaa","aba","aaa", 'a', RiderItems.rider_circuit, 'b', RiderItems.riderman_belt_core);		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":ridol"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ridol,1), "aaa","aba","aaa", 'a', RiderItems.rider_circuit, 'b', RiderItems.ridol_core);		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":condorer"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.condorer,1), "aaa","aba","aaa", 'a', RiderItems.rider_circuit, 'b', RiderItems.condorer_wheel);		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":electrer"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.electrer,1), "aaa","aba","aaa", 'a', RiderItems.rider_circuit, 'b', RiderItems.electrer_core);		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":tornado"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.tornado,1), "aaa","aba","aaa", 'a', RiderItems.rider_circuit, 'b', RiderItems.tornado_core);		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":cyclode"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.cyclode,1), "aaa","aba","aaa", 'a', RiderItems.rider_circuit, 'b', RiderItems.cyclode_core);		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":zx_belt"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.zx_belt,1), "aaa","aba","aaa", 'a', RiderItems.rider_circuit, 'b', RiderItems.zx_belt_core);		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":king_stone"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.king_stone,1), "aaa","aba","aaa", 'a', RiderItems.rider_circuit, 'b', RiderItems.king_stone_core);		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":sunriser"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.sunriser,1), "aaa","aba","aaa", 'a', RiderItems.rider_circuit, 'b', RiderItems.king_stone_split);		
-
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":ridol_stick"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ridol_stick,1), "aca","aba","aaa", 'a', RiderItems.rider_circuit, 'b', RiderItems.base_sword, 'c', RiderItems.ridol_core);		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":revolcane"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.revolcane,1), "aca","aba","aaa", 'a', RiderItems.rider_circuit, 'b', RiderItems.base_sword, 'c', RiderItems.king_stone_split);		
-
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":ryukihead"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ryukihead,1), "aaa","a a", 'a', RiderItems.contract_advent);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":ryukitroso"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ryukitroso,1), "a a","aaa","aaa", 'a', RiderItems.contract_advent);

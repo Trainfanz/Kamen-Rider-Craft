@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XMX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:rider_circuit"
+    },
+    "M": {
+      "item": "kamenridercraft4th:typhoon_core"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:typhoon_nigo"
+  }    
+}
