@@ -2915,3 +2915,23 @@ item.condorer_core_blind_alpha.name=Condorer Core (Blind Alpha)
 
 item.amazon_injector_neo.name=Amazon Injector (Neo)
 item.amazon_injector_new_omega.name=Amazon Injector (New Omega)
+
+itemGroup.tab_kikaider=Android Kikaider
+item.kikaider_circuit.name=Kikaider Circuit
+item.kikaider_head.name=Kikaider Helmet
+item.kikaider_troso.name=Kikaider Chestplate
+item.kikaider_legs.name=Kikaider Leggings
+item.kikaider_core.name=Kikaider Core
+item.kikaider_belt.name=Kikaider Belt
+item.kikaider_01_belt.name=Kikaider 01 Belt
+item.bijinder_belt.name=Bijinder Belt
+item.kikaider_00_belt.name=Kikaider 00 Belt
+item.shadow_01_belt.name=Shadow Kikaider 01 Belt
+item.shadow_bijinder_belt.name=Shadow Bijinder Belt
+item.hakaider_belt.name=Hakaider Belt
+item.gill_hakaider_belt.name=Gill Hakaider Belt
+item.red_hakaider_belt.name=Red Hakaider Belt
+item.silver_hakaider_belt.name=Silver Hakaider Belt
+item.blue_hakaider_belt.name=Blue Hakaider Belt
+
+    

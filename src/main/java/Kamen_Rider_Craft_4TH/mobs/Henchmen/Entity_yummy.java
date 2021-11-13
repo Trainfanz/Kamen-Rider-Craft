@@ -101,7 +101,7 @@ public class Entity_yummy extends Entity_base_henchmen
 	
 			}
 			this.dropItem(RiderItems.cellmedal, 1);
-			switch (this.rand.nextInt(15))
+			switch (this.rand.nextInt(5))
 			{
 			case 0:
 				this.dropItem(RiderItems.taka, 1);

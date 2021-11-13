@@ -616,11 +616,25 @@ public class Tabs {
 			return new ItemStack(RiderItems.monitor);
 		}
 	};
+	
 	public static CreativeTabs tabmisc = new CreativeTabs("tabmisc")
 	{
 		@Override
 		public ItemStack createIcon() {
 			return new ItemStack(RiderItems.icepop1);
+		}
+	};
+	
+	public static CreativeTabs tab_kikaider= new CreativeTabs("tab_kikaider")
+	{
+		 @SideOnly(Side.CLIENT)
+		    public net.minecraft.util.ResourceLocation getBackgroundImage()
+		    {
+		        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_kikaider_items.png");
+		    }
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(kikaiderItems.kikaider_head);
 		}
 	};
 	/**

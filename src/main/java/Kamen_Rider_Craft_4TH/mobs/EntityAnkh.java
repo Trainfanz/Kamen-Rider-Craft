@@ -93,11 +93,11 @@ public class EntityAnkh extends EntityTameable
 	{
 		if (!this.world.isRemote){
 
-			this.dropItem(RiderItems.cellmedal, 5);
+			this.dropItem(RiderItems.cellmedal, 2);
 			switch (this.rand.nextInt(5))
 			{   		   	    		
 			case 0:
-				this.dropItem(RiderItems.taka_ankh, 1);
+				this.dropItem(RiderItems.taka, 1);
 				break;
 			}
 		}
