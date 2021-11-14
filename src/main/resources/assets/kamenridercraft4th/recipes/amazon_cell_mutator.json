@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:amazon_cell_vial"
+    }, "C": {
+      "item": "kamenridercraft4th:rider_circuit"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:amazon_cell_mutator"
+  }
+}

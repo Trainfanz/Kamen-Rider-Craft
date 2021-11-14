@@ -290,9 +290,7 @@ public class RiderItems {
 	public static Item unfinished_gear = new Item_ore("unfinished_gear").setCreativeTab(Tabs.tabbuild);
 	public static Block pandora_box_hellrock_2 = new ore_block("pandora_box_hellrock_2",Material.ROCK, unfinished_gear, 3).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
 
-	public static Item amazon_cell_vial = new Item_ore("amazon_cell_vial").setCreativeTab(Tabs.tabamazons);
-	public static Block amazon_cell_block = new ore_block("amazon_cell_block",Material.ROCK, amazon_cell_vial, 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabamazons);
-
+	
 	//helheim blocks
 	public static Block helheim_crack = new helheim_crack().setLightLevel(1f);
 
@@ -433,6 +431,8 @@ public class RiderItems {
 
 	public static Item condorer = new item_rider_driver("condorer",ArmorMaterial.DIAMOND, 4,"amazon", (Item_form_change) condorer_wheel, amazonhead, amazontroso, amazonlegs).setMaxStackSize(1).setCreativeTab(Tabs.tabamazon);
 
+	public static Item gigi_armlet = new Item_ore("gigi_armlet").setCreativeTab(Tabs.tabamazon);
+	public static Item gaga_armlet = new Item_ore("gaga_armlet").setCreativeTab(Tabs.tabamazon);
 
 	//Stronger
 	public static Item electrer_core = new Item_form_change("electrer_core",item_rider_driver.class,blanknoitem,"","stronger"
@@ -3645,6 +3645,12 @@ public class RiderItems {
 	public static Item vice_belt = new item_revicedriver("vice_belt",ArmorMaterial.DIAMOND, 4, "vice",0).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 
 
+	//Amazons
+	
+	public static Block amazon_cell_extractor = new amazon_cell_extractor("amazon_cell_extractor",Material.ROCK, 2).setCreativeTab(Tabs.tabamazons);
+	public static Block amazon_cell_mutator = new amazon_cell_mutator("amazon_cell_mutator",Material.ROCK, 2).setCreativeTab(Tabs.tabamazons);
+
+	
 	public static Item amazonshead = new item_amazonsarmor("amazonshead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);
 	public static Item amazonstroso = new item_amazonsarmor2("amazonstroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);
 	public static Item amazonslegs = new item_amazonsarmor2("amazonslegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabamazons);
@@ -3664,8 +3670,16 @@ public class RiderItems {
 
 	public static Item amazon_injector_neo = new Item_ore("amazon_injector_neo").setCreativeTab(Tabs.tabamazons);
 	public static Item amazon_injector_new_omega = new Item_ore("amazon_injector_new_omega").setCreativeTab(Tabs.tabamazons);
-
-
+	public static Item amazon_injector_neo_alpha = new Item_ore("amazon_injector_neo_alpha").setCreativeTab(Tabs.tabamazons);
+	
+	public static Item empty_vial = new Item_ore("empty_vial").setCreativeTab(Tabs.tabamazons);
+	public static Item amazon_cell_vial = new Item_ore("amazon_cell_vial").keep_item(empty_vial).setCreativeTab(Tabs.tabamazons);
+	
+	public static Item omega_amazon_cell_vial = new Item_ore("omega_amazon_cell_vial").keep_item(empty_vial).setCreativeTab(Tabs.tabamazons);
+	public static Item alpha_amazon_cell_vial = new Item_ore("alpha_amazon_cell_vial").keep_item(empty_vial).setCreativeTab(Tabs.tabamazons);
+	public static Item sigma_amazon_cell_vial = new Item_ore("sigma_amazon_cell_vial").keep_item(empty_vial).setCreativeTab(Tabs.tabamazons);
+	public static Item neo_amazon_cell_vial = new Item_ore("neo_amazon_cell_vial").keep_item(empty_vial).setCreativeTab(Tabs.tabamazons);
+	
 	//G
 	public static Item goro_wine_bottle = new Item_form_change("goro_wine_bottle",item_rider_driver.class,blanknoitem,"",""
 			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
@@ -3705,8 +3719,6 @@ public class RiderItems {
 			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
 			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
 			).setCreativeTab(Tabs.tabGoRider);
-
-
 
 
 	public static Item akariderhead = new item_rider_armor("akariderhead",item_GoRiderTyphoon.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, RiderItems.akarider_card).setMaxStackSize(1).setCreativeTab(Tabs.tabGoRider);

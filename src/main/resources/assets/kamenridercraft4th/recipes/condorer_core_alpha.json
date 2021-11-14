@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:alpha_amazon_cell_vial"
+    }, 
+    {
+      "item": "kamenridercraft4th:condorer_wheel"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:condorer_core_alpha"
+  }
+}
