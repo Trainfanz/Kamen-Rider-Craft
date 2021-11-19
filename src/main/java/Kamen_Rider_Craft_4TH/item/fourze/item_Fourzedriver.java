@@ -43,10 +43,14 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class item_Fourzedriver extends ItemArmor implements IHasModel
 {
-	public static final String[] CircleModuleName= new String[] {"blank","rocket","magic_hand","elek","chain_array","flash","fire","schop","n_magnet","claw","cosmic","meteor","nadeshikorocket","rocketdrill","arm_launcher"};
-	public static final String[] CrossModuleName= new String[] {"blank","launcher","chainsaw","beat","smoke","stealth","pen","hand","freeze","giantfoot","net","nadeshikoboard","launcher"};
-	public static final String[] TriangleModuleName= new String[] {"blank","drill","hopping","spike","gatling","water","wheel","screw","board","aero","stamper","nadeshikoboard","launcher"};
-	public static final String[] SquareModuleName= new String[] {"blank","radar","camera","parachute","scissors","winch","shield","hammer","medical","s_magnet","gyro","rocket","nadeshikorocket","arm_launcher"};
+	public static final String[] CircleModuleName= new String[] {"blank","rocket","magic_hand","elek","chain_array","flash","fire","schop","n_magnet","claw","cosmic","meteor","nadeshikorocket","rocketdrill","arm_launcher"
+			,"riderman","stronger","ryuki","den_o",""};
+	public static final String[] CrossModuleName= new String[] {"blank","launcher","chainsaw","beat","smoke","stealth","pen","hand","freeze","giantfoot","net","nadeshikoboard","launcher"
+			,"rider_1","x","kuuga","faiz","blade",""};
+	public static final String[] TriangleModuleName= new String[] {"blank","drill","hopping","spike","gatling","water","wheel","screw","board","aero","stamper","nadeshikoboard","launcher"
+			,"v3","agito","kabuto","kiva","decade",""};
+	public static final String[] SquareModuleName= new String[] {"blank","radar","camera","parachute","scissors","winch","shield","hammer","medical","s_magnet","gyro","rocket","nadeshikorocket","arm_launcher"
+			,"rider_2","amazon","hibiki","double","ooo",""};
 
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
 	public String armorNamePrefix;

@@ -242,12 +242,6 @@ public class RiderItems {
 	public static Item t2gaiamemory = new Item_ore("t2gaiamemory").setCreativeTab(Tabs.tabW);
 	public static Block gaiamemoryhellrock = new ore_block("gaiamemoryhellrock",Material.ROCK, t2gaiamemory, 3).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabW);
 
-	public static Item astroswitch = new Item_ore("astroswitch").setCreativeTab(Tabs.tabFourze);
-	public static Block astroswitchblock = new ore_block("astroswitchblock",Material.ROCK, astroswitch, 2).setHardness(9.9F).setCreativeTab(Tabs.tabFourze);
-
-	public static Item gate_switch = new Item_ore("gate_switch").setCreativeTab(Tabs.tabFourze);
-	public static Block swichhellrock = new ore_block("swichhellrock",Material.ROCK, gate_switch, 3).setHardness(9.9F).setCreativeTab(Tabs.tabFourze);
-
 	public static Item wizardgem = new Item_ore("wizardgem").setCreativeTab(Tabs.tabwizard);
 	public static Block wizardgemblock = new ore_block("wizardgemblock",Material.ROCK, wizardgem, 2).setHardness(9.9F).setCreativeTab(Tabs.tabwizard);
 
@@ -1802,6 +1796,9 @@ public class RiderItems {
 	public static Item ride_vendor = new item_bikes("ride_vendor",EntityRidevendor::new).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 	
 	//Fourze
+	
+	public static Item astroswitch = new Item_ore("astroswitch").setCreativeTab(Tabs.tabFourze);
+
 	public static Item billytherod = new ItemBaseSword("billytherod",ToolMaterial.DIAMOND, RiderItems.astroswitch).setMaxStackSize(1).setCreativeTab(Tabs.tabFourze);
 	public static Item hee_hackgun = new Item_fireball_gun("hee_hackgun", ToolMaterial.DIAMOND, RiderItems.astroswitch).setMaxStackSize(1).setCreativeTab(Tabs.tabFourze);
 	public static Item barizun_sword = new ItemChargeSword("barizun_sword",ToolMaterial.DIAMOND, RiderItems.astroswitch).setMaxStackSize(1).setCreativeTab(Tabs.tabFourze);
@@ -1878,8 +1875,29 @@ public class RiderItems {
 
 	public static Item solu_switch = new Item_ore("solu_switch").setCreativeTab(Tabs.tabFourze);
 	public static Item core_switch = new Item_ore("core_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item gate_switch = new Item_ore("gate_switch").setCreativeTab(Tabs.tabFourze);
 
 
+	public static Item rider1_switch = new Item_astroswitch(0,"0","cross",13,"1_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item rider2_switch = new Item_astroswitch(0, "0","square",14,"2_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item v3_switch = new Item_astroswitch(0, "0","triangle",13,"v3_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item riderman_swich = new Item_astroswitch(0, "0","circle",15,"riderman_swich").setCreativeTab(Tabs.tabFourze);
+	public static Item x_switch = new Item_astroswitch(0,"0","cross",14,"x_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item amazon_switch = new Item_astroswitch(0, "0","square",15,"amazon_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item stronger_switch = new Item_astroswitch(0, "0","circle",16,"stronger_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item kuuga_switch = new Item_astroswitch(0,"0","cross",15,"kuuga_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item agito_switch = new Item_astroswitch(0, "0","triangle",14,"agito_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item ryuki_switch = new Item_astroswitch(0, "0","circle",17,"ryuki_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item faiz_switch = new Item_astroswitch(0,"0","cross",16,"faiz_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item blade_switch = new Item_astroswitch(0,"0","cross",17,"blade_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item hibiki_switch = new Item_astroswitch(0, "0","square",16,"hibiki_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item kabuto_switch = new Item_astroswitch(0, "0","triangle",15,"kabuto_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item den_o_switch = new Item_astroswitch(0, "0","circle",18,"den_o_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item kiva_switch = new Item_astroswitch(0, "0","triangle",16,"kiva_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item decade_switch = new Item_astroswitch(0, "0","triangle",17,"decade_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item double_switch = new Item_astroswitch(0, "0","square",17,"double_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item ooo_switch = new Item_astroswitch(0, "0","square",18,"ooo_switch").setCreativeTab(Tabs.tabFourze);
+	
 	// Wizard
 	public static Item wizarswordgun = new Item_sword_gun("wizarswordgun",Tabs.wizarswordgun, RiderItems.wizardgem).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	public static Item axcalibur = new ItemChargeSword("axcalibur",Tabs.axcalibur, RiderItems.wizardgem).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
@@ -1952,7 +1970,6 @@ public class RiderItems {
 	public static Item eclipse_ring = new Item_wizard_rings_efts(12 , "0","eclipse_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	public static Item liquid_ring = new Item_wizard_rings_efts(13 , "0","liquid_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	public static Item drill_ring = new Item_wizard_rings_efts(14 , "0","drill_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-
 
 
 	public static Item engage_ring = new Item_ore("engage_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);

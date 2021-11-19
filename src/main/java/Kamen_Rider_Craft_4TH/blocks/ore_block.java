@@ -221,68 +221,6 @@ public class ore_block extends Block implements IHasModel {
 			return CRYSTAL;
 		}
 
-		if (CRYSTAL == RiderItems.astroswitch){
-			int rand = generator.nextInt(500);
-
-			if (rand < 30) return RiderItems.rocket_swich;
-			if (rand < 40) return RiderItems.elek_swich;
-			if (rand < 50) return RiderItems.fire_swich;
-			if (rand < 55) return RiderItems.magnet_swich_n;
-			if (rand < 60) return RiderItems.magnet_swich_s;
-			if (rand < 65) return RiderItems.cosmic_swich;
-			if (rand < 75) return RiderItems.drill_switch;
-			if (rand < 85) return RiderItems.launcher_switch;
-			if (rand < 95) return RiderItems.radar_switch;
-			if (rand < 105) return RiderItems.magic_hand_switch;
-			if (rand < 115) return RiderItems.camera_switch;
-			if (rand < 125) return RiderItems.parachute_switch;
-			if (rand < 135) return RiderItems.chainsaw_switch;
-			if (rand < 145) return RiderItems.hopping_switch;
-			if (rand < 150) return RiderItems.scissors_switch;
-			if (rand < 155) return RiderItems.beat_switch;
-			if (rand < 160) return RiderItems.chain_array_switch;
-			if (rand < 165) return RiderItems.smoke_switch;
-			if (rand < 170) return RiderItems.spike_switch;
-			if (rand < 175) return RiderItems.winch_switch;
-			if (rand < 180) return RiderItems.flash_switch;
-			if (rand < 185) return RiderItems.shield_switch;
-			if (rand < 190) return RiderItems.gatling_switch;
-			if (rand < 193) return RiderItems.stealth_switch;
-			if (rand < 196) return RiderItems.hammer_switch;
-			if (rand < 199) return RiderItems.water_switch;
-			if (rand < 202) return RiderItems.medical_switch;
-			if (rand < 205) return RiderItems.pen_switch;
-			if (rand < 208) return RiderItems.wheel_switch;
-			if (rand < 211) return RiderItems.screw_switch;
-			if (rand < 214) return RiderItems.hand_switch;
-			if (rand < 217) return RiderItems.schop_switch;
-			if (rand < 220) return RiderItems.freeze_switch;
-			if (rand < 222) return RiderItems.claw_switch;
-			if (rand < 224) return RiderItems.board_switch;
-			if (rand < 226) return RiderItems.giantfoot_switch;
-			if (rand < 228) return RiderItems.aero_switch;
-			if (rand < 230) return RiderItems.gyro_switch;
-			if (rand < 232) return RiderItems.net_switch;
-			if (rand < 234) return RiderItems.stamper_switch;
-			if (rand < 260) return RiderItems.rocket_swich;
-			return CRYSTAL;
-		}
-
-		if (CRYSTAL == RiderItems.gate_switch){
-			int rand = generator.nextInt(140);
-
-			if (rand < 30) return RiderItems.meteor_swich;
-			if (rand < 35) return RiderItems.clear_drill_swich;
-			if (rand < 40) return RiderItems.nadeshiko_switch;
-			if (rand < 43) return RiderItems.super_rocket_swich;
-			if (rand < 46) return RiderItems.super_drill_swich;
-			if (rand < 48) return RiderItems.meteor_storm_swich;
-			if (rand < 50) return RiderItems.solu_switch;
-			if (rand < 52) return RiderItems.fusion_swich;
-			if (rand < 53) return RiderItems.core_switch;
-			return CRYSTAL;
-		}
-
 		if (CRYSTAL == RiderItems.proto_speedshift){
 			int rand = generator.nextInt(300);
 
@@ -439,22 +377,6 @@ public class ore_block extends Block implements IHasModel {
 			if (rand < 125) return RiderItems.royalty_gamma_icon;
 			return CRYSTAL;
 		}
-
-	
-
-
-		if (CRYSTAL == RiderItems.amazon_cell_vial){
-			int rand = generator.nextInt(120);
-
-			if (rand < 34) return RiderItems.condorer_core_alpha;
-			if (rand < 38) return RiderItems.condorer_core_omega;
-			if (rand < 40) return RiderItems.condorer_core_sigma;
-			if (rand < 42) return RiderItems.amazon_injector_neo;
-			if (rand < 44) return RiderItems.amazon_injector_new_omega;
-			if (rand < 45) return RiderItems.condorer_core_blind_alpha;
-			return CRYSTAL;
-		}
-
 		return CRYSTAL;
 
 	}
