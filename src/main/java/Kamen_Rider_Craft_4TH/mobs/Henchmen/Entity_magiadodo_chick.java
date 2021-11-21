@@ -4,7 +4,7 @@ package Kamen_Rider_Craft_4TH.mobs.Henchmen;
 import java.util.Calendar;
 import java.util.UUID;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityBossBase;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Para_dx;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Red_Poppy;
@@ -84,21 +84,21 @@ public class Entity_magiadodo_chick extends Entity_base_henchmen
 				}
 			}
 		}
-		this.dropItem(RiderItems.blank_progrise_key,3);
-		this.dropItem(RiderItems.hiden_metal, 2);
+		this.dropItem(ReiwaRiderItems.blank_progrise_key,3);
+		this.dropItem(ReiwaRiderItems.hiden_metal, 2);
 		switch (this.rand.nextInt(15))
 		{
 		case 0:
-			this.dropItem(RiderItems.punching_kong_progrise_key, 1);
+			this.dropItem(ReiwaRiderItems.punching_kong_progrise_key, 1);
 			break;
 		case 1:
-			this.dropItem(RiderItems.lightning_hornet_progrise_key, 1);
+			this.dropItem(ReiwaRiderItems.lightning_hornet_progrise_key, 1);
 			break;
 		case 2:
-			this.dropItem(RiderItems.rocking_hopper_zetsumerisekey, 1);
+			this.dropItem(ReiwaRiderItems.rocking_hopper_zetsumerisekey, 1);
 			break;
 		case 3:
-			this.dropItem(RiderItems.humagear_progrise_key, 1); 
+			this.dropItem(ReiwaRiderItems.humagear_progrise_key, 1); 
 			break;
 		}
 

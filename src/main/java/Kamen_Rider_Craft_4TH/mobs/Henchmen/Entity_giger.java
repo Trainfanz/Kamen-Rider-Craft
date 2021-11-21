@@ -4,7 +4,7 @@ package Kamen_Rider_Craft_4TH.mobs.Henchmen;
 import java.util.Calendar;
 import java.util.UUID;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import net.minecraft.block.Block;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
@@ -63,14 +63,14 @@ public class Entity_giger extends Entity_base_henchmen
 	{
 		if (!this.world.isRemote){
 
-			this.dropItem(RiderItems.blank_progrise_key, 2);
+			this.dropItem(ReiwaRiderItems.blank_progrise_key, 2);
 			switch (this.rand.nextInt(25))
 			{
 			case 0:
-				this.dropItem(RiderItems.breaking_mammoth_progrise_key, 1);
+				this.dropItem(ReiwaRiderItems.breaking_mammoth_progrise_key, 1);
 				break;
 			case 1:
-				this.dropItem(RiderItems.mammothmagia_zetsumerisekey, 1);
+				this.dropItem(ReiwaRiderItems.mammothmagia_zetsumerisekey, 1);
 				break;
 			}
 		}

@@ -1,6 +1,6 @@
 package Kamen_Rider_Craft_4TH.blocks;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -39,7 +39,7 @@ public class zaia_3d_printing extends machine_block  {
 
 	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
 		if (!worldIn.isRemote) {
-			if (player.getHeldItem(hand).getItem() == RiderItems.blank_progrise_key) process(player, worldIn, pos, hand, getProgriseKeyDrop());
+			if (player.getHeldItem(hand).getItem() == ReiwaRiderItems.blank_progrise_key) process(player, worldIn, pos, hand, getProgriseKeyDrop());
 			return true;
 		}
 

@@ -4,7 +4,7 @@ package Kamen_Rider_Craft_4TH.mobs.bikes;
 import java.util.Calendar;
 import java.util.UUID;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import net.minecraft.block.Block;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLiving;
@@ -61,7 +61,7 @@ public class EntityDiagoSpeedy extends EntityBikeBase
     {
 if (!this.world.isRemote){
 
-	this.dropItem(RiderItems.diago_speedy_wonder_ride_book, 1);
+	this.dropItem(ReiwaRiderItems.diago_speedy_wonder_ride_book, 1);
 
         
     }

@@ -2,7 +2,7 @@ package Kamen_Rider_Craft_4TH.item.saber;
 
 import javax.annotation.Nullable;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ryuki.item_ryukiarmor2;
 import Kamen_Rider_Craft_4TH.model.tokuArmorModel;
@@ -131,7 +131,7 @@ public class item_saberarmor_head extends ItemArmor  implements IHasModel
 	
 	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
 	{
-		return RiderItems.blank_wonder_ride_book == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+		return ReiwaRiderItems.blank_wonder_ride_book == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 
 }

@@ -11,7 +11,7 @@ import java.util.UUID;
 import com.google.common.base.Predicates;
 import com.google.common.collect.Sets;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -94,12 +94,12 @@ public class Entity_legeiel extends EntityBossBase
 		if (!this.world.isRemote){
 
 
-			this.dropItem(RiderItems.blank_wonder_world_story_wonder_ride_book, 1);
-			this.dropItem(RiderItems.blank_wonder_ride_book, 10);
+			this.dropItem(ReiwaRiderItems.blank_wonder_world_story_wonder_ride_book, 1);
+			this.dropItem(ReiwaRiderItems.blank_wonder_ride_book, 10);
 
 			if (this.getAttackTarget()instanceof EntityPlayer){
 				EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
-				if (playerIn.inventory.hasItemStack(new ItemStack(RiderItems.primitive_dragon_wonder_ride_book))){
+				if (playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.primitive_dragon_wonder_ride_book))){
 
 					EntityBossBase entityboss  = new  Entity_legeiel_forbidden(world);
 					entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);

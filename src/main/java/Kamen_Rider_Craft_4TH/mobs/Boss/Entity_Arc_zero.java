@@ -12,7 +12,7 @@ import javax.annotation.Nullable;
 
 import com.google.common.collect.Sets;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onedriver;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
 import net.minecraft.block.Block;
@@ -94,10 +94,10 @@ public class Entity_Arc_zero extends EntityBossBase
 	public Entity_Arc_zero(World par1World)
 	{
 		super(par1World);
-		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.zero_onetroso));
-		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.zero_onehead));
-		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(RiderItems.ark_driver_zero));
-		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.zero_onelegs));
+		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(ReiwaRiderItems.zero_onetroso));
+		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(ReiwaRiderItems.zero_onehead));
+		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(ReiwaRiderItems.ark_driver_zero));
+		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(ReiwaRiderItems.zero_onelegs));
 
 
 	}
@@ -128,7 +128,7 @@ public class Entity_Arc_zero extends EntityBossBase
 	public void onEntityUpdate(){
 		super.onEntityUpdate();
 
-		if (this.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.ark_driver_zero){
+		if (this.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==ReiwaRiderItems.ark_driver_zero){
 			if (this.getHealth()<100&item_zero_onedriver.get_core(this.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")!=6) {
 				if (this.getAttackTarget()instanceof EntityPlayer){
 					EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
@@ -148,17 +148,17 @@ public class Entity_Arc_zero extends EntityBossBase
 			switch (this.rand.nextInt(200))
 			{
 			case 0:
-				this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.attache_shotgun));
+				this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(ReiwaRiderItems.attache_shotgun));
 				break;
 			case 1:
-				this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.shot_riser_gun));
+				this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(ReiwaRiderItems.shot_riser_gun));
 				break;
 			case 2:
-				this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.thousand_jacker));
+				this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(ReiwaRiderItems.thousand_jacker));
 				break;
 
 			case 3|4|5|6|7:
-				this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.attache_arrow));
+				this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(ReiwaRiderItems.attache_arrow));
 				break;
 			}
 		}
@@ -179,12 +179,12 @@ public class Entity_Arc_zero extends EntityBossBase
 	{
 		if (!this.world.isRemote){
 
-			this.dropItem(RiderItems.ark_driver_zero, 1);
-			this.dropItem(RiderItems.ark_one_progrise_key, 1);
-			this.dropItem(RiderItems.blank_progrise_key, 10);
-			this.dropItem(RiderItems.hiden_metal, 20);
-			this.dropItem(RiderItems.ark_scorpion_progrise_key, 1);
-			this.dropItem(RiderItems.ark_zero_one_progrise_key, 1);
+			this.dropItem(ReiwaRiderItems.ark_driver_zero, 1);
+			this.dropItem(ReiwaRiderItems.ark_one_progrise_key, 1);
+			this.dropItem(ReiwaRiderItems.blank_progrise_key, 10);
+			this.dropItem(ReiwaRiderItems.hiden_metal, 20);
+			this.dropItem(ReiwaRiderItems.ark_scorpion_progrise_key, 1);
+			this.dropItem(ReiwaRiderItems.ark_zero_one_progrise_key, 1);
 		}
 
 	}
@@ -243,7 +243,7 @@ public class Entity_Arc_zero extends EntityBossBase
 				this.blaze.getMoveHelper().setMoveTo(entitylivingbase.posX, entitylivingbase.posY, entitylivingbase.posZ, 1.0D);
 			}
 			
-			else if (itemstack.getItem() == RiderItems.attache_arrow||itemstack.getItem() == RiderItems.attache_shotgun||itemstack.getItem() == RiderItems.shot_riser_gun)
+			else if (itemstack.getItem() == ReiwaRiderItems.attache_arrow||itemstack.getItem() == ReiwaRiderItems.attache_shotgun||itemstack.getItem() == ReiwaRiderItems.shot_riser_gun)
 			{ if (d0 < this.getFollowDistance() * this.getFollowDistance()) 
 			{
 				double d1 = entitylivingbase.posX - this.blaze.posX;

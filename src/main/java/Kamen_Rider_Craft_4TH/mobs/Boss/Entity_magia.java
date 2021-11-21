@@ -13,7 +13,7 @@ import javax.annotation.Nullable;
 
 import com.google.common.collect.Sets;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -67,20 +67,20 @@ public class Entity_magia extends EntityBossBase
 //implements IBossDisplayData
 {
     
-	public static final Item[] belt = new Item[] {RiderItems.zetsumeriser_berothra,RiderItems.zetsumeriser_kuehne,RiderItems.zetsumeriser_ekal,
-			RiderItems.zetsumeriser_neohi,RiderItems.zetsumeriser_onycho,RiderItems.zetsumeriser_vicarya,
-			RiderItems.zetsumeriser_gaeru,RiderItems.zetsumeriser_mammoth,RiderItems.zetsumeriser_arsino};
+	public static final Item[] belt = new Item[] {ReiwaRiderItems.zetsumeriser_berothra,ReiwaRiderItems.zetsumeriser_kuehne,ReiwaRiderItems.zetsumeriser_ekal,
+			ReiwaRiderItems.zetsumeriser_neohi,ReiwaRiderItems.zetsumeriser_onycho,ReiwaRiderItems.zetsumeriser_vicarya,
+			ReiwaRiderItems.zetsumeriser_gaeru,ReiwaRiderItems.zetsumeriser_mammoth,ReiwaRiderItems.zetsumeriser_arsino};
 	
 	private String texture;
 	public Entity_magia(World par1World)
 	{
 		super(par1World);
-		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.zero_onetroso));
-		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.zero_onehead));
+		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(ReiwaRiderItems.zero_onetroso));
+		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(ReiwaRiderItems.zero_onehead));
 		Random generator = new Random();
 		int rand = generator.nextInt(belt.length);
 		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(belt[rand]));
-		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.zero_onelegs));
+		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(ReiwaRiderItems.zero_onelegs));
 	}
   
     protected void applyEntityAttributes()
@@ -107,8 +107,8 @@ public class Entity_magia extends EntityBossBase
     {
 if (!this.world.isRemote){
 
-   		this.dropItem(RiderItems.humagear_progrise_key, 1);
-   		this.dropItem(RiderItems.hiden_metal, 4);
+   		this.dropItem(ReiwaRiderItems.humagear_progrise_key, 1);
+   		this.dropItem(ReiwaRiderItems.hiden_metal, 4);
 
    		switch (this.rand.nextInt(5))
 		{
@@ -120,31 +120,31 @@ if (!this.world.isRemote){
    		switch (this.rand.nextInt(25))
 		{
 		case 0:
-			this.dropItem(RiderItems.berothamagia_zetsumerisekey, 1);
+			this.dropItem(ReiwaRiderItems.berothamagia_zetsumerisekey, 1);
 			break;
 		case 1:
-			this.dropItem(RiderItems.kuehnemagia_zetsumerisekey, 1);
+			this.dropItem(ReiwaRiderItems.kuehnemagia_zetsumerisekey, 1);
 			break;
 		case 2:
-			this.dropItem(RiderItems.ekalmagia_zetsumerisekey, 1);
+			this.dropItem(ReiwaRiderItems.ekalmagia_zetsumerisekey, 1);
 			break;
 		case 3:
-			this.dropItem(RiderItems.neohimagia_zetsumerisekey, 1); 
+			this.dropItem(ReiwaRiderItems.neohimagia_zetsumerisekey, 1); 
 			break;
 		case 4:
-			this.dropItem(RiderItems.onychomagia_zetsumerisekey, 1);
+			this.dropItem(ReiwaRiderItems.onychomagia_zetsumerisekey, 1);
 			break;
 		case 5:
-			this.dropItem(RiderItems.vicaryamagia_zetsumerisekey, 1);
+			this.dropItem(ReiwaRiderItems.vicaryamagia_zetsumerisekey, 1);
 			break;
 		case 6:
-			this.dropItem(RiderItems.gaerumagia_zetsumerisekey, 1); 
+			this.dropItem(ReiwaRiderItems.gaerumagia_zetsumerisekey, 1); 
 			break;
 		case 7:
-			this.dropItem(RiderItems.mammothmagia_zetsumerisekey, 1);
+			this.dropItem(ReiwaRiderItems.mammothmagia_zetsumerisekey, 1);
 			break;
 		case 8:
-			this.dropItem(RiderItems.arsinomagia_zetsumerisekey, 1);
+			this.dropItem(ReiwaRiderItems.arsinomagia_zetsumerisekey, 1);
 			break;
 		}
    		

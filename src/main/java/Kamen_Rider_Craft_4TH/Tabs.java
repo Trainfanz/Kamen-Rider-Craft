@@ -558,7 +558,7 @@ public class Tabs {
 	    }
 		@Override
 		public ItemStack createIcon() {
-			return new ItemStack(RiderItems.zero_onehead);
+			return new ItemStack(ReiwaRiderItems.zero_onehead);
 		}
 	};
 	public static CreativeTabs tabsaber = new CreativeTabs("tabsaber")
@@ -570,7 +570,7 @@ public class Tabs {
 		    }
 		@Override
 		public ItemStack createIcon() {
-			return new ItemStack(RiderItems.saberhead);
+			return new ItemStack(ReiwaRiderItems.saberhead);
 		}
 	};
 	public static CreativeTabs tabrevice = new CreativeTabs("tabrevice")
@@ -582,7 +582,7 @@ public class Tabs {
 	    }
 		@Override
 		public ItemStack createIcon() {
-			return new ItemStack(RiderItems.revicehead);
+			return new ItemStack(ReiwaRiderItems.revicehead);
 		}
 	};
 	public static CreativeTabs tabamazons = new CreativeTabs("tabamazons")
@@ -613,7 +613,7 @@ public class Tabs {
 	{
 		@Override
 		public ItemStack createIcon() {
-			return new ItemStack(RiderItems.monitor);
+			return new ItemStack(RiderBlocks.monitor);
 		}
 	};
 	

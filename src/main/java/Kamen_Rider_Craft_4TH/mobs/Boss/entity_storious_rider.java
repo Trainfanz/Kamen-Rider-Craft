@@ -12,7 +12,7 @@
 
 	import com.google.common.collect.Sets;
 
-	import Kamen_Rider_Craft_4TH.RiderItems;
+	import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 	import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onedriver;
 	import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
 	import net.minecraft.block.Block;
@@ -95,11 +95,11 @@ import net.minecraft.init.SoundEvents;
 		public entity_storious_rider(World par1World)
 		{
 			super(par1World);
-			this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.storious_sword));
-			this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.sabertroso));
-			this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.saberhead));
-			this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(RiderItems.storious_driver));
-			this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.saberlegs));
+			this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(ReiwaRiderItems.storious_sword));
+			this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(ReiwaRiderItems.sabertroso));
+			this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(ReiwaRiderItems.saberhead));
+			this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(ReiwaRiderItems.storious_driver));
+			this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(ReiwaRiderItems.saberlegs));
 
 
 		}
@@ -141,11 +141,11 @@ import net.minecraft.init.SoundEvents;
 		{
 			if (!this.world.isRemote){
 
-				this.dropItem(RiderItems.storious_driver, 1);
-				this.dropItem(RiderItems.storious_sword, 1);
-				this.dropItem(RiderItems.grimoire_wonderride_book, 1);
-				this.dropItem(RiderItems.blank_wonder_world_story_wonder_ride_book, 5);
-				this.dropItem(RiderItems.blank_wonder_ride_book, 20);
+				this.dropItem(ReiwaRiderItems.storious_driver, 1);
+				this.dropItem(ReiwaRiderItems.storious_sword, 1);
+				this.dropItem(ReiwaRiderItems.grimoire_wonderride_book, 1);
+				this.dropItem(ReiwaRiderItems.blank_wonder_world_story_wonder_ride_book, 5);
+				this.dropItem(ReiwaRiderItems.blank_wonder_ride_book, 20);
 			}
 
 		}
@@ -154,13 +154,13 @@ import net.minecraft.init.SoundEvents;
 			if (this.getAttackTarget()instanceof EntityPlayer){
 				EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
 				
-				if (!playerIn.inventory.hasItemStack(new ItemStack(RiderItems.wonder_almighty_wonder_ride_book))) {
+				if (!playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.wonder_almighty_wonder_ride_book))) {
 					   this.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
 				}
 				if (this.getHealth()<180) {
 				
-					if (!playerIn.inventory.hasItemStack(new ItemStack(RiderItems.wonder_almighty_wonder_ride_book))) {
-							playerIn.inventory.addItemStackToInventory(new ItemStack(RiderItems.wonder_almighty_wonder_ride_book));
+					if (!playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.wonder_almighty_wonder_ride_book))) {
+							playerIn.inventory.addItemStackToInventory(new ItemStack(ReiwaRiderItems.wonder_almighty_wonder_ride_book));
 							playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Wonder Almighty!"));
 						}
 						this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.3);
@@ -223,7 +223,7 @@ import net.minecraft.init.SoundEvents;
 					this.blaze.getMoveHelper().setMoveTo(entitylivingbase.posX, entitylivingbase.posY, entitylivingbase.posZ, 1.0D);
 				}
 				
-				else if (itemstack.getItem() == RiderItems.storious_sword)
+				else if (itemstack.getItem() == ReiwaRiderItems.storious_sword)
 				{ if (d0 < this.getFollowDistance() * this.getFollowDistance()) 
 				{
 					double d1 = entitylivingbase.posX - this.blaze.posX;

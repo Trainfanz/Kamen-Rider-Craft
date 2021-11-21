@@ -4,7 +4,7 @@ package Kamen_Rider_Craft_4TH.mobs.Henchmen;
 import java.util.Calendar;
 import java.util.UUID;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityBossBase;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Calibur;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Falchion;
@@ -65,7 +65,7 @@ public class EntityShimi extends Entity_base_henchmen
 	@Override
 	public ItemStack getHeldItemMainhand()
 	{
-		return new ItemStack(RiderItems.shimi_lot);
+		return new ItemStack(ReiwaRiderItems.shimi_lot);
 	}
 
 	public void onDeath(DamageSource cause)
@@ -113,23 +113,23 @@ public class EntityShimi extends Entity_base_henchmen
 			}
 			}
 			
-			this.dropItem(RiderItems.blank_wonder_ride_book, 1);
+			this.dropItem(ReiwaRiderItems.blank_wonder_ride_book, 1);
 			switch (this.rand.nextInt(20))
 			{
 			case 0:
-				this.dropItem(RiderItems.brave_dragon_wonderride_book, 1);
+				this.dropItem(ReiwaRiderItems.brave_dragon_wonderride_book, 1);
 				break;
 			case 1:
-				this.dropItem(RiderItems.lion_senki_wonderride_book, 1);
+				this.dropItem(ReiwaRiderItems.lion_senki_wonderride_book, 1);
 				break;
 			case 2:
-				this.dropItem(RiderItems.lamp_do_alngina_wonderride_book, 1);
+				this.dropItem(ReiwaRiderItems.lamp_do_alngina_wonderride_book, 1);
 				break;
 			case 3:
-				this.dropItem(RiderItems.jackun_to_domamenoki_wonderride_book, 1); 
+				this.dropItem(ReiwaRiderItems.jackun_to_domamenoki_wonderride_book, 1); 
 				break;
 			case 4:
-				this.dropItem(RiderItems.book_gate_wonder_ride_book, 1); 
+				this.dropItem(ReiwaRiderItems.book_gate_wonder_ride_book, 1); 
 				break;
 			}
 			

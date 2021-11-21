@@ -5,7 +5,7 @@ import java.util.Calendar;
 import java.util.Random;
 import java.util.UUID;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityBossBase;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_EngineBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Kaiser;
@@ -58,28 +58,28 @@ import net.minecraft.world.World;
 
 public class entity_abaddon_low extends Entity_base_henchmen
 {
-	public static final Item[] belt = new Item[] {RiderItems.shot_abaddo_riser,RiderItems.slash_abaddo_riser};
+	public static final Item[] belt = new Item[] {ReiwaRiderItems.shot_abaddo_riser,ReiwaRiderItems.slash_abaddo_riser};
 	
 	public entity_abaddon_low(World par1World)
 	{
 		super(par1World);
 		
-		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.zero_onetroso));
-		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.zero_onehead));
+		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(ReiwaRiderItems.zero_onetroso));
+		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(ReiwaRiderItems.zero_onehead));
 		
 		Random generator = new Random();
 		int rand = generator.nextInt(belt.length);
 		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(belt[rand]));
 		
-		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.zero_onelegs));
+		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(ReiwaRiderItems.zero_onelegs));
 		
-		if (this.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.shot_abaddo_riser)
+		if (this.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==ReiwaRiderItems.shot_abaddo_riser)
 		{
-			this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.shot_abaddo_gun));
+			this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(ReiwaRiderItems.shot_abaddo_gun));
 		}
-		if (this.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.slash_abaddo_riser)
+		if (this.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==ReiwaRiderItems.slash_abaddo_riser)
 		{
-			this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.slash_abaddo_sword));
+			this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(ReiwaRiderItems.slash_abaddo_sword));
 		}
 	}
 
@@ -101,8 +101,8 @@ public class entity_abaddon_low extends Entity_base_henchmen
 	{
 		if (!this.world.isRemote)
 		{
-			this.dropItem(RiderItems.blank_progrise_key, 1);
-			this.dropItem(RiderItems.hiden_metal, 2);
+			this.dropItem(ReiwaRiderItems.blank_progrise_key, 1);
+			this.dropItem(ReiwaRiderItems.hiden_metal, 2);
 
 			if (this.getAttackTarget()instanceof EntityPlayer)
 			{

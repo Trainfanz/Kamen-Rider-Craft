@@ -1,6 +1,6 @@
 package Kamen_Rider_Craft_4TH.blocks;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -39,10 +39,10 @@ public class sword_of_logos_book_analyzer extends machine_block  {
 	private Item get_wonder_world_storyDrop() {
 		Random generator = new Random();
 			int rand = generator.nextInt(11);
-			 Item[] wonder_world_story_wonder_ride_books = new Item[] {RiderItems.wonder_world_story_of_ankokuken_kurayami_wonderride_book,RiderItems.wonder_world_story_of_dogouken_gekido_wonderride_book
-					,RiderItems.wonder_world_story_of_eneiken_noroshi_wonderride_book,RiderItems.wonder_world_story_of_fuusouken_hayate_wonderride_book,RiderItems.wonder_world_story_of_kaenken_rekka_wonderride_book
-					,RiderItems.wonder_world_story_of_kougouken_saikou_wonderride_book,RiderItems.wonder_world_story_of_mumeiken_kyomu_wonderride_book,RiderItems.wonder_world_story_of_onjuuken_suzune_wonderride_book
-					,RiderItems.wonder_world_story_of_raimeiken_ikazuchi_wonderride_book,RiderItems.wonder_world_story_of_suiseiken_nagare_wonderride_book,RiderItems.wonder_world_story_of_jikokuken_kaiji_wonderride_book};
+			 Item[] wonder_world_story_wonder_ride_books = new Item[] {ReiwaRiderItems.wonder_world_story_of_ankokuken_kurayami_wonderride_book,ReiwaRiderItems.wonder_world_story_of_dogouken_gekido_wonderride_book
+					,ReiwaRiderItems.wonder_world_story_of_eneiken_noroshi_wonderride_book,ReiwaRiderItems.wonder_world_story_of_fuusouken_hayate_wonderride_book,ReiwaRiderItems.wonder_world_story_of_kaenken_rekka_wonderride_book
+					,ReiwaRiderItems.wonder_world_story_of_kougouken_saikou_wonderride_book,ReiwaRiderItems.wonder_world_story_of_mumeiken_kyomu_wonderride_book,ReiwaRiderItems.wonder_world_story_of_onjuuken_suzune_wonderride_book
+					,ReiwaRiderItems.wonder_world_story_of_raimeiken_ikazuchi_wonderride_book,ReiwaRiderItems.wonder_world_story_of_suiseiken_nagare_wonderride_book,ReiwaRiderItems.wonder_world_story_of_jikokuken_kaiji_wonderride_book};
 
 			return wonder_world_story_wonder_ride_books[rand];
 		
@@ -50,9 +50,9 @@ public class sword_of_logos_book_analyzer extends machine_block  {
 
 	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
 		if (!worldIn.isRemote) {
-			if (player.getHeldItem(hand).getItem() == RiderItems.blank_wonder_ride_book) process(player, worldIn, pos, hand, getProgriseKeyDrop());
+			if (player.getHeldItem(hand).getItem() == ReiwaRiderItems.blank_wonder_ride_book) process(player, worldIn, pos, hand, getProgriseKeyDrop());
 			
-			else if (player.getHeldItem(hand).getItem() == RiderItems.blank_wonder_world_story_wonder_ride_book) process(player, worldIn, pos, hand, get_wonder_world_storyDrop());
+			else if (player.getHeldItem(hand).getItem() == ReiwaRiderItems.blank_wonder_world_story_wonder_ride_book) process(player, worldIn, pos, hand, get_wonder_world_storyDrop());
 			
 			return true;
 		}

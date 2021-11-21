@@ -12,7 +12,7 @@ import javax.annotation.Nullable;
 
 import com.google.common.collect.Sets;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -71,10 +71,10 @@ public class Entity_naki extends EntityBossBase
 	public Entity_naki(World par1World)
 	{
 		super(par1World);
-		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.zero_onetroso));
-		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.zero_onehead));
-		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(RiderItems.forceriser_naki));
-		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.zero_onelegs));
+		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(ReiwaRiderItems.zero_onetroso));
+		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(ReiwaRiderItems.zero_onehead));
+		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(ReiwaRiderItems.forceriser_naki));
+		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(ReiwaRiderItems.zero_onelegs));
 		
 	}
     
@@ -101,10 +101,10 @@ public class Entity_naki extends EntityBossBase
     }
     public void onDeath(DamageSource cause)
     {
-    	this.dropItem(RiderItems.blank_progrise_key, 4);
-		this.dropItem(RiderItems.hiden_metal, 6);
-		this.dropItem(RiderItems.naki_progrise_key, 1);
-		this.dropItem(RiderItems.japanese_wolf_zetsumerisekey, 1);
+    	this.dropItem(ReiwaRiderItems.blank_progrise_key, 4);
+		this.dropItem(ReiwaRiderItems.hiden_metal, 6);
+		this.dropItem(ReiwaRiderItems.naki_progrise_key, 1);
+		this.dropItem(ReiwaRiderItems.japanese_wolf_zetsumerisekey, 1);
     }
   
 }

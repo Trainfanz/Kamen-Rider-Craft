@@ -12,7 +12,7 @@ import javax.annotation.Nullable;
 
 import com.google.common.collect.Sets;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -71,11 +71,11 @@ public class Entity_horobi extends EntityBossBase
 	public Entity_horobi(World par1World)
 	{
 		super(par1World);
-		this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.attache_arrow));
-		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.zero_onetroso));
-		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.zero_onehead));
-		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(RiderItems.forceriser_horobi));
-		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.zero_onelegs));
+		this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(ReiwaRiderItems.attache_arrow));
+		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(ReiwaRiderItems.zero_onetroso));
+		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(ReiwaRiderItems.zero_onehead));
+		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(ReiwaRiderItems.forceriser_horobi));
+		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(ReiwaRiderItems.zero_onelegs));
 		
 	}
     
@@ -102,10 +102,10 @@ public class Entity_horobi extends EntityBossBase
     }
     public void onDeath(DamageSource cause)
     {
-    	this.dropItem(RiderItems.blank_progrise_key, 4);
-		this.dropItem(RiderItems.hiden_metal, 6);
-		this.dropItem(RiderItems.horobi_progrise_key, 1);
-		this.dropItem(RiderItems.sting_scorpion_progrise_key, 1);
+    	this.dropItem(ReiwaRiderItems.blank_progrise_key, 4);
+		this.dropItem(ReiwaRiderItems.hiden_metal, 6);
+		this.dropItem(ReiwaRiderItems.horobi_progrise_key, 1);
+		this.dropItem(ReiwaRiderItems.sting_scorpion_progrise_key, 1);
 	
        
    }

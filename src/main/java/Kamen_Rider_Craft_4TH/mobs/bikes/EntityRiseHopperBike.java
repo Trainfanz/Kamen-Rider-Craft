@@ -4,7 +4,7 @@ package Kamen_Rider_Craft_4TH.mobs.bikes;
 import java.util.Calendar;
 import java.util.UUID;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import net.minecraft.block.Block;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLiving;
@@ -61,7 +61,7 @@ public class EntityRiseHopperBike extends EntityBikeBase
     {
 if (!this.world.isRemote){
 
-	this.dropItem(RiderItems.hiden_risephone, 1);
+	this.dropItem(ReiwaRiderItems.hiden_risephone, 1);
 
         
     }

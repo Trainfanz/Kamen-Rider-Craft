@@ -12,7 +12,7 @@ import javax.annotation.Nullable;
 
 import com.google.common.collect.Sets;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.item.saber.item_saberdriver;
 import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onedriver;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
@@ -93,10 +93,10 @@ public class Entity_Sabela extends EntityBossBase
 	public Entity_Sabela(World par1World)
 	{
 		super(par1World);
-		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.sabertroso));
-		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.saberhead));
-		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(RiderItems.sword_of_logos_buckle_sabela));
-		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.saberlegs));
+		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(ReiwaRiderItems.sabertroso));
+		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(ReiwaRiderItems.saberhead));
+		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(ReiwaRiderItems.sword_of_logos_buckle_sabela));
+		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(ReiwaRiderItems.saberlegs));
 
 
 	}
@@ -114,7 +114,7 @@ public class Entity_Sabela extends EntityBossBase
 	@Override
 	public ItemStack getHeldItemMainhand()
 	{
-		return new ItemStack(RiderItems.eneiken_noroshi);
+		return new ItemStack(ReiwaRiderItems.eneiken_noroshi);
 	}
 
 	public void onEntityUpdate(){
@@ -149,11 +149,11 @@ public class Entity_Sabela extends EntityBossBase
 	{
 		if (!this.world.isRemote){
 
-			this.dropItem(RiderItems.sword_of_logos_buckle_sabela, 1);
-			this.dropItem(RiderItems.eneiken_noroshi, 1);
-			this.dropItem(RiderItems.konchuu_daihyakka_wonderride_book, 1);
-			this.dropItem(RiderItems.blank_wonder_world_story_wonder_ride_book, 1);
-			this.dropItem(RiderItems.blank_wonder_ride_book, 10);
+			this.dropItem(ReiwaRiderItems.sword_of_logos_buckle_sabela, 1);
+			this.dropItem(ReiwaRiderItems.eneiken_noroshi, 1);
+			this.dropItem(ReiwaRiderItems.konchuu_daihyakka_wonderride_book, 1);
+			this.dropItem(ReiwaRiderItems.blank_wonder_world_story_wonder_ride_book, 1);
+			this.dropItem(ReiwaRiderItems.blank_wonder_ride_book, 10);
 
 			
 		}

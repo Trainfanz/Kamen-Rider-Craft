@@ -11,6 +11,7 @@ import java.util.UUID;
 import com.google.common.base.Predicates;
 import com.google.common.collect.Sets;
 
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -94,8 +95,8 @@ public class entity_dire_wolf_sold_magia extends EntityBossBase
     {
     	if (!this.world.isRemote)
     	{
-    		this.dropItem(RiderItems.dire_wolf_zetsumerise_key, 1);
-    		this.dropItem(RiderItems.hiden_metal, 5);
+    		this.dropItem(ReiwaRiderItems.dire_wolf_zetsumerise_key, 1);
+    		this.dropItem(ReiwaRiderItems.hiden_metal, 5);
     	}   
     }
 } 

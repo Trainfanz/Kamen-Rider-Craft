@@ -12,7 +12,7 @@ import javax.annotation.Nullable;
 
 import com.google.common.collect.Sets;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -70,11 +70,11 @@ public class entity_zaia extends EntityBossBase
 	public entity_zaia(World par1World)
 	{
 		super(par1World);
-		this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.thousand_jacker));
-		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(RiderItems.zaia_thousandriver_zaia));
-		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.zero_onetroso));
-		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.zero_onehead));
-		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.zero_onelegs));
+		this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(ReiwaRiderItems.thousand_jacker));
+		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(ReiwaRiderItems.zaia_thousandriver_zaia));
+		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(ReiwaRiderItems.zero_onetroso));
+		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(ReiwaRiderItems.zero_onehead));
+		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(ReiwaRiderItems.zero_onelegs));
 	}
   
     protected void applyEntityAttributes()
@@ -99,15 +99,15 @@ public class entity_zaia extends EntityBossBase
     {
     	if (!this.world.isRemote)
     	{
-    		this.dropItem(RiderItems.blank_progrise_key, 4);
-    		this.dropItem(RiderItems.triceratops_zetsumerise_key, 1);
-    		this.dropItem(RiderItems.carnotaurus_zetsumerise_key, 1);
+    		this.dropItem(ReiwaRiderItems.blank_progrise_key, 4);
+    		this.dropItem(ReiwaRiderItems.triceratops_zetsumerise_key, 1);
+    		this.dropItem(ReiwaRiderItems.carnotaurus_zetsumerise_key, 1);
     	}    
     	
     	switch (this.rand.nextInt(5))
 		{
 			case 0:
-				this.dropItem(RiderItems.mass_brain_zetsumerise_key, 1);
+				this.dropItem(ReiwaRiderItems.mass_brain_zetsumerise_key, 1);
 				break;
 		}
     }

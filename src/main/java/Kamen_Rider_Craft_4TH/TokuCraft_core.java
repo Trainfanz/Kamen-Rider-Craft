@@ -53,6 +53,7 @@ public class TokuCraft_core {
 	public static void preInit(FMLPreInitializationEvent event) {
 		RiderBlocks.init();
 		RiderItems.init();
+		ReiwaRiderItems.init();
 		kikaiderItems.init();
 		DimensionManager.registerDimension(modDimensionWorldGen.HELHEIM_DIM_ID, modDimensionWorldGen.HELHEIM_DIM_TYPE);
 		DimensionManager.registerDimension(modDimensionWorldGen.SANDSOFTIME_DIM_ID, modDimensionWorldGen.SANDSOFTIME_DIM_TYPE);

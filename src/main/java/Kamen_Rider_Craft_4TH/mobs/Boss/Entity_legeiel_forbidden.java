@@ -11,7 +11,7 @@ import java.util.UUID;
 import com.google.common.base.Predicates;
 import com.google.common.collect.Sets;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -90,15 +90,15 @@ public class Entity_legeiel_forbidden extends EntityBossBase
 		if (this.getAttackTarget()instanceof EntityPlayer){
 			EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
 			
-			if (!playerIn.inventory.hasItemStack(new ItemStack(RiderItems.emotional_dragon_wonder_ride_book))) {
+			if (!playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.emotional_dragon_wonder_ride_book))) {
 				   this.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
 			}
 				
 
 			if (this.getHealth()<150) {
 			
-					if (playerIn.inventory.hasItemStack(new ItemStack(RiderItems.primitive_dragon_wonder_ride_book))&!playerIn.inventory.hasItemStack(new ItemStack(RiderItems.elemental_dragon_wonder_ride_book))){
-						playerIn.inventory.addItemStackToInventory(new ItemStack(RiderItems.elemental_dragon_wonder_ride_book));
+					if (playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.primitive_dragon_wonder_ride_book))&!playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.elemental_dragon_wonder_ride_book))){
+						playerIn.inventory.addItemStackToInventory(new ItemStack(ReiwaRiderItems.elemental_dragon_wonder_ride_book));
 						playerIn.sendMessage( new TextComponentString(TextFormatting.AQUA+"Elemental "+TextFormatting.DARK_RED+"Dragon!"));
 					}
 					this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.3);
@@ -115,9 +115,9 @@ public class Entity_legeiel_forbidden extends EntityBossBase
 	{
 		if (!this.world.isRemote){
 
-			this.dropItem(RiderItems.legeiel_alter_ride_book, 1);
-			this.dropItem(RiderItems.blank_wonder_world_story_wonder_ride_book, 1);
-			this.dropItem(RiderItems.blank_wonder_ride_book, 10);
+			this.dropItem(ReiwaRiderItems.legeiel_alter_ride_book, 1);
+			this.dropItem(ReiwaRiderItems.blank_wonder_world_story_wonder_ride_book, 1);
+			this.dropItem(ReiwaRiderItems.blank_wonder_ride_book, 10);
 
 		}
 	}

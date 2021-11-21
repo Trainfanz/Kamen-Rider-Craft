@@ -21,20 +21,19 @@ import net.minecraft.world.World;
 public class Item_Vistamps extends Item implements IHasModel
 {
 
-	public int num;
+
 	public int num2;
 
 	public int setBase = 0;
 
-	public static String[] ARMS= new String[] {"base","falcon"};
+	public static String[] ARMS= new String[] {"base","eagle","mammoth"};
 
 
 
-	public Item_Vistamps(int NUM ,int arms,String name)
+	public Item_Vistamps(int arms,String name)
 	{
 		super();
 		this.setMaxDamage(0);
-		num=NUM;
 		num2=arms;
 		setTranslationKey(name);
 		setRegistryName(name);
@@ -49,7 +48,6 @@ public class Item_Vistamps extends Item implements IHasModel
 		setTranslationKey(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
-		num=-10;
 		num2=10;
 
 	}
@@ -70,18 +68,9 @@ public class Item_Vistamps extends Item implements IHasModel
 			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_revicedriver){
 				item_revicedriver belt = (item_revicedriver) playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem();
 
-
-
-				if (belt.Rider=="revice"){
-					if (num == 0){
-
 						item_revicedriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
 						item_revicedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),setBase, "1");			
 
-					}		
-				
-
-				}
 			}
 		}
 		playerIn.setActiveHand(handIn);

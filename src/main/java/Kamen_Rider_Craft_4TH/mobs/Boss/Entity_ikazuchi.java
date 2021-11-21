@@ -12,7 +12,7 @@ import javax.annotation.Nullable;
 
 import com.google.common.collect.Sets;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -71,10 +71,10 @@ public class Entity_ikazuchi extends EntityBossBase
 	public Entity_ikazuchi(World par1World)
 	{
 		super(par1World);
-		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.zero_onetroso));
-		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.zero_onehead));
-		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(RiderItems.forceriser_ikazuchi));
-		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.zero_onelegs));
+		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(ReiwaRiderItems.zero_onetroso));
+		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(ReiwaRiderItems.zero_onehead));
+		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(ReiwaRiderItems.forceriser_ikazuchi));
+		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(ReiwaRiderItems.zero_onelegs));
 		
 	}
     
@@ -101,18 +101,18 @@ public class Entity_ikazuchi extends EntityBossBase
     }
     public void onDeath(DamageSource cause)
     {
-    	this.dropItem(RiderItems.blank_progrise_key, 4);
-		this.dropItem(RiderItems.hiden_metal, 6);
-		this.dropItem(RiderItems.ikazuchi_progrise_key, 1);
-		this.dropItem(RiderItems.dodomagia_zetsumerisekey, 1);
+    	this.dropItem(ReiwaRiderItems.blank_progrise_key, 4);
+		this.dropItem(ReiwaRiderItems.hiden_metal, 6);
+		this.dropItem(ReiwaRiderItems.ikazuchi_progrise_key, 1);
+		this.dropItem(ReiwaRiderItems.dodomagia_zetsumerisekey, 1);
 	
 		switch (this.rand.nextInt(5))
 		{
 		case 0:
-			this.dropItem(RiderItems.zetsumeriser_dodo_custom_v2, 1);
+			this.dropItem(ReiwaRiderItems.zetsumeriser_dodo_custom_v2, 1);
 			break;
 		case 1:
-			this.dropItem(RiderItems.zetsumeriser_dodo_custom, 1);
+			this.dropItem(ReiwaRiderItems.zetsumeriser_dodo_custom, 1);
 			break;
 		}
        }

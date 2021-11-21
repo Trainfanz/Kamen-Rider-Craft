@@ -5,7 +5,7 @@ import java.util.Calendar;
 import java.util.Random;
 import java.util.UUID;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityBossBase;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_EngineBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Kaiser;
@@ -69,10 +69,10 @@ public class entity_battle_raider extends Entity_base_henchmen
 	{
 		super(par1World);
 		
-		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.zero_onetroso));
-		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.zero_onehead));
-		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(RiderItems.raidriser_battle));
-		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.zero_onelegs));
+		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(ReiwaRiderItems.zero_onetroso));
+		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(ReiwaRiderItems.zero_onehead));
+		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(ReiwaRiderItems.raidriser_battle));
+		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(ReiwaRiderItems.zero_onelegs));
 	}
 
 	protected void applyEntityAttributes()
@@ -93,8 +93,8 @@ public class entity_battle_raider extends Entity_base_henchmen
 	{
 		if (!this.world.isRemote)
 		{
-			this.dropItem(RiderItems.humagear_progrise_key, 1);
-	   		this.dropItem(RiderItems.hiden_metal, 2);
+			this.dropItem(ReiwaRiderItems.humagear_progrise_key, 1);
+	   		this.dropItem(ReiwaRiderItems.hiden_metal, 2);
 
 	   		switch (this.rand.nextInt(5))
 			{
@@ -106,7 +106,7 @@ public class entity_battle_raider extends Entity_base_henchmen
 	   		switch (this.rand.nextInt(10))
 			{
 			case 0:
-				this.dropItem(RiderItems.invading_horseshoe_crab_progrise_key, 1);
+				this.dropItem(ReiwaRiderItems.invading_horseshoe_crab_progrise_key, 1);
 				break;
 			}
 

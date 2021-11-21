@@ -12,7 +12,7 @@ import javax.annotation.Nullable;
 
 import com.google.common.collect.Sets;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -75,11 +75,11 @@ public class Entity_Durendal extends EntityBossBase
 	public Entity_Durendal(World par1World)
 	{
 		super(par1World);
-		this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.jikokuken_kaiji));
-		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.sabertroso));
-		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.saberhead));
-		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(RiderItems.sword_of_logos_buckle_durendal));
-		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.saberlegs));
+		this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(ReiwaRiderItems.jikokuken_kaiji));
+		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(ReiwaRiderItems.sabertroso));
+		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(ReiwaRiderItems.saberhead));
+		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(ReiwaRiderItems.sword_of_logos_buckle_durendal));
+		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(ReiwaRiderItems.saberlegs));
 	}
 
     
@@ -243,10 +243,10 @@ public class Entity_Durendal extends EntityBossBase
 	{
 		if (!this.world.isRemote){
 
-			this.dropItem(RiderItems.sword_of_logos_buckle_durendal, 1);
-			this.dropItem(RiderItems.ocean_history_wonderride_book, 1);
-			this.dropItem(RiderItems.jikokuken_kaiji, 1);
-			this.dropItem(RiderItems.blank_wonder_ride_book, 10);
+			this.dropItem(ReiwaRiderItems.sword_of_logos_buckle_durendal, 1);
+			this.dropItem(ReiwaRiderItems.ocean_history_wonderride_book, 1);
+			this.dropItem(ReiwaRiderItems.jikokuken_kaiji, 1);
+			this.dropItem(ReiwaRiderItems.blank_wonder_ride_book, 10);
 
 			
 		}

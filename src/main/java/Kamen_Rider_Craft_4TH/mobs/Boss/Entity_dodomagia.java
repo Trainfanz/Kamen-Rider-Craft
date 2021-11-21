@@ -13,7 +13,8 @@ import javax.annotation.Nullable;
 
 import com.google.common.collect.Sets;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.RiderBlocks;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -67,18 +68,18 @@ public class Entity_dodomagia extends EntityBossBase
 //implements IBossDisplayData
 {
     
-	public static final Item[] belt = new Item[] {RiderItems.zetsumeriser_dodo,RiderItems.zetsumeriser_dodo_custom,RiderItems.zetsumeriser_dodo_custom_v2};
+	public static final Item[] belt = new Item[] {ReiwaRiderItems.zetsumeriser_dodo,ReiwaRiderItems.zetsumeriser_dodo_custom,ReiwaRiderItems.zetsumeriser_dodo_custom_v2};
 	
 	private String texture;
 	public Entity_dodomagia(World par1World)
 	{
 		super(par1World);
-		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.zero_onetroso));
-		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.zero_onehead));
+		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(ReiwaRiderItems.zero_onetroso));
+		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(ReiwaRiderItems.zero_onehead));
 		Random generator = new Random();
 		int rand = generator.nextInt(belt.length);
 		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(belt[rand]));
-		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.zero_onelegs));
+		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(ReiwaRiderItems.zero_onelegs));
 		
 	}
   
@@ -107,10 +108,10 @@ public class Entity_dodomagia extends EntityBossBase
 if (!this.world.isRemote){
 
 
-		this.dropItem(RiderItems.matsurida_z_progrise_key, 1);
-   		this.dropItem(RiderItems.humagear_progrise_key, 1);
-   		this.dropItem(RiderItems.hiden_metal, 5);
-   		this.entityDropItem(new ItemStack(RiderItems.ikazuchi_boss_block),1);
+		this.dropItem(ReiwaRiderItems.matsurida_z_progrise_key, 1);
+   		this.dropItem(ReiwaRiderItems.humagear_progrise_key, 1);
+   		this.dropItem(ReiwaRiderItems.hiden_metal, 5);
+   		this.entityDropItem(new ItemStack(RiderBlocks.ikazuchi_boss_block),1);
    		switch (this.rand.nextInt(5))
 		{
 		case 0:

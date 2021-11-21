@@ -1,6 +1,6 @@
 package Kamen_Rider_Craft_4TH.item.saber;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityDiagoSpeedy;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityMachineBuilder;
@@ -78,7 +78,7 @@ public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer play
 		if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
 			if (!worldIn.isRemote)
 			{
-			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()== RiderItems.seiken_swordriver_saber){
+			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()== ReiwaRiderItems.seiken_swordriver_saber){
 				EntityDiagoSpeedy entitybike  = new EntityDiagoSpeedy(worldIn);
 			playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Hassha Bakusou! Taiya o hirake shinku no body ga mewosamasu! Tsurugi ga symbol hashiru moji maigou tokubetsu kasoku! Diago Speedy!"));
 			

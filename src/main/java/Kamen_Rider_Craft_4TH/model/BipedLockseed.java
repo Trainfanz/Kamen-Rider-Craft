@@ -8,10 +8,14 @@ package Kamen_Rider_Craft_4TH.model;
 
 import org.lwjgl.opengl.GL11;
 
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_ex_aiddriver;
 import Kamen_Rider_Craft_4TH.item.gaim.item_Gaimdriver;
 import Kamen_Rider_Craft_4TH.item.ghost.item_ghostdriver;
+import Kamen_Rider_Craft_4TH.item.revice.Item_Vistamps;
+import Kamen_Rider_Craft_4TH.item.revice.item_revicearmor;
+import Kamen_Rider_Craft_4TH.item.revice.item_revicedriver;
 import Kamen_Rider_Craft_4TH.item.zero_one.Item_progrise_keys;
 import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onearmor;
 import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onedriver;
@@ -229,7 +233,7 @@ public class BipedLockseed extends ModelBiped
 						Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Refercence.MODID+":textures/armor/"+((item_zikudriver)stack.getItem()).Rider+ item_zi_oarmor.CoreName[item_zikudriver.get_core(stack, "1")]+"_" +item_zikudriver.get_lockbase(stack)+"_2.png"));
 
 					}
-				}else if (stack.getItem() instanceof item_zero_onedriver&& stack2.getItem()==RiderItems.zero_onehead){
+				}else if (stack.getItem() instanceof item_zero_onedriver&& stack2.getItem()==ReiwaRiderItems.zero_onehead){
 
 					String form;
 					if (item_zero_onedriver.get_lockbase(stack)!="base"){
@@ -239,6 +243,16 @@ public class BipedLockseed extends ModelBiped
 					}
 					Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Refercence.MODID+":textures/armor/"+((item_zero_onedriver)stack.getItem()).Rider+ item_zero_onearmor.CoreName[item_zero_onedriver.get_core(stack, "1")]+"_" +form+"_2.png"));
 
+
+				}else if (stack.getItem() instanceof item_revicedriver& stack2.getItem()==ReiwaRiderItems.revicehead){
+
+					String form;
+					if (item_revicedriver.get_lockbase(stack)!="base"){
+						form = item_revicedriver.get_lockbase(stack);
+					}else{
+						form = Item_Vistamps.ARMS[((item_revicedriver)stack.getItem()).DRIVER];
+					}
+					Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Refercence.MODID+":textures/armor/"+((item_revicedriver)stack.getItem()).Rider+ item_revicearmor.CoreName[item_revicedriver.get_core(stack, "1")]+"_" +form+"_2.png"));
 
 				}else if (stack.getItem() instanceof item_ex_aiddriver& stack2.getItem()==RiderItems.ex_aidhead){
 

@@ -11,7 +11,7 @@ import java.util.UUID;
 import com.google.common.base.Predicates;
 import com.google.common.collect.Sets;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -94,8 +94,8 @@ public class entity_serval_tiger_sold_magia extends EntityBossBase
     {
     	if (!this.world.isRemote)
     	{
-    		this.dropItem(RiderItems.serval_tiger_zetsumerisekey, 1);
-    		this.dropItem(RiderItems.hiden_metal, 5);
+    		this.dropItem(ReiwaRiderItems.serval_tiger_zetsumerisekey, 1);
+    		this.dropItem(ReiwaRiderItems.hiden_metal, 5);
     	}   
     }
 } 

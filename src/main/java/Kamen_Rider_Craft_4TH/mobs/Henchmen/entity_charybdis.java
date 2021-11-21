@@ -4,7 +4,7 @@ package Kamen_Rider_Craft_4TH.mobs.Henchmen;
 import java.util.Calendar;
 import java.util.UUID;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityBossBase;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Calibur;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Falchion;
@@ -79,7 +79,7 @@ public class entity_charybdis extends Entity_base_henchmen
 				}
 			}
 			
-			this.dropItem(RiderItems.blank_wonder_ride_book, 1);
+			this.dropItem(ReiwaRiderItems.blank_wonder_ride_book, 1);
 		}
 	}	
 }

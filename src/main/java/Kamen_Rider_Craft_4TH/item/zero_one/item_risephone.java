@@ -1,6 +1,6 @@
 package Kamen_Rider_Craft_4TH.item.zero_one;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityMachineBuilder;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityRiseHopperBike;
@@ -77,7 +77,7 @@ public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer play
 		if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
 			if (!worldIn.isRemote)
 			{
-			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()== RiderItems.hiden_zero_one_driver){
+			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()== ReiwaRiderItems.hiden_zero_one_driver){
 				EntityRiseHopperBike entitybike  = new EntityRiseHopperBike(worldIn);
 			playerIn.sendMessage( new TextComponentString(TextFormatting.YELLOW+"Changing to super bike motorcycle mode"));
 			

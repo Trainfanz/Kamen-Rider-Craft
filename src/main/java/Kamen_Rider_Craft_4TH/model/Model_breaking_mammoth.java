@@ -13,7 +13,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.client.renderer.GlStateManager;
 import org.lwjgl.opengl.GL11;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_ex_aiddriver;
 import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onedriver;
 import Kamen_Rider_Craft_4TH.potion.PotionCore;
@@ -296,10 +296,10 @@ public class Model_breaking_mammoth extends model_belt_plus {
 				if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST)!= null){
 					if (player.getItemStackFromSlot(EntityEquipmentSlot.LEGS)!= null){
 						if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
-							if (player.getItemStackFromSlot(EntityEquipmentSlot.LEGS).getItem() == RiderItems.zero_onelegs){
-								if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == RiderItems.zero_onetroso){
-									if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == RiderItems.zero_onehead){
-										if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.hiden_zero_one_driver){
+							if (player.getItemStackFromSlot(EntityEquipmentSlot.LEGS).getItem() == ReiwaRiderItems.zero_onelegs){
+								if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == ReiwaRiderItems.zero_onetroso){
+									if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == ReiwaRiderItems.zero_onehead){
+										if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.hiden_zero_one_driver){
 											if (item_zero_onedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="mammoth"){
 												
 												double height=1d;

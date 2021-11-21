@@ -11,7 +11,7 @@ import java.util.UUID;
 import com.google.common.base.Predicates;
 import com.google.common.collect.Sets;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -91,8 +91,8 @@ public class Entity_zooous extends EntityBossBase
 			EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
 			if (this.getHealth()<50) {
 			
-					if (playerIn.inventory.hasItemStack(new ItemStack(RiderItems.tenkuu_no_pegasus_wonderride_book))&playerIn.inventory.hasItemStack(new ItemStack(RiderItems.peter_fantasista_wonderride_book))&playerIn.inventory.hasItemStack(new ItemStack(RiderItems.lion_senki_wonderride_book))&!playerIn.inventory.hasItemStack(new ItemStack(RiderItems.king_lion_daisenki_wonderride_book))){
-						playerIn.inventory.addItemStackToInventory(new ItemStack(RiderItems.king_lion_daisenki_wonderride_book));
+					if (playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.tenkuu_no_pegasus_wonderride_book))&playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.peter_fantasista_wonderride_book))&playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.lion_senki_wonderride_book))&!playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.king_lion_daisenki_wonderride_book))){
+						playerIn.inventory.addItemStackToInventory(new ItemStack(ReiwaRiderItems.king_lion_daisenki_wonderride_book));
 						playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_BLUE+"King Lion Daisenki!"));
 					}
 					this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.3);
@@ -109,19 +109,19 @@ public class Entity_zooous extends EntityBossBase
 	{
 		if (!this.world.isRemote){
 
-			this.dropItem(RiderItems.blank_wonder_world_story_wonder_ride_book, 1);
-			this.dropItem(RiderItems.blank_wonder_ride_book, 10);
+			this.dropItem(ReiwaRiderItems.blank_wonder_world_story_wonder_ride_book, 1);
+			this.dropItem(ReiwaRiderItems.blank_wonder_ride_book, 10);
 			
 			switch (this.rand.nextInt(10))
 			{
 			case 0:
-				this.dropItem(RiderItems.great_book_fragment, 1);
+				this.dropItem(ReiwaRiderItems.great_book_fragment, 1);
 				break;
 			}
 			
 			if (this.getAttackTarget()instanceof EntityPlayer){
 				EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
-				if (playerIn.inventory.hasItemStack(new ItemStack(RiderItems.tategami_hyoujuu_senki_wonderride_book))){
+				if (playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.tategami_hyoujuu_senki_wonderride_book))){
 
 					EntityBossBase entityboss  = new  Entity_zooous_predator(world);
 					entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);

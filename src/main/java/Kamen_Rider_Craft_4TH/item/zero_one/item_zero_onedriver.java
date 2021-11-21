@@ -4,6 +4,7 @@ import javax.annotation.Nullable;
 
 import Kamen_Rider_Craft_4TH.RiderBlocks;
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.Tabs;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
@@ -74,11 +75,11 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 
 				model_belt_plus armorModel = new Model_breaking_mammoth();
 				
-				if( this==RiderItems.hiden_zero_one_driver){
+				if( this==ReiwaRiderItems.hiden_zero_one_driver){
 					if (this.get_core(stack, "1")==4){
-						armorModel.belt=new ItemStack( RiderItems.hiden_zero_two_driver);
+						armorModel.belt=new ItemStack( ReiwaRiderItems.hiden_zero_two_driver);
 					}else if (this.get_core(stack, "1")==7){
-						armorModel.belt=new ItemStack( RiderItems.hiden_zero_one_driver_red);
+						armorModel.belt=new ItemStack( ReiwaRiderItems.hiden_zero_one_driver_red);
 					}else{
 						armorModel.belt=stack;
 					}
@@ -86,39 +87,39 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 				}
 
 				
-				else if( this==RiderItems.ark_driver_zero){
+				else if( this==ReiwaRiderItems.ark_driver_zero){
 					if (this.get_core(stack, "1")==6){
-						armorModel.belt=new ItemStack( RiderItems.ark_driver_one);
+						armorModel.belt=new ItemStack( ReiwaRiderItems.ark_driver_one);
 					}else{
 						armorModel.belt=stack;
 					}
 				}
 				
 				else if(living.getHeldItemMainhand()!=null){
-					if( living.getHeldItemMainhand().getItem()==RiderItems.shot_riser_gun){
-						if( this==RiderItems.shot_riser_vulcan||this==RiderItems.shot_riser_valkyrie){
-							armorModel.belt=new ItemStack( RiderItems.shot_riser_belt);
+					if( living.getHeldItemMainhand().getItem()==ReiwaRiderItems.shot_riser_gun){
+						if( this==ReiwaRiderItems.shot_riser_vulcan||this==ReiwaRiderItems.shot_riser_valkyrie){
+							armorModel.belt=new ItemStack( ReiwaRiderItems.shot_riser_belt);
 						}else{
 							armorModel.belt=stack;
 						}
 					}
-					else if( living.getHeldItemMainhand().getItem()==RiderItems.zaia_slashriser_sword){
-						if( this==RiderItems.zaia_slashriser_jin){
-							armorModel.belt=new ItemStack( RiderItems.zaia_slashriser_belt);
+					else if( living.getHeldItemMainhand().getItem()==ReiwaRiderItems.zaia_slashriser_sword){
+						if( this==ReiwaRiderItems.zaia_slashriser_jin){
+							armorModel.belt=new ItemStack( ReiwaRiderItems.zaia_slashriser_belt);
 						}else{
 							armorModel.belt=stack;
 						}
 					}
-					else if( living.getHeldItemMainhand().getItem()==RiderItems.shot_abaddo_gun){
-						if( this==RiderItems.shot_abaddo_riser||this==RiderItems.shot_abaddo_riser_b||this==RiderItems.shot_abaddo_riser_g){
-							armorModel.belt=new ItemStack( RiderItems.abaddo_riser_belt);
+					else if( living.getHeldItemMainhand().getItem()==ReiwaRiderItems.shot_abaddo_gun){
+						if( this==ReiwaRiderItems.shot_abaddo_riser||this==ReiwaRiderItems.shot_abaddo_riser_b||this==ReiwaRiderItems.shot_abaddo_riser_g){
+							armorModel.belt=new ItemStack( ReiwaRiderItems.abaddo_riser_belt);
 						}else{
 							armorModel.belt=stack;
 						}
 					}
-					else if( living.getHeldItemMainhand().getItem()==RiderItems.slash_abaddo_sword){
-						if( this==RiderItems.slash_abaddo_riser||this==RiderItems.slash_abaddo_riser_o||this==RiderItems.slash_abaddo_riser_r){
-							armorModel.belt=new ItemStack( RiderItems.abaddo_riser_belt);
+					else if( living.getHeldItemMainhand().getItem()==ReiwaRiderItems.slash_abaddo_sword){
+						if( this==ReiwaRiderItems.slash_abaddo_riser||this==ReiwaRiderItems.slash_abaddo_riser_o||this==ReiwaRiderItems.slash_abaddo_riser_r){
+							armorModel.belt=new ItemStack( ReiwaRiderItems.abaddo_riser_belt);
 						}else{
 							armorModel.belt=stack;
 						}
@@ -128,8 +129,8 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 					}
 				}	
 				
-				if (this==RiderItems.hiden_zero_one_driver&this.get_core(stack, "1")==9){
-					armorModel.wings=new ItemStack( RiderItems.realize_hopper_lines);
+				if (this==ReiwaRiderItems.hiden_zero_one_driver&this.get_core(stack, "1")==9){
+					armorModel.wings=new ItemStack( ReiwaRiderItems.realize_hopper_lines);
 				}else{
 					armorModel.wings=new ItemStack( RiderItems.blanknoitem);
 				}
@@ -195,12 +196,12 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 			if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST)!= null){
 				if (player.getItemStackFromSlot(EntityEquipmentSlot.LEGS)!= null){
 					if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
-						if (player.getItemStackFromSlot(EntityEquipmentSlot.LEGS).getItem() == RiderItems.zero_onelegs){
-							if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == RiderItems.zero_onetroso){
-								if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == RiderItems.zero_onehead){	
+						if (player.getItemStackFromSlot(EntityEquipmentSlot.LEGS).getItem() == ReiwaRiderItems.zero_onelegs){
+							if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == ReiwaRiderItems.zero_onetroso){
+								if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == ReiwaRiderItems.zero_onehead){	
 									
 									
-									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.ark_driver_zero){
+									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.ark_driver_zero){
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,2,true,false));
@@ -208,20 +209,20 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,0,true,false));
 									}
-									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.zaia_slashriser_jin){
+									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.zaia_slashriser_jin){
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,2,true,false));
 										player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 0,true,false));
 									}
-									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.forceriser_naki){
+									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.forceriser_naki){
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,2,true,false));
 									}
-									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.hiden_zero_one_driver_azu || player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.zetsumetsu_driver)
+									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.hiden_zero_one_driver_azu || player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.zetsumetsu_driver)
 									{
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,4,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,4,true,false));
@@ -229,7 +230,7 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,4,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,3,true,false));
 									}
-									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.eden_driver){
+									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.eden_driver){
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,3,true,false));
@@ -238,7 +239,7 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 25,2,true,false));
 									}
-									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.lucifer_driver){
+									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.lucifer_driver){
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,4,true,false));
@@ -246,7 +247,7 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,2,true,false));
 									}
-									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.metsuboujinrai_driver)
+									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.metsuboujinrai_driver)
 									{
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,4,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,5,true,false));
@@ -256,23 +257,23 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 										player.removeActivePotionEffect(MobEffects.POISON);
 									}
-									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.shot_abaddo_riser||player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.slash_abaddo_riser)
+									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.shot_abaddo_riser||player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.slash_abaddo_riser)
 									{
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,1,true,false));
 									}
-									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.shot_abaddo_riser_g||player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.shot_abaddo_riser_b||player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.slash_abaddo_riser_r||player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.slash_abaddo_riser_o)
+									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.shot_abaddo_riser_g||player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.shot_abaddo_riser_b||player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.slash_abaddo_riser_r||player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.slash_abaddo_riser_o)
 									{
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25, 1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,2,true,false));
 									}
-									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.raidriser_battle){
+									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.raidriser_battle){
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,4,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,2,true,false));
 									}
-									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.raidriser_buffalo){
+									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.raidriser_buffalo){
 										if (player.isSneaking()){
 											Vec3d look = player.getLookVec();
 											player.motionX=look.x/2;
@@ -280,26 +281,26 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 										}
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,1,true,false));
 									}
-									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.raidriser_jackal){
+									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.raidriser_jackal){
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,2,true,false));
 									}
-									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.raidriser_lion){
+									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.raidriser_lion){
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,2,true,false));
 									}
-									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.raidriser_panda){
+									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.raidriser_panda){
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 									}
-									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.raidriser_penguin){
+									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.raidriser_penguin){
 										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,1,true,false));
 									}
-									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.raidriser_whale){
+									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.raidriser_whale){
 										if (player.isInWater()){
 											if (player.isSneaking()){
 											Vec3d look = player.getLookVec();
@@ -576,7 +577,7 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 	
 	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
 	{
-		return RiderItems.hiden_metal == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+		return ReiwaRiderItems.hiden_metal == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 }
 

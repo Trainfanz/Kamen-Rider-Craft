@@ -4,6 +4,7 @@ import javax.annotation.Nullable;
 
 import org.lwjgl.opengl.GL11;
 
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
@@ -108,9 +109,9 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 			if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST)!= null){
 				if (player.getItemStackFromSlot(EntityEquipmentSlot.LEGS)!= null){
 					if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
-						if (player.getItemStackFromSlot(EntityEquipmentSlot.LEGS).getItem() == RiderItems.saberlegs){
-							if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == RiderItems.sabertroso){
-								if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == RiderItems.saberhead){
+						if (player.getItemStackFromSlot(EntityEquipmentSlot.LEGS).getItem() == ReiwaRiderItems.saberlegs){
+							if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == ReiwaRiderItems.sabertroso){
+								if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == ReiwaRiderItems.saberhead){
 									ItemStack ItemStack = player.getItemStackFromSlot(EntityEquipmentSlot.FEET);
 
 									if (Rider == "buster"){
@@ -400,42 +401,42 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 				
 				armorModel.belt=stack;
 				
-				Item[] shinjuu= new Item[] {RiderItems.blanknoitem,RiderItems.seiken_swordriver_dragon,RiderItems.seiken_swordriver_genbu,
-						RiderItems.seiken_swordriver_jaaku_dragon,RiderItems.seiken_swordriver_pegasus,RiderItems.seiken_swordriver_cerberus,
-						RiderItems.seiken_swordriver_phoenix};
+				Item[] shinjuu= new Item[] {RiderItems.blanknoitem,ReiwaRiderItems.seiken_swordriver_dragon,ReiwaRiderItems.seiken_swordriver_genbu,
+						ReiwaRiderItems.seiken_swordriver_jaaku_dragon,ReiwaRiderItems.seiken_swordriver_pegasus,ReiwaRiderItems.seiken_swordriver_cerberus,
+						ReiwaRiderItems.seiken_swordriver_phoenix};
 			
-				Item[] seibutsu= new Item[] {RiderItems.blanknoitem,RiderItems.seiken_swordriver_lion,RiderItems.seiken_swordriver_hedgehog,
-						RiderItems.seiken_swordriver_eagle};
+				Item[] seibutsu= new Item[] {RiderItems.blanknoitem,ReiwaRiderItems.seiken_swordriver_lion,ReiwaRiderItems.seiken_swordriver_hedgehog,
+						ReiwaRiderItems.seiken_swordriver_eagle};
 				
-				Item[] monogatari= new Item[] {RiderItems.blanknoitem,RiderItems.seiken_swordriver_peter,RiderItems.seiken_swordriver_jackun,
-						RiderItems.seiken_swordriver_alangina,RiderItems.seiken_swordriver_butasan,RiderItems.seiken_swordriver_ninja,
-						RiderItems.seiken_swordriver_arthur,RiderItems.seiken_swordriver_kirin,RiderItems.seiken_swordriver_sarukani,
-						RiderItems.seiken_swordriver_usakame,RiderItems.seiken_swordriver_saiyuu,RiderItems.seiken_swordriver_hansel,
-						RiderItems.seiken_swordriver_bremen,RiderItems.seiken_swordriver_houshin_engi,RiderItems.seiken_swordriver_kaguyan,
-						RiderItems.seiken_swordriver_jizousan,RiderItems.seiken_swordriver_issun,RiderItems.seiken_swordriver_televikun,
-						RiderItems.seiken_swordriver_momoichirou,RiderItems.seiken_swordriver_urashima_jirou,RiderItems.seiken_swordriver_kinzaburou};
+				Item[] monogatari= new Item[] {RiderItems.blanknoitem,ReiwaRiderItems.seiken_swordriver_peter,ReiwaRiderItems.seiken_swordriver_jackun,
+						ReiwaRiderItems.seiken_swordriver_alangina,ReiwaRiderItems.seiken_swordriver_butasan,ReiwaRiderItems.seiken_swordriver_ninja,
+						ReiwaRiderItems.seiken_swordriver_arthur,ReiwaRiderItems.seiken_swordriver_kirin,ReiwaRiderItems.seiken_swordriver_sarukani,
+						ReiwaRiderItems.seiken_swordriver_usakame,ReiwaRiderItems.seiken_swordriver_saiyuu,ReiwaRiderItems.seiken_swordriver_hansel,
+						ReiwaRiderItems.seiken_swordriver_bremen,ReiwaRiderItems.seiken_swordriver_houshin_engi,ReiwaRiderItems.seiken_swordriver_kaguyan,
+						ReiwaRiderItems.seiken_swordriver_jizousan,ReiwaRiderItems.seiken_swordriver_issun,ReiwaRiderItems.seiken_swordriver_televikun,
+						ReiwaRiderItems.seiken_swordriver_momoichirou,ReiwaRiderItems.seiken_swordriver_urashima_jirou,ReiwaRiderItems.seiken_swordriver_kinzaburou};
 				
-				Item[] others= new Item[] {RiderItems.blanknoitem,RiderItems.jaken_caliburdriver_jaou,RiderItems.seiken_swordriver_dragonic,
-						RiderItems.seiken_swordriver_emotional,RiderItems.seiken_swordriver_ghost,RiderItems.seiken_saikou_driver_x_swordman,
-						RiderItems.seiken_saikou_driver_x_swordman2,RiderItems.seiken_saikou_driver_x_swordman1,RiderItems.seiken_swordriver_king_lion,
-						RiderItems.seiken_swordriver_primitive,RiderItems.seiken_swordriver_elemental,RiderItems.seiken_swordriver_tategami,
-						RiderItems.blanknoitem,RiderItems.seiken_swordriver_specter,RiderItems.seiken_swordriver_super_hero_senki,
-						RiderItems.seiken_swordriver_wonder,RiderItems.seiken_swordriver_siren,RiderItems.seiken_swordriver_arabiana,
-						RiderItems.seiken_swordriver_bahamut};
+				Item[] others= new Item[] {RiderItems.blanknoitem,ReiwaRiderItems.jaken_caliburdriver_jaou,ReiwaRiderItems.seiken_swordriver_dragonic,
+						ReiwaRiderItems.seiken_swordriver_emotional,ReiwaRiderItems.seiken_swordriver_ghost,ReiwaRiderItems.seiken_saikou_driver_x_swordman,
+						ReiwaRiderItems.seiken_saikou_driver_x_swordman2,ReiwaRiderItems.seiken_saikou_driver_x_swordman1,ReiwaRiderItems.seiken_swordriver_king_lion,
+						ReiwaRiderItems.seiken_swordriver_primitive,ReiwaRiderItems.seiken_swordriver_elemental,ReiwaRiderItems.seiken_swordriver_tategami,
+						RiderItems.blanknoitem,ReiwaRiderItems.seiken_swordriver_specter,ReiwaRiderItems.seiken_swordriver_super_hero_senki,
+						ReiwaRiderItems.seiken_swordriver_wonder,ReiwaRiderItems.seiken_swordriver_siren,ReiwaRiderItems.seiken_swordriver_arabiana,
+						ReiwaRiderItems.seiken_swordriver_bahamut};
 
 	
 				
-				if (stack.getItem()==RiderItems.sword_of_logos_buckle_buster){
-					if(living.getHeldItemMainhand().getItem()!= RiderItems.dogouken_gekido&living.getHeldItemOffhand().getItem()!= RiderItems.dogouken_gekido){
-						armorModel.wings= new ItemStack(RiderItems.dogouken_gekido_back);
+				if (stack.getItem()==ReiwaRiderItems.sword_of_logos_buckle_buster){
+					if(living.getHeldItemMainhand().getItem()!= ReiwaRiderItems.dogouken_gekido&living.getHeldItemOffhand().getItem()!= ReiwaRiderItems.dogouken_gekido){
+						armorModel.wings= new ItemStack(ReiwaRiderItems.dogouken_gekido_back);
 					}
 				}
 				
-				if (stack.getItem()==RiderItems.seiken_swordriver_saber||stack.getItem()==RiderItems.seiken_swordriver_blaze||stack.getItem()==RiderItems.seiken_swordriver_espada){
+				if (stack.getItem()==ReiwaRiderItems.seiken_swordriver_saber||stack.getItem()==ReiwaRiderItems.seiken_swordriver_blaze||stack.getItem()==ReiwaRiderItems.seiken_swordriver_espada){
 					if (this.get_core_for_forms(stack,"f")==15){
-					armorModel.wings= new ItemStack(RiderItems.wonder_ride_books);
+					armorModel.wings= new ItemStack(ReiwaRiderItems.wonder_ride_books);
 					}
-					armorModel.belt=new ItemStack(RiderItems.seiken_swordriver);
+					armorModel.belt=new ItemStack(ReiwaRiderItems.seiken_swordriver);
 					armorModel.belt2=new ItemStack(shinjuu[this.get_core_for_forms(stack,"l")]);
 				armorModel.belt3=new ItemStack(seibutsu[this.get_core_for_forms(stack,"m")]);
 				armorModel.belt4=new ItemStack(monogatari[this.get_core_for_forms(stack,"r")]);
@@ -589,6 +590,6 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 	
 	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
 	{
-		return RiderItems.blank_wonder_ride_book == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+		return ReiwaRiderItems.blank_wonder_ride_book == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 }

@@ -12,7 +12,7 @@
 
 	import com.google.common.collect.Sets;
 
-	import Kamen_Rider_Craft_4TH.RiderItems;
+	import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 	import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onedriver;
 	import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
 	import net.minecraft.block.Block;
@@ -94,11 +94,11 @@
 		public Entity_Solomon(World par1World)
 		{
 			super(par1World);
-			this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.caladbolg));
-			this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.sabertroso));
-			this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.saberhead));
-			this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(RiderItems.solomon_driver));
-			this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.saberlegs));
+			this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(ReiwaRiderItems.caladbolg));
+			this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(ReiwaRiderItems.sabertroso));
+			this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(ReiwaRiderItems.saberhead));
+			this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(ReiwaRiderItems.solomon_driver));
+			this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(ReiwaRiderItems.saberlegs));
 
 
 		}
@@ -150,11 +150,11 @@
 		{
 			if (!this.world.isRemote){
 
-				this.dropItem(RiderItems.solomon_driver, 1);
-				this.dropItem(RiderItems.caladbolg, 1);
-				this.dropItem(RiderItems.omni_force_wonderride_book, 1);
-				this.dropItem(RiderItems.blank_wonder_world_story_wonder_ride_book, 5);
-				this.dropItem(RiderItems.blank_wonder_ride_book, 20);
+				this.dropItem(ReiwaRiderItems.solomon_driver, 1);
+				this.dropItem(ReiwaRiderItems.caladbolg, 1);
+				this.dropItem(ReiwaRiderItems.omni_force_wonderride_book, 1);
+				this.dropItem(ReiwaRiderItems.blank_wonder_world_story_wonder_ride_book, 5);
+				this.dropItem(ReiwaRiderItems.blank_wonder_ride_book, 20);
 			}
 
 		}
@@ -213,7 +213,7 @@
 					this.blaze.getMoveHelper().setMoveTo(entitylivingbase.posX, entitylivingbase.posY, entitylivingbase.posZ, 1.0D);
 				}
 				
-				else if (itemstack.getItem() == RiderItems.attache_arrow||itemstack.getItem() == RiderItems.attache_shotgun||itemstack.getItem() == RiderItems.shot_riser_gun)
+				else if (itemstack.getItem() == ReiwaRiderItems.attache_arrow||itemstack.getItem() == ReiwaRiderItems.attache_shotgun||itemstack.getItem() == ReiwaRiderItems.shot_riser_gun)
 				{ if (d0 < this.getFollowDistance() * this.getFollowDistance()) 
 				{
 					double d1 = entitylivingbase.posX - this.blaze.posX;

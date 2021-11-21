@@ -12,7 +12,7 @@ import javax.annotation.Nullable;
 
 import com.google.common.collect.Sets;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.item.saber.item_saberdriver;
 import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onedriver;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
@@ -93,10 +93,10 @@ public class Entity_Calibur extends EntityBossBase
 	public Entity_Calibur(World par1World)
 	{
 		super(par1World);
-		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.sabertroso));
-		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.saberhead));
-		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(RiderItems.jaken_caliburdriver));
-		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.saberlegs));
+		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(ReiwaRiderItems.sabertroso));
+		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(ReiwaRiderItems.saberhead));
+		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(ReiwaRiderItems.jaken_caliburdriver));
+		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(ReiwaRiderItems.saberlegs));
 
 
 	}
@@ -114,13 +114,13 @@ public class Entity_Calibur extends EntityBossBase
 	  @Override
 	    public ItemStack getHeldItemMainhand()
 	    {
-	        return new ItemStack(RiderItems.ankokuken_kurayami);
+	        return new ItemStack(ReiwaRiderItems.ankokuken_kurayami);
 	    }
 	
 	public void onEntityUpdate(){
 		super.onEntityUpdate();
 
-		if (this.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.jaken_caliburdriver){
+		if (this.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==ReiwaRiderItems.jaken_caliburdriver){
 			if (this.getHealth()<30&item_saberdriver.get_core_for_forms(this.getItemStackFromSlot(EntityEquipmentSlot.FEET), "f")!=1) {
 				if (this.getAttackTarget()instanceof EntityPlayer){
 					EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
@@ -130,8 +130,8 @@ public class Entity_Calibur extends EntityBossBase
 					playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"You make right a just, no matter dark joke. Fury in the dark."));
 					playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Jaou Dragon! Dare mo Nogare Rarenai"));
 
-					if (playerIn.inventory.hasItemStack(new ItemStack(RiderItems.king_of_arthur_wonderride_book))){
-						playerIn.inventory.addItemStackToInventory(new ItemStack(RiderItems.dragonic_knight_wonder_ride_book));
+					if (playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.king_of_arthur_wonderride_book))){
+						playerIn.inventory.addItemStackToInventory(new ItemStack(ReiwaRiderItems.dragonic_knight_wonder_ride_book));
 						playerIn.sendMessage( new TextComponentString(TextFormatting.RED+"Dragonic Knight!"));
 					}
 					
@@ -160,13 +160,13 @@ public class Entity_Calibur extends EntityBossBase
 	{
 		if (!this.world.isRemote){
 
-			this.dropItem(RiderItems.jaaku_dragon_wonder_ride_book, 1);
-			this.dropItem(RiderItems.blank_wonder_ride_book, 10);
-			this.dropItem(RiderItems.blank_wonder_world_story_wonder_ride_book, 1);
+			this.dropItem(ReiwaRiderItems.jaaku_dragon_wonder_ride_book, 1);
+			this.dropItem(ReiwaRiderItems.blank_wonder_ride_book, 10);
+			this.dropItem(ReiwaRiderItems.blank_wonder_world_story_wonder_ride_book, 1);
 			switch (this.rand.nextInt(5))
 			{
 			case 0:
-				this.dropItem(RiderItems.jaou_dragon_wonder_ride_book, 1);
+				this.dropItem(ReiwaRiderItems.jaou_dragon_wonder_ride_book, 1);
 				break;
 			}
 		}

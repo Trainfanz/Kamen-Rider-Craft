@@ -1,6 +1,6 @@
 package Kamen_Rider_Craft_4TH.item.saber;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigodriver;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
@@ -57,8 +57,8 @@ public class Item_haouken_xross_saber extends ItemSword implements IHasModel
     {
     	if (playerIn.inventory.armorInventory.get(1)!= null){
 
-			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()== RiderItems.seiken_swordriver_saber){
-				if (playerIn.inventory.hasItemStack(new ItemStack(RiderItems.brave_dragon_wonderride_book))){
+			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()== ReiwaRiderItems.seiken_swordriver_saber){
+				if (playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.brave_dragon_wonderride_book))){
 					
 					item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "m");
 					item_saberdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "r");
@@ -75,6 +75,6 @@ public class Item_haouken_xross_saber extends ItemSword implements IHasModel
 	
 	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
 	{
-		return RiderItems.blank_wonder_ride_book == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+		return ReiwaRiderItems.blank_wonder_ride_book == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 }

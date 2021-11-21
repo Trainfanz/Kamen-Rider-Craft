@@ -11,7 +11,7 @@ import java.util.UUID;
 import com.google.common.base.Predicates;
 import com.google.common.collect.Sets;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -94,9 +94,9 @@ public class entity_desast extends EntityBossBase
     {
     	if (!this.world.isRemote)
     	{
-			this.dropItem(RiderItems.blank_wonder_world_story_wonder_ride_book, 1);
-			this.dropItem(RiderItems.blank_wonder_ride_book, 10);
-    		this.dropItem(RiderItems.desast_alter_ride_book, 1);
+			this.dropItem(ReiwaRiderItems.blank_wonder_world_story_wonder_ride_book, 1);
+			this.dropItem(ReiwaRiderItems.blank_wonder_ride_book, 10);
+    		this.dropItem(ReiwaRiderItems.desast_alter_ride_book, 1);
     	}   
     }
 } 

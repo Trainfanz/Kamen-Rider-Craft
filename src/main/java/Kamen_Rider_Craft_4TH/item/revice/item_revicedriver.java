@@ -2,6 +2,7 @@ package Kamen_Rider_Craft_4TH.item.revice;
 
 import javax.annotation.Nullable;
 
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.RiderBlocks;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.Tabs;
@@ -134,9 +135,9 @@ public class item_revicedriver extends ItemArmor  implements IHasModel
 			if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST)!= null){
 				if (player.getItemStackFromSlot(EntityEquipmentSlot.LEGS)!= null){
 					if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
-						if (player.getItemStackFromSlot(EntityEquipmentSlot.LEGS).getItem() == RiderItems.revicelegs){
-							if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == RiderItems.revicetroso){
-								if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == RiderItems.revicehead){	
+						if (player.getItemStackFromSlot(EntityEquipmentSlot.LEGS).getItem() == ReiwaRiderItems.revicelegs){
+							if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == ReiwaRiderItems.revicetroso){
+								if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == ReiwaRiderItems.revicehead){	
 
 								}
 							}
@@ -160,7 +161,7 @@ public class item_revicedriver extends ItemArmor  implements IHasModel
 
 	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
 	{
-		return RiderItems.hiden_metal == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+		return ReiwaRiderItems.hiden_metal == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 }
 

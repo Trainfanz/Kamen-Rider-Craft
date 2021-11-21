@@ -13,6 +13,7 @@ package Kamen_Rider_Craft_4TH.model;
 
 import org.lwjgl.opengl.GL11;
 
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_ex_aiddriver;
 import Kamen_Rider_Craft_4TH.item.blade.item_bladedriver;
@@ -107,13 +108,13 @@ public class model_belt_plus extends ModelBiped
 			{					
 				dri = 0.5; 
 				GL11.glRotatef(160, 0, 0, 1);
-			}else if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_battle
-					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_buffalo
-					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_whale
-					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_lion
-					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_penguin
-					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_panda
-					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_jackal)
+			}else if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==ReiwaRiderItems.raidriser_battle
+					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==ReiwaRiderItems.raidriser_buffalo
+					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==ReiwaRiderItems.raidriser_whale
+					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==ReiwaRiderItems.raidriser_lion
+					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==ReiwaRiderItems.raidriser_penguin
+					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==ReiwaRiderItems.raidriser_panda
+					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==ReiwaRiderItems.raidriser_jackal)
 			{				
 				dri = 0.5; 
 				GL11.glTranslated(-0.275,0.1,0.0);
@@ -157,13 +158,13 @@ public class model_belt_plus extends ModelBiped
 			{					
 				dri = 0.5; 
 				GL11.glRotatef(160, 0, 0, 1);
-			}else if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_battle
-					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_buffalo
-					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_whale
-					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_lion
-					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_penguin
-					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_panda
-					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.raidriser_jackal)
+			}else if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==ReiwaRiderItems.raidriser_battle
+					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==ReiwaRiderItems.raidriser_buffalo
+					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==ReiwaRiderItems.raidriser_whale
+					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==ReiwaRiderItems.raidriser_lion
+					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==ReiwaRiderItems.raidriser_penguin
+					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==ReiwaRiderItems.raidriser_panda
+					||living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==ReiwaRiderItems.raidriser_jackal)
 			{					
 				dri = 0.5; 
 				GL11.glTranslated(-0.275,0.1,0);

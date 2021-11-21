@@ -13,7 +13,7 @@ import javax.annotation.Nullable;
 
 import com.google.common.collect.Sets;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -67,19 +67,19 @@ public class entity_raider extends EntityBossBase
 //implements IBossDisplayData
 {
     
-	public static final Item[] belt = new Item[] {RiderItems.raidriser_buffalo,RiderItems.raidriser_whale,RiderItems.raidriser_lion,RiderItems.raidriser_penguin
-			,RiderItems.raidriser_panda,RiderItems.raidriser_jackal};
+	public static final Item[] belt = new Item[] {ReiwaRiderItems.raidriser_buffalo,ReiwaRiderItems.raidriser_whale,ReiwaRiderItems.raidriser_lion,ReiwaRiderItems.raidriser_penguin
+			,ReiwaRiderItems.raidriser_panda,ReiwaRiderItems.raidriser_jackal};
 	
 	private String texture;
 	public entity_raider(World par1World)
 	{
 		super(par1World);
-		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.zero_onetroso));
-		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.zero_onehead));
+		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(ReiwaRiderItems.zero_onetroso));
+		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(ReiwaRiderItems.zero_onehead));
 		Random generator = new Random();
 		int rand = generator.nextInt(belt.length);
 		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(belt[rand]));
-		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.zero_onelegs));
+		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(ReiwaRiderItems.zero_onelegs));
 	}
   
     protected void applyEntityAttributes()
@@ -106,8 +106,8 @@ public class entity_raider extends EntityBossBase
     {
 if (!this.world.isRemote){
 
-   		this.dropItem(RiderItems.humagear_progrise_key, 1);
-   		this.dropItem(RiderItems.hiden_metal, 4);
+   		this.dropItem(ReiwaRiderItems.humagear_progrise_key, 1);
+   		this.dropItem(ReiwaRiderItems.hiden_metal, 4);
 
    		switch (this.rand.nextInt(5))
 		{
@@ -119,22 +119,22 @@ if (!this.world.isRemote){
    		switch (this.rand.nextInt(25))
 		{
 		case 0:
-			this.dropItem(RiderItems.crushing_buffalo_progrise_key, 1);
+			this.dropItem(ReiwaRiderItems.crushing_buffalo_progrise_key, 1);
 			break;
 		case 1:
-			this.dropItem(RiderItems.splashing_whale_progrise_key, 1);
+			this.dropItem(ReiwaRiderItems.splashing_whale_progrise_key, 1);
 			break;
 		case 2:
-			this.dropItem(RiderItems.dynamaiting_lion_progrise_key, 1);
+			this.dropItem(ReiwaRiderItems.dynamaiting_lion_progrise_key, 1);
 			break;
 		case 3:
-			this.dropItem(RiderItems.storming_penguin_progrise_key, 1); 
+			this.dropItem(ReiwaRiderItems.storming_penguin_progrise_key, 1); 
 			break;
 		case 4:
-			this.dropItem(RiderItems.scouting_panda_progrise_key, 1);
+			this.dropItem(ReiwaRiderItems.scouting_panda_progrise_key, 1);
 			break;
 		case 5:
-			this.dropItem(RiderItems.fighting_jackal_progrise_key, 1);
+			this.dropItem(ReiwaRiderItems.fighting_jackal_progrise_key, 1);
 			break;
 		}
    		

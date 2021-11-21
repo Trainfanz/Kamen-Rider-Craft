@@ -6,7 +6,7 @@ import javax.annotation.Nullable;
 
 import com.google.common.base.Predicate;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockColored;
 import net.minecraft.block.material.Material;
@@ -74,7 +74,7 @@ public class EntityIS  extends EntityGolem
 		this.tasks.addTask(2, new EntityAIWander(this, 0.4F));
 		this.tasks.addTask(3, new EntityAILeapAtTarget(this, 0.4F));
 		this.tasks.addTask(4, new EntityAIAttackMelee(this, 1.0D, true));
-		this.tasks.addTask(5, new EntityAITempt(this, 1.0D, RiderItems.blank_progrise_key, false));
+		this.tasks.addTask(5, new EntityAITempt(this, 1.0D, ReiwaRiderItems.blank_progrise_key, false));
 		this.targetTasks.addTask(1, new EntityAINearestAttackableTarget(this, EntityLiving.class, 10, false, true, new Predicate<EntityLiving>()
         {
             public boolean apply(@Nullable EntityLiving p_apply_1_)
@@ -160,7 +160,7 @@ public class EntityIS  extends EntityGolem
 	{
 		if (!this.world.isRemote){
 
-			this.dropItem(RiderItems.is_progrise_key, 1);
+			this.dropItem(ReiwaRiderItems.is_progrise_key, 1);
 
 		}
 

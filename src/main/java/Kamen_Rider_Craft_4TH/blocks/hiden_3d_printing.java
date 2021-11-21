@@ -1,6 +1,6 @@
 package Kamen_Rider_Craft_4TH.blocks;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -44,8 +44,8 @@ public class hiden_3d_printing extends machine_block  {
 
 	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
 		if (!worldIn.isRemote) {
-			if (player.getHeldItem(hand).getItem() == RiderItems.blank_progrise_key) process(player, worldIn, pos, hand, getProgriseKeyDrop(0));
-			else if (player.getHeldItem(hand).getItem() == RiderItems.humagear_progrise_key) process(player, worldIn, pos, hand, getProgriseKeyDrop(1));
+			if (player.getHeldItem(hand).getItem() == ReiwaRiderItems.blank_progrise_key) process(player, worldIn, pos, hand, getProgriseKeyDrop(0));
+			else if (player.getHeldItem(hand).getItem() == ReiwaRiderItems.humagear_progrise_key) process(player, worldIn, pos, hand, getProgriseKeyDrop(1));
 			return true;
 		}
 
