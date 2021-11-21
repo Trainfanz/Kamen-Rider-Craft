@@ -1074,24 +1074,18 @@ public class RiderItems {
 	public static Item sasword_rider_belt_cast = new Item_ore("sasword_rider_belt_cast");
 	public static Item sasword_rider_belt = new item_kabutodriver("sasword_rider_belt",ArmorMaterial.DIAMOND, 4, "sasword",sasword_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
 
-	public static Item kickhopper_rider_belt_cast = new Item_ore("kickhopper_rider_belt_cast");
-	public static Item kickhopper_rider_belt = new item_kabutodriver("kickhopper_rider_belt",ArmorMaterial.DIAMOND, 4, "kickhopper",kickhopper_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
-
-	public static Item puchhopper_rider_belt_cast = new Item_ore("puchhopper_rider_belt_cast");
-	public static Item puchhopper_rider_belt = new item_kabutodriver("puchhopper_rider_belt",ArmorMaterial.DIAMOND, 4,"puchhopper",puchhopper_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item kickhopper_rider_belt = new item_kabutodriver("kickhopper_rider_belt",ArmorMaterial.DIAMOND, 4, "kickhopper",thebee_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item puchhopper_rider_belt = new item_kabutodriver("puchhopper_rider_belt",ArmorMaterial.DIAMOND, 4,"puchhopper",thebee_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
 
 	public static Item dark_kabuto_rider_belt_cast = new Item_ore("dark_kabuto_rider_belt_cast");
 	public static Item dark_kabuto_rider_belt = new item_kabutodriver("dark_kabuto_rider_belt",ArmorMaterial.DIAMOND, 4, "dark_kabuto",dark_kabuto_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
 
-	public static Item caucasus_rider_belt_cast = new Item_ore("caucasus_rider_belt_cast");
-	public static Item caucasus_rider_belt = new item_kabutodriver("caucasus_rider_belt",ArmorMaterial.DIAMOND, 4, "caucasus",caucasus_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
 
-	public static Item hercus_rider_belt_cast = new Item_ore("hercus_rider_belt_cast");
-	public static Item hercus_rider_belt = new item_kabutodriver("hercus_rider_belt",ArmorMaterial.DIAMOND, 4, "hercus",hercus_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item caucasus_rider_belt = new item_kabutodriver("caucasus_rider_belt",ArmorMaterial.DIAMOND, 4, "caucasus",thebee_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item hercus_rider_belt = new item_kabutodriver("hercus_rider_belt",ArmorMaterial.DIAMOND, 4, "hercus",thebee_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item ketaros_rider_belt = new item_kabutodriver("ketaros_rider_belt",ArmorMaterial.DIAMOND, 4, "ketaros",thebee_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
 
-	public static Item ketaros_rider_belt_cast = new Item_ore("ketaros_belt_cast");
-	public static Item ketaros_rider_belt = new item_kabutodriver("ketaros_rider_belt",ArmorMaterial.DIAMOND, 4, "ketaros",ketaros_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
-
+	public static Item lady_rider_belt = new item_kabutodriver("lady_rider_belt",ArmorMaterial.DIAMOND, 4, "lady",thebee_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
 
 	public static Item kabuto_zecter = new Item_zecter("kabuto_zecter","kabuto").setCreativeTab(Tabs.tabkabuto);
 	public static Item hyper_zecter = new Item_zecter("hyper_zecter","hyper").setCreativeTab(Tabs.tabkabuto);
@@ -1103,10 +1097,11 @@ public class RiderItems {
 	public static Item kickhopper_zecter = new Item_ore("kickhopper_zecter").setCreativeTab(Tabs.tabkabuto);
 	public static Item punchhopper_zecter = new Item_ore("punchhopper_zecter").setCreativeTab(Tabs.tabkabuto);
 	public static Item dark_kabuto_zecter = new Item_zecter("dark_kabuto_zecter","dark_kabuto").setCreativeTab(Tabs.tabkabuto);
-	public static Item caucasus_zecter = new Item_ore("caucasus_zecter").setCreativeTab(Tabs.tabkabuto);
-	public static Item hercus_zecter = new Item_ore("hercus_zecter").setCreativeTab(Tabs.tabkabuto);
-	public static Item ketaros_zecter = new Item_ore("ketaros_zecter").setCreativeTab(Tabs.tabkabuto);
-
+	public static Item caucasus_zecter = new Item_zecter("caucasus_zecter","caucasus").setCreativeTab(Tabs.tabkabuto);
+	public static Item hercus_zecter = new Item_zecter("hercus_zecter", "hercus").setCreativeTab(Tabs.tabkabuto);
+	public static Item ketaros_zecter = new Item_zecter("ketaros_zecter", "ketaros").setCreativeTab(Tabs.tabkabuto);
+	public static Item lady_zecter = new Item_ore("lady_zecter").setCreativeTab(Tabs.tabkabuto);
+	
 	public static Item perfectthebee_zecter = new Item_ore("perfectthebee_zecter").setCreativeTab(Tabs.tabkabuto);
 	public static Item perfectdrake_zecter = new Item_ore("perfectdrake_zecter").setCreativeTab(Tabs.tabkabuto);
 	public static Item perfectsasword_zecter = new Item_ore("perfectsasword_zecter").setCreativeTab(Tabs.tabkabuto);
@@ -3130,6 +3125,15 @@ public class RiderItems {
 	public static Item robo_rider_ridewatch = new Item_ore("robo_rider_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item bio_rider_ridewatch = new Item_ore("bio_rider_ridewatch").setCreativeTab(Tabs.tabzi_o);
 
+	public static Item amazon_ridewatch = new Item_ore("amazon_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item stronger_ridewatch = new Item_ore("stronger_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item x_ridewatch = new Item_ore("x_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item riderman_ridewatch = new Item_ore("riderman_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item v3_ridewatch = new Item_ore("v3_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item nigo_ichigo_ridewatch = new Item_ore("nigo_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item ichigo_ridewatch = new Item_ore("ichigo_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	
+	
 	public static Item woz_miridewatch = new Item_ridewatches(0, 0,"woz_miridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item quiz_miridewatch = new Item_ridewatches(2, 22,"quiz_miridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item shinobi_miridewatch = new Item_ridewatches(2, 23,"shinobi_miridewatch").setCreativeTab(Tabs.tabzi_o);
@@ -3150,8 +3154,41 @@ public class RiderItems {
 	public static Item ohma_advent_calendar = new item_ohma_advent_calendar("ohma_advent_calendar").setCreativeTab(Tabs.tabzi_o);
 
 	public static Item kodama_suika_arms = new item_kodamawatch("kodama_suika_arms").setCreativeTab(Tabs.tabzi_o);
-	public static Item another_build_ridewatch = new Item_ore("another_build_ridewatch").setCreativeTab(Tabs.tabzi_o);  
+	
 
+	public static Item another_zero_one_ridewatch = new Item_ore("another_zero_one_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_zi_o_ridewatch = new Item_ore("another_zi_o_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_zi_o_ii_ridewatch = new Item_ore("another_zi_o_ii_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_build_ridewatch = new Item_ore("another_build_ridewatch").setCreativeTab(Tabs.tabzi_o);  
+	public static Item another_exaid_ridewatch = new Item_ore("another_exaid_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_ghost_ridewatch = new Item_ore("another_ghost_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_drive_ridewatch = new Item_ore("another_drive_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_gaim_ridewatch = new Item_ore("another_gaim_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_wizard_ridewatch = new Item_ore("another_wizard_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_fourze_ridewatch = new Item_ore("another_fourze_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_ooo_ridewatch = new Item_ore("another_ooo_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_w_ridewatch = new Item_ore("another_w_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_decade_ridewatch = new Item_ore("another_decade_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_diend_ridewatch = new Item_ore("another_diend_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_kiva_ridewatch = new Item_ore("another_kiva_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_deno_ridewatch = new Item_ore("another_deno_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_kabuto_ridewatch = new Item_ore("another_kabuto_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_hibiki_ridewatch = new Item_ore("another_hibiki_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_blade_ridewatch = new Item_ore("another_blade_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_faiz_ridewatch = new Item_ore("another_faiz_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_ryuki_ridewatch = new Item_ore("another_ryuki_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_ryuga_ridewatch = new Item_ore("another_ryuga_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_agito_ridewatch = new Item_ore("another_agito_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_kuuga_ridewatch = new Item_ore("another_kuuga_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	
+	public static Item another_ichigo_ridewatch = new Item_ore("another_ichigo_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	
+	public static Item another_shinobi_ridewatch = new Item_ore("another_shinobi_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_quiz_ridewatch = new Item_ore("another_quiz_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	public static Item another_kikai_ridewatch = new Item_ore("another_kikai_ridewatch").setCreativeTab(Tabs.tabzi_o);
+	
+	
+	
 	public static Item woz_ridewatch = new Item_ridewatches(0, 0,"woz_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item ryusoulger_ridewatch = new Item_ore("ryusoulger_ridewatch").setCreativeTab(Tabs.tabzi_o);
 
