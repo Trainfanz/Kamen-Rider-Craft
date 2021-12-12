@@ -473,10 +473,10 @@ public class ReiwaRiderItems {
 	public static Item daiouika_vistamp = new Item_Vistamps("daiouika_vistamp").setCreativeTab(Tabs.tabrevice);
 	public static Item wolf_vistamp = new Item_Vistamps("wolf_vistamp").setCreativeTab(Tabs.tabrevice);
 	
-	public static Item rex_vistamp_black_metal_plating = new Item_Vistamps(0,"rex_vistamp_black_metal_plating").setCreativeTab(Tabs.tabrevice);
-	public static Item rex_vistamp_christmas = new Item_Vistamps(0,"rex_vistamp_christmas").setCreativeTab(Tabs.tabrevice);
-	public static Item rex_vistamp_theme_song = new Item_Vistamps(0,"rex_vistamp_theme_song").setCreativeTab(Tabs.tabrevice);
-	public static Item toysaurus_vistamp = new Item_Vistamps(0,"toysaurus_vistamp").setCreativeTab(Tabs.tabrevice);
+	public static Item rex_vistamp_metal = new Item_Vistamps("rex_vistamp_metal").setCreativeTab(Tabs.tabrevice);
+	public static Item rex_vistamp_christmas = new Item_Vistamps("rex_vistamp_christmas").setCreativeTab(Tabs.tabrevice);
+	public static Item rex_vistamp_theme = new Item_Vistamps("rex_vistamp_theme").setCreativeTab(Tabs.tabrevice);
+	public static Item toysaurus_vistamp = new Item_Vistamps("toysaurus_vistamp").setCreativeTab(Tabs.tabrevice);
 	
 	
 	public static void init() {
