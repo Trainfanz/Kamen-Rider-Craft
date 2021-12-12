@@ -1817,6 +1817,11 @@ public class RiderItems {
 	public static Item x_switch = new Item_astroswitch(0,"0","cross",14,"x_switch").setCreativeTab(Tabs.tabFourze);
 	public static Item amazon_switch = new Item_astroswitch(0, "0","square",15,"amazon_switch").setCreativeTab(Tabs.tabFourze);
 	public static Item stronger_switch = new Item_astroswitch(0, "0","circle",16,"stronger_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item skyrider_switch = new Item_astroswitch(0, "0","cross",18,"skyrider_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item super_1_switch = new Item_astroswitch(0, "0","square",19,"super_1_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item zx_switch = new Item_astroswitch(0, "0","circle",19,"zx_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item black_switch = new Item_astroswitch(0, "0","triangle",18,"black_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item black_rx_switch = new Item_astroswitch(0, "0","circle",20,"black_rx_switch").setCreativeTab(Tabs.tabFourze);
 	public static Item kuuga_switch = new Item_astroswitch(0,"0","cross",15,"kuuga_switch").setCreativeTab(Tabs.tabFourze);
 	public static Item agito_switch = new Item_astroswitch(0, "0","triangle",14,"agito_switch").setCreativeTab(Tabs.tabFourze);
 	public static Item ryuki_switch = new Item_astroswitch(0, "0","circle",17,"ryuki_switch").setCreativeTab(Tabs.tabFourze);
