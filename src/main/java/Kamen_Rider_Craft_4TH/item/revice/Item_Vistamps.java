@@ -27,7 +27,7 @@ public class Item_Vistamps extends Item implements IHasModel
 	public int setBase = 0;
 
 	public static String[] ARMS= new String[] {"base","eagle","mammoth","megalodon","ptera","lion","jackal","kong","kamakiri","brachio","kajiki"
-			,"bat","spider","batta","mogura","turtle","scorpion","condor","cobra","","","","","","","","","","","","",""
+			,"bat","spider","batta","mogura","turtle","scorpion","condor","cobra","white_leo","quetzalcoatlus","neo_batta","","","","","","","","","",""
 			,"","","","","","","","","","","","","","","","","","","","","","","","","",""};
 
 
