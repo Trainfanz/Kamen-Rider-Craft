@@ -14,7 +14,8 @@
         "9": "kamenridercraft4th:blocks/ganbarizing_back_side",
         "10": "kamenridercraft4th:blocks/ganbarizing_back_bottom",
         "11": "kamenridercraft4th:blocks/ganbarizing_back_front",
-        "12": "kamenridercraft4th:blocks/ganbarizing_back_top"
+        "12": "kamenridercraft4th:blocks/ganbarizing_back_top",
+		"particle": "kamenridercraft4th:blocks/ganbarizing_side"
     },
    "display": {
         "gui": {

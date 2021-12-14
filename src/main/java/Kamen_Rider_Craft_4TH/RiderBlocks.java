@@ -13,6 +13,7 @@ import Kamen_Rider_Craft_4TH.blocks.purifyer_block;
 import Kamen_Rider_Craft_4TH.blocks.rider_glass_block;
 import Kamen_Rider_Craft_4TH.blocks.solidifyer_block;
 import Kamen_Rider_Craft_4TH.blocks.sword_of_logos_book_analyzer;
+import Kamen_Rider_Craft_4TH.blocks.vistamp_bar;
 import Kamen_Rider_Craft_4TH.blocks.zaia_3d_printing;
 import Kamen_Rider_Craft_4TH.blocks.custom.BlockType;
 import Kamen_Rider_Craft_4TH.blocks.custom.CustomBlock;
@@ -174,6 +175,8 @@ public class RiderBlocks {
 
 	public static Block sword_of_logos_book_analyzer = new sword_of_logos_book_analyzer("sword_of_logos_book_analyzer",Material.ROCK, 2).setCreativeTab(Tabs.tabsaber);
 
+	public static Block vistamp_bar = new vistamp_bar("vistamp_bar",Material.ROCK, 2).setHardness(9.9f).setCreativeTab(Tabs.tabrevice);
+	
 	//boss blocks
 	public static Block evolt_block = new mob_block("evolt_block", Entity_evolt::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
 	public static Block night_rogue_block = new mob_block("night_rogue_block", Entity_NightRogue::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
