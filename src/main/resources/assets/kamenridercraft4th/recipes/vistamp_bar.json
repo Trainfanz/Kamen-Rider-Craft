@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:proto_vistamp"
+    }, "C": {
+      "item": "kamenridercraft4th:rex_vistamp_metal"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:vistamp_bar"
+  }
+}

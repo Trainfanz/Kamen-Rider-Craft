@@ -4,6 +4,7 @@ package Kamen_Rider_Craft_4TH.item.revice;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.blocks.hiden_3d_printing;
+import Kamen_Rider_Craft_4TH.blocks.vistamp_bar;
 import Kamen_Rider_Craft_4TH.blocks.zaia_3d_printing;
 import Kamen_Rider_Craft_4TH.blocks.wood.BlockHelheimVine;
 import Kamen_Rider_Craft_4TH.item.zero_one.Item_progrise_keys;
@@ -103,6 +104,16 @@ public class Item_Vistamps extends Item implements IHasModel
 		CanDemonsUse=true;
 		return this;
 	}
+	
+	public Item_Vistamps AddToVistampBar(int num)
+	{
+		for (int i1 = 0; i1 < num; ++i1)
+		{
+			vistamp_bar.vistamp.add(this);
+		}
+		return this;
+	}
+	
 	/**
 	 * Called when the equipped item is right clicked.
 	 */

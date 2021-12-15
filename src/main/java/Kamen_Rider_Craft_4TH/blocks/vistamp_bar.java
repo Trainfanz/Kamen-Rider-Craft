@@ -32,7 +32,7 @@ public class vistamp_bar extends machine_block  {
 		TokuCraft_core.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
 		TokuCraft_core.BLOCKS.add(this);
 	}
-	public static final List<Item> zaia_progrise_keys = new ArrayList<Item>();
+	public static final List<Item> vistamp = new ArrayList<Item>();
 
 	@Override
 	public void registerModels() {
@@ -57,16 +57,16 @@ public class vistamp_bar extends machine_block  {
         return BlockRenderLayer.CUTOUT;
     }
 
-	private Item getProgriseKeyDrop() {
+	private Item getvistampDrop() {
 		Random generator = new Random();
-			int rand = generator.nextInt(zaia_progrise_keys.size());
-			return zaia_progrise_keys.get(rand);
+			int rand = generator.nextInt(vistamp.size());
+			return vistamp.get(rand);
 		
 	}
 
 	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
 		if (!worldIn.isRemote) {
-			if (player.getHeldItem(hand).getItem() == ReiwaRiderItems.blank_progrise_key) process(player, worldIn, pos, hand, getProgriseKeyDrop());
+			if (player.getHeldItem(hand).getItem() == ReiwaRiderItems.proto_vistamp) process(player, worldIn, pos, hand, getvistampDrop());
 			return true;
 		}
 

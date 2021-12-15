@@ -444,32 +444,34 @@ public class ReiwaRiderItems {
 	public static Item revice_driver = new item_revicedriver("revice_driver",ArmorMaterial.DIAMOND, 4, "revi",0).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item vice_belt = new item_revicedriver("vice_belt",ArmorMaterial.DIAMOND, 4, "vice",0).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 
-	public static Item rex_vistamp = new Item_Vistamps(0,"rex_vistamp").AddReviCanUse().AddViceCanUse().setCreativeTab(Tabs.tabrevice);
-	public static Item eagle_vistamp = new Item_Vistamps(1,"eagle_vistamp").AddReviCanUse().AddViceCanUse().setCreativeTab(Tabs.tabrevice);
-	public static Item mammoth_vistamp = new Item_Vistamps(2,"mammoth_vistamp").AddReviCanUse().AddViceCanUse().setCreativeTab(Tabs.tabrevice);
-	public static Item megalodon_vistamp = new Item_Vistamps(3,"megalodon_vistamp").AddReviCanUse().AddViceCanUse().setCreativeTab(Tabs.tabrevice);
-	public static Item ptera_vistamp = new Item_Vistamps(4,"ptera_vistamp").AddReviCanUse().setCreativeTab(Tabs.tabrevice);
-	public static Item lion_vistamp = new Item_Vistamps(5,"lion_vistamp").AddReviCanUse().AddViceCanUse().setCreativeTab(Tabs.tabrevice);
-	public static Item jackal_vistamp = new Item_Vistamps(6,"jackal_vistamp").AddReviCanUse().AddEvilCanUse().AddLiveCanUse().setCreativeTab(Tabs.tabrevice);
-	public static Item kong_vistamp = new Item_Vistamps(7,"kong_vistamp").AddReviCanUse().AddViceCanUse().setCreativeTab(Tabs.tabrevice);
-	public static Item kamakiri_vistamp = new Item_Vistamps(8,"kamakiri_vistamp").AddReviCanUse().AddViceCanUse().setCreativeTab(Tabs.tabrevice);
-	public static Item brachio_vistamp = new Item_Vistamps(9,"brachio_vistamp").AddReviCanUse().AddViceCanUse().setCreativeTab(Tabs.tabrevice);
-	public static Item kajiki_vistamp = new Item_Vistamps(10,"kajiki_vistamp").AddReviCanUse().AddViceCanUse().setCreativeTab(Tabs.tabrevice);
-	public static Item neo_batta_vistamp = new Item_Vistamps(21,"neo_batta_vistamp").AddReviCanUse().AddViceCanUse().setCreativeTab(Tabs.tabrevice);
+	public static Item rex_vistamp = new Item_Vistamps(0,"rex_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(7).setCreativeTab(Tabs.tabrevice);
+	public static Item eagle_vistamp = new Item_Vistamps(1,"eagle_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(5).setCreativeTab(Tabs.tabrevice);
+	public static Item mammoth_vistamp = new Item_Vistamps(2,"mammoth_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(5).setCreativeTab(Tabs.tabrevice);
+	public static Item megalodon_vistamp = new Item_Vistamps(3,"megalodon_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(5).setCreativeTab(Tabs.tabrevice);
+	public static Item ptera_vistamp = new Item_Vistamps(4,"ptera_vistamp").AddReviCanUse().AddToVistampBar(5).setCreativeTab(Tabs.tabrevice);
+	public static Item lion_vistamp = new Item_Vistamps(5,"lion_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(5).setCreativeTab(Tabs.tabrevice);
+	public static Item jackal_vistamp = new Item_Vistamps(6,"jackal_vistamp").AddReviCanUse().AddEvilCanUse().AddLiveCanUse().AddToVistampBar(5).setCreativeTab(Tabs.tabrevice);
+	public static Item kong_vistamp = new Item_Vistamps(7,"kong_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(3).setCreativeTab(Tabs.tabrevice);
+	public static Item kamakiri_vistamp = new Item_Vistamps(8,"kamakiri_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(3).setCreativeTab(Tabs.tabrevice);
+	public static Item brachio_vistamp = new Item_Vistamps(9,"brachio_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(3).setCreativeTab(Tabs.tabrevice);
+	public static Item kajiki_vistamp = new Item_Vistamps(10,"kajiki_vistamp").AddToVistampBar(1).setCreativeTab(Tabs.tabrevice);
+	public static Item neo_batta_vistamp = new Item_Vistamps(21,"neo_batta_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(1).setCreativeTab(Tabs.tabrevice);
 	
-	public static Item bat_vistamp = new Item_Vistamps(11,"bat_vistamp").AddEvilCanUse().AddLiveCanUse().setCreativeTab(Tabs.tabrevice);
+	public static Item bat_vistamp = new Item_Vistamps(11,"bat_vistamp").AddEvilCanUse().AddLiveCanUse().AddToVistampBar(3).setCreativeTab(Tabs.tabrevice);
 	
-	public static Item spider_vistamp = new Item_Vistamps(12,"spider_vistamp").AddDemonsCanUse().setCreativeTab(Tabs.tabrevice);
-	public static Item batta_vistamp_vistamp = new Item_Vistamps(13,"batta_vistamp").AddDemonsCanUse().setCreativeTab(Tabs.tabrevice);
-	public static Item mogura_vistamp_vistamp = new Item_Vistamps(14,"mogura_vistamp").AddDemonsCanUse().setCreativeTab(Tabs.tabrevice);
-	public static Item turtle_vistamp_vistamp = new Item_Vistamps(15,"turtle_vistamp").setCreativeTab(Tabs.tabrevice);
-	public static Item scorpion_vistamp_vistamp = new Item_Vistamps(16,"scorpion_vistamp").setCreativeTab(Tabs.tabrevice);
+	public static Item spider_vistamp = new Item_Vistamps(12,"spider_vistamp").AddDemonsCanUse().AddToVistampBar(3).setCreativeTab(Tabs.tabrevice);
+	public static Item batta_vistamp_vistamp = new Item_Vistamps(13,"batta_vistamp").AddDemonsCanUse().AddToVistampBar(2).setCreativeTab(Tabs.tabrevice);
+	public static Item mogura_vistamp_vistamp = new Item_Vistamps(14,"mogura_vistamp").AddDemonsCanUse().AddToVistampBar(2).setCreativeTab(Tabs.tabrevice);
+	public static Item scorpion_vistamp_vistamp = new Item_Vistamps(16,"scorpion_vistamp").AddToVistampBar(2).setCreativeTab(Tabs.tabrevice);
+	public static Item turtle_vistamp_vistamp = new Item_Vistamps(15,"turtle_vistamp").AddToVistampBar(2).setCreativeTab(Tabs.tabrevice);
+	public static Item kujaku_vistamp_vistamp = new Item_Vistamps("kujaku_vistamp").AddToVistampBar(2).setCreativeTab(Tabs.tabrevice);
+		
+	public static Item cobra_vistamp = new Item_Vistamps(18,"cobra_vistamp").AddJeanneCanUse().AddToVistampBar(2).setCreativeTab(Tabs.tabrevice);
 	
 	public static Item condor_vistamp_vistamp = new Item_Vistamps(17,"condor_vistamp").AddReviCanUse().AddViceCanUse().AddDemonsCanUse().setCreativeTab(Tabs.tabrevice);
 	public static Item white_leo_vistamp = new Item_Vistamps(19,"white_leo_vistamp").AddReviCanUse().AddViceCanUse().setCreativeTab(Tabs.tabrevice);
 	public static Item quetzalcoatlus_vistamp = new Item_Vistamps(20,"quetzalcoatlus_vistamp").AddReviCanUse().setCreativeTab(Tabs.tabrevice);
-	
-	public static Item cobra_vistamp = new Item_Vistamps(18,"cobra_vistamp").AddJeanneCanUse().setCreativeTab(Tabs.tabrevice);
+
 	
 	public static Item kangaroo_vistamp = new Item_Vistamps("kangaroo_vistamp").setCreativeTab(Tabs.tabrevice);
 	public static Item cheetah_vistamp = new Item_Vistamps("cheetah_vistamp").setCreativeTab(Tabs.tabrevice);
@@ -484,6 +486,10 @@ public class ReiwaRiderItems {
 	public static Item toysaurus_vistamp = new Item_Vistamps("toysaurus_vistamp").setCreativeTab(Tabs.tabrevice);
 	public static Item mammoth_vistamp_china = new Item_Vistamps("mammoth_vistamp_china").setCreativeTab(Tabs.tabrevice);
 	
+
+	public static Item giff_junior_vistamp = new Item_Vistamps("giff_junior_vistamp").setCreativeTab(Tabs.tabrevice);
+	
+	public static Item proto_vistamp = new Item_Vistamps("proto_vistamp").setCreativeTab(Tabs.tabrevice);
 	
 	public static void init() {
 	}
