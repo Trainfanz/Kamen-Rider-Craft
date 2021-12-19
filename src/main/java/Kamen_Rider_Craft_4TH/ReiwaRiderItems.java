@@ -436,6 +436,15 @@ public class ReiwaRiderItems {
 	public static Item wonder_ride_books = new Item_ore("wonder_ride_books");
 	
 	//Revice
+	public static Item proto_vistamp = new Item_Vistamps("proto_vistamp").setCreativeTab(Tabs.tabrevice);
+	
+	public static Item ohin_buster_50 = new Item_sword_gun("ohin_buster_50",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	public static Item gun_de_phone_50 = new Item_gun("gun_de_phone_50",Tabs.den_dengu, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	public static Item osutoderu_hammer_50 = new ItemBaseSword("osutoderu_hammer_50",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	public static Item revice_lasher = new ItemBaseSword("revice_lasher",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	
+	public static Item mammoth_gasher = new ItemBaseSword("mammoth_gasher",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	public static Item kamakiric_arrow = new Item_gun("kamakiric_arrow",Tabs.den_dengu, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	
 	public static Item revicehead = new item_revicearmor("revicehead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item revicetroso = new item_revicearmor2("revicetroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
@@ -489,7 +498,6 @@ public class ReiwaRiderItems {
 
 	public static Item giff_junior_vistamp = new Item_Vistamps("giff_junior_vistamp").setCreativeTab(Tabs.tabrevice);
 	
-	public static Item proto_vistamp = new Item_Vistamps("proto_vistamp").setCreativeTab(Tabs.tabrevice);
 	
 	public static void init() {
 	}
