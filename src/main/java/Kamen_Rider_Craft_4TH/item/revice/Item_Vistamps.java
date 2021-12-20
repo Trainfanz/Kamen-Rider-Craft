@@ -126,7 +126,8 @@ public class Item_Vistamps extends Item implements IHasModel
 				item_revicedriver belt = (item_revicedriver) playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem();
 
 			
-					if (CanReviUse==true&belt.Rider=="revi"||CanViceUse==true&belt.Rider=="vice"){
+					if (CanReviUse==true&belt.Rider=="revi"||CanViceUse==true&belt.Rider=="vice"
+							||CanEvilUse==true&belt.Rider=="evil"||CanLiveUse==true&belt.Rider=="live"){
 
 						item_revicedriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
 						item_revicedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),setBase, "1");			

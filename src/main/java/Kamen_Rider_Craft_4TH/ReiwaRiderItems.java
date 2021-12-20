@@ -453,6 +453,10 @@ public class ReiwaRiderItems {
 	public static Item revice_driver = new item_revicedriver("revice_driver",ArmorMaterial.DIAMOND, 4, "revi",0).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item vice_belt = new item_revicedriver("vice_belt",ArmorMaterial.DIAMOND, 4, "vice",0).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 
+	public static Item two_sidriver_evil = new item_revicedriver("two_sidriver_evil",ArmorMaterial.DIAMOND, 4, "evil",11).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	public static Item two_sidriver_live = new item_revicedriver("two_sidriver_live",ArmorMaterial.DIAMOND, 4, "live",11).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	
+	
 	public static Item rex_vistamp = new Item_Vistamps(0,"rex_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(7).setCreativeTab(Tabs.tabrevice);
 	public static Item eagle_vistamp = new Item_Vistamps(1,"eagle_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(5).setCreativeTab(Tabs.tabrevice);
 	public static Item mammoth_vistamp = new Item_Vistamps(2,"mammoth_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(5).setCreativeTab(Tabs.tabrevice);
