@@ -1810,10 +1810,10 @@ public class RiderItems {
 	public static Item gate_switch = new Item_ore("gate_switch").setCreativeTab(Tabs.tabFourze);
 
 
-	public static Item rider1_switch = new Item_astroswitch(0,"0","cross",13,"1_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item rider2_switch = new Item_astroswitch(0, "0","square",14,"2_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item rider1_switch = new Item_astroswitch(0,"0","cross",13,"rider1_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item rider2_switch = new Item_astroswitch(0, "0","square",14,"rider2_switch").setCreativeTab(Tabs.tabFourze);
 	public static Item v3_switch = new Item_astroswitch(0, "0","triangle",13,"v3_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item riderman_swich = new Item_astroswitch(0, "0","circle",15,"riderman_swich").setCreativeTab(Tabs.tabFourze);
+	public static Item riderman_switch = new Item_astroswitch(0, "0","circle",15,"riderman_switch").setCreativeTab(Tabs.tabFourze);
 	public static Item x_switch = new Item_astroswitch(0,"0","cross",14,"x_switch").setCreativeTab(Tabs.tabFourze);
 	public static Item amazon_switch = new Item_astroswitch(0, "0","square",15,"amazon_switch").setCreativeTab(Tabs.tabFourze);
 	public static Item stronger_switch = new Item_astroswitch(0, "0","circle",16,"stronger_switch").setCreativeTab(Tabs.tabFourze);

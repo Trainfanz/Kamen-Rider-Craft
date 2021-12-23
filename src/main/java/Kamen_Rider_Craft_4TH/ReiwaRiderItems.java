@@ -456,6 +456,8 @@ public class ReiwaRiderItems {
 	public static Item two_sidriver_evil = new item_revicedriver("two_sidriver_evil",ArmorMaterial.DIAMOND, 4, "evil",11).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item two_sidriver_live = new item_revicedriver("two_sidriver_live",ArmorMaterial.DIAMOND, 4, "live",11).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	
+	public static Item demons_driver = new item_revicedriver("demons_driver",ArmorMaterial.DIAMOND, 4, "demons",12).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	
 	
 	public static Item rex_vistamp = new Item_Vistamps(0,"rex_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(7).setCreativeTab(Tabs.tabrevice);
 	public static Item eagle_vistamp = new Item_Vistamps(1,"eagle_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(5).setCreativeTab(Tabs.tabrevice);
@@ -469,6 +471,7 @@ public class ReiwaRiderItems {
 	public static Item brachio_vistamp = new Item_Vistamps(9,"brachio_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(3).setCreativeTab(Tabs.tabrevice);
 	public static Item kajiki_vistamp = new Item_Vistamps(10,"kajiki_vistamp").AddToVistampBar(1).setCreativeTab(Tabs.tabrevice);
 	public static Item neo_batta_vistamp = new Item_Vistamps(21,"neo_batta_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(1).setCreativeTab(Tabs.tabrevice);
+	public static Item kangaroo_vistamp = new Item_Vistamps(22,"kangaroo_vistamp").AddReviCanUse().setCreativeTab(Tabs.tabrevice);
 	
 	public static Item bat_vistamp = new Item_Vistamps(11,"bat_vistamp").AddEvilCanUse().AddLiveCanUse().AddToVistampBar(3).setCreativeTab(Tabs.tabrevice);
 	
@@ -486,7 +489,7 @@ public class ReiwaRiderItems {
 	public static Item quetzalcoatlus_vistamp = new Item_Vistamps(20,"quetzalcoatlus_vistamp").AddReviCanUse().setCreativeTab(Tabs.tabrevice);
 
 	
-	public static Item kangaroo_vistamp = new Item_Vistamps("kangaroo_vistamp").setCreativeTab(Tabs.tabrevice);
+	
 	public static Item cheetah_vistamp = new Item_Vistamps("cheetah_vistamp").setCreativeTab(Tabs.tabrevice);
 	public static Item planarian_vistamp = new Item_Vistamps("planarian_vistamp").setCreativeTab(Tabs.tabrevice);
 	public static Item daiouika_vistamp = new Item_Vistamps("daiouika_vistamp").setCreativeTab(Tabs.tabrevice);
