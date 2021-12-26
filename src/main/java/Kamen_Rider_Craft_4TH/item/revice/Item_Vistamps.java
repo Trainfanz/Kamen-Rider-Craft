@@ -7,6 +7,7 @@ import Kamen_Rider_Craft_4TH.blocks.hiden_3d_printing;
 import Kamen_Rider_Craft_4TH.blocks.vistamp_bar;
 import Kamen_Rider_Craft_4TH.blocks.zaia_3d_printing;
 import Kamen_Rider_Craft_4TH.blocks.wood.BlockHelheimVine;
+import Kamen_Rider_Craft_4TH.item.saber.Item_wonder_ride_book;
 import Kamen_Rider_Craft_4TH.item.zero_one.Item_progrise_keys;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.entity.Entity;
@@ -104,7 +105,12 @@ public class Item_Vistamps extends Item implements IHasModel
 		CanDemonsUse=true;
 		return this;
 	}
-	
+	public Item_Vistamps ChangeForm(int num)
+	{
+		setBase = num;
+		return this;
+	}
+
 	public Item_Vistamps AddToVistampBar(int num)
 	{
 		for (int i1 = 0; i1 < num; ++i1)

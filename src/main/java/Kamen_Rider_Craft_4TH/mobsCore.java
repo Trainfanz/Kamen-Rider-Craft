@@ -9,6 +9,7 @@ import Kamen_Rider_Craft_4TH.mobs.EntityMomotaros;
 import Kamen_Rider_Craft_4TH.mobs.EntityPoppy;
 import Kamen_Rider_Craft_4TH.mobs.EntityRyutaros;
 import Kamen_Rider_Craft_4TH.mobs.EntityUrataros;
+import Kamen_Rider_Craft_4TH.mobs.EntityVice;
 import Kamen_Rider_Craft_4TH.mobs.Entity_kodama_suika_arms;
 import Kamen_Rider_Craft_4TH.mobs.Entity_ridevendor_vending;
 import Kamen_Rider_Craft_4TH.mobs.Entityaccel;
@@ -492,6 +493,9 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":ChaybdisMob"),entity_charybdis.class, "ChaybdisMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xeaeaea,0xd9a900);
 		EntityRegistry.addSpawn(entity_charybdis.class,  15, 1, 4, EnumCreatureType.MONSTER,Biome.getBiome(8));
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":ChaybdisHerculesMob"),entity_charybdis_hercules.class, "ChaybdisHerculesMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xeaeaea,0xb43939);
+	
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":ViceMob"),EntityVice.class, "ViceMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xeaeaea,0xd9a900);
+		
 	}
 
 

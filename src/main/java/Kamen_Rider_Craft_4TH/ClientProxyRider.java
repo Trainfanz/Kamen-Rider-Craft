@@ -11,6 +11,7 @@ import Kamen_Rider_Craft_4TH.mobs.EntityMomotaros;
 import Kamen_Rider_Craft_4TH.mobs.EntityPoppy;
 import Kamen_Rider_Craft_4TH.mobs.EntityRyutaros;
 import Kamen_Rider_Craft_4TH.mobs.EntityUrataros;
+import Kamen_Rider_Craft_4TH.mobs.EntityVice;
 import Kamen_Rider_Craft_4TH.mobs.Entity_kodama_suika_arms;
 import Kamen_Rider_Craft_4TH.mobs.Entity_ridevendor_vending;
 import Kamen_Rider_Craft_4TH.mobs.Entityaccel;
@@ -376,6 +377,9 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(entity_storious_rider.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/storious.png"));
 		RenderingRegistry.registerEntityRenderingHandler(entity_charybdis.class, new RenderRiderMob2(new tokuMobModel("charybdis_2"), 0.5F,"textures/entities/charybdis_1.png"));
 		RenderingRegistry.registerEntityRenderingHandler(entity_charybdis_hercules.class, new RenderRiderMob2(new tokuMobModel("charybdis_hercules_2"), 0.5F,"textures/entities/charybdis_hercules_1.png"));
+		
+		RenderingRegistry.registerEntityRenderingHandler(EntityVice.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/vice.png"));
+		
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityAcrobatter.class, new RenderRiderMob2(new Model_machine_builder(), 0.5F,"textures/entities/acrobatter.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_ridoron.class, new RenderRiderMob2(new model_ridoron(), 0.5F,"textures/entities/ridoron.png"));

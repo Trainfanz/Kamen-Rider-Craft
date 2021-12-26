@@ -149,7 +149,11 @@ public class item_revicedriver extends ItemArmor  implements IHasModel
 	}
 
 
-
+	public static int get_lock(ItemStack itemstack)
+	{	
+		return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("seed")!=0? itemstack.getTagCompound().getInteger("seed"): 0 : 0;
+	}
+	
 	public static void set_lock(ItemStack itemstack,int flag)
 	{
 		if (!itemstack.hasTagCompound())

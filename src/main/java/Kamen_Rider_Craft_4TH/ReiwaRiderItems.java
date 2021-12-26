@@ -1,5 +1,6 @@
 package Kamen_Rider_Craft_4TH;
 
+import Kamen_Rider_Craft_4TH.item.ItemBaseShield;
 import Kamen_Rider_Craft_4TH.item.ItemBaseSword;
 import Kamen_Rider_Craft_4TH.item.Item_gun;
 import Kamen_Rider_Craft_4TH.item.Item_ore;
@@ -443,6 +444,9 @@ public class ReiwaRiderItems {
 	public static Item osutoderu_hammer_50 = new ItemBaseSword("osutoderu_hammer_50",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item revice_lasher = new ItemBaseSword("revice_lasher",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	
+	public static Item egg_shield = new ItemBaseShield("egg_shield",proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	
+	
 	public static Item mammoth_gasher = new ItemBaseSword("mammoth_gasher",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item kamakiric_arrow = new Item_gun("kamakiric_arrow",Tabs.den_dengu, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	
@@ -460,6 +464,8 @@ public class ReiwaRiderItems {
 	
 	
 	public static Item rex_vistamp = new Item_Vistamps(0,"rex_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(7).setCreativeTab(Tabs.tabrevice);
+	public static Item barid_rex_vistamp = new Item_Vistamps(0,"barid_rex_vistamp").AddReviCanUse().AddViceCanUse().ChangeForm(1).AddToVistampBar(7).setCreativeTab(Tabs.tabrevice);
+	
 	public static Item eagle_vistamp = new Item_Vistamps(1,"eagle_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(5).setCreativeTab(Tabs.tabrevice);
 	public static Item mammoth_vistamp = new Item_Vistamps(2,"mammoth_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(5).setCreativeTab(Tabs.tabrevice);
 	public static Item megalodon_vistamp = new Item_Vistamps(3,"megalodon_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(5).setCreativeTab(Tabs.tabrevice);
@@ -469,7 +475,7 @@ public class ReiwaRiderItems {
 	public static Item kong_vistamp = new Item_Vistamps(7,"kong_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(3).setCreativeTab(Tabs.tabrevice);
 	public static Item kamakiri_vistamp = new Item_Vistamps(8,"kamakiri_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(3).setCreativeTab(Tabs.tabrevice);
 	public static Item brachio_vistamp = new Item_Vistamps(9,"brachio_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(3).setCreativeTab(Tabs.tabrevice);
-	public static Item kajiki_vistamp = new Item_Vistamps(10,"kajiki_vistamp").AddToVistampBar(1).setCreativeTab(Tabs.tabrevice);
+	public static Item kajiki_vistamp = new Item_Vistamps("kajiki_vistamp").AddToVistampBar(1).setCreativeTab(Tabs.tabrevice);//10
 	public static Item neo_batta_vistamp = new Item_Vistamps(21,"neo_batta_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(1).setCreativeTab(Tabs.tabrevice);
 	public static Item kangaroo_vistamp = new Item_Vistamps(22,"kangaroo_vistamp").AddReviCanUse().setCreativeTab(Tabs.tabrevice);
 	
