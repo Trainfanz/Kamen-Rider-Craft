@@ -459,6 +459,9 @@ public class CraftingRecipeForRider {
 		
 		GameRegistry.addSmelting(new ItemStack(RiderItems.dragon_sclashjelly),new ItemStack(RiderItems.dragon_magma_full_bottle), 1);
 
+		GameRegistry.addSmelting(new ItemStack(RiderBlocks.ginga_meteor),new ItemStack(RiderItems.solu_switch), 1);
+
+		
 		GameRegistry.addSmelting(new ItemStack(RiderItems.cellmedal),new ItemStack(RiderItems.cell_alloy_ingot), 1);
 		GameRegistry.addSmelting(new ItemStack(RiderItems.purple_medals_empty),new ItemStack(Blocks.STONE), 1);
 		

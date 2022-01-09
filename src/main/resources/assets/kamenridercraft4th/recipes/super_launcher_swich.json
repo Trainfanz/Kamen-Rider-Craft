@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:launcher_switch"
+    }, 
+    {
+      "item": "kamenridercraft4th:solu_switch"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:super_launcher_swich"
+  }
+}

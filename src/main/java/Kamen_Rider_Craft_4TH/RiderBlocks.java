@@ -1,5 +1,6 @@
 package Kamen_Rider_Craft_4TH;
 
+import Kamen_Rider_Craft_4TH.blocks.AstroSwitchProgrammer;
 import Kamen_Rider_Craft_4TH.blocks.BlockCustomDoor;
 import Kamen_Rider_Craft_4TH.blocks.BlockCustomStaris;
 import Kamen_Rider_Craft_4TH.blocks.GameCreatorBlock;
@@ -126,6 +127,15 @@ public class RiderBlocks {
 
 	public static Block ginga_meteor = CustomBlock.builder().material(Material.ROCK).hardness(1F).lightLevel(1f).blockType(BlockType.BASIC).name("ginga_meteor").setCreativeTabe(Tabs.tabdecor).build();
 	
+	public static Block rabbit_hutch_cyan = CustomBlock.builder().material(Material.ROCK).hardness(1F).blockType(BlockType.BASIC).name("rabbit_hutch_cyan").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block rabbit_hutch_cyan2 = CustomBlock.builder().material(Material.ROCK).hardness(1F).blockType(BlockType.BASIC).name("rabbit_hutch_cyan2").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block rabbit_hutch_cyan_light = CustomBlock.builder().material(Material.ROCK).hardness(1F).blockType(BlockType.BASIC).name("rabbit_hutch_cyan_light").lightLevel(1f).setCreativeTabe(Tabs.tabdecor).build();
+	
+	public static Block rabbit_hutch_light = CustomBlock.builder().material(Material.ROCK).hardness(1F).blockType(BlockType.BASIC).name("rabbit_hutch_light").lightLevel(1f).setCreativeTabe(Tabs.tabdecor).build();
+	public static Block rabbit_hutch_computer_stairs = new BlockCustomStaris(Blocks.STONE.getDefaultState(), "rabbit_hutch_computer_stairs").setLightLevel(1f).setCreativeTab(Tabs.tabdecor);
+	public static Block rabbit_hutch_computer_stairs2 = new BlockCustomStaris(Blocks.STONE.getDefaultState(), "rabbit_hutch_computer_stairs2").setLightLevel(1f).setCreativeTab(Tabs.tabdecor);
+	
+	
 	public static Block sword_of_logos_stairs = new BlockCustomStaris(Blocks.ACACIA_STAIRS.getDefaultState(), "sword_of_logos_stairs").setCreativeTab(Tabs.tabdecor);
 	public static Block sword_of_logos_bookshelf = CustomBlock.builder().material(Material.WOOD).hardness(1F).blockType(BlockType.BASIC).name("sword_of_logos_bookshelf").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block planks_big_oak_golden_trim = CustomBlock.builder().material(Material.WOOD).hardness(1F).blockType(BlockType.BASIC).name("planks_big_oak_golden_trim").setCreativeTabe(Tabs.tabdecor).build();
@@ -163,6 +173,7 @@ public class RiderBlocks {
 	public static Block gaia_memory_refiner = new gaia_memory_refiner_block("gaia_memory_refiner",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabW);
 	
 	public static Block cell_medal_programer = new cell_medal_programer_block("cell_medal_programer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabOOO);
+	public static Block astro_switch_programer = new AstroSwitchProgrammer("astro_switch_programer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabFourze);
 	
 	public static Block gamecreator = new GameCreatorBlock("gamecreator",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabex_aid);
 	public static Block ganbarizing = new ganbarizing_block("ganbarizing",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabex_aid);

@@ -23,6 +23,13 @@ public class Entityred_follower extends Entity_base_henchmen
 				break;
 
 			}
+			switch (this.rand.nextInt(25))
+			{   		   	    		
+			case 0:
+				this.dropItem(RiderItems.clear_drill_swich, 1);
+				break;
+
+			}
 		}
 	}
 }

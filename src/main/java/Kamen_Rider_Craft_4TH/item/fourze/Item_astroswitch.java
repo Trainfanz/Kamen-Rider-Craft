@@ -2,6 +2,9 @@ package Kamen_Rider_Craft_4TH.item.fourze;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.blocks.AstroSwitchProgrammer;
+import Kamen_Rider_Craft_4TH.blocks.vistamp_bar;
+import Kamen_Rider_Craft_4TH.item.revice.Item_Vistamps;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -38,7 +41,14 @@ public class Item_astroswitch extends Item implements IHasModel
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
 	}
-
+	public Item_astroswitch AddToAstroSwitchProgrammer(int num)
+	{
+		for (int i1 = 0; i1 < num; ++i1)
+		{
+			AstroSwitchProgrammer.AstroSwitch.add(this);
+		}
+		return this;
+	}
 	@Override
 	 public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer player, EnumHand handIn)
     {
