@@ -11,6 +11,7 @@ import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.util.BlockRenderLayer;
+import net.minecraft.util.EnumBlockRenderType;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.SoundCategory;
@@ -48,13 +49,18 @@ public class AstroSwitchProgrammer extends machine_block  {
     @Override
     public boolean isFullCube(IBlockState state)
     {
-        return true;
+        return false;
     }
 
     @SideOnly(Side.CLIENT)
     public BlockRenderLayer getRenderLayer()
     {
-        return BlockRenderLayer.CUTOUT;
+        return BlockRenderLayer.TRANSLUCENT;
+    }
+    
+    public EnumBlockRenderType getRenderType(IBlockState state)
+    {
+        return EnumBlockRenderType.MODEL;
     }
 
 	private Item getAstroSwitchDrop() {
