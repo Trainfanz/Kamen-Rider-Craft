@@ -60,6 +60,7 @@ import Kamen_Rider_Craft_4TH.item.fourze.Item_astroswitch;
 import Kamen_Rider_Craft_4TH.item.fourze.item_Fourzearmor;
 import Kamen_Rider_Craft_4TH.item.fourze.item_Fourzearmor2;
 import Kamen_Rider_Craft_4TH.item.fourze.item_Fourzedriver;
+import Kamen_Rider_Craft_4TH.item.fourze.item_gate_switch;
 import Kamen_Rider_Craft_4TH.item.gaim.Item_lockseed;
 import Kamen_Rider_Craft_4TH.item.gaim.Item_lockseed_Bike;
 import Kamen_Rider_Craft_4TH.item.gaim.item_Gaimarmor;
@@ -1807,7 +1808,7 @@ public class RiderItems {
 
 	public static Item solu_switch = new Item_ore("solu_switch").setCreativeTab(Tabs.tabFourze);
 	public static Item core_switch = new Item_ore("core_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item gate_switch = new Item_ore("gate_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item gate_switch = new item_gate_switch("gate_switch").setCreativeTab(Tabs.tabFourze);
 
 
 	public static Item rider1_switch = new Item_astroswitch(0,"0","cross",13,"rider1_switch").setCreativeTab(Tabs.tabFourze);

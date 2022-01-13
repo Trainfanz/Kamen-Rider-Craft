@@ -26,7 +26,7 @@ public class biome_northern_base extends Biome {
 
 
 	biome_northern_base() {
-		super(new BiomeProperties(modDimensionWorldGen.NORTHERN_BASE_NAME).setBaseHeight(1.0F).setHeightVariation(-0.11F).setTemperature(0F));
+		super(new BiomeProperties(modDimensionWorldGen.NORTHERN_BASE_NAME).setBaseHeight(1.0F).setHeightVariation(-0.15F).setTemperature(0F));
 	
 		this.spawnableCreatureList.clear();
 		this.spawnableMonsterList.clear();

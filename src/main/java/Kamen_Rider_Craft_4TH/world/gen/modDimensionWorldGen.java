@@ -25,8 +25,11 @@ public class modDimensionWorldGen
     public static final String NORTHERN_BASE_NAME = "northern_base";
     public static final int NORTHERN_BASE_DIM_ID = DimensionManager.getNextFreeDimId()+2;
     public static final DimensionType NORTHERN_BASE_DIM_TYPE = DimensionType.register(NORTHERN_BASE_NAME, "_"+NORTHERN_BASE_NAME, NORTHERN_BASE_DIM_ID, worldProvider_northern_base.class, true);
-   
     
+    public static final String RABBIT_HUTCH_NAME = "rabbit_hutch";
+    public static final int RABBIT_HUTCH_DIM_ID = DimensionManager.getNextFreeDimId()+4;
+    public static final DimensionType RABBIT_HUTCH_DIM_TYPE = DimensionType.register(RABBIT_HUTCH_NAME, "_"+RABBIT_HUTCH_NAME, RABBIT_HUTCH_DIM_ID, worldProvider_rabbit_hutch.class, true);
+  
     /**
      * Register dimensions.
      */
@@ -34,5 +37,6 @@ public class modDimensionWorldGen
         DimensionManager.registerDimension(HELHEIM_DIM_ID, HELHEIM_DIM_TYPE);
         DimensionManager.registerDimension(SANDSOFTIME_DIM_ID, SANDSOFTIME_DIM_TYPE);
         DimensionManager.registerDimension(NORTHERN_BASE_DIM_ID, NORTHERN_BASE_DIM_TYPE);
+        DimensionManager.registerDimension(RABBIT_HUTCH_DIM_ID, RABBIT_HUTCH_DIM_TYPE);
     }
 }

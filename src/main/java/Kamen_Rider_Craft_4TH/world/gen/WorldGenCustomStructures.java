@@ -8,6 +8,7 @@ import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.biome.biomeHelheim;
 import Kamen_Rider_Craft_4TH.biome.biomeSandOfTime;
 import Kamen_Rider_Craft_4TH.biome.biome_northern_base;
+import Kamen_Rider_Craft_4TH.biome.biome_rabbit_hutch;
 import Kamen_Rider_Craft_4TH.world.gen.generators.WorldGenStructure;
 import com.google.common.collect.Lists;
 import net.minecraft.block.Block;
@@ -67,6 +68,7 @@ public class WorldGenCustomStructures implements IWorldGenerator
 	
 	public static final WorldGenStructure northern_base = new WorldGenStructure("northern_base");
 	
+	public static final WorldGenStructure rabbit_hutch = new WorldGenStructure("rabbit_hutch");
 
 	public static final WorldGenStructure core_boss_structuer = new WorldGenStructure("core_boss_structuer");
 	public static final WorldGenStructure BURAKAWANI = new WorldGenStructure("burakawani");
@@ -106,6 +108,11 @@ public class WorldGenCustomStructures implements IWorldGenerator
 			
 			if (world.getChunk(new BlockPos(world.getSpawnPoint().getX(),world.getSpawnPoint().getY(),world.getSpawnPoint().getZ()))==world.getChunk(chunkX, chunkZ)){
 			MustGenerateStructure(northern_base, world, random, chunkX, chunkZ,-2, 700, Blocks.ICE,biome_northern_base.class);
+			}
+		}else 	if (modDimensionWorldGen.RABBIT_HUTCH_DIM_ID==world.provider.getDimension()){
+
+			if (world.getChunk(new BlockPos(world.getSpawnPoint().getX(),world.getSpawnPoint().getY(),world.getSpawnPoint().getZ()))==world.getChunk(chunkX, chunkZ)){
+			MustGenerateStructure(rabbit_hutch, world, random, chunkX, chunkZ,-2, 700, Blocks.STONE,biome_rabbit_hutch.class);
 			}
 		}else if (modDimensionWorldGen.SANDSOFTIME_DIM_ID==world.provider.getDimension()){
 			generateStructureWM(denliner, world, random, chunkX, chunkZ,0, 300, RiderItems.imaginsandblock,biomeSandOfTime.class);

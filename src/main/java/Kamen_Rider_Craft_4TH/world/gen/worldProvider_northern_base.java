@@ -50,7 +50,10 @@ public class worldProvider_northern_base extends WorldProvider {
     {
         return true;
     }
-
+    public boolean doesWaterVaporize()
+    {
+        return true;
+    }
     @Override
     public boolean canSnowAt(BlockPos pos, boolean checkLight)
     {
