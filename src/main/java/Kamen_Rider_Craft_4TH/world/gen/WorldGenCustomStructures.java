@@ -73,6 +73,9 @@ public class WorldGenCustomStructures implements IWorldGenerator
 	public static final WorldGenStructure core_boss_structuer = new WorldGenStructure("core_boss_structuer");
 	public static final WorldGenStructure BURAKAWANI = new WorldGenStructure("burakawani");
 	
+
+	public static final WorldGenStructure M_BUS = new WorldGenStructure("m_bus");
+	
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
 		switch(world.provider.getDimension()) {
@@ -114,6 +117,10 @@ public class WorldGenCustomStructures implements IWorldGenerator
 			if (world.getChunk(new BlockPos(world.getSpawnPoint().getX(),world.getSpawnPoint().getY(),world.getSpawnPoint().getZ()))==world.getChunk(chunkX, chunkZ)){
 			MustGenerateStructure(rabbit_hutch, world, random, chunkX, chunkZ,-2, 700, Blocks.STONE,biome_rabbit_hutch.class);
 			}
+			
+			generateStructure(M_BUS, world, random, chunkX, chunkZ,-35, 350, Blocks.STONE,biome_rabbit_hutch.class);
+			
+			
 		}else if (modDimensionWorldGen.SANDSOFTIME_DIM_ID==world.provider.getDimension()){
 			generateStructureWM(denliner, world, random, chunkX, chunkZ,0, 300, RiderItems.imaginsandblock,biomeSandOfTime.class);
 			
