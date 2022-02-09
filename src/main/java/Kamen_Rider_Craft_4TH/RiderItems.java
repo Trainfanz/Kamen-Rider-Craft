@@ -1747,6 +1747,8 @@ public class RiderItems {
 
 	public static Item ikaros_wing = new Item_ore("ikaros_wing");
 	public static Item ikarosdriver = new item_Fourzedriver("ikarosdriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabFourze);
+	
+	public static Item ginga_oh_driver = new item_Fourzedriver("ginga_oh_driver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabFourze);
 
 
 	public static Item rocket_swich = new Item_astroswitch(0, "1","circle",1,"rocket_swich").AddToAstroSwitchProgrammer(20).setCreativeTab(Tabs.tabFourze);

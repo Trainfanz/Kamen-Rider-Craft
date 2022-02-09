@@ -123,7 +123,13 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 					armorModel.bipedLeftLeg2.showModel = slot == EntityEquipmentSlot.CHEST;
 
 				}
-				armorModel.belt=stack;
+				if(stack.getItem() == RiderItems.ginga_oh_driver) {
+					 armorModel.belt=new ItemStack(RiderItems.blanknoitem);
+                }else{
+                	armorModel.belt=stack;
+                	 
+                }
+				
 				armorModel.isSneak = living.isSneaking();
 				armorModel.isRiding = living.isRiding();
 				armorModel.isChild = living.isChild();

@@ -122,7 +122,16 @@ public class item_Fourzearmor2 extends ItemArmor implements IHasModel
 						return Refercence.MODID+":textures/armor/"+"ikaros_1.png";
 					}
 					
-				}
+				}else if(player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.ginga_oh_driver){
+					if (  slot == EntityEquipmentSlot.LEGS)
+					{	
+						return Refercence.MODID+":textures/armor/"+"super_gingaoh_2.png";
+					}
+					if (slot == EntityEquipmentSlot.HEAD||slot == EntityEquipmentSlot.CHEST )
+					{
+						return Refercence.MODID+":textures/armor/"+"super_gingaoh_1.png";
+					}
+					}
 				else if(player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.meteor_driver){
 					if (  slot == EntityEquipmentSlot.LEGS)
 					{

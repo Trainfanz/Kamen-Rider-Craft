@@ -100,6 +100,16 @@ public class item_Fourzearmor extends ItemArmor implements IHasModel
 						}
 					}
 					
+				}	else if(player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.ginga_oh_driver){
+					if (  slot == EntityEquipmentSlot.LEGS)
+					{	
+						return Refercence.MODID+":textures/armor/"+"super_gingaoh_2.png";
+					}
+					if (slot == EntityEquipmentSlot.HEAD||slot == EntityEquipmentSlot.CHEST )
+					{
+						return Refercence.MODID+":textures/armor/"+"super_gingaoh_1.png";
+					}
+					
 				}
 				return Refercence.MODID+":textures/armor/blank.png";
 

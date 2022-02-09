@@ -288,6 +288,9 @@ tile.poseidon_boss_block.name=Poseidon Block
 tile.pure_gaia_memory_block.name=Pure Gaia Memory Block
 tile.cell_medal_programer.name=Cell Medal Programer
 
+tile.amazon_cell_extractor.name=Amazon Cell Extractor
+tile.amazon_cell_mutator.name=Amazon Cell Mutator
+
 tile.purifyer.name=Fullbottle Purifier
 tile.solidifyer.name=Fullbottle Solidifier
 
@@ -2915,6 +2918,17 @@ item.condorer_core_blind_alpha.name=Condorer Core (Blind Alpha)
 
 item.amazon_injector_neo.name=Amazon Injector (Neo)
 item.amazon_injector_new_omega.name=Amazon Injector (New Omega)
+item.amazon_injector_neo_alpha.name=Amazon Injector (Neo Alpha)
+
+item.omega_amazon_cell_vial.name=Omega Amazon Cell Sample
+item.alpha_amazon_cell_vial.name=Alpha Amazon Cell Sample
+item.sigma_amazon_cell_vial.name=Sigma Amazon Cell Sample
+item.neo_amazon_cell_vial.name=Neo Amazon Cell Sample
+
+item.empty_vial.name=Empty Vial
+
+item.gaga_armlet.name=Gaga Armlet
+item.gigi_armlet.name=Gigi Armlet
 
 itemGroup.tab_kikaider=Android Kikaider
 item.kikaider_circuit.name=Kikaider Circuit
