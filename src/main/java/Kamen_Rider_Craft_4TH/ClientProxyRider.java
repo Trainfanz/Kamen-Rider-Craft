@@ -1,6 +1,8 @@
 package Kamen_Rider_Craft_4TH;
 
 
+import javax.swing.text.html.parser.Entity;
+
 import com.jcraft.jorbis.Block;
 
 import Kamen_Rider_Craft_4TH.mobs.EntityAnkh;
@@ -35,6 +37,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Duke;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Durendal;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_EngineBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Eternal;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Evil;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Falchion;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Ginga;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_HellBros;
@@ -115,6 +118,7 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityRidePlayer;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityRiotrooper;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityShimi;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_foundation_x_masquerade;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_giff_junior;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_hard_guardian;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_knight_soldier;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_magiadodo_chick;
@@ -379,7 +383,8 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(entity_charybdis_hercules.class, new RenderRiderMob2(new tokuMobModel("charybdis_hercules_2"), 0.5F,"textures/entities/charybdis_hercules_1.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityVice.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/vice.png"));
-		
+		RenderingRegistry.registerEntityRenderingHandler(Entity_giff_junior.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/giff_junior.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_Evil.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/giff_junior.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityAcrobatter.class, new RenderRiderMob2(new Model_machine_builder(), 0.5F,"textures/entities/acrobatter.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_ridoron.class, new RenderRiderMob2(new model_ridoron(), 0.5F,"textures/entities/ridoron.png"));

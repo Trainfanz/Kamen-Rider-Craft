@@ -445,10 +445,12 @@ public class ReiwaRiderItems {
 	public static Item revice_lasher = new ItemBaseSword("revice_lasher",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	
 	public static Item egg_shield = new ItemBaseShield("egg_shield",proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
-	
-	
+
 	public static Item mammoth_gasher = new ItemBaseSword("mammoth_gasher",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item kamakiric_arrow = new Item_gun("kamakiric_arrow",Tabs.den_dengu, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	
+	public static Item giff_junior_sword = new Item_sword_gun("giff_junior_sword",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+
 	
 	public static Item revicehead = new item_revicearmor("revicehead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item revicetroso = new item_revicearmor2("revicetroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
