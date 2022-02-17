@@ -105,7 +105,7 @@ public class Entity_Evil extends EntityBossBase
 	{
 		super.applyEntityAttributes();
 		this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(60.0D);
-		this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.15000001192092896D);
+		this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.3000001192092896D);
 		this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(5.0D);
 		this.getEntityAttribute(SharedMonsterAttributes.FOLLOW_RANGE).setBaseValue(128.0D);
 	}
@@ -114,7 +114,7 @@ public class Entity_Evil extends EntityBossBase
 	  @Override
 	    public ItemStack getHeldItemMainhand()
 	    {
-	        return new ItemStack(ReiwaRiderItems.ankokuken_kurayami);
+	        return new ItemStack(ReiwaRiderItems.evil_blade);
 	    }
 	
 	
