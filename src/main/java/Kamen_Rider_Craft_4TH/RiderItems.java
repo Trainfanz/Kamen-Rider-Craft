@@ -1735,7 +1735,8 @@ public class RiderItems {
 	public static Item billytherod = new ItemBaseSword("billytherod",ToolMaterial.DIAMOND, RiderItems.astroswitch).setMaxStackSize(1).setCreativeTab(Tabs.tabFourze);
 	public static Item hee_hackgun = new Item_fireball_gun("hee_hackgun", ToolMaterial.DIAMOND, RiderItems.astroswitch).setMaxStackSize(1).setCreativeTab(Tabs.tabFourze);
 	public static Item barizun_sword = new ItemChargeSword("barizun_sword",ToolMaterial.DIAMOND, RiderItems.astroswitch).setMaxStackSize(1).setCreativeTab(Tabs.tabFourze);
-
+	
+	public static Item meteor_storm_shaft = new ItemBaseSword("meteor_storm_shaft",ToolMaterial.DIAMOND, RiderItems.astroswitch).setMaxStackSize(1).setCreativeTab(Tabs.tabFourze);
 
 	public static Item Fourzehead = new item_Fourzearmor("fourzehead",ArmorMaterial.DIAMOND, 4,EntityEquipmentSlot.HEAD ).setMaxStackSize(1).setCreativeTab(Tabs.tabFourze);
 	public static Item Fourzetroso = new item_Fourzearmor2("fourzetroso",ArmorMaterial.DIAMOND, 4,EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabFourze);
