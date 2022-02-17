@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "ABC",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:astroswitch"
+    }, "A": {
+      "item": "kamenridercraft4th:cosmic_swich"
+    }, "B": {
+      "item": "kamenridercraft4th:clear_drill_swich"
+    }, "C": {
+      "item": "kamenridercraft4th:meteor_storm_swich"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:fusion_swich"
+  }
+}

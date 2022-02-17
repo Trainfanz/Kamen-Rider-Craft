@@ -1,6 +1,8 @@
 package Kamen_Rider_Craft_4TH.item.revice;
 
 
+import javax.annotation.Nullable;
+
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.blocks.hiden_3d_printing;
@@ -11,14 +13,19 @@ import Kamen_Rider_Craft_4TH.item.saber.Item_wonder_ride_book;
 import Kamen_Rider_Craft_4TH.item.zero_one.Item_progrise_keys;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.item.IItemPropertyGetter;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumHand;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 
 public class Item_Vistamps extends Item implements IHasModel
@@ -52,7 +59,7 @@ public class Item_Vistamps extends Item implements IHasModel
 		TokuCraft_core.ITEMS.add(this);
 
 	}
-
+	
 	public Item_Vistamps(String name)
 	{
 		super();

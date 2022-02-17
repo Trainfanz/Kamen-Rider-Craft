@@ -82,6 +82,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_redyue;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_roshuo;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_shocker_riders;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_storious;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_super_gingaoh;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_taboo_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_uva;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_zooous;
@@ -418,6 +419,9 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":RedNazcaDopantMob"),Entity_red_nazca_dopant.class, "RedNazcaDopantMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x161616,0x0092BB);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":TabooDopantMob"),Entity_taboo_dopant.class, "TabooDopantMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x161616,0x0092BB);
 
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":super_gingaohMob"),Entity_super_gingaoh.class, "super_gingaohMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x191b32,0x9e6f00);
+
+		
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":KurokageTroopersMob"),EntityKurokageTroopers.class, "KurokageTroopersMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x6a4916, 0x333333);
 
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":ElementaryInvesGreenMob"),EntityElementaryInvesGreen.class, "ElementaryInvesGreenMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xefefee,0x007800);

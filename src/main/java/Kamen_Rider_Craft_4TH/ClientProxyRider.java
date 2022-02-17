@@ -88,6 +88,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_redyue;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_roshuo;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_shocker_riders;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_storious;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_super_gingaoh;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_taboo_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_uva;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_zooous;
@@ -251,6 +252,9 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(entity_kujaku_can.class, new RenderRiderMob(new model_kujaku_can(), 0.5F,"textures/entities/kujaku_can.png"));
 		RenderingRegistry.registerEntityRenderingHandler(entity_ptera_can.class, new RenderRiderMob(new model_ptera_can(), 0.5F,"textures/entities/ptera_can.png"));
 		RenderingRegistry.registerEntityRenderingHandler(entity_tricera_can.class, new RenderRiderMob(new model_tricera_can(), 0.5F,"textures/entities/tricera_can.png"));
+		
+		RenderingRegistry.registerEntityRenderingHandler(Entity_super_gingaoh.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/yummy.png"));
+		
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityBugsterVirus.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/bugster_virus.png"));
 		
