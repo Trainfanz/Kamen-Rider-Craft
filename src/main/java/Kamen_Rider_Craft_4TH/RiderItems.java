@@ -1814,30 +1814,30 @@ public class RiderItems {
 	public static Item gate_switch = new item_gate_switch("gate_switch").setCreativeTab(Tabs.tabFourze);
 
 
-	public static Item rider1_switch = new Item_astroswitch(0,"0","cross",13,"rider1_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item rider2_switch = new Item_astroswitch(0, "0","square",14,"rider2_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item v3_switch = new Item_astroswitch(0, "0","triangle",13,"v3_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item riderman_switch = new Item_astroswitch(0, "0","circle",15,"riderman_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item x_switch = new Item_astroswitch(0,"0","cross",14,"x_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item amazon_switch = new Item_astroswitch(0, "0","square",15,"amazon_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item stronger_switch = new Item_astroswitch(0, "0","circle",16,"stronger_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item skyrider_switch = new Item_astroswitch(0, "0","cross",18,"skyrider_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item super_1_switch = new Item_astroswitch(0, "0","square",19,"super_1_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item zx_switch = new Item_astroswitch(0, "0","circle",19,"zx_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item black_switch = new Item_astroswitch(0, "0","triangle",18,"black_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item rx_switch = new Item_astroswitch(0, "0","circle",20,"rx_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item kuuga_switch = new Item_astroswitch(0,"0","cross",15,"kuuga_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item agito_switch = new Item_astroswitch(0, "0","triangle",14,"agito_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item ryuki_switch = new Item_astroswitch(0, "0","circle",17,"ryuki_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item faiz_switch = new Item_astroswitch(0,"0","cross",16,"faiz_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item blade_switch = new Item_astroswitch(0,"0","cross",17,"blade_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item hibiki_switch = new Item_astroswitch(0, "0","square",16,"hibiki_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item kabuto_switch = new Item_astroswitch(0, "0","triangle",15,"kabuto_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item den_o_switch = new Item_astroswitch(0, "0","circle",18,"den_o_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item kiva_switch = new Item_astroswitch(0, "0","triangle",16,"kiva_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item decade_switch = new Item_astroswitch(0, "0","triangle",17,"decade_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item double_switch = new Item_astroswitch(0, "0","square",17,"double_switch").setCreativeTab(Tabs.tabFourze);
-	public static Item ooo_switch = new Item_astroswitch(0, "0","square",18,"ooo_switch").setCreativeTab(Tabs.tabFourze);
+	public static Item rider1_switch = new Item_astroswitch(0,"0","cross",13,"rider1_switch").AddLegendCrafting(typhoon_ichigo).setCreativeTab(Tabs.tabFourze);
+	public static Item rider2_switch = new Item_astroswitch(0, "0","square",14,"rider2_switch").AddLegendCrafting(typhoon_nigo).setCreativeTab(Tabs.tabFourze);
+	public static Item v3_switch = new Item_astroswitch(0, "0","triangle",13,"v3_switch").AddLegendCrafting(double_typhoon_core).setCreativeTab(Tabs.tabFourze);
+	public static Item riderman_switch = new Item_astroswitch(0, "0","circle",15,"riderman_switch").AddLegendCrafting(riderman_belt_core).setCreativeTab(Tabs.tabFourze);
+	public static Item x_switch = new Item_astroswitch(0,"0","cross",14,"x_switch").AddLegendCrafting(ridol_core).setCreativeTab(Tabs.tabFourze);
+	public static Item amazon_switch = new Item_astroswitch(0, "0","square",15,"amazon_switch").AddLegendCrafting(condorer_wheel).setCreativeTab(Tabs.tabFourze);
+	public static Item stronger_switch = new Item_astroswitch(0, "0","circle",16,"stronger_switch").AddLegendCrafting(electrer_core).setCreativeTab(Tabs.tabFourze);
+	public static Item skyrider_switch = new Item_astroswitch(0, "0","cross",18,"skyrider_switch").AddLegendCrafting(tornado_core).setCreativeTab(Tabs.tabFourze);
+	public static Item super_1_switch = new Item_astroswitch(0, "0","square",19,"super_1_switch").AddLegendCrafting(cyclode_core).setCreativeTab(Tabs.tabFourze);
+	public static Item zx_switch = new Item_astroswitch(0, "0","circle",19,"zx_switch").AddLegendCrafting(zx_belt_core).setCreativeTab(Tabs.tabFourze);
+	public static Item black_switch = new Item_astroswitch(0, "0","triangle",18,"black_switch").AddLegendCrafting(king_stone_core).setCreativeTab(Tabs.tabFourze);
+	public static Item rx_switch = new Item_astroswitch(0, "0","circle",20,"rx_switch").AddLegendCrafting(king_stone_split).setCreativeTab(Tabs.tabFourze);
+	public static Item kuuga_switch = new Item_astroswitch(0,"0","cross",15,"kuuga_switch").AddLegendCrafting(kuuga_mighty).setCreativeTab(Tabs.tabFourze);
+	public static Item agito_switch = new Item_astroswitch(0, "0","triangle",14,"agito_switch").AddLegendCrafting(agito_ground).setCreativeTab(Tabs.tabFourze);
+	public static Item ryuki_switch = new Item_astroswitch(0, "0","circle",17,"ryuki_switch").AddLegendCrafting(dragreder_advent).setCreativeTab(Tabs.tabFourze);
+	public static Item faiz_switch = new Item_astroswitch(0,"0","cross",16,"faiz_switch").AddLegendCrafting(faiz_mission_memory).setCreativeTab(Tabs.tabFourze);
+	public static Item blade_switch = new Item_astroswitch(0,"0","cross",17,"blade_switch").AddLegendCrafting(changebeetle).setCreativeTab(Tabs.tabFourze);
+	public static Item hibiki_switch = new Item_astroswitch(0, "0","square",16,"hibiki_switch").AddLegendCrafting(henshin_onsa).setCreativeTab(Tabs.tabFourze);
+	public static Item kabuto_switch = new Item_astroswitch(0, "0","triangle",15,"kabuto_switch").AddLegendCrafting(kabuto_zecter).setCreativeTab(Tabs.tabFourze);
+	public static Item den_o_switch = new Item_astroswitch(0, "0","circle",18,"den_o_switch").AddLegendCrafting(rider_ticket_sword).setCreativeTab(Tabs.tabFourze);
+	public static Item kiva_switch = new Item_astroswitch(0, "0","triangle",16,"kiva_switch").AddLegendCrafting(wakeupfuestle).setCreativeTab(Tabs.tabFourze);
+	public static Item decade_switch = new Item_astroswitch(0, "0","triangle",17,"decade_switch").AddLegendCrafting(decadecard).setCreativeTab(Tabs.tabFourze);
+	public static Item double_switch = new Item_astroswitch(0, "0","square",17,"double_switch").AddLegendCrafting(joker_memory).setCreativeTab(Tabs.tabFourze);
+	public static Item ooo_switch = new Item_astroswitch(0, "0","square",18,"ooo_switch").AddLegendCrafting(taka).setCreativeTab(Tabs.tabFourze);
 	
 	// Wizard
 	public static Item wizarswordgun = new Item_sword_gun("wizarswordgun",Tabs.wizarswordgun, RiderItems.wizardgem).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
