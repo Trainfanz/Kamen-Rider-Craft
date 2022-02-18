@@ -183,7 +183,36 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 
 											}else if (CircleModuleName[armor.getTagCompound().getInteger("corecircle")]=="schop"){
 												player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 4,true,false));
+											}else if (CircleModuleName[armor.getTagCompound().getInteger("corecircle")]=="riderman"){
+												player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 4,true,false));
+											}else if (CircleModuleName[armor.getTagCompound().getInteger("corecircle")]=="stronger"){
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
+											}else if (CircleModuleName[armor.getTagCompound().getInteger("corecircle")]=="ryuki"){
+												player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
+											}else if (CircleModuleName[armor.getTagCompound().getInteger("corecircle")]=="den_o"){
+												player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+												player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false));
+											}else if (CircleModuleName[armor.getTagCompound().getInteger("corecircle")]=="zx"){
+												if (player.isSneaking()){
+
+													if (item_OOOdriver.get_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET)) > 2){
+
+														Vec3d look = player.getLookVec();
+														ItemArrow itemarrow = (ItemArrow) Items.ARROW;
+														EntityArrow fireball = itemarrow.createArrow(world, new ItemStack(Items.ARROW), player);
+														fireball.pickupStatus= EntityArrow.PickupStatus.DISALLOWED;
+														fireball.motionX = look.x*3;
+									                    fireball.motionY = look.y*3;
+									                    fireball.motionZ = look.z*3;
+														world.spawnEntity(fireball);
+														item_OOOdriver.set_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),0);
+													}	
+												}
+											}else if (CircleModuleName[armor.getTagCompound().getInteger("corecircle")]=="black_rx"){
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
 											}
+											
 
 											if (CrossModuleName[armor.getTagCompound().getInteger("corecross")]=="launcher"){
 												/**
@@ -225,8 +254,21 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 													Vec3d look = player.getLookVec();	                                               
 													player.motionY=-2;
 												}
+											}else if (CrossModuleName[armor.getTagCompound().getInteger("corecross")]=="rider_1"){											
+												player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 6,true,false));
+											}else if (CrossModuleName[armor.getTagCompound().getInteger("corecross")]=="x"){											
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
+											}else if (CrossModuleName[armor.getTagCompound().getInteger("corecross")]=="kuuga"){									
+												player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 6,true,false));
+											}else if (CrossModuleName[armor.getTagCompound().getInteger("corecross")]=="faiz"){													
+												player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 5,true,false));
+											}else if (CrossModuleName[armor.getTagCompound().getInteger("corecross")]=="blade"){											
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
+											}else if (CrossModuleName[armor.getTagCompound().getInteger("corecross")]=="skyrider"){									
+												player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 0,true,false));
+											}
 
-											}if (TriangleModuleName[armor.getTagCompound().getInteger("coretriangle")]=="drill"){
+											if (TriangleModuleName[armor.getTagCompound().getInteger("coretriangle")]=="drill"){
 												player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));	
 												if (!world.isRemote){ 
 													if (player.isSneaking()){
@@ -273,12 +315,13 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 													player.motionX=look.x/3;
 													player.motionY=+0.5;
 													player.motionZ=look.z/3;
-													if (!world.isRemote){
-														if (world.isAirBlock(new BlockPos(player.posX,player.posY, player.posZ))){
-															world.setBlockState(new BlockPos(player.posX,player.posY, player.posZ), Blocks.FLOWING_WATER.getDefaultState());
-														}
-													}
-												}	                                        
+												
+							
+													player.world.spawnParticle(EnumParticleTypes.DRIP_WATER,player.posX,player.posY, player.posZ, 0.0D, 0.0D, 0.0D);
+													player.world.spawnParticle(EnumParticleTypes.DRIP_WATER,player.posX,player.posY+1, player.posZ, 0.0D, 0.0D, 0.0D);
+													player.world.spawnParticle(EnumParticleTypes.DRIP_WATER,player.posX,player.posY+0.5, player.posZ, 0.0D, 0.0D, 0.0D);
+}
+													                                       
 
 											}else if (TriangleModuleName[armor.getTagCompound().getInteger("coretriangle")]=="wheel"){	        											 
 												if (player.isSneaking()){
@@ -287,7 +330,23 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 													player.motionZ=look.z;
 												}
 
-											}if (SquareModuleName[armor.getTagCompound().getInteger("coresquare")]=="radar"){
+											}else if (TriangleModuleName[armor.getTagCompound().getInteger("coretriangle")]=="v3"){											
+												player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 5,true,false));
+											}else if (TriangleModuleName[armor.getTagCompound().getInteger("coretriangle")]=="agito"){											
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
+											}else if (TriangleModuleName[armor.getTagCompound().getInteger("coretriangle")]=="kabuto"){											
+												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 6,true,false));
+											}else if (TriangleModuleName[armor.getTagCompound().getInteger("coretriangle")]=="kiva"){											
+												player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 6,true,false));
+											}else if (TriangleModuleName[armor.getTagCompound().getInteger("coretriangle")]=="decade"){											
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
+											}else if (TriangleModuleName[armor.getTagCompound().getInteger("coretriangle")]=="black"){											
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
+											}
+											
+											
+										
+											if (SquareModuleName[armor.getTagCompound().getInteger("coresquare")]=="radar"){
 												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
 
 											}else if (SquareModuleName[armor.getTagCompound().getInteger("coresquare")]=="camera"){
