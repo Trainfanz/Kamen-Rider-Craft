@@ -2897,7 +2897,70 @@ item.revicelegs.name=Revice Leggings
         
 item.revice_driver.name=Revice Driver       
 item.vice_belt.name=Buddy Buckle(Vice)    
-       
+
+item.two_sidriver_evil.name=Two Sidriver(Evil)
+item.two_sidriver_live.name=Two Sidriver(Live)
+item.demons_driver.name=Demons Driver
+item.libera_driver.name=Libera Driver
+    
+item.rex_vistamp.name=Rex Vistamp
+item.barid_rex_vistamp_closed.name=Barid Rex Vistamp (Incomplete)
+item.barid_rex_vistamp.name=Barid Rex Vistamp
+    
+item.eagle_vistamp.name=Eagle Vistamp
+item.mammoth_vistamp.name=Mammoth Vistamp
+item.megalodon_vistamp.name=Megalodon Vistamp
+item.ptera_vistamp.name=Ptera Vistamp
+item.lion_vistamp.name=Lion Vistamp
+item.jackal_vistamp.name=Jackal Vistamp
+item.kong_vistamp.name=Kong Vistamp
+item.kamakiri_vistamp.name=Kamakiri Vistamp
+item.brachio_vistamp.name=Brachio Vistamp
+item.kajiki_vistamp.name=Kajiki Vistamp
+item.neo_batta_vistamp.name=Neo Batta Vistamp
+item.kangaroo_vistamp.name=Kangaroo Vistamp
+item.bat_vistamp.name=Bat Vistamp
+item.spider_vistamp.name=Spider Vistamp
+item.batta_vistamp.name=Batta Vistamp
+item.mogura_vistamp.name=Mogura Vistamp
+item.scorpion_vistamp.name=Scorpion Vistamp
+item.turtle_vistamp.name=Turtle Vistamp
+item.kujaku_vistamp.name=Kujaku Vistamp
+item.cobra_vistamp.name=Cobra Vistamp
+item.condor_vistamp.name=Condor Vistamp
+item.white_leo_vistamp.name=White Leo Vistamp
+item.quetzalcoatlus_vistamp.name=Quetzalcoatlus Vistamp
+item.cheetah_vistamp.name=Cheetah Proto Vistamp
+item.planarian_vistamp.name=Planarian Proto Vistamp
+item.daiouika_vistamp.name=Daiouika Proto Vistamp
+item.wolf_vistamp.name=Wolf Proto Vistamp
+item.sabertiger_vistamp.name=Sabertiger Proto Vistamp
+    
+item.rex_vistamp_metal.name= Rex Vistamp (Black Metal Plating)
+item.rex_vistamp_christmas.name=Rex Vistamp (Christmas)
+item.rex_vistamp_theme.name=Rex Vistamp (Theme Song) 
+item.toysaurus_vistamp.name=Toysaurus Vistamp
+item.mammoth_vistamp_china.name=Mammoth Vistamp (Chinese Exclusive)
+item.giff_junior_vistamp.name=Giff Junior Vistamp
+           
+
+item.proto_vistamp.name=Proto Vistamp
+    
+item.ohin_buster_50.name=Ohinbuster50
+item.gun_de_phone_50.name=Gundephone50
+item.osutoderu_hammer_50.name=Osutoderuhammer50
+item.revice_lasher.name=Revicelasher
+item.egg_shield.name=Barid Shield
+item.mammoth_gasher.name=Mammoth Gasher
+item.kamakiric_arrow.name=Kamakiric Arrow
+item.evil_blade.name=Evilblade
+item.live_gun.name=Livegun
+item.lovekov_kujaku.name=Lovekov Kujaku Genome
+item.lovekov_turtle.name=Lovekov Turtle Genome
+item.giff_junior_sword.name=Giff Junior Sword
+
+    
+
        
 item.amazonshead.name=Amazons Helmet
 item.amazonstroso.name=Amazons Chestplate 
