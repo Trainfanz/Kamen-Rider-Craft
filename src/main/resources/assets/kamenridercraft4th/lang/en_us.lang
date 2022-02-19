@@ -107,6 +107,7 @@ entity.CoreMob.name=Kamen Rider Core
 entity.CorePowerUpMob.name=Kamen Rider Core (Powered Up)
 entity.poseidonMob.name=Kamen Rider Poseidon
 
+entity.super_gingaohMob.name=Super GingaOh
 
 entity.ridevendorVendingMob.name=Ridevendor (Machine Vendor Mode)
 entity.RidevendorMob.name=Ridevendor (Bike Mode)
@@ -167,6 +168,9 @@ entity.ShimiMob.name=Shimi
 entity.CaliburMob.name=Kamen Rider Calibur
 entity.FalchionMob.name=Kamen Rider Falchion
 
+entity.ViceMob.name=Vice(WIP)
+entity.giffJuniorMob.name=Giff Junior
+entity.EvilMob.name=Kamen Rider Evil
 
 effect.fly=Flying
 effect.fire_punch=Fire Punch
@@ -288,6 +292,7 @@ tile.pure_gaia_memory_block.name=Pure Gaia Memory Block
 
 tile.cell_medal_programer.name=Cell Medal Programer
 tile.vistamp_bar.name=Vistamp Bar
+tile.astro_switch_programer.name=Astro Switch Programer
 
 tile.amazon_cell_extractor.name=Amazon Cell Extractor
 tile.amazon_cell_mutator.name=Amazon Cell Mutator
@@ -634,6 +639,7 @@ item.trigger_magnum.name=Trigger Magnum
 item.skull_magnum.name=Skull Magnum
 item.engine_blade.name=Engine Blade
 item.shield_prism_bicker.name=Prism Bicker Shield
+item.bomb_magnum.name=Bomb Magnum
 
 item.whead.name=W Helmet
 item.wtroso.name=W Chestplate
@@ -723,6 +729,8 @@ item.hee_hackgun.name=Fire Module Hee-Hackgun
 item.barizun_sword.name=Cosmic Module Barizun Sword
 item.meteor_nadeshiko_fusion_rocket.name=Rocket Module (Meteor Nadeshiko Fusion States Ver)
 
+item.meteor_storm_shaft.name=Meteor Storm Shaft
+
 item.fourzehead.name=Fourze Helmet
 item.fourzetroso.name=Fourze Chestplate
 item.fourzelegs.name=Fourze Leggings
@@ -730,6 +738,7 @@ item.fourzelegs.name=Fourze Leggings
 item.fourzedriver.name=Fourze Driver
 item.ikarosdriver.name=Ikaros Driver
 
+item.ginga_oh_driver.name=GingaOh Driver
 
 item.rocket_swich.name=Rocket Switch
 item.launcher_switch.name=Launcher Switch
@@ -784,6 +793,31 @@ item.core_switch.name=Core Switch
 item.solu_switch.name=SOLU Switch
 item.gate_switch.name=Gate Switch
 
+item.rider1_switch.name=1 Switch
+item.rider2_switch.name=2 Switch
+item.v3_switch.name=V3 Switch
+item.riderman_switch.name=Riderman Switch
+item.x_switch.name=X Switch
+item.amazon_switch.name=Amazon Switch
+item.stronger_switch.name=Stronger Switch
+item.skyrider_switch.name=Skyrider Switch
+item.super_1_switch.name=Super-1 Switch
+item.zx_switch.name=ZX Switch
+item.black_switch.name=Black Switch
+item.rx_switch.name=Black RX Switch
+item.kuuga_switch.name=Kuuga Switch
+item.agito_switch.name=Agito Switch
+item.ryuki_switch.name=Ryuki Switch
+item.faiz_switch.name=Faiz Switch
+item.blade_switch.name=Blade Switch
+item.hibiki_switch.name=Hibiki Switch
+item.kabuto_switch.name=Kabuto Switch 
+item.den_o_switch.name=Den-O Switch
+item.kiva_switch.name=Kiva Switch
+item.decade_switch.name=Decade Switch
+item.double_switch.name=Double Switch
+item.ooo_switch.name=OOO Switch
+    
 item.wizarswordgun.name=WizarSwordGun
 item.axcalibur.name=AxCalibur
 item.axcalibur_charge.name=AxCalibur
@@ -1661,6 +1695,7 @@ item.caucasus_rider_belt.name=Caucasus Rider Belt
 item.hercus_rider_belt.name=Hercus Rider Belt
 item.ketaros_rider_belt.name=Ketaros Rider Belt
     
+item.lady_rider_belt.name=Lady Rider Belt
 
 item.kabuto_zecter.name=Kabuto Zecter
 item.hyper_zecter.name=Hyper Zecter
@@ -1677,6 +1712,7 @@ item.ketaros_zecter.name=Ketaros Zecter
 item.perfectthebee_zecter.name=Perfect TheBee Zecter
 item.perfectdrake_zecter.name=Perfect Drake Zecter
 item.perfectsasword_zecter.name=Perfect Sasword Zecter
+item.lady_zecter.name=Lady Zecter
 
 item.dienddriver.name=Diend Belt
 
