@@ -1813,7 +1813,6 @@ public class RiderItems {
 	public static Item core_switch = new Item_ore("core_switch").setCreativeTab(Tabs.tabFourze);
 	public static Item gate_switch = new item_gate_switch("gate_switch").setCreativeTab(Tabs.tabFourze);
 
-
 	public static Item rider1_switch = new Item_astroswitch(0,"0","cross",13,"rider1_switch").AddLegendCrafting(typhoon_ichigo).setCreativeTab(Tabs.tabFourze);
 	public static Item rider2_switch = new Item_astroswitch(0, "0","square",14,"rider2_switch").AddLegendCrafting(typhoon_nigo).setCreativeTab(Tabs.tabFourze);
 	public static Item v3_switch = new Item_astroswitch(0, "0","triangle",13,"v3_switch").AddLegendCrafting(double_typhoon_core).setCreativeTab(Tabs.tabFourze);
@@ -3164,7 +3163,6 @@ public class RiderItems {
 
 	public static Item kodama_suika_arms = new item_kodamawatch("kodama_suika_arms").setCreativeTab(Tabs.tabzi_o);
 	
-
 	public static Item another_zero_one_ridewatch = new Item_ore("another_zero_one_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item another_zi_o_ridewatch = new Item_ore("another_zi_o_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item another_zi_o_ii_ridewatch = new Item_ore("another_zi_o_ii_ridewatch").setCreativeTab(Tabs.tabzi_o);
@@ -3195,7 +3193,6 @@ public class RiderItems {
 	public static Item another_shinobi_ridewatch = new Item_ore("another_shinobi_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item another_quiz_ridewatch = new Item_ore("another_quiz_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item another_kikai_ridewatch = new Item_ore("another_kikai_ridewatch").setCreativeTab(Tabs.tabzi_o);
-	
 	
 	
 	public static Item woz_ridewatch = new Item_ridewatches(0, 0,"woz_ridewatch").setCreativeTab(Tabs.tabzi_o);
