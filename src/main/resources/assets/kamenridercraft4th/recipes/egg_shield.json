@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XMX",
+    "XSX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:proto_vistamp"
+    },
+    "S": {
+      "item": "kamenridercraft4th:base_sword"
+    },
+    "M": {
+      "item": "kamenridercraft4th:barid_rex_vistamp_closed"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:egg_shield"
+  }    
+}
+
