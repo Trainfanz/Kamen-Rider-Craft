@@ -279,14 +279,15 @@ tile.ark_one_boss_block.name=Ark-One Block
 tile.sabela_boss_block.name=Sabela Block
 tile.durendal_boss_block.name=Durendal Block
 tile.solomon_boss_block.name=Solomon Block
-
-
+tile.super_ginga_oh_boss_block.name=Super GingaOh Block
 tile.storious_boss_block.name=Storious Block
 tile.core_boss_block.name=Core Block
 tile.power_up_core_boss_block.name=Powered Up Core Block
 tile.poseidon_boss_block.name=Poseidon Block
 tile.pure_gaia_memory_block.name=Pure Gaia Memory Block
+
 tile.cell_medal_programer.name=Cell Medal Programer
+tile.vistamp_bar.name=Vistamp Bar
 
 tile.amazon_cell_extractor.name=Amazon Cell Extractor
 tile.amazon_cell_mutator.name=Amazon Cell Mutator
@@ -385,6 +386,15 @@ tile.gaoh_liner_gold.name=Gaoh Liner Gold
 tile.gaoh_liner_green.name=Gaoh Liner Green
 tile.gaoh_liner_windo.name=Gaoh Liner Window
 tile.zero_liner_green.name=Zero Liner Green
+
+tile.rabbit_hutch_cyan.name=Rabbit Hutch Cyan Block
+tile.rabbit_hutch_cyan2.name=Rabbit Hutch Cyan Block
+tile.rabbit_hutch_cyan_light.name=Rabbit Hutch Cyan Block With Light 
+
+tile.rabbit_hutch_light.name=Rabbit Hutch Roof Light 
+tile.rabbit_hutch_computer_stairs.name=Rabbit Hutch Computer Part
+tile.rabbit_hutch_computer_stairs2.name=Rabbit Hutch Computer Part
+
 
 tile.helheim_plant.name=Helheim Plant
 tile.helheim_plant_2.name=Helheim Plant
