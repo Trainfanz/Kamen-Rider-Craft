@@ -223,10 +223,15 @@ public class item_revicedriver extends ItemArmor  implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
 										
 									}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.demons_driver){
-										
+										player.addPotionEffect(new PotionEffect(MobEffects.POISON, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
 										
 									}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.libera_driver){
-										
+										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 5,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
 									}
 										
 									
