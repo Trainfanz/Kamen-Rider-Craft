@@ -73,7 +73,7 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 	@SideOnly(Side.CLIENT)
 	public boolean hasEffect(ItemStack par1ItemStack)
 	{
-			return !true;
+		return !true;
 	}
 	@Override
 	public void registerModels() {
@@ -95,13 +95,13 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 			if(stack.getItem() instanceof ItemArmor)
 			{
 				Bipedswich armorModel = new Bipedswich();
-				
+
 				if(stack.getItem() == RiderItems.ikarosdriver) {
 					armorModel.wings=new ItemStack(RiderItems.ikaros_wing);
-                }else{
-                	  armorModel.wings=new ItemStack(RiderItems.blanknoitem);
-                }
-				
+				}else{
+					armorModel.wings=new ItemStack(RiderItems.blanknoitem);
+				}
+
 				if (living.getItemStackFromSlot(EntityEquipmentSlot.HEAD)!=null&living.getItemStackFromSlot(EntityEquipmentSlot.CHEST)!=null&living.getItemStackFromSlot(EntityEquipmentSlot.LEGS)!=null){
 					if (living.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == RiderItems.Fourzehead&living.getItemStackFromSlot(EntityEquipmentSlot.LEGS).getItem() == RiderItems.Fourzelegs&living.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == RiderItems.Fourzetroso ){
 						armorModel.bipedRightArm2.showModel = slot == EntityEquipmentSlot.FEET;
@@ -124,12 +124,12 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 
 				}
 				if(stack.getItem() == RiderItems.ginga_oh_driver) {
-					 armorModel.belt=new ItemStack(RiderItems.blanknoitem);
-                }else{
-                	armorModel.belt=stack;
-                	 
-                }
-				
+					armorModel.belt=new ItemStack(RiderItems.blanknoitem);
+				}else{
+					armorModel.belt=stack;
+
+				}
+
 				armorModel.isSneak = living.isSneaking();
 				armorModel.isRiding = living.isRiding();
 				armorModel.isChild = living.isChild();
@@ -202,8 +202,8 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 														EntityArrow fireball = itemarrow.createArrow(world, new ItemStack(Items.ARROW), player);
 														fireball.pickupStatus= EntityArrow.PickupStatus.DISALLOWED;
 														fireball.motionX = look.x*3;
-									                    fireball.motionY = look.y*3;
-									                    fireball.motionZ = look.z*3;
+														fireball.motionY = look.y*3;
+														fireball.motionZ = look.z*3;
 														world.spawnEntity(fireball);
 														item_OOOdriver.set_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),0);
 													}	
@@ -212,7 +212,7 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
 											}
-											
+
 
 											if (CrossModuleName[armor.getTagCompound().getInteger("corecross")]=="launcher"){
 												/**
@@ -237,17 +237,12 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 
 											}else if (CrossModuleName[armor.getTagCompound().getInteger("corecross")]=="chainsaw"){	
 												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
-
 											}else if (CrossModuleName[armor.getTagCompound().getInteger("corecross")]=="smoke"){	
-
 												player.world.spawnParticle(EnumParticleTypes.SMOKE_LARGE,player.posX,player.posY, player.posZ, 0.0D, 0.0D, 0.0D);
 												player.world.spawnParticle(EnumParticleTypes.SMOKE_LARGE,player.posX,player.posY+1, player.posZ, 0.0D, 0.0D, 0.0D);
 												player.world.spawnParticle(EnumParticleTypes.SMOKE_LARGE,player.posX,player.posY+0.5, player.posZ, 0.0D, 0.0D, 0.0D);
-
-
 											}else if (CrossModuleName[armor.getTagCompound().getInteger("corecross")]=="stealth"){											
 												player.addPotionEffect(new PotionEffect(MobEffects.INVISIBILITY, 5, 2,true,false));
-
 											}else if (CrossModuleName[armor.getTagCompound().getInteger("corecross")]=="giantfoot"){		
 												if (player.isSneaking()){
 													player.fallDistance=0; 
@@ -302,8 +297,8 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 														EntityArrow fireball = itemarrow.createArrow(world, new ItemStack(Items.ARROW), player);
 														fireball.pickupStatus= EntityArrow.PickupStatus.DISALLOWED;
 														fireball.motionX = look.x*3;
-									                    fireball.motionY = look.y*3;
-									                    fireball.motionZ = look.z*3;
+														fireball.motionY = look.y*3;
+														fireball.motionZ = look.z*3;
 														world.spawnEntity(fireball);
 														item_OOOdriver.set_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),0);
 													}	
@@ -315,13 +310,13 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 													player.motionX=look.x/3;
 													player.motionY=+0.5;
 													player.motionZ=look.z/3;
-												
-							
+
+
 													player.world.spawnParticle(EnumParticleTypes.DRIP_WATER,player.posX,player.posY, player.posZ, 0.0D, 0.0D, 0.0D);
 													player.world.spawnParticle(EnumParticleTypes.DRIP_WATER,player.posX,player.posY+1, player.posZ, 0.0D, 0.0D, 0.0D);
 													player.world.spawnParticle(EnumParticleTypes.DRIP_WATER,player.posX,player.posY+0.5, player.posZ, 0.0D, 0.0D, 0.0D);
-}
-													                                       
+												}
+
 
 											}else if (TriangleModuleName[armor.getTagCompound().getInteger("coretriangle")]=="wheel"){	        											 
 												if (player.isSneaking()){
@@ -343,9 +338,9 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 											}else if (TriangleModuleName[armor.getTagCompound().getInteger("coretriangle")]=="black"){											
 												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
 											}
-											
-											
-										
+
+
+
 											if (SquareModuleName[armor.getTagCompound().getInteger("coresquare")]=="radar"){
 												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
 
@@ -369,7 +364,34 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 													Vec3d look = player.getLookVec();	                                               
 													player.motionY=+1;
 												}
-											} 
+											} else if (SquareModuleName[armor.getTagCompound().getInteger("coresquare")]=="rider_2"){								
+												player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 6,true,false));
+											}else if (SquareModuleName[armor.getTagCompound().getInteger("coresquare")]=="amazon"){	
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
+											}else if (SquareModuleName[armor.getTagCompound().getInteger("coresquare")]=="hibiki"){	
+												player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
+											}else if (SquareModuleName[armor.getTagCompound().getInteger("coresquare")]=="double"){	
+												player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false));
+											}else if (SquareModuleName[armor.getTagCompound().getInteger("coresquare")]=="ooo"){	
+												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 2,true,false));
+												if (player.isSneaking()){
+													if (item_OOOdriver.get_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET)) > 2){
+														Vec3d look = player.getLookVec();
+														ItemArrow itemarrow = (ItemArrow) Items.ARROW;
+														EntityArrow fireball = itemarrow.createArrow(world, new ItemStack(Items.ARROW), player);
+														fireball.pickupStatus= EntityArrow.PickupStatus.DISALLOWED;
+														fireball.motionX = look.x*3;
+														fireball.motionY = look.y*3;
+														fireball.motionZ = look.z*3;
+														world.spawnEntity(fireball);
+														item_OOOdriver.set_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),0);
+													}	
+												}
+											}else if (SquareModuleName[armor.getTagCompound().getInteger("coresquare")]=="super_1"){	
+												player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
+												player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 5,true,false));
+											}
 										}
 
 
@@ -409,7 +431,7 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
 											player.fallDistance=0; 
 											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));
-											
+
 										}
 										if (this.get_core(armor)==5){
 											if (player.getHeldItemMainhand().isEmpty())
@@ -442,7 +464,7 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
 											player.fallDistance=0; 
 											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));
-											
+
 										}
 										if (this.get_core(armor)==8){
 											if (player.getHeldItemMainhand().isEmpty())
@@ -489,69 +511,69 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 
 
 
-public static int get_eftTime(ItemStack itemstack)
-{
-	return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("eftTime") : 100;
-}
-
-public static void set_eftTime(ItemStack itemstack, int flag)
-{
-	if (!itemstack.hasTagCompound())
+	public static int get_eftTime(ItemStack itemstack)
 	{
-		itemstack.setTagCompound(new NBTTagCompound());
+		return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("eftTime") : 100;
 	}
-	itemstack.getTagCompound().setInteger("eftTime", flag);
-}
 
-public static int get_core(ItemStack itemstack)
-{
-	return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("core") : 0;
-}
-
-public static void set_core(ItemStack itemstack, int flag,String slot)
-{
-	if (!itemstack.hasTagCompound())
+	public static void set_eftTime(ItemStack itemstack, int flag)
 	{
-		itemstack.setTagCompound(new NBTTagCompound());
+		if (!itemstack.hasTagCompound())
+		{
+			itemstack.setTagCompound(new NBTTagCompound());
+		}
+		itemstack.getTagCompound().setInteger("eftTime", flag);
 	}
-	itemstack.getTagCompound().setInteger("core"+slot, flag);
-}
+
+	public static int get_core(ItemStack itemstack)
+	{
+		return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("core") : 0;
+	}
+
+	public static void set_core(ItemStack itemstack, int flag,String slot)
+	{
+		if (!itemstack.hasTagCompound())
+		{
+			itemstack.setTagCompound(new NBTTagCompound());
+		}
+		itemstack.getTagCompound().setInteger("core"+slot, flag);
+	}
 
 
-public static String get_CircleModule(ItemStack itemstack)
-{
-	return itemstack.hasTagCompound() ? CircleModuleName[itemstack.getTagCompound().getInteger("corecircle")]+"_module" : "blank";
-}
+	public static String get_CircleModule(ItemStack itemstack)
+	{
+		return itemstack.hasTagCompound() ? CircleModuleName[itemstack.getTagCompound().getInteger("corecircle")]+"_module" : "blank";
+	}
 
-public static String get_CrossModule(ItemStack itemstack)
-{
-	return itemstack.hasTagCompound() ? CrossModuleName[itemstack.getTagCompound().getInteger("corecross")]+"_module" : "blank";
-}
+	public static String get_CrossModule(ItemStack itemstack)
+	{
+		return itemstack.hasTagCompound() ? CrossModuleName[itemstack.getTagCompound().getInteger("corecross")]+"_module" : "blank";
+	}
 
-public static String get_TriangleModule(ItemStack itemstack)
-{
-	return itemstack.hasTagCompound() ? TriangleModuleName[itemstack.getTagCompound().getInteger("coretriangle")]+"_module" : "blank";
-}
+	public static String get_TriangleModule(ItemStack itemstack)
+	{
+		return itemstack.hasTagCompound() ? TriangleModuleName[itemstack.getTagCompound().getInteger("coretriangle")]+"_module" : "blank";
+	}
 
-public static String get_SquareModule(ItemStack itemstack)
-{
-	return itemstack.hasTagCompound() ? SquareModuleName[itemstack.getTagCompound().getInteger("coresquare")]+"_module" : "blank";
-}
+	public static String get_SquareModule(ItemStack itemstack)
+	{
+		return itemstack.hasTagCompound() ? SquareModuleName[itemstack.getTagCompound().getInteger("coresquare")]+"_module" : "blank";
+	}
 
 
 
-/**
- * Returns the 'max damage' factor array for the armor, each piece of armor have a durability factor (that gets
- * multiplied by armor material factor)
- */
-static int[] getMaxDamageArray()
-{
-	return maxDamageArray;
-}
+	/**
+	 * Returns the 'max damage' factor array for the armor, each piece of armor have a durability factor (that gets
+	 * multiplied by armor material factor)
+	 */
+	static int[] getMaxDamageArray()
+	{
+		return maxDamageArray;
+	}
 
-public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
-{
-	return RiderItems.astroswitch == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
-}
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.astroswitch == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+	}
 
 }
