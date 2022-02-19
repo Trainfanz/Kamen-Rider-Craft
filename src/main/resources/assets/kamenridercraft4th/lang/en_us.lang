@@ -2606,8 +2606,46 @@ item.woz_ridewatch.name=Woz Ridewatch
 item.unfinished_grandzi_o_ridewatch_1.name=Unfinished Grand Zi-O Ridewatch Part
 item.unfinished_grandzi_o_ridewatch_2.name=Unfinished Grand Zi-O Ridewatch Part
 item.kodama_suika_arms.name=Kodama Suika Arms
-item.another_build_ridewatch.name=Another Build Ridewatch
 item.ryusoulger_ridewatch.name=Ryusoulger Ridewatch
+
+item.another_zero_one_ridewatch.name=Another Zero-One Watch
+item.another_zi_o_ridewatch.name=Another Zi-O Watch
+item.another_zi_o_ii_ridewatch.name=Another Zi-O II Watch
+item.another_build_ridewatch.name=Another Build Watch
+item.another_exaid_ridewatch.name=Another Ex-Aid Watch
+item.another_ghost_ridewatch.name=Another Ghost Watch
+item.another_drive_ridewatch.name=Another Drive Watch
+item.another_gaim_ridewatch.name=Another Gaim Watch
+item.another_wizard_ridewatch.name=Another Wizard Watch
+item.another_fourze_ridewatch.name=Another Fourze Watch
+item.another_ooo_ridewatch.name=Another OOO Watch
+item.another_w_ridewatch.name=Another W Watch
+item.another_decade_ridewatch.name=Another Decade Watch
+item.another_diend_ridewatch.name=Another Diend Watch
+item.another_kiva_ridewatch.name=Another Kiva Watch
+item.another_deno_ridewatch.name=Another Den-O Watch
+item.another_kabuto_ridewatch.name=Another Kabuto Watch
+item.another_hibiki_ridewatch.name=Another Hibiki Watch
+item.another_blade_ridewatch.name=Another Blade Watch
+item.another_faiz_ridewatch.name=Another Faiz Watch
+item.another_ryuki_ridewatch.name=Another Ryuki Watch
+item.another_ryuga_ridewatch.name=Another Ryuga Watch
+item.another_agito_ridewatch.name=Another Agito Watch
+item.another_kuuga_ridewatch.name=Another Kuuga Watch
+    
+item.another_ichigo_ridewatch.name=Another Ichigo Watch 
+    
+item.another_shinobi_ridewatch.name=Another Shinobi Watch
+item.another_quiz_ridewatch.name=Another Quiz Watch
+item.another_kikai_ridewatch.name=Another Kikai Watch 
+
+item.amazon_ridewatch.name=Amazon Ridewatch
+item.stronger_ridewatch.name=Stronger Ridewatch
+item.x_ridewatch.name=X Ridewatch
+item.riderman_ridewatch.name=Riderman Ridewatch
+item.v3_ridewatch.name=V3 Ridewatch
+item.nigo_ridewatch.name=Nigo Ridewatch
+item.ichigo_ridewatch.name=Ichigo Ridewatch
 
 item.shuriken_starter.name=Shuriken Starter (Shinobi)
 item.shuriken_starter_hattari.name=Shuriken Starter (Hattari)
