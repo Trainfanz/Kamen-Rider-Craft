@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XCX",
+    "XZX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:astroswitch"
+    }, "C": {
+      "item": "kamenridercraft4th:cosmic_swich"
+    }, "Z": {
+      "item": "kamenridercraft4th:base_sword"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:barizun_sword"
+  }
+}

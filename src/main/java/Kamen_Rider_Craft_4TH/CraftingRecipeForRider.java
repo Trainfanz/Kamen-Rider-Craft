@@ -265,22 +265,6 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":k_touch_diend"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.k_touch_diend), new Ingredient[]{Ingredient.fromItem(RiderItems.g4card),Ingredient.fromItem(RiderItems.ryugacard),Ingredient.fromItem(RiderItems.orgacard),Ingredient.fromItem(RiderItems.glaivecard),Ingredient.fromItem(RiderItems.kabukicard),Ingredient.fromItem(RiderItems.caucasuscard),Ingredient.fromItem(RiderItems.arccard),Ingredient.fromItem(RiderItems.skullcard)});	
 
 
-		/**
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":medagaburyu"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.medagaburyu,1), "ptr","aba","aaa", 'a', RiderItems.cellmedal, 'b', RiderItems.base_sword, 'p', RiderItems.ptera, 't', RiderItems.tricera, 'r', RiderItems.tyranno);
-		**/
-		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":Fourzehead"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.Fourzehead,1), "aaa","a a", 'a', RiderItems.astroswitch);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":Fourzetroso"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.Fourzetroso,1), "a a","aaa","aaa", 'a', RiderItems.astroswitch);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":Fourzelegs"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.Fourzelegs,1), "aaa","a a","a a", 'a', RiderItems.astroswitch);
-		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":Fourzedriver"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.Fourzedriver,1), "aaa","aca","aaa", 'a', RiderItems.astroswitch,  'c', RiderItems.rocket_swich);		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":meteor_driver"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.meteor_driver,1), "aaa","aca","aaa", 'a', RiderItems.gate_switch,  'c', RiderItems.meteor_swich);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":nadeshikodriver"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.nadeshikodriver,1), "aaa","aca","aaa", 'a', RiderItems.gate_switch,  'c', RiderItems.solu_switch);
-		
-		//GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":rocket"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.rocket,1), "ama","aba","aaa", 'a', RiderItems.astroswitch, 'b', RiderItems.base_sword, 'm', RiderItems.rocket_swich);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":billytherod"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.billytherod,1), "ama","aba","aaa", 'a', RiderItems.astroswitch, 'b', RiderItems.base_sword, 'm', RiderItems.elek_swich);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":hee_hackgun"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.hee_hackgun,1), "ama","aba","aaa", 'a', RiderItems.astroswitch, 'b', RiderItems.base_sword, 'm', RiderItems.fire_swich);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":barizun_sword"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.barizun_sword,1), "ama","aba","aaa", 'a', RiderItems.astroswitch, 'b', RiderItems.base_sword, 'm', RiderItems.cosmic_swich);
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":wizardhead"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.wizardhead,1), "aaa","a a", 'a', RiderItems.wizardgem);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":wizardtroso"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.wizardtroso,1), "a a","aaa","aaa", 'a', RiderItems.wizardgem);

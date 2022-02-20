@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:astroswitch"
+    }, "C": {
+      "item": "kamenridercraft4th:nadeshiko_switch"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:nadeshikodriver"
+  }
+}

@@ -38,7 +38,7 @@ import java.util.Random;
 public class biome_rabbit_hutch extends Biome {
 
 	biome_rabbit_hutch() {
-		super(new BiomeProperties(modDimensionWorldGen.RABBIT_HUTCH_NAME).setBaseHeight(1F).setHeightVariation(0F).setTemperature(0F));
+		super(new BiomeProperties(modDimensionWorldGen.RABBIT_HUTCH_NAME).setBaseHeight(1F).setHeightVariation(-0.1F).setTemperature(0F));
 	
 		this.spawnableCreatureList.clear();
 		this.spawnableMonsterList.clear();
