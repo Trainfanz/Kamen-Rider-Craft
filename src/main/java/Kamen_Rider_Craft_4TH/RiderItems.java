@@ -1812,7 +1812,8 @@ public class RiderItems {
 	public static Item solu_switch = new Item_ore("solu_switch").setCreativeTab(Tabs.tabFourze);
 	public static Item core_switch = new Item_ore("core_switch").setCreativeTab(Tabs.tabFourze);
 	public static Item gate_switch = new item_gate_switch("gate_switch").setCreativeTab(Tabs.tabFourze);
-
+	public static Item rocket_swich_christmas_ver = new Item_ore("rocket_swich_christmas_ver").setCreativeTab(Tabs.tabFourze);
+	
 	public static Item rider1_switch = new Item_astroswitch(0,"0","cross",13,"rider1_switch").AddLegendCrafting(typhoon_ichigo).setCreativeTab(Tabs.tabFourze);
 	public static Item rider2_switch = new Item_astroswitch(0, "0","square",14,"rider2_switch").AddLegendCrafting(typhoon_nigo).setCreativeTab(Tabs.tabFourze);
 	public static Item v3_switch = new Item_astroswitch(0, "0","triangle",13,"v3_switch").AddLegendCrafting(double_typhoon_core).setCreativeTab(Tabs.tabFourze);
