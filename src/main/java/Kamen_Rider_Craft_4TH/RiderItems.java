@@ -1498,6 +1498,7 @@ public class RiderItems {
 	public static Item medajalibur = new ItemChargeSword("medajalibur",Tabs.medajalibur, RiderItems.cellmedal).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 
 	public static Item tajaspinner = new Item_fireball_gun("tajaspinner",Tabs.tajaspinner, RiderItems.cellmedal).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+	public static Item tajaspinner_eternity = new Item_fireball_gun("tajaspinner_eternity",Tabs.tajaspinner, RiderItems.cellmedal).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 
 	public static Item medagaburyu = new Item_sword_gun("medagaburyu",Tabs.medagaburyu, RiderItems.cellmedal).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 
@@ -1632,6 +1633,11 @@ public class RiderItems {
 	public static Item sasori_new = new Itemmedal(15, "3","sasori_new").setCreativeTab(Tabs.tabOOO);
 	public static Item ichigo = new Itemmedal(16, "3","ichigo").setCreativeTab(Tabs.tabOOO);
 
+
+	public static Item taka_eternity = new Itemmedal(17, "1","taka_eternity").setCreativeTab(Tabs.tabOOO);
+	public static Item kujaku_eternity = new Itemmedal(20, "2","kujaku_eternity").setCreativeTab(Tabs.tabOOO);
+	public static Item condor_eternity = new Itemmedal(18, "3","condor_eternity").setCreativeTab(Tabs.tabOOO);
+	
 	public static Item love_core = new Itemmedal(8, "1","love_core").setCreativeTab(Tabs.tabOOO);
 	public static Item love_core2 = new Itemmedal(11, "2","love_core2").setCreativeTab(Tabs.tabOOO);
 	public static Item love_core3 = new Itemmedal(10, "3","love_core3").setCreativeTab(Tabs.tabOOO);

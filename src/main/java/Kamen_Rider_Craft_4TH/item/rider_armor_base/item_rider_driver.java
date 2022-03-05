@@ -9,6 +9,7 @@ import org.lwjgl.opengl.GL11;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.blocks.hiden_3d_printing;
+import Kamen_Rider_Craft_4TH.item.revice.Item_Vistamps;
 import Kamen_Rider_Craft_4TH.item.zero_one.Item_progrise_keys;
 import Kamen_Rider_Craft_4TH.model.model_belt;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
@@ -47,6 +48,13 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 	public Item TORSO;
 	public Item LEGS;
 
+	//HeadUpTexA,HeadUpTexB,HeadUpTexC,HeadLowTexA,HeadLowTexB,HeadLowTexC,TorsoUpTexA,TorsoUpTexB,TorsoUpTexC,TorsoLowTexA,TorsoLowTexB,TorsoLowTexC
+	//,ArmLUpTex,ArmLLowTex,ArmRUpTex,ArmRLowTex,LegLUpTex,LegLLowTex,LegRUpTex,LegRLowTex
+
+	public static int[] Text= new int[] {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
+
+
+
 	private boolean belt=false;
 
 	public item_rider_driver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, String rider,Item_form_change baseFormItem,Item head,Item torso,Item legs)
@@ -67,16 +75,42 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 
 	}
 
+	public item_rider_driver ChangeRender(int par1,int par2,int par3,int par4,int par5,int par6,int par7,int par8,int par9,int par10,int par11,int par12,int par13,int par14,int par15,int par16,int par17,int par18,int par19,int par20)
+	{
+		Text[0]=par1;
+		Text[1]=par2;
+		Text[2]=par3;
+		Text[3]=par4;
+		Text[4]=par5;
+		Text[5]=par6;
+		Text[6]=par7;
+		Text[7]=par8;
+		Text[8]=par9;
+		Text[9]=par10;
+		Text[10]=par11;
+		Text[11]=par12;
+		Text[12]=par13;	
+		Text[13]=par14;
+		Text[14]=par15;	
+		Text[15]=par16;
+		Text[16]=par17;	
+		Text[17]=par18;
+		Text[18]=par19;	
+		Text[19]=par20;
+
+		return this;
+	}
+
 	public item_rider_driver belt(boolean num)
 	{
 		belt=num;
 		return this;
 	}
-	
+
 	@SideOnly(Side.CLIENT)
 	public boolean hasEffect(ItemStack par1ItemStack)
 	{
-			return !true;
+		return !true;
 	}
 	@Override
 	public void registerModels() {
@@ -127,7 +161,7 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 			if(stack.getItem() instanceof ItemArmor)
 			{
 				model_belt armorModel = new model_belt();
-				
+
 				if(belt == true){
 					armorModel.belt=new ItemStack(RiderItems.blanknoitem);
 				}else if (get_Form_Item(stack,1).getBelt()==RiderItems.blanknoitem ){
@@ -194,7 +228,14 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 		itemstack.getTagCompound().setInteger("slot"+SLOT, Item.getIdFromItem(ITEM));
 
 	}
-	
+
+	public static String get_text(ItemStack itemstack, int num,String extra){
+		item_rider_driver belt =(item_rider_driver)itemstack.getItem();
+		String rider = belt.Rider;
+		return Refercence.MODID+":textures/armor/"+rider+item_rider_driver.get_Form_Item_tex(itemstack,Text[num]).getFormName() +extra;
+	}
+
+
 	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
 	{
 		return RiderItems.blanknoitem == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
