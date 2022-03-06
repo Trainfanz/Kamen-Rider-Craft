@@ -77,8 +77,22 @@ public class item_revicedriver extends ItemArmor  implements IHasModel
 
 				model_belt_plus armorModel = new model_belt_plus();
 
+				
+				
 				armorModel.belt=stack;
+				String form = Item_Vistamps.ARMS[DRIVER];
 
+				if (item_revicedriver.get_lockbase(stack)!="base") {
+					form = item_revicedriver.get_lockbase(stack);
+				}
+				
+				if (stack.getItem()==ReiwaRiderItems.vice_belt){
+					if(form=="jackal"){
+						armorModel.wings= new ItemStack(ReiwaRiderItems.vice_jackal_genome);
+						armorModel.belt=new ItemStack(RiderItems.blanknoitem);
+					}
+				}
+				
 				armorModel.isSneak = defaultModel.isSneak;
 				armorModel.isRiding = defaultModel.isRiding;
 				armorModel.isChild = defaultModel.isChild;
@@ -170,6 +184,9 @@ public class item_revicedriver extends ItemArmor  implements IHasModel
 										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 6,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 									}else if (form=="jackal"){
+										if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.vice_belt){
+											player.addPotionEffect(new PotionEffect(MobEffects.INVISIBILITY, 5, 0,false,false));
+										}
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 									}else if (form=="kong"){

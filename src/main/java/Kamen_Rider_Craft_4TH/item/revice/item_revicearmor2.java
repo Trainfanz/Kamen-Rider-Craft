@@ -3,6 +3,7 @@ package Kamen_Rider_Craft_4TH.item.revice;
 import javax.annotation.Nullable;
 
 import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
+import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ghost.item_ghost_armor3;
 import Kamen_Rider_Craft_4TH.model.bigBiped;
@@ -61,17 +62,25 @@ public class item_revicearmor2 extends ItemArmor implements IHasModel
 
 
 					{
+						String form = item_revicedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET));
+						
 						if ( slot == EntityEquipmentSlot.LEGS)
 						{
-							
+								if(form=="jackal"&player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==ReiwaRiderItems.vice_belt){
+									return Refercence.MODID+":textures/armor/vice_jackal_2.png";	
+									
+								}else{
 								return Refercence.MODID+":textures/armor/"+rider+CoreName[item_revicedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")]+"_2.png";	
-													
+								}			
 						}
 						if (slot == EntityEquipmentSlot.HEAD||slot == EntityEquipmentSlot.CHEST )
 						{
-							
+							if(form=="jackal"&player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==ReiwaRiderItems.vice_belt){
+								return Refercence.MODID+":textures/armor/vice_jackal_1.png";	
+								
+							}else{
 							return Refercence.MODID+":textures/armor/"+rider+CoreName[item_revicedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")]+"_1.png";	
-							
+							}
 						}
 					}
 

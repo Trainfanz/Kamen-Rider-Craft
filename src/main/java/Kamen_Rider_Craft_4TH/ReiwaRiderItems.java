@@ -457,6 +457,7 @@ public class ReiwaRiderItems {
 	
 	public static Item giff_junior_sword = new Item_sword_gun("giff_junior_sword",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 
+	public static Item vice_jackal_genome = new Item_ore("vice_jackal_genome").setCreativeTab(Tabs.tabrevice);
 	
 	public static Item revicehead = new item_revicearmor("revicehead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item revicetroso = new item_revicearmor2("revicetroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
@@ -482,7 +483,7 @@ public class ReiwaRiderItems {
 	public static Item megalodon_vistamp = new Item_Vistamps(3,"megalodon_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(5).setCreativeTab(Tabs.tabrevice);
 	public static Item ptera_vistamp = new Item_Vistamps(4,"ptera_vistamp").AddReviCanUse().AddToVistampBar(5).setCreativeTab(Tabs.tabrevice);
 	public static Item lion_vistamp = new Item_Vistamps(5,"lion_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(5).setCreativeTab(Tabs.tabrevice);
-	public static Item jackal_vistamp = new Item_Vistamps(6,"jackal_vistamp").AddReviCanUse().AddEvilCanUse().AddLiveCanUse().AddToVistampBar(5).setCreativeTab(Tabs.tabrevice);
+	public static Item jackal_vistamp = new Item_Vistamps(6,"jackal_vistamp").AddReviCanUse().AddViceCanUse().AddEvilCanUse().AddLiveCanUse().AddToVistampBar(5).setCreativeTab(Tabs.tabrevice);
 	public static Item kong_vistamp = new Item_Vistamps(7,"kong_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(3).setCreativeTab(Tabs.tabrevice);
 	public static Item kamakiri_vistamp = new Item_Vistamps(8,"kamakiri_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(3).setCreativeTab(Tabs.tabrevice);
 	public static Item brachio_vistamp = new Item_Vistamps(9,"brachio_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(3).setCreativeTab(Tabs.tabrevice);
