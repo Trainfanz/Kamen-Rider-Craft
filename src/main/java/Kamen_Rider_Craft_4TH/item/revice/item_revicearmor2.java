@@ -25,7 +25,7 @@ import net.minecraftforge.fml.relauncher.Side;
 
 public class item_revicearmor2 extends ItemArmor implements IHasModel
 {
-	public static final String[] CoreName= new String[] {"","_barid_rex","_volcano_rex",""};
+	public static final String[] CoreName= new String[] {"","_barid_rex","_volcano_rex","_jack_revice"};
 	
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
 	public String armorNamePrefix;

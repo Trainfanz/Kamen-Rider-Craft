@@ -149,6 +149,21 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 		}
 	}
 
+	public String getTexture(ItemStack stack, Entity entity)
+	{
+		if (entity instanceof EntityLivingBase){
+			EntityLivingBase player = ((EntityLivingBase)entity);
+			if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
+				String rider = ((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider;
+				return Refercence.MODID+":textures/armor/"+rider+item_rider_driver.get_Form_Item_tex(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).getFormName();
+			}
+		}
+		else
+		{
+			return Refercence.MODID+":textures/armor/blank.png";
+		}
+		return Refercence.MODID+":textures/armor/blank.png";
+	}
 
 
 	@Override
