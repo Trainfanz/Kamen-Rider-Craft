@@ -13,7 +13,6 @@ import Kamen_Rider_Craft_4TH.item.revice.item_revicearmor2;
 import Kamen_Rider_Craft_4TH.item.revice.item_revicedriver;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_armor;
-import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_armor2;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
 import Kamen_Rider_Craft_4TH.item.saber.Item_haouken_xross_saber;
 import Kamen_Rider_Craft_4TH.item.saber.Item_wonder_ride_book;
@@ -478,6 +477,7 @@ public class ReiwaRiderItems {
 	public static Item barid_rex_vistamp = new Item_Vistamps(0,"barid_rex_vistamp").AddReviCanUse().AddViceCanUse().ChangeForm(1).setCreativeTab(Tabs.tabrevice);
 	public static Item volcano_vistamp = new Item_Vistamps(0,"volcano_vistamp").AddReviCanUse().AddViceCanUse().ChangeForm(2).setCreativeTab(Tabs.tabrevice);
 	public static Item rolling_vistamp = new Item_Vistamps(0,"rolling_vistamp").AddReviCanUse().ChangeForm(3).setCreativeTab(Tabs.tabrevice);
+	public static Item thunder_gale_vistamp = new Item_Vistamps(0,"thunder_gale_vistamp").AddReviCanUse().ChangeForm(4).setCreativeTab(Tabs.tabrevice);
 	
 	public static Item eagle_vistamp = new Item_Vistamps(1,"eagle_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(5).setCreativeTab(Tabs.tabrevice);
 	public static Item mammoth_vistamp = new Item_Vistamps(2,"mammoth_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(5).setCreativeTab(Tabs.tabrevice);
