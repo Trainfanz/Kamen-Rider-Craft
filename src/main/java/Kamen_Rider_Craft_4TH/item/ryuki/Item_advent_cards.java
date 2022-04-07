@@ -3,6 +3,7 @@ package Kamen_Rider_Craft_4TH.item.ryuki;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -18,70 +19,68 @@ public class Item_advent_cards extends Item implements IHasModel
 {
 
 	public int num;
-	public String num2;
 
 
-	public Item_advent_cards(String name,int NUM ,String NUM2)
+	public Item_advent_cards(String name,int NUM)
 	{
 		super();
 		this.setMaxDamage(0);
 
 		num=NUM;
-		num2=NUM2;
-		 setTranslationKey(name);
-	        setRegistryName(name);
-	        TokuCraft_core.ITEMS.add(this);
-		}
+		setTranslationKey(name);
+		setRegistryName(name);
+		TokuCraft_core.ITEMS.add(this);
+	}
 
-		@Override
-		public void registerModels() {
-			TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
-		}
+	@Override
+	public void registerModels() {
+		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
+	}
 
-		   /**
-	     * Called when the equipped item is right clicked.
-	     */
-	    public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn)
-	    {
+	/**
+	 * Called when the equipped item is right clicked.
+	 */
+	public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn)
+	{
 
 
 
 		if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
 
 			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.v_buckle_ryuki){
-
-				if (num2 == "1"){
-					item_ryukidriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), num);
+				if (num == 1){
+					((Item_form_change)RiderItems.survive_ryuki_advent).onItemRightClick(worldIn, playerIn, handIn);
+				}else if(num == 3){
+					((Item_form_change)RiderItems.blank_ryuki_advent).onItemRightClick(worldIn, playerIn, handIn);
 				}
+
 			}else if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.v_buckle_ryuga){
-				if (this==RiderItems.survive_advent){
-					item_ryukidriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), num);
-				}else if (num2 == "3"){
-					item_ryukidriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), num);
+				if (num == 1){
+					((Item_form_change)RiderItems.survive_ryuga_advent).onItemRightClick(worldIn, playerIn, handIn);
 				}
 			}else if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.v_buckle_raia){
-				if (this==RiderItems.survive_shippu_advent){
-					item_ryukidriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), num);
-				}else if (num2 == "4"){
-					item_ryukidriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), num);
+				if (num == 2){
+					((Item_form_change)RiderItems.survive_raia_advent).onItemRightClick(worldIn, playerIn, handIn);
+				}
+			}else if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.v_buckle_knight){
+				if (num == 2){
+					((Item_form_change)RiderItems.survive_knight_advent).onItemRightClick(worldIn, playerIn, handIn);
+				}else if(num == 3){
+					((Item_form_change)RiderItems.blank_knight_advent).onItemRightClick(worldIn, playerIn, handIn);
+				}
+
+			}else if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.v_buckle_ouja){
+				if (num == 3){
+					((Item_form_change)RiderItems.blank_ouja_advent).onItemRightClick(worldIn, playerIn, handIn);
 				}
 			}
 
-			
-
-			
-			else if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.v_buckle_knight){
-
-			if (num2 == "2")
-				item_ryukidriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), num);
-		}
-
 		}
 
 
-        playerIn.setActiveHand(handIn);
-        return new ActionResult<ItemStack>(EnumActionResult.SUCCESS, playerIn.getHeldItem(handIn));
-    }
+		playerIn.setActiveHand(handIn);
+		return new ActionResult<ItemStack>(EnumActionResult.SUCCESS, playerIn.getHeldItem(handIn));
+	}
 
 }
 

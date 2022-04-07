@@ -195,12 +195,7 @@ public class RiderItems {
 	public static Item g3core = new Item_ore("g3core").setCreativeTab(Tabs.tabagito);
 	public static Block hellrock_agito= new ore_block("hellrock_agito",Material.ROCK, g3core, 3).setHardness(9.9F).setCreativeTab(Tabs.tabagito);
 
-	public static Item contract_advent = new Item_advent_cards("contract_advent",2,"1").setCreativeTab(Tabs.tabryuki);
-	public static Block advent_glass= new glass_ore_block("advent_glass",Material.ROCK, contract_advent, 2).setHardness(9.9F).setCreativeTab(Tabs.tabryuki);
-
-	public static Item dragblacker_advent = new Item_advent_cards("dragblacker_advent",0,"3").setCreativeTab(Tabs.tabryuki);
-	public static Block hell_advent_glass= new glass_ore_block("hell_advent_glass",Material.ROCK, dragblacker_advent, 3).setHardness(9.9F).setCreativeTab(Tabs.tabryuki);
-	
+		
 	public static Item bladecard = new Item_ore("bladecard").setCreativeTab(Tabs.tabblade);
 	public static Block bladecard_block = new ore_block("bladecard_block",Material.ROCK, bladecard, 2).setHardness(9.9F).setCreativeTab(Tabs.tabblade);
 
@@ -749,14 +744,14 @@ public class RiderItems {
 	public static Item tornader = new item_bikes("tornader",Entitymachine_tornador::new).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 
 	//ryuki
+	public static Item contract_advent = new Item_advent_cards("contract_advent",3).setCreativeTab(Tabs.tabryuki);
+
 	public static Item drag_visor = new Item_ore("drag_visor").setCreativeTab(Tabs.tabryuki);
 	public static Item ride_saber = new ItemBaseSword("ride_saber",Tabs.den_denso, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
 	public static Item drag_saber = new ItemBaseSword("drag_saber",Tabs.den_denso, RiderItems.contract_advent).setMaxStackSize(1).setTranslationKey("drag_saber").setCreativeTab(Tabs.tabryuki);
 	public static Item drag_claw = new ItemBaseSword("drag_claw",Tabs.den_denro, RiderItems.contract_advent).setMaxStackSize(1).setTranslationKey("drag_claw").setCreativeTab(Tabs.tabryuki);
 
 	public static Item drag_shield = new ItemBaseShield("drag_shield", RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-
-	//public static Item drag_visor_zwei_big = new Item_ore("drag_visor_zwei_big");
 	public static Item drag_visor_zwei = new ItemBaseSword("drag_visor_zwei",Tabs.denkamen_sword, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
 
 	public static Item dark_visor = new ItemBaseSword("dark_visor",Tabs.den_denso, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
@@ -808,57 +803,139 @@ public class RiderItems {
 	public static Item slash_visor = new Item_ore("slash_visor").setCreativeTab(Tabs.tabryuki);
 	public static Item alternative_sword = new ItemBaseSword("alternative_sword",Tabs.den_denso, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
 
+	public static Item ryukihead = new item_rider_armor("ryukihead",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item ryukitroso = new item_rider_armor("ryukitroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item ryukilegs = new item_rider_armor("ryukilegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
 
-	public static Item ryukihead = new item_ryukiarmor("ryukihead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item ryukitroso = new item_ryukiarmor2("ryukitroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item ryukilegs = new item_ryukiarmor2("ryukilegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-
-	public static Item v_buckle_ryuki = new item_ryukidriver("v_buckle_ryuki",ArmorMaterial.DIAMOND, 4, "ryuki").setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
 	public static Item v_buckle = new Item_ore("v_buckle");
 	public static Item v_buckle_ryuki_survive = new Item_ore("v_buckle_ryuki_survive");
-	public static Item v_buckle_knight = new item_ryukidriver("v_buckle_knight",ArmorMaterial.DIAMOND, 4, "knight").setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
 	public static Item v_buckle_knight_survive = new Item_ore("v_buckle_knight_survive");
-	public static Item v_buckle_scissors = new item_ryukidriver("v_buckle_scissors",ArmorMaterial.DIAMOND, 4, "scissors").setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-
-	public static Item v_buckle_zolda = new item_ryukidriver("v_buckle_zolda",ArmorMaterial.DIAMOND, 4, "zolda").setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
 	public static Item v_buckle_raia_survive = new Item_ore("v_buckle_raia_survive");
-	public static Item v_buckle_raia = new item_ryukidriver("v_buckle_raia",ArmorMaterial.DIAMOND, 4, "raia").setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item v_buckle_gai = new item_ryukidriver("v_buckle_gai",ArmorMaterial.DIAMOND, 4, "gai").setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item v_buckle_ouja = new item_ryukidriver("v_buckle_ouja",ArmorMaterial.DIAMOND, 4, "ouja").setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item v_buckle_tiger = new item_ryukidriver("v_buckle_tiger",ArmorMaterial.DIAMOND, 4, "tiger").setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item v_buckle_imperer = new item_ryukidriver("v_buckle_imperer",ArmorMaterial.DIAMOND, 4, "imperer").setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item v_buckle_odin = new item_ryukidriver("v_buckle_odin",ArmorMaterial.DIAMOND, 4, "odin").setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item v_buckle_femme = new item_ryukidriver("v_buckle_femme",ArmorMaterial.DIAMOND, 4, "femme").setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item v_buckle_verde = new item_ryukidriver("v_buckle_verde",ArmorMaterial.DIAMOND, 4, "verde").setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-
 	public static Item v_buckle_ryuga_survive = new Item_ore("v_buckle_ryuga_survive");
-	public static Item v_buckle_ryuga = new item_ryukidriver("v_buckle_ryuga",ArmorMaterial.DIAMOND, 4, "ryuga").setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item v_buckle_abyss = new item_ryukidriver("v_buckle_abyss",ArmorMaterial.DIAMOND, 4,"abyss").setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
 
-	public static Item alternativebelt = new item_ryukidriver("alternativebelt",ArmorMaterial.DIAMOND, 4, "alternative").setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item alternativezerobelt = new item_ryukidriver("alternativezerobelt",ArmorMaterial.DIAMOND, 4, "alternativezero").setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	
+	public static Item dragreder_advent = new Item_form_change("dragreder_advent",item_rider_driver.class,blanknoitem,"","ryuki"
+			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
+			,new PotionEffect(MobEffects.HASTE, 5, 0,true,false)).setCreativeTab(Tabs.tabryuki);
+	
+	public static Item ryuki_dragreder_wings = new Item_ore("ryuki_dragreder_wings");
+	public static Item dragreder = new Item_form_change("dragreder",item_rider_driver.class,v_buckle_ryuki_survive,"_dragreder","ryuki"
+			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
+			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).addWing(ryuki_dragreder_wings).Rend2ndLyer("dragreder").setCreativeTab(Tabs.tabryuki);
+	
+
+	
+	public static Item darkwing_advent = new Item_form_change("darkwing_advent",item_rider_driver.class,blanknoitem,"","knight"
+			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false),
+			new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)).setCreativeTab(Tabs.tabryuki);
+	
+	public static Item volcancer_advent = new Item_form_change("volcancer_advent",item_rider_driver.class,blanknoitem,"","scissors"
+			,new PotionEffect(MobEffects.SLOWNESS, 5, 0,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false),
+			new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false)).setCreativeTab(Tabs.tabryuki);
+	
+	public static Item magnugiga_advent = new Item_form_change("magnugiga_advent",item_rider_driver.class,blanknoitem,"","zolda"
+			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false),
+			new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)).setCreativeTab(Tabs.tabryuki);
+	
+	public static Item evildiver_advent = new Item_form_change("evildiver_advent",item_rider_driver.class,blanknoitem,"","raia"
+			,new PotionEffect(MobEffects.SPEED, 5, 2,true,false),new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),
+			new PotionEffect(MobEffects.HASTE, 5, 1,true,false)).setCreativeTab(Tabs.tabryuki);
+	
+	public static Item metalgelas_advent = new Item_form_change("metalgelas_advent",item_rider_driver.class,blanknoitem,"","gai"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false),new PotionEffect(MobEffects.MINING_FATIGUE, 5, 0,true,false)).setCreativeTab(Tabs.tabryuki);
+	
+	public static Item venosnaker_advent = new Item_form_change("venosnaker_advent",item_rider_driver.class,blanknoitem,"","ouja"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false),new PotionEffect(MobEffects.SPEED, 5, 0,true,false)).setCreativeTab(Tabs.tabryuki);
+	
+	public static Item destwilder_advent = new Item_form_change("destwilder_advent",item_rider_driver.class,blanknoitem,"","tiger"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false),new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
+			,new PotionEffect(MobEffects.HASTE, 5, 1,true,false)).setCreativeTab(Tabs.tabryuki);
+	
+	public static Item gigazelle_advent = new Item_form_change("gigazelle_advent",item_rider_driver.class,blanknoitem,"","imperer"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false),new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
+					,new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false)).setCreativeTab(Tabs.tabryuki);
+	
+	public static Item biogreeza_advent = new Item_form_change("biogreeza_advent",item_rider_driver.class,blanknoitem,"","verde"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),new PotionEffect(MobEffects.SPEED, 5, 2,true,false),
+			new PotionEffect(MobEffects.JUMP_BOOST, 5, 5,true,false)).setCreativeTab(Tabs.tabryuki);
+	
+	public static Item blancwing_advent = new Item_form_change("blancwing_advent",item_rider_driver.class,blanknoitem,"","femme"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false),new PotionEffect(MobEffects.SPEED, 5, 1,true,false),new PotionEffect(MobEffects.HASTE, 5, 1,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false)).setCreativeTab(Tabs.tabryuki);
+	
+	public static Item goldphoenix_advent  = new Item_form_change("goldphoenix_advent",item_rider_driver.class,blanknoitem,"","odin"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 5,true,false),new PotionEffect(MobEffects.JUMP_BOOST, 250, 4,true,false)
+			,new PotionEffect(MobEffects.HASTE, 5, 0,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 4,true,false),
+			new PotionEffect(MobEffects.SPEED, 5, 2,true,false)).setCreativeTab(Tabs.tabryuki);
+	
+	public static Item abysslasher_advent = new Item_form_change("abysslasher_advent",item_rider_driver.class,blanknoitem,"","abyss"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),new PotionEffect(MobEffects.SPEED, 5, 2,true,false),
+			new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false)).setCreativeTab(Tabs.tabryuki);
+	
+	public static Item psycorogue_advent = new Item_form_change("psycorogue_advent",item_rider_driver.class,blanknoitem,"","alternative"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false),new PotionEffect(MobEffects.SPEED, 5, 0,true,false)
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false)).setCreativeTab(Tabs.tabryuki);
 
 
-	public static Item dragreder_advent = new Item_advent_cards("dragreder_advent",0,"1").setCreativeTab(Tabs.tabryuki);
-	public static Item darkwing_advent = new Item_advent_cards("darkwing_advent",0,"2").setCreativeTab(Tabs.tabryuki);
-	public static Item volcancer_advent = new Item_ore("volcancer_advent").setCreativeTab(Tabs.tabryuki);
-	public static Item magnugiga_advent = new Item_ore("magnugiga_advent").setCreativeTab(Tabs.tabryuki);
-	public static Item evildiver_advent = new Item_advent_cards("evildiver_advent",0,"4").setCreativeTab(Tabs.tabryuki);
-	public static Item metalgelas_advent = new Item_ore("metalgelas_advent").setCreativeTab(Tabs.tabryuki);
-	public static Item venosnaker_advent = new Item_ore("venosnaker_advent").setCreativeTab(Tabs.tabryuki);
-	public static Item destwilder_advent = new Item_ore("destwilder_advent").setCreativeTab(Tabs.tabryuki);
-	public static Item gigazelle_advent = new Item_ore("gigazelle_advent").setCreativeTab(Tabs.tabryuki);
-	public static Item biogreeza_advent = new Item_ore("biogreeza_advent").setCreativeTab(Tabs.tabryuki);
-	public static Item blancwing_advent = new Item_ore("blancwing_advent").setCreativeTab(Tabs.tabryuki);
+	public static Item dragblacker_advent = new Item_form_change("dragblacker_advent",item_rider_driver.class,blanknoitem,"","ryuga"
+			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
+			,new PotionEffect(MobEffects.HASTE, 5, 0,true,false)).setCreativeTab(Tabs.tabryuki);
 
-	public static Item goldphoenix_advent = new Item_ore("goldphoenix_advent").setCreativeTab(Tabs.tabryuki);
-	public static Item abysslasher_advent = new Item_ore("abysslasher_advent").setCreativeTab(Tabs.tabryuki);
-	public static Item psycorogue_advent = new Item_ore("psycorogue_advent").setCreativeTab(Tabs.tabryuki);
+	
+	public static Item survive_shippu_advent = new Item_advent_cards("survive_shippu_advent",2).setCreativeTab(Tabs.tabryuki);
 
-	public static Item survive_shippu_advent= new Item_advent_cards("survive_shippu_advent",1,"2").setCreativeTab(Tabs.tabryuki);
 	public static Item survive_mugen_advent = new Item_ore("survive_mugen_advent").setCreativeTab(Tabs.tabryuki);
-	public static Item survive_advent = new Item_advent_cards("survive_advent",1,"1").setCreativeTab(Tabs.tabryuki);
+	
+	public static Item survive_advent = new Item_advent_cards("survive_advent",1).setCreativeTab(Tabs.tabryuki);
+	
+	public static Item survive_knight_advent = new Item_form_change("survive_knight_advent",item_rider_driver.class,v_buckle_knight_survive,"_survive","knight"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 5,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false),
+			new PotionEffect(MobEffects.HASTE, 5, 0,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false),
+			new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
 
+	
+	public static Item survive_ryuki_advent = new Item_form_change("survive_ryuki_advent",item_rider_driver.class,v_buckle_ryuki_survive,"_survive","ryuki"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
+			,new PotionEffect(MobEffects.HASTE, 5, 1,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false),
+			new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+	
+	public static Item survive_ryuga_advent = new Item_form_change("survive_ryuga_advent",item_rider_driver.class,v_buckle_ryuga_survive,"_survive","ryuga"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 5,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false),
+			new PotionEffect(MobEffects.HASTE, 5, 0,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false),
+			new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+
+	public static Item survive_raia_advent = new Item_form_change("survive_raia_advent",item_rider_driver.class,v_buckle_raia_survive,"_survive","raia"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 5,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false),
+			new PotionEffect(MobEffects.HASTE, 5, 0,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false),
+			new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+
+	public static Item blank_ryuki_advent = new Item_form_change("blank_ryuki_advent",item_rider_driver.class,v_buckle,"_blank","ryuki"
+			,new PotionEffect(MobEffects.WEAKNESS, 5, 1,true,false));
+
+	public static Item blank_knight_advent = new Item_form_change("blank_knight_advent",item_rider_driver.class,v_buckle,"_blank","knight"
+			,new PotionEffect(MobEffects.WEAKNESS, 5, 1,true,false));
+	
+	public static Item blank_ouja_advent = new Item_form_change("blank_ouja_advent",item_rider_driver.class,v_buckle,"_blank","ouja"
+			,new PotionEffect(MobEffects.WEAKNESS, 5, 1,true,false));
+
+	
+	public static Item v_buckle_ryuki = new item_rider_driver("v_buckle_ryuki",ArmorMaterial.DIAMOND, 4,"ryuki", (Item_form_change) dragreder_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_knight = new item_rider_driver("v_buckle_knight",ArmorMaterial.DIAMOND, 4,"knight", (Item_form_change) darkwing_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_scissors = new item_rider_driver("v_buckle_scissors",ArmorMaterial.DIAMOND, 4,"scissors", (Item_form_change) volcancer_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_zolda = new item_rider_driver("v_buckle_zolda",ArmorMaterial.DIAMOND, 4,"zolda", (Item_form_change) magnugiga_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_raia = new item_rider_driver("v_buckle_raia",ArmorMaterial.DIAMOND, 4,"raia", (Item_form_change) evildiver_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_gai = new item_rider_driver("v_buckle_gai",ArmorMaterial.DIAMOND, 4,"gai", (Item_form_change) metalgelas_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_ouja = new item_rider_driver("v_buckle_ouja",ArmorMaterial.DIAMOND, 4,"ouja", (Item_form_change) venosnaker_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_tiger = new item_rider_driver("v_buckle_tiger",ArmorMaterial.DIAMOND, 4,"tiger", (Item_form_change) destwilder_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_imperer = new item_rider_driver("v_buckle_imperer",ArmorMaterial.DIAMOND, 4,"imperer", (Item_form_change) gigazelle_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_odin = new item_rider_driver("v_buckle_odin",ArmorMaterial.DIAMOND, 4,"odin", (Item_form_change) goldphoenix_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_femme = new item_rider_driver("v_buckle_femme",ArmorMaterial.DIAMOND, 4,"femme", (Item_form_change) blancwing_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_verde = new item_rider_driver("v_buckle_verde",ArmorMaterial.DIAMOND, 4,"verde", (Item_form_change) biogreeza_advent , ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_ryuga = new item_rider_driver("v_buckle_ryuga",ArmorMaterial.DIAMOND, 4,"ryuga", (Item_form_change) dragblacker_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_abyss = new item_rider_driver("v_buckle_abyss",ArmorMaterial.DIAMOND, 4,"abyss", (Item_form_change) abysslasher_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item alternativebelt = new item_rider_driver("alternativebelt",ArmorMaterial.DIAMOND, 4,"alternative", (Item_form_change) psycorogue_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item alternativezerobelt = new item_rider_driver("alternativezerobelt",ArmorMaterial.DIAMOND, 4,"alternativezero", (Item_form_change) psycorogue_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	
 
 	public static Item blank_sword_vent = new Item_vent("blank_sword_vent","ryuki",ride_saber,2,drag_visor).setCreativeTab(Tabs.tabryuki);
 	public static Item drag_saber_vent = new Item_vent("drag_saber_vent","ryuki",drag_saber,0,drag_visor).setCreativeTab(Tabs.tabryuki);
@@ -887,6 +964,9 @@ public class RiderItems {
 	public static Item wing_shield_vent = new Item_vent("wing_shield_vent","femme",wing_shield,0,blanc_visor).setCreativeTab(Tabs.tabryuki);
 	public static Item ryuga_drag_shield_vent = new Item_vent("ryuga_drag_shield_vent","ryuga",ryuga_drag_shield,0,dark_drag_visor).setCreativeTab(Tabs.tabryuki);
 	public static Item gold_shield_vent = new Item_vent("gold_shield_vent","odin",gold_shield,1,gold_visor).setCreativeTab(Tabs.tabryuki);
+
+	public static Block advent_glass= new glass_ore_block("advent_glass",Material.ROCK, contract_advent, 2).setHardness(9.9F).setCreativeTab(Tabs.tabryuki);
+	public static Block hell_advent_glass= new glass_ore_block("hell_advent_glass",Material.ROCK, dragblacker_advent, 3).setHardness(9.9F).setCreativeTab(Tabs.tabryuki);
 
 	//faiz
 	
