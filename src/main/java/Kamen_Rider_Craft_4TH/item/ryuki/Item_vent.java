@@ -3,6 +3,7 @@ package Kamen_Rider_Craft_4TH.item.ryuki;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigodriver;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -57,8 +58,8 @@ public class Item_vent extends Item implements IHasModel
 							if (player.getItemStackFromSlot(EntityEquipmentSlot.LEGS).getItem() == RiderItems.ryukilegs){
 								if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == RiderItems.ryukitroso){
 									if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == RiderItems.ryukihead){
-										if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_ryukidriver){
-											if (RIDER == ((item_ryukidriver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider){
+										if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_rider_driver){
+											if (RIDER == ((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider){
 												if (!worldIn.isRemote)
 												{
 													player.dropItem(WEP, 1);

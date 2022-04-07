@@ -107,9 +107,6 @@ import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_armor;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
 import Kamen_Rider_Craft_4TH.item.ryuki.Item_advent_cards;
 import Kamen_Rider_Craft_4TH.item.ryuki.Item_vent;
-import Kamen_Rider_Craft_4TH.item.ryuki.item_ryukiarmor;
-import Kamen_Rider_Craft_4TH.item.ryuki.item_ryukiarmor2;
-import Kamen_Rider_Craft_4TH.item.ryuki.item_ryukidriver;
 import Kamen_Rider_Craft_4TH.item.saber.Item_haouken_xross_saber;
 import Kamen_Rider_Craft_4TH.item.saber.Item_wonder_ride_book;
 import Kamen_Rider_Craft_4TH.item.saber.item_book_gate_wonder_ride_book;
@@ -296,22 +293,12 @@ public class RiderItems {
 	public static Item typhoon_core = new Item_ore("typhoon_core").setCreativeTab(Tabs.tabIchigo);
 
 	//V3
-	public static Item v3_flaresalamander_wings = new Item_ore("v3_flaresalamander_wings");
-	
-	public static Item flaresalamander_sword = new ItemBaseSword("flaresalamander_sword",Tabs.ridol_stick, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabv3);
-
 	public static Item double_typhoon_core = new Item_form_change("double_typhoon_core",item_rider_driver.class,blanknoitem,"","v3"
 			,new PotionEffect(MobEffects.STRENGTH,20, 1,true,false),new PotionEffect(MobEffects.RESISTANCE,20, 1,true,false)
 			,new PotionEffect(MobEffects.SPEED,20, 1,true,false),new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false)
 			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false)
 			).setCreativeTab(Tabs.tabv3);
-
-	public static Item flaresalamander = new Item_form_change("flaresalamander",item_rider_driver.class,blanknoitem,"","v3"
-			,new PotionEffect(MobEffects.STRENGTH,20, 3,true,false),new PotionEffect(MobEffects.RESISTANCE,20, 3,true,false)
-			,new PotionEffect(MobEffects.SPEED,20, 3,true,false),new PotionEffect(MobEffects.JUMP_BOOST,20, 4,true,false)
-			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false),new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)
-			).addWing(v3_flaresalamander_wings).Rend2ndLyer("v3_flaresalamander").setCreativeTab(Tabs.tabv3);
-
+	
 
 	public static Item riderman_belt_core = new Item_form_change("riderman_belt_core",item_rider_driver.class,blanknoitem,"",""
 			,new PotionEffect(MobEffects.STRENGTH,20, 1,true,false),new PotionEffect(MobEffects.REGENERATION,20, 0,true,false)
@@ -818,12 +805,6 @@ public class RiderItems {
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
 			,new PotionEffect(MobEffects.HASTE, 5, 0,true,false)).setCreativeTab(Tabs.tabryuki);
 	
-	public static Item ryuki_dragreder_wings = new Item_ore("ryuki_dragreder_wings");
-	public static Item dragreder = new Item_form_change("dragreder",item_rider_driver.class,v_buckle_ryuki_survive,"_dragreder","ryuki"
-			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
-			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).addWing(ryuki_dragreder_wings).Rend2ndLyer("dragreder").setCreativeTab(Tabs.tabryuki);
-	
-
 	
 	public static Item darkwing_advent = new Item_form_change("darkwing_advent",item_rider_driver.class,blanknoitem,"","knight"
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false),
@@ -3424,6 +3405,28 @@ public class RiderItems {
 	public static Item typhoon_midorider = new item_GoRiderTyphoon("typhoon_midorider",ArmorMaterial.DIAMOND, 4,"midorider",(Item_form_change) midorider_card).setMaxStackSize(1).setCreativeTab(Tabs.tabGoRider);
 
 
+	//Card Warrior Kamen Rider
+	
+	public static Item flaresalamander_sword = new ItemBaseSword("flaresalamander_sword",Tabs.ridol_stick, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabmisc);
+
+	
+		
+	public static Item ryuki_dragreder_wings = new Item_ore("ryuki_dragreder_wings");
+	public static Item dragreder = new Item_form_change("dragreder",item_rider_driver.class,v_buckle_ryuki_survive,"_dragreder","ryuki"
+			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
+			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).addWing(ryuki_dragreder_wings).Rend2ndLyer("dragreder").setCreativeTab(Tabs.tabmisc);
+
+	public static Item knight_darkwing_wings = new Item_ore("knight_darkwing_wings");
+	public static Item darkwing = new Item_form_change("darkwing",item_rider_driver.class,v_buckle_knight_survive,"_darkwing","knight"
+			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
+			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).addWing(knight_darkwing_wings).Rend2ndLyer("darkwing").setCreativeTab(Tabs.tabmisc);
+
+	public static Item v3_flaresalamander_wings = new Item_ore("v3_flaresalamander_wings");
+	public static Item flaresalamander = new Item_form_change("flaresalamander",item_rider_driver.class,blanknoitem,"","v3"
+			,new PotionEffect(MobEffects.STRENGTH,20, 3,true,false),new PotionEffect(MobEffects.RESISTANCE,20, 3,true,false)
+			,new PotionEffect(MobEffects.SPEED,20, 3,true,false),new PotionEffect(MobEffects.JUMP_BOOST,20, 4,true,false)
+			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false),new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)
+			).addWing(v3_flaresalamander_wings).Rend2ndLyer("v3_flaresalamander").setCreativeTab(Tabs.tabmisc);
 
 	public static void init() {
 	}
