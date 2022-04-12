@@ -5,8 +5,6 @@ import javax.annotation.Nullable;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
-import Kamen_Rider_Craft_4TH.item.agito.item_agitodriver;
-import Kamen_Rider_Craft_4TH.item.faiz.item_faizarmor2;
 import Kamen_Rider_Craft_4TH.model.tokuArmorModel;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import Kamen_Rider_Craft_4TH.util.Refercence;

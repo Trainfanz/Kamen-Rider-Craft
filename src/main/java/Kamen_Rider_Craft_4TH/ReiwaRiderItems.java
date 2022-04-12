@@ -456,7 +456,7 @@ public class ReiwaRiderItems {
 	
 	public static Item giff_junior_sword = new Item_sword_gun("giff_junior_sword",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 
-	public static Item vice_jackal_genome = new Item_ore("vice_jackal_genome").setCreativeTab(Tabs.tabrevice);
+	public static Item vice_jackal_genome = new Item_ore("vice_jackal_genome");
 	
 	public static Item revicehead = new item_revicearmor("revicehead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item revicetroso = new item_revicearmor2("revicetroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);

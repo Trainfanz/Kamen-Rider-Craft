@@ -2,8 +2,6 @@ package Kamen_Rider_Craft_4TH.item.hibiki;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
-import Kamen_Rider_Craft_4TH.item.agito.item_agitodriver;
-import Kamen_Rider_Craft_4TH.item.faiz.item_faizdriver;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import Kamen_Rider_Craft_4TH.util.Refercence;
 import net.minecraft.entity.Entity;
@@ -57,11 +55,11 @@ public class item_hibikiarmor extends ItemArmor implements IHasModel
 					if (rider=="hibiki"){
 						if ( slot == EntityEquipmentSlot.LEGS)
 						{
-							return Refercence.MODID+":textures/armor/"+"hibiki"+CoreName[item_faizdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))] +"_2.png";
+							return Refercence.MODID+":textures/armor/"+"hibiki"+CoreName[item_hibikidriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))] +"_2.png";
 						}
 						if (slot == EntityEquipmentSlot.HEAD||slot == EntityEquipmentSlot.CHEST )
 						{
-							return Refercence.MODID+":textures/armor/"+"hibiki"+ CoreName[item_faizdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))] +"_1.png";
+							return Refercence.MODID+":textures/armor/"+"hibiki"+ CoreName[item_hibikidriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))] +"_1.png";
 						}
 					}else{
 						if ( slot == EntityEquipmentSlot.LEGS){

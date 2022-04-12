@@ -3,8 +3,6 @@ package Kamen_Rider_Craft_4TH.item.kabuto;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
-import Kamen_Rider_Craft_4TH.item.agito.item_agitodriver;
-import Kamen_Rider_Craft_4TH.item.faiz.item_faizdriver;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import Kamen_Rider_Craft_4TH.util.Refercence;
 import net.minecraft.entity.Entity;
