@@ -14,6 +14,7 @@ import javax.annotation.Nullable;
 import com.google.common.collect.Sets;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -67,20 +68,20 @@ public class Entity_shocker_riders extends EntityBossBase
 //implements IBossDisplayData
 {
     
-	public static final Item[] belt = new Item[] {RiderItems.typhoon_shocker_rider_1,RiderItems.typhoon_shocker_rider_2,RiderItems.typhoon_shocker_rider_3,RiderItems.typhoon_shocker_rider_4,RiderItems.typhoon_shocker_rider_5,
-			RiderItems.typhoon_shocker_rider_6,RiderItems.typhoon_shocker_rider_7,RiderItems.typhoon_shocker_rider_8,RiderItems.typhoon_shocker_rider_9,RiderItems.typhoon_shocker_rider_10,RiderItems.typhoon_shocker_rider_11,
-			RiderItems.typhoon_shocker_rider_12,RiderItems.typhoon_shocker_rider_12,};
+	public static final Item[] belt = new Item[] {ShowaRiderItems.typhoon_shocker_rider_1,ShowaRiderItems.typhoon_shocker_rider_2,ShowaRiderItems.typhoon_shocker_rider_3,ShowaRiderItems.typhoon_shocker_rider_4,ShowaRiderItems.typhoon_shocker_rider_5,
+			ShowaRiderItems.typhoon_shocker_rider_6,ShowaRiderItems.typhoon_shocker_rider_7,ShowaRiderItems.typhoon_shocker_rider_8,ShowaRiderItems.typhoon_shocker_rider_9,ShowaRiderItems.typhoon_shocker_rider_10,ShowaRiderItems.typhoon_shocker_rider_11,
+			ShowaRiderItems.typhoon_shocker_rider_12,ShowaRiderItems.typhoon_shocker_rider_12,};
 	
 	private String texture;
 	public Entity_shocker_riders(World par1World)
 	{
 		super(par1World);
-		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.ichigotroso));
-		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.ichigohead));
+		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(ShowaRiderItems.ichigotroso));
+		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(ShowaRiderItems.ichigohead));
 		Random generator = new Random();
 		int rand = generator.nextInt(belt.length);
 		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(belt[rand]));
-		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.ichigolegs));
+		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(ShowaRiderItems.ichigolegs));
 	}
   
     protected void applyEntityAttributes()
@@ -108,7 +109,7 @@ public class Entity_shocker_riders extends EntityBossBase
 if (!this.world.isRemote){
 
    		this.dropItem(RiderItems.shocker_emblem, 1);
-   		this.dropItem(RiderItems.rider_circuit, 4);
+   		this.dropItem(ShowaRiderItems.rider_circuit, 4);
 
    		switch (this.rand.nextInt(5))
 		{

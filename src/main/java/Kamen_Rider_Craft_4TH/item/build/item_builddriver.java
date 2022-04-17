@@ -7,6 +7,7 @@ import javax.annotation.Nullable;
 import org.lwjgl.opengl.GL11;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
 import Kamen_Rider_Craft_4TH.model.model_belt_plus;
@@ -82,7 +83,7 @@ public class item_builddriver extends ItemArmor implements IHasModel
 				model_belt_plus armorModel = new model_belt_plus();
 
 				Item[] build_inorganic= new Item[] {RiderItems.build_driver_tank,RiderItems.build_driver_diamond,RiderItems.build_driver_gatling,RiderItems.build_driver_soujiki,RiderItems.build_driver_comic,RiderItems.build_driver_rocket,RiderItems.build_driver_shoubousha,RiderItems.build_driver_lock,RiderItems.build_driver_cake,RiderItems.build_driver_medal,RiderItems.build_driver_game,RiderItems.build_driver_mic,RiderItems.build_driver_usb_memory,RiderItems.build_driver_densha,RiderItems.build_driver_light,RiderItems.build_driver_robo,RiderItems.build_driver_televi,RiderItems.build_driver_parka,RiderItems.build_driver_smartphone,RiderItems.build_driver_camera,RiderItems.build_driver_helicopter,RiderItems.build_driver_ufo,RiderItems.build_driver_jet,RiderItems.build_driver_cyclone,RiderItems.build_driver_eraser,RiderItems.build_driver_watch,RiderItems.build_driver_pyramid,RiderItems.build_driver_skateboard,RiderItems.build_driver_fridge,RiderItems.build_driver_dragon_silver,RiderItems.build_driver_shoubousha,RiderItems.build_driver_shoubousha,RiderItems.build_driver_smartphone,RiderItems.build_driver_jet,RiderItems.build_driver_shoubousha,RiderItems.build_driver_gold};
-				Item[] build_form= new Item[] {RiderItems.blanknoitem,RiderItems.build_driver_sp,RiderItems.build_driver_hazard,RiderItems.build_driver_hazard_rabbit,RiderItems.build_driver_hazard_tank,RiderItems.build_driver_genius,RiderItems.build_driver_cross_z_build};
+				Item[] build_form= new Item[] {ShowaRiderItems.blanknoitem,RiderItems.build_driver_sp,RiderItems.build_driver_hazard,RiderItems.build_driver_hazard_rabbit,RiderItems.build_driver_hazard_tank,RiderItems.build_driver_genius,RiderItems.build_driver_cross_z_build};
 				Item[] build_organic= new Item[] {RiderItems.build_driver_rabbit,RiderItems.build_driver_gorilla,RiderItems.build_driver_taka,RiderItems.build_driver_harinezumi,RiderItems.build_driver_ninja,RiderItems.build_driver_panda,RiderItems.build_driver_lion,RiderItems.build_driver_dragon,RiderItems.build_driver_santa,RiderItems.build_driver_orange,RiderItems.build_driver_doctor,RiderItems.build_driver_dog,RiderItems.build_driver_mahoutsukai,RiderItems.build_driver_tantei,RiderItems.build_driver_kaizoku,RiderItems.build_driver_octopus,RiderItems.build_driver_phoenix,RiderItems.build_driver_kuma,RiderItems.build_driver_momotaros,RiderItems.build_driver_yujou,RiderItems.build_driver_obake,RiderItems.build_driver_wolf,RiderItems.build_driver_beetle,RiderItems.build_driver_card,RiderItems.build_driver_rose,RiderItems.build_driver_tora,RiderItems.build_driver_kujira,RiderItems.build_driver_kirin,RiderItems.build_driver_unicorn,RiderItems.build_driver_turtle,RiderItems.build_driver_deer,RiderItems.build_driver_penguin,RiderItems.build_driver_spider,RiderItems.build_driver_rabbit_gold,RiderItems.build_driver_spider,RiderItems.build_driver_kujira,RiderItems.build_driver_kirin,RiderItems.build_driver_sai,RiderItems.build_driver_scorpion};				
 				Item[] evol_form= new Item[] {RiderItems.evol_driver_cobra,RiderItems.evol_driver_dragon,RiderItems.evol_driver_rabbit,RiderItems.evol_driver_blackhole,RiderItems.evol_driver_blackhole};
 				Item[] cross_form= new Item[] {RiderItems.build_driver_cross_z_dragon,RiderItems.build_driver_magma,RiderItems.build_driver_cross_z_great,RiderItems.build_driver_galaxy};
@@ -97,7 +98,7 @@ public class item_builddriver extends ItemArmor implements IHasModel
 					} else if (item_OOOdriver.get_core(stack,"1")==15&item_OOOdriver.get_core(stack,"3")==16) {
 						armorModel.wings=new ItemStack(RiderItems.phoenix_robo_wings);				
 					} else {
-						armorModel.wings=new ItemStack(RiderItems.blanknoitem);
+						armorModel.wings=new ItemStack(ShowaRiderItems.blanknoitem);
 					}
 
 					armorModel.belt3=new ItemStack(build_form[item_OOOdriver.get_core(stack,"2")]);
@@ -110,7 +111,7 @@ public class item_builddriver extends ItemArmor implements IHasModel
 				    if (living.getHeldItem(EnumHand.OFF_HAND).getItem()==RiderItems.taka_full_bottle){
 				        armorModel.wings=new ItemStack(RiderItems.hawk_gatling_wings);
 				    } else {
-				        armorModel.wings=new ItemStack(RiderItems.blanknoitem);
+				        armorModel.wings=new ItemStack(ShowaRiderItems.blanknoitem);
 				    }
 				}
 				if(stack.getItem() == RiderItems.transteamgun_2) {
@@ -118,7 +119,7 @@ public class item_builddriver extends ItemArmor implements IHasModel
 					    if (item_OOOdriver.get_core(stack,"1")==0) {
 							armorModel.wings=new ItemStack(RiderItems.night_rogue_wings);
 						} else {
-							armorModel.wings=new ItemStack(RiderItems.blanknoitem);
+							armorModel.wings=new ItemStack(ShowaRiderItems.blanknoitem);
 						}
 					}
 				} else if(stack.getItem() == RiderItems.evol_driver_mad_rogue) {
@@ -142,7 +143,7 @@ public class item_builddriver extends ItemArmor implements IHasModel
 				if (stack.getItem()!= RiderItems.nebulasteamgun_2 & stack.getItem()!= RiderItems.transteamgun_2){
 					armorModel.belt=stack;
 				} else {
-					armorModel.belt=new ItemStack( RiderItems.blanknoitem);
+					armorModel.belt=new ItemStack( ShowaRiderItems.blanknoitem);
 				}
 
 				armorModel.isSneak = defaultModel.isSneak;

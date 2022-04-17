@@ -4,8 +4,6 @@ import javax.annotation.Nullable;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
-import Kamen_Rider_Craft_4TH.item.hibiki.item_hibikiarmor2;
-import Kamen_Rider_Craft_4TH.item.hibiki.item_hibikidriver;
 import Kamen_Rider_Craft_4TH.model.tokuArmorModel;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import Kamen_Rider_Craft_4TH.util.Refercence;

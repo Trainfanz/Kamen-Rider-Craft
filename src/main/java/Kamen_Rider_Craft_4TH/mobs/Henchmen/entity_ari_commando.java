@@ -1,6 +1,7 @@
 package Kamen_Rider_Craft_4TH.mobs.Henchmen;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import net.minecraft.util.DamageSource;
 import net.minecraft.world.World;
 
@@ -15,11 +16,11 @@ public class entity_ari_commando extends Entity_base_henchmen
 	{
 		if (!this.world.isRemote){   
 
-			this.dropItem(RiderItems.rider_circuit, this.rand.nextInt(3));
+			this.dropItem(ShowaRiderItems.rider_circuit, this.rand.nextInt(3));
 			switch (this.rand.nextInt(5))
 			{   		   	    		
 			case 0:
-				this.dropItem(RiderItems.tornado_core, 1);
+				this.dropItem(ShowaRiderItems.tornado_core, 1);
 				break;
 
 			}

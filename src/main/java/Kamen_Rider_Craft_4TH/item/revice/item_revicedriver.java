@@ -5,6 +5,7 @@ import javax.annotation.Nullable;
 import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.RiderBlocks;
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.Tabs;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
@@ -89,7 +90,7 @@ public class item_revicedriver extends ItemArmor  implements IHasModel
 				if (stack.getItem()==ReiwaRiderItems.vice_belt){
 					if(form=="jackal"){
 						armorModel.wings= new ItemStack(ReiwaRiderItems.vice_jackal_genome);
-						armorModel.belt=new ItemStack(RiderItems.blanknoitem);
+						armorModel.belt=new ItemStack(ShowaRiderItems.blanknoitem);
 					}
 				}
 				

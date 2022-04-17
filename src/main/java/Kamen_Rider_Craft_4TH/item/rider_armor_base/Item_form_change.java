@@ -2,6 +2,7 @@ package Kamen_Rider_Craft_4TH.item.rider_armor_base;
 
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.saber.Item_wonder_ride_book;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
@@ -25,9 +26,9 @@ public class Item_form_change extends Item implements IHasModel
 	private String FORM_NAME;
 	private List<PotionEffect> potionEffectList;
 	private Item BELT;
-	private  Class<? extends item_rider_driver> BELTCLASS;
-	private String RIDER_NAME;
-	private Item WINGS = RiderItems.blanknoitem;
+	protected  Class<? extends item_rider_driver> BELTCLASS;
+	protected String RIDER_NAME;
+	private Item WINGS = ShowaRiderItems.blanknoitem;
 	private String REND2;
 	
 	public Item_form_change(String name, Class<? extends item_rider_driver> beltClass, Item belt, String formName, PotionEffect... effects) {

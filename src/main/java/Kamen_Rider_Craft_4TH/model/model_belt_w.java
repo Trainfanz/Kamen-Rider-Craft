@@ -14,6 +14,7 @@ package Kamen_Rider_Craft_4TH.model;
 import org.lwjgl.opengl.GL11;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.ModelBiped;
 import net.minecraft.client.model.ModelRenderer;
@@ -34,7 +35,7 @@ public class model_belt_w extends ModelBiped
 	
 
 	public ItemStack belt;
-	public ItemStack wings=new ItemStack(RiderItems.blanknoitem);
+	public ItemStack wings=new ItemStack(ShowaRiderItems.blanknoitem);
 
 
 
@@ -60,7 +61,7 @@ public class model_belt_w extends ModelBiped
 			if (stack.getTagCompound().getInteger("core2")==2&stack.getItem()== RiderItems.Wdriver){
 				wings=new ItemStack(RiderItems.cyclone_joker_gold_xtreme_wings);
 			}else{
-				wings=new ItemStack(RiderItems.blanknoitem);
+				wings=new ItemStack(ShowaRiderItems.blanknoitem);
 			}
 			if(living.isSneaking()){
 				GL11.glRotatef(20, 1, 0, 0);	
@@ -79,23 +80,23 @@ public class model_belt_w extends ModelBiped
 			Item[] LOCK= new Item[] {RiderItems.wdriverj,RiderItems.wdriverm,RiderItems.wdrivert,RiderItems.wdrivercc,RiderItems.wdriverx,RiderItems.wdriverx,RiderItems.wdriverxca};
 			Item[] LOCK2= new Item[] {RiderItems.wdriverc,RiderItems.wdriverh,RiderItems.wdriverl,RiderItems.wdriverf,RiderItems.wdriverjj,RiderItems.wdriverx,RiderItems.wdriverx};
 
-			Item[] LOCKa= new Item[] {RiderItems.blanknoitem,RiderItems.accel_drivert,RiderItems.accel_driverb};
+			Item[] LOCKa= new Item[] {ShowaRiderItems.blanknoitem,RiderItems.accel_drivert,RiderItems.accel_driverb};
 			
-			Item sidea= RiderItems.blanknoitem;
-			Item sideb= RiderItems.blanknoitem;
-			Item sideex= RiderItems.blanknoitem;
+			Item sidea= ShowaRiderItems.blanknoitem;
+			Item sideb= ShowaRiderItems.blanknoitem;
+			Item sideex= ShowaRiderItems.blanknoitem;
 		
 			if (stack.hasTagCompound()){
 				if(stack.getItem() ==RiderItems.Wdriver){
 					sidea= LOCK[stack.getTagCompound().getInteger("core1")];
 					sideb= LOCK2[stack.getTagCompound().getInteger("core3")];
 					if (stack.getTagCompound().getInteger("core2")>2){
-						sidea=RiderItems.blanknoitem;
-						sideb=RiderItems.blanknoitem;
+						sidea=ShowaRiderItems.blanknoitem;
+						sideb=ShowaRiderItems.blanknoitem;
 						sideex= RiderItems.wdriverxca;
 					}else if (stack.getTagCompound().getInteger("core2")>0){
-						sidea=RiderItems.blanknoitem;
-						sideb=RiderItems.blanknoitem;
+						sidea=ShowaRiderItems.blanknoitem;
+						sideb=ShowaRiderItems.blanknoitem;
 						sideex= RiderItems.wdriverx;
 					}
 				}else if(stack.getItem() ==RiderItems.accel_driver){
@@ -107,7 +108,7 @@ public class model_belt_w extends ModelBiped
 					sideb= LOCK2[0];
 				}else if(stack.getItem() ==RiderItems.accel_driver){
 					sidea= LOCKa[0];
-					sideb=RiderItems.blanknoitem;
+					sideb=ShowaRiderItems.blanknoitem;
 				}	
 			}
 			

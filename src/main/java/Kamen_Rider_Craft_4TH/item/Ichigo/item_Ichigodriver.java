@@ -5,6 +5,7 @@ import javax.annotation.Nullable;
 import org.lwjgl.opengl.GL11;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.model.model_belt;
 import Kamen_Rider_Craft_4TH.potion.PotionCore;
@@ -71,24 +72,10 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 			if(stack.getItem() instanceof ItemArmor)
 			{
 				model_belt armorModel = new model_belt();
-				if (stack.getItem()==RiderItems.sunriser){
-					if (this.get_core(stack)==1){
-						armorModel.belt=new ItemStack(RiderItems.sunriser_rr);
-					}else if (this.get_core(stack)==2){
-						armorModel.belt=new ItemStack(RiderItems.sunriser_br);
-					}else{
-						armorModel.belt=stack;
-					}
-				}else{
-					armorModel.belt=stack;
-				}
 				
-				if (stack.getItem()!= RiderItems.zo_core & stack.getItem()!= RiderItems.grasshopper_dna & stack.getItem()!= RiderItems.j_spirit){
 					armorModel.belt=stack;
-					}else
-					{
-						armorModel.belt=new ItemStack( RiderItems.blanknoitem);
-					}
+			
+			
 				
 				//armorModel.bipedRightLeg.showModel = slot == EntityEquipmentSlot.FEET;
 				//armorModel.bipedLeftLeg.showModel = slot == EntityEquipmentSlot.FEET;
@@ -143,11 +130,11 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 			if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST)!= null){
 				if (player.getItemStackFromSlot(EntityEquipmentSlot.LEGS)!= null){
 					if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
-						if (player.getItemStackFromSlot(EntityEquipmentSlot.LEGS).getItem() == RiderItems.ichigolegs){
-							if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == RiderItems.ichigotroso){
-								if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == RiderItems.ichigohead){
+						if (player.getItemStackFromSlot(EntityEquipmentSlot.LEGS).getItem() == ShowaRiderItems.ichigolegs){
+							if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == ShowaRiderItems.ichigotroso){
+								if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == ShowaRiderItems.ichigohead){
 
-									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.typhoon_ichigo){
+									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ShowaRiderItems.typhoon_ichigo){
 
 										if (this.get_core(armor)==0){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false));
@@ -156,7 +143,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false));
 										}
 									}
-									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.typhoon_nigo){
+									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ShowaRiderItems.typhoon_nigo){
 
 										if (this.get_core(armor)==0){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 1,true,false));
@@ -165,7 +152,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 3,true,false));
 										}
 									}
-									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.new_typhoon){
+									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ShowaRiderItems.new_typhoon){
 
 										if (this.get_core(armor)==0){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false));
@@ -177,104 +164,7 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 										}
 									}
 
-
-								if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.typhoon_shocker_rider_1){
-
-									if (this.get_core(armor)==0){
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 1,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 0,true,false));	
-										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 3,true,false));
-									}
 								}
-								if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.typhoon_shocker_rider_2){
-
-									if (this.get_core(armor)==0){
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 1,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 0,true,false));	
-										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 3,true,false));									
-									}
-								}
-								if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.typhoon_shocker_rider_3){
-
-									if (this.get_core(armor)==0){
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 1,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 0,true,false));	
-										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 3,true,false));								
-									}
-								}
-								if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.typhoon_shocker_rider_4){
-
-									if (this.get_core(armor)==0){
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 1,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 0,true,false));	
-										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 3,true,false));									
-									}
-								}
-								if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.typhoon_shocker_rider_5){
-
-									if (this.get_core(armor)==0){
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 1,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 0,true,false));	
-										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 3,true,false));
-									}
-								}	
-								if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.typhoon_shocker_rider_6){
-
-									if (this.get_core(armor)==0){
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 1,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 0,true,false));	
-										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 3,true,false));								
-									}
-								}
-								if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.typhoon_shocker_rider_7){
-
-									if (this.get_core(armor)==0){
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 1,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 0,true,false));	
-										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 3,true,false));									
-									}
-								}
-								if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.typhoon_shocker_rider_8){
-
-									if (this.get_core(armor)==0){
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 1,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 0,true,false));	
-										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 3,true,false));									
-									}
-								}
-								if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.typhoon_shocker_rider_9){
-
-									if (this.get_core(armor)==0){
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 1,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 0,true,false));	
-										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 3,true,false));										
-									}
-								}
-								if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.typhoon_shocker_rider_10){
-
-									if (this.get_core(armor)==0){
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 1,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 0,true,false));	
-										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 3,true,false));									
-									}
-								}
-								if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.typhoon_shocker_rider_11){
-
-									if (this.get_core(armor)==0){
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 1,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 0,true,false));	
-										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 3,true,false));									
-									}
-								}
-								if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.typhoon_shocker_rider_12){
-
-									if (this.get_core(armor)==0){
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 1,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 0,true,false));	
-										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 3,true,false));										
-									}
-								}
-							}
 						}
 					}
 				}
@@ -299,6 +189,6 @@ public class item_Ichigodriver extends ItemArmor implements IHasModel
 	
 	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
 	{
-		return RiderItems.rider_circuit == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+		return ShowaRiderItems.rider_circuit == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 }

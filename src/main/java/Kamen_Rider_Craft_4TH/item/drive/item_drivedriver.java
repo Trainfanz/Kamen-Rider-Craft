@@ -7,6 +7,7 @@ import javax.annotation.Nullable;
 import org.lwjgl.opengl.GL11;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
 import Kamen_Rider_Craft_4TH.model.model_belt_w;
@@ -88,7 +89,7 @@ public class item_drivedriver extends ItemArmor implements IHasModel
 				type_tire armorModel = new type_tire();
 
 				if (stack.getItem()== RiderItems.break_gunner_2){
-					armorModel.belt=new ItemStack( RiderItems.blanknoitem);
+					armorModel.belt=new ItemStack( ShowaRiderItems.blanknoitem);
 				}else{
 					armorModel.belt=stack;
 				}

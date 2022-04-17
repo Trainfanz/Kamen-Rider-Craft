@@ -5,6 +5,7 @@ import javax.annotation.Nullable;
 import org.lwjgl.opengl.GL11;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
 import Kamen_Rider_Craft_4TH.model.model_belt_plus;
@@ -84,7 +85,7 @@ public class item_ghostdriver extends ItemArmor implements IHasModel
 					armorModel.belt=stack;
 				}else
 				{
-					armorModel.belt=new ItemStack( RiderItems.blanknoitem);
+					armorModel.belt=new ItemStack( ShowaRiderItems.blanknoitem);
 				}
 
 				armorModel.isSneak = defaultModel.isSneak;

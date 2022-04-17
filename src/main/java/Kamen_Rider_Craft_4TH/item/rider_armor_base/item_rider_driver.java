@@ -7,6 +7,7 @@ import javax.annotation.Nullable;
 import org.lwjgl.opengl.GL11;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.blocks.hiden_3d_printing;
 import Kamen_Rider_Craft_4TH.item.revice.Item_Vistamps;
@@ -173,8 +174,8 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 				model_belt_plus armorModel = new model_belt_plus();
 
 				if(belt == true){
-					armorModel.belt=new ItemStack(RiderItems.blanknoitem);
-				}else if (get_Form_Item(stack,1).getBelt()==RiderItems.blanknoitem ){
+					armorModel.belt=new ItemStack(ShowaRiderItems.blanknoitem);
+				}else if (get_Form_Item(stack,1).getBelt()==ShowaRiderItems.blanknoitem ){
 					armorModel.belt=stack;
 				}else 
 				{
@@ -248,6 +249,6 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 
 	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
 	{
-		return RiderItems.blanknoitem == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+		return ShowaRiderItems.blanknoitem == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 }

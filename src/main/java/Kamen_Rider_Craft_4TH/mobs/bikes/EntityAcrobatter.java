@@ -5,6 +5,7 @@ import java.util.Calendar;
 import java.util.UUID;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import net.minecraft.block.Block;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLiving;
@@ -61,7 +62,7 @@ public class EntityAcrobatter extends EntityBikeBase
     {
 if (!this.world.isRemote){
 
-    			this.dropItem(RiderItems.acro_batter, 1);
+    			this.dropItem(ShowaRiderItems.acro_batter, 1);
 
         
     }

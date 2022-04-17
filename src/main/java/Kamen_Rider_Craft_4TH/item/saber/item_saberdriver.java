@@ -6,6 +6,7 @@ import org.lwjgl.opengl.GL11;
 
 import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
@@ -401,14 +402,14 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 				
 				armorModel.belt=stack;
 				
-				Item[] shinjuu= new Item[] {RiderItems.blanknoitem,ReiwaRiderItems.seiken_swordriver_dragon,ReiwaRiderItems.seiken_swordriver_genbu,
+				Item[] shinjuu= new Item[] {ShowaRiderItems.blanknoitem,ReiwaRiderItems.seiken_swordriver_dragon,ReiwaRiderItems.seiken_swordriver_genbu,
 						ReiwaRiderItems.seiken_swordriver_jaaku_dragon,ReiwaRiderItems.seiken_swordriver_pegasus,ReiwaRiderItems.seiken_swordriver_cerberus,
 						ReiwaRiderItems.seiken_swordriver_phoenix};
 			
-				Item[] seibutsu= new Item[] {RiderItems.blanknoitem,ReiwaRiderItems.seiken_swordriver_lion,ReiwaRiderItems.seiken_swordriver_hedgehog,
+				Item[] seibutsu= new Item[] {ShowaRiderItems.blanknoitem,ReiwaRiderItems.seiken_swordriver_lion,ReiwaRiderItems.seiken_swordriver_hedgehog,
 						ReiwaRiderItems.seiken_swordriver_eagle};
 				
-				Item[] monogatari= new Item[] {RiderItems.blanknoitem,ReiwaRiderItems.seiken_swordriver_peter,ReiwaRiderItems.seiken_swordriver_jackun,
+				Item[] monogatari= new Item[] {ShowaRiderItems.blanknoitem,ReiwaRiderItems.seiken_swordriver_peter,ReiwaRiderItems.seiken_swordriver_jackun,
 						ReiwaRiderItems.seiken_swordriver_alangina,ReiwaRiderItems.seiken_swordriver_butasan,ReiwaRiderItems.seiken_swordriver_ninja,
 						ReiwaRiderItems.seiken_swordriver_arthur,ReiwaRiderItems.seiken_swordriver_kirin,ReiwaRiderItems.seiken_swordriver_sarukani,
 						ReiwaRiderItems.seiken_swordriver_usakame,ReiwaRiderItems.seiken_swordriver_saiyuu,ReiwaRiderItems.seiken_swordriver_hansel,
@@ -416,11 +417,11 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 						ReiwaRiderItems.seiken_swordriver_jizousan,ReiwaRiderItems.seiken_swordriver_issun,ReiwaRiderItems.seiken_swordriver_televikun,
 						ReiwaRiderItems.seiken_swordriver_momoichirou,ReiwaRiderItems.seiken_swordriver_urashima_jirou,ReiwaRiderItems.seiken_swordriver_kinzaburou};
 				
-				Item[] others= new Item[] {RiderItems.blanknoitem,ReiwaRiderItems.jaken_caliburdriver_jaou,ReiwaRiderItems.seiken_swordriver_dragonic,
+				Item[] others= new Item[] {ShowaRiderItems.blanknoitem,ReiwaRiderItems.jaken_caliburdriver_jaou,ReiwaRiderItems.seiken_swordriver_dragonic,
 						ReiwaRiderItems.seiken_swordriver_emotional,ReiwaRiderItems.seiken_swordriver_ghost,ReiwaRiderItems.seiken_saikou_driver_x_swordman,
 						ReiwaRiderItems.seiken_saikou_driver_x_swordman2,ReiwaRiderItems.seiken_saikou_driver_x_swordman1,ReiwaRiderItems.seiken_swordriver_king_lion,
 						ReiwaRiderItems.seiken_swordriver_primitive,ReiwaRiderItems.seiken_swordriver_elemental,ReiwaRiderItems.seiken_swordriver_tategami,
-						RiderItems.blanknoitem,ReiwaRiderItems.seiken_swordriver_specter,ReiwaRiderItems.seiken_swordriver_super_hero_senki,
+						ShowaRiderItems.blanknoitem,ReiwaRiderItems.seiken_swordriver_specter,ReiwaRiderItems.seiken_swordriver_super_hero_senki,
 						ReiwaRiderItems.seiken_swordriver_wonder,ReiwaRiderItems.seiken_swordriver_siren,ReiwaRiderItems.seiken_swordriver_arabiana,
 						ReiwaRiderItems.seiken_swordriver_bahamut};
 

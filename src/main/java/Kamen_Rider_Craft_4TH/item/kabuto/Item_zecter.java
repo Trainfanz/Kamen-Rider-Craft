@@ -1,69 +1,60 @@
 package Kamen_Rider_Craft_4TH.item.kabuto;
 
 
+import com.google.common.collect.Lists;
+
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigodriver;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 
-public class Item_zecter extends Item implements IHasModel
+public class Item_zecter extends Item_form_change 
 {
 
-	public String num;
+	public Item num;
 
-	public Item_zecter(String name,String NUM)
+
+	public Item_zecter(Item NUM,String name,Class<? extends item_rider_driver> beltClass,Item belt,String formName,String ridername,PotionEffect... effects)
 	{
-		super();
-		
-		this.setMaxDamage(0);
-		num=NUM;
-        setTranslationKey(name);
-        setRegistryName(name);
-        TokuCraft_core.ITEMS.add(this);
-
-	}
-
-	@Override
-	public void registerModels() {
-		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
+		super(name,beltClass, belt,formName,ridername,effects);
+		num = NUM;
 	}
 
 
-	   /**
+
+	
+	/**
      * Called when the equipped item is right clicked.
      */
-    public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn)
-    {
-    	
-		if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
-
-			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_kabutodriver){
-
-				if (num == ((item_kabutodriver)playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider){
-					if(item_kabutodriver.get_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET))==1){
-						item_kabutodriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0);
+    public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn) {
+    	if (!playerIn.inventory.armorInventory.get(1).isEmpty()) {
+			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem().getClass()==BELTCLASS) {
+				 if(((item_rider_driver) playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider.equals(RIDER_NAME)){
+					if (item_rider_driver.get_Form_Item_tex(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), 1)==this){
+						item_rider_driver.set_Form_Item(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num, 1);
 					}else{
-						item_kabutodriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),1);
-					}
-				}else if(num =="hyper"&((item_kabutodriver)playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider=="kabuto"||num =="hyper"&((item_kabutodriver)playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider=="gatack"){
-					if(item_kabutodriver.get_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET))==0){
-						item_kabutodriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),2);
-					}else{
-						item_kabutodriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0);
+						return super.onItemRightClick(worldIn,playerIn,handIn);
 					}
 				}
 			}
-		}
-		  playerIn.setActiveHand(handIn);
-	        return new ActionResult<ItemStack>(EnumActionResult.SUCCESS, playerIn.getHeldItem(handIn));
-	    }
+
+    	}
+        playerIn.setActiveHand(handIn);
+
+    	return new ActionResult<>(EnumActionResult.SUCCESS, playerIn.getHeldItem(handIn));
+    }
+	
+	
 }

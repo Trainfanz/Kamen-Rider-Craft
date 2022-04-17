@@ -5,6 +5,7 @@ import java.util.Calendar;
 import java.util.UUID;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import net.minecraft.block.Block;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLiving;
@@ -77,7 +78,7 @@ public class Entity_ridoron extends EntityBikeBase
    public void onDeath(DamageSource cause)
     {
 if (!this.world.isRemote){
-    			this.dropItem(RiderItems.ridoron, 1);   
+    			this.dropItem(ShowaRiderItems.ridoron, 1);   
     }
     }
 }

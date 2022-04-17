@@ -4,6 +4,7 @@ package Kamen_Rider_Craft_4TH.item.Ichigo;
 import javax.annotation.Nullable;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.model.tokuArmorModel;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
@@ -59,7 +60,7 @@ public class item_Ichigoarmor2 extends ItemArmor  implements IHasModel
 					String rider = ((item_Ichigodriver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider;
 
 
-					if ((item_Ichigodriver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.sunriser ){
+					if ((item_Ichigodriver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ShowaRiderItems.sunriser ){
 
 						if ( slot == EntityEquipmentSlot.LEGS)
 						{
@@ -71,7 +72,7 @@ public class item_Ichigoarmor2 extends ItemArmor  implements IHasModel
 
 						}
 
-					}else if ((item_Ichigodriver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.electrer ){
+					}else if ((item_Ichigodriver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ShowaRiderItems.electrer ){
 
 						if ( slot == EntityEquipmentSlot.LEGS)
 						{
@@ -163,7 +164,7 @@ public class item_Ichigoarmor2 extends ItemArmor  implements IHasModel
 	
 	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
 	{
-		return RiderItems.rider_circuit == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+		return ShowaRiderItems.rider_circuit == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 
 }

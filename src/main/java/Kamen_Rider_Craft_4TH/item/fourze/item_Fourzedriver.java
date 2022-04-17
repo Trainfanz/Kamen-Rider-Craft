@@ -7,6 +7,7 @@ import javax.annotation.Nullable;
 import org.lwjgl.opengl.GL11;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
 import Kamen_Rider_Craft_4TH.model.Bipedswich;
@@ -99,7 +100,7 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 				if(stack.getItem() == RiderItems.ikarosdriver) {
 					armorModel.wings=new ItemStack(RiderItems.ikaros_wing);
 				}else{
-					armorModel.wings=new ItemStack(RiderItems.blanknoitem);
+					armorModel.wings=new ItemStack(ShowaRiderItems.blanknoitem);
 				}
 
 				if (living.getItemStackFromSlot(EntityEquipmentSlot.HEAD)!=null&living.getItemStackFromSlot(EntityEquipmentSlot.CHEST)!=null&living.getItemStackFromSlot(EntityEquipmentSlot.LEGS)!=null){
@@ -124,7 +125,7 @@ public class item_Fourzedriver extends ItemArmor implements IHasModel
 
 				}
 				if(stack.getItem() == RiderItems.ginga_oh_driver) {
-					armorModel.belt=new ItemStack(RiderItems.blanknoitem);
+					armorModel.belt=new ItemStack(ShowaRiderItems.blanknoitem);
 				}else{
 					armorModel.belt=stack;
 

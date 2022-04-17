@@ -4,6 +4,7 @@ import javax.annotation.Nullable;
 
 import org.lwjgl.opengl.GL11;
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.model.model_belt_plus;
 import Kamen_Rider_Craft_4TH.model.model_belt_w;
@@ -208,7 +209,7 @@ public class item_OOOdriver extends ItemArmor implements IHasModel
 					if (item_OOOdriver.get_core(stack,"birth1")==1){
 						armorModel.wings=new ItemStack(RiderItems.cutter_wing);	
 					}else{
-						armorModel.wings=new ItemStack(RiderItems.blanknoitem);
+						armorModel.wings=new ItemStack(ShowaRiderItems.blanknoitem);
 					}	
 				}
 				if(stack.getItem() == RiderItems.OOOdriver)
@@ -225,7 +226,7 @@ public class item_OOOdriver extends ItemArmor implements IHasModel
 						if(living.isSneaking() || (living instanceof EntityPlayer && (((EntityPlayer) living).capabilities.isFlying))){
 							armorModel.wings=new ItemStack(RiderItems.condor_wings);
 						}else{
-							armorModel.wings=new ItemStack(RiderItems.blanknoitem);
+							armorModel.wings=new ItemStack(ShowaRiderItems.blanknoitem);
 						}	
 
 					}

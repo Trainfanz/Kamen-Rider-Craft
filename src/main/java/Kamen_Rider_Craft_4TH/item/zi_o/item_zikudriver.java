@@ -3,6 +3,7 @@ package Kamen_Rider_Craft_4TH.item.zi_o;
 import javax.annotation.Nullable;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
 import Kamen_Rider_Craft_4TH.model.model_belt_plus;
@@ -70,14 +71,14 @@ public class item_zikudriver extends ItemArmor  implements IHasModel
 
 				model_belt_plus armorModel = new model_belt_plus();
 
-				Item[] form_watch= new Item[] {RiderItems.blanknoitem,RiderItems.ziku_driver_decade,RiderItems.ziku_driver_zi_o_ii,RiderItems.blanknoitem,RiderItems.ziku_driver_zi_o_trinity,RiderItems.ziku_driver_zi_o_grand,RiderItems.ziku_driver_bibiru_geiz,RiderItems.ziku_driver_zio_ohma,RiderItems.ziku_driver_majesty,RiderItems.ziku_driver_woz};
-				Item[] armor_watch= new Item[] {RiderItems.blanknoitem,RiderItems.ziku_driver_build,RiderItems.ziku_driver_exaid,RiderItems.ziku_driver_ghost,
+				Item[] form_watch= new Item[] {ShowaRiderItems.blanknoitem,RiderItems.ziku_driver_decade,RiderItems.ziku_driver_zi_o_ii,ShowaRiderItems.blanknoitem,RiderItems.ziku_driver_zi_o_trinity,RiderItems.ziku_driver_zi_o_grand,RiderItems.ziku_driver_bibiru_geiz,RiderItems.ziku_driver_zio_ohma,RiderItems.ziku_driver_majesty,RiderItems.ziku_driver_woz};
+				Item[] armor_watch= new Item[] {ShowaRiderItems.blanknoitem,RiderItems.ziku_driver_build,RiderItems.ziku_driver_exaid,RiderItems.ziku_driver_ghost,
 						RiderItems.ziku_driver_drive,RiderItems.ziku_driver_gaim,RiderItems.ziku_driver_wizard,RiderItems.ziku_driver_fourze,RiderItems.ziku_driver_ooo
-						,RiderItems.ziku_driver_w,RiderItems.blanknoitem,RiderItems.ziku_driver_deno,RiderItems.ziku_driver_kabuto,RiderItems.ziku_driver_hibiki,
+						,RiderItems.ziku_driver_w,ShowaRiderItems.blanknoitem,RiderItems.ziku_driver_deno,RiderItems.ziku_driver_kabuto,RiderItems.ziku_driver_hibiki,
 						RiderItems.ziku_driver_blade,RiderItems.ziku_driver_faiz,RiderItems.ziku_driver_ryuki,RiderItems.ziku_driver_agito,RiderItems.ziku_driver_kuuga
-						,RiderItems.ziku_driver_genm,RiderItems.blanknoitem,RiderItems.ziku_driver_exaid,RiderItems.blanknoitem,RiderItems.blanknoitem,
-						RiderItems.blanknoitem,RiderItems.ziku_driver_geizrevive,RiderItems.ziku_driver_geizrevive,RiderItems.blanknoitem,RiderItems.blanknoitem
-						,RiderItems.blanknoitem,RiderItems.ziku_driver_saber};
+						,RiderItems.ziku_driver_genm,ShowaRiderItems.blanknoitem,RiderItems.ziku_driver_exaid,ShowaRiderItems.blanknoitem,ShowaRiderItems.blanknoitem,
+						ShowaRiderItems.blanknoitem,RiderItems.ziku_driver_geizrevive,RiderItems.ziku_driver_geizrevive,ShowaRiderItems.blanknoitem,ShowaRiderItems.blanknoitem
+						,ShowaRiderItems.blanknoitem,RiderItems.ziku_driver_saber};
 				
 				
 				armorModel.belt=stack;
@@ -87,7 +88,7 @@ public class item_zikudriver extends ItemArmor  implements IHasModel
 				}else if(stack.getItem() == RiderItems.oma_ziku_driver) {
 					armorModel.wings=new ItemStack(RiderItems.oma_zi_o_cape);
                 }else{
-                	  armorModel.wings=new ItemStack(RiderItems.blanknoitem);
+                	  armorModel.wings=new ItemStack(ShowaRiderItems.blanknoitem);
                 }
 					
 						armorModel.belt=stack;

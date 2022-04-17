@@ -24,10 +24,6 @@ import Kamen_Rider_Craft_4TH.item.agito.item_agitodriver;
 import Kamen_Rider_Craft_4TH.item.amazons.item_amazonsarmor;
 import Kamen_Rider_Craft_4TH.item.amazons.item_amazonsarmor2;
 import Kamen_Rider_Craft_4TH.item.amazons.item_amazonsdriver;
-import Kamen_Rider_Craft_4TH.item.blade.ItemRouze_Cards;
-import Kamen_Rider_Craft_4TH.item.blade.item_bladearmor;
-import Kamen_Rider_Craft_4TH.item.blade.item_bladearmor2;
-import Kamen_Rider_Craft_4TH.item.blade.item_bladedriver;
 import Kamen_Rider_Craft_4TH.item.build.Item_full_bottle;
 import Kamen_Rider_Craft_4TH.item.build.Item_nebulasteamgun;
 import Kamen_Rider_Craft_4TH.item.build.Item_transteamgun;
@@ -71,15 +67,9 @@ import Kamen_Rider_Craft_4TH.item.ghost.item_ghost_armor3;
 import Kamen_Rider_Craft_4TH.item.ghost.item_ghostarmor;
 import Kamen_Rider_Craft_4TH.item.ghost.item_ghostdriver;
 import Kamen_Rider_Craft_4TH.item.hibiki.Itemarmed_saber;
-import Kamen_Rider_Craft_4TH.item.hibiki.Itemhibiki_stone;
-import Kamen_Rider_Craft_4TH.item.hibiki.item_hibikiarmor;
-import Kamen_Rider_Craft_4TH.item.hibiki.item_hibikiarmor2;
-import Kamen_Rider_Craft_4TH.item.hibiki.item_hibikidriver;
 import Kamen_Rider_Craft_4TH.item.kabuto.Item_clock_up_pad;
+import Kamen_Rider_Craft_4TH.item.kabuto.Item_hyper_zecter;
 import Kamen_Rider_Craft_4TH.item.kabuto.Item_zecter;
-import Kamen_Rider_Craft_4TH.item.kabuto.item_kabutoarmor;
-import Kamen_Rider_Craft_4TH.item.kabuto.item_kabutoarmor2;
-import Kamen_Rider_Craft_4TH.item.kabuto.item_kabutodriver;
 import Kamen_Rider_Craft_4TH.item.kiva.Itemfuestle;
 import Kamen_Rider_Craft_4TH.item.kiva.item_kivaarmor;
 import Kamen_Rider_Craft_4TH.item.kiva.item_kivaarmor2;
@@ -163,10 +153,7 @@ import static Kamen_Rider_Craft_4TH.item.item_panel.PanelColor.*;
 
 public class RiderItems {
 
-	public static Item blanknoitem = new Item_ore("blanknoitem");
-	public static Item blanknoform = new Item_form_change("blanknoform",item_kuugadriver.class,blanknoitem,"");
 
-	public static Item rider_circuit = new Item_ore("rider_circuit").setCreativeTab(Tabs.tabmisc);
 
 	public static Item energy = new Item_ore("energy").setCreativeTab(Tabs.tabmisc);
 
@@ -188,17 +175,6 @@ public class RiderItems {
 	public static Item g3core = new Item_ore("g3core").setCreativeTab(Tabs.tabagito);
 	public static Block hellrock_agito= new ore_block("hellrock_agito",Material.ROCK, g3core, 3).setHardness(9.9F).setCreativeTab(Tabs.tabagito);
 
-	public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibiki);
-	public static Block oni_ore_block = new ore_block("oni_ore_block",Material.ROCK, oni_ore, 2).setHardness(9.9F).setCreativeTab(Tabs.tabhibiki);
-
-	public static Item oni_orehell = new Item_ore("oni_orehell").setCreativeTab(Tabs.tabhibiki);
-	public static Block oni_ore_hellrock = new ore_block("oni_ore_hellrock",Material.ROCK, oni_orehell, 3).setHardness(9.9F).setCreativeTab(Tabs.tabhibiki);
-
-	public static Item mini_zecter = new Item_ore("mini_zecter").setCreativeTab(Tabs.tabkabuto);
-	public static Block zectblock = new ore_block("zectblock",Material.ROCK, mini_zecter, 2).setHardness(9.9F).setCreativeTab(Tabs.tabkabuto);
-
-	public static Item unfinished_kabutick_zecter = new Item_ore("unfinished_kabutick_zecter").setCreativeTab(Tabs.tabkabuto);
-	public static Block neozecthellrock = new ore_block("neozecthellrock",Material.ROCK, unfinished_kabutick_zecter, 3).setHardness(9.9F).setCreativeTab(Tabs.tabkabuto);
 
 	public static Item fuestle = new Item_ore("fuestle").setCreativeTab(Tabs.tabkiva);
 	public static Block fuestleblock = new ore_block("fuestleblock",Material.ROCK, fuestle, 2).setHardness(9.9F).setCreativeTab(Tabs.tabkiva);
@@ -246,247 +222,6 @@ public class RiderItems {
 	//decor blocks
 
 	
-	//Kamen Rider
-	public static Item ichigohead = new item_Ichigoarmor("ichigohead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item ichigotroso = new item_Ichigoarmor2("ichigotroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item ichigolegs = new item_Ichigoarmor2("ichigolegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-
-	public static Item typhoon_ichigo = new item_Ichigodriver("typhoon_ichigo",ArmorMaterial.DIAMOND, 4,"ichigo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_original_ichigo = new item_Ichigodriver("typhoon_original_ichigo",ArmorMaterial.DIAMOND, 4,"original_ichigo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_sakurajima_ichigo = new item_Ichigodriver("typhoon_sakurajima_ichigo",ArmorMaterial.DIAMOND, 4,"sakurajima_ichigo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-
-	public static Item typhoon_nigo = new item_Ichigodriver("typhoon_nigo",ArmorMaterial.DIAMOND, 4,"nigo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-
-	public static Item new_typhoon = new item_Ichigodriver("new_typhoon",ArmorMaterial.DIAMOND, 4,"new_ichigo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-
-	public static Item typhoon_shocker_rider_1 = new item_Ichigodriver("typhoon_shocker_rider_1",ArmorMaterial.DIAMOND, 4,"shocker_rider_1").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_2 = new item_Ichigodriver("typhoon_shocker_rider_2",ArmorMaterial.DIAMOND, 4,"shocker_rider_2").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_3 = new item_Ichigodriver("typhoon_shocker_rider_3",ArmorMaterial.DIAMOND, 4,"shocker_rider_3").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_4 = new item_Ichigodriver("typhoon_shocker_rider_4",ArmorMaterial.DIAMOND, 4,"shocker_rider_4").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_5 = new item_Ichigodriver("typhoon_shocker_rider_5",ArmorMaterial.DIAMOND, 4,"shocker_rider_5").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_6 = new item_Ichigodriver("typhoon_shocker_rider_6",ArmorMaterial.DIAMOND, 4,"shocker_rider_6").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-
-	public static Item typhoon_shocker_rider_7 = new item_Ichigodriver("typhoon_shocker_rider_7",ArmorMaterial.DIAMOND, 4,"shocker_rider_7").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_8 = new item_Ichigodriver("typhoon_shocker_rider_8",ArmorMaterial.DIAMOND, 4,"shocker_rider_8").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_9 = new item_Ichigodriver("typhoon_shocker_rider_9",ArmorMaterial.DIAMOND, 4,"shocker_rider_9").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_10 = new item_Ichigodriver("typhoon_shocker_rider_10",ArmorMaterial.DIAMOND, 4,"shocker_rider_10").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_11 = new item_Ichigodriver("typhoon_shocker_rider_11",ArmorMaterial.DIAMOND, 4,"shocker_rider_11").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_12 = new item_Ichigodriver("typhoon_shocker_rider_12",ArmorMaterial.DIAMOND, 4,"shocker_rider_12").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-
-	public static Item typhoon_sango = new item_Ichigodriver("typhoon_sango",ArmorMaterial.DIAMOND, 4,"sango").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_yongo = new item_Ichigodriver("typhoon_yongo",ArmorMaterial.DIAMOND, 4,"yongo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-
-	public static Item nophoon_kamen_norider = new item_Ichigodriver("nophoon_kamen_norider",ArmorMaterial.DIAMOND, 4,"kamen_norider").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-
-
-	public static Item typhoon_core = new Item_ore("typhoon_core").setCreativeTab(Tabs.tabIchigo);
-
-	//V3
-	public static Item double_typhoon_core = new Item_form_change("double_typhoon_core",item_rider_driver.class,blanknoitem,"","v3"
-			,new PotionEffect(MobEffects.STRENGTH,20, 1,true,false),new PotionEffect(MobEffects.RESISTANCE,20, 1,true,false)
-			,new PotionEffect(MobEffects.SPEED,20, 1,true,false),new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false)
-			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false)
-			).setCreativeTab(Tabs.tabv3);
-	
-
-	public static Item riderman_belt_core = new Item_form_change("riderman_belt_core",item_rider_driver.class,blanknoitem,"",""
-			,new PotionEffect(MobEffects.STRENGTH,20, 1,true,false),new PotionEffect(MobEffects.REGENERATION,20, 0,true,false)
-			,new PotionEffect(MobEffects.HASTE,20, 1,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 3,true,false)
-			).setCreativeTab(Tabs.tabv3);
-
-	public static Item v3head = new item_rider_armor("v3head",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabv3);
-	public static Item v3troso = new item_rider_armor("v3troso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabv3);
-	public static Item v3legs = new item_rider_armor("v3legs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabv3);
-
-	public static Item double_typhoon = new item_rider_driver("double_typhoon",ArmorMaterial.DIAMOND, 4,"v3", (Item_form_change) double_typhoon_core, v3head, v3troso, v3legs).setMaxStackSize(1).setCreativeTab(Tabs.tabv3);
-	public static Item double_typhoon_blue = new item_rider_driver("double_typhoon_blue",ArmorMaterial.DIAMOND, 4,"blue_v3", (Item_form_change) double_typhoon_core, v3head, v3troso, v3legs).setMaxStackSize(1).setCreativeTab(Tabs.tabv3);
-	public static Item riderman_belt = new item_rider_driver("riderman_belt",ArmorMaterial.DIAMOND, 4,"riderman", (Item_form_change) riderman_belt_core, v3head, v3troso, v3legs).setMaxStackSize(1).setCreativeTab(Tabs.tabv3);
-
-
-	//X
-	public static Item ridol_stick = new ItemBaseSword("ridol_stick",Tabs.ridol_stick, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabx);
-
-	public static Item ridol_core = new Item_form_change("ridol_core",item_rider_driver.class,blanknoitem,"",""
-			,new PotionEffect(MobEffects.STRENGTH,20, 1,true,false),new PotionEffect(MobEffects.REGENERATION,20, 1,true,false),
-			new PotionEffect(MobEffects.JUMP_BOOST,20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 2,true,false),
-			new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false)).setCreativeTab(Tabs.tabx);
-
-	public static Item xhead = new item_rider_armor("xhead",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabx);
-	public static Item xtroso = new item_rider_armor("xtroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabx);
-	public static Item xlegs = new item_rider_armor("xlegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabx);
-
-	public static Item ridol = new item_rider_driver("ridol",ArmorMaterial.DIAMOND, 4,"x", (Item_form_change) ridol_core, xhead, xtroso, xlegs).setMaxStackSize(1).setCreativeTab(Tabs.tabx);
-
-
-	//Amazon
-	public static Item condorer_wheel = new Item_form_change("condorer_wheel",item_rider_driver.class,blanknoitem,"",""
-			,new PotionEffect(MobEffects.STRENGTH,20, 1,true,false),new PotionEffect(MobEffects.REGENERATION,20, 1,true,false),
-			new PotionEffect(MobEffects.JUMP_BOOST,20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 2,true,false),
-			new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false)).setCreativeTab(Tabs.tabamazon);
-
-	public static Item amazonhead = new item_rider_armor("amazonhead",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabamazon);
-	public static Item amazontroso = new item_rider_armor("amazontroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabamazon);
-	public static Item amazonlegs = new item_rider_armor("amazonlegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabamazon);
-
-	public static Item condorer = new item_rider_driver("condorer",ArmorMaterial.DIAMOND, 4,"amazon", (Item_form_change) condorer_wheel, amazonhead, amazontroso, amazonlegs).setMaxStackSize(1).setCreativeTab(Tabs.tabamazon);
-
-	public static Item gigi_armlet = new Item_ore("gigi_armlet").setCreativeTab(Tabs.tabamazon);
-	public static Item gaga_armlet = new Item_ore("gaga_armlet").setCreativeTab(Tabs.tabamazon);
-
-	//Stronger
-	public static Item electrer_core = new Item_form_change("electrer_core",item_rider_driver.class,blanknoitem,"","stronger"
-			,new PotionEffect(MobEffects.STRENGTH,20, 1,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE,20, 1,true,false),
-			new PotionEffect(MobEffects.JUMP_BOOST,20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 2,true,false),
-			new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false)).setCreativeTab(Tabs.tabstronger);
-
-	public static Item charge_up = new Item_form_change("charge_up",item_rider_driver.class,blanknoitem,"_charge_up","stronger"
-			,new PotionEffect(MobEffects.STRENGTH,20, 3,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE,20, 1,true,false),
-			new PotionEffect(MobEffects.JUMP_BOOST,20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 2,true,false),
-			new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 8,true,false),new PotionEffect(MobEffects.RESISTANCE,20, 2,true,false)).setCreativeTab(Tabs.tabstronger);
-
-	public static Item strongerhead = new item_rider_armor("strongerhead",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabstronger);
-	public static Item strongertroso = new item_rider_armor("strongertroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabstronger);
-	public static Item strongerlegs = new item_rider_armor("strongerlegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabstronger);
-
-	public static Item electrer = new item_rider_driver("electrer",ArmorMaterial.DIAMOND, 4,"stronger", (Item_form_change) electrer_core, strongerhead, strongertroso, strongerlegs).setMaxStackSize(1).setCreativeTab(Tabs.tabstronger);
-
-
-	//SkyRider
-	public static Item tornado_core = new Item_form_change("tornado_core",item_rider_driver.class,blanknoitem,"",""
-			,new PotionEffect(MobEffects.STRENGTH,20, 1,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION,20, 4,true,false),
-			new PotionEffect(MobEffects.JUMP_BOOST,20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
-			new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).setCreativeTab(Tabs.tabskyrider);
-
-	public static Item skyriderhead = new item_rider_armor("skyriderhead",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabskyrider);
-	public static Item skyridertroso = new item_rider_armor("skyridertroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabskyrider);
-	public static Item skyriderlegs = new item_rider_armor("skyriderlegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabskyrider);
-
-	public static Item tornado = new item_rider_driver("tornado",ArmorMaterial.DIAMOND, 4,"skyrider", (Item_form_change) tornado_core, skyriderhead, skyridertroso, skyriderlegs).setMaxStackSize(1).setCreativeTab(Tabs.tabskyrider);
-
-
-	//Super 1
-	public static Item cyclode_core = new Item_form_change("cyclode_core",item_rider_driver.class,blanknoitem,"",""
-			,new PotionEffect(MobEffects.STRENGTH,20, 1,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE,20, 1,true,false),
-			new PotionEffect(MobEffects.JUMP_BOOST,20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 2,true,false),
-			new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false)).setCreativeTab(Tabs.tabsuper_1);
-
-	public static Item super_1head = new item_rider_armor("super_1head",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabsuper_1);
-	public static Item super_1troso = new item_rider_armor("super_1troso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabsuper_1);
-	public static Item super_1legs = new item_rider_armor("super_1legs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabsuper_1);
-
-	public static Item cyclode = new item_rider_driver("cyclode",ArmorMaterial.DIAMOND, 4,"super1", (Item_form_change) RiderItems.cyclode_core, super_1head, super_1troso, super_1legs).setMaxStackSize(1).setCreativeTab(Tabs.tabsuper_1);
-
-
-	//ZX
-	public static Item zx_belt_core = new Item_form_change("zx_belt_core",item_rider_driver.class,blanknoitem,"",""
-			,new PotionEffect(MobEffects.STRENGTH,20, 1,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE,20, 1,true,false),
-			new PotionEffect(MobEffects.JUMP_BOOST,20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 2,true,false),
-			new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false)).setCreativeTab(Tabs.tabzx);
-			
-	public static Item zx_head = new item_rider_armor("zx_head",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabzx);
-	public static Item zx_troso = new item_rider_armor("zx_troso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabzx);
-	public static Item zx_legs = new item_rider_armor("zx_legs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabzx);
-
-	public static Item zx_belt = new item_rider_driver("zx_belt",ArmorMaterial.DIAMOND, 4,"zx", (Item_form_change) RiderItems.zx_belt_core, zx_head, zx_troso, zx_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabzx);
-	public static Item susanoo_belt = new item_rider_driver("susanoo_belt",ArmorMaterial.DIAMOND, 4,"susanoo", (Item_form_change) RiderItems.zx_belt_core, zx_head, zx_troso, zx_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabzx);
-	public static Item tsukuyomi_belt = new item_rider_driver("tsukuyomi_belt",ArmorMaterial.DIAMOND, 4,"tsukuyomi", (Item_form_change) RiderItems.zx_belt_core, zx_head, zx_troso, zx_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabzx);
-	public static Item amaterasu_belt = new item_rider_driver("amaterasu_belt",ArmorMaterial.DIAMOND, 4,"amaterasu", (Item_form_change) RiderItems.zx_belt_core, zx_head, zx_troso, zx_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabzx);
-
-
-	//Black
-	public static Item satan_sabre = new ItemBaseSword("satan_sabre",ToolMaterial.DIAMOND, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
-	public static Item shadow_saber_short = new ItemBaseSword("shadow_saber_short",ToolMaterial.DIAMOND, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
-	
-	public static Item king_stone_core = new Item_form_change("king_stone_core",item_rider_driver.class,blanknoitem,"",""
-			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.HASTE,20, 1,true,false)
-			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
-			).setCreativeTab(Tabs.tabblack);
-
-	public static Item black_head = new item_rider_armor("black_head",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
-	public static Item black_troso = new item_rider_armor("black_troso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
-	public static Item black_legs = new item_rider_armor("black_legs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
-
-	public static Item king_stone = new item_rider_driver("king_stone",ArmorMaterial.DIAMOND, 4,"black", (Item_form_change) RiderItems.king_stone_core, black_head, black_troso, black_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
-	public static Item king_stone_green = new item_rider_driver("king_stone_green",ArmorMaterial.DIAMOND, 4,"black_green", (Item_form_change) RiderItems.king_stone_core, black_head, black_troso, black_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
-	public static Item king_stone_shadow_moon = new item_rider_driver("king_stone_shadow_moon",ArmorMaterial.DIAMOND, 4,"shadow_moon", (Item_form_change) RiderItems.king_stone_core, black_head, black_troso, black_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
-	public static Item king_stone_red_shadow_moon = new item_rider_driver("king_stone_red_shadow_moon",ArmorMaterial.DIAMOND, 4,"red_shadow_moon", (Item_form_change) RiderItems.king_stone_core, black_head, black_troso, black_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
-
-	//Black RX
-	public static Item revolcane = new ItemBaseSword("revolcane",ToolMaterial.DIAMOND, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
-	public static Item vortech_shooter = new Item_gun("vortech_shooter",Tabs.den_dengu, RiderItems.rider_circuit).setCreativeTab(Tabs.tabblack_rx);
-	public static Item bio_blade = new ItemBaseSword("bio_blade",ToolMaterial.DIAMOND, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
-
-	
-	public static Item sunriser_rr = new Item_ore("sunriser_rr");
-	public static Item sunriser_br = new Item_ore("sunriser_br");
-
-	public static Item rx_rider = new Item_form_change("rx_rider",item_rider_driver.class,blanknoitem,"","black_rx"
-			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
-			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
-			).setCreativeTab(Tabs.tabblack_rx);
-
-	public static Item bio_rider = new Item_form_change("bio_rider",item_rider_driver.class,sunriser_rr,"_bio_rider","black_rx"
-			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.NIGHT_VISION,20, 1,true,false),
-			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false)).setCreativeTab(Tabs.tabblack_rx);
-
-	public static Item robo_rider = new Item_form_change("robo_rider",item_rider_driver.class,sunriser_br,"_robo_rider","black_rx"
-			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.NIGHT_VISION,20, 1,true,false),
-			new PotionEffect(MobEffects.RESISTANCE,20, 2,true,false)).setCreativeTab(Tabs.tabblack_rx);
-
-	public static Item black_rx_head = new item_rider_armor("black_rx_head",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
-	public static Item black_rx_troso = new item_rider_armor("black_rx_troso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
-	public static Item black_rx_legs = new item_rider_armor("black_rx_legs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
-
-	public static Item sunriser = new item_rider_driver("sunriser",ArmorMaterial.DIAMOND, 4,"black_rx", (Item_form_change) RiderItems.rx_rider, black_rx_head, black_rx_troso, black_rx_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
-	public static Item moonriser = new item_rider_driver("moonriser",ArmorMaterial.DIAMOND, 4,"white_rx", (Item_form_change) RiderItems.rx_rider, black_rx_head, black_rx_troso, black_rx_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
-
-	public static Item king_stone_split = new Item_ore("king_stone_split").setCreativeTab(Tabs.tabblack_rx);
-
-	public static Item acro_batter = new item_bikes("acro_batter",EntityAcrobatter::new).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
-	public static Item ridoron = new item_bikes("ridoron",Entity_ridoron::new).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
-
-	//shin
-
-	public static Item shin_stone = new Item_form_change("shin_stone",item_rider_driver.class,blanknoitem,"",""
-			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
-	new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false)).keep_item().setCreativeTab(Tabs.tabshin);
-
-
-	public static Item shinhead = new item_rider_armor("shinhead",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabshin);
-	public static Item shintroso = new item_rider_armor("shintroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabshin);
-	public static Item shinlegs = new item_rider_armor("shinlegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabshin);
-
-	public static Item grasshopper_dna = new item_rider_driver("grasshopper_dna",ArmorMaterial.DIAMOND, 4,"shin", (Item_form_change) RiderItems.shin_stone, shinhead, shintroso, shinlegs).belt(true).setMaxStackSize(1).setCreativeTab(Tabs.tabshin);
-
-
-	//ZO
-
-	public static Item zo_stone = new Item_form_change("zo_stone",item_rider_driver.class,blanknoitem,"",""
-			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false)
-			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false)).keep_item().setCreativeTab(Tabs.tabzo);
-
-
-	public static Item zohead = new item_rider_armor("zohead",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabzo);
-	public static Item zotroso = new item_rider_armor("zotroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabzo);
-	public static Item zolegs = new item_rider_armor("zolegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabzo);
-
-	public static Item zo_core = new item_rider_driver("zo_core",ArmorMaterial.DIAMOND, 4,"zo", (Item_form_change) RiderItems.zo_stone, zohead, zotroso, zolegs).belt(true).setMaxStackSize(1).setCreativeTab(Tabs.tabzo);
-
-
-
-	//J
-
-	public static Item j_stone = new Item_form_change("j_stone",item_rider_driver.class,blanknoitem,"",""
-			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false)
-			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false),new PotionEffect(PotionCore.BIG_POTION, 5, 4,true,false)).keep_item().setCreativeTab(Tabs.tabj);
-
-	public static Item jhead = new item_rider_armor("jhead",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabj);
-	public static Item jtroso = new item_rider_armor("jtroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabj);
-	public static Item jlegs = new item_rider_armor("jlegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabj);
-
-	public static Item j_spirit = new item_rider_driver("j_spirit",ArmorMaterial.DIAMOND, 4,"j", (Item_form_change) RiderItems.j_stone, jhead, jtroso, jlegs).belt(true).setMaxStackSize(1).setCreativeTab(Tabs.tabj);
-
-
 
 	//kuuga
 	public static Item dragon_rod = new Item_kuuga_mode_change_sword_im ("dragon_rod",Tabs.medajalibur).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
@@ -634,7 +369,7 @@ public class RiderItems {
 
 	public static Item meta_factor_exceed = new Item_ore("meta_factor_exceed");
 
-	public static Item gills = new Item_form_change("gills",item_agitodriver.class,blanknoitem,"","gills"
+	public static Item gills = new Item_form_change("gills",item_agitodriver.class,ShowaRiderItems.blanknoitem,"","gills"
 			,new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
@@ -648,7 +383,7 @@ public class RiderItems {
 	public static Item meta_factor = new item_agitodriver("meta_factor",ArmorMaterial.DIAMOND, 4,"gills",(Item_form_change) gills).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 
 
-	public static Item another_agito = new Item_form_change("another_agito",item_agitodriver.class,blanknoitem,"",""
+	public static Item another_agito = new Item_form_change("another_agito",item_agitodriver.class,ShowaRiderItems.blanknoitem,"",""
 			,new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false)).setCreativeTab(Tabs.tabagito);
@@ -656,14 +391,14 @@ public class RiderItems {
 	public static Item ank_point = new item_agitodriver("ank_point",ArmorMaterial.DIAMOND, 4,"another_agito",(Item_form_change) another_agito).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 
 
-	public static Item g3 = new Item_form_change("g3",item_agitodriver.class,blanknoitem,"",""
+	public static Item g3 = new Item_form_change("g3",item_agitodriver.class,ShowaRiderItems.blanknoitem,"",""
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
 
 	public static Item g3_belt = new item_agitodriver("g3_belt",ArmorMaterial.DIAMOND, 4,"g3",(Item_form_change) g3).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 
 
-	public static Item g3x = new Item_form_change("g3x",item_agitodriver.class,blanknoitem,"",""
+	public static Item g3x = new Item_form_change("g3x",item_agitodriver.class,ShowaRiderItems.blanknoitem,"",""
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false)).setCreativeTab(Tabs.tabagito);
@@ -671,13 +406,13 @@ public class RiderItems {
 	public static Item g3_x_belt = new item_agitodriver("g3_x_belt",ArmorMaterial.DIAMOND, 4,"g3_x",(Item_form_change) g3x).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
 
 
-	public static Item g3mild = new Item_form_change("g3mild",item_agitodriver.class,blanknoitem,"",""
+	public static Item g3mild = new Item_form_change("g3mild",item_agitodriver.class,ShowaRiderItems.blanknoitem,"",""
 			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
 
 	public static Item g3_mild_belt = new item_agitodriver("g3_mild_belt",ArmorMaterial.DIAMOND, 4,"g3_mild",(Item_form_change) g3mild).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
 
 
-	public static Item g4 = new Item_form_change("g4",item_agitodriver.class,blanknoitem,"",""
+	public static Item g4 = new Item_form_change("g4",item_agitodriver.class,ShowaRiderItems.blanknoitem,"",""
 			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false)
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false)
 			,new PotionEffect(MobEffects.POISON, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
@@ -685,7 +420,7 @@ public class RiderItems {
 	public static Item g4_belt = new item_agitodriver("g4_belt",ArmorMaterial.DIAMOND, 4,"g4",(Item_form_change) g4).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
 
 
-	public static Item g4x = new Item_form_change("g4x",item_agitodriver.class,blanknoitem,"",""
+	public static Item g4x = new Item_form_change("g4x",item_agitodriver.class,ShowaRiderItems.blanknoitem,"",""
 			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false)
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false)
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
@@ -693,13 +428,13 @@ public class RiderItems {
 	public static Item g4_x_belt = new item_agitodriver("g4_x_belt",ArmorMaterial.DIAMOND, 4,"g4_x",(Item_form_change) g4x).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
 
 
-	public static Item g1 = new Item_form_change("g1",item_agitodriver.class,blanknoitem,"",""
+	public static Item g1 = new Item_form_change("g1",item_agitodriver.class,ShowaRiderItems.blanknoitem,"",""
 			,new PotionEffect(MobEffects.WEAKNESS, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
 
 	public static Item g1_belt = new item_agitodriver("g1_belt",ArmorMaterial.DIAMOND, 4,"g1",(Item_form_change) g1).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
 
 
-	public static Item agito_miracle = new Item_form_change("agito_miracle",item_agitodriver.class,blanknoitem,"",""
+	public static Item agito_miracle = new Item_form_change("agito_miracle",item_agitodriver.class,ShowaRiderItems.blanknoitem,"",""
 			,new PotionEffect(MobEffects.SPEED, 5, 4,true,false)
 			,new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false)
@@ -709,7 +444,7 @@ public class RiderItems {
 	public static Item alter_ring_miracle = new item_agitodriver("alter_ring_miracle",ArmorMaterial.DIAMOND, 4,"agito_miracle",(Item_form_change) agito_miracle).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
 
 
-	public static Item another_agito_burning_form = new Item_form_change("another_agito_burning_form",item_agitodriver.class,blanknoitem,"",""
+	public static Item another_agito_burning_form = new Item_form_change("another_agito_burning_form",item_agitodriver.class,ShowaRiderItems.blanknoitem,"",""
 			,new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 5,true,false)
@@ -790,64 +525,64 @@ public class RiderItems {
 	public static Item v_buckle_ryuga_survive = new Item_ore("v_buckle_ryuga_survive");
 
 	
-	public static Item dragreder_advent = new Item_form_change("dragreder_advent",item_rider_driver.class,blanknoitem,"","ryuki"
+	public static Item dragreder_advent = new Item_form_change("dragreder_advent",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","ryuki"
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
 			,new PotionEffect(MobEffects.HASTE, 5, 0,true,false)).setCreativeTab(Tabs.tabryuki);
 	
 	
-	public static Item darkwing_advent = new Item_form_change("darkwing_advent",item_rider_driver.class,blanknoitem,"","knight"
+	public static Item darkwing_advent = new Item_form_change("darkwing_advent",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","knight"
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false),
 			new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)).setCreativeTab(Tabs.tabryuki);
 	
-	public static Item volcancer_advent = new Item_form_change("volcancer_advent",item_rider_driver.class,blanknoitem,"","scissors"
+	public static Item volcancer_advent = new Item_form_change("volcancer_advent",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","scissors"
 			,new PotionEffect(MobEffects.SLOWNESS, 5, 0,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false),
 			new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false)).setCreativeTab(Tabs.tabryuki);
 	
-	public static Item magnugiga_advent = new Item_form_change("magnugiga_advent",item_rider_driver.class,blanknoitem,"","zolda"
+	public static Item magnugiga_advent = new Item_form_change("magnugiga_advent",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","zolda"
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false),
 			new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)).setCreativeTab(Tabs.tabryuki);
 	
-	public static Item evildiver_advent = new Item_form_change("evildiver_advent",item_rider_driver.class,blanknoitem,"","raia"
+	public static Item evildiver_advent = new Item_form_change("evildiver_advent",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","raia"
 			,new PotionEffect(MobEffects.SPEED, 5, 2,true,false),new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),
 			new PotionEffect(MobEffects.HASTE, 5, 1,true,false)).setCreativeTab(Tabs.tabryuki);
 	
-	public static Item metalgelas_advent = new Item_form_change("metalgelas_advent",item_rider_driver.class,blanknoitem,"","gai"
+	public static Item metalgelas_advent = new Item_form_change("metalgelas_advent",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","gai"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false),new PotionEffect(MobEffects.MINING_FATIGUE, 5, 0,true,false)).setCreativeTab(Tabs.tabryuki);
 	
-	public static Item venosnaker_advent = new Item_form_change("venosnaker_advent",item_rider_driver.class,blanknoitem,"","ouja"
+	public static Item venosnaker_advent = new Item_form_change("venosnaker_advent",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","ouja"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false),new PotionEffect(MobEffects.SPEED, 5, 0,true,false)).setCreativeTab(Tabs.tabryuki);
 	
-	public static Item destwilder_advent = new Item_form_change("destwilder_advent",item_rider_driver.class,blanknoitem,"","tiger"
+	public static Item destwilder_advent = new Item_form_change("destwilder_advent",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","tiger"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false),new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
 			,new PotionEffect(MobEffects.HASTE, 5, 1,true,false)).setCreativeTab(Tabs.tabryuki);
 	
-	public static Item gigazelle_advent = new Item_form_change("gigazelle_advent",item_rider_driver.class,blanknoitem,"","imperer"
+	public static Item gigazelle_advent = new Item_form_change("gigazelle_advent",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","imperer"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false),new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
 					,new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false)).setCreativeTab(Tabs.tabryuki);
 	
-	public static Item biogreeza_advent = new Item_form_change("biogreeza_advent",item_rider_driver.class,blanknoitem,"","verde"
+	public static Item biogreeza_advent = new Item_form_change("biogreeza_advent",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","verde"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),new PotionEffect(MobEffects.SPEED, 5, 2,true,false),
 			new PotionEffect(MobEffects.JUMP_BOOST, 5, 5,true,false)).setCreativeTab(Tabs.tabryuki);
 	
-	public static Item blancwing_advent = new Item_form_change("blancwing_advent",item_rider_driver.class,blanknoitem,"","femme"
+	public static Item blancwing_advent = new Item_form_change("blancwing_advent",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","femme"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false),new PotionEffect(MobEffects.SPEED, 5, 1,true,false),new PotionEffect(MobEffects.HASTE, 5, 1,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false)).setCreativeTab(Tabs.tabryuki);
 	
-	public static Item goldphoenix_advent  = new Item_form_change("goldphoenix_advent",item_rider_driver.class,blanknoitem,"","odin"
+	public static Item goldphoenix_advent  = new Item_form_change("goldphoenix_advent",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","odin"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 5,true,false),new PotionEffect(MobEffects.JUMP_BOOST, 250, 4,true,false)
 			,new PotionEffect(MobEffects.HASTE, 5, 0,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 4,true,false),
 			new PotionEffect(MobEffects.SPEED, 5, 2,true,false)).setCreativeTab(Tabs.tabryuki);
 	
-	public static Item abysslasher_advent = new Item_form_change("abysslasher_advent",item_rider_driver.class,blanknoitem,"","abyss"
+	public static Item abysslasher_advent = new Item_form_change("abysslasher_advent",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","abyss"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),new PotionEffect(MobEffects.SPEED, 5, 2,true,false),
 			new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false)).setCreativeTab(Tabs.tabryuki);
 	
-	public static Item psycorogue_advent = new Item_form_change("psycorogue_advent",item_rider_driver.class,blanknoitem,"","alternative"
+	public static Item psycorogue_advent = new Item_form_change("psycorogue_advent",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","alternative"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false),new PotionEffect(MobEffects.SPEED, 5, 0,true,false)
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false)).setCreativeTab(Tabs.tabryuki);
 
 
-	public static Item dragblacker_advent = new Item_form_change("dragblacker_advent",item_rider_driver.class,blanknoitem,"","ryuga"
+	public static Item dragblacker_advent = new Item_form_change("dragblacker_advent",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","ryuga"
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
 			,new PotionEffect(MobEffects.HASTE, 5, 0,true,false)).setCreativeTab(Tabs.tabryuki);
 
@@ -954,34 +689,34 @@ public class RiderItems {
 
 	public static Item psyga_tonfa_edge = new ItemBaseSword("psyga_tonfa_edge",Tabs.psyga_tonfa_edge, RiderItems.blank_mission_memory).setMaxStackSize(1).setCreativeTab(Tabs.tabfaiz);
 
-	public static Item faiz_mission_memory = new Item_form_change("faiz_mission_memory",item_rider_driver.class,blanknoitem,"","faiz"
+	public static Item faiz_mission_memory = new Item_form_change("faiz_mission_memory",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","faiz"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false)
 			,new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false)).setCreativeTab(Tabs.tabfaiz);
 	
-	public static Item faiz_axel_mission_memory = new Item_form_change("faiz_axel_mission_memory",item_rider_driver.class,blanknoitem,"_accel","faiz"
+	public static Item faiz_axel_mission_memory = new Item_form_change("faiz_axel_mission_memory",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_accel","faiz"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false),new PotionEffect(MobEffects.SPEED, 5, 5,true,false)
 			,new PotionEffect(MobEffects.HASTE, 5, 4,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false)
 			,new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false)).setCreativeTab(Tabs.tabfaiz);
 	
-	public static Item faiz_blaster_mission_memory = new Item_form_change("faiz_blaster_mission_memory",item_rider_driver.class,blanknoitem,"_blaster","faiz"
+	public static Item faiz_blaster_mission_memory = new Item_form_change("faiz_blaster_mission_memory",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_blaster","faiz"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false),new PotionEffect(MobEffects.SPEED, 5, 3,true,false),
 			new PotionEffect(MobEffects.HASTE, 5, 3,true,false),new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false),
 			new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false)
 			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).setCreativeTab(Tabs.tabfaiz);
 	
-	public static Item kaixa_mission_memory = new Item_form_change("kaixa_mission_memory",item_rider_driver.class,blanknoitem,"","kaixa"
+	public static Item kaixa_mission_memory = new Item_form_change("kaixa_mission_memory",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","kaixa"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false),
 			new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false)).setCreativeTab(Tabs.tabfaiz);
 	
-	public static Item delta_mission_memory = new Item_form_change("delta_mission_memory",item_rider_driver.class,blanknoitem,"","kaixa"
+	public static Item delta_mission_memory = new Item_form_change("delta_mission_memory",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","kaixa"
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false)).setCreativeTab(Tabs.tabfaiz);
 	
-	public static Item psyga_mission_memory = new Item_form_change("psyga_mission_memory",item_rider_driver.class,blanknoitem,"","kaixa"
+	public static Item psyga_mission_memory = new Item_form_change("psyga_mission_memory",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","kaixa"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false),
 			new PotionEffect(MobEffects.SPEED, 5, 3,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false)).setCreativeTab(Tabs.tabfaiz);
 	
-	public static Item orga_mission_memory = new Item_form_change("orga_mission_memory",item_rider_driver.class,blanknoitem,"","kaixa"
+	public static Item orga_mission_memory = new Item_form_change("orga_mission_memory",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","kaixa"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false),new PotionEffect(MobEffects.SLOWNESS, 5, 1,true,false),
 			new PotionEffect(MobEffects.RESISTANCE, 5, 4,true,false),new PotionEffect(MobEffects.REGENERATION, 5, 0,true,false),
 			new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false)).setCreativeTab(Tabs.tabfaiz);
@@ -1017,61 +752,61 @@ public static Item garren_jack_wings = new Item_ore("garren_jack_wings");
 	public static Item garren_absorber = new Item_ore("garren_absorber").setCreativeTab(Tabs.tabblade);
 
 	
-	public static Item changebeetle = new Item_form_change("changebeetle",item_rider_driver.class,blanknoitem,"","blade"
+	public static Item changebeetle = new Item_form_change("changebeetle",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","blade"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),new PotionEffect(MobEffects.HASTE, 5, 0,true,false)).setCreativeTab(Tabs.tabblade);
 
-	public static Item fusion_eagle = new Item_form_change("fusion_eagle",item_rider_driver.class,blanknoitem,"_jack","blade"
+	public static Item fusion_eagle = new Item_form_change("fusion_eagle",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_jack","blade"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false),new PotionEffect(MobEffects.HASTE, 5, 0,true,false),
 			new PotionEffect(MobEffects.SPEED, 5, 1,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false)
 			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).addWing(blade_jack_wings).setCreativeTab(Tabs.tabblade);
 
 	public static Item absorb_capricorn = new Item_ore("absorb_capricorn").setCreativeTab(Tabs.tabblade);
 	
-	public static Item evolution_caucasus = new Item_form_change("evolution_caucasus",item_rider_driver.class,blanknoitem,"_king","blade"
+	public static Item evolution_caucasus = new Item_form_change("evolution_caucasus",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_king","blade"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false),new PotionEffect(MobEffects.SLOWNESS, 5, 0,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false)).setCreativeTab(Tabs.tabblade);
 
 	
-	public static Item change_stag = new Item_form_change("change_stag",item_rider_driver.class,blanknoitem,"","garren"
+	public static Item change_stag = new Item_form_change("change_stag",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","garren"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false),new PotionEffect(MobEffects.SPEED, 5, 1,true,false)).setCreativeTab(Tabs.tabblade);
 
-	public static Item fusion_peacock = new Item_form_change("fusion_peacock",item_rider_driver.class,blanknoitem,"_jack","garren"
+	public static Item fusion_peacock = new Item_form_change("fusion_peacock",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_jack","garren"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),new PotionEffect(MobEffects.HASTE, 5, 0,true,false),
 			new PotionEffect(MobEffects.SPEED, 5, 2,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false)
 			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).addWing(garren_jack_wings).setCreativeTab(Tabs.tabblade);
 
 	public static Item absorb_serpent = new Item_ore("absorb_serpent").setCreativeTab(Tabs.tabblade);
 	
-	public static Item evolution_giraffa = new Item_form_change("evolution_giraffa",item_rider_driver.class,blanknoitem,"_king","garren"
+	public static Item evolution_giraffa = new Item_form_change("evolution_giraffa",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_king","garren"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false),new PotionEffect(MobEffects.SLOWNESS, 5, 0,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false)).setCreativeTab(Tabs.tabblade);
 
-	public static Item change_spider = new Item_form_change("change_spider",item_rider_driver.class,blanknoitem,"","leangle"
+	public static Item change_spider = new Item_form_change("change_spider",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","leangle"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),new PotionEffect(MobEffects.HASTE, 5, 1,true,false)).setCreativeTab(Tabs.tabblade);
 
-	public static Item fusion_elephant = new Item_form_change("fusion_elephant",item_rider_driver.class,blanknoitem,"_jack","leangle"
+	public static Item fusion_elephant = new Item_form_change("fusion_elephant",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_jack","leangle"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),new PotionEffect(MobEffects.HASTE, 5, 1,true,false),
 			new PotionEffect(MobEffects.SPEED, 5, 2,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false)).setCreativeTab(Tabs.tabblade);
 
 	public static Item absorb_tiger = new Item_ore("absorb_tiger").setCreativeTab(Tabs.tabblade);
 
-	public static Item change_mantis = new Item_form_change("change_mantis",item_rider_driver.class,blanknoitem,"","chalice"
+	public static Item change_mantis = new Item_form_change("change_mantis",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","chalice"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false),new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false)).setCreativeTab(Tabs.tabblade);
 
-	public static Item evolution_paradoxa = new Item_form_change("evolution_paradoxa",item_rider_driver.class,blanknoitem,"_wild","chalice"
+	public static Item evolution_paradoxa = new Item_form_change("evolution_paradoxa",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_wild","chalice"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false),new PotionEffect(MobEffects.HASTE, 5, 0,true,false),
 			new PotionEffect(MobEffects.RESISTANCE, 5, 4,true,false),new PotionEffect(MobEffects.JUMP_BOOST, 5, 0,true,false)).setCreativeTab(Tabs.tabblade);
 
-	public static Item changekerberoslance = new Item_form_change("changekerberoslance",item_rider_driver.class,blanknoitem,"","lance"
+	public static Item changekerberoslance = new Item_form_change("changekerberoslance",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","lance"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false),new PotionEffect(MobEffects.SPEED, 5, 1,true,false),new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false),
 			new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false)).setCreativeTab(Tabs.tabblade);
 
-	public static Item changekerberoslarc = new Item_form_change("changekerberoslarc",item_rider_driver.class,blanknoitem,"","larc"
+	public static Item changekerberoslarc = new Item_form_change("changekerberoslarc",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","larc"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),new PotionEffect(MobEffects.SPEED, 5, 0,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 0,true,false)).setCreativeTab(Tabs.tabblade);
 
-	public static Item changekerberosglaive = new Item_form_change("changekerberosglaive",item_rider_driver.class,blanknoitem,"","glaive"
+	public static Item changekerberosglaive = new Item_form_change("changekerberosglaive",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","glaive"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false),new PotionEffect(MobEffects.HASTE, 5, 1,true,false)).setCreativeTab(Tabs.tabblade);
 
 	
@@ -1094,6 +829,12 @@ public static Item garren_jack_wings = new Item_ore("garren_jack_wings");
 
 	
 	//hibiki
+	
+public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibiki);
+	
+	public static Item oni_orehell = new Item_ore("oni_orehell").setCreativeTab(Tabs.tabhibiki);
+
+	
 	public static Item ongekibo_rekka = new ItemBaseSword("ongekibo_rekka",Tabs.ongekibo, RiderItems.oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
 
 	public static Item unfinished_armed_saber = new Item_ore("unfinished_armed_saber").setCreativeTab(Tabs.tabhibiki);
@@ -1118,58 +859,140 @@ public static Item garren_jack_wings = new Item_ore("garren_jack_wings");
 	public static Item ongekisankaku_ressetsu = new ItemBaseSword("ongekisankaku_ressetsu",Tabs.den_denro, RiderItems.oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
 	public static Item ongeki_shincho_retsuban = new ItemBaseSword("ongeki_shincho_retsuban",Tabs.den_denro, RiderItems.oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
 
-	public static Item hibikihead = new item_hibikiarmor("hibikihead",ArmorMaterial.DIAMOND, 4,EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item hibikitroso = new item_hibikiarmor2("hibikitroso",ArmorMaterial.DIAMOND, 4,EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item hibikilegs = new item_hibikiarmor2("hibikilegs",ArmorMaterial.DIAMOND, 4,EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	
+	public static Item henshin_onsa = new Item_form_change("henshin_onsa",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","hibiki"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false),new PotionEffect(MobEffects.HASTE, 5, 1,true,false)
+			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)).setCreativeTab(Tabs.tabhibiki);
+	
+	public static Item henshin_onsa_kurenai = new Item_form_change("henshin_onsa_kurenai",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_kurenai","hibiki"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),new PotionEffect(MobEffects.HASTE, 5, 3,true,false),
+			new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false),new PotionEffect(MobEffects.SPEED, 5, 1,true,false)).setCreativeTab(Tabs.tabhibiki);
+	
+	public static Item henshin_onsa_armed = new Item_form_change("henshin_onsa_armed",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_armed","hibiki"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false),new PotionEffect(MobEffects.HASTE, 5, 3,true,false),
+			new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false),new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
+			,new PotionEffect(MobEffects.REGENERATION, 5, 0,true,false));	
 
-	public static Item hibikidriver = new item_hibikidriver("hibikidriver",ArmorMaterial.DIAMOND, 4,"hibiki").setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);	
-	public static Item ibukidriver = new item_hibikidriver("ibukidriver",ArmorMaterial.DIAMOND, 4,"ibuki").setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item todorokidriver = new item_hibikidriver("todorokidriver",ArmorMaterial.DIAMOND, 4,"todoroki").setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item zankidriver = new item_hibikidriver("zankidriver",ArmorMaterial.DIAMOND, 4,"zanki").setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item eikidriver = new item_hibikidriver("eikidriver",ArmorMaterial.DIAMOND, 4,"eiki").setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item dankidriver = new item_hibikidriver("dankidriver",ArmorMaterial.DIAMOND, 4,"danki").setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item sabakidriver = new item_hibikidriver("sabakidriver",ArmorMaterial.DIAMOND, 4,"sabaki").setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);	
-	public static Item shukidriver = new item_hibikidriver("shukidriver",ArmorMaterial.DIAMOND, 4,"shuki").setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);	
-	public static Item goukidriver = new item_hibikidriver("goukidriver",ArmorMaterial.DIAMOND, 4,"gouki").setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);	
-	public static Item tokidriver = new item_hibikidriver("tokidriver",ArmorMaterial.DIAMOND, 4,"toki").setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);	
-	public static Item shoukidriver = new item_hibikidriver("shoukidriver",ArmorMaterial.DIAMOND, 4,"shouki").setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);	
-	public static Item bankidriver = new item_hibikidriver("bankidriver",ArmorMaterial.DIAMOND, 4,"banki").setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item amakidriver = new item_hibikidriver("amakidriver",ArmorMaterial.DIAMOND, 4,"amaki").setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);	
-	public static Item kyosukedriver = new item_hibikidriver("kyosukedriver",ArmorMaterial.DIAMOND, 4,"kyosuke").setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item kabukidriver = new item_hibikidriver("kabukidriver",ArmorMaterial.DIAMOND, 4,"kabuki").setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item toukidriver = new item_hibikidriver("toukidriver",ArmorMaterial.DIAMOND, 4,"touki").setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item kiramekidriver = new item_hibikidriver("kiramekidriver",ArmorMaterial.DIAMOND, 4,"kirameki").setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item nishikidriver = new item_hibikidriver("nishikidriver",ArmorMaterial.DIAMOND, 4,"nishiki").setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item habatakidriver = new item_hibikidriver("habatakidriver",ArmorMaterial.DIAMOND, 4,"habataki").setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item fubukidriver = new item_hibikidriver("fubukidriver",ArmorMaterial.DIAMOND, 4,"fubuki").setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item henshin_onsa_danki = new Item_form_change("henshin_onsa_danki",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","danki"
+			,new PotionEffect(MobEffects.HASTE, 5, 1,true,false),new PotionEffect(MobEffects.SPEED, 5, 1,true,false)).setCreativeTab(Tabs.tabhibiki);
+	
+	public static Item henshin_onsa_eiki = new Item_form_change("henshin_onsa_eiki",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","eiki"
+			,new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false),
+			new PotionEffect(MobEffects.SPEED, 5, 1,true,false)).setCreativeTab(Tabs.tabhibiki);
+	
+	public static Item henshin_onsa_gouki = new Item_form_change("henshin_onsa_gouki",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","gouki"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false),
+			new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)).setCreativeTab(Tabs.tabhibiki);
+	
+	public static Item henshin_onsa_kyoki = new Item_form_change("henshin_onsa_kyoki",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","kyoki"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false),new PotionEffect(MobEffects.HASTE, 5, 1,true,false)
+			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)).setCreativeTab(Tabs.tabhibiki);
+	
+	public static Item henshin_onsa_kabuki = new Item_form_change("henshin_onsa_kabuki",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","kabuki"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false),new PotionEffect(MobEffects.HASTE, 5, 1,true,false)
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false),new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false),
+			new PotionEffect(MobEffects.SPEED, 5, 0,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)).setCreativeTab(Tabs.tabhibiki);
+	
+	public static Item henshin_onsa_touki = new Item_form_change("henshin_onsa_touki",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","touki"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false),
+			new PotionEffect(MobEffects.SPEED, 5, 0,true,false),new PotionEffect(MobEffects.HASTE, 5, 0,true,false),
+			new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false)).setCreativeTab(Tabs.tabhibiki);
+	
+	public static Item henshin_onsa_habataki = new Item_form_change("henshin_onsa_habataki",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","habataki"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),new PotionEffect(MobEffects.HASTE, 5, 0,true,false)
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false),new PotionEffect(MobEffects.SPEED, 5, 2,true,false)
+			,new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false)).setCreativeTab(Tabs.tabhibiki);
+	
+	public static Item henshin_onsa_kirameki = new Item_form_change("henshin_onsa_kirameki",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","kirameki"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false)
+			,new PotionEffect(MobEffects.SPEED, 5, 1,true,false),new PotionEffect(MobEffects.HASTE, 5, 2,true,false)
+			,new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false)).setCreativeTab(Tabs.tabhibiki);
+	
+	public static Item henshin_onsa_nishiki = new Item_form_change("henshin_onsa_nishiki",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","nishiki"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false),new PotionEffect(MobEffects.HASTE, 5, 3,true,false)
+			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false),new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false)).setCreativeTab(Tabs.tabhibiki);
 
-	public static Item henshin_onsa = new Itemhibiki_stone("henshin_onsa",0).setCreativeTab(Tabs.tabhibiki);
-	public static Item henshin_onsa_kurenai = new Itemhibiki_stone("henshin_onsa_kurenai",1).setCreativeTab(Tabs.tabhibiki);
+	
+	public static Item henshin_onibue_ibuki = new Item_form_change("henshin_onibue_ibuki",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","danki"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
+			,new PotionEffect(MobEffects.HASTE, 5, 0,true,false)).setCreativeTab(Tabs.tabhibiki);
+	
+	public static Item henshin_onibue_toki = new Item_form_change("henshin_onibue_toki",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","danki"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),new PotionEffect(MobEffects.SPEED, 5, 2,true,false),
+			new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false)).setCreativeTab(Tabs.tabhibiki);
+	
+	public static Item henshin_onibue_shouki = new Item_form_change("henshin_onibue_shouki",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","danki"
+			,new PotionEffect(MobEffects.HASTE, 5, 2,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false),
+			new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false),new PotionEffect(MobEffects.SPEED, 5, 0,true,false)).setCreativeTab(Tabs.tabhibiki);
+	
+	public static Item henshin_onibue_amaki = new Item_form_change("henshin_onibue_amaki",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","danki"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),new PotionEffect(MobEffects.SPEED, 5, 1,true,false),
+			new PotionEffect(MobEffects.HASTE, 5, 1,true,false),new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false)).setCreativeTab(Tabs.tabhibiki);
+	
+	public static Item henshin_onibue_fubuki = new Item_form_change("henshin_onibue_fubuki",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","danki"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),new PotionEffect(MobEffects.HASTE, 5, 0,true,false)
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false),new PotionEffect(MobEffects.SPEED, 5, 2,true,false)
+			,new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false)).setCreativeTab(Tabs.tabhibiki);
+	
 
-	public static Item henshin_onsa_danki = new Item_ore("henshin_onsa_danki").setCreativeTab(Tabs.tabhibiki);
-	public static Item henshin_onsa_eiki = new Item_ore("henshin_onsa_eiki").setCreativeTab(Tabs.tabhibiki);
-	public static Item henshin_onsa_gouki = new Item_ore("henshin_onsa_gouki").setCreativeTab(Tabs.tabhibiki);
-	public static Item henshin_onsa_kyoki = new Item_ore("henshin_onsa_kyoki").setCreativeTab(Tabs.tabhibiki);
+	public static Item henshin_kigen_todoroki = new Item_form_change("henshin_kigen_todoroki",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","todoroki"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false),new PotionEffect(MobEffects.HASTE, 5, 1,true,false)).setCreativeTab(Tabs.tabhibiki);
+	
+	public static Item henshin_kigen_zanki = new Item_form_change("henshin_kigen_zanki",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","zanki"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),new PotionEffect(MobEffects.SPEED, 5, 0,true,false),
+			new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false)).setCreativeTab(Tabs.tabhibiki);
+	
+	public static Item henshin_kigen_shuki = new Item_form_change("henshin_kigen_shuki",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","shuki"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false),
+			new PotionEffect(MobEffects.REGENERATION, 5, 0,true,false)).setCreativeTab(Tabs.tabhibiki);
+	
+	public static Item henshin_kigen_banki = new Item_form_change("henshin_kigen_banki",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","banki"
+			,new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false),new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)
+			,new PotionEffect(MobEffects.HASTE, 5, 1,true,false),new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)).setCreativeTab(Tabs.tabhibiki);
+	
+	public static Item henshin_kigen_sabaki = new Item_form_change("henshin_kigen_sabaki",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","sabaki"
+			,new PotionEffect(MobEffects.WEAKNESS, 5, 0,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false)
+			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)).setCreativeTab(Tabs.tabhibiki);
 
-	public static Item henshin_onsa_kabuki = new Item_ore("henshin_onsa_kabuki").setCreativeTab(Tabs.tabhibiki);
-	public static Item henshin_onsa_touki = new Item_ore("henshin_onsa_touki").setCreativeTab(Tabs.tabhibiki);
-	public static Item henshin_onsa_habataki = new Item_ore("henshin_onsa_habataki").setCreativeTab(Tabs.tabhibiki);
-	public static Item henshin_onsa_kirameki = new Item_ore("henshin_onsa_kirameki").setCreativeTab(Tabs.tabhibiki);
-	public static Item henshin_onsa_nishiki = new Item_ore("henshin_onsa_nishiki").setCreativeTab(Tabs.tabhibiki);
+	
+	public static Item hibikihead = new item_rider_armor("hibikihead",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item hibikitroso = new item_rider_armor("hibikitroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item hibikilegs = new item_rider_armor("hibikilegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
 
-	public static Item henshin_onibue_ibuki = new Item_ore("henshin_onibue_ibuki").setCreativeTab(Tabs.tabhibiki);
-	public static Item henshin_onibue_toki = new Item_ore("henshin_onibue_toki").setCreativeTab(Tabs.tabhibiki);
-	public static Item henshin_onibue_shouki = new Item_ore("henshin_onibue_shouki").setCreativeTab(Tabs.tabhibiki);
-	public static Item henshin_onibue_amaki = new Item_ore("henshin_onibue_amaki").setCreativeTab(Tabs.tabhibiki);
-	public static Item henshin_onibue_fubuki = new Item_ore("henshin_onibue_fubuki").setCreativeTab(Tabs.tabhibiki);
+	public static Item hibikidriver = new item_rider_driver("hibikidriver",ArmorMaterial.DIAMOND, 4,"hibiki", (Item_form_change) henshin_onsa, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item ibukidriver = new item_rider_driver("ibukidriver",ArmorMaterial.DIAMOND, 4,"ibuki", (Item_form_change) henshin_onibue_ibuki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item todorokidriver = new item_rider_driver("todorokidriver",ArmorMaterial.DIAMOND, 4,"todoroki", (Item_form_change) henshin_kigen_todoroki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item zankidriver = new item_rider_driver("zankidriver",ArmorMaterial.DIAMOND, 4,"zanki", (Item_form_change) henshin_kigen_zanki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item eikidriver = new item_rider_driver("eikidriver",ArmorMaterial.DIAMOND, 4,"eiki", (Item_form_change) henshin_onsa_eiki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item dankidriver = new item_rider_driver("dankidriver",ArmorMaterial.DIAMOND, 4,"danki", (Item_form_change) henshin_onsa_danki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item sabakidriver = new item_rider_driver("sabakidriver",ArmorMaterial.DIAMOND, 4,"sabaki", (Item_form_change) henshin_kigen_sabaki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item shukidriver = new item_rider_driver("shukidriver",ArmorMaterial.DIAMOND, 4,"shuki", (Item_form_change) henshin_kigen_shuki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item goukidriver = new item_rider_driver("goukidriver",ArmorMaterial.DIAMOND, 4,"gouki", (Item_form_change) henshin_onsa_gouki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item tokidriver = new item_rider_driver("tokidriver",ArmorMaterial.DIAMOND, 4,"toki", (Item_form_change) henshin_onibue_toki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item shoukidriver = new item_rider_driver("shoukidriver",ArmorMaterial.DIAMOND, 4,"shouki", (Item_form_change) henshin_onibue_shouki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item bankidriver = new item_rider_driver("bankidriver",ArmorMaterial.DIAMOND, 4,"banki", (Item_form_change) henshin_kigen_banki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item amakidriver = new item_rider_driver("amakidriver",ArmorMaterial.DIAMOND, 4,"amaki", (Item_form_change) henshin_onibue_amaki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item kyosukedriver = new item_rider_driver("kyosukedriver",ArmorMaterial.DIAMOND, 4,"kyosuke", (Item_form_change) henshin_onsa_kyoki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item kabukidriver = new item_rider_driver("kabukidriver",ArmorMaterial.DIAMOND, 4,"kabuki", (Item_form_change) henshin_onsa_kabuki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item toukidriver = new item_rider_driver("toukidriver",ArmorMaterial.DIAMOND, 4,"touki", (Item_form_change) henshin_onsa_touki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item kiramekidriver = new item_rider_driver("kiramekidriver",ArmorMaterial.DIAMOND, 4,"kirameki", (Item_form_change) henshin_onsa_kirameki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item nishikidriver = new item_rider_driver("nishikidriver",ArmorMaterial.DIAMOND, 4,"nishiki", (Item_form_change) henshin_onsa_nishiki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item habatakidriver = new item_rider_driver("habatakidriver",ArmorMaterial.DIAMOND, 4,"habataki", (Item_form_change) henshin_onsa_habataki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item fubukidriver = new item_rider_driver("fubukidriver",ArmorMaterial.DIAMOND, 4,"fubuki", (Item_form_change) henshin_onibue_fubuki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
 
-	public static Item henshin_kigen_todoroki = new Item_ore("henshin_kigen_todoroki").setCreativeTab(Tabs.tabhibiki);
-	public static Item henshin_kigen_zanki = new Item_ore("henshin_kigen_zanki").setCreativeTab(Tabs.tabhibiki);
-	public static Item henshin_kigen_shuki = new Item_ore("henshin_kigen_shuki").setCreativeTab(Tabs.tabhibiki);
-	public static Item henshin_kigen_banki = new Item_ore("henshin_kigen_banki").setCreativeTab(Tabs.tabhibiki);
-	public static Item henshin_kigen_sabaki = new Item_ore("henshin_kigen_sabaki").setCreativeTab(Tabs.tabhibiki);
+	public static Block oni_ore_block = new ore_block("oni_ore_block",Material.ROCK, oni_ore, 2).setHardness(9.9F).setCreativeTab(Tabs.tabhibiki);
+	public static Block oni_ore_hellrock = new ore_block("oni_ore_hellrock",Material.ROCK, oni_orehell, 3).setHardness(9.9F).setCreativeTab(Tabs.tabhibiki);
 
+	
 	//kabuto
+	
+	public static Item mini_zecter = new Item_ore("mini_zecter").setCreativeTab(Tabs.tabkabuto);
+	public static Item unfinished_kabutick_zecter = new Item_ore("unfinished_kabutick_zecter").setCreativeTab(Tabs.tabkabuto);
+	
+	
 	public static Item kabuto_kunai = new Item_sword_gun("kabuto_kunai",Tabs.den_denaxe, RiderItems.mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
 	public static Item kabuto_kunai_kunai = new ItemBaseSword("kabuto_kunai_kunai",Tabs.den_denso, RiderItems.mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
 	public static Item zect_mizer = new Item_fireball_gun("zect_mizer",ToolMaterial.WOOD, RiderItems.mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
@@ -1186,59 +1009,142 @@ public static Item garren_jack_wings = new Item_ore("garren_jack_wings");
 	public static Item zect_kunai = new Item_sword_gun("zect_kunai",Tabs.den_denaxe, RiderItems.mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
 	public static Item zect_kunai_kunai = new ItemBaseSword("zect_kunai_kunai",Tabs.den_denso, RiderItems.mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
 
-
-	public static Item kabutohead = new item_kabutoarmor("kabutohead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
-	public static Item kabutotroso = new item_kabutoarmor2("kabutotroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
-	public static Item kabutolegs = new item_kabutoarmor2("kabutolegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
-
 	public static Item kabuto_rider_belt_cast = new Item_ore("kabuto_rider_belt_cast");
-	public static Item kabuto_rider_belt = new item_kabutodriver("kabuto_rider_belt",ArmorMaterial.DIAMOND, 4, "kabuto",kabuto_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
-
 	public static Item gatack_rider_belt_cast = new Item_ore("gatack_rider_belt_cast");
-	public static Item gatack_rider_belt = new item_kabutodriver("gatack_rider_belt",ArmorMaterial.DIAMOND, 4,"gatack",gatack_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
-
-	public static Item thebee_rider_belt_cast = new Item_ore("thebee_rider_belt_cast");
-	public static Item thebee_rider_belt = new item_kabutodriver("thebee_rider_belt",ArmorMaterial.DIAMOND, 4, "thebee",thebee_rider_belt_cast).setMaxStackSize(1).setTranslationKey("thebee_rider_belt").setCreativeTab(Tabs.tabkabuto);
-
-	public static Item drake_rider_belt_cast = new Item_ore("drake_rider_belt_cast");
-	public static Item drake_rider_belt = new item_kabutodriver("drake_rider_belt",ArmorMaterial.DIAMOND, 4, "drake",drake_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
-
-	public static Item sasword_rider_belt_cast = new Item_ore("sasword_rider_belt_cast");
-	public static Item sasword_rider_belt = new item_kabutodriver("sasword_rider_belt",ArmorMaterial.DIAMOND, 4, "sasword",sasword_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
-
-	public static Item kickhopper_rider_belt = new item_kabutodriver("kickhopper_rider_belt",ArmorMaterial.DIAMOND, 4, "kickhopper",thebee_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
-	public static Item puchhopper_rider_belt = new item_kabutodriver("puchhopper_rider_belt",ArmorMaterial.DIAMOND, 4,"puchhopper",thebee_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
-
 	public static Item dark_kabuto_rider_belt_cast = new Item_ore("dark_kabuto_rider_belt_cast");
-	public static Item dark_kabuto_rider_belt = new item_kabutodriver("dark_kabuto_rider_belt",ArmorMaterial.DIAMOND, 4, "dark_kabuto",dark_kabuto_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	
+	public static Item kabuto_zecter_cast = new Item_form_change("kabuto_zecter_cast",item_rider_driver.class,kabuto_rider_belt_cast,"_mask","kabuto"
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false),new PotionEffect(MobEffects.SLOWNESS, 5, 0,true,false));
+
+	public static Item kabuto_zecter = new Item_zecter(kabuto_zecter_cast,"kabuto_zecter",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","kabuto"
+			,new PotionEffect(MobEffects.SPEED, 5, 3,true,false),new PotionEffect(MobEffects.HASTE, 5, 3,true,false)).setCreativeTab(Tabs.tabkabuto);
 
 
-	public static Item caucasus_rider_belt = new item_kabutodriver("caucasus_rider_belt",ArmorMaterial.DIAMOND, 4, "caucasus",thebee_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
-	public static Item hercus_rider_belt = new item_kabutodriver("hercus_rider_belt",ArmorMaterial.DIAMOND, 4, "hercus",thebee_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
-	public static Item ketaros_rider_belt = new item_kabutodriver("ketaros_rider_belt",ArmorMaterial.DIAMOND, 4, "ketaros",thebee_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item hyper_zecter = new Item_hyper_zecter("hyper_zecter").setCreativeTab(Tabs.tabkabuto);
+	
+	public static Item kabuto_hyper_zecter = new Item_form_change("kabuto_hyper_zecter",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_hyper","kabuto"
+			,new PotionEffect(MobEffects.HASTE, 5, 3,true,false),new PotionEffect(MobEffects.SPEED, 5, 7,true,false),
+			new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 4,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 4,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 500, 0,true,false));
+ 
+	public static Item thebee_zecter_cast = new Item_form_change("thebee_zecter_cast",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_mask","thebee"
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false),new PotionEffect(MobEffects.SLOWNESS, 5, 0,true,false));
 
-	public static Item lady_rider_belt = new item_kabutodriver("lady_rider_belt",ArmorMaterial.DIAMOND, 4, "lady",thebee_rider_belt_cast).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item thebee_zecter = new Item_zecter(thebee_zecter_cast,"thebee_zecter",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","thebee"
+			,new PotionEffect(MobEffects.SPEED, 5, 3,true,false),new PotionEffect(MobEffects.HASTE, 5, 3,true,false),
+					new PotionEffect(MobEffects.JUMP_BOOST, 5, 4,true,false)).setCreativeTab(Tabs.tabkabuto);
 
-	public static Item kabuto_zecter = new Item_zecter("kabuto_zecter","kabuto").setCreativeTab(Tabs.tabkabuto);
-	public static Item hyper_zecter = new Item_zecter("hyper_zecter","hyper").setCreativeTab(Tabs.tabkabuto);
+	public static Item drake_zecter_cast = new Item_form_change("drake_zecter_cast",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_mask","drake"
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false),new PotionEffect(MobEffects.SLOWNESS, 5, 0,true,false));
 
-	public static Item thebee_zecter = new Item_zecter("thebee_zecter","thebee").setCreativeTab(Tabs.tabkabuto);		
-	public static Item drake_zecter = new Item_zecter("drake_zecter","drake").setCreativeTab(Tabs.tabkabuto);		
-	public static Item sasword_zecter = new Item_zecter("sasword_zecter","sasword").setCreativeTab(Tabs.tabkabuto);		
-	public static Item gatack_zecter = new Item_zecter("gatack_zecter","gatack").setCreativeTab(Tabs.tabkabuto);
-	public static Item kickhopper_zecter = new Item_ore("kickhopper_zecter").setCreativeTab(Tabs.tabkabuto);
-	public static Item punchhopper_zecter = new Item_ore("punchhopper_zecter").setCreativeTab(Tabs.tabkabuto);
-	public static Item dark_kabuto_zecter = new Item_zecter("dark_kabuto_zecter","dark_kabuto").setCreativeTab(Tabs.tabkabuto);
-	public static Item caucasus_zecter = new Item_zecter("caucasus_zecter","caucasus").setCreativeTab(Tabs.tabkabuto);
-	public static Item hercus_zecter = new Item_zecter("hercus_zecter", "hercus").setCreativeTab(Tabs.tabkabuto);
-	public static Item ketaros_zecter = new Item_zecter("ketaros_zecter", "ketaros").setCreativeTab(Tabs.tabkabuto);
-	public static Item lady_zecter = new Item_ore("lady_zecter").setCreativeTab(Tabs.tabkabuto);
+	public static Item drake_zecter = new Item_zecter(drake_zecter_cast,"drake_zecter",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","drake"
+			,new PotionEffect(MobEffects.SPEED, 5, 3,true,false),new PotionEffect(MobEffects.HASTE, 5, 3,true,false)
+			,new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false)).setCreativeTab(Tabs.tabkabuto);
+
+
+	public static Item sasword_zecter_cast = new Item_form_change("sasword_zecter_cast",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_mask","sasword"
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false),new PotionEffect(MobEffects.SLOWNESS, 5, 0,true,false));
+
+	public static Item sasword_zecter = new Item_zecter(sasword_zecter_cast,"sasword_zecter",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","sasword"
+			,new PotionEffect(MobEffects.SPEED, 5, 3,true,false),new PotionEffect(MobEffects.HASTE, 5, 3,true,false),
+			new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false)).setCreativeTab(Tabs.tabkabuto);
+
+	public static Item gatack_zecter_cast = new Item_form_change("gatack_zecter_cast",item_rider_driver.class,gatack_rider_belt_cast,"_mask","gatack"
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false),new PotionEffect(MobEffects.SLOWNESS, 5, 0,true,false));
+
+	public static Item gatack_zecter = new Item_zecter(gatack_zecter_cast,"gatack_zecter",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","gatack"
+			,new PotionEffect(MobEffects.SPEED, 5, 3,true,false),new PotionEffect(MobEffects.HASTE, 5, 3,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false)).setCreativeTab(Tabs.tabkabuto);
+
+	public static Item gatack_hyper_zecter = new Item_form_change("gatack_hyper_zecter",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_hyper","gatack"
+			,new PotionEffect(MobEffects.HASTE, 5, 3,true,false),new PotionEffect(MobEffects.SPEED, 5, 7,true,false),
+			new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 4,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 4,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 500, 0,true,false));
+ 
+	public static Item kickhopper_zecter = new Item_form_change("kickhopper_zecter",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","kickhopper"
+			,new PotionEffect(MobEffects.RESISTANCE, 5,2,true,false),new PotionEffect(MobEffects.SPEED, 5, 3,true,false),
+			new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false),new PotionEffect(MobEffects.HASTE, 5, 4,true,false),
+			new PotionEffect(MobEffects.JUMP_BOOST, 5, 7,true,false)).setCreativeTab(Tabs.tabkabuto);
+
+	public static Item punchhopper_zecter = new Item_form_change("punchhopper_zecter",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","punchhopper"
+			,new PotionEffect(MobEffects.RESISTANCE, 5,2,true,false),new PotionEffect(MobEffects.SPEED, 5, 3,true,false),
+			new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false),new PotionEffect(MobEffects.HASTE, 5, 4,true,false),
+			new PotionEffect(MobEffects.JUMP_BOOST, 5, 4,true,false)).setCreativeTab(Tabs.tabkabuto);
+
+	
+	public static Item dark_kabuto_zecter_cast = new Item_form_change("dark_kabuto_zecter_cast",item_rider_driver.class,dark_kabuto_rider_belt_cast,"_mask","dark_kabuto"
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false),new PotionEffect(MobEffects.SLOWNESS, 5, 0,true,false));
+
+	public static Item dark_kabuto_zecter = new Item_zecter(dark_kabuto_zecter_cast,"dark_kabuto_zecter",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","dark_kabuto"
+			,new PotionEffect(MobEffects.SPEED, 5, 3,true,false),new PotionEffect(MobEffects.HASTE, 5, 3,true,false)).setCreativeTab(Tabs.tabkabuto);
+
+	public static Item dark_hyper_zecter = new Item_form_change("dark_hyper_zecter",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_hyper","dark_kabuto"
+			,new PotionEffect(MobEffects.HASTE, 5, 3,true,false),new PotionEffect(MobEffects.SPEED, 5, 7,true,false),
+			new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 4,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 4,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 500, 0,true,false));
+ 
+	
+	public static Item caucasus_zecter_cast = new Item_form_change("caucasus_zecter_cast",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_mask","caucasus"
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false),new PotionEffect(MobEffects.SLOWNESS, 5, 0,true,false));
+
+	public static Item caucasus_zecter = new Item_zecter(caucasus_zecter_cast,"caucasus_zecter",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","caucasus"
+			,new PotionEffect(MobEffects.HASTE, 5, 3,true,false),new PotionEffect(MobEffects.SPEED, 5, 7,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 4,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 4,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 500, 0,true,false)).setCreativeTab(Tabs.tabkabuto);
+
+
+	public static Item hercus_zecter_cast = new Item_form_change("hercus_zecter_cast",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_mask","hercus"
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false),new PotionEffect(MobEffects.SLOWNESS, 5, 0,true,false));
+
+	public static Item hercus_zecter = new Item_zecter(hercus_zecter_cast,"hercus_zecter",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","hercus"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),new PotionEffect(MobEffects.SPEED, 5, 3,true,false),
+			new PotionEffect(MobEffects.HASTE, 5, 3,true,false)).setCreativeTab(Tabs.tabkabuto);
+
+	public static Item ketaros_zecter_cast = new Item_form_change("ketaros_zecter_cast",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_mask","ketaros"
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false),new PotionEffect(MobEffects.SLOWNESS, 5, 0,true,false));
+
+	public static Item ketaros_zecter = new Item_zecter(ketaros_zecter_cast,"ketaros_zecter",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","ketaros"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),new PotionEffect(MobEffects.SPEED, 5, 3,true,false),
+			new PotionEffect(MobEffects.HASTE, 5, 3,true,false)).setCreativeTab(Tabs.tabkabuto);
+
+	public static Item lady_zecter = new Item_form_change("lady_zecter",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","lady"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),new PotionEffect(MobEffects.SPEED, 5, 3,true,false),
+			new PotionEffect(MobEffects.HASTE, 5, 3,true,false)).setCreativeTab(Tabs.tabkabuto);
+
 	
 	public static Item perfectthebee_zecter = new Item_ore("perfectthebee_zecter").setCreativeTab(Tabs.tabkabuto);
 	public static Item perfectdrake_zecter = new Item_ore("perfectdrake_zecter").setCreativeTab(Tabs.tabkabuto);
 	public static Item perfectsasword_zecter = new Item_ore("perfectsasword_zecter").setCreativeTab(Tabs.tabkabuto);
 
+
+	public static Item kabutohead = new item_rider_armor("kabutohead",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item kabutotroso = new item_rider_armor("kabutotroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item kabutolegs = new item_rider_armor("kabutolegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+
+
+	public static Item kabuto_rider_belt = new item_rider_driver("kabuto_rider_belt",ArmorMaterial.DIAMOND, 4,"kabuto", (Item_form_change) kabuto_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item gatack_rider_belt = new item_rider_driver("gatack_rider_belt",ArmorMaterial.DIAMOND, 4,"gatack", (Item_form_change) gatack_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item thebee_rider_belt = new item_rider_driver("thebee_rider_belt",ArmorMaterial.DIAMOND, 4,"thebee", (Item_form_change) thebee_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item drake_rider_belt = new item_rider_driver("drake_rider_belt",ArmorMaterial.DIAMOND, 4,"drake", (Item_form_change) drake_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item sasword_rider_belt = new item_rider_driver("sasword_rider_belt",ArmorMaterial.DIAMOND, 4,"sasword", (Item_form_change) sasword_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item kickhopper_rider_belt = new item_rider_driver("kickhopper_rider_belt",ArmorMaterial.DIAMOND, 4,"kickhopper", (Item_form_change) kickhopper_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item puchhopper_rider_belt = new item_rider_driver("puchhopper_rider_belt",ArmorMaterial.DIAMOND, 4,"puchhopper", (Item_form_change) punchhopper_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item dark_kabuto_rider_belt = new item_rider_driver("dark_kabuto_rider_belt",ArmorMaterial.DIAMOND, 4,"dark_kabuto", (Item_form_change) dark_kabuto_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+
+	public static Item caucasus_rider_belt = new item_rider_driver("caucasus_rider_belt",ArmorMaterial.DIAMOND, 4,"caucasus", (Item_form_change) caucasus_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+
+	public static Item hercus_rider_belt = new item_rider_driver("hercus_rider_belt",ArmorMaterial.DIAMOND, 4,"hercus", (Item_form_change) hercus_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+
+	public static Item ketaros_rider_belt = new item_rider_driver("ketaros_rider_belt",ArmorMaterial.DIAMOND, 4,"ketaros", (Item_form_change) ketaros_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+
+	public static Item lady_rider_belt = new item_rider_driver("lady_rider_belt",ArmorMaterial.DIAMOND, 4,"lady", (Item_form_change) lady_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+
+
+
 	public static Item clock_up_pad = new Item_clock_up_pad("clock_up_pad").setCreativeTab(Tabs.tabkabuto);
+
+	public static Block zectblock = new ore_block("zectblock",Material.ROCK, mini_zecter, 2).setHardness(9.9F).setCreativeTab(Tabs.tabkabuto);
+	public static Block neozecthellrock = new ore_block("neozecthellrock",Material.ROCK, unfinished_kabutick_zecter, 3).setHardness(9.9F).setCreativeTab(Tabs.tabkabuto);
 
 	//den_o
 	
@@ -1951,18 +1857,18 @@ public static Item garren_jack_wings = new Item_ore("garren_jack_wings");
 	public static Item gate_switch = new item_gate_switch("gate_switch").setCreativeTab(Tabs.tabFourze);
 	public static Item rocket_swich_christmas_ver = new Item_ore("rocket_swich_christmas_ver").setCreativeTab(Tabs.tabFourze);
 	
-	public static Item rider1_switch = new Item_astroswitch(0,"0","cross",13,"rider1_switch").AddLegendCrafting(typhoon_ichigo).setCreativeTab(Tabs.tabFourze);
-	public static Item rider2_switch = new Item_astroswitch(0, "0","square",14,"rider2_switch").AddLegendCrafting(typhoon_nigo).setCreativeTab(Tabs.tabFourze);
-	public static Item v3_switch = new Item_astroswitch(0, "0","triangle",13,"v3_switch").AddLegendCrafting(double_typhoon_core).setCreativeTab(Tabs.tabFourze);
-	public static Item riderman_switch = new Item_astroswitch(0, "0","circle",15,"riderman_switch").AddLegendCrafting(riderman_belt_core).setCreativeTab(Tabs.tabFourze);
-	public static Item x_switch = new Item_astroswitch(0,"0","cross",14,"x_switch").AddLegendCrafting(ridol_core).setCreativeTab(Tabs.tabFourze);
-	public static Item amazon_switch = new Item_astroswitch(0, "0","square",15,"amazon_switch").AddLegendCrafting(condorer_wheel).setCreativeTab(Tabs.tabFourze);
-	public static Item stronger_switch = new Item_astroswitch(0, "0","circle",16,"stronger_switch").AddLegendCrafting(electrer_core).setCreativeTab(Tabs.tabFourze);
-	public static Item skyrider_switch = new Item_astroswitch(0, "0","cross",18,"skyrider_switch").AddLegendCrafting(tornado_core).setCreativeTab(Tabs.tabFourze);
-	public static Item super_1_switch = new Item_astroswitch(0, "0","square",19,"super_1_switch").AddLegendCrafting(cyclode_core).setCreativeTab(Tabs.tabFourze);
-	public static Item zx_switch = new Item_astroswitch(0, "0","circle",19,"zx_switch").AddLegendCrafting(zx_belt_core).setCreativeTab(Tabs.tabFourze);
-	public static Item black_switch = new Item_astroswitch(0, "0","triangle",18,"black_switch").AddLegendCrafting(king_stone_core).setCreativeTab(Tabs.tabFourze);
-	public static Item rx_switch = new Item_astroswitch(0, "0","circle",20,"rx_switch").AddLegendCrafting(king_stone_split).setCreativeTab(Tabs.tabFourze);
+	public static Item rider1_switch = new Item_astroswitch(0,"0","cross",13,"rider1_switch").AddLegendCrafting(ShowaRiderItems.typhoon_ichigo).setCreativeTab(Tabs.tabFourze);
+	public static Item rider2_switch = new Item_astroswitch(0, "0","square",14,"rider2_switch").AddLegendCrafting(ShowaRiderItems.typhoon_nigo).setCreativeTab(Tabs.tabFourze);
+	public static Item v3_switch = new Item_astroswitch(0, "0","triangle",13,"v3_switch").AddLegendCrafting(ShowaRiderItems.double_typhoon_core).setCreativeTab(Tabs.tabFourze);
+	public static Item riderman_switch = new Item_astroswitch(0, "0","circle",15,"riderman_switch").AddLegendCrafting(ShowaRiderItems.riderman_belt_core).setCreativeTab(Tabs.tabFourze);
+	public static Item x_switch = new Item_astroswitch(0,"0","cross",14,"x_switch").AddLegendCrafting(ShowaRiderItems.ridol_core).setCreativeTab(Tabs.tabFourze);
+	public static Item amazon_switch = new Item_astroswitch(0, "0","square",15,"amazon_switch").AddLegendCrafting(ShowaRiderItems.condorer_wheel).setCreativeTab(Tabs.tabFourze);
+	public static Item stronger_switch = new Item_astroswitch(0, "0","circle",16,"stronger_switch").AddLegendCrafting(ShowaRiderItems.electrer_core).setCreativeTab(Tabs.tabFourze);
+	public static Item skyrider_switch = new Item_astroswitch(0, "0","cross",18,"skyrider_switch").AddLegendCrafting(ShowaRiderItems.tornado_core).setCreativeTab(Tabs.tabFourze);
+	public static Item super_1_switch = new Item_astroswitch(0, "0","square",19,"super_1_switch").AddLegendCrafting(ShowaRiderItems.cyclode_core).setCreativeTab(Tabs.tabFourze);
+	public static Item zx_switch = new Item_astroswitch(0, "0","circle",19,"zx_switch").AddLegendCrafting(ShowaRiderItems.zx_belt_core).setCreativeTab(Tabs.tabFourze);
+	public static Item black_switch = new Item_astroswitch(0, "0","triangle",18,"black_switch").AddLegendCrafting(ShowaRiderItems.king_stone_core).setCreativeTab(Tabs.tabFourze);
+	public static Item rx_switch = new Item_astroswitch(0, "0","circle",20,"rx_switch").AddLegendCrafting(ShowaRiderItems.king_stone_split).setCreativeTab(Tabs.tabFourze);
 	public static Item kuuga_switch = new Item_astroswitch(0,"0","cross",15,"kuuga_switch").AddLegendCrafting(kuuga_mighty).setCreativeTab(Tabs.tabFourze);
 	public static Item agito_switch = new Item_astroswitch(0, "0","triangle",14,"agito_switch").AddLegendCrafting(agito_ground).setCreativeTab(Tabs.tabFourze);
 	public static Item ryuki_switch = new Item_astroswitch(0, "0","circle",17,"ryuki_switch").AddLegendCrafting(dragreder_advent).setCreativeTab(Tabs.tabFourze);
@@ -3415,7 +3321,7 @@ public static Item garren_jack_wings = new Item_ore("garren_jack_wings");
 	public static Item neo_amazon_cell_vial = new Item_ore("neo_amazon_cell_vial").keep_item(empty_vial).setCreativeTab(Tabs.tabamazons);
 	
 	//G
-	public static Item goro_wine_bottle = new Item_form_change("goro_wine_bottle",item_rider_driver.class,blanknoitem,"",""
+	public static Item goro_wine_bottle = new Item_form_change("goro_wine_bottle",item_rider_driver.class,ShowaRiderItems.blanknoitem,"",""
 			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
 			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
 			).keep_item().setCreativeTab(Tabs.tabG);
@@ -3429,27 +3335,27 @@ public static Item garren_jack_wings = new Item_ore("garren_jack_wings");
 
 
 	//GoRider
-	public static Item akarider_card = new Item_form_change("akarider_card",item_GoRiderTyphoon.class,blanknoitem,"",""
+	public static Item akarider_card = new Item_form_change("akarider_card",item_GoRiderTyphoon.class,ShowaRiderItems.blanknoitem,"",""
 			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
 			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
 			).setCreativeTab(Tabs.tabGoRider);
 
-	public static Item aorider_card = new Item_form_change("aorider_card",item_GoRiderTyphoon.class,blanknoitem,"",""
+	public static Item aorider_card = new Item_form_change("aorider_card",item_GoRiderTyphoon.class,ShowaRiderItems.blanknoitem,"",""
 			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
 			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
 			).setCreativeTab(Tabs.tabGoRider);
 
-	public static Item kirider_card = new Item_form_change("kirider_card",item_GoRiderTyphoon.class,blanknoitem,"",""
+	public static Item kirider_card = new Item_form_change("kirider_card",item_GoRiderTyphoon.class,ShowaRiderItems.blanknoitem,"",""
 			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
 			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
 			).setCreativeTab(Tabs.tabGoRider);
 
-	public static Item momorider_card = new Item_form_change("momorider_card",item_GoRiderTyphoon.class,blanknoitem,"",""
+	public static Item momorider_card = new Item_form_change("momorider_card",item_GoRiderTyphoon.class,ShowaRiderItems.blanknoitem,"",""
 			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
 			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
 			).setCreativeTab(Tabs.tabGoRider);
 
-	public static Item midorider_card = new Item_form_change("midorider_card",item_GoRiderTyphoon.class,blanknoitem,"",""
+	public static Item midorider_card = new Item_form_change("midorider_card",item_GoRiderTyphoon.class,ShowaRiderItems.blanknoitem,"",""
 			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
 			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
 			).setCreativeTab(Tabs.tabGoRider);
@@ -3469,9 +3375,9 @@ public static Item garren_jack_wings = new Item_ore("garren_jack_wings");
 	//Card Warrior Kamen Rider
 	public static Item card_warrior_kamen_rider_manga  = new Item_ore("card_warrior_kamen_rider_manga").setCreativeTab(Tabs.tabmisc);
 	
-	public static Item herculespader_sword= new ItemBaseSword("herculespader_sword",Tabs.ridol_stick, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabmisc);
+	public static Item herculespader_sword= new ItemBaseSword("herculespader_sword",Tabs.ridol_stick, ShowaRiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabmisc);
 	
-	public static Item flaresalamander_sword = new ItemBaseSword("flaresalamander_sword",Tabs.ridol_stick, RiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabmisc);
+	public static Item flaresalamander_sword = new ItemBaseSword("flaresalamander_sword",Tabs.ridol_stick, ShowaRiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabmisc);
 		
 	public static Item ryuki_dragreder_wings = new Item_ore("ryuki_dragreder_wings");
 	public static Item dragreder = new Item_form_change("dragreder",item_rider_driver.class,v_buckle_ryuki_survive,"_dragreder","ryuki"
@@ -3484,7 +3390,7 @@ public static Item garren_jack_wings = new Item_ore("garren_jack_wings");
 			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).addWing(agito_stagtornador_wings).Rend2ndLyer("agito_stagtornador").setCreativeTab(Tabs.tabmisc);
 
 	public static Item herculespader_wings = new Item_ore("herculespader_wings");
-	public static Item herculespader = new Item_form_change("herculespader",item_rider_driver.class,blanknoitem,"","blade"
+	public static Item herculespader = new Item_form_change("herculespader",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","blade"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false),new PotionEffect(MobEffects.HASTE, 5, 0,true,false),
 			new PotionEffect(MobEffects.SPEED, 5, 2,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false)
 			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).addWing(herculespader_wings).Rend2ndLyer("herculespader").setCreativeTab(Tabs.tabmisc);
@@ -3494,18 +3400,64 @@ public static Item garren_jack_wings = new Item_ore("garren_jack_wings");
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
 			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).addWing(knight_darkwing_wings).Rend2ndLyer("darkwing").setCreativeTab(Tabs.tabmisc);
 
-	public static Item greywolch = new Item_form_change("greywolch",item_rider_driver.class,blanknoitem,"","faiz"
+	public static Item greywolch = new Item_form_change("greywolch",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","faiz"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false),new PotionEffect(MobEffects.HASTE, 5, 1,true,false)
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false)
 			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 1,true,false)).Rend2ndLyer("faiz_greywolch").setCreativeTab(Tabs.tabmisc);
 
+	public static Item grand_gouram_wings = new Item_ore("grand_gouram_wings");
+	public static Item grand_gouram = new Item_form_change("grand_gouram",item_kuugadriver.class,ShowaRiderItems.blanknoitem,"_grand_gouram"
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false)
+			,new PotionEffect(MobEffects.SPEED, 5, 2,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false)
+			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 8,true,false)).Rend2ndLyer("grand_gouram").addWing(grand_gouram_wings).setCreativeTab(Tabs.tabmisc);
+
+	public static Item exbeeter_wings = new Item_ore("exbeeter_wings");
+	public static Item exbeeter = new Item_form_change("exbeeter",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","kabuto"
+			,new PotionEffect(MobEffects.HASTE, 5, 3,true,false),new PotionEffect(MobEffects.SPEED, 5, 4,true,false),
+			new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 4,true,false),new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)
+			,new PotionEffect(MobEffects.NIGHT_VISION, 500, 0,true,false)).Rend2ndLyer("exbeeter").addWing(exbeeter_wings).setCreativeTab(Tabs.tabmisc);
+
+	
+	public static Item chaosdile = new Item_form_change("chaosdile",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","kaixa"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false),new PotionEffect(MobEffects.HASTE, 5, 1,true,false)
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false)
+			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 1,true,false)).Rend2ndLyer("chaosdile").setCreativeTab(Tabs.tabmisc);
+
+	public static Item leatheraider = new Item_form_change("leatheraider",item_agitodriver.class,ShowaRiderItems.blanknoitem,"_leatheraider","gills"
+			,new PotionEffect(MobEffects.SPEED, 5, 4,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false)
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false)).Rend2ndLyer("leatheraider").setCreativeTab(Tabs.tabmisc);
 	
 	public static Item v3_flaresalamander_wings = new Item_ore("v3_flaresalamander_wings");
-	public static Item flaresalamander = new Item_form_change("flaresalamander",item_rider_driver.class,blanknoitem,"","v3"
+	public static Item flaresalamander = new Item_form_change("flaresalamander",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","v3"
 			,new PotionEffect(MobEffects.STRENGTH,20, 3,true,false),new PotionEffect(MobEffects.RESISTANCE,20, 3,true,false)
 			,new PotionEffect(MobEffects.SPEED,20, 3,true,false),new PotionEffect(MobEffects.JUMP_BOOST,20, 4,true,false)
 			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false),new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)
 			).addWing(v3_flaresalamander_wings).Rend2ndLyer("v3_flaresalamander").setCreativeTab(Tabs.tabmisc);
+
+	public static Item ryuki_dragranzer_wings = new Item_ore("ryuki_dragranzer_wings");
+	public static Item dragranzer = new Item_form_change("dragranzer",item_rider_driver.class,v_buckle_ryuki_survive,"_dragranzer","ryuki"
+			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false),new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
+			,new PotionEffect(MobEffects.HASTE, 5, 1,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false),
+			new PotionEffect(MobEffects.SPEED, 5, 1,true,false)).addWing(ryuki_dragranzer_wings).Rend2ndLyer("dragranzer").setCreativeTab(Tabs.tabmisc);
+
+	public static Item scissorbeeter_wings = new Item_ore("scissorbeeter_wings");
+	public static Item scissorbeeter = new Item_form_change("scissorbeeter",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","gatack"
+			,new PotionEffect(MobEffects.HASTE, 5, 3,true,false),new PotionEffect(MobEffects.SPEED, 5, 4,true,false),
+			new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 4,true,false),new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)
+			,new PotionEffect(MobEffects.NIGHT_VISION, 500, 0,true,false)).Rend2ndLyer("scissorbeeter").addWing(scissorbeeter_wings).setCreativeTab(Tabs.tabmisc);
+
+	
+	public static Item akanetaka_wings = new Item_ore("akanetaka_wings");
+	public static Item akanetaka = new Item_form_change("akanetaka",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","hibiki"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),new PotionEffect(MobEffects.HASTE, 5, 3,true,false),
+			new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false),new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
+			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).addWing(akanetaka_wings).Rend2ndLyer("akanetaka").setCreativeTab(Tabs.tabmisc);
 
 	public static void init() {
 	}

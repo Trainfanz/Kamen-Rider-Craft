@@ -162,7 +162,7 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":kabutohead"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.kabutohead,1), "aaa","a a", 'a', RiderItems.mini_zecter);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":kabutotroso"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.kabutotroso,1), "a a","aaa","aaa", 'a', RiderItems.mini_zecter);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":kabutolegs"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.kabutolegs,1), "aaa","a a","a a", 'a', RiderItems.mini_zecter);
-		
+	
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":kabuto_rider_belt"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.kabuto_rider_belt,1), "aaa","aca","aaa", 'a', RiderItems.mini_zecter,  'c', RiderItems.kabuto_zecter);		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":thebee_rider_belt"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.thebee_rider_belt,1), "aaa","aca","aaa", 'a', RiderItems.mini_zecter,  'c', RiderItems.thebee_zecter);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":drake_rider_belt"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.drake_rider_belt,1), "aaa","aca","aaa", 'a', RiderItems.mini_zecter,  'c', RiderItems.drake_zecter);
@@ -174,7 +174,7 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":hercus_rider_belt"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.hercus_rider_belt,1), "aaa","aca","aaa", 'a', RiderItems.unfinished_kabutick_zecter,  'c', RiderItems.hercus_zecter);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":ketaros_rider_belt"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.ketaros_rider_belt,1), "aaa","aca","aaa", 'a', RiderItems.unfinished_kabutick_zecter,  'c', RiderItems.ketaros_zecter);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":caucasus_rider_belt"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.caucasus_rider_belt,1), "aaa","aca","aaa", 'a', RiderItems.unfinished_kabutick_zecter,  'c', RiderItems.caucasus_zecter);
-		
+	
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":kabuto_kunai"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.kabuto_kunai,1), "ama","aba","aaa", 'a', RiderItems.mini_zecter, 'b', RiderItems.base_sword, 'm', RiderItems.kabuto_zecter);
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":kabuto_kunai_kunai"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.kabuto_kunai_kunai), new Ingredient[]{Ingredient.fromItem(RiderItems.kabuto_kunai)});	
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":kabuto_kunai2"),new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.kabuto_kunai), new Ingredient[]{Ingredient.fromItem(RiderItems.kabuto_kunai_kunai)});	
@@ -189,7 +189,7 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":clock_up_pad"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.clock_up_pad,1), "aaa","aba","aaa", 'a', RiderItems.mini_zecter, 'b', Blocks.IRON_BLOCK);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":zect_mizer"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.zect_mizer,1), "aaa","aba","aaa", 'a', RiderItems.mini_zecter, 'b', RiderItems.base_sword);		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":perfect_zecter"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.perfect_zecter,1), "ama","cba","ada", 'a', RiderItems.mini_zecter, 'b', RiderItems.base_sword, 'm', RiderItems.perfectdrake_zecter, 'c', RiderItems.perfectthebee_zecter, 'd', RiderItems.perfectsasword_zecter);
-
+	
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":kivahead"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.kivahead,1), "aaa","a a", 'a', RiderItems.fuestle);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":kivatroso"), new ResourceLocation(Refercence.MODID+":kamen_rider"),new ItemStack(RiderItems.kivatroso,1), "a a","aaa","aaa", 'a', RiderItems.fuestle);

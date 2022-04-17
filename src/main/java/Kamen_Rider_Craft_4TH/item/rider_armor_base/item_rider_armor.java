@@ -4,6 +4,7 @@ package Kamen_Rider_Craft_4TH.item.rider_armor_base;
 import javax.annotation.Nullable;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigoarmor;
 import Kamen_Rider_Craft_4TH.model.tokuArmorModel;
@@ -135,8 +136,6 @@ public class item_rider_armor extends ItemArmor  implements IHasModel
 						
 					}
 				
-				
-
 						armorModel.base = BELTCLASS;
 						armorModel.isSneak = defaultModel.isSneak;
 						armorModel.isRiding = defaultModel.isRiding;
@@ -153,7 +152,7 @@ public class item_rider_armor extends ItemArmor  implements IHasModel
 
 			public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
 			{
-				return RiderItems.rider_circuit == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+				return ShowaRiderItems.rider_circuit == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 			}
 
 			@Override

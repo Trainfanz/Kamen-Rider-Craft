@@ -4,6 +4,7 @@ import javax.annotation.Nullable;
 
 import Kamen_Rider_Craft_4TH.RiderBlocks;
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.Tabs;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
@@ -132,7 +133,7 @@ public class item_zero_onedriver extends ItemArmor  implements IHasModel
 				if (this==ReiwaRiderItems.hiden_zero_one_driver&this.get_core(stack, "1")==9){
 					armorModel.wings=new ItemStack( ReiwaRiderItems.realize_hopper_lines);
 				}else{
-					armorModel.wings=new ItemStack( RiderItems.blanknoitem);
+					armorModel.wings=new ItemStack( ShowaRiderItems.blanknoitem);
 				}
 						//armorModel.belt2=new ItemStack(form_watch[item_zero_onedriver.get_core(stack,"1")]);	
 						//armorModel.belt3=new ItemStack(armor_watch[item_zero_onedriver.get_locknum(stack)]);

@@ -52,6 +52,7 @@ public class TokuCraft_core {
 	@EventHandler
 	public static void preInit(FMLPreInitializationEvent event) {
 		RiderBlocks.init();
+		ShowaRiderItems.init();
 		RiderItems.init();
 		ReiwaRiderItems.init();
 		kikaiderItems.init();
