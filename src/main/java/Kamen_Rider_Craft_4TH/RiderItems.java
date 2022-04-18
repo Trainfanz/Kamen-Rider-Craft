@@ -3459,6 +3459,20 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 			new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false),new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
 			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).addWing(akanetaka_wings).Rend2ndLyer("akanetaka").setCreativeTab(Tabs.tabmisc);
 
+	public static Item shadowmantis = new Item_form_change("shadowmantis",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","chalice"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false),new PotionEffect(MobEffects.HASTE, 5, 0,true,false),
+			new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false),new PotionEffect(MobEffects.JUMP_BOOST, 5, 0,true,false)
+			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).Rend2ndLyer("shadowmantis").setCreativeTab(Tabs.tabmisc);
+
+	
+	public static Item cyclonehopper_wings = new Item_ore("cyclonehopper_wings");
+	public static Item cyclonehopper = new Item_form_change("cyclonehopper",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_cyclonehopper","ichigo"
+			,new PotionEffect(MobEffects.STRENGTH,20, 3,true,false),new PotionEffect(MobEffects.RESISTANCE,20, 3,true,false)
+			,new PotionEffect(MobEffects.SPEED,20, 3,true,false),new PotionEffect(MobEffects.JUMP_BOOST,20, 4,true,false)
+			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false),new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)
+			).addWing(cyclonehopper_wings).Rend2ndLyer("cyclonehopper").setCreativeTab(Tabs.tabmisc);
+
+	
 	public static void init() {
 	}
 }

@@ -47,39 +47,60 @@ public class ShowaRiderItems {
 	public static Item rider_circuit = new Item_ore("rider_circuit").setCreativeTab(Tabs.tabmisc);
 	
 	//Kamen Rider
-	public static Item ichigohead = new item_Ichigoarmor("ichigohead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item ichigotroso = new item_Ichigoarmor2("ichigotroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item ichigolegs = new item_Ichigoarmor2("ichigolegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-
-	public static Item typhoon_ichigo = new item_Ichigodriver("typhoon_ichigo",ArmorMaterial.DIAMOND, 4,"ichigo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_original_ichigo = new item_Ichigodriver("typhoon_original_ichigo",ArmorMaterial.DIAMOND, 4,"original_ichigo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_sakurajima_ichigo = new item_Ichigodriver("typhoon_sakurajima_ichigo",ArmorMaterial.DIAMOND, 4,"sakurajima_ichigo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-
-	public static Item typhoon_nigo = new item_Ichigodriver("typhoon_nigo",ArmorMaterial.DIAMOND, 4,"nigo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-
-	public static Item new_typhoon = new item_Ichigodriver("new_typhoon",ArmorMaterial.DIAMOND, 4,"new_ichigo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-
-	public static Item typhoon_shocker_rider_1 = new item_Ichigodriver("typhoon_shocker_rider_1",ArmorMaterial.DIAMOND, 4,"shocker_rider_1").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_2 = new item_Ichigodriver("typhoon_shocker_rider_2",ArmorMaterial.DIAMOND, 4,"shocker_rider_2").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_3 = new item_Ichigodriver("typhoon_shocker_rider_3",ArmorMaterial.DIAMOND, 4,"shocker_rider_3").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_4 = new item_Ichigodriver("typhoon_shocker_rider_4",ArmorMaterial.DIAMOND, 4,"shocker_rider_4").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_5 = new item_Ichigodriver("typhoon_shocker_rider_5",ArmorMaterial.DIAMOND, 4,"shocker_rider_5").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_6 = new item_Ichigodriver("typhoon_shocker_rider_6",ArmorMaterial.DIAMOND, 4,"shocker_rider_6").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-
-	public static Item typhoon_shocker_rider_7 = new item_Ichigodriver("typhoon_shocker_rider_7",ArmorMaterial.DIAMOND, 4,"shocker_rider_7").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_8 = new item_Ichigodriver("typhoon_shocker_rider_8",ArmorMaterial.DIAMOND, 4,"shocker_rider_8").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_9 = new item_Ichigodriver("typhoon_shocker_rider_9",ArmorMaterial.DIAMOND, 4,"shocker_rider_9").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_10 = new item_Ichigodriver("typhoon_shocker_rider_10",ArmorMaterial.DIAMOND, 4,"shocker_rider_10").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_11 = new item_Ichigodriver("typhoon_shocker_rider_11",ArmorMaterial.DIAMOND, 4,"shocker_rider_11").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_12 = new item_Ichigodriver("typhoon_shocker_rider_12",ArmorMaterial.DIAMOND, 4,"shocker_rider_12").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-
-	public static Item typhoon_sango = new item_Ichigodriver("typhoon_sango",ArmorMaterial.DIAMOND, 4,"sango").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_yongo = new item_Ichigodriver("typhoon_yongo",ArmorMaterial.DIAMOND, 4,"yongo").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-
-	public static Item nophoon_kamen_norider = new item_Ichigodriver("nophoon_kamen_norider",ArmorMaterial.DIAMOND, 4,"kamen_norider").setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	
+	public static Item typhoon_core = new Item_form_change("typhoon_core",item_rider_driver.class,blanknoitem,"","ichigo"
+			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
+			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
+			).setCreativeTab(Tabs.tabIchigo);
 
 
-	public static Item typhoon_core = new Item_ore("typhoon_core").setCreativeTab(Tabs.tabIchigo);
+	public static Item original_typhoon_core = new Item_form_change("original_typhoon_core",item_rider_driver.class,blanknoitem,"_original","ichigo"
+			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
+			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
+			).setCreativeTab(Tabs.tabIchigo);
+
+	public static Item sakurajima_typhoon_core = new Item_form_change("sakurajima_typhoon_core",item_rider_driver.class,blanknoitem,"_sakurajima","ichigo"
+			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
+			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
+			).setCreativeTab(Tabs.tabIchigo);
+
+	public static Item new_typhoon = new Item_ore("new_typhoon");
+	
+	public static Item new_typhoon_core = new Item_form_change("new_typhoon_core",item_rider_driver.class,new_typhoon,"_new","ichigo"
+			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
+			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
+			).setCreativeTab(Tabs.tabIchigo);
+
+	
+	public static Item ichigohead = new item_rider_armor("ichigohead",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item ichigotroso = new item_rider_armor("ichigotroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item ichigolegs = new item_rider_armor("ichigolegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+
+	public static Item typhoon_ichigo = new item_rider_driver("typhoon_ichigo",ArmorMaterial.DIAMOND, 4,"ichigo", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	
+	public static Item typhoon_nigo = new item_rider_driver("typhoon_nigo",ArmorMaterial.DIAMOND, 4,"nigo", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	
+	public static Item typhoon_sango = new item_rider_driver("typhoon_sango",ArmorMaterial.DIAMOND, 4,"sango", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	
+	public static Item typhoon_yongo = new item_rider_driver("typhoon_yongo",ArmorMaterial.DIAMOND, 4,"yongo", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+
+	public static Item typhoon_shocker_rider_1 = new item_rider_driver("typhoon_shocker_rider_1",ArmorMaterial.DIAMOND, 4,"shocker_rider_1", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_shocker_rider_2 = new item_rider_driver("typhoon_shocker_rider_2",ArmorMaterial.DIAMOND, 4,"shocker_rider_2", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_shocker_rider_3 = new item_rider_driver("typhoon_shocker_rider_3",ArmorMaterial.DIAMOND, 4,"shocker_rider_3", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_shocker_rider_4 = new item_rider_driver("typhoon_shocker_rider_4",ArmorMaterial.DIAMOND, 4,"shocker_rider_4", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_shocker_rider_5 = new item_rider_driver("typhoon_shocker_rider_5",ArmorMaterial.DIAMOND, 4,"shocker_rider_5", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_shocker_rider_6 = new item_rider_driver("typhoon_shocker_rider_6",ArmorMaterial.DIAMOND, 4,"shocker_rider_6", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_shocker_rider_7 = new item_rider_driver("typhoon_shocker_rider_7",ArmorMaterial.DIAMOND, 4,"shocker_rider_7", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_shocker_rider_8 = new item_rider_driver("typhoon_shocker_rider_8",ArmorMaterial.DIAMOND, 4,"shocker_rider_8", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_shocker_rider_9 = new item_rider_driver("typhoon_shocker_rider_9",ArmorMaterial.DIAMOND, 4,"shocker_rider_9", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_shocker_rider_10 = new item_rider_driver("typhoon_shocker_rider_10",ArmorMaterial.DIAMOND, 4,"shocker_rider_10", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_shocker_rider_11 = new item_rider_driver("typhoon_shocker_rider_11",ArmorMaterial.DIAMOND, 4,"shocker_rider_11", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_shocker_rider_12 = new item_rider_driver("typhoon_shocker_rider_12",ArmorMaterial.DIAMOND, 4,"shocker_rider_12", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	
+	
+	public static Item nophoon_kamen_norider = new item_rider_driver("nophoon_kamen_norider",ArmorMaterial.DIAMOND, 4,"kamen_norider", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+
+
 
 	//V3
 	public static Item double_typhoon_core = new Item_form_change("double_typhoon_core",item_rider_driver.class,blanknoitem,"","v3"
