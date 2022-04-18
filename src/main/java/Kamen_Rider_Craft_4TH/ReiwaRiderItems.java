@@ -72,6 +72,9 @@ public class ReiwaRiderItems {
 
 	public static Item ark_driver_zero = new item_zero_onedriver("ark_driver_zero",ArmorMaterial.DIAMOND, 4, "ark_zero",19).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 
+	public static Item ark_driver_thouser_arc = new item_zero_onedriver("ark_driver_thouser_arc",ArmorMaterial.DIAMOND, 4, "thouser_arc",21).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+
+	
 	public static Item hiden_zero_one_driver_azu = new item_zero_onedriver("hiden_zero_one_driver_azu",ArmorMaterial.DIAMOND, 4, "azu_zero_one",19).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 
 	public static Item eden_driver = new item_zero_onedriver("eden_driver",ArmorMaterial.DIAMOND, 4, "eden",19).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);

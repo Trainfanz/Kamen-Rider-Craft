@@ -24,7 +24,7 @@ import net.minecraftforge.fml.relauncher.Side;
 
 public class item_ex_aidarmor2 extends ItemArmor implements IHasModel
 {
-	public static final String[] CoreName= new String[] {"","_bike","_xxr","_xxl","_lv1","_lvx","_maximum","_ghost_lv1","_ghost","_drive","_gaim","_wizard","_fourze","_ooo","_w","_decade","_kiva","_den_o","_kabuto","_hibiki","_blade","_faiz","_ryuki","_agito","_kuuga","_ichigou","_invincible","_vrx","_knock_out_fighter_2","_novel"};
+	public static final String[] CoreName= new String[] {"","_bike","_xxr","_xxl","_lv1","_lvx","_maximum","_ghost_lv1","_ghost","_drive","_gaim","_wizard","_fourze","_ooo","_w","_decade","_kiva","_den_o","_kabuto","_hibiki","_blade","_faiz","_ryuki","_agito","_kuuga","_ichigou","_invincible","_vrx","_knock_out_fighter_2","_novel","_tank"};
 	public static final String[] CoreNameparadox= new String[] {"","fighter_"};
 	public static final String[] CoreNamegenm= new String[] {"","_0","_0zombie","","","","_maximum","","","_drive","_gaim","_wizard","_fourze","_ooo","_w","_decade","_kiva","_den_o","_kabuto","_hibiki","_blade","_faiz","_ryuki","_agito","_kuuga","_ichigou"};
 	//public static final String[] CoreNamelazer= new String[] {"","_turbo"};
@@ -113,7 +113,7 @@ public class item_ex_aidarmor2 extends ItemArmor implements IHasModel
 							if ( slot == EntityEquipmentSlot.LEGS)
 							{
 
-								return Refercence.MODID+":textures/armor/"+rider +"_2.png";
+								return Refercence.MODID+":textures/armor/"+rider + CoreName[item_ex_aiddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")] +"_2.png";
 
 							}
 							if (slot == EntityEquipmentSlot.HEAD||slot == EntityEquipmentSlot.CHEST )
@@ -123,7 +123,7 @@ public class item_ex_aidarmor2 extends ItemArmor implements IHasModel
 								}else if ((rider=="snipe" & item_ex_aiddriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!="blank")){
 									return Refercence.MODID+":textures/armor/snipe_nocape_1.png";
 								}else {
-									return Refercence.MODID+":textures/armor/"+rider +"_1.png";
+									return Refercence.MODID+":textures/armor/"+rider+ CoreName[item_ex_aiddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")] +"_1.png";
 								}
 							}
 						}

@@ -309,13 +309,19 @@ public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer play
 								item_ex_aiddriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
 								item_ex_aiddriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "1");
 							
-						}else if (belt.Rider=="snipe"& this == RiderItems.bang_bang_shooting_gashat){
+						}else if (belt.Rider=="snipe"){
+							if (this == RiderItems.bang_bang_shooting_gashat){
+						
 							if (item_ex_aiddriver.get_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==0){
 								item_ex_aiddriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
 								item_ex_aiddriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),4, "1");
 							}else{
 								item_ex_aiddriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
 								item_ex_aiddriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "1");
+							}
+							}else if (this == RiderItems.bang_bang_tank_gashat){
+								item_ex_aiddriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
+								item_ex_aiddriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),30, "1");
 							}
 						}else if (belt.Rider=="proto_brave"& this == RiderItems.proto_taddle_quest_gashat||belt.Rider=="proto_snipe"& this == RiderItems.proto_bang_bang_shooting_gashat){
 							if (item_ex_aiddriver.get_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==0){
