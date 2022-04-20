@@ -3459,10 +3459,11 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 			new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false),new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
 			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).addWing(akanetaka_wings).Rend2ndLyer("akanetaka").setCreativeTab(Tabs.tabmisc);
 
+	public static Item shadowmantis_wings = new Item_ore("shadowmantis_wings");
 	public static Item shadowmantis = new Item_form_change("shadowmantis",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","chalice"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false),new PotionEffect(MobEffects.HASTE, 5, 0,true,false),
 			new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false),new PotionEffect(MobEffects.JUMP_BOOST, 5, 0,true,false)
-			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).Rend2ndLyer("shadowmantis").setCreativeTab(Tabs.tabmisc);
+			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).addWing(shadowmantis_wings).Rend2ndLyer("shadowmantis").setCreativeTab(Tabs.tabmisc);
 
 	
 	public static Item cyclonehopper_wings = new Item_ore("cyclonehopper_wings");
@@ -3472,6 +3473,29 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false),new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)
 			).addWing(cyclonehopper_wings).Rend2ndLyer("cyclonehopper").setCreativeTab(Tabs.tabmisc);
 
+	
+	public static Item jinrai_no_senshi_wings = new Item_ore("jinrai_no_senshi_wings");
+	
+	public static Item kuuga_jinrai_no_senshi = new Item_form_change("kuuga_jinrai_no_senshi",item_kuugadriver.class,ShowaRiderItems.blanknoitem,"_rising_mighty_jinrai_no_senshi"
+			,new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false)
+			,new PotionEffect(MobEffects.SPEED, 5, 2,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false)
+			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 8,true,false)).addWing(jinrai_no_senshi_wings).Rend2ndLyer("kuuga_jinrai_no_senshi").setCreativeTab(Tabs.tabmisc);
+
+	public static Item blade_jinrai_no_senshi = new Item_form_change("blade_jinrai_no_senshi",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_jack","blade"
+			,new PotionEffect(MobEffects.STRENGTH,20, 3,true,false),new PotionEffect(MobEffects.RESISTANCE,20, 3,true,false)
+			,new PotionEffect(MobEffects.SPEED,20, 3,true,false),new PotionEffect(MobEffects.JUMP_BOOST,20, 4,true,false)
+			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false),new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)
+			).Rend2ndLyer("blade_jinrai_no_senshi").addWing(jinrai_no_senshi_wings).setCreativeTab(Tabs.tabmisc);
+
+	public static Item dark_kabuto_jinrai_no_senshi = new Item_form_change("dark_kabuto_jinrai_no_senshi",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","dark_kabuto"
+			,new PotionEffect(MobEffects.STRENGTH,20, 3,true,false),new PotionEffect(MobEffects.RESISTANCE,20, 3,true,false)
+			,new PotionEffect(MobEffects.SPEED,20, 3,true,false),new PotionEffect(MobEffects.JUMP_BOOST,20, 4,true,false)
+			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false),new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)
+			).Rend2ndLyer("dark_kabuto_jinrai_no_senshi").addWing(jinrai_no_senshi_wings).setCreativeTab(Tabs.tabmisc);
+
+	
 	
 	public static void init() {
 	}
