@@ -593,16 +593,22 @@ public class RiderItems {
 	
 	public static Item survive_advent = new Item_advent_cards("survive_advent",1).setCreativeTab(Tabs.tabryuki);
 	
+	public static Item survive_ryuki_advent = new Item_form_change("survive_ryuki_advent",item_rider_driver.class,v_buckle_ryuki_survive,"_survive","ryuki"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
+			,new PotionEffect(MobEffects.HASTE, 5, 1,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false),
+			new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+	
+	
 	public static Item survive_knight_advent = new Item_form_change("survive_knight_advent",item_rider_driver.class,v_buckle_knight_survive,"_survive","knight"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 5,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false),
 			new PotionEffect(MobEffects.HASTE, 5, 0,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false),
 			new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
 
 	
-	public static Item survive_ryuki_advent = new Item_form_change("survive_ryuki_advent",item_rider_driver.class,v_buckle_ryuki_survive,"_survive","ryuki"
+	public static Item survive_ryuki_advent_black = new Item_form_change("survive_ryuki_advent_black",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_survive_black","ryuki"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
 			,new PotionEffect(MobEffects.HASTE, 5, 1,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false),
-			new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+			new PotionEffect(MobEffects.SPEED, 5, 1,true,false)).setCreativeTab(Tabs.tabryuki);
 	
 	public static Item survive_ryuga_advent = new Item_form_change("survive_ryuga_advent",item_rider_driver.class,v_buckle_ryuga_survive,"_survive","ryuga"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 5,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false),
@@ -3495,8 +3501,25 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false),new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)
 			).Rend2ndLyer("dark_kabuto_jinrai_no_senshi").addWing(jinrai_no_senshi_wings).setCreativeTab(Tabs.tabmisc);
 
+	public static Item bakuen_no_senshi_wings = new Item_ore("bakuen_no_senshi_wings");
+	public static Item bakuen_no_senshi_hibiki_wings = new Item_ore("bakuen_no_senshi_hibiki_wings");
 	
-	
+	public static Item bakuen_no_senshi_ryuga = new Item_form_change("bakuen_no_senshi_ryuga",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_bakuen_no_senshi","ryuga"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 5,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false),
+			new PotionEffect(MobEffects.HASTE, 5, 0,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false),
+			new PotionEffect(MobEffects.SPEED, 5, 1,true,false)).Rend2ndLyer("bakuen_no_senshi_ryuga").addWing(bakuen_no_senshi_wings).setCreativeTab(Tabs.tabmisc);
+
+	public static Item bakuen_no_senshi_faiz = new Item_form_change("bakuen_no_senshi_faiz",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_blaster","faiz"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false),new PotionEffect(MobEffects.SPEED, 5, 3,true,false),
+			new PotionEffect(MobEffects.HASTE, 5, 3,true,false),new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false),
+			new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false)
+			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).Rend2ndLyer("bakuen_no_senshi_faiz").addWing(bakuen_no_senshi_wings).setCreativeTab(Tabs.tabmisc);
+
+	public static Item bakuen_no_senshi_hibiki = new Item_form_change("bakuen_no_senshi_hibiki",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_kurenai","hibiki"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false),new PotionEffect(MobEffects.HASTE, 5, 3,true,false),
+			new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false),new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
+			,new PotionEffect(MobEffects.REGENERATION, 5, 0,true,false)).Rend2ndLyer("bakuen_no_senshi_hibiki").addWing(bakuen_no_senshi_hibiki_wings).setCreativeTab(Tabs.tabmisc);	
+
 	public static void init() {
 	}
 }
