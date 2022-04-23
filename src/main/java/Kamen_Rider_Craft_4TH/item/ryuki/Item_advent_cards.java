@@ -70,7 +70,9 @@ public class Item_advent_cards extends Item implements IHasModel
 				}
 
 			}else if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.v_buckle_ouja){
-				if (num == 3){
+				if (num == 2){
+					((Item_form_change)RiderItems.survive_ouja_advent).onItemRightClick(worldIn, playerIn, handIn);
+				}if (num == 3){
 					((Item_form_change)RiderItems.blank_ouja_advent).onItemRightClick(worldIn, playerIn, handIn);
 				}
 			}

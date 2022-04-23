@@ -1,6 +1,7 @@
 package Kamen_Rider_Craft_4TH.item.rider_armor_base;
 
 
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
@@ -26,6 +27,7 @@ public class Item_form_change extends Item implements IHasModel
 	private String FORM_NAME;
 	private List<PotionEffect> potionEffectList;
 	private Item BELT;
+	private Item NEEDSITEM;
 	protected  Class<? extends item_rider_driver> BELTCLASS;
 	protected String RIDER_NAME;
 	private Item WINGS = ShowaRiderItems.blanknoitem;
@@ -73,9 +75,22 @@ public class Item_form_change extends Item implements IHasModel
 	public Item getWing() {
 		return WINGS;
 	}
-	
+	public boolean getNeedItem(EntityPlayer playerIn) {
+		boolean NEED = false;
+		if (NEEDSITEM==null){
+			NEED=true;
+		}
+		else if (playerIn.inventory.hasItemStack(new ItemStack(NEEDSITEM))){
+			NEED=true;
+		}
+		return NEED;
+	}
 	public Item_form_change addWing(Item wings) {
 		WINGS = wings;
+		return this;
+	}
+	public Item_form_change addNeedItem(Item needitem) {
+		NEEDSITEM = needitem;
 		return this;
 	}
 	public Item_form_change Rend2ndLyer(String lyer) {
@@ -112,7 +127,9 @@ public class Item_form_change extends Item implements IHasModel
 				if (RIDER_NAME.equals("Blank")) {
 					item_rider_driver.set_Form_Item(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),this, 1);
 				} else if(((item_rider_driver) playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider.equals(RIDER_NAME)){
+					if(getNeedItem(playerIn))
 					item_rider_driver.set_Form_Item(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),this, 1);
+					
 				}
 			}
 
