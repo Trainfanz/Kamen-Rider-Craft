@@ -3,6 +3,7 @@ package Kamen_Rider_Craft_4TH.item.deno;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigodriver;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -58,11 +59,8 @@ public class Itemdenkamen_sword extends ItemSword implements IHasModel
     	if (playerIn.inventory.armorInventory.get(1)!= null){
 
 			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()== RiderItems.den_odriver){
-				if (playerIn.inventory.hasItemStack(new ItemStack(RiderItems.ktaros))){
-					
-							item_Ichigodriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), 8);
-
-				}
+			
+					((Item_form_change)RiderItems.deno_liner_form).onItemRightClick(worldIn, playerIn, handIn);		
 				}
 			}
 			

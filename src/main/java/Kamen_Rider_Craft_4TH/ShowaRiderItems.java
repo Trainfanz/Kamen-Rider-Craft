@@ -10,7 +10,6 @@ import Kamen_Rider_Craft_4TH.item.riderfood;
 import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigoarmor;
 import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigoarmor2;
 import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigodriver;
-import Kamen_Rider_Craft_4TH.item.kuuga.item_kuugadriver;
 import Kamen_Rider_Craft_4TH.item.revice.Item_Vistamps;
 import Kamen_Rider_Craft_4TH.item.revice.item_revicearmor;
 import Kamen_Rider_Craft_4TH.item.revice.item_revicearmor2;
@@ -43,7 +42,7 @@ import net.minecraft.potion.PotionEffect;
 public class ShowaRiderItems {
 
 	public static Item blanknoitem = new Item_ore("blanknoitem");
-	public static Item blanknoform = new Item_form_change("blanknoform",item_kuugadriver.class,blanknoitem,"");
+	public static Item blanknoform = new Item_form_change("blanknoform",item_rider_driver.class,blanknoitem,"","");
 	public static Item rider_circuit = new Item_ore("rider_circuit").setCreativeTab(Tabs.tabmisc);
 	
 	//Kamen Rider

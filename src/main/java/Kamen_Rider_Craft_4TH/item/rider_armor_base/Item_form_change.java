@@ -18,6 +18,7 @@ import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -31,20 +32,10 @@ public class Item_form_change extends Item implements IHasModel
 	protected  Class<? extends item_rider_driver> BELTCLASS;
 	protected String RIDER_NAME;
 	private Item WINGS = ShowaRiderItems.blanknoitem;
+	private Item STIFT_ITEM = ShowaRiderItems.blanknoitem;
 	private String REND2;
-	
-	public Item_form_change(String name, Class<? extends item_rider_driver> beltClass, Item belt, String formName, PotionEffect... effects) {
-		super();
-		this.setMaxDamage(0);
-        setTranslationKey(name);
-        setRegistryName(name);
-        TokuCraft_core.ITEMS.add(this);
-        potionEffectList = Lists.newArrayList(effects);
-        FORM_NAME = formName;
-        BELT = belt;
-        BELTCLASS = beltClass;
-        RIDER_NAME = "Blank";
-	}
+	private List<Item_form_change> alternative = new ArrayList<Item_form_change>();
+
 	public Item_form_change(String name,Class<? extends item_rider_driver> beltClass,Item belt,String formName,String ridername,PotionEffect... effects)
 	{
 		super();
@@ -89,6 +80,14 @@ public class Item_form_change extends Item implements IHasModel
 		WINGS = wings;
 		return this;
 	}
+	public Item_form_change ShiftForm(Item ShiftItem) {
+		STIFT_ITEM = ShiftItem;
+		return this;
+	}
+	public Item_form_change addAlternative(Item_form_change alternativeItem) {
+		alternative.add(alternativeItem);
+		return this;
+	}
 	public Item_form_change addNeedItem(Item needitem) {
 		NEEDSITEM = needitem;
 		return this;
@@ -124,12 +123,20 @@ public class Item_form_change extends Item implements IHasModel
     public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn) {
     	if (!playerIn.inventory.armorInventory.get(1).isEmpty()) {
 			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem().getClass()==BELTCLASS) {
-				if (RIDER_NAME.equals("Blank")) {
-					item_rider_driver.set_Form_Item(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),this, 1);
+				
+				if (STIFT_ITEM != ShowaRiderItems.blanknoitem&playerIn.isSneaking()) {
+					STIFT_ITEM.onItemRightClick(worldIn, playerIn, handIn);
 				} else if(((item_rider_driver) playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider.equals(RIDER_NAME)){
 					if(getNeedItem(playerIn))
 					item_rider_driver.set_Form_Item(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),this, 1);
 					
+				} else if(!alternative.isEmpty()){
+					
+					for (int i = 0; i < alternative.size(); i++)
+					{
+						Item_form_change alternativeItem_form_change = alternative.get(i);
+						alternativeItem_form_change.onItemRightClick(worldIn, playerIn, handIn);
+					}
 				}
 			}
 
