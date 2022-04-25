@@ -9,6 +9,7 @@ package Kamen_Rider_Craft_4TH.model;
 import org.lwjgl.opengl.GL11;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.item.fourze.item_Fourzedriver;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
@@ -158,7 +159,7 @@ public class tokuArmorModel2 extends ModelBiped
 
 		float height=1;
 		float height2=0;
-		ItemStack belt = new ItemStack(RiderItems.amazon_injector_neo);
+		ItemStack belt = new ItemStack(ShowaRiderItems.amazon_injector_neo);
 		int[] Text= new int[] {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
 
 		if (entity instanceof EntityLivingBase){

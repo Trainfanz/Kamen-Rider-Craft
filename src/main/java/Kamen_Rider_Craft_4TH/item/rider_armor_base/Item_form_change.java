@@ -28,7 +28,7 @@ public class Item_form_change extends Item implements IHasModel
 	private String FORM_NAME;
 	private List<PotionEffect> potionEffectList;
 	private Item BELT;
-	private Item NEEDSITEM;
+	private List<Item> NEEDSITEM = new ArrayList<Item>();
 	protected  Class<? extends item_rider_driver> BELTCLASS;
 	protected String RIDER_NAME;
 	private Item WINGS = ShowaRiderItems.blanknoitem;
@@ -40,14 +40,14 @@ public class Item_form_change extends Item implements IHasModel
 	{
 		super();
 		this.setMaxDamage(0);
-        setTranslationKey(name);
-        setRegistryName(name);
-        TokuCraft_core.ITEMS.add(this);
-        potionEffectList = Lists.newArrayList(effects);
-        FORM_NAME = formName;
-        BELT = belt;
-        BELTCLASS = beltClass;
-        RIDER_NAME = ridername;
+		setTranslationKey(name);
+		setRegistryName(name);
+		TokuCraft_core.ITEMS.add(this);
+		potionEffectList = Lists.newArrayList(effects);
+		FORM_NAME = formName;
+		BELT = belt;
+		BELTCLASS = beltClass;
+		RIDER_NAME = ridername;
 	}
 
 	@Override
@@ -67,12 +67,17 @@ public class Item_form_change extends Item implements IHasModel
 		return WINGS;
 	}
 	public boolean getNeedItem(EntityPlayer playerIn) {
-		boolean NEED = false;
-		if (NEEDSITEM==null){
+		boolean NEED = true;
+		if (NEEDSITEM.isEmpty()){
 			NEED=true;
 		}
-		else if (playerIn.inventory.hasItemStack(new ItemStack(NEEDSITEM))){
-			NEED=true;
+		else {
+			for (int i = 0; i < NEEDSITEM.size(); i++)
+			{
+				if (!playerIn.inventory.hasItemStack(new ItemStack(NEEDSITEM.get(i)))){
+					NEED=false;
+				}
+			}
 		}
 		return NEED;
 	}
@@ -89,7 +94,7 @@ public class Item_form_change extends Item implements IHasModel
 		return this;
 	}
 	public Item_form_change addNeedItem(Item needitem) {
-		NEEDSITEM = needitem;
+		NEEDSITEM.add(needitem);
 		return this;
 	}
 	public Item_form_change Rend2ndLyer(String lyer) {
@@ -97,14 +102,14 @@ public class Item_form_change extends Item implements IHasModel
 		return this;
 	}
 	public String get2ndLyer() {
-		
+
 		return REND2!= null? REND2:"blank";
 	}
-	
+
 	public String getFormName() {
 		return FORM_NAME;
 	}
-	
+
 
 	public  Item_form_change keep_item()
 	{
@@ -112,26 +117,26 @@ public class Item_form_change extends Item implements IHasModel
 		getContainerItem();
 		return this;
 	}
-	
 
-		
-	
-	
+
+
+
+
 	/**
-     * Called when the equipped item is right clicked.
-     */
-    public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn) {
-    	if (!playerIn.inventory.armorInventory.get(1).isEmpty()) {
+	 * Called when the equipped item is right clicked.
+	 */
+	public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn) {
+		if (!playerIn.inventory.armorInventory.get(1).isEmpty()) {
 			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem().getClass()==BELTCLASS) {
-				
+
 				if (STIFT_ITEM != ShowaRiderItems.blanknoitem&playerIn.isSneaking()) {
 					STIFT_ITEM.onItemRightClick(worldIn, playerIn, handIn);
 				} else if(((item_rider_driver) playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider.equals(RIDER_NAME)){
 					if(getNeedItem(playerIn))
-					item_rider_driver.set_Form_Item(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),this, 1);
-					
+						item_rider_driver.set_Form_Item(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),this, 1);
+
 				} else if(!alternative.isEmpty()){
-					
+
 					for (int i = 0; i < alternative.size(); i++)
 					{
 						Item_form_change alternativeItem_form_change = alternative.get(i);
@@ -140,9 +145,9 @@ public class Item_form_change extends Item implements IHasModel
 				}
 			}
 
-    	}
-        playerIn.setActiveHand(handIn);
+		}
+		playerIn.setActiveHand(handIn);
 
-    	return new ActionResult<>(EnumActionResult.SUCCESS, playerIn.getHeldItem(handIn));
-    }
+		return new ActionResult<>(EnumActionResult.SUCCESS, playerIn.getHeldItem(handIn));
+	}
 }

@@ -521,7 +521,7 @@ public class Tabs {
         return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_gorider_items.png");
     }
 		public ItemStack createIcon() {
-		return new ItemStack(RiderItems.akariderhead);
+		return new ItemStack(ShowaRiderItems.akariderhead);
 	}
 	};
 	public static CreativeTabs tabbuild = new CreativeTabs("tabbuild")
@@ -594,7 +594,7 @@ public class Tabs {
 		    }
 		@Override
 		public ItemStack createIcon() {
-			return new ItemStack(RiderItems.amazonshead);
+			return new ItemStack(ShowaRiderItems.amazonshead);
 		}
 	};
 	public static CreativeTabs tabG = new CreativeTabs("tabG")
@@ -606,7 +606,7 @@ public class Tabs {
 		    }
 		@Override
 		public ItemStack createIcon() {
-			return new ItemStack(RiderItems.ghead);
+			return new ItemStack(ShowaRiderItems.ghead);
 		}
 	};
 	public static CreativeTabs tabdecor = new CreativeTabs("tabdecor")
