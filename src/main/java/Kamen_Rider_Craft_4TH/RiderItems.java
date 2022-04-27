@@ -33,8 +33,6 @@ import Kamen_Rider_Craft_4TH.item.build.item_builddriver;
 import Kamen_Rider_Craft_4TH.item.build.item_buildphone;
 import Kamen_Rider_Craft_4TH.item.decade.Item_dienddriver;
 import Kamen_Rider_Craft_4TH.item.decade.Itemrider_cards;
-import Kamen_Rider_Craft_4TH.item.decade.item_decadearmor;
-import Kamen_Rider_Craft_4TH.item.decade.item_decadearmor2;
 import Kamen_Rider_Craft_4TH.item.decade.item_decadedriver;
 import Kamen_Rider_Craft_4TH.item.deno.Itemdenkamen_sword;
 import Kamen_Rider_Craft_4TH.item.deno.item_RiderPass;
@@ -1424,6 +1422,7 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Block fuestleblock = new ore_block("fuestleblock",Material.ROCK, fuestle, 2).setHardness(9.9F).setCreativeTab(Tabs.tabkiva);
 
 
+
 	//decade
 	public static Item ride_booker = new Item_sword_gun("ride_booker",ToolMaterial.DIAMOND, RiderItems.blankcard).setMaxStackSize(1).setCreativeTab(Tabs.tabdecade);
 	public static Item diend_driver = new Item_dienddriver("diend_driver",Tabs.den_dengu).setMaxStackSize(1).setCreativeTab(Tabs.tabdecade);
@@ -1433,14 +1432,14 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item ongekibo_rekka_decade = new ItemBaseSword("ongekibo_rekka_decade",Tabs.ongekibo, RiderItems.blankcard).setMaxStackSize(1).setCreativeTab(Tabs.tabdecade);
 	public static Item ongekibo_rekka_diend = new ItemBaseSword("ongekibo_rekka_diend",Tabs.ongekibo, RiderItems.blankcard).setMaxStackSize(1).setCreativeTab(Tabs.tabdecade);
 
-	public static Item decadehead = new item_decadearmor("decadehead",ArmorMaterial.DIAMOND, 4,EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabdecade);
-	public static Item decadetroso = new item_decadearmor2("decadetroso",ArmorMaterial.DIAMOND, 4,EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabdecade);
-	public static Item decadelegs = new item_decadearmor2("decadelegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabdecade);
+	public static Item decadehead = new item_rider_armor("decadehead",item_decadedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, RiderItems.blankcard).setCreativeTab(Tabs.tabdecade);
+	public static Item decadetroso = new item_rider_armor("decadetroso",item_decadedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, RiderItems.blankcard).setCreativeTab(Tabs.tabdecade);
+	public static Item decadelegs = new item_rider_armor("decadelegs",item_decadedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, RiderItems.blankcard).setCreativeTab(Tabs.tabdecade);
 
-	public static Item decadedriver = new item_decadedriver("decadedriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdecade);
-	public static Item dienddriver = new item_decadedriver("dienddriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdecade);
-	public static Item dark_decadedriver = new item_decadedriver("dark_decadedriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdecade);
-	public static Item new_decadriver = new item_decadedriver("new_decadriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdecade);
+	public static Item decadedriver = new item_decadedriver("decadedriver",ArmorMaterial.DIAMOND,"decade").setMaxStackSize(1).setCreativeTab(Tabs.tabdecade);
+	public static Item dienddriver = new item_decadedriver("dienddriver",ArmorMaterial.DIAMOND,"diend").setMaxStackSize(1).setCreativeTab(Tabs.tabdecade);
+	public static Item dark_decadedriver = new item_decadedriver("dark_decadedriver",ArmorMaterial.DIAMOND,"dark_decade").setMaxStackSize(1).setCreativeTab(Tabs.tabdecade);
+	public static Item new_decadriver = new item_decadedriver("new_decadriver",ArmorMaterial.DIAMOND,"decade").setMaxStackSize(1).setCreativeTab(Tabs.tabdecade);
 
 	public static Item decadecard = new Itemrider_cards(0,0,"decadecard").setCreativeTab(Tabs.tabdecade);
 	public static Item k_touch = new Itemrider_cards(0,1,"k_touch").setCreativeTab(Tabs.tabdecade);
@@ -1545,11 +1544,12 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item engine_blade = new ItemBaseSword("engine_blade",Tabs.den_denso, RiderItems.gaiamemory).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 	public static Item bomb_magnum = new Item_gun("bomb_magnum",Tabs.den_dengu, RiderItems.gaiamemory).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 	
-	public static Item Whead = new item_warmor2("whead",ArmorMaterial.DIAMOND, 4 ,EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
-	public static Item Wtroso = new item_warmor2("wtroso",ArmorMaterial.DIAMOND, 4,EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
-	public static Item Wlegs = new item_warmor2("wlegs",ArmorMaterial.DIAMOND, 4,EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 
-	public static Item Wdriver = new item_Wdriver("wdriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
+	public static Item whead = new item_warmor2("whead",ArmorMaterial.DIAMOND, 4 ,EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
+	public static Item wtroso = new item_warmor2("wtroso",ArmorMaterial.DIAMOND, 4,EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
+	public static Item wlegs = new item_warmor2("wlegs",ArmorMaterial.DIAMOND, 4,EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
+
+	public static Item wdriver = new item_Wdriver("wdriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 
 	public static Item cyclone_joker_gold_xtreme_wings = new Item_ore("cyclone_joker_gold_xtreme_wings");
 

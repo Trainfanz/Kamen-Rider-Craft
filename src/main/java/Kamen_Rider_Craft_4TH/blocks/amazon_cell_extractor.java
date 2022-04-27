@@ -1,6 +1,7 @@
 package Kamen_Rider_Craft_4TH.blocks;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -32,7 +33,7 @@ public class amazon_cell_extractor extends machine_block  {
 
 	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
 		if (!worldIn.isRemote) {
-			if (player.getHeldItem(hand).getItem() == RiderItems.empty_vial) process(player, worldIn, pos, hand, RiderItems.amazon_cell_vial);
+			if (player.getHeldItem(hand).getItem() == ShowaRiderItems.empty_vial) process(player, worldIn, pos, hand, ShowaRiderItems.amazon_cell_vial);
 			return true;
 		}
 

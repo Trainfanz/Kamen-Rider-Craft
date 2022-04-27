@@ -424,7 +424,7 @@ public class Tabs {
 	    }
 		@Override
 		public ItemStack createIcon() {
-			return new ItemStack(RiderItems.Whead);
+			return new ItemStack(RiderItems.whead);
 		}
 	};
 	public static CreativeTabs tabOOO = new CreativeTabs("tabOOO")

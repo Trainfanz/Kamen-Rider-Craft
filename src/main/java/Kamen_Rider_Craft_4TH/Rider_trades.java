@@ -21,7 +21,7 @@ public class Rider_trades implements ITradeList
 
 		@Override
 		public void addMerchantRecipe(IMerchant merchant, MerchantRecipeList recipeList, Random random) {
-			recipeList.add(new MerchantRecipe(new ItemStack(Items.EMERALD,2+random.nextInt(5)),new ItemStack(RiderItems.goro_wine_bottle)));
+			recipeList.add(new MerchantRecipe(new ItemStack(Items.EMERALD,2+random.nextInt(5)),new ItemStack(ShowaRiderItems.goro_wine_bottle)));
 			recipeList.add(new MerchantRecipe(new ItemStack(Items.EMERALD,2+random.nextInt(5)),new ItemStack(ShowaRiderItems.shin_stone)));
 			recipeList.add(new MerchantRecipe(new ItemStack(Items.EMERALD,2+random.nextInt(5)),new ItemStack(ShowaRiderItems.j_stone)));
 			recipeList.add(new MerchantRecipe(new ItemStack(Items.EMERALD,2+random.nextInt(5)),new ItemStack(ShowaRiderItems.zo_stone)));

@@ -1,6 +1,7 @@
 package Kamen_Rider_Craft_4TH.blocks;
 
-import Kamen_Rider_Craft_4TH.RiderItems;
+
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -31,9 +32,9 @@ public class amazon_cell_mutator extends machine_block  {
 
 	private Item get_cell_mutation_Drop() {
 		Random generator = new Random();
-		 Item[] cells = new Item[] {RiderItems.alpha_amazon_cell_vial,RiderItems.omega_amazon_cell_vial,RiderItems.sigma_amazon_cell_vial,RiderItems.alpha_amazon_cell_vial,RiderItems.omega_amazon_cell_vial,RiderItems.sigma_amazon_cell_vial,
-				 RiderItems.alpha_amazon_cell_vial,RiderItems.omega_amazon_cell_vial,RiderItems.alpha_amazon_cell_vial,RiderItems.omega_amazon_cell_vial,RiderItems.sigma_amazon_cell_vial,
-				 RiderItems.alpha_amazon_cell_vial,RiderItems.omega_amazon_cell_vial,RiderItems.neo_amazon_cell_vial};
+		 Item[] cells = new Item[] {ShowaRiderItems.alpha_amazon_cell_vial,ShowaRiderItems.omega_amazon_cell_vial,ShowaRiderItems.sigma_amazon_cell_vial,ShowaRiderItems.alpha_amazon_cell_vial,ShowaRiderItems.omega_amazon_cell_vial,ShowaRiderItems.sigma_amazon_cell_vial,
+				 ShowaRiderItems.alpha_amazon_cell_vial,ShowaRiderItems.omega_amazon_cell_vial,ShowaRiderItems.alpha_amazon_cell_vial,ShowaRiderItems.omega_amazon_cell_vial,ShowaRiderItems.sigma_amazon_cell_vial,
+				 ShowaRiderItems.alpha_amazon_cell_vial,ShowaRiderItems.omega_amazon_cell_vial,ShowaRiderItems.neo_amazon_cell_vial};
 
 			int rand = generator.nextInt(cells.length);
 			
@@ -42,7 +43,7 @@ public class amazon_cell_mutator extends machine_block  {
 	}
 	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
 		if (!worldIn.isRemote) {
-			if (player.getHeldItem(hand).getItem() == RiderItems.amazon_cell_vial) process(player, worldIn, pos, hand,get_cell_mutation_Drop());
+			if (player.getHeldItem(hand).getItem() == ShowaRiderItems.amazon_cell_vial) process(player, worldIn, pos, hand,get_cell_mutation_Drop());
 			return true;
 		}
 

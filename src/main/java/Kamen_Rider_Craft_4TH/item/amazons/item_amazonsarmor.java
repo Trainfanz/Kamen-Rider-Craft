@@ -2,6 +2,7 @@ package Kamen_Rider_Craft_4TH.item.amazons;
 
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import Kamen_Rider_Craft_4TH.util.Refercence;
@@ -67,6 +68,6 @@ public class item_amazonsarmor extends ItemArmor implements IHasModel
 	
     public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
     {
-    	return RiderItems.amazon_cell_vial == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+    	return ShowaRiderItems.amazon_cell_vial == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
     }
 }

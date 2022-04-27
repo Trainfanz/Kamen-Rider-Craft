@@ -49,7 +49,7 @@ public class item_Warmor extends ItemArmor implements IHasModel
 	
 			if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
 
-				if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.Wdriver){
+				if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.wdriver){
 
 					if ( slot == EntityEquipmentSlot.HEAD)
 					{

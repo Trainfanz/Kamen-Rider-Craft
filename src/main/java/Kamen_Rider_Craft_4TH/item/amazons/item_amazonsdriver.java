@@ -1,6 +1,7 @@
 package Kamen_Rider_Craft_4TH.item.amazons;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
 import Kamen_Rider_Craft_4TH.model.model_belt;
@@ -66,15 +67,15 @@ public class item_amazonsdriver extends ItemArmor implements IHasModel
 			if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST)!= null){
 				if (player.getItemStackFromSlot(EntityEquipmentSlot.LEGS)!= null){
 					if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
-						if (player.getItemStackFromSlot(EntityEquipmentSlot.LEGS).getItem() == RiderItems.amazonslegs){
-							if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == RiderItems.amazonstroso){
-								if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == RiderItems.amazonshead){
+						if (player.getItemStackFromSlot(EntityEquipmentSlot.LEGS).getItem() == ShowaRiderItems.amazonslegs){
+							if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == ShowaRiderItems.amazonstroso){
+								if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == ShowaRiderItems.amazonshead){
 
 									if(item_OOOdriver.get_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))<100){
 
 										item_OOOdriver.set_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),item_OOOdriver.get_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+1);
 									}
-									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.amazons_driver_alpha){
+									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ShowaRiderItems.amazons_driver_alpha){
 										
 											if (player.getHeldItemMainhand().isEmpty())
 											{
@@ -85,7 +86,7 @@ public class item_amazonsdriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
 											
 										}									
-									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.amazons_driver_blind_alpha){
+									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ShowaRiderItems.amazons_driver_blind_alpha){
 
 											if (player.getHeldItemMainhand().isEmpty())
 											{
@@ -97,7 +98,7 @@ public class item_amazonsdriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.BLINDNESS, 5, 0,true,false));											
 										
 									}
-									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.amazons_driver_omega){
+									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ShowaRiderItems.amazons_driver_omega){
 
 											if (player.getHeldItemMainhand().isEmpty())
 											{
@@ -108,7 +109,7 @@ public class item_amazonsdriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 0,true,false));
 										
 									}
-									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.amazons_driver_sigma){
+									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ShowaRiderItems.amazons_driver_sigma){
 
 											if (player.getHeldItemMainhand().isEmpty())
 											{
@@ -120,7 +121,7 @@ public class item_amazonsdriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
 										
 									}
-									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.neo_amazons_driver_omega){
+									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ShowaRiderItems.neo_amazons_driver_omega){
 
 											if (player.getHeldItemMainhand().isEmpty())
 											{
@@ -132,7 +133,7 @@ public class item_amazonsdriver extends ItemArmor implements IHasModel
 											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 1,true,false));
 										
 									}
-									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.neo_amazons_driver_neo){
+									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ShowaRiderItems.neo_amazons_driver_neo){
 
 											if (player.getHeldItemMainhand().isEmpty())
 											{
@@ -220,7 +221,7 @@ public class item_amazonsdriver extends ItemArmor implements IHasModel
 	
     public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
     {
-    	return RiderItems.amazon_cell_vial == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+    	return ShowaRiderItems.amazon_cell_vial == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
     }
 
 

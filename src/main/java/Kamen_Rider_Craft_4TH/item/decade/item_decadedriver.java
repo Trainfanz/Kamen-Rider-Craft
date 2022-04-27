@@ -5,7 +5,10 @@ import javax.annotation.Nullable;
 import org.lwjgl.opengl.GL11;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
 import Kamen_Rider_Craft_4TH.model.model_belt;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import Kamen_Rider_Craft_4TH.util.Refercence;
@@ -31,7 +34,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class item_decadedriver extends ItemArmor implements IHasModel
+public class item_decadedriver extends item_rider_driver
 {
 
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
@@ -57,16 +60,13 @@ public class item_decadedriver extends ItemArmor implements IHasModel
 		
 	public static final String[] heiseiCoreName= new String[] {"w","ooo","fourze","wizard","gaim","drive","ghost","exaid","build","decade_zi_o"};
 
-	public item_decadedriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3)
+	public item_decadedriver (String name,ArmorMaterial par2EnumArmorMaterial, String rider)
 	{
-		super(par2EnumArmorMaterial, par3, EntityEquipmentSlot.FEET);
+		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.decadehead, RiderItems.decadetroso, RiderItems.decadelegs);
+		
 		this.material = par2EnumArmorMaterial;
 		par2EnumArmorMaterial.getDamageReductionAmount(EntityEquipmentSlot.FEET);
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(EntityEquipmentSlot.FEET));
-		this.maxStackSize = 1;
-		setTranslationKey(name);
-		setRegistryName(name);
-		TokuCraft_core.ITEMS.add(this);
 	}
 
 	@Override
@@ -104,8 +104,6 @@ public class item_decadedriver extends ItemArmor implements IHasModel
 				}else{
 					armorModel.belt=stack;
 				}
-				//armorModel.bipedRightLeg.showModel = slot == EntityEquipmentSlot.FEET;
-				//armorModel.bipedLeftLeg.showModel = slot == EntityEquipmentSlot.FEET;
 
 				armorModel.isSneak = defaultModel.isSneak;
 				armorModel.isRiding = defaultModel.isRiding;
@@ -187,6 +185,47 @@ public class item_decadedriver extends ItemArmor implements IHasModel
 		}else{
 			return  "decade";
 		}}
+	
+
+	public   String getTexture(Entity entity, int num,String ext)
+	{
+		if (entity instanceof EntityLivingBase){
+			EntityLivingBase player = ((EntityLivingBase)entity);
+				if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_rider_driver){
+					item_rider_driver belt =((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem());
+
+					if (num==1){
+								return Refercence.MODID+":textures/armor/"+get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+ext;
+				
+
+					}else if (num==2||num==5||num==7){
+					
+							return Refercence.MODID+":textures/armor/"+get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+ext;
+					
+					}else if (num==3||num==6||num==8){
+						
+							return Refercence.MODID+":textures/armor/"+get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+ext;
+			
+					}else if (num==4||num==9||num==10||num==11||num==12||num==13||num==14){
+
+						return Refercence.MODID+":textures/armor/blank"+ext;
+
+					} else{
+						return Refercence.MODID+":textures/armor/blank"+ext;
+
+					}
+				}else{
+					return Refercence.MODID+":textures/armor/blank"+ext;
+				}
+			}else{
+				return Refercence.MODID+":textures/armor/blank"+ext;
+			
+
+		}
+	
+
+	}
+	
 	@Override
 	public void onArmorTick(World world, EntityPlayer player, ItemStack armor) {
 

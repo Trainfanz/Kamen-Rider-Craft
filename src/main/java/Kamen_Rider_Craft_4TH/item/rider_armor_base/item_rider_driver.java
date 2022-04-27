@@ -120,7 +120,7 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 		}
 	}
 
-	public static String getTexture(Entity entity, int num)
+	public  String getTexture(Entity entity, int num,String ext)
 	{
 		if (entity instanceof EntityLivingBase){
 			EntityLivingBase player = ((EntityLivingBase)entity);
@@ -130,34 +130,34 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 					String rider = ((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider;
 
 					if (num==1){
-								return Refercence.MODID+":textures/armor/"+rider+item_rider_driver.get_Form_Item_tex(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).getFormName();
+								return Refercence.MODID+":textures/armor/"+rider+item_rider_driver.get_Form_Item_tex(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).getFormName()+ext;
 				
 
 					}else if (num==2||num==5||num==7){
 					
-							return Refercence.MODID+":textures/armor/"+rider+item_rider_driver.get_Form_Item_tex(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).getFormName();
+							return Refercence.MODID+":textures/armor/"+rider+item_rider_driver.get_Form_Item_tex(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).getFormName()+ext;
 					
 					}else if (num==3||num==6||num==8){
 						
-							return Refercence.MODID+":textures/armor/"+rider+item_rider_driver.get_Form_Item_tex(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).getFormName();
+							return Refercence.MODID+":textures/armor/"+rider+item_rider_driver.get_Form_Item_tex(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).getFormName()+ext;
 			
 					}else if (num==4||num==9||num==10||num==11||num==12||num==13||num==14){
 
-						return Refercence.MODID+":textures/armor/"+item_rider_driver.get_Form_Item_tex(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).get2ndLyer();
+						return Refercence.MODID+":textures/armor/"+item_rider_driver.get_Form_Item_tex(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).get2ndLyer()+ext;
 
 					} else{
-						return Refercence.MODID+":textures/armor/blank";
+						return Refercence.MODID+":textures/armor/blank"+ext;
 
 					}
 				}else{
-					return Refercence.MODID+":textures/armor/blank";
+					return Refercence.MODID+":textures/armor/blank"+ext;
 				}
 			}else{
-				return Refercence.MODID+":textures/armor/blank";
+				return Refercence.MODID+":textures/armor/blank"+ext;
 			}
 
 		}
-		return Refercence.MODID+":textures/armor/blank";
+		return Refercence.MODID+":textures/armor/blank"+ext;
 
 	}
 

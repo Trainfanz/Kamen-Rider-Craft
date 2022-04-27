@@ -77,13 +77,13 @@ public class item_Wdriver extends ItemArmor implements IHasModel
 			if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST)!= null){
 				if (player.getItemStackFromSlot(EntityEquipmentSlot.LEGS)!= null){
 					if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
-						if (player.getItemStackFromSlot(EntityEquipmentSlot.LEGS).getItem() == RiderItems.Wlegs){
-							if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == RiderItems.Wtroso){
-								if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == RiderItems.Whead){
+						if (player.getItemStackFromSlot(EntityEquipmentSlot.LEGS).getItem() == RiderItems.wlegs){
+							if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == RiderItems.wtroso){
+								if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == RiderItems.whead){
 									ItemStack ItemStack = player.getItemStackFromSlot(EntityEquipmentSlot.FEET);
 
 
-									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.Wdriver){
+									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.wdriver){
 										if (get_core(ItemStack,"3")==0){
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 0,true,false));

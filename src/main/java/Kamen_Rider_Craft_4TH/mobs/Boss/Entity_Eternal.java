@@ -72,8 +72,8 @@ public class Entity_Eternal extends EntityBossBase
 	{
 		super(par1World);
 		this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.eternal_edge));
-		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.Wtroso));
-		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.Whead));
+		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.wtroso));
+		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.whead));
 		
 		Random generator = new Random();
 		int num = generator.nextInt(2);
@@ -83,7 +83,7 @@ public class Entity_Eternal extends EntityBossBase
 		item_Wdriver.set_core(belt, num, "3");
 		
 		this.setItemStackToSlot(EntityEquipmentSlot.FEET,belt);
-		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.Wlegs));
+		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.wlegs));
 		
 	}
   

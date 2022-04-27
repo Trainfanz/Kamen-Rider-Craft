@@ -44,16 +44,12 @@ public class tokuArmorModel2 extends ModelBiped
 	
 	/** The Biped's Right Arm */
 	public ModelRenderer bipedRightArm2;
-	public ModelRenderer bipedRightUpArm2;
 	/** The Biped's Left Arm */
 	public ModelRenderer bipedLeftArm2;
-	public ModelRenderer bipedLeftUpArm2;
 	/** The Biped's Right Leg */
 	public ModelRenderer bipedRightLeg2;
-	public ModelRenderer bipedRightUpLeg2;
 	/** The Biped's Left Leg */
 	public ModelRenderer bipedLeftLeg2;
-	public ModelRenderer bipedLeftUpLeg2;
 
 	public ModelRenderer bigBipedHead2;
 	public ModelRenderer bigBipedHeadwear2;
@@ -159,12 +155,14 @@ public class tokuArmorModel2 extends ModelBiped
 
 		float height=1;
 		float height2=0;
-		ItemStack belt = new ItemStack(ShowaRiderItems.amazon_injector_neo);
+		item_rider_driver belt = (item_rider_driver)ShowaRiderItems.typhoon_ichigo;
 		int[] Text= new int[] {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
 
 		if (entity instanceof EntityLivingBase){
 			EntityLivingBase player =((EntityLivingBase) entity);
-			belt = player.getItemStackFromSlot(EntityEquipmentSlot.FEET);
+			if (  player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_rider_driver){
+			belt = (item_rider_driver) player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem();
+			}
 			if(player.isPotionActive(PotionCore.BIG_POTION)){
 				height=2.5f;		
 			}
@@ -185,7 +183,7 @@ public class tokuArmorModel2 extends ModelBiped
 			GL11.glTranslatef(0, -0.02F+(height/25), 0);
 		}
 		GL11.glTranslatef(0,height2,0);
-		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(item_rider_driver.getTexture(entity,2)+"_2.png"));
+		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(belt.getTexture(entity,2,"_2.png")));
 
 		this.bipedLeftArm2.offsetX=0.02f;
 		this.bipedLeftArm2.render(f5);
@@ -202,7 +200,7 @@ public class tokuArmorModel2 extends ModelBiped
 			GL11.glTranslatef(0, -0.02F+(height/25), 0);
 		}
 		GL11.glTranslatef(0,height2,0);
-		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(item_rider_driver.getTexture(entity,5)+"_1.png"));
+		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(belt.getTexture(entity,5,"_1.png")));
 
 		this.bipedRightArm2.offsetX=-0.02f;
 		this.bipedRightArm2.render(f5);
@@ -221,7 +219,7 @@ public class tokuArmorModel2 extends ModelBiped
 
 		}
 		GL11.glTranslatef(0,height2,0);
-		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(item_rider_driver.getTexture(entity,3)+"_1.png"));
+		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(belt.getTexture(entity,3,"_1.png")));
 		this.bipedLeftLeg2.offsetX=0.045f;
 		this.bipedLeftLeg2.render(f5);
 
@@ -241,7 +239,7 @@ public class tokuArmorModel2 extends ModelBiped
 		}
 		
 		GL11.glTranslatef(0,height2,0);
-		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(item_rider_driver.getTexture(entity,6)+"_2.png"));
+		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(belt.getTexture(entity,6,"_2.png")));
 		this.bipedRightLeg2.offsetX=-0.045f;
 		this.bipedRightLeg2.render(f5);
 		GL11.glPopMatrix();
@@ -257,7 +255,7 @@ public class tokuArmorModel2 extends ModelBiped
 			GL11.glTranslatef(0, -0F, 0);
 		}
 		GL11.glTranslatef(0,height2-(height2/10),0);
-		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(item_rider_driver.getTexture(entity,1)+"_1.png"));
+		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(belt.getTexture(entity,1,"_1.png")));
 		
 		this.bipedHead2.render(f5);
 		this.bipedHeadwear2.render(f5);
@@ -277,7 +275,7 @@ public class tokuArmorModel2 extends ModelBiped
 			this.bipedBody3.offsetZ=0.00025f;
 		}
 		GL11.glTranslatef(0,height2,0);
-		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(item_rider_driver.getTexture(entity,7)+"_1.png"));
+		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(belt.getTexture(entity,7,"_1.png")));
 		this.bipedBody3.render(f5);
 
 
@@ -296,7 +294,7 @@ public class tokuArmorModel2 extends ModelBiped
 			this.bipedBody2.offsetY=0.05f;
 		}
 		GL11.glTranslatef(0,height2,0);
-		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(item_rider_driver.getTexture(entity,8)+"_2.png"));
+		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(belt.getTexture(entity,8,"_2.png")));
 		this.bipedBody2.render(f5);
 		GL11.glPopMatrix();
 		
@@ -311,7 +309,7 @@ public class tokuArmorModel2 extends ModelBiped
 			GL11.glTranslatef(0, -0.02F+(height/25), 0);
 		}
 		GL11.glTranslatef(0,height2,0);
-		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(item_rider_driver.getTexture(entity,4)+"_2.png"));
+		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(belt.getTexture(entity,4,"_2.png")));
 
 		this.bigBipedLeftArm2.render(f5);
 
@@ -328,7 +326,7 @@ public class tokuArmorModel2 extends ModelBiped
 
 		}
 		GL11.glTranslatef(0,height2,0);
-		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(item_rider_driver.getTexture(entity,9)+"_1.png"));
+		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(belt.getTexture(entity,9,"_1.png")));
 
 		
 		this.bigBipedRightArm2.render(f5);
@@ -345,7 +343,7 @@ public class tokuArmorModel2 extends ModelBiped
 		}
 
 		GL11.glTranslatef(0,height2,0);
-		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(item_rider_driver.getTexture(entity,10)+"_1.png"));
+		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(belt.getTexture(entity,10,"_1.png")));
 		this.bigBipedLeftLeg2.offsetX=0.045f;
 		this.bigBipedLeftLeg2.render(f5);
 
@@ -362,7 +360,7 @@ public class tokuArmorModel2 extends ModelBiped
 			GL11.glTranslatef(0, 0F, 0);
 		}
 		GL11.glTranslatef(0,height2,0);
-		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(item_rider_driver.getTexture(entity,11)+"_2.png"));
+		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(belt.getTexture(entity,11,"_2.png")));
 		this.bigBipedRightLeg2.offsetX=-0.045f;
 		this.bigBipedRightLeg2.render(f5);
 		GL11.glPopMatrix();
@@ -376,7 +374,7 @@ public class tokuArmorModel2 extends ModelBiped
 			GL11.glTranslatef(0, -0F, 0);
 		}
 		GL11.glTranslatef(0,height2-(height2/10),0);
-		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(item_rider_driver.getTexture(entity,12)+"_1.png"));
+		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(belt.getTexture(entity,12,"_1.png")));
 		
 		this.bigBipedHead2.render(f5);
 		this.bigBipedHeadwear2.render(f5);
@@ -396,7 +394,7 @@ public class tokuArmorModel2 extends ModelBiped
 			this.bigBipedBody3.offsetZ=0.00025f;
 		}
 		GL11.glTranslatef(0,height2,0);
-		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(item_rider_driver.getTexture(entity,13)+"_1.png"));
+		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(belt.getTexture(entity,13,"_1.png")));
 		this.bigBipedBody3.render(f5);
 
 
@@ -415,7 +413,7 @@ public class tokuArmorModel2 extends ModelBiped
 			this.bigBipedBody2.offsetY=0.05f;
 		}
 		GL11.glTranslatef(0,height2,0);
-		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(item_rider_driver.getTexture(entity,14)+"_2.png"));
+		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(belt.getTexture(entity,14,"_2.png")));
 		this.bigBipedBody2.render(f5);
 		GL11.glPopMatrix();
 		

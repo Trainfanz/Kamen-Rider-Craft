@@ -101,7 +101,7 @@ public class Item_memory extends Item  implements IHasModel
 		}else{
 			if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
 
-				if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.Wdriver){
+				if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.wdriver){
 
 					if (num != 3){
 						item_Wdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), num, num2);

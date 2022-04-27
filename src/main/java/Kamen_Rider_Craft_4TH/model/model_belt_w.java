@@ -58,7 +58,7 @@ public class model_belt_w extends ModelBiped
 			GL11.glPushMatrix();
 			GL11.glPushMatrix();
 			if (stack.hasTagCompound()){
-			if (stack.getTagCompound().getInteger("core2")==2&stack.getItem()== RiderItems.Wdriver){
+			if (stack.getTagCompound().getInteger("core2")==2&stack.getItem()== RiderItems.wdriver){
 				wings=new ItemStack(RiderItems.cyclone_joker_gold_xtreme_wings);
 			}else{
 				wings=new ItemStack(ShowaRiderItems.blanknoitem);
@@ -87,7 +87,7 @@ public class model_belt_w extends ModelBiped
 			Item sideex= ShowaRiderItems.blanknoitem;
 		
 			if (stack.hasTagCompound()){
-				if(stack.getItem() ==RiderItems.Wdriver){
+				if(stack.getItem() ==RiderItems.wdriver){
 					sidea= LOCK[stack.getTagCompound().getInteger("core1")];
 					sideb= LOCK2[stack.getTagCompound().getInteger("core3")];
 					if (stack.getTagCompound().getInteger("core2")>2){
@@ -103,7 +103,7 @@ public class model_belt_w extends ModelBiped
 					sidea= LOCKa[stack.getTagCompound().getInteger("core1")];
 				}	
 			}else {
-				if(stack.getItem() ==RiderItems.Wdriver){
+				if(stack.getItem() ==RiderItems.wdriver){
 					sidea= LOCK[0];
 					sideb= LOCK2[0];
 				}else if(stack.getItem() ==RiderItems.accel_driver){
