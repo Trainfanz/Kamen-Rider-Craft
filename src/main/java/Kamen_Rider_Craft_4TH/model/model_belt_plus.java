@@ -9,6 +9,7 @@ import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_ex_aiddriver;
 import Kamen_Rider_Craft_4TH.item.gaim.item_Gaimdriver;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
+import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onedriver;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
 import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import net.minecraft.client.Minecraft;
@@ -54,17 +55,7 @@ public class model_belt_plus extends ModelBiped
 		float height2=0f;
 		float height3=1f;
 		float height4=-1.3f;
-		if (entity instanceof EntityLivingBase){
-			EntityLivingBase player =((EntityLivingBase) entity);
-			
-			if(player.isPotionActive(PotionCore.BIG_POTION)){
-				height=0.5f;
-				height2=2f;
-				height3=2.5f;
-				height4=0.5f;
-			}
-		}	
-		
+
 
 
 		

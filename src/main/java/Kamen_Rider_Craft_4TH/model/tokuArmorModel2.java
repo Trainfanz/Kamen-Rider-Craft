@@ -163,13 +163,6 @@ public class tokuArmorModel2 extends ModelBiped
 			if (  player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_rider_driver){
 			belt = (item_rider_driver) player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem();
 			}
-			if(player.isPotionActive(PotionCore.BIG_POTION)){
-				height=2.5f;		
-			}
-			if (height!=1){
-				
-				height2=-0.99f;
-			}
 		}	
 		
 		

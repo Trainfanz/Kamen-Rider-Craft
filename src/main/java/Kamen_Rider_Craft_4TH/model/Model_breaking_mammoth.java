@@ -302,24 +302,21 @@ public class Model_breaking_mammoth extends model_belt_plus {
 										if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.hiden_zero_one_driver){
 											if (item_zero_onedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="mammoth"){
 												
-												double height=1d;
-											
-													if(player.isPotionActive(PotionCore.BIG_POTION)){
-														height=2.5;
+												double height=1;
 														
-												}	
+											
 												
 
 		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Refercence.MODID+":textures/armor/breaking_mammoth.png"));
 
 												GlStateManager.pushMatrix();
-												GlStateManager.translate(0, -height, 0);
+												GlStateManager.translate(0, 0, 0);
 													GlStateManager.scale(0.7D*height, 0.7D*height, 0.7D*height);
 											
 												this.bipedHeadBase.render(f5);
 												GlStateManager.popMatrix();
 												GlStateManager.pushMatrix();
-												GlStateManager.translate(0, -height, 0);
+												GlStateManager.translate(0, 0, 0);
 												GlStateManager.scale(height,height,height);
 												this.bipedLeftArmBase.render(f5);
 												this.bipedRightLeg.render(f5);

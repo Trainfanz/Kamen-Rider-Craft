@@ -6,6 +6,8 @@ import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import Kamen_Rider_Craft_4TH.util.Refercence;
 import net.minecraft.block.Block;
+import net.minecraft.client.renderer.GlStateManager;
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.init.Items;
 import net.minecraft.init.MobEffects;
 import net.minecraft.item.Item;
@@ -19,11 +21,14 @@ import net.minecraft.world.storage.loot.conditions.LootCondition;
 import net.minecraft.world.storage.loot.functions.LootFunction;
 import net.minecraft.world.storage.loot.functions.SetDamage;
 import net.minecraftforge.client.event.ModelRegistryEvent;
+import net.minecraftforge.client.event.RenderLivingEvent;
 import net.minecraftforge.event.LootTableLoadEvent;
 import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 
 @EventBusSubscriber
@@ -62,11 +67,13 @@ public class RegistyHandler {
 		if(event.player.isPotionActive(Potion.getPotionFromResourceLocation("supersentaicraft"+ ":" + "fly"))) big = true;
 		
 		if(big){
-				event.player.height=4+(event.player.getDefaultEyeHeight());
-				event.player.eyeHeight=4;
+				event.player.width= 0.6F* 3.0F;
+				event.player.height=1.8F* 6.0F;
+				event.player.eyeHeight=event.player.getDefaultEyeHeight()* 6.0F;
 				event.player.setInvisible(true);
 		} else{
-			event.player.height=event.player.getDefaultEyeHeight();
+			event.player.width = 0.6F;
+			event.player.height=1.8F;
 			event.player.eyeHeight=event.player.getDefaultEyeHeight();
 			event.player.setInvisible(event.player.isPotionActive(MobEffects.INVISIBILITY));
 		}
@@ -90,6 +97,10 @@ public class RegistyHandler {
 		event.getRegistry().registerAll(TokuCraft_core.ITEMS.toArray(new Item[0]));
 	}
 
+	
+	
+	
+	
 	@SubscribeEvent
 	public static void onBlockRagister(Register<Block> event){
 		event.getRegistry().registerAll(TokuCraft_core.BLOCKS.toArray(new Block[0]));

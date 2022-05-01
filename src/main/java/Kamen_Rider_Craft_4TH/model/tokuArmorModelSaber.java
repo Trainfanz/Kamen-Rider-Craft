@@ -105,13 +105,7 @@ public class tokuArmorModelSaber extends ModelBiped
 		if (entity instanceof EntityPlayer){
 			EntityPlayer player =((EntityPlayer) entity);
 			
-			if(player.isPotionActive(PotionCore.BIG_POTION)){
-				height=2.5f;		
-			}
-			if (height!=1){
-				
-				height2=-0.99f;
-			}
+		
 		}	
 		
 		
