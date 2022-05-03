@@ -2084,12 +2084,12 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item eclipse_ring = new Item_wizard_rings_efts(12 , "0","eclipse_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	public static Item liquid_ring = new Item_wizard_rings_efts(13 , "0","liquid_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	public static Item drill_ring = new Item_wizard_rings_efts(14 , "0","drill_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-
+	public static Item big_ring = new Item_wizard_rings_efts(15 , "0","big_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item small_ring = new Item_wizard_rings_efts(16 , "0","small_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	
 
 	public static Item engage_ring = new Item_ore("engage_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	public static Item please_ring = new Item_ore("please_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item small_ring = new Item_ore("small_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item big_ring = new Item_ore("big_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 
 	public static Item copy_ring = new Item_ore("copy_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	public static Item smell_ring = new Item_ore("smell_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);

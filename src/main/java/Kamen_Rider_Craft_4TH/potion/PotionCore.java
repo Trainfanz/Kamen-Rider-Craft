@@ -12,7 +12,7 @@ public class PotionCore {
 	public static final Potion FIRE_PUNCH_POTION = new PotionFirePunch();
 	public static final Potion PUNCH_BOOST_POTION = new PotionPunchBoost();
 	public static final Potion BIG_POTION = new PotionBig();
-
+	public static final Potion SMALL_POTION = new PotionSmall();
 
 		
 	public static void init(FMLInitializationEvent event) {
@@ -20,6 +20,7 @@ public class PotionCore {
 		ForgeRegistries.POTIONS.register(FIRE_PUNCH_POTION);
 		ForgeRegistries.POTIONS.register(PUNCH_BOOST_POTION);
 		ForgeRegistries.POTIONS.register(BIG_POTION);
+		ForgeRegistries.POTIONS.register(SMALL_POTION);
 	}
 	
 }

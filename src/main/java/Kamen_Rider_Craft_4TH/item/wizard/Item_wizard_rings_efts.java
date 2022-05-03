@@ -3,6 +3,7 @@ package Kamen_Rider_Craft_4TH.item.wizard;
 import java.util.List;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockChest;
 import net.minecraft.block.state.IBlockState;
@@ -323,6 +324,10 @@ public class Item_wizard_rings_efts extends Item_wizard_ring
 									
 									}
 								}
+							}else if (num==15){
+								player.addPotionEffect(new PotionEffect(PotionCore.BIG_POTION, 500, 4,true,false));
+							}else if (num==16){
+								player.addPotionEffect(new PotionEffect(PotionCore.SMALL_POTION, 500, 4,true,false));
 							}
 					
 				}

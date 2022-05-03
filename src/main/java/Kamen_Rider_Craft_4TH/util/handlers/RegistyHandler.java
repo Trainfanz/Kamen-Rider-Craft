@@ -13,6 +13,7 @@ import net.minecraft.init.MobEffects;
 import net.minecraft.item.Item;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
+import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.world.storage.loot.LootEntryItem;
 import net.minecraft.world.storage.loot.LootPool;
 import net.minecraft.world.storage.loot.LootTableList;
@@ -50,6 +51,8 @@ public class RegistyHandler {
 		}
 	}
 
+	
+	
 	@SubscribeEvent
 	public static void onLivingUpate(TickEvent.PlayerTickEvent event) {
 		
@@ -61,23 +64,9 @@ public class RegistyHandler {
 			}
 		}
 		
-		boolean big = false;
-	
-		if(event.player.isPotionActive(PotionCore.BIG_POTION)) big = true;
-		if(event.player.isPotionActive(Potion.getPotionFromResourceLocation("supersentaicraft"+ ":" + "fly"))) big = true;
 		
-		if(big){
-				event.player.width= 0.6F* 3.0F;
-				event.player.height=1.8F* 6.0F;
-				event.player.eyeHeight=event.player.getDefaultEyeHeight()* 6.0F;
-				event.player.setInvisible(true);
-		} else{
-			event.player.width = 0.6F;
-			event.player.height=1.8F;
-			event.player.eyeHeight=event.player.getDefaultEyeHeight();
-			event.player.setInvisible(event.player.isPotionActive(MobEffects.INVISIBILITY));
-		}
-
+		
+		
 		if(event.player.isPotionActive(PotionCore.FIRE_PUNCH_POTION)) {
 			if(event.player.getHeldItemMainhand().isEmpty()) {
 				if (event.player.isSwingInProgress) {
