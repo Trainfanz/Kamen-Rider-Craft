@@ -6,6 +6,8 @@ import org.lwjgl.opengl.GL11;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
 import Kamen_Rider_Craft_4TH.model.model_belt;
 import Kamen_Rider_Craft_4TH.model.model_belt_w;
 import Kamen_Rider_Craft_4TH.potion.PotionCore;
@@ -33,25 +35,28 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class item_Wdriver extends ItemArmor implements IHasModel
+public class item_Wdriver extends item_rider_driver
 {
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
 	public String armorNamePrefix;
 	public ArmorMaterial material;
 
+	public static final String[] CoreName= new String[] {"joker","metal","trigger","cyclone_cyclone","joker_xtreme","joker_gold_xtreme","accel_xtreme"};
+	public static final String[] CoreName2= new String[] {"cyclone","heat","luna","fang","jokerjoker","cyclone_xtreme","cyclone_gold_xtreme","cyclone_xtreme_accel"};		
+
+	public static final String[] CoreName3= new String[] {"eternal","eternal_red"};
+	public static final String[] CoreName4= new String[] {"accel","accel_trial","accel_booster"};
 
 
-	public item_Wdriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3)
+	public item_Wdriver (String name,ArmorMaterial par2EnumArmorMaterial, String rider)
 	{
-		super(par2EnumArmorMaterial, par3, EntityEquipmentSlot.FEET);
+		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.whead, RiderItems.wtroso, RiderItems.wlegs);
+
 		this.material = par2EnumArmorMaterial;
 		par2EnumArmorMaterial.getDamageReductionAmount(EntityEquipmentSlot.FEET);
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(EntityEquipmentSlot.FEET));
-		this.maxStackSize = 1;
-		setTranslationKey(name);
-		setRegistryName(name);
-		TokuCraft_core.ITEMS.add(this);
 	}
+
 	@SideOnly(Side.CLIENT)
 	public boolean hasEffect(ItemStack par1ItemStack)
 	{
@@ -257,6 +262,92 @@ public class item_Wdriver extends ItemArmor implements IHasModel
 	}
 
 
+
+	public static String  get_core(ItemStack itemstack, int num)
+	{
+		if (!itemstack.hasTagCompound())
+		{
+			itemstack.setTagCompound(new NBTTagCompound());
+		}
+
+		String ex ="_r";
+		if (num == 1){
+			ex = "_l";
+		}
+		
+		if ((item_Wdriver)itemstack.getItem()==RiderItems.accel_driver){
+			return CoreName4[itemstack.getTagCompound().getInteger("core1")]+ex;
+
+		}else if ((item_Wdriver)itemstack.getItem()==RiderItems.lostdriver_eternal){
+
+			return CoreName3[itemstack.getTagCompound().getInteger("core1")]+ex;
+
+		}else if ((item_Wdriver)itemstack.getItem()==RiderItems.wdriver){
+
+			if (num == 1){
+				if (item_Wdriver.get_core(itemstack,"2")>0){
+					return "w_"+ CoreName[item_Wdriver.get_core(itemstack,"2")+3];
+				}
+				
+				if (CoreName2[itemstack.getTagCompound().getInteger("core3")]=="fang"){
+					return "w_fang_"+CoreName[itemstack.getTagCompound().getInteger("core1")];
+				}else{
+				return "w_"+CoreName[itemstack.getTagCompound().getInteger("core1")];
+			}
+			}
+			else if (num == 3){
+				if (item_Wdriver.get_core(itemstack,"2")>0){
+					return "w_"+ CoreName2[item_Wdriver.get_core(itemstack,"2")+4];
+				}
+				return "w_"+CoreName2[itemstack.getTagCompound().getInteger("core3")];
+			}
+		}else{
+			return ((item_Wdriver)itemstack.getItem()).Rider+ex;
+
+
+		}
+		return ((item_Wdriver)itemstack.getItem()).Rider+ex;
+	}
+
+	public   String getTexture(Entity entity, int num,String ext)
+	{
+		if (entity instanceof EntityLivingBase){
+			EntityLivingBase player = ((EntityLivingBase)entity);
+			if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_rider_driver){
+				item_rider_driver belt =((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem());
+
+				if (num==9||num==11||num==13||num==12){
+//j
+					return Refercence.MODID+":textures/armor/"+get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),3)+"_1.png";
+
+				}else if (num==1||num==7||num==4||num==10){
+//c
+					return Refercence.MODID+":textures/armor/"+get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),1)+"_1.png";
+
+				}else if (num==5||num==6||num==14){
+//j2
+					return Refercence.MODID+":textures/armor/"+get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),3)+"_2.png";
+
+				}else if (num==2||num==3||num==8){
+//c2
+					return Refercence.MODID+":textures/armor/"+get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),1)+"_2.png";
+
+				} else{
+					return Refercence.MODID+":textures/armor/blank"+ext;
+
+				}
+			}else{
+				return Refercence.MODID+":textures/armor/blank"+ext;
+			}
+		}else{
+			return Refercence.MODID+":textures/armor/blank"+ext;
+
+
+		}
+
+
+	}
+
 	public static int get_core(ItemStack itemstack,String slot)
 	{
 		return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("core"+slot) : 0;
@@ -278,7 +369,7 @@ public class item_Wdriver extends ItemArmor implements IHasModel
 	{
 		return maxDamageArray;
 	}
-	
+
 	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
 	{
 		return RiderItems.gaiamemory == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);

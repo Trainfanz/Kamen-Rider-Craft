@@ -377,7 +377,7 @@ public class tokuArmorModel2 extends ModelBiped
 		GL11.glPushMatrix();
 		GL11.glTranslatef(0, 0.05F, 0);
 
-		GL11.glScalef(1.001F*height, 1.001F*height, 1.001F*height);
+		GL11.glScalef(1.000000001F*height, 1.000000001F*height, 1.000000001F*height);
 
 		if (entity.isSneaking()){
 			this.bigBipedBody3.offsetZ=0.0f;

@@ -1545,11 +1545,13 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item bomb_magnum = new Item_gun("bomb_magnum",Tabs.den_dengu, RiderItems.gaiamemory).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 	
 
-	public static Item whead = new item_warmor2("whead",ArmorMaterial.DIAMOND, 4 ,EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
-	public static Item wtroso = new item_warmor2("wtroso",ArmorMaterial.DIAMOND, 4,EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
-	public static Item wlegs = new item_warmor2("wlegs",ArmorMaterial.DIAMOND, 4,EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
+	public static Item whead = new item_rider_armor("whead",item_Wdriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, gaiamemory).setCreativeTab(Tabs.tabW);
+	public static Item wtroso = new item_rider_armor("wtroso",item_Wdriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, gaiamemory).setCreativeTab(Tabs.tabW);
+	public static Item wlegs = new item_rider_armor("wlegs",item_Wdriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, gaiamemory).setCreativeTab(Tabs.tabW);
 
-	public static Item wdriver = new item_Wdriver("wdriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
+	public static Item wdriver = new item_Wdriver("wdriver",ArmorMaterial.DIAMOND,"w").setMaxStackSize(1).setCreativeTab(Tabs.tabW);
+
+	
 
 	public static Item cyclone_joker_gold_xtreme_wings = new Item_ore("cyclone_joker_gold_xtreme_wings");
 
@@ -1575,12 +1577,12 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item lostdrivere = new Item_ore("lostdrivere");
 	public static Item lostdriverj = new Item_ore("lostdriverj");
 
-	public static Item accel_driver = new item_Wdriver("accel_driver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
+	public static Item accel_driver = new item_Wdriver("accel_driver",ArmorMaterial.DIAMOND, "accel").setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 
-	public static Item lostdriver = new item_Wdriver("lostdriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
-	public static Item lostdriver_skull = new item_Wdriver("lostdriver_skull",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
-	public static Item lostdriver_eternal = new item_Wdriver("lostdriver_eternal",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
-	public static Item lostdriver_cyclone = new item_Wdriver("lostdriver_cyclone",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
+	public static Item lostdriver = new item_Wdriver("lostdriver",ArmorMaterial.DIAMOND, "joker").setMaxStackSize(1).setCreativeTab(Tabs.tabW);
+	public static Item lostdriver_skull = new item_Wdriver("lostdriver_skull",ArmorMaterial.DIAMOND, "skull").setMaxStackSize(1).setCreativeTab(Tabs.tabW);
+	public static Item lostdriver_eternal = new item_Wdriver("lostdriver_eternal",ArmorMaterial.DIAMOND, "eternal").setMaxStackSize(1).setCreativeTab(Tabs.tabW);
+	public static Item lostdriver_cyclone = new item_Wdriver("lostdriver_cyclone",ArmorMaterial.DIAMOND, "cyclone").setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 
 	public static Item cyclone_memory = new Item_memory(0, "3","cyclone_memory",1,20).setCreativeTab(Tabs.tabW);
 	public static Item heat_memory = new Item_memory(1, "3","heat_memory",1,10).setCreativeTab(Tabs.tabW);
