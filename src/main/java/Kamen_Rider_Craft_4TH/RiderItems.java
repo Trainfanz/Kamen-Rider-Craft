@@ -19,7 +19,6 @@ import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigodriver;
 import Kamen_Rider_Craft_4TH.item.W.Item_memory;
 import Kamen_Rider_Craft_4TH.item.W.Item_metal_shaft;
 import Kamen_Rider_Craft_4TH.item.W.item_Wdriver;
-import Kamen_Rider_Craft_4TH.item.W.item_warmor2;
 import Kamen_Rider_Craft_4TH.item.agito.item_agitodriver;
 import Kamen_Rider_Craft_4TH.item.amazons.item_amazonsarmor;
 import Kamen_Rider_Craft_4TH.item.amazons.item_amazonsarmor2;
