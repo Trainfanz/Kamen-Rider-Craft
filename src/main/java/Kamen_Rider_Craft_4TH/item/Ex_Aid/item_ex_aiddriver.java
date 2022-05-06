@@ -108,6 +108,8 @@ public class item_ex_aiddriver extends ItemArmor  implements IHasModel
 						armorModel.belt=stack;
 						if( this==RiderItems.gamer_driver_genmu&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_maximum){
 							armorModel.belt2=new ItemStack(RiderItems.gamer_driver_godmaximum);
+						}else if( this==RiderItems.gamer_driver_genmu&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_muteki){
+							armorModel.belt2=new ItemStack(RiderItems.gamer_driver_godmaximum);
 						}else if( this==RiderItems.gamer_driver_genmu&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_mightybros||this==RiderItems.gamer_driver_genmu&this.get_core(stack,"1")==1){
 							armorModel.belt2=new ItemStack(RiderItems.gamer_driver_origin);
 						}else if( this==RiderItems.gamer_driver_ex_aid&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_ex_aid_lv1){

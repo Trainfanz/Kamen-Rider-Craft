@@ -346,6 +346,12 @@ public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer play
 								item_ex_aiddriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),6, "1");
 
 
+							}else if (this == RiderItems.genm_musou_gashat){
+
+								item_ex_aiddriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
+								item_ex_aiddriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),26, "1");
+
+
 							}
 							else if (this == RiderItems.proto_mighty_action_x_gashat_origin){
 								item_ex_aiddriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);

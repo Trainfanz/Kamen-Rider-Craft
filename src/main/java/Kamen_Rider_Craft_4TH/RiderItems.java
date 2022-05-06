@@ -2798,6 +2798,7 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item bang_bang_tank_gashat = new Item_gashat(0, 0,"bang_bang_tank_gashat").AddGashatToBlockList(2).setCreativeTab(Tabs.tabex_aid);
 	public static Item doctor_mighty_xx_gashat = new Item_gashat(4, 0,"doctor_mighty_xx_gashat").AddDualGashatToBlockList(2).setCreativeTab(Tabs.tabex_aid);
 	public static Item god_maximum_mighty_x_gashat = new Item_gashat(0, 0,"god_maximum_mighty_x_gashat").AddMaxGashatToBlockList(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item genm_musou_gashat = new Item_gashat(0, 0,"genm_musou_gashat").setCreativeTab(Tabs.tabex_aid);
 
 	public static Item proto_bakusou_bike_combi_fukkatsu_gashat = new Item_gashat(0, 16,"proto_bakusou_bike_combi_fukkatsu_gashat").AddGashatToBlockList(5).setCreativeTab(Tabs.tabex_aid);
 

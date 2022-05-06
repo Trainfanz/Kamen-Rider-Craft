@@ -475,6 +475,8 @@ public class ReiwaRiderItems {
 	public static Item two_sidriver_live = new item_revicedriver("two_sidriver_live",ArmorMaterial.DIAMOND, 4, "live",11).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	
 	public static Item demons_driver = new item_revicedriver("demons_driver",ArmorMaterial.DIAMOND, 4, "demons",12).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	public static Item vail_driver = new item_revicedriver("vail_driver",ArmorMaterial.DIAMOND, 4, "vail",23).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	
 	public static Item libera_driver = new item_revicedriver("libera_driver",ArmorMaterial.DIAMOND, 4, "jeanne",18).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	
 	
@@ -529,7 +531,6 @@ public class ReiwaRiderItems {
 	public static Item shark_vistamp = new Item_Vistamps("shark_vistamp").setCreativeTab(Tabs.tabrevice);
 	public static Item funkorogashi_vistamp = new Item_Vistamps("funkorogashi_vistamp").setCreativeTab(Tabs.tabrevice);
 
-	
 	public static Item rex_vistamp_metal = new Item_Vistamps("rex_vistamp_metal").setCreativeTab(Tabs.tabrevice);
 	public static Item rex_vistamp_christmas = new Item_Vistamps("rex_vistamp_christmas").setCreativeTab(Tabs.tabrevice);
 	public static Item rex_vistamp_theme = new Item_Vistamps("rex_vistamp_theme").setCreativeTab(Tabs.tabrevice);
