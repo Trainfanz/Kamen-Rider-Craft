@@ -101,8 +101,6 @@ import Kamen_Rider_Craft_4TH.item.zi_o.Item_blank_ridewatches2;
 import Kamen_Rider_Craft_4TH.item.zi_o.Item_ridewatches;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_kodamawatch;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_ohma_advent_calendar;
-import Kamen_Rider_Craft_4TH.item.zi_o.item_zi_oarmor;
-import Kamen_Rider_Craft_4TH.item.zi_o.item_zi_oarmor2;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
 import Kamen_Rider_Craft_4TH.mobs.EntityLazer;
 import Kamen_Rider_Craft_4TH.mobs.Entityaccel;
@@ -3180,9 +3178,9 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 
 	public static Item gaim_armor_wings = new Item_ore("gaim_armor_wings");
 
-	public static Item zi_ohead = new item_zi_oarmor("zi_ohead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
-	public static Item zi_otroso = new item_zi_oarmor2("zi_otroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
-	public static Item zi_olegs = new item_zi_oarmor2("zi_olegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
+	public static Item zi_ohead = new item_rider_armor("zi_ohead",item_zikudriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, blank_watch).setCreativeTab(Tabs.tabzi_o);
+	public static Item zi_otroso = new item_rider_armor("zi_otroso",item_zikudriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, blank_watch).setCreativeTab(Tabs.tabzi_o);
+	public static Item zi_olegs = new item_rider_armor("zi_olegs",item_zikudriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, blank_watch).setCreativeTab(Tabs.tabzi_o);
 
 	public static Item ziku_driver_zi_o = new item_zikudriver("ziku_driver_zi_o",ArmorMaterial.DIAMOND, 4, "zi_o",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item ziku_driver_geiz = new item_zikudriver("ziku_driver_geiz",ArmorMaterial.DIAMOND, 4, "geiz",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);

@@ -17,7 +17,6 @@ import Kamen_Rider_Craft_4TH.item.revice.Item_Vistamps;
 import Kamen_Rider_Craft_4TH.item.revice.item_revicedriver;
 import Kamen_Rider_Craft_4TH.item.zero_one.Item_progrise_keys;
 import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onedriver;
-import Kamen_Rider_Craft_4TH.item.zi_o.item_zi_oarmor;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
 import Kamen_Rider_Craft_4TH.util.Refercence;
 import net.minecraft.client.Minecraft;
@@ -222,13 +221,6 @@ public class BipedLockseed extends ModelBiped
 					if (stack.getItem()==RiderItems.eyecon_driver_g){
 
 						Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Refercence.MODID+":textures/armor/grateful_damashii_2.png"));
-
-					}
-				}else if (stack.getItem() instanceof item_zikudriver){
-					if (item_zikudriver.get_core(stack, "1")==1){
-						Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Refercence.MODID+":textures/armor/"+item_zikudriver.get_lock(stack)+"_decade_ver"+"_2.png"));
-					}else{
-						Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Refercence.MODID+":textures/armor/"+((item_zikudriver)stack.getItem()).Rider+ item_zi_oarmor.CoreName[item_zikudriver.get_core(stack, "1")]+"_" +item_zikudriver.get_lockbase(stack)+"_2.png"));
 
 					}
 				}else if (stack.getItem() instanceof item_ex_aiddriver& stack2.getItem()==RiderItems.ex_aidhead){
