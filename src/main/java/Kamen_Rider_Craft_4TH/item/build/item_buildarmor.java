@@ -4,7 +4,6 @@ import javax.annotation.Nullable;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
-import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_ex_aidarmor2;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_ex_aiddriver;
 import Kamen_Rider_Craft_4TH.model.bigBiped;
 import Kamen_Rider_Craft_4TH.model.tokuArmorModel;

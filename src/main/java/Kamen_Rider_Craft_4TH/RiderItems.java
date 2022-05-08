@@ -7,8 +7,6 @@ import Kamen_Rider_Craft_4TH.blocks.custom.CustomBlock;
 import Kamen_Rider_Craft_4TH.item.*;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.Item_gashacon_breaker;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.Item_gashat;
-import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_ex_aidarmor;
-import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_ex_aidarmor2;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_ex_aiddriver;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_poppy_gashat;
 import Kamen_Rider_Craft_4TH.item.GoRider.item_GoRiderTyphoon;
@@ -2660,9 +2658,9 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item deus_rusher = new ItemBaseSword("deus_rusher",Tabs.gashacon_key_slasher, RiderItems.blank_gashat).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 	public static Item deus_rusher_red = new ItemBaseSword("deus_rusher_red",Tabs.gashacon_key_slasher, RiderItems.blank_gashat).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 
-	public static Item ex_aidhead = new item_ex_aidarmor("ex_aidhead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-	public static Item ex_aidtroso = new item_ex_aidarmor2("ex_aidtroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
-	public static Item ex_aidlegs = new item_ex_aidarmor2("ex_aidlegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
+	public static Item ex_aidhead = new item_rider_armor("ex_aidhead",item_ex_aiddriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, blank_gashat).setCreativeTab(Tabs.tabex_aid);
+	public static Item ex_aidtroso = new item_rider_armor("ex_aidtroso",item_ex_aiddriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, blank_gashat).setCreativeTab(Tabs.tabex_aid);
+	public static Item ex_aidlegs = new item_rider_armor("ex_aidlegs",item_ex_aiddriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, blank_gashat).setCreativeTab(Tabs.tabex_aid);
 
 	public static Item gamer_driver_ex_aid = new item_ex_aiddriver("gamer_driver_ex_aid",ArmorMaterial.DIAMOND, 4, 3,"ex_aid",0).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 	public static Item gamer_driver_brave = new item_ex_aiddriver("gamer_driver_brave",ArmorMaterial.DIAMOND, 4, 3,"brave",0).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);

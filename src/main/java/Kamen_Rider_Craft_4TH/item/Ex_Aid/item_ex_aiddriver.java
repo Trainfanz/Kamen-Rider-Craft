@@ -4,14 +4,20 @@ import javax.annotation.Nullable;
 
 import org.lwjgl.opengl.GL11;
 
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
+import Kamen_Rider_Craft_4TH.item.revice.item_revicedriver;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
+import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
 import Kamen_Rider_Craft_4TH.model.Model_lazer;
 import Kamen_Rider_Craft_4TH.model.model_belt_plus;
 import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
+import Kamen_Rider_Craft_4TH.util.Refercence;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.ModelBiped;
 import net.minecraft.client.renderer.entity.RenderManager;
@@ -37,9 +43,14 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.fml.relauncher.Side;
 
-public class item_ex_aiddriver extends ItemArmor  implements IHasModel
+public class item_ex_aiddriver extends item_rider_driver
 {
 
+	public static final String[] CoreName= new String[] {"","_bike","_xxr","_xxl","_lv1","_lvx","_maximum","_ghost_lv1","_ghost","_drive","_gaim","_wizard","_fourze","_ooo","_w","_decade","_kiva","_den_o","_kabuto","_hibiki","_blade","_faiz","_ryuki","_agito","_kuuga","_ichigou","_invincible","_vrx","_knock_out_fighter_2","_novel","_tank"};
+	public static final String[] CoreNameparadox= new String[] {"","fighter_"};
+	public static final String[] CoreNamegenm= new String[] {"","_0","_0zombie","","","","_maximum","","","_drive","_gaim","_wizard","_fourze","_ooo","_w","_decade","_kiva","_den_o","_kabuto","_hibiki","_blade","_faiz","_ryuki","_agito","_kuuga","_ichigou","_musou"};
+
+	
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
 	public String armorNamePrefix;
 	public ArmorMaterial material;
@@ -51,16 +62,13 @@ public class item_ex_aiddriver extends ItemArmor  implements IHasModel
 
 	public item_ex_aiddriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, int par4, String rider, int driver)
 	{
-		super(par2EnumArmorMaterial, par3, EntityEquipmentSlot.FEET);
+		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.ex_aidhead, RiderItems.ex_aidtroso, RiderItems.ex_aidlegs);
 		this.material = par2EnumArmorMaterial;
 		par2EnumArmorMaterial.getDamageReductionAmount(EntityEquipmentSlot.FEET);
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(EntityEquipmentSlot.FEET));
 		this.maxStackSize = 1;
 		Rider=rider;
 		DRIVER = driver;
-		setTranslationKey(name);
-		setRegistryName(name);
-		TokuCraft_core.ITEMS.add(this);
 	}
 
 	@Override
@@ -655,7 +663,76 @@ public class item_ex_aiddriver extends ItemArmor  implements IHasModel
 		}
 	}
 
-	
+	public  String getTexture(Entity entity, int num,String ext)
+	{
+		if (entity instanceof EntityLivingBase){
+			EntityLivingBase player = ((EntityLivingBase)entity);
+			if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
+				if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_rider_driver){
+					item_rider_driver belt =((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem());
+					String rider = ((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider;
+
+					String form = item_revicedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET));
+					
+					 if (num==1||num==2||num==5||num==7||num==3||num==6||num==8){
+						
+							if (item_ex_aiddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")==0&rider == "lazer"&item_ex_aiddriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="blank"){
+
+								return Refercence.MODID+":textures/armor/blank.png";
+							}
+							else if (item_ex_aiddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")==4){
+								
+
+									return Refercence.MODID+":textures/armor/"+rider +"_lv1"+ext;
+
+							}else{
+								if (rider == "paradox"||rider == "paradox99"){
+										return Refercence.MODID+":textures/armor/"+CoreNameparadox[item_ex_aiddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")]+rider+ext;
+
+								}
+								else  if (rider == "genmu"){
+								
+										return Refercence.MODID+":textures/armor/"+"genmu"+ CoreNamegenm[item_ex_aiddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")] +ext;
+									
+								}
+								else if (rider=="ex_aid"){
+								
+										return Refercence.MODID+":textures/armor/"+"ex_aid"+CoreName[item_ex_aiddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")] +ext;
+									
+								}else{
+								
+										if ((rider=="snipe" & item_ex_aiddriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="combatgamer"||rider=="snipe" & item_ex_aiddriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="protocombatgamer")){
+											return Refercence.MODID+":textures/armor/snipe_jet"+ext;
+										}else if ((rider=="snipe" & item_ex_aiddriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!="blank")){
+											return Refercence.MODID+":textures/armor/snipe_nocape"+ext;
+										}else {
+											return Refercence.MODID+":textures/armor/"+rider+ CoreName[item_ex_aiddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")]+ext;
+										}
+									
+								}
+							}
+
+						
+					}else if (num==4||num==9||num==10||num==11||num==12||num==13||num==14){
+
+
+						return Refercence.MODID+":textures/armor/"+item_ex_aiddriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+ext;
+						
+					} else{
+						return Refercence.MODID+":textures/armor/blank"+ext;
+
+					}
+				}else{
+					return Refercence.MODID+":textures/armor/blank"+ext;
+				}
+			}else{
+				return Refercence.MODID+":textures/armor/blank"+ext;
+			}
+
+		}
+		return Refercence.MODID+":textures/armor/blank"+ext;
+
+	}
 	public static void set_lock(ItemStack itemstack,int flag)
 	{
 		if (!itemstack.hasTagCompound())
