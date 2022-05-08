@@ -77,8 +77,6 @@ import Kamen_Rider_Craft_4TH.item.ooo.item_OOOarmor2;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
 import Kamen_Rider_Craft_4TH.item.ooo.item_candroid;
 import Kamen_Rider_Craft_4TH.item.revice.Item_Vistamps;
-import Kamen_Rider_Craft_4TH.item.revice.item_revicearmor;
-import Kamen_Rider_Craft_4TH.item.revice.item_revicearmor2;
 import Kamen_Rider_Craft_4TH.item.revice.item_revicedriver;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_armor;
@@ -1550,10 +1548,7 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 
 	public static Item wdriver = new item_Wdriver("wdriver",ArmorMaterial.DIAMOND,"w").setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 
-	
-
 	public static Item cyclone_joker_gold_xtreme_wings = new Item_ore("cyclone_joker_gold_xtreme_wings");
-
 
 	public static Item wdriverj = new Item_ore("wdriverj");
 	public static Item wdriverc = new Item_ore("wdriverc");

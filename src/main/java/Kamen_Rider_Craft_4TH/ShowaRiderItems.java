@@ -17,8 +17,6 @@ import Kamen_Rider_Craft_4TH.item.amazons.item_amazonsarmor;
 import Kamen_Rider_Craft_4TH.item.amazons.item_amazonsarmor2;
 import Kamen_Rider_Craft_4TH.item.amazons.item_amazonsdriver;
 import Kamen_Rider_Craft_4TH.item.revice.Item_Vistamps;
-import Kamen_Rider_Craft_4TH.item.revice.item_revicearmor;
-import Kamen_Rider_Craft_4TH.item.revice.item_revicearmor2;
 import Kamen_Rider_Craft_4TH.item.revice.item_revicedriver;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_armor;

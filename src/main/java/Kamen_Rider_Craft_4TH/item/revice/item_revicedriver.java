@@ -9,13 +9,17 @@ import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.Tabs;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
 import Kamen_Rider_Craft_4TH.item.zero_one.Item_progrise_keys;
 import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onedriver;
 import Kamen_Rider_Craft_4TH.model.Model_breaking_mammoth;
 import Kamen_Rider_Craft_4TH.model.model_belt_plus;
 import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
+import Kamen_Rider_Craft_4TH.util.Refercence;
 import net.minecraft.client.model.ModelBiped;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.MobEffects;
@@ -30,9 +34,12 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class item_revicedriver extends ItemArmor  implements IHasModel
+public class item_revicedriver extends item_rider_driver
 {
 
+	public static final String[] CoreName= new String[] {"","_barid_rex","_volcano_rex","_jack_revice","_revice"};
+	
+	
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
 	public String armorNamePrefix;
 	public ArmorMaterial material;
@@ -44,16 +51,13 @@ public class item_revicedriver extends ItemArmor  implements IHasModel
 
 	public item_revicedriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, String rider, int driver)
 	{
-		super(par2EnumArmorMaterial, par3, EntityEquipmentSlot.FEET);
+		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,ReiwaRiderItems.revicehead, ReiwaRiderItems.revicetroso, ReiwaRiderItems.revicelegs);
 		this.material = par2EnumArmorMaterial;
 		par2EnumArmorMaterial.getDamageReductionAmount(EntityEquipmentSlot.FEET);
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(EntityEquipmentSlot.FEET));
 		this.maxStackSize = 1;
 		Rider=rider;
 		DRIVER = driver;
-		setTranslationKey(name);
-		setRegistryName(name);
-		TokuCraft_core.ITEMS.add(this);
 	}
 	@SideOnly(Side.CLIENT)
 	public boolean hasEffect(ItemStack par1ItemStack)
@@ -262,6 +266,74 @@ public class item_revicedriver extends ItemArmor  implements IHasModel
 		}
 	}
 
+	
+	public  String getTexture(Entity entity, int num,String ext)
+	{
+		if (entity instanceof EntityLivingBase){
+			EntityLivingBase player = ((EntityLivingBase)entity);
+			if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
+				if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_rider_driver){
+					item_rider_driver belt =((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem());
+					String rider = ((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider;
+
+					String form = item_revicedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET));
+					
+					if (num==1){
+						if(form=="jackal"&player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==ReiwaRiderItems.vice_belt){
+							return Refercence.MODID+":textures/armor/vice_jackal_2.png";	
+							
+						}else{
+						return Refercence.MODID+":textures/armor/"+rider+CoreName[item_revicedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")]+ext;
+						}		
+						
+
+					}else if (num==2||num==5||num==7){
+					
+						if(form=="jackal"&player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==ReiwaRiderItems.vice_belt){
+							return Refercence.MODID+":textures/armor/vice_jackal_2.png";	
+							
+						}else{
+						return Refercence.MODID+":textures/armor/"+rider+CoreName[item_revicedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")]+ext;
+						}	
+						
+					}else if (num==3||num==6||num==8){
+						
+						if(form=="jackal"&player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==ReiwaRiderItems.vice_belt){
+							return Refercence.MODID+":textures/armor/vice_jackal_2.png";	
+							
+						}else{
+						return Refercence.MODID+":textures/armor/"+rider+CoreName[item_revicedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")]+ext;
+						}
+						
+					}else if (num==4||num==9||num==10||num==11||num==12||num==13||num==14){
+
+						
+							if (item_revicedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!="base"){
+								form = item_revicedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET));
+							}else{
+								form = Item_Vistamps.ARMS[((item_revicedriver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).DRIVER];
+							}
+
+								return Refercence.MODID+":textures/armor/"+rider+CoreName[item_revicedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")]+"_" +form+ext;
+					
+						
+					} else{
+						return Refercence.MODID+":textures/armor/blank"+ext;
+
+					}
+				}else{
+					return Refercence.MODID+":textures/armor/blank"+ext;
+				}
+			}else{
+				return Refercence.MODID+":textures/armor/blank"+ext;
+			}
+
+		}
+		return Refercence.MODID+":textures/armor/blank"+ext;
+
+	}
+
+	
 
 	public static int get_lock(ItemStack itemstack)
 	{	
@@ -279,7 +351,7 @@ public class item_revicedriver extends ItemArmor  implements IHasModel
 
 	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
 	{
-		return ReiwaRiderItems.hiden_metal == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+		return ReiwaRiderItems.proto_vistamp == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 }
 
