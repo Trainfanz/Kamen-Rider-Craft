@@ -96,8 +96,6 @@ import Kamen_Rider_Craft_4TH.item.wizard.item_wizardarmor2;
 import Kamen_Rider_Craft_4TH.item.wizard.item_wizarddriver;
 import Kamen_Rider_Craft_4TH.item.zero_one.Item_progrise_keys;
 import Kamen_Rider_Craft_4TH.item.zero_one.item_risephone;
-import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onearmor;
-import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onearmor2;
 import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onedriver;
 import Kamen_Rider_Craft_4TH.item.zi_o.Item_blank_ridewatches2;
 import Kamen_Rider_Craft_4TH.item.zi_o.Item_ridewatches;

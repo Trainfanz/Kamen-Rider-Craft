@@ -22,8 +22,6 @@ import Kamen_Rider_Craft_4TH.item.saber.item_saberarmor_head;
 import Kamen_Rider_Craft_4TH.item.saber.item_saberdriver;
 import Kamen_Rider_Craft_4TH.item.zero_one.Item_progrise_keys;
 import Kamen_Rider_Craft_4TH.item.zero_one.item_risephone;
-import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onearmor;
-import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onearmor2;
 import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onedriver;
 import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import net.minecraft.init.MobEffects;
@@ -45,9 +43,9 @@ public class ReiwaRiderItems {
 	public static Item progrise_hopper_blade_naginata = new ItemBaseSword("progrise_hopper_blade_naginata",Tabs.dj_gun_taiken_mode, hiden_metal).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item thousand_jacker = new ItemBaseSword("thousand_jacker",Tabs.souginjou, hiden_metal).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 
-	public static Item zero_onehead = new item_zero_onearmor("zero_onehead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
-	public static Item zero_onetroso = new item_zero_onearmor2("zero_onetroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
-	public static Item zero_onelegs = new item_zero_onearmor2("zero_onelegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
+	public static Item zero_onehead = new item_rider_armor("zero_onehead",item_zero_onedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, hiden_metal).setCreativeTab(Tabs.tabzero_one);
+	public static Item zero_onetroso = new item_rider_armor("zero_onetroso",item_zero_onedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, hiden_metal).setCreativeTab(Tabs.tabzero_one);
+	public static Item zero_onelegs = new item_rider_armor("zero_onelegs",item_zero_onedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, hiden_metal).setCreativeTab(Tabs.tabzero_one);
 
 	public static Item hiden_zero_one_driver = new item_zero_onedriver("hiden_zero_one_driver",ArmorMaterial.DIAMOND, 4, "zero_one",19).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);
 	public static Item zaia_thousandriver = new item_zero_onedriver("zaia_thousandriver",ArmorMaterial.DIAMOND, 4, "thouser",21).setMaxStackSize(1).setCreativeTab(Tabs.tabzero_one);

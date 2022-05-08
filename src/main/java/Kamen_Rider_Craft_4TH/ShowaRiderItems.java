@@ -30,8 +30,6 @@ import Kamen_Rider_Craft_4TH.item.saber.item_saberarmor_head;
 import Kamen_Rider_Craft_4TH.item.saber.item_saberdriver;
 import Kamen_Rider_Craft_4TH.item.zero_one.Item_progrise_keys;
 import Kamen_Rider_Craft_4TH.item.zero_one.item_risephone;
-import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onearmor;
-import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onearmor2;
 import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onedriver;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityAcrobatter;
 import Kamen_Rider_Craft_4TH.mobs.bikes.Entity_ridoron;
