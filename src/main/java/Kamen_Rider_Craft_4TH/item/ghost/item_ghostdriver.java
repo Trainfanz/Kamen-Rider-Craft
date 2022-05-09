@@ -7,7 +7,11 @@ import org.lwjgl.opengl.GL11;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_ex_aiddriver;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
+import Kamen_Rider_Craft_4TH.item.revice.item_revicedriver;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
 import Kamen_Rider_Craft_4TH.model.model_belt_plus;
 import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
@@ -28,12 +32,13 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class item_ghostdriver extends ItemArmor implements IHasModel
+public class item_ghostdriver extends item_rider_driver
 {
 
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
@@ -43,12 +48,15 @@ public class item_ghostdriver extends ItemArmor implements IHasModel
 	public String LOCK;
 	public int DRIVER;
 
+	public static final String[] CoreName= new String[] {"ghost","ghost_boost","ghost_mugen","ghost_fourtyfiveheisei"};
+	public static final String[] CoreNamespecter= new String[] {"specter","deep_specter","specter_sin"};
+	public static final String[] CoreNamenecrom= new String[] {"necrom","necrom_yujou_burst"};
 
 
 
 	public item_ghostdriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, int par4, String rider, String lock, int driver)
 	{
-		super(par2EnumArmorMaterial, par3, EntityEquipmentSlot.FEET);
+		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.ghosthead, RiderItems.ghosttroso, RiderItems.ghostlegs);
 		this.material = par2EnumArmorMaterial;
 		par2EnumArmorMaterial.getDamageReductionAmount(EntityEquipmentSlot.FEET);
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(EntityEquipmentSlot.FEET));
@@ -56,9 +64,6 @@ public class item_ghostdriver extends ItemArmor implements IHasModel
 		RIDER = rider; 
 		LOCK = lock;
 		DRIVER = driver;
-		setTranslationKey(name);
-		setRegistryName(name);
-		TokuCraft_core.ITEMS.add(this);
 	}
 
 	@Override
@@ -139,7 +144,7 @@ public class item_ghostdriver extends ItemArmor implements IHasModel
 		item_ghostdriver belt = (item_ghostdriver) itemstack.getItem();
 		String rider = "_"+belt.DRIVER; 
 
-		return itemstack.hasTagCompound() ? "_"+itemstack.getTagCompound().getInteger("rider") : rider;
+		return itemstack.hasTagCompound() ? belt.DRIVER !=itemstack.getTagCompound().getInteger("rider")? "_"+itemstack.getTagCompound().getInteger("rider") : rider: rider;
 	}
 	public static void set_lock(ItemStack itemstack,int flag,int rider)
 	{
@@ -392,6 +397,69 @@ public class item_ghostdriver extends ItemArmor implements IHasModel
 		}
 	}
 
+	public  String getTexture(Entity entity, int num,String ext)
+	{
+		if (entity instanceof EntityLivingBase){
+			EntityLivingBase player = ((EntityLivingBase)entity);
+			if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
+				if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_rider_driver){
+					item_rider_driver belt =((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem());
+					String rider = ((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider;
+
+					
+					 if (num==2||num==5||num==3||num==6||num==8||num==12){
+						
+							if (belt.Rider == "ghost"){
+						
+							
+								return Refercence.MODID+":textures/armor/"+ CoreName[item_ghostdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")] +get_rider(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+".png";
+							
+						}else	if (belt.Rider == "specter"){
+							
+								return Refercence.MODID+":textures/armor/"+ CoreNamespecter[item_ghostdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")]+".png";
+							
+						}else if (belt.Rider == "necrom"){
+							
+								return Refercence.MODID+":textures/armor/"+ CoreNamenecrom[item_ghostdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")] +get_rider(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+".png";
+							
+							
+						}else{
+							
+								return Refercence.MODID+":textures/armor/"+ belt.Rider +".png";
+							
+						}
+
+						
+					}else if (num==9||num==1||num==13||num==11){
+
+					
+						return Refercence.MODID+":textures/armor/"+ item_ghostdriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET)) +"_damashii.png";
+						
+					} else if (num==10||num==4){
+
+						if (belt==RiderItems.eyecon_driver_g){
+
+							return Refercence.MODID+":textures/armor/"+ item_ghostdriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET)) +"_damashii_2.png";
+							
+
+						}
+						return Refercence.MODID+":textures/armor/"+ item_ghostdriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET)) +"_damashii.png";
+						
+					}else{
+						return Refercence.MODID+":textures/armor/blank"+ext;
+
+					}
+				}else{
+					return Refercence.MODID+":textures/armor/blank"+ext;
+				}
+			}else{
+				return Refercence.MODID+":textures/armor/blank"+ext;
+			}
+
+		}
+		return Refercence.MODID+":textures/armor/blank"+ext;
+
+	}
 
 	static int[] getMaxDamageArray()
 	{

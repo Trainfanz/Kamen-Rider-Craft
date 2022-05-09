@@ -6,6 +6,10 @@ import org.lwjgl.opengl.GL11;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.item.ghost.item_ghostdriver;
+import Kamen_Rider_Craft_4TH.item.revice.item_revicedriver;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
 import Kamen_Rider_Craft_4TH.model.model_belt;
 import Kamen_Rider_Craft_4TH.model.model_belt_plus;
 import Kamen_Rider_Craft_4TH.model.model_belt_w;
@@ -25,11 +29,12 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class item_Gaimdriver extends ItemArmor  implements IHasModel
+public class item_Gaimdriver extends item_rider_driver
 {
 
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
@@ -49,12 +54,13 @@ public class item_Gaimdriver extends ItemArmor  implements IHasModel
 			"kiva_arms","gaim_arms","kabi_orange_arms","maja_arms","jimbar_dragon_arms","jimbar_melon_arms_zangetsu","jimbar_melon_arms_barvo","natsumikan_arms",
 			"black_baron_arms", "zangetsu_kachidoki_arms","lychee_arms","king_durian_arms","hells_arms"};
 
+	public static final String[] CoreName= new String[] {"gaim","gaim_jimbar","gaim_kachidoki","gaim_kiwami","gaim_yami", "gaim_fresh","gaim_drive"};
 
 
 
 	public item_Gaimdriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, int par4, String rider, String lock, int driver,Item difLock)
 	{
-		super(par2EnumArmorMaterial, par3, EntityEquipmentSlot.FEET);
+		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.Gaimhead, RiderItems.Gaimtroso, RiderItems.Gaimlegs);
 		this.material = par2EnumArmorMaterial;
 		par2EnumArmorMaterial.getDamageReductionAmount(EntityEquipmentSlot.FEET);
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(EntityEquipmentSlot.FEET));
@@ -63,9 +69,6 @@ public class item_Gaimdriver extends ItemArmor  implements IHasModel
 		LOCK = lock;
 		DRIVER = driver;
 		DIFLOCK=difLock;
-		setTranslationKey(name);
-		setRegistryName(name);
-		TokuCraft_core.ITEMS.add(this);
 	}
 	@SideOnly(Side.CLIENT)
 	public boolean hasEffect(ItemStack par1ItemStack)
@@ -430,35 +433,138 @@ public class item_Gaimdriver extends ItemArmor  implements IHasModel
 
 									}
 								}}}}}}}}
-	/**else if (this.get_lock(armor)=="wizard_arms"){
 
 
-			return itemIconwizard;
-		}else if (this.get_lock(armor)=="fourze_arms"){
+	public  String getTexture(Entity entity, int num,String ext)
+	{
+		if (entity instanceof EntityLivingBase){
+			EntityLivingBase player = ((EntityLivingBase)entity);
+			if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
+				if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_rider_driver){
+					item_rider_driver belt =((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem());
+					String rider = ((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider;
+
+					if (num==2||num==5||num==3||num==6||num==8||num==12){
 
 
-			return itemIconfourze;
-		}else if (this.get_lock(armor)=="ooo_arms"){
+						if (belt.Rider == "ryugen"){
+							
+							if (item_Gaimdriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="yomotsu_heguri_arms"){
+							
+								return Refercence.MODID+":textures/armor/"+ "ryugen_yomi" +".png";
+							}else if (item_Gaimdriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="jimbar_dragon_arms"){
+
+								return Refercence.MODID+":textures/armor/"+ "ryugen_jimber" +".png";
+							}else
+								return Refercence.MODID+":textures/armor/"+ "ryugen" +".png";
+							}else if (belt.Rider == "barvo"){
+
+								if (item_Gaimdriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="jimbar_melon_arms_barvo"){
+
+									return Refercence.MODID+":textures/armor/"+ "barvo_jimber" +".png";
+								}else if (item_Gaimdriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="king_durian_arms"){
+									return Refercence.MODID+":textures/armor/"+ "barvo_king" +".png";
+								}else
+									return Refercence.MODID+":textures/armor/"+ "barvo" +".png";
+							}else if (belt.Rider == "zangetsu"){
+
+								if (item_Gaimdriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="zangetsu_kachidoki_arms"){
+
+									return Refercence.MODID+":textures/armor/"+ "zangetsu_kachidoki" +".png";
+								}else	if (item_Gaimdriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="watermelon_arms"){
+
+									return Refercence.MODID+":textures/armor/"+ "zangetsu_watermelon" +".png";
+								}else
+									return Refercence.MODID+":textures/armor/"+ "zangetsu" +".png";
+							}else if (belt.Rider == "duke"){
+
+								if (item_Gaimdriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="energy_dragon_fruits_arms"){
+
+									return Refercence.MODID+":textures/armor/"+ "duke_hex" +".png";
+								}else
+									return Refercence.MODID+":textures/armor/"+ "duke" +".png";
+								
+							}
+						
+						if (belt.Rider == "gaim"){
+							return Refercence.MODID+":textures/armor/"+ CoreName[item_Gaimdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")] +".png";
+						
+						}else{
+							
+								return Refercence.MODID+":textures/armor/"+ belt.Rider +".png";
+
+						}
+						
+
+					}else if (num==1||num==13||num==11||num==10){
 
 
-			return itemIconooo;
-		}else if (this.get_lock(armor)=="w_arms"){
+						if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()== RiderItems.sengoku_driver_kurokage_troopers&get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="matsubokkuri_arms")
+						{
 
+							return Refercence.MODID+":textures/armor/energy_matsubokkuri_arms.png";
+						}
+						else
+						{
+							return Refercence.MODID+":textures/armor/"+ get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET)) +".png";
+						}
 
-			return itemIcon_w;
-		}else if (this.get_lock(armor)=="decade_arms"){
+					} else if (num==9){
 
+						if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()== RiderItems.sengoku_driver_kurokage_troopers&get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="matsubokkuri_arms")
+						{
 
-			return itemIcondecade;
-		}else if (this.get_lock(armor)=="rider_ichigo_arms"){
+							return Refercence.MODID+":textures/armor/energy_matsubokkuri_arms.png";
+						}
+						else
+						{	if (item_Gaimdriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!="energy_cherry_arms")
+						{
+							return Refercence.MODID+":textures/armor/"+ get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET)) +".png";
+						}else{
+							return Refercence.MODID+":textures/armor/blank"+ext;
+						}
+						}
+					}else if (num==4){
 
+						if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()== RiderItems.sengoku_driver_kurokage_troopers&get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="matsubokkuri_arms")
+						{
 
-			return itemIconrider_ichigo;
+							return Refercence.MODID+":textures/armor/energy_matsubokkuri_arms.png";
+						}
+						else
+						{		if (item_Gaimdriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!="energy_melon_arms" & item_Gaimdriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!="energy_peach_arms" & item_Gaimdriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!="energy_lemon_arms" )
+						{	
+							if (item_Gaimdriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="energy_dragon_fruits_arms"){
+
+								return Refercence.MODID+":textures/armor/energy_prototype_dragon_fruits_arms.png";
+
+							}else if (item_Gaimdriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="blood_zakuro_arms"){
+
+								return Refercence.MODID+":textures/armor/blood_orange_arms.png";
+
+							}else {
+							return Refercence.MODID+":textures/armor/"+ get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET)) +".png";
+							}
+						}else{
+							return Refercence.MODID+":textures/armor/blank"+ext;
+						}
+						}
+					}else{
+						return Refercence.MODID+":textures/armor/blank"+ext;
+
+					}
+				}else{
+					return Refercence.MODID+":textures/armor/blank"+ext;
+				}
+			}else{
+				return Refercence.MODID+":textures/armor/blank"+ext;
+			}
+
 		}
-
-
+		return Refercence.MODID+":textures/armor/blank"+ext;
 
 	}
+
 	/**
 	 * Returns the 'max damage' factor array for the armor, each piece of armor have a durability factor (that gets
 	 * multiplied by armor material factor)
@@ -467,222 +573,13 @@ public class item_Gaimdriver extends ItemArmor  implements IHasModel
 	{
 		return maxDamageArray;
 	}
-	
+
 	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
 	{
 		return RiderItems.himawari_lockseed == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 
 
-	/**
-@Override
-public IIcon getIcon(ItemStack stack, int renderPass){
 
-
-
-	if (renderPass==0){
-		if ( DRIVER==0){
-
-			if (this.RIDER=="ryugen"&this.get_lock(stack)=="yomotsu_heguri_arms"){
-				return itemIconsengoku_driver_ryugen_yomi;
-			}else if (this.RIDER=="zangetsu"&this.get_lock(stack)=="watermelon_arms"){
-				return itemIconsengoku_driver_zangetsu_watermelon;
-			}else{
-				return itemIcon;
-			}
-		}else{
-			return itemIcongenesis;
-		}
-	}else{
-		if (this.get_lock(stack)=="matsubokkuri_arms"){
-
-
-			return itemIconmatsubokkuri;
-		}else if (this.get_lock(stack)=="watermelon_arms"){
-
-
-			return itemIconwatermelon;
-		}else if (this.get_lock(stack)=="kurumi_arms"){
-
-
-			return itemIconkurumi;
-		}else if (this.get_lock(stack)=="donguri_arms"){
-
-
-			return itemIcondonguri;
-		}else if (this.get_lock(stack)=="melon_arms"){
-
-
-			return itemIconmelon;
-		}else if (this.get_lock(stack)=="pine_arms"){
-
-
-			return itemIconpine;
-		}else if (this.get_lock(stack)=="ichigo_arms"){
-
-
-			return itemIconichigo;
-		}else if (this.get_lock(stack)=="banana_arms"){
-
-
-			return itemIconbanana;
-		}else if (this.get_lock(stack)=="budou_arms"){
-
-
-			return itemIconbudou;
-		}else if (this.get_lock(stack)=="mango_arms"){
-
-
-			return itemIconmango;
-		}else if (this.get_lock(stack)=="durian_arms"){
-
-
-			return itemIcondurian;
-		}else if (this.get_lock(stack)=="kiwi_arms"){
-
-
-			return itemIconkiwi;
-		}else if (this.get_lock(stack)=="jimbar_lemon_arms"){
-
-
-			return itemIconjinba_lemon;
-		}else if (this.get_lock(stack)=="jimbar_cherry_arms"){
-
-
-			return itemIconjinba_cherry;
-		}else if (this.get_lock(stack)=="jimbar_peach_arms"){
-
-
-			return itemIconjinba_peach;
-		}else if (this.get_lock(stack)=="jimbar_melon_arms"){
-			return itemIconjinba_melon;
-		}else if (this.get_lock(stack)=="jimbar_marron_arms"){
-			return itemIconjinba_marron;
-		}else if (this.get_lock(stack)=="jimbar_black_arms"){
-			return itemIconjinba_dark;
-		}else if (this.get_lock(stack)=="blood_zakuro_arms"){
-			return itemIconblood_zakuro;
-		}else if (this.get_lock(stack)=="kachidoki_arms"){
-			return itemIconkachidoki;
-
-		}else if (this.get_lock(stack)=="energy_lemon_arms"){
-
-
-			return itemIcongenesis_lemon;
-		}else if (this.get_lock(stack)=="energy_dragon_fruits_arms"||this.get_lock(stack)=="energy_prototype_dragon_fruits_arms"){
-
-
-			return itemIcongenesis_dragon;
-		}else if (this.get_lock(stack)=="energy_cherry_arms"){
-
-
-			return itemIcongenesis_cherry;
-		}else if (this.get_lock(stack)=="energy_peach_arms"){
-
-
-			return itemIcongenesis_peach;
-		}else if (this.get_lock(stack)=="energy_melon_arms"){
-			return itemIcongenesis_melon;
-		}else if (this.get_lock(stack)=="energy_matsubokkuri_arms"){
-			return itemIcongenesis_matsubokkuri;
-		}
-		else if (this.get_lock(stack)=="orange_arms"){
-
-
-			return itemIconorange;
-		}else if (this.get_lock(stack)=="fresh_orange_arms"){
-
-
-			return itemIconorangefr;
-		}else if (this.get_lock(stack)=="kiwami_arms"){
-
-
-			return itemIconKiwami;
-		}else if (this.get_lock(stack)=="blood_orange_arms"){
-
-
-			return itemIconblood_orange;
-		}else if (this.get_lock(stack)=="yomotsu_heguri_arms"){
-
-
-			return itemIconyomotsu_heguri;
-		}else if (this.get_lock(stack)=="fifteen_arms"){
-
-
-			return itemIconfifteen;
-		}else if (this.get_lock(stack)=="golden_arms"){
-
-
-			return itemIcongolden;
-		}else if (this.get_lock(stack)=="silver_arms"){
-
-
-			return itemIconsilver;
-		}else if (this.get_lock(stack)=="darkness_arms"){
-
-
-			return itemIcondarkness;
-		}else if (this.get_lock(stack)=="baron_ringo_arms"||this.get_lock(stack)=="ringo_arms"){
-
-
-			return itemIconringo;
-		}else if (this.get_lock(stack)=="wizard_arms"){
-
-
-			return itemIconwizard;
-		}else if (this.get_lock(stack)=="fourze_arms"){
-
-
-			return itemIconfourze;
-		}else if (this.get_lock(stack)=="ooo_arms"){
-
-
-			return itemIconooo;
-		}else if (this.get_lock(stack)=="w_arms"){
-
-
-			return itemIcon_w;
-		}else if (this.get_lock(stack)=="decade_arms"){
-
-
-			return itemIcondecade;
-		}else if (this.get_lock(stack)=="drive_arms"){
-
-
-			return itemIcondrive;
-		}else if (this.get_lock(stack)=="rider_ichigo_arms"){
-
-
-			return itemIconrider_ichigo;
-		}else if (this.get_lock(stack)=="lemon_arms"){
-
-
-			return itemIconlemon;
-		}else if (this.get_lock(stack)=="suika_arms"){
-
-			return itemIconsuika;
-		}else if (this.get_lock(stack)=="black_baron_arms"){
-
-			return itemIconblack_baron;
-
-
-
-		else {
-			if ( DRIVER==0){
-
-
-				return itemIcon;
-			}else{
-
-				return itemIcongenesis;
-			}
-
-
-		}
-
-	}
-
-}
-	 **/
 
 }

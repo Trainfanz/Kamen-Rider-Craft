@@ -10,6 +10,8 @@ import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
 import Kamen_Rider_Craft_4TH.model.model_belt_plus;
 import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
@@ -38,12 +40,24 @@ import net.minecraftforge.client.event.sound.SoundEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class item_builddriver extends ItemArmor implements IHasModel
+public class item_builddriver extends item_rider_driver
 {
 	public static final String[] CoreName= new String[] {"tank","diamond","gatling","soujiki","comic","rocket","shoubousha","key","light","robo","televi","smartphone","camera","helicopter","ufo","jet","cyclone","eraser","watch","pyramid","skateboard","fridge","dragon_silver","engine","bike","magnet","submarine","dryer","gold"};
 	public static final String[] CoreName2= new String[] {"rabbit","gorilla","taka","harinezumi","ninnin","panda","lion","dragon","orange","octopus","phoenix","kuma","wolf","beetle","rose","tora","kujira","kirin","unicorn","turtle","deer","penguin","spider","rabbit_gold","bat","same","hachi","sai","scorpion"};		
 
 	public static final String[] CoreNamelegend= new String[] {"ex_aid","ghost","drive","gaim","wizard","fourze","ooo","w","decade","deno"};		
+
+	public static final String[] formName= new String[] {"","_sparkling","_hazard","_rabbit","_tank","_genius","_cross_z"};
+
+	public static final String[] steamName= new String[] {"night_rogue","blood_stalk"};
+
+	public static final String[] gearName= new String[] {"engine_bros","remocon_bros","kaiser_red","kaiser_blue","hell_bros","bi_kaiser"};
+
+	public static final String[] evolName= new String[] {"cobra","dragon","rabbit","blackhole","monster"};
+
+	public static final String[] greaseName= new String[] {"_blizzard","_perfect_kingdom"};
+
+	public static final String[] crosszName= new String[] {"","_magma","_great","_evol"};
 
 
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
@@ -53,16 +67,13 @@ public class item_builddriver extends ItemArmor implements IHasModel
 
 
 
-	public item_builddriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3)
+	public item_builddriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, String rider)
 	{
-		super(par2EnumArmorMaterial, par3, EntityEquipmentSlot.FEET);
+		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.buildhead, RiderItems.buildtroso, RiderItems.buildlegs);
 		this.material = par2EnumArmorMaterial;
 		par2EnumArmorMaterial.getDamageReductionAmount(EntityEquipmentSlot.FEET);
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(EntityEquipmentSlot.FEET));
 		this.maxStackSize = 1;
-		setTranslationKey(name);
-		setRegistryName(name);
-		TokuCraft_core.ITEMS.add(this);
 	}
 
 	@Override
@@ -72,7 +83,7 @@ public class item_builddriver extends ItemArmor implements IHasModel
 	@SideOnly(Side.CLIENT)
 	public boolean hasEffect(ItemStack par1ItemStack)
 	{
-			return !true;
+		return !true;
 	}
 	@Override
 	@SideOnly(Side.CLIENT)
@@ -108,15 +119,15 @@ public class item_builddriver extends ItemArmor implements IHasModel
 						armorModel.belt4=new ItemStack(build_organic[item_OOOdriver.get_core(stack,"3")]);
 					}
 				} else if(stack.getItem() == RiderItems.sclash_driver_cross_z_charge) {
-				    if (living.getHeldItem(EnumHand.OFF_HAND).getItem()==RiderItems.taka_full_bottle){
-				        armorModel.wings=new ItemStack(RiderItems.hawk_gatling_wings);
-				    } else {
-				        armorModel.wings=new ItemStack(ShowaRiderItems.blanknoitem);
-				    }
+					if (living.getHeldItem(EnumHand.OFF_HAND).getItem()==RiderItems.taka_full_bottle){
+						armorModel.wings=new ItemStack(RiderItems.hawk_gatling_wings);
+					} else {
+						armorModel.wings=new ItemStack(ShowaRiderItems.blanknoitem);
+					}
 				}
 				if(stack.getItem() == RiderItems.transteamgun_2) {
 					if(living.isSneaking() || (living instanceof EntityPlayer && (((EntityPlayer) living).capabilities.isFlying))){
-					    if (item_OOOdriver.get_core(stack,"1")==0) {
+						if (item_OOOdriver.get_core(stack,"1")==0) {
 							armorModel.wings=new ItemStack(RiderItems.night_rogue_wings);
 						} else {
 							armorModel.wings=new ItemStack(ShowaRiderItems.blanknoitem);
@@ -124,10 +135,10 @@ public class item_builddriver extends ItemArmor implements IHasModel
 					}
 				} else if(stack.getItem() == RiderItems.evol_driver_mad_rogue) {
 					if(living.isSneaking() || (living instanceof EntityPlayer && (((EntityPlayer) living).capabilities.isFlying))){
-				        armorModel.wings=new ItemStack(RiderItems.mad_rogue_wings);
-    				}
+						armorModel.wings=new ItemStack(RiderItems.mad_rogue_wings);
+					}
 				}
-				
+
 				if(stack.getItem() == RiderItems.evol_driver_evol) {
 					armorModel.belt2=new ItemStack(evol_form[item_OOOdriver.get_core(stack,"1")]);						
 				}
@@ -182,7 +193,31 @@ public class item_builddriver extends ItemArmor implements IHasModel
 		itemstack.getTagCompound().setInteger("core"+slot, flag);
 	}
 
+	public int getlegend(ItemStack stack)
+	{
+		int islegend =0;
+		if (item_builddriver.get_core(stack,"1")==7&item_builddriver.get_core(stack,"3")==9){
+			islegend = 4;
+		}else if (item_builddriver.get_core(stack,"1")==9&item_builddriver.get_core(stack,"3")==2){
+			islegend = 7;
+		}else if (item_builddriver.get_core(stack,"1")==10&item_builddriver.get_core(stack,"3")==10){
+			islegend = 1;
+		}	else if (item_builddriver.get_core(stack,"1")==1&item_builddriver.get_core(stack,"3")==12){
+			islegend = 5;
+		}	else if (item_builddriver.get_core(stack,"1")==12&item_builddriver.get_core(stack,"3")==13){
+			islegend = 8;
+		}	else if (item_builddriver.get_core(stack,"1")==5&item_builddriver.get_core(stack,"3")==19){
+			islegend = 6;
+		}else if (item_builddriver.get_core(stack,"1")==13&item_builddriver.get_core(stack,"3")==18){
+			islegend = 10;
+		}else if (item_builddriver.get_core(stack,"1")==17&item_builddriver.get_core(stack,"3")==20){
+			islegend = 2;
+		}else if (item_builddriver.get_core(stack,"1")==19&item_builddriver.get_core(stack,"3")==23){
+			islegend = 9;
+		}
 
+		return islegend;
+	}
 	@Override
 	public void onArmorTick(World world, EntityPlayer player, ItemStack armor) {
 
@@ -765,7 +800,7 @@ public class item_builddriver extends ItemArmor implements IHasModel
 										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
 										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false));	
 										if (player.getLastAttackedEntity()!=null){
-										player.getLastAttackedEntity().addPotionEffect(new PotionEffect(MobEffects.SLOWNESS, 250, 1));
+											player.getLastAttackedEntity().addPotionEffect(new PotionEffect(MobEffects.SLOWNESS, 250, 1));
 										}
 									}	if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.build_driver_blood){
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));	
@@ -782,11 +817,126 @@ public class item_builddriver extends ItemArmor implements IHasModel
 			}
 		}
 	}
-	
-    public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
-    {
-    	return RiderItems.full_bottle == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
-    }
+
+	public   String getTexture(Entity entity, int num,String ext)
+	{
+		if (entity instanceof EntityLivingBase){
+			EntityLivingBase player = ((EntityLivingBase)entity);
+			if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_rider_driver){
+				item_rider_driver belt =((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem());
+
+				if (num==8){
+					if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.build_driver||player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.build_driver_cross_z||player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.sclash_driver_grease||player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.sclash_driver_cross_z_charge){
+						if (getlegend(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!=0){
+							return Refercence.MODID+":textures/armor/"+"build_"+ CoreNamelegend[getlegend(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))-1] +"_2.png";
+
+						}else{
+
+
+							return Refercence.MODID+":textures/armor/"+"build_under.png";
+						}
+					}	
+				}else if (num==2||num==13||num==12||num==6){
+
+
+					if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.build_driver){
+
+						if (getlegend(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!=0){
+							return Refercence.MODID+":textures/armor/"+"build_"+ CoreNamelegend[getlegend(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))-1] +ext;
+
+						}else{
+							return Refercence.MODID+":textures/armor/"+"build_"+ CoreName[item_builddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")]+formName[item_builddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"2")] +".png";
+
+						}
+
+					}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.build_driver_cross_z){
+
+						return Refercence.MODID+":textures/armor/"+"cross_z"+crosszName[item_builddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")] +ext;
+
+
+					}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.transteamgun_2){
+
+						return Refercence.MODID+":textures/armor/"+steamName[item_builddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")] +ext;
+
+
+					}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.evol_driver_evol){
+
+						return Refercence.MODID+":textures/armor/"+"evol_"+evolName[item_builddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")] +ext;
+
+					}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.nebulasteamgun_2){
+
+						return Refercence.MODID+":textures/armor/"+gearName[item_builddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")]+ext;
+
+
+					}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.build_driver_grease){
+						return Refercence.MODID+":textures/armor/"+"grease"+greaseName[item_builddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")]+ext;
+
+					}	else
+					{
+						return Refercence.MODID+":textures/armor/"+Rider+ext;
+
+					}
+				}else  if (num==1||num==7||num==5||num==3||num==14){
+
+
+					if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.build_driver){
+
+						if (getlegend(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!=0){
+							return Refercence.MODID+":textures/armor/"+"build_"+ CoreNamelegend[getlegend(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))-1] +ext;
+
+						}else{
+							return Refercence.MODID+":textures/armor/"+"build_"+ CoreName2[item_builddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"3")]+formName[item_builddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"2")] +".png";
+
+						}
+
+					}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.build_driver_cross_z){
+
+						return Refercence.MODID+":textures/armor/"+"cross_z"+crosszName[item_builddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")] +ext;
+
+
+					}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.transteamgun_2){
+
+						return Refercence.MODID+":textures/armor/"+steamName[item_builddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")] +ext;
+
+
+					}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.evol_driver_evol){
+
+						return Refercence.MODID+":textures/armor/"+"evol_"+evolName[item_builddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")] +ext;
+
+					}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.nebulasteamgun_2){
+
+						return Refercence.MODID+":textures/armor/"+gearName[item_builddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")]+ext;
+
+
+					}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.build_driver_grease){
+						return Refercence.MODID+":textures/armor/"+"grease"+greaseName[item_builddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")]+ext;
+
+					}	else
+					{
+						return Refercence.MODID+":textures/armor/"+Rider+ext;
+
+					}
+				} else{
+					return Refercence.MODID+":textures/armor/blank"+ext;
+
+				}
+			}else{
+				return Refercence.MODID+":textures/armor/blank"+ext;
+			}
+		}else{
+			return Refercence.MODID+":textures/armor/blank"+ext;
+
+
+		}
+		return Refercence.MODID+":textures/armor/blank"+ext;
+
+
+	}
+
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
+	{
+		return RiderItems.full_bottle == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+	}
 }		
 
 

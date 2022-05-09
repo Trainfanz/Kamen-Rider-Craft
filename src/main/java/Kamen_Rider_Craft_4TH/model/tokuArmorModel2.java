@@ -60,16 +60,12 @@ public class tokuArmorModel2 extends ModelBiped
 	
 	/** The Biped's Right Arm */
 	public ModelRenderer bigBipedRightArm2;
-	public ModelRenderer bigBipedRightUpArm2;
 	/** The Biped's Left Arm */
 	public ModelRenderer bigBipedLeftArm2;
-	public ModelRenderer bigBipedLeftUpArm2;
 	/** The Biped's Right Leg */
 	public ModelRenderer bigBipedRightLeg2;
-	public ModelRenderer bigBipedRightUpLeg2;
 	/** The Biped's Left Leg */
 	public ModelRenderer bigBipedLeftLeg2;
-	public ModelRenderer bigBipedLeftUpLeg2;
 	
 	public Class<? extends item_rider_driver> base;  
 	
