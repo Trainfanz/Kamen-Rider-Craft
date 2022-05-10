@@ -6,7 +6,10 @@ import org.lwjgl.opengl.GL11;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.item.fourze.item_Fourzedriver;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
 import Kamen_Rider_Craft_4TH.model.model_all_dragon;
 import Kamen_Rider_Craft_4TH.model.model_belt;
 import Kamen_Rider_Craft_4TH.potion.PotionCore;
@@ -35,27 +38,26 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class item_wizarddriver extends ItemArmor implements IHasModel
+public class item_wizarddriver extends item_rider_driver
 {
 
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
 	public String armorNamePrefix;
 	public ArmorMaterial material;
 
+	public static final String[] CoreName= new String[] {"flame","water","hurricane","land","flame_dragon","water_dragon","hurricane_dragon","land_dragon","infinity","infinity_gold","falco_mantle_dragon","dressup"};
+	public static final String[] CoreName2= new String[] {"","_falco","_chameleo","_buffa","_dolphi","_hyper","_land"};
 
 
 
-	public item_wizarddriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3)
+	public item_wizarddriver (String name,ArmorMaterial par2EnumArmorMaterial,String rider)
 	{
-		super(par2EnumArmorMaterial, par3, EntityEquipmentSlot.FEET);
+		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.wizardhead, RiderItems.wizardtroso, RiderItems.wizardlegs);
 		this.material = par2EnumArmorMaterial;
 		par2EnumArmorMaterial.getDamageReductionAmount(EntityEquipmentSlot.FEET);
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(EntityEquipmentSlot.FEET));
-		this.maxStackSize = 1;
-        setTranslationKey(name);
-        setRegistryName(name);
-        TokuCraft_core.ITEMS.add(this);
 	}
+	
 	@SideOnly(Side.CLIENT)
 	public boolean hasEffect(ItemStack par1ItemStack)
 	{
@@ -70,6 +72,10 @@ public class item_wizarddriver extends ItemArmor implements IHasModel
 	@Override
 	public String getArmorTexture(ItemStack stack, Entity entity, EntityEquipmentSlot slot, String type)
 	{
+		if(entity instanceof EntityLivingBase)
+	
+	{
+		if (((EntityLivingBase) entity).getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == RiderItems.wizardtroso){
 		if (this.get_core(stack, "2")==8){
 			return Refercence.MODID+":textures/armor/gold_dragon.png";
 		}else if (this.get_core(stack, "2")==9){
@@ -77,7 +83,9 @@ public class item_wizarddriver extends ItemArmor implements IHasModel
 		}else{
 
 			return Refercence.MODID+":textures/armor/all_dragon.png";
+		}}
 		}
+		return Refercence.MODID+":textures/armor/blank_2.png";
 	}
 
 	@Override
@@ -378,6 +386,62 @@ public class item_wizarddriver extends ItemArmor implements IHasModel
 				}
 			}
 		}
+	}
+
+	public  String getTexture(Entity entity, int num,String ext)
+	{
+		if (entity instanceof EntityLivingBase){
+			EntityLivingBase player = ((EntityLivingBase)entity);
+			if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
+				if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_rider_driver){
+					item_rider_driver belt =((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem());
+					String rider = ((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider;
+
+					if (num==1||num==2||num==5||num==7||num==3||num==6||num==8){
+						
+						if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.wizardriver){
+
+								return Refercence.MODID+":textures/armor/"+"wizard_"+ CoreName[item_wizarddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")]+ext;	
+							
+
+						}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.beastdriver){
+
+								
+							{	if (item_wizarddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")==6){
+								return Refercence.MODID+":textures/armor/"+"beast_land"+ext;
+								}else if (item_wizarddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")!=5){
+									if (ext=="_2.png"){
+										return Refercence.MODID+":textures/armor/"+"beast"+ext;
+										
+									}else{
+									return Refercence.MODID+":textures/armor/"+"beast"+ CoreName2[item_wizarddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")] +ext;
+									}
+									}else{
+									return Refercence.MODID+":textures/armor/"+"beast_hyper"+ext;
+								}
+							}
+
+						}else {
+
+								return Refercence.MODID+":textures/armor/"+rider+ext;	
+							}
+							
+					}else if (num==4||num==9||num==10||num==11||num==12||num==13||num==14){
+						return Refercence.MODID+":textures/armor/blank"+ext;
+					} else{
+						return Refercence.MODID+":textures/armor/blank"+ext;
+
+					}
+				}else{
+					return Refercence.MODID+":textures/armor/blank"+ext;
+				}
+			}else{
+				return Refercence.MODID+":textures/armor/blank"+ext;
+			}
+
+		}
+		return Refercence.MODID+":textures/armor/blank"+ext;
+
 	}
 
 	

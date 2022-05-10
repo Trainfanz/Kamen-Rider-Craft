@@ -55,6 +55,7 @@ public class TokuCraft_core {
 		ShowaRiderItems.init();
 		RiderItems.init();
 		ReiwaRiderItems.init();
+		miscellaneousRiderItems.init();
 		kikaiderItems.init();
 		DimensionManager.registerDimension(modDimensionWorldGen.HELHEIM_DIM_ID, modDimensionWorldGen.HELHEIM_DIM_TYPE);
 		DimensionManager.registerDimension(modDimensionWorldGen.SANDSOFTIME_DIM_ID, modDimensionWorldGen.SANDSOFTIME_DIM_TYPE);
