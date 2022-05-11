@@ -144,7 +144,7 @@ public class item_ghostdriver extends item_rider_driver
 		item_ghostdriver belt = (item_ghostdriver) itemstack.getItem();
 		String rider = "_"+belt.DRIVER; 
 
-		return itemstack.hasTagCompound() ? belt.DRIVER !=itemstack.getTagCompound().getInteger("rider")? "_"+itemstack.getTagCompound().getInteger("rider") : rider: rider;
+		return itemstack.hasTagCompound() ? belt.DRIVER !=itemstack.getTagCompound().getInteger("rider")? "_"+itemstack.getTagCompound().getInteger("rider") : "": "";
 	}
 	public static void set_lock(ItemStack itemstack,int flag,int rider)
 	{

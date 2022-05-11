@@ -106,17 +106,11 @@ public class model_belt_plus extends ModelBiped
 				GL11.glRotatef(180, 0, 0, 1);
 			}
 
-			if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_rider_driver)
-			{					
-				GL11.glScaled(0.35*height3, 0.35*height3,0.35*height3);
-				GL11.glTranslatef((float) (0f+dri),height,0.6f);
-				
-			}else{
 
-				GL11.glScaled(0.5*height3, 0.5*height3,0.5*height3);
-				GL11.glTranslatef((float) (0f+dri),height4,0.4f);
-			}
+			GL11.glScaled(0.35, 0.35,0.35);
 
+			GL11.glTranslatef((float) (0f+dri),-2f,0.6f);
+			
 			if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_ex_aiddriver)
 			{
 			if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.gamer_driver_proto_lazer
@@ -156,17 +150,11 @@ public class model_belt_plus extends ModelBiped
 				GL11.glRotatef(180, 0, 0, 1);
 			}
 
-			if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_rider_driver)
-			{					
 
-				GL11.glScaled(0.35, 0.35,0.35);
-				GL11.glTranslatef((float) (0f+dri),-2f,0.6f);
-			}else{
+			GL11.glScaled(0.35, 0.35,0.35);
 
-				GL11.glScaled(0.5, 0.5,0.5);
-				GL11.glTranslatef((float) (0f+dri),-1.3f,0.4f);
-			}
-
+			GL11.glTranslatef((float) (0f+dri),-2f,0.6f);
+			
 			if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_ex_aiddriver)
 			{
 			if (item_ex_aiddriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")==4
