@@ -106,10 +106,12 @@ public class model_belt_plus extends ModelBiped
 				GL11.glRotatef(180, 0, 0, 1);
 			}
 
+			
+		
 
-			GL11.glScaled(0.35, 0.35,0.35);
-
-			GL11.glTranslatef((float) (0f+dri),-2f,0.6f);
+				GL11.glScaled(0.5*height3, 0.5*height3,0.5*height3);
+				GL11.glTranslatef((float) (0f+dri),height4,0.4f);
+			
 			
 			if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_ex_aiddriver)
 			{
@@ -150,11 +152,11 @@ public class model_belt_plus extends ModelBiped
 				GL11.glRotatef(180, 0, 0, 1);
 			}
 
+	
 
-			GL11.glScaled(0.35, 0.35,0.35);
-
-			GL11.glTranslatef((float) (0f+dri),-2f,0.6f);
-			
+				GL11.glScaled(0.5*height3, 0.5*height3,0.5*height3);
+				GL11.glTranslatef((float) (0f+dri),height4,0.4f);
+		
 			if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_ex_aiddriver)
 			{
 			if (item_ex_aiddriver.get_core(living.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")==4

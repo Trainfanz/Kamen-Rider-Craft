@@ -176,6 +176,43 @@ public class type_tire extends ModelBiped
 				if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()== RiderItems.break_gunner_2){
 					
 				}
+				else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.mach_driver_honoh_chaser){
+					GL11.glPushMatrix();
+					GL11.glScalef(0.75f, 0.75f, 0.75f);
+					this.Shape2.rotateAngleY=Shape2.rotateAngleY+1.52F;
+					if (player.isSneaking()){
+						this.Shape2.rotateAngleZ=this.Shape2.rotateAngleZ-1.5f;
+						this.Shape2.rotateAngleX=this.Shape2.rotateAngleX-1.5f;
+						this.Shape2.offsetY=0.2f;
+					}
+					
+					GL11.glTranslatef(+0.3f, 0.3f, 0.1f);
+					this.Shape2.render(par7);
+					GL11.glPopMatrix();
+				}
+				else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.mach_driver_honoh_drive){
+					
+					if (item_drivedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!=1){
+					GL11.glPushMatrix();
+					GL11.glScalef(1.2f, 1.2f, 1.2f);
+					if (this.isSneak){
+						this.Shape1.offsetY=0.1f;
+					}
+					this.Shape1.render(par7);
+					GL11.glPopMatrix();
+					GL11.glPushMatrix();
+					GL11.glScalef(0.75f, 0.75f, 0.75f);
+					if (this.isSneak){
+						this.Shape2.offsetY=0.2f;
+					}
+					this.Shape2.rotateAngleY=Shape2.rotateAngleY-0.9F;
+					GL11.glTranslatef(-0.25f, -0f, 0f);
+					Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Refercence.MODID+":textures/armor/kourin_dead_heat_tire.png"));
+					this.Shape2.render(par7);
+					GL11.glPopMatrix();
+					}
+
+				}
 				else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.mach_driver_honoh){
 
 					if (item_drivedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))==1||item_drivedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))==4){
@@ -428,7 +465,9 @@ public class type_tire extends ModelBiped
 		
 		if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!=null){
 
-			if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.mach_driver_honoh){
+			if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.mach_driver_honoh||
+					player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.mach_driver_honoh_chaser||
+					player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.mach_driver_honoh_drive){
 				//Shape2.rotateAngleX=+bipedRightArm.rotateAngleZ;
 				//Shape2.rotateAngleY=+bipedRightArm.rotateAngleY;
 				//Shape2.rotateAngleZ=+bipedRightArm.rotateAngleX;

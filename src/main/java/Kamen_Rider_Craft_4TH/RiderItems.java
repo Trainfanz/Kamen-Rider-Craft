@@ -36,8 +36,6 @@ import Kamen_Rider_Craft_4TH.item.deno.item_RiderPass;
 import Kamen_Rider_Craft_4TH.item.drive.Item_break_gunner;
 import Kamen_Rider_Craft_4TH.item.drive.Item_lupin_gunner;
 import Kamen_Rider_Craft_4TH.item.drive.Item_shift_car;
-import Kamen_Rider_Craft_4TH.item.drive.item_drivearmor;
-import Kamen_Rider_Craft_4TH.item.drive.item_drivearmor2;
 import Kamen_Rider_Craft_4TH.item.drive.item_drivedriver;
 import Kamen_Rider_Craft_4TH.item.fourze.Item_astroswitch;
 import Kamen_Rider_Craft_4TH.item.fourze.item_Fourzedriver;
@@ -1994,9 +1992,9 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item mirage_magnum = new Item_gun("mirage_magnum",Tabs.den_dengu, RiderItems.wizardgem).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	public static Item dice_saber = new ItemBaseSword("dice_saber",Tabs.den_denso, RiderItems.wizardgem).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 
-	public static Item wizardhead = new item_rider_armor("wizardhead",item_Fourzedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, wizardgem).setCreativeTab(Tabs.tabwizard);
-	public static Item wizardtroso = new item_rider_armor("wizardtroso",item_Fourzedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, wizardgem).setCreativeTab(Tabs.tabwizard);
-	public static Item wizardlegs = new item_rider_armor("wizardlegs",item_Fourzedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, wizardgem).setCreativeTab(Tabs.tabwizard);
+	public static Item wizardhead = new item_rider_armor("wizardhead",item_wizarddriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, wizardgem).setCreativeTab(Tabs.tabwizard);
+	public static Item wizardtroso = new item_rider_armor("wizardtroso",item_wizarddriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, wizardgem).setCreativeTab(Tabs.tabwizard);
+	public static Item wizardlegs = new item_rider_armor("wizardlegs",item_wizarddriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, wizardgem).setCreativeTab(Tabs.tabwizard);
 
 	public static Item wizardriver = new item_wizarddriver("wizardriver",ArmorMaterial.DIAMOND, "wizard").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	public static Item beastdriver = new item_wizarddriver("beastdriver",ArmorMaterial.DIAMOND, "beast").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
@@ -2388,18 +2386,22 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 
 	public static Item brain_sword = new ItemBaseSword("brain_sword",ToolMaterial.DIAMOND, RiderItems.proto_speedshift).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
 
-	public static Item drivehead = new item_drivearmor("drivehead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-	public static Item drivetroso = new item_drivearmor2("drivetroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-	public static Item drivelegs = new item_drivearmor2("drivelegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	public static Item drivehead = new item_rider_armor("drivehead",item_drivedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, wizardgem).setCreativeTab(Tabs.tabdrive);
+	public static Item drivetroso = new item_rider_armor("drivetroso",item_drivedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, wizardgem).setCreativeTab(Tabs.tabdrive);
+	public static Item drivelegs = new item_rider_armor("drivelegs",item_drivedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, wizardgem).setCreativeTab(Tabs.tabdrive);
 
-	public static Item drivedriver = new item_drivedriver("drivedriver",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-	public static Item mach_driver_honoh = new item_drivedriver("mach_driver_honoh",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-	public static Item drivedrivergold = new item_drivedriver("drivedrivergold",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-	public static Item metro_pd_driver_honoh = new item_drivedriver("metro_pd_driver_honoh",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-	public static Item break_gunner_2 = new item_drivedriver("break_gunner_2",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-	public static Item lupin_belt = new item_drivedriver("lupin_belt",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-
-	public static Item drivedriverbrain = new item_drivedriver("drivedriverbrain",ArmorMaterial.DIAMOND, 4).setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	
+	public static Item drivedriver = new item_drivedriver("drivedriver",ArmorMaterial.DIAMOND, "drive").setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	public static Item proto_drivedriver = new item_drivedriver("proto_drivedriver",ArmorMaterial.DIAMOND, "drive_proto").setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	public static Item mach_driver_honoh = new item_drivedriver("mach_driver_honoh",ArmorMaterial.DIAMOND, "mach").setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	public static Item mach_driver_honoh_chaser = new item_drivedriver("mach_driver_honoh_chaser",ArmorMaterial.DIAMOND, "chaser").setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	public static Item mach_driver_honoh_drive = new item_drivedriver("mach_driver_honoh_drive",ArmorMaterial.DIAMOND, "mach_dead_heat_drive").setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	public static Item drivedrivergold = new item_drivedriver("drivedrivergold",ArmorMaterial.DIAMOND, "drive_gold").setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	public static Item metro_pd_driver_honoh = new item_drivedriver("metro_pd_driver_honoh",ArmorMaterial.DIAMOND, "mach_metro-pd").setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	public static Item break_gunner_2 = new item_drivedriver("break_gunner_2",ArmorMaterial.DIAMOND, "mashin_chaser").setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	public static Item lupin_belt = new item_drivedriver("lupin_belt",ArmorMaterial.DIAMOND, "lupin").setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	public static Item drivedriver_dark = new item_drivedriver("drivedriver_dark",ArmorMaterial.DIAMOND, "drive_next").setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	public static Item drivedriverbrain = new item_drivedriver("drivedriverbrain",ArmorMaterial.DIAMOND, "brain").setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
 
 	public static Item speedshift  = new Item_shift_car(1, 0,"speedshift").setCreativeTab(Tabs.tabdrive);
 	public static Item wildshift  = new Item_shift_car(1, 1,"wildshift").setCreativeTab(Tabs.tabdrive);
@@ -2447,7 +2449,7 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item signal_kikern  = new Item_shift_car(3, 4,"signal_kikern").setCreativeTab(Tabs.tabdrive);
 	public static Item shift_ride_crosser  = new Item_shift_car(3, 7,"shift_ride_crosser").setCreativeTab(Tabs.tabdrive);
 
-	public static Item tridoron_key  = new Item_shift_car(3, 6,"tridoron_key").setCreativeTab(Tabs.tabdrive);
+	public static Item tridoron_key  = new Item_shift_car(5, 11,"tridoron_key").setCreativeTab(Tabs.tabdrive);
 
 	public static Item rhino_super  = new Item_shift_car(4, 6,"rhino_super").setCreativeTab(Tabs.tabdrive);
 
