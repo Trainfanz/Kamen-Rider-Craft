@@ -18,8 +18,6 @@ import Kamen_Rider_Craft_4TH.item.W.Item_memory;
 import Kamen_Rider_Craft_4TH.item.W.Item_metal_shaft;
 import Kamen_Rider_Craft_4TH.item.W.item_Wdriver;
 import Kamen_Rider_Craft_4TH.item.agito.item_agitodriver;
-import Kamen_Rider_Craft_4TH.item.amazons.item_amazonsarmor;
-import Kamen_Rider_Craft_4TH.item.amazons.item_amazonsarmor2;
 import Kamen_Rider_Craft_4TH.item.amazons.item_amazonsdriver;
 import Kamen_Rider_Craft_4TH.item.build.Item_full_bottle;
 import Kamen_Rider_Craft_4TH.item.build.Item_nebulasteamgun;
