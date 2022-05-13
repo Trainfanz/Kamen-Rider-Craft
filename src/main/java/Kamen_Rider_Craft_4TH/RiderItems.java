@@ -22,8 +22,6 @@ import Kamen_Rider_Craft_4TH.item.amazons.item_amazonsdriver;
 import Kamen_Rider_Craft_4TH.item.build.Item_full_bottle;
 import Kamen_Rider_Craft_4TH.item.build.Item_nebulasteamgun;
 import Kamen_Rider_Craft_4TH.item.build.Item_transteamgun;
-import Kamen_Rider_Craft_4TH.item.build.item_buildarmor;
-import Kamen_Rider_Craft_4TH.item.build.item_buildarmor2;
 import Kamen_Rider_Craft_4TH.item.build.item_builddriver;
 import Kamen_Rider_Craft_4TH.item.build.item_buildphone;
 import Kamen_Rider_Craft_4TH.item.decade.Item_dienddriver;
