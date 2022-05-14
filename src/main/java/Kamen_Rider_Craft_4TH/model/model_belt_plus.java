@@ -53,7 +53,6 @@ public class model_belt_plus extends ModelBiped
 		
 		float height=-2f;
 		float height2=0f;
-		float height3=1f;
 		float height4=-1.3f;
 
 
@@ -109,7 +108,7 @@ public class model_belt_plus extends ModelBiped
 			
 		
 
-				GL11.glScaled(0.5*height3, 0.5*height3,0.5*height3);
+				GL11.glScaled(0.5, 0.5,0.5);
 				GL11.glTranslatef((float) (0f+dri),height4,0.4f);
 			
 			
@@ -154,7 +153,7 @@ public class model_belt_plus extends ModelBiped
 
 	
 
-				GL11.glScaled(0.5*height3, 0.5*height3,0.5*height3);
+				GL11.glScaled(0.5001, 0.5001,0.5001);
 				GL11.glTranslatef((float) (0f+dri),height4,0.4f);
 		
 			if (living.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_ex_aiddriver)

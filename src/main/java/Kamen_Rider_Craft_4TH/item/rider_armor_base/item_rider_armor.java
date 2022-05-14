@@ -66,12 +66,19 @@ public class item_rider_armor extends ItemArmor  implements IHasModel
 							armorModel.bipedHeadwear2.showModel = slot == EntityEquipmentSlot.HEAD;
 							armorModel.bigBipedHead2.showModel = slot == EntityEquipmentSlot.HEAD;
 							armorModel.bigBipedHeadwear2.showModel = slot == EntityEquipmentSlot.HEAD;
+							
+							armorModel.big2BipedHead2.showModel = slot == EntityEquipmentSlot.HEAD;
+							armorModel.big2BipedHeadwear2.showModel = slot == EntityEquipmentSlot.HEAD;
+
 
 						}else{
 							armorModel.bipedHead2.showModel = slot == EntityEquipmentSlot.FEET;
 							armorModel.bipedHeadwear2.showModel = slot == EntityEquipmentSlot.FEET;
 							armorModel.bigBipedHead2.showModel = slot == EntityEquipmentSlot.FEET;
 							armorModel.bigBipedHeadwear2.showModel = slot == EntityEquipmentSlot.FEET;
+
+							armorModel.big2BipedHead2.showModel = slot == EntityEquipmentSlot.FEET;
+							armorModel.big2BipedHeadwear2.showModel = slot == EntityEquipmentSlot.FEET;
 
 						}
 
@@ -84,6 +91,7 @@ public class item_rider_armor extends ItemArmor  implements IHasModel
 
 							armorModel.bipedBody3.showModel = slot == EntityEquipmentSlot.CHEST;
 							armorModel.bigBipedBody3.showModel = slot == EntityEquipmentSlot.CHEST;
+							armorModel.big2BipedBody3.showModel = slot == EntityEquipmentSlot.CHEST;
 
 
 						}else{
@@ -95,6 +103,7 @@ public class item_rider_armor extends ItemArmor  implements IHasModel
 
 							armorModel.bipedBody3.showModel = slot == EntityEquipmentSlot.FEET;
 							armorModel.bigBipedBody3.showModel = slot == EntityEquipmentSlot.FEET;
+							armorModel.big2BipedBody3.showModel = slot == EntityEquipmentSlot.FEET;
 						}
 
 						if (stack.getItem()==belt.LEGS){
@@ -106,6 +115,8 @@ public class item_rider_armor extends ItemArmor  implements IHasModel
 							armorModel.bipedLeftLeg2.showModel = slot == EntityEquipmentSlot.LEGS;
 							armorModel.bipedRightLeg2.showModel = slot == EntityEquipmentSlot.LEGS;
 
+							armorModel.big2BipedBody2.showModel = slot == EntityEquipmentSlot.LEGS;
+							
 						}else{
 							armorModel.bipedBody2.showModel = slot == EntityEquipmentSlot.FEET;
 							armorModel.bigBipedBody2.showModel = slot == EntityEquipmentSlot.FEET;
@@ -115,6 +126,7 @@ public class item_rider_armor extends ItemArmor  implements IHasModel
 							armorModel.bipedLeftLeg2.showModel = slot == EntityEquipmentSlot.FEET;
 							armorModel.bipedRightLeg2.showModel = slot == EntityEquipmentSlot.FEET;
 
+							armorModel.big2BipedBody2.showModel = slot == EntityEquipmentSlot.FEET;
 						}
 					}else{
 						armorModel.bipedRightArm2.showModel = slot == EntityEquipmentSlot.FEET;
@@ -132,7 +144,10 @@ public class item_rider_armor extends ItemArmor  implements IHasModel
 
 							armorModel.bipedLeftLeg2.showModel = slot == EntityEquipmentSlot.FEET;
 							armorModel.bipedRightLeg2.showModel = slot == EntityEquipmentSlot.FEET;
-
+							
+							armorModel.big2BipedBody3.showModel = slot == EntityEquipmentSlot.FEET;
+							armorModel.big2BipedBody2.showModel = slot == EntityEquipmentSlot.FEET;
+						
 						
 					}
 				

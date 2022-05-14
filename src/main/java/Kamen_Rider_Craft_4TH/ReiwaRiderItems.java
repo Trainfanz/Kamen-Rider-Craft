@@ -257,9 +257,9 @@ public class ReiwaRiderItems {
 
 	public static Item shimi_lot = new ItemBaseSword("shimi_lot",Tabs.gashacon_breaker, blank_wonder_ride_book).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 
-	public static Item saberhead = new item_saberarmor_head("saberhead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
-	public static Item sabertroso = new item_saberarmor_head("sabertroso",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
-	public static Item saberlegs = new item_saberarmor_head("saberlegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	public static Item saberhead = new item_rider_armor("saberhead",item_saberdriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, blank_wonder_ride_book).setCreativeTab(Tabs.tabsaber);
+	public static Item sabertroso = new item_rider_armor("sabertroso",item_saberdriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, blank_wonder_ride_book).setCreativeTab(Tabs.tabsaber);
+	public static Item saberlegs = new item_rider_armor("saberlegs",item_saberdriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, blank_wonder_ride_book).setCreativeTab(Tabs.tabsaber);
 
 	public static Item seiken_swordriver_saber = new item_saberdriver("seiken_swordriver_saber",ArmorMaterial.DIAMOND, 4,"saber",1,0,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	public static Item seiken_swordriver_blaze = new item_saberdriver("seiken_swordriver_blaze",ArmorMaterial.DIAMOND, 4,"blaze",0,1,0).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);

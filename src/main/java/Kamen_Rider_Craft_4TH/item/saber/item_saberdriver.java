@@ -9,6 +9,8 @@ import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
 import Kamen_Rider_Craft_4TH.item.zi_o.item_zikudriver;
 import Kamen_Rider_Craft_4TH.model.model_belt;
 import Kamen_Rider_Craft_4TH.model.model_belt_plus;
@@ -39,14 +41,9 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class item_saberdriver extends ItemArmor implements IHasModel
+public class item_saberdriver extends item_rider_driver
 {
-	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
-	public String armorNamePrefix;
-	public ArmorMaterial material;
 
-
-	public String Rider;
 	public int BOOK_L;
 	public int BOOK_M;
 	public int BOOK_R;
@@ -68,18 +65,12 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 
 	public item_saberdriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, String rider,int book_l,int book_m, int book_r)
 	{
-		super(par2EnumArmorMaterial, par3, EntityEquipmentSlot.FEET);
-		this.material = par2EnumArmorMaterial;
-		par2EnumArmorMaterial.getDamageReductionAmount(EntityEquipmentSlot.FEET);
-		this.setMaxDamage(par2EnumArmorMaterial.getDurability(EntityEquipmentSlot.FEET));
-		this.maxStackSize = 1;
-		Rider=rider;
+		
+		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,ReiwaRiderItems.saberhead, ReiwaRiderItems.sabertroso, ReiwaRiderItems.saberlegs);
+
 		BOOK_L = book_l;
 		BOOK_M = book_m;
 		BOOK_R = book_r;
-		setTranslationKey(name);
-		setRegistryName(name);
-		TokuCraft_core.ITEMS.add(this);
 	}
 
 
@@ -580,14 +571,72 @@ public class item_saberdriver extends ItemArmor implements IHasModel
 		}
 		itemstack.getTagCompound().setInteger("core"+slot, flag);
 	}
-	/**
-	 * Returns the 'max damage' factor array for the armor, each piece of armor have a durability factor (that gets
-	 * multiplied by armor material factor)
-	 */
-	static int[] getMaxDamageArray()
+
+	public  boolean rendModle(Entity entity, int num)
 	{
-		return maxDamageArray;
+		if (num==2||num==5||num==7||num==1||num==3||num==6||num==8){
+			return true;
+		}else if (entity instanceof EntityLivingBase){
+			EntityLivingBase player = ((EntityLivingBase)entity);
+			if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
+				if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_rider_driver){
+					item_rider_driver belt =((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem());
+					String rider = ((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider;
+
+					 if (num==4||num==9||num==10||num==11||num==12||num==13||num==14||num==15||num==16||num==17){
+
+						return true;
+					} else{
+						return false;
+
+					}
+				
+				}else{
+					return false;
+				}
+			}else{
+				return false;
+			}
+
+		}
+		return false;
+
+	} 
+	public   String getTexture(Entity entity, int num,String ext)
+	{
+		if (entity instanceof EntityLivingBase){
+			EntityLivingBase player = ((EntityLivingBase)entity);
+			if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_rider_driver){
+				item_rider_driver belt =((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem());
+
+				if (num==11||num==12||num==5||num==14){
+//num==9||num==13||
+					return Refercence.MODID+":textures/armor/"+get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l")+".png";
+
+				}else if (num==1||num==10||num==2||num==8){
+//num==4||num==7||
+					return Refercence.MODID+":textures/armor/"+get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r")+".png";
+
+				}else if (num==15||num==16||num==3||num==6||num==17){
+//
+					return Refercence.MODID+":textures/armor/"+get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"m")+".png";
+
+				} else{
+					return Refercence.MODID+":textures/armor/blank"+ext;
+
+				}
+			}else{
+				return Refercence.MODID+":textures/armor/blank"+ext;
+			}
+		}else{
+			return Refercence.MODID+":textures/armor/blank"+ext;
+
+
+		}
+
+
 	}
+
 	
 	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
 	{
