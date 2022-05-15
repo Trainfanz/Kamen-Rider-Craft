@@ -44,7 +44,7 @@ public class item_Wdriver extends item_rider_driver
 	public static final String[] CoreName= new String[] {"joker","metal","trigger","cyclone_cyclone","joker_xtreme","joker_gold_xtreme","accel_xtreme"};
 	public static final String[] CoreName2= new String[] {"cyclone","heat","luna","fang","jokerjoker","cyclone_xtreme","cyclone_gold_xtreme","cyclone_xtreme_accel"};		
 
-	public static final String[] CoreName3= new String[] {"eternal","eternal_red"};
+	public static final String[] CoreName3= new String[] {"eternal","eternal_red","eternal_strengthening_armament"};
 	public static final String[] CoreName4= new String[] {"accel","accel_trial","accel_booster"};
 
 

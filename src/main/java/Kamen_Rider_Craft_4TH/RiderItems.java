@@ -1512,7 +1512,8 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item engine_blade = new ItemBaseSword("engine_blade",Tabs.den_denso, RiderItems.gaiamemory).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 	public static Item bomb_magnum = new Item_gun("bomb_magnum",Tabs.den_dengu, RiderItems.gaiamemory).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 	
-
+	public static Item akiko_no_slipper = new Item_ore("akiko_no_slipper").setCreativeTab(Tabs.tabW);
+	
 	public static Item whead = new item_rider_armor("whead",item_Wdriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, gaiamemory).setCreativeTab(Tabs.tabW);
 	public static Item wtroso = new item_rider_armor("wtroso",item_Wdriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, gaiamemory).setCreativeTab(Tabs.tabW);
 	public static Item wlegs = new item_rider_armor("wlegs",item_Wdriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, gaiamemory).setCreativeTab(Tabs.tabW);
@@ -1567,9 +1568,9 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 
 	public static Item joker_t2_memory = new Item_memory("joker_t2_memory",2,5).setCreativeTab(Tabs.tabW);
 	public static Item skull_memory = new Item_memory("skull_memory",1,5).setCreativeTab(Tabs.tabW);
+	
 	public static Item eternal_t2_memory = new Item_memory(0, "4","eternal_t2_memory",2,5).setCreativeTab(Tabs.tabW);
 	public static Item eternal_memory = new Item_memory(1, "4","eternal_memory",1,1).setCreativeTab(Tabs.tabW);
-
 
 	public static Item accel_memory = new Item_memory(0, "5","accel_memory",0,5).setCreativeTab(Tabs.tabW);
 	public static Item trial_memory = new Item_memory(1, "5","trial_memory").setCreativeTab(Tabs.tabW);
@@ -1612,12 +1613,27 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item weather_t2_memory = new Item_memory("weather_t2_memory",2,1).setCreativeTab(Tabs.tabW);
 	public static Item xtreme_t2_memory = new Item_memory("xtreme_t2_memory",2,1).setCreativeTab(Tabs.tabW);
 	public static Item yesterday_t2_memory = new Item_memory("yesterday_t2_memory",2,1).setCreativeTab(Tabs.tabW);
-	public static Item zone_t2_memory = new Item_memory("zone_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	public static Item zone_t2_memory  = new Item_memory(2, "4","zone_t2_memory",2,1).setCreativeTab(Tabs.tabW);
 
 	public static Item unrefined_memory_g = new Item_ore("unrefined_memory_g").setCreativeTab(Tabs.tabW);
 	public static Item unrefined_memory_s = new Item_ore("unrefined_memory_s").setCreativeTab(Tabs.tabW);
 	public static Item unrefined_memory_t2 = new Item_ore("unrefined_memory_t2").setCreativeTab(Tabs.tabW);
 
+	public static Item terror_memory = new Item_ore("terror_memory").setCreativeTab(Tabs.tabW);
+	public static Item taboo_memory = new Item_ore("taboo_memory").setCreativeTab(Tabs.tabW);
+	public static Item claydoll_memory = new Item_ore("claydoll_memory").setCreativeTab(Tabs.tabW);
+	public static Item nasca_memory = new Item_ore("nasca_memory").setCreativeTab(Tabs.tabW);
+	public static Item smilodon_memory = new Item_ore("smilodon_memory").setCreativeTab(Tabs.tabW);
+	public static Item weather_memory = new Item_ore("weather_memory").setCreativeTab(Tabs.tabW);
+	public static Item quetzalcoatlus_memory = new Item_ore("quetzalcoatlus_memory").setCreativeTab(Tabs.tabW);
+	public static Item quetzalcoatlus_memory_prototype = new Item_ore("quetzalcoatlus_memory_prototype").setCreativeTab(Tabs.tabW);
+	public static Item utopia_memory = new Item_ore("utopia_memory").setCreativeTab(Tabs.tabW);
+	
+	public static Item unicorn_memory = new Item_ore("unicorn_memory").setCreativeTab(Tabs.tabW);
+	
+	public static Item magma_memory = new Item_ore("magma_memory").setCreativeTab(Tabs.tabW);
+	public static Item unicorn_memory_enhancing_adapter = new Item_ore("unicorn_memory_enhancing_adapter").setCreativeTab(Tabs.tabW);
+	
 	public static Item memory_memory = new Item_ore("memory_memory").setCreativeTab(Tabs.tabW);
 	public static Item egg_chicken_memory = new Item_ore("egg_chicken_memory").setCreativeTab(Tabs.tabW);
 

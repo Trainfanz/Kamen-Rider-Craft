@@ -474,6 +474,7 @@ public class ReiwaRiderItems {
 	
 	public static Item demons_driver = new item_revicedriver("demons_driver",ArmorMaterial.DIAMOND, 4, "demons",12).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item vail_driver = new item_revicedriver("vail_driver",ArmorMaterial.DIAMOND, 4, "vail",23).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	public static Item over_demons_driver = new item_revicedriver("over_demons_driver",ArmorMaterial.DIAMOND, 4, "over_demons",24).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	
 	public static Item libera_driver = new item_revicedriver("libera_driver",ArmorMaterial.DIAMOND, 4, "jeanne",18).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	
