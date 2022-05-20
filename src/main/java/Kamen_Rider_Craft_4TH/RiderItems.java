@@ -1639,6 +1639,14 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item memory_memory = new Item_ore("memory_memory").setCreativeTab(Tabs.tabW);
 	public static Item egg_chicken_memory = new Item_ore("egg_chicken_memory").setCreativeTab(Tabs.tabW);
 
+	public static Item stag_memory = new Item_ore("stag_memory").setCreativeTab(Tabs.tabW);
+	public static Item spider_memory = new Item_ore("spider_memory").setCreativeTab(Tabs.tabW);
+	public static Item bat_memory = new Item_ore("bat_memory").setCreativeTab(Tabs.tabW);
+	public static Item beetle_memory = new Item_ore("beetle_memory").setCreativeTab(Tabs.tabW);
+	public static Item frog_memory = new Item_ore("frog_memory").setCreativeTab(Tabs.tabW);
+	public static Item denden_memory = new Item_ore("denden_memory").setCreativeTab(Tabs.tabW);
+	
+	
 	public static Item hard_boilder = new item_bikes("hard_boilder",Entityhardboilder::new).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 	public static Item accel_bike = new item_bikes("accel_bike",Entityaccel::new).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 	public static Item skull_boilder = new item_bikes("skull_boilder",Entityskullboilder::new).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
