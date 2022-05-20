@@ -61,13 +61,13 @@ public class EntityMasquerade extends Entity_base_henchmen
 			switch (this.rand.nextInt(10))
 			{
 			case 0:
-				playerIn.sendMessage( new TextComponentString(TextFormatting.YELLOW+"Claydoll!"));
+				 playerIn.sendStatusMessage(new TextComponentString(TextFormatting.YELLOW+"Claydoll!"), true);
 				entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
 				world.spawnEntity(entityboss);
 				break;
 				
 			case 1:
-				playerIn.sendMessage( new TextComponentString(TextFormatting.AQUA+"Nazca!"));
+				 playerIn.sendStatusMessage(new TextComponentString(TextFormatting.AQUA+"Nazca!"), true);
 				entityboss2.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
 				world.spawnEntity(entityboss2);
 				break;

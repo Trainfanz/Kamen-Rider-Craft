@@ -57,6 +57,8 @@ import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
+import net.minecraft.util.text.TextComponentString;
+import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.BossInfo;
 import net.minecraft.world.BossInfoServer;
 import net.minecraft.world.EnumDifficulty;
@@ -76,8 +78,8 @@ public class Entity_clay_doll_dopant extends EntityBossBase
         super.applyEntityAttributes();
 
         this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(10.0D);
-        this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(100.0D);
-        this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.4000000238418579D);
+        this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(60.0D);
+        this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.2000000238418579D);
         this.getEntityAttribute(SharedMonsterAttributes.FOLLOW_RANGE).setBaseValue(40.0D);
         this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(3.0D);
         
@@ -91,11 +93,43 @@ public class Entity_clay_doll_dopant extends EntityBossBase
     {
 if (!this.world.isRemote){
 
-
+	switch (this.rand.nextInt(4))
+	{   		   	    		
+	case 0:
+		if (this.getAttackTarget()instanceof EntityPlayer){
+			 EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
+			 EntityBossBase entityboss  = new Entity_clay_doll_dopant(world);
+			 playerIn.sendStatusMessage(new TextComponentString(TextFormatting.YELLOW+"Claydoll!"), true);
+		entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+		world.spawnEntity(entityboss);
+		break;
+		}
+	case 3:
+		if (this.getAttackTarget()instanceof EntityPlayer){
+			 EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
+			 EntityBossBase entityboss  = new Entity_clay_doll_dopant(world);
+			 playerIn.sendStatusMessage(new TextComponentString(TextFormatting.YELLOW+"Claydoll!"), true);
+		entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+		world.spawnEntity(entityboss);
+		break;
+		}
+	case 2:
+		if (this.getAttackTarget()instanceof EntityPlayer){
+			 EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
+			 EntityBossBase entityboss  = new Entity_clay_doll_dopant(world);
+			 playerIn.sendStatusMessage(new TextComponentString(TextFormatting.YELLOW+"Claydoll!"), true);
+		entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+		world.spawnEntity(entityboss);
+		break;
+		}
+	case 1:
+	
+	this.dropItem(RiderItems.claydoll_memory, 1);
+	this.dropItem(RiderItems.gaiamemory, 4);
 	switch (this.rand.nextInt(3))
 	{   		   	    		
 	case 0:
-		this.dropItem(RiderItems.unrefined_memory_g, 1);
+		this.dropItem(RiderItems.unrefined_memory_g, 2);
 		break;
 		
 	case 1:
@@ -104,7 +138,7 @@ if (!this.world.isRemote){
 		
 	case 2:				
 		break;
-   		
+	}
 			}
    		}
     }

@@ -85,15 +85,7 @@ public class EntityBossBase extends EntityZombie
         return false;
     }
 	
-    /**
-     * Returns the item that this EntityLiving is holding, if any.
-     
-	@Override
-    public ItemStack getHeldItemMainhand()
-    {
-        return new ItemStack(RiderItems.drill_crusher);
-    }
-    */
+ 
 	
     protected void updateAITasks()
     {

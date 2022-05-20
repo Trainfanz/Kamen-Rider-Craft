@@ -165,6 +165,7 @@ import Kamen_Rider_Craft_4TH.model.ImaginSandModel;
 import Kamen_Rider_Craft_4TH.model.MobWithBeltModel;
 import Kamen_Rider_Craft_4TH.model.ModelAnkh;
 import Kamen_Rider_Craft_4TH.model.ModelPoppy;
+import Kamen_Rider_Craft_4TH.model.ModelTaboo;
 import Kamen_Rider_Craft_4TH.model.Model_Diago_Speedy;
 import Kamen_Rider_Craft_4TH.model.Model_Sakura_Hurricane;
 import Kamen_Rider_Craft_4TH.model.Model_accel_bike_form;
@@ -367,7 +368,7 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entity_clay_doll_dopant.class, new RenderRiderMob2(new tokuMobModel("clay_doll_dopant_2"), 0.5F,"textures/entities/clay_doll_dopant_1.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_nazca_dopant.class, new RenderRiderMob2(new tokuMobModel("nazca_dopant_2"), 0.5F,"textures/entities/nazca_dopant_1.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_red_nazca_dopant.class, new RenderRiderMob2(new tokuMobModel("red_nazca_dopant_2"), 0.5F,"textures/entities/red_nazca_dopant_1.png"));
-		RenderingRegistry.registerEntityRenderingHandler(Entity_taboo_dopant.class, new RenderRiderMob2(new tokuMobModel("taboo_dopant_2"), 0.5F,"textures/entities/taboo_dopant_1.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_taboo_dopant.class, new RenderRiderMob2(new ModelTaboo(), 0.5F,"textures/entities/taboo_dopant.png"));
 		
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityShimi.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/shimi.png"));

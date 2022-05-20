@@ -1512,6 +1512,8 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item engine_blade = new ItemBaseSword("engine_blade",Tabs.den_denso, RiderItems.gaiamemory).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 	public static Item bomb_magnum = new Item_gun("bomb_magnum",Tabs.den_dengu, RiderItems.gaiamemory).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
 	
+	public static Item nasca_blade = new ItemBaseSword("nasca_blade",Tabs.den_denso, RiderItems.gaiamemory).setMaxStackSize(1).setCreativeTab(Tabs.tabW);
+	
 	public static Item akiko_no_slipper = new Item_ore("akiko_no_slipper").setCreativeTab(Tabs.tabW);
 	
 	public static Item whead = new item_rider_armor("whead",item_Wdriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, gaiamemory).setCreativeTab(Tabs.tabW);

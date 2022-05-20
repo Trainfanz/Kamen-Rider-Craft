@@ -82,20 +82,40 @@ public class Entity_nazca_dopant extends EntityBossBase
         this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(4.0D);
         
     }
-
+	/**
+	 * Returns the item that this EntityLiving is holding, if any.
+	 */
+	@Override
+	public ItemStack getHeldItemMainhand()
+	{
+		return new ItemStack(RiderItems.nasca_blade);
+	}
  	protected boolean shouldBurnInDay()
     {
         return false;
     }
-    public void onDeath(DamageSource cause)
-    {
-if (!this.world.isRemote){
 
-   		//this.dropItem(RiderItems.blank_watch, 4);
-   		
-       }
-   }
+	public void onDeath(DamageSource cause)
+	{
+		if (!this.world.isRemote){
 
-
-}
-    
+			this.dropItem(RiderItems.nasca_memory, 1);
+			this.dropItem(RiderItems.gaiamemory, 4);
+			switch (this.rand.nextInt(3))
+			{   		   	    		
+			case 0:
+				this.dropItem(RiderItems.unrefined_memory_g, 2);
+				break;
+				
+			case 1:
+				this.dropItem(RiderItems.unrefined_memory_s, 2);
+				break;
+				
+			case 2:				
+				break;
+		   		
+					}
+		   		}
+		    }
+		} 
+		    

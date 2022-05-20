@@ -124,7 +124,13 @@ public class Entity_Arc_zero extends EntityBossBase
 		this.targetTasks.addTask(2, new EntityAINearestAttackableTarget(this, EntityPlayer.class, true));
 	}
 
-
+    /**
+     * Sets or removes EntityAIBreakDoor task
+     */
+    public void setBreakDoorsAItask(boolean enabled)
+    {
+       
+    }
 	public void onEntityUpdate(){
 		super.onEntityUpdate();
 
