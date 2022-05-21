@@ -247,11 +247,11 @@ public class ShowaRiderItems {
 			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
 			).setCreativeTab(Tabs.tabblack_rx);
 
-	public static Item bio_rider = new Item_form_change("bio_rider",item_rider_driver.class,sunriser_rr,"_bio_rider","black_rx"
+	public static Item bio_rider = new Item_form_change("bio_rider",item_rider_driver.class,sunriser_br,"_bio_rider","black_rx"
 			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.NIGHT_VISION,20, 1,true,false),
 			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false)).setCreativeTab(Tabs.tabblack_rx);
 
-	public static Item robo_rider = new Item_form_change("robo_rider",item_rider_driver.class,sunriser_br,"_robo_rider","black_rx"
+	public static Item robo_rider = new Item_form_change("robo_rider",item_rider_driver.class,sunriser_rr,"_robo_rider","black_rx"
 			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.NIGHT_VISION,20, 1,true,false),
 			new PotionEffect(MobEffects.RESISTANCE,20, 2,true,false)).setCreativeTab(Tabs.tabblack_rx);
 
