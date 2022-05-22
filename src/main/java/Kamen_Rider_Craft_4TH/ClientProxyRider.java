@@ -87,10 +87,12 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_red_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_redyue;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_roshuo;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_shocker_riders;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_smilodon_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_storious;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_super_gingaoh;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_taboo_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_uva;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_weather_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_zooous;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_zooous_predator;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_abaddon_high;
@@ -369,6 +371,8 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entity_nazca_dopant.class, new RenderRiderMob2(new tokuMobModel("nazca_dopant_2"), 0.5F,"textures/entities/nazca_dopant_1.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_red_nazca_dopant.class, new RenderRiderMob2(new tokuMobModel("red_nazca_dopant_2"), 0.5F,"textures/entities/red_nazca_dopant_1.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_taboo_dopant.class, new RenderRiderMob2(new ModelTaboo(), 0.5F,"textures/entities/taboo_dopant.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_weather_dopant.class, new RenderRiderMob2(new tokuMobModel("weather_dopant_2"), 0.5F,"textures/entities/weather_dopant_1.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_smilodon_dopant.class, new RenderRiderMob2(new tokuMobModel("smilodon_dopant_2"), 0.5F,"textures/entities/smilodon_dopant_1.png"));
 		
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityShimi.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/shimi.png"));

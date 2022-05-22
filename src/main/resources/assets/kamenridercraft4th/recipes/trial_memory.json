@@ -2,12 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "BYR",
-    "III",
+    "IwI",
     " M "
   ],
   "key": {
     "I": {
       "item": "minecraft:IRON_INGOT"
+    }, "w": {
+      "item": "kamenridercraft4th:weather_memory"
     }, "M": {
       "item": "kamenridercraft4th:trial_memory_un"
     }, "B": {

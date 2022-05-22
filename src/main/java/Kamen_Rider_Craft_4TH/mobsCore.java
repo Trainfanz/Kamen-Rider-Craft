@@ -81,10 +81,12 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_red_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_redyue;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_roshuo;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_shocker_riders;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_smilodon_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_storious;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_super_gingaoh;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_taboo_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_uva;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_weather_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_zooous;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_zooous_predator;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_abaddon_high;
@@ -418,6 +420,8 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":NazcaDopantMob"),Entity_nazca_dopant.class, "NazcaDopantMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x161616,0x0092BB);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":RedNazcaDopantMob"),Entity_red_nazca_dopant.class, "RedNazcaDopantMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x161616,0x0092BB);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":TabooDopantMob"),Entity_taboo_dopant.class, "TabooDopantMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x161616,0x0092BB);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":weatherDopantMob"),Entity_weather_dopant.class, "weatherDopantMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xffffff,0xc1c1c1);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":smilodonDopantMob"),Entity_smilodon_dopant.class, "smilodonDopantMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xc7b372,0x727272);
 
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":super_gingaohMob"),Entity_super_gingaoh.class, "super_gingaohMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x191b32,0x9e6f00);
 
