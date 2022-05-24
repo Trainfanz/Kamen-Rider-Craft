@@ -170,7 +170,9 @@ public class RiderBlocks {
 	public static Block fangire_glass = new rider_glass_block("fangire_glass",Material.GLASS).setCreativeTab(Tabs.tabdecor);
 	public static Block wallplate = CustomBlock.builder().material(Material.IRON).hardness(9.9F).harvestLevel("pickaxe", 2).name("wallplate").setCreativeTabe(Tabs.tabdecor).build();
 
-
+	public static Block taddle_wall = CustomBlock.builder().material(Material.ROCK).hardness(1F).blockType(BlockType.BASIC).name("taddle_wall").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block taddle_brick = CustomBlock.builder().material(Material.ROCK).hardness(1F).blockType(BlockType.BASIC).name("taddle_brick").setCreativeTabe(Tabs.tabdecor).build();
+	
 	public static Block gaia_memory_refiner = new gaia_memory_refiner_block("gaia_memory_refiner",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabW);
 	
 	public static Block cell_medal_programer = new cell_medal_programer_block("cell_medal_programer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabOOO);
