@@ -457,6 +457,9 @@ public class ReiwaRiderItems {
 	public static Item lovekov_kujaku = new ItemBaseSword("lovekov_kujaku",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item lovekov_turtle = new Item_gun("lovekov_turtle",Tabs.den_dengu, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	
+	public static Item needle_kunai = new ItemBaseSword("needle_kunai",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+
+	
 	public static Item giff_junior_sword = new Item_sword_gun("giff_junior_sword",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 
 	public static Item vice_jackal_genome = new Item_ore("vice_jackal_genome");
@@ -477,6 +480,7 @@ public class ReiwaRiderItems {
 	public static Item over_demons_driver = new item_revicedriver("over_demons_driver",ArmorMaterial.DIAMOND, 4, "over_demons",24).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	
 	public static Item libera_driver = new item_revicedriver("libera_driver",ArmorMaterial.DIAMOND, 4, "jeanne",18).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	public static Item week_endriver = new item_revicedriver("week_endriver",ArmorMaterial.DIAMOND, 4, "aguilera",25).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	
 	
 	public static Item rex_vistamp = new Item_Vistamps(0,"rex_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(7).setCreativeTab(Tabs.tabrevice);

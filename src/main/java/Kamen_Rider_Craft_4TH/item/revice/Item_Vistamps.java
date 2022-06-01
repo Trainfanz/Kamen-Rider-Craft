@@ -44,7 +44,7 @@ public class Item_Vistamps extends Item implements IHasModel
 	public boolean CanDemonsUse = false;
 	
 	public static String[] ARMS= new String[] {"base","eagle","mammoth","megalodon","ptera","lion","jackal","kong","kamakiri","brachio","kajiki"
-			,"bat","spider","batta","mogura","turtle","scorpion","condor","cobra","white_leo","quetzalcoatlus","neo_batta","kangaroo","kabuto","kuwagata","","","","","",""
+			,"bat","spider","batta","mogura","turtle","scorpion","condor","cobra","white_leo","quetzalcoatlus","neo_batta","kangaroo","kabuto","kuwagata","queen_bee","","","","",""
 			,"","","","","","","","","","","","","","","","","","","","","","","","","",""};
 
 
