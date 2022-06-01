@@ -11,8 +11,6 @@ public class decor_block extends Block implements IHasModel {
 	public decor_block(String string, Material par3Material,int lv) {
 		super(par3Material);
 		this.setHarvestLevel("pickaxe", lv);
-		setHardness(9.9F);
-		setLightLevel(0.1f);
 		setTranslationKey(string);
 		setRegistryName(string);
 
