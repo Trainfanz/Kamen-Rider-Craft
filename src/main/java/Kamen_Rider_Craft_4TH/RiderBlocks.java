@@ -173,6 +173,10 @@ public class RiderBlocks {
 	public static Block taddle_wall = CustomBlock.builder().material(Material.ROCK).hardness(1F).blockType(BlockType.BASIC).name("taddle_wall").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block taddle_brick = CustomBlock.builder().material(Material.ROCK).hardness(1F).blockType(BlockType.BASIC).name("taddle_brick").setCreativeTabe(Tabs.tabdecor).build();
 	
+	public static Block bang_bang_drum = CustomBlock.builder().material(Material.ROCK).hardness(9.9F).harvestLevel("pickaxe", 2).name("bang_bang_drum").setCreativeTabe(Tabs.tabdecor).build();
+	
+	public static Block bakusou_trophy = CustomBlock.builder().material(Material.ROCK).hardness(9.9F).harvestLevel("pickaxe", 2).name("bakusou_trophy").setCreativeTabe(Tabs.tabdecor).build();
+	
 	public static Block gaia_memory_refiner = new gaia_memory_refiner_block("gaia_memory_refiner",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabW);
 	
 	public static Block cell_medal_programer = new cell_medal_programer_block("cell_medal_programer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabOOO);
@@ -180,6 +184,7 @@ public class RiderBlocks {
 	
 	public static Block gamecreator = new GameCreatorBlock("gamecreator",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabex_aid);
 	public static Block ganbarizing = new ganbarizing_block("ganbarizing",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabex_aid);
+	
 	public static Block pandorabox = new pandora_box_block("pandorabox",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
 	public static Block purifyer = new purifyer_block("purifyer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);
 	public static Block solidifyer = new solidifyer_block("solidifyer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabbuild);

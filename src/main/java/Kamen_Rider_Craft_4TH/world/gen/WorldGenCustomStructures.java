@@ -19,6 +19,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldType;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.world.biome.BiomeDesert;
 import net.minecraft.world.biome.BiomeForest;
 import net.minecraft.world.biome.BiomeHell;
 import net.minecraft.world.biome.BiomeHellDecorator;
@@ -65,6 +66,9 @@ public class WorldGenCustomStructures implements IWorldGenerator
 	public static final WorldGenStructure day_brake_town = new WorldGenStructure("day_brake_town");
 	
 	public static final WorldGenStructure mighty_action_x = new WorldGenStructure("mighty_action_x");
+	public static final WorldGenStructure taddle_quest = new WorldGenStructure("taddle_quest");
+	public static final WorldGenStructure bang_bang_shooting = new WorldGenStructure("bang_bang_shooting");
+	public static final WorldGenStructure bakusou_bike = new WorldGenStructure("bakusou_bike");
 	
 	public static final WorldGenStructure northern_base = new WorldGenStructure("northern_base");
 	
@@ -86,7 +90,10 @@ public class WorldGenCustomStructures implements IWorldGenerator
 				generateStructure(PANDORA_TOWER, world, random, chunkX, chunkZ,-1, 1500, Blocks.DIRT, BiomePlains.class,BiomeSavanna.class,BiomeForest.class,BiomeHills.class);
 				generateStructure(HELHEIM_CRACK, world, random, chunkX, chunkZ,-1, 500, Blocks.DIRT, BiomePlains.class,BiomeMesa.class,BiomeForest.class,BiomeJungle.class);
 				generateStructure(day_brake_town, world, random, chunkX, chunkZ,5, 1000, Blocks.DIRT, BiomePlains.class,BiomeSavanna.class,BiomeForest.class,BiomeSwamp.class);
-				generateStructure(mighty_action_x, world, random, chunkX, chunkZ,-1, 1000, Blocks.DIRT, BiomePlains.class,BiomeSavanna.class,BiomeForest.class,BiomeSwamp.class);
+				generateStructure(mighty_action_x, world, random, chunkX, chunkZ,-1, 1000, Blocks.SAND, BiomeDesert.class);
+				generateStructure(taddle_quest, world, random, chunkX, chunkZ,-1, 1000, Blocks.DIRT, BiomeSavanna.class);
+				generateStructure(bang_bang_shooting, world, random, chunkX, chunkZ,-1, 1000, Blocks.DIRT, BiomeForest.class);
+				generateStructure(bakusou_bike, world, random, chunkX, chunkZ,-1, 1000, Blocks.DIRT, BiomePlains.class);
 				
 				generateStructureFlames(GINGA, world, random, chunkX, chunkZ,1, 800, Blocks.STONE, BiomeHills.class);
 				

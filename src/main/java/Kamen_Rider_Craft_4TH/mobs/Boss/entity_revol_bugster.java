@@ -63,11 +63,11 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.DifficultyInstance;
 import net.minecraft.world.World;
 
-public class entity_salty_bugster extends EntityBossBase
+public class entity_revol_bugster extends EntityBossBase
 //implements IBossDisplayData
 {
     
-	public entity_salty_bugster(World par1World)
+	public entity_revol_bugster(World par1World)
 	{
 		super(par1World);
 		
@@ -93,7 +93,7 @@ public class entity_salty_bugster extends EntityBossBase
     {
     	if (!this.world.isRemote)
     	{
-    		this.dropItem(RiderItems.mighty_action_x_gasha_trophy, 1);
+    		this.dropItem(RiderItems.bang_bang_shooting_gasha_trophy, 1);
     		this.dropItem(RiderItems.blank_gashat, 5);
     	}   
     }

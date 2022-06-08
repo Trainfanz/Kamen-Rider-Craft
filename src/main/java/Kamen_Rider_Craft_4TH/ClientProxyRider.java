@@ -105,6 +105,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.entity_eden;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_killbus;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_metal_build;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_raider;
+import Kamen_Rider_Craft_4TH.mobs.Boss.entity_revol_bugster;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_salty_bugster;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_serval_tiger_sold_magia;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_storious_rider;
@@ -143,6 +144,7 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityred_follower;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entityshocker_combatman;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_abaddon_low;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_ari_commando;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_bang_bang_bugster;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_battle_raider;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_black_satan_soldier;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.entity_chap;
@@ -337,6 +339,8 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(entity_salty_bugster.class, new RenderRiderMob2(new tokuMobModel("salty_bugster_2"), 0.5F,"textures/entities/salty_bugster_1.png"));
 		RenderingRegistry.registerEntityRenderingHandler(entity_taddle_bugster.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/taddle_bugster_virus.png"));
 		RenderingRegistry.registerEntityRenderingHandler(entity_aranbura_bugster.class, new RenderRiderMob2(new tokuMobModel("aranbura_bugster_2"), 0.5F,"textures/entities/aranbura_bugster_1.png"));
+		RenderingRegistry.registerEntityRenderingHandler(entity_bang_bang_bugster.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/bang_bang_bugster_virus.png"));
+		RenderingRegistry.registerEntityRenderingHandler(entity_revol_bugster.class, new RenderRiderMob2(new tokuMobModel("revol_bugster_2"), 0.5F,"textures/entities/revol_bugster_1.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_another_build.class, new RenderRiderMob2(new tokuMobModel("another_build2"), 0.5F,"textures/entities/another_build.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_kodama_suika_arms.class, new RenderRiderMob2(new Model_kodama_suika_arms(), 0.5F,"textures/entities/kodama_suika_arms.png"));

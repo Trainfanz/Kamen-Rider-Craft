@@ -2811,6 +2811,57 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item lazer_bike = new item_bikes("lazer_bike",EntityLazer::new).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 	public static Item bike_gamer = new item_bikes("bike_gamer",EntityExaidBike::new).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 	
+	public static Item speed_energy_item = new Item_ore("speed_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item iron_energy_item = new Item_ore("iron_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item instigate_energy_item = new Item_ore("instigate_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item jump_energy_item = new Item_ore("jump_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item muscle_energy_item = new Item_ore("muscle_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item shrink_energy_item = new Item_ore("shrink_energy_item").setCreativeTab(Tabs.tabex_aid);
+	
+	public static Item christmas_energy_item = new Item_ore("christmas_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item stretch_energy_item = new Item_ore("stretch_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item invisible_energy_item = new Item_ore("invisible_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item confusion_energy_item = new Item_ore("confusion_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item recover_energy_item = new Item_ore("recover_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item seperation_energy_item = new Item_ore("seperation_energy_item").setCreativeTab(Tabs.tabex_aid);
+	
+	public static Item emission_energy_item = new Item_ore("emission_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item reflect_energy_item = new Item_ore("reflect_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item save_energy_item = new Item_ore("save_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item reverse_energy_item = new Item_ore("reverse_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item giant_energy_item = new Item_ore("giant_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item disguise_energy_item = new Item_ore("disguise_energy_item").setCreativeTab(Tabs.tabex_aid);
+	
+	public static Item liquid_energy_item = new Item_ore("liquid_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item dark_energy_item = new Item_ore("dark_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item sleep_energy_item = new Item_ore("sleep_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item lucky_energy_item = new Item_ore("lucky_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item flatten_energy_item = new Item_ore("flatten_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item balloon_energy_item = new Item_ore("balloon_energy_item").setCreativeTab(Tabs.tabex_aid);
+	
+	public static Item gag_energy_item = new Item_ore("gag_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item fascination_energy_item = new Item_ore("fascination_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item partner_energy_item = new Item_ore("partner_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item prediction_energy_item = new Item_ore("prediction_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item halt_energy_item = new Item_ore("halt_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item end_energy_item = new Item_ore("end_energy_item").setCreativeTab(Tabs.tabex_aid);
+	
+	public static Item random_energy_item = new Item_ore("random_energy_item").setCreativeTab(Tabs.tabex_aid);
+	
+	public static Item mighty_action_x_gasha_trophy = new Item_ore("mighty_action_x_gasha_trophy").setCreativeTab(Tabs.tabex_aid);
+	public static Item taddle_quest_gasha_trophy = new Item_ore("taddle_quest_gasha_trophy").setCreativeTab(Tabs.tabex_aid);
+	public static Item bang_bang_shooting_gasha_trophy = new Item_ore("bang_bang_shooting_gasha_trophy").setCreativeTab(Tabs.tabex_aid);
+	public static Item bakusou_bike_gasha_trophy = new Item_ore("bakusou_bike_gasha_trophy").setCreativeTab(Tabs.tabex_aid);
+	public static Item shakariki_sports_gasha_trophy = new Item_ore("shakariki_sports_gasha_trophy").setCreativeTab(Tabs.tabex_aid);
+	public static Item gekitotsu_robots_gasha_trophy = new Item_ore("gekitotsu_robots_gasha_trophy").setCreativeTab(Tabs.tabex_aid);
+	public static Item doremifa_beat_gasha_trophy = new Item_ore("doremifa_beat_gasha_trophy").setCreativeTab(Tabs.tabex_aid);
+	public static Item giri_giri_chambara_gasha_trophy = new Item_ore("giri_giri_chambara_gasha_trophy").setCreativeTab(Tabs.tabex_aid);
+	public static Item jet_combat_gasha_trophy = new Item_ore("jet_combat_gasha_trophy").setCreativeTab(Tabs.tabex_aid);
+	public static Item drago_knight_hunter_z_gasha_trophy = new Item_ore("drago_knight_hunter_z_gasha_trophy").setCreativeTab(Tabs.tabex_aid);
+	public static Item perfect_puzzle_gasha_trophy = new Item_ore("perfect_puzzle_gasha_trophy").setCreativeTab(Tabs.tabex_aid);
+	public static Item knockout_fighter_gasha_trophy = new Item_ore("knockout_fighter_gasha_trophy").setCreativeTab(Tabs.tabex_aid);
+	public static Item toki_meki_crisis_gasha_trophy = new Item_ore("toki_meki_crisis_gasha_trophy").setCreativeTab(Tabs.tabex_aid);
+	
 	public static Item gamer_driver_robots = new Item_ore("gamer_driver_robots");
 	public static Item gamer_driver_protorobots = new Item_ore("gamer_driver_protorobots");
 	public static Item gamer_driver_doremifa = new Item_ore("gamer_driver_doremifa");

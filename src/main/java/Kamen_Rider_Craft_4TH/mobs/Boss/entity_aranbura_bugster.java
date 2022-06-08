@@ -93,7 +93,7 @@ public class entity_aranbura_bugster extends EntityBossBase
     {
     	if (!this.world.isRemote)
     	{
-    		this.dropItem(RiderItems.taddle_quest_gashat, 1);
+    		this.dropItem(RiderItems.taddle_quest_gasha_trophy, 1);
     		this.dropItem(RiderItems.blank_gashat, 5);
     	}   
     }
