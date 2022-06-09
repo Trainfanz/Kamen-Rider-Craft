@@ -7,6 +7,7 @@ import Kamen_Rider_Craft_4TH.blocks.custom.CustomBlock;
 import Kamen_Rider_Craft_4TH.item.*;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.Item_gashacon_breaker;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.Item_gashat;
+import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_ex_aid_energy_item;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_ex_aiddriver;
 import Kamen_Rider_Craft_4TH.item.Ex_Aid.item_poppy_gashat;
 import Kamen_Rider_Craft_4TH.item.GoRider.item_GoRiderTyphoon;
@@ -2811,42 +2812,52 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item lazer_bike = new item_bikes("lazer_bike",EntityLazer::new).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 	public static Item bike_gamer = new item_bikes("bike_gamer",EntityExaidBike::new).setMaxStackSize(1).setCreativeTab(Tabs.tabex_aid);
 	
-	public static Item speed_energy_item = new Item_ore("speed_energy_item").setCreativeTab(Tabs.tabex_aid);
-	public static Item iron_energy_item = new Item_ore("iron_energy_item").setCreativeTab(Tabs.tabex_aid);
-	public static Item instigate_energy_item = new Item_ore("instigate_energy_item").setCreativeTab(Tabs.tabex_aid);
-	public static Item jump_energy_item = new Item_ore("jump_energy_item").setCreativeTab(Tabs.tabex_aid);
-	public static Item muscle_energy_item = new Item_ore("muscle_energy_item").setCreativeTab(Tabs.tabex_aid);
-	public static Item shrink_energy_item = new Item_ore("shrink_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item speed_energy_item = new item_ex_aid_energy_item("speed_energy_item",new PotionEffect(MobEffects.SPEED, 500, 20,true,false)).setCreativeTab(Tabs.tabex_aid);
+	public static Item iron_energy_item = new item_ex_aid_energy_item("iron_energy_item",new PotionEffect(MobEffects.RESISTANCE, 500, 5,true,false)).setCreativeTab(Tabs.tabex_aid);
+	public static Item instigate_energy_item = new item_ex_aid_energy_item("instigate_energy_item",new PotionEffect(MobEffects.GLOWING, 500, 0,true,false)).setCreativeTab(Tabs.tabex_aid);
+	public static Item jump_energy_item = new item_ex_aid_energy_item("jump_energy_item",new PotionEffect(MobEffects.JUMP_BOOST, 500, 10,true,false)).setCreativeTab(Tabs.tabex_aid);
+	public static Item muscle_energy_item = new item_ex_aid_energy_item("muscle_energy_item",new PotionEffect(MobEffects.STRENGTH, 500, 5,true,false)).setCreativeTab(Tabs.tabex_aid);
+	public static Item recover_energy_item = new item_ex_aid_energy_item("recover_energy_item",new PotionEffect(MobEffects.INSTANT_HEALTH, 1, 10,true,false)).setCreativeTab(Tabs.tabex_aid);
+	public static Item shrink_energy_item = new item_ex_aid_energy_item("shrink_energy_item",new PotionEffect(PotionCore.SMALL_POTION, 500, 0,true,false)).setCreativeTab(Tabs.tabex_aid);
+	public static Item giant_energy_item = new item_ex_aid_energy_item("giant_energy_item",new PotionEffect(PotionCore.BIG_POTION, 500, 0,true,false)).setCreativeTab(Tabs.tabex_aid);
+	public static Item invisible_energy_item = new item_ex_aid_energy_item("invisible_energy_item",new PotionEffect(MobEffects.INVISIBILITY, 500, 0,true,false)).setCreativeTab(Tabs.tabex_aid);
+	public static Item confusion_energy_item = new item_ex_aid_energy_item("confusion_energy_item",new PotionEffect(MobEffects.NAUSEA, 500, 0,true,false)).setCreativeTab(Tabs.tabex_aid);
 	
 	public static Item christmas_energy_item = new Item_ore("christmas_energy_item").setCreativeTab(Tabs.tabex_aid);
-	public static Item stretch_energy_item = new Item_ore("stretch_energy_item").setCreativeTab(Tabs.tabex_aid);
-	public static Item invisible_energy_item = new Item_ore("invisible_energy_item").setCreativeTab(Tabs.tabex_aid);
-	public static Item confusion_energy_item = new Item_ore("confusion_energy_item").setCreativeTab(Tabs.tabex_aid);
-	public static Item recover_energy_item = new Item_ore("recover_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item emission_energy_item  = new item_ex_aid_energy_item("emission_energy_item",new PotionEffect(MobEffects.NIGHT_VISION, 1000, 0,true,false)).setCreativeTab(Tabs.tabex_aid);
+	public static Item liquid_energy_item = new item_ex_aid_energy_item("liquid_energy_item",new PotionEffect(MobEffects.WATER_BREATHING, 1000, 0,true,false)).setCreativeTab(Tabs.tabex_aid);
+
 	public static Item seperation_energy_item = new Item_ore("seperation_energy_item").setCreativeTab(Tabs.tabex_aid);
-	
-	public static Item emission_energy_item = new Item_ore("emission_energy_item").setCreativeTab(Tabs.tabex_aid);
-	public static Item reflect_energy_item = new Item_ore("reflect_energy_item").setCreativeTab(Tabs.tabex_aid);
-	public static Item save_energy_item = new Item_ore("save_energy_item").setCreativeTab(Tabs.tabex_aid);
-	public static Item reverse_energy_item = new Item_ore("reverse_energy_item").setCreativeTab(Tabs.tabex_aid);
-	public static Item giant_energy_item = new Item_ore("giant_energy_item").setCreativeTab(Tabs.tabex_aid);
-	public static Item disguise_energy_item = new Item_ore("disguise_energy_item").setCreativeTab(Tabs.tabex_aid);
-	
-	public static Item liquid_energy_item = new Item_ore("liquid_energy_item").setCreativeTab(Tabs.tabex_aid);
-	public static Item dark_energy_item = new Item_ore("dark_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item dark_energy_item = new item_ex_aid_energy_item("dark_energy_item",new PotionEffect(MobEffects.BLINDNESS, 500, 0,true,false)).setCreativeTab(Tabs.tabex_aid);
+
+	public static Item stretch_energy_item = new Item_ore("stretch_energy_item").setCreativeTab(Tabs.tabex_aid);
 	public static Item sleep_energy_item = new Item_ore("sleep_energy_item").setCreativeTab(Tabs.tabex_aid);
-	public static Item lucky_energy_item = new Item_ore("lucky_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item reflect_energy_item = new Item_ore("reflect_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item reverse_energy_item  = new item_ex_aid_energy_item("reverse_energy_item",new PotionEffect(MobEffects.INSTANT_HEALTH, 1, 10,true,false)).setCreativeTab(Tabs.tabex_aid);
+	//Senior
+	public static Item lucky_energy_item = new item_ex_aid_energy_item("lucky_energy_item",new PotionEffect(MobEffects.LUCK, 500, 0,true,false)).setCreativeTab(Tabs.tabex_aid);
+	
 	public static Item flatten_energy_item = new Item_ore("flatten_energy_item").setCreativeTab(Tabs.tabex_aid);
 	public static Item balloon_energy_item = new Item_ore("balloon_energy_item").setCreativeTab(Tabs.tabex_aid);
-	
 	public static Item gag_energy_item = new Item_ore("gag_energy_item").setCreativeTab(Tabs.tabex_aid);
+	//Memory
+	//Desire
+	//Friendship
+	//Veteran
+	public static Item disguise_energy_item = new Item_ore("disguise_energy_item").setCreativeTab(Tabs.tabex_aid);
 	public static Item fascination_energy_item = new Item_ore("fascination_energy_item").setCreativeTab(Tabs.tabex_aid);
 	public static Item partner_energy_item = new Item_ore("partner_energy_item").setCreativeTab(Tabs.tabex_aid);
 	public static Item prediction_energy_item = new Item_ore("prediction_energy_item").setCreativeTab(Tabs.tabex_aid);
-	public static Item halt_energy_item = new Item_ore("halt_energy_item").setCreativeTab(Tabs.tabex_aid);
-	public static Item end_energy_item = new Item_ore("end_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item halt_energy_item = new item_ex_aid_energy_item("halt_energy_item",new PotionEffect(MobEffects.SLOWNESS, 500, 100,true,false)).setCreativeTab(Tabs.tabex_aid);
 	
+	public static Item end_energy_item = new Item_ore("end_energy_item").setCreativeTab(Tabs.tabex_aid);
+	//Succession
+	public static Item bug_energy_item = new item_ex_aid_energy_item("bug_energy_item",new PotionEffect(PotionCore.BUGSTER_POTION, 500, 0,true,false)).setCreativeTab(Tabs.tabex_aid);
+
 	public static Item random_energy_item = new Item_ore("random_energy_item").setCreativeTab(Tabs.tabex_aid);
+	public static Item save_energy_item = new Item_ore("save_energy_item").setCreativeTab(Tabs.tabex_aid);
+	//Continue
+	
 	
 	public static Item mighty_action_x_gasha_trophy = new Item_ore("mighty_action_x_gasha_trophy").setCreativeTab(Tabs.tabex_aid);
 	public static Item taddle_quest_gasha_trophy = new Item_ore("taddle_quest_gasha_trophy").setCreativeTab(Tabs.tabex_aid);

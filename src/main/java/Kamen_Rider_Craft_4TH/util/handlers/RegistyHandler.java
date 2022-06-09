@@ -11,6 +11,7 @@ import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.init.Items;
 import net.minecraft.init.MobEffects;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemSword;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.math.AxisAlignedBB;
@@ -57,6 +58,9 @@ public class RegistyHandler {
 	public static void onLivingUpate(TickEvent.PlayerTickEvent event) {
 		
 		
+		if(event.player.isPotionActive(PotionCore.ANTIPOISON_POTION)) {
+			event.player.removeActivePotionEffect(MobEffects.POISON);
+		}
 		
 		if(event.player.isPotionActive(PotionCore.PUNCH_BOOST_POTION)) {
 			if(event.player.getHeldItemMainhand().isEmpty()) {
@@ -64,6 +68,11 @@ public class RegistyHandler {
 			}
 		}
 		
+		if(event.player.isPotionActive(PotionCore.SLASH_POTION)) {
+			if(event.player.getHeldItemMainhand().getItem() instanceof ItemSword) {
+				event.player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,event.player.getActivePotionEffect(PotionCore.SLASH_POTION).getAmplifier(), 4,true,false));
+			}
+		}
 		
 		
 		

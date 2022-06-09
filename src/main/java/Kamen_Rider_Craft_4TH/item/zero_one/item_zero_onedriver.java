@@ -258,7 +258,7 @@ public class item_zero_onedriver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,4,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,4,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
-										player.removeActivePotionEffect(MobEffects.POISON);
+										player.addPotionEffect(new PotionEffect(PotionCore.ANTIPOISON_POTION, 25, 0,true,false));
 									}
 									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.shot_abaddo_riser||player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.slash_abaddo_riser)
 									{
@@ -443,7 +443,7 @@ public class item_zero_onedriver extends item_rider_driver
 									}
 									else if (form=="scorpion"){	
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,1,true,false));
-										player.removeActivePotionEffect(MobEffects.POISON);
+										player.addPotionEffect(new PotionEffect(PotionCore.ANTIPOISON_POTION, 25, 0,true,false));
 									}
 									else if (form=="giraffe"){	
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,1,true,false));
@@ -478,7 +478,7 @@ public class item_zero_onedriver extends item_rider_driver
 
 									}
 									else if (form=="spider"){	
-										player.removeActivePotionEffect(MobEffects.POISON);
+										player.addPotionEffect(new PotionEffect(PotionCore.ANTIPOISON_POTION, 25, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,2,true,false));
 									}
 									else if (form=="penguin"){	

@@ -105,11 +105,14 @@ public class item_saberdriver extends item_rider_driver
 							if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == ReiwaRiderItems.sabertroso){
 								if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == ReiwaRiderItems.saberhead){
 									ItemStack ItemStack = player.getItemStackFromSlot(EntityEquipmentSlot.FEET);
-
+									
+									player.addPotionEffect(new PotionEffect(PotionCore.SLASH_POTION, 5, 0,true,false));
+									
 									if (Rider == "buster"){
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));
 									}else if (Rider == "kenzan"){
+										
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 6,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 									}else if (Rider == "slash"){

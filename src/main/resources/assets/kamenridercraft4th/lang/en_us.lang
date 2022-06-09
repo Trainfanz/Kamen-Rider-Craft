@@ -177,6 +177,10 @@ effect.fire_punch=Fire Punch
 effect.punch_boost=Punch Boost
 effect.big=Enlarging
 
+effect.antipoison=Poison Resistance
+effect.bugster_virus=Bugster Virus
+effect.slash=Slash
+
 itemGroup.tabkuuga=Kamen Rider Kuuga
 itemGroup.tabagito=Kamen Rider Agito
 itemGroup.tabryuki=Kamen Rider Ryuki

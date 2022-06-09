@@ -35,11 +35,10 @@ public class giantHandler
 		if(event.player.isPotionActive(Potion.getPotionFromResourceLocation("supersentaicraft"+ ":" + "small"))) small = true;
 		
 		if(big&!small){
-			event.player.setInvisible(true);
+			
 				event.player.width= 0.6F* 4.0F;
 				event.player.height=1.8F* 3.0F;
 				event.player.eyeHeight=event.player.getDefaultEyeHeight()* 3.0F;
-				//event.player.setInvisible(true);
 				
 				final double d0 = (0.6F* 4.0) / 2.0D;
 				final AxisAlignedBB aabb = entity.getEntityBoundingBox();
@@ -48,7 +47,7 @@ public class giantHandler
 				
 		} else if(small&!big){
 		
-			event.player.setInvisible(true);
+
 			
 			event.player.width = 0.8F;
 			event.player.height =0.9F;
@@ -64,7 +63,6 @@ public class giantHandler
 			event.player.width = 0.6F;
 			event.player.height=1.8F;
 			event.player.eyeHeight=event.player.getDefaultEyeHeight();
-			event.player.setInvisible(event.player.isPotionActive(MobEffects.INVISIBILITY));
 			final double d0 = 0.8 / 2.0D;
 			final AxisAlignedBB aabb = entity.getEntityBoundingBox();
 			entity.setEntityBoundingBox(new AxisAlignedBB(entity.posX - d0, aabb.minY, entity.posZ - d0,
