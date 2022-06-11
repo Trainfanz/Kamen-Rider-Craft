@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "kamenridercraft4th:items/revice_driver",
-		"1": "kamenridercraft4th:items/revice_driver_rex",
+		"1": "kamenridercraft4th:items/revice_driver_white_leo",
 		"particle": "kamenridercraft4th:items/revice_driver"
 	},
 	"elements": [
@@ -306,85 +306,5 @@
 			"rotation": [0, -180, 0],
 			"translation": [0, 0, -1]
 		}
-	},
-    "overrides": [
-       
-        {
-            "predicate": {
-                "form": 1
-            },
-            "model": "kamenridercraft4th:item/revice_driver_barid_rex"
-        },{
-            "predicate": {
-                "pull": 1
-            },
-            "model": "kamenridercraft4th:item/revice_driver_eagle"
-        }, {
-            "predicate": {
-                "pull": 2
-            },
-            "model": "kamenridercraft4th:item/revice_driver_mammoth"
-        }, {
-            "predicate": {
-                "pull": 3
-            },
-            "model": "kamenridercraft4th:item/revice_driver_megalodon"
-        }, {
-            "predicate": {
-                "pull": 4
-            },
-            "model": "kamenridercraft4th:item/revice_driver_ptera"
-        }, {
-            "predicate": {
-                "pull": 5
-            },
-            "model": "kamenridercraft4th:item/revice_driver_lion"
-        }, {
-            "predicate": {
-                "pull": 6
-            },
-            "model": "kamenridercraft4th:item/revice_driver_jackal"
-        }, {
-            "predicate": {
-                "pull": 7
-            },
-            "model": "kamenridercraft4th:item/revice_driver_kong"
-        }, {
-            "predicate": {
-                "pull": 8
-            },
-            "model": "kamenridercraft4th:item/revice_driver_kamakiri"
-        }, {
-            "predicate": {
-                "pull": 9
-            },
-            "model": "kamenridercraft4th:item/revice_driver_brachio"
-        }, {
-            "predicate": {
-                "pull": 17
-            },
-            "model": "kamenridercraft4th:item/revice_driver_condor"
-        }, {
-            "predicate": {
-                "pull": 19
-            },
-            "model": "kamenridercraft4th:item/revice_driver_white_leo"
-        }, {
-            "predicate": {
-                "pull": 20
-            },
-            "model": "kamenridercraft4th:item/revice_driver_quetzalcoatlus"
-        }, {
-            "predicate": {
-                "pull": 21
-            },
-            "model": "kamenridercraft4th:item/revice_driver_neo_batta"
-        }, {
-            "predicate": {
-                "pull": 22
-            },
-            "model": "kamenridercraft4th:item/revice_driver_kangaroo"
-        }
-    ]
+	}
 }
-	

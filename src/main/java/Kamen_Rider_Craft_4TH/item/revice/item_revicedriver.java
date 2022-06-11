@@ -24,11 +24,13 @@ import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.MobEffects;
 import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.item.IItemPropertyGetter;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.potion.PotionEffect;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
@@ -58,6 +60,50 @@ public class item_revicedriver extends item_rider_driver
 		this.maxStackSize = 1;
 		Rider=rider;
 		DRIVER = driver;
+		
+		
+		  this.addPropertyOverride(new ResourceLocation("pull"), new IItemPropertyGetter()
+	        {
+	            @SideOnly(Side.CLIENT)
+	            public float apply(ItemStack stack, @Nullable World worldIn, @Nullable EntityLivingBase entityIn)
+	            {
+	      		  if (stack.getItem()== ReiwaRiderItems.revice_driver){
+	            	
+	            	if (!stack.hasTagCompound())
+	        		{
+	            		return DRIVER;
+	        		}else {
+	            		return stack.getTagCompound().getInteger("seed");
+					}
+	      			
+	            
+	      		  }else{
+	      			return 0;
+	      		  }
+	      		  }
+	        });
+		
+        this.addPropertyOverride(new ResourceLocation("form"), new IItemPropertyGetter()
+        {
+            @SideOnly(Side.CLIENT)
+            public float apply(ItemStack stack, @Nullable World worldIn, @Nullable EntityLivingBase entityIn)
+            {
+      		  if (stack.getItem()== ReiwaRiderItems.revice_driver){
+            	
+            	if (!stack.hasTagCompound())
+        		{
+            		return 0;
+        		}else {
+            		return item_revicedriver.get_core(stack, "1");
+				}
+      			
+            
+      		  }else{
+      			return 0;
+      		  }
+      		  }
+        });
+	
 	}
 	@SideOnly(Side.CLIENT)
 	public boolean hasEffect(ItemStack par1ItemStack)

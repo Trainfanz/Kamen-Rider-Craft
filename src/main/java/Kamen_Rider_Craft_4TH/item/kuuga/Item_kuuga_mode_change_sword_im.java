@@ -82,14 +82,4 @@ public class Item_kuuga_mode_change_sword_im extends ItemSword implements IHasMo
 	{
 		return RiderItems.kuuga_growing == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
-
-	
-  
-/**
-	@Override
-	public ModelResourceLocation getModel(ItemStack item, EntityPlayer playerIn, int useRemaining){
-
-		return new ModelResourceLocation(Refercence.MODID+":"+Imcharge.getUnlocalizedName().substring(5),"inventory");
-	}
-	**/
 }
