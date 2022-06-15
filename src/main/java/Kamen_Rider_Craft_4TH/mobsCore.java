@@ -52,6 +52,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_ankh_lost;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_another_build;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_bikaiser;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_clay_doll_dopant;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_commander_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_core;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_demushu;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_dodomagia;
@@ -435,6 +436,7 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":TabooDopantMob"),Entity_taboo_dopant.class, "TabooDopantMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x161616,0x0092BB);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":weatherDopantMob"),Entity_weather_dopant.class, "weatherDopantMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xffffff,0xc1c1c1);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":smilodonDopantMob"),Entity_smilodon_dopant.class, "smilodonDopantMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xc7b372,0x727272);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":commanderDopantMob"),Entity_commander_dopant.class, "commanderDopantMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x527753,0xc34d36);
 
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":super_gingaohMob"),Entity_super_gingaoh.class, "super_gingaohMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x191b32,0x9e6f00);
 

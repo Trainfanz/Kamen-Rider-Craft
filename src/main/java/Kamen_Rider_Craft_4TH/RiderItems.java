@@ -1635,7 +1635,11 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item unicorn_memory = new Item_ore("unicorn_memory").setCreativeTab(Tabs.tabW);
 	
 	public static Item magma_memory = new Item_ore("magma_memory").setCreativeTab(Tabs.tabW);
-	public static Item unicorn_memory_enhancing_adapter = new Item_ore("unicorn_memory_enhancing_adapter").setCreativeTab(Tabs.tabW);
+	public static Item unicorn_memory_enhancing_adapter = new Item_ore("unicorn_memory_enhancing_adapter").setContainerItem(unicorn_memory).setCreativeTab(Tabs.tabW);
+	
+	public static Item commander_memory = new Item_ore("commander_memory").setCreativeTab(Tabs.tabW);
+	public static Item commander_memory_enhancing_adapter = new Item_ore("commander_memory_enhancing_adapter").setContainerItem(commander_memory).setCreativeTab(Tabs.tabW);
+	
 	
 	public static Item memory_memory = new Item_ore("memory_memory").setCreativeTab(Tabs.tabW);
 	public static Item egg_chicken_memory = new Item_ore("egg_chicken_memory").setCreativeTab(Tabs.tabW);
