@@ -98,8 +98,10 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.entity_charybdis_hercules;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_desast;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_dire_wolf_sold_magia;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_eden;
+import Kamen_Rider_Craft_4TH.mobs.Boss.entity_gatton_bugster;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_killbus;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_metal_build;
+import Kamen_Rider_Craft_4TH.mobs.Boss.entity_motors_bugster;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_raider;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_revol_bugster;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_salty_bugster;
@@ -363,6 +365,8 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new ResourceLocation( Refercence.MODID+":AranburaBugsterMob"),entity_aranbura_bugster.class, "AranburaBugsterMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xd6d6d6,0xd90000);
 		EntityRegistry.registerModEntity(new ResourceLocation( Refercence.MODID+":BangBangBugsterMob"),entity_bang_bang_bugster.class, "BangBangBugsterMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xe88936,0x887b5c);
 		EntityRegistry.registerModEntity(new ResourceLocation( Refercence.MODID+":RevolBugsterMob"),entity_revol_bugster.class, "RevolBugsterMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x8f9ea5,0x989898);
+		EntityRegistry.registerModEntity(new ResourceLocation( Refercence.MODID+":MotorsBugsterMob"),entity_motors_bugster.class, "MotorsBugsterMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xc49e01,0x001c9c);
+		EntityRegistry.registerModEntity(new ResourceLocation( Refercence.MODID+":GattonBugsterMob"),entity_gatton_bugster.class, "GattonBugsterMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x9b0000,0xa800af);
 		
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":AnotherBuildMob"),Entity_another_build.class, "AnotherBuildMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x610101,0x0808d1);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":WhiteWozMob"),Entity_White_Woz.class, "WhiteWozMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xdadada, 0x7ffc40);
