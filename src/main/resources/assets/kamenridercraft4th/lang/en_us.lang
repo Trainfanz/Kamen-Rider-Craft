@@ -30,6 +30,9 @@ entity.greaseMob.name=Kamen Rider Grease
 entity.BuildMob.name=Kamen Rider Build (Full Potential)
 entity.kodama_suika_armsMob.name=Kodama Suika Arms
 entity.ClayDollDopantMob.name=Clay Doll Dopant
+entity.weatherDopantMob.name=Weather Dopant
+entity.smilodonDopantMob.name=Smilodon Dopant
+entity.commanderDopantMob.name=Commander Dopant
 entity.NazcaDopantMob.name=Nazca Dopant
 entity.RedNazcaDopantMob.name=R Nazca Dopant
 entity.TabooDopantMob.name=Taboo Dopant
@@ -645,6 +648,9 @@ item.engine_blade.name=Engine Blade
 item.shield_prism_bicker.name=Prism Bicker Shield
 item.bomb_magnum.name=Bomb Magnum
 
+item.nasca_blade.name=Nasca Blade
+item.akiko_no_slipper.name=Akiko No Slipper
+
 item.whead.name=W Helmet
 item.wtroso.name=W Chestplate
 item.wlegs.name=W Leggings
@@ -679,8 +685,37 @@ item.eternal_t2_memory.name=T2 Eternal Gaia Memory
 item.shippu_memory.name=Shippu Gaia Memory
 item.kirifuda_memory.name=Kirifuda Gaia Memory
 
-item.memory_memory.name=Memory Gaia Memory
-item.egg_chicken_memory.name=Egg & Chicken Gaia Memory
+item.memory_memory.name=Memory Memory
+item.egg_chicken_memory.name=Egg & Chicken Memory
+
+
+
+item.stag_memory.name=Stag Memory
+item.spider_memory.name=Spider Memory
+item.bat_memory.name=Bat Memory
+item.beetle_memory.name=Beetle Memory
+item.frog_memory.name=Frog Memory
+item.denden_memory.name=Denden Memory
+    
+item.terror_memory.name=Terror Memory
+item.taboo_memory.name=Taboo Memory
+item.claydoll_memory.name=Claydoll Memory
+item.nasca_memory.name=Nasca Memory
+item.smilodon_memory.name=Smilodon Memory
+item.weather_memory.name=Weather Memory
+item.quetzalcoatlus_memory.name=Quetzalcoatlus Memory
+item.quetzalcoatlus_memory_prototype.name=Quetzalcoatlus Memory (Copied prototype version)
+item.utopia_memory.name=Utopia Memory
+    
+item.unicorn_memory.name=Unicorn Memory
+    
+item.magma_memory.name=Magma Memory
+item.unicorn_memory_enhancing_adapter.name=Unicorn Memory With Booster
+    
+item.commander_memory.name=Commander Memory
+item.commander_memory_enhancing_adapter.name=Commander Memory With Booster
+    
+
 
 item.accel_memory.name=Accel Gaia Memory
 item.trial_memory.name=Trial Gaia Memory

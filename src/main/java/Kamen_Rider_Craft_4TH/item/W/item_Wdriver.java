@@ -213,7 +213,14 @@ public class item_Wdriver extends item_rider_driver
 
 										}else if (get_core(ItemStack,"1")==1){
 											player.addPotionEffect(new PotionEffect(MobEffects.WEAKNESS, 5, 0,true,false));
-										}	
+										}	if (get_core(ItemStack,"1")==2){
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 1,true,false));
+
+										}
 									}
 									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.lostdriver_cyclone){
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));

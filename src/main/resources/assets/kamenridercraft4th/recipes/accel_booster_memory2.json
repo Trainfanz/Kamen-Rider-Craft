@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:gaiamemory"
+    }, 
+    {
+      "item": "kamenridercraft4th:gaiamemory"
+    } , 
+    {
+      "item": "kamenridercraft4th:gaiamemory"
+    } , 
+    {
+      "item": "kamenridercraft4th:gaiamemory"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:pure_gaia_memory_block"
+  }
+}

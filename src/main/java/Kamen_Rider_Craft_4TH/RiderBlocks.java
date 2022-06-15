@@ -163,7 +163,7 @@ public class RiderBlocks {
 	public static Block sword_of_logos_wood_trim = CustomBlock.builder().material(Material.WOOD).hardness(1F).blockType(BlockType.DIRECTIONAL).name("sword_of_logos_wood_trim").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block planks_brown = CustomBlock.builder().material(Material.WOOD).blockType(BlockType.BASIC).hardness(1F).name("planks_brown").setCreativeTabe(Tabs.tabdecor).build();
 	
-	public static Block pure_gaia_memory_block = new rider_glass_block("pure_gaia_memory_block",Material.GLASS).setHardness(1F).setLightLevel(0.75f).setCreativeTab(Tabs.tabdecor);
+	public static Block pure_gaia_memory_block = new rider_glass_block("pure_gaia_memory_block",Material.GLASS).Drop_item(RiderItems.gaiamemory).setHardness(1F).setLightLevel(0.75f).setCreativeTab(Tabs.tabdecor);
 	
 	public static Block monitor = CustomBlock.builder().material(Material.IRON).hardness(9.9F).lightLevel(0.1F).harvestLevel("pickaxe", 2).blockType(BlockType.DIRECTIONAL).name("monitor").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block mighty_block = CustomBlock.builder().material(Material.IRON).hardness(9.9F).harvestLevel("pickaxe", 2).name("mighty_block").setCreativeTabe(Tabs.tabdecor).build();

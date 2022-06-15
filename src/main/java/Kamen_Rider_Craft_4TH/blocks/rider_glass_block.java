@@ -4,6 +4,7 @@ import java.util.Random;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.item.saber.Item_wonder_ride_book;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockBreakable;
@@ -22,6 +23,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class rider_glass_block extends Block implements IHasModel
 {
+	private Item CRYSTAL;
 
 	public rider_glass_block(String string,Material par3Material)
 	{
@@ -43,6 +45,24 @@ public class rider_glass_block extends Block implements IHasModel
 		return BlockRenderLayer.TRANSLUCENT;
 	}
 
+	/**
+	 * Returns the ID of the items to drop on destruction.
+	 */
+	@Override
+	public Item getItemDropped(IBlockState state, Random generator, int fortune){
+		if (CRYSTAL!=null){
+			return CRYSTAL;
+		}else{
+		return  super.getItemDropped(state, generator,  fortune);
+		}
+	}
+	
+	public rider_glass_block Drop_item(Item ore)
+	{
+		CRYSTAL = ore;
+		return this;
+	}
+	
 	/**
 	 * @deprecated call via {@link IBlockState#isFullCube()} whenever possible. Implementing/overriding is fine.
 	 */
@@ -66,7 +86,12 @@ public class rider_glass_block extends Block implements IHasModel
 	@Override
 	public int quantityDropped(Random random)
 	{
-		return 0;
+		if (CRYSTAL!=null){
+			return 4;
+		}else{
+			return 0;
+		}
+		
 	}
 	@Override
 	protected boolean canSilkHarvest()

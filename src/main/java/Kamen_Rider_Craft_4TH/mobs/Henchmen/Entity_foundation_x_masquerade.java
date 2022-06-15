@@ -8,6 +8,7 @@ import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityBossBase;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Eternal;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_clay_doll_dopant;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_commander_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_grease;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_muchiri;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_nazca_dopant;
@@ -67,6 +68,7 @@ public class Entity_foundation_x_masquerade extends Entity_base_henchmen
 				EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
 				EntityBossBase entityboss  = new Entity_muchiri(world);
 				EntityBossBase entityboss2  = new Entity_Eternal(world);
+				EntityBossBase entityboss3  = new Entity_commander_dopant(world);
 				switch (this.rand.nextInt(10))
 				{
 				case 0:
@@ -77,6 +79,11 @@ public class Entity_foundation_x_masquerade extends Entity_base_henchmen
 			 		playerIn.sendMessage( new TextComponentString(TextFormatting.YELLOW+"Eternal!"));
 			 		entityboss2.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
 			 		world.spawnEntity(entityboss2);
+			 		break;
+				case 2:
+			 		playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_GREEN+"Commander Upgrade!"));
+			 		entityboss3.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+			 		world.spawnEntity(entityboss3);
 			 		break;
 				}
 				switch (this.rand.nextInt(15))
