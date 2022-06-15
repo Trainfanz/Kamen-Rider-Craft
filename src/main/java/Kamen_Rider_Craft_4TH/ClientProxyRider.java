@@ -29,6 +29,7 @@ import Kamen_Rider_Craft_4TH.mobs.entity_tora_can;
 import Kamen_Rider_Craft_4TH.mobs.entity_tricera_can;
 import Kamen_Rider_Craft_4TH.mobs.entity_unagi_can;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityChronos;
+import Kamen_Rider_Craft_4TH.mobs.Boss.EntityTerror;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_giger;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Arc_zero;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_BloodStalk;
@@ -388,6 +389,8 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entity_weather_dopant.class, new RenderRiderMob2(new tokuMobModel("weather_dopant_2"), 0.5F,"textures/entities/weather_dopant_1.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_smilodon_dopant.class, new RenderRiderMob2(new tokuMobModel("smilodon_dopant_2"), 0.5F,"textures/entities/smilodon_dopant_1.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_commander_dopant.class, new RenderRiderMob2(new tokuMobModel("commander_dopant_2"), 0.5F,"textures/entities/commander_dopant_1.png"));
+		RenderingRegistry.registerEntityRenderingHandler(EntityTerror.class, new RenderRiderMob2(new tokuMobModel("terror_dopant_2"), 0.5F,"textures/entities/terror_dopant_1.png"));
+		
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityShimi.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/shimi.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_Calibur.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/calibur.png"));
