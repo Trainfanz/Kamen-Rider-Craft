@@ -186,6 +186,9 @@ public class RiderItems {
 	public static Item pegasus_bowgun = new Item_kuuga_mode_change_gun_im("pegasus_bowgun",Tabs.birth_buster).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
 	public static Item titan_sword = new Item_kuuga_mode_change_sword_im("titan_sword",Tabs.gashacon_sparrow_arrow).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
 
+	public static Item grand_gouram_rod = new ItemBaseSword("grand_gouram_rod",Tabs.den_denso, ShowaRiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabmisc);
+	
+	
 	public static Item arcle_r = new Item_ore("arcle_r");
 	public static Item arcle_b = new Item_ore("arcle_b");
 	public static Item arcle_gr = new Item_ore("arcle_gr");
@@ -440,7 +443,8 @@ public class RiderItems {
 	public static Item wing_lancer = new ItemBaseSword("wing_lancer",Tabs.den_denaxe, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
 
 	public static Item dark_blade = new ItemBaseSword("dark_blade",Tabs.denkamen_sword, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-
+	public static Item darkwing_sword = new ItemBaseSword("darkwing_sword",Tabs.denkamen_sword, ShowaRiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabmisc);
+	
 	public static Item scissors_visor = new Item_ore("scissors_visor").setCreativeTab(Tabs.tabryuki);
 	public static Item scissors_pincer = new ItemBaseSword("scissors_pincer",Tabs.den_denro, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
 	public static Item incisor_guard = new ItemBaseShield("incisor_guard", RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
