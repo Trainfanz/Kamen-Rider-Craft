@@ -11,6 +11,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Red_Poppy;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_genm;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_gatton_bugster;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_motors_bugster;
+import Kamen_Rider_Craft_4TH.mobs.Boss.entity_vernier_bugster;
 import net.minecraft.block.Block;
 
 import net.minecraft.entity.Entity;
@@ -73,6 +74,7 @@ public class EntityBugsterVirus extends Entity_base_henchmen
 				 EntityBossBase entityboss  = new Entity_genm(world);
 				 EntityBossBase entityboss1  = new entity_motors_bugster(world);
 				 EntityBossBase entityboss2  = new entity_gatton_bugster(world);
+				 EntityBossBase entityboss3  = new entity_vernier_bugster(world);
 			switch (this.rand.nextInt(25))
 			{
 			case 0:
@@ -87,6 +89,10 @@ public class EntityBugsterVirus extends Entity_base_henchmen
 			case 2:
 				entityboss2.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
 				world.spawnEntity(entityboss2);
+				break;
+			case 3:
+				entityboss3.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				world.spawnEntity(entityboss3);
 				break;
 	
 			}
