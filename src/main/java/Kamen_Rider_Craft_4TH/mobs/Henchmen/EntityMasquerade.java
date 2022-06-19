@@ -4,6 +4,7 @@ package Kamen_Rider_Craft_4TH.mobs.Henchmen;
 import java.util.Calendar;
 import java.util.UUID;
 
+import Kamen_Rider_Craft_4TH.RiderBlocks;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityBossBase;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_clay_doll_dopant;
@@ -95,7 +96,12 @@ public class EntityMasquerade extends Entity_base_henchmen
 			case 5:
 				this.dropItem(RiderItems.trigger_memory, 1);
 				break;		
+			case 6:
+				this.entityDropItem(new ItemStack(RiderBlocks.taboo_bossblock), 1);
+				break;
 			}
 		}
 	}
+
+
 }

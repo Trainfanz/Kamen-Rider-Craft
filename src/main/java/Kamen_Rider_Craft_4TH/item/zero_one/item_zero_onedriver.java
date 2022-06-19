@@ -169,6 +169,17 @@ public class item_zero_onedriver extends item_rider_driver
 		itemstack.getTagCompound().setInteger("eftTime", flag);
 	}
 
+	public static String GetRider(EntityLivingBase player)
+	{
+		String rider = ((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider;
+
+		if (rider=="thouser"&player.isPotionActive(PotionCore.BUGSTER_POTION)){
+			rider="zaia";
+		}
+		return rider;
+	}
+
+	
 	public static int get_core(ItemStack itemstack,String slot)
 	{
 		return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("core"+slot) : 0;
@@ -603,8 +614,7 @@ public class item_zero_onedriver extends item_rider_driver
 			if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
 				if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_rider_driver){
 					item_rider_driver belt =((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem());
-					String rider = ((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider;
-
+					String rider = GetRider(player);
 					if (num==1||num==2||num==5||num==7||num==3||num==6||num==8){
 						if (item_zero_onedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="mammoth"){
 							return Refercence.MODID+":textures/armor/blank.png";

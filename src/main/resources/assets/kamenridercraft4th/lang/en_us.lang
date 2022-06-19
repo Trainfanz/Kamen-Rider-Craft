@@ -32,6 +32,7 @@ entity.kodama_suika_armsMob.name=Kodama Suika Arms
 entity.ClayDollDopantMob.name=Clay Doll Dopant
 entity.weatherDopantMob.name=Weather Dopant
 entity.smilodonDopantMob.name=Smilodon Dopant
+entity.TerrorDopantMob.name=Terror Dopant
 entity.commanderDopantMob.name=Commander Dopant
 entity.NazcaDopantMob.name=Nazca Dopant
 entity.RedNazcaDopantMob.name=R Nazca Dopant
@@ -296,6 +297,8 @@ tile.core_boss_block.name=Core Block
 tile.power_up_core_boss_block.name=Powered Up Core Block
 tile.poseidon_boss_block.name=Poseidon Block
 tile.pure_gaia_memory_block.name=Pure Gaia Memory Block
+tile.taboo_bossblock.name=Taboo Block
+tile.terror_boss_block.name=Terror Block
 
 tile.cell_medal_programer.name=Cell Medal Programer
 tile.vistamp_bar.name=Vistamp Bar
@@ -461,6 +464,7 @@ item.medajalibur_charge.name=Medajalibur (Triple Scanning Charge)
 
 item.tajaspinner.name=Tajaspinner
 item.medagaburyu.name=Medagaburyu
+item.tajaspinner_eternity.name=Tajanityspinner
 
 item.birth_buster.name=Birth Buster
 item.deepest_harpoon.name=Deepest Harpoon
@@ -538,6 +542,10 @@ item.ushi.name=Ushi Core Medal
 item.penguin.name=Penguin Core Medal
 item.ari.name=Ari Core Medal
 item.ebi_new.name=New Ebi Core Medal
+
+item.taka_eternity.name=Taka Eternity Core Medal
+item.kujaku_eternity.name=Kujaku Eternity Core Medal
+item.condor_eternity.name=Condor Eternity Core Medal
 
 item.same.name=Same Core Medal
 item.kujira.name=Kujira Core Medal
@@ -1008,6 +1016,10 @@ item.drivelegs.name=Drive Leggings
 item.drivedriver.name=Drive Driver
 item.drivedriverbrain.name=Drive Driver (Brain)
 
+item.proto_drivedriver.name=Drive Driver (Proto Drive)
+item.drivedriver_dark.name=Drive Driver (Dark Drive)
+item.drivedriverhart.name=Drive Driver (Hart)
+
 item.speedshift.name=Shift Speed
 item.wildshift.name=Shift Wild
 item.speedwildtechnicshift.name=Shift Speed Wild Technic
@@ -1107,14 +1119,12 @@ item.reydriver.name=Rey Belt
 
 item.kivaladriver.name=Kivala Belt
 
-
-
-
 item.wakeupfuestle.name=Wakeup Fuestle
 item.garulufuestle.name=Garulu Fuestle
 item.basshaafuestle.name=Basshaa Fuestle
 item.doggafuestle.name=Dogga Fuestle
 item.tatsulot.name=Tatsulot
+item.kiva_says_fuestle.name=Kiva Says Fuestle
 
 item.knucklefuestle.name=Knuckle Fuestle
 item.risingfuestle.name=Riser Fuestle
@@ -1320,6 +1330,7 @@ item.slash_visor.name=Slash Visor
 item.contract_advent.name=Contract Card
 item.dragreder_advent.name=Dragreder Advent Card
 item.survive_advent.name=Survive Card
+item.survive_ryuki_advent_black.name=Black Survive Card
 
 item.darkwing_advent.name=Darkwing Advent
 item.volcancer_advent.name=Volcancer Advent
@@ -1637,6 +1648,8 @@ item.signal_tomarle.name=Signal Tomarle
 item.signal_kikern.name=Signal Kikern
 
 item.mach_driver_honoh.name=Mach Driver Honoh
+item.mach_driver_honoh_chaser.name=Mach Driver Honoh (Chaser)
+item.mach_driver_honoh_drive.name=Mach Driver Honoh (Drive)
 
 item.kuugahead.name=Kuuga Helmet
 item.kuugatroso.name=Kuuga Chestplate
@@ -1957,6 +1970,11 @@ item.glegs.name=G Leggings
 item.goro_wine_bottle.name=Goro Wine Bottle
 
 item.typhoon_core.name=Typhoon Core
+item.original_typhoon_core.name=Typhoon Core (Original)
+item.sakurajima_typhoon_core.name=Typhoon Core (Sakurajima)
+item.new_typhoon_core.name=Power Up Typhoon Core
+
+
 item.double_typhoon_core.name=Double Typhoon Core
 item.riderman_belt_core.name=Riderman Belt Core
 item.ridol_core.name=Ridol Core
@@ -2720,6 +2738,7 @@ item.zaia_slashriser_jin.name=ZAIA SlashRiser (Jin)
 
 item.ark_driver_zero.name=Ark Driver-Zero (Ark-Zero)
 item.hiden_zero_one_driver_azu.name=Hiden Zero One Driver (Ark Zero-One)
+item.ark_driver_thouser_arc.name=Ark Driver-Zero (Thousand Ark)
 
 item.eden_driver.name=Eden Driver (Eden)
 item.lucifer_driver.name=Eden Driver (Lucifer)
@@ -2768,105 +2787,108 @@ item.progrise_hopper_blade.name=Progrise Hopper Blade
 item.progrise_hopper_blade_naginata.name=Progrise Hopper Blade (Naginata)
 item.thousand_jacker.name=Thousand Jacker	
 
-item.rising_hopper_progrise_key.name=Rising Hopper Progrise Key
-item.shining_hopper_progrise_key.name=Shining Hopper Progrise Key
-item.shining_assault_hopper_progrise_key.name=Shining Assault Hopper Progrise Key
-item.metalcluster_hopper_progrise_key.name=MetalCluster Hopper Progrise Key
-item.zero_two_progrise_key.name=Zero-Two Progrise Key
-item.red_rising_hopper_progrise_key.name=Red Rising Hopper Progrise Key
-item.hell_hopper_progrise_key.name=Hellrise Progrise Key
+item.rising_hopper_progrise_key.name=Rising Hopper Progrisekey
+item.shining_hopper_progrise_key.name=Shining Hopper Progrisekey
+item.shining_assault_hopper_progrise_key.name=Shining Assault Hopper Progrisekey
+item.metalcluster_hopper_progrise_key.name=MetalCluster Hopper Progrisekey
+item.zero_two_progrise_key.name=Zero-Two Progrisekey
+item.red_rising_hopper_progrise_key.name=Red Rising Hopper Progrisekey
+item.hell_hopper_progrise_key.name=Hellrise Progrisekey
 
-item.biting_shark_progrise_key.name=Biting Shark Progrise Key
-item.flaming_tiger_progrise_key.name=Flaming Tiger Progrise Key
-item.freezing_bear_progrise_key.name=Freezing Bear Progrise Key
-item.breaking_mammoth_progrise_key.name=Breaking Mammoth Progrise Key
-item.sparking_giraffe_progrise_key.name=Sparking Giraffe Progrise Key
-item.amazing_hercules_progrise_key.name=Amazing Hercules Progrise Key
-item.crushing_buffalo_progrise_key.name=Crushing Buffalo Progrise Key
-item.exciting_stag_progrise_key.name=Exciting Stag Progrise Key
-item.gatling_hedgehog_progrise_key.name=Gatling Hedgehog Progrise Key
-item.trapping_spider_progrise_key.name=Trapping Spider Progrise Key
-item.storming_penguin_progrise_key.name=Storming Penguin Progrise Key
-item.hopping_kangaroo_progrise_key.name=Hopping Kangaroo Progrise Key
-item.splashing_whale_progrise_key.name=Splashing Whale Progrise Key
-item.dynamaiting_lion_progrise_key.name=Dynamaiting Lion Progrise Key
-item.scouting_panda_progrise_key.name=Scouting Panda Progrise Key
-item.invading_horseshoe_crab_progrise_key.name=Invading Horseshoe Crab Progrise Key
+item.biting_shark_progrise_key.name=Biting Shark Progrisekey
+item.flaming_tiger_progrise_key.name=Flaming Tiger Progrisekey
+item.freezing_bear_progrise_key.name=Freezing Bear Progrisekey
+item.breaking_mammoth_progrise_key.name=Breaking Mammoth Progrisekey
+item.sparking_giraffe_progrise_key.name=Sparking Giraffe Progrisekey
+item.amazing_hercules_progrise_key.name=Amazing Hercules Progrisekey
+item.crushing_buffalo_progrise_key.name=Crushing Buffalo Progrisekey
+item.exciting_stag_progrise_key.name=Exciting Stag Progrisekey
+item.gatling_hedgehog_progrise_key.name=Gatling Hedgehog Progrisekey
+item.trapping_spider_progrise_key.name=Trapping Spider Progrisekey
+item.storming_penguin_progrise_key.name=Storming Penguin Progrisekey
+item.hopping_kangaroo_progrise_key.name=Hopping Kangaroo Progrisekey
+item.splashing_whale_progrise_key.name=Splashing Whale Progrisekey
+item.dynamaiting_lion_progrise_key.name=Dynamaiting Lion Progrisekey
+item.scouting_panda_progrise_key.name=Scouting Panda Progrisekey
+item.invading_horseshoe_crab_progrise_key.name=Invading Horseshoe Crab Progrisekey
 
-item.shooting_wolf_progrise_key.name=Shooting Wolf Progrise Key
-item.assault_wolf_progrise_key.name=Assault Wolf Progrise Key
-item.rampage_gatling_progrise_key.name=Rampage Gatling Progrise Key
-item.punching_kong_progrise_key.name=Punching Kong Progrise Key
-item.dire_wolf_zetsumerise_key.name=Dire Wolf Zetsumerise Key
+item.shooting_wolf_progrise_key.name=Shooting Wolf Progrisekey
+item.assault_wolf_progrise_key.name=Assault Wolf Progrisekey
+item.rampage_gatling_progrise_key.name=Rampage Gatling Progrisekey
+item.punching_kong_progrise_key.name=Punching Kong Progrisekey
+item.dire_wolf_zetsumerise_key.name=Dire Wolf Zetsumerisekey
 
-item.rushing_cheetah_progrise_key.name=Rushing Cheetah Progrise Key
-item.lightning_hornet_progrise_key.name=Lightning Hornet Progrise Key
-item.fighting_jackal_progrise_key.name=Fighting Jackal Progrise Key
+item.rushing_cheetah_progrise_key.name=Rushing Cheetah Progrisekey
+item.lightning_hornet_progrise_key.name=Lightning Hornet Progrisekey
+item.fighting_jackal_progrise_key.name=Fighting Jackal Progrisekey
 item.serval_tiger_zetsumerisekey.name=Serval Tiger Zetsumerise Key
 
-item.sting_scorpion_progrise_key.name=Sting Scorpion Progrise Key
-item.ark_scorpion_progrise_key.name=Ark Scorpion Progrise Key
+item.sting_scorpion_progrise_key.name=Sting Scorpion Progrisekey
+item.ark_scorpion_progrise_key.name=Ark Scorpion Progrisekey
 
-item.flying_falcon_progrise_key.name=Flying Falcon Progrise Key
-item.burning_falcon_progrise_key.name=Burning Falcon Progrise Key
+item.flying_falcon_progrise_key.name=Flying Falcon Progrisekey
+item.burning_falcon_progrise_key.name=Burning Falcon Progrisekey
 
-item.amazing_caucasus_progrise_key.name=Amazing Caucasus Progrise Key
-item.awaking_arsino_zetsumerise_key.name=Awaking Arsino Zetsumerise Key
+item.amazing_caucasus_progrise_key.name=Amazing Caucasus Progrisekey
+item.awaking_arsino_zetsumerise_key.name=Awaking Arsino Zetsumerisekey
 
-item.ark_one_progrise_key.name=Ark-One Progrise Key
-item.ark_zero_one_progrise_key.name=Ark Zero-One Progrise Key
+item.ark_one_progrise_key.name=Ark-One Progrisekey
+item.ark_zero_one_progrise_key.name=Ark Zero-One Progrisekey
+item.thousand_ark_progrise_key.name=Thousand Ark Progrisekey
 
-item.eden_zetsumerise_key.name=Eden Zetsumerise Key
-item.crowding_hopper_progrise_key.name=Crowding Hopper Progrise Key
-item.triceratops_zetsumerise_key.name=Triceratops Zetsumerise Key
-item.carnotaurus_zetsumerise_key.name=Carnotaurus Zetsumerise Key
-item.mass_brain_zetsumerise_key.name=Mass Brain Zetsumerise Key
+item.eden_zetsumerise_key.name=Eden Zetsumerisekey
+item.crowding_hopper_progrise_key.name=Crowding Hopper Progrisekey
+item.triceratops_zetsumerise_key.name=Triceratops Zetsumerisekey
+item.carnotaurus_zetsumerise_key.name=Carnotaurus Zetsumerisekey
+item.mass_brain_zetsumerise_key.name=Mass Brain Zetsumerisekey
 
-item.berothamagia_zetsumerisekey.name=Berotha Zetsumerise Key
-item.kuehnemagia_zetsumerisekey.name=Kuehne Zetsumerise Key
-item.ekalmagia_zetsumerisekey.name=Ekal Zetsumerise Key
-item.neohimagia_zetsumerisekey.name=Neohi Zetsumerise Key
-item.onychomagia_zetsumerisekey.name=Onycho Zetsumerise Key
-item.vicaryamagia_zetsumerisekey.name=Vicarya Zetsumerise Key
-item.gaerumagia_zetsumerisekey.name=Gaeru Zetsumerise Key
-item.dodomagia_zetsumerisekey.name=Dodo Zetsumerise Key
-item.mammothmagia_zetsumerisekey.name=Mammoth Zetsumerise Key
-item.arsinomagia_zetsumerisekey.name=Arsino Zetsumerise Key
-item.unknown_zetsumerisekey.name=Unknown Zetsumerise Key
+item.berothamagia_zetsumerisekey.name=Berotha Zetsumerisekey
+item.kuehnemagia_zetsumerisekey.name=Kuehne Zetsumerisekey
+item.ekalmagia_zetsumerisekey.name=Ekal Zetsumerisekey
+item.neohimagia_zetsumerisekey.name=Neohi Zetsumerisekey
+item.onychomagia_zetsumerisekey.name=Onycho Zetsumerisekey
+item.vicaryamagia_zetsumerisekey.name=Vicarya Zetsumerisekey
+item.gaerumagia_zetsumerisekey.name=Gaeru Zetsumerisekey
+item.dodomagia_zetsumerisekey.name=Dodo Zetsumerisekey
+item.mammothmagia_zetsumerisekey.name=Mammoth Zetsumerisekey
+item.arsinomagia_zetsumerisekey.name=Arsino Zetsumerisekey
+item.unknown_zetsumerisekey.name=Unknown Zetsumerisekey
 
-item.japanese_wolf_zetsumerisekey.name=Japanese Wolf Zetsumerise Key
-item.rocking_hopper_zetsumerisekey.name=Rocking Hopper Zetsumerise Key
+item.japanese_wolf_zetsumerisekey.name=Japanese Wolf Zetsumerisekey
+item.rocking_hopper_zetsumerisekey.name=Rocking Hopper Zetsumerisekey
 
-item.blank_progrise_key.name=Blank Progrise Key
-item.humagear_progrise_key.name=Humagear Progrise Key
+item.blank_progrise_key.name=Blank Progrisekey
+item.humagear_progrise_key.name=Humagear Progrisekey
 
-item.is_progrise_key.name=Is Progrise Key
-item.uchuyaro_subaru_progrise_key.name=Uchuyaro Subaru Progrise Key
-item.saikyo_takumi_oyakata_progrise_key.name=Saikyo Takumi Oyakata Progrise Key
-item.dr_omigoto_progrise_key.name=Dr. Omigoto Progrise Key
-item.sumida_smile_progrise_key.name=Sumida Smile Progrise Key
-item.mamoru_progrise_key.name=Mamoru Progrise Key
-item.bengoshi_bingo_progrise_key.name=Bengoshi Bingo Progrise Key
-item.ikkan_nigiro_progrise_key.name=Ikkan Nigiro Progrise Key
-item.matsuda_enji_progrise_key.name=Matsuda Enji Progrise Key
-item.morifude_g_pen_progrise_key.name=Morifude G-Pen Progrise Key
-item.fukkinhoukai_taro_progrise_key.name=Fukkinhoukai Taro Progrise Key
-item.shesta_progrise_key.name=Shesta Progrise Key
-item.love_chan_progrise_key.name=Love-chan Progrise Key
-item.hakase_bot_progrise_key.name=Hakase Bot Progrise Key
-item.okureru_progrise_key.name=Okureru Progrise Key
-item.delmo_progrise_key.name=Delmo Progrise Key
-item.matsurida_z_progrise_key.name=Matsurida Z Progrise Key
+item.is_progrise_key.name=Is Progrisekey
+item.uchuyaro_subaru_progrise_key.name=Uchuyaro Subaru Progrisekey
+item.saikyo_takumi_oyakata_progrise_key.name=Saikyo Takumi Oyakata Progrisekey
+item.dr_omigoto_progrise_key.name=Dr. Omigoto Progrisekey
+item.sumida_smile_progrise_key.name=Sumida Smile Progrisekey
+item.mamoru_progrise_key.name=Mamoru Progrisekey
+item.bengoshi_bingo_progrise_key.name=Bengoshi Bingo Progrisekey
+item.ikkan_nigiro_progrise_key.name=Ikkan Nigiro Progrisekey
+item.matsuda_enji_progrise_key.name=Matsuda Enji Progrisekey
+item.morifude_g_pen_progrise_key.name=Morifude G-Pen Progrisekey
+item.fukkinhoukai_taro_progrise_key.name=Fukkinhoukai Taro Progrisekey
+item.shesta_progrise_key.name=Shesta Progrisekey
+item.love_chan_progrise_key.name=Love-chan Progrisekey
+item.hakase_bot_progrise_key.name=Hakase Bot Progrisekey
+item.okureru_progrise_key.name=Okureru Progrisekey
+item.delmo_progrise_key.name=Delmo Progrisekey
+item.matsurida_z_progrise_key.name=Matsurida Z Progrisekey
 
-item.horobi_progrise_key.name=Horobi Progrise Key
-item.jin_progrise_key.name=Jin Progrise Key
-item.ikazuchi_progrise_key.name=Ikazuchi Progrise Key
-item.naki_progrise_key.name=Naki Progrise Key
+item.horobi_progrise_key.name=Horobi Progrisekey
+item.jin_progrise_key.name=Jin Progrisekey
+item.ikazuchi_progrise_key.name=Ikazuchi Progrisekey
+item.naki_progrise_key.name=Naki Progrisekey
+
+item.president_dan_kuroto_progrise_key.name=Dan Kuroto Progrisekey
 
 item.ark_scorpion_progrise_key.name=Ark Scorpion Progrisekey
 item.realize_rising_hopper_progrise_key.name=Rising Hopper Progrisekey (Realize Ver.)
 
-item.merry_hopper_progrise_key.name=Christmas Rising Hopper Progrise Key
+item.merry_hopper_progrise_key.name=Christmas Rising Hopper Progrisekey
 
 item.hiden_metal.name=Hiden Metal
 item.hiden_risephone.name=Hiden Risephone           
@@ -3136,4 +3158,31 @@ item.red_hakaider_belt.name=Red Hakaider Belt
 item.silver_hakaider_belt.name=Silver Hakaider Belt
 item.blue_hakaider_belt.name=Blue Hakaider Belt
 
+item.card_warrior_kamen_rider_manga.name=Card Warrior Kamen Rider Manga
+item.herculespader_sword.name=Herculespader Sword
+item.flaresalamander_sword.name=Flaresalamander Sword
+item.darkwing_sword.name=Darkwing Sword
+item.grand_gouram_rod.name=GrandGouram Rod
+    
+item.dragreder.name=Dragreder Card Warrior Card
+item.stagtornador.name=Stagtornador Card Warrior Card
+item.herculespader.name=Herculespader Card Warrior Card
+item.darkwing.name=Darkwing Card Warrior Card
+item.greywolch.name=Greywolch Card Warrior Card
+item.grand_gouram.name=GrandGouram Card Warrior Card
+item.exbeeter.name=Exbeeter Card Warrior Card
+item.chaosdile.name=Chaosdile Card Warrior Card
+item.leatheraider.name=Leatheraider Card Warrior Card
+item.flaresalamander.name=Flaresalamander Card Warrior Card
+item.dragranzer.name=Dragranzer Card Warrior Card
+item.scissorbeeter.name=Scissorbeeter Card Warrior Card
+item.akanetaka.name=Akanetaka Card Warrior Card
+item.shadowmantis.name=Shadowmantis Card Warrior Card
+item.cyclonehopper.name=Cyclonehopper Card Warrior Card
+item.kuuga_jinrai_no_senshi.name=Jinrai no senshi Card Warrior Card
+item.blade_jinrai_no_senshi.name=Jinrai no senshi Card Warrior Card
+item.dark_kabuto_jinrai_no_senshi.name=Jinrai no senshi Card Warrior Card
+item.bakuen_no_senshi_ryuga.name=Bakuen no senshi Card Warrior Card
+item.bakuen_no_senshi_faiz.name=Bakuen no senshi Card Warrior Card
+item.bakuen_no_senshi_hibiki.name=Bakuen no senshi Card Warrior Card
     

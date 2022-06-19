@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:president_dan_kuroto_progrise_key"
+    }, 
+    {
+      "item": "kamenridercraft4th:ark_one_progrise_key"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:thousand_ark_progrise_key"
+  }
+}

@@ -26,9 +26,13 @@ public class miscellaneousRiderItems {
 
 
 	//Card Warrior Kamen Rider
-	public static Item card_warrior_kamen_rider_manga  = new Item_ore("card_warrior_kamen_rider_manga").setCreativeTab(Tabs.tabmisc);
+	public static Item card_warrior_kamen_rider_manga  = new Item_ore("card_warrior_kamen_rider_manga").keep_item().setCreativeTab(Tabs.tabmisc);
+	
+	public static Item grand_gouram_rod = new ItemBaseSword("grand_gouram_rod",Tabs.den_denso, ShowaRiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabmisc);
 	
 	public static Item herculespader_sword= new ItemBaseSword("herculespader_sword",Tabs.ridol_stick, ShowaRiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabmisc);
+	
+	public static Item darkwing_sword = new ItemBaseSword("darkwing_sword",Tabs.denkamen_sword, ShowaRiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabmisc);
 	
 	public static Item flaresalamander_sword = new ItemBaseSword("flaresalamander_sword",Tabs.ridol_stick, ShowaRiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabmisc);
 		
@@ -128,6 +132,7 @@ public class miscellaneousRiderItems {
 
 	
 	public static Item jinrai_no_senshi_wings = new Item_ore("jinrai_no_senshi_wings");
+	
 	
 	public static Item kuuga_jinrai_no_senshi = new Item_form_change("kuuga_jinrai_no_senshi",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_rising_mighty_jinrai_no_senshi","kuuga"
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false),new PotionEffect(MobEffects.SPEED, 5, 2,true,false)

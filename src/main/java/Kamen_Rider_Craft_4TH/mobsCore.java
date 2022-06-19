@@ -442,7 +442,7 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":weatherDopantMob"),Entity_weather_dopant.class, "weatherDopantMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xffffff,0xc1c1c1);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":smilodonDopantMob"),Entity_smilodon_dopant.class, "smilodonDopantMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xc7b372,0x727272);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":commanderDopantMob"),Entity_commander_dopant.class, "commanderDopantMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x527753,0xc34d36);
-		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":TerrorDopantMob"),EntityTerror.class, "TerrorDopantMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x527753,0xc34d36);
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":TerrorDopantMob"),EntityTerror.class, "TerrorDopantMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x161616,0x0092BB);
 
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":super_gingaohMob"),Entity_super_gingaoh.class, "super_gingaohMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x191b32,0x9e6f00);
 

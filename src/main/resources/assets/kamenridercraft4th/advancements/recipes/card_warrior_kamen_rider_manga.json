@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "kamenridercraft4th:dragreder",
+      "kamenridercraft4th:stagtornador",
+      "kamenridercraft4th:herculespader",
+      "kamenridercraft4th:darkwing",
+      "kamenridercraft4th:greywolch",
+      "kamenridercraft4th:grand_gouram",
+      "kamenridercraft4th:exbeeter",
+      "kamenridercraft4th:chaosdile",
+      "kamenridercraft4th:leatheraider",
+      "kamenridercraft4th:flaresalamander",
+      "kamenridercraft4th:dragranzer",
+      "kamenridercraft4th:scissorbeeter",
+      "kamenridercraft4th:akanetaka",
+      "kamenridercraft4th:shadowmantis",
+      "kamenridercraft4th:cyclonehopper",
+      "kamenridercraft4th:dark_kabuto_jinrai_no_senshi",
+      "kamenridercraft4th:bakuen_no_senshi_hibiki"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kamenridercraft4th:card_warrior_kamen_rider_manga"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:dragreder"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logo",
+      "has_the_recipe"
+    ]
+  ]
+}

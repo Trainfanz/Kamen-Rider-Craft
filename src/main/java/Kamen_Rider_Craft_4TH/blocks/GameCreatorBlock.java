@@ -1,5 +1,6 @@
 package Kamen_Rider_Craft_4TH.blocks;
 
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
@@ -65,6 +66,7 @@ public class GameCreatorBlock extends machine_block  {
 			else if (player.getHeldItem(hand).getItem() == RiderItems.unfinished_maximum_mighty_x_gashat) process(player, worldIn, pos, hand, getGameDrop(2));
 			else if (player.getHeldItem(hand).getItem() == RiderItems.mighty_brothers_xx_unfinished_gashat) process(player, worldIn, pos, hand, getGameDrop(3));
 			else if (player.getHeldItem(hand).getItem() == RiderItems.unfinished_hyper_muteki_gashat) process(player, worldIn, pos, hand, getGameDrop(4));
+			else if (player.getHeldItem(hand).getItem() == ReiwaRiderItems.president_dan_kuroto_progrise_key) process(player, worldIn, pos, hand, RiderItems.genm_musou_gashat);
 			return true;
 		}
 

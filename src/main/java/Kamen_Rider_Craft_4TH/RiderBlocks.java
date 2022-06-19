@@ -9,6 +9,7 @@ import Kamen_Rider_Craft_4TH.blocks.gaia_memory_refiner_block;
 import Kamen_Rider_Craft_4TH.blocks.ganbarizing_block;
 import Kamen_Rider_Craft_4TH.blocks.hiden_3d_printing;
 import Kamen_Rider_Craft_4TH.blocks.mob_block;
+import Kamen_Rider_Craft_4TH.blocks.mob_blockFlying;
 import Kamen_Rider_Craft_4TH.blocks.pandora_box_block;
 import Kamen_Rider_Craft_4TH.blocks.purifyer_block;
 import Kamen_Rider_Craft_4TH.blocks.rider_glass_block;
@@ -24,6 +25,7 @@ import Kamen_Rider_Craft_4TH.blocks.wood.BlockHelheimVine;
 import Kamen_Rider_Craft_4TH.item.Item_custom_door;
 import Kamen_Rider_Craft_4TH.item.Item_ore;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityChronos;
+import Kamen_Rider_Craft_4TH.mobs.Boss.EntityTerror;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Arc_zero;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Durendal;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_HellBros;
@@ -45,6 +47,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_power_up_core;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_redyue;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_roshuo;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_super_gingaoh;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_taboo_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_storious_rider;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockPlanks;
@@ -209,6 +212,9 @@ public class RiderBlocks {
 	public static Block lord_baron_boss_block = new mob_block("lord_baron_boss_block", Entity_lord_baron::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabGaim);
 
 	public static Block gaoh_boss_block = new mob_block("gaoh_boss_block", Entity_gaoh::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabden_o);
+	
+	public static Block taboo_bossblock = new mob_blockFlying("taboo_bossblock", Entity_taboo_dopant::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabW);
+	public static Block terror_boss_block = new mob_block("terror_boss_block", EntityTerror::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabW);
 	
 	public static Block core_boss_block = new mob_block("core_boss_block", Entity_core::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabOOO);
 	public static Block power_up_core_boss_block = new mob_block("power_up_core_boss_block", Entity_power_up_core::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabOOO);

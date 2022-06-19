@@ -87,9 +87,6 @@ public class Item_shift_car extends Item implements IHasModel
 						}else if (par1ItemStack== RiderItems.shift_special ){
 							item_drivedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),10);
 
-						}else if (par1ItemStack== RiderItems.heartronshift ){
-							item_drivedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),12);
-
 						}else if (par1ItemStack== RiderItems.speedwildtechnicshift ){
 							item_drivedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),13);
 

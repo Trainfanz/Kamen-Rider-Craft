@@ -172,6 +172,9 @@ public class item_drivedriver extends item_rider_driver
 	}else if (belt==RiderItems.mach_driver_honoh_chaser){
 		return itemstack.hasTagCompound() ? tireName2nd[itemstack.getTagCompound().getInteger("core2")] : "wheeler_dynamics";
 
+	}else if (belt==RiderItems.drivedriverhart){
+		return itemstack.hasTagCompound() ? tireName[itemstack.getTagCompound().getInteger("core2")] : "miracle";
+
 	}else{
 		return itemstack.hasTagCompound() ? tireName2nd[itemstack.getTagCompound().getInteger("core2")] : "kourin";
 
@@ -210,6 +213,25 @@ public class item_drivedriver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
+									}if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.drivedriverhart){
+
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 5,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
+
+										if (item_OOOdriver.get_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET)) > 45){
+											if (player.isSneaking()){
+
+												Vec3d look = player.getLookVec();
+												player.motionX=look.x*3;
+												player.motionY=look.y;
+												player.motionZ=look.z*3;
+												item_OOOdriver.set_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),0);
+
+											}}
+										
 									}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.lupin_belt){
 
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
@@ -399,23 +421,6 @@ public class item_drivedriver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
 
-									}else if (this.get_core(armor)==12){
-										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 5,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
-
-										if (item_OOOdriver.get_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET)) > 45){
-											if (player.isSneaking()){
-
-												Vec3d look = player.getLookVec();
-												player.motionX=look.x*3;
-												player.motionY=look.y;
-												player.motionZ=look.z*3;
-												item_OOOdriver.set_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),0);
-
-											}}
 									}
 
 									if (this.get_lock(armor)=="max_flare"){

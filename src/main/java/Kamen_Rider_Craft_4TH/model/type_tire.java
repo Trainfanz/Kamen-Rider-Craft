@@ -27,7 +27,7 @@ import net.minecraftforge.fml.relauncher.Side;;
 @SideOnly(Side.CLIENT)
 public class type_tire extends ModelBiped
 {
-	
+
 	public ItemStack belt;
 
 	//fields
@@ -174,7 +174,7 @@ public class type_tire extends ModelBiped
 
 			if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!=null){
 				if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()== RiderItems.break_gunner_2){
-					
+
 				}
 				else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.mach_driver_honoh_chaser){
 					GL11.glPushMatrix();
@@ -185,31 +185,42 @@ public class type_tire extends ModelBiped
 						this.Shape2.rotateAngleX=this.Shape2.rotateAngleX-1.5f;
 						this.Shape2.offsetY=0.2f;
 					}
-					
+
 					GL11.glTranslatef(+0.3f, 0.3f, 0.1f);
 					this.Shape2.render(par7);
 					GL11.glPopMatrix();
 				}
-				else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.mach_driver_honoh_drive){
-					
-					if (item_drivedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!=1){
+				else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.drivedriverhart){
 					GL11.glPushMatrix();
-					GL11.glScalef(1.2f, 1.2f, 1.2f);
+					GL11.glScalef(1f, 1f, 1f);
+					GL11.glTranslatef(0.2f, -0f, 0f);
+					this.Shape1.rotateAngleZ=Shape1.rotateAngleZ-0.4853982F;
 					if (this.isSneak){
-						this.Shape1.offsetY=0.1f;
+						this.Shape1.offsetY=0.2f;
 					}
 					this.Shape1.render(par7);
 					GL11.glPopMatrix();
-					GL11.glPushMatrix();
-					GL11.glScalef(0.75f, 0.75f, 0.75f);
-					if (this.isSneak){
-						this.Shape2.offsetY=0.2f;
-					}
-					this.Shape2.rotateAngleY=Shape2.rotateAngleY-0.9F;
-					GL11.glTranslatef(-0.25f, -0f, 0f);
-					Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Refercence.MODID+":textures/armor/kourin_dead_heat_tire.png"));
-					this.Shape2.render(par7);
-					GL11.glPopMatrix();
+				}
+				else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.mach_driver_honoh_drive){
+
+					if (item_drivedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!=1){
+						GL11.glPushMatrix();
+						GL11.glScalef(1.2f, 1.2f, 1.2f);
+						if (this.isSneak){
+							this.Shape1.offsetY=0.1f;
+						}
+						this.Shape1.render(par7);
+						GL11.glPopMatrix();
+						GL11.glPushMatrix();
+						GL11.glScalef(0.75f, 0.75f, 0.75f);
+						if (this.isSneak){
+							this.Shape2.offsetY=0.2f;
+						}
+						this.Shape2.rotateAngleY=Shape2.rotateAngleY-0.9F;
+						GL11.glTranslatef(-0.25f, -0f, 0f);
+						Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation(Refercence.MODID+":textures/armor/kourin_dead_heat_tire.png"));
+						this.Shape2.render(par7);
+						GL11.glPopMatrix();
 					}
 
 				}
@@ -244,12 +255,12 @@ public class type_tire extends ModelBiped
 							this.Shape2.rotateAngleX=this.Shape2.rotateAngleX-1.5f;
 							this.Shape2.offsetY=0.2f;
 						}
-						
+
 						GL11.glTranslatef(+0.3f, 0.3f, 0.1f);
 						this.Shape2.render(par7);
 						GL11.glPopMatrix();
 					}else if (item_drivedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))==5){
-						
+
 					}else{
 						GL11.glPushMatrix();
 						GL11.glScalef(0.75f, 0.75f, 0.75f);
@@ -257,7 +268,7 @@ public class type_tire extends ModelBiped
 							this.Shape2.offsetY=0.2f;
 						}
 						this.Shape2.rotateAngleY=Shape2.rotateAngleY-0.9F;
-						
+
 						GL11.glTranslatef(-0.25f, -0f, 0f);
 						this.Shape2.render(par7);
 						GL11.glPopMatrix();
@@ -271,7 +282,7 @@ public class type_tire extends ModelBiped
 					GL11.glPopMatrix();
 				}else if (item_drivedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))==7){
 					GL11.glPushMatrix();
-					
+
 					GL11.glScalef(1.3F, 1.3F, 1.3F);
 
 					this.leftarmt.offsetY=-0.05f;
@@ -306,7 +317,7 @@ public class type_tire extends ModelBiped
 						this.body8.offsetY=0.1f;
 						this.body9.offsetY=0.1f;
 						this.body10.offsetY=0.1f;
-						
+
 						this.body1.offsetZ=-0.1f;
 						this.body2.offsetZ=-0.1f;
 						this.body3.offsetZ=-0.1f;
@@ -357,7 +368,7 @@ public class type_tire extends ModelBiped
 						this.Shape1.offsetY=0.2f;
 					}
 					this.Shape1.render(par7);
-					
+
 					GL11.glPopMatrix();
 				}else if (item_drivedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))==8||item_drivedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))==12){
 					GL11.glPushMatrix();
@@ -395,9 +406,9 @@ public class type_tire extends ModelBiped
 				GL11.glScaled(0.5, 0.5,0.6);
 
 				GL11.glTranslatef((float) (0f+dri),-1.5f,0.3f);
-				
+
 				Minecraft.getMinecraft().getItemRenderer().renderItem(player,belt,null);
-				
+
 				GL11.glPopMatrix();
 			}
 		}
@@ -417,43 +428,43 @@ public class type_tire extends ModelBiped
 		body1.rotateAngleX=bipedBody.rotateAngleX+0.125F;
 		body1.rotateAngleY=bipedBody.rotateAngleY;
 		body1.rotateAngleZ=bipedBody.rotateAngleZ;
-		
+
 		body2.rotateAngleX=bipedBody.rotateAngleX+0.5f;
 		body2.rotateAngleY=bipedBody.rotateAngleY;
 		body2.rotateAngleZ=bipedBody.rotateAngleZ;
-		
+
 		body3.rotateAngleX=bipedBody.rotateAngleX;
 		body3.rotateAngleY=bipedBody.rotateAngleY;
 		body3.rotateAngleZ=bipedBody.rotateAngleZ;
-		
+
 		body4.rotateAngleX=bipedBody.rotateAngleX;
 		body4.rotateAngleY=bipedBody.rotateAngleY;
 		body4.rotateAngleZ=bipedBody.rotateAngleZ;
-		
+
 		body5.rotateAngleX=bipedBody.rotateAngleX;
 		body5.rotateAngleY=bipedBody.rotateAngleY;
 		body5.rotateAngleZ=bipedBody.rotateAngleZ;
-		
+
 		body6.rotateAngleX=bipedBody.rotateAngleX;
 		body6.rotateAngleY=bipedBody.rotateAngleY;
 		body6.rotateAngleZ=bipedBody.rotateAngleZ;
-		
+
 		body7.rotateAngleX=bipedBody.rotateAngleX+0.5f;
 		body7.rotateAngleY=bipedBody.rotateAngleY;
 		body7.rotateAngleZ=bipedBody.rotateAngleZ;
-		
+
 		body8.rotateAngleX=bipedBody.rotateAngleX;
 		body8.rotateAngleY=bipedBody.rotateAngleY;
 		body8.rotateAngleZ=bipedBody.rotateAngleZ;
-		
+
 		body9.rotateAngleX=bipedBody.rotateAngleX;
 		body9.rotateAngleY=bipedBody.rotateAngleY;
 		body9.rotateAngleZ=bipedBody.rotateAngleZ;
-		
+
 		body10.rotateAngleX=bipedBody.rotateAngleX;
 		body10.rotateAngleY=bipedBody.rotateAngleY;
 		body10.rotateAngleZ=bipedBody.rotateAngleZ;
-		
+
 		rightarmt.rotateAngleX=+bipedRightArm.rotateAngleX;
 		rightarmt.rotateAngleY=+bipedRightArm.rotateAngleY;
 		rightarmt.rotateAngleZ=+bipedRightArm.rotateAngleZ;
@@ -462,7 +473,7 @@ public class type_tire extends ModelBiped
 		leftarmt.rotateAngleY=+bipedLeftArm.rotateAngleY;
 		leftarmt.rotateAngleZ=+bipedLeftArm.rotateAngleZ;
 
-		
+
 		if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!=null){
 
 			if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.mach_driver_honoh||
@@ -473,11 +484,11 @@ public class type_tire extends ModelBiped
 				//Shape2.rotateAngleZ=+bipedRightArm.rotateAngleX;
 
 			}else if (item_drivedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!=6){
-				
+
 				Shape2.rotateAngleX=+bipedRightArm.rotateAngleX+0.7853982F;
 				Shape2.rotateAngleY=+bipedRightArm.rotateAngleY;
 				Shape2.rotateAngleZ=+bipedRightArm.rotateAngleZ;
-				}
+			}
 		}
 	}
 

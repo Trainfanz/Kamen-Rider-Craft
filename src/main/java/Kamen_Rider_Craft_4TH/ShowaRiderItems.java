@@ -43,6 +43,8 @@ import net.minecraft.potion.PotionEffect;
 
 public class ShowaRiderItems {
 
+	
+	
 	public static Item blanknoitem = new Item_ore("blanknoitem");
 	public static Item blanknoform = new Item_form_change("blanknoform",item_rider_driver.class,blanknoitem,"","");
 	public static Item rider_circuit = new Item_ore("rider_circuit").setCreativeTab(Tabs.tabmisc);
@@ -70,7 +72,7 @@ public class ShowaRiderItems {
 	public static Item new_typhoon_core = new Item_form_change("new_typhoon_core",item_rider_driver.class,new_typhoon,"_new","ichigo"
 			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
 			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
-			).setCreativeTab(Tabs.tabIchigo);
+			).Rend2ndLyer("ichigo_new_up").setCreativeTab(Tabs.tabIchigo);
 
 	
 	public static Item ichigohead = new item_rider_armor("ichigohead",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
