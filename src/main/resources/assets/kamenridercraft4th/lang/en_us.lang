@@ -3049,11 +3049,20 @@ item.two_sidriver_evil.name=Two Sidriver(Evil)
 item.two_sidriver_live.name=Two Sidriver(Live)
 item.demons_driver.name=Demons Driver
 item.libera_driver.name=Libera Driver
+item.vail_driver.name=Vail Driver
+item.over_demons_driver.name=Demons Driver (Over Demons)
+item.week_endriver.name=Week Endriver
     
 item.rex_vistamp.name=Rex Vistamp
 item.barid_rex_vistamp_closed.name=Barid Rex Vistamp (Incomplete)
 item.barid_rex_vistamp.name=Barid Rex Vistamp
-    
+item.volcano_vistamp.name=Volcano Vistamp
+item.rolling_vistamp.name=Rolling Vistamp
+item.thunder_gale_vistamp.name=Thunder Gale Vistamp
+
+item.crow_vistamp.name=Crow Vistamp
+item.holy_wing_vistamp.name=Holy Wing Vistamp
+
 item.eagle_vistamp.name=Eagle Vistamp
 item.mammoth_vistamp.name=Mammoth Vistamp
 item.megalodon_vistamp.name=Megalodon Vistamp
@@ -3077,21 +3086,54 @@ item.cobra_vistamp.name=Cobra Vistamp
 item.condor_vistamp.name=Condor Vistamp
 item.white_leo_vistamp.name=White Leo Vistamp
 item.quetzalcoatlus_vistamp.name=Quetzalcoatlus Vistamp
+
+
+item.kirin_vistamp.name=Kirin Vistamp
+item.niwatori_vistamp.name=Niwatori Vistamp
+item.funkorogashi_vistamp.name=Funkorogashi Vistamp
+
+item.queen_bee_vistamp.name=Queen Bee Vistamp
+item.buffalo_vistamp.name=Buffalo Vistamp
+item.tricera_vistamp.name=Tricera Vistamp
+item.crocodile_vistamp.name=Crocodile Vistamp
+item.kuwagata_vistamp.name=Kuwagata Vistamp
+item.kabuto_vistamp.name=Kabuto Vistamp
+item.hashibiroko_vistamp.name=Hashibiroko Vistamp
+item.anomalocaris_vistamp.name=Anomalocaris Vistamp
+
+item.proto_queen_bee_vistamp.name=Queen Bee Proto Vistamp
 item.cheetah_vistamp.name=Cheetah Proto Vistamp
 item.planarian_vistamp.name=Planarian Proto Vistamp
 item.daiouika_vistamp.name=Daiouika Proto Vistamp
 item.wolf_vistamp.name=Wolf Proto Vistamp
 item.sabertiger_vistamp.name=Sabertiger Proto Vistamp
+item.chameleon_vistamp.name=Chameleon Proto Vistamp
+item.koala_vistamp.name=Koala Proto Vistamp
+item.shark_vistamp.name=Shark Proto Vistamp 
+item.elephant_vistamp.name=Elephant Proto Vistamp
+item.raflessia_vistamp.name=Rafflesia Proto Vistamp
     
 item.rex_vistamp_metal.name= Rex Vistamp (Black Metal Plating)
 item.rex_vistamp_christmas.name=Rex Vistamp (Christmas)
 item.rex_vistamp_theme.name=Rex Vistamp (Theme Song) 
 item.toysaurus_vistamp.name=Toysaurus Vistamp
 item.mammoth_vistamp_china.name=Mammoth Vistamp (Chinese Exclusive)
+item.telemag_rex_vistamp.name=Rex Vistamp (Glitter)
 item.giff_junior_vistamp.name=Giff Junior Vistamp
            
-
 item.proto_vistamp.name=Proto Vistamp
+    
+item.oblivion_stamp.name=Oblivian Stamp
+item.deadman_stamp.name=Deadman Stamp
+item.dopant_stamp.name=Dopant Stamp
+item.inves_stamp.name=Inves Stamp
+item.roidmude_stamp.name=Roidmude Stamp
+item.smash_stamp.name=Smash Stamp
+item.worm_stamp.name=Worm Stamp
+item.gurongi_stamp.name=Gurongi Stamp
+item.fangire_stamp.name=Fangire Stamp
+item.zodiarts_stamp.name=Zodiarts Stamp
+item.orphnoch_stamp.name=Orphnoch Stamp
     
 item.ohin_buster_50.name=Ohinbuster50
 item.gun_de_phone_50.name=Gundephone50
@@ -3105,7 +3147,7 @@ item.live_gun.name=Livegun
 item.lovekov_kujaku.name=Lovekov Kujaku Genome
 item.lovekov_turtle.name=Lovekov Turtle Genome
 item.giff_junior_sword.name=Giff Junior Sword
-
+item.needle_kunai.name=Needle Kunai
     
 
        
