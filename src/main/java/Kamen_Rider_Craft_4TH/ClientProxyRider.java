@@ -105,6 +105,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.entity_desast;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_dire_wolf_sold_magia;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_eden;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_gatton_bugster;
+import Kamen_Rider_Craft_4TH.mobs.Boss.entity_kaiden_bugster;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_killbus;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_metal_build;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_motors_bugster;
@@ -349,6 +350,7 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(entity_motors_bugster.class, new RenderRiderMob2(new tokuMobModel("motors_bugster_2"), 0.5F,"textures/entities/motors_bugster_1.png"));
 		RenderingRegistry.registerEntityRenderingHandler(entity_gatton_bugster.class, new RenderRiderMob2(new tokuMobModel("gatton_bugster_2"), 0.5F,"textures/entities/gatton_bugster_1.png"));
 		RenderingRegistry.registerEntityRenderingHandler(entity_vernier_bugster.class, new RenderRiderMob2(new tokuMobModel("vernier_bugster_2"), 0.5F,"textures/entities/vernier_bugster_1.png"));
+		RenderingRegistry.registerEntityRenderingHandler(entity_kaiden_bugster.class, new RenderRiderMob2(new tokuMobModel("kaiden_bugster_2"), 0.5F,"textures/entities/kaiden_bugster_1.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_another_build.class, new RenderRiderMob2(new tokuMobModel("another_build2"), 0.5F,"textures/entities/another_build.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_kodama_suika_arms.class, new RenderRiderMob2(new Model_kodama_suika_arms(), 0.5F,"textures/entities/kodama_suika_arms.png"));

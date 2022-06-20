@@ -99,6 +99,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.entity_desast;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_dire_wolf_sold_magia;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_eden;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_gatton_bugster;
+import Kamen_Rider_Craft_4TH.mobs.Boss.entity_kaiden_bugster;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_killbus;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_metal_build;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_motors_bugster;
@@ -369,6 +370,7 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new ResourceLocation( Refercence.MODID+":MotorsBugsterMob"),entity_motors_bugster.class, "MotorsBugsterMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xc49e01,0x001c9c);
 		EntityRegistry.registerModEntity(new ResourceLocation( Refercence.MODID+":GattonBugsterMob"),entity_gatton_bugster.class, "GattonBugsterMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x9b0000,0xa800af);
 		EntityRegistry.registerModEntity(new ResourceLocation( Refercence.MODID+":VernierBugsterMob"),entity_vernier_bugster.class, "VernierBugsterMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xbe6200,0x222222);
+		EntityRegistry.registerModEntity(new ResourceLocation( Refercence.MODID+":KaidenBugsterMob"),entity_kaiden_bugster.class, "KaidenBugsterMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x8b8b8b,0x810000);
 		
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":AnotherBuildMob"),Entity_another_build.class, "AnotherBuildMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x610101,0x0808d1);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":WhiteWozMob"),Entity_White_Woz.class, "WhiteWozMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xdadada, 0x7ffc40);
