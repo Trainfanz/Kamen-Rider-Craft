@@ -12,6 +12,7 @@ import javax.annotation.Nullable;
 
 import com.google.common.collect.Sets;
 
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -62,37 +63,27 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.DifficultyInstance;
 import net.minecraft.world.World;
 
-public class Entity_Red_Poppy extends EntityBossBase
+public class entity_lovelica_bugster extends EntityBossBase
 //implements IBossDisplayData
 {
     
-	private String texture;
-	public Entity_Red_Poppy(World par1World)
+	public entity_lovelica_bugster(World par1World)
 	{
 		super(par1World);
-		this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.gashacon_bugvisor_ii));
-		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.ex_aidtroso));
-		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.ex_aidhead));
-		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(RiderItems.gashacon_bugvisor_ii_poppy_red));
-		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.ex_aidlegs));
 		
 	}
-  
+	
     protected void applyEntityAttributes()
     {
         super.applyEntityAttributes();
-        this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(200.0D);
-        this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.30000001192092896D);
-        this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(10.0D);
-        this.getEntityAttribute(SharedMonsterAttributes.FOLLOW_RANGE).setBaseValue(128.0D);
+
+        this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(14.0D);
+        this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(150.0D);
+        this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.4000000238418579D);
+        this.getEntityAttribute(SharedMonsterAttributes.FOLLOW_RANGE).setBaseValue(40.0D);
+        this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(4.0D);
+        
     }
-  
- 
-    
- 	public EnumCreatureAttribute getCreatureAttribute()
- 	{
- 		return EnumCreatureAttribute.UNDEAD;
- 	}
 
  	protected boolean shouldBurnInDay()
     {
@@ -100,24 +91,11 @@ public class Entity_Red_Poppy extends EntityBossBase
     }
     public void onDeath(DamageSource cause)
     {
-if (!this.world.isRemote){
-
-   		this.dropItem(RiderItems.gamedeus_virus_dna, 1);
-   		this.dropItem(RiderItems.doremifa_beat_gasha_trophy, 1);
-
-   		switch (this.rand.nextInt(5))
-		{
-		case 0:
-			this.dropItem(RiderItems.toki_meki_crisis_gashat, 1);
-			break;
-		case 1:
-			this.dropItem(RiderItems.poppy_doremifa_beat_gashat, 1);
-			break;
-		}
-       }
-       
-   }
-
-
+    	if (!this.world.isRemote)
+    	{
+    		this.dropItem(RiderItems.toki_meki_crisis_gasha_trophy, 1);
+    		this.dropItem(RiderItems.blank_gashat, 5);
+    	}   
+    }
 }
     

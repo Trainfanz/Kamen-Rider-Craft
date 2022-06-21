@@ -103,7 +103,15 @@ public class Entity_Para_dx extends EntityBossBase
 if (!this.world.isRemote){
 
    		this.dropItem(RiderItems.paradx_bugster_virus_dna, 1);
-
+   		switch (this.rand.nextInt(2))
+		{
+		case 0:
+			this.dropItem(RiderItems.knockout_fighter_gasha_trophy, 1);
+			break;
+		case 1:
+			this.dropItem(RiderItems.perfect_puzzle_gasha_trophy, 1);
+			break;
+		}
    		switch (this.rand.nextInt(5))
 		{
 		case 0:

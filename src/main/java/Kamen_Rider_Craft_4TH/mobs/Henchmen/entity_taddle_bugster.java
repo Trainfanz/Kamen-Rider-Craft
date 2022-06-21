@@ -59,6 +59,7 @@ public class entity_taddle_bugster extends Entity_base_henchmen
 	{
 		if (!this.world.isRemote){
 
+			this.dropItem(RiderItems.bugster_virus_dna, 1);
 			if (this.getAttackTarget()instanceof EntityPlayer){
 				EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
 				 EntityBossBase entityboss  = new entity_aranbura_bugster(world);
@@ -69,7 +70,6 @@ public class entity_taddle_bugster extends Entity_base_henchmen
 				world.spawnEntity(entityboss);
 				break;
 			}
-			this.dropItem(RiderItems.bugster_virus_dna, 1);
 			switch (this.rand.nextInt(25))
 			{
 			case 0:

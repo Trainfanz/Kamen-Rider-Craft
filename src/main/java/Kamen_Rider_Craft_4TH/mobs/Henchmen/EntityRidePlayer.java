@@ -12,6 +12,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_KaiserReverse;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Para_dx;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Red_Poppy;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_RemoconBros;
+import Kamen_Rider_Craft_4TH.mobs.Boss.entity_guren_graphite_bugster;
 import net.minecraft.block.Block;
 
 import net.minecraft.entity.Entity;
@@ -84,7 +85,7 @@ public class EntityRidePlayer extends Entity_base_henchmen
 				if (this.getAttackTarget()instanceof EntityPlayer){
 					EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
 					 EntityBossBase entityboss  = new Entity_Para_dx(world);
-					 EntityBossBase entityboss2  = new Entity_Red_Poppy(world);
+					 EntityBossBase entityboss1  = new entity_guren_graphite_bugster(world);
 				switch (this.rand.nextInt(25))
 				{
 				case 0:
@@ -101,16 +102,8 @@ public class EntityRidePlayer extends Entity_base_henchmen
 					world.spawnEntity(entityboss);
 					break;
 				case 1:
-					playerIn.sendMessage( new TextComponentString(TextFormatting.YELLOW+"Buggle Up! "+TextFormatting.WHITE+"Dreaming Girl! "+TextFormatting.LIGHT_PURPLE+"Koi no Simulation!"+TextFormatting.WHITE+" Otome wa itsumo "+TextFormatting.LIGHT_PURPLE+"Toki Meki Crisis! "));
-					
-					entityboss2.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.gashacon_bugvisor_ii));
-					entityboss2.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.ex_aidtroso));
-					entityboss2.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.ex_aidhead));
-					entityboss2.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(RiderItems.gashacon_bugvisor_ii_poppy_red));
-					entityboss2.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.ex_aidlegs));
-					
-					entityboss2.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
-					world.spawnEntity(entityboss2);
+					entityboss1.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+					world.spawnEntity(entityboss1);
 					break;
 				}
 			switch (this.rand.nextInt(25))

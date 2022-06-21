@@ -2938,6 +2938,7 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item gamer_driver_ichigo = new Item_ore("gamer_driver_ichigo");
 
 	public static Item totema_wings = new Item_ore("totema_wings");
+	public static Item chronus_clock = new Item_ore("chronus_clock").setCreativeTab(Tabs.tabex_aid);
 
 
 	//build

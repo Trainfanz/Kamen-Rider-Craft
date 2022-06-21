@@ -8,10 +8,10 @@ import java.util.Random;
 import java.util.Set;
 import java.util.UUID;
 
-import javax.annotation.Nullable;
-
+import com.google.common.base.Predicates;
 import com.google.common.collect.Sets;
 
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -44,8 +44,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
-import net.minecraft.init.SoundEvents;
-import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.init.MobEffects;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
@@ -55,69 +54,51 @@ import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.EntityDamageSource;
 import net.minecraft.util.EntityDamageSourceIndirect;
+import net.minecraft.util.EntitySelectors;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.Vec3d;
-import net.minecraft.world.DifficultyInstance;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.util.text.TextComponentString;
+import net.minecraft.util.text.TextFormatting;
+import net.minecraft.world.BossInfo;
+import net.minecraft.world.BossInfoServer;
+import net.minecraft.world.EnumDifficulty;
 import net.minecraft.world.World;
 
-public class Entity_Red_Poppy extends EntityBossBase
-//implements IBossDisplayData
+public class entity_dark_graphite_bugster extends EntityBossBase
 {
-    
-	private String texture;
-	public Entity_Red_Poppy(World par1World)
+	public entity_dark_graphite_bugster(World par1World)
 	{
 		super(par1World);
-		this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.gashacon_bugvisor_ii));
-		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.ex_aidtroso));
-		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.ex_aidhead));
-		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(RiderItems.gashacon_bugvisor_ii_poppy_red));
-		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.ex_aidlegs));
-		
+
 	}
-  
-    protected void applyEntityAttributes()
-    {
-        super.applyEntityAttributes();
-        this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(200.0D);
-        this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.30000001192092896D);
-        this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(10.0D);
-        this.getEntityAttribute(SharedMonsterAttributes.FOLLOW_RANGE).setBaseValue(128.0D);
-    }
-  
- 
-    
- 	public EnumCreatureAttribute getCreatureAttribute()
- 	{
- 		return EnumCreatureAttribute.UNDEAD;
- 	}
 
- 	protected boolean shouldBurnInDay()
-    {
-        return false;
-    }
-    public void onDeath(DamageSource cause)
-    {
-if (!this.world.isRemote){
 
-   		this.dropItem(RiderItems.gamedeus_virus_dna, 1);
-   		this.dropItem(RiderItems.doremifa_beat_gasha_trophy, 1);
+	protected void applyEntityAttributes()
+	{
+		super.applyEntityAttributes();
 
-   		switch (this.rand.nextInt(5))
-		{
-		case 0:
-			this.dropItem(RiderItems.toki_meki_crisis_gashat, 1);
-			break;
-		case 1:
-			this.dropItem(RiderItems.poppy_doremifa_beat_gashat, 1);
-			break;
+		this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(10.0D);
+		this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(200.0D);
+		this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.4000000238418579D);
+		this.getEntityAttribute(SharedMonsterAttributes.FOLLOW_RANGE).setBaseValue(40.0D);
+		this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(10.0D);
+	}
+	
+
+	protected boolean shouldBurnInDay()
+	{
+		return false;
+	}
+	public void onDeath(DamageSource cause)
+	{
+		if (!this.world.isRemote){
+
+
+			this.dropItem(RiderItems.proto_drago_knight_hunter_z_gashat, 1);
+			this.dropItem(RiderItems.blank_gashat, 10);
+
 		}
-       }
-       
-   }
-
-
-}
-    
+	}
+} 
