@@ -464,6 +464,7 @@ public class ReiwaRiderItems {
 
 	public static Item vice_jackal_genome = new Item_ore("vice_jackal_genome");
 	
+	public static Item demons_driver_test = new Item_ore("demons_driver_test");
 	
 	public static Item revicehead = new item_rider_armor("revicehead",item_revicedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, proto_vistamp).setCreativeTab(Tabs.tabrevice);
 	public static Item revicetroso = new item_rider_armor("revicetroso",item_revicedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, proto_vistamp).setCreativeTab(Tabs.tabrevice);
@@ -501,7 +502,7 @@ public class ReiwaRiderItems {
 	public static Item brachio_vistamp = new Item_Vistamps(9,"brachio_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(3).setCreativeTab(Tabs.tabrevice);
 	
 	public static Item neo_batta_vistamp = new Item_Vistamps(21,"neo_batta_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(1).setCreativeTab(Tabs.tabrevice);
-	public static Item kangaroo_vistamp = new Item_Vistamps(22,"kangaroo_vistamp").AddReviCanUse().setCreativeTab(Tabs.tabrevice);
+	public static Item kangaroo_vistamp = new Item_Vistamps(22,"kangaroo_vistamp").AddToVistampBar(1).AddReviCanUse().setCreativeTab(Tabs.tabrevice);
 	
 	public static Item kirin_vistamp = new Item_Vistamps("kirin_vistamp").setCreativeTab(Tabs.tabrevice);
 	public static Item niwatori_vistamp = new Item_Vistamps("niwatori_vistamp").setCreativeTab(Tabs.tabrevice);
@@ -515,14 +516,14 @@ public class ReiwaRiderItems {
 	public static Item batta_vistamp = new Item_Vistamps(13,"batta_vistamp").AddDemonsCanUse().AddToVistampBar(2).setCreativeTab(Tabs.tabrevice);
 	public static Item mogura_vistamp = new Item_Vistamps(14,"mogura_vistamp").AddDemonsCanUse().AddToVistampBar(2).setCreativeTab(Tabs.tabrevice);
 	public static Item scorpion_vistamp = new Item_Vistamps(16,"scorpion_vistamp").AddToVistampBar(2).setCreativeTab(Tabs.tabrevice);
-	public static Item anomalocaris_vistamp = new Item_Vistamps("anomalocaris_vistamp").setCreativeTab(Tabs.tabrevice);
+	public static Item anomalocaris_vistamp = new Item_Vistamps("anomalocaris_vistamp").AddToVistampBar(1).setCreativeTab(Tabs.tabrevice);
 	
 	public static Item cobra_vistamp = new Item_Vistamps(18,"cobra_vistamp").AddJeanneCanUse().AddToVistampBar(2).setCreativeTab(Tabs.tabrevice);
 	public static Item turtle_vistamp = new Item_Vistamps(15,"turtle_vistamp").AddToVistampBar(2).setCreativeTab(Tabs.tabrevice);
 	public static Item kujaku_vistamp = new Item_Vistamps("kujaku_vistamp").AddToVistampBar(2).setCreativeTab(Tabs.tabrevice);
 	public static Item hashibiroko_vistamp = new Item_Vistamps("hashibiroko_vistamp").AddToVistampBar(2).setCreativeTab(Tabs.tabrevice);
 		
-	public static Item kabuto_vistamp = new Item_Vistamps("kabuto_vistamp").setCreativeTab(Tabs.tabrevice);
+	public static Item kabuto_vistamp = new Item_Vistamps("kabuto_vistamp").AddToVistampBar(1).setCreativeTab(Tabs.tabrevice);
 	
 	public static Item kuwagata_vistamp = new Item_Vistamps("kuwagata_vistamp").setCreativeTab(Tabs.tabrevice);
 	
@@ -534,8 +535,8 @@ public class ReiwaRiderItems {
 	public static Item quetzalcoatlus_vistamp = new Item_Vistamps(20,"quetzalcoatlus_vistamp").AddReviCanUse().setCreativeTab(Tabs.tabrevice);
 
 	public static Item kajiki_vistamp = new Item_Vistamps("kajiki_vistamp").AddToVistampBar(1).setCreativeTab(Tabs.tabrevice);//10
-	public static Item tricera_vistamp = new Item_Vistamps("tricera_vistamp").AddToVistampBar(1).setCreativeTab(Tabs.tabrevice);//10
-	public static Item crocodile_vistamp = new Item_Vistamps("crocodile_vistamp").AddToVistampBar(1).setCreativeTab(Tabs.tabrevice);//10
+	public static Item tricera_vistamp = new Item_Vistamps("tricera_vistamp").setCreativeTab(Tabs.tabrevice);//10
+	public static Item crocodile_vistamp = new Item_Vistamps("crocodile_vistamp").setCreativeTab(Tabs.tabrevice);//10
 	
 	public static Item daiouika_vistamp = new Item_Vistamps("daiouika_vistamp").setCreativeTab(Tabs.tabrevice);
 	public static Item wolf_vistamp = new Item_Vistamps("wolf_vistamp").setCreativeTab(Tabs.tabrevice);

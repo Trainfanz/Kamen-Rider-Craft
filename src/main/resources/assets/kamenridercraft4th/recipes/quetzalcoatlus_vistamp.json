@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:ptera_vistamp"
+    }, 
+    {
+      "item": "kamenridercraft4th:faiz_axel_mission_memory"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:quetzalcoatlus_vistamp"
+  }
+}
