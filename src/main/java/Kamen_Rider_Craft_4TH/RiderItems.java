@@ -2877,6 +2877,10 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item knockout_fighter_gasha_trophy = new Item_ore("knockout_fighter_gasha_trophy").setCreativeTab(Tabs.tabex_aid);
 	public static Item toki_meki_crisis_gasha_trophy = new Item_ore("toki_meki_crisis_gasha_trophy").setCreativeTab(Tabs.tabex_aid);
 	
+	public static Item gamer_driver_mighty = new Item_ore("gamer_driver_mighty");
+	public static Item gamer_driver_taddle = new Item_ore("gamer_driver_taddle");
+	public static Item gamer_driver_bang = new Item_ore("gamer_driver_bang");
+	public static Item gamer_driver_protomighty = new Item_ore("gamer_driver_protomighty");
 	public static Item gamer_driver_robots = new Item_ore("gamer_driver_robots");
 	public static Item gamer_driver_protorobots = new Item_ore("gamer_driver_protorobots");
 	public static Item gamer_driver_doremifa = new Item_ore("gamer_driver_doremifa");
@@ -2910,31 +2914,38 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item gamer_driver_godmaximum = new Item_ore("gamer_driver_godmaximum");
 	public static Item gamer_driver_muteki = new Item_ore("gamer_driver_muteki");
 	public static Item gamer_driver_origin = new Item_ore("gamer_driver_origin");
+	public static Item gamer_driver_musou = new Item_ore("gamer_driver_musou");
+	public static Item gamer_driver_novel = new Item_ore("gamer_driver_novel");
+	public static Item gamer_driver_tank = new Item_ore("gamer_driver_tank");
 
+	public static Item gamer_driver = new Item_ore("gamer_driver");
 	public static Item gamer_driver_ex_aid_lv1 = new Item_ore("gamer_driver_ex_aid_lv1");
 	public static Item gamer_driver_brave_lv1 = new Item_ore("gamer_driver_brave_lv1");
 	public static Item gamer_driver_snipe_lv1 = new Item_ore("gamer_driver_snipe_lv1");
 	public static Item gamer_driver_lazer_lv1 = new Item_ore("gamer_driver_lazer_lv1");
 	public static Item gamer_driver_genm_lv1 = new Item_ore("gamer_driver_genm_lv1");
-	public static Item gamer_driver_proto_lv1 = new Item_ore("gamer_driver_proto_lv1");
+	public static Item gamer_driver_protobrave_lv1 = new Item_ore("gamer_driver_protobrave_lv1");
+	public static Item gamer_driver_protosnipe_lv1 = new Item_ore("gamer_driver_protosnipe_lv1");
+	public static Item gamer_driver_lv99 = new Item_ore("gamer_driver_lv99");
 
 	public static Item gamer_driver_ghost = new Item_ore("gamer_driver_ghost");
+	public static Item gamer_driver_ghost_lv1 = new Item_ore("gamer_driver_ghost_lv1");
 	public static Item gamer_driver_drive = new Item_ore("gamer_driver_drive");
 	public static Item gamer_driver_gaim = new Item_ore("gamer_driver_gaim");
 	public static Item gamer_driver_wizard = new Item_ore("gamer_driver_wizard");
 	public static Item gamer_driver_fourze = new Item_ore("gamer_driver_fourze");
 	public static Item gamer_driver_ooo = new Item_ore("gamer_driver_ooo");
 	public static Item gamer_driver_w = new Item_ore("gamer_driver_w");
-	//no need to add decade
+	public static Item gamer_driver_decade = new Item_ore("gamer_driver_decade");
 	public static Item gamer_driver_kiva = new Item_ore("gamer_driver_kiva");
-	//used Fourze for Den-O
-	//used Drive for Kabuto
+	public static Item gamer_driver_den_o = new Item_ore("gamer_driver_den_o");
+	public static Item gamer_driver_kabuto = new Item_ore("gamer_driver_kabuto");
 	public static Item gamer_driver_hibiki = new Item_ore("gamer_driver_hibiki");
 	public static Item gamer_driver_blade = new Item_ore("gamer_driver_blade");
 	public static Item gamer_driver_faiz = new Item_ore("gamer_driver_faiz");
 	public static Item gamer_driver_ryuki = new Item_ore("gamer_driver_ryuki");
 	public static Item gamer_driver_agito = new Item_ore("gamer_driver_agito");
-	//used Drive for kuuga
+	public static Item gamer_driver_kuuga = new Item_ore("gamer_driver_kuuga");
 	public static Item gamer_driver_ichigo = new Item_ore("gamer_driver_ichigo");
 
 	public static Item totema_wings = new Item_ore("totema_wings");

@@ -89,7 +89,7 @@ public class item_ex_aiddriver extends item_rider_driver
 			{
 				model_belt_plus armorModel = new Model_lazer();
 				
-				Item[] slot_one= new Item[] {stack.getItem(),stack.getItem(),RiderItems.gamer_driver_mightybros,RiderItems.gamer_driver_mightybros,RiderItems.gamer_driver_ex_aid_lv1,RiderItems.gamer_driver_mightybros,RiderItems.gamer_driver_maximum,RiderItems.gamer_driver_ghost,RiderItems.gamer_driver_ghost,RiderItems.gamer_driver_drive,RiderItems.gamer_driver_gaim,RiderItems.gamer_driver_wizard,RiderItems.gamer_driver_fourze,RiderItems.gamer_driver_ooo,RiderItems.gamer_driver_w,stack.getItem(),RiderItems.gamer_driver_kiva,RiderItems.gamer_driver_fourze,RiderItems.gamer_driver_drive,RiderItems.gamer_driver_hibiki,RiderItems.gamer_driver_blade,RiderItems.gamer_driver_faiz,RiderItems.gamer_driver_ryuki,RiderItems.gamer_driver_agito,RiderItems.gamer_driver_drive,RiderItems.gamer_driver_ichigo,RiderItems.gamer_driver_muteki,RiderItems.gamer_driver_creator,RiderItems.gamer_driver_knockout2,RiderItems.gamer_driver_truebrave,RiderItems.gamer_driver_xevious};
+				Item[] slot_one= new Item[] {RiderItems.gamer_driver_mighty,stack.getItem(),RiderItems.gamer_driver_mightybros,RiderItems.gamer_driver_mightybros,RiderItems.gamer_driver_ex_aid_lv1,RiderItems.gamer_driver_mightybros,RiderItems.gamer_driver_maximum,RiderItems.gamer_driver_ghost_lv1,RiderItems.gamer_driver_ghost,RiderItems.gamer_driver_drive,RiderItems.gamer_driver_gaim,RiderItems.gamer_driver_wizard,RiderItems.gamer_driver_fourze,RiderItems.gamer_driver_ooo,RiderItems.gamer_driver_w,RiderItems.gamer_driver_decade,RiderItems.gamer_driver_kiva,RiderItems.gamer_driver_den_o,RiderItems.gamer_driver_kabuto,RiderItems.gamer_driver_hibiki,RiderItems.gamer_driver_blade,RiderItems.gamer_driver_faiz,RiderItems.gamer_driver_ryuki,RiderItems.gamer_driver_agito,RiderItems.gamer_driver_kuuga,RiderItems.gamer_driver_ichigo,RiderItems.gamer_driver_muteki,RiderItems.gamer_driver_creator,RiderItems.gamer_driver_knockout2,RiderItems.gamer_driver_novel,RiderItems.gamer_driver_xevious};
 				Item[] slot_two= new Item[] {ShowaRiderItems.blanknoitem,RiderItems.gamer_driver_robots,RiderItems.gamer_driver_protorobots,RiderItems.gamer_driver_doremifa,RiderItems.gamer_driver_protodoremifa,RiderItems.gamer_driver_combat,RiderItems.gamer_driver_protocombat,RiderItems.gamer_driver_shakariki,RiderItems.gamer_driver_protoshakariki,RiderItems.gamer_driver_dragoknightfull,RiderItems.gamer_driver_dragoknightfang,RiderItems.gamer_driver_dragoknightblade,RiderItems.gamer_driver_dragoknightgun,RiderItems.gamer_driver_dragoknightclaw,RiderItems.gamer_driver_girigiri,RiderItems.gamer_driver_protogirigiri,RiderItems.gamer_driver_bikecombi,RiderItems.gamer_driver_burger,RiderItems.gamer_driver_pacman,RiderItems.gamer_driver_famista,RiderItems.gamer_driver_xevious,RiderItems.gamer_driver_safari,RiderItems.gamer_driver_fantasy,RiderItems.gamer_driver_legacy,RiderItems.gamer_driver_simulation,RiderItems.gamer_driver_zombie,RiderItems.gamer_driver_mightybros,RiderItems.gamer_driver_mightybros,RiderItems.gamer_driver_galaxian,RiderItems.gamer_driver_creator,RiderItems.gamer_driver_knockout2};
 
 				if(stack.getItem() == RiderItems.gashacon_bugvisor_genmu_totema) {
@@ -113,11 +113,29 @@ public class item_ex_aiddriver extends item_rider_driver
 								armorModel.belt=stack;
 						}						
 					}else{
-						armorModel.belt=stack;
-						if( this==RiderItems.gamer_driver_genmu&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_maximum){
+						if (this==RiderItems.gamer_driver_ex_aid||this==RiderItems.gamer_driver_brave||this==RiderItems.gamer_driver_snipe||this==RiderItems.gamer_driver_genmu||this==RiderItems.gamer_driver_paradox) 
+						{
+							armorModel.belt=new ItemStack(RiderItems.gamer_driver);
+						}
+						else
+						{
+							armorModel.belt=stack;
+						}
+						
+						if (this==RiderItems.gamer_driver_ex_aid&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_mighty)
+						{armorModel.belt2=new ItemStack(RiderItems.gamer_driver_mighty);}
+						else if (this==RiderItems.gamer_driver_brave&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_mighty)
+						{armorModel.belt2=new ItemStack(RiderItems.gamer_driver_taddle);}
+						else if (this==RiderItems.gamer_driver_snipe&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_mighty)
+						{armorModel.belt2=new ItemStack(RiderItems.gamer_driver_bang);}
+						else if (this==RiderItems.gamer_driver_genmu&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_mighty)
+						{armorModel.belt2=new ItemStack(RiderItems.gamer_driver_protomighty);}
+						else if (this==RiderItems.gamer_driver_paradox&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_mighty)
+						{armorModel.belt2=new ItemStack(RiderItems.gamer_driver_lv99);}
+						else if( this==RiderItems.gamer_driver_genmu&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_maximum){
 							armorModel.belt2=new ItemStack(RiderItems.gamer_driver_godmaximum);
 						}else if( this==RiderItems.gamer_driver_genmu&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_muteki){
-							armorModel.belt2=new ItemStack(RiderItems.gamer_driver_godmaximum);
+							armorModel.belt2=new ItemStack(RiderItems.gamer_driver_musou);
 						}else if( this==RiderItems.gamer_driver_genmu&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_mightybros||this==RiderItems.gamer_driver_genmu&this.get_core(stack,"1")==1){
 							armorModel.belt2=new ItemStack(RiderItems.gamer_driver_origin);
 						}else if( this==RiderItems.gamer_driver_ex_aid&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_ex_aid_lv1){
@@ -130,16 +148,36 @@ public class item_ex_aiddriver extends item_rider_driver
 							armorModel.belt=new ItemStack(RiderItems.gamer_driver_lazer_lv1);
 						}else if( this==RiderItems.gamer_driver_genmu&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_ex_aid_lv1){
 							armorModel.belt=new ItemStack(RiderItems.gamer_driver_genm_lv1);
-						}else if( this==RiderItems.gamer_driver_proto_brave||this==RiderItems.gamer_driver_proto_snipe&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_ex_aid_lv1){
-							armorModel.belt=new ItemStack(RiderItems.gamer_driver_proto_lv1);
+						}else if( this==RiderItems.gamer_driver_proto_brave&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_ex_aid_lv1){
+							armorModel.belt=new ItemStack(RiderItems.gamer_driver_protobrave_lv1);
+						}else if( this==RiderItems.gamer_driver_proto_snipe&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_ex_aid_lv1){
+							armorModel.belt=new ItemStack(RiderItems.gamer_driver_protosnipe_lv1);
 						}else{
 						armorModel.belt2=new ItemStack(slot_one[this.get_core(stack,"1")]);
 						}
 						armorModel.belt3=new ItemStack(slot_two[this.get_locknum(stack)]);
 					}	
 				}else{
-					armorModel.belt=stack;
-					if( this==RiderItems.gamer_driver_genmu&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_maximum){
+					if (this==RiderItems.gamer_driver_ex_aid||this==RiderItems.gamer_driver_brave||this==RiderItems.gamer_driver_snipe||this==RiderItems.gamer_driver_genmu||this==RiderItems.gamer_driver_paradox) 
+					{
+						armorModel.belt=new ItemStack(RiderItems.gamer_driver);
+					}
+					else
+					{
+						armorModel.belt=stack;
+					}
+					
+					if (this==RiderItems.gamer_driver_ex_aid&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_mighty)
+					{armorModel.belt2=new ItemStack(RiderItems.gamer_driver_mighty);}
+					else if (this==RiderItems.gamer_driver_brave&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_mighty)
+					{armorModel.belt2=new ItemStack(RiderItems.gamer_driver_taddle);}
+					else if (this==RiderItems.gamer_driver_snipe&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_mighty)
+					{armorModel.belt2=new ItemStack(RiderItems.gamer_driver_bang);}
+					else if (this==RiderItems.gamer_driver_genmu&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_mighty)
+					{armorModel.belt2=new ItemStack(RiderItems.gamer_driver_protomighty);}
+					else if (this==RiderItems.gamer_driver_paradox&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_mighty)
+					{armorModel.belt2=new ItemStack(RiderItems.gamer_driver_lv99);}
+					else if( this==RiderItems.gamer_driver_genmu&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_maximum){
 						armorModel.belt2=new ItemStack(RiderItems.gamer_driver_godmaximum);
 					}else if( this==RiderItems.gamer_driver_genmu&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_mightybros){
 						armorModel.belt2=new ItemStack(RiderItems.gamer_driver_origin);
@@ -153,8 +191,10 @@ public class item_ex_aiddriver extends item_rider_driver
 						armorModel.belt=new ItemStack(RiderItems.gamer_driver_lazer_lv1);
 					}else if( this==RiderItems.gamer_driver_genmu&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_ex_aid_lv1){
 						armorModel.belt=new ItemStack(RiderItems.gamer_driver_genm_lv1);
-					}else if( this==RiderItems.gamer_driver_proto_brave||this==RiderItems.gamer_driver_proto_snipe&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_ex_aid_lv1){
-						armorModel.belt=new ItemStack(RiderItems.gamer_driver_proto_lv1);
+					}else if( this==RiderItems.gamer_driver_proto_brave&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_ex_aid_lv1){
+						armorModel.belt=new ItemStack(RiderItems.gamer_driver_protobrave_lv1);
+					}else if( this==RiderItems.gamer_driver_proto_snipe&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_ex_aid_lv1){
+						armorModel.belt=new ItemStack(RiderItems.gamer_driver_protosnipe_lv1);
 					}else{
 					armorModel.belt2=new ItemStack(slot_one[this.get_core(stack,"1")]);
 					}
