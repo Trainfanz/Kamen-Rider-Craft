@@ -2250,6 +2250,7 @@ item.mighty_brothers_xx_gashat.name=Mighty Brothers XX Gashat
 item.maximum_mighty_x_gashat.name=Maximum Mighty X Gashat
 item.hyper_muteki_gashat.name=Hyper Muteki Gashat
 item.god_maximum_mighty_x_gashat.name=God Maximum Mighty X Gashat
+item.genm_musou_gashat.name=Genm Musou Gashat
 
 item.gamedeus_hyper_muteki_gashat.name=Gamedeus Hyper Muteki Gashat
 
@@ -2325,6 +2326,54 @@ item.gabarizing_gashat.name=Ganbarizing Gashat
 
 item.mighty_novel_x_gashat.name=Mighty Novel X Gashat
 
+
+item.mighty_action_x_gasha_trophy.name=Mighty Action X Gashatrophy
+item.taddle_quest_gasha_trophy.name=Taddle Quest Gashatrophy
+item.bang_bang_shooting_gasha_trophy.name=Bang Bang Shooting Gashatrophy
+item.bakusou_bike_gasha_trophy.name=Bakusou Bike Gashatrophy
+item.shakariki_sports_gasha_trophy.name=Shakariki Sports Gashatrophy
+item.gekitotsu_robots_gasha_trophy.name=Gekitotsu Robots Gashatrophy
+item.doremifa_beat_gasha_trophy.name=DoReMiFa Beat Gashatrophy
+item.giri_giri_chambara_gasha_trophy.name=Giri Giri Chambara Gashatrophy
+item.jet_combat_gasha_trophy.name=Jet Combat Gashatrophy
+item.drago_knight_hunter_z_gasha_trophy.name=Drago Knight Hunter Z Gashatrophy
+item.perfect_puzzle_gasha_trophy.name=Perfect Puzzle Gashatrophy
+item.knockout_fighter_gasha_trophy.name=Knock Out Fighter Gashatrophy
+item.toki_meki_crisis_gasha_trophy.name=Toki Meki Crisis Gashatrophy
+
+item.speed_energy_item.name=Speeding-Up Energy Item
+item.iron_energy_item.name=Iron-Body Energy Item
+item.instigate_energy_item.name=Instigate Energy Item
+item.jump_energy_item.name=High-Jump Energy Item
+item.muscle_energy_item.name=Muscular Energy Item
+item.recover_energy_item.name=Recover Energy Item
+item.shrink_energy_item.name=Shrink Energy Item
+item.giant_energy_item.name=Giant Energy Item
+item.invisible_energy_item.name=Invisible Energy Item
+item.confusion_energy_item.name=Confusion Energy Item
+item.christmas_energy_item.name=Christmas Energy Item
+item.emission_energy_item.name=Emission Energy Item
+item.liquid_energy_item.name=Liquefaction Energy Item
+item.seperation_energy_item.name=Separation Energy Item
+item.dark_energy_item.name=Dark Energy Item
+item.stretch_energy_item.name=Stretch Energy Item
+item.sleep_energy_item.name=Sleep Energy Item
+item.reflect_energy_item.name=Reflect Energy Item
+item.reverse_energy_item.name=Reverse Energy Item
+item.lucky_energy_item.name=Lucky Energy Item
+item.flatten_energy_item.name=Flatten Energy Item
+item.balloon_energy_item.name=Balloon-Body Energy Item
+item.gag_energy_item.name=Gag Energy Item
+item.disguise_energy_item.name=Disguise Energy Item
+item.fascination_energy_item.name=Fascination Energy Item
+item.partner_energy_item.name=Partner Energy Item
+item.prediction_energy_item.name=Prediction Energy Item
+item.halt_energy_item.name=Halt Energy Item
+item.end_energy_item.name=The End Energy Item
+item.bug_energy_item.name=Bug Energy Item
+item.random_energy_item.name=Random Energy Item
+item.save_energy_item.name=Save Energy Item
+    
 item.lazer_bike.name=Lazer(Bike Gamer Level 2)
 item.bike_gamer.name=Bike Gamer
 

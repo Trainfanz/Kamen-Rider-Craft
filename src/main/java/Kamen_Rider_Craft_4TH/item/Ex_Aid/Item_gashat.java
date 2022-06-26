@@ -23,7 +23,7 @@ public class Item_gashat extends Item implements IHasModel
 
 	public int num;
 	public int num2;
-	public static String[] ARMS= new String[] {"blank","robotgamer","protorobotgamer","beatgamer","protobeatgamer","combatgamer","protocombatgamer","sportsgamer","protosportsgamer","huntergamerfull","huntergamerfang","huntergamerblade","huntergamergun","huntergamerclaw","chambaragamer","protochambaragamer","bikeactiongamer","burgergamer","pacgamer","famistagamer","xeviousgamer","safarigamer","fantasygamer","legacygamer","simulationgamer","zombie_gamer","xxr_gamer","xxl_gamer","galaxiangamer","creatorgamer","knock_out_fighter_2_gamer"};
+	public static String[] ARMS= new String[] {"blank","robotgamer","protorobotgamer","beatgamer","protobeatgamer","combatgamer","protocombatgamer","sportsgamer","protosportsgamer","huntergamerfull","huntergamerfang","huntergamerblade","huntergamergun","huntergamerclaw","chambaragamer","protochambaragamer","bikeactiongamer","burgergamer","pacgamer","famistagamer","xeviousgamer","safarigamer","fantasygamer","legacygamer","simulationgamer","zombie_gamer","xxr_gamer","xxl_gamer","galaxiangamer","creatorgamer","knock_out_fighter_2_gamer","tank_gamer"};
 
 
 
@@ -319,9 +319,6 @@ public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer play
 								item_ex_aiddriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
 								item_ex_aiddriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "1");
 							}
-							}else if (this == RiderItems.bang_bang_tank_gashat){
-								item_ex_aiddriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
-								item_ex_aiddriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),30, "1");
 							}
 						}else if (belt.Rider=="proto_brave"& this == RiderItems.proto_taddle_quest_gashat||belt.Rider=="proto_snipe"& this == RiderItems.proto_bang_bang_shooting_gashat){
 							if (item_ex_aiddriver.get_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==0){

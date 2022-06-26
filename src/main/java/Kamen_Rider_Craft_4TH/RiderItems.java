@@ -2796,13 +2796,12 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item taddle_legacy_gashat = new Item_gashat(1, 23,"taddle_legacy_gashat").AddGashatToBlockList(2).setCreativeTab(Tabs.tabex_aid);
 	public static Item hurricane_ninja_gashat = new Item_gashat(4, 0,"hurricane_ninja_gashat").AddGashatToBlockList(4).setCreativeTab(Tabs.tabex_aid);
 
-	public static Item bang_bang_tank_gashat = new Item_gashat(0, 0,"bang_bang_tank_gashat").AddGashatToBlockList(2).setCreativeTab(Tabs.tabex_aid);
+	public static Item bang_bang_tank_gashat = new Item_gashat(1,31,"bang_bang_tank_gashat").AddGashatToBlockList(2).setCreativeTab(Tabs.tabex_aid);
 	public static Item doctor_mighty_xx_gashat = new Item_gashat(4, 0,"doctor_mighty_xx_gashat").AddDualGashatToBlockList(2).setCreativeTab(Tabs.tabex_aid);
 	public static Item god_maximum_mighty_x_gashat = new Item_gashat(0, 0,"god_maximum_mighty_x_gashat").AddMaxGashatToBlockList(1).setCreativeTab(Tabs.tabex_aid);
 	public static Item genm_musou_gashat = new Item_gashat(0, 0,"genm_musou_gashat").setCreativeTab(Tabs.tabex_aid);
 
 	public static Item proto_bakusou_bike_combi_fukkatsu_gashat = new Item_gashat(0, 16,"proto_bakusou_bike_combi_fukkatsu_gashat").AddGashatToBlockList(5).setCreativeTab(Tabs.tabex_aid);
-
 
 	public static Item pac_adventure_gashat = new Item_gashat(1, 18,"pac_adventure_gashat").AddGashatToBlockList(6).setCreativeTab(Tabs.tabex_aid);
 	public static Item famitsa_gashat = new Item_gashat(1, 19,"famitsa_gashat").AddGashatToBlockList(6).setCreativeTab(Tabs.tabex_aid);

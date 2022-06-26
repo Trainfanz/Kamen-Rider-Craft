@@ -536,7 +536,7 @@ public class ReiwaRiderItems {
 
 	public static Item kajiki_vistamp = new Item_Vistamps("kajiki_vistamp").AddToVistampBar(1).setCreativeTab(Tabs.tabrevice);//10
 	public static Item tricera_vistamp = new Item_Vistamps("tricera_vistamp").setCreativeTab(Tabs.tabrevice);//10
-	public static Item crocodile_vistamp = new Item_Vistamps("crocodile_vistamp").setCreativeTab(Tabs.tabrevice);//10
+	//public static Item crocodile_vistamp = new Item_Vistamps("crocodile_vistamp").setCreativeTab(Tabs.tabrevice);//10
 	
 	public static Item daiouika_vistamp = new Item_Vistamps("daiouika_vistamp").setCreativeTab(Tabs.tabrevice);
 	public static Item wolf_vistamp = new Item_Vistamps("wolf_vistamp").setCreativeTab(Tabs.tabrevice);
@@ -548,7 +548,7 @@ public class ReiwaRiderItems {
 	public static Item cheetah_vistamp = new Item_Vistamps("cheetah_vistamp").setCreativeTab(Tabs.tabrevice);
 	public static Item elephant_vistamp = new Item_Vistamps("elephant_vistamp").setCreativeTab(Tabs.tabrevice);
 	public static Item shark_vistamp = new Item_Vistamps("shark_vistamp").setCreativeTab(Tabs.tabrevice);
-	public static Item koala_vistamp = new Item_Vistamps("koala_vistamp").setCreativeTab(Tabs.tabrevice);
+	//public static Item koala_vistamp = new Item_Vistamps("koala_vistamp").setCreativeTab(Tabs.tabrevice);
 	
 	public static Item raflessia_vistamp = new Item_Vistamps("raflessia_vistamp").setCreativeTab(Tabs.tabrevice);
 	
