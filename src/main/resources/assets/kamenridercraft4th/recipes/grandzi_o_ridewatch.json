@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "grand_zi_o",
   "pattern": [
     "XZX",
     "UBG",

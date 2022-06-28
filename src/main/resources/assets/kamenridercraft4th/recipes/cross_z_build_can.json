@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "cross_z_build",
   "ingredients": [
 {
     

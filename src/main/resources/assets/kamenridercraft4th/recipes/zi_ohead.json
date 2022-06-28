@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "kr_zi_o",
   "pattern": [
     "XXX",
     "X X"

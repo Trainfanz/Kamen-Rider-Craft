@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "black_rx",
   "pattern": [
     "XXX",
     "XMX",

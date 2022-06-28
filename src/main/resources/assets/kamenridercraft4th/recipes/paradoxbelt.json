@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "para_dx",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+	"a": [
+	{
+      "item": "kamenridercraft4th:perfect_puzzle_gashat"
+    },
+	{
+      "item": "kamenridercraft4th:knock_out_fighter_gashat"
+    }
+	]
+  },
+  "result": {
+    "item": "kamenridercraft4th:paradoxbelt"
+  }
+}

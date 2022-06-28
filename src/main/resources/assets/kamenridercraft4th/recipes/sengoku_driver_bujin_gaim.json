@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "bujin_gaim",
   "pattern": [
     "XXX",
     "XCX",

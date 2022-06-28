@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "revice_barid_rex",
   "ingredients": [
 {
     

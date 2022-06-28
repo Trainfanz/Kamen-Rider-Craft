@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "wonder_ride_book",
   "ingredients": [
 {
     

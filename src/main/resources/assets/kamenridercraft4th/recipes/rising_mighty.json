@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "kuuga_mighty",
   "ingredients": [
     {
       "item": "kamenridercraft4th:kuuga_mighty"

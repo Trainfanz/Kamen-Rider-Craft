@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "kuuga_titan",
   "ingredients": [
     {
       "item": "kamenridercraft4th:kuuga_titan"

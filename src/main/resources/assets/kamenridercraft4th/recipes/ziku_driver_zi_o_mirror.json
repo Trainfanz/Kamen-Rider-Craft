@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "mirror_zi_o",
   "pattern": [
     "XXX",
     "XCX",

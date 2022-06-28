@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "ohma_zi_o",
   "ingredients": [
     {
       "item": "kamenridercraft4th:w_extreme_ridewatch"

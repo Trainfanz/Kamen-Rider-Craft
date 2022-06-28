@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "kuuga_pegasus",
   "pattern": [
     "XPX",
     "XSX",

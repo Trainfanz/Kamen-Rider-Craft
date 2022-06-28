@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "horobi",
   "pattern": [
     "XMX",
     "XSX",

@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "mammoth_genome",
   "pattern": [
     "XMX",
     "XSX",

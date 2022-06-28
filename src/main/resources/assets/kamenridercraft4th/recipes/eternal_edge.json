@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "eternal",
   "pattern": [
     "XCX",
     "XZX",
