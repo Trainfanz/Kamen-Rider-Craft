@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "bujin_gaim",
   "ingredients": [
 {
     

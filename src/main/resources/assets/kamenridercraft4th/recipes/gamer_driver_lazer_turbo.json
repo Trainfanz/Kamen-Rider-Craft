@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lazer_turbo",
+  "pattern": [
+    "XCX",
+    "XMX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:blank_gashat"
+    }, "C": {
+      "item": "kamenridercraft4th:proto_bakusou_bike_gashat"
+    }, "M": {
+      "item": "kamenridercraft4th:bakusou_bike_gashat"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:gamer_driver_lazer_turbo"
+  }
+}

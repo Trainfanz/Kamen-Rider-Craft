@@ -1,0 +1,58 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "kamenridercraft4th:chronus_clock"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kamenridercraft4th:mighty_action_x_gasha_trophy"
+          }
+        ]
+      }
+    },
+	"has_logo1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kamenridercraft4th:taddle_quest_gasha_trophy"
+          }
+        ]
+      }
+    },
+	"has_logo2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kamenridercraft4th:bang_bang_shooting_gasha_trophy"
+          }
+        ]
+      }
+    },
+	"has_logo3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kamenridercraft4th:bakusou_bike_gasha_trophy"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logo",
+      "has_logo1",
+      "has_logo2",
+      "has_logo3"
+    ]
+  ]
+}

@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "kenzan",
   "ingredients": [ 
     {
       "item": "kamenridercraft4th:fuusouken_hayate_shuriken"

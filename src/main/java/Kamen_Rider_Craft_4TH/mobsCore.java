@@ -381,6 +381,7 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new ResourceLocation( Refercence.MODID+":KaidenBugsterMob"),entity_kaiden_bugster.class, "KaidenBugsterMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x8b8b8b,0x810000);
 		EntityRegistry.registerModEntity(new ResourceLocation( Refercence.MODID+":CharlieBugsterMob"),entity_charlie_bugster.class, "CharlieBugsterMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x00b9f5,0xbc9600);
 		EntityRegistry.registerModEntity(new ResourceLocation( Refercence.MODID+":LovelyBugsterMob"),entity_lovely_bugster.class, "LovelyBugsterMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x1d1d1d,0xe28736);
+		EntityRegistry.addSpawn(entity_lovely_bugster.class,  15, 1, 4, EnumCreatureType.MONSTER,Biome.getBiome(8));
 		EntityRegistry.registerModEntity(new ResourceLocation( Refercence.MODID+":LovelicaBugsterMob"),entity_lovelica_bugster.class, "LovelicaBugsterMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xea6dbc,0x3c9d6e);
 		
 		EntityRegistry.registerModEntity(new ResourceLocation( Refercence.MODID+":GraphiteBugsterMob"),entity_graphite_bugster.class, "GraphiteBugsterMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x007108,0x002a03);

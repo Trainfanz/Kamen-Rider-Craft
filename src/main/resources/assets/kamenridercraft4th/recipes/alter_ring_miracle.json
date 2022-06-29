@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "mirage_agito",
   "pattern": [
     "XXX",
     "XMX",

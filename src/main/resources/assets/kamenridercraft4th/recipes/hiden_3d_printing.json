@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "progrise_key",
   "pattern": [
     "XXX",
     "XCX",

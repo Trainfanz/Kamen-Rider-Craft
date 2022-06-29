@@ -15,7 +15,7 @@ entity.EvoltMob2.name=仮面ライダーエボル(ブラックホールフォー
 entity.EvoltMob3.name=エボルト
 entity.HardGuardianMob.name=ハードガーディアン
 entity.LazerMob.name=仮面ライダーレーザー(LV2)
-entity.exaidBikeMob.name=エグゼイドバイク
+entity.exaidBikeMob.name=バイクゲーマー
 entity.machine_builder.name=マシンビルダー
 entity.RemoconBrosMob.name=リモコンブロス
 entity.EngineBrosMob.name=エンジンブロス
@@ -30,6 +30,10 @@ entity.greaseMob.name=仮面ライダーグリス
 entity.BuildMob.name=仮面ライダービルド(フルポテンシャル)
 entity.kodama_suika_armsMob.name=小玉スイカアームズ
 entity.ClayDollDopantMob.name=クレイドール・ドーパント
+entity.weatherDopantMob.name=ウェザー・ドーパント
+entity.smilodonDopantMob.name=スミロドン・ドーパント
+entity.TerrorDopantMob.name=テラー・ドーパント
+entity.commanderDopantMob.name=コマンダー・ドーパント
 entity.NazcaDopantMob.name=ナスカ・ドーパント
 entity.RedNazcaDopantMob.name=R ナスカ・ドーパント
 entity.TabooDopantMob.name=タブードーパント
@@ -62,6 +66,56 @@ entity.lord_baronMob.name=ロードバロン
 entity.GaohMob.name=仮面ライダーガオウ
 entity.MachineDenBirdMob.name=マシンデンバード
 entity.RiseHopperBikeMob.name=ライズホッパー
+entity.Diago_SpeedyMob.name=ディアゴスピーディー
+
+entity.ZuGumunBaMob.name=ズ･グムン･バ
+
+entity.TakaCanMob.name=タカカンドロイド
+entity.TakoCanMob.name=タコカンドロイド
+entity.BattaCanMob.name=バッタカンドロイド
+entity.ToraCanMob.name=トラカンドロイド
+entity.UnagiCanMob.name=電気ウナギカンドロイド
+entity.GorillaCanMob.name=ゴリラカンドロイド
+entity.KujakuCanMob.name=クジャクカンドロイド
+entity.PteraCanMob.name=プテラカンドロイド
+entity.TriceraCanMob.name=トリケラカンドロイド
+
+entity.DestronCombatmanMob.name=デストロン戦闘員
+entity.GodWarfareAgentMob.name=GOD戦闘工作員
+entity.RedFollowerMob.name=赤ジューシャ
+entity.BlackSatanSoldierMob.name=ブラックサタン戦闘員
+entity.AriCommandoMob.name=アリコマンド
+entity.DogmaFighterMob.name=ドグマファイター
+entity.CombatRoidMob.name=コンバットロイド
+entity.ChapMob.name=チャップ
+
+entity.shocker_ridersMob.name=ショッカーライダー
+
+entity.RiotrooperMob.name=ライオトルーパー
+entity.OrgaMob.name=ホースオルフェノク
+
+
+entity.FoundationXMasqueradeMob.name=財団Xマスカレイド・ドーパント
+entity.EternalMob.name=仮面ライダーエターナル
+
+entity.yummyMob.name=ヤミー
+entity.knight_soldierMob.name=ナイト兵
+entity.uvaMob.name=ウヴァ
+entity.kazariMob.name=カザリ
+entity.mezoolMob.name=メズール
+entity.gamelMob.name=ガメル
+entity.ankhLostMob.name=ロスト　アンク
+entity.muchiriMob.name=ムチリ
+entity.ankhcompleteMob.name=アンク 完全体
+entity.CoreMob.name=仮面ライダーコア
+entity.CorePowerUpMob.name=仮面ライダーコア(パワードアップ)
+entity.poseidonMob.name=仮面ライダーポセイドン
+
+entity.super_gingaohMob.name=超銀河王
+
+entity.ridevendorVendingMob.name=ライドベンダー(マシンベンダーモード)
+entity.RidevendorMob.name=ライドベンダー(マシンバイクモード)
+entity.ToRidevendorMob.name=トライドベンダー
 
 entity.new_mole_imagin_sandMob.name=Newモールイマジン(砂)
 entity.new_mole_imaginMob.name=Newモールイマジン
@@ -72,20 +126,64 @@ entity.RyutarosMob.name=リュウタロス
 entity.WhiteWozMob.name=仮面ライダーウォズ(白ウォズ)
 entity.GingaMob.name=仮面ライダーギンガ
 
+
+entity.SabelaMob.name=仮面ライダーサーベラ
+entity.DurendalMob.name=仮面ライダーデュランダル
+entity.SolomonMob.name=仮面ライダーソロモン
+entity.LegeielMob.name=レジエル
+entity.LegeielForbiddenMob.name=レジエル・フォビドゥン
+entity.ZooousMob.name=ズオス
+entity.ZooousPredatorMob.name=ズオス・プレデター
+entity.StoriousMob.name=ストリウス
+
+
+entity.StoriousRiderMob.name=仮面ライダーストリウス
+entity.DesastMob.name=デザスト
+entity.ChaybdisMob.name=カリュブディスメギド
+entity.ChaybdisHerculesMob.name=カリュブディス・ハーキュリーメギド
+
 entity.TrilobiteMagiaMob.name=トリロバイトマギア
 entity.dodoChickMob.name=ドードーマギア・ヒナ
+entity.BattleRaiderMob.name=バトルレイダー
+entity.AbaddonMob.name=仮面ライダーアバドン
 entity.MagiaMob.name=マギア
 entity.horobiMob.name=仮面ライダー滅
 entity.jinMob.name=仮面ライダー迅
 entity.ikazuchiMob.name=仮面ライダー雷
+entity.NakiMob.name=Kamen Rider Naki
 entity.dodoMagiaMob.name=ドードーマギア
+entity.RaiderMob.name=Raider
 entity.Arc_zeroMob.name=仮面ライダーアークゼロ
+entity.AbaddonHighMob.name=仮面ライダーアバドン(指揮官仕様)
+entity.EdenMob.name=仮面ライダーエデン
+entity.ZaiaMob.name=仮面ライダーザイア
+entity.DireWolfSoldMagiaMob.name=ダイアウルフソルドマギア
+entity.ServalTigerSoldMagiaMob.name=サーバルタイガーマギア
+entity.gigerMob.name=ギーガー
 entity.IsMob.name=イズ
+
+entity.DownfallGuardianMob.name=ダウンフォールガーディアン
+entity.PhantomCrusherMob.name=ファントムクラッシャー
+entity.BloodMob.name=仮面ライダーブラッド
+entity.KillbusMob.name=仮面ライダーキルバス
+entity.MetalBuildMob.name=仮面ライダーメタルビルド
+
+entity.ShimiMob.name=シミー
+entity.CaliburMob.name=仮面ライダーカリバー
+entity.FalchionMob.name=仮面ライダーファルシオン
+
+entity.ViceMob.name=バイス(WIP)
+entity.giffJuniorMob.name=ギフジュニア
+entity.EvilMob.name=仮面ライダーエビル
 
 effect.fly=飛行
 effect.fire_punch=炎の拳
 effect.punch_boost=パンチブースト
 effect.big=巨大化
+
+effect.antipoison=Poison Resistance
+effect.bugster_virus=バグスターウイルス
+effect.slash=スラッシュ
 
 itemGroup.tabkuuga=仮面ライダークウガ
 itemGroup.tabagito=仮面ライダーアギト
@@ -105,14 +203,31 @@ itemGroup.tabGaim=仮面ライダー鎧武
 itemGroup.tabdrive=仮面ライダードライブ
 itemGroup.tabghost=仮面ライダーゴースト
 itemGroup.tabIichigo=昭和ライダー
+itemGroup.tabgo_rider=仮面戦隊ゴライダー
 itemGroup.tabex_aid=仮面ライダーエグゼイド
 itemGroup.tabbuild=仮面ライダービルド
 itemGroup.tabamazons=仮面ライダーアマゾンズ
 itemGroup.tabzi_o=仮面ライダージオウ
 itemGroup.tabzero_one=仮面ライダーゼロワン
 itemGroup.tabsaber=仮面ライダーセイバー
+itemGroup.tabrevice=仮面ライダーリバイス
 itemGroup.tabdecor=装飾
 itemGroup.tabmisc=その他のライダー
+
+itemGroup.tabv3=仮面ライダーV3
+itemGroup.tabx=仮面ライダーX
+itemGroup.tabamazon=仮面ライダーアマゾン
+itemGroup.tabstronger=仮面ライダーストロンガー
+itemGroup.tabskyrider=仮面ライダースカイライダー
+itemGroup.tabsuper_1=仮面ライダースーパー1
+itemGroup.tabzx=仮面ライダーZX
+itemGroup.tabblack=仮面ライダーブラック
+itemGroup.tabblack_rx=仮面ライダーブラックRX
+itemGroup.tabshin=仮面ライダー真
+itemGroup.tabzo=仮面ライダーZO
+itemGroup.tabj=仮面ライダーJ
+itemGroup.tabG=仮面ライダーG
+itemGroup.tabGoRider=仮面戦隊ゴライダー
 
 tile.stone_kuuga.name=クウガ鉱石
 tile.stone_agito.name=アギト鉱石
@@ -169,9 +284,28 @@ tile.rosyuo_boss_block.name=ロシュオブロック
 tile.demushu_boss_block.name=デムシュブロック
 tile.lord_baron_boss_block.name=ロードバロンブロック
 tile.gaoh_boss_block.name=ガオウブロック
+tile.woz_boss_block.name=白ウォズブロック
 tile.horobi_boss_block.name=滅ブロック
 tile.ikazuchi_boss_block.name=雷ブロック
 tile.ark_one_boss_block.name=アークワンブロック
+tile.sabela_boss_block.name=サベーラブロック
+tile.durendal_boss_block.name=デゥランダルブロック
+tile.solomon_boss_block.name=ソロモンブロック
+tile.super_ginga_oh_boss_block.name=超銀河王ブロック
+tile.storious_boss_block.name=ストリウスブロック
+tile.core_boss_block.name=コアブロック
+tile.power_up_core_boss_block.name=パワードアップコアブロック
+tile.poseidon_boss_block.name=ブロック
+tile.pure_gaia_memory_block.name=ポセイドンブロック
+tile.taboo_bossblock.name=タブーブロック
+tile.terror_boss_block.name=テラーブロック
+
+tile.cell_medal_programer.name=セルメダルプログラマー
+tile.vistamp_bar.name=バイスタンプバー
+tile.astro_switch_programer.name=アストロスイッチプログラマー
+
+tile.amazon_cell_extractor.name=アマゾン細胞エクストラクター
+tile.amazon_cell_mutator.name=アマゾン細胞ミューテーター
 
 tile.purifyer.name=フルボトル清浄機
 tile.solidifyer.name=フルボトル凝固機
@@ -185,12 +319,43 @@ tile.gamecreator.name=ゲームクリエーター
 tile.hiden_3d_printing.name=飛電・3Dプリンター
 tile.zaia_3d_printing.name=ZAIA・3Dプリンター
 
+tile.sword_of_logos_book_analyzer.name=ソードオブロゴスブックアナライザー
+
 tile.monitor.name=コンピューターモニター
 tile.pandorabox.name=パンドラボックス
 tile.mighty_block.name=マイティアクションXブロック
 tile.wallplate.name=メタルウォールプレート
+tile.white_wallplate.name=メタルウォールプレート
 tile.fangire_glass.name=ファンガイアガラス
 tile.ganbarizing.name=ガンバライジングマシン
+
+tile.planks_light_blue.name=木材
+tile.planks_dark_blue.name=木材
+tile.planks_white.name=木材
+tile.kamiyama_wall.name=ファンタジック本屋かみやまインテリアウォールブロック
+tile.door_kamiyama.name=ファンタジック本屋かみやまドア
+tile.sword_of_logos_stairs.name=ソードオブロゴス
+tile.sword_of_logos_bookshelf.name=ソードオブロゴス本棚
+tile.planks_big_oak_golden_trim.name=木材
+tile.spruce_flooring.name=マツフロアリング
+tile.stone_flooring.name=ストーンフロアリング
+tile.sword_of_logos_brick.name=ソードオブロゴスレンガ
+tile.wooden_panel.name=木材のパネル
+tile.wooden_panel2.name=木材のパネル
+tile.sword_of_logos_wood.name=ソードオブロゴスの木材ブロック
+tile.sword_of_logos_wood_stairs.name=ソードオブロゴスの木材の階段
+tile.sword_of_logos_gold_stairs.name=ソードオブロゴスゴールデンの木材
+tile.sword_of_logos_tabel.name=ソードオブロゴステーブル
+tile.sword_of_logos_tabel_top.name=ソードオブロゴステーブル(先頭)
+tile.sword_of_logos_wood2.name=ソードオブロゴスの木材ブロック
+tile.quartz_block_gold_trim.name=ゴールデントリッムドクォーツブロック
+tile.sword_of_logos_gold_trim.name=ソードオブロゴストリッムドゴールデンブロック
+tile.sword_of_logos_gold_block.name=ソードオブロゴスゴールデンブロック
+tile.sword_of_logos_logo.name=ソードオブロゴスロゴ
+tile.sword_of_logos_sword_blade.name=ソードオブロゴスソードブレイド
+tile.sword_of_logos_arch.name=ソードオブロゴスアーク
+tile.sword_of_logos_wood_trim.name=ソードオブロゴストリッムドの木材ブロック
+tile.planks_brown.name=木材
 
 tile.denliner_interior.name=デンライナーインテリア
 tile.denliner_interior_darker.name=デンライナーインテリア(ダーク)
@@ -237,6 +402,15 @@ tile.gaoh_liner_green.name=ガオウライナーグリーン
 tile.gaoh_liner_windo.name=ガオウライナーウィンドウ
 tile.zero_liner_green.name=ゼロライナーグリーン
 
+tile.rabbit_hutch_cyan.name=ラビットハッチ青緑色のブロック
+tile.rabbit_hutch_cyan2.name=ラビットハッチ青緑色のブロック
+tile.rabbit_hutch_cyan_light.name=ラビットハッチ青緑色のブロックウィフライト
+
+tile.rabbit_hutch_light.name=ラビットハッチルーフライト
+tile.rabbit_hutch_computer_stairs.name=ラビットハッチコンピューター
+tile.rabbit_hutch_computer_stairs2.name=ラビットハッチコンピューター
+
+
 tile.helheim_plant.name=ヘルヘイムの植物
 tile.helheim_plant_2.name=ヘルヘイムの植物
 tile.helheim_plant_3.name=ヘルヘイムの植物
@@ -249,7 +423,8 @@ tile.ginga_meteor.name=銀河流星岩
 item.energy.name=エナジーショット
 
 item.base_sword.name=ベースウエポン
-item.base_gun.name=バースジェム
+item.base_gun.name=ベースガン
+item.base_bike.name=ベースバイク
 
 item.shocker_emblem.name=ショッカーの紋章
 
@@ -2320,23 +2495,194 @@ item.lion_senki_wonderride_book.name=ライオン戦記ワンダーライドブ�
 
 item.peter_fantasista_wonderride_book.name=ピーターファンタジスタワンダーライドブック
 item.jackun_to_domamenoki_wonderride_book.name=ジャッ君と土豆の木ワンダーライドブック
-            
+                      
+item.revicehead.name=Revice Helmet
+item.revicetroso.name=Revice Chestplate 
+item.revicelegs.name=Revice Leggings
+        
+item.revice_driver.name=Revice Driver       
+item.vice_belt.name=Buddy Buckle(Vice)    
+
+item.two_sidriver_evil.name=Two Sidriver(Evil)
+item.two_sidriver_live.name=Two Sidriver(Live)
+item.demons_driver.name=Demons Driver
+item.libera_driver.name=Libera Driver
+item.vail_driver.name=Vail Driver
+item.over_demons_driver.name=Demons Driver (Over Demons)
+item.week_endriver.name=Week Endriver
+    
+item.rex_vistamp.name=Rex Vistamp
+item.barid_rex_vistamp_closed.name=Barid Rex Vistamp (Incomplete)
+item.barid_rex_vistamp.name=Barid Rex Vistamp
+item.volcano_vistamp.name=Volcano Vistamp
+item.rolling_vistamp.name=Rolling Vistamp
+item.thunder_gale_vistamp.name=Thunder Gale Vistamp
+
+item.crow_vistamp.name=Crow Vistamp
+item.holy_wing_vistamp.name=Holy Wing Vistamp
+
+item.eagle_vistamp.name=Eagle Vistamp
+item.mammoth_vistamp.name=Mammoth Vistamp
+item.megalodon_vistamp.name=Megalodon Vistamp
+item.ptera_vistamp.name=Ptera Vistamp
+item.lion_vistamp.name=Lion Vistamp
+item.jackal_vistamp.name=Jackal Vistamp
+item.kong_vistamp.name=Kong Vistamp
+item.kamakiri_vistamp.name=Kamakiri Vistamp
+item.brachio_vistamp.name=Brachio Vistamp
+item.kajiki_vistamp.name=Kajiki Vistamp
+item.neo_batta_vistamp.name=Neo Batta Vistamp
+item.kangaroo_vistamp.name=Kangaroo Vistamp
+item.bat_vistamp.name=Bat Vistamp
+item.spider_vistamp.name=Spider Vistamp
+item.batta_vistamp.name=Batta Vistamp
+item.mogura_vistamp.name=Mogura Vistamp
+item.scorpion_vistamp.name=Scorpion Vistamp
+item.turtle_vistamp.name=Turtle Vistamp
+item.kujaku_vistamp.name=Kujaku Vistamp
+item.cobra_vistamp.name=Cobra Vistamp
+item.condor_vistamp.name=Condor Vistamp
+item.white_leo_vistamp.name=White Leo Vistamp
+item.quetzalcoatlus_vistamp.name=Quetzalcoatlus Vistamp
+
+
+item.kirin_vistamp.name=Kirin Vistamp
+item.niwatori_vistamp.name=Niwatori Vistamp
+item.funkorogashi_vistamp.name=Funkorogashi Vistamp
+
+item.queen_bee_vistamp.name=Queen Bee Vistamp
+item.buffalo_vistamp.name=Buffalo Vistamp
+item.tricera_vistamp.name=Tricera Vistamp
+item.crocodile_vistamp.name=Crocodile Vistamp
+item.kuwagata_vistamp.name=Kuwagata Vistamp
+item.kabuto_vistamp.name=Kabuto Vistamp
+item.hashibiroko_vistamp.name=Hashibiroko Vistamp
+item.anomalocaris_vistamp.name=Anomalocaris Vistamp
+
+item.proto_queen_bee_vistamp.name=Queen Bee Proto Vistamp
+item.cheetah_vistamp.name=Cheetah Proto Vistamp
+item.planarian_vistamp.name=Planarian Proto Vistamp
+item.daiouika_vistamp.name=Daiouika Proto Vistamp
+item.wolf_vistamp.name=Wolf Proto Vistamp
+item.sabertiger_vistamp.name=Sabertiger Proto Vistamp
+item.chameleon_vistamp.name=Chameleon Proto Vistamp
+item.koala_vistamp.name=Koala Proto Vistamp
+item.shark_vistamp.name=Shark Proto Vistamp 
+item.elephant_vistamp.name=Elephant Proto Vistamp
+item.raflessia_vistamp.name=Rafflesia Proto Vistamp
+    
+item.rex_vistamp_metal.name= Rex Vistamp (Black Metal Plating)
+item.rex_vistamp_christmas.name=Rex Vistamp (Christmas)
+item.rex_vistamp_theme.name=Rex Vistamp (Theme Song) 
+item.toysaurus_vistamp.name=Toysaurus Vistamp
+item.mammoth_vistamp_china.name=Mammoth Vistamp (Chinese Exclusive)
+item.telemag_rex_vistamp.name=Rex Vistamp (Glitter)
+item.giff_junior_vistamp.name=Giff Junior Vistamp
+           
+item.proto_vistamp.name=Proto Vistamp
+    
+item.oblivion_stamp.name=Oblivian Stamp
+item.deadman_stamp.name=Deadman Stamp
+item.dopant_stamp.name=Dopant Stamp
+item.inves_stamp.name=Inves Stamp
+item.roidmude_stamp.name=Roidmude Stamp
+item.smash_stamp.name=Smash Stamp
+item.worm_stamp.name=Worm Stamp
+item.gurongi_stamp.name=Gurongi Stamp
+item.fangire_stamp.name=Fangire Stamp
+item.zodiarts_stamp.name=Zodiarts Stamp
+item.orphnoch_stamp.name=Orphnoch Stamp
+    
+item.ohin_buster_50.name=Ohinbuster50
+item.gun_de_phone_50.name=Gundephone50
+item.osutoderu_hammer_50.name=Osutoderuhammer50
+item.revice_lasher.name=Revicelasher
+item.egg_shield.name=Barid Shield
+item.mammoth_gasher.name=Mammoth Gasher
+item.kamakiric_arrow.name=Kamakiric Arrow
+item.evil_blade.name=Evilblade
+item.live_gun.name=Livegun
+item.lovekov_kujaku.name=Lovekov Kujaku Genome
+item.lovekov_turtle.name=Lovekov Turtle Genome
+item.giff_junior_sword.name=Giff Junior Sword
+item.needle_kunai.name=Needle Kunai
+    
+
+    
 item.amazonshead.name=アマゾンズヘルメット
 item.amazonstroso.name=アマゾンズチェストプレート
 item.amazonslegs.name=アマゾンズレギンス
         
 item.amazons_driver_omega.name=アマゾンズドライバー(オメガ)
-item.neo_amazons_driver_omega.name=Neoアマゾンズドライバー(Newオメガ)
+item.neo_amazons_driver_omega.name=ネオアマゾンズドライバー(ニューオメガ)
 item.amazons_driver_alpha.name=アマゾンズドライバー(アルファ)
 item.amazons_driver_blind_alpha.name=アマゾンズドライバー(ブラインドアルファ)
 item.amazons_driver_sigma.name=アマゾンズドライバー(シグマ)
-item.neo_amazons_driver_neo.name=Neoアマゾンズドライバー(Neo)
-item.neo_amazons_driver_neo_alpha.name=Neoアマゾンズドライバー(Neoアルファ)
+item.neo_amazons_driver_neo.name=ネオアマゾンズドライバー(ネオ)
+item.neo_amazons_driver_neo_alpha.name=ネオアマゾンズドライバー(ネオアルファ)
 
 item.condorer_core_alpha.name=コンドラーコア(アルファ)
 item.condorer_core_omega.name=コンドラーコア(オメガ)
 item.condorer_core_sigma.name=コンドラーコア(シグマ)
 item.condorer_core_blind_alpha.name=コンドラーコア(ブラインドアルファ)
 
-item.amazon_injector_neo.name=アマゾンインジェクター(Neo)
-item.amazon_injector_new_omega.name=アマゾンインジェクター(Newオメガ)
+item.amazon_injector_neo.name=アマゾンインジェクター(ネオ)
+item.amazon_injector_new_omega.name=アマゾンインジェクター(ニューオメガ)
+item.amazon_injector_neo_alpha.name=アマゾンインジェクター(ネオアルファ)
+
+item.omega_amazon_cell_vial.name=オメガアマゾン細胞サンプル
+item.alpha_amazon_cell_vial.name=アルファアマゾン細胞サンプル
+item.sigma_amazon_cell_vial.name=シグマアマゾン細胞サンプル
+item.neo_amazon_cell_vial.name=ネオアマゾン細胞サンプル
+
+item.empty_vial.name=エンプティバイアル
+
+item.gaga_armlet.name=ガガの腕輪
+item.gigi_armlet.name=ギギの腕輪
+
+itemGroup.tab_kikaider=人造人間キカイダー
+item.kikaider_circuit.name=キカイダーサーキット
+item.kikaider_head.name=キカイダーヘルメット
+item.kikaider_troso.name=キカイダーチェストプレート
+item.kikaider_legs.name=キカイダーレギンス
+item.kikaider_core.name=キカイダーコア
+item.kikaider_belt.name=キカイダーベルト
+item.kikaider_01_belt.name=キカイダー01ベルト
+item.bijinder_belt.name=ビジンダーベルト
+item.kikaider_00_belt.name=キカイダー00ベルト
+item.shadow_01_belt.name=シャドウキカイダー01ベルト
+item.shadow_bijinder_belt.name=シャドウビジンダーベルト
+item.hakaider_belt.name=ハカイダーベルト
+item.gill_hakaider_belt.name=ギルハカイダーベルト
+item.red_hakaider_belt.name=レッドハカイダーベルト
+item.silver_hakaider_belt.name=シルバーハカイダーベルト
+item.blue_hakaider_belt.name=ブルーハカイダーベルト
+
+item.card_warrior_kamen_rider_manga.name=駈斗戦士仮面ライダーズ漫画
+item.herculespader_sword.name=ヘラクルスぺーダーソード
+item.flaresalamander_sword.name=フレアサラマンダーソード
+item.darkwing_sword.name=ダークウィングソード
+item.grand_gouram_rod.name=グランゴウラムロッド
+    
+item.dragreder.name=ドラグレッダー駈斗戦士カード
+item.stagtornador.name=スタッグトルネイダー駈斗戦士カード
+item.herculespader.name=ヘラクルスぺーダー駈斗戦士カード
+item.darkwing.name=ダークウィング駈斗戦士カード
+item.greywolch.name=グレイヴォルク駈斗戦士カード
+item.grand_gouram.name=グランゴウラム駈斗戦士カード
+item.exbeeter.name=エクスビーター駈斗戦士カード
+item.chaosdile.name=ケイオスだイル駈斗戦士カード
+item.leatheraider.name=レザーレイダー駈斗戦士カード
+item.flaresalamander.name=フレアサラマンダー駈斗戦士カード
+item.dragranzer.name=ドラグランザー駈斗戦士カード
+item.scissorbeeter.name=シザービーター駈斗戦士カード
+item.akanetaka.name=アカネタカ駈斗戦士カード
+item.shadowmantis.name=シャドーマンティス駈斗戦士カード
+item.cyclonehopper.name=サイクロンホッパー駈斗戦士カード
+item.kuuga_jinrai_no_senshi.name=迅雷のサバイブ駈斗戦士カード
+item.blade_jinrai_no_senshi.name=迅雷のサバイブ駈斗戦士カード
+item.dark_kabuto_jinrai_no_senshi.name=迅雷のサバイブ駈斗戦士カード
+item.bakuen_no_senshi_ryuga.name=爆炎のサバイブ駈斗戦士カード
+item.bakuen_no_senshi_faiz.name=爆炎のサバイブ駈斗戦士カード
+item.bakuen_no_senshi_hibiki.name=爆炎のサバイブ駈斗戦士カード
+    

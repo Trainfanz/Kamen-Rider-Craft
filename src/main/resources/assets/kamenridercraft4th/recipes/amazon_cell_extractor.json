@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "amazons",
   "pattern": [
     "IXI",
     "XCX",

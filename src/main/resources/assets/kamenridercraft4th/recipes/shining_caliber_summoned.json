@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "agito_burning",
   "pattern": [
     "XTX",
     "XSX",

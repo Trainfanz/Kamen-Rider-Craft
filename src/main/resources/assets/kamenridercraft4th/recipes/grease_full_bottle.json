@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "grease_perfect_kingdom",
   "pattern": [
     "XCX",
     "XBX",

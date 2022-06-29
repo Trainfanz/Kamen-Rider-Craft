@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "kr_agito",
   "pattern": [
     "XXX",
     "X X",

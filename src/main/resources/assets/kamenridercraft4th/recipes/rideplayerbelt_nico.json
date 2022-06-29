@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "nico",
+  "ingredients": [
+	{ 
+      "item": "kamenridercraft4th:kamen_rider_chronicle_gashat"
+    },
+	{ 
+      "item": "kamenridercraft4th:bang_bang_shooting_gashat"
+    }
+    ],
+  "result": {
+    "item": "kamenridercraft4th:rideplayerbelt_nico"
+  }
+}

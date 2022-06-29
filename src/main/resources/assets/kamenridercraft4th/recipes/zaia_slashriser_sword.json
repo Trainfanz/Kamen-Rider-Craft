@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "jin_burning_falcon",
   "pattern": [
     "XMX",
     "XSX",

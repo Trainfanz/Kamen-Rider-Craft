@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "amazon_blind_alpha",
   "pattern": [
     "XXX",
     "XCX",

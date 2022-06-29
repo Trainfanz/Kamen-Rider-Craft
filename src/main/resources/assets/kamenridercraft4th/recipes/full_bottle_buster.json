@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "build_fullfull",
   "pattern": [
     "XCX",
     "XZX",
@@ -8,9 +9,15 @@
   "key": {
     "X": {
       "item": "kamenridercraft4th:full_bottle"
-    }, "C": {
+    }, "C": [
+	{
       "item": "kamenridercraft4th:fullfull_bottle_rabbit"
-    }, "Z": {
+    },
+	{
+      "item": "kamenridercraft4th:fullfull_bottle_tank"
+    }
+	]
+	, "Z": {
       "item": "kamenridercraft4th:base_sword"
     }
   },

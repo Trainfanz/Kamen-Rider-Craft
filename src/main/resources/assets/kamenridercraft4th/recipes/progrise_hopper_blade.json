@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "zero_one_metal_cluster_hopper",
   "ingredients": [
 {
     

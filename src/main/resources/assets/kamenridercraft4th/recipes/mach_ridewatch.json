@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "extra_watch",
   "ingredients": [
 {
     

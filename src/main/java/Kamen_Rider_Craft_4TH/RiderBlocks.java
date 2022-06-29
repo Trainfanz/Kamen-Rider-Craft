@@ -6,6 +6,7 @@ import Kamen_Rider_Craft_4TH.blocks.BlockCustomStaris;
 import Kamen_Rider_Craft_4TH.blocks.GameCreatorBlock;
 import Kamen_Rider_Craft_4TH.blocks.cell_medal_programer_block;
 import Kamen_Rider_Craft_4TH.blocks.gaia_memory_refiner_block;
+import Kamen_Rider_Craft_4TH.blocks.game_block;
 import Kamen_Rider_Craft_4TH.blocks.ganbarizing_block;
 import Kamen_Rider_Craft_4TH.blocks.hiden_3d_printing;
 import Kamen_Rider_Craft_4TH.blocks.mob_block;
@@ -169,16 +170,16 @@ public class RiderBlocks {
 	public static Block pure_gaia_memory_block = new rider_glass_block("pure_gaia_memory_block",Material.GLASS).Drop_item(RiderItems.gaiamemory).setHardness(1F).setLightLevel(0.75f).setCreativeTab(Tabs.tabdecor);
 	
 	public static Block monitor = CustomBlock.builder().material(Material.IRON).hardness(9.9F).lightLevel(0.1F).harvestLevel("pickaxe", 2).blockType(BlockType.DIRECTIONAL).name("monitor").setCreativeTabe(Tabs.tabdecor).build();
-	public static Block mighty_block = CustomBlock.builder().material(Material.IRON).hardness(9.9F).harvestLevel("pickaxe", 2).name("mighty_block").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block mighty_block = new game_block("mighty_block", Material.ROCK, 0).setCreativeTab(Tabs.tabdecor);
 	public static Block fangire_glass = new rider_glass_block("fangire_glass",Material.GLASS).setCreativeTab(Tabs.tabdecor);
 	public static Block wallplate = CustomBlock.builder().material(Material.IRON).hardness(9.9F).harvestLevel("pickaxe", 2).name("wallplate").setCreativeTabe(Tabs.tabdecor).build();
 
 	public static Block taddle_wall = CustomBlock.builder().material(Material.ROCK).hardness(1F).blockType(BlockType.BASIC).name("taddle_wall").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block taddle_brick = CustomBlock.builder().material(Material.ROCK).hardness(1F).blockType(BlockType.BASIC).name("taddle_brick").setCreativeTabe(Tabs.tabdecor).build();
 	
-	public static Block bang_bang_drum = CustomBlock.builder().material(Material.ROCK).hardness(9.9F).harvestLevel("pickaxe", 2).name("bang_bang_drum").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block bang_bang_drum = new game_block("bang_bang_drum", Material.ROCK, 0).setCreativeTab(Tabs.tabdecor);
 	
-	public static Block bakusou_trophy = CustomBlock.builder().material(Material.ROCK).hardness(9.9F).harvestLevel("pickaxe", 2).name("bakusou_trophy").setCreativeTabe(Tabs.tabdecor).build();
+	public static Block bakusou_trophy = new game_block("bakusou_trophy", Material.ROCK, 0).setCreativeTab(Tabs.tabdecor);
 	
 	public static Block gaia_memory_refiner = new gaia_memory_refiner_block("gaia_memory_refiner",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabW);
 	

@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "vice_barid_rex",
   "pattern": [
     "XMX",
     "XSX",
