@@ -11,6 +11,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Evil;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Falchion;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Para_dx;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Red_Poppy;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_daiouika_deadman;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_genm;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_legeiel;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_storious;
@@ -76,10 +77,16 @@ public class Entity_giff_junior extends Entity_base_henchmen
 			if (this.getAttackTarget()instanceof EntityPlayer){
 				EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
 				 EntityBossBase entityboss  = new Entity_Evil(world);
+				 EntityBossBase entityboss2  = new Entity_daiouika_deadman(world);
 			switch (this.rand.nextInt(20))
 			{
 			case 0:
 				playerIn.sendMessage( new TextComponentString(TextFormatting.AQUA+"Versus Up! Madness! Hopeless! Darkness! Bat! Hehe! Kamen Rider Evil! Yeah-haha!"));
+				entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				world.spawnEntity(entityboss);
+				break;
+			case 1:
+				playerIn.sendMessage( new TextComponentString(TextFormatting.LIGHT_PURPLE+"Daiouika!"));
 				entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
 				world.spawnEntity(entityboss);
 				break;
