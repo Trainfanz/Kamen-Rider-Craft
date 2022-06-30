@@ -1019,7 +1019,7 @@ item.drivedriverbrain.name=Drive Driver (Brain)
 
 item.proto_drivedriver.name=Drive Driver (Proto Drive)
 item.drivedriver_dark.name=Drive Driver (Dark Drive)
-item.drivedriverhart.name=Drive Driver (Hart)
+item.drivedriverhart.name=Drive Driver (Heart)
 
 item.speedshift.name=Shift Speed
 item.wildshift.name=Shift Wild
@@ -1469,7 +1469,7 @@ item.kiwi_gekirin.name=Kiwi Gekirin
 item.shine_donkachi.name=Shine Donkachi
 item.hells_cane.name=Hells Cane
 item.shine_lychee_sword.name=Shine Lychee Sword
-item.king_duri_noko.name=King Duri Noko
+item.king_duri_noko.name=Giga Duri Noko
 
 item.kabi_daidaimaru.name=Kabi Daidaimaru
 item.maja_yomimaru.name=Maja's Sword
@@ -1791,7 +1791,7 @@ item.break_gunner_2.name=Break Gunner (Belt)
 item.shingouax.name=Shingou-Ax
 item.lupin_gunner.name=Lupin Gunner
 item.blade_gunner.name=Blade Gunner
-item.brain_sword.name=Brain's Sword
+item.brain_sword.name=Brain Megane Blade
     
 item.mantarn_f01.name=Mantarn F01
 item.jacky_f02.name=Jacky F02
@@ -2375,7 +2375,7 @@ item.bug_energy_item.name=Bug Energy Item
 item.random_energy_item.name=Random Energy Item
 item.save_energy_item.name=Save Energy Item
     
-item.lazer_bike.name=Lazer(Bike Gamer Level 2)
+item.lazer_bike.name=Lazer　(Bike Gamer Lv2)
 item.bike_gamer.name=Bike Gamer
 
 item.drill_crusher.name=Drill Crusher
@@ -2961,7 +2961,7 @@ item.caladbolg.name=Caladbolg
 item.haouken_xross_saber.name=Haouken Xross Saber
 
 item.gekkou_raimeiken_ikazuchi.name=Gekkou Raimeiken Ikazuchi
-item.storious_sword.name=Storiou's sword
+item.storious_sword.name=Storious' sword
     
 item.fuusouken_hayate_ittouryu.name=Fuusouken Hayate(Ittouryu Mode)
 item.fuusouken_hayate_nitouryu.name=Fuusouken Hayate(Nitouryu Mode)
