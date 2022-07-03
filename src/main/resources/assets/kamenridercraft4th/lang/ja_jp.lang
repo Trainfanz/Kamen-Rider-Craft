@@ -174,6 +174,7 @@ entity.FalchionMob.name=仮面ライダーファルシオン
 
 entity.ViceMob.name=バイス(WIP)
 entity.giffJuniorMob.name=ギフジュニア
+entity.DaiouikaDeadmanMob.name=ダイオウイカデッドマン
 entity.EvilMob.name=仮面ライダーエビル
 
 effect.fly=飛行
@@ -486,6 +487,14 @@ item.aqua_driver.name=アクアドライバー
 item.core_driver.name=コアドライバー
 item.core_driver_power_up.name=コアドライバー(パーワーアップ)
 
+item.greeed_blet_ankh.name=グリードベルトアンク
+item.greeed_blet_ankh_lost.name=グリードベルトアンク(ロスト)
+item.greeed_blet_uva.name=グリードベルトウヴぁ
+item.greeed_blet_kazari.name=グリードベルトカザリ
+item.greeed_blet_mezool.name=グリードベルトメズール
+item.greeed_blet_gamel.name=グリードベルトガメル
+item.greeed_blet_muchiri.name=グリードベルトムチリ
+
 item.taka.name=タカコアメダル
 item.kuwagata.name=クワガタコアメダル
 item.lion.name=ライオンコアメダル
@@ -535,6 +544,10 @@ item.penguin.name=ペンギンコアメダル
 item.ari.name=アリコアメダル
 item.ebi_new.name=新造エビコアメダル
 
+item.taka_eternity.name=タカエタニティコアメダル
+item.kujaku_eternity.name=クジャクエタニティコアメダル
+item.condor_eternity.name=コンドルエタニティコアメダル
+
 item.same.name=サメコアメダル
 item.kujira.name=クジラコアメダル
 item.ookamiuo.name=オオカミウオコアメダル
@@ -551,7 +564,89 @@ item.love.name=ラブコアメダル(頭)
 item.love2.name=ラブコアメダル(腕)
 item.love3.name=ラブコアメダル(脚)
 
+item.foundation_x_taka.name=タカ財団Xコアメダル
+item.foundation_x_kuwagata.name=クワガタ財団Xコアメダル
+item.foundation_x_lion.name=ライオン財団Xコアメダル
+item.foundation_x_sai.name=サイ財団Xコアメダル
+item.foundation_x_shachi.name=シャチ財団Xコアメダル
+
+item.foundation_x_tora.name=トラ財団Xコアメダル
+item.foundation_x_kamakiri.name=カマキリ財団Xコアメダル
+item.foundation_x_gorilla.name=ゴリラ財団Xコアメダル
+item.foundation_x_kujaku.name=クジャク財団Xコアメダル
+item.foundation_x_unagi.name=電気ウナギ財団Xコアメダル
+
+item.foundation_x_batta.name=バッタ財団Xコアメダル
+item.foundation_x_cheetah.name=チーター財団Xコアメダル
+item.foundation_x_zou.name=ゾウ財団Xコアメダル
+item.foundation_x_condor.name=コンドル財団Xコアメダル
+item.foundation_x_tako.name=タコ財団Xコアメダル
+
+item.zeus_taka.name=タカゼウスコアメダル
+item.zeus_kuwagata.name=クワガタゼウスコアメダル
+item.zeus_lion.name=ライオンゼウスコアメダル
+item.zeus_sai.name=サイゼウスコアメダル
+item.zeus_shachi.name=シャチゼウスコアメダル
+item.zeus_ptera.name=プテラゼウスコアメダル
+item.zeus_mukade.name=ムカデゼウスコアメダル
+
+item.zeus_tora.name=トラゼウスコアメダル
+item.zeus_kamakiri.name=カマキリゼウスコアメダル
+item.zeus_gorilla.name=ゴリラゼウスコアメダル
+item.zeus_kujaku.name=クジャクゼウスコアメダル
+item.zeus_unagi.name=電気ウナギゼウスコアメダル
+item.zeus_tricera.name=トリケラゼウスコアメダル
+item.zeus_hachi.name=ハチゼウスコアメダル
+
+item.zeus_batta.name=バッタゼウスコアメダル
+item.zeus_cheetah.name=チーターゼウスコアメダル
+item.zeus_zou.name=ゾウゼウスコアメダル
+item.zeus_condor.name=コンドルゼウスコアメダル
+item.zeus_tako.name=タコゼウスコアメダル
+item.zeus_tyranno.name=ティラノゼウスコアメダル
+item.zeus_ari.name=アリゼウスコアメダル
+
+item.gel_shocker_core.name=ゲルショッカーコアメダル
+item.destron_core.name=デストロンコアメダル
+item.god_core.name=G.O.D.コアメダル
+item.garanda_core.name=ガランダーコアメダル
+item.delza_core.name=デルザーコアメダル
+item.neo_shocker_core.name=ネオショッカーコアメダル
+item.jin_dogma_core.name=ジンドグマコアメダル
+item.badan_core.name=バダンコアメダル
+
+item.x_core.name=Xコアメダル
+item.amazon_core.name=アマゾンコアメダル
+item.stronger_core.name=ストロンガーコアメダル
+
+item.birth_core_cutter_wing.name=カッターウィングバースメダル
+item.birth_core_catepillar_leg.name=キャタピラーレッグバースメダル
+item.birth_core_crane_arm.name=クレーンアームバースメダル
+item.birth_core_drill_arm.name=ドリルアームバースメダル
+item.birth_core_shovel_arm.name=ショベルアームバースメダル
+item.birth_core_breast_cannon.name=ブレストカノンバースメダル
+item.birth_core_eyes.name=グローイングアイズバースメダル
+
+item.purple_medals_sealed.name=シールパープルメダル
+item.purple_medals_opened.name=オープンパープルメダル
+item.purple_medals_empty.name=エンプティパープルメダルホルダー
+
+item.cell_alloy_ingot.name=セルアロイインゴット
+item.ride_vendor.name=ライドベンダー
+
 item.proto_birth_core.name=プロトバースコア
+
+item.taka_candroid.name=タカカンドロイド
+item.tako_candroid.name=タコカンドロイド
+item.batta_candroid.name=バッタカンドロイド
+item.tora_candroid.name=トラカンドロイド
+item.denkiunagi_candroid.name=電気ウナギカンドロイド
+item.gorilla_candroid.name=ゴリラカンドロイド
+item.kujaku_candroid.name=クジャクカンドロイド
+item.ptera_candroid.name=プテラカンドロイド
+item.torikera_candroid.name=トリケラカンドロイド
+item.furifuri_candroid.name=フリフリカンドロイド
+
 
 item.metal_shaft.name=メタルシャフト
 item.prism_bicker.name=プリズムビッカー
@@ -560,6 +655,10 @@ item.trigger_magnum.name=トリガーマグナム
 item.skull_magnum.name=スカルマグナム
 item.engine_blade.name=エンジンブレード
 item.shield_prism_bicker.name=プリズムシールド
+item.bomb_magnum.name=ボムマグナム
+
+item.nasca_blade.name=ナスカブレード
+item.akiko_no_slipper.name=亜樹子のスリッパ
 
 item.whead.name=Wヘルメット
 item.wtroso.name=Wチェストプレート
@@ -595,6 +694,37 @@ item.eternal_t2_memory.name=T2エターナルメモリ
 item.shippu_memory.name=疾風メモリ
 item.kirifuda_memory.name=切札メモリ
 
+item.memory_memory.name=メモリーメモリ
+item.egg_chicken_memory.name=エッグ&チキンメモリ
+
+
+
+item.stag_memory.name=スタッグメモリ
+item.spider_memory.name=スパイダーメモリ
+item.bat_memory.name=バットメモリ
+item.beetle_memory.name=ビートルメモリ
+item.frog_memory.name=フロッグメモリ
+item.denden_memory.name=デンデンメモリ
+    
+item.terror_memory.name=テラーメモリ
+item.taboo_memory.name=タブーメモリ
+item.claydoll_memory.name=クレイドールメモリ
+item.nasca_memory.name=ナスカメモリ
+item.smilodon_memory.name=スミロドンメモリ
+item.weather_memory.name=ウェザーメモリ
+item.quetzalcoatlus_memory.name=ケツァルコアトルスメモリ
+item.quetzalcoatlus_memory_prototype.name=ケツァルコアトルスメモリ(プロトタイプコピーver．)
+item.utopia_memory.name=ユートピアメモリ
+    
+item.unicorn_memory.name=ユニコーンメモリ
+    
+item.magma_memory.name=マグマメモリ
+item.unicorn_memory_enhancing_adapter.name=ユニコーンメモリ(ガイアメモリ強化アダプター)
+    
+item.commander_memory.name=コマンダーメモリ
+item.commander_memory_enhancing_adapter.name=コマンダーメモリ(ガイアメモリ強化アダプター)
+    
+
 
 item.accel_memory.name=アクセルメモリ
 item.trial_memory.name=トライアルメモリ
@@ -606,7 +736,6 @@ item.fang_memory_un.name=未完成のファングメモリ
 item.trial_memory_un.name=未完成のメモリ
 item.xtreme_memory_g.name=エクストリームメモリ(金端子)
 item.xtreme_memory_s.name=エクストリームメモリ(銀端子)
-
 
 item.accel_t2_memory.name=T2アクセルメモリ
 item.bird_t2_memory.name=T2バードメモリ
@@ -637,12 +766,18 @@ item.unrefined_memory_g.name=未完成のガイアメモリ(金端子)
 item.unrefined_memory_s.name=未完成のガイアメモリ(銀端子)
 item.unrefined_memory_t2.name=未完成のT2ガイアメモリ
 
+item.hard_boilder.name=ハードボイルダー
+item.accel_bike.name=アクセル(バイクフォーム)
+item.skull_boilder.name=スカルボイルダー
+
 
 item.rocket.name=ロケットモジュール
 item.billytherod.name=エレキモジュールビリー・ザ・ロッド
 item.hee_hackgun.name=ファイヤーモジュールヒーハックガン
 item.barizun_sword.name=コズミックモジュールバリズンソード
 item.meteor_nadeshiko_fusion_rocket.name=ロケットモジュール(なでしこver)
+
+item.meteor_storm_shaft.name=メテオストームシャフト
 
 item.fourzehead.name=フォーゼヘルメット
 item.fourzetroso.name=フォーゼチェストプレート
@@ -651,6 +786,7 @@ item.fourzelegs.name=フォーゼレギンス
 item.fourzedriver.name=フォーゼドライバー
 item.ikarosdriver.name=イカロスドライバー
 
+item.ginga_oh_driver.name=ギンガオードライバー
 
 item.rocket_swich.name=ロケットスイッチ
 item.launcher_switch.name=ランチャースイッチ
@@ -662,6 +798,7 @@ item.parachute_switch.name=パラシュートスイッチ
 item.chainsaw_switch.name=チェーンソースイッチ
 item.hopping_switch.name=ホッピングスイッチ
 item.elek_swich.name=エレキスイッチ
+
 item.scissors_switch.name=シザースイッチ
 item.beat_switch.name=ビートスイッチ
 item.chain_array_switch.name=チェーンアレイスイッチ
@@ -704,6 +841,33 @@ item.core_switch.name=コアスイッチ
 item.solu_switch.name=SOLUスイッチ
 item.gate_switch.name=ゲートスイッチ
 
+item.rider1_switch.name=一号スイッチ
+item.rider2_switch.name=二号スイッチ
+item.v3_switch.name=V3スイッチ
+item.riderman_switch.name=ライダーマンスイッチ
+item.x_switch.name=Xスイッチ
+item.amazon_switch.name=アマゾンスイッチ
+item.stronger_switch.name=ストロンガースイッチ
+item.skyrider_switch.name=スカイライダースイッチ
+item.super_1_switch.name=スーパー1スイッチ
+item.zx_switch.name=ZXスイッチ
+item.black_switch.name=ブラックスイッチ
+item.rx_switch.name=ブラックRXスイッチ
+item.kuuga_switch.name=クウガスイッチ
+item.agito_switch.name=アギトスイッチ
+item.ryuki_switch.name=龍騎スイッチ
+item.faiz_switch.name=ファイズスイッチ
+item.blade_switch.name=ブレイドスイッチ
+item.hibiki_switch.name=響鬼スイッチ
+item.kabuto_switch.name=カブトスイッチ 
+item.den_o_switch.name=電王スイッチ
+item.kiva_switch.name=キバスイッチ
+item.decade_switch.name=ディケイドスイッチ
+item.double_switch.name=ダブルスイッチ
+item.ooo_switch.name=OOOスイッチ
+    
+item.rocket_swich_christmas_ver.name=ロケットスイッチ(クリスマスVer)
+    
 item.wizarswordgun.name=ウィザーソードガン
 item.axcalibur.name=アックスカリバー
 item.axcalibur_charge.name=アックスカリバー
@@ -737,6 +901,9 @@ item.musou_saber_kusarigama.name=無双セイバー(鎖鎌モード)
 item.dj_gun.name=火縄大橙DJ銃
 item.dj_gun_taiken_mode.name=火縄大橙DJ銃(大剣モード)
 
+item.zangetsu_dj_gun.name=火縄甜瓜DJ銃
+item.zangetsu_dj_gun_taiken_mode.name=火縄甜瓜DJ銃(大剣モード)
+
 item.kagematsu.name=影松
 item.donkachi.name=ドンカチ
 item.melon_defender.name=メロンディフェンダー
@@ -769,6 +936,7 @@ item.sengoku_driver_mars.name=戦極ドライバー(マルス)
 item.sengoku_driver_kamuro.name=戦極ドライバー(冠)
 item.sengoku_driver_jam.name=戦極ドライバー(邪武)
 item.sengoku_driver_kurokage_troopers.name=戦極ドライバー(黒影トルーパー)
+item.sengoku_driver_sylphi.name=戦極ドライバー(シルフィー)
 
 item.sengoku_driver_proto_gaim.name=戦極ドライバー(プロト鎧武)
 item.sengoku_driver_proto_baron.name=戦極ドライバー(プロトバロン)
@@ -849,6 +1017,10 @@ item.drivelegs.name=ドライブレギンス
 item.drivedriver.name=ドライブドライバー
 item.drivedriverbrain.name=ドライブドライバー(ブレン)
 
+item.proto_drivedriver.name=ドライブドライバー(プロトドライブ)
+item.drivedriver_dark.name=ドライブドライバー(ダークドライブ)
+item.drivedriverhart.name=ドライブドライバー(ハート)
+
 item.speedshift.name=シフトスピード
 item.wildshift.name=シフトワイルド
 item.speedwildtechnicshift.name=シフトスピードワイルドテクニック
@@ -887,6 +1059,7 @@ item.momotaro_sword.name=モモタロスォード
 item.uratarod.name=ウラタロッド
 item.kintaros_ax.name=キンタロアックス
 item.ryu_volver.name=リュウボルバー
+item.den_den_pudding.name=デンガッシャー(プディングモード)
 
 item.zerogasher.name=ゼロガッシャー
 
@@ -901,6 +1074,7 @@ item.gaohbelt.name=ガオウベルト
 item.yuukibelt_skull.name=ユウキベルト(スカル)
 item.yuukibelt_hijack.name=ユウキベルト(ハイジャック)
 item.gden_odriver.name=Gデンオウベルト
+item.pretty_den_odriver.name=プリティーデンオウベルト
 
 item.rider_ticket.name=ライダーチケット
 item.rider_ticket_sword.name=モモタロスライダーチケット
@@ -908,6 +1082,7 @@ item.rider_ticket_rod.name=ウラタロスライダーチケット
 item.rider_ticket_ax.name=キンタロスライダーチケット
 item.rider_ticket_gun.name=リュウタロスライダーチケット
 item.rider_ticket_wing.name=ジークライダーチケット
+item.rider_ticket_pudding.name=プディングライダーチケット
 item.ktaros.name=ケータロス
 item.rider_ticket_strike.name=テディライダーチケット
 item.rider_ticket_nega.name=ネガタロスライダーチケット
@@ -920,6 +1095,7 @@ item.zeronos_altair_card.name=ゼロノスカード(アルタイル)
 item.zeronos_vega_card.name=ゼロノスカード(ベガ)
 item.zeronos_zero_card.name=ゼロノスカード(ゼロ)
 
+item.den_bird.name=デンバード
 
 item.garulu_saber.name=ガルルセイバー
 item.basshaamagnum.name=バッシャーマグナム
@@ -944,14 +1120,12 @@ item.reydriver.name=レイベルト
 
 item.kivaladriver.name=キバーラベルト
 
-
-
-
 item.wakeupfuestle.name=ウェイクアップフエッスル
 item.garulufuestle.name=ガルルフエッスル
 item.basshaafuestle.name=バッシャーフエッスル
 item.doggafuestle.name=ドッガフエッスル
 item.tatsulot.name=タツロット
+item.kiva_says_fuestle.name=キバッテフエッスル
 
 item.knucklefuestle.name=ナックルフエッスル
 item.risingfuestle.name=ライザーフエッスル
@@ -1022,7 +1196,7 @@ item.caucasuscard.name=カメンライドコーカサス
 item.arccard.name=カメンライドアーク
 item.skullcard.name=カメンライドスカル
 
-item.wcard.name=カメンライドカメンライドW
+item.wcard.name=カメンライドカメンライドダブル
 item.ooocard.name=カメンライドカメンライドOOO
 item.fourzecard.name=カメンライドフォーゼ
 item.wizardcard.name=カメンライドウィザード
@@ -1055,6 +1229,8 @@ item.dragon_kuugacard.name=フォームライドクウガドラゴンフォー�
 item.pegasus_kuugacard.name=フォームライドクウガペガサスフォーム
 item.titan_kuugacard.name=フォームライドクウガタイタンフォーム
 
+item.rekka_daizantou_card.name=アタックライド烈火大斬刀
+
 item.emperor_kivacard.name=ファイナルカメンライドキバエンペラーフォーム
 item.liner_den_ocard.name=ファイナルカメンライド電王ライナーフォーム
 item.hyper_kabutocard.name=ファイナルカメンライドカブトハイパーフォーム
@@ -1067,16 +1243,18 @@ item.ultimate_kuugacard.name=ファイナルカメンライドクウガアルテ
 
 item.k_touch.name=ケータッチ
 item.k_touch_diend.name=ケータッチ(ディエンド)
+item.k_touch_diend.name=ケータッチ(21)
 
 item.ride_booker.name=ライドブッカー
 item.diend_driver.name=ディエンドライバー
-item.neo_diend_driver.name=Neoディエンドライバー
+item.neo_diend_driver.name=ネオディエンドライバー
 
 item.ongekibo_rekka_decade.name=音撃棒・烈火(ディケイド)
 item.ongekibo_rekka_diend.name=音撃棒・烈火(ディエンド)
  
 item.birth_driver.name=バースドライバー
 item.birth_driver_prototype.name=プロトバースドライバー
+item.rebirth_driver.name=リバースドライバー
 
 item.meteor_driver.name=メテオドライバー
 item.nadeshikodriver.name=ナデシコドライバー
@@ -1107,7 +1285,7 @@ item.ryuga_drag_claw.name=ドラグクロー(リュウガVer)
 
 item.abyss_saber.name=アビスサーベル
 
-item.alternative_sword.name=オルタナティブソード
+item.alternative_sword.name=スラッシュダガー
 
 item.ryukihead.name=龍騎ヘルメット
 item.ryukitroso.name=龍騎チェストプレート
@@ -1132,8 +1310,8 @@ item.v_buckle_femme.name=Vバックル(ファム)
 item.v_buckle_verde.name=Vバックル(ベルデ)
 item.v_buckle_abyss.name=Vバックル(アビス)
 
-item.alternativebelt.name=オルタナティブベルト
-item.alternativezerobelt.name=オルタナティブゼロベルト
+item.alternativebelt.name=Vバックル(オルタナティブ)
+item.alternativezerobelt.name=Vバックル(オルタナティブゼロ)
 
 item.drag_visor.name=ドラグバイザー
 item.veno_visor.name=ベノバイザー
@@ -1152,7 +1330,8 @@ item.slash_visor.name=スラッシュバイザー
 
 item.contract_advent.name=コントラクトベント
 item.dragreder_advent.name=アドベント[ドラグレッダー]
-item.survive_advent.name=サバイブ
+item.survive_advent.name=サバイブカード[烈火]
+item.survive_ryuki_advent_black.name=サバイブカード[ブラック]
 
 item.darkwing_advent.name=アドベント[ダークウイング]
 item.volcancer_advent.name=アドベント[ボルキャンサー]
@@ -1249,6 +1428,7 @@ item.bind_ring.name=バインドウィザードリング
 item.teleport_ring.name=テレポートウィザードリング
 item.fall_ring.name=フォールウィザードリング
 
+
 item.wiseman_ring.name=ワイズマンウィザードリング
 item.mage_o_ring.name=メイジウィザードリング(橙)
 item.mage_b_ring.name=メイジウィザードリング(青)
@@ -1277,12 +1457,19 @@ item.time_ring.name=タイムウィザードリング
 item.miracle_ring.name=ミラクルウィザードリング
 item.flower_ring.name=フラワーウィザードリング
 item.dance_ring.name=ダンスウィザードリング
+item.super_sentai_ring.name=スーパー戦隊ウィザードリング
 
 
 item.budou_ryuhou.name=ブドウ龍砲
 item.mango_punisher.name=マンゴパニッシャー
 item.duri_noko.name=ドリノコ
 item.kiwi_gekirin.name=キウイ撃輪
+
+‎‎
+item.shine_donkachi.name=シャインドンカチ
+item.hells_cane.name=ヘルズケイン
+item.shine_lychee_sword.name=シャインライチソード
+item.king_duri_noko.name=ギガドリノコ
 
 item.kabi_daidaimaru.name=カビ大橙丸
 item.maja_yomimaru.name=魔蛇ソード
@@ -1431,12 +1618,16 @@ item.fresh_orange_lockseed.name=フレッシュオレンジロックシード
 item.fresh_pine_lockseed.name=フレッシュパインロックシード
 item.suika_lockseed.name=スイカロックシード
 
+item.lychee_lockseed.name=ライチロックシード
+item.king_durian_lockseed.name=キングドリアンロックシード
+item.helheim_lockseed.name=ヘルヘイムロックシード
+
 item.natsumikan_lockseed.name=ナツミカンロックシード
 
 item.xiaolongbao_lockseed.name=小龍包ロックシード
 item.drained_suika_lockseed.name=破損したスイカロックシード
 
-item.zangetsu_kachidoki_lockseed.name=斬月カチドキロックシード
+item.zangetsu_kachidoki_lockseed.name=真・カチドキロックシード
 
 item.techniqueshift.name=シフトテクニック
 item.proto_speedshift.name=シフトプロトスピード
@@ -1457,8 +1648,9 @@ item.signal_kaksarn.name=シグナルカクサーン
 item.signal_tomarle.name=シグナルトマーレ
 item.signal_kikern.name=シグナルキケーン
 
-
 item.mach_driver_honoh.name=マッハドライバー炎
+item.mach_driver_honoh_chaser.name=マッハドライバー炎(チェイサー)
+item.mach_driver_honoh_drive.name=マッハドライバー炎(ドライブ)
 
 item.kuugahead.name=クウガヘルメット
 item.kuugatroso.name=クウガチェストプレート
@@ -1524,6 +1716,7 @@ item.another_agito.name=アナザーアギト
 item.agito_miracle.name=ミラクルアギト
 item.another_agito_burning_form.name=アナザーバーニングアギト
 
+item.tornader.name=トルネイダー
 
 item.kabuto_kunai.name=カブトクナイガン
 item.kabuto_kunai_kunai.name=カブトクナイガン(クナイモード)
@@ -1557,6 +1750,7 @@ item.caucasus_rider_belt.name=ライダーベルト(コーカサス)
 item.hercus_rider_belt.name=ライダーベルト(ヘラクス)
 item.ketaros_rider_belt.name=ライダーベルト(ケタロス)
     
+item.lady_rider_belt.name=ライダーベルト(レディ)
 
 item.kabuto_zecter.name=カブトゼクター
 item.hyper_zecter.name=ハイパーゼクター
@@ -1573,6 +1767,7 @@ item.ketaros_zecter.name=ケタロスゼクター
 item.perfectthebee_zecter.name=パーフェクトゼクターザビーゼクター
 item.perfectdrake_zecter.name=パーフェクトゼクタードレイクゼクター
 item.perfectsasword_zecter.name=パーフェクトゼクターサソードゼクター
+item.lady_zecter.name=レディゼクター
 
 item.dienddriver.name=ディエンドライバー
 
@@ -1607,7 +1802,7 @@ item.tridoron_key.name=トライドロンキー
 item.dead_heat.name=シフトデッドヒート
 item.formulashift.name=シフトフォーミュラ
 item.tridoronshift.name=シフトトライドロン
-item.shift_next.name=シフトNext
+item.shift_next.name=シフトネクスト
 item.shift_special.name=シフトスペシャル
 item.signal_chaser.name=シグナルチェイサー
     
@@ -1617,7 +1812,8 @@ item.ghostlegs.name=ゴーストレギンス
 item.ghostdriver.name=ゴーストドライバー(ゴースト)
 item.specterdriver.name=ゴーストドライバー(スペクター)
 item.mega_ulorder.name=メガウルオウダー
-item.new_ghostdriver.name=ゴーストドライバー(Newゴースト)
+item.new_ghostdriver.name=ゴーストドライバー(ニューゴースト)
+item.kanonghostdriver.name=ゴーストドライバー(カノンスペクター)
 
 item.extremer_driver.name=エクストリーマードライバー
 
@@ -1626,7 +1822,7 @@ item.edison_ghost_icon.name=エジソンゴーストアイコン
 item.newton_ghost_icon.name=ニュートンゴーストアイコン
 item.musashi_ghost_icon.name=ムサシゴーストアイコン
 item.new_ore_ghost_icon.name=Newオレゴーストアイコン
-
+item.kanon_specter_ghost_icon.name=カノンスペクターアイコン
 item.savior_arrow.name=セイヴァーアロー
 item.lemon_rapier.name=レモンレイピア
 
@@ -1712,13 +1908,75 @@ item.den_oriderpass.name=ライダーパス
 item.gden_oriderpass.name=G電王ライダーパス
 item.den_o_master_pass.name=マスターパス
    
-   
+item.acro_batter.name=アクロバッター
+item.ridoron.name=ライドロン
+
+item.satan_sabre.name=サタンサーベル
 
 item.ichigohead.name=一号ヘルメット
 item.ichigotroso.name=一号チェストプレート
 item.ichigolegs.name=一号レギンス
 
+item.v3head.name=V3ヘルメット
+item.v3troso.name=V3チェストプレート
+item.v3legs.name=V3レギンス
+
+item.xhead.name=Xヘルメット
+item.xtroso.name=Xチェストプレート
+item.xlegs.name=Xレギンス
+
+item.amazonhead.name=アマゾンヘルメット
+item.amazontroso.name=アマゾンチェストプレート
+item.amazonlegs.name=アマゾンレギンス
+
+item.strongerhead.name=ストロンガーヘルメット
+item.strongertroso.name=ストロンガーチェストプレート
+item.strongerlegs.name=ストロンガーレギンス
+
+item.skyriderhead.name=スカイライダーヘルメット
+item.skyridertroso.name=スカイライダーチェストプレート
+item.skyriderlegs.name=スカイライダーレギンス
+
+item.super_1head.name=スーパー1ヘルメット
+item.super_1troso.name=スーパー1チェストプレート
+item.super_1legs.name=スーパー1レギンス
+
+item.zx_head.name=ZXヘルメット
+item.zx_troso.name=ZXチェストプレート
+item.zx_legs.name=ZXレギンス
+
+item.shinhead.name=真ヘルメット
+item.shintroso.name=真チェストプレート
+item.shinlegs.name=真レギンス
+
+item.black_head.name=ブラックヘルメット
+item.black_troso.name=ブラックチェストプレート
+item.black_legs.name=ブラックレギンス
+
+item.black_rx_head.name=ブラックRXヘルメット
+item.black_rx_troso.name=ブラックRXチェストプレート
+item.black_rx_legs.name=ブラックRXレギンス
+
+item.zohead.name=ZOヘルメット
+item.zotroso.name=ZOチェストプレート
+item.zolegs.name=ZOレギンス
+
+item.jhead.name=Jヘルメット
+item.jtroso.name=Jチェストプレート
+item.jlegs.name=Jレギンス
+
+item.ghead.name=Gヘルメット
+item.gtroso.name=Gチェストプレート
+item.glegs.name=Gレギンス
+item.goro_wine_bottle.name=吾郎ワインボトル
+
 item.typhoon_core.name=タイフーンコア
+item.original_typhoon_core.name=タイフーンコア(旧)
+item.sakurajima_typhoon_core.name=タイフーンコア(桜島)
+item.new_typhoon_core.name=パーワーアップタイフーンコア
+
+
+item.double_typhoon_core.name=ダブルタイフーンコア
 item.riderman_belt_core.name=ライダーマンコア
 item.ridol_core.name=ライドルコア
 item.condorer_wheel.name=コンドラーホイール
@@ -1729,8 +1987,16 @@ item.zx_belt_core.name=ZXベルトコア
 item.king_stone_core.name=ローキングストーン
 item.king_stone_split.name=スプリットキングストーン
 
+item.shin_stone.name=真ストーン
+item.j_stone.name=Jストーン
+item.zo_stone.name=ZOストーン
+
 item.typhoon_ichigo.name=タイフーン(一号)
 item.typhoon_nigo.name=タイフーン(二号)
+item.typhoon_original_ichigo.name=タイフーン(旧１号)
+item.typhoon_sakurajima_ichigo.name=タイフーン(桜島１号)
+
+item.nophoon_kamen_norider.name=タイフーン(仮面ノリダー)
 
 item.new_typhoon.name=タイフーン(2016)
 
@@ -1744,11 +2010,22 @@ item.amaterasu_belt.name=アマテラスベルト
 item.moonriser.name=ムーンライザー
 item.king_stone_red_shadow_moon.name=キングストーン(レッドシャドームーン)
 
+item.akariderhead.name=ゴライダーヘルメット
+item.akaridertroso.name=ゴライダーチェストプレート
+item.akariderlegs.name=ゴライダーレギンス
+
+item.akarider_card.name=アカライダーカード
+item.aorider_card.name=アオライダーカード
+item.kirider_card.name=キライダーカード
+item.momorider_card.name=モモライダーカード
+item.midorider_card.name=ミドリライダーカード
+
+
 item.typhoon_akarider.name=タイフーン(アカライダー)
 item.typhoon_aorider.name=タイフーン(アオライダー)
 item.typhoon_kirider.name=タイフーン(キライダー)
 item.typhoon_momorider.name=タイフーン(モモライダー)
-item.typhoon_midorider.name=タイフーン(ミドリライダー)
+item.typhoon_midorider.name=タイフーン(ミドライダー)
 
 
 item.typhoon_shocker_rider_1.name=タイフーン(ショッカーライダー1)
@@ -1763,7 +2040,10 @@ item.typhoon_shocker_rider_9.name=タイフーン(ショッカーライダー9)
 item.typhoon_shocker_rider_10.name=タイフーン(ショッカーライダー10)
 item.typhoon_shocker_rider_11.name=タイフーン(ショッカーライダー11)
 item.typhoon_shocker_rider_12.name=タイフーン(ショッカーライダー12)
+
+
 item.double_typhoon.name=ダブルタイフーン
+item.double_typhoon.name=ダブルタイフーン(青V3)
 item.riderman_belt.name=ライダーマンベルト
 item.ridol.name=ライドル
 item.condorer.name=コンドラー
@@ -1777,6 +2057,7 @@ item.zx_belt.name=ZXベルト
 item.tornado.name=トルネード
 item.cyclode.name=サイクロード
 item.king_stone.name=キングストーン
+item.king_stone.name=キングストーン(バッタマン)
 item.king_stone_shadow_moon.name=キングストーン(シャドームーン)
 item.sunriser.name=サンライザー
 item.grasshopper_dna.name=バッタのDNA
@@ -1784,6 +2065,7 @@ item.zo_core.name=ZOコア
 item.j_spirit.name=Jスピリット
 item.g_belt.name=Gベルト
 
+item.rx_rider.name=RXライダー
 item.bio_rider.name=バイオライダー
 item.robo_rider.name=ロボライダー
 item.charge_up.name=超電子ダイナモ
@@ -1794,7 +2076,7 @@ item.dark_kabuto_rider_belt.name=ライダーベルト(ダークカブト)
 item.nega_den_odriver.name=ネガデンオウベルト
 
 item.dark_decadedriver.name=ダークディケイドライバー
-item.new_decadriver.name=Neoディケイドライバー
+item.new_decadriver.name=ネオディケイドライバー
 
 item.whitewizardriver.name=白い魔法使いドライバー
 item.whitewizardriverf.name=白い魔法使いドライバー(コヨミ)
@@ -1805,6 +2087,7 @@ item.magewizardriver_g.name=メイジのベルト(緑)
 item.sorcererdriver.name=ソーサラードライバー
 
 item.darkwizardriver.name=ダークウィザードライバー
+
 item.sengoku_driver_maja.name=戦極ドライバー(魔蛇)
 item.kabi_orange_lockseed.name=カビオレンジロックシード
 item.maja_lockseed.name=魔蛇ロックシード
@@ -1820,7 +2103,7 @@ item.kuuga_lockseed.name=クウガロックシード
 item.gaim_lockseed.name=鎧武ロックシード
 
 item.hero_lockseed.name=英雄ロックシード
-item.yummy_lockseed.name=ヤミー
+item.yummy_lockseed.name=ヤミーロックシード
 item.hsiao_lung_pao_lockseed.name=小籠包ロックシード
 item.tom_yum_kung_lockseed.name=トムヤムクンロックシード
 item.heisei_rider_lockseed.name=平成15ライダーロックシード
@@ -1847,9 +2130,9 @@ item.proto_mega_ulorder_y.name=プロトメガウルオウダー(ダークネク
 item.heartronshift.name=シフトハートロン
 item.shift_ride_crosser.name=シフトライドクロッサー
 item.rhino_super.name=ライノスーパーバイラルコア
-item.next_hunter.name=Nextハンター
-item.next_builder.name=Nextビルダー
-item.next_traveller.name=Nextトラベラー
+item.next_hunter.name=シフトネクストハンター
+item.next_builder.name=シフトネクストビルダー
+item.next_traveller.name=シフトネクストトラベラー
 item.tokujoka_key.name=特状課キー
 
 item.gan_gun_saber_blade.name=ガンガンセイバー(ブレードモード)
@@ -1969,6 +2252,7 @@ item.mighty_brothers_xx_gashat.name=マイティブラザーズXXガシャット
 item.maximum_mighty_x_gashat.name=マキシマムマイティXガシャット
 item.hyper_muteki_gashat.name=ハイパームテキガシャット
 item.god_maximum_mighty_x_gashat.name=ゴッドマキシマムマイティXガシャット
+item.genm_musou_gashat.name=幻夢無双ガシャット
 
 item.gamedeus_hyper_muteki_gashat.name=ゲムデウスハイパームテキガシャット
 
@@ -2043,6 +2327,57 @@ item.taiko_no_tatsujin_gashat.name=太鼓の達人ガシャット
 item.gabarizing_gashat.name=ガンバライジングガシャット
 
 item.mighty_novel_x_gashat.name=マイティノベルXガシャット
+
+
+item.mighty_action_x_gasha_trophy.name=マイティアクションXガシャットロフィー
+item.taddle_quest_gasha_trophy.name=タドルクエストガシャットロフィー
+item.bang_bang_shooting_gasha_trophy.name=バンバンシューティングガシャットロフィー
+item.bakusou_bike_gasha_trophy.name=爆走バイクガシャットロフィー
+item.shakariki_sports_gasha_trophy.name=シャカリキスポーツガシャットロフィー
+item.gekitotsu_robots_gasha_trophy.name=ゲキトツロボッツガシャットロフィー
+item.doremifa_beat_gasha_trophy.name=ドレミファビートガシャットロフィー
+item.giri_giri_chambara_gasha_trophy.name=ギリギリチャンバラガシャットロフィー
+item.jet_combat_gasha_trophy.name=ジェットコンバットガシャットロフィー
+item.drago_knight_hunter_z_gasha_trophy.name=ドラゴナイトハンターZガシャットロフィー
+item.perfect_puzzle_gasha_trophy.name=パーフェクトパズルーガシャットロフィー
+item.knockout_fighter_gasha_trophy.name=ノックアウトファイターガシャットロフィー
+item.toki_meki_crisis_gasha_trophy.name=ときめきクライシスガシャットロフィー
+
+item.speed_energy_item.name=高速化エナジーアイテム
+item.iron_energy_item.name=鋼鉄化エナジーアイテム
+item.instigate_energy_item.name=挑発エナジーアイテム
+item.jump_energy_item.name=ジャンプ強化エナジーアイテム
+item.muscle_energy_item.name=マッスル化エナジーアイテム
+item.recover_energy_item.name=回復エナジーアイテム
+item.shrink_energy_item.name=縮小化エナジーアイテム
+item.giant_energy_item.name=巨大化エナジーアイテム
+item.invisible_energy_item.name=透明化エナジーアイテム
+item.confusion_energy_item.name=混乱エナジーアイテム
+item.christmas_energy_item.name=クリスマスエナジーアイテム
+item.emission_energy_item.name=発光エナジーアイテム
+item.liquid_energy_item.name=液状化エナジーアイテム
+item.seperation_energy_item.name=分身エナジーアイテム
+item.dark_energy_item.name=暗黒エナジーアイテム
+item.stretch_energy_item.name=伸縮化エナジーアイテム
+item.sleep_energy_item.name=睡眠エナジーアイテム
+item.reflect_energy_item.name=反射エナジーアイテム
+item.reverse_energy_item.name=逆転エナジーアイテム
+item.lucky_energy_item.name=幸運エナジーアイテム
+item.flatten_energy_item.name=平面化エナジーアイテム
+item.balloon_energy_item.name=風船化エナジーアイテム
+item.gag_energy_item.name=ギャグエナジーアイテム
+item.disguise_energy_item.name=モノマネエナジーアイテム
+item.fascination_energy_item.name=魅了エナジーアイテム
+item.partner_energy_item.name=相棒エナジーアイテム
+item.prediction_energy_item.name=予知エナジーアイテム
+item.halt_energy_item.name=停止エナジーアイテム
+item.end_energy_item.name=終末エナジーアイテム
+item.bug_energy_item.name=バグエナジーアイテム
+item.random_energy_item.name=ランダムエナジーアイテム
+item.save_energy_item.name=セーブエナジーアイテム
+    
+item.lazer_bike.name=レーザー(バイクゲーマーレベル2)
+item.bike_gamer.name=バイクゲーマー
 
 item.drill_crusher.name=ドリルクラッシャー
 item.hawk_gatlinger.name=ホークガトリンガー
@@ -2194,6 +2529,8 @@ item.prime_rogue_full_bottle.name=プライムローグフルボトル
 item.muscle_galaxy_full_bottle.name=マッスルギャラクシーフルボトル
 item.killbas_spider_full_bottle.name=キルバススパイダーフルボトル
 item.grease_full_bottle.name=グリスフルボトル
+item.metal_tanktank_full_bottle.name=メタルタンクタンクフルボトル
+
 item.gear_engine.name=ギアエンジン
 item.gear_remocon.name=ギアリモコン
 item.gear_red.name=レッドギアリモコン
@@ -2227,6 +2564,14 @@ item.nebula_gas_sample.name=ネビュラガスサンプル
 item.genius_full_bottle_blank.name=未完成のジーニアスフルボトル
 
 item.dragon_magma_full_bottle.name=ドラゴンマグマフルボトル
+
+
+item.buttobasoul_full_bottle.name=ブットバソウルフルボトル
+item.ganbarizing_full_bottle.name=ガンバライジングフルボトル
+item.super_sentai_full_bottle.name=スーパー戦隊フルボトル
+item.kamen_rider_full_bottle.name=仮面ライダーフルボトル
+
+item.metal_full_bottle.name=メタルフルボトル
 
 item.evol_trigger.name=エボルトリガー
 
@@ -2263,6 +2608,11 @@ item.another_fourze_driver.name=アナザーフォーゼドライバー
 item.another_ooo_driver.name=アンザーオーズドライバー
 item.another_faiz_driver.name=アナザーファイズドライバー
 item.ziku_driver_tsukuyomi.name=ジクウドライバー(ツクヨミ)
+item.another_w_driver.name=アナザーダブルドライバー
+item.another_shinobi_driver.name=アナザーシノビドライバー
+
+item.unfinished_ohma_zi_o_driver_1.name=未完成のオーマジオウドライバーパート
+item.unfinished_ohma_zi_o_driver_2.name=未完成のオーマジオウドライバーパート
 
 item.zikan_grade.name=ジカンギレード
 item.zikan_zax.name=ジカンザックス
@@ -2304,6 +2654,26 @@ item.ryuki_ridewatch.name=龍騎ライドウォッチ
 item.agito_ridewatch.name=アギトライドウォッチ
 item.kuuga_ridewatch.name=クウガライドウォッチ
 
+item.build_genius_ridewatch.name=ビルドジーニアスフォームライドウォッチ
+item.exaid_muteki_ridewatch.name=エグゼイドムテキゲーマーライドウォッチ
+item.ghost_mugen_ridewatch.name=ゴーストムゲン魂ライドウォッチ
+item.drive_tridron_ridewatch.name=ドライブタイプトライドロンライドウォッチ
+item.gaim_kiwami_ridewatch.name=鎧武極アームズライドウォッチ
+item.wizard_infinity_ridewatch.name=ウィザードインフィニティースタイルライドウォッチ
+item.fourze_cosmic_ridewatch.name=フォーゼコズミックステイツライドウォッチ
+item.ooo_putotyra_ridewatch.name=オーズプトティラコンボライドウォッチ
+item.w_extreme_ridewatch.name=ダブルサイクロンジョーカーエクストリームライドウォッチ
+item.decade_complete_ridewatch.name=ディケイドコンプリートフォームライドウォッチ
+item.kiva_emperor_ridewatch.name=キバエンペラーフォームライドウォッチ
+item.deno_liner_ridewatch.name=電王ライナーフォームライドウォッチ
+item.kabuto_hyper_ridewatch.name=カブトハイパーフォームライドウォッチ
+item.hibiki_armed_ridewatch.name=装甲響鬼ライドウォッチ
+item.blade_king_ridewatch.name=ブレイドキングフォームライドウォッチ
+item.faiz_blaster_ridewatch.name=ファイズブラスタフォームライドウォッチ
+item.ryuki_survive_ridewatch.name=龍騎サバイブライドウォッチ
+item.agito_shinning_ridewatch.name=アギトシャイニングフォームライドウォッチ
+item.kuuga_ultimate_ridewatch.name=クウガアルティメットフォームライドウォッチ
+
 item.zi_o_ii_ridewatch.name=ジオウIIライドウォッチ
 item.trinity_ridewatch.name=ジオウトリニティライドウォッチ
 item.grandzi_o_ridewatch.name=グランドジオウライドウォッチ
@@ -2336,16 +2706,56 @@ item.bio_rider_ridewatch.name=バイオライダーライドウォッチ
 
 item.amazon_omega_ridewatch.name=アマゾンオメガライドウォッチ
 item.amazon_alpha_ridewatch.name=アマゾンアルファライドウォッチ
-item.amazon_neo_ridewatch.name=アマゾンneoライドウォッチ
+item.amazon_neo_ridewatch.name=アマゾンネオライドウォッチ
 
 item.zero_one_ridewatch.name=ゼロワンライドウォッチ
+item.saber_ridewatch.name=セイバーライドウォッチ
+item.ohma_advent_calendar.name=逢魔降臨暦
 
 item.woz_ridewatch.name=ウォズライドウォッチ
 item.unfinished_grandzi_o_ridewatch_1.name=未完成のグランドジオウライドウォッチ
 item.unfinished_grandzi_o_ridewatch_2.name=未完成のグランドジオウライドウォッチ
 item.kodama_suika_arms.name=小玉スイカアームズ
-item.another_build_ridewatch.name=アナザービルドライドウォッチ
 item.ryusoulger_ridewatch.name=リュウソウジャーライドウォッチ
+
+item.another_zero_one_ridewatch.name=アナザーゼロワンウォッチ
+item.another_zi_o_ridewatch.name=アナザージオウウォッチ
+item.another_zi_o_ii_ridewatch.name=アナザージオウIIウォッチ
+item.another_build_ridewatch.name=アナザービルドライドウォッチ
+item.another_exaid_ridewatch.name=アナザーエグゼイドウォッチ
+item.another_ghost_ridewatch.name=アナザーゴーストウォッチ
+item.another_drive_ridewatch.name=アナザードライブウォッチ
+item.another_gaim_ridewatch.name=アナザー鎧武ウォッチ
+item.another_wizard_ridewatch.name=アナザーウィザードウォッチ
+item.another_fourze_ridewatch.name=アナザーフォーゼウォッチ
+item.another_ooo_ridewatch.name=アナザーオーズウォッチ
+item.another_w_ridewatch.name=アナザーダブルウォッチ
+item.another_decade_ridewatch.name=アナザーディケイドウォッチ
+item.another_diend_ridewatch.name=アナザーディエンドウォッチ
+item.another_kiva_ridewatch.name=アナザーキバウォッチ
+item.another_deno_ridewatch.name=アナザー電王ウォッチ
+item.another_kabuto_ridewatch.name=アナザーカブトウォッチ
+item.another_hibiki_ridewatch.name=アナザー響鬼ウォッチ
+item.another_blade_ridewatch.name=アナザーブレイドウォッチ
+item.another_faiz_ridewatch.name=アナザーファイズウォッチ
+item.another_ryuki_ridewatch.name=アナザー龍騎ウォッチ
+item.another_ryuga_ridewatch.name=アナザーリュウガウォッチ
+item.another_agito_ridewatch.name=アナザーアギトウォッチ
+item.another_kuuga_ridewatch.name=アナザークウガウォッチ
+    
+item.another_ichigo_ridewatch.name=アナザー1号ウォッチ
+    
+item.another_shinobi_ridewatch.name=アナザーシノビウォッチ
+item.another_quiz_ridewatch.name=アナザークイズウォッチ
+item.another_kikai_ridewatch.name=アナザーキカイウォッチ
+
+item.amazon_ridewatch.name=アマゾンライドウォッチ
+item.stronger_ridewatch.name=ストロンガーライドウォッチ
+item.x_ridewatch.name=Xライドウォッチ
+item.riderman_ridewatch.name=ライダーマンライドウォッチ
+item.v3_ridewatch.name=V3ライドウォッチ
+item.nigo_ridewatch.name=2号ライドウォッチ
+item.ichigo_ridewatch.name=1号ライドウォッチ
 
 item.shuriken_starter.name=シュリケンスターター(シノビ)
 item.shuriken_starter_hattari.name=シュリケンスターター(ハッタリ)
@@ -2358,9 +2768,9 @@ item.zero_onehead.name=ゼロワンヘルメット
 item.zero_onetroso.name=ゼロワンチェストプレート
 item.zero_onelegs.name=ゼロワンレギンス
 
-item.hiden_zero_one_driver.name=飛電ゼロワンドライバー
-item.zaia_thousandriver.name=ZAIAサウザンドライバー
-
+item.hiden_zero_one_driver.name=飛電ゼロワンドライバー(ゼロワン)
+item.zaia_thousandriver.name=ZAIAサウザンドライバー(サウザー)
+item.zaia_thousandriver_zaia.name=ZAIAサウザンドライバー(ZAIA)
 item.shot_riser_vulcan.name=AIMSショットライザー(バルカン) 
 item.shot_riser_valkyrie.name=AIMSショットライザー(バルキリー) 
 
@@ -2370,21 +2780,56 @@ item.forceriser_ikazuchi.name=滅亡迅雷フォースライザー(雷)
 item.forceriser_naki.name=滅亡迅雷フォースライザー(亡)
 item.forceriser_001.name=滅亡迅雷フォースライザー(001)
 
+item.zetsumetsu_driver.name=絶滅ドライバー
+item.metsuboujinrai_driver.name=滅亡迅雷ドライバー
+
 item.cycloneriser_ichigata.name=サイクロンライザー(1型)
 
 item.zaia_slashriser_jin.name=ZAIAスラッシュライザー(迅)
 
 item.ark_driver_zero.name=アークドライバーゼロ(アークゼロ)
+item.hiden_zero_one_driver_azu.name=飛電ゼロワンドライバー(アークゼロワン)
+item.ark_driver_thouser_arc.name=アークドライバーゼロ(サウザンドアーク)
+
+item.eden_driver.name=エデンドライバー(エデン)
+item.lucifer_driver.name=エデンドライバー(ルシファー)
+
+item.slash_abaddo_riser_r.name=スラッシュアバドライザー(赤)
+item.shot_abaddo_riser_g.name=ショットアバドライザー(灰)
+item.shot_abaddo_riser_b.name=ショットアバドライザー(青)
+item.slash_abaddo_riser_o.name=スラッシュアバドライザー(橙)
+item.shot_abaddo_riser.name=ショットアバドライザー(アバドン)
+item.slash_abaddo_riser.name=スラッシュアバドライザー(アバドン)
+
+item.hiden_zero_one_driver_vulcan.name=飛電ゼロワンドライバー(バルカン)
 
 item.zetsumeriser_berothra.name=ゼツメライザー(ベローサマギア)
 item.zetsumeriser_kuehne.name=ゼツメライザー(クエネオマギア)
 item.zetsumeriser_ekal.name=ゼツメライザー(エカルマギア)
 item.zetsumeriser_dodo.name=ゼツメライザー(ドードーマギア)
+item.zetsumeriser_neohi.name=ZetsumeRiser (Neohi Magia)
+item.zetsumeriser_onycho.name=ZetsumeRiser (Onycho Magia)
+item.zetsumeriser_vicarya.name=ZetsumeRiser (Vicarya Magia)
+item.zetsumeriser_gaeru.name=ZetsumeRiser (Gaeru Magia)
+item.zetsumeriser_mammoth.name=ZetsumeRiser (Mammoth Magia)
 
 item.zetsumeriser_dodo_custom.name=ゼツメライザー(ドードーマギア改)
 item.zetsumeriser_dodo_custom_v2.name=ゼツメライザー(ドードーマギア改2)
 
+item.zetsumeriser_arsino.name=ZetsumeRiser (Arsino Magia)
+
+item.raidriser_battle.name=RaidRiser (Battle Raider)
+item.raidriser_buffalo.name=RaidRiser (Crushing Buffalo Raider)
+item.raidriser_whale.name=RaidRiser (Splashing Whale Raider)
+item.raidriser_lion.name=RaidRiser (Dynamaiting Lion Raider)
+item.raidriser_penguin.name=RaidRiser (Storming Penguin Raider)
+item.raidriser_panda.name=RaidRiser (Scouting Panda Raider)
+item.raidriser_jackal.name=RaidRiser (Fighting Jackal Raider)
+
 item.shot_riser_gun.name=AIMSショットライザー
+item.zaia_slashriser_sword.name=ZAIAスラッシュライザー
+item.shot_abaddo_gun.name=ショットアバドライザー
+item.slash_abaddo_sword.name=スラッシュアバドライザー
 item.attache_calibur.name=アタッシュカリバー
 item.attache_shotgun.name=アタッシュショットガン
 item.attache_arrow.name=アタッシュアロー
@@ -2399,6 +2844,7 @@ item.shining_assault_hopper_progrise_key.name=シャイニングアサルトホ�
 item.metalcluster_hopper_progrise_key.name=メタルクラスタホッパープログライズキー
 item.zero_two_progrise_key.name=ゼロツープログライズキー
 item.red_rising_hopper_progrise_key.name=赤いライジングホッパープログライズキー
+item.hell_hopper_progrise_key.name=ヘルライズプログライズキー
 
 item.biting_shark_progrise_key.name=バイティングシャークプログライズキー
 item.flaming_tiger_progrise_key.name=フレイミングタイガープログライズキー
@@ -2421,12 +2867,15 @@ item.shooting_wolf_progrise_key.name=シューティングウルフプログラ�
 item.assault_wolf_progrise_key.name=アサルトウルフプログライズキー
 item.rampage_gatling_progrise_key.name=ランペイジガトリングプログライズキー
 item.punching_kong_progrise_key.name=パンチングコングプログライズキー
+item.dire_wolf_zetsumerise_key.name=ダイアウルフゼツメライズキー
 
 item.rushing_cheetah_progrise_key.name=ラッシングチータープログライズキー
 item.lightning_hornet_progrise_key.name=ライトニングホーネットプログライズキー
 item.fighting_jackal_progrise_key.name=ファイティングジャッカルプログライズキー
+item.serval_tiger_zetsumerisekey.name=サーバルタイガーゼツメライズキー
 
 item.sting_scorpion_progrise_key.name=スティングスコーピオンプログライズキー
+item.ark_scorpion_progrise_key.name=アークスコーピオンプログライズキー
 
 item.flying_falcon_progrise_key.name=フライングファルコンプログライズキー
 item.burning_falcon_progrise_key.name=バーニングファルコンプログライズキー
@@ -2435,6 +2884,14 @@ item.amazing_caucasus_progrise_key.name=アメイジングコーカサスプロ�
 item.awaking_arsino_zetsumerise_key.name=アウェイキングアルシノゼツメライズキー
 
 item.ark_one_progrise_key.name=アークワンプログライズキー
+item.ark_zero_one_progrise_key.name=アークゼロワンプログライズキー
+item.thousand_ark_progrise_key.name=サウザンドアークプログライズキー
+
+item.eden_zetsumerise_key.name=エデンゼツメライズキー
+item.crowding_hopper_progrise_key.name=クラウディングホッパープログライズキー
+item.triceratops_zetsumerise_key.name=トリケラトプスゼツメライズキー
+item.carnotaurus_zetsumerise_key.name=カルノタウルスゼツメライズキー
+item.mass_brain_zetsumerise_key.name=マスブレインゼツメライズキー
 
 item.berothamagia_zetsumerisekey.name=ベローサゼツメライズキー
 item.kuehnemagia_zetsumerisekey.name=クエネオゼツメライズキー
@@ -2477,10 +2934,44 @@ item.jin_progrise_key.name=迅プログライズキー
 item.ikazuchi_progrise_key.name=雷プログライズキー
 item.naki_progrise_key.name=亡プログライズキー
 
+item.president_dan_kuroto_progrise_key.name=檀黎斗プログライズキー
+
+item.ark_scorpion_progrise_key.name=アークスコーピオンプログライズキー
+item.realize_rising_hopper_progrise_key.name=ライジングホッパープログライズキー(リアライズVer.)
+
+
 item.merry_hopper_progrise_key.name=クリスマスライジングホッパープログライズキー
 
 item.hiden_metal.name=飛電メタル
 item.hiden_risephone.name=飛電ライズフォン                    
+
+
+item.kaenken_rekka.name=火炎剣烈火
+item.suiseiken_nagare.name=水勢剣流水
+item.dogouken_gekido.name=土豪剣激土
+item.raimeiken_ikazuchi.name=雷鳴剣黄雷
+item.gekkou_raimeiken_ikazuchi.name=月光雷鳴剣黄雷
+item.ankokuken_kurayami.name=闇黒剣月闇
+item.onjuuken_suzune.name=音銃剣錫音
+    
+
+item.kingexcalibur.name=キングエクスカリバー
+item.kougouken_saikou.name=光剛剣最光
+item.eneiken_noroshi.name=煙叡剣狼煙
+item.jikokuken_kaiji.name=時国剣界時
+item.caladbolg.name=カラドボルグ
+item.haouken_xross_saber.name=刃王剣クロスセイバー
+
+item.gekkou_raimeiken_ikazuchi.name=月光雷鳴剣黄雷
+item.storious_sword.name=ストリウスソード
+    
+item.fuusouken_hayate_ittouryu.name=風双剣翠風(一刀流モード)
+item.fuusouken_hayate_nitouryu.name=風双剣翠風(二刀流モード)
+item.fuusouken_hayate_nitouryu2.name=風双剣翠風(二刀流モード)
+item.fuusouken_hayate_shuriken.name=風双剣翠風(手裏剣モード)
+    
+item.mumeiken_kyomu.name=無銘剣虚無
+item.shimi_lot.name=シミーロット
 
 item.saberhead.name=セイバーヘルメット
 item.sabertroso.name=セイバーチェストプレート
@@ -2488,124 +2979,228 @@ item.saberlegs.name=セイバーレギンス
 
 item.seiken_swordriver_saber.name=聖剣ソードライバー(セイバー)
 item.seiken_swordriver_blaze.name=聖剣ソードライバー(ブレイズ)
+item.seiken_swordriver_espada.name=聖剣ソードライバー(エスパーダ)
+
+item.sword_of_logos_buckle_buster.name=ソードオブロゴスバックル(バスター)
+item.sword_of_logos_buckle_kenzan.name=ソードオブロゴスバックル(剣斬)
+item.sword_of_logos_buckle_slash.name=ソードオブロゴスバックル(スラッシュ)
+    
+item.jaken_caliburdriver.name=邪剣カリバードライバー
+item.seiken_swordriver_falchion.name=覇剣ブレードライバー(ファルシオン)
+item.seiken_swordriver_tassel.name=覇剣ブレードライバー(タッセル)
+
+item.sword_of_logos_buckle_sabela.name=ロイヤルソードオブロゴスバックル(サーベラ)
+item.sword_of_logos_buckle_durendal.name=ロイヤルソードオブロゴスバックル(デュランダル)
+item.seiken_saikou_driver.name=聖剣サイコウドライバー
+item.solomon_driver.name=ドゥームズドライバー(ソロモン)
+item.storious_driver.name=ドゥームズドライバー(ストリウス)
+
 
 item.brave_dragon_wonderride_book.name=ブレイブドラゴンワンダーライドブック
+item.storm_eagle_wonderride_book.name=ストームイーグルワンダーライドブック
+item.saiyuu_journey_wonderride_book.name=西遊ジャーニーワンダーライドブック
+    
+item.dragonic_knight_wonder_ride_book.name=ドラゴニックナイトワンダーライドブック
+item.emotional_dragon_wonder_ride_book.name=エモーショナルドラゴンワンダーライドブック
+    
+item.king_of_arthur_wonderride_book.name=キングオブアーサーワンダーライドブック
 
 item.lion_senki_wonderride_book.name=ライオン戦記ワンダーライドブック
-
 item.peter_fantasista_wonderride_book.name=ピーターファンタジスタワンダーライドブック
+item.tenkuu_no_pegasus_wonderride_book.name=天空のペガサスワンダーライドブック
+    
+item.lamp_do_alngina_wonderride_book.name=ランプドアランジーナワンダーライドブック
+item.needle_hedgehog_wonderride_book.name=ニードルヘッジホッグワンダーライドブック
+item.tri_cerberus_wonderride_book.name=トライケルベロスワンダーライドブック
+    
+item.genbu_shinwa_wonderride_book.name=玄武神話ワンダーライドブック
 item.jackun_to_domamenoki_wonderride_book.name=ジャッ君と土豆の木ワンダーライドブック
                       
-item.revicehead.name=Revice Helmet
-item.revicetroso.name=Revice Chestplate 
-item.revicelegs.name=Revice Leggings
+item.sarutobi_ninjaden_wonderride_book.name=猿飛忍者伝ワンダーライドブック
+item.kobuta_3_kyouda_wonderride_book.name=こぶた3兄弟ワンダーライドブック
+
+item.hanselnuts_to_gretel_wonderride_book.name=ヘンゼルナッツとグレーテルワンダーライドブック
+item.bremen_no_rock_band_wonderride_book.name=ブレーメンのロックバンドワンダーライドブック
+
+item.jaaku_dragon_wonder_ride_book.name=ジャアクドラゴンワンダーライドブック
+item.jaou_dragon_wonder_ride_book.name=ジャオウドラゴンワンダーライドブック
+
+item.eternal_phoenix_wonderride_book.name=エターナルフェニックスワンダーライドブック
+
+item.primitive_dragon_wonder_ride_book.name=プリミティブドラゴンワンダーライドブック
+item.elemental_dragon_wonder_ride_book.name=エレメンタルドラゴンワンダーライドブック
+item.televi_kun_wonderride_book.name=てれびくんワンダーライドブック
+item.king_lion_daisenki_wonderride_book.name=キングライオン大戦記ワンダーライドブック
+item.tategami_hyoujuu_senki_wonderride_book.name=タテガミ氷獣戦記ワンダーライドブック
+item.ghost_ijinroku_wonderride_book.name=ゴースト偉人録ワンダーライドブック
+item.specter_gekikou_senki_wonderride_book.name=スペクター激昂戦記ワンダーライドブック
+item.super_hero_senki_wonder_ride_book.name=スーパーヒーロー戦記ワンダーライドブック
+
+item.daishougun_momoichirou_wonderride_book.name=大将軍桃一郎ワンダーライドブック
+item.daikengou_urashimajirou_wonderride_book.name=大剣豪浦島二郎ワンダーライドブック
+item.daiyokozuna_kinzaburou_wonderride_book.name=大横綱金三郎ワンダーライドブック
+item.kin_no_buki_gin_no_buki_wonderride_book.name=金の武器 銀の武器ワンダーライドブック
+item.x_swordman_wonderride_book.name=エックスソードマンワンダーライドブック
+
+item.konchuu_daihyakka_wonderride_book.name=昆虫大百科ワンダーライドブック
+item.ocean_history_wonderride_book.name=オーシャンヒストリーワンダーライドブック
+item.omni_force_wonderride_book.name=オムニフォースワンダーライドブック
+item.omni_force_wonderride_book_part.name=オムニフォースワンダーライドブックパート
+item.omni_force_wonderride_book_part2.name=オムニフォースワンダーライドブックパート
+
+item.grimoire_wonderride_book.name=グリモワールワンダーライドブック
+
+item.kirin_no_ongaeshi_wonderride_book.name=キリンの恩返しワンダーライドブック
+item.sarukani_wars_wonderride_book.name=さるかにウォーズワンダーライドブック
+item.bakusou_usagi_to_kame_wonderride_book.name=爆走うさぎとかめワンダーライドブック
+item.hoshin_kamen_engi_wonderride_book.name=封神仮面演義ワンダーライドブック
+item.tsuki_no_hime_kaguyan_wonderride_book.name=月の姫かぐやんワンダーライドブック
+item.osha_jizou_san_wonderride_book.name=おしゃじぞうさんワンダーライドブック
+item.issun_bushi_wonderride_book.name=一寸武士ワンダーライドブック
+
+item.wonder_world_story_of_kaenken_rekka_wonderride_book.name=ワンダーワールド物語火炎剣烈火ワンダーライドブック
+item.wonder_world_story_of_suiseiken_nagare_wonderride_book.name=ワンダーワールド物語水勢剣流水ワンダーライドブック
+item.wonder_world_story_of_raimeiken_ikazuchi_wonderride_book.name=ワンダーワールド物語雷鳴剣黄雷ワンダーライドブック
+item.wonder_world_story_of_ankokuken_kurayami_wonderride_book.name=ワンダーワールド物語闇黒剣月闇ワンダーライドブック
+item.wonder_world_story_of_dogouken_gekido_wonderride_book.name=ワンダーワールド物語土豪剣激土ワンダーライドブック
+item.wonder_world_story_of_fuusouken_hayate_wonderride_book.name=ワンダーワールド物語風双剣翠風ワンダーライドブック
+item.wonder_world_story_of_onjuuken_suzune_wonderride_book.name=ワンダーワールド物語音銃剣錫音ワンダーライドブック
+item.wonder_world_story_of_kougouken_saikou_wonderride_book.name=ワンダーワールド物語光剛剣最光ワンダーライドブック
+item.wonder_world_story_of_mumeiken_kyomu_wonderride_book.name=ワンダーワールド物語無銘剣虚無ワンダーライドブック
+item.wonder_world_story_of_eneiken_noroshi_wonderride_book.name=ワンダーワールド物語煙叡剣狼煙ワンダーライドブック
+item.wonder_world_story_of_jikokuken_kaiji_wonderride_book.name=ワンダーワールド物語時国剣界時ワンダーライドブック
+
+item.charybdis_alter_ride_book.name=カリュブディスアルターライドブック
+item.legeiel_alter_ride_book.name=レジエルアルターライドブック
+item.zooous_alter_ride_book.name=ズオスアルターライドブック
+item.storious_alter_ride_book.name=ストリウスアルターライドブック
+
+item.arabiana_night_wonderride_book.name=アラビアナンナイトワンダーライドブック
+item.amazing_siren_wonderride_book.name=アメイジングセイレーンワンダーライドブック
+item.wonder_almighty_wonder_ride_book.name=ワンダーオールマイティワンダーライドブック
+item.ultimate_bahamut_wonder_ride_book.name=アルティメットバハムートワンダーライドブック
+item.desast_alter_ride_book.name=デザストアルターライドブック
+    
+item.happy_brave_dragon_wonder_ride_book.name=ハッピーブレイブドラゴンワンダーライドブック
+    
+item.diago_speedy_wonder_ride_book.name=ディアゴスピーディーワンダーライドブック
+item.book_gate_wonder_ride_book.name=ブックゲートワンダーライドブック
+item.blank_wonder_ride_book.name=ブランクワンダーライドブック
+item.blank_wonder_world_story_wonder_ride_book.name=ブランクワンダーワールド物語ワンダーライドブック
+item.book_of_ruin.name=Book Of Ruin
+item.forbidden_tome.name=禁書
+item.great_book_fragment.name=大いなる本の素片
+    
+item.revicehead.name=リバイスヘルメット
+item.revicetroso.name=リバイスチェストプレート
+item.revicelegs.name=リバイスレギンス
         
-item.revice_driver.name=Revice Driver       
-item.vice_belt.name=Buddy Buckle(Vice)    
+item.revice_driver.name=リバイスドライバー
+item.vice_belt.name=バディバックル(バイス)
 
-item.two_sidriver_evil.name=Two Sidriver(Evil)
-item.two_sidriver_live.name=Two Sidriver(Live)
-item.demons_driver.name=Demons Driver
-item.libera_driver.name=Libera Driver
-item.vail_driver.name=Vail Driver
-item.over_demons_driver.name=Demons Driver (Over Demons)
-item.week_endriver.name=Week Endriver
+item.two_sidriver_evil.name=ツーサイドライバー(エビル)
+item.two_sidriver_live.name=ツーサイドライバー(ライブ)
+item.demons_driver.name=デモンズドライバー
+item.libera_driver.name=リベラドライバー
+item.vail_driver.name=ベイルドライバー
+item.over_demons_driver.name=デモンズドライバー(オーバーデモンズ)
+item.week_endriver.name=ウィークエンドライバー
     
-item.rex_vistamp.name=Rex Vistamp
-item.barid_rex_vistamp_closed.name=Barid Rex Vistamp (Incomplete)
-item.barid_rex_vistamp.name=Barid Rex Vistamp
-item.volcano_vistamp.name=Volcano Vistamp
-item.rolling_vistamp.name=Rolling Vistamp
-item.thunder_gale_vistamp.name=Thunder Gale Vistamp
+item.rex_vistamp.name=レックスバイスタンプ
+item.barid_rex_vistamp_closed.name=未完成のバリッレックスバイスタンプ
+item.barid_rex_vistamp.name=バリッレックスバイスタンプ
+item.volcano_vistamp.name=ボルケーノバイスタンプ
+item.rolling_vistamp.name=ローリングバイスタンプ
+item.thunder_gale_vistamp.name=サンダーゲイルバイスタンプ
 
-item.crow_vistamp.name=Crow Vistamp
-item.holy_wing_vistamp.name=Holy Wing Vistamp
+item.crow_vistamp.name=クロウバイスタンプ
+item.holy_wing_vistamp.name=ホーリーウィングバイスタンプ
 
-item.eagle_vistamp.name=Eagle Vistamp
-item.mammoth_vistamp.name=Mammoth Vistamp
-item.megalodon_vistamp.name=Megalodon Vistamp
-item.ptera_vistamp.name=Ptera Vistamp
-item.lion_vistamp.name=Lion Vistamp
-item.jackal_vistamp.name=Jackal Vistamp
-item.kong_vistamp.name=Kong Vistamp
-item.kamakiri_vistamp.name=Kamakiri Vistamp
-item.brachio_vistamp.name=Brachio Vistamp
-item.kajiki_vistamp.name=Kajiki Vistamp
-item.neo_batta_vistamp.name=Neo Batta Vistamp
-item.kangaroo_vistamp.name=Kangaroo Vistamp
-item.bat_vistamp.name=Bat Vistamp
-item.spider_vistamp.name=Spider Vistamp
-item.batta_vistamp.name=Batta Vistamp
-item.mogura_vistamp.name=Mogura Vistamp
-item.scorpion_vistamp.name=Scorpion Vistamp
-item.turtle_vistamp.name=Turtle Vistamp
-item.kujaku_vistamp.name=Kujaku Vistamp
-item.cobra_vistamp.name=Cobra Vistamp
-item.condor_vistamp.name=Condor Vistamp
-item.white_leo_vistamp.name=White Leo Vistamp
-item.quetzalcoatlus_vistamp.name=Quetzalcoatlus Vistamp
+item.eagle_vistamp.name=イーグルバイスタンプ
+item.mammoth_vistamp.name=マンモスバイスタンプ
+item.megalodon_vistamp.name=メガロドンバイスタンプ
+item.ptera_vistamp.name=プテラバイスタンプ
+item.lion_vistamp.name=ライオンバイスタンプ
+item.jackal_vistamp.name=ジャッカルバイスタンプ
+item.kong_vistamp.name=コングバイスタンプ
+item.kamakiri_vistamp.name=カマキリバイスタンプ
+item.brachio_vistamp.name=ブラキオバイスタンプ
+item.kajiki_vistamp.name=カジキバイスタンプ
+item.neo_batta_vistamp.name=ネオバッタバイスタンプ
+item.kangaroo_vistamp.name=カンガルーバイスタンプ
+item.bat_vistamp.name=バットバイスタンプ
+item.spider_vistamp.name=スパイダーバイスタンプ
+item.batta_vistamp.name=バッタバイスタンプ
+item.mogura_vistamp.name=モグラバイスタンプ
+item.scorpion_vistamp.name=スコーピオンバイスタンプ
+item.turtle_vistamp.name=タートルバイスタンプ
+item.kujaku_vistamp.name=クジャクバイスタンプ
+item.cobra_vistamp.name=コブラバイスタンプ
+item.condor_vistamp.name=コンドルバイスタンプ
+item.white_leo_vistamp.name=ホワイトレオバイスタンプ
+item.quetzalcoatlus_vistamp.name=ケツァルコアトルスバイスタンプ
 
 
-item.kirin_vistamp.name=Kirin Vistamp
-item.niwatori_vistamp.name=Niwatori Vistamp
-item.funkorogashi_vistamp.name=Funkorogashi Vistamp
+item.kirin_vistamp.name=キリンバイスタンプ
+item.niwatori_vistamp.name=にわとりバイスタンプ
+item.funkorogashi_vistamp.name=フンコロガシバイスタンプ
 
-item.queen_bee_vistamp.name=Queen Bee Vistamp
-item.buffalo_vistamp.name=Buffalo Vistamp
-item.tricera_vistamp.name=Tricera Vistamp
-item.crocodile_vistamp.name=Crocodile Vistamp
-item.kuwagata_vistamp.name=Kuwagata Vistamp
-item.kabuto_vistamp.name=Kabuto Vistamp
-item.hashibiroko_vistamp.name=Hashibiroko Vistamp
-item.anomalocaris_vistamp.name=Anomalocaris Vistamp
+item.queen_bee_vistamp.name=クイーンビーバイスタンプ
+item.buffalo_vistamp.name=バッファローバイスタンプ
+item.tricera_vistamp.name=トリケラバイスタンプ
+item.crocodile_vistamp.name=クロコダイルバイスタンプ
+item.kuwagata_vistamp.name=クワガタバイスタンプ
+item.kabuto_vistamp.name=カブトバイスタンプ
+item.hashibiroko_vistamp.name=ハシビロコウバイスタンプ
+item.anomalocaris_vistamp.name=アノマロカリスバイスタンプ
 
-item.proto_queen_bee_vistamp.name=Queen Bee Proto Vistamp
-item.cheetah_vistamp.name=Cheetah Proto Vistamp
-item.planarian_vistamp.name=Planarian Proto Vistamp
-item.daiouika_vistamp.name=Daiouika Proto Vistamp
-item.wolf_vistamp.name=Wolf Proto Vistamp
-item.sabertiger_vistamp.name=Sabertiger Proto Vistamp
-item.chameleon_vistamp.name=Chameleon Proto Vistamp
-item.koala_vistamp.name=Koala Proto Vistamp
-item.shark_vistamp.name=Shark Proto Vistamp 
-item.elephant_vistamp.name=Elephant Proto Vistamp
-item.raflessia_vistamp.name=Rafflesia Proto Vistamp
+item.proto_queen_bee_vistamp.name=クィーンビープロトバイスタンプ
+item.cheetah_vistamp.name=チータープロトバイスタンプ
+item.planarian_vistamp.name=プラナリアプロトバイスタンプ
+item.daiouika_vistamp.name=ダイオウイカプロトバイスタンプ
+item.wolf_vistamp.name=ウルフプロトバイスタンプ
+item.sabertiger_vistamp.name=サーベルタイガープロトバイスタンプ
+item.chameleon_vistamp.name=カメレオンプロトバイスタンプ
+item.koala_vistamp.name=コアラプロトバイスタンプ
+item.shark_vistamp.name=シャークプロトバイスタンプ 
+item.elephant_vistamp.name=エレファントプロトバイスタンプ
+item.raflessia_vistamp.name=ラフレシアプロトバイスタンプ
     
-item.rex_vistamp_metal.name= Rex Vistamp (Black Metal Plating)
-item.rex_vistamp_christmas.name=Rex Vistamp (Christmas)
-item.rex_vistamp_theme.name=Rex Vistamp (Theme Song) 
-item.toysaurus_vistamp.name=Toysaurus Vistamp
-item.mammoth_vistamp_china.name=Mammoth Vistamp (Chinese Exclusive)
-item.telemag_rex_vistamp.name=Rex Vistamp (Glitter)
-item.giff_junior_vistamp.name=Giff Junior Vistamp
+item.rex_vistamp_metal.name=レックスバイスタンプ(ブラックメタルメッキ)
+item.rex_vistamp_christmas.name=レックスバイスタンプ(クリスマス)
+item.rex_vistamp_theme.name=レックスバイスタンプ(主題歌) 
+item.toysaurus_vistamp.name=トイザウルスバイスタンプ
+item.mammoth_vistamp_china.name=マンモスバイスタンプ(中国限定)
+item.telemag_rex_vistamp.name=レックスバイスタンプ(キラキラ)
+item.giff_junior_vistamp.name=ギフジュニアバイスタンプ
            
-item.proto_vistamp.name=Proto Vistamp
+item.proto_vistamp.name=プロトバイスタンプ
     
-item.oblivion_stamp.name=Oblivian Stamp
-item.deadman_stamp.name=Deadman Stamp
-item.dopant_stamp.name=Dopant Stamp
-item.inves_stamp.name=Inves Stamp
-item.roidmude_stamp.name=Roidmude Stamp
-item.smash_stamp.name=Smash Stamp
-item.worm_stamp.name=Worm Stamp
-item.gurongi_stamp.name=Gurongi Stamp
-item.fangire_stamp.name=Fangire Stamp
-item.zodiarts_stamp.name=Zodiarts Stamp
-item.orphnoch_stamp.name=Orphnoch Stamp
+item.oblivion_stamp.name=オブリビアンスタンプ
+item.deadman_stamp.name=デッドマンスタンプ
+item.dopant_stamp.name=ドーパントスタンプ
+item.inves_stamp.name=インベススタンプ
+item.roidmude_stamp.name=ロイミュードスタンプ
+item.smash_stamp.name=スマッシュスタンプ
+item.worm_stamp.name=ワームスタンプ
+item.gurongi_stamp.name=グロンギスタンプ
+item.fangire_stamp.name=ファンガイアスタンプ
+item.zodiarts_stamp.name=ゾディアーツスタンプ
+item.orphnoch_stamp.name=オルフェノクスタンプ
     
-item.ohin_buster_50.name=Ohinbuster50
-item.gun_de_phone_50.name=Gundephone50
-item.osutoderu_hammer_50.name=Osutoderuhammer50
-item.revice_lasher.name=Revicelasher
-item.egg_shield.name=Barid Shield
-item.mammoth_gasher.name=Mammoth Gasher
-item.kamakiric_arrow.name=Kamakiric Arrow
-item.evil_blade.name=Evilblade
-item.live_gun.name=Livegun
-item.lovekov_kujaku.name=Lovekov Kujaku Genome
-item.lovekov_turtle.name=Lovekov Turtle Genome
-item.giff_junior_sword.name=Giff Junior Sword
-item.needle_kunai.name=Needle Kunai
+item.ohin_buster_50.name=オーインバスター50
+item.gun_de_phone_50.name=ガンデフォン50
+item.osutoderu_hammer_50.name=オストデルハンマー50
+item.revice_lasher.name=リバイスラッシャー
+item.egg_shield.name=バリッドシールド
+item.mammoth_gasher.name=マンモスガッシャー
+item.kamakiric_arrow.name=カマキリックアロー
+item.evil_blade.name=エビルブレード
+item.live_gun.name=ライブガン
+item.lovekov_kujaku.name=ラブコフクジャクゲノム
+item.lovekov_turtle.name=ラブコフタートルゲノム
+item.giff_junior_sword.name=ギフジュニアソード
+item.needle_kunai.name=ニードルクナイ
     
 
     
