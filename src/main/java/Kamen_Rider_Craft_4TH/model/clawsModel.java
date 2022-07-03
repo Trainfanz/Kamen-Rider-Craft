@@ -91,17 +91,7 @@ public class clawsModel extends ModelBiped
 		float height=1;
 		float height2=0;
 
-		if (entity instanceof EntityLivingBase){
-			EntityLivingBase player =((EntityLivingBase) entity);
-
-			if(player.isPotionActive(PotionCore.BIG_POTION)){
-				height=2.5f;		
-			}
-			if (height!=1){
-
-				height2=-0.99f;
-			}
-		}	
+	
 
 		GL11.glPushMatrix();
 
