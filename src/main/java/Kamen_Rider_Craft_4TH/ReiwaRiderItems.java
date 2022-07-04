@@ -460,9 +460,11 @@ public class ReiwaRiderItems {
 	public static Item needle_kunai = new ItemBaseSword("needle_kunai",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 
 	
-	public static Item giff_junior_sword = new Item_sword_gun("giff_junior_sword",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
-	public static Item paranegro = new Item_sword_gun("paranegro",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	public static Item giff_junior_sword = new ItemBaseSword("giff_junior_sword",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	public static Item paranegro = new ItemBaseSword("paranegro",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 
+	public static Item buffalo_disks = new ItemBaseSword("buffalo_disks",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	
 	public static Item vice_jackal_genome = new Item_ore("vice_jackal_genome");
 	
 	public static Item demons_driver_test = new Item_ore("demons_driver_test");
@@ -511,7 +513,7 @@ public class ReiwaRiderItems {
 
 	public static Item bat_vistamp = new Item_Vistamps(11,"bat_vistamp").AddEvilCanUse().AddLiveCanUse().setCreativeTab(Tabs.tabrevice);
 	public static Item crow_vistamp = new Item_Vistamps("crow_vistamp").setCreativeTab(Tabs.tabrevice);
-	public static Item holy_wing_vistamp = new Item_Vistamps(11,"holy_wing_vistamp").ChangeForm(1).AddLiveCanUse().setCreativeTab(Tabs.tabrevice);
+	public static Item holy_wing_vistamp = new Item_Vistamps(11,"holy_wing_vistamp").ChangeForm(5).AddLiveCanUse().setCreativeTab(Tabs.tabrevice);
 	
 	public static Item spider_vistamp = new Item_Vistamps(12,"spider_vistamp").AddDemonsCanUse().AddToVistampBar(3).setCreativeTab(Tabs.tabrevice);
 	public static Item batta_vistamp = new Item_Vistamps(13,"batta_vistamp").AddDemonsCanUse().AddToVistampBar(2).setCreativeTab(Tabs.tabrevice);
