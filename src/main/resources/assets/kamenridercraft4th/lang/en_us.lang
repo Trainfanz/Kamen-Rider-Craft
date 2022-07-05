@@ -177,6 +177,24 @@ entity.giffJuniorMob.name=Giff Junior
 entity.DaiouikaDeadmanMob.name=Daiouika Deadman
 entity.EvilMob.name=Kamen Rider Evil
 
+entity.MightyBugsterMob.name=Bugster Virus (Mighty Action X)
+entity.TaddleBugsterMob.name=Bugster Virus (Taddle Quest)
+entity.BangBangBugsterMob.name=Bugster Virus (BangBang Shooting)
+entity.LovelyBugsterMob.name=Bugster Virus (Tokimeki Crisis)
+
+entity.SaltyBugsterMob.name=Salty Bugster
+entity.AranburaBugsterMob.name=Aranbura Bugster
+entity.RevolBugsterMob.name=Revol Bugster
+entity.MotorsBugsterMob.name=Motors Bugster
+entity.GattonBugsterMob.name=Gatton Bugster
+entity.VernierBugsterMob.name=Vernier Bugster
+entity.KaidenBugsterMob.name=Kaiden Bugster
+entity.CharlieBugsterMob.name=Charlie Bugster
+entity.LovelicaBugsterMob.name=Lovelica Bugster
+entity.GraphiteBugsterMob.name=Graphite Bugster
+entity.DarkGraphiteBugsterMob.name=Dark Graphite Bugster
+entity.GurenGraphiteBugsterMob.name=Guren Graphite Bugster LV99
+
 effect.fly=Flying
 effect.fire_punch=Fire Punch
 effect.punch_boost=Punch Boost
@@ -2378,6 +2396,8 @@ item.save_energy_item.name=Save Energy Item
 item.lazer_bike.name=Lazer　(Bike Gamer Lv2)
 item.bike_gamer.name=Bike Gamer
 
+item.chronus_clock.name=Cronus Clock
+
 item.drill_crusher.name=Drill Crusher
 item.hawk_gatlinger.name=Hawk Gatlinger
 item.koma_ninpoutou.name=4 Koma Ninpoutou
@@ -3198,7 +3218,9 @@ item.lovekov_kujaku.name=Lovekov Kujaku Genome
 item.lovekov_turtle.name=Lovekov Turtle Genome
 item.giff_junior_sword.name=Giff Junior Sword
 item.needle_kunai.name=Needle Kunai
-item.giff_junior_sword.name=Giff Junior Sword  
+item.giff_junior_sword.name=Giff Junior Sword 
+item.paranegro.name=Paranegro
+item.buffalo_disk.name=Buffalo Gekirin
 
        
 item.amazonshead.name=Amazons Helmet

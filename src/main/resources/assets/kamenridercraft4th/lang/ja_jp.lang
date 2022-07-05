@@ -177,6 +177,24 @@ entity.giffJuniorMob.name=ギフジュニア
 entity.DaiouikaDeadmanMob.name=ダイオウイカデッドマン
 entity.EvilMob.name=仮面ライダーエビル
 
+entity.MightyBugsterMob.name=バグスターウイルス(マイティアクションX)
+entity.TaddleBugsterMob.name=バグスターウイルス(タドルクエスト)
+entity.BangBangBugsterMob.name=バグスターウイルス(バンバンシューティング)
+entity.LovelyBugsterMob.name=バグスターウイルス(ときめきクライシス)
+
+entity.SaltyBugsterMob.name=ソルティバグスター
+entity.AranburaBugsterMob.name=アランブラバグスター
+entity.RevolBugsterMob.name=リボルバグスター
+entity.MotorsBugsterMob.name=モータスバグスター
+entity.GattonBugsterMob.name=ガットンバグスター
+entity.VernierBugsterMob.name=バーニアバグスター
+entity.KaidenBugsterMob.name=カイデンバグスター
+entity.CharlieBugsterMob.name=チャーリーバグスター
+entity.LovelicaBugsterMob.name=ラヴリカバグスター
+entity.GraphiteBugsterMob.name=グラファイトバグスター
+entity.DarkGraphiteBugsterMob.name=ダークグラファイトバグスター
+entity.GurenGraphiteBugsterMob.name=グレングラファイトバグスターLV99
+
 effect.fly=飛行
 effect.fire_punch=炎の拳
 effect.punch_boost=パンチブースト
@@ -2379,6 +2397,8 @@ item.save_energy_item.name=セーブエナジーアイテム
 item.lazer_bike.name=レーザー(バイクゲーマーレベル2)
 item.bike_gamer.name=バイクゲーマー
 
+item.chronus_clock.name=クロノスクロック
+
 item.drill_crusher.name=ドリルクラッシャー
 item.hawk_gatlinger.name=ホークガトリンガー
 item.koma_ninpoutou.name=四コマ忍法刀
@@ -3201,6 +3221,8 @@ item.lovekov_kujaku.name=ラブコフクジャクゲノム
 item.lovekov_turtle.name=ラブコフタートルゲノム
 item.giff_junior_sword.name=ギフジュニアソード
 item.needle_kunai.name=ニードルクナイ
+item.paranegro.name=パラネグロ
+item.buffalo_disk.name=バッファローゲキリン
     
 
     

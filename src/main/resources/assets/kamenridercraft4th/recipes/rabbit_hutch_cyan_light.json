@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "fourze_deco",
+  "pattern": [
+    "RIR",
+    "III",
+    "RIR"
+  ],
+  "key": {
+    "R": {
+      "item": "kamenridercraft4th:rabbit_hutch_cyan"
+    }, "I": {
+      "item": "kamenridercraft4th:rabbit_hutch_light"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:rabbit_hutch_cyan_light"
+  }
+}
