@@ -80,6 +80,8 @@ public class RegistyHandler {
 			
 			Entity_base_henchmen entityboss  = new EntityBugsterVirus(event.player.world);
 			Random rand = new Random();
+			if (event.player.world.isRemote){
+				
 		switch (rand.nextInt(2500))
 		{
 		case 0:
@@ -95,7 +97,6 @@ public class RegistyHandler {
 						if (event.player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == ReiwaRiderItems.zero_onehead){
 							if (event.player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.zaia_thousandriver){
 
-								if (event.player.world.isRemote){
 									if (!event.player.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.president_dan_kuroto_progrise_key))){
 										event.player.inventory.addItemStackToInventory(new ItemStack(ReiwaRiderItems.president_dan_kuroto_progrise_key));
 										event.player.sendMessage( new TextComponentString(TextFormatting.LIGHT_PURPLE+"President Dan Kuroto!"));

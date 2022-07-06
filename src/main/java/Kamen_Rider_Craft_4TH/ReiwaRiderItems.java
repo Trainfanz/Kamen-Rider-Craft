@@ -456,7 +456,8 @@ public class ReiwaRiderItems {
 	
 	public static Item lovekov_kujaku = new ItemBaseSword("lovekov_kujaku",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item lovekov_turtle = new Item_gun("lovekov_turtle",Tabs.den_dengu, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
-	
+	public static Item lovekov_hashibiroko = new ItemBaseSword("lovekov_hashibiroko",Tabs.deep_slasher_sword, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+
 	public static Item needle_kunai = new ItemBaseSword("needle_kunai",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 
 	
