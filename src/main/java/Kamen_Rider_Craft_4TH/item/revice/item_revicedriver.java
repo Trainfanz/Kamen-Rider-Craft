@@ -309,6 +309,15 @@ public class item_revicedriver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
 										
+									 if (base==5){
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5,0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5,3,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,3,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5,5,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
+										
+										}
+										
 									}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.demons_driver){
 										player.addPotionEffect(new PotionEffect(MobEffects.POISON, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));

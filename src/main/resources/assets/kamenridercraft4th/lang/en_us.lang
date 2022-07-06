@@ -340,6 +340,11 @@ tile.zaia_3d_printing.name=ZAIA 3D Printer
 
 tile.sword_of_logos_book_analyzer.name=Sword of Logos Book Analyzer
 
+tile.taddle_wall.name=Taddle Quest Game Area Wall
+tile.taddle_brick.name=Taddle Quest Game Area Brick
+tile.bang_bang_drum.name=Bang Bang Shooting Barrel
+tile.bakusou_trophy.name=Bakusou Bike Trophy
+
 tile.monitor.name=Computer Monitor
 tile.pandorabox.name=Pandora Box
 tile.mighty_block.name=Mighty Action X Block
@@ -3220,7 +3225,7 @@ item.giff_junior_sword.name=Giff Junior Sword
 item.needle_kunai.name=Needle Kunai
 item.giff_junior_sword.name=Giff Junior Sword 
 item.paranegro.name=Paranegro
-item.buffalo_disk.name=Buffalo Gekirin
+item.buffalo_disks.name=Buffalo Gekirin
 
        
 item.amazonshead.name=Amazons Helmet

@@ -130,7 +130,15 @@ public class Entity_Evil extends EntityBossBase
 	public void onDeath(DamageSource cause)
 	{
 		if (!this.world.isRemote){
-
+			if (this.getAttackTarget()instanceof EntityPlayer){
+				 EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
+					if (playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.crow_vistamp))){
+						playerIn.sendMessage( new TextComponentString(TextFormatting.AQUA+"Holy Wing!"));
+						playerIn.inventory.addItemStackToInventory(new ItemStack(ReiwaRiderItems.holy_wing_vistamp));
+						playerIn.inventory.clearMatchingItems(ReiwaRiderItems.crow_vistamp, -1, 1, null);
+					}
+					
+			}
 			this.dropItem(ReiwaRiderItems.bat_vistamp, 1);
 			this.dropItem(ReiwaRiderItems.proto_vistamp, 10);
 			switch (this.rand.nextInt(5))
