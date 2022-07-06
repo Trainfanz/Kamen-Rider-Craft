@@ -10,6 +10,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
@@ -57,16 +58,26 @@ public class vistamp_bar extends machine_block  {
         return BlockRenderLayer.CUTOUT;
     }
 
-	private Item getvistampDrop() {
+	private Item getvistampDrop(EntityPlayer player) {
+		
+		List<Item> vistamp2 = new ArrayList<Item>();
+		vistamp2.clear();
+		 vistamp2.addAll(vistamp);
+		 if (player.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.barid_rex_vistamp))){
+				for (int i1 = 0; i1 < 20; ++i1)
+				{
+					vistamp2.add(ReiwaRiderItems.volcano_vistamp);
+				}
+		 }
 		Random generator = new Random();
-			int rand = generator.nextInt(vistamp.size());
-			return vistamp.get(rand);
+			int rand = generator.nextInt(vistamp2.size());
+			return vistamp2.get(rand);
 		
 	}
 
 	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
 		if (!worldIn.isRemote) {
-			if (player.getHeldItem(hand).getItem() == ReiwaRiderItems.proto_vistamp) process(player, worldIn, pos, hand, getvistampDrop());
+			if (player.getHeldItem(hand).getItem() == ReiwaRiderItems.proto_vistamp) process(player, worldIn, pos, hand, getvistampDrop(player));
 			return true;
 		}
 
