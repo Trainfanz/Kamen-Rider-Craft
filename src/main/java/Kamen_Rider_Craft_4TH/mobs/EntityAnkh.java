@@ -508,35 +508,8 @@ public class EntityAnkh extends EntityTameable
 	 */
 	public boolean canMateWith(EntityAnimal otherAnimal)
 	{
-		if (otherAnimal == this)
-		{
 			return false;
-		}
-		else if (!this.isTamed())
-		{
-			return false;
-		}
-		else if (!(otherAnimal instanceof EntityAnkh))
-		{
-			return false;
-		}
-		else
-		{
-			EntityAnkh entitywolf = (EntityAnkh)otherAnimal;
-
-			if (!entitywolf.isTamed())
-			{
-				return false;
-			}
-			else if (entitywolf.isSitting())
-			{
-				return false;
-			}
-			else
-			{
-				return this.isInLove() && entitywolf.isInLove();
-			}
-		}
+	
 	}
 
 
