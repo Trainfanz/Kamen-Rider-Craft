@@ -4,12 +4,14 @@ package Kamen_Rider_Craft_4TH.mobs.Henchmen;
 import java.util.Calendar;
 import java.util.UUID;
 
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityBossBase;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Para_dx;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Red_Poppy;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_genm;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_salty_bugster;
+import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import net.minecraft.block.Block;
 
 import net.minecraft.entity.Entity;
@@ -52,8 +54,10 @@ public class entity_mighty_bugster extends Entity_base_henchmen
 	public entity_mighty_bugster(World par1World)
 	{
 		super(par1World);	
+		
 	}
 
+    
 	public void onDeath(DamageSource cause)
 	{
 		if (!this.world.isRemote){

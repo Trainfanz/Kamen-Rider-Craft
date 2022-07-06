@@ -14,6 +14,7 @@ import com.google.common.collect.Sets;
 
 import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -84,7 +85,16 @@ public class entity_salty_bugster extends EntityBossBase
         this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(4.0D);
         
     }
-
+	/**
+     * Called by a player entity when they collide with an entity
+     */
+    public void onCollideWithPlayer(EntityPlayer entityIn)
+    {
+    	super.onCollideWithPlayer(entityIn);
+    	
+    	entityIn.addPotionEffect(new PotionEffect(PotionCore.BUGSTER_POTION, 500, 0,true,false));
+		
+    }
  	protected boolean shouldBurnInDay()
     {
         return false;
