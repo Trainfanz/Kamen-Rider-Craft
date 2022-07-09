@@ -19,9 +19,9 @@ import net.minecraft.world.World;
 
 public class Itemmedal extends Item  implements IHasModel
 {
-	public static final String[] CoreName1= new String[] {"taka","kuwagata","lion","sai","shachi","ptera","cobra","super_taka","love_1","same","shika","seiuchi","mukade","ebi","habataki","taka_ankh","shocker_head","taka_eternity"};
-	public static final String[] CoreName2= new String[] {"tora","kamakiri","gorilla","kujaku","unagi","tricera","kame","imagin","panda","super_tora","kangaroo","love_2","kujira","gazelle","shirokuma","hachi","kani","yadokari","taiga","gel_shocker","kujaku_eternity"};
-	public static final String[] CoreName3= new String[] {"batta","cheetah","zou","condor","tako","tyranno","wani","shocker","super_batta","kangaroo2","love_3","ookamiuo","ushi","penguin","ari","sasori","ichigo","destron","condor_eternity"};
+	public static final String[] CoreName1= new String[] {"taka","kuwagata","lion","sai","shachi","ptera","cobra","super_taka","love_1","same","shika","seiuchi","mukade","ebi","habataki","taka_ankh","shocker_head","taka_eternity","ancient_taka","ancient_taka_greeed_absorption","mukade_goda"};
+	public static final String[] CoreName2= new String[] {"tora","kamakiri","gorilla","kujaku","unagi","tricera","kame","imagin","panda","super_tora","kangaroo","love_2","kujira","gazelle","shirokuma","hachi","kani","yadokari","taiga","gel_shocker","kujaku_eternity","ancient_tora","ancient_tora_greeed_absorption","hachi_goda"};
+	public static final String[] CoreName3= new String[] {"batta","cheetah","zou","condor","tako","tyranno","wani","shocker","super_batta","kangaroo2","love_3","ookamiuo","ushi","penguin","ari","sasori","ichigo","destron","condor_eternity","ancient_batta","ancient_batta_greeed_absorption","ari_goda"};
 
 	public int num;
 	public String num2;

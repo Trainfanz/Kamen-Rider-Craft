@@ -1667,9 +1667,9 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item birth_buster = new Item_gun("birth_buster",Tabs.birth_buster, RiderItems.cellmedal).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 	public static Item deepest_harpoon = new ItemBaseSword("deepest_harpoon",Tabs.medagaburyu, RiderItems.cellmedal).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 
-	public static Item OOOhead = new item_OOOarmor2("ooohead",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
-	public static Item OOOtroso = new item_OOOarmor("oootroso",ArmorMaterial.DIAMOND, 4,EntityEquipmentSlot.CHEST).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
-	public static Item OOOlegs = new item_OOOarmor("ooolegs",ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+	public static Item OOOhead = new item_rider_armor("ooohead",item_Wdriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, cellmedal).setCreativeTab(Tabs.tabOOO);
+	public static Item OOOtroso = new item_rider_armor("oootroso",item_Wdriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, cellmedal).setCreativeTab(Tabs.tabOOO);
+	public static Item OOOlegs = new item_rider_armor("ooolegs",item_Wdriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, cellmedal).setCreativeTab(Tabs.tabOOO);
 
 	public static Item taka_OOOdriver = new Item_ore("taka_ooodriver");
 	public static Item kuwagata_OOOdriver = new Item_ore("kuwagata_ooodriver");
@@ -1730,6 +1730,7 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item birth_driver = new item_OOOdriver("birth_driver",ArmorMaterial.DIAMOND, 4,"birth").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 	public static Item birth_driver_prototype = new item_OOOdriver("birth_driver_prototype",ArmorMaterial.DIAMOND, 4,"birth_prototype").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 	public static Item rebirth_driver = new item_OOOdriver("rebirth_driver",ArmorMaterial.DIAMOND, 4,"rebirth").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+	public static Item birth_x_driver = new item_OOOdriver("birth_x_driver",ArmorMaterial.DIAMOND, 4,"birth_x").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 	public static Item poseidon_driver = new item_OOOdriver("poseidon_driver",ArmorMaterial.DIAMOND, 4,"poseidon").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 	public static Item aqua_driver = new item_OOOdriver("aqua_driver",ArmorMaterial.DIAMOND, 4,"aqua").setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 
@@ -1799,6 +1800,15 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item taka_eternity = new Itemmedal(17, "1","taka_eternity").setCreativeTab(Tabs.tabOOO);
 	public static Item kujaku_eternity = new Itemmedal(20, "2","kujaku_eternity").setCreativeTab(Tabs.tabOOO);
 	public static Item condor_eternity = new Itemmedal(18, "3","condor_eternity").setCreativeTab(Tabs.tabOOO);
+	
+	public static Item ancient_taka = new Itemmedal(18, "1","ancient_taka").setCreativeTab(Tabs.tabOOO);
+	public static Item ancient_tora = new Itemmedal(21, "2","ancient_tora").setCreativeTab(Tabs.tabOOO);
+	public static Item ancient_batta = new Itemmedal(19, "3","ancient_batta").setCreativeTab(Tabs.tabOOO);
+	
+	public static Item mukade_goda = new Itemmedal(20, "1","mukade_goda").setCreativeTab(Tabs.tabOOO);
+	public static Item hachi_goda = new Itemmedal(23, "2","hachi_goda").setCreativeTab(Tabs.tabOOO);
+	public static Item ari_goda = new Itemmedal(21, "3","ari_goda").setCreativeTab(Tabs.tabOOO);
+	
 	
 	public static Item love_core = new Itemmedal(8, "1","love_core").setCreativeTab(Tabs.tabOOO);
 	public static Item love_core2 = new Itemmedal(11, "2","love_core2").setCreativeTab(Tabs.tabOOO);

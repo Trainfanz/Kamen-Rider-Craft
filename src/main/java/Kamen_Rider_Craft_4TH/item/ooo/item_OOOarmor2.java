@@ -63,15 +63,6 @@ public class item_OOOarmor2 extends ItemArmor  implements IHasModel
 					{
 						return Refercence.MODID+":textures/armor/"+"ooo_"+ Itemmedal.CoreName1[item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")] +".png";
 					}
-					if ( slot == EntityEquipmentSlot.CHEST)
-					{
-						return Refercence.MODID+":textures/armor/"+"ooo_"+ Itemmedal.CoreName1[item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"2")] +".png" ;
-					}
-
-					if ( slot == EntityEquipmentSlot.LEGS)
-					{
-						return Refercence.MODID+":textures/armor/"+"ooo_"+ Itemmedal.CoreName3[item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"3")] +".png";
-					} 
 				}						
 				else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_OOOdriver){
 
@@ -86,18 +77,7 @@ public class item_OOOarmor2 extends ItemArmor  implements IHasModel
 							return Refercence.MODID+":textures/armor/"+rider+"_1.png";
 						}
 					}
-					if ( slot == EntityEquipmentSlot.CHEST)
-					{
-						return Refercence.MODID+":textures/armor/"+rider+"_2" +".png";
-					}
-
-					if ( slot == EntityEquipmentSlot.LEGS)
-					{
-						return Refercence.MODID+":textures/armor/"+rider+"_3" +".png";
-					}
-					return Refercence.MODID+":textures/armor/blank.png";
-				}
-			}
+					}			}
 		}
 		else
 		{
