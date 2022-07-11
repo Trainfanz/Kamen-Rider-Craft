@@ -63,7 +63,7 @@ public class giantHandler
 			event.player.width = 0.6F;
 			event.player.height=1.8F;
 			event.player.eyeHeight=event.player.getDefaultEyeHeight();
-			final double d0 = 0.8 / 2.0D;
+			final double d0 = 0.6 / 2.0D;
 			final AxisAlignedBB aabb = entity.getEntityBoundingBox();
 			entity.setEntityBoundingBox(new AxisAlignedBB(entity.posX - d0, aabb.minY, entity.posZ - d0,
 					entity.posX + d0, aabb.minY + 1.8F, entity.posZ + d0));
