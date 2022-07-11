@@ -397,9 +397,99 @@ public class Itemo_scanner extends Item  implements IHasModel
 													}
 												}
 											}
-											if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "2")==17){
-												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));	
+
+											if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==17){
+												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25,0,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 25,0,true,false));
 											}
+											if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "2")==20){
+												player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 25,0,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,3,true,false));
+												player.fallDistance=0;
+											}
+
+											if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "3")==18){
+												if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "2")==20){
+													if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==17){
+														player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,3,true,false));
+														player.fallDistance=0; 
+														player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 0,true,false));
+													}}
+
+											}
+
+											if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==20){
+												player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 25,2,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,4,true,false));
+												player.addPotionEffect(new PotionEffect(PotionCore.ANTIPOISON_POTION, 5, 0,true,false));
+
+											}
+
+											if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "2")==23){
+												player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,3,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,3,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,5,true,false));
+											}
+											if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "3")==21){
+												player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,4,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,2,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,4,true,false));
+												if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "2")==23){
+													if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==20){
+														player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,8,true,false));
+													}
+												}
+											}
+
+											if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==18){
+												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25,0,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,6,true,false));
+											}
+
+											if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "2")==21){
+												player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,1,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,3,true,false));
+											}
+											if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "3")==19){
+												player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,2,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,3,true,false));
+												if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "2")==21){
+													if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==18){
+														if (player.inventory.hasItemStack(new ItemStack(RiderItems.greeed_blet_gamel))&
+																player.inventory.hasItemStack(new ItemStack(RiderItems.greeed_blet_kazari))&
+																player.inventory.hasItemStack(new ItemStack(RiderItems.greeed_blet_mezool))
+																&player.inventory.hasItemStack(new ItemStack(RiderItems.greeed_blet_uva))){
+
+															item_OOOdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), 19, "1");
+															item_OOOdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), 22, "2");
+															item_OOOdriver.set_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), 20, "3");
+															
+														}
+													}
+												}
+											}
+												if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==19){
+													player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 25,2,true,false));
+													player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,4,true,false));
+													player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+												}
+												if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "2")==22){
+													player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,3,true,false));
+													player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,3,true,false));
+													player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,4,true,false));
+												}
+												if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "3")==20){
+													player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,4,true,false));
+													player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,2,true,false));
+													player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,4,true,false));
+													if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "2")==22){
+														if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==19){
+															player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,6,true,false));
+														}
+													}
+												}
+
+											
 										}
 									}
 								}
@@ -410,7 +500,7 @@ public class Itemo_scanner extends Item  implements IHasModel
 			}
 		}
 	}
-}
+	}
 
 
 

@@ -87,7 +87,7 @@ public class Entity_giff_junior extends Entity_base_henchmen
 				break;
 			case 1:
 				playerIn.sendMessage( new TextComponentString(TextFormatting.LIGHT_PURPLE+"Daiouika!"));
-				entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				entityboss2.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
 				world.spawnEntity(entityboss2);
 				break;
 			}

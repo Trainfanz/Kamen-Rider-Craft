@@ -57,8 +57,6 @@ import Kamen_Rider_Craft_4TH.item.kuuga.Item_kuuga_mode_change_sword_im;
 import Kamen_Rider_Craft_4TH.item.ooo.Item_purple_medals;
 import Kamen_Rider_Craft_4TH.item.ooo.Itemmedal;
 import Kamen_Rider_Craft_4TH.item.ooo.Itemo_scanner;
-import Kamen_Rider_Craft_4TH.item.ooo.item_OOOarmor;
-import Kamen_Rider_Craft_4TH.item.ooo.item_OOOarmor2;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
 import Kamen_Rider_Craft_4TH.item.ooo.item_candroid;
 import Kamen_Rider_Craft_4TH.item.revice.Item_Vistamps;
