@@ -11,6 +11,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_clay_doll_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_grease;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_nazca_dopant;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_smilodon_dopant;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_weather_dopant;
 import net.minecraft.block.Block;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
@@ -61,7 +62,8 @@ public class EntityMasquerade extends Entity_base_henchmen
 				 EntityBossBase entityboss  = new Entity_clay_doll_dopant(world);
 				 EntityBossBase entityboss2  = new Entity_nazca_dopant(world);
 				 EntityBossBase entityboss3  = new Entity_smilodon_dopant(world);
-			switch (this.rand.nextInt(10))
+				 EntityBossBase entityboss4  = new Entity_weather_dopant(world);
+			switch (this.rand.nextInt(20))
 			{
 			case 0:
 				 playerIn.sendStatusMessage(new TextComponentString(TextFormatting.YELLOW+"Claydoll!"), true);
@@ -79,6 +81,12 @@ public class EntityMasquerade extends Entity_base_henchmen
 				 playerIn.sendStatusMessage(new TextComponentString(TextFormatting.GOLD+"Smilodon!"), true);
 				entityboss3.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
 				world.spawnEntity(entityboss3);
+				break;
+				
+			case 4:
+				 playerIn.sendStatusMessage(new TextComponentString(TextFormatting.WHITE+"Weather!"), true);
+				entityboss4.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+				world.spawnEntity(entityboss4);
 				break;
 				}
 			}switch (this.rand.nextInt(25))
