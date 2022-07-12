@@ -77,36 +77,40 @@ public class RegistyHandler {
 
 		if(event.player.isPotionActive(PotionCore.BUGSTER_POTION)) {
 
-			
+
 			Entity_base_henchmen entityboss  = new EntityBugsterVirus(event.player.world);
 			Random rand = new Random();
-			
-				
-		switch (rand.nextInt(2500))
-		{
-		case 0:
-			if (!event.player.world.isRemote){
-			entityboss.setLocationAndAngles(event.player.posX+(rand.nextInt(8)-4), event.player.posY, event.player.posZ+(rand.nextInt(8)-4), 0, 0.0F);
-			event.player.world.spawnEntity(entityboss);
-			break;
+
+			switch (rand.nextInt(2500))
+			{
+			case 0:
+				if (!event.player.world.isRemote){	
+
+					entityboss.setLocationAndAngles(event.player.posX+(rand.nextInt(8)-4), event.player.posY, event.player.posZ+(rand.nextInt(8)-4), 0, 0.0F);
+					event.player.world.spawnEntity(entityboss);
+					break;
+				}
+
 			}
-		}
-			
-			if (event.player.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.ark_one_progrise_key))){
-				
-				if (event.player.getItemStackFromSlot(EntityEquipmentSlot.LEGS).getItem() == ReiwaRiderItems.zero_onelegs){
-					if (event.player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == ReiwaRiderItems.zero_onetroso){
-						if (event.player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == ReiwaRiderItems.zero_onehead){
-							if (event.player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.zaia_thousandriver){
-								if (event.player.world.isRemote){
-									if (!event.player.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.president_dan_kuroto_progrise_key))){
+
+
+
+			if (event.player.getItemStackFromSlot(EntityEquipmentSlot.LEGS).getItem() == ReiwaRiderItems.zero_onelegs){
+				if (event.player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == ReiwaRiderItems.zero_onetroso){
+					if (event.player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == ReiwaRiderItems.zero_onehead){
+						if (event.player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.zaia_thousandriver){
+							if (event.player.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.ark_one_progrise_key))){
+
+
+								if (event.player.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.humagear_progrise_key))){
+									if (!event.player.world.isRemote){	
 										event.player.inventory.addItemStackToInventory(new ItemStack(ReiwaRiderItems.president_dan_kuroto_progrise_key));
+										event.player.inventory.clearMatchingItems(ReiwaRiderItems.humagear_progrise_key, -1, 1, null);
 										event.player.sendMessage( new TextComponentString(TextFormatting.LIGHT_PURPLE+"President Dan Kuroto!"));
-										if (event.player.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.ark_one_progrise_key))){
-										}
 									}
+									event.player.removeActivePotionEffect(PotionCore.BUGSTER_POTION);
 								}
-								event.player.removeActivePotionEffect(PotionCore.BUGSTER_POTION);
+								
 							}
 						}
 					}

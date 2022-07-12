@@ -33,9 +33,7 @@ public class giantHandler
 		
 		if(event.player.isPotionActive(PotionCore.SMALL_POTION)) small = true;
 		if(event.player.isPotionActive(Potion.getPotionFromResourceLocation("supersentaicraft"+ ":" + "small"))) small = true;
-		
 		if(big&!small){
-			
 				event.player.width= 0.6F* 4.0F;
 				event.player.height=1.8F* 3.0F;
 				event.player.eyeHeight=event.player.getDefaultEyeHeight()* 3.0F;
@@ -44,11 +42,7 @@ public class giantHandler
 				final AxisAlignedBB aabb = entity.getEntityBoundingBox();
 				entity.setEntityBoundingBox(new AxisAlignedBB(entity.posX - d0, aabb.minY, entity.posZ - d0,
 						entity.posX + d0, aabb.minY + entity.height, entity.posZ + d0));
-				
 		} else if(small&!big){
-		
-
-			
 			event.player.width = 0.8F;
 			event.player.height =0.9F;
 			event.player.eyeHeight = 0.5f;
@@ -57,8 +51,6 @@ public class giantHandler
 			final AxisAlignedBB aabb = entity.getEntityBoundingBox();
 			entity.setEntityBoundingBox(new AxisAlignedBB(entity.posX - d0, aabb.minY, entity.posZ - d0,
 					entity.posX + d0, aabb.minY + entity.height, entity.posZ + d0));
-			
-	
 		}else{
 			event.player.width = 0.6F;
 			event.player.height=1.8F;
@@ -67,9 +59,7 @@ public class giantHandler
 			final AxisAlignedBB aabb = entity.getEntityBoundingBox();
 			entity.setEntityBoundingBox(new AxisAlignedBB(entity.posX - d0, aabb.minY, entity.posZ - d0,
 					entity.posX + d0, aabb.minY + 1.8F, entity.posZ + d0));
-			
 		}
-		
 	}
 	
 	@SideOnly(Side.CLIENT)
