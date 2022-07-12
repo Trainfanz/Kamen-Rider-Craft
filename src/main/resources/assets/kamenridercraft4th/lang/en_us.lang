@@ -571,6 +571,14 @@ item.taka_eternity.name=Taka Eternity Core Medal
 item.kujaku_eternity.name=Kujaku Eternity Core Medal
 item.condor_eternity.name=Condor Eternity Core Medal
 
+item.mukade_goda.name=Goda Mukade Core Medal
+item.hachi_goda.name=Goda Hachi Core Medal
+item.ari_goda.name=Goda Ari Core Medal
+
+item.ancient_taka.name=Ancient Taka Core Medal
+item.ancient_tora.name=Ancient Tora Core Medal
+item.ancient_batta.name=Ancient Batta Core Medal
+
 item.same.name=Same Core Medal
 item.kujira.name=Kujira Core Medal
 item.ookamiuo.name=Ookamiuo Core Medal
@@ -1278,6 +1286,7 @@ item.ongekibo_rekka_diend.name=Ongekibo Rekka (Diend)
 item.birth_driver.name=Birth Driver
 item.birth_driver_prototype.name=Prototype Birth Driver
 item.rebirth_driver.name=Rebirth Driver
+item.birth_x_driver.name=Birth Driver with X Unit
 
 item.meteor_driver.name=Meteor Driver
 item.nadeshikodriver.name=Nadeshiko Driver
