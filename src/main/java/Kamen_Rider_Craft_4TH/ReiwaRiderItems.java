@@ -330,6 +330,8 @@ public class ReiwaRiderItems {
 	public static Item omni_force_wonderride_book = new Item_ore("omni_force_wonderride_book").setCreativeTab(Tabs.tabsaber);
 	public static Item grimoire_wonderride_book = new Item_ore("grimoire_wonderride_book").setCreativeTab(Tabs.tabsaber);
 
+	public static Item tassel_dark_wonderride_book = new Item_ore("tassel_dark_wonderride_book").setCreativeTab(Tabs.tabsaber);
+	
 	public static Item eternal_phoenix_wonderride_book = new Item_wonder_ride_book("l",6,"eternal_phoenix_wonderride_book").resetBook("falchion").setCreativeTab(Tabs.tabsaber);
 	public static Item amazing_siren_wonderride_book = new Item_wonder_ride_book("l",0,"amazing_siren_wonderride_book").NotBasicBook().ChangeForm(16).FalchionBook().setCreativeTab(Tabs.tabsaber);
 

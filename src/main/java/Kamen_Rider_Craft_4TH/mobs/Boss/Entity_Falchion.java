@@ -126,15 +126,18 @@ public class Entity_Falchion extends EntityBossBase
 			if (!playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.emotional_dragon_wonder_ride_book))) {
 				this.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
 			}
-			if (playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.arabiana_night_wonderride_book))) {
+			if (playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.wonder_world_story_of_raimeiken_ikazuchi_wonderride_book))) {
 				if (item_saberdriver.get_core_for_forms(this.getItemStackFromSlot(EntityEquipmentSlot.FEET), "f")!=16) {
 					playerIn.sendMessage( new TextComponentString(TextFormatting.GOLD+"Battou!"));
 					playerIn.sendMessage( new TextComponentString(TextFormatting.BLACK+"Eternal Power!"));
 					playerIn.sendMessage( new TextComponentString(TextFormatting.WHITE+"Kyomu! Shinjuu no hono de subete ga mu ni kisu!"));
-
+					if (!this.world.isRemote){
+				
+							
+						}
 				
 					this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.4);
-					this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(10.0D);
+					this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(12.0D);
 
 					item_zero_onedriver.set_core(this.getItemStackFromSlot(EntityEquipmentSlot.FEET),16, "f");		
 				}	
@@ -148,6 +151,16 @@ public class Entity_Falchion extends EntityBossBase
 					playerIn.inventory.addItemStackToInventory(new ItemStack(ReiwaRiderItems.emotional_dragon_wonder_ride_book));
 					playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_RED+"Emotional Dragon!"));
 				}
+				
+				if (playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.lamp_do_alngina_wonderride_book))){
+					if (playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.wonder_world_story_of_raimeiken_ikazuchi_wonderride_book))) {
+					playerIn.sendMessage( new TextComponentString(TextFormatting.GOLD+"Arabiana Night!"));
+					playerIn.inventory.addItemStackToInventory(new ItemStack(ReiwaRiderItems.arabiana_night_wonderride_book));
+					playerIn.inventory.clearMatchingItems(ReiwaRiderItems.wonder_world_story_of_raimeiken_ikazuchi_wonderride_book, -1, 1, null);
+					playerIn.inventory.clearMatchingItems(ReiwaRiderItems.lamp_do_alngina_wonderride_book, -1, 1, null);
+					}
+				}
+				
 				this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.3);
 				this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(7.0D);
 			}
