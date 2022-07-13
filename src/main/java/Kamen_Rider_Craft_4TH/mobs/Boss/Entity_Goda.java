@@ -88,20 +88,20 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class Entity_Ancient_OOO extends EntityBossBase
+public class Entity_Goda extends EntityBossBase
 {
 
 	private String texture;
-	public Entity_Ancient_OOO(World par1World)
+	public Entity_Goda(World par1World)
 	{
 		super(par1World);
 		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.OOOtroso));
 		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.OOOhead));
 		
 		ItemStack belt = new ItemStack(RiderItems.OOOdriver);
-		item_OOOdriver.set_core(belt, 18, "1");
-		item_OOOdriver.set_core(belt, 21, "2");
-		item_OOOdriver.set_core(belt, 19, "3");
+		item_OOOdriver.set_core(belt, 20, "1");
+		item_OOOdriver.set_core(belt, 23, "2");
+		item_OOOdriver.set_core(belt, 21, "3");
 		
 		this.setItemStackToSlot(EntityEquipmentSlot.FEET,belt);
 		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.OOOlegs));
@@ -112,7 +112,7 @@ public class Entity_Ancient_OOO extends EntityBossBase
 	protected void initEntityAI()
 	{
 		this.tasks.addTask(0, new EntityAISwimming(this));
-		this.tasks.addTask(4, new Entity_Ancient_OOO.AIFireballAttack(this));
+		this.tasks.addTask(4, new Entity_Goda.AIGodaFireballAttack(this));
 		this.tasks.addTask(5, new EntityAIMoveTowardsRestriction(this, 1.0D));
 		this.tasks.addTask(7, new EntityAIWanderAvoidWater(this, 1.0D, 0.0F));
 		this.tasks.addTask(8, new EntityAIWatchClosest(this, EntityPlayer.class, 8.0F));
@@ -124,38 +124,16 @@ public class Entity_Ancient_OOO extends EntityBossBase
 	protected void applyEntityAttributes()
 	{
 		super.applyEntityAttributes();
-		this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(180.0D);
+		this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(200.0D);
 		this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.3000001192092896D);
-		this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(10.0D);
+		this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(14.0D);
 		this.getEntityAttribute(SharedMonsterAttributes.FOLLOW_RANGE).setBaseValue(128.0D);
 	}
-
-
-	  @Override
-	    public ItemStack getHeldItemMainhand()
-	    {
-	        return new ItemStack(RiderItems.medajalibur);
-	    }
 	
 	public void onEntityUpdate(){
 		super.onEntityUpdate();
-
-		if (this.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()==RiderItems.OOOdriver){
-			if (this.getHealth()<100&item_OOOdriver.get_core(this.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==18) {
-						this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.3);
-					this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(7.0D);
-			
-					item_OOOdriver.set_core(this.getItemStackFromSlot(EntityEquipmentSlot.FEET), 19, "1");
-					item_OOOdriver.set_core(this.getItemStackFromSlot(EntityEquipmentSlot.FEET), 22, "2");
-					item_OOOdriver.set_core(this.getItemStackFromSlot(EntityEquipmentSlot.FEET), 20, "3");		
-					this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.ancient_ooo_greeed_sword));
-					
-			}
-			}
-
+	
 	}
-
-
 
 	public EnumCreatureAttribute getCreatureAttribute()
 	{
@@ -170,25 +148,22 @@ public class Entity_Ancient_OOO extends EntityBossBase
 	{
 		if (!this.world.isRemote){
 
-			this.dropItem(RiderItems.ancient_taka, 1);
-			this.dropItem(RiderItems.ancient_tora, 1);
-			this.dropItem(RiderItems.ancient_batta, 1);
-			this.dropItem(RiderItems.ancient_ooo_greeed_sword, 1);
+			this.dropItem(RiderItems.ari_goda, 1);
+			this.dropItem(RiderItems.hachi_goda, 1);
+			this.dropItem(RiderItems.mukade_goda, 1);
 			this.dropItem(RiderItems.cellmedal, 10);
-			this.dropItem(RiderItems.greeed_absorption_core, 1);
-			
 		}
 	}
 
-	static class AIFireballAttack extends EntityAIBase
+	static class AIGodaFireballAttack extends EntityAIBase
 	{
-		private final Entity_Ancient_OOO blaze;
+		private final Entity_Goda blaze;
 		private int attackStep;
 		private int attackTime;
 
-		public AIFireballAttack(Entity_Ancient_OOO entity_Ancient_OOO)
+		public AIGodaFireballAttack(Entity_Goda entity_goda)
 		{
-			this.blaze = entity_Ancient_OOO;
+			this.blaze = entity_goda;
 			this.setMutexBits(3);
 		}
 
@@ -265,7 +240,7 @@ public class Entity_Ancient_OOO extends EntityBossBase
 
 						for (int i = 0; i < 1; ++i)
 						{
-							EntitySmallFireball entitysmallfireball = new EntitySmallFireball(this.blaze.world, this.blaze, d1 + this.blaze.getRNG().nextGaussian() * (double)f, d2, d3 + this.blaze.getRNG().nextGaussian() * (double)f);
+							EntityWitherSkull entitysmallfireball = new EntityWitherSkull(this.blaze.world, this.blaze, d1 + this.blaze.getRNG().nextGaussian() * (double)f, d2, d3 + this.blaze.getRNG().nextGaussian() * (double)f);
 							entitysmallfireball.posY = this.blaze.posY + (double)(this.blaze.height / 2.0F) + 0.5D;
 							this.blaze.world.spawnEntity(entitysmallfireball);
 						}

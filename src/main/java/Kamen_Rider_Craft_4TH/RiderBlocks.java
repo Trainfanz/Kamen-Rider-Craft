@@ -30,6 +30,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.EntityTerror;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Ancient_OOO;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Arc_zero;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Durendal;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Goda;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_HellBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_NightRogue;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Sabela;
@@ -73,7 +74,7 @@ public class RiderBlocks {
 	
 	public static Block kamiyama_wall = CustomBlock.builder().material(Material.WOOD).hardness(1F).blockType(BlockType.BASIC).name("kamiyama_wall").setCreativeTabe(Tabs.tabdecor).build();
 	
-	public static Block door_kamiyama = new BlockCustomDoor("door_kamiyama").setCreativeTab(Tabs.tabdecor);
+	public static Block door_kamiyama = new BlockCustomDoor("door_kamiyama").setHardness(1F).setCreativeTab(Tabs.tabdecor);
 	
 	public static Block denliner_interior = CustomBlock.builder().material(Material.ROCK).hardness(1F).blockType(BlockType.BASIC).name("denliner_interior").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block denliner_interior_darker = CustomBlock.builder().material(Material.ROCK).hardness(1F).blockType(BlockType.BASIC).name("denliner_interior_darker").setCreativeTabe(Tabs.tabdecor).build();
@@ -223,6 +224,7 @@ public class RiderBlocks {
 	public static Block poseidon_boss_block = new mob_block("poseidon_boss_block", Entity_poseidon::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabOOO);
 	
 	public static Block ancient_ooo_boss_block = new mob_block("ancient_ooo_boss_block", Entity_Ancient_OOO::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabOOO);
+	public static Block goda_boss_block = new mob_block("goda_boss_block", Entity_Goda::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabOOO);
 	
 	public static Block super_ginga_oh_boss_block = new mob_block("super_ginga_oh_boss_block", Entity_super_gingaoh::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabFourze);
 	

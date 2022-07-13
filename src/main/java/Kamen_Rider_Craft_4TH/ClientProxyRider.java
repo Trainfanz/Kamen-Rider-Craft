@@ -42,6 +42,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Eternal;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Evil;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Falchion;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Ginga;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Goda;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_HellBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Kaiser;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_KaiserReverse;
@@ -265,7 +266,7 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entity_ankh_complete.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/yummy.png"));
 
 		RenderingRegistry.registerEntityRenderingHandler(Entity_Ancient_OOO.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/yummy.png"));
-		
+		RenderingRegistry.registerEntityRenderingHandler(Entity_Goda.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/yummy.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_knight_soldier.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/knight_soldier.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(entity_taka_can.class, new RenderRiderMob(new model_taka_can(), 0.5F,"textures/entities/taka_can.png"));

@@ -81,6 +81,7 @@ entity.PteraCanMob.name=Ptera Candroid
 entity.TriceraCanMob.name=Torikera Candroid
 
 entity.Ancient_OOOMob.name=Ancient OOO
+entity.GodaMob.name=Kamen Rider Goda
 
 entity.DestronCombatmanMob.name=Destron Combatman
 entity.GodWarfareAgentMob.name=G.O.D. Warfare Agent
@@ -318,6 +319,7 @@ tile.core_boss_block.name=Core Block
 tile.power_up_core_boss_block.name=Powered Up Core Block
 tile.poseidon_boss_block.name=Poseidon Block
 tile.ancient_ooo_boss_block.name=Ancient OOO Block
+tile.goda_boss_block.name=Goda Block
 tile.pure_gaia_memory_block.name=Pure Gaia Memory Block
 tile.taboo_bossblock.name=Taboo Block
 tile.terror_boss_block.name=Terror Block
