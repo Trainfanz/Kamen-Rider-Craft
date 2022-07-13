@@ -30,7 +30,9 @@ import net.minecraft.entity.monster.EntitySpider;
 import net.minecraft.entity.monster.EntityZombie;
 import net.minecraft.entity.passive.EntityVillager;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Items;
 import net.minecraft.init.SoundEvents;
+import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
@@ -40,6 +42,8 @@ import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
+import net.minecraft.world.DifficultyInstance;
+import net.minecraft.world.EnumDifficulty;
 import net.minecraft.world.World;
 
 public class Entity_base_henchmen extends EntityZombie
@@ -75,10 +79,23 @@ public class Entity_base_henchmen extends EntityZombie
 	        this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.3D);
 	        this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(45.0D);	        	        
 	        this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(3.0D);
+	       
 	        
 	}
 
+    /**
+     * Gives armor or weapon for entity based on given DifficultyInstance
+     */
+    protected void setEquipmentBasedOnDifficulty(DifficultyInstance difficulty)
+    {
+       
+    }
 	
+    protected boolean canEquipItem(ItemStack stack)
+    {
+        return false;
+    }
+    
 	static class AISpiderTarget<T extends EntityLivingBase> extends EntityAINearestAttackableTarget<T>
     {
         public AISpiderTarget(Entity_base_henchmen entity_base_henchmen, Class<T> classTarget)
