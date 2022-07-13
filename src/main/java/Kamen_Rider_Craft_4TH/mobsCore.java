@@ -24,6 +24,7 @@ import Kamen_Rider_Craft_4TH.mobs.entity_tricera_can;
 import Kamen_Rider_Craft_4TH.mobs.entity_unagi_can;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityChronos;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityTerror;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Ancient_OOO;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Arc_zero;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_BloodStalk;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Build_RT;
@@ -336,6 +337,9 @@ public class mobsCore {
 
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":poseidonMob"), Entity_poseidon.class, "poseidonMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xff0000, 0x08dfdd);
 
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":Ancient_OOOMob"), Entity_Ancient_OOO.class, "Ancient_OOOMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xe59701, 0x1f1f1f);
+
+		
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":TakaCanMob"), entity_taka_can.class, "TakaCanMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xb8b8b8, 0xbd0000);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":TakoCanMob"), entity_tako_can.class, "TakoCanMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xb8b8b8, 0x2b61ea);
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":BattaCanMob"), entity_batta_can.class, "BattaCanMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xb8b8b8, 0x089800);

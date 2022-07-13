@@ -80,6 +80,8 @@ entity.KujakuCanMob.name=Kujyaku Candroid
 entity.PteraCanMob.name=Ptera Candroid
 entity.TriceraCanMob.name=Torikera Candroid
 
+entity.Ancient_OOOMob.name=Ancient OOO
+
 entity.DestronCombatmanMob.name=Destron Combatman
 entity.GodWarfareAgentMob.name=G.O.D. Warfare Agent
 entity.RedFollowerMob.name=Red Follower
@@ -315,6 +317,7 @@ tile.storious_boss_block.name=Storious Block
 tile.core_boss_block.name=Core Block
 tile.power_up_core_boss_block.name=Powered Up Core Block
 tile.poseidon_boss_block.name=Poseidon Block
+tile.ancient_ooo_boss_block.name=Ancient OOO Block
 tile.pure_gaia_memory_block.name=Pure Gaia Memory Block
 tile.taboo_bossblock.name=Taboo Block
 tile.terror_boss_block.name=Terror Block
@@ -511,6 +514,11 @@ item.aqua_driver.name=Aqua Driver
 item.core_driver.name=Core Driver
 item.core_driver_power_up.name=Core Driver Power Up
 
+item.birth_driver.name=Birth Driver
+item.birth_driver_prototype.name=Prototype Birth Driver
+item.rebirth_driver.name=Rebirth Driver
+item.birth_x_driver.name=Birth Driver with X Unit
+
 item.greeed_blet_ankh.name=Greeed Belt Ankh
 item.greeed_blet_ankh_lost.name=Greeed Belt Ankh(Lost)
 item.greeed_blet_uva.name=Greeed Belt Uva
@@ -518,6 +526,10 @@ item.greeed_blet_kazari.name=Greeed Belt Kazari
 item.greeed_blet_mezool.name=Greeed Belt Mezool
 item.greeed_blet_gamel.name=Greeed Belt Gamel
 item.greeed_blet_muchiri.name=Greeed Belt Muchiri
+
+item.ancient_ooo_greeed_sword.name=Greeed Sword
+
+item.greeed_absorption_core.name=Greeed Absorption Core
 
 item.taka.name=Taka Core Medal
 item.kuwagata.name=Kuwagata Core Medal
@@ -1282,11 +1294,6 @@ item.neo_diend_driver.name=Neo Diend Driver
 
 item.ongekibo_rekka_decade.name=Ongekibo Rekka (Decade)
 item.ongekibo_rekka_diend.name=Ongekibo Rekka (Diend)
- 
-item.birth_driver.name=Birth Driver
-item.birth_driver_prototype.name=Prototype Birth Driver
-item.rebirth_driver.name=Rebirth Driver
-item.birth_x_driver.name=Birth Driver with X Unit
 
 item.meteor_driver.name=Meteor Driver
 item.nadeshikodriver.name=Nadeshiko Driver

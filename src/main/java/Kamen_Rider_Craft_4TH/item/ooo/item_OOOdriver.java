@@ -119,10 +119,14 @@ public class item_OOOdriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 400, 0,true,false));
 										}
 									}
-									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.birth_driver_prototype){
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.birth_x_driver){
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,6,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,3,true,false));
+									
 									}
 									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.aqua_driver){
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
@@ -292,35 +296,7 @@ public class item_OOOdriver extends item_rider_driver
 
 	public  boolean rendModle(Entity entity, int num)
 	{
-		return true;
-		/**
-		if (num==2||num==5||num==7||num==1||num==3||num==6||num==8){
 			return true;
-		}else if (entity instanceof EntityLivingBase){
-			EntityLivingBase player = ((EntityLivingBase)entity);
-			if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
-				if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_rider_driver){
-					item_rider_driver belt =((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem());
-					String rider = ((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider;
-
-					 if (num==4||num==9||num==10||num==11||num==12||num==13||num==14){
-
-						return true;
-					} else{
-						return false;
-
-					}
-
-				}else{
-					return false;
-				}
-			}else{
-				return false;
-			}
-
-		}
-		return false;
-		 **/
 	} 
 
 	public  String getTexture(Entity entity, int num,String ext)
@@ -376,7 +352,7 @@ public class item_OOOdriver extends item_rider_driver
 
 					}else if (num==10||num==11){
 						if (rider=="birth"||rider=="birth_prototype"){
-						return Refercence.MODID+":textures/armor/"+item_OOOdriver.get_claws_legs(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+".png";
+							return Refercence.MODID+":textures/armor/"+item_OOOdriver.get_claws_legs(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+".png";
 						}else{
 							return Refercence.MODID+":textures/armor/blank"+ext;
 						}
@@ -385,19 +361,17 @@ public class item_OOOdriver extends item_rider_driver
 					else if (num==9){
 						if (rider=="birth"||rider=="birth_prototype"){
 							return Refercence.MODID+":textures/armor/"+item_OOOdriver.get_claws_l_arms(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+".png";	
-							}else{
-								return Refercence.MODID+":textures/armor/blank"+ext;
-							}
+						}else{
+							return Refercence.MODID+":textures/armor/blank"+ext;
+						}
 					} else if (num==4){
 						if (rider=="birth"||rider=="birth_prototype"){
 							return Refercence.MODID+":textures/armor/"+item_OOOdriver.get_claws_r_arms(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+".png";	
-							}else{
-								return Refercence.MODID+":textures/armor/blank"+ext;
-							}
+						}else{
+							return Refercence.MODID+":textures/armor/blank"+ext;
+						}
 					}
-					else if (num==12||num==14||num==8||num==3||num==6){
-						return Refercence.MODID+":textures/armor/blank"+ext;
-					}else{
+					else{
 						return Refercence.MODID+":textures/armor/blank"+ext;
 
 					}

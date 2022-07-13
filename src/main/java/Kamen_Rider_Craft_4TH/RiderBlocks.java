@@ -27,6 +27,7 @@ import Kamen_Rider_Craft_4TH.item.Item_custom_door;
 import Kamen_Rider_Craft_4TH.item.Item_ore;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityChronos;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityTerror;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Ancient_OOO;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Arc_zero;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Durendal;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_HellBros;
@@ -220,6 +221,8 @@ public class RiderBlocks {
 	public static Block core_boss_block = new mob_block("core_boss_block", Entity_core::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabOOO);
 	public static Block power_up_core_boss_block = new mob_block("power_up_core_boss_block", Entity_power_up_core::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabOOO);
 	public static Block poseidon_boss_block = new mob_block("poseidon_boss_block", Entity_poseidon::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabOOO);
+	
+	public static Block ancient_ooo_boss_block = new mob_block("ancient_ooo_boss_block", Entity_Ancient_OOO::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabOOO);
 	
 	public static Block super_ginga_oh_boss_block = new mob_block("super_ginga_oh_boss_block", Entity_super_gingaoh::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabFourze);
 	

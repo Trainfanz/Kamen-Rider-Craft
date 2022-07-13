@@ -1665,6 +1665,9 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item birth_buster = new Item_gun("birth_buster",Tabs.birth_buster, RiderItems.cellmedal).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 	public static Item deepest_harpoon = new ItemBaseSword("deepest_harpoon",Tabs.medagaburyu, RiderItems.cellmedal).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
 
+	public static Item ancient_ooo_greeed_sword = new ItemBaseSword("ancient_ooo_greeed_sword",Tabs.medagaburyu, RiderItems.cellmedal).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+
+	
 	public static Item OOOhead = new item_rider_armor("ooohead",item_Wdriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, cellmedal).setCreativeTab(Tabs.tabOOO);
 	public static Item OOOtroso = new item_rider_armor("oootroso",item_Wdriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, cellmedal).setCreativeTab(Tabs.tabOOO);
 	public static Item OOOlegs = new item_rider_armor("ooolegs",item_Wdriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, cellmedal).setCreativeTab(Tabs.tabOOO);
@@ -1900,9 +1903,13 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item purple_medals_opened = new Item_purple_medals("purple_medals_opened").setCreativeTab(Tabs.tabOOO);
 	public static Item purple_medals_empty = new Item_ore("purple_medals_empty").setCreativeTab(Tabs.tabOOO);
 	
+	public static Item greeed_absorption_core = new Item_ore("greeed_absorption_core").setCreativeTab(Tabs.tabOOO);
+	
 	public static Item o_scanner = new Itemo_scanner("o_scanner").setCreativeTab(Tabs.tabOOO);
 	
 	public static Item ride_vendor = new item_bikes("ride_vendor",EntityRidevendor::new).setMaxStackSize(1).setCreativeTab(Tabs.tabOOO);
+	
+
 	
 	//Fourze
 	

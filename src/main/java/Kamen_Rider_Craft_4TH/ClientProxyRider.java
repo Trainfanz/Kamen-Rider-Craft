@@ -30,6 +30,7 @@ import Kamen_Rider_Craft_4TH.mobs.entity_tricera_can;
 import Kamen_Rider_Craft_4TH.mobs.entity_unagi_can;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityChronos;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityTerror;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Ancient_OOO;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_giger;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Arc_zero;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_BloodStalk;
@@ -262,6 +263,8 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entity_poseidon.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/yummy.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_muchiri.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/yummy.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_ankh_complete.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/yummy.png"));
+
+		RenderingRegistry.registerEntityRenderingHandler(Entity_Ancient_OOO.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/yummy.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_knight_soldier.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/knight_soldier.png"));
 		
