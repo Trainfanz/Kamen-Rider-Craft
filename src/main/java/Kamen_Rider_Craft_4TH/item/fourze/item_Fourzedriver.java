@@ -178,7 +178,7 @@ public class item_Fourzedriver extends item_rider_driver
 												}
 
 											}else if (CircleModuleName[armor.getTagCompound().getInteger("corecircle")]=="flash"){
-												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 1,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 1,true,false));
 
 
 											}else if (CircleModuleName[armor.getTagCompound().getInteger("corecircle")]=="claw"){
@@ -348,7 +348,7 @@ public class item_Fourzedriver extends item_rider_driver
 
 
 											if (SquareModuleName[armor.getTagCompound().getInteger("coresquare")]=="radar"){
-												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 
 											}else if (SquareModuleName[armor.getTagCompound().getInteger("coresquare")]=="camera"){
 												if (player.isSneaking()){
@@ -380,7 +380,7 @@ public class item_Fourzedriver extends item_rider_driver
 												player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false));
 											}else if (SquareModuleName[armor.getTagCompound().getInteger("coresquare")]=="ooo"){	
-												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 2,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 2,true,false));
 												if (player.isSneaking()){
 													if (item_OOOdriver.get_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET)) > 2){
 														Vec3d look = player.getLookVec();

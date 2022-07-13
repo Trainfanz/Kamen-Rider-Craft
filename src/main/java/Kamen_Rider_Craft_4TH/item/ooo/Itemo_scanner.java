@@ -64,7 +64,7 @@ public class Itemo_scanner extends Item  implements IHasModel
 
 
 											if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==0){
-												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25,0,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 											}
 
 											if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "2")==0){
@@ -169,7 +169,7 @@ public class Itemo_scanner extends Item  implements IHasModel
 											if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==4){
 												player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 25,0,true,false));
 												if (player.isInWater()){
-													player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25,0,true,false));
+													player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 												}
 											}
 											if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "2")==4){
@@ -271,7 +271,7 @@ public class Itemo_scanner extends Item  implements IHasModel
 											}
 
 											if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==7){
-												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25,0,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 25,0,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 25,3,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,4,true,false));
@@ -334,7 +334,7 @@ public class Itemo_scanner extends Item  implements IHasModel
 												}
 											}
 											if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==10){
-												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25,0,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 											}
 											if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "2")==13){
 												player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,1,true,false));											
@@ -343,7 +343,7 @@ public class Itemo_scanner extends Item  implements IHasModel
 												player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,1,true,false));
 												if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "2")==13){
 													if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==10){
-														player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25,0,true,false));
+														player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 														player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,2,true,false));
 														player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,2,true,false));
 													}
@@ -399,7 +399,7 @@ public class Itemo_scanner extends Item  implements IHasModel
 											}
 
 											if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==17){
-												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25,0,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 25,0,true,false));
 											}
 											if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "2")==20){
@@ -442,7 +442,7 @@ public class Itemo_scanner extends Item  implements IHasModel
 											}
 
 											if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==18){
-												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25,0,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,6,true,false));
 											}
 
@@ -471,7 +471,7 @@ public class Itemo_scanner extends Item  implements IHasModel
 												if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")==19){
 													player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 25,2,true,false));
 													player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,4,true,false));
-													player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+													player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 												}
 												if (item_OOOdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "2")==22){
 													player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,3,true,false));

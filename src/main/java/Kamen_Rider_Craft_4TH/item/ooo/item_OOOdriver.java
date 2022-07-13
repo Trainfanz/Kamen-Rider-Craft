@@ -116,14 +116,14 @@ public class item_OOOdriver extends item_rider_driver
 											}
 										}	
 										if (this.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "birth7")==1){
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 400, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 										}
 									}
 									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.birth_x_driver){
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,4,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 25,2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,6,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION,250, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,3,true,false));
 									

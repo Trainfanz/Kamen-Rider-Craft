@@ -250,12 +250,12 @@ public class item_builddriver extends item_rider_driver
 											player.fallDistance=0;
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25,0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 											if (get_core(ItemStack,"1")==2){											
 												player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
-												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25,0,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 												player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));
 											}
 										}else 	if (get_core(ItemStack,"3")==3){
@@ -285,7 +285,7 @@ public class item_builddriver extends item_rider_driver
 											}
 										}else 	if (get_core(ItemStack,"3")==6){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));	
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25,0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 											if (get_core(ItemStack,"1")==3){
 												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));	
@@ -364,7 +364,7 @@ public class item_builddriver extends item_rider_driver
 										}else 	if (get_core(ItemStack,"3")==25){
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25,0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 											if (get_core(ItemStack,"1")==21){
 												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
@@ -374,7 +374,7 @@ public class item_builddriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
 											if (get_core(ItemStack,"1")==22){
 												if (player.isInWater()){
-													player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25,0,true,false));
+													player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 													player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));										
 												}
 											}
@@ -451,7 +451,7 @@ public class item_builddriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 											if (get_core(ItemStack,"1")==31){
 												if (player.isInWater()){
-													player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));	
+													player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));	
 													if (player.isSneaking()){
 														Vec3d look = player.getLookVec();
 														player.motionX=look.x;
@@ -496,7 +496,7 @@ public class item_builddriver extends item_rider_driver
 											else if (get_core(ItemStack,"1")==18){
 												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
-												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.HUNGER, 5, 1,true,false));
 											}
@@ -534,7 +534,7 @@ public class item_builddriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 3,true,false));
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.SATURATION, 5, 0,true,false));
@@ -572,17 +572,17 @@ public class item_builddriver extends item_rider_driver
 										}else if (get_core(ItemStack,"1")==13){
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));	
 										}else if (get_core(ItemStack,"1")==14){
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 										}else if (get_core(ItemStack,"1")==8){
 											player.addPotionEffect(new PotionEffect(MobEffects.SATURATION, 5, 0,true,false));
 										}else if (get_core(ItemStack,"1")==15){
 											player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false));
 										}else if (get_core(ItemStack,"1")==16){
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 										}else if (get_core(ItemStack,"1")==18){
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 										}else if (get_core(ItemStack,"1")==19){
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 											if (player.isSneaking()){
 												player.addPotionEffect(new PotionEffect(MobEffects.SLOWNESS, 5, 2,true,false));
 											}
@@ -653,7 +653,7 @@ public class item_builddriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));	
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 										}
 									}
 									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.sclash_driver_grease){
@@ -661,7 +661,7 @@ public class item_builddriver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));	
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));	
-										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 									}
 									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.sclash_driver_cross_z_charge){
 										if (player.getHeldItem(EnumHand.OFF_HAND).getItem()==RiderItems.taka_full_bottle){
@@ -675,14 +675,14 @@ public class item_builddriver extends item_rider_driver
 									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.sclash_driver_rogue){
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));	
-										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 3,true,false));	
 									}
 									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.build_driver_rogue){
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));	
-										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
 									}
@@ -691,7 +691,7 @@ public class item_builddriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));	
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));	
 										}
@@ -719,14 +719,14 @@ public class item_builddriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));									
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
 										}
 										else if (get_core(ItemStack,"1")==3){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 5,true,false));												
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
 										}
 										else if (get_core(ItemStack,"1")==4){
@@ -740,7 +740,7 @@ public class item_builddriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 4,true,false));									
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
 											player.addPotionEffect(new PotionEffect(PotionCore.FIRE_PUNCH_POTION, 5, 4,true,false));	
@@ -771,7 +771,7 @@ public class item_builddriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));	
 										}		
 										else if (get_core(ItemStack,"1")==4){
@@ -780,7 +780,7 @@ public class item_builddriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));	
 										}
 									}
@@ -788,7 +788,7 @@ public class item_builddriver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));	
-										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));	
 									}
@@ -797,7 +797,7 @@ public class item_builddriver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));	
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));	
-										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false));	
 										if (player.getLastAttackedEntity()!=null){
 											player.getLastAttackedEntity().addPotionEffect(new PotionEffect(MobEffects.SLOWNESS, 250, 1));

@@ -101,7 +101,7 @@ public class item_Wdriver extends item_rider_driver
 
 										}else 	if (get_core(ItemStack,"3")==2){
 											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 0,true,false));
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 
 
 										}else 	if (get_core(ItemStack,"3")==3){

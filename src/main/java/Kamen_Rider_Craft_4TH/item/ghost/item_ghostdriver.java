@@ -221,10 +221,10 @@ public class item_ghostdriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));	
 										}else if (this.get_lock(armor)==Item_ghost_Icons.ARMS[4]){
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 0,true,false));	
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 300, 0,true,false));	
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));	
 										}else if (this.get_lock(armor)==Item_ghost_Icons.ARMS[6]){
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));	
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 300, 0,true,false));	
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));	
 										}else if (this.get_lock(armor)==Item_ghost_Icons.ARMS[8]){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));	
 										}else if (this.get_lock(armor)==Item_ghost_Icons.ARMS[7]){
@@ -235,7 +235,7 @@ public class item_ghostdriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));	
 										}else if (this.get_lock(armor)==Item_ghost_Icons.ARMS[10]){
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 0,true,false));	
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 300, 0,true,false));	
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));	
 										}else if (this.get_lock(armor)==Item_ghost_Icons.ARMS[11]){
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false));	
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));	
@@ -248,7 +248,7 @@ public class item_ghostdriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));	
 										}else if (this.get_lock(armor)==Item_ghost_Icons.ARMS[15]){
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 0,true,false));	
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 300, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
 										}else if (this.get_lock(armor)==Item_ghost_Icons.ARMS[16]){
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));	
@@ -273,7 +273,7 @@ public class item_ghostdriver extends item_rider_driver
 											player.fallDistance=0; 
 											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));											
 										}else if (this.get_lock(armor)==Item_ghost_Icons.ARMS[22]){
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 300, 0,true,false));	
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));	
 											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
 										}else if (this.get_lock(armor)==Item_ghost_Icons.ARMS[23]){
@@ -292,9 +292,9 @@ public class item_ghostdriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 1,true,false));
 										}else if (this.get_lock(armor)==Item_ghost_Icons.ARMS[33]){
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 300, 1,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 1,true,false));
 										}else if (this.get_lock(armor)==Item_ghost_Icons.ARMS[34]){
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 300, 1,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 1,true,false));
 										}else if (this.get_lock(armor)==Item_ghost_Icons.ARMS[36]){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 1,true,false));
@@ -305,7 +305,7 @@ public class item_ghostdriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 300, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
 										}else if (this.get_lock(armor)==Item_ghost_Icons.ARMS[40]){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
@@ -317,7 +317,7 @@ public class item_ghostdriver extends item_rider_driver
 										}else if (this.get_lock(armor)==Item_ghost_Icons.ARMS[62]){
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 
 
 										}
@@ -346,7 +346,7 @@ public class item_ghostdriver extends item_rider_driver
 												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
-												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
 											}
 										}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.specterdriver){
@@ -413,7 +413,7 @@ public class item_ghostdriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 1,true,false));
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 300, 1,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 1,true,false));
 
 										}
 									}

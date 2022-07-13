@@ -249,7 +249,7 @@ public class item_decadedriver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
 									}else if (this.get_core(armor)=="decade_violent_emotion"){
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
@@ -272,7 +272,7 @@ public class item_decadedriver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 									}else if (this.get_core(armor)=="dark_decade"){
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
@@ -481,7 +481,7 @@ public class item_decadedriver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 4,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 4,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 500, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 									}else if (this.get_core(armor)=="decade_hibiki"){
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));	
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));	
@@ -522,7 +522,7 @@ public class item_decadedriver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
 									}else if (this.get_core(armor)=="ooo"){
-										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 25,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,2,true,false));
 									}else if (this.get_core(armor)=="fourze"){

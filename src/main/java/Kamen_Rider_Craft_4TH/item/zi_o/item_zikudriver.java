@@ -12,6 +12,7 @@ import Kamen_Rider_Craft_4TH.item.revice.item_revicedriver;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
 import Kamen_Rider_Craft_4TH.model.model_belt_plus;
+import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import Kamen_Rider_Craft_4TH.util.Refercence;
 import net.minecraft.client.model.ModelBiped;
@@ -227,13 +228,13 @@ public class item_zikudriver extends item_rider_driver
 											}
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
 										}else  if (item_zikudriver.get_lockbase(armor)=="ooo"){											
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));	
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));	
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
 										}else  if (item_zikudriver.get_lockbase(armor)=="faiz"){
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));																						
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));		
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));		
 										}else  if (item_zikudriver.get_lockbase(armor)=="ryuki"){
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));																						
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
@@ -256,7 +257,7 @@ public class item_zikudriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false));
 										}else  if (item_zikudriver.get_lockbase(armor)=="kiva"){
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));	
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));	
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));	
 										}else  if (item_zikudriver.get_lockbase(armor)=="blade"){
@@ -318,7 +319,7 @@ public class item_zikudriver extends item_rider_driver
 												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 4,true,false));
-												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));		
+												player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));		
 											}else if (item_zikudriver.get_lockbase(armor)=="decade"){
 												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
 												player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
@@ -349,7 +350,7 @@ public class item_zikudriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
-											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));	
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));	
 											
 										}else if (item_zikudriver.get_core(armor, "1")==5){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));	
@@ -392,6 +393,7 @@ public class item_zikudriver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.SATURATION, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 8,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 0,true,false));
 										
 									}
 									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.beyondriver){

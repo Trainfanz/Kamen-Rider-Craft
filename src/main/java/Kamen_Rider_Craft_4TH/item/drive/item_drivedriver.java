@@ -218,7 +218,7 @@ public class item_drivedriver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 5,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
 
 										if (item_OOOdriver.get_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET)) > 45){
@@ -374,7 +374,7 @@ public class item_drivedriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
 									}else if (this.get_core(armor)==4){
-										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
 
 									}else if (this.get_core(armor)==5){
@@ -397,7 +397,7 @@ public class item_drivedriver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
 
 										if (item_OOOdriver.get_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET)) > 45){
@@ -561,7 +561,7 @@ public class item_drivedriver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 4,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.SATURATION, 5, 4,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
 
 									}else if (this.get_lock(armor)=="kouji_genbar"){
@@ -594,7 +594,7 @@ public class item_drivedriver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 4,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.SATURATION, 5, 4,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
 
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 5,true,false));
