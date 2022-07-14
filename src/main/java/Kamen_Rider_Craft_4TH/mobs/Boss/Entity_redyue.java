@@ -100,7 +100,20 @@ if (!this.world.isRemote){
 	this.dropItem(RiderItems.lord_baron_boss_block_part2, 1);
    		this.dropItem(RiderItems.silver_ringo_lockseed, 1);
    		this.dropItem(RiderItems.yomotsu_heguri_lockseed, 1);
-   		this.dropItem(RiderItems.dau, 1);
+
+   		
+   		switch (this.rand.nextInt(3))
+		{
+		case 0:
+	   		this.dropItem(RiderItems.dau, 1);
+			break;
+		}
+   		switch (this.rand.nextInt(2))
+		{
+		case 0:
+			this.dropItem(RiderItems.helheim_lockseed, 1);
+			break;
+		}
    		
        }
        

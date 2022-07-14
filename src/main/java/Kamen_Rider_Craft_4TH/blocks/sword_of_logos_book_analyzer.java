@@ -7,6 +7,7 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
@@ -30,12 +31,25 @@ public class sword_of_logos_book_analyzer extends machine_block  {
 		TokuCraft_core.proxy.registerItemRender(Item.getItemFromBlock(this),0,"inventory");
 	}
 
-	private Item getProgriseKeyDrop() {
+	
+private Item getProgriseKeyDrop(EntityPlayer player) {
+		
+		List<Item> vistamp2 = new ArrayList<Item>();
+		vistamp2.clear();
+		 vistamp2.addAll(wonder_ride_books);
+		 if (player.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.tassel_dark_wonderride_book))){
+				for (int i1 = 0; i1 < 2; ++i1)
+				{
+					vistamp2.add(ReiwaRiderItems.ultimate_bahamut_wonder_ride_book);
+				}
+		 }
 		Random generator = new Random();
-			int rand = generator.nextInt(wonder_ride_books.size());
-			return wonder_ride_books.get(rand);
+			int rand = generator.nextInt(vistamp2.size());
+			return vistamp2.get(rand);
 		
 	}
+	
+
 	private Item get_wonder_world_storyDrop() {
 		Random generator = new Random();
 			int rand = generator.nextInt(11);
@@ -50,7 +64,7 @@ public class sword_of_logos_book_analyzer extends machine_block  {
 
 	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
 		if (!worldIn.isRemote) {
-			if (player.getHeldItem(hand).getItem() == ReiwaRiderItems.blank_wonder_ride_book) process(player, worldIn, pos, hand, getProgriseKeyDrop());
+			if (player.getHeldItem(hand).getItem() == ReiwaRiderItems.blank_wonder_ride_book) process(player, worldIn, pos, hand, getProgriseKeyDrop(player));
 			
 			else if (player.getHeldItem(hand).getItem() == ReiwaRiderItems.blank_wonder_world_story_wonder_ride_book) process(player, worldIn, pos, hand, get_wonder_world_storyDrop());
 			
