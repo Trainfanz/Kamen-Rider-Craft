@@ -486,6 +486,10 @@ public class ReiwaRiderItems {
 	public static Item vail_driver = new item_revicedriver("vail_driver",ArmorMaterial.DIAMOND, 4, "vail",23).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item over_demons_driver = new item_revicedriver("over_demons_driver",ArmorMaterial.DIAMOND, 4, "over_demons",24).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	
+	public static Item demons_driver_demons_trooper_a = new item_revicedriver("demons_driver_demons_trooper_a",ArmorMaterial.DIAMOND, 4, "demons_trooper",12).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	public static Item demons_driver_demons_trooper_b = new item_revicedriver("demons_driver_demons_trooper_b",ArmorMaterial.DIAMOND, 4, "demons_trooper",24).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	
+	
 	public static Item libera_driver = new item_revicedriver("libera_driver",ArmorMaterial.DIAMOND, 4, "jeanne",18).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item week_endriver = new item_revicedriver("week_endriver",ArmorMaterial.DIAMOND, 4, "aguilera",25).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	
@@ -517,6 +521,7 @@ public class ReiwaRiderItems {
 	public static Item bat_vistamp = new Item_Vistamps(11,"bat_vistamp").AddEvilCanUse().AddLiveCanUse().setCreativeTab(Tabs.tabrevice);
 	public static Item crow_vistamp = new Item_Vistamps("crow_vistamp").AddToVistampBar(1).setCreativeTab(Tabs.tabrevice);
 	public static Item holy_wing_vistamp = new Item_Vistamps(11,"holy_wing_vistamp").ChangeForm(5).AddLiveCanUse().setCreativeTab(Tabs.tabrevice);
+	public static Item perfect_wing_vistamp = new Item_Vistamps(11,"perfect_wing_vistamp").ChangeForm(6).AddLiveCanUse().setCreativeTab(Tabs.tabrevice);
 	
 	public static Item spider_vistamp = new Item_Vistamps(12,"spider_vistamp").AddDemonsCanUse().AddToVistampBar(6).setCreativeTab(Tabs.tabrevice);
 	public static Item batta_vistamp = new Item_Vistamps(13,"batta_vistamp").AddDemonsCanUse().AddToVistampBar(4).setCreativeTab(Tabs.tabrevice);
