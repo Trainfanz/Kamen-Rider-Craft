@@ -1104,6 +1104,11 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 
 	public static Item lady_rider_belt = new item_rider_driver("lady_rider_belt",ArmorMaterial.DIAMOND, 4,"lady", (Item_form_change) lady_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
 
+	public static Item zectrooper_belt = new item_rider_driver("zectrooper_belt",ArmorMaterial.DIAMOND, 4,"zectrooper", (Item_form_change) faiz_mission_memory, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item shadow_trooper_belt = new item_rider_driver("shadow_trooper_belt",ArmorMaterial.DIAMOND, 4,"shadow_trooper", (Item_form_change) faiz_mission_memory, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item brightrooper_belt = new item_rider_driver("brightrooper_belt",ArmorMaterial.DIAMOND, 4,"brightrooper", (Item_form_change) faiz_mission_memory, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item neotrooper_belt = new item_rider_driver("neotrooper_belt",ArmorMaterial.DIAMOND, 4,"neotrooper", (Item_form_change) faiz_mission_memory, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	
 
 
 	public static Item clock_up_pad = new Item_clock_up_pad("clock_up_pad").setCreativeTab(Tabs.tabkabuto);
