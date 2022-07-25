@@ -974,6 +974,9 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item zect_kunai = new Item_sword_gun("zect_kunai",Tabs.den_denaxe, RiderItems.mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
 	public static Item zect_kunai_kunai = new ItemBaseSword("zect_kunai_kunai",Tabs.den_denso, RiderItems.mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
 
+	public static Item machinegun_blade = new Item_sword_gun("machinegun_blade",Tabs.den_denaxe, RiderItems.mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	
+	
 	public static Item kabuto_rider_belt_cast = new Item_ore("kabuto_rider_belt_cast");
 	public static Item gatack_rider_belt_cast = new Item_ore("gatack_rider_belt_cast");
 	public static Item dark_kabuto_rider_belt_cast = new Item_ore("dark_kabuto_rider_belt_cast");
