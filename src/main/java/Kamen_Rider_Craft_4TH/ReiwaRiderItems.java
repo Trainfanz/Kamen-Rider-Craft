@@ -483,15 +483,22 @@ public class ReiwaRiderItems {
 	public static Item two_sidriver_live = new item_revicedriver("two_sidriver_live",ArmorMaterial.DIAMOND, 4, "live",11).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	
 	public static Item demons_driver = new item_revicedriver("demons_driver",ArmorMaterial.DIAMOND, 4, "demons",12).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
-	public static Item vail_driver = new item_revicedriver("vail_driver",ArmorMaterial.DIAMOND, 4, "vail",23).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item over_demons_driver = new item_revicedriver("over_demons_driver",ArmorMaterial.DIAMOND, 4, "over_demons",24).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	
 	public static Item demons_driver_demons_trooper_a = new item_revicedriver("demons_driver_demons_trooper_a",ArmorMaterial.DIAMOND, 4, "demons_trooper",12).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item demons_driver_demons_trooper_b = new item_revicedriver("demons_driver_demons_trooper_b",ArmorMaterial.DIAMOND, 4, "demons_trooper",24).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	
+	public static Item vail_driver = new item_revicedriver("vail_driver",ArmorMaterial.DIAMOND, 4, "vail",23).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	public static Item destream_driver = new item_revicedriver("destream_driver",ArmorMaterial.DIAMOND, 4, "destream",26).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	
+	public static Item vail_belt = new item_revicedriver("vail_belt",ArmorMaterial.DIAMOND, 4, "crimson_vail",0).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	
 	
 	public static Item libera_driver = new item_revicedriver("libera_driver",ArmorMaterial.DIAMOND, 4, "jeanne",18).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item week_endriver = new item_revicedriver("week_endriver",ArmorMaterial.DIAMOND, 4, "aguilera",25).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	
+	public static Item cyclotron_driver = new item_revicedriver("cyclotron_driver",ArmorMaterial.DIAMOND, 4, "century",0).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	public static Item cyclotron_driver_break = new item_revicedriver("cyclotron_driver_break",ArmorMaterial.DIAMOND, 4, "century_break",0).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	
 	
 	public static Item rex_vistamp = new Item_Vistamps(0,"rex_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(12).setCreativeTab(Tabs.tabrevice);
