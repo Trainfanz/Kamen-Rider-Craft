@@ -69,6 +69,7 @@ public class TokuCraft_core {
 		proxy.preInit();
 		riderBiomes.initBiomeManagerAndDictionary();
 		PotionCore.init(event);
+		Rider_VillagerProfession.associateCareersAndTrades();
 	}
 
 	@EventHandler
