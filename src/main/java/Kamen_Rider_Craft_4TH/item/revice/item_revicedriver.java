@@ -39,7 +39,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class item_revicedriver extends item_rider_driver
 {
 
-	public static final String[] CoreName= new String[] {"","_barid_rex","_volcano_rex","_jack_revice","_revice","_holy","_evilyty"};
+	public static final String[] CoreName= new String[] {"","_barid_rex","_volcano_rex","_jack_revice","_revice","_holy","_evilyty","_ultimate"};
 	
 	
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
@@ -88,7 +88,7 @@ public class item_revicedriver extends item_rider_driver
             @SideOnly(Side.CLIENT)
             public float apply(ItemStack stack, @Nullable World worldIn, @Nullable EntityLivingBase entityIn)
             {
-      		  if (stack.getItem()== ReiwaRiderItems.revice_driver){
+      		  if (stack.getItem()== ReiwaRiderItems.revice_driver||stack.getItem()== ReiwaRiderItems.vice_belt){
             	
             	if (!stack.hasTagCompound())
         		{

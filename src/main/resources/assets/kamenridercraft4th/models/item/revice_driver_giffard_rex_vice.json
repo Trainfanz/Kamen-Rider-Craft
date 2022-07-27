@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "kamenridercraft4th:items/revice_driver",
-		"1": "kamenridercraft4th:items/revice_driver_rex",
+		"1": "kamenridercraft4th:items/revice_driver_giffard_rex_vice",
 		"particle": "kamenridercraft4th:items/revice_driver"
 	},
 	"elements": [
@@ -215,10 +215,22 @@
 			"to": [5, 11, 12],
 			"faces": {
 				"north": {"uv": [11, 3, 15, 5], "rotation": 180, "texture": "#1"},
-				"east": {"uv": [16, 4, 13, 6], "texture": "#1"},
+				"east": {"uv": [9, 1, 6, 3], "texture": "#1"},
 				"south": {"uv": [11, 4, 15, 6], "texture": "#1"},
-				"west": {"uv": [13, 4, 16, 6], "texture": "#1"},
+				"west": {"uv": [6, 1, 9, 3], "texture": "#1"},
 				"up": {"uv": [11, 2, 15, 5], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [15, 5, 16, 6], "texture": "#1"}
+			}
+		},
+		{
+			"from": [2, 9, 12],
+			"to": [4, 11, 13],
+			"faces": {
+				"north": {"uv": [11, 3, 15, 5], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [16, 4, 15, 6], "texture": "#1"},
+				"south": {"uv": [12, 4, 14, 6], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [15, 5, 16, 7], "texture": "#1"},
+				"up": {"uv": [12, 5, 14, 6], "rotation": 180, "texture": "#1"},
 				"down": {"uv": [15, 5, 16, 6], "texture": "#1"}
 			}
 		},
@@ -227,10 +239,10 @@
 			"to": [4.5, 12, 11],
 			"faces": {
 				"north": {"uv": [11, 0, 14, 1], "rotation": 180, "texture": "#1"},
-				"east": {"uv": [12, 1, 13, 3], "rotation": 270, "texture": "#1"},
-				"south": {"uv": [11, 3, 14, 4], "texture": "#1"},
-				"west": {"uv": [13, 1, 14, 3], "rotation": 90, "texture": "#1"},
-				"up": {"uv": [12, 1, 15, 3], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [11, 0, 12, 2], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [11, 1, 14, 2], "texture": "#1"},
+				"west": {"uv": [13, 0, 14, 2], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [11, 0, 14, 2], "rotation": 180, "texture": "#1"},
 				"down": {"uv": [1, 2, 2, 3], "texture": "#1"}
 			}
 		},
@@ -239,9 +251,9 @@
 			"to": [5, 9, 13],
 			"faces": {
 				"north": {"uv": [1, 1, 5, 2], "rotation": 180, "texture": "#1"},
-				"east": {"uv": [0, 2, 1, 6], "rotation": 270, "texture": "#1"},
+				"east": {"uv": [10, 3, 6, 7], "texture": "#1"},
 				"south": {"uv": [1, 2, 5, 6], "texture": "#1"},
-				"west": {"uv": [5, 2, 6, 6], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [6, 3, 10, 7], "texture": "#1"},
 				"up": {"uv": [11, 6, 15, 7], "texture": "#1"},
 				"down": {"uv": [1, 6, 5, 7], "texture": "#1"}
 			}
@@ -251,35 +263,35 @@
 			"to": [5, 5, 13.5],
 			"faces": {
 				"north": {"uv": [1, 11, 5, 9], "rotation": 180, "texture": "#1"},
-				"east": {"uv": [5, 9, 6, 11], "texture": "#1"},
+				"east": {"uv": [14, 0, 16, 2], "texture": "#1"},
 				"south": {"uv": [1, 9, 5, 11], "texture": "#1"},
-				"west": {"uv": [0, 11, 1, 9], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [14, 2, 16, 0], "rotation": 180, "texture": "#1"},
 				"up": {"uv": [1, 8, 5, 9], "rotation": 180, "texture": "#1"},
 				"down": {"uv": [5, 11, 1, 15], "texture": "#1"}
 			}
 		},
 		{
-			"from": [0.1, 3.1, 9.4],
-			"to": [1.1, 6.1, 13.4],
+			"from": [0.1, 8.1, 8.4],
+			"to": [1.1, 11.1, 12.4],
 			"faces": {
 				"north": {"uv": [1, 10, 2, 8], "rotation": 180, "texture": "#1"},
 				"east": {"uv": [4, 8, 5, 10], "texture": "#1"},
-				"south": {"uv": [0, 8, 1, 11], "texture": "#1"},
-				"west": {"uv": [5, 11, 6, 8], "rotation": 180, "texture": "#1"},
-				"up": {"uv": [0, 8, 1, 9], "texture": "#1"},
+				"south": {"uv": [10, 3, 9, 4], "texture": "#1"},
+				"west": {"uv": [11, 12, 7, 9], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [7, 8, 11, 9], "rotation": 90, "texture": "#1"},
 				"down": {"uv": [16, 0, 15, 5], "texture": "#1"}
 			}
 		},
 		{
-			"from": [4.9, 3.1, 9.4],
-			"to": [5.9, 6.1, 13.4],
+			"from": [4.9, 8.1, 8.4],
+			"to": [5.9, 11.1, 12.4],
 			"faces": {
 				"north": {"uv": [1, 9, 2, 8], "rotation": 180, "texture": "#1"},
-				"east": {"uv": [5, 8, 6, 11], "texture": "#1"},
-				"south": {"uv": [0, 8, 1, 11], "texture": "#1"},
+				"east": {"uv": [11, 9, 7, 12], "texture": "#1"},
+				"south": {"uv": [9, 3, 10, 5], "texture": "#1"},
 				"west": {"uv": [5, 11, 6, 8], "rotation": 180, "texture": "#1"},
-				"up": {"uv": [0, 6, 1, 7], "rotation": 270, "texture": "#1"},
-				"down": {"uv": [15, 1, 14, 5], "texture": "#1"}
+				"up": {"uv": [11, 8, 7, 9], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [16, 0, 15, 4], "texture": "#1"}
 			}
 		}
 	],
@@ -306,105 +318,5 @@
 			"rotation": [0, -180, 0],
 			"translation": [0, 0, -1]
 		}
-	},
-    "overrides": [
-       
-        {
-            "predicate": {
-                "form": 1
-            },
-            "model": "kamenridercraft4th:item/revice_driver_barid_rex"
-        }, {
-            "predicate": {
-                "form": 2
-            },
-            "model": "kamenridercraft4th:item/revice_driver_volcano"
-        }, {
-            "predicate": {
-                "form": 3
-            },
-            "model": "kamenridercraft4th:item/revice_driver_rolling"
-        }, {
-            "predicate": {
-                "form": 4
-            },
-            "model": "kamenridercraft4th:item/revice_driver_thunder_gale"
-        }, {
-            "predicate": {
-                "form": 5
-            },
-            "model": "kamenridercraft4th:item/revice_driver_giffard_rex"
-        },{
-            "predicate": {
-                "pull": 1
-            },
-            "model": "kamenridercraft4th:item/revice_driver_eagle"
-        }, {
-            "predicate": {
-                "pull": 2
-            },
-            "model": "kamenridercraft4th:item/revice_driver_mammoth"
-        }, {
-            "predicate": {
-                "pull": 3
-            },
-            "model": "kamenridercraft4th:item/revice_driver_megalodon"
-        }, {
-            "predicate": {
-                "pull": 4
-            },
-            "model": "kamenridercraft4th:item/revice_driver_ptera"
-        }, {
-            "predicate": {
-                "pull": 5
-            },
-            "model": "kamenridercraft4th:item/revice_driver_lion"
-        }, {
-            "predicate": {
-                "pull": 6
-            },
-            "model": "kamenridercraft4th:item/revice_driver_jackal"
-        }, {
-            "predicate": {
-                "pull": 7
-            },
-            "model": "kamenridercraft4th:item/revice_driver_kong"
-        }, {
-            "predicate": {
-                "pull": 8
-            },
-            "model": "kamenridercraft4th:item/revice_driver_kamakiri"
-        }, {
-            "predicate": {
-                "pull": 9
-            },
-            "model": "kamenridercraft4th:item/revice_driver_brachio"
-        }, {
-            "predicate": {
-                "pull": 17
-            },
-            "model": "kamenridercraft4th:item/revice_driver_condor"
-        }, {
-            "predicate": {
-                "pull": 19
-            },
-            "model": "kamenridercraft4th:item/revice_driver_white_leo"
-        }, {
-            "predicate": {
-                "pull": 20
-            },
-            "model": "kamenridercraft4th:item/revice_driver_quetzalcoatlus"
-        }, {
-            "predicate": {
-                "pull": 21
-            },
-            "model": "kamenridercraft4th:item/revice_driver_neo_batta"
-        }, {
-            "predicate": {
-                "pull": 22
-            },
-            "model": "kamenridercraft4th:item/revice_driver_kangaroo"
-        }
-    ]
+	}
 }
-	
