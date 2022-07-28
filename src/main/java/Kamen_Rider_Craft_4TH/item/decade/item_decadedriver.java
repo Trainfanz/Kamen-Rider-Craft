@@ -62,7 +62,7 @@ public class item_decadedriver extends item_rider_driver
 
 	public item_decadedriver (String name,ArmorMaterial par2EnumArmorMaterial, String rider)
 	{
-		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.decadehead, RiderItems.decadetroso, RiderItems.decadelegs);
+		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.decadehead, RiderItems.decadetroso, RiderItems.decadelegs, RiderItems.blankcard);
 		
 		this.material = par2EnumArmorMaterial;
 		par2EnumArmorMaterial.getDamageReductionAmount(EntityEquipmentSlot.FEET);
@@ -579,11 +579,6 @@ public class item_decadedriver extends item_rider_driver
 	{
 		return maxDamageArray;
 	}
-	
-    public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
-    {
-    	return RiderItems.blankcard == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
-    }
 
 
 

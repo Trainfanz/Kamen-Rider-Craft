@@ -69,7 +69,7 @@ public class item_builddriver extends item_rider_driver
 
 	public item_builddriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, String rider)
 	{
-		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.buildhead, RiderItems.buildtroso, RiderItems.buildlegs);
+		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.buildhead, RiderItems.buildtroso, RiderItems.buildlegs, RiderItems.full_bottle);
 		this.material = par2EnumArmorMaterial;
 		par2EnumArmorMaterial.getDamageReductionAmount(EntityEquipmentSlot.FEET);
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(EntityEquipmentSlot.FEET));
@@ -962,11 +962,6 @@ public class item_builddriver extends item_rider_driver
 		return Refercence.MODID+":textures/armor/blank"+ext;
 
 
-	}
-
-	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
-	{
-		return RiderItems.full_bottle == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 }		
 

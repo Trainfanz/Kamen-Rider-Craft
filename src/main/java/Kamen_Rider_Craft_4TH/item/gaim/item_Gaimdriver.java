@@ -60,7 +60,7 @@ public class item_Gaimdriver extends item_rider_driver
 
 	public item_Gaimdriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, int par4, String rider, String lock, int driver,Item difLock)
 	{
-		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.Gaimhead, RiderItems.Gaimtroso, RiderItems.Gaimlegs);
+		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.Gaimhead, RiderItems.Gaimtroso, RiderItems.Gaimlegs, RiderItems.himawari_lockseed);
 		this.material = par2EnumArmorMaterial;
 		par2EnumArmorMaterial.getDamageReductionAmount(EntityEquipmentSlot.FEET);
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(EntityEquipmentSlot.FEET));
@@ -601,11 +601,6 @@ public class item_Gaimdriver extends item_rider_driver
 	static int[] getMaxDamageArray()
 	{
 		return maxDamageArray;
-	}
-
-	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
-	{
-		return RiderItems.himawari_lockseed == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 
 

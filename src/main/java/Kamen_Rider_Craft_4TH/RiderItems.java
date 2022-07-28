@@ -268,7 +268,7 @@ public class RiderItems {
 	public static Item kuugatroso = new item_rider_armor("kuugatroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, RiderItems.kuuga_growing).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
 	public static Item kuugalegs = new item_rider_armor("kuugalegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, RiderItems.kuuga_growing).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
 
-	public static Item arcle = new item_rider_driver("arcle",ArmorMaterial.DIAMOND, 4,"kuuga",(Item_form_change) kuuga_mighty, kuugahead, kuugatroso, kuugalegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
+	public static Item arcle = new item_rider_driver("arcle",ArmorMaterial.DIAMOND, 4,"kuuga",(Item_form_change) kuuga_mighty, kuugahead, kuugatroso, kuugalegs, RiderItems.kuuga_growing).setMaxStackSize(1).setCreativeTab(Tabs.tabkuuga);
 
 	public static Block stone_kuuga= new ore_block("stone_kuuga",Material.ROCK, kuuga_growing, 2).setHardness(9.9F).setCreativeTab(Tabs.tabkuuga);
 
@@ -589,22 +589,22 @@ public class RiderItems {
 			new PotionEffect(MobEffects.SPEED, 5, 1,true,false)).setCreativeTab(Tabs.tabryuki);
 
 	
-	public static Item v_buckle_ryuki = new item_rider_driver("v_buckle_ryuki",ArmorMaterial.DIAMOND, 4,"ryuki", (Item_form_change) dragreder_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item v_buckle_knight = new item_rider_driver("v_buckle_knight",ArmorMaterial.DIAMOND, 4,"knight", (Item_form_change) darkwing_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item v_buckle_scissors = new item_rider_driver("v_buckle_scissors",ArmorMaterial.DIAMOND, 4,"scissors", (Item_form_change) volcancer_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item v_buckle_zolda = new item_rider_driver("v_buckle_zolda",ArmorMaterial.DIAMOND, 4,"zolda", (Item_form_change) magnugiga_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item v_buckle_raia = new item_rider_driver("v_buckle_raia",ArmorMaterial.DIAMOND, 4,"raia", (Item_form_change) evildiver_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item v_buckle_gai = new item_rider_driver("v_buckle_gai",ArmorMaterial.DIAMOND, 4,"gai", (Item_form_change) metalgelas_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item v_buckle_ouja = new item_rider_driver("v_buckle_ouja",ArmorMaterial.DIAMOND, 4,"ouja", (Item_form_change) venosnaker_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item v_buckle_tiger = new item_rider_driver("v_buckle_tiger",ArmorMaterial.DIAMOND, 4,"tiger", (Item_form_change) destwilder_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item v_buckle_imperer = new item_rider_driver("v_buckle_imperer",ArmorMaterial.DIAMOND, 4,"imperer", (Item_form_change) gigazelle_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item v_buckle_odin = new item_rider_driver("v_buckle_odin",ArmorMaterial.DIAMOND, 4,"odin", (Item_form_change) goldphoenix_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item v_buckle_femme = new item_rider_driver("v_buckle_femme",ArmorMaterial.DIAMOND, 4,"femme", (Item_form_change) blancwing_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item v_buckle_verde = new item_rider_driver("v_buckle_verde",ArmorMaterial.DIAMOND, 4,"verde", (Item_form_change) biogreeza_advent , ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item v_buckle_ryuga = new item_rider_driver("v_buckle_ryuga",ArmorMaterial.DIAMOND, 4,"ryuga", (Item_form_change) dragblacker_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item v_buckle_abyss = new item_rider_driver("v_buckle_abyss",ArmorMaterial.DIAMOND, 4,"abyss", (Item_form_change) abysslasher_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item alternativebelt = new item_rider_driver("alternativebelt",ArmorMaterial.DIAMOND, 4,"alternative", (Item_form_change) psycorogue_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-	public static Item alternativezerobelt = new item_rider_driver("alternativezerobelt",ArmorMaterial.DIAMOND, 4,"alternativezero", (Item_form_change) psycorogue_advent, ryukihead, ryukitroso, ryukilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_ryuki = new item_rider_driver("v_buckle_ryuki",ArmorMaterial.DIAMOND, 4,"ryuki", (Item_form_change) dragreder_advent, ryukihead, ryukitroso, ryukilegs, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_knight = new item_rider_driver("v_buckle_knight",ArmorMaterial.DIAMOND, 4,"knight", (Item_form_change) darkwing_advent, ryukihead, ryukitroso, ryukilegs, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_scissors = new item_rider_driver("v_buckle_scissors",ArmorMaterial.DIAMOND, 4,"scissors", (Item_form_change) volcancer_advent, ryukihead, ryukitroso, ryukilegs, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_zolda = new item_rider_driver("v_buckle_zolda",ArmorMaterial.DIAMOND, 4,"zolda", (Item_form_change) magnugiga_advent, ryukihead, ryukitroso, ryukilegs, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_raia = new item_rider_driver("v_buckle_raia",ArmorMaterial.DIAMOND, 4,"raia", (Item_form_change) evildiver_advent, ryukihead, ryukitroso, ryukilegs, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_gai = new item_rider_driver("v_buckle_gai",ArmorMaterial.DIAMOND, 4,"gai", (Item_form_change) metalgelas_advent, ryukihead, ryukitroso, ryukilegs, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_ouja = new item_rider_driver("v_buckle_ouja",ArmorMaterial.DIAMOND, 4,"ouja", (Item_form_change) venosnaker_advent, ryukihead, ryukitroso, ryukilegs, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_tiger = new item_rider_driver("v_buckle_tiger",ArmorMaterial.DIAMOND, 4,"tiger", (Item_form_change) destwilder_advent, ryukihead, ryukitroso, ryukilegs, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_imperer = new item_rider_driver("v_buckle_imperer",ArmorMaterial.DIAMOND, 4,"imperer", (Item_form_change) gigazelle_advent, ryukihead, ryukitroso, ryukilegs, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_odin = new item_rider_driver("v_buckle_odin",ArmorMaterial.DIAMOND, 4,"odin", (Item_form_change) goldphoenix_advent, ryukihead, ryukitroso, ryukilegs, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_femme = new item_rider_driver("v_buckle_femme",ArmorMaterial.DIAMOND, 4,"femme", (Item_form_change) blancwing_advent, ryukihead, ryukitroso, ryukilegs, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_verde = new item_rider_driver("v_buckle_verde",ArmorMaterial.DIAMOND, 4,"verde", (Item_form_change) biogreeza_advent , ryukihead, ryukitroso, ryukilegs, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_ryuga = new item_rider_driver("v_buckle_ryuga",ArmorMaterial.DIAMOND, 4,"ryuga", (Item_form_change) dragblacker_advent, ryukihead, ryukitroso, ryukilegs, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item v_buckle_abyss = new item_rider_driver("v_buckle_abyss",ArmorMaterial.DIAMOND, 4,"abyss", (Item_form_change) abysslasher_advent, ryukihead, ryukitroso, ryukilegs, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item alternativebelt = new item_rider_driver("alternativebelt",ArmorMaterial.DIAMOND, 4,"alternative", (Item_form_change) psycorogue_advent, ryukihead, ryukitroso, ryukilegs, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	public static Item alternativezerobelt = new item_rider_driver("alternativezerobelt",ArmorMaterial.DIAMOND, 4,"alternativezero", (Item_form_change) psycorogue_advent, ryukihead, ryukitroso, ryukilegs, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
 	
 
 	public static Item blank_sword_vent = new Item_vent("blank_sword_vent","ryuki",ride_saber,2,drag_visor).setCreativeTab(Tabs.tabryuki);
@@ -691,12 +691,12 @@ public class RiderItems {
 	public static Item faiztroso = new item_rider_armor("faiztroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, blank_mission_memory).setMaxStackSize(1).setCreativeTab(Tabs.tabfaiz);
 	public static Item faizlegs = new item_rider_armor("faizlegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, blank_mission_memory).setMaxStackSize(1).setCreativeTab(Tabs.tabfaiz);
 
-	public static Item faizdriver = new item_rider_driver("faizdriver",ArmorMaterial.DIAMOND, 4,"faiz", (Item_form_change) faiz_mission_memory, faizhead, faiztroso, faizlegs).setMaxStackSize(1).setCreativeTab(Tabs.tabfaiz);
-	public static Item kaixadriver = new item_rider_driver("kaixadriver",ArmorMaterial.DIAMOND, 4,"kaixa", (Item_form_change) kaixa_mission_memory, faizhead, faiztroso, faizlegs).setMaxStackSize(1).setCreativeTab(Tabs.tabfaiz);
-	public static Item deltadriver = new item_rider_driver("deltadriver",ArmorMaterial.DIAMOND, 4,"delta", (Item_form_change) delta_mission_memory, faizhead, faiztroso, faizlegs).setMaxStackSize(1).setCreativeTab(Tabs.tabfaiz);
-	public static Item psygadriver = new item_rider_driver("psygadriver",ArmorMaterial.DIAMOND, 4,"psyga", (Item_form_change) psyga_mission_memory, faizhead, faiztroso, faizlegs).setMaxStackSize(1).setCreativeTab(Tabs.tabfaiz);
-	public static Item orgadriver = new item_rider_driver("orgadriver",ArmorMaterial.DIAMOND, 4,"orga", (Item_form_change) orga_mission_memory, faizhead, faiztroso, faizlegs).setMaxStackSize(1).setCreativeTab(Tabs.tabfaiz);
-	public static Item smartbulke = new item_rider_driver("smartbulke",ArmorMaterial.DIAMOND, 4,"riotrooper", (Item_form_change) faiz_mission_memory, faizhead, faiztroso, faizlegs).setMaxStackSize(1).setCreativeTab(Tabs.tabfaiz);
+	public static Item faizdriver = new item_rider_driver("faizdriver",ArmorMaterial.DIAMOND, 4,"faiz", (Item_form_change) faiz_mission_memory, faizhead, faiztroso, faizlegs, RiderItems.blank_mission_memory).setMaxStackSize(1).setCreativeTab(Tabs.tabfaiz);
+	public static Item kaixadriver = new item_rider_driver("kaixadriver",ArmorMaterial.DIAMOND, 4,"kaixa", (Item_form_change) kaixa_mission_memory, faizhead, faiztroso, faizlegs, RiderItems.blank_mission_memory).setMaxStackSize(1).setCreativeTab(Tabs.tabfaiz);
+	public static Item deltadriver = new item_rider_driver("deltadriver",ArmorMaterial.DIAMOND, 4,"delta", (Item_form_change) delta_mission_memory, faizhead, faiztroso, faizlegs, RiderItems.blank_mission_memory).setMaxStackSize(1).setCreativeTab(Tabs.tabfaiz);
+	public static Item psygadriver = new item_rider_driver("psygadriver",ArmorMaterial.DIAMOND, 4,"psyga", (Item_form_change) psyga_mission_memory, faizhead, faiztroso, faizlegs, RiderItems.blank_mission_memory).setMaxStackSize(1).setCreativeTab(Tabs.tabfaiz);
+	public static Item orgadriver = new item_rider_driver("orgadriver",ArmorMaterial.DIAMOND, 4,"orga", (Item_form_change) orga_mission_memory, faizhead, faiztroso, faizlegs, RiderItems.blank_mission_memory).setMaxStackSize(1).setCreativeTab(Tabs.tabfaiz);
+	public static Item smartbulke = new item_rider_driver("smartbulke",ArmorMaterial.DIAMOND, 4,"riotrooper", (Item_form_change) faiz_mission_memory, faizhead, faiztroso, faizlegs, RiderItems.blank_mission_memory).setMaxStackSize(1).setCreativeTab(Tabs.tabfaiz);
 	
 
 	//blade
@@ -780,13 +780,13 @@ public static Item garren_jack_wings = new Item_ore("garren_jack_wings");
 	public static Item bladetroso = new item_rider_armor("bladetroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, bladecard).setMaxStackSize(1).setCreativeTab(Tabs.tabblade);
 	public static Item bladelegs = new item_rider_armor("bladelegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, bladecard).setMaxStackSize(1).setCreativeTab(Tabs.tabblade);
 
-	public static Item bladedriver = new item_rider_driver("bladedriver",ArmorMaterial.DIAMOND, 4,"blade", (Item_form_change) changebeetle, bladehead, bladetroso, bladelegs).setMaxStackSize(1).setCreativeTab(Tabs.tabblade);
-	public static Item garrendriver = new item_rider_driver("garrendriver",ArmorMaterial.DIAMOND, 4,"garren", (Item_form_change) change_stag, bladehead, bladetroso, bladelegs).setMaxStackSize(1).setCreativeTab(Tabs.tabblade);
-	public static Item leangle_belt = new item_rider_driver("leangle_belt",ArmorMaterial.DIAMOND, 4,"leangle", (Item_form_change) change_spider, bladehead, bladetroso, bladelegs).setMaxStackSize(1).setCreativeTab(Tabs.tabblade);
-	public static Item chalicerouzer = new item_rider_driver("chalicerouzer",ArmorMaterial.DIAMOND, 4,"chalice", (Item_form_change) change_mantis, bladehead, bladetroso, bladelegs).setMaxStackSize(1).setCreativeTab(Tabs.tabblade);
-	public static Item glaive_buckle = new item_rider_driver("glaive_buckle",ArmorMaterial.DIAMOND, 4,"glaive", (Item_form_change) changekerberoslance, bladehead, bladetroso, bladelegs).setMaxStackSize(1).setCreativeTab(Tabs.tabblade);
-	public static Item larc_buckle = new item_rider_driver("larc_buckle",ArmorMaterial.DIAMOND, 4,"larc", (Item_form_change) changekerberoslarc, bladehead, bladetroso, bladelegs).setMaxStackSize(1).setCreativeTab(Tabs.tabblade);
-	public static Item lance_buckle = new item_rider_driver("lance_buckle",ArmorMaterial.DIAMOND, 4,"lance", (Item_form_change) changekerberosglaive, bladehead, bladetroso, bladelegs).setMaxStackSize(1).setCreativeTab(Tabs.tabblade);
+	public static Item bladedriver = new item_rider_driver("bladedriver",ArmorMaterial.DIAMOND, 4,"blade", (Item_form_change) changebeetle, bladehead, bladetroso, bladelegs, RiderItems.bladecard).setMaxStackSize(1).setCreativeTab(Tabs.tabblade);
+	public static Item garrendriver = new item_rider_driver("garrendriver",ArmorMaterial.DIAMOND, 4,"garren", (Item_form_change) change_stag, bladehead, bladetroso, bladelegs, RiderItems.bladecard).setMaxStackSize(1).setCreativeTab(Tabs.tabblade);
+	public static Item leangle_belt = new item_rider_driver("leangle_belt",ArmorMaterial.DIAMOND, 4,"leangle", (Item_form_change) change_spider, bladehead, bladetroso, bladelegs, RiderItems.bladecard).setMaxStackSize(1).setCreativeTab(Tabs.tabblade);
+	public static Item chalicerouzer = new item_rider_driver("chalicerouzer",ArmorMaterial.DIAMOND, 4,"chalice", (Item_form_change) change_mantis, bladehead, bladetroso, bladelegs, RiderItems.bladecard).setMaxStackSize(1).setCreativeTab(Tabs.tabblade);
+	public static Item glaive_buckle = new item_rider_driver("glaive_buckle",ArmorMaterial.DIAMOND, 4,"glaive", (Item_form_change) changekerberoslance, bladehead, bladetroso, bladelegs, RiderItems.bladecard).setMaxStackSize(1).setCreativeTab(Tabs.tabblade);
+	public static Item larc_buckle = new item_rider_driver("larc_buckle",ArmorMaterial.DIAMOND, 4,"larc", (Item_form_change) changekerberoslarc, bladehead, bladetroso, bladelegs, RiderItems.bladecard).setMaxStackSize(1).setCreativeTab(Tabs.tabblade);
+	public static Item lance_buckle = new item_rider_driver("lance_buckle",ArmorMaterial.DIAMOND, 4,"lance", (Item_form_change) changekerberosglaive, bladehead, bladetroso, bladelegs, RiderItems.bladecard).setMaxStackSize(1).setCreativeTab(Tabs.tabblade);
 
 	
 	public static Block bladecard_block = new ore_block("bladecard_block",Material.ROCK, bladecard, 2).setHardness(9.9F).setCreativeTab(Tabs.tabblade);
@@ -927,26 +927,26 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item hibikitroso = new item_rider_armor("hibikitroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
 	public static Item hibikilegs = new item_rider_armor("hibikilegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
 
-	public static Item hibikidriver = new item_rider_driver("hibikidriver",ArmorMaterial.DIAMOND, 4,"hibiki", (Item_form_change) henshin_onsa, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item ibukidriver = new item_rider_driver("ibukidriver",ArmorMaterial.DIAMOND, 4,"ibuki", (Item_form_change) henshin_onibue_ibuki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item todorokidriver = new item_rider_driver("todorokidriver",ArmorMaterial.DIAMOND, 4,"todoroki", (Item_form_change) henshin_kigen_todoroki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item zankidriver = new item_rider_driver("zankidriver",ArmorMaterial.DIAMOND, 4,"zanki", (Item_form_change) henshin_kigen_zanki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item eikidriver = new item_rider_driver("eikidriver",ArmorMaterial.DIAMOND, 4,"eiki", (Item_form_change) henshin_onsa_eiki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item dankidriver = new item_rider_driver("dankidriver",ArmorMaterial.DIAMOND, 4,"danki", (Item_form_change) henshin_onsa_danki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item sabakidriver = new item_rider_driver("sabakidriver",ArmorMaterial.DIAMOND, 4,"sabaki", (Item_form_change) henshin_kigen_sabaki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item shukidriver = new item_rider_driver("shukidriver",ArmorMaterial.DIAMOND, 4,"shuki", (Item_form_change) henshin_kigen_shuki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item goukidriver = new item_rider_driver("goukidriver",ArmorMaterial.DIAMOND, 4,"gouki", (Item_form_change) henshin_onsa_gouki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item tokidriver = new item_rider_driver("tokidriver",ArmorMaterial.DIAMOND, 4,"toki", (Item_form_change) henshin_onibue_toki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item shoukidriver = new item_rider_driver("shoukidriver",ArmorMaterial.DIAMOND, 4,"shouki", (Item_form_change) henshin_onibue_shouki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item bankidriver = new item_rider_driver("bankidriver",ArmorMaterial.DIAMOND, 4,"banki", (Item_form_change) henshin_kigen_banki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item amakidriver = new item_rider_driver("amakidriver",ArmorMaterial.DIAMOND, 4,"amaki", (Item_form_change) henshin_onibue_amaki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item kyosukedriver = new item_rider_driver("kyosukedriver",ArmorMaterial.DIAMOND, 4,"kyosuke", (Item_form_change) henshin_onsa_kyoki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item kabukidriver = new item_rider_driver("kabukidriver",ArmorMaterial.DIAMOND, 4,"kabuki", (Item_form_change) henshin_onsa_kabuki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item toukidriver = new item_rider_driver("toukidriver",ArmorMaterial.DIAMOND, 4,"touki", (Item_form_change) henshin_onsa_touki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item kiramekidriver = new item_rider_driver("kiramekidriver",ArmorMaterial.DIAMOND, 4,"kirameki", (Item_form_change) henshin_onsa_kirameki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item nishikidriver = new item_rider_driver("nishikidriver",ArmorMaterial.DIAMOND, 4,"nishiki", (Item_form_change) henshin_onsa_nishiki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item habatakidriver = new item_rider_driver("habatakidriver",ArmorMaterial.DIAMOND, 4,"habataki", (Item_form_change) henshin_onsa_habataki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
-	public static Item fubukidriver = new item_rider_driver("fubukidriver",ArmorMaterial.DIAMOND, 4,"fubuki", (Item_form_change) henshin_onibue_fubuki, hibikihead, hibikitroso, hibikilegs).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item hibikidriver = new item_rider_driver("hibikidriver",ArmorMaterial.DIAMOND, 4,"hibiki", (Item_form_change) henshin_onsa, hibikihead, hibikitroso, hibikilegs, RiderItems.oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item ibukidriver = new item_rider_driver("ibukidriver",ArmorMaterial.DIAMOND, 4,"ibuki", (Item_form_change) henshin_onibue_ibuki, hibikihead, hibikitroso, hibikilegs, RiderItems.oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item todorokidriver = new item_rider_driver("todorokidriver",ArmorMaterial.DIAMOND, 4,"todoroki", (Item_form_change) henshin_kigen_todoroki, hibikihead, hibikitroso, hibikilegs, RiderItems.oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item zankidriver = new item_rider_driver("zankidriver",ArmorMaterial.DIAMOND, 4,"zanki", (Item_form_change) henshin_kigen_zanki, hibikihead, hibikitroso, hibikilegs, RiderItems.oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item eikidriver = new item_rider_driver("eikidriver",ArmorMaterial.DIAMOND, 4,"eiki", (Item_form_change) henshin_onsa_eiki, hibikihead, hibikitroso, hibikilegs, RiderItems.oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item dankidriver = new item_rider_driver("dankidriver",ArmorMaterial.DIAMOND, 4,"danki", (Item_form_change) henshin_onsa_danki, hibikihead, hibikitroso, hibikilegs, RiderItems.oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item sabakidriver = new item_rider_driver("sabakidriver",ArmorMaterial.DIAMOND, 4,"sabaki", (Item_form_change) henshin_kigen_sabaki, hibikihead, hibikitroso, hibikilegs, RiderItems.oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item shukidriver = new item_rider_driver("shukidriver",ArmorMaterial.DIAMOND, 4,"shuki", (Item_form_change) henshin_kigen_shuki, hibikihead, hibikitroso, hibikilegs, RiderItems.oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item goukidriver = new item_rider_driver("goukidriver",ArmorMaterial.DIAMOND, 4,"gouki", (Item_form_change) henshin_onsa_gouki, hibikihead, hibikitroso, hibikilegs, RiderItems.oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item tokidriver = new item_rider_driver("tokidriver",ArmorMaterial.DIAMOND, 4,"toki", (Item_form_change) henshin_onibue_toki, hibikihead, hibikitroso, hibikilegs, RiderItems.oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item shoukidriver = new item_rider_driver("shoukidriver",ArmorMaterial.DIAMOND, 4,"shouki", (Item_form_change) henshin_onibue_shouki, hibikihead, hibikitroso, hibikilegs, RiderItems.oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item bankidriver = new item_rider_driver("bankidriver",ArmorMaterial.DIAMOND, 4,"banki", (Item_form_change) henshin_kigen_banki, hibikihead, hibikitroso, hibikilegs, RiderItems.oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item amakidriver = new item_rider_driver("amakidriver",ArmorMaterial.DIAMOND, 4,"amaki", (Item_form_change) henshin_onibue_amaki, hibikihead, hibikitroso, hibikilegs, RiderItems.oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item kyosukedriver = new item_rider_driver("kyosukedriver",ArmorMaterial.DIAMOND, 4,"kyosuke", (Item_form_change) henshin_onsa_kyoki, hibikihead, hibikitroso, hibikilegs, RiderItems.oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item kabukidriver = new item_rider_driver("kabukidriver",ArmorMaterial.DIAMOND, 4,"kabuki", (Item_form_change) henshin_onsa_kabuki, hibikihead, hibikitroso, hibikilegs, RiderItems.oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item toukidriver = new item_rider_driver("toukidriver",ArmorMaterial.DIAMOND, 4,"touki", (Item_form_change) henshin_onsa_touki, hibikihead, hibikitroso, hibikilegs, RiderItems.oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item kiramekidriver = new item_rider_driver("kiramekidriver",ArmorMaterial.DIAMOND, 4,"kirameki", (Item_form_change) henshin_onsa_kirameki, hibikihead, hibikitroso, hibikilegs, RiderItems.oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item nishikidriver = new item_rider_driver("nishikidriver",ArmorMaterial.DIAMOND, 4,"nishiki", (Item_form_change) henshin_onsa_nishiki, hibikihead, hibikitroso, hibikilegs, RiderItems.oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item habatakidriver = new item_rider_driver("habatakidriver",ArmorMaterial.DIAMOND, 4,"habataki", (Item_form_change) henshin_onsa_habataki, hibikihead, hibikitroso, hibikilegs, RiderItems.oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
+	public static Item fubukidriver = new item_rider_driver("fubukidriver",ArmorMaterial.DIAMOND, 4,"fubuki", (Item_form_change) henshin_onibue_fubuki, hibikihead, hibikitroso, hibikilegs, RiderItems.oni_ore).setMaxStackSize(1).setCreativeTab(Tabs.tabhibiki);
 
 	public static Block oni_ore_block = new ore_block("oni_ore_block",Material.ROCK, oni_ore, 2).setHardness(9.9F).setCreativeTab(Tabs.tabhibiki);
 	public static Block oni_ore_hellrock = new ore_block("oni_ore_hellrock",Material.ROCK, oni_orehell, 3).setHardness(9.9F).setCreativeTab(Tabs.tabhibiki);
@@ -1090,27 +1090,27 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item kabutolegs = new item_rider_armor("kabutolegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
 
 
-	public static Item kabuto_rider_belt = new item_rider_driver("kabuto_rider_belt",ArmorMaterial.DIAMOND, 4,"kabuto", (Item_form_change) kabuto_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
-	public static Item gatack_rider_belt = new item_rider_driver("gatack_rider_belt",ArmorMaterial.DIAMOND, 4,"gatack", (Item_form_change) gatack_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
-	public static Item thebee_rider_belt = new item_rider_driver("thebee_rider_belt",ArmorMaterial.DIAMOND, 4,"thebee", (Item_form_change) thebee_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
-	public static Item drake_rider_belt = new item_rider_driver("drake_rider_belt",ArmorMaterial.DIAMOND, 4,"drake", (Item_form_change) drake_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
-	public static Item sasword_rider_belt = new item_rider_driver("sasword_rider_belt",ArmorMaterial.DIAMOND, 4,"sasword", (Item_form_change) sasword_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
-	public static Item kickhopper_rider_belt = new item_rider_driver("kickhopper_rider_belt",ArmorMaterial.DIAMOND, 4,"kickhopper", (Item_form_change) kickhopper_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
-	public static Item puchhopper_rider_belt = new item_rider_driver("puchhopper_rider_belt",ArmorMaterial.DIAMOND, 4,"puchhopper", (Item_form_change) punchhopper_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
-	public static Item dark_kabuto_rider_belt = new item_rider_driver("dark_kabuto_rider_belt",ArmorMaterial.DIAMOND, 4,"dark_kabuto", (Item_form_change) dark_kabuto_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item kabuto_rider_belt = new item_rider_driver("kabuto_rider_belt",ArmorMaterial.DIAMOND, 4,"kabuto", (Item_form_change) kabuto_zecter, kabutohead, kabutotroso, kabutolegs, RiderItems.mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item gatack_rider_belt = new item_rider_driver("gatack_rider_belt",ArmorMaterial.DIAMOND, 4,"gatack", (Item_form_change) gatack_zecter, kabutohead, kabutotroso, kabutolegs, RiderItems.mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item thebee_rider_belt = new item_rider_driver("thebee_rider_belt",ArmorMaterial.DIAMOND, 4,"thebee", (Item_form_change) thebee_zecter, kabutohead, kabutotroso, kabutolegs, RiderItems.mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item drake_rider_belt = new item_rider_driver("drake_rider_belt",ArmorMaterial.DIAMOND, 4,"drake", (Item_form_change) drake_zecter, kabutohead, kabutotroso, kabutolegs, RiderItems.mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item sasword_rider_belt = new item_rider_driver("sasword_rider_belt",ArmorMaterial.DIAMOND, 4,"sasword", (Item_form_change) sasword_zecter, kabutohead, kabutotroso, kabutolegs, RiderItems.mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item kickhopper_rider_belt = new item_rider_driver("kickhopper_rider_belt",ArmorMaterial.DIAMOND, 4,"kickhopper", (Item_form_change) kickhopper_zecter, kabutohead, kabutotroso, kabutolegs, RiderItems.mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item puchhopper_rider_belt = new item_rider_driver("puchhopper_rider_belt",ArmorMaterial.DIAMOND, 4,"puchhopper", (Item_form_change) punchhopper_zecter, kabutohead, kabutotroso, kabutolegs, RiderItems.mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item dark_kabuto_rider_belt = new item_rider_driver("dark_kabuto_rider_belt",ArmorMaterial.DIAMOND, 4,"dark_kabuto", (Item_form_change) dark_kabuto_zecter, kabutohead, kabutotroso, kabutolegs, RiderItems.mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
 
-	public static Item caucasus_rider_belt = new item_rider_driver("caucasus_rider_belt",ArmorMaterial.DIAMOND, 4,"caucasus", (Item_form_change) caucasus_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item caucasus_rider_belt = new item_rider_driver("caucasus_rider_belt",ArmorMaterial.DIAMOND, 4,"caucasus", (Item_form_change) caucasus_zecter, kabutohead, kabutotroso, kabutolegs, RiderItems.mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
 
-	public static Item hercus_rider_belt = new item_rider_driver("hercus_rider_belt",ArmorMaterial.DIAMOND, 4,"hercus", (Item_form_change) hercus_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item hercus_rider_belt = new item_rider_driver("hercus_rider_belt",ArmorMaterial.DIAMOND, 4,"hercus", (Item_form_change) hercus_zecter, kabutohead, kabutotroso, kabutolegs, RiderItems.mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
 
-	public static Item ketaros_rider_belt = new item_rider_driver("ketaros_rider_belt",ArmorMaterial.DIAMOND, 4,"ketaros", (Item_form_change) ketaros_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item ketaros_rider_belt = new item_rider_driver("ketaros_rider_belt",ArmorMaterial.DIAMOND, 4,"ketaros", (Item_form_change) ketaros_zecter, kabutohead, kabutotroso, kabutolegs, RiderItems.mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
 
-	public static Item lady_rider_belt = new item_rider_driver("lady_rider_belt",ArmorMaterial.DIAMOND, 4,"lady", (Item_form_change) lady_zecter, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item lady_rider_belt = new item_rider_driver("lady_rider_belt",ArmorMaterial.DIAMOND, 4,"lady", (Item_form_change) lady_zecter, kabutohead, kabutotroso, kabutolegs, RiderItems.mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
 
-	public static Item zectrooper_belt = new item_rider_driver("zectrooper_belt",ArmorMaterial.DIAMOND, 4,"zectrooper", (Item_form_change) faiz_mission_memory, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
-	public static Item shadow_trooper_belt = new item_rider_driver("shadow_trooper_belt",ArmorMaterial.DIAMOND, 4,"shadow_trooper", (Item_form_change) faiz_mission_memory, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
-	public static Item brightrooper_belt = new item_rider_driver("brightrooper_belt",ArmorMaterial.DIAMOND, 4,"brightrooper", (Item_form_change) faiz_mission_memory, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
-	public static Item neotrooper_belt = new item_rider_driver("neotrooper_belt",ArmorMaterial.DIAMOND, 4,"neotrooper", (Item_form_change) faiz_mission_memory, kabutohead, kabutotroso, kabutolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item zectrooper_belt = new item_rider_driver("zectrooper_belt",ArmorMaterial.DIAMOND, 4,"zectrooper", (Item_form_change) faiz_mission_memory, kabutohead, kabutotroso, kabutolegs, RiderItems.mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item shadow_trooper_belt = new item_rider_driver("shadow_trooper_belt",ArmorMaterial.DIAMOND, 4,"shadow_trooper", (Item_form_change) faiz_mission_memory, kabutohead, kabutotroso, kabutolegs, RiderItems.mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item brightrooper_belt = new item_rider_driver("brightrooper_belt",ArmorMaterial.DIAMOND, 4,"brightrooper", (Item_form_change) faiz_mission_memory, kabutohead, kabutotroso, kabutolegs, RiderItems.mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
+	public static Item neotrooper_belt = new item_rider_driver("neotrooper_belt",ArmorMaterial.DIAMOND, 4,"neotrooper", (Item_form_change) faiz_mission_memory, kabutohead, kabutotroso, kabutolegs, RiderItems.mini_zecter).setMaxStackSize(1).setCreativeTab(Tabs.tabkabuto);
 	
 
 
@@ -1270,16 +1270,16 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item den_olegs = new item_rider_armor("den_olegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, RiderItems.imaginsand).setCreativeTab(Tabs.tabden_o);
 
 	
-	public static Item den_odriver = new item_rider_driver("den_odriver",ArmorMaterial.DIAMOND, 4,"deno", (Item_form_change) rider_ticket_sword, den_ohead, den_otroso, den_olegs).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
+	public static Item den_odriver = new item_rider_driver("den_odriver",ArmorMaterial.DIAMOND, 4,"deno", (Item_form_change) rider_ticket_sword, den_ohead, den_otroso, den_olegs, RiderItems.imaginsand).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
 	
-	public static Item zeronosbelt = new item_rider_driver("zeronosbelt",ArmorMaterial.DIAMOND, 4,"zeronos", (Item_form_change) zeronos_altair_card, den_ohead, den_otroso, den_olegs).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
-	public static Item nega_den_odriver = new item_rider_driver("nega_den_odriver",ArmorMaterial.DIAMOND, 4,"nega_deno", (Item_form_change) rider_ticket_nega, den_ohead, den_otroso, den_olegs).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
-	public static Item newden_obelt = new item_rider_driver("newden_obelt",ArmorMaterial.DIAMOND, 4,"newdeno", (Item_form_change) rider_ticket_strike, den_ohead, den_otroso, den_olegs).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
-	public static Item gaohbelt = new item_rider_driver("gaohbelt",ArmorMaterial.DIAMOND, 4,"gaoh", (Item_form_change) kabuto_zecter, den_ohead, den_otroso, den_olegs).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
-	public static Item yuukibelt_skull = new item_rider_driver("yuukibelt_skull",ArmorMaterial.DIAMOND, 4,"yuuki-skull", (Item_form_change) rider_ticket_yuuki, den_ohead, den_otroso, den_olegs).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
-	public static Item yuukibelt_hijack = new item_rider_driver("yuukibelt_hijack",ArmorMaterial.DIAMOND, 4,"yuuki-hijack", (Item_form_change) rider_ticket_yuuki, den_ohead, den_otroso, den_olegs).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
-	public static Item gden_odriver = new item_rider_driver("gden_odriver",ArmorMaterial.DIAMOND, 4,"gdeno", (Item_form_change) rider_ticket_gaoh, den_ohead, den_otroso, den_olegs).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
-	public static Item pretty_den_odriver = new item_rider_driver("pretty_den_odriver",ArmorMaterial.DIAMOND, 4,"pretty_deno", (Item_form_change) rider_ticket_sword, den_ohead, den_otroso, den_olegs).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
+	public static Item zeronosbelt = new item_rider_driver("zeronosbelt",ArmorMaterial.DIAMOND, 4,"zeronos", (Item_form_change) zeronos_altair_card, den_ohead, den_otroso, den_olegs, RiderItems.imaginsand).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
+	public static Item nega_den_odriver = new item_rider_driver("nega_den_odriver",ArmorMaterial.DIAMOND, 4,"nega_deno", (Item_form_change) rider_ticket_nega, den_ohead, den_otroso, den_olegs, RiderItems.imaginsand).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
+	public static Item newden_obelt = new item_rider_driver("newden_obelt",ArmorMaterial.DIAMOND, 4,"newdeno", (Item_form_change) rider_ticket_strike, den_ohead, den_otroso, den_olegs, RiderItems.imaginsand).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
+	public static Item gaohbelt = new item_rider_driver("gaohbelt",ArmorMaterial.DIAMOND, 4,"gaoh", (Item_form_change) kabuto_zecter, den_ohead, den_otroso, den_olegs, RiderItems.imaginsand).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
+	public static Item yuukibelt_skull = new item_rider_driver("yuukibelt_skull",ArmorMaterial.DIAMOND, 4,"yuuki-skull", (Item_form_change) rider_ticket_yuuki, den_ohead, den_otroso, den_olegs, RiderItems.imaginsand).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
+	public static Item yuukibelt_hijack = new item_rider_driver("yuukibelt_hijack",ArmorMaterial.DIAMOND, 4,"yuuki-hijack", (Item_form_change) rider_ticket_yuuki, den_ohead, den_otroso, den_olegs, RiderItems.imaginsand).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
+	public static Item gden_odriver = new item_rider_driver("gden_odriver",ArmorMaterial.DIAMOND, 4,"gdeno", (Item_form_change) rider_ticket_gaoh, den_ohead, den_otroso, den_olegs, RiderItems.imaginsand).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
+	public static Item pretty_den_odriver = new item_rider_driver("pretty_den_odriver",ArmorMaterial.DIAMOND, 4,"pretty_deno", (Item_form_change) rider_ticket_sword, den_ohead, den_otroso, den_olegs, RiderItems.imaginsand).setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
 	
 	public static Item den_oriderpass = new item_RiderPass("den_oriderpass").setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
 	public static Item den_o_master_pass = new item_RiderPass("den_o_master_pass").setMaxStackSize(1).setCreativeTab(Tabs.tabden_o);
@@ -1381,15 +1381,15 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item kivatroso = new item_rider_armor("kivatroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, fuestle).setCreativeTab(Tabs.tabkiva);
 	public static Item kivalegs = new item_rider_armor("kivalegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, fuestle).setCreativeTab(Tabs.tabkiva);
 	
-	public static Item kivadriver = new item_rider_driver("kivadriver",ArmorMaterial.DIAMOND, 4,"kiva", (Item_form_change) wakeupfuestle, kivahead, kivatroso, kivalegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkiva);
-	public static Item ixa_belt = new item_rider_driver("ixa_belt",ArmorMaterial.DIAMOND, 4,"ixa", (Item_form_change) knucklefuestle, kivahead, kivatroso, kivalegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkiva);
-	public static Item sagarc_belt = new item_rider_driver("sagarc_belt",ArmorMaterial.DIAMOND, 4,"saga", (Item_form_change) sagafuestle, kivahead, kivatroso, kivalegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkiva);
-	public static Item darkkivadriver = new item_rider_driver("darkkivadriver",ArmorMaterial.DIAMOND, 4,"dark_kiva", (Item_form_change) darkwakeupfuestle, kivahead, kivatroso, kivalegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkiva);
-	public static Item newkivadriver = new item_rider_driver("newkivadriver",ArmorMaterial.DIAMOND, 4,"new_kiva", (Item_form_change) newwakeupfuestle, kivahead, kivatroso, kivalegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkiva);
+	public static Item kivadriver = new item_rider_driver("kivadriver",ArmorMaterial.DIAMOND, 4,"kiva", (Item_form_change) wakeupfuestle, kivahead, kivatroso, kivalegs, fuestle).setMaxStackSize(1).setCreativeTab(Tabs.tabkiva);
+	public static Item ixa_belt = new item_rider_driver("ixa_belt",ArmorMaterial.DIAMOND, 4,"ixa", (Item_form_change) knucklefuestle, kivahead, kivatroso, kivalegs, fuestle).setMaxStackSize(1).setCreativeTab(Tabs.tabkiva);
+	public static Item sagarc_belt = new item_rider_driver("sagarc_belt",ArmorMaterial.DIAMOND, 4,"saga", (Item_form_change) sagafuestle, kivahead, kivatroso, kivalegs, fuestle).setMaxStackSize(1).setCreativeTab(Tabs.tabkiva);
+	public static Item darkkivadriver = new item_rider_driver("darkkivadriver",ArmorMaterial.DIAMOND, 4,"dark_kiva", (Item_form_change) darkwakeupfuestle, kivahead, kivatroso, kivalegs, fuestle).setMaxStackSize(1).setCreativeTab(Tabs.tabkiva);
+	public static Item newkivadriver = new item_rider_driver("newkivadriver",ArmorMaterial.DIAMOND, 4,"new_kiva", (Item_form_change) newwakeupfuestle, kivahead, kivatroso, kivalegs, fuestle).setMaxStackSize(1).setCreativeTab(Tabs.tabkiva);
 
-	public static Item arcdriver = new item_rider_driver("arcdriver",ArmorMaterial.DIAMOND, 4,"arc", (Item_form_change) keyfuestle, kivahead, kivatroso, kivalegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkiva);
-	public static Item reydriver = new item_rider_driver("reydriver",ArmorMaterial.DIAMOND, 4,"rey", (Item_form_change) keyfuestle, kivahead, kivatroso, kivalegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkiva);
-	public static Item kivaladriver = new item_rider_driver("kivaladriver",ArmorMaterial.DIAMOND, 4,"kivala", (Item_form_change) keyfuestle, kivahead, kivatroso, kivalegs).setMaxStackSize(1).setCreativeTab(Tabs.tabkiva);
+	public static Item arcdriver = new item_rider_driver("arcdriver",ArmorMaterial.DIAMOND, 4,"arc", (Item_form_change) keyfuestle, kivahead, kivatroso, kivalegs, fuestle).setMaxStackSize(1).setCreativeTab(Tabs.tabkiva);
+	public static Item reydriver = new item_rider_driver("reydriver",ArmorMaterial.DIAMOND, 4,"rey", (Item_form_change) keyfuestle, kivahead, kivatroso, kivalegs, fuestle).setMaxStackSize(1).setCreativeTab(Tabs.tabkiva);
+	public static Item kivaladriver = new item_rider_driver("kivaladriver",ArmorMaterial.DIAMOND, 4,"kivala", (Item_form_change) keyfuestle, kivahead, kivatroso, kivalegs, fuestle).setMaxStackSize(1).setCreativeTab(Tabs.tabkiva);
 
 	public static Block fuestleblock = new ore_block("fuestleblock",Material.ROCK, fuestle, 2).setHardness(9.9F).setCreativeTab(Tabs.tabkiva);
 

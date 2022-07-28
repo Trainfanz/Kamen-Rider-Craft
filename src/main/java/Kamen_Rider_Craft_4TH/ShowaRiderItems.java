@@ -79,29 +79,29 @@ public class ShowaRiderItems {
 	public static Item ichigotroso = new item_rider_armor("ichigotroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	public static Item ichigolegs = new item_rider_armor("ichigolegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 
-	public static Item typhoon_ichigo = new item_rider_driver("typhoon_ichigo",ArmorMaterial.DIAMOND, 4,"ichigo", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_ichigo = new item_rider_driver("typhoon_ichigo",ArmorMaterial.DIAMOND, 4,"ichigo", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	
-	public static Item typhoon_nigo = new item_rider_driver("typhoon_nigo",ArmorMaterial.DIAMOND, 4,"nigo", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_nigo = new item_rider_driver("typhoon_nigo",ArmorMaterial.DIAMOND, 4,"nigo", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	
-	public static Item typhoon_sango = new item_rider_driver("typhoon_sango",ArmorMaterial.DIAMOND, 4,"sango", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_sango = new item_rider_driver("typhoon_sango",ArmorMaterial.DIAMOND, 4,"sango", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	
-	public static Item typhoon_yongo = new item_rider_driver("typhoon_yongo",ArmorMaterial.DIAMOND, 4,"yongo", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_yongo = new item_rider_driver("typhoon_yongo",ArmorMaterial.DIAMOND, 4,"yongo", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 
-	public static Item typhoon_shocker_rider_1 = new item_rider_driver("typhoon_shocker_rider_1",ArmorMaterial.DIAMOND, 4,"shocker_rider_1", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_2 = new item_rider_driver("typhoon_shocker_rider_2",ArmorMaterial.DIAMOND, 4,"shocker_rider_2", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_3 = new item_rider_driver("typhoon_shocker_rider_3",ArmorMaterial.DIAMOND, 4,"shocker_rider_3", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_4 = new item_rider_driver("typhoon_shocker_rider_4",ArmorMaterial.DIAMOND, 4,"shocker_rider_4", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_5 = new item_rider_driver("typhoon_shocker_rider_5",ArmorMaterial.DIAMOND, 4,"shocker_rider_5", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_6 = new item_rider_driver("typhoon_shocker_rider_6",ArmorMaterial.DIAMOND, 4,"shocker_rider_6", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_7 = new item_rider_driver("typhoon_shocker_rider_7",ArmorMaterial.DIAMOND, 4,"shocker_rider_7", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_8 = new item_rider_driver("typhoon_shocker_rider_8",ArmorMaterial.DIAMOND, 4,"shocker_rider_8", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_9 = new item_rider_driver("typhoon_shocker_rider_9",ArmorMaterial.DIAMOND, 4,"shocker_rider_9", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_10 = new item_rider_driver("typhoon_shocker_rider_10",ArmorMaterial.DIAMOND, 4,"shocker_rider_10", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_11 = new item_rider_driver("typhoon_shocker_rider_11",ArmorMaterial.DIAMOND, 4,"shocker_rider_11", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
-	public static Item typhoon_shocker_rider_12 = new item_rider_driver("typhoon_shocker_rider_12",ArmorMaterial.DIAMOND, 4,"shocker_rider_12", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_shocker_rider_1 = new item_rider_driver("typhoon_shocker_rider_1",ArmorMaterial.DIAMOND, 4,"shocker_rider_1", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_shocker_rider_2 = new item_rider_driver("typhoon_shocker_rider_2",ArmorMaterial.DIAMOND, 4,"shocker_rider_2", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_shocker_rider_3 = new item_rider_driver("typhoon_shocker_rider_3",ArmorMaterial.DIAMOND, 4,"shocker_rider_3", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_shocker_rider_4 = new item_rider_driver("typhoon_shocker_rider_4",ArmorMaterial.DIAMOND, 4,"shocker_rider_4", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_shocker_rider_5 = new item_rider_driver("typhoon_shocker_rider_5",ArmorMaterial.DIAMOND, 4,"shocker_rider_5", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_shocker_rider_6 = new item_rider_driver("typhoon_shocker_rider_6",ArmorMaterial.DIAMOND, 4,"shocker_rider_6", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_shocker_rider_7 = new item_rider_driver("typhoon_shocker_rider_7",ArmorMaterial.DIAMOND, 4,"shocker_rider_7", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_shocker_rider_8 = new item_rider_driver("typhoon_shocker_rider_8",ArmorMaterial.DIAMOND, 4,"shocker_rider_8", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_shocker_rider_9 = new item_rider_driver("typhoon_shocker_rider_9",ArmorMaterial.DIAMOND, 4,"shocker_rider_9", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_shocker_rider_10 = new item_rider_driver("typhoon_shocker_rider_10",ArmorMaterial.DIAMOND, 4,"shocker_rider_10", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_shocker_rider_11 = new item_rider_driver("typhoon_shocker_rider_11",ArmorMaterial.DIAMOND, 4,"shocker_rider_11", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item typhoon_shocker_rider_12 = new item_rider_driver("typhoon_shocker_rider_12",ArmorMaterial.DIAMOND, 4,"shocker_rider_12", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 	
 	
-	public static Item nophoon_kamen_norider = new item_rider_driver("nophoon_kamen_norider",ArmorMaterial.DIAMOND, 4,"kamen_norider", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
+	public static Item nophoon_kamen_norider = new item_rider_driver("nophoon_kamen_norider",ArmorMaterial.DIAMOND, 4,"kamen_norider", (Item_form_change) typhoon_core, ichigohead, ichigotroso, ichigolegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabIchigo);
 
 
 
@@ -122,9 +122,9 @@ public class ShowaRiderItems {
 	public static Item v3troso = new item_rider_armor("v3troso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabv3);
 	public static Item v3legs = new item_rider_armor("v3legs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabv3);
 
-	public static Item double_typhoon = new item_rider_driver("double_typhoon",ArmorMaterial.DIAMOND, 4,"v3", (Item_form_change) double_typhoon_core, v3head, v3troso, v3legs).setMaxStackSize(1).setCreativeTab(Tabs.tabv3);
-	public static Item double_typhoon_blue = new item_rider_driver("double_typhoon_blue",ArmorMaterial.DIAMOND, 4,"blue_v3", (Item_form_change) double_typhoon_core, v3head, v3troso, v3legs).setMaxStackSize(1).setCreativeTab(Tabs.tabv3);
-	public static Item riderman_belt = new item_rider_driver("riderman_belt",ArmorMaterial.DIAMOND, 4,"riderman", (Item_form_change) riderman_belt_core, v3head, v3troso, v3legs).setMaxStackSize(1).setCreativeTab(Tabs.tabv3);
+	public static Item double_typhoon = new item_rider_driver("double_typhoon",ArmorMaterial.DIAMOND, 4,"v3", (Item_form_change) double_typhoon_core, v3head, v3troso, v3legs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabv3);
+	public static Item double_typhoon_blue = new item_rider_driver("double_typhoon_blue",ArmorMaterial.DIAMOND, 4,"blue_v3", (Item_form_change) double_typhoon_core, v3head, v3troso, v3legs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabv3);
+	public static Item riderman_belt = new item_rider_driver("riderman_belt",ArmorMaterial.DIAMOND, 4,"riderman", (Item_form_change) riderman_belt_core, v3head, v3troso, v3legs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabv3);
 
 
 	//X
@@ -139,7 +139,7 @@ public class ShowaRiderItems {
 	public static Item xtroso = new item_rider_armor("xtroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabx);
 	public static Item xlegs = new item_rider_armor("xlegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabx);
 
-	public static Item ridol = new item_rider_driver("ridol",ArmorMaterial.DIAMOND, 4,"x", (Item_form_change) ridol_core, xhead, xtroso, xlegs).setMaxStackSize(1).setCreativeTab(Tabs.tabx);
+	public static Item ridol = new item_rider_driver("ridol",ArmorMaterial.DIAMOND, 4,"x", (Item_form_change) ridol_core, xhead, xtroso, xlegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabx);
 
 
 	//Amazon
@@ -152,7 +152,7 @@ public class ShowaRiderItems {
 	public static Item amazontroso = new item_rider_armor("amazontroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabamazon);
 	public static Item amazonlegs = new item_rider_armor("amazonlegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabamazon);
 
-	public static Item condorer = new item_rider_driver("condorer",ArmorMaterial.DIAMOND, 4,"amazon", (Item_form_change) condorer_wheel, amazonhead, amazontroso, amazonlegs).setMaxStackSize(1).setCreativeTab(Tabs.tabamazon);
+	public static Item condorer = new item_rider_driver("condorer",ArmorMaterial.DIAMOND, 4,"amazon", (Item_form_change) condorer_wheel, amazonhead, amazontroso, amazonlegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabamazon);
 
 	public static Item gigi_armlet = new Item_ore("gigi_armlet").setCreativeTab(Tabs.tabamazon);
 	public static Item gaga_armlet = new Item_ore("gaga_armlet").setCreativeTab(Tabs.tabamazon);
@@ -172,7 +172,7 @@ public class ShowaRiderItems {
 	public static Item strongertroso = new item_rider_armor("strongertroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabstronger);
 	public static Item strongerlegs = new item_rider_armor("strongerlegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabstronger);
 
-	public static Item electrer = new item_rider_driver("electrer",ArmorMaterial.DIAMOND, 4,"stronger", (Item_form_change) electrer_core, strongerhead, strongertroso, strongerlegs).setMaxStackSize(1).setCreativeTab(Tabs.tabstronger);
+	public static Item electrer = new item_rider_driver("electrer",ArmorMaterial.DIAMOND, 4,"stronger", (Item_form_change) electrer_core, strongerhead, strongertroso, strongerlegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabstronger);
 
 
 	//SkyRider
@@ -185,7 +185,7 @@ public class ShowaRiderItems {
 	public static Item skyridertroso = new item_rider_armor("skyridertroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabskyrider);
 	public static Item skyriderlegs = new item_rider_armor("skyriderlegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabskyrider);
 
-	public static Item tornado = new item_rider_driver("tornado",ArmorMaterial.DIAMOND, 4,"skyrider", (Item_form_change) tornado_core, skyriderhead, skyridertroso, skyriderlegs).setMaxStackSize(1).setCreativeTab(Tabs.tabskyrider);
+	public static Item tornado = new item_rider_driver("tornado",ArmorMaterial.DIAMOND, 4,"skyrider", (Item_form_change) tornado_core, skyriderhead, skyridertroso, skyriderlegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabskyrider);
 
 
 	//Super 1
@@ -198,7 +198,7 @@ public class ShowaRiderItems {
 	public static Item super_1troso = new item_rider_armor("super_1troso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabsuper_1);
 	public static Item super_1legs = new item_rider_armor("super_1legs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabsuper_1);
 
-	public static Item cyclode = new item_rider_driver("cyclode",ArmorMaterial.DIAMOND, 4,"super1", (Item_form_change) cyclode_core, super_1head, super_1troso, super_1legs).setMaxStackSize(1).setCreativeTab(Tabs.tabsuper_1);
+	public static Item cyclode = new item_rider_driver("cyclode",ArmorMaterial.DIAMOND, 4,"super1", (Item_form_change) cyclode_core, super_1head, super_1troso, super_1legs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabsuper_1);
 
 
 	//ZX
@@ -211,10 +211,10 @@ public class ShowaRiderItems {
 	public static Item zx_troso = new item_rider_armor("zx_troso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabzx);
 	public static Item zx_legs = new item_rider_armor("zx_legs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabzx);
 
-	public static Item zx_belt = new item_rider_driver("zx_belt",ArmorMaterial.DIAMOND, 4,"zx", (Item_form_change) zx_belt_core, zx_head, zx_troso, zx_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabzx);
-	public static Item susanoo_belt = new item_rider_driver("susanoo_belt",ArmorMaterial.DIAMOND, 4,"susanoo", (Item_form_change) zx_belt_core, zx_head, zx_troso, zx_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabzx);
-	public static Item tsukuyomi_belt = new item_rider_driver("tsukuyomi_belt",ArmorMaterial.DIAMOND, 4,"tsukuyomi", (Item_form_change) zx_belt_core, zx_head, zx_troso, zx_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabzx);
-	public static Item amaterasu_belt = new item_rider_driver("amaterasu_belt",ArmorMaterial.DIAMOND, 4,"amaterasu", (Item_form_change) zx_belt_core, zx_head, zx_troso, zx_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabzx);
+	public static Item zx_belt = new item_rider_driver("zx_belt",ArmorMaterial.DIAMOND, 4,"zx", (Item_form_change) zx_belt_core, zx_head, zx_troso, zx_legs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabzx);
+	public static Item susanoo_belt = new item_rider_driver("susanoo_belt",ArmorMaterial.DIAMOND, 4,"susanoo", (Item_form_change) zx_belt_core, zx_head, zx_troso, zx_legs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabzx);
+	public static Item tsukuyomi_belt = new item_rider_driver("tsukuyomi_belt",ArmorMaterial.DIAMOND, 4,"tsukuyomi", (Item_form_change) zx_belt_core, zx_head, zx_troso, zx_legs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabzx);
+	public static Item amaterasu_belt = new item_rider_driver("amaterasu_belt",ArmorMaterial.DIAMOND, 4,"amaterasu", (Item_form_change) zx_belt_core, zx_head, zx_troso, zx_legs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabzx);
 
 
 	//Black
@@ -230,10 +230,10 @@ public class ShowaRiderItems {
 	public static Item black_troso = new item_rider_armor("black_troso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
 	public static Item black_legs = new item_rider_armor("black_legs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
 
-	public static Item king_stone = new item_rider_driver("king_stone",ArmorMaterial.DIAMOND, 4,"black", (Item_form_change) king_stone_core, black_head, black_troso, black_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
-	public static Item king_stone_green = new item_rider_driver("king_stone_green",ArmorMaterial.DIAMOND, 4,"black_green", (Item_form_change)king_stone_core, black_head, black_troso, black_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
-	public static Item king_stone_shadow_moon = new item_rider_driver("king_stone_shadow_moon",ArmorMaterial.DIAMOND, 4,"shadow_moon", (Item_form_change) king_stone_core, black_head, black_troso, black_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
-	public static Item king_stone_red_shadow_moon = new item_rider_driver("king_stone_red_shadow_moon",ArmorMaterial.DIAMOND, 4,"red_shadow_moon", (Item_form_change)king_stone_core, black_head, black_troso, black_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
+	public static Item king_stone = new item_rider_driver("king_stone",ArmorMaterial.DIAMOND, 4,"black", (Item_form_change) king_stone_core, black_head, black_troso, black_legs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
+	public static Item king_stone_green = new item_rider_driver("king_stone_green",ArmorMaterial.DIAMOND, 4,"black_green", (Item_form_change)king_stone_core, black_head, black_troso, black_legs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
+	public static Item king_stone_shadow_moon = new item_rider_driver("king_stone_shadow_moon",ArmorMaterial.DIAMOND, 4,"shadow_moon", (Item_form_change) king_stone_core, black_head, black_troso, black_legs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
+	public static Item king_stone_red_shadow_moon = new item_rider_driver("king_stone_red_shadow_moon",ArmorMaterial.DIAMOND, 4,"red_shadow_moon", (Item_form_change)king_stone_core, black_head, black_troso, black_legs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack);
 
 	//Black RX
 	public static Item revolcane = new ItemBaseSword("revolcane",ToolMaterial.DIAMOND, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
@@ -261,8 +261,8 @@ public class ShowaRiderItems {
 	public static Item black_rx_troso = new item_rider_armor("black_rx_troso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
 	public static Item black_rx_legs = new item_rider_armor("black_rx_legs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
 
-	public static Item sunriser = new item_rider_driver("sunriser",ArmorMaterial.DIAMOND, 4,"black_rx", (Item_form_change) rx_rider, black_rx_head, black_rx_troso, black_rx_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
-	public static Item moonriser = new item_rider_driver("moonriser",ArmorMaterial.DIAMOND, 4,"white_rx", (Item_form_change) rx_rider, black_rx_head, black_rx_troso, black_rx_legs).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
+	public static Item sunriser = new item_rider_driver("sunriser",ArmorMaterial.DIAMOND, 4,"black_rx", (Item_form_change) rx_rider, black_rx_head, black_rx_troso, black_rx_legs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
+	public static Item moonriser = new item_rider_driver("moonriser",ArmorMaterial.DIAMOND, 4,"white_rx", (Item_form_change) rx_rider, black_rx_head, black_rx_troso, black_rx_legs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_rx);
 
 	public static Item king_stone_split = new Item_ore("king_stone_split").setCreativeTab(Tabs.tabblack_rx);
 
@@ -280,7 +280,7 @@ public class ShowaRiderItems {
 	public static Item shintroso = new item_rider_armor("shintroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabshin);
 	public static Item shinlegs = new item_rider_armor("shinlegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabshin);
 
-	public static Item grasshopper_dna = new item_rider_driver("grasshopper_dna",ArmorMaterial.DIAMOND, 4,"shin", (Item_form_change) shin_stone, shinhead, shintroso, shinlegs).belt(true).setMaxStackSize(1).setCreativeTab(Tabs.tabshin);
+	public static Item grasshopper_dna = new item_rider_driver("grasshopper_dna",ArmorMaterial.DIAMOND, 4,"shin", (Item_form_change) shin_stone, shinhead, shintroso, shinlegs, rider_circuit).belt(true).setMaxStackSize(1).setCreativeTab(Tabs.tabshin);
 
 
 	//ZO
@@ -294,7 +294,7 @@ public class ShowaRiderItems {
 	public static Item zotroso = new item_rider_armor("zotroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabzo);
 	public static Item zolegs = new item_rider_armor("zolegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabzo);
 
-	public static Item zo_core = new item_rider_driver("zo_core",ArmorMaterial.DIAMOND, 4,"zo", (Item_form_change) zo_stone, zohead, zotroso, zolegs).belt(true).setMaxStackSize(1).setCreativeTab(Tabs.tabzo);
+	public static Item zo_core = new item_rider_driver("zo_core",ArmorMaterial.DIAMOND, 4,"zo", (Item_form_change) zo_stone, zohead, zotroso, zolegs, rider_circuit).belt(true).setMaxStackSize(1).setCreativeTab(Tabs.tabzo);
 
 
 
@@ -308,7 +308,7 @@ public class ShowaRiderItems {
 	public static Item jtroso = new item_rider_armor("jtroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabj);
 	public static Item jlegs = new item_rider_armor("jlegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabj);
 
-	public static Item j_spirit = new item_rider_driver("j_spirit",ArmorMaterial.DIAMOND, 4,"j", (Item_form_change) j_stone, jhead, jtroso, jlegs).belt(true).setMaxStackSize(1).setCreativeTab(Tabs.tabj);
+	public static Item j_spirit = new item_rider_driver("j_spirit",ArmorMaterial.DIAMOND, 4,"j", (Item_form_change) j_stone, jhead, jtroso, jlegs, rider_circuit).belt(true).setMaxStackSize(1).setCreativeTab(Tabs.tabj);
 
 
 
@@ -358,7 +358,7 @@ public class ShowaRiderItems {
 	public static Item gtroso = new item_rider_armor("gtroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabG);
 	public static Item glegs = new item_rider_armor("glegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabG);
 
-	public static Item g_belt = new item_rider_driver("g_belt",ArmorMaterial.DIAMOND, 4,"kamen_rider_g", (Item_form_change) goro_wine_bottle, ghead, gtroso, glegs).setMaxStackSize(1).setCreativeTab(Tabs.tabG);
+	public static Item g_belt = new item_rider_driver("g_belt",ArmorMaterial.DIAMOND, 4,"kamen_rider_g", (Item_form_change) goro_wine_bottle, ghead, gtroso, glegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabG);
 
 
 	//GoRider

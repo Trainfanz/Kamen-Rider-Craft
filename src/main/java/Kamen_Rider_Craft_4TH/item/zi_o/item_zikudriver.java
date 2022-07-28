@@ -47,7 +47,7 @@ public class item_zikudriver extends item_rider_driver
 
 	public item_zikudriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, String rider, int driver)
 	{
-		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.zi_ohead, RiderItems.zi_otroso, RiderItems.zi_olegs);
+		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.zi_ohead, RiderItems.zi_otroso, RiderItems.zi_olegs, RiderItems.blank_watch);
 		this.material = par2EnumArmorMaterial;
 		par2EnumArmorMaterial.getDamageReductionAmount(EntityEquipmentSlot.FEET);
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(EntityEquipmentSlot.FEET));
@@ -538,11 +538,6 @@ public class item_zikudriver extends item_rider_driver
 			itemstack.setTagCompound(new NBTTagCompound());
 		}
 		itemstack.getTagCompound().setInteger("seed", flag);
-	}
-	
-	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
-	{
-		return RiderItems.blank_watch == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 }
 

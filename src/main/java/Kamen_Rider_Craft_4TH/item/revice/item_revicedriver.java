@@ -53,7 +53,7 @@ public class item_revicedriver extends item_rider_driver
 
 	public item_revicedriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, String rider, int driver)
 	{
-		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,ReiwaRiderItems.revicehead, ReiwaRiderItems.revicetroso, ReiwaRiderItems.revicelegs);
+		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,ReiwaRiderItems.revicehead, ReiwaRiderItems.revicetroso, ReiwaRiderItems.revicelegs,ReiwaRiderItems.proto_vistamp);
 		this.material = par2EnumArmorMaterial;
 		par2EnumArmorMaterial.getDamageReductionAmount(EntityEquipmentSlot.FEET);
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(EntityEquipmentSlot.FEET));
@@ -463,11 +463,6 @@ public class item_revicedriver extends item_rider_driver
 			itemstack.setTagCompound(new NBTTagCompound());
 		}
 		itemstack.getTagCompound().setInteger("seed", flag);
-	}
-
-	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
-	{
-		return ReiwaRiderItems.proto_vistamp == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 }
 

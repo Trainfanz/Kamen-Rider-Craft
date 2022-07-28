@@ -16,13 +16,8 @@ public class item_agitodriver extends item_rider_driver implements IHasModel
 	public String Rider;
 
 	public item_agitodriver (String name, ArmorMaterial par2EnumArmorMaterial, int par3, String rider, Item_form_change baseFormItem) {
-		super(name, par2EnumArmorMaterial, par3, rider,baseFormItem, RiderItems.agitohead, RiderItems.agitotroso, RiderItems.agitolegs);
+		super(name, par2EnumArmorMaterial, par3, rider,baseFormItem, RiderItems.agitohead, RiderItems.agitotroso, RiderItems.agitolegs, RiderItems.agito_of_seed);
 	}
-	
-    public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
-    {
-    	return RiderItems.agito_of_seed == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
-    }
 
 
 /**	@Override

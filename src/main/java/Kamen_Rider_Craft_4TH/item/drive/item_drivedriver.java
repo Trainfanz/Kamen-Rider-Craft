@@ -66,7 +66,7 @@ public class item_drivedriver extends item_rider_driver
 
 	public item_drivedriver (String name,ArmorMaterial par2EnumArmorMaterial,String rider)
 	{
-		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.drivehead, RiderItems.drivetroso, RiderItems.drivelegs);
+		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.drivehead, RiderItems.drivetroso, RiderItems.drivelegs, RiderItems.proto_speedshift);
 	}
 
 	@Override
@@ -659,11 +659,6 @@ public  String getTexture(Entity entity, int num,String ext)
 static int[] getMaxDamageArray()
 {
 	return maxDamageArray;
-}
-
-public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
-{
-	return RiderItems.proto_speedshift == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 }
 
 

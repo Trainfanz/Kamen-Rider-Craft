@@ -13,6 +13,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.EntityLivingBase;
@@ -23,6 +24,7 @@ import net.minecraft.entity.projectile.EntityArrow;
 import net.minecraft.entity.projectile.EntitySmallFireball;
 import net.minecraft.entity.projectile.EntityWitherSkull;
 import net.minecraft.init.Blocks;
+import net.minecraft.init.Enchantments;
 import net.minecraft.init.Items;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.EnumAction;
@@ -116,34 +118,51 @@ public class Item_dienddriver extends ItemBow  implements IHasModel
 
 			if (!worldIn.isRemote)
 			{
-				
-				
-		    		
-		    	        ItemStack itemstack = playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET);
+					ItemStack itemstack = playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET);
 
-		    	        if (itemstack.isEmpty())
-		    	        {
-		    	        	//playerIn.setCurrentItemOrArmor(1, new ItemStack(RiderItems.break_gunner_2));
-		    	        	  playerIn.setItemStackToSlot(EntityEquipmentSlot.FEET,  new ItemStack(RiderItems.dienddriver));
-		    	           
-		    	        }
-		    		else{
-
+					if (itemstack.isEmpty())
+					{
+						playerIn.setItemStackToSlot(EntityEquipmentSlot.FEET,  new ItemStack(RiderItems.diend_driver));
+					}
+    	        
 					Vec3d look =  playerIn.getLookVec();
 					ItemArrow itemarrow = (ItemArrow) Items.ARROW;
 					EntityArrow fireball = itemarrow.createArrow(worldIn, new ItemStack(Items.ARROW), playerIn);
-
-					fireball.setPosition(playerIn.posX + look.x * 1.6,playerIn.posY + 1,playerIn.posZ + look.z * 1.6);
-
+					fireball.shoot(playerIn, playerIn.rotationPitch, playerIn.rotationYaw, 0.0F, 3.0F, 1.0F);
 					fireball.motionX = look.x*3;
 					fireball.motionY = look.y*3;
 					fireball.motionZ = look.z*3;
 					fireball.pickupStatus= EntityArrow.PickupStatus.DISALLOWED;
+					fireball.hasNoGravity();
 
+                    int j = EnchantmentHelper.getEnchantmentLevel(Enchantments.POWER, stack);
 
+                    if (j > 0)
+                    {
+                    	fireball.setDamage(fireball.getDamage() + (double)j * 0.5D + 0.5D);
+                    }
+
+                    int k = EnchantmentHelper.getEnchantmentLevel(Enchantments.PUNCH, stack);
+
+                    if (k > 0)
+                    {
+                    	fireball.setKnockbackStrength(k);
+                    }
+
+                    if (EnchantmentHelper.getEnchantmentLevel(Enchantments.FLAME, stack) > 0)
+                    {
+                    	fireball.setFire(100);
+                    }
+
+					int K = (int) this.attackDamage;
+					fireball.setDamage(fireball.getDamage() + (double)K * 0.5D + 0.5D);
+					fireball.setKnockbackStrength(K);
+					
 					worldIn.spawnEntity(fireball);
-		    		}
-		    	        }
+					if (! playerIn.capabilities.isCreativeMode){
+					
+				}
+			}
 
 			playerIn.addStat(StatList.getObjectUseStats(this));
 		}
