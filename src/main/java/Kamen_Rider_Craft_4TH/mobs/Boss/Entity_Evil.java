@@ -146,6 +146,9 @@ public class Entity_Evil extends EntityBossBase
 			case 0:
 				this.dropItem(ReiwaRiderItems.two_sidriver_evil, 1);
 				break;
+			case 1:
+				this.dropItem(ReiwaRiderItems.evil_blade, 1);
+				break;
 			}
 		}
 	}

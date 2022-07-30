@@ -50,10 +50,11 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 	public Item HEAD;
 	public Item TORSO;
 	public Item LEGS;
+	private final Item base;   
 
 	private boolean belt=false;
 
-	public item_rider_driver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, String rider,Item_form_change baseFormItem,Item head,Item torso,Item legs)
+	public item_rider_driver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, String rider,Item_form_change baseFormItem,Item head,Item torso,Item legs, Item item)
 	{
 		super(par2EnumArmorMaterial, par3, EntityEquipmentSlot.FEET);
 		this.material = par2EnumArmorMaterial;
@@ -68,6 +69,7 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 		HEAD=head;
 		TORSO=torso;
 		LEGS=legs;
+		base = item;
 
 	}
 
@@ -281,6 +283,6 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 
 	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
 	{
-		return ShowaRiderItems.blanknoitem == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+		return base == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 }

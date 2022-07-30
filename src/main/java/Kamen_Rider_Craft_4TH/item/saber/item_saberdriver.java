@@ -66,7 +66,7 @@ public class item_saberdriver extends item_rider_driver
 	public item_saberdriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, String rider,int book_l,int book_m, int book_r)
 	{
 		
-		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,ReiwaRiderItems.saberhead, ReiwaRiderItems.sabertroso, ReiwaRiderItems.saberlegs);
+		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,ReiwaRiderItems.saberhead, ReiwaRiderItems.sabertroso, ReiwaRiderItems.saberlegs, ReiwaRiderItems.blank_wonder_ride_book);
 
 		BOOK_L = book_l;
 		BOOK_M = book_m;
@@ -648,11 +648,5 @@ public class item_saberdriver extends item_rider_driver
 		}
 
 
-	}
-
-	
-	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
-	{
-		return ReiwaRiderItems.blank_wonder_ride_book == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 }

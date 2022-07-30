@@ -56,7 +56,7 @@ public class item_ghostdriver extends item_rider_driver
 
 	public item_ghostdriver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, int par4, String rider, String lock, int driver)
 	{
-		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.ghosthead, RiderItems.ghosttroso, RiderItems.ghostlegs);
+		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.ghosthead, RiderItems.ghosttroso, RiderItems.ghostlegs, RiderItems.ghost_icons);
 		this.material = par2EnumArmorMaterial;
 		par2EnumArmorMaterial.getDamageReductionAmount(EntityEquipmentSlot.FEET);
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(EntityEquipmentSlot.FEET));
@@ -493,11 +493,6 @@ public class item_ghostdriver extends item_rider_driver
 	static int[] getMaxDamageArray()
 	{
 		return maxDamageArray;
-	}
-	
-	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
-	{
-		return RiderItems.ghost_icons == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 
 

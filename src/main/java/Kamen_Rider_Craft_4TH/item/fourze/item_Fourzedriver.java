@@ -70,7 +70,7 @@ public class item_Fourzedriver extends item_rider_driver
 
 	public item_Fourzedriver (String name,ArmorMaterial par2EnumArmorMaterial,String rider)
 	{
-		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.Fourzehead, RiderItems.Fourzetroso, RiderItems.Fourzelegs);
+		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.Fourzehead, RiderItems.Fourzetroso, RiderItems.Fourzelegs, RiderItems.astroswitch);
 		this.material = par2EnumArmorMaterial;
 		par2EnumArmorMaterial.getDamageReductionAmount(EntityEquipmentSlot.FEET);
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(EntityEquipmentSlot.FEET));
@@ -619,11 +619,6 @@ public class item_Fourzedriver extends item_rider_driver
 	static int[] getMaxDamageArray()
 	{
 		return maxDamageArray;
-	}
-
-	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
-	{
-		return RiderItems.astroswitch == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 
 }

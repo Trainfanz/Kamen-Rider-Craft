@@ -52,7 +52,7 @@ public class item_wizarddriver extends item_rider_driver
 
 	public item_wizarddriver (String name,ArmorMaterial par2EnumArmorMaterial,String rider)
 	{
-		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.wizardhead, RiderItems.wizardtroso, RiderItems.wizardlegs);
+		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.wizardhead, RiderItems.wizardtroso, RiderItems.wizardlegs, RiderItems.wizardgem);
 		this.material = par2EnumArmorMaterial;
 		par2EnumArmorMaterial.getDamageReductionAmount(EntityEquipmentSlot.FEET);
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(EntityEquipmentSlot.FEET));
@@ -453,11 +453,6 @@ public class item_wizarddriver extends item_rider_driver
 	static int[] getMaxDamageArray()
 	{
 		return maxDamageArray;
-	}
-	
-	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
-	{
-		return RiderItems.wizardgem == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 
 

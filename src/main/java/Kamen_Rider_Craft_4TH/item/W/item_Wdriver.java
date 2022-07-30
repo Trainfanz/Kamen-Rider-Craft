@@ -50,7 +50,7 @@ public class item_Wdriver extends item_rider_driver
 
 	public item_Wdriver (String name,ArmorMaterial par2EnumArmorMaterial, String rider)
 	{
-		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.whead, RiderItems.wtroso, RiderItems.wlegs);
+		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,RiderItems.whead, RiderItems.wtroso, RiderItems.wlegs, RiderItems.gaiamemory);
 
 		this.material = par2EnumArmorMaterial;
 		par2EnumArmorMaterial.getDamageReductionAmount(EntityEquipmentSlot.FEET);
@@ -404,10 +404,5 @@ public class item_Wdriver extends item_rider_driver
 	static int[] getMaxDamageArray()
 	{
 		return maxDamageArray;
-	}
-
-	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
-	{
-		return RiderItems.gaiamemory == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 	}
 }

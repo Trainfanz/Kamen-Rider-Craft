@@ -167,7 +167,7 @@ public class item_rider_armor extends ItemArmor  implements IHasModel
 
 			public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
 			{
-				return ShowaRiderItems.rider_circuit == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
+				return base == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
 			}
 
 			@Override

@@ -17,11 +17,6 @@ public class item_GoRiderTyphoon extends item_rider_driver implements IHasModel
 	public String Rider;
 
 	public item_GoRiderTyphoon (String name, ArmorMaterial par2EnumArmorMaterial, int par3, String rider, Item_form_change baseFormItem) {
-		super(name, par2EnumArmorMaterial, par3, rider,baseFormItem, ShowaRiderItems.akariderhead, ShowaRiderItems.akaridertroso, ShowaRiderItems.akariderlegs);
+		super(name, par2EnumArmorMaterial, par3, rider,baseFormItem, ShowaRiderItems.akariderhead, ShowaRiderItems.akaridertroso, ShowaRiderItems.akariderlegs, ShowaRiderItems.rider_circuit);
 	}
-	
-    public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) 
-    {
-    	return ShowaRiderItems.rider_circuit == repair.getItem() ? true : super.getIsRepairable(toRepair, repair);
-    }
 }
