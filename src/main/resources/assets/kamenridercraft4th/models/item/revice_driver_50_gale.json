@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "kamenridercraft4th:items/revice_driver",
-		"1": "kamenridercraft4th:items/revice_driver_rex",
+		"1": "kamenridercraft4th:items/revice_driver_50_gale",
 		"particle": "kamenridercraft4th:items/revice_driver"
 	},
 	"elements": [
@@ -215,10 +215,22 @@
 			"to": [5, 11, 12],
 			"faces": {
 				"north": {"uv": [11, 3, 15, 5], "rotation": 180, "texture": "#1"},
-				"east": {"uv": [16, 4, 13, 6], "texture": "#1"},
+				"east": {"uv": [16, 11, 13, 9], "rotation": 180, "texture": "#1"},
 				"south": {"uv": [11, 4, 15, 6], "texture": "#1"},
-				"west": {"uv": [13, 4, 16, 6], "texture": "#1"},
+				"west": {"uv": [13, 11, 16, 9], "rotation": 180, "texture": "#1"},
 				"up": {"uv": [11, 2, 15, 5], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [15, 5, 16, 6], "texture": "#1"}
+			}
+		},
+		{
+			"from": [2, 9, 12],
+			"to": [4, 11, 13],
+			"faces": {
+				"north": {"uv": [11, 3, 15, 5], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [16, 4, 15, 6], "texture": "#1"},
+				"south": {"uv": [12, 4, 14, 6], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [15, 5, 16, 7], "texture": "#1"},
+				"up": {"uv": [12, 5, 14, 6], "rotation": 180, "texture": "#1"},
 				"down": {"uv": [15, 5, 16, 6], "texture": "#1"}
 			}
 		},
@@ -227,10 +239,10 @@
 			"to": [4.5, 12, 11],
 			"faces": {
 				"north": {"uv": [11, 0, 14, 1], "rotation": 180, "texture": "#1"},
-				"east": {"uv": [12, 1, 13, 3], "rotation": 270, "texture": "#1"},
-				"south": {"uv": [11, 3, 14, 4], "texture": "#1"},
-				"west": {"uv": [13, 1, 14, 3], "rotation": 90, "texture": "#1"},
-				"up": {"uv": [12, 1, 15, 3], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [11, 0, 12, 2], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [11, 1, 14, 2], "texture": "#1"},
+				"west": {"uv": [13, 0, 14, 2], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [11, 0, 14, 2], "rotation": 180, "texture": "#1"},
 				"down": {"uv": [1, 2, 2, 3], "texture": "#1"}
 			}
 		},
@@ -239,9 +251,9 @@
 			"to": [5, 9, 13],
 			"faces": {
 				"north": {"uv": [1, 1, 5, 2], "rotation": 180, "texture": "#1"},
-				"east": {"uv": [0, 2, 1, 6], "rotation": 270, "texture": "#1"},
+				"east": {"uv": [0, 2, 1, 6], "texture": "#1"},
 				"south": {"uv": [1, 2, 5, 6], "texture": "#1"},
-				"west": {"uv": [5, 2, 6, 6], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [5, 2, 6, 6], "texture": "#1"},
 				"up": {"uv": [11, 6, 15, 7], "texture": "#1"},
 				"down": {"uv": [1, 6, 5, 7], "texture": "#1"}
 			}
@@ -279,7 +291,7 @@
 				"south": {"uv": [0, 8, 1, 11], "texture": "#1"},
 				"west": {"uv": [5, 11, 6, 8], "rotation": 180, "texture": "#1"},
 				"up": {"uv": [0, 6, 1, 7], "rotation": 270, "texture": "#1"},
-				"down": {"uv": [15, 1, 14, 5], "texture": "#1"}
+				"down": {"uv": [16, 0, 15, 4], "texture": "#1"}
 			}
 		}
 	],
@@ -306,110 +318,5 @@
 			"rotation": [0, -180, 0],
 			"translation": [0, 0, -1]
 		}
-	},
-    "overrides": [
-       
-        {
-            "predicate": {
-                "form": 1
-            },
-            "model": "kamenridercraft4th:item/revice_driver_barid_rex"
-        }, {
-            "predicate": {
-                "form": 2
-            },
-            "model": "kamenridercraft4th:item/revice_driver_volcano"
-        }, {
-            "predicate": {
-                "form": 3
-            },
-            "model": "kamenridercraft4th:item/revice_driver_rolling"
-        }, {
-            "predicate": {
-                "form": 4
-            },
-            "model": "kamenridercraft4th:item/revice_driver_thunder_gale"
-        }, {
-            "predicate": {
-                "form": 5
-            },
-            "model": "kamenridercraft4th:item/revice_driver_giffard_rex"
-        },{
-            "predicate": {
-                "pull": 1
-            },
-            "model": "kamenridercraft4th:item/revice_driver_eagle"
-        }, {
-            "predicate": {
-                "pull": 2
-            },
-            "model": "kamenridercraft4th:item/revice_driver_mammoth"
-        }, {
-            "predicate": {
-                "pull": 3
-            },
-            "model": "kamenridercraft4th:item/revice_driver_megalodon"
-        }, {
-            "predicate": {
-                "pull": 4
-            },
-            "model": "kamenridercraft4th:item/revice_driver_ptera"
-        }, {
-            "predicate": {
-                "pull": 5
-            },
-            "model": "kamenridercraft4th:item/revice_driver_lion"
-        }, {
-            "predicate": {
-                "pull": 6
-            },
-            "model": "kamenridercraft4th:item/revice_driver_jackal"
-        }, {
-            "predicate": {
-                "pull": 7
-            },
-            "model": "kamenridercraft4th:item/revice_driver_kong"
-        }, {
-            "predicate": {
-                "pull": 8
-            },
-            "model": "kamenridercraft4th:item/revice_driver_kamakiri"
-        }, {
-            "predicate": {
-                "pull": 9
-            },
-            "model": "kamenridercraft4th:item/revice_driver_brachio"
-        }, {
-            "predicate": {
-                "pull": 17
-            },
-            "model": "kamenridercraft4th:item/revice_driver_condor"
-        }, {
-            "predicate": {
-                "pull": 19
-            },
-            "model": "kamenridercraft4th:item/revice_driver_white_leo"
-        }, {
-            "predicate": {
-                "pull": 20
-            },
-            "model": "kamenridercraft4th:item/revice_driver_quetzalcoatlus"
-        }, {
-            "predicate": {
-                "pull": 21
-            },
-            "model": "kamenridercraft4th:item/revice_driver_neo_batta"
-        }, {
-            "predicate": {
-                "pull": 22
-            },
-            "model": "kamenridercraft4th:item/revice_driver_kangaroo"
-        }, {
-            "predicate": {
-                "pull": 27
-            },
-            "model": "kamenridercraft4th:item/revice_driver_50_gale"
-        }
-    ]
+	}
 }
-	

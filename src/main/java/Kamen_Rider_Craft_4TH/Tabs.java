@@ -573,6 +573,8 @@ public class Tabs {
 			return new ItemStack(ReiwaRiderItems.saberhead);
 		}
 	};
+
+	
 	public static CreativeTabs tabrevice = new CreativeTabs("tabrevice")
 	{
 		@SideOnly(Side.CLIENT)
@@ -583,6 +585,14 @@ public class Tabs {
 		@Override
 		public ItemStack createIcon() {
 			return new ItemStack(ReiwaRiderItems.revicehead);
+		}
+	};
+	public static CreativeTabs tabgeats = new CreativeTabs("tabgeats")
+	{
+		
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(ReiwaRiderItems.geatshead);
 		}
 	};
 	public static CreativeTabs tabamazons = new CreativeTabs("tabamazons")
