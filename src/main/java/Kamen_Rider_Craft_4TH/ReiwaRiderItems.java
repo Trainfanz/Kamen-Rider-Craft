@@ -542,10 +542,14 @@ public class ReiwaRiderItems {
 	public static Item turtle_vistamp = new Item_Vistamps(15,"turtle_vistamp").AddToVistampBar(3).setCreativeTab(Tabs.tabrevice);
 	public static Item kujaku_vistamp = new Item_Vistamps("kujaku_vistamp").AddToVistampBar(3).setCreativeTab(Tabs.tabrevice);
 	public static Item hashibiroko_vistamp = new Item_Vistamps("hashibiroko_vistamp").AddToVistampBar(3).setCreativeTab(Tabs.tabrevice);
-		
+	public static Item king_cobra_vistamp = new Item_Vistamps(28,"king_cobra_vistamp").AddJeanneCanUse().setCreativeTab(Tabs.tabrevice);	
+	
 	public static Item kabuto_vistamp = new Item_Vistamps("kabuto_vistamp").setCreativeTab(Tabs.tabrevice);
 	
 	public static Item kuwagata_vistamp = new Item_Vistamps("kuwagata_vistamp").setCreativeTab(Tabs.tabrevice);
+	
+	public static Item hercules_vistamp = new Item_Vistamps("hercules_vistamp").setCreativeTab(Tabs.tabrevice);
+	
 	
 	public static Item queen_bee_vistamp = new Item_Vistamps("queen_bee_vistamp").setCreativeTab(Tabs.tabrevice);
 	public static Item buffalo_vistamp = new Item_Vistamps("buffalo_vistamp").setCreativeTab(Tabs.tabrevice);

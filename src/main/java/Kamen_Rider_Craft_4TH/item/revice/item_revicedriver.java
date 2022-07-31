@@ -67,7 +67,7 @@ public class item_revicedriver extends item_rider_driver
 	            @SideOnly(Side.CLIENT)
 	            public float apply(ItemStack stack, @Nullable World worldIn, @Nullable EntityLivingBase entityIn)
 	            {
-	      		  if (stack.getItem()== ReiwaRiderItems.revice_driver){
+	      		  if (stack.getItem()== ReiwaRiderItems.revice_driver||stack.getItem()== ReiwaRiderItems.libera_driver){
 	            	
 	            	if (!stack.hasTagCompound())
 	        		{

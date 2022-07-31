@@ -45,7 +45,7 @@ public class Item_Vistamps extends Item implements IHasModel
 	
 	public static String[] ARMS= new String[] {"base","eagle","mammoth","megalodon","ptera","lion","jackal","kong","kamakiri","brachio","kajiki"
 			,"bat","spider","batta","mogura","turtle","scorpion","condor","cobra","white_leo","quetzalcoatlus","neo_batta","kangaroo","kabuto","kuwagata","queen_bee"
-			,"hercules","50","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""};
+			,"hercules","50","king_cobra","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""};
 
 
 
@@ -140,7 +140,8 @@ public class Item_Vistamps extends Item implements IHasModel
 
 			
 					if (CanReviUse==true&belt.Rider=="revi"||CanViceUse==true&belt.Rider=="vice"
-							||CanEvilUse==true&belt.Rider=="evil"||CanLiveUse==true&belt.Rider=="live"){
+							||CanEvilUse==true&belt.Rider=="evil"||CanLiveUse==true&belt.Rider=="live"
+							||CanJeanneUse==true&belt.Rider=="jeanne"){
 
 						item_revicedriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
 						item_revicedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),setBase, "1");			
