@@ -497,7 +497,9 @@ public class ReiwaRiderItems {
 	public static Item week_endriver = new item_revicedriver("week_endriver",ArmorMaterial.DIAMOND, 4, "aguilera",25).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	
 	public static Item chimera_driver = new item_revicedriver("chimera_driver",ArmorMaterial.DIAMOND, 4, "chimera",0).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
-	
+	public static Item chimera_driver_daimon = new item_revicedriver("chimera_driver_daimon",ArmorMaterial.DIAMOND, 4, "daimon",0).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	public static Item juuga_driver = new item_revicedriver("juuga_driver",ArmorMaterial.DIAMOND, 4, "juuga",0).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+
 	
 	public static Item cyclotron_driver = new item_revicedriver("cyclotron_driver",ArmorMaterial.DIAMOND, 4, "century",0).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item cyclotron_driver_break = new item_revicedriver("cyclotron_driver_break",ArmorMaterial.DIAMOND, 4, "century_break",0).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
