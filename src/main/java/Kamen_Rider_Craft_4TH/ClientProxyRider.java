@@ -143,6 +143,7 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_hard_guardian;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_knight_soldier;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_magiadodo_chick;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_needle_smash;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_neotrooper;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_shadow_trooper;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_trilobite_magia;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_yummy;
@@ -239,7 +240,7 @@ public class ClientProxyRider extends CommonProxyRider
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_zectrooper.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/zectrooper.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_shadow_trooper.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/zectrooper.png"));
-		
+		RenderingRegistry.registerEntityRenderingHandler(Entity_neotrooper.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/zectrooper.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_gaoh.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/gaoh.png"));
 		

@@ -3138,15 +3138,25 @@ item.revicetroso.name=Revice Chestplate
 item.revicelegs.name=Revice Leggings
         
 item.revice_driver.name=Revice Driver       
-item.vice_belt.name=Buddy Buckle(Vice)    
+item.vice_belt.name=Buddy Buckle (Vice)    
 
-item.two_sidriver_evil.name=Two Sidriver(Evil)
-item.two_sidriver_live.name=Two Sidriver(Live)
+item.two_sidriver_evil.name=Two Sidriver (Evil)
+item.two_sidriver_live.name=Two Sidriver (Live)
 item.demons_driver.name=Demons Driver
 item.libera_driver.name=Libera Driver
 item.vail_driver.name=Vail Driver
 item.over_demons_driver.name=Demons Driver (Over Demons)
 item.week_endriver.name=Week Endriver
+
+item.demons_driver_demons_trooper_a.name=Demons Driver (Trooper a)
+item.demons_driver_demons_trooper_b.name=Demons Driver (Trooper b)
+item.destream_driver.name=Destream Driver
+item.vail_belt.name=Crimson Vail Belt
+item.chimera_driver.name=Chimera Driver (Chimera)
+item.chimera_driver_daimon.name=Chimera Driver (Daimon)
+item.juuga_driver.name=Juuga Driver
+item.cyclotron_driver.name=Cyclotron Driver
+item.cyclotron_driver_break.name=Cyclotron Driver (Break)
     
 item.rex_vistamp.name=Rex Vistamp
 item.barid_rex_vistamp_closed.name=Barid Rex Vistamp (Incomplete)
@@ -3216,7 +3226,7 @@ item.mammoth_vistamp_china.name=Mammoth Vistamp (Chinese Exclusive)
 item.telemag_rex_vistamp.name=Rex Vistamp (Glitter)
 item.giff_junior_vistamp.name=Giff Junior Vistamp
            
-item.proto_vistamp.name=Proto Vistamp
+item.proto_vistamp.name=Blank Vistamp
     
 item.oblivion_stamp.name=Oblivian Stamp
 item.deadman_stamp.name=Deadman Stamp

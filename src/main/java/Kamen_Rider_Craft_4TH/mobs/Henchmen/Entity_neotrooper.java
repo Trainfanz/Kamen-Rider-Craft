@@ -52,15 +52,15 @@ import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.DifficultyInstance;
 import net.minecraft.world.World;
 
-public class Entity_shadow_trooper extends Entity_base_henchmen
+public class Entity_neotrooper extends Entity_base_henchmen
 {
-	public Entity_shadow_trooper(World par1World)
+	public Entity_neotrooper(World par1World)
 	{
 		super(par1World);
 		this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND,new ItemStack(RiderItems.machinegun_blade));
 		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.kabutotroso));
 		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.kabutohead));
-		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(RiderItems.shadow_trooper_belt));
+		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(RiderItems.neotrooper_belt));
 		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.kabutolegs));
 	}
 
@@ -81,14 +81,13 @@ public class Entity_shadow_trooper extends Entity_base_henchmen
 	public void onDeath(DamageSource cause)
 	{
 		
-		//gatack_zecter,kickhopper_zecter,punchhopper_zecter,dark_kabuto_zecter,caucasus_zecter,hercus_zecter,ketaros_zecter
-		
+
 		if (!this.world.isRemote){
 			this.dropItem(RiderItems.mini_zecter, 3);
 			switch (this.rand.nextInt(4))
 			{
 			case 0:
-				this.dropItem(RiderItems.gatack_zecter, 1);
+				this.dropItem(RiderItems.unfinished_kabutick_zecter, 1);
 				break;
 			
 				
@@ -99,13 +98,13 @@ public class Entity_shadow_trooper extends Entity_base_henchmen
 		switch (this.rand.nextInt(25))
 		{
 		case 1:
-			this.dropItem(RiderItems.kickhopper_zecter, 1);
+			this.dropItem(RiderItems.perfectthebee_zecter, 1);
 			break;
 		case 2:
-			this.dropItem(RiderItems.punchhopper_zecter, 1);
+			this.dropItem(RiderItems.perfectdrake_zecter, 1);
 			break;
 		case 3:
-			this.dropItem(RiderItems.lady_zecter, 1);
+			this.dropItem(RiderItems.perfectsasword_zecter, 1);
 			break;
 		}
 	}

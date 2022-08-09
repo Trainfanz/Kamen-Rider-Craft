@@ -269,7 +269,28 @@ public class item_revicedriver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5,3,true,false));
+									}else if (form=="50"){
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5,6,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5,3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5,5,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5,0,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.ANTIPOISON_POTION, 5,0,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 5,true,false));
+							
+									}else if (form=="king_cobra"){
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5,6,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5,3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5,5,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.ANTIPOISON_POTION, 5,0,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 7,true,false));
+							
 									}
+									
 									
 									if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.revice_driver){
 										if (base==0){
@@ -299,8 +320,33 @@ public class item_revicedriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5,5,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5,0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
+										}else if (base==7){
+											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5,6,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5,4,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,4,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5,5,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5,0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,3,true,false));
+											player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 25, 8,true,false));
 										}
 										
+									}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.vail_belt){
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5,5,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5,4,true,false));
+									}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.vice_belt){
+										if (base==7){
+											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5,6,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5,4,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,4,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5,5,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5,0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,3,true,false));
+											player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 25, 8,true,false));
+										}
 									}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.two_sidriver_evil){
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5,0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
@@ -316,6 +362,13 @@ public class item_revicedriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5,5,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 										
+										}else if (base==6){
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5,0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5,4,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,5,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5,5,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
+										
 										}
 										
 									}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.demons_driver){
@@ -324,10 +377,34 @@ public class item_revicedriver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
 										
+									}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.demons_driver_demons_trooper_a||player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.demons_driver_demons_trooper_b){
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
+										
 									}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.vail_driver){
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
+										
+									}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.destream_driver){
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5,6,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5,3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5,5,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
+										
+									}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.chimera_driver){
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5,5,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
+										
+									}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.chimera_driver_daimon){
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5,3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,4,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5,5,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 										
 									}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == ReiwaRiderItems.over_demons_driver){
@@ -341,6 +418,7 @@ public class item_revicedriver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 5,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.ANTIPOISON_POTION, 5,0,true,false));
 									}
 										
 									
