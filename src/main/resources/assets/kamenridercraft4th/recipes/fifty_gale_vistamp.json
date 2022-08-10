@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "revice_barid_rex",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:holy_wing_vistamp"
+    }, 
+    {
+      "item": "kamenridercraft4th:thunder_gale_vistamp"
+    }, 
+    {
+      "item": "kamenridercraft4th:cobra_vistamp"
+    }
+    ],
+  "result": {
+    "item": "kamenridercraft4th:fifty_gale_vistamp"
+  }
+}

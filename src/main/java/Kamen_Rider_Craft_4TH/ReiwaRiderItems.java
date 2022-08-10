@@ -512,7 +512,7 @@ public class ReiwaRiderItems {
 	public static Item rolling_vistamp = new Item_Vistamps(0,"rolling_vistamp").AddReviCanUse().ChangeForm(3).setCreativeTab(Tabs.tabrevice);
 	public static Item thunder_gale_vistamp = new Item_Vistamps(0,"thunder_gale_vistamp").AddReviCanUse().ChangeForm(4).setCreativeTab(Tabs.tabrevice);
 	public static Item giffard_rex_vistamp = new Item_Vistamps(0,"giffard_rex_vistamp").AddReviCanUse().AddViceCanUse().ChangeForm(7).setCreativeTab(Tabs.tabrevice);
-	public static Item fifty_gale_vistamp = new Item_Vistamps(27,"fifty_gale_vistamp").AddReviCanUse().AddToVistampBar(12).setCreativeTab(Tabs.tabrevice);
+	public static Item fifty_gale_vistamp = new Item_Vistamps(27,"fifty_gale_vistamp").AddReviCanUse().setCreativeTab(Tabs.tabrevice);
 	
 	public static Item eagle_vistamp = new Item_Vistamps(1,"eagle_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(9).setCreativeTab(Tabs.tabrevice);
 	public static Item mammoth_vistamp = new Item_Vistamps(2,"mammoth_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(9).setCreativeTab(Tabs.tabrevice);
@@ -621,8 +621,9 @@ public class ReiwaRiderItems {
 
 	public static Item giff_junior_vistamp = new Item_Vistamps("giff_junior_vistamp").setCreativeTab(Tabs.tabrevice);
 	
+	public static Item giff_eye = new Item_ore("giff_eye").setCreativeTab(Tabs.tabrevice);
 	
-	
+	//geats
 	public static Item geatshead = new Item_ore("geatshead");
 	
 	
