@@ -125,6 +125,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.entity_storious_rider;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_vernier_bugster;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_zaia;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Calibur;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Caucasus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityByakkoInves;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityElementaryInvesBlue;
@@ -241,6 +242,7 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entity_zectrooper.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/zectrooper.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_shadow_trooper.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/zectrooper.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_neotrooper.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/zectrooper.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_Caucasus.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/zectrooper.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_gaoh.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/gaoh.png"));
 		

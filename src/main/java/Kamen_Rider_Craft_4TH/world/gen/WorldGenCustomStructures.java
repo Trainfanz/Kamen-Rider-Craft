@@ -77,7 +77,8 @@ public class WorldGenCustomStructures implements IWorldGenerator
 	public static final WorldGenStructure core_boss_structuer = new WorldGenStructure("core_boss_structuer");
 	public static final WorldGenStructure BURAKAWANI = new WorldGenStructure("burakawani");
 	
-
+	public static final WorldGenStructure god_speed_love = new WorldGenStructure("god_speed_love");
+	
 	public static final WorldGenStructure M_BUS = new WorldGenStructure("m_bus");
 	
 	@Override
@@ -104,6 +105,8 @@ public class WorldGenCustomStructures implements IWorldGenerator
 			case -1:
 				generateStructure(core_boss_structuer, world, random, chunkX, chunkZ, random.nextInt(15)+60, 190, Blocks.NETHERRACK, BiomeHell.class);
 				generateStructure(BUILD_WAREHOUSE, world, random, chunkX, chunkZ, 88, 250, Blocks.NETHERRACK, BiomeHell.class);
+				
+				generateStructure(god_speed_love, world, random, chunkX, chunkZ, random.nextInt(15)+60, 190, Blocks.NETHERRACK, BiomeHell.class);
 				
 		}
 		if (modDimensionWorldGen.HELHEIM_DIM_ID==world.provider.getDimension()){

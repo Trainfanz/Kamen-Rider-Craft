@@ -553,12 +553,14 @@ public class ReiwaRiderItems {
 	
 	public static Item kuwagata_vistamp = new Item_Vistamps("kuwagata_vistamp").setCreativeTab(Tabs.tabrevice);
 	
+	public static Item crimson_vail_vistamp = new Item_Vistamps("crimson_vail_vistamp").setCreativeTab(Tabs.tabrevice);
+	
 	public static Item hercules_vistamp = new Item_Vistamps("hercules_vistamp").setCreativeTab(Tabs.tabrevice);
 	public static Item crocodile_vistamp = new Item_Vistamps("crocodile_vistamp").AddToVistampBar(1).setCreativeTab(Tabs.tabrevice);
 	public static Item komodo_dragon_vistamp = new Item_Vistamps("komodo_dragon_vistamp").AddToVistampBar(1).setCreativeTab(Tabs.tabrevice);
 	
-	public static Item trooper_spider_vistamp = new Item_Vistamps("trooper_spider_vistamp").setCreativeTab(Tabs.tabrevice);
-	public static Item trooper_kuwagata_vistamp = new Item_Vistamps("trooper_kuwagata_vistamp").setCreativeTab(Tabs.tabrevice);
+	public static Item spider_trooper_vistamp = new Item_Vistamps("spider_trooper_vistamp").setCreativeTab(Tabs.tabrevice);
+	public static Item kuwagata_trooper_vistamp = new Item_Vistamps("kuwagata_trooper_vistamp").setCreativeTab(Tabs.tabrevice);
 	
 	
 	public static Item queen_bee_vistamp = new Item_Vistamps("queen_bee_vistamp").setCreativeTab(Tabs.tabrevice);
@@ -570,9 +572,12 @@ public class ReiwaRiderItems {
 	public static Item juuga_vistamp = new Item_Vistamps("juuga_vistamp").setCreativeTab(Tabs.tabrevice);
 	
 	
-
 	public static Item kajiki_vistamp = new Item_Vistamps("kajiki_vistamp").AddToVistampBar(1).setCreativeTab(Tabs.tabrevice);
 	public static Item hedgehog_vistamp = new Item_Vistamps("hedgehog_vistamp").AddToVistampBar(1).setCreativeTab(Tabs.tabrevice);
+	public static Item king_crab_vistamp = new Item_Vistamps("king_crab_vistamp").AddToVistampBar(1).setCreativeTab(Tabs.tabrevice);
+	public static Item kurosai_vistamp = new Item_Vistamps("kurosai_vistamp").AddToVistampBar(1).setCreativeTab(Tabs.tabrevice);
+	public static Item octopus_vistamp = new Item_Vistamps("octopus_vistamp").AddToVistampBar(1).setCreativeTab(Tabs.tabrevice);
+	public static Item oomukade_vistamp = new Item_Vistamps("oomukade_vistamp").AddToVistampBar(1).setCreativeTab(Tabs.tabrevice);
 
 	
 	public static Item condor_vistamp = new Item_Vistamps(17,"condor_vistamp").AddReviCanUse().AddViceCanUse().AddDemonsCanUse().setCreativeTab(Tabs.tabrevice);

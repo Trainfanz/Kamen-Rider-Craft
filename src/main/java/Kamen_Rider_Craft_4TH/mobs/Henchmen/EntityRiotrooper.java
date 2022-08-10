@@ -99,12 +99,11 @@ public class EntityRiotrooper extends Entity_base_henchmen
 			case 4:
 				this.dropItem(RiderItems.smartbulke, 1);
 				break;
-				
+
 			}
-		}
+		
 
-		if (!this.world.isRemote){
-
+		
 			if (this.getAttackTarget()instanceof EntityPlayer){
 				EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
 				EntityBossBase entityboss  = new Entity_orga(world);
@@ -120,16 +119,17 @@ public class EntityRiotrooper extends Entity_base_henchmen
 
 				}
 			}
-		}
-		
-		switch (this.rand.nextInt(25))
-		{
-		case 0:
-			this.dropItem(RiderItems.faiz_axel_mission_memory, 1);
-			break;
-		case 1:
-			this.dropItem(RiderItems.psyga_mission_memory, 1);
-			break;
+
+
+			switch (this.rand.nextInt(25))
+			{
+			case 0:
+				this.dropItem(RiderItems.faiz_axel_mission_memory, 1);
+				break;
+			case 1:
+				this.dropItem(RiderItems.psyga_mission_memory, 1);
+				break;
+			}
 		}
 	}
 }	

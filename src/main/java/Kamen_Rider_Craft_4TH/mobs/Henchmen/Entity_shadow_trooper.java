@@ -80,9 +80,9 @@ public class Entity_shadow_trooper extends Entity_base_henchmen
 
 	public void onDeath(DamageSource cause)
 	{
-		
+
 		//gatack_zecter,kickhopper_zecter,punchhopper_zecter,dark_kabuto_zecter,caucasus_zecter,hercus_zecter,ketaros_zecter
-		
+
 		if (!this.world.isRemote){
 			this.dropItem(RiderItems.mini_zecter, 3);
 			switch (this.rand.nextInt(4))
@@ -90,23 +90,24 @@ public class Entity_shadow_trooper extends Entity_base_henchmen
 			case 0:
 				this.dropItem(RiderItems.gatack_zecter, 1);
 				break;
-			
-				
-			}
-		}
 
-		
-		switch (this.rand.nextInt(25))
-		{
-		case 1:
-			this.dropItem(RiderItems.kickhopper_zecter, 1);
-			break;
-		case 2:
-			this.dropItem(RiderItems.punchhopper_zecter, 1);
-			break;
-		case 3:
-			this.dropItem(RiderItems.lady_zecter, 1);
-			break;
+
+			}
+
+
+
+			switch (this.rand.nextInt(25))
+			{
+			case 1:
+				this.dropItem(RiderItems.kickhopper_zecter, 1);
+				break;
+			case 2:
+				this.dropItem(RiderItems.punchhopper_zecter, 1);
+				break;
+			case 3:
+				this.dropItem(RiderItems.lady_zecter, 1);
+				break;
+			}
 		}
 	}
 }	

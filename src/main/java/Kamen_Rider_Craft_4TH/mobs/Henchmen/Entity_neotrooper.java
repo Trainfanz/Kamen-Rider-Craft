@@ -6,6 +6,7 @@ import java.util.UUID;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityBossBase;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Caucasus;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_EngineBros;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Kaiser;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_KaiserReverse;
@@ -80,32 +81,51 @@ public class Entity_neotrooper extends Entity_base_henchmen
 
 	public void onDeath(DamageSource cause)
 	{
-		
+
 
 		if (!this.world.isRemote){
-			this.dropItem(RiderItems.mini_zecter, 3);
+			
+			
+			if (this.getAttackTarget()instanceof EntityPlayer){
+				EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
+				EntityBossBase entityboss  = new Entity_Caucasus(world);
+
+				switch (this.rand.nextInt(20))
+				{
+				case 0:
+					playerIn.sendMessage( new TextComponentString("Henshin!"+TextFormatting.GOLD+" Change Beetle!"));
+					entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+					world.spawnEntity(entityboss);
+					break;
+
+
+				}
+			}
+
+			
+			this.dropItem(RiderItems.unfinished_kabutick_zecter, 2);
 			switch (this.rand.nextInt(4))
 			{
 			case 0:
-				this.dropItem(RiderItems.unfinished_kabutick_zecter, 1);
+				this.dropItem(RiderItems.dark_kabuto_zecter, 1);
 				break;
-			
-				
-			}
-		}
 
-		
-		switch (this.rand.nextInt(25))
-		{
-		case 1:
-			this.dropItem(RiderItems.perfectthebee_zecter, 1);
-			break;
-		case 2:
-			this.dropItem(RiderItems.perfectdrake_zecter, 1);
-			break;
-		case 3:
-			this.dropItem(RiderItems.perfectsasword_zecter, 1);
-			break;
+
+			}
+
+
+			switch (this.rand.nextInt(10))
+			{
+			case 1:
+				this.dropItem(RiderItems.perfectthebee_zecter, 1);
+				break;
+			case 2:
+				this.dropItem(RiderItems.perfectdrake_zecter, 1);
+				break;
+			case 3:
+				this.dropItem(RiderItems.perfectsasword_zecter, 1);
+				break;
+			}
 		}
 	}
 }	
