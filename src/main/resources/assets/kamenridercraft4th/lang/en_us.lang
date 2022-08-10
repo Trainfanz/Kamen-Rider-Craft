@@ -97,6 +97,10 @@ entity.shocker_ridersMob.name=Shocker Rider
 entity.RiotrooperMob.name=Riotrooper
 entity.OrgaMob.name=Horse Orphnoch
 
+entity.ZECTrooperMob.name=ZECTrooper
+entity.Shadow_TrooperMob.name=Shadow Trooper
+entity.NeoTrooperMob.name=Neo Trooper
+entity.CaucasusMob.name=Kamen Rider Caucasus
 
 entity.FoundationXMasqueradeMob.name=Foundation X Masquerade Dopant
 entity.EternalMob.name=Kamen Rider Eternal
@@ -445,6 +449,8 @@ tile.helheim_plant.name=Helheim Plant
 tile.helheim_plant_2.name=Helheim Plant
 tile.helheim_plant_3.name=Helheim Plant
 tile.helheim_plant_4.name=Helheim Plant
+
+tile.blue_rose.name=Blue Rose
 
 tile.counter_95do.name=9-5 Counter
 
@@ -1772,6 +1778,8 @@ item.gatack_double_calibur.name=Gatack Double Calibur Plus
 item.gatack_double_calibur_minus.name=Gatack Double Calibur Minus
 item.gatack_double_calibur_twin.name=Gatack Double Calibur
 
+item.machinegun_blade.name=Machinegun Blade
+
 item.zect_kunai.name=ZECT Kunai Gun
 item.zect_kunai_kunai.name=ZECT Kunai Gun (Kunai Mode)
 item.clock_up_pad.name=Clock Up Pad
@@ -1791,6 +1799,11 @@ item.puchhopper_rider_belt.name=Punchhopper Rider Belt
 item.caucasus_rider_belt.name=Caucasus Rider Belt
 item.hercus_rider_belt.name=Hercus Rider Belt
 item.ketaros_rider_belt.name=Ketaros Rider Belt
+    
+item.zectrooper_belt.name=ZECTrooper Belt
+item.shadow_trooper_belt.name=Shadow Trooper Belt
+item.brightrooper_belt.name=Brightrooper Belt
+item.neotrooper_belt.name=Neotrooper Rider Belt    
     
 item.lady_rider_belt.name=Lady Rider Belt
 
@@ -3191,6 +3204,24 @@ item.cobra_vistamp.name=Cobra Vistamp
 item.condor_vistamp.name=Condor Vistamp
 item.white_leo_vistamp.name=White Leo Vistamp
 item.quetzalcoatlus_vistamp.name=Quetzalcoatlus Vistamp
+
+item.giffard_rex_vistamp.name=Giffard Rex Vistamp
+item.fifty_gale_vistamp.name=Fifty Gale Vistamp
+item.perfect_wing_vistamp.name=Perfect Wing Vistamp
+item.crimson_vail_vistamp.name=Crimson Vail Vistamp
+item.king_cobra_vistamp.name=King Cobra Vistamp
+item.hercules_vistamp.name=Hercules Vistamp
+item.spider_trooper_vistamp.name=Trooper Spider Vistamp
+item.kuwagata_trooper_vistamp.name=Trooper Kuwagata Vistamp
+item.twin_chimera_vistamp.name=Twin Chimera Vistamp
+item.tri_chimera_vistamp.name=Tri Chimera Vistamp
+item.juuga_vistamp.name=Juuga Vistamp
+item.king_crab_vistamp.name=King Crab Vistamp
+item.kurosai_vistamp.name=Kurosai Vistamp
+item.octopus_vistamp.name=Octopus Vistamp
+item.oomukade_vistamp.name=Oomukade Vistamp
+item.hedgehog_vistamp.name=Hedgehog Vistamp
+item.komodo_dragon_vistamp.name=Komodo Dragon Vistamp
 
 
 item.kirin_vistamp.name=Kirin Vistamp
