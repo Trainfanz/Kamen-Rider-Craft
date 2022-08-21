@@ -137,6 +137,13 @@ public class item_revicedriver extends item_rider_driver
 					form = item_revicedriver.get_lockbase(stack);
 				}
 				
+				if (stack.getItem()==ReiwaRiderItems.over_demons_driver||stack.getItem()==ReiwaRiderItems.demons_driver){
+					if(form=="condor"){
+						armorModel.wings= new ItemStack(ReiwaRiderItems.demons_condor_wings);
+						armorModel.belt=new ItemStack(ShowaRiderItems.blanknoitem);
+					}
+				}
+				
 				if (stack.getItem()==ReiwaRiderItems.vice_belt){
 					if(form=="jackal"){
 						armorModel.wings= new ItemStack(ReiwaRiderItems.vice_jackal_genome);

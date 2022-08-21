@@ -132,7 +132,20 @@ public class item_zero_onedriver extends item_rider_driver
 					}
 				}	
 
-				if (this==ReiwaRiderItems.hiden_zero_one_driver&this.get_core(stack, "1")==9){
+				
+				if (this==ReiwaRiderItems.zaia_slashriser_jin){
+					if(living.isSneaking() || (living instanceof EntityPlayer && (((EntityPlayer) living).capabilities.isFlying))){
+						armorModel.wings=new ItemStack( ReiwaRiderItems.jin_burning_falconr_wings);
+					}else{
+						armorModel.wings=new ItemStack( ShowaRiderItems.blanknoitem);
+					}
+				}else if (this==ReiwaRiderItems.forceriser_jin){
+					if(living.isSneaking() || (living instanceof EntityPlayer && (((EntityPlayer) living).capabilities.isFlying))){
+						armorModel.wings=new ItemStack( ReiwaRiderItems.jin_falconr_wings);
+					}else{
+						armorModel.wings=new ItemStack( ShowaRiderItems.blanknoitem);
+					}
+				}else if (this==ReiwaRiderItems.hiden_zero_one_driver&this.get_core(stack, "1")==9){
 					armorModel.wings=new ItemStack( ReiwaRiderItems.realize_hopper_lines);
 				}else{
 					armorModel.wings=new ItemStack( ShowaRiderItems.blanknoitem);

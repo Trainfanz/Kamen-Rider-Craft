@@ -9,6 +9,7 @@ import Kamen_Rider_Craft_4TH.blocks.hiden_3d_printing;
 import Kamen_Rider_Craft_4TH.blocks.vistamp_bar;
 import Kamen_Rider_Craft_4TH.blocks.zaia_3d_printing;
 import Kamen_Rider_Craft_4TH.blocks.wood.BlockHelheimVine;
+import Kamen_Rider_Craft_4TH.item.Item_ore;
 import Kamen_Rider_Craft_4TH.item.saber.Item_wonder_ride_book;
 import Kamen_Rider_Craft_4TH.item.zero_one.Item_progrise_keys;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
@@ -42,10 +43,12 @@ public class Item_Vistamps extends Item implements IHasModel
 	public boolean CanEvilUse = false;	
 	public boolean CanJeanneUse = false;
 	public boolean CanDemonsUse = false;
+	public boolean CanOverDemonsUse = false;
+	public boolean CanDestreamUse = false;
 	
 	public static String[] ARMS= new String[] {"base","eagle","mammoth","megalodon","ptera","lion","jackal","kong","kamakiri","brachio","kajiki"
 			,"bat","spider","batta","mogura","turtle","scorpion","condor","cobra","white_leo","quetzalcoatlus","neo_batta","kangaroo","kabuto","kuwagata","queen_bee"
-			,"hercules","50","king_cobra","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""};
+			,"hercules","50","king_cobra","kirin","niwatori","funkorogashi","crocodile","komodo_dragon","anomalocaris","","","","","","","","","","","","","","","","","","","","","","",""};
 
 
 
@@ -112,6 +115,16 @@ public class Item_Vistamps extends Item implements IHasModel
 		CanDemonsUse=true;
 		return this;
 	}
+	public Item_Vistamps AddOverDemonsCanUse()
+	{
+		CanOverDemonsUse=true;
+		return this;
+	}
+	public Item_Vistamps AddDestreamCanUse()
+	{
+		CanDestreamUse=true;
+		return this;
+	}
 	public Item_Vistamps ChangeForm(int num)
 	{
 		setBase = num;
@@ -127,6 +140,12 @@ public class Item_Vistamps extends Item implements IHasModel
 		return this;
 	}
 	
+	public  Item_Vistamps keep_item()
+	{
+		this.setContainerItem(this);
+		getContainerItem();
+		return this;
+	}
 	/**
 	 * Called when the equipped item is right clicked.
 	 */
@@ -141,7 +160,8 @@ public class Item_Vistamps extends Item implements IHasModel
 			
 					if (CanReviUse==true&belt.Rider=="revi"||CanViceUse==true&belt.Rider=="vice"
 							||CanEvilUse==true&belt.Rider=="evil"||CanLiveUse==true&belt.Rider=="live"
-							||CanJeanneUse==true&belt.Rider=="jeanne"){
+							||CanJeanneUse==true&belt.Rider=="jeanne"||CanDestreamUse==true&belt.Rider=="destream"
+							||CanDemonsUse==true&belt.Rider=="demons"||CanOverDemonsUse==true&belt.Rider=="over_demons"){
 
 						item_revicedriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
 						item_revicedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),setBase, "1");			

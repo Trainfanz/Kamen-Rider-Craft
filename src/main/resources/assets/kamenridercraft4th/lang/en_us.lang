@@ -68,6 +68,9 @@ entity.MachineDenBirdMob.name=Machine Den-Bird
 entity.RiseHopperBikeMob.name=Rise Hopper
 entity.Diago_SpeedyMob.name=Diago Speedy
 
+entity.Villager.shocker_villager=Shocker Villager
+entity.Villager.humagear_villager=Humagear Villager
+
 entity.ZuGumunBaMob.name=Zu-Gumun-Ba
 
 entity.TakaCanMob.name=Taka Candroid
