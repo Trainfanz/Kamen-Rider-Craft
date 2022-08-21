@@ -3,6 +3,7 @@ package Kamen_Rider_Craft_4TH.item.revice;
 
 import javax.annotation.Nullable;
 
+import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.blocks.hiden_3d_printing;
@@ -48,7 +49,7 @@ public class Item_Vistamps extends Item implements IHasModel
 	
 	public static String[] ARMS= new String[] {"base","eagle","mammoth","megalodon","ptera","lion","jackal","kong","kamakiri","brachio","kajiki"
 			,"bat","spider","batta","mogura","turtle","scorpion","condor","cobra","white_leo","quetzalcoatlus","neo_batta","kangaroo","kabuto","kuwagata","queen_bee"
-			,"hercules","50","king_cobra","kirin","niwatori","funkorogashi","crocodile","komodo_dragon","anomalocaris","","","","","","","","","","","","","","","","","","","","","","",""};
+			,"hercules","50","king_cobra","kirin","niwatori","funkorogashi","crocodile","komodo_dragon","anomalocaris","full","","","","","","","","","","","","","","","","","","","","","",""};
 
 
 
@@ -163,8 +164,18 @@ public class Item_Vistamps extends Item implements IHasModel
 							||CanJeanneUse==true&belt.Rider=="jeanne"||CanDestreamUse==true&belt.Rider=="destream"
 							||CanDemonsUse==true&belt.Rider=="demons"||CanOverDemonsUse==true&belt.Rider=="over_demons"){
 
+						
+						if(this == ReiwaRiderItems.anomalocaris_vistamp&playerIn.isSneaking()
+								&playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.batta_vistamp))
+										&playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.condor_vistamp))
+										&playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.scorpion_vistamp))){
+							
+							item_revicedriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),35);
+							item_revicedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),setBase, "1");
+						}else{
 						item_revicedriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
 						item_revicedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),setBase, "1");			
+						}
 					}
 			}
 		}

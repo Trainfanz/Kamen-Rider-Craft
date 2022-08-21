@@ -140,7 +140,10 @@ public class item_revicedriver extends item_rider_driver
 				if (stack.getItem()==ReiwaRiderItems.over_demons_driver||stack.getItem()==ReiwaRiderItems.demons_driver){
 					if(form=="condor"){
 						armorModel.wings= new ItemStack(ReiwaRiderItems.demons_condor_wings);
-						armorModel.belt=new ItemStack(ShowaRiderItems.blanknoitem);
+					}if(form=="scorpion"){
+						armorModel.wings= new ItemStack(ReiwaRiderItems.demons_scorpion_wings);
+					}if(form=="full"){
+						armorModel.wings= new ItemStack(ReiwaRiderItems.demons_condor_wings_scorpion);
 					}
 				}
 				

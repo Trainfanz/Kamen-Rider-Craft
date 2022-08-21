@@ -3162,7 +3162,8 @@ item.demons_driver.name=Demons Driver
 item.libera_driver.name=Libera Driver
 item.vail_driver.name=Vail Driver
 item.over_demons_driver.name=Demons Driver (Over Demons)
-item.week_endriver.name=Week Endriver
+item.week_endriver.name=Week Endriver (Aguilera)
+item.dark_week_endriver.name=Week Endriver (Dark Aguilera)
 
 item.demons_driver_demons_trooper_a.name=Demons Driver (Trooper a)
 item.demons_driver_demons_trooper_b.name=Demons Driver (Trooper b)

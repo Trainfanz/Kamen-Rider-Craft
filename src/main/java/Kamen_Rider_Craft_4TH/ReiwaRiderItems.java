@@ -473,6 +473,8 @@ public class ReiwaRiderItems {
 	
 	public static Item vice_jackal_genome = new Item_ore("vice_jackal_genome");
 	public static Item demons_condor_wings = new Item_ore("demons_condor_wings");
+	public static Item demons_condor_wings_scorpion = new Item_ore("demons_condor_wings_scorpion");
+	public static Item demons_scorpion_wings = new Item_ore("demons_scorpion_wings");
 	
 	public static Item demons_driver_test = new Item_ore("demons_driver_test");
 	
@@ -499,6 +501,8 @@ public class ReiwaRiderItems {
 	
 	public static Item libera_driver = new item_revicedriver("libera_driver",ArmorMaterial.DIAMOND, 4, "jeanne",18).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item week_endriver = new item_revicedriver("week_endriver",ArmorMaterial.DIAMOND, 4, "aguilera",25).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	public static Item dark_week_endriver = new item_revicedriver("dark_week_endriver",ArmorMaterial.DIAMOND, 4, "dark_aguilera",25).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	
 	
 	public static Item chimera_driver = new item_revicedriver("chimera_driver",ArmorMaterial.DIAMOND, 4, "chimera",0).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item chimera_driver_daimon = new item_revicedriver("chimera_driver_daimon",ArmorMaterial.DIAMOND, 4, "daimon",0).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
