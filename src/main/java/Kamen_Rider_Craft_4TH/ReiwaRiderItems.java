@@ -629,7 +629,6 @@ public class ReiwaRiderItems {
 
 	public static Item giff_junior_vistamp = new Item_Vistamps("giff_junior_vistamp").setCreativeTab(Tabs.tabrevice);
 	public static Item giff_stamp = new Item_Vistamps("giff_stamp").keep_item().setCreativeTab(Tabs.tabrevice);
-	
 	public static Item diablo_stamp = new Item_Vistamps("diablo_stamp").setCreativeTab(Tabs.tabrevice);
 	
 	public static Item giff_eye = new Item_ore("giff_eye").setCreativeTab(Tabs.tabrevice);
