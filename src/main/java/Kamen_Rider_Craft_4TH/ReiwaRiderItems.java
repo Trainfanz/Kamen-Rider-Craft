@@ -8,6 +8,9 @@ import Kamen_Rider_Craft_4TH.item.Item_sword_gun;
 import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigoarmor;
 import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigoarmor2;
 import Kamen_Rider_Craft_4TH.item.W.item_Wdriver;
+import Kamen_Rider_Craft_4TH.item.geats.Item_Raise_Buckles;
+import Kamen_Rider_Craft_4TH.item.geats.Item_rider_core_id;
+import Kamen_Rider_Craft_4TH.item.geats.item_desire_driver;
 import Kamen_Rider_Craft_4TH.item.revice.Item_Vistamps;
 import Kamen_Rider_Craft_4TH.item.revice.item_revicedriver;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
@@ -634,7 +637,31 @@ public class ReiwaRiderItems {
 	public static Item giff_eye = new Item_ore("giff_eye").setCreativeTab(Tabs.tabrevice);
 	
 	//geats
-	public static Item geatshead = new Item_ore("geatshead");
+
+	public static Item blank_rider_core_id = new Item_ore("blank_rider_core_id").setCreativeTab(Tabs.tabgeats);
+	
+	public static Item geatshead = new item_rider_armor("geatshead",item_revicedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, blank_rider_core_id).setCreativeTab(Tabs.tabgeats);
+	public static Item geatstroso = new item_rider_armor("geatstroso",item_revicedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, blank_rider_core_id).setCreativeTab(Tabs.tabgeats);
+	public static Item geatslegs = new item_rider_armor("geatslegs",item_revicedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, blank_rider_core_id).setCreativeTab(Tabs.tabgeats);
+
+	public static Item desire_driver_geats = new item_desire_driver("desire_driver_geats",ArmorMaterial.DIAMOND, 4, "geats",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_tycoon = new item_desire_driver("desire_driver_tycoon",ArmorMaterial.DIAMOND, 4, "tycoon",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	
+	public static Item magnum_raise_buckle = new Item_Raise_Buckles(1,"magnum_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	public static Item boost_raise_buckle = new Item_Raise_Buckles(2,"boost_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	
+	public static Item zombie_raise_buckle = new Item_Raise_Buckles(7,"zombie_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	
+	
+	public static Item hammer_raise_buckle = new Item_Raise_Buckles(3,"hammer_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	public static Item water_raise_buckle = new Item_Raise_Buckles(4,"water_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	public static Item arrow_raise_buckle = new Item_Raise_Buckles(5,"arrow_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	public static Item shield_raise_buckle = new Item_Raise_Buckles(6,"shield_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	
+	public static Item revice_driver_raise_buckle = new Item_Raise_Buckles(7,"revice_driver_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	
+	
+	public static Item geats_rider_core_id = new Item_rider_core_id("geats_rider_core_id","geats").setCreativeTab(Tabs.tabgeats);
 	
 	
 	public static void init() {
