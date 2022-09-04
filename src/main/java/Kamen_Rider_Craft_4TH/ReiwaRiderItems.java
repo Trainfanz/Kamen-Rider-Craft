@@ -646,11 +646,17 @@ public class ReiwaRiderItems {
 
 	public static Item desire_driver_geats = new item_desire_driver("desire_driver_geats",ArmorMaterial.DIAMOND, 4, "geats",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item desire_driver_tycoon = new item_desire_driver("desire_driver_tycoon",ArmorMaterial.DIAMOND, 4, "tycoon",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_na_go = new item_desire_driver("desire_driver_na_go",ArmorMaterial.DIAMOND, 4, "na_go",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_buffa = new item_desire_driver("desire_driver_buffa",ArmorMaterial.DIAMOND, 4, "buffa",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_shirowe = new item_desire_driver("desire_driver_shirowe",ArmorMaterial.DIAMOND, 4, "shirowe",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_da_paan = new item_desire_driver("desire_driver_da_paan",ArmorMaterial.DIAMOND, 4, "da_paan",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_mary = new item_desire_driver("desire_driver_mary",ArmorMaterial.DIAMOND, 4, "mary",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_ginpen = new item_desire_driver("desire_driver_ginpen",ArmorMaterial.DIAMOND, 4, "ginpen",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
 	public static Item magnum_raise_buckle = new Item_Raise_Buckles(1,"magnum_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item boost_raise_buckle = new Item_Raise_Buckles(2,"boost_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
-	public static Item zombie_raise_buckle = new Item_Raise_Buckles(7,"zombie_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	public static Item zombie_raise_buckle = new Item_Raise_Buckles(8,"zombie_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
 	
 	public static Item hammer_raise_buckle = new Item_Raise_Buckles(3,"hammer_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
@@ -659,9 +665,17 @@ public class ReiwaRiderItems {
 	public static Item shield_raise_buckle = new Item_Raise_Buckles(6,"shield_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
 	public static Item revice_driver_raise_buckle = new Item_Raise_Buckles(7,"revice_driver_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	public static Item demons_driver_raise_buckle = new Item_Raise_Buckles(9,"demons_driver_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
 	
 	public static Item geats_rider_core_id = new Item_rider_core_id("geats_rider_core_id","geats").setCreativeTab(Tabs.tabgeats);
+	public static Item tycoon_rider_core_id = new Item_rider_core_id("tycoon_rider_core_id","tycoon").setCreativeTab(Tabs.tabgeats);
+	public static Item na_go_rider_core_id = new Item_rider_core_id("na_go_rider_core_id","na_go").setCreativeTab(Tabs.tabgeats);
+	public static Item buffa_rider_core_id = new Item_rider_core_id("buffa_rider_core_id","buffa").setCreativeTab(Tabs.tabgeats);
+	public static Item shirowe_rider_core_id = new Item_rider_core_id("shirowe_rider_core_id","shirowe").setCreativeTab(Tabs.tabgeats);
+	public static Item da_paan_rider_core_id = new Item_rider_core_id("da_paan_rider_core_id","da_paan").setCreativeTab(Tabs.tabgeats);
+	public static Item mary_rider_core_id = new Item_rider_core_id("mary_rider_core_id","mary").setCreativeTab(Tabs.tabgeats);
+	public static Item ginpen_rider_core_id = new Item_rider_core_id("ginpen_rider_core_id","ginpen").setCreativeTab(Tabs.tabgeats);
 	
 	
 	public static void init() {
