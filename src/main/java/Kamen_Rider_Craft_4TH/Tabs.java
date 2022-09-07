@@ -589,6 +589,11 @@ public class Tabs {
 	};
 	public static CreativeTabs tabgeats = new CreativeTabs("tabgeats")
 	{
+		 @SideOnly(Side.CLIENT)
+		    public net.minecraft.util.ResourceLocation getBackgroundImage()
+		    {
+		        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_geats_items.png");
+		    }
 		
 		@Override
 		public ItemStack createIcon() {
