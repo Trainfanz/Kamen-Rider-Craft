@@ -3329,6 +3329,56 @@ item.empty_vial.name=Empty Vial
 item.gaga_armlet.name=Gaga Armlet
 item.gigi_armlet.name=Gigi Armlet
 
+
+item.geatshead.name=Geats Helmet
+item.geatstroso.name=Geats Chestplate 
+item.geatslegs.name=Geats Leggings
+
+item.desire_driver_geats.name=Desire Driver(Geats)
+item.desire_driver_tycoon.name=Desire Driver(Tycoon)
+item.desire_driver_na_go.name=Desire Driver(Na-Go)
+item.desire_driver_buffa.name=Desire Driver(Buffa)
+item.desire_driver_shirowe.name=Desire Driver(Shirowe)
+item.desire_driver_da_paan.name=Desire Driver(Da.Paan)
+item.desire_driver_mary.name=Desire Driver(Mary)
+item.desire_driver_ginpen.name=Desire Driver(Ginpen)
+    
+item.magnum_raise_buckle.name=Magnum Buckle
+item.boost_raise_buckle.name=Boost Buckle
+    
+item.zombie_raise_buckle.name=Zombie Buckle
+    
+item.hammer_raise_buckle.name=Hammer Buckle
+item.water_raise_buckle.name=Water Buckle
+item.arrow_raise_buckle.name=Arrow Buckle
+item.shield_raise_buckle.name=Shield Buckle
+    
+item.golden_hammer_raise_buckle.name=Hammer Buckle (Gold Plating ver)
+item.silver_arrow_raise_buckle.name=Arrow Buckle (Silver Plating ver)
+    
+item.revice_driver_raise_buckle.name=Revice Driver Buckle
+item.two_si_driver_raise_buckle.name=Two Sidriver Buckle
+item.demons_driver_raise_buckle.name=Demons Driver Buckle
+item.libera_driver_raise_buckle.name=Libera Driver Buckle
+    
+item.zero_one_driver_raise_buckle.name=Zero-One Driver Buckle
+item.double_driver_raise_buckle.name=Doubledriver Buckle
+    
+  
+item.blank_rider_core_id.name=Blank Rider Core ID
+
+item.geats_rider_core_id.name=Kamen Rider Geats Core ID
+item.tycoon_rider_core_id.name=Kamen Rider Tycoon Core ID
+item.na_go_rider_core_id.name=Kamen Rider Na-Go Core ID
+item.buffa_rider_core_id.name=Kamen Rider Buffa Core ID
+item.shirowe_rider_core_id.name=Kamen Rider Shirowe Core ID
+item.da_paan_rider_core_id.name=Kamen Rider Da.Paan Core ID
+item.mary_rider_core_id.name=Kamen Rider Mary Core ID
+item.ginpen_rider_core_id.name=Kamen Rider Ginpen Core ID
+    
+    
+
+
 itemGroup.tab_kikaider=Android Kikaider
 item.kikaider_circuit.name=Kikaider Circuit
 item.kikaider_head.name=Kikaider Helmet
