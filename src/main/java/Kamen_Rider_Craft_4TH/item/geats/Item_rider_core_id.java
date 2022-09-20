@@ -11,6 +11,7 @@ import Kamen_Rider_Craft_4TH.blocks.vistamp_bar;
 import Kamen_Rider_Craft_4TH.blocks.zaia_3d_printing;
 import Kamen_Rider_Craft_4TH.blocks.wood.BlockHelheimVine;
 import Kamen_Rider_Craft_4TH.item.Item_ore;
+import Kamen_Rider_Craft_4TH.item.revice.Item_Vistamps;
 import Kamen_Rider_Craft_4TH.item.saber.Item_wonder_ride_book;
 import Kamen_Rider_Craft_4TH.item.zero_one.Item_progrise_keys;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
@@ -58,6 +59,17 @@ public class Item_rider_core_id extends Item implements IHasModel
 		getContainerItem();
 		return this;
 	}
+	
+	
+	public Item_rider_core_id AddToMissionBox(int num)
+	{
+		for (int i1 = 0; i1 < num; ++i1)
+		{
+			Item_mission_box.core_id.add(this);
+		}
+		return this;
+	}
+	
 	/**
 	 * Called when the equipped item is right clicked.
 	 */

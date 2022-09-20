@@ -83,6 +83,14 @@ public class Item_Raise_Buckles extends Item implements IHasModel
 	}
 	
 	
+	public Item_Raise_Buckles AddToMissionBox(int num)
+	{
+		for (int i1 = 0; i1 < num; ++i1)
+		{
+			Item_mission_box.raise_buckle.add(this);
+		}
+		return this;
+	}
 	
 	public  Item_Raise_Buckles keep_item()
 	{
@@ -90,6 +98,7 @@ public class Item_Raise_Buckles extends Item implements IHasModel
 		getContainerItem();
 		return this;
 	}
+	
 	/**
 	 * Called when the equipped item is right clicked.
 	 */

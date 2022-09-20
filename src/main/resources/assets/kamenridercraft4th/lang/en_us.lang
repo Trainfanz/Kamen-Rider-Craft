@@ -3364,7 +3364,6 @@ item.libera_driver_raise_buckle.name=Libera Driver Buckle
 item.zero_one_driver_raise_buckle.name=Zero-One Driver Buckle
 item.double_driver_raise_buckle.name=Doubledriver Buckle
     
-  
 item.blank_rider_core_id.name=Blank Rider Core ID
 
 item.geats_rider_core_id.name=Kamen Rider Geats Core ID
@@ -3376,7 +3375,8 @@ item.da_paan_rider_core_id.name=Kamen Rider Da.Paan Core ID
 item.mary_rider_core_id.name=Kamen Rider Mary Core ID
 item.ginpen_rider_core_id.name=Kamen Rider Ginpen Core ID
     
-    
+item.bikkuri_mission_box.name=Bikkuri Mission Box
+item.hatena_mission_box.name=Hatena Mission Box
 
 
 itemGroup.tab_kikaider=Android Kikaider
