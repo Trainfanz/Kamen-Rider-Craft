@@ -9,6 +9,8 @@ import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.Tabs;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
+import Kamen_Rider_Craft_4TH.item.revice.Item_Vistamps;
+import Kamen_Rider_Craft_4TH.item.revice.item_revicedriver;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
 import Kamen_Rider_Craft_4TH.item.zero_one.Item_progrise_keys;
@@ -151,8 +153,60 @@ public class item_desire_driver extends item_rider_driver
 							if (player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == ReiwaRiderItems.geatstroso){
 								if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() == ReiwaRiderItems.geatshead){	
 
-										
+									String formL = get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "l");
+									String formR = get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "r");
 									
+									if ( Rider == "geats"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 250,0,true,false));
+									}else if ( Rider == "tycoon"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.LUCK, 5,0,true,false));
+									}else if ( Rider == "na_go"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 250,0,true,false));
+									}else if ( Rider == "buffa"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 250,0,true,false));
+									}else if ( Rider == "shirowe"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
+									}else if ( Rider == "da_paan"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
+									}else if ( Rider == "mary"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 250,0,true,false));
+									}else if ( Rider == "ginpen"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 250,0,true,false));
+									}
+										
+									if ( formL=="magnum"||formR=="magnum"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 250,0,true,false));
+										
+									}if ( formL=="boost"||formR=="boost"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 250,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 250,0,true,false));
+										
+									}if ( formL=="hammer"||formR=="hammer"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 250,0,true,false));
+									}if ( formL=="water"||formR=="water"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 250,0,true,false));
+									}if ( formL=="arrow"||formR=="arrow"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
+									}if ( formL=="shield"||formR=="shield"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
+										
+									}if ( formL=="revice"||formR=="revice"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5,0,true,false));
+										
+									}if ( formL=="zombie"||formR=="zombie"){	
+										player.addPotionEffect(new PotionEffect(PotionCore.ANTIPOISON_POTION, 25, 8,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
+								
+									}if ( formL=="demons"||formR=="demons"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.POISON, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
+								
+									}
 								}
 							}
 						}

@@ -205,6 +205,8 @@ entity.GraphiteBugsterMob.name=Graphite Bugster
 entity.DarkGraphiteBugsterMob.name=Dark Graphite Bugster
 entity.GurenGraphiteBugsterMob.name=Guren Graphite Bugster LV99
 
+entity.PawnJyamatoMob.name=Pawn Jyamato
+
 effect.fly=Flying
 effect.fire_punch=Fire Punch
 effect.punch_boost=Punch Boost
@@ -3329,6 +3331,7 @@ item.empty_vial.name=Empty Vial
 item.gaga_armlet.name=Gaga Armlet
 item.gigi_armlet.name=Gigi Armlet
 
+item.raise_hammer.name=Raise Hammer
 
 item.geatshead.name=Geats Helmet
 item.geatstroso.name=Geats Chestplate 
