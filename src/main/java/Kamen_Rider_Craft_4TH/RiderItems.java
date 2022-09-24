@@ -1931,6 +1931,9 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item hee_hackgun = new Item_fireball_gun("hee_hackgun", ToolMaterial.DIAMOND, RiderItems.astroswitch).setMaxStackSize(1).setCreativeTab(Tabs.tabFourze);
 	public static Item barizun_sword = new ItemChargeSword("barizun_sword",ToolMaterial.DIAMOND, RiderItems.astroswitch).setMaxStackSize(1).setCreativeTab(Tabs.tabFourze);
 	
+	public static Item shield_module = new ItemBaseShield("shield_module", RiderItems.astroswitch).setMaxStackSize(1).setCreativeTab(Tabs.tabFourze);
+	
+	
 	public static Item meteor_storm_shaft = new ItemBaseSword("meteor_storm_shaft",ToolMaterial.DIAMOND, RiderItems.astroswitch).setMaxStackSize(1).setCreativeTab(Tabs.tabFourze);
 
 	public static Item Fourzehead = new item_rider_armor("fourzehead",item_Fourzedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, astroswitch).setCreativeTab(Tabs.tabFourze);
@@ -3333,6 +3336,10 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item zikan_despear_tsue = new ItemBaseSword("zikan_despear_tsue",Tabs.den_denro, RiderItems.blank_watch).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item zikan_zaclaw = new Item_gashacon_breaker("zikan_zaclaw",Tabs.den_denaxe, RiderItems.blank_watch).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 
+	public static Item zamonas_bow = new Item_gun("zamonas_bow",Tabs.den_dengu, RiderItems.blank_watch).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
+	public static Item barlckxs_sword = new ItemBaseSword("barlckxs_sword",Tabs.den_denaxe, RiderItems.blank_watch).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
+	
+	
 	public static Item zi_o_ridewatch = new Item_ridewatches(0, 0,"zi_o_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item zi_o_ii_ridewatch = new Item_ridewatches(0, 0,"zi_o_ii_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item trinity_ridewatch = new Item_ridewatches(0, 0,"trinity_ridewatch").setCreativeTab(Tabs.tabzi_o);

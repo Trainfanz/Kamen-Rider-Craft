@@ -833,6 +833,7 @@ item.billytherod.name=Elek Module Billy The Rod
 item.hee_hackgun.name=Fire Module Hee-Hackgun
 item.barizun_sword.name=Cosmic Module Barizun Sword
 item.meteor_nadeshiko_fusion_rocket.name=Rocket Module (Meteor Nadeshiko Fusion States Ver)
+item.shield_module.name=Shield Module
 
 item.meteor_storm_shaft.name=Meteor Storm Shaft
 
@@ -2687,6 +2688,9 @@ item.zikan_despear.name=Zikan Despear
 item.zikan_despear_kama.name=Zikan Despear (Kama)
 item.zikan_despear_tsue.name=Zikan Despear (Tsue)
 
+item.zamonas_bow.name=Zamonas' Bow
+item.barlckxs_sword.name=Barlckxs' Sword
+
 item.zi_o_ridewatch.name=Zi-O Ridewatch
 item.geiz_ridewatch.name=Geiz Ridewatch
 item.zi_o_mirror_ridewatch.name=Mirror Zi-O Ridewatch
@@ -3013,7 +3017,9 @@ item.raimeiken_ikazuchi.name=Raimeiken Ikazuchi
 item.gekkou_raimeiken_ikazuchi.name=Gekkou Raimeiken Ikazuchi
 item.ankokuken_kurayami.name=Ankokuken Kurayami
 item.onjuuken_suzune.name=Onjuuken Suzune
-    
+ 
+item.destruction_shield.name=Destruction Shield
+      
 
 item.kingexcalibur.name=Kingexcalibur
 item.kougouken_saikou.name=Kougouken Saikou
@@ -3331,7 +3337,17 @@ item.empty_vial.name=Empty Vial
 item.gaga_armlet.name=Gaga Armlet
 item.gigi_armlet.name=Gigi Armlet
 
+
+item.magnum_shooter_40x.name=Magnum Shooter 40X
+item.magnum_shooter_40x_rifle.name=Magnum Shooter 40X(Rifle)
+    
+item.zombie_breaker.name=Zombie Breaker
+    
 item.raise_hammer.name=Raise Hammer
+item.raise_arrow.name=Raise Arrow
+item.raise_water.name=Raise Water
+item.raise_shield.name=Raise Shield
+    
 
 item.geatshead.name=Geats Helmet
 item.geatstroso.name=Geats Chestplate 

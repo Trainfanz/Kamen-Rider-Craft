@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "legend_medal",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:rex_vistamp"
+    }, 
+    {
+      "item": "kamenridercraft4th:hatena_mission_box"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:revice_driver_raise_buckle"
+  }
+}

@@ -49,7 +49,7 @@ public class Item_astroswitch extends Item implements IHasModel
 	
 	public Item_astroswitch AddLegendCrafting(Item Thing)
 	{
-		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID,"astroswitch_and_"+Thing.getRegistryName()),null,new ItemStack(this), new Ingredient[]{Ingredient.fromItem(RiderItems.astroswitch),Ingredient.fromItem(Thing)});			
+		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID,"astroswitch_and_"+Thing.getTranslationKey()),null,new ItemStack(this), new Ingredient[]{Ingredient.fromItem(RiderItems.astroswitch),Ingredient.fromItem(Thing)});			
 		return this;
 	}
 	public Item_astroswitch AddToAstroSwitchProgrammer(int num)

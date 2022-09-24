@@ -58,7 +58,6 @@ public class item_OOOdriver extends item_rider_driver
 		this.material = par2EnumArmorMaterial;
 		par2EnumArmorMaterial.getDamageReductionAmount(EntityEquipmentSlot.FEET);
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(EntityEquipmentSlot.FEET));
-		TokuCraft_core.ITEMS.add(this);
 
 	}
 

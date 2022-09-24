@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ichigo_arms",
+  "pattern": [
+    "XMX",
+    "XSX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:blank_rider_core_id"
+    },
+    "S": {
+      "item": "kamenridercraft4th:base_sword"
+    },
+    "M": {
+      "item": "kamenridercraft4th:water_raise_buckle"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:raise_water"
+  }    
+}
+

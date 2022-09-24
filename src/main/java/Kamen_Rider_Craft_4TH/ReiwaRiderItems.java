@@ -258,6 +258,8 @@ public class ReiwaRiderItems {
 
 	public static Item haouken_xross_saber = new  Item_haouken_xross_saber("haouken_xross_saber",Tabs.gashacon_key_slasher).setCreativeTab(Tabs.tabsaber);
 	
+	public static Item destruction_shield = new ItemBaseShield("destruction_shield", blank_wonder_ride_book).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
+	
 	public static Item gekkou_raimeiken_ikazuchi = new ItemBaseSword("gekkou_raimeiken_ikazuchi",Tabs.gashacon_key_slasher, blank_wonder_ride_book).setMaxStackSize(1).setCreativeTab(Tabs.tabsaber);
 	
 	public static Item dogouken_gekido_back = new Item_ore("dogouken_gekido_back");
@@ -641,7 +643,16 @@ public class ReiwaRiderItems {
 
 	public static Item blank_rider_core_id = new Item_ore("blank_rider_core_id").setCreativeTab(Tabs.tabgeats);
 	
+	public static Item magnum_shooter_40x = new Item_gun("magnum_shooter_40x",Tabs.den_dengu, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item magnum_shooter_40x_rifle = new Item_gun("magnum_shooter_40x_rifle",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	
+	public static Item zombie_breaker = new ItemBaseSword("zombie_breaker",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	
 	public static Item raise_hammer = new ItemBaseSword("raise_hammer",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item raise_arrow = new Item_gun("raise_arrow",Tabs.den_dengu, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item raise_water = new Item_gun("raise_water",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item raise_shield = new ItemBaseShield("raise_shield", blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	
 	
 	public static Item geatshead = new item_rider_armor("geatshead",item_revicedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, blank_rider_core_id).setCreativeTab(Tabs.tabgeats);
 	public static Item geatstroso = new item_rider_armor("geatstroso",item_revicedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, blank_rider_core_id).setCreativeTab(Tabs.tabgeats);
