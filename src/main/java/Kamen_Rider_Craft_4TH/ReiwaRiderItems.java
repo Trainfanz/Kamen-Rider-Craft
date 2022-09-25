@@ -666,6 +666,7 @@ public class ReiwaRiderItems {
 	public static Item desire_driver_da_paan = new item_desire_driver("desire_driver_da_paan",ArmorMaterial.DIAMOND, 4, "da_paan",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item desire_driver_mary = new item_desire_driver("desire_driver_mary",ArmorMaterial.DIAMOND, 4, "mary",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item desire_driver_ginpen = new item_desire_driver("desire_driver_ginpen",ArmorMaterial.DIAMOND, 4, "ginpen",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_punk_jack = new item_desire_driver("desire_driver_punk_jack",ArmorMaterial.DIAMOND, 4, "punk_jack",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
 	public static Item magnum_raise_buckle = new Item_Raise_Buckles(1,"magnum_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item boost_raise_buckle = new Item_Raise_Buckles(2,"boost_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
@@ -677,6 +678,8 @@ public class ReiwaRiderItems {
 	public static Item water_raise_buckle = new Item_Raise_Buckles(4,"water_raise_buckle").AddToMissionBox(10).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item arrow_raise_buckle = new Item_Raise_Buckles(5,"arrow_raise_buckle").AddToMissionBox(10).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item shield_raise_buckle = new Item_Raise_Buckles(6,"shield_raise_buckle").AddToMissionBox(10).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	public static Item chain_array_raise_buckle = new Item_Raise_Buckles(10,"chain_array_raise_buckle").AddToMissionBox(8).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	public static Item claw_raise_buckle = new Item_Raise_Buckles(11,"claw_raise_buckle").AddToMissionBox(8).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
 	public static Item golden_hammer_raise_buckle = new Item_Raise_Buckles("golden_hammer_raise_buckle").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);	
 	public static Item silver_arrow_raise_buckle = new Item_Raise_Buckles("silver_arrow_raise_buckle").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
@@ -686,7 +689,7 @@ public class ReiwaRiderItems {
 	public static Item demons_driver_raise_buckle = new Item_Raise_Buckles("demons_driver_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item libera_driver_raise_buckle = new Item_Raise_Buckles("libera_driver_raise_buckle").setCreativeTab(Tabs.tabgeats);
 	
-	public static Item zero_one_driver_raise_buckle = new Item_Raise_Buckles("zero_one_driver_raise_buckle").setCreativeTab(Tabs.tabgeats);
+	public static Item zero_one_driver_raise_buckle = new Item_Raise_Buckles(12,"zero_one_driver_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item double_driver_raise_buckle = new Item_Raise_Buckles("double_driver_raise_buckle").setCreativeTab(Tabs.tabgeats);
 	
 	
@@ -698,6 +701,8 @@ public class ReiwaRiderItems {
 	public static Item da_paan_rider_core_id = new Item_rider_core_id("da_paan_rider_core_id","da_paan").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
 	public static Item mary_rider_core_id = new Item_rider_core_id("mary_rider_core_id","mary").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
 	public static Item ginpen_rider_core_id = new Item_rider_core_id("ginpen_rider_core_id","ginpen").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
+	public static Item punk_jack_rider_core_id = new Item_rider_core_id("punk_jack_rider_core_id","punk_jack").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
+	
 	
 	public static Item bikkuri_mission_box = new Item_mission_box("bikkuri_mission_box").setCreativeTab(Tabs.tabgeats);
 	public static Item hatena_mission_box = new Item_mission_box("hatena_mission_box").setCreativeTab(Tabs.tabgeats);

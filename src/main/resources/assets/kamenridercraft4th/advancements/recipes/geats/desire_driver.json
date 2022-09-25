@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "kamenridercraft4th:desire_driver_geats",
+      "kamenridercraft4th:desire_driver_tycoon",
+      "kamenridercraft4th:desire_driver_na_go",
+      "kamenridercraft4th:desire_driver_buffa",
+      "kamenridercraft4th:desire_driver_shirowe",
+      "kamenridercraft4th:desire_driver_da_paan",
+      "kamenridercraft4th:desire_driver_mary",
+      "kamenridercraft4th:desire_driver_ginpen"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kamenridercraft4th:bikkuri_mission_box"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:desire_driver_geats"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logo",
+      "has_the_recipe"
+    ]
+  ]
+}
