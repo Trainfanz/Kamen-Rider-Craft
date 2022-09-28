@@ -560,7 +560,7 @@ public class item_builddriver extends item_rider_driver
 										}else if (get_core(ItemStack,"1")==4){
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));	
 										}else if (get_core(ItemStack,"1")==5){
-											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 5,true,false));	
+											player.addPotionEffect(new PotionEffect(PotionCore.BOOST_POTION, 5, 0,true,false));
 										}else if (get_core(ItemStack,"1")==3){
 											player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));	
 										}else if (get_core(ItemStack,"1")==11){

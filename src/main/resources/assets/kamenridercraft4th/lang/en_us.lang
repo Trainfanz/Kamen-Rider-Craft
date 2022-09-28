@@ -211,7 +211,7 @@ effect.fly=Flying
 effect.fire_punch=Fire Punch
 effect.punch_boost=Punch Boost
 effect.big=Enlarging
-
+effect.boost=Rocket Boost
 effect.antipoison=Poison Resistance
 effect.bugster_virus=Bugster Virus
 effect.slash=Slash
@@ -3347,7 +3347,8 @@ item.raise_hammer.name=Raise Hammer
 item.raise_arrow.name=Raise Arrow
 item.raise_water.name=Raise Water
 item.raise_shield.name=Raise Shield
-    
+item.raise_claw.name=Raise Claw   
+item.raise_chain_array.name=Raise Chain Array  
 
 item.geatshead.name=Geats Helmet
 item.geatstroso.name=Geats Chestplate 
@@ -3362,7 +3363,7 @@ item.desire_driver_da_paan.name=Desire Driver(Da.Paan)
 item.desire_driver_mary.name=Desire Driver(Mary)
 item.desire_driver_ginpen.name=Desire Driver(Ginpen)
  
-item.desire_driver_punk_jack.name=Desire Driver(PunkJack)
+item.desire_driver_punk_jack.name=Desire Driver(Punkjack)
   
 item.magnum_raise_buckle.name=Magnum Buckle
 item.boost_raise_buckle.name=Boost Buckle
@@ -3397,7 +3398,7 @@ item.shirowe_rider_core_id.name=Kamen Rider Shirowe Core ID
 item.da_paan_rider_core_id.name=Kamen Rider Da.Paan Core ID
 item.mary_rider_core_id.name=Kamen Rider Mary Core ID
 item.ginpen_rider_core_id.name=Kamen Rider Ginpen Core ID
-item.punk_jack_rider_core_id.name=Kamen Rider PunkJack Core ID   
+item.punk_jack_rider_core_id.name=Kamen Rider Punkjack Core ID   
     
 item.bikkuri_mission_box.name=Bikkuri Mission Box
 item.hatena_mission_box.name=Hatena Mission Box

@@ -214,14 +214,8 @@ public class item_zikudriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));	
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));																					
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
-										}else  if (item_zikudriver.get_lockbase(armor)=="fourze"){										
-											if (player.isSneaking()){
-												player.fallDistance=0; 
-												Vec3d look = player.getLookVec();
-												player.motionX=look.x/2;
-												player.motionY=look.y/2;
-												player.motionZ=look.z/2;
-											}																															
+										}else  if (item_zikudriver.get_lockbase(armor)=="fourze"){			
+											player.addPotionEffect(new PotionEffect(PotionCore.BOOST_POTION, 5, 1,true,false));																											
 											if (player.getHeldItemMainhand().isEmpty())
 											{
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false));

@@ -41,12 +41,12 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class item_desire_driver extends item_rider_driver
 {
 
-	
-	
+
+
 	public static final String[] CoreName= new String[] {"entry","magnum","boost","hammer","water","arrow","shield","revice","zombie","demons","chain_array","claw","zero_one"
 			,"","","","","","","",""};
-	
-	
+
+
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
 	public String armorNamePrefix;
 	public ArmorMaterial material;
@@ -66,7 +66,7 @@ public class item_desire_driver extends item_rider_driver
 		Rider=rider;
 		DRIVER = driver;
 	}
-	
+
 	@SideOnly(Side.CLIENT)
 	public boolean hasEffect(ItemStack par1ItemStack)
 	{
@@ -90,10 +90,10 @@ public class item_desire_driver extends item_rider_driver
 
 				model_belt_plus armorModel = new model_belt_plus();
 
-				
-				
+
+
 				armorModel.belt=stack;
-				
+
 				armorModel.isSneak = defaultModel.isSneak;
 				armorModel.isRiding = defaultModel.isRiding;
 				armorModel.isChild = defaultModel.isChild;
@@ -121,7 +121,7 @@ public class item_desire_driver extends item_rider_driver
 		}
 		itemstack.getTagCompound().setInteger("eftTime", flag);
 	}
-	
+
 	public static String get_lockbase(ItemStack itemstack,String string)
 	{	
 
@@ -132,7 +132,7 @@ public class item_desire_driver extends item_rider_driver
 	{	
 		return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("seed")!=0? itemstack.getTagCompound().getInteger("seed"): 0 : 0;
 	}
-	
+
 	public static void set_lock(ItemStack itemstack,String string,int flag)
 	{
 		if (!itemstack.hasTagCompound())
@@ -156,57 +156,66 @@ public class item_desire_driver extends item_rider_driver
 
 									String formL = get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "l");
 									String formR = get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "r");
-									
+
 									if ( Rider == "geats"){	
-										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 250,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5,0,true,false));
 									}else if ( Rider == "tycoon"){	
 										player.addPotionEffect(new PotionEffect(MobEffects.LUCK, 5,0,true,false));
 									}else if ( Rider == "na_go"){	
-										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 250,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5,0,true,false));
 									}else if ( Rider == "buffa"){	
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 250,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,0,true,false));
 									}else if ( Rider == "shirowe"){	
 										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 									}else if ( Rider == "da_paan"){	
 										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 									}else if ( Rider == "mary"){	
-										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 250,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5,0,true,false));
 									}else if ( Rider == "ginpen"){	
-										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 250,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 50,0,true,false));
 									}
-										
+
 									if ( formL=="magnum"||formR=="magnum"){	
 										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 250,0,true,false));
-										
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,0,true,false));
+
 									}if ( formL=="boost"||formR=="boost"){	
-										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 250,2,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 250,0,true,false));
-										
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5,2,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.BOOST_POTION, 5, 0,true,false));
+
 									}if ( formL=="hammer"||formR=="hammer"){	
-										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 250,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,0,true,false));
 									}if ( formL=="water"||formR=="water"){	
 										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 250,0,true,false));
 									}if ( formL=="arrow"||formR=="arrow"){	
 										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 									}if ( formL=="shield"||formR=="shield"){	
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
-										
+
 									}if ( formL=="revice"||formR=="revice"){	
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5,0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5,0,true,false));
-										
+
 									}if ( formL=="zombie"||formR=="zombie"){	
-										player.addPotionEffect(new PotionEffect(PotionCore.ANTIPOISON_POTION, 25, 8,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.ANTIPOISON_POTION, 25, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
-								
+
 									}if ( formL=="demons"||formR=="demons"){	
 										player.addPotionEffect(new PotionEffect(MobEffects.POISON, 5, 0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
-								
+
+									}if ( formL=="chain_array"||formR=="chain_array"){	
+
+									}
+									if ( formL=="claw"||formR=="claw"){	
+
+									}
+									if ( formL=="zero_one"||formR=="zero_one"){	
+
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,3,true,false));
 									}
 								}
 							}
@@ -228,14 +237,14 @@ public class item_desire_driver extends item_rider_driver
 					item_rider_driver belt =((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem());
 					String rider = ((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider;
 
-					 if (num==4||num==9||num==10||num==11||num==12||num==13||num==14){
+					if (num==4||num==9||num==10||num==11||num==12||num==13||num==14){
 
 						return true;
 					} else{
 						return false;
 
 					}
-				
+
 				}else{
 					return false;
 				}
@@ -247,8 +256,8 @@ public class item_desire_driver extends item_rider_driver
 		return false;
 
 	}
-	
-	
+
+
 	public  String getTexture(Entity entity, int num,String ext)
 	{
 		if (entity instanceof EntityLivingBase){
@@ -260,25 +269,25 @@ public class item_desire_driver extends item_rider_driver
 
 					String forml = get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "l");
 					String formr = get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r");
-					
+
 					if (num==12||num==13){
 						return Refercence.MODID+":textures/armor/"+rider+"_base_over.png";
 					}else 	if (num==2||num==5||num==3||num==6||num==8){
 						return Refercence.MODID+":textures/armor/"+rider+"_rider_base"+ext;
 					}else 	if (num==1||num==4||num==9||num==7){
 						return Refercence.MODID+":textures/armor/geats_rider_"+forml+ext;
-		
+
 					}else 	if (num==10||num==11){
 						return Refercence.MODID+":textures/armor/geats_rider_"+formr+ext;
-						
+
 					}else if (num==7||num==14){
-	
+
 
 						return Refercence.MODID+":textures/armor/blank"+ext;
-					
-						
+
+
 					} else{
-					
+
 
 					}
 				}else{
@@ -293,7 +302,7 @@ public class item_desire_driver extends item_rider_driver
 
 	}
 
-	
+
 
 
 }

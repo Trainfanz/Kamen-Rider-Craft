@@ -652,6 +652,8 @@ public class ReiwaRiderItems {
 	public static Item raise_arrow = new Item_gun("raise_arrow",Tabs.den_dengu, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item raise_water = new Item_gun("raise_water",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item raise_shield = new ItemBaseShield("raise_shield", blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item raise_chain_array = new ItemBaseSword("raise_chain_array",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item raise_claw = new ItemBaseSword("raise_claw",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
 	
 	public static Item geatshead = new item_rider_armor("geatshead",item_revicedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, blank_rider_core_id).setCreativeTab(Tabs.tabgeats);
@@ -699,7 +701,7 @@ public class ReiwaRiderItems {
 	public static Item buffa_rider_core_id = new Item_rider_core_id("buffa_rider_core_id","buffa").AddToMissionBox(5).setCreativeTab(Tabs.tabgeats);
 	public static Item shirowe_rider_core_id = new Item_rider_core_id("shirowe_rider_core_id","shirowe").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
 	public static Item da_paan_rider_core_id = new Item_rider_core_id("da_paan_rider_core_id","da_paan").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
-	public static Item mary_rider_core_id = new Item_rider_core_id("mary_rider_core_id","mary").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
+	public static Item mary_rider_core_id = new Item_rider_core_id("mary_rider_core_id","mary").AddToMissionBox(3).setCreativeTab(Tabs.tabgeats);
 	public static Item ginpen_rider_core_id = new Item_rider_core_id("ginpen_rider_core_id","ginpen").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
 	public static Item punk_jack_rider_core_id = new Item_rider_core_id("punk_jack_rider_core_id","punk_jack").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
 	

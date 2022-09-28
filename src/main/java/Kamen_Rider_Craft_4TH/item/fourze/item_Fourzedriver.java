@@ -168,9 +168,8 @@ public class item_Fourzedriver extends item_rider_driver
 										if(armor.hasTagCompound()){
 
 											if (CircleModuleName[armor.getTagCompound().getInteger("corecircle")]=="rocket"){
-												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
-												player.fallDistance=0; 
-												player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));
+												player.addPotionEffect(new PotionEffect(PotionCore.BOOST_POTION, 5, 0,true,false));
+												
 											}else if (CircleModuleName[armor.getTagCompound().getInteger("corecircle")]=="chain_array"){
 												if (player.getHeldItemMainhand().isEmpty())
 												{
@@ -449,7 +448,8 @@ public class item_Fourzedriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 0,true,false));
 											player.fallDistance=0; 
-											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 4,true,false));
+
+											player.addPotionEffect(new PotionEffect(PotionCore.BOOST_POTION, 5, 2,true,false));
 										}
 										if (this.get_core(armor)==6){
 											if (player.getHeldItemMainhand().isEmpty())

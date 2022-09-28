@@ -5,6 +5,7 @@ import java.util.Random;
 import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityBossBase;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_salty_bugster;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityBugsterVirus;
@@ -25,7 +26,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
+import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.math.AxisAlignedBB;
+import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.storage.loot.LootEntryItem;
@@ -69,6 +72,22 @@ public class RegistyHandler {
 
 	@SubscribeEvent
 	public static void onLivingUpate(TickEvent.PlayerTickEvent event) {
+
+		if(event.player.isPotionActive(PotionCore.BOOST_POTION)) {
+			if (event.player.isSneaking()){
+
+				event.player.fallDistance = 0.0f;
+				Vec3d look = event.player.getLookVec();
+				event.player.motionX=look.x*(1+event.player.getActivePotionEffect(PotionCore.BOOST_POTION).getAmplifier());
+				event.player.motionY=look.y*(0.5*(1+event.player.getActivePotionEffect(PotionCore.BOOST_POTION).getAmplifier()));
+				event.player.motionZ=look.z*(1+event.player.getActivePotionEffect(PotionCore.BOOST_POTION).getAmplifier());
+				
+				event.player.world.spawnParticle(EnumParticleTypes.EXPLOSION_NORMAL,event.player.posX,event.player.posY, event.player.posZ, 0.0D, 0.0D, 0.0D);
+				event.player.world.spawnParticle(EnumParticleTypes.EXPLOSION_NORMAL,event.player.posX,event.player.posY+1, event.player.posZ, 0.0D, 0.0D, 0.0D);
+				event.player.world.spawnParticle(EnumParticleTypes.EXPLOSION_NORMAL,event.player.posX,event.player.posY+0.5, event.player.posZ, 0.0D, 0.0D, 0.0D);
+		
+			}
+		}
 
 
 		if(event.player.isPotionActive(PotionCore.ANTIPOISON_POTION)) {
