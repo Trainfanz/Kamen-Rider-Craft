@@ -475,18 +475,18 @@ public class item_ghostdriver extends item_rider_driver
 						return Refercence.MODID+":textures/armor/"+ item_ghostdriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET)) +"_damashii.png";
 						
 					}else{
-						return Refercence.MODID+":textures/armor/blank"+ext;
+						return "blank";
 
 					}
 				}else{
-					return Refercence.MODID+":textures/armor/blank"+ext;
+					return "blank";
 				}
 			}else{
-				return Refercence.MODID+":textures/armor/blank"+ext;
+				return "blank";
 			}
 
 		}
-		return Refercence.MODID+":textures/armor/blank"+ext;
+		return "blank";
 
 	}
 

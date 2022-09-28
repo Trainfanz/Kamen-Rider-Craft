@@ -630,22 +630,22 @@ public  String getTexture(Entity entity, int num,String ext)
 
 						return Refercence.MODID+":textures/armor/"+rider+ext;	
 					}
-
-				}else if (num==4||num==9||num==10||num==11||num==12||num==13||num==14){
-					return Refercence.MODID+":textures/armor/blank"+ext;
-				} else{
-					return Refercence.MODID+":textures/armor/blank"+ext;
-
 				}
+				//else if (num==4||num==9||num==10||num==11||num==12||num==13||num==14){
+					
+		
+					
+
+				
 			}else{
-				return Refercence.MODID+":textures/armor/blank"+ext;
+				return "blank";
 			}
 		}else{
-			return Refercence.MODID+":textures/armor/blank"+ext;
+			return "blank";
 		}
 
 	}
-	return Refercence.MODID+":textures/armor/blank"+ext;
+	return "blank";
 
 }
 

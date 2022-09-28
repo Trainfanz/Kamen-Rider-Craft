@@ -38,8 +38,8 @@ public class Rider_VillagerProfession
 			
 			System.out.println("Registering Villager Professions");
 			
-			registry.register(new VillagerProfession(Refercence.MODID + ":shocker",Refercence.MODID + ":textures/entities/shocker_villager.png", Refercence.MODID + ":textures/entities/shocker_villager.png"));
-			registry.register(new VillagerProfession(Refercence.MODID + ":humagear",Refercence.MODID + ":textures/entities/humagear_villager.png", Refercence.MODID + ":textures/entities/humagear_villager.png"));
+			registry.register(new VillagerProfession(Refercence.MODID + ":shocker",Refercence.MODID + ":textures/entities/shocker_villager.png", Refercence.MODID + ":textures/entities/zombie_shocker_villager.png"));
+			registry.register(new VillagerProfession(Refercence.MODID + ":humagear",Refercence.MODID + ":textures/entities/humagear_villager.png", Refercence.MODID + ":textures/entities/zombie_humagear_villager.png"));
 			
 		}
 	}

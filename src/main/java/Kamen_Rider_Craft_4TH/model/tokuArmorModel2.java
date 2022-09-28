@@ -176,7 +176,7 @@ public class tokuArmorModel2 extends ModelBiped
 			}
 		}	
 		
-		if (belt.rendModle(entity,2)){
+		if (belt.getTexture(entity,2,"")!="blank"){
 			GL11.glPushMatrix();
 		GL11.glScalef(1F*height, 1F*height, 1F*height);
 
@@ -194,7 +194,7 @@ public class tokuArmorModel2 extends ModelBiped
 
 		GL11.glPopMatrix();
 	}
-		if (belt.rendModle(entity,2)){
+		if (belt.getTexture(entity,5,"")!="blank"){
 			GL11.glPushMatrix();
 		GL11.glScalef(1F*height, 1F*height, 1F*height);
 
@@ -211,7 +211,7 @@ public class tokuArmorModel2 extends ModelBiped
 		this.bipedRightArm2.render(f5);
 		GL11.glPopMatrix();
 	}
-		if (belt.rendModle(entity,3)){
+		if (belt.getTexture(entity,3,"")!="blank"){
 		GL11.glPushMatrix();
 		GL11.glScalef(0.9F*height, 0.9F*height, 0.9F*height);
 
@@ -233,7 +233,7 @@ public class tokuArmorModel2 extends ModelBiped
 
 		GL11.glPopMatrix();
 	}
-		if (belt.rendModle(entity,6)){
+		if (belt.getTexture(entity,6,"")!="blank"){
 		GL11.glPushMatrix();
 		GL11.glScalef(0.9F*height, 0.9F*height, 0.9F*height);
 
@@ -250,10 +250,10 @@ public class tokuArmorModel2 extends ModelBiped
 		this.bipedRightLeg2.offsetX=-0.045f;
 		this.bipedRightLeg2.render(f5);
 		GL11.glPopMatrix();
-		
-		GL11.glPushMatrix();
 		}
-		if (belt.rendModle(entity,1)){
+		GL11.glPushMatrix();
+		
+		if (belt.getTexture(entity,1,"")!="blank"){
 		GL11.glPushMatrix();
 		GL11.glScalef(1F*height, 1F*height, 1F*height);
 		if(entity.isSneaking()){
@@ -269,7 +269,7 @@ public class tokuArmorModel2 extends ModelBiped
 
 			GL11.glPopMatrix();
 		}
-		if (belt.rendModle(entity,7)){
+		if (belt.getTexture(entity,7,"")!="blank"){
 		GL11.glPushMatrix();
 		GL11.glTranslatef(0, 0.05F, 0);
 
@@ -289,7 +289,7 @@ public class tokuArmorModel2 extends ModelBiped
 
 		GL11.glPopMatrix();
 		}
-		if (belt.rendModle(entity,8)){
+		if (belt.getTexture(entity,8,"")!="blank"){
 		GL11.glPushMatrix();
 
 
@@ -307,7 +307,7 @@ public class tokuArmorModel2 extends ModelBiped
 		this.bipedBody2.render(f5);
 		GL11.glPopMatrix();
 		}
-		if (belt.rendModle(entity,4)){
+		if (belt.getTexture(entity,4,"")!="blank"){
 		//line x2
 		GL11.glPushMatrix();
 		GL11.glScalef(1.1F*height, 1.1F*height, 1.1F*height);
@@ -325,7 +325,7 @@ public class tokuArmorModel2 extends ModelBiped
 
 		GL11.glPopMatrix();
 		}
-		if (belt.rendModle(entity,9)){
+		if (belt.getTexture(entity,9,"")!="blank"){
 		GL11.glPushMatrix();
 		GL11.glScalef(1.1F*height, 1.1F*height, 1.1F*height);
 
@@ -343,7 +343,7 @@ public class tokuArmorModel2 extends ModelBiped
 		this.bigBipedRightArm2.render(f5);
 		GL11.glPopMatrix();
 		}
-		if (belt.rendModle(entity,10)){
+		if (belt.getTexture(entity,10,"")!="blank"){
 		GL11.glPushMatrix();
 		GL11.glScalef(1F*height, 1F*height, 1F*height);
 
@@ -361,7 +361,7 @@ public class tokuArmorModel2 extends ModelBiped
 
 		GL11.glPopMatrix();
 		}
-		if (belt.rendModle(entity,11)){
+		if (belt.getTexture(entity,11,"")!="blank"){
 		GL11.glPushMatrix();
 		GL11.glScalef(1F*height, 1F*height, 1F*height);
 
@@ -378,7 +378,7 @@ public class tokuArmorModel2 extends ModelBiped
 		this.bigBipedRightLeg2.render(f5);
 		GL11.glPopMatrix();
 		}
-		if (belt.rendModle(entity,12)){
+		if (belt.getTexture(entity,12,"")!="blank"){
 			
 		GL11.glPushMatrix();
 		GL11.glScalef(1.001F*height, 1.001F*height, 1.001F*height);
@@ -395,7 +395,7 @@ public class tokuArmorModel2 extends ModelBiped
 
 			GL11.glPopMatrix();
 		}
-		if (belt.rendModle(entity,13)){
+		if (belt.getTexture(entity,13,"")!="blank"){
 		GL11.glPushMatrix();
 		GL11.glTranslatef(0, 0.05F, 0);
 
@@ -415,7 +415,7 @@ public class tokuArmorModel2 extends ModelBiped
 
 		GL11.glPopMatrix();
 		}
-		if (belt.rendModle(entity,14)){
+		if (belt.getTexture(entity,14,"")!="blank"){
 			GL11.glPushMatrix();
 
 
@@ -433,7 +433,7 @@ public class tokuArmorModel2 extends ModelBiped
 		this.bigBipedBody2.render(f5);
 		GL11.glPopMatrix();
 		}
-		if (belt.rendModle(entity,15)){
+		if (belt.getTexture(entity,15,"")!="blank"){
 			GL11.glPushMatrix();
 		GL11.glTranslatef(0, 0.05F, 0);
 
@@ -453,7 +453,7 @@ public class tokuArmorModel2 extends ModelBiped
 
 		GL11.glPopMatrix();
 		}
-		if (belt.rendModle(entity,17)){
+		if (belt.getTexture(entity,17,"")!="blank"){
 		GL11.glPushMatrix();
 		GL11.glScalef(1.002F*height, 1.002F*height, 1.002F*height);
 		if(entity.isSneaking()){
@@ -470,7 +470,7 @@ public class tokuArmorModel2 extends ModelBiped
 			GL11.glPopMatrix();
 		}
 		
-		if (belt.rendModle(entity,16)){
+		if (belt.getTexture(entity,16,"")!="blank"){
 		GL11.glPushMatrix();
 		GL11.glScalef(0.902F*height, 0.902F*height, 0.902F*height);
 

@@ -293,10 +293,7 @@ public class item_OOOdriver extends item_rider_driver
 		itemstack.getTagCompound().setInteger("core"+slot, flag);
 	}
 
-	public  boolean rendModle(Entity entity, int num)
-	{
-			return true;
-	} 
+
 
 	public  String getTexture(Entity entity, int num,String ext)
 	{
@@ -353,7 +350,7 @@ public class item_OOOdriver extends item_rider_driver
 						if (rider=="birth"||rider=="birth_prototype"){
 							return Refercence.MODID+":textures/armor/"+item_OOOdriver.get_claws_legs(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+".png";
 						}else{
-							return Refercence.MODID+":textures/armor/blank"+ext;
+							return "blank";
 						}
 					}
 
@@ -361,28 +358,28 @@ public class item_OOOdriver extends item_rider_driver
 						if (rider=="birth"||rider=="birth_prototype"){
 							return Refercence.MODID+":textures/armor/"+item_OOOdriver.get_claws_l_arms(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+".png";	
 						}else{
-							return Refercence.MODID+":textures/armor/blank"+ext;
+							return "blank";
 						}
 					} else if (num==4){
 						if (rider=="birth"||rider=="birth_prototype"){
 							return Refercence.MODID+":textures/armor/"+item_OOOdriver.get_claws_r_arms(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+".png";	
 						}else{
-							return Refercence.MODID+":textures/armor/blank"+ext;
+							return "blank";
 						}
 					}
 					else{
-						return Refercence.MODID+":textures/armor/blank"+ext;
+						return "blank";
 
 					}
 				}else{
-					return Refercence.MODID+":textures/armor/blank"+ext;
+					return "blank";
 				}
 			}else{
-				return Refercence.MODID+":textures/armor/blank"+ext;
+				return "blank";
 			}
 
 		}
-		return Refercence.MODID+":textures/armor/blank"+ext;
+		return "blank";
 
 	}
 

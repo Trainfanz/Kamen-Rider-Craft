@@ -206,19 +206,15 @@ public class item_decadedriver extends item_rider_driver
 						
 							return Refercence.MODID+":textures/armor/"+get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+ext;
 			
-					}else if (num==4||num==9||num==10||num==11||num==12||num==13||num==14){
-
-						return Refercence.MODID+":textures/armor/blank"+ext;
-
-					} else{
-						return Refercence.MODID+":textures/armor/blank"+ext;
-
 					}
+						return "blank";
+
+					
 				}else{
-					return Refercence.MODID+":textures/armor/blank"+ext;
+					return "blank";
 				}
 			}else{
-				return Refercence.MODID+":textures/armor/blank"+ext;
+				return "blank";
 			
 
 		}

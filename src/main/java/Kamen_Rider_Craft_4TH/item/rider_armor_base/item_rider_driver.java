@@ -122,37 +122,6 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 		}
 	}
 
-	public  boolean rendModle(Entity entity, int num)
-	{
-		if (num==2||num==5||num==7||num==1||num==3||num==6||num==8){
-			return true;
-		}else if (entity instanceof EntityLivingBase){
-			EntityLivingBase player = ((EntityLivingBase)entity);
-			if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
-				if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_rider_driver){
-					item_rider_driver belt =((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem());
-					String rider = ((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider;
-
-					 if (num==4||num==9||num==10||num==11||num==12||num==13||num==14){
-
-						return item_rider_driver.get_Form_Item_tex(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).get2ndLyer()!="blank"? true:false;
-					} else{
-						return false;
-
-					}
-				
-				}else{
-					return false;
-				}
-			}else{
-				return false;
-			}
-
-		}
-		return false;
-
-	}
-
 	
 	public  String getTexture(Entity entity, int num,String ext)
 	{
@@ -177,21 +146,25 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 			
 					}else if (num==4||num==9||num==10||num==11||num==12||num==13||num==14){
 
+						
+						if (item_rider_driver.get_Form_Item_tex(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).get2ndLyer()=="blank"){
+							return "blank";
+						}
 						return Refercence.MODID+":textures/armor/"+item_rider_driver.get_Form_Item_tex(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).get2ndLyer()+ext;
 
 					} else{
-						return Refercence.MODID+":textures/armor/blank"+ext;
+						return "blank";
 
 					}
 				}else{
-					return Refercence.MODID+":textures/armor/blank"+ext;
+					return "blank";
 				}
 			}else{
-				return Refercence.MODID+":textures/armor/blank"+ext;
+				return "blank";
 			}
 
 		}
-		return Refercence.MODID+":textures/armor/blank"+ext;
+		return "blank";
 
 	}
 

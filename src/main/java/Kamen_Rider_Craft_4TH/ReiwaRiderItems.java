@@ -687,8 +687,8 @@ public class ReiwaRiderItems {
 	public static Item silver_arrow_raise_buckle = new Item_Raise_Buckles("silver_arrow_raise_buckle").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
 	
 	public static Item revice_driver_raise_buckle = new Item_Raise_Buckles(7,"revice_driver_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
-	public static Item two_si_driver_raise_buckle = new Item_Raise_Buckles(9,"two_si_driver_raise_buckle").setCreativeTab(Tabs.tabgeats);
-	public static Item demons_driver_raise_buckle = new Item_Raise_Buckles("demons_driver_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	public static Item two_si_driver_raise_buckle = new Item_Raise_Buckles("two_si_driver_raise_buckle").setCreativeTab(Tabs.tabgeats);
+	public static Item demons_driver_raise_buckle = new Item_Raise_Buckles(9,"demons_driver_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item libera_driver_raise_buckle = new Item_Raise_Buckles("libera_driver_raise_buckle").setCreativeTab(Tabs.tabgeats);
 	
 	public static Item zero_one_driver_raise_buckle = new Item_Raise_Buckles(12,"zero_one_driver_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);

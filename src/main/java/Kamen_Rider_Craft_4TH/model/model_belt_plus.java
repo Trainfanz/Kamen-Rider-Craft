@@ -64,6 +64,7 @@ public class model_belt_plus extends ModelBiped
 			ItemStack stack = living.getItemStackFromSlot(EntityEquipmentSlot.FEET);
 			
 			GL11.glPushMatrix();
+			if (wings.getItem()!=ShowaRiderItems.blanknoitem){
 			GL11.glPushMatrix();
 
 			if(living.isSneaking()){
@@ -76,8 +77,9 @@ public class model_belt_plus extends ModelBiped
 			
 			Minecraft.getMinecraft().getItemRenderer().renderItem(living,wings,null);
 			GL11.glPopMatrix();
+			}
 			GL11.glPushMatrix();
-
+		
 			if(living.isSneaking()){
 				GL11.glRotatef(20, 1, 0, 0);	
 			}
@@ -177,9 +179,14 @@ public class model_belt_plus extends ModelBiped
 			}
 			
 			Minecraft.getMinecraft().getItemRenderer().renderItem(living,belt2,null);
+			
+			if (belt3.getItem()!=ShowaRiderItems.blanknoitem){
 			Minecraft.getMinecraft().getItemRenderer().renderItem(living,belt3,null);
+			}if (belt4.getItem()!=ShowaRiderItems.blanknoitem){
 			Minecraft.getMinecraft().getItemRenderer().renderItem(living,belt4,null);
+			}if (belt5.getItem()!=ShowaRiderItems.blanknoitem){
 			Minecraft.getMinecraft().getItemRenderer().renderItem(living,belt5,null);
+			}
 			GL11.glPopMatrix();
 			GL11.glPopMatrix();
 			

@@ -281,7 +281,7 @@ public class item_Wdriver extends item_rider_driver
 		if (num == 1){
 			ex = "_l";
 		}
-		
+
 		if ((item_Wdriver)itemstack.getItem()==RiderItems.accel_driver){
 			return CoreName4[itemstack.getTagCompound().getInteger("core1")]+ex;
 
@@ -295,12 +295,12 @@ public class item_Wdriver extends item_rider_driver
 				if (item_Wdriver.get_core(itemstack,"2")>0){
 					return "w_"+ CoreName[item_Wdriver.get_core(itemstack,"2")+3];
 				}
-				
+
 				if (CoreName2[itemstack.getTagCompound().getInteger("core3")]=="fang"){
 					return "w_fang_"+CoreName[itemstack.getTagCompound().getInteger("core1")];
 				}else{
-				return "w_"+CoreName[itemstack.getTagCompound().getInteger("core1")];
-			}
+					return "w_"+CoreName[itemstack.getTagCompound().getInteger("core1")];
+				}
 			}
 			else if (num == 3){
 				if (item_Wdriver.get_core(itemstack,"2")>0){
@@ -315,36 +315,7 @@ public class item_Wdriver extends item_rider_driver
 		}
 		return ((item_Wdriver)itemstack.getItem()).Rider+ex;
 	}
-	public  boolean rendModle(Entity entity, int num)
-	{
-		if (num==2||num==5||num==7||num==1||num==3||num==6||num==8){
-			return true;
-		}else if (entity instanceof EntityLivingBase){
-			EntityLivingBase player = ((EntityLivingBase)entity);
-			if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
-				if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_rider_driver){
-					item_rider_driver belt =((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem());
-					String rider = ((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider;
 
-					 if (num==4||num==9||num==10||num==11||num==12||num==13||num==14){
-
-						return true;
-					} else{
-						return false;
-
-					}
-				
-				}else{
-					return false;
-				}
-			}else{
-				return false;
-			}
-
-		}
-		return false;
-
-	} 
 	public   String getTexture(Entity entity, int num,String ext)
 	{
 		if (entity instanceof EntityLivingBase){
@@ -353,30 +324,30 @@ public class item_Wdriver extends item_rider_driver
 				item_rider_driver belt =((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem());
 
 				if (num==9||num==11||num==13||num==12){
-//j
+					//j
 					return Refercence.MODID+":textures/armor/"+get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),3)+"_1.png";
 
 				}else if (num==1||num==7||num==4||num==10){
-//c
+					//c
 					return Refercence.MODID+":textures/armor/"+get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),1)+"_1.png";
 
 				}else if (num==5||num==6||num==14){
-//j2
+					//j2
 					return Refercence.MODID+":textures/armor/"+get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),3)+"_2.png";
 
 				}else if (num==2||num==3||num==8){
-//c2
+					//c2
 					return Refercence.MODID+":textures/armor/"+get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),1)+"_2.png";
 
 				} else{
-					return Refercence.MODID+":textures/armor/blank"+ext;
+					return "blank";
 
 				}
 			}else{
-				return Refercence.MODID+":textures/armor/blank"+ext;
+				return "blank";
 			}
 		}else{
-			return Refercence.MODID+":textures/armor/blank"+ext;
+			return "blank";
 
 
 		}

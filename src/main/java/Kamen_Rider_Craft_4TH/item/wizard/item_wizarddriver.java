@@ -427,20 +427,20 @@ public class item_wizarddriver extends item_rider_driver
 							}
 							
 					}else if (num==4||num==9||num==10||num==11||num==12||num==13||num==14){
-						return Refercence.MODID+":textures/armor/blank"+ext;
+						return "blank";
 					} else{
-						return Refercence.MODID+":textures/armor/blank"+ext;
+						return "blank";
 
 					}
 				}else{
-					return Refercence.MODID+":textures/armor/blank"+ext;
+					return "blank";
 				}
 			}else{
-				return Refercence.MODID+":textures/armor/blank"+ext;
+				return "blank";
 			}
 
 		}
-		return Refercence.MODID+":textures/armor/blank"+ext;
+		return "blank";
 
 	}
 
