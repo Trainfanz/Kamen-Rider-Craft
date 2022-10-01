@@ -122,7 +122,11 @@ public class Item_dienddriver extends ItemBow  implements IHasModel
 
 					if (itemstack.isEmpty())
 					{
-						playerIn.setItemStackToSlot(EntityEquipmentSlot.FEET,  new ItemStack(RiderItems.diend_driver));
+						if (stack.getItem()==RiderItems.diend_driver){
+						playerIn.setItemStackToSlot(EntityEquipmentSlot.FEET,  new ItemStack(RiderItems.dienddriver));
+						}else{
+							playerIn.setItemStackToSlot(EntityEquipmentSlot.FEET,  new ItemStack(RiderItems.dienddriver));
+						}
 					}
     	        
 					Vec3d look =  playerIn.getLookVec();
