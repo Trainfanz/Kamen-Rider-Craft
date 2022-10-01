@@ -57,13 +57,14 @@ public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer play
 				item_ghostdriver belt = (item_ghostdriver) playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem();
 
 				if (num == 0){
+					
 					if (num2== 0&belt == RiderItems.ghostdriver||num2== 5&belt == RiderItems.specterdriver||num2== 19&belt == RiderItems.mega_ulorder){
+						
 							item_ghostdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),0, "1");
 					}
+					if (item_ghostdriver.get_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")<2){
 					item_ghostdriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2,num3);
-				
-				
-
+					}
 
 				}else if (belt == RiderItems.ghostdriver&this==RiderItems.toucon_boost_icon||belt == RiderItems.ghostdriver&this==RiderItems.mugen_icon||belt == RiderItems.ghostdriver&this==RiderItems.fourtyfive_heisei_ghost_icon){
 					item_ghostdriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num, "1");

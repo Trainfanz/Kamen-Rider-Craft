@@ -48,7 +48,7 @@ public class item_ghostdriver extends item_rider_driver
 	public String LOCK;
 	public int DRIVER;
 
-	public static final String[] CoreName= new String[] {"ghost","ghost_boost","ghost_mugen","ghost_fourtyfiveheisei"};
+	public static final String[] CoreName= new String[] {"ghost_base","ghost_boost","ghost_mugen","ghost_fourtyfiveheisei"};
 	public static final String[] CoreNamespecter= new String[] {"specter","deep_specter","specter_sin"};
 	public static final String[] CoreNamenecrom= new String[] {"necrom","necrom_yujou_burst"};
 
@@ -144,7 +144,7 @@ public class item_ghostdriver extends item_rider_driver
 		item_ghostdriver belt = (item_ghostdriver) itemstack.getItem();
 		String rider = "_"+belt.DRIVER; 
 
-		return itemstack.hasTagCompound() ? belt.DRIVER !=itemstack.getTagCompound().getInteger("rider")? "_"+itemstack.getTagCompound().getInteger("rider") : "": "";
+		return itemstack.hasTagCompound() ? belt.DRIVER !=itemstack.getTagCompound().getInteger("rider")? "_"+itemstack.getTagCompound().getInteger("rider") : rider: rider;
 	}
 	public static void set_lock(ItemStack itemstack,int flag,int rider)
 	{
@@ -445,7 +445,7 @@ public class item_ghostdriver extends item_rider_driver
 							
 						}else	if (belt.Rider == "specter"){
 							
-								return Refercence.MODID+":textures/armor/"+ CoreNamespecter[item_ghostdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")]+".png";
+								return Refercence.MODID+":textures/armor/"+ CoreNamespecter[item_ghostdriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")] +get_rider(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+".png";
 							
 						}else if (belt.Rider == "necrom"){
 							

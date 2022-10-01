@@ -34,7 +34,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class item_zikudriver extends item_rider_driver
 {
 
-	public static final String[] CoreName= new String[] {"","_decade","_ii","","_trinity","_grand","_bibiru","_ohma","_majesty","_woz"};
+	public static final String[] CoreName= new String[] {"","_decade","_ii","_revive","_trinity","_grand","_bibiru","_ohma","_majesty","_woz"};
 
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
 	public String armorNamePrefix;
@@ -327,12 +327,12 @@ public class item_zikudriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
 
 										}else if (item_zikudriver.get_core(armor, "1")==3){
-										if (item_zikudriver.get_lockbase(armor)=="revive_goretsu"){
+										if (item_zikudriver.get_lockbase(armor)=="goretsu"){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));	
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.HUNGER, 5, 1,true,false));		
-										}else  if (item_zikudriver.get_lockbase(armor)=="revive_shippu"){
+										}else  if (item_zikudriver.get_lockbase(armor)=="shippu"){
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));	
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 4,true,false));
