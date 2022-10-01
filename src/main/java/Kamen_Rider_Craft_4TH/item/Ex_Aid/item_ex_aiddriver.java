@@ -79,13 +79,13 @@ public class item_ex_aiddriver extends item_rider_driver
 
 	public static boolean get_LV1_body(ItemStack itemstack)
 	{	
-			if (itemstack.getItem()==RiderItems.gamer_driver_proto_lazer||item_ex_aiddriver.get_core(itemstack,"1")==4||item_ex_aiddriver.get_core(itemstack,"1")==5
-					||item_ex_aiddriver.get_core(itemstack,"1")==6||item_ex_aiddriver.get_core(itemstack,"1")==7){
-				return true;
-			}
+		if (itemstack.getItem()==RiderItems.gamer_driver_proto_lazer||item_ex_aiddriver.get_core(itemstack,"1")==4||item_ex_aiddriver.get_core(itemstack,"1")==5
+				||item_ex_aiddriver.get_core(itemstack,"1")==6||item_ex_aiddriver.get_core(itemstack,"1")==7){
+			return true;
+		}
 		return false;
 	}
-	
+
 	@Override
 	@SideOnly(Side.CLIENT)
 	@Nullable
@@ -119,57 +119,8 @@ public class item_ex_aiddriver extends item_rider_driver
 							armorModel.belt=new ItemStack( RiderItems.bugster_buckle);
 						}else{
 							armorModel.belt=stack;
-						}						
-					}else{
-						if (this==RiderItems.gamer_driver_ex_aid||this==RiderItems.gamer_driver_brave||this==RiderItems.gamer_driver_snipe||this==RiderItems.gamer_driver_genmu||this==RiderItems.gamer_driver_paradox) 
-						{
-							armorModel.belt=new ItemStack(RiderItems.gamer_driver);
-						}
-						else
-						{
-							armorModel.belt=stack;
-						}
-
-						if (this.get_lock(stack)=="fantasygamer"|this.get_lock(stack)=="legacygamer"|this.get_lock(stack)=="simulationgamer"|this.get_lock(stack)=="creatorgamer"|this.get_lock(stack)=="knock_out_fighter_2_gamer")
-						{armorModel.belt2=new ItemStack(ShowaRiderItems.blanknoitem);}
-						else if (this==RiderItems.gamer_driver_ex_aid&this.get_core(stack,"1")==0)
-						{armorModel.belt2=new ItemStack(RiderItems.gamer_driver_mighty);}
-						else if (this==RiderItems.gamer_driver_brave&this.get_core(stack,"1")==0)
-						{armorModel.belt2=new ItemStack(RiderItems.gamer_driver_taddle);}
-						else if (this==RiderItems.gamer_driver_snipe&this.get_core(stack,"1")==0)
-						{armorModel.belt2=new ItemStack(RiderItems.gamer_driver_bang);}
-						else if (this==RiderItems.gamer_driver_genmu&this.get_core(stack,"1")==0)
-						{armorModel.belt2=new ItemStack(RiderItems.gamer_driver_protomighty);}
-						else if (this==RiderItems.gamer_driver_paradox&this.get_core(stack,"1")==0)
-						{armorModel.belt2=new ItemStack(RiderItems.gamer_driver_lv99);}
-						else if( this==RiderItems.gamer_driver_paradox&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_mighty){
-							armorModel.belt2=new ItemStack(RiderItems.gamer_driver_knockout2);
-						}else if( this==RiderItems.gamer_driver_genmu&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_maximum){
-							armorModel.belt2=new ItemStack(RiderItems.gamer_driver_godmaximum);
-						}else if( this==RiderItems.gamer_driver_genmu&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_muteki){
-							armorModel.belt2=new ItemStack(RiderItems.gamer_driver_musou);
-						}else if( this==RiderItems.gamer_driver_genmu&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_mightybros||this==RiderItems.gamer_driver_genmu&this.get_core(stack,"1")==1){
-							armorModel.belt2=new ItemStack(RiderItems.gamer_driver_origin);
-						}else if( this==RiderItems.gamer_driver_ex_aid&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_ex_aid_lv1){
-							armorModel.belt=new ItemStack(RiderItems.gamer_driver_ex_aid_lv1);
-						}else if( this==RiderItems.gamer_driver_brave&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_ex_aid_lv1){
-							armorModel.belt=new ItemStack(RiderItems.gamer_driver_brave_lv1);
-						}else if( this==RiderItems.gamer_driver_snipe&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_ex_aid_lv1){
-							armorModel.belt=new ItemStack(RiderItems.gamer_driver_snipe_lv1);
-						}else if( this==RiderItems.gamer_driver_lazer&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_ex_aid_lv1){
-							armorModel.belt=new ItemStack(RiderItems.gamer_driver_lazer_lv1);
-						}else if( this==RiderItems.gamer_driver_genmu&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_ex_aid_lv1){
-							armorModel.belt=new ItemStack(RiderItems.gamer_driver_genm_lv1);
-						}else if( this==RiderItems.gamer_driver_proto_brave&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_ex_aid_lv1){
-							armorModel.belt=new ItemStack(RiderItems.gamer_driver_protobrave_lv1);
-						}else if( this==RiderItems.gamer_driver_proto_snipe&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_ex_aid_lv1){
-							armorModel.belt=new ItemStack(RiderItems.gamer_driver_protosnipe_lv1);
-						}else{
-							armorModel.belt2=new ItemStack(slot_one[this.get_core(stack,"1")]);
-						}
-						armorModel.belt3=new ItemStack(slot_two[this.get_locknum(stack)]);
-					}	
-				}else{
+						}		
+				}
 					if (this==RiderItems.gamer_driver_ex_aid||this==RiderItems.gamer_driver_brave||this==RiderItems.gamer_driver_snipe||this==RiderItems.gamer_driver_genmu||this==RiderItems.gamer_driver_paradox) 
 					{
 						armorModel.belt=new ItemStack(RiderItems.gamer_driver);
@@ -211,6 +162,8 @@ public class item_ex_aiddriver extends item_rider_driver
 						armorModel.belt=new ItemStack(RiderItems.gamer_driver_protobrave_lv1);
 					}else if( this==RiderItems.gamer_driver_proto_snipe&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_ex_aid_lv1){
 						armorModel.belt=new ItemStack(RiderItems.gamer_driver_protosnipe_lv1);
+					}else if( this==RiderItems.paradoxbelt){
+					
 					}else{
 						armorModel.belt2=new ItemStack(slot_one[this.get_core(stack,"1")]);
 					}
@@ -290,8 +243,8 @@ public class item_ex_aiddriver extends item_rider_driver
 		return itemstack.hasTagCompound() ? Item_gashat.ARMS[itemstack.getTagCompound().getInteger("seed")] : "blank";
 	}
 
-	
-	
+
+
 	@SideOnly(Side.CLIENT)
 	public boolean hasEffect(ItemStack par1ItemStack)
 	{
@@ -701,14 +654,14 @@ public class item_ex_aiddriver extends item_rider_driver
 												}
 											}
 										}else  if (this.get_lock(armor)=="tank_gamer"){
-									
+
 											player.addPotionEffect(new PotionEffect(MobEffects.SLOWNESS, 5, 1,true,false));
 											if (player.isSneaking()){
 												Vec3d look = player.getLookVec();
 												player.motionX=look.x;
 												player.motionZ=look.z;
 											}
-											
+
 										}else  if (this.get_lock(armor)=="galaxiangamer"){
 											if (player.isSneaking()){
 												if (item_OOOdriver.get_eftTime(player.getItemStackFromSlot(EntityEquipmentSlot.FEET)) > 99){
@@ -739,7 +692,7 @@ public class item_ex_aiddriver extends item_rider_driver
 			}
 		}
 	}
-	
+
 
 	public  String getTexture(Entity entity, int num,String ext)
 	{
@@ -793,16 +746,16 @@ public class item_ex_aiddriver extends item_rider_driver
 
 					}else if (num==4||num==9||num==10||num==11||num==12||num==13||num==14){
 
-						 if(get_LV1_body(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))){
+						if(get_LV1_body(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))){
 							return Refercence.MODID+":textures/armor/"+rider +CoreName[item_ex_aiddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")] +ext;
-								
-						 }else{
-						
-							 if(item_ex_aiddriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))== "blank"){
-								 return "blank"; 
-							 }
-						return Refercence.MODID+":textures/armor/"+item_ex_aiddriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+ext;
-						 }
+
+						}else{
+
+							if(item_ex_aiddriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))== "blank"){
+								return "blank"; 
+							}
+							return Refercence.MODID+":textures/armor/"+item_ex_aiddriver.get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+ext;
+						}
 					} else{
 						return "blank";
 
@@ -811,7 +764,7 @@ public class item_ex_aiddriver extends item_rider_driver
 					return "blank";
 				}
 			}else{
-				
+
 			}
 
 		}

@@ -599,10 +599,15 @@ public class item_zero_onedriver extends item_rider_driver
 				if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()instanceof item_rider_driver){
 					item_rider_driver belt =((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem());
 					String rider = GetRider(player);
+				
+					
 					if (num==1||num==2||num==5||num==7||num==3||num==6||num==8){
 						if (item_zero_onedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="mammoth"){
 							return Refercence.MODID+":textures/armor/blank.png";
 						}else{
+							if (rider == "vulcan"&item_zero_onedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!="wolf"&item_zero_onedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!="base"||rider == "valkyrie"&item_zero_onedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!="cheetah"&item_zero_onedriver.get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))!="base"){
+								rider = rider+"_base";
+							}
 							return Refercence.MODID+":textures/armor/"+rider+CoreName[item_zero_onedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "1")]+ext;	
 						}	
 					}else if (num==4||num==9||num==10||num==11||num==12||num==13||num==14){
