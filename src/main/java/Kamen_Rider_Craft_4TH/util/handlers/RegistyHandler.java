@@ -57,7 +57,8 @@ public class RegistyHandler {
 		boolean fly = false;
 		if(event.player.isPotionActive(PotionCore.FLY_POTION)) fly = true;
 		if(event.player.isPotionActive(Potion.getPotionFromResourceLocation("supersentaicraft"+ ":" + "fly"))) fly = true;
-
+		if(event.player.isPotionActive(Potion.getPotionFromResourceLocation("ultracraft"+ ":" + "fly"))) fly = true;
+		
 		if(fly || event.player.isCreative() || event.player.isSpectator()) {
 			event.player.capabilities.allowFlying = true;
 			event.player.fallDistance = 0.0f;
