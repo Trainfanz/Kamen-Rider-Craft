@@ -541,7 +541,7 @@ public class item_zero_onedriver extends item_rider_driver
 
 									}
 									else if (form=="mammoth"){
-
+										player.setInvisible(true);
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,2,true,false));
 										player.addPotionEffect(new PotionEffect(PotionCore.BIG_POTION, 1, 0,true,false));

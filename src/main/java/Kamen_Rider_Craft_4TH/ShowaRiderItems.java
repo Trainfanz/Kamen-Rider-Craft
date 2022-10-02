@@ -67,6 +67,12 @@ public class ShowaRiderItems {
 			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
 			).setCreativeTab(Tabs.tabIchigo);
 
+	public static Item rider3_vs_the_demon_of_general_black = new Item_form_change("rider3_vs_the_demon_of_general_black",item_rider_driver.class,blanknoitem,"_manga","sango"
+			,new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false),new PotionEffect(MobEffects.SPEED,20, 1,true,false),
+			new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
+			).setCreativeTab(Tabs.tabIchigo);
+
+	
 	public static Item new_typhoon = new Item_ore("new_typhoon");
 	
 	public static Item new_typhoon_core = new Item_form_change("new_typhoon_core",item_rider_driver.class,new_typhoon,"_new","ichigo"

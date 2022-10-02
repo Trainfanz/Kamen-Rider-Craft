@@ -54,7 +54,8 @@ public class item_drivedriver extends item_rider_driver
 	public static final String[] CoreName2= new String[] {"mach","mach_dead_heat","chaser","mach_chaser","mach_dead_heat_drive","super_dead_heat","chaser_mach","super_deadheat_mach"};
 
 	public static final String[] CoreName3= new String[] {"mach_dead_heat_drive","super_dead_heat"};
-
+	
+	public static final String[] CoreName4= new String[] {"mashin_chaser","chou_mashin_chaser"};
 
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
 	public String armorNamePrefix;
@@ -626,16 +627,14 @@ public  String getTexture(Entity entity, int num,String ext)
 						return Refercence.MODID+":textures/armor/"+CoreName2[item_drivedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))]+ext;
 					}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.mach_driver_honoh_drive){
 						return Refercence.MODID+":textures/armor/"+CoreName3[item_drivedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))]+ext;
+					}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.break_gunner_2){
+						return Refercence.MODID+":textures/armor/"+CoreName4[item_drivedriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))]+ext;
 					}else {
 
 						return Refercence.MODID+":textures/armor/"+rider+ext;	
 					}
 				}
 				//else if (num==4||num==9||num==10||num==11||num==12||num==13||num==14){
-					
-		
-					
-
 				
 			}else{
 				return "blank";

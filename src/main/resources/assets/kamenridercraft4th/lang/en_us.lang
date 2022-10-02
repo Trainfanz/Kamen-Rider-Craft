@@ -211,6 +211,7 @@ effect.fly=Flying
 effect.fire_punch=Fire Punch
 effect.punch_boost=Punch Boost
 effect.big=Enlarging
+effect.small=Shrinking
 effect.boost=Rocket Boost
 effect.antipoison=Poison Resistance
 effect.bugster_virus=Bugster Virus
@@ -3422,6 +3423,8 @@ item.red_hakaider_belt.name=Red Hakaider Belt
 item.silver_hakaider_belt.name=Silver Hakaider Belt
 item.blue_hakaider_belt.name=Blue Hakaider Belt
 
+
+item.rider3_vs_the_demon_of_general_black.name=Rider 3 vs. The Demon of General Black Manga
 item.card_warrior_kamen_rider_manga.name=Card Warrior Kamen Rider Manga
 item.herculespader_sword.name=Herculespader Sword
 item.flaresalamander_sword.name=Flaresalamander Sword
