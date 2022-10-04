@@ -5,6 +5,8 @@ import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.item.geats.Item_mission_box;
+import Kamen_Rider_Craft_4TH.item.geats.Item_rider_core_id;
 import Kamen_Rider_Craft_4TH.item.saber.Item_wonder_ride_book;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import com.google.common.collect.Lists;
@@ -118,7 +120,14 @@ public class Item_form_change extends Item implements IHasModel
 		return this;
 	}
 
-
+	public Item_form_change AddToList(List<Item> list,int num)
+	{
+		for (int i1 = 0; i1 < num; ++i1)
+		{
+			list.add(this);
+		}
+		return this;
+	}
 
 
 

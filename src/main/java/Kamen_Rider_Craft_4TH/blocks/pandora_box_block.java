@@ -34,7 +34,6 @@ public class pandora_box_block extends machine_block  {
     		if (player.getHeldItem(hand).getItem() == Items.DYE & player.getHeldItem(hand).getMetadata()==1) process(player, worldIn, pos, hand, RiderItems.pandora_panel_red);
     		if (player.getHeldItem(hand).getItem() == Items.DYE & player.getHeldItem(hand).getMetadata()==0) process(player, worldIn, pos, hand, RiderItems.pandora_panel_black);
     		if (player.getHeldItem(hand).getItem() == RiderItems.hazard_trigger) process(player, worldIn, pos, hand, RiderItems.pandora_panel_white);
-    		return true;
 	    }
 
         return false;

@@ -34,7 +34,6 @@ public class amazon_cell_extractor extends machine_block  {
 	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
 		if (!worldIn.isRemote) {
 			if (player.getHeldItem(hand).getItem() == ShowaRiderItems.empty_vial) process(player, worldIn, pos, hand, ShowaRiderItems.amazon_cell_vial);
-			return true;
 		}
 
 		return false;

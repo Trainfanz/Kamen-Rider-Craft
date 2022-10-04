@@ -73,7 +73,6 @@ public class AstroSwitchProgrammer extends machine_block  {
 	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
 		if (!worldIn.isRemote) {
 			if (player.getHeldItem(hand).getItem() == RiderItems.astroswitch) process(player, worldIn, pos, hand, getAstroSwitchDrop());
-			return true;
 		}
 
 		return false;

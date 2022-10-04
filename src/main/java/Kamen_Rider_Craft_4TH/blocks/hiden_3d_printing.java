@@ -46,7 +46,6 @@ public class hiden_3d_printing extends machine_block  {
 		if (!worldIn.isRemote) {
 			if (player.getHeldItem(hand).getItem() == ReiwaRiderItems.blank_progrise_key) process(player, worldIn, pos, hand, getProgriseKeyDrop(0));
 			else if (player.getHeldItem(hand).getItem() == ReiwaRiderItems.humagear_progrise_key) process(player, worldIn, pos, hand, getProgriseKeyDrop(1));
-			return true;
 		}
 
 		return false;

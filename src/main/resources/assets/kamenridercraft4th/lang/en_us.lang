@@ -335,6 +335,7 @@ tile.pure_gaia_memory_block.name=Pure Gaia Memory Block
 tile.taboo_bossblock.name=Taboo Block
 tile.terror_boss_block.name=Terror Block
 
+tile.g_chip_programer.name=G-System Chip Programer
 tile.cell_medal_programer.name=Cell Medal Programer
 tile.vistamp_bar.name=Vistamp Bar
 tile.astro_switch_programer.name=Astro Switch Programer
@@ -471,7 +472,7 @@ item.base_bike.name=Base Bike
 item.shocker_emblem.name=Shocker Emblem
 
 item.agito_of_seed.name=Seed of Agito
-item.g3core.name=G3 Core
+item.g3core.name=Blank G-System Chip
 item.bladecard.name=Blank Rouze Card
 item.blank_mission_memory.name=Blank Mission Memory
 item.blankcard.name=Blank Rider Card
@@ -1737,6 +1738,8 @@ item.agitotroso.name=Agito Chestplate
 item.agitolegs.name=Agito Leggings
 
 item.alter_ring.name=Alter Ring
+item.alter_ring_reiko.name=Alter Ring(Reiko Takano)
+
 item.meta_factor.name=Meta Factor
 item.ank_point.name=Ank Point
 item.ank_point_burning.name=Ank Point Burning
@@ -1760,12 +1763,12 @@ item.agito_shining.name=Agito Shining
 item.gills.name=Gills
 item.exceed_gills.name=Exceed Gills
 
-item.g1.name=G1
-item.g3.name=G3
-item.g3x.name=G3-X
-item.g3mild.name=G3 Mild
-item.g4.name=G4
-item.g4x.name=G4-X
+item.g1.name=G1 Chip
+item.g3.name=G3 Chip
+item.g3x.name=G3-X Chip
+item.g3mild.name=G3 Mild Chip
+item.g4.name=G4 Chip
+item.g4x.name=G4-X Chip
 
 item.another_agito.name=Another Agito
 item.agito_miracle.name=Agito Miracle

@@ -325,6 +325,8 @@ public class RiderItems {
 
 	public static Item alter_ring = new item_agitodriver("alter_ring",ArmorMaterial.DIAMOND, 4,"agito",(Item_form_change) agito_ground).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 
+	public static Item alter_ring_reiko = new item_agitodriver("alter_ring_reiko",ArmorMaterial.DIAMOND, 4,"female_agito",(Item_form_change) agito_trinity).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
+
 
 	public static Item meta_factor_exceed = new Item_ore("meta_factor_exceed");
 
@@ -352,7 +354,7 @@ public class RiderItems {
 
 	public static Item g3 = new Item_form_change("g3",item_agitodriver.class,ShowaRiderItems.blanknoitem,"",""
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)
-			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
+			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)).AddToList( g_chip_programer_block.g_chip, 10).setCreativeTab(Tabs.tabagito);
 
 	public static Item g3_belt = new item_agitodriver("g3_belt",ArmorMaterial.DIAMOND, 4,"g3",(Item_form_change) g3).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 
@@ -360,13 +362,13 @@ public class RiderItems {
 	public static Item g3x = new Item_form_change("g3x",item_agitodriver.class,ShowaRiderItems.blanknoitem,"",""
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false)
-			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false)).setCreativeTab(Tabs.tabagito);
+			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false)).AddToList(g_chip_programer_block.g_chip, 3).setCreativeTab(Tabs.tabagito);
 
 	public static Item g3_x_belt = new item_agitodriver("g3_x_belt",ArmorMaterial.DIAMOND, 4,"g3_x",(Item_form_change) g3x).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
 
 
 	public static Item g3mild = new Item_form_change("g3mild",item_agitodriver.class,ShowaRiderItems.blanknoitem,"",""
-			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
+			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)).AddToList( g_chip_programer_block.g_chip, 2).setCreativeTab(Tabs.tabagito);
 
 	public static Item g3_mild_belt = new item_agitodriver("g3_mild_belt",ArmorMaterial.DIAMOND, 4,"g3_mild",(Item_form_change) g3mild).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
 
@@ -374,7 +376,7 @@ public class RiderItems {
 	public static Item g4 = new Item_form_change("g4",item_agitodriver.class,ShowaRiderItems.blanknoitem,"",""
 			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false)
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false)
-			,new PotionEffect(MobEffects.POISON, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
+			,new PotionEffect(MobEffects.POISON, 5, 0,true,false)).AddToList( g_chip_programer_block.g_chip, 1).setCreativeTab(Tabs.tabagito);
 
 	public static Item g4_belt = new item_agitodriver("g4_belt",ArmorMaterial.DIAMOND, 4,"g4",(Item_form_change) g4).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
 
@@ -388,7 +390,7 @@ public class RiderItems {
 
 
 	public static Item g1 = new Item_form_change("g1",item_agitodriver.class,ShowaRiderItems.blanknoitem,"",""
-			,new PotionEffect(MobEffects.WEAKNESS, 5, 0,true,false)).setCreativeTab(Tabs.tabagito);
+			,new PotionEffect(MobEffects.WEAKNESS, 5, 0,true,false)).AddToList( g_chip_programer_block.g_chip, 10).setCreativeTab(Tabs.tabagito);
 
 	public static Item g1_belt = new item_agitodriver("g1_belt",ArmorMaterial.DIAMOND, 4,"g1",(Item_form_change) g1).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
 

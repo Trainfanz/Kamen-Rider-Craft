@@ -51,7 +51,6 @@ public class gaia_memory_refiner_block extends machine_block  {
 			if (player.getHeldItem(hand).getItem() == RiderItems.unrefined_memory_g) process(player, worldIn, pos, hand, getmemoryDrop(0));
 			else if (player.getHeldItem(hand).getItem() == RiderItems.unrefined_memory_s) process(player, worldIn, pos, hand, getmemoryDrop(1));
 			else if (player.getHeldItem(hand).getItem() == RiderItems.unrefined_memory_t2) process(player, worldIn, pos, hand, getmemoryDrop(2));
-			return true;
 		}
 
 		return false;

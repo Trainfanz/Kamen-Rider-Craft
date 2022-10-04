@@ -84,7 +84,6 @@ public class vistamp_bar extends machine_block  {
 	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
 		if (!worldIn.isRemote) {
 			if (player.getHeldItem(hand).getItem() == ReiwaRiderItems.proto_vistamp) process(player, worldIn, pos, hand, getvistampDrop(player));
-			return true;
 		}
 
 		return false;

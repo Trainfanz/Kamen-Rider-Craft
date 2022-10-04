@@ -54,7 +54,6 @@ public class cell_medal_programer_block extends machine_block  {
 			 if (player.getHeldItem(hand).getItem() == RiderItems.cellmedal) process(player, worldIn, pos, hand, get_birth_core_Drop());
 			 else  if (player.getHeldItem(hand).getItem() == new ItemStack(Blocks.PACKED_ICE).getItem()) process(player, worldIn, pos, hand, get_core_Drop());
 				
-			return true;
 		}
 
 		return false;

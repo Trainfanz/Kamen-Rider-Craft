@@ -67,8 +67,6 @@ private Item getProgriseKeyDrop(EntityPlayer player) {
 			if (player.getHeldItem(hand).getItem() == ReiwaRiderItems.blank_wonder_ride_book) process(player, worldIn, pos, hand, getProgriseKeyDrop(player));
 			
 			else if (player.getHeldItem(hand).getItem() == ReiwaRiderItems.blank_wonder_world_story_wonder_ride_book) process(player, worldIn, pos, hand, get_wonder_world_storyDrop());
-			
-			return true;
 		}
 
 		return false;

@@ -184,6 +184,7 @@ public class item_Wdriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 5, 1,true,false));
+											player.addPotionEffect(new PotionEffect(PotionCore.BOOST_POTION, 5, 0,true,false));
 
 										}
 									}									

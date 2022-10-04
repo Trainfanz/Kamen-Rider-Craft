@@ -44,7 +44,6 @@ public class amazon_cell_mutator extends machine_block  {
 	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
 		if (!worldIn.isRemote) {
 			if (player.getHeldItem(hand).getItem() == ShowaRiderItems.amazon_cell_vial) process(player, worldIn, pos, hand,get_cell_mutation_Drop());
-			return true;
 		}
 
 		return false;

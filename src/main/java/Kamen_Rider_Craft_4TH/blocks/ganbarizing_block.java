@@ -64,7 +64,6 @@ public class ganbarizing_block extends machine_block  {
     public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
     	if (!worldIn.isRemote) {
     		if (player.getHeldItem(hand).getItem() == RiderItems.blank_gashat) process(player, worldIn, pos, hand, getGameDrop());
-    	    return true;
 	    }
     	
         return false;

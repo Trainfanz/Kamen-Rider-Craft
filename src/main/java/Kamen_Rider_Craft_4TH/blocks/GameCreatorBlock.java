@@ -67,7 +67,6 @@ public class GameCreatorBlock extends machine_block  {
 			else if (player.getHeldItem(hand).getItem() == RiderItems.mighty_brothers_xx_unfinished_gashat) process(player, worldIn, pos, hand, getGameDrop(3));
 			else if (player.getHeldItem(hand).getItem() == RiderItems.unfinished_hyper_muteki_gashat) process(player, worldIn, pos, hand, getGameDrop(4));
 			else if (player.getHeldItem(hand).getItem() == ReiwaRiderItems.president_dan_kuroto_progrise_key) process(player, worldIn, pos, hand, RiderItems.genm_musou_gashat);
-			return true;
 		}
 
 		return false;

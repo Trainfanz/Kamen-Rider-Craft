@@ -35,8 +35,6 @@ public class solidifyer_block extends machine_block {
             else if (playerIn.getHeldItem(hand).getItem() == RiderItems.dragon_full_bottle) process(playerIn, worldIn, pos, hand, RiderItems.dragon_sclashjelly);
             else if (playerIn.getHeldItem(hand).getItem() == RiderItems.robo_full_bottle) process(playerIn, worldIn, pos, hand, RiderItems.robot_sclashjelly);
             else if (playerIn.getHeldItem(hand).getItem() == RiderItems.bat_full_bottle) process(playerIn, worldIn, pos, hand, RiderItems.crocodile_crack_full_bottle);
-            
-            return true;
         }
     	
         return false;

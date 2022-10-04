@@ -5,6 +5,7 @@ import Kamen_Rider_Craft_4TH.blocks.BlockCustomDoor;
 import Kamen_Rider_Craft_4TH.blocks.BlockCustomStaris;
 import Kamen_Rider_Craft_4TH.blocks.GameCreatorBlock;
 import Kamen_Rider_Craft_4TH.blocks.cell_medal_programer_block;
+import Kamen_Rider_Craft_4TH.blocks.g_chip_programer_block;
 import Kamen_Rider_Craft_4TH.blocks.gaia_memory_refiner_block;
 import Kamen_Rider_Craft_4TH.blocks.game_block;
 import Kamen_Rider_Craft_4TH.blocks.ganbarizing_block;
@@ -182,6 +183,10 @@ public class RiderBlocks {
 	public static Block bang_bang_drum = new game_block("bang_bang_drum", Material.ROCK, 0).setCreativeTab(Tabs.tabdecor);
 	
 	public static Block bakusou_trophy = new game_block("bakusou_trophy", Material.ROCK, 0).setCreativeTab(Tabs.tabdecor);
+	
+	
+	public static Block g_chip_programer = new g_chip_programer_block("g_chip_programer",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabagito);
+	
 	
 	public static Block gaia_memory_refiner = new gaia_memory_refiner_block("gaia_memory_refiner",Material.ROCK, 2).setHardness(9.9F).setCreativeTab(Tabs.tabW);
 	

@@ -4,7 +4,8 @@
     "recipes": [
       "kamenridercraft4th:kuugahead",
       "kamenridercraft4th:kuugatroso",
-      "kamenridercraft4th:kuugalegs"
+      "kamenridercraft4th:kuugalegs",
+      "kamenridercraft4th:g3core"
     ]
   },
   "criteria": {
