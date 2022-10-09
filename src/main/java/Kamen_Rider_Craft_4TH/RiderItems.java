@@ -2074,9 +2074,9 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item hyper_ring = new Item_wizard_ring(5, "3","hyper_ring").setCreativeTab(Tabs.tabwizard);
 
 	public static Item wiseman_ring = new Item_ore("wiseman_ring").setCreativeTab(Tabs.tabwizard);
-	public static Item mage_o_ring = new Item_ore("mage_o_ring").setCreativeTab(Tabs.tabwizard);
-	public static Item mage_b_ring = new Item_ore("mage_b_ring").setCreativeTab(Tabs.tabwizard);
-	public static Item mage_g_ring = new Item_ore("mage_g_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item mage_o_ring = new Item_ore("mage_o_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setCreativeTab(Tabs.tabwizard);
+	public static Item mage_b_ring = new Item_ore("mage_b_ring").AddToList(item_unknown_wizard_ring.blue_wizard_ring, 1).setCreativeTab(Tabs.tabwizard);
+	public static Item mage_g_ring = new Item_ore("mage_g_ring").AddToList(item_unknown_wizard_ring.green_wizard_ring, 1).setCreativeTab(Tabs.tabwizard);
 	public static Item sorcerer_ring = new Item_ore("sorcerer_ring").AddToList(item_unknown_wizard_ring.black_wizard_ring, 1).setCreativeTab(Tabs.tabwizard);
 	public static Item black_ring = new Item_ore("black_ring").AddToList(item_unknown_wizard_ring.black_wizard_ring, 1).setCreativeTab(Tabs.tabwizard);
 	public static Item dark_ring = new Item_ore("dark_ring").AddToList(item_unknown_wizard_ring.violet_wizard_ring, 1).setCreativeTab(Tabs.tabwizard);

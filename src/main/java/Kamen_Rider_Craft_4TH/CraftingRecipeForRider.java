@@ -265,50 +265,9 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":k_touch_diend"),new ResourceLocation("diend_complete"),new ItemStack(RiderItems.k_touch_diend), new Ingredient[]{Ingredient.fromItem(RiderItems.g4card),Ingredient.fromItem(RiderItems.ryugacard),Ingredient.fromItem(RiderItems.orgacard),Ingredient.fromItem(RiderItems.glaivecard),Ingredient.fromItem(RiderItems.kabukicard),Ingredient.fromItem(RiderItems.caucasuscard),Ingredient.fromItem(RiderItems.arccard),Ingredient.fromItem(RiderItems.skullcard)});	
 
 
-		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":wizardhead"), new ResourceLocation("kr_wizard"),new ItemStack(RiderItems.wizardhead,1), "aaa","a a", 'a', RiderItems.wizardgem);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":wizardtroso"), new ResourceLocation("kr_wizard"),new ItemStack(RiderItems.wizardtroso,1), "a a","aaa","aaa", 'a', RiderItems.wizardgem);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":wizardlegs"), new ResourceLocation("kr_wizard"),new ItemStack(RiderItems.wizardlegs,1), "aaa","a a","a a", 'a', RiderItems.wizardgem);
-		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":wizardriver"), new ResourceLocation("wizard"),new ItemStack(RiderItems.wizardriver,1), "aaa","afa","aaa", 'a', RiderItems.wizardgem,  'f', RiderItems.flame_ring);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":whitewizardriver"), new ResourceLocation("white_wizard"),new ItemStack(RiderItems.whitewizardriver,1), "aaa","afa","aaa", 'a', RiderItems.wizardgem,  'f', RiderItems.wiseman_ring);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":whitewizardriverf"), new ResourceLocation("white_wizard"),new ItemStack(RiderItems.whitewizardriverf,1), "aaa","afa","aaa", 'a', RiderItems.wizardgem,  'f', RiderItems.hope_ring);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":magewizardriver"), new ResourceLocation("mage"),new ItemStack(RiderItems.magewizardriver,1), "aaa","afa","aaa", 'a', RiderItems.wizardgem,  'f', RiderItems.mage_o_ring);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":magewizardriver_b"), new ResourceLocation("mage"),new ItemStack(RiderItems.magewizardriver_b,1),"aaa","afa","aaa", 'a', RiderItems.wizardgem,  'f', RiderItems.mage_b_ring);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":magewizardriver_g"), new ResourceLocation("mage"),new ItemStack(RiderItems.magewizardriver_g,1), "aaa","afa","aaa", 'a', RiderItems.wizardgem,  'f', RiderItems.mage_g_ring);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":sorcererdriver"), new ResourceLocation("sorcerer"),new ItemStack(RiderItems.sorcererdriver,1), "aaa","afa","aaa", 'a', RiderItems.wizardgem,  'f', RiderItems.sorcerer_ring);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":blackwizardriver"), new ResourceLocation("black_wizard"),new ItemStack(RiderItems.blackwizardriver,1), "aaa","afa","aaa", 'a', RiderItems.wizardgem,  'f', RiderItems.black_ring);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":darkwizardriver"), new ResourceLocation("dark_wizard"),new ItemStack(RiderItems.darkwizardriver,1), "aaa","afa","aaa", 'a', RiderItems.wizardgem,  'f', RiderItems.dark_ring);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":beastdriver"), new ResourceLocation("beast"),new ItemStack(RiderItems.beastdriver,1), "aaa","afa","aaa", 'a', RiderItems.wizardgem,  'f', RiderItems.beast_ring);
-		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":wizarswordgun"), new ResourceLocation("wizard"),new ItemStack(RiderItems.wizarswordgun,1), "aaa","aba","aaa", 'a', RiderItems.wizardgem, 'b', miscellaneousRiderItems.base_sword);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":axcalibur"), new ResourceLocation("wizard_infinity"),new ItemStack(RiderItems.axcalibur,1), "ama","aba","aaa", 'a', RiderItems.wizardgem, 'b', miscellaneousRiderItems.base_sword, 'm', RiderItems.infinity_ring);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":dice_saber"), new ResourceLocation("beast"),new ItemStack(RiderItems.dice_saber,1), "ama","aba","aaa", 'a', RiderItems.wizardgem, 'b', miscellaneousRiderItems.base_sword, 'm', RiderItems.beast_ring);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":mirage_magnum"), new ResourceLocation("beast_hyper"),new ItemStack(RiderItems.mirage_magnum,1), "ama","aba","aaa", 'a', RiderItems.wizardgem, 'b', miscellaneousRiderItems.base_sword, 'm', RiderItems.hyper_ring);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":dis_halberd"), new ResourceLocation("sorcerer"),new ItemStack(RiderItems.dis_halberd,1), "ama","aba","aaa", 'a', RiderItems.wizardgem, 'b', miscellaneousRiderItems.base_sword, 'm', RiderItems.sorcerer_ring);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":hammelcane"), new ResourceLocation("white_wizard"),new ItemStack(RiderItems.hammelcane,1), "ama","aba","aaa", 'a', RiderItems.wizardgem, 'b', miscellaneousRiderItems.base_sword, 'm', RiderItems.wiseman_ring);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":wizarswordgun_mage"), new ResourceLocation("mage"),new ItemStack(RiderItems.wizarswordgun_mage,1), "ama","aba","aaa", 'a', RiderItems.wizardgem, 'b', miscellaneousRiderItems.base_sword, 'm', RiderItems.mage_b_ring);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":wizarswordgun_mage_2"), new ResourceLocation("mage"),new ItemStack(RiderItems.wizarswordgun_mage,1), "ama","aba","aaa", 'a', RiderItems.wizardgem, 'b', miscellaneousRiderItems.base_sword, 'm', RiderItems.mage_o_ring);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":wizarswordgun_mage_3"), new ResourceLocation("mage"),new ItemStack(RiderItems.wizarswordgun_mage,1), "ama","aba","aaa", 'a', RiderItems.wizardgem, 'b', miscellaneousRiderItems.base_sword, 'm', RiderItems.mage_g_ring);
-		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":drago_timer"), new ResourceLocation("wizard_all_dragon"),new ItemStack(RiderItems.drago_timer,1), "aca","fad","aea", 'a', RiderItems.wizardgem, 'c', RiderItems.flame_ring_dragon, 'd', RiderItems.water_ring_dragon, 'e', RiderItems.hurricane_ring_dragon, 'f', RiderItems.land_ring_dragon);
+
 		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":light_ring"), new ResourceLocation("wizard_ring"),new ItemStack(RiderItems.light_ring,1), "aaa","afa","aaa", 'a', RiderItems.wizardgem, 'f', Blocks.TORCH);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":explosion_ring"), new ResourceLocation("wizard_ring"),new ItemStack(RiderItems.explosion_ring,1), "aaa","afa","aaa", 'a', RiderItems.wizardgem, 'f', Blocks.TNT);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":bind_ring"), new ResourceLocation("wizard_ring"),new ItemStack(RiderItems.bind_ring,1), "aaa","afa","aaa", 'a', RiderItems.wizardgem, 'f', Items.STRING);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":teleport_ring"), new ResourceLocation("wizard_ring"),new ItemStack(RiderItems.teleport_ring,1), "aaa","afa","aaa", 'a', RiderItems.wizardgem, 'f', Items.ENDER_PEARL);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":liquid_ring"), new ResourceLocation("wizard_ring"),new ItemStack(RiderItems.liquid_ring,1), "aaa","afa","aaa", 'a', RiderItems.wizardgem, 'f', Items.WATER_BUCKET);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":drill_ring"), new ResourceLocation("wizard_ring"),new ItemStack(RiderItems.drill_ring,1), "aaa","afa","aaa", 'a', RiderItems.wizardgem, 'f', Items.GOLDEN_PICKAXE);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":fall_ring"), new ResourceLocation("wizard_ring"),new ItemStack(RiderItems.fall_ring,1), "aaa","afa","aaa", 'a', RiderItems.wizardgem, 'f', Items.GOLDEN_SHOVEL);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":kick_strike_ring"), new ResourceLocation("wizard_ring"),new ItemStack(RiderItems.kick_strike_ring,1), "aaa","afa","aaa", 'a', RiderItems.wizardgem, 'f', Items.GOLDEN_BOOTS);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":sleep_ring"), new ResourceLocation("wizard_ring"),new ItemStack(RiderItems.sleep_ring,1), "aaa","afa","aaa", 'a', RiderItems.wizardgem, 'f', Blocks.BED);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":defend_ring"), new ResourceLocation("wizard_ring"),new ItemStack(RiderItems.defend_ring,1), "aaa","afa","aaa", 'a', RiderItems.wizardgem, 'f', Blocks.COBBLESTONE_WALL);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":eclipse_ring"), new ResourceLocation("wizard_ring"),new ItemStack(RiderItems.eclipse_ring,1), "aaa","afa","aaa", 'a', RiderItems.wizardgem, 'f', Blocks.REDSTONE_TORCH);		
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":thunder_ring"), new ResourceLocation("wizard_ring"),new ItemStack(RiderItems.thunder_ring,1), "aaa","afa","aaa", 'a', RiderItems.wizardgem, 'f', Items.IRON_INGOT);
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":excite_ring"), new ResourceLocation("wizard_ring"),new ItemStack(RiderItems.excite_ring,1), "aaa","afa","aaa", 'a', RiderItems.wizardgem, 'f', Items.SUGAR);
-		
-		
-			
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":drivehead"), new ResourceLocation("kr_drive"),new ItemStack(RiderItems.drivehead,1), "aaa","a a", 'a', RiderItems.proto_speedshift);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":drivetroso"), new ResourceLocation("kr_drive"),new ItemStack(RiderItems.drivetroso,1), "a a","aaa","aaa", 'a',RiderItems.proto_speedshift);
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":drivelegs"), new ResourceLocation("kr_drive"),new ItemStack(RiderItems.drivelegs,1), "aaa","a a","a a", 'a', RiderItems.proto_speedshift);
