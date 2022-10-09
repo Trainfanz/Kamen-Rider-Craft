@@ -24,6 +24,18 @@ import static Kamen_Rider_Craft_4TH.item.item_panel.PanelColor.*;
 
 public class miscellaneousRiderItems {
 
+	public static Item donut = new riderfood(4, true,"donut").setCreativeTab(Tabs.tabmisc);
+	public static Item icepop1  = new riderfood(2, true,"icepop1").setCreativeTab(Tabs.tabmisc);
+	public static Item icepop2  = new riderfood(2, true,"icepop2").setCreativeTab(Tabs.tabmisc);
+	public static Item icepop3  = new riderfood(2, true,"icepop3").setCreativeTab(Tabs.tabmisc);
+
+	public static Item base_sword = new Item_ore("base_sword").setCreativeTab(Tabs.tabmisc);
+	public static Item base_bike = new Item_ore("base_bike").setCreativeTab(Tabs.tabmisc);
+
+	public static Item shocker_emblem = new Item_ore("shocker_emblem").setCreativeTab(Tabs.tabmisc);
+	//public static Item base_gun = new Item_ore("base_gun").setCreativeTab(Tabs.tabmisc);
+
+
 
 	//Card Warrior Kamen Rider
 	public static Item card_warrior_kamen_rider_manga  = new Item_ore("card_warrior_kamen_rider_manga").keep_item().setCreativeTab(Tabs.tabmisc);
@@ -172,6 +184,44 @@ public class miscellaneousRiderItems {
 			,new PotionEffect(MobEffects.REGENERATION, 5, 0,true,false)).Rend2ndLyer("bakuen_no_senshi_hibiki").addWing(bakuen_no_senshi_wings)
 			.addAlternative((Item_form_change) bakuen_no_senshi_faiz).addAlternative((Item_form_change) bakuen_no_senshi_ryuga).setCreativeTab(Tabs.tabmisc);	
 
+	
+	
+
+	public static Item ziku_driver_build = new Item_ore("ziku_driver_build");
+	public static Item ziku_driver_exaid = new Item_ore("ziku_driver_exaid");
+	public static Item ziku_driver_ghost = new Item_ore("ziku_driver_ghost");
+	public static Item ziku_driver_drive = new Item_ore("ziku_driver_drive");
+	public static Item ziku_driver_gaim = new Item_ore("ziku_driver_gaim");
+	public static Item ziku_driver_wizard = new Item_ore("ziku_driver_wizard");
+	public static Item ziku_driver_fourze = new Item_ore("ziku_driver_fourze");
+	public static Item ziku_driver_ooo = new Item_ore("ziku_driver_ooo");
+	public static Item ziku_driver_w = new Item_ore("ziku_driver_w");
+	public static Item ziku_driver_decade = new Item_ore("ziku_driver_decade");
+	public static Item ziku_driver_kiva = new Item_ore("ziku_driver_kiva");
+	public static Item ziku_driver_deno = new Item_ore("ziku_driver_deno");
+	public static Item ziku_driver_kabuto = new Item_ore("ziku_driver_kabuto");
+	public static Item ziku_driver_hibiki = new Item_ore("ziku_driver_hibiki");
+	public static Item ziku_driver_blade = new Item_ore("ziku_driver_blade");
+	public static Item ziku_driver_faiz = new Item_ore("ziku_driver_faiz");
+	public static Item ziku_driver_ryuki = new Item_ore("ziku_driver_ryuki");
+	public static Item ziku_driver_agito = new Item_ore("ziku_driver_agito");
+	public static Item ziku_driver_kuuga = new Item_ore("ziku_driver_kuuga");
+
+	public static Item ziku_driver_saber = new Item_ore("ziku_driver_saber");
+
+	public static Item ziku_driver_zi_o_ii = new Item_ore("ziku_driver_zi_o_ii");
+	public static Item ziku_driver_zi_o_trinity = new Item_ore("ziku_driver_zi_o_trinity");
+	public static Item ziku_driver_zi_o_grand = new Item_ore("ziku_driver_zi_o_grand");
+	public static Item ziku_driver_zio_ohma = new Item_ore("ziku_driver_zio_ohma");
+	public static Item ziku_driver_woz = new Item_ore("ziku_driver_woz");
+	public static Item ziku_driver_geizrevive = new Item_ore("ziku_driver_geizrevive");
+	public static Item ziku_driver_bibiru_geiz = new Item_ore("ziku_driver_bibiru_geiz");
+	public static Item ziku_driver_majesty = new Item_ore("ziku_driver_majesty");
+
+	public static Item ziku_driver_genm = new Item_ore("ziku_driver_genm");
+
+	public static Item oma_zi_o_cape = new Item_ore("oma_zi_o_cape");
+	
 	public static void init() {
 		
 	}

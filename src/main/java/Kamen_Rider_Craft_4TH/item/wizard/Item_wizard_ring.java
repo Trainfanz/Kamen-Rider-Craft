@@ -1,7 +1,10 @@
 package Kamen_Rider_Craft_4TH.item.wizard;
 
+import java.util.List;
+
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -36,6 +39,16 @@ public class Item_wizard_ring extends Item implements IHasModel
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
 	}
+	
+	public Item_wizard_ring AddToList(List<Item> list,int num)
+	{
+		for (int i1 = 0; i1 < num; ++i1)
+		{
+			list.add(this);
+		}
+		return this;
+	}
+	
 	@Override
 	 public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer player, EnumHand handIn)
    {

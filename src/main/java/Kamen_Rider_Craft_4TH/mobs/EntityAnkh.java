@@ -3,6 +3,7 @@ package Kamen_Rider_Craft_4TH.mobs;
 import com.google.common.base.Predicate;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.miscellaneousRiderItems;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_ankh_complete;
 import Kamen_Rider_Craft_4TH.mobs.bikes.EntityRidevendor;
 
@@ -383,7 +384,7 @@ public class EntityAnkh extends EntityTameable
 				return true;
 			}
 		}
-		else if (itemstack.getItem() == RiderItems.icepop1 && !this.isAngry()||itemstack.getItem() == RiderItems.icepop2 && !this.isAngry()||itemstack.getItem() == RiderItems.icepop3 && !this.isAngry())
+		else if (itemstack.getItem() == miscellaneousRiderItems.icepop1 && !this.isAngry()||itemstack.getItem() == miscellaneousRiderItems.icepop2 && !this.isAngry()||itemstack.getItem() == miscellaneousRiderItems.icepop3 && !this.isAngry())
 		{
 			if (!player.capabilities.isCreativeMode)
 			{

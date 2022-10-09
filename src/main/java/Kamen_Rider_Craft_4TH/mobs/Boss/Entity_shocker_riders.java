@@ -15,6 +15,7 @@ import com.google.common.collect.Sets;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.ShowaRiderItems;
+import Kamen_Rider_Craft_4TH.miscellaneousRiderItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -108,7 +109,7 @@ public class Entity_shocker_riders extends EntityBossBase
     {
 if (!this.world.isRemote){
 
-   		this.dropItem(RiderItems.shocker_emblem, 1);
+   		this.dropItem(miscellaneousRiderItems.shocker_emblem, 1);
    		this.dropItem(ShowaRiderItems.rider_circuit, 4);
 
    		switch (this.rand.nextInt(5))

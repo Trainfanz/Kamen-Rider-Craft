@@ -68,6 +68,7 @@ import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
 import Kamen_Rider_Craft_4TH.item.ryuki.Item_vent;
 import Kamen_Rider_Craft_4TH.item.wizard.Item_wizard_ring;
 import Kamen_Rider_Craft_4TH.item.wizard.Item_wizard_rings_efts;
+import Kamen_Rider_Craft_4TH.item.wizard.item_unknown_wizard_ring;
 import Kamen_Rider_Craft_4TH.item.wizard.item_wizarddriver;
 import Kamen_Rider_Craft_4TH.item.zero_one.Item_progrise_keys;
 import Kamen_Rider_Craft_4TH.item.zero_one.item_risephone;
@@ -117,24 +118,9 @@ public class RiderItems {
 
 	public static Item energy = new Item_ore("energy").setCreativeTab(Tabs.tabmisc);
 
-	public static Item donut = new riderfood(4, true,"donut").setCreativeTab(Tabs.tabmisc);
-	public static Item icepop1  = new riderfood(2, true,"icepop1").setCreativeTab(Tabs.tabmisc);
-	public static Item icepop2  = new riderfood(2, true,"icepop2").setCreativeTab(Tabs.tabmisc);
-	public static Item icepop3  = new riderfood(2, true,"icepop3").setCreativeTab(Tabs.tabmisc);
-
-	public static Item base_sword = new Item_ore("base_sword").setCreativeTab(Tabs.tabmisc);
-	public static Item base_bike = new Item_ore("base_bike").setCreativeTab(Tabs.tabmisc);
-
-	public static Item shocker_emblem = new Item_ore("shocker_emblem").setCreativeTab(Tabs.tabmisc);
-	//public static Item base_gun = new Item_ore("base_gun").setCreativeTab(Tabs.tabmisc);
-
-	//ore blocks
+		//ore blocks
 	public static Item agito_of_seed = new Item_ore("agito_of_seed").setCreativeTab(Tabs.tabagito);
 	public static Block stone_agito= new ore_block("stone_agito",Material.ROCK, agito_of_seed, 2).setHardness(9.9F).setCreativeTab(Tabs.tabagito);
-
-	public static Item g3core = new Item_ore("g3core").setCreativeTab(Tabs.tabagito);
-	public static Block hellrock_agito= new ore_block("hellrock_agito",Material.ROCK, g3core, 3).setHardness(9.9F).setCreativeTab(Tabs.tabagito);
-
 
 	public static Item fuestlefake = new Item_ore("fuestlefake").setCreativeTab(Tabs.tabkiva);
 	public static Block fuestlehellrock = new ore_block("fuestlehellrock",Material.ROCK, fuestlefake, 3).setHardness(9.9F).setCreativeTab(Tabs.tabkiva);
@@ -145,11 +131,6 @@ public class RiderItems {
 	public static Item diendcard = new Itemrider_cards(0,0,"diendcard").setCreativeTab(Tabs.tabdecade);
 	public static Block card_hellrock = new ore_block("card_hellrock",Material.ROCK,diendcard, 3).setHardness(9.9F).setCreativeTab(Tabs.tabdecade);
 
-	public static Item wizardgem = new Item_ore("wizardgem").setCreativeTab(Tabs.tabwizard);
-	public static Block wizardgemblock = new ore_block("wizardgemblock",Material.ROCK, wizardgem, 2).setHardness(9.9F).setCreativeTab(Tabs.tabwizard);
-
-	public static Item wizardgem2 = new Item_ore("wizardgem2").setCreativeTab(Tabs.tabwizard);
-	public static Block hellwizardgemblock = new ore_block("hellwizardgemblock",Material.ROCK, wizardgem2, 3).setHardness(9.9F).setCreativeTab(Tabs.tabwizard);
 
 	public static Item proto_speedshift  = new Item_shift_car(1, 11,"proto_speedshift").setCreativeTab(Tabs.tabdrive);
 	public static Block drive_stone = new ore_block("drive_stone",Material.ROCK, proto_speedshift, 2).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabdrive);
@@ -351,6 +332,7 @@ public class RiderItems {
 
 	public static Item ank_point = new item_agitodriver("ank_point",ArmorMaterial.DIAMOND, 4,"another_agito",(Item_form_change) another_agito).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 
+	public static Item g3core = new Item_ore("g3core").setCreativeTab(Tabs.tabagito);
 
 	public static Item g3 = new Item_form_change("g3",item_agitodriver.class,ShowaRiderItems.blanknoitem,"",""
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)
@@ -2040,6 +2022,10 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item ooo_switch = new Item_astroswitch(0, "0","square",18,"ooo_switch").AddLegendCrafting(taka).setCreativeTab(Tabs.tabFourze);
 	
 	// Wizard
+	public static Item wizardgem = new Item_ore("wizardgem").setCreativeTab(Tabs.tabwizard);
+	public static Block wizardgemblock = new ore_block("wizardgemblock",Material.ROCK, wizardgem, 2).setHardness(9.9F).setCreativeTab(Tabs.tabwizard);
+
+	
 	public static Item wizarswordgun = new Item_sword_gun("wizarswordgun",Tabs.wizarswordgun, RiderItems.wizardgem).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	public static Item axcalibur = new ItemChargeSword("axcalibur",Tabs.axcalibur, RiderItems.wizardgem).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	public static Item wizarswordgun_mage = new Item_sword_gun("wizarswordgun_mage",Tabs.wizarswordgun, RiderItems.wizardgem).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
@@ -2064,23 +2050,22 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item darkwizardriver = new item_wizarddriver("darkwizardriver",ArmorMaterial.DIAMOND, "dark_wizard").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	public static Item blackwizardriver = new item_wizarddriver("blackwizardriver",ArmorMaterial.DIAMOND, "black_wizard").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 
-	public static Item flame_ring = new Item_wizard_ring(0, "1","flame_ring").setCreativeTab(Tabs.tabwizard);
-	public static Item water_ring = new Item_wizard_ring(1, "1","water_ring").setCreativeTab(Tabs.tabwizard);
-	public static Item hurricane_ring = new Item_wizard_ring(2, "1","hurricane_ring").setCreativeTab(Tabs.tabwizard);
-	public static Item land_ring = new Item_wizard_ring(3, "1","land_ring").setCreativeTab(Tabs.tabwizard);
-	public static Item flame_ring_dragon = new Item_wizard_ring(4, "1","flame_ring_dragon").setCreativeTab(Tabs.tabwizard);
-	public static Item water_ring_dragon = new Item_wizard_ring(5, "1","water_ring_dragon").setCreativeTab(Tabs.tabwizard);
-	public static Item hurricane_ring_dragon = new Item_wizard_ring(6, "1","hurricane_ring_dragon").setCreativeTab(Tabs.tabwizard);
-	public static Item land_ring_dragon = new Item_wizard_ring(7, "1","land_ring_dragon").setCreativeTab(Tabs.tabwizard);
+	public static Item flame_ring = new Item_wizard_ring(0, "1","flame_ring").AddToList(item_unknown_wizard_ring.red_wizard_ring, 5).setCreativeTab(Tabs.tabwizard);
+	public static Item water_ring = new Item_wizard_ring(1, "1","water_ring").AddToList(item_unknown_wizard_ring.blue_wizard_ring, 5).setCreativeTab(Tabs.tabwizard);
+	public static Item hurricane_ring = new Item_wizard_ring(2, "1","hurricane_ring").AddToList(item_unknown_wizard_ring.green_wizard_ring, 5).setCreativeTab(Tabs.tabwizard);
+	public static Item land_ring = new Item_wizard_ring(3, "1","land_ring").AddToList(item_unknown_wizard_ring.yellow_wizard_ring, 5).setCreativeTab(Tabs.tabwizard);
+	public static Item flame_ring_dragon = new Item_wizard_ring(4, "1","flame_ring_dragon").AddToList(item_unknown_wizard_ring.red_wizard_ring, 1).setCreativeTab(Tabs.tabwizard);
+	public static Item water_ring_dragon = new Item_wizard_ring(5, "1","water_ring_dragon").AddToList(item_unknown_wizard_ring.blue_wizard_ring, 1).setCreativeTab(Tabs.tabwizard);
+	public static Item hurricane_ring_dragon = new Item_wizard_ring(6, "1","hurricane_ring_dragon").AddToList(item_unknown_wizard_ring.green_wizard_ring, 1).setCreativeTab(Tabs.tabwizard);
+	public static Item land_ring_dragon = new Item_wizard_ring(7, "1","land_ring_dragon").AddToList(item_unknown_wizard_ring.yellow_wizard_ring, 1).setCreativeTab(Tabs.tabwizard);
 	public static Item infinity_ring = new Item_wizard_ring(8, "1","infinity_ring").setCreativeTab(Tabs.tabwizard);
 
 	public static Item drago_timer = new Item_wizard_ring(1, "2","drago_timer").setCreativeTab(Tabs.tabwizard);
-	public static Item special_ring = new Item_wizard_ring(2, "2","special_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item special_ring = new Item_wizard_ring(2, "2","special_ring").AddToList(item_unknown_wizard_ring.red_wizard_ring, 1).setCreativeTab(Tabs.tabwizard);
 	public static Item finish_strike_ring = new Item_wizard_ring(3 , "2","finish_strike_ring").setCreativeTab(Tabs.tabwizard);
 	public static Item hope_ring = new Item_ore("hope_ring").setCreativeTab(Tabs.tabwizard);
-	public static Item special_rush_ring = new Item_wizard_ring(9 , "2","special_rush_ring").setCreativeTab(Tabs.tabwizard);
-	public static Item dress_up_ring = new Item_wizard_ring(11, "1","dress_up_ring").setCreativeTab(Tabs.tabwizard);
-
+	public static Item special_rush_ring = new Item_wizard_ring(9 , "2","special_rush_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setCreativeTab(Tabs.tabwizard);
+	
 	public static Item beast_ring = new Item_wizard_ring(0, "3","beast_ring").setCreativeTab(Tabs.tabwizard);
 	public static Item falco_ring = new Item_wizard_ring(1, "3","falco_ring").setCreativeTab(Tabs.tabwizard);
 	public static Item chameleo_ring = new Item_wizard_ring(2, "3","chameleo_ring").setCreativeTab(Tabs.tabwizard);
@@ -2092,44 +2077,76 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item mage_o_ring = new Item_ore("mage_o_ring").setCreativeTab(Tabs.tabwizard);
 	public static Item mage_b_ring = new Item_ore("mage_b_ring").setCreativeTab(Tabs.tabwizard);
 	public static Item mage_g_ring = new Item_ore("mage_g_ring").setCreativeTab(Tabs.tabwizard);
-	public static Item sorcerer_ring = new Item_ore("sorcerer_ring").setCreativeTab(Tabs.tabwizard);
-	public static Item black_ring = new Item_ore("black_ring").setCreativeTab(Tabs.tabwizard);
-	public static Item dark_ring = new Item_ore("dark_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item sorcerer_ring = new Item_ore("sorcerer_ring").AddToList(item_unknown_wizard_ring.black_wizard_ring, 1).setCreativeTab(Tabs.tabwizard);
+	public static Item black_ring = new Item_ore("black_ring").AddToList(item_unknown_wizard_ring.black_wizard_ring, 1).setCreativeTab(Tabs.tabwizard);
+	public static Item dark_ring = new Item_ore("dark_ring").AddToList(item_unknown_wizard_ring.violet_wizard_ring, 1).setCreativeTab(Tabs.tabwizard);
 
-	public static Item light_ring = new Item_wizard_rings_efts(1 , "0","light_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item excite_ring = new Item_wizard_rings_efts(2 , "0","excite_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item defend_ring = new Item_wizard_rings_efts(3 , "0","defend_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item thunder_ring = new Item_wizard_rings_efts(4 , "0","thunder_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item explosion_ring = new Item_wizard_rings_efts(5 , "0","explosion_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item sleep_ring = new Item_wizard_rings_efts(6 , "0","sleep_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item bind_ring = new Item_wizard_rings_efts(7 , "0","bind_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item teleport_ring = new Item_wizard_rings_efts(8 , "0","teleport_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item fall_ring = new Item_wizard_rings_efts(9 , "0","fall_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item connect_ring = new Item_wizard_rings_efts(10 , "0","connect_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item kick_strike_ring = new Item_wizard_rings_efts(11 , "0","kick_strike_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item eclipse_ring = new Item_wizard_rings_efts(12 , "0","eclipse_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item liquid_ring = new Item_wizard_rings_efts(13 , "0","liquid_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item drill_ring = new Item_wizard_rings_efts(14 , "0","drill_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item big_ring = new Item_wizard_rings_efts(15 , "0","big_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item small_ring = new Item_wizard_rings_efts(16 , "0","small_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item light_ring = new Item_wizard_rings_efts(1 , "0","light_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item excite_ring = new Item_wizard_rings_efts(2 , "0","excite_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item defend_ring = new Item_wizard_rings_efts(3 , "0","defend_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item thunder_ring = new Item_wizard_rings_efts(4 , "0","thunder_ring").AddToList(item_unknown_wizard_ring.green_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item explosion_ring = new Item_wizard_rings_efts(5 , "0","explosion_ring").AddToList(item_unknown_wizard_ring.violet_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item sleep_ring = new Item_wizard_rings_efts(6 , "0","sleep_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item bind_ring = new Item_wizard_rings_efts(7 , "0","bind_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item teleport_ring = new Item_wizard_rings_efts(8 , "0","teleport_ring").AddToList(item_unknown_wizard_ring.violet_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item fall_ring = new Item_wizard_rings_efts(9 , "0","fall_ring").AddToList(item_unknown_wizard_ring.cyan_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item connect_ring = new Item_wizard_rings_efts(10 , "0","connect_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item kick_strike_ring = new Item_wizard_rings_efts(11 , "0","kick_strike_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item eclipse_ring = new Item_wizard_rings_efts(12 , "0","eclipse_ring").AddToList(item_unknown_wizard_ring.violet_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item liquid_ring = new Item_wizard_rings_efts(13 , "0","liquid_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item drill_ring = new Item_wizard_rings_efts(14 , "0","drill_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item big_ring = new Item_wizard_rings_efts(15 , "0","big_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item small_ring = new Item_wizard_rings_efts(16 , "0","small_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item dress_up_ring = new Item_wizard_ring(11, "1","dress_up_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setCreativeTab(Tabs.tabwizard);
+
+
+	public static Item engage_ring = new Item_ore("engage_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item please_ring = new Item_ore("please_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+
+	public static Item driver_on_ring = new Item_ore("driver_on_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item driver_on_ring_white_wizard = new Item_ore("driver_on_ring_white_wizard").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	
-
-	public static Item engage_ring = new Item_ore("engage_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item please_ring = new Item_ore("please_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-
-	public static Item copy_ring = new Item_ore("copy_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item smell_ring = new Item_ore("smell_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item extend_ring = new Item_ore("extend_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item merry_christmas_ring = new Item_ore("merry_christmas_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);			
-	public static Item blizzard_ring = new Item_ore("blizzard_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item gravity_ring = new Item_ore("gravity_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item miracle_ring = new Item_ore("miracle_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item flower_ring = new Item_ore("flower_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item common_wizard_ring = new Item_ore("common_wizard_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item chichin_pui_pui_ring = new Item_ore("chichin_pui_pui_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item create_ring = new Item_ore("create_ring").AddToList(item_unknown_wizard_ring.black_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	
+	public static Item copy_ring = new Item_ore("copy_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item smell_ring = new Item_ore("smell_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item extend_ring = new Item_ore("extend_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item merry_christmas_ring = new Item_ore("merry_christmas_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);			
+	public static Item blizzard_ring = new Item_ore("blizzard_ring").AddToList(item_unknown_wizard_ring.blue_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item gravity_ring = new Item_ore("gravity_ring").AddToList(item_unknown_wizard_ring.yellow_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item miracle_ring = new Item_ore("miracle_ring").AddToList(item_unknown_wizard_ring.cyan_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item flower_ring = new Item_ore("flower_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	public static Item dance_ring = new Item_ore("dance_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
-	public static Item time_ring = new Item_ore("time_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item time_ring = new Item_ore("time_ring").AddToList(item_unknown_wizard_ring.cyan_wizard_ring, 1).setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item holy_ring = new Item_ore("holy_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	
+	
+	public static Item fourze_engage_ring = new Item_ore("fourze_engage_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	public static Item super_sentai_ring = new Item_ore("super_sentai_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 
+	public static Item unknown_amber_ring = new item_unknown_wizard_ring("unknown_amber_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item unknown_red_ring = new item_unknown_wizard_ring("unknown_red_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item unknown_blue_ring = new item_unknown_wizard_ring("unknown_blue_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item unknown_green_ring = new item_unknown_wizard_ring("unknown_green_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item unknown_yellow_ring = new item_unknown_wizard_ring("unknown_yellow_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item unknown_violet_ring = new item_unknown_wizard_ring("unknown_violet_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item unknown_black_ring = new item_unknown_wizard_ring("unknown_black_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item unknown_cyan_ring = new item_unknown_wizard_ring("unknown_cyan_ring").setCreativeTab(Tabs.tabwizard);
 
+	public static Item wizard_gem_crafting_chisel = new Item_ore("wizard_gem_crafting_chisel").keep_item().setCreativeTab(Tabs.tabwizard);
+	
+	
+	public static Item wizardgem_red = new Item_ore("wizardgem_red").setCreativeTab(Tabs.tabwizard);
+	public static Item wizardgem_blue = new Item_ore("wizardgem_blue").setCreativeTab(Tabs.tabwizard);
+	public static Item wizardgem_green = new Item_ore("wizardgem_green").setCreativeTab(Tabs.tabwizard);
+	public static Item wizardgem_yellow = new Item_ore("wizardgem_yellow").setCreativeTab(Tabs.tabwizard);
+	public static Item wizardgem_violet = new Item_ore("wizardgem_violet").setCreativeTab(Tabs.tabwizard);
+	public static Item wizardgem_black = new Item_ore("wizardgem_black").setCreativeTab(Tabs.tabwizard);
+	public static Item wizardgem_cyan = new Item_ore("wizardgem_cyan").setCreativeTab(Tabs.tabwizard);
+	public static Item philosophers_stone = new Item_ore("philosophers_stone").setCreativeTab(Tabs.tabwizard);
+	
 	//Gaim
 	public static Item himawari_lockseed = new Item_ore("himawari_lockseed").setCreativeTab(Tabs.tabGaim);
 	public static Item himawari_energy_lockseed = new Item_ore("himawari_energy_lockseed").setCreativeTab(Tabs.tabGaim);
@@ -2277,7 +2294,6 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 
 	public static Item sengoku_driver_natsumikan  = new Item_ore("sengoku_driver_natsumikan");
 	public static Item natsumikan_lockseed = new Item_lockseed(1,63,"natsumikan_lockseed").setCreativeTab(Tabs.tabGaim);
-
 
 	public static Item sengoku_driver_drive  = new Item_ore("sengoku_driver_drive");
 	public static Item drive_lockseed  = new Item_lockseed(4,45,"drive_lockseed").setCreativeTab(Tabs.tabGaim);
@@ -3489,40 +3505,6 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item spannerder_screwder = new Item_ore("spannerder_screwder").setCreativeTab(Tabs.tabzi_o);
 	public static Item ginga_globe = new Item_ore("ginga_globe").setCreativeTab(Tabs.tabzi_o);
 
-	public static Item ziku_driver_build = new Item_ore("ziku_driver_build");
-	public static Item ziku_driver_exaid = new Item_ore("ziku_driver_exaid");
-	public static Item ziku_driver_ghost = new Item_ore("ziku_driver_ghost");
-	public static Item ziku_driver_drive = new Item_ore("ziku_driver_drive");
-	public static Item ziku_driver_gaim = new Item_ore("ziku_driver_gaim");
-	public static Item ziku_driver_wizard = new Item_ore("ziku_driver_wizard");
-	public static Item ziku_driver_fourze = new Item_ore("ziku_driver_fourze");
-	public static Item ziku_driver_ooo = new Item_ore("ziku_driver_ooo");
-	public static Item ziku_driver_w = new Item_ore("ziku_driver_w");
-	public static Item ziku_driver_decade = new Item_ore("ziku_driver_decade");
-	public static Item ziku_driver_kiva = new Item_ore("ziku_driver_kiva");
-	public static Item ziku_driver_deno = new Item_ore("ziku_driver_deno");
-	public static Item ziku_driver_kabuto = new Item_ore("ziku_driver_kabuto");
-	public static Item ziku_driver_hibiki = new Item_ore("ziku_driver_hibiki");
-	public static Item ziku_driver_blade = new Item_ore("ziku_driver_blade");
-	public static Item ziku_driver_faiz = new Item_ore("ziku_driver_faiz");
-	public static Item ziku_driver_ryuki = new Item_ore("ziku_driver_ryuki");
-	public static Item ziku_driver_agito = new Item_ore("ziku_driver_agito");
-	public static Item ziku_driver_kuuga = new Item_ore("ziku_driver_kuuga");
-
-	public static Item ziku_driver_saber = new Item_ore("ziku_driver_saber");
-
-	public static Item ziku_driver_zi_o_ii = new Item_ore("ziku_driver_zi_o_ii");
-	public static Item ziku_driver_zi_o_trinity = new Item_ore("ziku_driver_zi_o_trinity");
-	public static Item ziku_driver_zi_o_grand = new Item_ore("ziku_driver_zi_o_grand");
-	public static Item ziku_driver_zio_ohma = new Item_ore("ziku_driver_zio_ohma");
-	public static Item ziku_driver_woz = new Item_ore("ziku_driver_woz");
-	public static Item ziku_driver_geizrevive = new Item_ore("ziku_driver_geizrevive");
-	public static Item ziku_driver_bibiru_geiz = new Item_ore("ziku_driver_bibiru_geiz");
-	public static Item ziku_driver_majesty = new Item_ore("ziku_driver_majesty");
-
-	public static Item ziku_driver_genm = new Item_ore("ziku_driver_genm");
-
-	public static Item oma_zi_o_cape = new Item_ore("oma_zi_o_cape");
 
 
 	public static void init() {

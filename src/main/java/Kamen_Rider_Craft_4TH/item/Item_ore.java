@@ -1,8 +1,11 @@
 package Kamen_Rider_Craft_4TH.item;
 
 
+import java.util.List;
+
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
+import Kamen_Rider_Craft_4TH.item.wizard.Item_wizard_ring;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
@@ -38,6 +41,14 @@ public class Item_ore extends Item implements IHasModel
 		return this;
 	}
 	
+	public Item_ore AddToList(List<Item> list,int num)
+	{
+		for (int i1 = 0; i1 < num; ++i1)
+		{
+			list.add(this);
+		}
+		return this;
+	}
 
 
 	@Override

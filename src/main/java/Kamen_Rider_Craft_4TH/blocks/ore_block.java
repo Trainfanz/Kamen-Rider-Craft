@@ -281,42 +281,19 @@ public class ore_block extends Block implements IHasModel {
 
 
 		if (CRYSTAL == RiderItems.wizardgem){
-			int rand = generator.nextInt(200);
+			int rand = generator.nextInt(150);
 
-			if (rand < 10) return RiderItems.flame_ring;
-			if (rand < 20) return RiderItems.water_ring;
-			if (rand < 30) return RiderItems.hurricane_ring;
-			if (rand < 40) return RiderItems.land_ring;
-			if (rand < 45) return RiderItems.flame_ring_dragon;
-			if (rand < 50) return RiderItems.water_ring_dragon;
-			if (rand < 55) return RiderItems.hurricane_ring_dragon;
-			if (rand < 60) return RiderItems.land_ring_dragon;
-			if (rand < 62) return RiderItems.infinity_ring;
-			if (rand < 64) return RiderItems.special_rush_ring;
-			if (rand < 65) return RiderItems.finish_strike_ring;
-			if (rand < 66) return RiderItems.hope_ring;
+			if (rand < 10) return RiderItems.wizardgem_red;
+			if (rand < 20) return RiderItems.wizardgem_blue;
+			if (rand < 30) return RiderItems.wizardgem_green;
+			if (rand < 40) return RiderItems.wizardgem_yellow;
+			if (rand < 45) return RiderItems.wizardgem_cyan;
+			if (rand < 47) return RiderItems.wizardgem_violet;
+			if (rand < 48) return RiderItems.wizardgem_black;
 			return CRYSTAL;
 		}
 
-		if (CRYSTAL == RiderItems.wizardgem2){
-			int rand = generator.nextInt(200);
-
-			if (rand < 30) return RiderItems.beast_ring;
-			if (rand < 40) return RiderItems.dolphi_ring;
-			if (rand < 50) return RiderItems.falco_ring;
-			if (rand < 60) return RiderItems.chameleo_ring;
-			if (rand < 70) return RiderItems.buffa_ring;
-			if (rand < 75) return RiderItems.hyper_ring;
-			if (rand < 80) return RiderItems.mage_b_ring;
-			if (rand < 85) return RiderItems.mage_g_ring;
-			if (rand < 90) return RiderItems.mage_o_ring;
-			if (rand < 92) return RiderItems.sorcerer_ring;
-			if (rand < 94) return RiderItems.wiseman_ring;
-			if (rand < 95) return RiderItems.black_ring;
-			if (rand < 97) return RiderItems.dark_ring;
-			return CRYSTAL;
-		}
-
+		
 
 		if (CRYSTAL == RiderItems.ghost_icons) {
 			int rand = generator.nextInt(300);

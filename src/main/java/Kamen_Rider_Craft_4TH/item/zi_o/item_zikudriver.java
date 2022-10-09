@@ -6,6 +6,7 @@ import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.miscellaneousRiderItems;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
 import Kamen_Rider_Craft_4TH.item.revice.Item_Vistamps;
 import Kamen_Rider_Craft_4TH.item.revice.item_revicedriver;
@@ -78,14 +79,14 @@ public class item_zikudriver extends item_rider_driver
 
 				model_belt_plus armorModel = new model_belt_plus();
 
-				Item[] form_watch= new Item[] {ShowaRiderItems.blanknoitem,RiderItems.ziku_driver_decade,RiderItems.ziku_driver_zi_o_ii,ShowaRiderItems.blanknoitem,RiderItems.ziku_driver_zi_o_trinity,RiderItems.ziku_driver_zi_o_grand,RiderItems.ziku_driver_bibiru_geiz,RiderItems.ziku_driver_zio_ohma,RiderItems.ziku_driver_majesty,RiderItems.ziku_driver_woz};
-				Item[] armor_watch= new Item[] {ShowaRiderItems.blanknoitem,RiderItems.ziku_driver_build,RiderItems.ziku_driver_exaid,RiderItems.ziku_driver_ghost,
-						RiderItems.ziku_driver_drive,RiderItems.ziku_driver_gaim,RiderItems.ziku_driver_wizard,RiderItems.ziku_driver_fourze,RiderItems.ziku_driver_ooo
-						,RiderItems.ziku_driver_w,ShowaRiderItems.blanknoitem,RiderItems.ziku_driver_deno,RiderItems.ziku_driver_kabuto,RiderItems.ziku_driver_hibiki,
-						RiderItems.ziku_driver_blade,RiderItems.ziku_driver_faiz,RiderItems.ziku_driver_ryuki,RiderItems.ziku_driver_agito,RiderItems.ziku_driver_kuuga
-						,RiderItems.ziku_driver_genm,ShowaRiderItems.blanknoitem,RiderItems.ziku_driver_exaid,ShowaRiderItems.blanknoitem,ShowaRiderItems.blanknoitem,
-						ShowaRiderItems.blanknoitem,RiderItems.ziku_driver_geizrevive,RiderItems.ziku_driver_geizrevive,ShowaRiderItems.blanknoitem,ShowaRiderItems.blanknoitem
-						,ShowaRiderItems.blanknoitem,RiderItems.ziku_driver_saber};
+				Item[] form_watch= new Item[] {ShowaRiderItems.blanknoitem,miscellaneousRiderItems.ziku_driver_decade,miscellaneousRiderItems.ziku_driver_zi_o_ii,ShowaRiderItems.blanknoitem,miscellaneousRiderItems.ziku_driver_zi_o_trinity,miscellaneousRiderItems.ziku_driver_zi_o_grand,miscellaneousRiderItems.ziku_driver_bibiru_geiz,miscellaneousRiderItems.ziku_driver_zio_ohma,miscellaneousRiderItems.ziku_driver_majesty,miscellaneousRiderItems.ziku_driver_woz};
+				Item[] armor_watch= new Item[] {ShowaRiderItems.blanknoitem,miscellaneousRiderItems.ziku_driver_build,miscellaneousRiderItems.ziku_driver_exaid,miscellaneousRiderItems.ziku_driver_ghost,
+						miscellaneousRiderItems.ziku_driver_drive,miscellaneousRiderItems.ziku_driver_gaim,miscellaneousRiderItems.ziku_driver_wizard,miscellaneousRiderItems.ziku_driver_fourze,miscellaneousRiderItems.ziku_driver_ooo
+						,miscellaneousRiderItems.ziku_driver_w,ShowaRiderItems.blanknoitem,miscellaneousRiderItems.ziku_driver_deno,miscellaneousRiderItems.ziku_driver_kabuto,miscellaneousRiderItems.ziku_driver_hibiki,
+						miscellaneousRiderItems.ziku_driver_blade,miscellaneousRiderItems.ziku_driver_faiz,miscellaneousRiderItems.ziku_driver_ryuki,miscellaneousRiderItems.ziku_driver_agito,miscellaneousRiderItems.ziku_driver_kuuga
+						,miscellaneousRiderItems.ziku_driver_genm,ShowaRiderItems.blanknoitem,miscellaneousRiderItems.ziku_driver_exaid,ShowaRiderItems.blanknoitem,ShowaRiderItems.blanknoitem,
+						ShowaRiderItems.blanknoitem,miscellaneousRiderItems.ziku_driver_geizrevive,miscellaneousRiderItems.ziku_driver_geizrevive,ShowaRiderItems.blanknoitem,ShowaRiderItems.blanknoitem
+						,ShowaRiderItems.blanknoitem,miscellaneousRiderItems.ziku_driver_saber};
 				
 				
 				armorModel.belt=stack;
@@ -93,7 +94,7 @@ public class item_zikudriver extends item_rider_driver
 				if (item_zikudriver.get_lockbase(stack)=="gaim"){
                     armorModel.wings=new ItemStack(RiderItems.gaim_armor_wings);
 				}else if(stack.getItem() == RiderItems.oma_ziku_driver) {
-					armorModel.wings=new ItemStack(RiderItems.oma_zi_o_cape);
+					armorModel.wings=new ItemStack(miscellaneousRiderItems.oma_zi_o_cape);
                 }else{
                 	  armorModel.wings=new ItemStack(ShowaRiderItems.blanknoitem);
                 }

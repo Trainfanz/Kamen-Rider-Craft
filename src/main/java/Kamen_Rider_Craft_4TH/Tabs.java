@@ -636,7 +636,7 @@ public class Tabs {
 	{
 		@Override
 		public ItemStack createIcon() {
-			return new ItemStack(RiderItems.icepop1);
+			return new ItemStack(miscellaneousRiderItems.icepop1);
 		}
 	};
 	
