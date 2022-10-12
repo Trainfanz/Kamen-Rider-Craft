@@ -675,6 +675,8 @@ public class ReiwaRiderItems {
 	
 	public static Item zombie_raise_buckle = new Item_Raise_Buckles(8,"zombie_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
+	public static Item ninja_raise_buckle = new Item_Raise_Buckles(15,"ninja_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	
 	
 	public static Item hammer_raise_buckle = new Item_Raise_Buckles(3,"hammer_raise_buckle").AddToMissionBox(10).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item water_raise_buckle = new Item_Raise_Buckles(4,"water_raise_buckle").AddToMissionBox(10).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);

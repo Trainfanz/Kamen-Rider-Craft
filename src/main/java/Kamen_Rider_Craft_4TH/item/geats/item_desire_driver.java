@@ -44,7 +44,7 @@ public class item_desire_driver extends item_rider_driver
 
 
 	public static final String[] CoreName= new String[] {"entry","magnum","boost","hammer","water","arrow","shield","revice","zombie","demons","chain_array","claw","zero_one"
-			,"live","jeanne","","","","","",""};
+			,"live","jeanne","ninja","","","","",""};
 
 
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
