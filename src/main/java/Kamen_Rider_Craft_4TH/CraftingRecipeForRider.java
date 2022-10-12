@@ -265,7 +265,7 @@ public class CraftingRecipeForRider {
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":k_touch_diend"),new ResourceLocation("diend_complete"),new ItemStack(RiderItems.k_touch_diend), new Ingredient[]{Ingredient.fromItem(RiderItems.g4card),Ingredient.fromItem(RiderItems.ryugacard),Ingredient.fromItem(RiderItems.orgacard),Ingredient.fromItem(RiderItems.glaivecard),Ingredient.fromItem(RiderItems.kabukicard),Ingredient.fromItem(RiderItems.caucasuscard),Ingredient.fromItem(RiderItems.arccard),Ingredient.fromItem(RiderItems.skullcard)});	
 
 
-		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":drago_timer"), new ResourceLocation("wizard_all_dragon"),new ItemStack(RiderItems.drago_timer,1), "aca","fad","aea", 'a', RiderItems.wizardgem, 'c', RiderItems.flame_ring_dragon, 'd', RiderItems.water_ring_dragon, 'e', RiderItems.hurricane_ring_dragon, 'f', RiderItems.land_ring_dragon);
+		//GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":drago_timer"), new ResourceLocation("wizard_all_dragon"),new ItemStack(RiderItems.drago_timer,1), "aca","fad","aea", 'a', RiderItems.wizardgem, 'c', RiderItems.flame_ring_dragon, 'd', RiderItems.water_ring_dragon, 'e', RiderItems.hurricane_ring_dragon, 'f', RiderItems.land_ring_dragon);
 
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":drivehead"), new ResourceLocation("kr_drive"),new ItemStack(RiderItems.drivehead,1), "aaa","a a", 'a', RiderItems.proto_speedshift);
