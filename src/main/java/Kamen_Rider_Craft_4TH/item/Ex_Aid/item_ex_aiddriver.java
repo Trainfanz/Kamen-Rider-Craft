@@ -146,6 +146,8 @@ public class item_ex_aiddriver extends item_rider_driver
 						armorModel.belt2=new ItemStack(RiderItems.gamer_driver_knockout2);
 					}else if( this==RiderItems.gamer_driver_genmu&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_maximum){
 						armorModel.belt2=new ItemStack(RiderItems.gamer_driver_godmaximum);
+					}else if( this==RiderItems.gamer_driver_genmu&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_muteki){
+						armorModel.belt2=new ItemStack(RiderItems.gamer_driver_musou);
 					}else if( this==RiderItems.gamer_driver_genmu&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_mightybros){
 						armorModel.belt2=new ItemStack(RiderItems.gamer_driver_origin);
 					}else if( this==RiderItems.gamer_driver_ex_aid&slot_one[this.get_core(stack,"1")]==RiderItems.gamer_driver_ex_aid_lv1){
