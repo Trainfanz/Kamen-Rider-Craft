@@ -68,7 +68,8 @@ public class item_unknown_wizard_ring extends Item  implements IHasModel
 	public static final List<Item> cyan_wizard_ring = new ArrayList<Item>();
 	public static final List<Item> violet_wizard_ring = new ArrayList<Item>();
 	public static final List<Item> black_wizard_ring = new ArrayList<Item>();
-
+	public static final List<Item> beast_wizard_ring = new ArrayList<Item>();
+	
 	public item_unknown_wizard_ring(String name)
 	{
 		super();
@@ -111,6 +112,9 @@ public class item_unknown_wizard_ring extends Item  implements IHasModel
 			} else if (num==RiderItems.unknown_yellow_ring){
 				int rand = generator.nextInt(yellow_wizard_ring.size());
 				return yellow_wizard_ring.get(rand);
+			} else if (num==RiderItems.unknown_beast_ring){
+				int rand = generator.nextInt(beast_wizard_ring.size());
+				return beast_wizard_ring.get(rand);
 			} else {
 				int rand = generator.nextInt(amber_wizard_ring.size());
 				return amber_wizard_ring.get(rand);

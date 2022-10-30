@@ -14,14 +14,8 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import java.util.function.BiFunction;
 
 public class Tabs {
-	/**
-	private static BiFunction<String, Item, CreativeTabs> function = (name, item) -> new CreativeTabs(name) {
-		@Override
-		public ItemStack createIcon() {
-			return new ItemStack(item);
-		}
-	};
-**/
+
+	
 	public static ToolMaterial tokuToolMaterial = EnumHelper.addToolMaterial("tokuToolMaterial", 10, 3500, 12.0F, 5.0F, 22);
 
 	public static ToolMaterial ridol_stick = EnumHelper.addToolMaterial("ridol_stick", 10, 6000, 12.0F, 3.0F, 22);

@@ -139,6 +139,7 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityRidePlayer;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityRiotrooper;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityShimi;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_foundation_x_masquerade;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_ghouls;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_giff_junior;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_hard_guardian;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_knight_soldier;
@@ -290,6 +291,8 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(entity_tricera_can.class, new RenderRiderMob(new model_tricera_can(), 0.5F,"textures/entities/tricera_can.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_super_gingaoh.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/yummy.png"));
+		
+		RenderingRegistry.registerEntityRenderingHandler(Entity_ghouls.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/ghouls.png"));
 		
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityBugsterVirus.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/bugster_virus.png"));

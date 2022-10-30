@@ -488,7 +488,7 @@ item.birth_core.name=Birth Core
 item.gaiamemory.name=Gaia Memory Fragment
 item.t2gaiamemory.name=T2 Gaia Memory
 item.astroswitch.name=Astroswitch
-item.wizardgem.name=Wizard Gem Stone
+item.wizardgem.name=Magic Stone
 item.wizardgem2.name=Wizard Gem Stone
 item.himawari_lockseed.name=Himawari Lockseed
 item.ghost_icons.name=Blank Ghost Eyecon
@@ -1514,6 +1514,39 @@ item.miracle_ring.name=Miracle Wizard Ring
 item.flower_ring.name=Flower Wizard Ring
 item.dance_ring.name=Dance Wizard Ring
 item.super_sentai_ring.name=Super Sentai Wizard Ring
+
+item.driver_on_ring.name=Driver On Wizard Ring
+item.driver_on_ring_white_wizard.name=Driver On Wizard Ring
+item.beast_driver_on_ring.name=Driver On Ring
+item.beast_engage_ring.name=Engage Ring
+item.chimarise_ring.name=Chimarise Ring
+
+item.common_wizard_ring.name=Common Wizard Ring
+item.chichin_pui_pui_ring.name=Chichin Pui Pui Wizard Ring
+item.create_ring.name=Create Wizard Ring
+item.holy_ring.name=Holy Wizard Ring
+item.fourze_engage_ring.name=Fourze Engage Wizard Ring
+
+item.unknown_amber_ring.name=Unknown Wizard Ring
+item.unknown_red_ring.name=Unknown Wizard Ring
+item.unknown_blue_ring.name=Unknown Wizard Ring
+item.unknown_green_ring.name=Unknown Wizard Ring
+item.unknown_yellow_ring.name=Unknown Wizard Ring
+item.unknown_violet_ring.name=Unknown Wizard Ring
+item.unknown_black_ring.name=Unknown Wizard Ring
+item.unknown_cyan_ring.name=Unknown Wizard Ring
+item.unknown_beast_ring.name=Unknown Wizard Ring
+
+item.wizard_gem_crafting_chisel.name=Wizard Gem Crafting Chisel
+    
+item.wizardgem_red.name=Magic Stone
+item.wizardgem_blue.name=Magic Stone
+item.wizardgem_green.name=Magic Stone
+item.wizardgem_yellow.name=Magic Stone
+item.wizardgem_violet.name=Magic Stone
+item.wizardgem_black.name=Magic Stone
+item.wizardgem_cyan.name=Magic Stone
+item.philosophers_stone.name=Magic Stone
 
 
 item.budou_ryuhou.name=Budou Ryuhou

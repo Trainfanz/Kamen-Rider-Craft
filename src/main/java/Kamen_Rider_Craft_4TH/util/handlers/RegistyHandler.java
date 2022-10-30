@@ -195,6 +195,27 @@ public class RegistyHandler {
 			}
 		}
 
+		if (event.getName().equals(LootTableList.CHESTS_DESERT_PYRAMID)) {
+
+			final LootPool pool2 = event.getTable().getPool("main");
+
+			if (pool2 != null) {
+
+				// pool2.addEntry(new LootEntryItem(ITEM, WEIGHT, QUALITY, FUNCTIONS, CONDITIONS, NAME));
+				pool2.addEntry(new LootEntryItem(RiderItems.unknown_beast_ring,50, 0, new LootFunction[0], new LootCondition[0], Refercence.MODID+":unknown_beast_ring"));
+			}
+		}
+		if (event.getName().equals(LootTableList.CHESTS_JUNGLE_TEMPLE)) {
+
+			final LootPool pool2 = event.getTable().getPool("main");
+
+			if (pool2 != null) {
+
+				// pool2.addEntry(new LootEntryItem(ITEM, WEIGHT, QUALITY, FUNCTIONS, CONDITIONS, NAME));
+				pool2.addEntry(new LootEntryItem(RiderItems.unknown_beast_ring, 20, 3, new LootFunction[0], new LootCondition[0], Refercence.MODID+":unknown_beast_ring"));
+			}
+		}
+		
 		if (event.getName().equals(LootTableList.ENTITIES_CHICKEN)) {
 
 			final LootPool pool2 = event.getTable().getPool("pool1");

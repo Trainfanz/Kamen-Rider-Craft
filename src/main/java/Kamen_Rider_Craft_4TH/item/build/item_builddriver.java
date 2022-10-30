@@ -7,8 +7,10 @@ import javax.annotation.Nullable;
 import org.lwjgl.opengl.GL11;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
+import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.ShowaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
+import Kamen_Rider_Craft_4TH.miscellaneousRiderItems;
 import Kamen_Rider_Craft_4TH.item.ooo.item_OOOdriver;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
@@ -93,21 +95,21 @@ public class item_builddriver extends item_rider_driver
 			if(stack.getItem() instanceof ItemArmor) {
 				model_belt_plus armorModel = new model_belt_plus();
 
-				Item[] build_inorganic= new Item[] {RiderItems.build_driver_tank,RiderItems.build_driver_diamond,RiderItems.build_driver_gatling,RiderItems.build_driver_soujiki,RiderItems.build_driver_comic,RiderItems.build_driver_rocket,RiderItems.build_driver_shoubousha,RiderItems.build_driver_lock,RiderItems.build_driver_cake,RiderItems.build_driver_medal,RiderItems.build_driver_game,RiderItems.build_driver_mic,RiderItems.build_driver_usb_memory,RiderItems.build_driver_densha,RiderItems.build_driver_light,RiderItems.build_driver_robo,RiderItems.build_driver_televi,RiderItems.build_driver_parka,RiderItems.build_driver_smartphone,RiderItems.build_driver_camera,RiderItems.build_driver_helicopter,RiderItems.build_driver_ufo,RiderItems.build_driver_jet,RiderItems.build_driver_cyclone,RiderItems.build_driver_eraser,RiderItems.build_driver_watch,RiderItems.build_driver_pyramid,RiderItems.build_driver_skateboard,RiderItems.build_driver_fridge,RiderItems.build_driver_dragon_silver,RiderItems.build_driver_shoubousha,RiderItems.build_driver_shoubousha,RiderItems.build_driver_smartphone,RiderItems.build_driver_jet,RiderItems.build_driver_shoubousha,RiderItems.build_driver_gold};
-				Item[] build_form= new Item[] {ShowaRiderItems.blanknoitem,RiderItems.build_driver_sp,RiderItems.build_driver_hazard,RiderItems.build_driver_hazard_rabbit,RiderItems.build_driver_hazard_tank,RiderItems.build_driver_genius,RiderItems.build_driver_cross_z_build};
-				Item[] build_organic= new Item[] {RiderItems.build_driver_rabbit,RiderItems.build_driver_gorilla,RiderItems.build_driver_taka,RiderItems.build_driver_harinezumi,RiderItems.build_driver_ninja,RiderItems.build_driver_panda,RiderItems.build_driver_lion,RiderItems.build_driver_dragon,RiderItems.build_driver_santa,RiderItems.build_driver_orange,RiderItems.build_driver_doctor,RiderItems.build_driver_dog,RiderItems.build_driver_mahoutsukai,RiderItems.build_driver_tantei,RiderItems.build_driver_kaizoku,RiderItems.build_driver_octopus,RiderItems.build_driver_phoenix,RiderItems.build_driver_kuma,RiderItems.build_driver_momotaros,RiderItems.build_driver_yujou,RiderItems.build_driver_obake,RiderItems.build_driver_wolf,RiderItems.build_driver_beetle,RiderItems.build_driver_card,RiderItems.build_driver_rose,RiderItems.build_driver_tora,RiderItems.build_driver_kujira,RiderItems.build_driver_kirin,RiderItems.build_driver_unicorn,RiderItems.build_driver_turtle,RiderItems.build_driver_deer,RiderItems.build_driver_penguin,RiderItems.build_driver_spider,RiderItems.build_driver_rabbit_gold,RiderItems.build_driver_spider,RiderItems.build_driver_kujira,RiderItems.build_driver_kirin,RiderItems.build_driver_sai,RiderItems.build_driver_scorpion};				
-				Item[] evol_form= new Item[] {RiderItems.evol_driver_cobra,RiderItems.evol_driver_dragon,RiderItems.evol_driver_rabbit,RiderItems.evol_driver_blackhole,RiderItems.evol_driver_blackhole};
-				Item[] cross_form= new Item[] {RiderItems.build_driver_cross_z_dragon,RiderItems.build_driver_magma,RiderItems.build_driver_cross_z_great,RiderItems.build_driver_galaxy};
-				Item[] grease_form= new Item[] {RiderItems.build_driver_grease,RiderItems.build_driver_grease_perfect_kingdom};
+				Item[] build_inorganic= new Item[] {miscellaneousRiderItems.build_driver_tank,miscellaneousRiderItems.build_driver_diamond,miscellaneousRiderItems.build_driver_gatling,miscellaneousRiderItems.build_driver_soujiki,miscellaneousRiderItems.build_driver_comic,miscellaneousRiderItems.build_driver_rocket,miscellaneousRiderItems.build_driver_shoubousha,miscellaneousRiderItems.build_driver_lock,miscellaneousRiderItems.build_driver_cake,miscellaneousRiderItems.build_driver_medal,miscellaneousRiderItems.build_driver_game,miscellaneousRiderItems.build_driver_mic,miscellaneousRiderItems.build_driver_usb_memory,miscellaneousRiderItems.build_driver_densha,miscellaneousRiderItems.build_driver_light,miscellaneousRiderItems.build_driver_robo,miscellaneousRiderItems.build_driver_televi,miscellaneousRiderItems.build_driver_parka,miscellaneousRiderItems.build_driver_smartphone,miscellaneousRiderItems.build_driver_camera,miscellaneousRiderItems.build_driver_helicopter,miscellaneousRiderItems.build_driver_ufo,miscellaneousRiderItems.build_driver_jet,miscellaneousRiderItems.build_driver_cyclone,miscellaneousRiderItems.build_driver_eraser,miscellaneousRiderItems.build_driver_watch,miscellaneousRiderItems.build_driver_pyramid,miscellaneousRiderItems.build_driver_skateboard,miscellaneousRiderItems.build_driver_fridge,miscellaneousRiderItems.build_driver_dragon_silver,miscellaneousRiderItems.build_driver_shoubousha,miscellaneousRiderItems.build_driver_shoubousha,miscellaneousRiderItems.build_driver_smartphone,miscellaneousRiderItems.build_driver_jet,miscellaneousRiderItems.build_driver_shoubousha,miscellaneousRiderItems.build_driver_gold};
+				Item[] build_form= new Item[] {ShowaRiderItems.blanknoitem,miscellaneousRiderItems.build_driver_sp,miscellaneousRiderItems.build_driver_hazard,miscellaneousRiderItems.build_driver_hazard_rabbit,miscellaneousRiderItems.build_driver_hazard_tank,miscellaneousRiderItems.build_driver_genius,miscellaneousRiderItems.build_driver_cross_z_build};
+				Item[] build_organic= new Item[] {miscellaneousRiderItems.build_driver_rabbit,miscellaneousRiderItems.build_driver_gorilla,miscellaneousRiderItems.build_driver_taka,miscellaneousRiderItems.build_driver_harinezumi,miscellaneousRiderItems.build_driver_ninja,miscellaneousRiderItems.build_driver_panda,miscellaneousRiderItems.build_driver_lion,miscellaneousRiderItems.build_driver_dragon,miscellaneousRiderItems.build_driver_santa,miscellaneousRiderItems.build_driver_orange,miscellaneousRiderItems.build_driver_doctor,miscellaneousRiderItems.build_driver_dog,miscellaneousRiderItems.build_driver_mahoutsukai,miscellaneousRiderItems.build_driver_tantei,miscellaneousRiderItems.build_driver_kaizoku,miscellaneousRiderItems.build_driver_octopus,miscellaneousRiderItems.build_driver_phoenix,miscellaneousRiderItems.build_driver_kuma,miscellaneousRiderItems.build_driver_momotaros,miscellaneousRiderItems.build_driver_yujou,miscellaneousRiderItems.build_driver_obake,miscellaneousRiderItems.build_driver_wolf,miscellaneousRiderItems.build_driver_beetle,miscellaneousRiderItems.build_driver_card,miscellaneousRiderItems.build_driver_rose,miscellaneousRiderItems.build_driver_tora,miscellaneousRiderItems.build_driver_kujira,miscellaneousRiderItems.build_driver_kirin,miscellaneousRiderItems.build_driver_unicorn,miscellaneousRiderItems.build_driver_turtle,miscellaneousRiderItems.build_driver_deer,miscellaneousRiderItems.build_driver_penguin,miscellaneousRiderItems.build_driver_spider,miscellaneousRiderItems.build_driver_rabbit_gold,miscellaneousRiderItems.build_driver_spider,miscellaneousRiderItems.build_driver_kujira,miscellaneousRiderItems.build_driver_kirin,miscellaneousRiderItems.build_driver_sai,miscellaneousRiderItems.build_driver_scorpion};				
+				Item[] evol_form= new Item[] {miscellaneousRiderItems.evol_driver_cobra,miscellaneousRiderItems.evol_driver_dragon,miscellaneousRiderItems.evol_driver_rabbit,miscellaneousRiderItems.evol_driver_blackhole,miscellaneousRiderItems.evol_driver_blackhole};
+				Item[] cross_form= new Item[] {miscellaneousRiderItems.build_driver_cross_z_dragon,miscellaneousRiderItems.build_driver_magma,miscellaneousRiderItems.build_driver_cross_z_great,miscellaneousRiderItems.build_driver_galaxy};
+				Item[] grease_form= new Item[] {RiderItems.build_driver_grease,miscellaneousRiderItems.build_driver_grease_perfect_kingdom};
 
 				armorModel.belt=stack;
 
 				if(stack.getItem() == RiderItems.build_driver)
 				{
 					if (item_OOOdriver.get_core(stack,"1")==2&item_OOOdriver.get_core(stack,"3")==2) {
-						armorModel.wings=new ItemStack(RiderItems.hawk_gatling_wings);
+						armorModel.wings=new ItemStack(miscellaneousRiderItems.hawk_gatling_wings);
 					} else if (item_OOOdriver.get_core(stack,"1")==15&item_OOOdriver.get_core(stack,"3")==16) {
-						armorModel.wings=new ItemStack(RiderItems.phoenix_robo_wings);				
+						armorModel.wings=new ItemStack(miscellaneousRiderItems.phoenix_robo_wings);				
 					} else {
 						armorModel.wings=new ItemStack(ShowaRiderItems.blanknoitem);
 					}
@@ -120,7 +122,7 @@ public class item_builddriver extends item_rider_driver
 					}
 				} else if(stack.getItem() == RiderItems.sclash_driver_cross_z_charge) {
 					if (living.getHeldItem(EnumHand.OFF_HAND).getItem()==RiderItems.taka_full_bottle){
-						armorModel.wings=new ItemStack(RiderItems.hawk_gatling_wings);
+						armorModel.wings=new ItemStack(miscellaneousRiderItems.hawk_gatling_wings);
 					} else {
 						armorModel.wings=new ItemStack(ShowaRiderItems.blanknoitem);
 					}
@@ -128,14 +130,14 @@ public class item_builddriver extends item_rider_driver
 				if(stack.getItem() == RiderItems.transteamgun_2) {
 					if(living.isSneaking() || (living instanceof EntityPlayer && (((EntityPlayer) living).capabilities.isFlying))){
 						if (item_OOOdriver.get_core(stack,"1")==0) {
-							armorModel.wings=new ItemStack(RiderItems.night_rogue_wings);
+							armorModel.wings=new ItemStack(miscellaneousRiderItems.night_rogue_wings);
 						} else {
 							armorModel.wings=new ItemStack(ShowaRiderItems.blanknoitem);
 						}
 					}
 				} else if(stack.getItem() == RiderItems.evol_driver_mad_rogue) {
 					if(living.isSneaking() || (living instanceof EntityPlayer && (((EntityPlayer) living).capabilities.isFlying))){
-						armorModel.wings=new ItemStack(RiderItems.mad_rogue_wings);
+						armorModel.wings=new ItemStack(miscellaneousRiderItems.mad_rogue_wings);
 					}
 				}
 

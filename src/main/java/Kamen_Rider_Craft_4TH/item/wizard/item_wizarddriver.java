@@ -427,7 +427,16 @@ public class item_wizarddriver extends item_rider_driver
 							}
 							
 					}else if (num==4||num==9||num==10||num==11||num==12||num==13||num==14){
-						return "blank";
+						if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.wizardriver){
+
+							return Refercence.MODID+":textures/armor/"+"wizard_over_"+ CoreName[item_wizarddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")]+ext;	
+						
+
+					}else {
+
+							return Refercence.MODID+":textures/armor/"+rider+"_over"+ext;	
+						}
+						
 					} else{
 						return "blank";
 

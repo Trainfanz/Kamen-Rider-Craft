@@ -1600,7 +1600,7 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item queen_t2_memory = new Item_memory("queen_t2_memory",2,1).setCreativeTab(Tabs.tabW);
 	public static Item rocket_t2_memory = new Item_memory("rocket_t2_memory",2,1).setCreativeTab(Tabs.tabW);
 	public static Item skull_t2_memory = new Item_memory("skull_t2_memory",2,1).setCreativeTab(Tabs.tabW);
-	public static Item trial_t2_memory = new Item_memory("trial_t2_memory",2,1).setCreativeTab(Tabs.tabW);
+	//public static Item trial_t2_memory = new Item_memory("trial_t2_memory",2,1).setCreativeTab(Tabs.tabW);
 	public static Item trigger_t2_memory = new Item_memory("trigger_t2_memory",2,1).setCreativeTab(Tabs.tabW);
 	public static Item unicorn_t2_memory = new Item_memory("unicorn_t2_memory",2,1).setCreativeTab(Tabs.tabW);
 	public static Item violence_t2_memory = new Item_memory("violence_t2_memory",2,1).setCreativeTab(Tabs.tabW);
@@ -2066,13 +2066,14 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item hope_ring = new Item_ore("hope_ring").setCreativeTab(Tabs.tabwizard);
 	public static Item special_rush_ring = new Item_wizard_ring(9 , "2","special_rush_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setCreativeTab(Tabs.tabwizard);
 	
-	public static Item beast_ring = new Item_wizard_ring(0, "3","beast_ring").setCreativeTab(Tabs.tabwizard);
-	public static Item falco_ring = new Item_wizard_ring(1, "3","falco_ring").setCreativeTab(Tabs.tabwizard);
-	public static Item chameleo_ring = new Item_wizard_ring(2, "3","chameleo_ring").setCreativeTab(Tabs.tabwizard);
-	public static Item buffa_ring = new Item_wizard_ring(3, "3","buffa_ring").setCreativeTab(Tabs.tabwizard);
-	public static Item dolphi_ring = new Item_wizard_ring(4, "3","dolphi_ring").setCreativeTab(Tabs.tabwizard);
-	public static Item hyper_ring = new Item_wizard_ring(5, "3","hyper_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item beast_ring = new Item_wizard_ring(0, "3","beast_ring").AddToList(item_unknown_wizard_ring.beast_wizard_ring,5).setCreativeTab(Tabs.tabwizard);
+	public static Item falco_ring = new Item_wizard_ring(1, "3","falco_ring").AddToList(item_unknown_wizard_ring.beast_wizard_ring,3).setCreativeTab(Tabs.tabwizard);
+	public static Item chameleo_ring = new Item_wizard_ring(2, "3","chameleo_ring").AddToList(item_unknown_wizard_ring.beast_wizard_ring,3).setCreativeTab(Tabs.tabwizard);
+	public static Item buffa_ring = new Item_wizard_ring(3, "3","buffa_ring").AddToList(item_unknown_wizard_ring.beast_wizard_ring,3).setCreativeTab(Tabs.tabwizard);
+	public static Item dolphi_ring = new Item_wizard_ring(4, "3","dolphi_ring").AddToList(item_unknown_wizard_ring.beast_wizard_ring,3).setCreativeTab(Tabs.tabwizard);
+	public static Item hyper_ring = new Item_wizard_ring(5, "3","hyper_ring").AddToList(item_unknown_wizard_ring.beast_wizard_ring,1).setCreativeTab(Tabs.tabwizard);
 
+	
 	public static Item wiseman_ring = new Item_ore("wiseman_ring").setCreativeTab(Tabs.tabwizard);
 	public static Item mage_o_ring = new Item_ore("mage_o_ring").AddToList(item_unknown_wizard_ring.amber_wizard_ring, 1).setCreativeTab(Tabs.tabwizard);
 	public static Item mage_b_ring = new Item_ore("mage_b_ring").AddToList(item_unknown_wizard_ring.blue_wizard_ring, 1).setCreativeTab(Tabs.tabwizard);
@@ -2123,6 +2124,11 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item holy_ring = new Item_ore("holy_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	
 	
+	public static Item beast_engage_ring = new Item_ore("beast_engage_ring").AddToList(item_unknown_wizard_ring.beast_wizard_ring,1).setCreativeTab(Tabs.tabwizard);
+	public static Item chimarise_ring = new Item_ore("chimarise_ring").AddToList(item_unknown_wizard_ring.beast_wizard_ring,1).setCreativeTab(Tabs.tabwizard);
+	public static Item beast_driver_on_ring = new Item_ore("beast_driver_on_ring").setCreativeTab(Tabs.tabwizard);
+	
+	
 	public static Item fourze_engage_ring = new Item_ore("fourze_engage_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	public static Item super_sentai_ring = new Item_ore("super_sentai_ring").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 
@@ -2134,6 +2140,7 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item unknown_violet_ring = new item_unknown_wizard_ring("unknown_violet_ring").setCreativeTab(Tabs.tabwizard);
 	public static Item unknown_black_ring = new item_unknown_wizard_ring("unknown_black_ring").setCreativeTab(Tabs.tabwizard);
 	public static Item unknown_cyan_ring = new item_unknown_wizard_ring("unknown_cyan_ring").setCreativeTab(Tabs.tabwizard);
+	public static Item unknown_beast_ring = new item_unknown_wizard_ring("unknown_beast_ring").setCreativeTab(Tabs.tabwizard);
 
 	public static Item wizard_gem_crafting_chisel = new Item_ore("wizard_gem_crafting_chisel").keep_item().setCreativeTab(Tabs.tabwizard);
 	
@@ -3206,99 +3213,6 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item genius_full_bottle_blank = new Item_full_bottle(0, "0","genius_full_bottle_blank").setCreativeTab(Tabs.tabbuild);
 	public static Item metal_full_bottle = new Item_ore("metal_full_bottle").setCreativeTab(Tabs.tabbuild);
 
-	public static Item build_driver_grease_perfect_kingdom = new Item_ore("build_driver_grease_perfect_kingdom");
-
-	public static Item build_driver_rabbit = new Item_ore("build_driver_rabbit");
-	public static Item build_driver_gorilla = new Item_ore("build_driver_gorilla");
-	public static Item build_driver_taka = new Item_ore("build_driver_taka");
-	public static Item build_driver_harinezumi = new Item_ore("build_driver_harinezumi");
-	public static Item build_driver_ninja = new Item_ore("build_driver_ninja");
-	public static Item build_driver_panda = new Item_ore("build_driver_panda");
-	public static Item build_driver_lion = new Item_ore("build_driver_lion");
-	public static Item build_driver_dragon = new Item_ore("build_driver_dragon");
-	public static Item build_driver_santa = new Item_ore("build_driver_santa");
-	public static Item build_driver_orange = new Item_ore("build_driver_orange");
-	public static Item build_driver_doctor = new Item_ore("build_driver_doctor");
-	public static Item build_driver_dog = new Item_ore("build_driver_dog");
-	public static Item build_driver_mahoutsukai = new Item_ore("build_driver_mahoutsukai");
-	public static Item build_driver_tantei = new Item_ore("build_driver_tantei");
-	public static Item build_driver_kaizoku = new Item_ore("build_driver_kaizoku");
-	public static Item build_driver_octopus = new Item_ore("build_driver_octopus");
-	public static Item build_driver_phoenix = new Item_ore("build_driver_phoenix");
-	public static Item build_driver_kuma = new Item_ore("build_driver_kuma");
-	public static Item build_driver_momotaros = new Item_ore("build_driver_momotaros");
-	public static Item build_driver_yujou = new Item_ore("build_driver_yujou");
-	public static Item build_driver_obake = new Item_ore("build_driver_obake");
-	public static Item build_driver_wolf = new Item_ore("build_driver_wolf");
-	public static Item build_driver_beetle = new Item_ore("build_driver_beetle");
-	public static Item build_driver_card = new Item_ore("build_driver_card");
-	public static Item build_driver_rose = new Item_ore("build_driver_rose");
-	public static Item build_driver_tora = new Item_ore("build_driver_tora");
-	public static Item build_driver_kujira = new Item_ore("build_driver_kujira");
-	public static Item build_driver_kirin = new Item_ore("build_driver_kirin");
-	public static Item build_driver_unicorn = new Item_ore("build_driver_unicorn");
-	public static Item build_driver_turtle = new Item_ore("build_driver_turtle");
-	public static Item build_driver_deer = new Item_ore("build_driver_deer");
-	public static Item build_driver_penguin = new Item_ore("build_driver_penguin");
-	public static Item build_driver_spider = new Item_ore("build_driver_spider");
-	public static Item build_driver_rabbit_gold = new Item_ore("build_driver_rabbit_gold");
-	public static Item build_driver_scorpion = new Item_ore("build_driver_scorpion");
-	public static Item build_driver_sai = new Item_ore("build_driver_sai");
-
-	public static Item build_driver_tank = new Item_ore("build_driver_tank");
-	public static Item build_driver_diamond = new Item_ore("build_driver_diamond");
-	public static Item build_driver_gatling = new Item_ore("build_driver_gatling");
-	public static Item build_driver_soujiki = new Item_ore("build_driver_soujiki");
-	public static Item build_driver_comic = new Item_ore("build_driver_comic");
-	public static Item build_driver_rocket = new Item_ore("build_driver_rocket");
-	public static Item build_driver_shoubousha = new Item_ore("build_driver_shoubousha");
-	public static Item build_driver_lock = new Item_ore("build_driver_lock");
-	public static Item build_driver_cake = new Item_ore("build_driver_cake");
-	public static Item build_driver_medal = new Item_ore("build_driver_medal");
-	public static Item build_driver_game = new Item_ore("build_driver_game");
-	public static Item build_driver_mic = new Item_ore("build_driver_mic");
-	public static Item build_driver_usb_memory = new Item_ore("build_driver_usb_memory");
-	public static Item build_driver_densha = new Item_ore("build_driver_densha");
-	public static Item build_driver_light = new Item_ore("build_driver_light");
-	public static Item build_driver_robo = new Item_ore("build_driver_robo");
-	public static Item build_driver_televi = new Item_ore("build_driver_televi");
-	public static Item build_driver_parka = new Item_ore("build_driver_parka");
-	public static Item build_driver_smartphone = new Item_ore("build_driver_smartphone");
-	public static Item build_driver_camera = new Item_ore("build_driver_camera");
-	public static Item build_driver_helicopter = new Item_ore("build_driver_helicopter");
-	public static Item build_driver_ufo = new Item_ore("build_driver_ufo");
-	public static Item build_driver_jet = new Item_ore("build_driver_jet");
-	public static Item build_driver_cyclone = new Item_ore("build_driver_cyclone");
-	public static Item build_driver_eraser = new Item_ore("build_driver_eraser");
-	public static Item build_driver_watch = new Item_ore("build_driver_watch");
-	public static Item build_driver_pyramid = new Item_ore("build_driver_pyramid");
-	public static Item build_driver_skateboard = new Item_ore("build_driver_skateboard");
-	public static Item build_driver_fridge = new Item_ore("build_driver_fridge");
-	public static Item build_driver_dragon_silver = new Item_ore("build_driver_dragon_silver");
-	public static Item build_driver_gold = new Item_ore("build_driver_gold");
-
-
-	public static Item build_driver_sp = new Item_ore("build_driver_sp");
-	public static Item build_driver_hazard = new Item_ore("build_driver_hazard");
-	public static Item build_driver_hazard_rabbit = new Item_ore("build_driver_hazard_rabbit");
-	public static Item build_driver_hazard_tank = new Item_ore("build_driver_hazard_tank");
-	public static Item build_driver_genius = new Item_ore("build_driver_genius");
-	public static Item build_driver_cross_z_build = new Item_ore("build_driver_cross_z_build");
-
-	public static Item hawk_gatling_wings = new Item_ore("hawk_gatling_wings");
-	public static Item phoenix_robo_wings = new Item_ore("phoenix_robo_wings");	
-	public static Item night_rogue_wings = new Item_ore("night_rogue_wings");
-	public static Item mad_rogue_wings = new Item_ore("mad_rogue_wings");
-
-	public static Item evol_driver_cobra = new Item_ore("evol_driver_cobra");
-	public static Item evol_driver_dragon = new Item_ore("evol_driver_dragon");
-	public static Item evol_driver_rabbit = new Item_ore("evol_driver_rabbit");
-	public static Item evol_driver_blackhole = new Item_ore("evol_driver_blackhole");
-
-	public static Item build_driver_cross_z_dragon = new Item_ore("build_driver_cross_z_dragon");
-	public static Item build_driver_magma = new Item_ore("build_driver_magma");
-	public static Item build_driver_cross_z_great = new Item_ore("build_driver_cross_z_great");
-	public static Item build_driver_galaxy = new Item_ore("build_driver_galaxy");
 
 
 
@@ -3371,10 +3285,6 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 
 	public static Item build_ridewatch = new Item_ridewatches(1, 1,"build_ridewatch",true).setCreativeTab(Tabs.tabzi_o);
 	public static Item cross_z_ridewatch = new Item_ore("cross_z_ridewatch").setCreativeTab(Tabs.tabzi_o);
-	//public static Item grease_ridewatch = new Item_ore("grease_ridewatch").setCreativeTab(Tabs.tabzi_o);
-	//public static Item rogue_ridewatch = new Item_ore("rogue_ridewatch").setCreativeTab(Tabs.tabzi_o);
-	//public static Item evol_ridewatch = new Item_ore("evol_ridewatch").setCreativeTab(Tabs.tabzi_o);
-	//public static Item madrogue_ridewatch = new Item_ore("madrogue_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item exaid_ridewatch = new Item_ridewatches(1, 2,"exaid_ridewatch",true).setCreativeTab(Tabs.tabzi_o);
 	public static Item genm_ridewatch = new Item_ridewatches(1, 19,"genm_ridewatch").setCreativeTab(Tabs.tabzi_o);
 	public static Item ghost_ridewatch = new Item_ridewatches(1, 3,"ghost_ridewatch",true).setCreativeTab(Tabs.tabzi_o);

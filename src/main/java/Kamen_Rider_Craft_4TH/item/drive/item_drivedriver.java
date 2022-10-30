@@ -347,23 +347,21 @@ public class item_drivedriver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
 									}
-									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.proto_drivedriver){
-										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
-									}
-									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.proto_drivedriver){
-										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
-										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
-									}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.drivedriver_dark){
+									
+									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.drivedriver_dark){
 
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
 									}
-									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.drivedriver){
+								
+									else {
 
-
-										if (this.get_core(armor)==0){
+										if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.proto_drivedriver){
+											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+										}
+										else if (this.get_core(armor)==0){
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
 

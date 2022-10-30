@@ -669,6 +669,8 @@ public class ReiwaRiderItems {
 	public static Item desire_driver_mary = new item_desire_driver("desire_driver_mary",ArmorMaterial.DIAMOND, 4, "mary",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item desire_driver_ginpen = new item_desire_driver("desire_driver_ginpen",ArmorMaterial.DIAMOND, 4, "ginpen",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item desire_driver_punk_jack = new item_desire_driver("desire_driver_punk_jack",ArmorMaterial.DIAMOND, 4, "punk_jack",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_reta = new item_desire_driver("desire_driver_reta",ArmorMaterial.DIAMOND, 4, "reta",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_keirou = new item_desire_driver("desire_driver_keirou",ArmorMaterial.DIAMOND, 4, "keirou",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
 	public static Item magnum_raise_buckle = new Item_Raise_Buckles(1,"magnum_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item boost_raise_buckle = new Item_Raise_Buckles(2,"boost_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
@@ -677,6 +679,8 @@ public class ReiwaRiderItems {
 	
 	public static Item ninja_raise_buckle = new Item_Raise_Buckles(15,"ninja_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
+	public static Item monster_raise_buckle = new Item_Raise_Buckles(18,"monster_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	
 	
 	public static Item hammer_raise_buckle = new Item_Raise_Buckles(3,"hammer_raise_buckle").AddToMissionBox(10).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item water_raise_buckle = new Item_Raise_Buckles(4,"water_raise_buckle").AddToMissionBox(10).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
@@ -684,9 +688,14 @@ public class ReiwaRiderItems {
 	public static Item shield_raise_buckle = new Item_Raise_Buckles(6,"shield_raise_buckle").AddToMissionBox(10).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item chain_array_raise_buckle = new Item_Raise_Buckles(10,"chain_array_raise_buckle").AddToMissionBox(8).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item claw_raise_buckle = new Item_Raise_Buckles(11,"claw_raise_buckle").AddToMissionBox(8).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	public static Item propeller_raise_buckle = new Item_Raise_Buckles(16,"propeller_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	public static Item drill_raise_buckle = new Item_Raise_Buckles(17,"drill_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
 	public static Item golden_hammer_raise_buckle = new Item_Raise_Buckles("golden_hammer_raise_buckle").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);	
 	public static Item silver_arrow_raise_buckle = new Item_Raise_Buckles("silver_arrow_raise_buckle").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
+	
+	public static Item clear_arrow_raise_buckle = new Item_Raise_Buckles("clear_arrow_raise_buckle").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
+	
 	
 	public static Item revice_driver_raise_buckle = new Item_Raise_Buckles(7,"revice_driver_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item two_si_driver_raise_buckle = new Item_Raise_Buckles(13,"two_si_driver_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
