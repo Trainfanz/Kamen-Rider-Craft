@@ -307,7 +307,7 @@ public class mobsCore {
 		EntityRegistry.addSpawn(Entity_zectrooper.class,  15, 1, 4, EnumCreatureType.MONSTER,Biome.getBiome(8));
 
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":Shadow_TrooperMob"),Entity_shadow_trooper.class, "Shadow_TrooperMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x1d1d1d, 0x1d1d1d);
-		EntityRegistry.addSpawn(Entity_zectrooper.class,  15, 1, 4, EnumCreatureType.MONSTER,Biome.getBiome(8));
+		EntityRegistry.addSpawn(Entity_shadow_trooper.class,  15, 1, 4, EnumCreatureType.MONSTER,Biome.getBiome(8));
 		
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":NeoTrooperMob"),Entity_neotrooper.class, "NeoTrooperMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x1d1d1d, 0x1d1d1d);		
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":CaucasusMob"),Entity_Caucasus.class, "CaucasusMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0x999999,0xf4c600);		
