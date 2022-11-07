@@ -675,11 +675,11 @@ public class ReiwaRiderItems {
 	public static Item magnum_raise_buckle = new Item_Raise_Buckles(1,"magnum_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item boost_raise_buckle = new Item_Raise_Buckles(2,"boost_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
-	public static Item zombie_raise_buckle = new Item_Raise_Buckles(8,"zombie_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	public static Item zombie_raise_buckle = new Item_Raise_Buckles(8,"zombie_raise_buckle").AddToMissionBox(4).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
-	public static Item ninja_raise_buckle = new Item_Raise_Buckles(15,"ninja_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	public static Item ninja_raise_buckle = new Item_Raise_Buckles(15,"ninja_raise_buckle").AddToMissionBox(4).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
-	public static Item monster_raise_buckle = new Item_Raise_Buckles(18,"monster_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	public static Item monster_raise_buckle = new Item_Raise_Buckles(18,"monster_raise_buckle").AddToMissionBox(3).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
 	
 	public static Item hammer_raise_buckle = new Item_Raise_Buckles(3,"hammer_raise_buckle").AddToMissionBox(10).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
@@ -702,8 +702,24 @@ public class ReiwaRiderItems {
 	public static Item demons_driver_raise_buckle = new Item_Raise_Buckles(9,"demons_driver_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item libera_driver_raise_buckle = new Item_Raise_Buckles(14,"libera_driver_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
+	public static Item seiken_swordriver_raise_buckle = new Item_Raise_Buckles("seiken_swordriver_raise_buckle").setCreativeTab(Tabs.tabgeats);
 	public static Item zero_one_driver_raise_buckle = new Item_Raise_Buckles(12,"zero_one_driver_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	public static Item zikuu_driver_raise_buckle = new Item_Raise_Buckles("zikuu_driver_raise_buckle").setCreativeTab(Tabs.tabgeats);
+	public static Item build_driver_raise_buckle = new Item_Raise_Buckles("build_driver_raise_buckle").setCreativeTab(Tabs.tabgeats);
+	public static Item gamer_driver_raise_buckle = new Item_Raise_Buckles("gamer_driver_raise_buckle").setCreativeTab(Tabs.tabgeats);
+	public static Item ghost_driver_raise_buckle = new Item_Raise_Buckles("ghost_driver_raise_buckle").setCreativeTab(Tabs.tabgeats);
+	public static Item drive_driver_raise_buckle = new Item_Raise_Buckles("drive_driver_raise_buckle").setCreativeTab(Tabs.tabgeats);
+	
+	public static Item wizardriver_raise_buckle = new Item_Raise_Buckles("wizardriver_raise_buckle").setCreativeTab(Tabs.tabgeats);
+	public static Item fourze_driver_raise_buckle = new Item_Raise_Buckles("fourze_driver_raise_buckle").setCreativeTab(Tabs.tabgeats);
+	public static Item ooo_driver_raise_buckle = new Item_Raise_Buckles("ooo_driver_raise_buckle").setCreativeTab(Tabs.tabgeats);
 	public static Item double_driver_raise_buckle = new Item_Raise_Buckles("double_driver_raise_buckle").setCreativeTab(Tabs.tabgeats);
+	public static Item deca_driver_raise_buckle = new Item_Raise_Buckles("deca_driver_raise_buckle").setCreativeTab(Tabs.tabgeats);
+	
+	public static Item den_o_belt_raise_buckle = new Item_Raise_Buckles("den_o_belt_raise_buckle").setCreativeTab(Tabs.tabgeats);
+	public static Item kabuto_zector_raise_buckle = new Item_Raise_Buckles("kabuto_zector_raise_buckle").setCreativeTab(Tabs.tabgeats);
+	
+	public static Item faiz_driver_raise_buckle = new Item_Raise_Buckles("faiz_driver_raise_buckle").setCreativeTab(Tabs.tabgeats);
 	
 	
 	public static Item geats_rider_core_id = new Item_rider_core_id("geats_rider_core_id","geats").AddToMissionBox(10).setCreativeTab(Tabs.tabgeats);

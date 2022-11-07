@@ -2044,6 +2044,9 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item magewizardriver = new item_wizarddriver("magewizardriver",ArmorMaterial.DIAMOND, "mage").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	public static Item magewizardriver_b = new item_wizarddriver("magewizardriver_b",ArmorMaterial.DIAMOND, "mage_b").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	public static Item magewizardriver_g = new item_wizarddriver("magewizardriver_g",ArmorMaterial.DIAMOND, "mage_g").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item magewizardriver_foot_soldiers = new item_wizarddriver("magewizardriver_foot_soldiers",ArmorMaterial.DIAMOND, "mage_foot_soldiers").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	public static Item magewizardriver_captain = new item_wizarddriver("magewizardriver_captain",ArmorMaterial.DIAMOND, "mage_captain").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
+	
 	public static Item sorcererdriver = new item_wizarddriver("sorcererdriver",ArmorMaterial.DIAMOND, "sorcerer").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 	public static Item whitewizardriverf = new item_wizarddriver("whitewizardriverf",ArmorMaterial.DIAMOND, "wiseman_f").setMaxStackSize(1).setCreativeTab(Tabs.tabwizard);
 

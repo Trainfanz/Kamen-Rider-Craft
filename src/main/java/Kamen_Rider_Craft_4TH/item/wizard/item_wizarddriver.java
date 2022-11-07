@@ -406,19 +406,10 @@ public class item_wizarddriver extends item_rider_driver
 
 						}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.beastdriver){
 
-								
-							{	if (item_wizarddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")==6){
-								return Refercence.MODID+":textures/armor/"+"beast_land"+ext;
-								}else if (item_wizarddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")!=5){
-									if (ext=="_2.png"){
+								 if (item_wizarddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")!=5){
 										return Refercence.MODID+":textures/armor/"+"beast"+ext;
-										
-									}else{
-									return Refercence.MODID+":textures/armor/"+"beast"+ CoreName2[item_wizarddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")] +ext;
-									}
 									}else{
 									return Refercence.MODID+":textures/armor/"+"beast_hyper"+ext;
-								}
 							}
 
 						}else {
@@ -430,8 +421,12 @@ public class item_wizarddriver extends item_rider_driver
 						if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.wizardriver){
 
 							return Refercence.MODID+":textures/armor/"+"wizard_over_"+ CoreName[item_wizarddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")]+ext;	
+							
+					}else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.beastdriver){
 						
-
+							
+								return Refercence.MODID+":textures/armor/"+"beast_over"+ CoreName2[item_wizarddriver.get_core(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"1")] +ext;
+						
 					}else {
 
 							return Refercence.MODID+":textures/armor/"+rider+"_over"+ext;	

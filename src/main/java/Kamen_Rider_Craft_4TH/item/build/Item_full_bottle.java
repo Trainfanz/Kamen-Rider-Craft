@@ -76,8 +76,7 @@ public class Item_full_bottle extends Item implements IHasModel
 					item_builddriver.set_core(par3EntityPlayer.getItemStackFromSlot(EntityEquipmentSlot.FEET), num, "1");
 				}
 				
-			}else
-			if (par3EntityPlayer.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.evol_driver_evol){
+			}else if (par3EntityPlayer.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.evol_driver_evol){
 
 				if (num2=="6"){
 					
@@ -89,8 +88,6 @@ public class Item_full_bottle extends Item implements IHasModel
 						}else
 							item_builddriver.set_core(par3EntityPlayer.getItemStackFromSlot(EntityEquipmentSlot.FEET), num, "1");	
 					}
-				}else{
-					item_builddriver.set_core(par3EntityPlayer.getItemStackFromSlot(EntityEquipmentSlot.FEET), num, "1");
 				}
 			}else
 			if (par3EntityPlayer.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.nebulasteamgun_2){
