@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "kamenridercraft4th:items/desire_driver",
-		"1": "kamenridercraft4th:items/geats_rider_core_id",
+		"1": "kamenridercraft4th:items/keirou_rider_core_id",
 		"2": "kamenridercraft4th:items/desire_driver_back",
 		"particle": "kamenridercraft4th:items/desire_driver"
 	},

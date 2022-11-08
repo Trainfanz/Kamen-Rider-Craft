@@ -733,7 +733,6 @@ public class ReiwaRiderItems {
 	public static Item mary_rider_core_id = new Item_rider_core_id("mary_rider_core_id","mary").AddToMissionBox(3).setCreativeTab(Tabs.tabgeats);
 	public static Item ginpen_rider_core_id = new Item_rider_core_id("ginpen_rider_core_id","ginpen").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
 	public static Item punk_jack_rider_core_id = new Item_rider_core_id("punk_jack_rider_core_id","punk_jack").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
-	
 	public static Item reta_rider_core_id = new Item_rider_core_id("reta_rider_core_id","reta").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
 	public static Item keirou_rider_core_id = new Item_rider_core_id("keirou_rider_core_id","keirou").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
 	
