@@ -281,15 +281,13 @@ public class ore_block extends Block implements IHasModel {
 
 
 		if (CRYSTAL == RiderItems.wizardgem){
-			int rand = generator.nextInt(150);
+			int rand = generator.nextInt(100);
 
 			if (rand < 10) return RiderItems.wizardgem_red;
 			if (rand < 20) return RiderItems.wizardgem_blue;
 			if (rand < 30) return RiderItems.wizardgem_green;
 			if (rand < 40) return RiderItems.wizardgem_yellow;
-			if (rand < 45) return RiderItems.wizardgem_cyan;
-			if (rand < 47) return RiderItems.wizardgem_violet;
-			if (rand < 48) return RiderItems.wizardgem_black;
+			if (rand < 42) return RiderItems.wizardgem_violet;
 			return CRYSTAL;
 		}
 
