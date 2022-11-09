@@ -6,17 +6,13 @@ import java.util.UUID;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.mobs.Boss.EntityBossBase;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_EngineBros;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Kaiser;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_KaiserReverse;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Para_dx;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_Red_Poppy;
-import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_ankh_lost;
-import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_gamel;
-import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_genm;
-import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_kazari;
-import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_mezool;
-import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_uva;
-import Kamen_Rider_Craft_4TH.mobs.Boss.entity_gremlin_phantom;
-import Kamen_Rider_Craft_4TH.mobs.Boss.entity_medusa_phantom;
-import Kamen_Rider_Craft_4TH.mobs.Boss.entity_phoenix_phantom;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_RemoconBros;
+import Kamen_Rider_Craft_4TH.mobs.Boss.entity_guren_graphite_bugster;
 import net.minecraft.block.Block;
 
 import net.minecraft.entity.Entity;
@@ -52,62 +48,50 @@ import net.minecraft.util.DamageSource;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextFormatting;
+import net.minecraft.world.DifficultyInstance;
 import net.minecraft.world.World;
 
-public class Entity_ghouls extends Entity_base_henchmen
+public class EntityMageCaptain extends Entity_base_henchmen
 {
-	public Entity_ghouls(World par1World)
+	public EntityMageCaptain(World par1World)
 	{
-		super(par1World);	
+		super(par1World);
+		this.setItemStackToSlot(EntityEquipmentSlot.CHEST,new ItemStack(RiderItems.wizardtroso));
+		this.setItemStackToSlot(EntityEquipmentSlot.HEAD,new ItemStack(RiderItems.wizardhead));
+		this.setItemStackToSlot(EntityEquipmentSlot.FEET,new ItemStack(RiderItems.magewizardriver_captain));
+		this.setItemStackToSlot(EntityEquipmentSlot.LEGS,new ItemStack(RiderItems.wizardlegs));	
 	}
 
-	
+	protected void applyEntityAttributes()
+	{
+		super.applyEntityAttributes();
+		this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(10.0D);
+	}
 
+	 /**
+     * Checks to make sure the light is not too bright where the mob is spawning
+     */
+    protected boolean isValidLightLevel()
+    {
+        return true;
+    }
+    
 	public void onDeath(DamageSource cause)
 	{
 		if (!this.world.isRemote){
 
-			if (this.getAttackTarget()instanceof EntityPlayer){
-				EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
-				entity_medusa_phantom entityboss  = new entity_medusa_phantom(world);
-				entity_phoenix_phantom entityboss2  = new entity_phoenix_phantom(world);
-				entity_gremlin_phantom entityboss3  = new entity_gremlin_phantom(world);
-				
-			switch (this.rand.nextInt(15))
-			{
-			case 0:
-				entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
-				world.spawnEntity(entityboss);
-				break;
-			case 1:
-				entityboss2.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
-				world.spawnEntity(entityboss2);
-				break;
-			case 2:
-				entityboss3.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
-				world.spawnEntity(entityboss3);
-				break;
-			}
-		
-			} 
-			this.dropItem(RiderItems.wizardgem, 2);
+			this.dropItem(RiderItems.wizardgem, 3);
+			
+			this.dropItem(RiderItems.wizardgem_cyan, 1);
 			
 			switch (this.rand.nextInt(10))
 			{
 			case 0:
-				this.dropItem(RiderItems.wizardgem_red, 1);
+				this.dropItem(RiderItems.magewizardriver_captain, 1);
 				break;
-			case 1:
-				this.dropItem(RiderItems.wizardgem_blue, 1);
-				break;
-			case 3:
-				this.dropItem(RiderItems.wizardgem_green, 1);
-				break;
-			case 4:
-				this.dropItem(RiderItems.wizardgem_yellow, 1);
-				break;
+			
+				}
 			}
 		
-		}
-		}
-}
+	}
+}	

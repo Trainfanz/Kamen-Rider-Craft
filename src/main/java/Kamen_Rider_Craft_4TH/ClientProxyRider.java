@@ -37,6 +37,8 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityElementaryInvesGreen;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityElementaryInvesRed;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityHekijaInves;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityKurokageTroopers;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMageCaptain;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMageFootSoldiers;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMasquerade;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityNebulaBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityRidePlayer;
@@ -201,7 +203,11 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(entity_phoenix_phantom.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/phoenix.png"));
 		RenderingRegistry.registerEntityRenderingHandler(entity_gremlin_phantom.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/gremlin.png"));
 		
-		RenderingRegistry.registerEntityRenderingHandler(Entity_wiseman.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/wiseman.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_wiseman.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/ghouls.png"));
+		
+		RenderingRegistry.registerEntityRenderingHandler(EntityMageFootSoldiers.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/ghouls.png"));
+		RenderingRegistry.registerEntityRenderingHandler(EntityMageCaptain.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/ghouls.png"));
+		RenderingRegistry.registerEntityRenderingHandler(EntitySorcerer.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/ghouls.png"));
 		
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityBugsterVirus.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/bugster_virus.png"));

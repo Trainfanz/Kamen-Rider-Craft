@@ -105,7 +105,7 @@ public class entity_phoenix_phantom extends EntityBossBase
 					this.dropItem(RiderItems.wizardgem_red, 1);
 					break;
 				case 0:
-					this.dropItem(RiderItems.wizardgem_yellow, 1);
+					this.dropItem(RiderItems.wizardgem_blue, 1);
 					break;
 		}
 			

@@ -52,6 +52,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_redyue;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_roshuo;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_super_gingaoh;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_taboo_dopant;
+import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_wiseman;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_storious_rider;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockPlanks;
@@ -213,12 +214,13 @@ public class RiderBlocks {
 	public static Block hell_bros_block = new mob_block("hell_bros_block", Entity_HellBros::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
 	public static Block bi_kaiser_block = new mob_block("bi_kaiser_block", Entity_bikaiser::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabbuild);
 	public static Block cronus_block = new mob_block("cronus_block", EntityChronos::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabex_aid);
-
+	
 	public static Block rosyuo_boss_block = new mob_block("rosyuo_boss_block", Entity_roshuo::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabGaim);
 	public static Block demushu_boss_block = new mob_block("demushu_boss_block", Entity_demushu::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabGaim);
 	public static Block redyue_boss_block = new mob_block("redyue_boss_block", Entity_redyue::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabGaim);
 	public static Block lord_baron_boss_block = new mob_block("lord_baron_boss_block", Entity_lord_baron::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabGaim);
 
+	
 	public static Block gaoh_boss_block = new mob_block("gaoh_boss_block", Entity_gaoh::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabden_o);
 	
 	public static Block taboo_bossblock = new mob_blockFlying("taboo_bossblock", Entity_taboo_dopant::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabW);
@@ -232,6 +234,9 @@ public class RiderBlocks {
 	public static Block goda_boss_block = new mob_block("goda_boss_block", Entity_Goda::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabOOO);
 	
 	public static Block super_ginga_oh_boss_block = new mob_block("super_ginga_oh_boss_block", Entity_super_gingaoh::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabFourze);
+	
+	public static Block wiseman_block = new mob_block("wiseman_block", Entity_wiseman::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabwizard);
+	
 	
 	public static Block another_build_block = new mob_block("another_build_block", Entity_another_build::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabzi_o);
 	public static Block woz_boss_block = new mob_block("woz_boss_block", Entity_White_Woz::new).setHardness(9.9F).setLightLevel(0.1f).setCreativeTab(Tabs.tabzi_o);

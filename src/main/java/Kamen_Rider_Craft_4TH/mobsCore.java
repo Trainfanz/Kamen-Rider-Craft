@@ -30,6 +30,8 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityElementaryInvesGreen;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityElementaryInvesRed;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityHekijaInves;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityKurokageTroopers;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMageCaptain;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMageFootSoldiers;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMasquerade;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityNebulaBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityRidePlayer;
@@ -282,6 +284,12 @@ public class mobsCore {
 		
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":wisemanMob"), Entity_wiseman.class, "wisemanMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xffffff,0xd79e0b);
 		
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":MageFootSoldiersMob"), EntityMageFootSoldiers.class, "MageFootSoldiersMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xbb9548,0x050505);
+		EntityRegistry.addSpawn(EntityMageFootSoldiers.class,  15, 1, 4, EnumCreatureType.MONSTER,Biome.getBiome(8));
+		
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":MageCaptainMob"), EntityMageCaptain.class, "MageCaptainMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xbb9548,0x050505);
+		
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":SorcererMob"), EntitySorcerer.class, "SorcererMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x050505,0xebc256);
 		
 		
 		EntityRegistry.registerModEntity(new ResourceLocation( Refercence.MODID+":BugsterVirusMob"),EntityBugsterVirus.class, "BugsterVirusMob", newMobID(), TokuCraft_core.instance, 80, 3, false, 0xe88936,000000);
