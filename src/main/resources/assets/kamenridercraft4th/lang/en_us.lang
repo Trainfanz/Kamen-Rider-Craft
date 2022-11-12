@@ -205,6 +205,16 @@ entity.GraphiteBugsterMob.name=Graphite Bugster
 entity.DarkGraphiteBugsterMob.name=Dark Graphite Bugster
 entity.GurenGraphiteBugsterMob.name=Guren Graphite Bugster LV99
 
+entity.ghoulsMob.name=Ghouls
+entity.medusaPhantomMob.name=Medusa Phantom
+entity.phoenixPhantomMob.name=Phoenix Phantom
+entity.gremlinPhantomMob.name=Gremlin Phantom
+entity.wisemanMob.name=Kamen Rider Wiseman
+entity.MageFootSoldiersMob.name=Kamen Rider Mage (Foot Soldier)
+entity.MageCaptainMob.name=Kamen Rider Mage (Captain)
+entity.SorcererMob.name=Kamen Rider Sorcerer
+
+
 entity.PawnJyamatoMob.name=Pawn Jyamato
 
 effect.fly=Flying
@@ -334,6 +344,7 @@ tile.goda_boss_block.name=Goda Block
 tile.pure_gaia_memory_block.name=Pure Gaia Memory Block
 tile.taboo_bossblock.name=Taboo Block
 tile.terror_boss_block.name=Terror Block
+tile.wiseman_block.name=Wiseman Block
 
 tile.g_chip_programer.name=G-System Chip Programer
 tile.cell_medal_programer.name=Cell Medal Programer
@@ -2181,6 +2192,9 @@ item.blackwizardriver.name=Black Wizardriver
 item.magewizardriver.name=Mage's Belt (Orange)
 item.magewizardriver_b.name=Mage's Belt (Blue)
 item.magewizardriver_g.name=Mage's Belt (Green)
+
+item.magewizardriver_captain.name=Mage's Belt (Captain)
+item.magewizardriver_foot_soldiers.name=Mage's Belt (Foot Soldiers)
 item.sorcererdriver.name=Sorcererdriver
 
 item.darkwizardriver.name=Dark Wizardriver
