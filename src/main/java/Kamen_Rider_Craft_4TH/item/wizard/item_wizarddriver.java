@@ -212,7 +212,7 @@ public class item_wizarddriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
-											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 5,true,false));
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 0,true,false));
 										}else if (this.get_core(armor, "1")==2){
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
@@ -244,10 +244,8 @@ public class item_wizarddriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 5,true,false));
 										}else if (this.get_core(armor, "1")==6){
-											if (player.getHeldItemMainhand().isEmpty())
-											{
-												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 6,true,false));
-											}
+											player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 6,true,false));
+											
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
@@ -304,6 +302,7 @@ public class item_wizarddriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 5,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 8,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 0,true,false));
 
 										}else if (this.get_core(armor, "1")==9){
 											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
@@ -313,6 +312,7 @@ public class item_wizarddriver extends item_rider_driver
 											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 6,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 8,true,false));
 											player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 0,true,false));
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 0,true,false));
 
 										}if (this.get_core(armor, "2")==6){											
 											player.fallDistance=0; 
@@ -349,23 +349,11 @@ public class item_wizarddriver extends item_rider_driver
 
 											}
 										}else if (this.get_core(armor, "2")==1||this.get_core(armor, "2")==9){
-											if (player.isSneaking()){
-												player.fallDistance=0; 
-												if(player.isInWater()){
-													Vec3d look = player.getLookVec();
-													player.motionX=look.x;
-													player.motionY=look.y;
-													player.motionZ=look.z;
-												}else {Vec3d look = player.getLookVec();
-												player.motionX=look.x/2;
-												player.motionY=look.y/2;
-												player.motionZ=look.z/2;
-												}
-											}
-											if (player.getHeldItemMainhand().isEmpty())
-											{
-												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 6,true,false));
-											}
+
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 0,true,false));
+
+											player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 6,true,false));
+											
 										}else if (this.get_core(armor, "2")==3||this.get_core(armor, "2")==8){
 											if (player.isSneaking()){
 												player.fallDistance=0; 
@@ -374,16 +362,12 @@ public class item_wizarddriver extends item_rider_driver
 													player.motionX=look.x;
 													player.motionY=look.y;
 													player.motionZ=look.z;
-												}else {Vec3d look = player.getLookVec();
-												player.motionX=look.x;
-												player.motionY=look.y;
-												player.motionZ=look.z;
 												}
+
+												player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 0,true,false));
 											}
-											if (player.getHeldItemMainhand().isEmpty())
-											{
-												player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 8,true,false));
-											}
+											player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 8,true,false));
+											
 										}
 									}
 									}
