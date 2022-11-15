@@ -184,6 +184,15 @@ public class Item_shift_car extends Item implements IHasModel
 
 					}
 
+				}	else if (belt == RiderItems.mach_driver_honoh_chaser){
+					
+							if (num ==3) {
+								
+								item_drivedriver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),num2);
+							
+						
+				}
+					
 				}
 				else if (belt == RiderItems.mach_driver_honoh){
 					if (num == 4){

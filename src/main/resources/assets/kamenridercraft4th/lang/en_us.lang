@@ -3421,7 +3421,8 @@ item.desire_driver_keirou.name=Desire Driver(Keilow)
 
 item.magnum_raise_buckle.name=Magnum Buckle
 item.boost_raise_buckle.name=Boost Buckle
-    
+   
+item.zombie_raise_buckle.name=Zombie Buckle
 item.ninja_raise_buckle.name=Ninja Buckle
 item.monster_raise_buckle.name=Monster Buckle
 item.beat_raise_buckle.name=Beat Buckle

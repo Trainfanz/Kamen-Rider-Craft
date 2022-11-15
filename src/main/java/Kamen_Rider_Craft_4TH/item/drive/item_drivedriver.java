@@ -346,6 +346,20 @@ public class item_drivedriver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
+										
+										if (this.get_lock(armor)=="kourin_magarl"){
+
+											player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
+
+										}else if (this.get_lock(armor)=="kourin_kaksarn"){
+
+											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
+
+										}else if (this.get_lock(armor)=="kourin_tomarle"){
+
+											player.addPotionEffect(new PotionEffect(MobEffects.SLOWNESS, 5, 10,true,false));
+
+										}
 									}
 									
 									else if (player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.drivedriver_dark){
