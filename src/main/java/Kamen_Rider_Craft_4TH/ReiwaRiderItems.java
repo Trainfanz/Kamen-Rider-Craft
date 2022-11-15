@@ -648,12 +648,15 @@ public class ReiwaRiderItems {
 	
 	public static Item zombie_breaker = new ItemBaseSword("zombie_breaker",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
+	public static Item beat_axe = new ItemBaseSword("beat_axe",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	
 	public static Item raise_hammer = new ItemBaseSword("raise_hammer",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item raise_arrow = new Item_gun("raise_arrow",Tabs.den_dengu, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item raise_water = new Item_gun("raise_water",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item raise_shield = new ItemBaseShield("raise_shield", blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item raise_chain_array = new ItemBaseSword("raise_chain_array",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item raise_claw = new ItemBaseSword("raise_claw",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item raise_propeller = new ItemBaseSword("raise_propeller",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
 	
 	public static Item geatshead = new item_rider_armor("geatshead",item_revicedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, blank_rider_core_id).setCreativeTab(Tabs.tabgeats);

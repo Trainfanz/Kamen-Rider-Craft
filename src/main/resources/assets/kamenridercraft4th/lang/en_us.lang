@@ -3388,18 +3388,20 @@ item.empty_vial.name=Empty Vial
 item.gaga_armlet.name=Gaga Armlet
 item.gigi_armlet.name=Gigi Armlet
 
-
 item.magnum_shooter_40x.name=Magnum Shooter 40X
 item.magnum_shooter_40x_rifle.name=Magnum Shooter 40X(Rifle)
     
 item.zombie_breaker.name=Zombie Breaker
-    
+
+item.beat_axe.name=Beat Axe
+
 item.raise_hammer.name=Raise Hammer
 item.raise_arrow.name=Raise Arrow
 item.raise_water.name=Raise Water
 item.raise_shield.name=Raise Shield
 item.raise_claw.name=Raise Claw   
 item.raise_chain_array.name=Raise Chain Array  
+item.raise_propeller.name=Raise Propeller 
 
 item.geatshead.name=Geats Helmet
 item.geatstroso.name=Geats Chestplate 
@@ -3413,23 +3415,31 @@ item.desire_driver_shirowe.name=Desire Driver(Shirowe)
 item.desire_driver_da_paan.name=Desire Driver(Da.Paan)
 item.desire_driver_mary.name=Desire Driver(Mary)
 item.desire_driver_ginpen.name=Desire Driver(Ginpen)
- 
 item.desire_driver_punk_jack.name=Desire Driver(Punkjack)
-  
+item.desire_driver_reta.name=Desire Driver(Letter)
+item.desire_driver_keirou.name=Desire Driver(Keilow)
+
 item.magnum_raise_buckle.name=Magnum Buckle
 item.boost_raise_buckle.name=Boost Buckle
     
-item.zombie_raise_buckle.name=Zombie Buckle
-    
+item.ninja_raise_buckle.name=Ninja Buckle
+item.monster_raise_buckle.name=Monster Buckle
+item.beat_raise_buckle.name=Beat Buckle
+  
 item.hammer_raise_buckle.name=Hammer Buckle
 item.water_raise_buckle.name=Water Buckle
 item.arrow_raise_buckle.name=Arrow Buckle
 item.shield_raise_buckle.name=Shield Buckle
 item.chain_array_raise_buckle.name=Chain Array Buckle
 item.claw_raise_buckle.name=Claw Buckle
-  
+item.drill_raise_buckle.name=Drill Buckle
+item.propeller_raise_buckle.name=Propeller Buckle
+
+
 item.golden_hammer_raise_buckle.name=Hammer Buckle (Gold Plating ver)
 item.silver_arrow_raise_buckle.name=Arrow Buckle (Silver Plating ver)
+
+item.clear_arrow_raise_buckle.name=Arrow Buckle (Clear ver)
     
 item.revice_driver_raise_buckle.name=Revice Driver Buckle
 item.two_si_driver_raise_buckle.name=Two Sidriver Buckle
@@ -3450,7 +3460,9 @@ item.da_paan_rider_core_id.name=Kamen Rider Da.Paan Core ID
 item.mary_rider_core_id.name=Kamen Rider Mary Core ID
 item.ginpen_rider_core_id.name=Kamen Rider Ginpen Core ID
 item.punk_jack_rider_core_id.name=Kamen Rider Punkjack Core ID   
-    
+item.reta_rider_core_id.name=Kamen Rider Letter Core ID
+item.keirou_rider_core_id.name=Kamen Rider Keilow Core ID   
+   
 item.bikkuri_mission_box.name=Bikkuri Mission Box
 item.hatena_mission_box.name=Hatena Mission Box
 

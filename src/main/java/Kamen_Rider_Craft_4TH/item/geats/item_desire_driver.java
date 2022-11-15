@@ -217,6 +217,43 @@ public class item_desire_driver extends item_rider_driver
 
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,3,true,false));
 									}
+									if ( formL=="live"||formR=="live"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5,0,true,false));
+									}
+									if ( formL=="jeanne"||formR=="jeanne"){	
+										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 5,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.ANTIPOISON_POTION, 5,0,true,false));
+									}
+									if ( formL=="ninja"||formR=="ninja"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5,6,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+									}
+									if ( formL=="propeller"||formR=="propeller"){	
+										if (player.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.raise_propeller))){
+
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5, 0,true,false));
+										}
+
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5,4,true,false));
+
+									}
+									if ( formL=="drill"||formR=="drill"){	
+										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false));
+									}
+									if ( formL=="monster"||formR=="monster"){	
+										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 6,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
+									}
+									if ( formL=="beat"||formR=="beat"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+									}
+
 								}
 							}
 						}
@@ -226,7 +263,7 @@ public class item_desire_driver extends item_rider_driver
 		}
 	}
 
-	
+
 
 	public  String getTexture(Entity entity, int num,String ext)
 	{
