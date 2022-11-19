@@ -153,6 +153,7 @@
 				this.dropItem(ReiwaRiderItems.solomon_driver, 1);
 				this.dropItem(ReiwaRiderItems.caladbolg, 1);
 				this.dropItem(ReiwaRiderItems.omni_force_wonderride_book, 1);
+				this.dropItem(ReiwaRiderItems.tassel_dark_wonderride_book, 1);
 				this.dropItem(ReiwaRiderItems.blank_wonder_world_story_wonder_ride_book, 5);
 				this.dropItem(ReiwaRiderItems.blank_wonder_ride_book, 20);
 			}

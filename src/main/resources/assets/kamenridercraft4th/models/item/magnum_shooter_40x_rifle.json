@@ -6,41 +6,39 @@
 		"layer0": "kamenridercraft4th:items/magnum_shooter_40x_rifle",
 		"particle": "kamenridercraft4th:items/magnum_raise_buckle"
 	},
-	"display": {
-		"thirdperson_righthand": {
-			"rotation": [0, -90, 45],
-			"translation": [0, 1.25, 0],
-			"scale": [1.7, 1.7, 1]
-		},
-		"thirdperson_lefthand": {
-			"rotation": [0, 90, -45],
-			"translation": [0, 1.25, 0],
-			"scale": [1.7, 1.7, 0.85]
-		},
-		"firstperson_righthand": {
-			"rotation": [25.8, -78, 39],
-			"translation": [1, 3, 3],
-			"scale": [1.7, 1.7, 0.85]
-		},
-		"firstperson_lefthand": {
-			"rotation": [22, 64, -38.5],
-			"translation": [0, 6, 3],
-			"scale": [1.7, 1.7, 0.85]
-		},
-		"ground": {
-			"translation": [0, 2, 0],
-			"scale": [1, 1, 0.5]
-		},
-		"gui": {
-			"translation": [3, -2.5, 0],
-			"scale": [1.3, 1.3, 1]
-		},
-		"head": {
-			"translation": [0, 13, 7]
-		},
-		"fixed": {
-			"translation": [3, -2.75, 0],
-			"scale": [1.5, 1.5, 1]
-		}
-	}
+    "display": {
+"ground": {
+"rotation": [ 0, 0, 0 ],
+"translation": [ 0, 2, 0],
+"scale":[ 0.5, 0.5, 0.5 ]
+},
+"head": {
+"rotation": [ 0, 0, 0 ],
+"translation": [ 0, 13, 7],
+"scale":[ 1, 1, 1]
+},
+"thirdperson_lefthand": {    
+ "rotation": [ 0, 90, -55 ],
+           "translation": [ 0, 1, 1 ],
+            "scale": [ 1.7, 1.7, 0.85 ]
+
+},
+"thirdperson_righthand": {    
+ "rotation": [ 0, -90, 55 ],
+           "translation": [ 0, 1, 1 ],
+            "scale": [ 1.7, 1.7, 0.85 ]
+
+},
+"firstperson_righthand": {
+            "rotation": [  -25.5, -85, 0 ],
+            "translation": [ 0, 3, 1 ],
+            "scale": [ 1.25, 1.25, 0.75 ]
+},
+"firstperson_lefthand": {    
+ "rotation": [  -25.5, 85, 0 ],
+           "translation": [ 0, 3, 1 ],
+            "scale": [ 1.25, 1.25, 0.75 ]
+
+}
+}
 }

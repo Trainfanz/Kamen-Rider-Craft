@@ -15,31 +15,27 @@
 "scale":[ 1, 1, 1]
 },
 "thirdperson_lefthand": {    
- "rotation": [ 0, 90, -50 ],
-           "translation": [ 0, 1.25, 0 ],
+ "rotation": [ 0, 90, -55 ],
+           "translation": [ 0, 1, 1 ],
             "scale": [ 1.7, 1.7, 0.85 ]
 
 },
 "thirdperson_righthand": {    
- "rotation": [ 0, -90, 50 ],
-           "translation": [ 0, 1.25, 0 ],
+ "rotation": [ 0, -90, 55 ],
+           "translation": [ 0, 1, 1 ],
             "scale": [ 1.7, 1.7, 0.85 ]
 
 },
 "firstperson_righthand": {
-            "rotation": [  -20, -90, 40 ],
-            "translation": [ 2, 4, -3],
-            "scale": [ 1.7, 1.7, 0.85 ]
+            "rotation": [  -25.5, -85, 0 ],
+            "translation": [ 0, 3, 1 ],
+            "scale": [ 1.25, 1.25, 0.75 ]
 },
 "firstperson_lefthand": {    
- "rotation": [ -70, 90, 10 ],
-           "translation": [ 2, 4, -3],
-            "scale": [ 1.7, 1.7, 0.85 ]
+ "rotation": [  -25.5, 85, 0 ],
+           "translation": [ 0, 3, 1 ],
+            "scale": [ 1.25, 1.25, 0.75 ]
 
-},
-"fixed": {
-"rotation": [ 0, 0, 0 ],
-"scale": [ 1, 1, 1 ]
 }
 }
 }

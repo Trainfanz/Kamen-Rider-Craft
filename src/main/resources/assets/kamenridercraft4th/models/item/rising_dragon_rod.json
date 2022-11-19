@@ -1,7 +1,7 @@
 {
-    "parent": "builtin/generated",
+    "parent": "item/handheld",
     "textures": {
-        "layer0": "kamenridercraft4th:items/lovekov_hashibiroko"
+        "layer0": "kamenridercraft4th:items/rising_dragon_rod"
     },
     "display": {
 "ground": {
