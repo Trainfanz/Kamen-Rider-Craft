@@ -44,10 +44,13 @@ public class item_desire_driver extends item_rider_driver
 
 
 	public static final String[] CoreName= new String[] {"entry","magnum","boost","hammer","water","arrow","shield","revice","zombie","demons","chain_array","claw","zero_one"
-			,"live","jeanne","ninja","propeller","drill","monster","beat",""};
+			,"live","jeanne","ninja","propeller","drill","monster","beat","jet","cannon"};
+
+	public static final String[] FormName= new String[] {"","","_raising","","","","","","","","","","",""};
 
 
-	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};
+	public boolean CanFever = false;
+	
 	public String armorNamePrefix;
 	public ArmorMaterial material;
 
@@ -108,6 +111,23 @@ public class item_desire_driver extends item_rider_driver
 		return null;
 	}
 
+	public item_desire_driver AddCanFever()
+	{
+		CanFever=true;
+		return this;
+	}
+	
+	public boolean is_fever (ItemStack itemstack)
+	{
+		String forml = get_lockbase(itemstack, "l");
+		String formr = get_lockbase(itemstack,"r");
+		if (forml==formr&get_lock(itemstack,"f")==1){
+			return true;
+		}else{
+		return false;
+		}
+	}
+	
 	public static int get_eftTime(ItemStack itemstack)
 	{
 		return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("eftTime") : 100;
@@ -128,9 +148,9 @@ public class item_desire_driver extends item_rider_driver
 		return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("seed"+string)!=0? CoreName[itemstack.getTagCompound().getInteger("seed"+string)]: "entry" : "entry";
 	}
 
-	public static int get_lock(ItemStack itemstack)
+	public static int get_lock(ItemStack itemstack,String string)
 	{	
-		return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("seed")!=0? itemstack.getTagCompound().getInteger("seed"): 0 : 0;
+		return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("seed"+string)!=0? itemstack.getTagCompound().getInteger("seed"+string): 0 : 0;
 	}
 
 	public static void set_lock(ItemStack itemstack,String string,int flag)
@@ -277,8 +297,12 @@ public class item_desire_driver extends item_rider_driver
 					String forml = get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "l");
 					String formr = get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r");
 
+					if (is_fever(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))&CanFever){
+						rider=((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider+"_fever";
+					}
+					
 					if (num==12||num==13){
-						return Refercence.MODID+":textures/armor/"+rider+"_base_over.png";
+						return Refercence.MODID+":textures/armor/"+rider+FormName[get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f")]+"_base_over.png";
 					}else 	if (num==2||num==5||num==3||num==6||num==8){
 						return Refercence.MODID+":textures/armor/"+rider+"_rider_base"+ext;
 					}else 	if (num==1||num==4||num==9||num==7){

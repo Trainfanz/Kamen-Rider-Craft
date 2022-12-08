@@ -82,6 +82,11 @@ public class Item_Raise_Buckles extends Item implements IHasModel
 		return this;
 	}
 	
+	public Item_Raise_Buckles changeForm(int num)
+	{
+		setBase=num;
+		return this;
+	}
 	
 	public Item_Raise_Buckles AddToMissionBox(int num)
 	{
@@ -112,6 +117,7 @@ public class Item_Raise_Buckles extends Item implements IHasModel
 
 				if(handIn == EnumHand.MAIN_HAND&CanUseL){
 					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",num2);	
+					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",setBase);
 				}else if(handIn == EnumHand.OFF_HAND&CanUseR){
 					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",num2);	
 				}

@@ -8,6 +8,7 @@ import Kamen_Rider_Craft_4TH.item.Item_sword_gun;
 import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigoarmor;
 import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigoarmor2;
 import Kamen_Rider_Craft_4TH.item.W.item_Wdriver;
+import Kamen_Rider_Craft_4TH.item.geats.Item_Feverslot;
 import Kamen_Rider_Craft_4TH.item.geats.Item_Raise_Buckles;
 import Kamen_Rider_Craft_4TH.item.geats.Item_mission_box;
 import Kamen_Rider_Craft_4TH.item.geats.Item_rider_core_id;
@@ -663,20 +664,24 @@ public class ReiwaRiderItems {
 	public static Item geatstroso = new item_rider_armor("geatstroso",item_revicedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, blank_rider_core_id).setCreativeTab(Tabs.tabgeats);
 	public static Item geatslegs = new item_rider_armor("geatslegs",item_revicedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, blank_rider_core_id).setCreativeTab(Tabs.tabgeats);
 
-	public static Item desire_driver_geats = new item_desire_driver("desire_driver_geats",ArmorMaterial.DIAMOND, 4, "geats",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
-	public static Item desire_driver_tycoon = new item_desire_driver("desire_driver_tycoon",ArmorMaterial.DIAMOND, 4, "tycoon",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
-	public static Item desire_driver_na_go = new item_desire_driver("desire_driver_na_go",ArmorMaterial.DIAMOND, 4, "na_go",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
-	public static Item desire_driver_buffa = new item_desire_driver("desire_driver_buffa",ArmorMaterial.DIAMOND, 4, "buffa",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_geats = new item_desire_driver("desire_driver_geats",ArmorMaterial.DIAMOND, 4, "geats",0).AddCanFever().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_tycoon = new item_desire_driver("desire_driver_tycoon",ArmorMaterial.DIAMOND, 4, "tycoon",0).AddCanFever().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_na_go = new item_desire_driver("desire_driver_na_go",ArmorMaterial.DIAMOND, 4, "na_go",0).AddCanFever().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_buffa = new item_desire_driver("desire_driver_buffa",ArmorMaterial.DIAMOND, 4, "buffa",0).AddCanFever().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item desire_driver_shirowe = new item_desire_driver("desire_driver_shirowe",ArmorMaterial.DIAMOND, 4, "shirowe",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item desire_driver_da_paan = new item_desire_driver("desire_driver_da_paan",ArmorMaterial.DIAMOND, 4, "da_paan",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item desire_driver_mary = new item_desire_driver("desire_driver_mary",ArmorMaterial.DIAMOND, 4, "mary",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item desire_driver_ginpen = new item_desire_driver("desire_driver_ginpen",ArmorMaterial.DIAMOND, 4, "ginpen",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
-	public static Item desire_driver_punk_jack = new item_desire_driver("desire_driver_punk_jack",ArmorMaterial.DIAMOND, 4, "punk_jack",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_punk_jack = new item_desire_driver("desire_driver_punk_jack",ArmorMaterial.DIAMOND, 4, "punk_jack",0).AddCanFever().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item desire_driver_reta = new item_desire_driver("desire_driver_reta",ArmorMaterial.DIAMOND, 4, "reta",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item desire_driver_keirou = new item_desire_driver("desire_driver_keirou",ArmorMaterial.DIAMOND, 4, "keirou",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
 	public static Item magnum_raise_buckle = new Item_Raise_Buckles(1,"magnum_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item boost_raise_buckle = new Item_Raise_Buckles(2,"boost_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	
+	public static Item command_twin_buckle_jet = new Item_Raise_Buckles(20,"command_twin_buckle_jet").changeForm(2).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	public static Item command_twin_buckle_cannon = new Item_Raise_Buckles(21,"command_twin_buckle_cannon").changeForm(2).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	
 	
 	public static Item zombie_raise_buckle = new Item_Raise_Buckles(8,"zombie_raise_buckle").AddToMissionBox(4).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
@@ -685,6 +690,8 @@ public class ReiwaRiderItems {
 	public static Item monster_raise_buckle = new Item_Raise_Buckles(18,"monster_raise_buckle").AddToMissionBox(3).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
 	public static Item beat_raise_buckle = new Item_Raise_Buckles(19,"beat_raise_buckle").AddToMissionBox(3).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	
+	public static Item fever_slot_raise_buckle = new Item_Feverslot("fever_slot_raise_buckle").setCreativeTab(Tabs.tabgeats);
 	
 	
 	public static Item hammer_raise_buckle = new Item_Raise_Buckles(3,"hammer_raise_buckle").AddToMissionBox(10).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
