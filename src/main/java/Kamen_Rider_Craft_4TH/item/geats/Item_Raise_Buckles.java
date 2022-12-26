@@ -40,7 +40,7 @@ public class Item_Raise_Buckles extends Item implements IHasModel
 
 	public boolean CanUseL = false;
 	public boolean CanUseR = false;
-	
+
 
 	public Item_Raise_Buckles(int arms,String name)
 	{
@@ -52,7 +52,7 @@ public class Item_Raise_Buckles extends Item implements IHasModel
 		TokuCraft_core.ITEMS.add(this);
 
 	}
-	
+
 	public Item_Raise_Buckles(String name)
 	{
 		super();
@@ -69,25 +69,25 @@ public class Item_Raise_Buckles extends Item implements IHasModel
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
 	}
 
-	
+
 	public Item_Raise_Buckles AddCanUseL()
 	{
 		CanUseL=true;
 		return this;
 	}
-	
+
 	public Item_Raise_Buckles AddCanUseR()
 	{
 		CanUseR=true;
 		return this;
 	}
-	
+
 	public Item_Raise_Buckles changeForm(int num)
 	{
 		setBase=num;
 		return this;
 	}
-	
+
 	public Item_Raise_Buckles AddToMissionBox(int num)
 	{
 		for (int i1 = 0; i1 < num; ++i1)
@@ -96,14 +96,14 @@ public class Item_Raise_Buckles extends Item implements IHasModel
 		}
 		return this;
 	}
-	
+
 	public  Item_Raise_Buckles keep_item()
 	{
 		this.setContainerItem(this);
 		getContainerItem();
 		return this;
 	}
-	
+
 	/**
 	 * Called when the equipped item is right clicked.
 	 */
@@ -114,16 +114,16 @@ public class Item_Raise_Buckles extends Item implements IHasModel
 
 			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_desire_driver){
 				item_desire_driver belt = (item_desire_driver) playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem();
-
-				if(handIn == EnumHand.MAIN_HAND&CanUseL){
-					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",num2);	
-					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",setBase);
-				}else if(handIn == EnumHand.OFF_HAND&CanUseR){
-					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",num2);	
-				}
-					
-						
+				if (belt.DRIVER == 0){
+					if(handIn == EnumHand.MAIN_HAND&CanUseL){
+						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",num2);	
+						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",setBase);
+					}else if(handIn == EnumHand.OFF_HAND&CanUseR){
+						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",num2);	
 					}
+				}
+
+			}
 		}
 		playerIn.setActiveHand(handIn);
 		return new ActionResult<ItemStack>(EnumActionResult.SUCCESS, playerIn.getHeldItem(handIn));

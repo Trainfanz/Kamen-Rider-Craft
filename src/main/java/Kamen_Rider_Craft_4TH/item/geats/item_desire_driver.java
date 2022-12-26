@@ -44,7 +44,7 @@ public class item_desire_driver extends item_rider_driver
 
 
 	public static final String[] CoreName= new String[] {"entry","magnum","boost","hammer","water","arrow","shield","revice","zombie","demons","chain_array","claw","zero_one"
-			,"live","jeanne","ninja","propeller","drill","monster","beat","jet","cannon"};
+			,"live","jeanne","ninja","propeller","drill","monster","beat","jet","cannon","gigant_container","","","","","","","","",""};
 
 	public static final String[] FormName= new String[] {"","","_raising","","","","","","","","","","",""};
 
@@ -144,7 +144,9 @@ public class item_desire_driver extends item_rider_driver
 
 	public static String get_lockbase(ItemStack itemstack,String string)
 	{	
-
+		if (((item_desire_driver)itemstack.getItem()).DRIVER == 1){
+			return((item_desire_driver)itemstack.getItem()).Rider;
+		}
 		return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("seed"+string)!=0? CoreName[itemstack.getTagCompound().getInteger("seed"+string)]: "entry" : "entry";
 	}
 
@@ -294,9 +296,12 @@ public class item_desire_driver extends item_rider_driver
 					item_rider_driver belt =((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem());
 					String rider = ((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider;
 
+					
 					String forml = get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "l");
 					String formr = get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r");
 
+					
+					
 					if (is_fever(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))&CanFever){
 						rider=((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider+"_fever";
 					}
@@ -304,7 +309,7 @@ public class item_desire_driver extends item_rider_driver
 					if (num==12||num==13){
 						return Refercence.MODID+":textures/armor/"+rider+FormName[get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f")]+"_base_over.png";
 					}else 	if (num==2||num==5||num==3||num==6||num==8){
-						return Refercence.MODID+":textures/armor/"+rider+"_rider_base"+ext;
+						return Refercence.MODID+":textures/armor/"+rider+FormName[get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f")]+"_rider_base"+ext;
 					}else 	if (num==1||num==4||num==9||num==7){
 						return Refercence.MODID+":textures/armor/geats_rider_"+forml+ext;
 
