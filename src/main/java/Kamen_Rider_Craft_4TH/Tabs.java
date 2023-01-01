@@ -253,6 +253,8 @@ public class Tabs {
 			return new ItemStack(ShowaRiderItems.black_rx_head);
 		}
 	};
+	
+	
 	public static CreativeTabs tabshin = new CreativeTabs("tabshin")
 	{
 		@SideOnly(Side.CLIENT)
@@ -604,6 +606,18 @@ public class Tabs {
 		@Override
 		public ItemStack createIcon() {
 			return new ItemStack(ShowaRiderItems.amazonshead);
+		}
+	};
+	public static CreativeTabs tabblack_sun = new CreativeTabs("tabblack_sun")
+	{
+		@SideOnly(Side.CLIENT)
+	    public net.minecraft.util.ResourceLocation getBackgroundImage()
+	    {
+	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_black_sun_items.png");
+	    }
+		@Override
+		public ItemStack createIcon() {
+			return new ItemStack(ShowaRiderItems.black_sun_head);
 		}
 	};
 	public static CreativeTabs tabG = new CreativeTabs("tabG")

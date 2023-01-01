@@ -708,6 +708,8 @@ public class ReiwaRiderItems {
 	
 	public static Item fever_slot_raise_buckle = new Item_Feverslot("fever_slot_raise_buckle").setCreativeTab(Tabs.tabgeats);
 	
+	public static Item powered_builder_raise_buckle = new Item_Raise_Buckles(23,"powered_builder_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	
 	public static Item gigant_container_buckle = new Item_Raise_Buckles(22,"gigant_container_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
 	
@@ -720,11 +722,18 @@ public class ReiwaRiderItems {
 	public static Item propeller_raise_buckle = new Item_Raise_Buckles(16,"propeller_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item drill_raise_buckle = new Item_Raise_Buckles(17,"drill_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
+	public static Item gigant_sword_buckle = new Item_Raise_Buckles("gigant_sword_buckle").setCreativeTab(Tabs.tabgeats);
+	public static Item gigant_hammer_buckle = new Item_Raise_Buckles("gigant_hammer_buckle").setCreativeTab(Tabs.tabgeats);
+	public static Item gigant_blaster_buckle = new Item_Raise_Buckles("gigant_blaster_buckle").setCreativeTab(Tabs.tabgeats);
+	
+	public static Item christmas_buckle = new Item_Raise_Buckles("christmas_buckle").setCreativeTab(Tabs.tabgeats);
+	
 	public static Item golden_hammer_raise_buckle = new Item_Raise_Buckles("golden_hammer_raise_buckle").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);	
 	public static Item silver_arrow_raise_buckle = new Item_Raise_Buckles("silver_arrow_raise_buckle").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
 	
 	public static Item clear_arrow_raise_buckle = new Item_Raise_Buckles("clear_arrow_raise_buckle").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
 	
+	public static Item beat_raise_buckle_theme = new Item_Raise_Buckles("beat_raise_buckle_theme").setCreativeTab(Tabs.tabgeats);
 	
 	public static Item revice_driver_raise_buckle = new Item_Raise_Buckles(7,"revice_driver_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item two_si_driver_raise_buckle = new Item_Raise_Buckles(13,"two_si_driver_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);

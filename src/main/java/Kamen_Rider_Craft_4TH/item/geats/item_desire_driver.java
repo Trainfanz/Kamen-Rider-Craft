@@ -44,7 +44,7 @@ public class item_desire_driver extends item_rider_driver
 
 
 	public static final String[] CoreName= new String[] {"entry","magnum","boost","hammer","water","arrow","shield","revice","zombie","demons","chain_array","claw","zero_one"
-			,"live","jeanne","ninja","propeller","drill","monster","beat","jet","cannon","gigant_container","","","","","","","","",""};
+			,"live","jeanne","ninja","propeller","drill","monster","beat","jet","cannon","gigant_container","poweredbuilder","","","","","","","",""};
 
 	public static final String[] FormName= new String[] {"","","_raising","","","","","","","","","","",""};
 
@@ -147,6 +147,7 @@ public class item_desire_driver extends item_rider_driver
 		if (((item_desire_driver)itemstack.getItem()).DRIVER == 1){
 			return((item_desire_driver)itemstack.getItem()).Rider;
 		}
+		
 		return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("seed"+string)!=0? CoreName[itemstack.getTagCompound().getInteger("seed"+string)]: "entry" : "entry";
 	}
 
@@ -300,7 +301,14 @@ public class item_desire_driver extends item_rider_driver
 					String forml = get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "l");
 					String formr = get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r");
 
+		
 					
+					if (forml=="poweredbuilder"&rider=="seeker"){
+						forml="poweredbuilder_seeker";
+					}
+					if (formr=="poweredbuilder"&rider=="seeker"){
+						formr="poweredbuilder_seeker";
+					}
 					
 					if (is_fever(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))&CanFever){
 						rider=((item_rider_driver)player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem()).Rider+"_fever";

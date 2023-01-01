@@ -14,6 +14,7 @@ import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigoarmor;
 import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigoarmor2;
 import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigodriver;
 import Kamen_Rider_Craft_4TH.item.amazons.item_amazonsdriver;
+import Kamen_Rider_Craft_4TH.item.kabuto.Item_zecter;
 import Kamen_Rider_Craft_4TH.item.revice.Item_Vistamps;
 import Kamen_Rider_Craft_4TH.item.revice.item_revicedriver;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
@@ -352,6 +353,35 @@ public class ShowaRiderItems {
 	public static Item alpha_amazon_cell_vial = new Item_ore("alpha_amazon_cell_vial").keep_item(empty_vial).setCreativeTab(Tabs.tabamazons);
 	public static Item sigma_amazon_cell_vial = new Item_ore("sigma_amazon_cell_vial").keep_item(empty_vial).setCreativeTab(Tabs.tabamazons);
 	public static Item neo_amazon_cell_vial = new Item_ore("neo_amazon_cell_vial").keep_item(empty_vial).setCreativeTab(Tabs.tabamazons);
+	
+	
+	//Black Sun
+	
+	public static Item  glowing_king_stone_sun = new Item_form_change("glowing_king_stone_sun",item_rider_driver.class,blanknoitem,"_revived","black_sun"
+			,new PotionEffect(MobEffects.STRENGTH, 20, 2,true,false),new PotionEffect(MobEffects.HASTE,20, 1,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST,20, 3,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
+			);
+
+	public static Item  king_stone_sun = new Item_zecter(glowing_king_stone_sun,"king_stone_sun",item_rider_driver.class,blanknoitem,"","black_sun"
+			,new PotionEffect(MobEffects.STRENGTH, 20, 2,true,false),new PotionEffect(MobEffects.HASTE,20, 1,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST,20, 3,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
+			).setCreativeTab(Tabs.tabblack_sun);
+
+	
+	public static Item  king_stone_moon = new Item_form_change("king_stone_moon",item_rider_driver.class,blanknoitem,"","black_sun"
+			,new PotionEffect(MobEffects.STRENGTH, 20, 2,true,false),new PotionEffect(MobEffects.HASTE,20, 1,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST,20, 3,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
+			).setCreativeTab(Tabs.tabblack_sun);
+
+	
+	public static Item black_sun_head = new item_rider_armor("black_sun_head",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_sun);
+	public static Item black_sun_troso = new item_rider_armor("black_sun_troso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_sun);
+	public static Item black_sun_legs = new item_rider_armor("black_sun_legs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_sun);
+
+	public static Item century_king_sun_driver = new item_rider_driver("century_king_sun_driver",ArmorMaterial.DIAMOND, 4,"black_sun", (Item_form_change) king_stone_sun, black_sun_head, black_sun_troso, black_sun_legs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_sun);
+
+	public static Item century_king_moon_driver = new item_rider_driver("century_king_moon_driver",ArmorMaterial.DIAMOND, 4,"shadowmoon", (Item_form_change) king_stone_moon, black_sun_head, black_sun_troso, black_sun_legs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_sun);
+
 	
 	//G
 	public static Item goro_wine_bottle = new Item_form_change("goro_wine_bottle",item_rider_driver.class,ShowaRiderItems.blanknoitem,"",""
