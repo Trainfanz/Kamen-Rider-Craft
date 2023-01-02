@@ -14,6 +14,8 @@ import Kamen_Rider_Craft_4TH.item.geats.Item_mission_box;
 import Kamen_Rider_Craft_4TH.item.geats.Item_rider_core_id;
 import Kamen_Rider_Craft_4TH.item.geats.item_desire_driver;
 import Kamen_Rider_Craft_4TH.item.revice.Item_Vistamps;
+import Kamen_Rider_Craft_4TH.item.revice.item_evil_blade;
+import Kamen_Rider_Craft_4TH.item.revice.item_live_gun;
 import Kamen_Rider_Craft_4TH.item.revice.item_revicedriver;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_armor;
@@ -463,8 +465,8 @@ public class ReiwaRiderItems {
 	public static Item mammoth_gasher = new ItemBaseSword("mammoth_gasher",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item kamakiric_arrow = new Item_gun("kamakiric_arrow",Tabs.den_dengu, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	
-	public static Item evil_blade = new ItemBaseSword("evil_blade",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
-	public static Item live_gun = new Item_gun("live_gun",Tabs.den_dengu, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	public static Item evil_blade = new item_evil_blade("evil_blade",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
+	public static Item live_gun = new item_live_gun("live_gun",Tabs.den_dengu, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	
 	public static Item lovekov_kujaku = new ItemBaseSword("lovekov_kujaku",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	public static Item lovekov_turtle = new Item_gun("lovekov_turtle",Tabs.den_dengu, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
@@ -479,6 +481,7 @@ public class ReiwaRiderItems {
 	public static Item buffalo_disks = new ItemBaseSword("buffalo_disks",Tabs.gashacon_breaker, proto_vistamp).setMaxStackSize(1).setCreativeTab(Tabs.tabrevice);
 	
 	public static Item vice_jackal_genome = new Item_ore("vice_jackal_genome");
+	public static Item two_sidriver = new Item_ore("two_sidriver");
 	public static Item demons_condor_wings = new Item_ore("demons_condor_wings");
 	public static Item demons_condor_wings_scorpion = new Item_ore("demons_condor_wings_scorpion");
 	public static Item demons_scorpion_wings = new Item_ore("demons_scorpion_wings");

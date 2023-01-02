@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "kamenridercraft4th:items/revice_driver_bat",
+		"0": "kamenridercraft4th:items/revice_driver_jackal",
 		"1": "kamenridercraft4th:items/evilblade_holder",
 		"2": "kamenridercraft4th:items/evilblade_holder2",
-		"particle": "kamenridercraft4th:items/revice_driver_bat"
+		"particle": "kamenridercraft4th:items/revice_driver_jackal"
 	},
 	"elements": [
 		{
@@ -768,21 +768,5 @@
 				}
 			]
 		}
-	],
-    "overrides": [
-       
-        {
-            "predicate": {
-                "pull": 1
-            },
-            "model": "kamenridercraft4th:item/evil_blade_jackal"
-        },
-		{
-            "predicate": {
-                "pull": 2
-            },
-            "model": "kamenridercraft4th:item/evil_blade_perfect"
-        }
-    ]
-}
+	]
 }

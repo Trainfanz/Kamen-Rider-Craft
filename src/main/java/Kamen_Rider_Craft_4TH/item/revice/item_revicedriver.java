@@ -67,7 +67,7 @@ public class item_revicedriver extends item_rider_driver
 	            @SideOnly(Side.CLIENT)
 	            public float apply(ItemStack stack, @Nullable World worldIn, @Nullable EntityLivingBase entityIn)
 	            {
-	      		  if (stack.getItem()== ReiwaRiderItems.revice_driver||stack.getItem()== ReiwaRiderItems.libera_driver){
+	      		  if (stack.getItem()== ReiwaRiderItems.revice_driver||stack.getItem()== ReiwaRiderItems.libera_driver||stack.getItem()== ReiwaRiderItems.two_sidriver_evil||stack.getItem()== ReiwaRiderItems.two_sidriver_live){
 	            	
 	            	if (!stack.hasTagCompound())
 	        		{
@@ -88,7 +88,7 @@ public class item_revicedriver extends item_rider_driver
             @SideOnly(Side.CLIENT)
             public float apply(ItemStack stack, @Nullable World worldIn, @Nullable EntityLivingBase entityIn)
             {
-      		  if (stack.getItem()== ReiwaRiderItems.revice_driver||stack.getItem()== ReiwaRiderItems.vice_belt){
+      		  if (stack.getItem()== ReiwaRiderItems.revice_driver||stack.getItem()== ReiwaRiderItems.vice_belt||stack.getItem()== ReiwaRiderItems.two_sidriver_live){
             	
             	if (!stack.hasTagCompound())
         		{
@@ -129,8 +129,40 @@ public class item_revicedriver extends item_rider_driver
 				model_belt_plus armorModel = new model_belt_plus();
 
 				
+				if(living.getHeldItemMainhand()!=null)
+				{
+					if(living.getHeldItemMainhand().getItem()==ReiwaRiderItems.evil_blade)
+					{
+						if(this==ReiwaRiderItems.two_sidriver_evil)
+						{
+							armorModel.belt=new ItemStack(ReiwaRiderItems.two_sidriver);
+						}
+						else if(this==ReiwaRiderItems.two_sidriver_live&&item_revicedriver.get_core(stack, "1")==6)
+						{
+							armorModel.belt=new ItemStack(ReiwaRiderItems.two_sidriver);
+						}
+						else
+						{
+							armorModel.belt=stack;
+						}
+					}
+					else if(living.getHeldItemMainhand().getItem()==ReiwaRiderItems.live_gun)
+					{
+						if(this==ReiwaRiderItems.two_sidriver_live)
+						{
+							armorModel.belt=new ItemStack(ReiwaRiderItems.two_sidriver);
+						}
+						else
+						{
+							armorModel.belt=stack;
+						}
+					}
+					else
+					{
+						armorModel.belt=stack;
+					}
+				}
 				
-				armorModel.belt=stack;
 				String form = Item_Vistamps.ARMS[DRIVER];
 
 				if (item_revicedriver.get_lockbase(stack)!="base") {
