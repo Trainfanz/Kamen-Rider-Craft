@@ -271,6 +271,7 @@ itemGroup.tabzo=Kamen Rider ZO
 itemGroup.tabj=Kamen Rider J
 itemGroup.tabG=Kamen Rider G
 itemGroup.tabGoRider=Kamen Sentai Gorider
+itemGroup.tabblack_sun=Kamen Rider Black Sun
 
 tile.stone_kuuga.name=Kuuga Ore
 tile.stone_agito.name=Agito Ore
@@ -365,6 +366,8 @@ tile.gamecreator.name=Game Creator
 
 tile.hiden_3d_printing.name=HIDEN 3D Printer
 tile.zaia_3d_printing.name=ZAIA 3D Printer
+
+tile.kaijin_stone_generator.name=Kaijin Stone Generator
 
 tile.sword_of_logos_book_analyzer.name=Sword of Logos Book Analyzer
 
@@ -3384,9 +3387,27 @@ item.sigma_amazon_cell_vial.name=Sigma Amazon Cell Sample
 item.neo_amazon_cell_vial.name=Neo Amazon Cell Sample
 
 item.empty_vial.name=Empty Vial
-
 item.gaga_armlet.name=Gaga Armlet
 item.gigi_armlet.name=Gigi Armlet
+
+item.black_sun_head.name=Black Sun Helmet
+item.black_sun_troso.name=Black Sun Chestplate
+item.black_sun_legs.name=Black Sun Leggings
+
+
+item.century_king_black_blade.name=Century King Black Blade
+item.century_king_shadow_blade.name=Century King Shadow Blade
+item.satansabre.name=Satansaber
+
+item.king_stone_sun.name=Kingstone Sun
+item.king_stone_moon.name=Kingstone Moon
+item.century_king_sun_driver.name=Century King Sun Driver
+item.century_king_moon_driver.name=Century King Moon Driver
+item.kaijin_stone.name=Kaijin Stone
+item.creation_king_extract_vial.name=Creation King extract
+item.heat_heaven.name=Heat Heaven
+
+
 
 item.magnum_shooter_40x.name=Magnum Shooter 40X
 item.magnum_shooter_40x_rifle.name=Magnum Shooter 40X(Rifle)
@@ -3418,6 +3439,16 @@ item.desire_driver_ginpen.name=Desire Driver(Ginpen)
 item.desire_driver_punk_jack.name=Desire Driver(Punkjack)
 item.desire_driver_reta.name=Desire Driver(Letter)
 item.desire_driver_keirou.name=Desire Driver(Keilow)
+item.desire_driver_nudge_sparrow.name=Desire Driver(Nadge-Sparrow)
+item.desire_driver_lopo.name=Desire Driver(Lopo)
+item.desire_driver_seeker.name=Desire Driver(Seeker)
+item.desire_driver_revi.name=Desire Driver(Revi)
+item.desire_driver_vice.name=Desire Driver(Vice)
+
+
+item.desire_driver_jyamato.name=Desire Driver(Jyamato)
+item.desire_driver_gm.name=Desire Driver(GM)
+item.vision_driver.name=Vision Driver
 
 item.magnum_raise_buckle.name=Magnum Buckle
 item.boost_raise_buckle.name=Boost Buckle
@@ -3462,8 +3493,12 @@ item.mary_rider_core_id.name=Kamen Rider Mary Core ID
 item.ginpen_rider_core_id.name=Kamen Rider Ginpen Core ID
 item.punk_jack_rider_core_id.name=Kamen Rider Punkjack Core ID   
 item.reta_rider_core_id.name=Kamen Rider Letter Core ID
-item.keirou_rider_core_id.name=Kamen Rider Keilow Core ID   
-   
+item.nudge_sparrow_rider_core_id.name=Kamen Rider Nadge-Sparrow Core ID   
+item.lopo_rider_core_id.name=Kamen Rider Lopo Core ID   
+item.seeker_rider_core_id.name=Kamen Rider Seeker Core ID   
+item.revi_rider_core_id.name=Kamen Rider Revi Core ID   
+item.vice_rider_core_id.name=Kamen Rider Vice Core ID   
+  
 item.bikkuri_mission_box.name=Bikkuri Mission Box
 item.hatena_mission_box.name=Hatena Mission Box
 

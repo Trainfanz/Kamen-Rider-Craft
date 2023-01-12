@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "century_king_driver",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:kaijin_stone"
+    }, "C": {
+      "item": "kamenridercraft4th:king_stone_moon"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:century_king_moon_driver"
+  }
+}

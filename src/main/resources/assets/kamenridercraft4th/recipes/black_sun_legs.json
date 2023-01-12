@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kr_black_sun",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:kaijin_stone"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:black_sun_legs"
+  }
+}

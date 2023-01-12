@@ -2,6 +2,7 @@ package Kamen_Rider_Craft_4TH;
 
 import Kamen_Rider_Craft_4TH.blocks.amazon_cell_extractor;
 import Kamen_Rider_Craft_4TH.blocks.amazon_cell_mutator;
+import Kamen_Rider_Craft_4TH.blocks.kaijin_stone_generator_block;
 import Kamen_Rider_Craft_4TH.item.ItemBaseShield;
 import Kamen_Rider_Craft_4TH.item.ItemBaseSword;
 import Kamen_Rider_Craft_4TH.item.Item_gun;
@@ -346,7 +347,7 @@ public class ShowaRiderItems {
 	public static Item amazon_injector_new_omega = new Item_ore("amazon_injector_new_omega").setCreativeTab(Tabs.tabamazons);
 	public static Item amazon_injector_neo_alpha = new Item_ore("amazon_injector_neo_alpha").setCreativeTab(Tabs.tabamazons);
 	
-	public static Item empty_vial = new Item_ore("empty_vial").setCreativeTab(Tabs.tabamazons);
+	public static Item empty_vial = new Item_ore("empty_vial").setCreativeTab(Tabs.tabmisc);
 	public static Item amazon_cell_vial = new Item_ore("amazon_cell_vial").keep_item(empty_vial).setCreativeTab(Tabs.tabamazons);
 	
 	public static Item omega_amazon_cell_vial = new Item_ore("omega_amazon_cell_vial").keep_item(empty_vial).setCreativeTab(Tabs.tabamazons);
@@ -356,6 +357,13 @@ public class ShowaRiderItems {
 	
 	
 	//Black Sun
+
+	public static Block kaijin_stone_generator = new kaijin_stone_generator_block("kaijin_stone_generator",Material.ROCK, 2).setCreativeTab(Tabs.tabblack_sun);
+	
+	public static Item century_king_black_blade = new ItemBaseSword("century_king_black_blade",ToolMaterial.DIAMOND, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_sun);
+	public static Item century_king_shadow_blade = new ItemBaseSword("century_king_shadow_blade",ToolMaterial.DIAMOND, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_sun);
+	public static Item satansabre = new ItemBaseSword("satansabre",ToolMaterial.DIAMOND, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_sun);
+
 	
 	public static Item  glowing_king_stone_sun = new Item_form_change("glowing_king_stone_sun",item_rider_driver.class,blanknoitem,"_revived","black_sun"
 			,new PotionEffect(MobEffects.STRENGTH, 20, 2,true,false),new PotionEffect(MobEffects.HASTE,20, 1,true,false)
@@ -367,8 +375,12 @@ public class ShowaRiderItems {
 			,new PotionEffect(MobEffects.JUMP_BOOST,20, 3,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
 			).setCreativeTab(Tabs.tabblack_sun);
 
+	public static Item  glowing_king_stone_moon = new Item_form_change("glowing_king_stone_moon",item_rider_driver.class,blanknoitem,"_revived","shadowmoon"
+			,new PotionEffect(MobEffects.STRENGTH, 20, 2,true,false),new PotionEffect(MobEffects.HASTE,20, 1,true,false)
+			,new PotionEffect(MobEffects.JUMP_BOOST,20, 3,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
+			);
 	
-	public static Item  king_stone_moon = new Item_form_change("king_stone_moon",item_rider_driver.class,blanknoitem,"","black_sun"
+	public static Item  king_stone_moon = new Item_zecter(glowing_king_stone_moon,"king_stone_moon",item_rider_driver.class,blanknoitem,"","shadowmoon"
 			,new PotionEffect(MobEffects.STRENGTH, 20, 2,true,false),new PotionEffect(MobEffects.HASTE,20, 1,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST,20, 3,true,false),new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false)
 			).setCreativeTab(Tabs.tabblack_sun);
@@ -382,6 +394,12 @@ public class ShowaRiderItems {
 
 	public static Item century_king_moon_driver = new item_rider_driver("century_king_moon_driver",ArmorMaterial.DIAMOND, 4,"shadowmoon", (Item_form_change) king_stone_moon, black_sun_head, black_sun_troso, black_sun_legs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabblack_sun);
 
+	
+	public static Item kaijin_stone = new Item_ore("kaijin_stone").setCreativeTab(Tabs.tabblack_sun);
+	public static Item creation_king_extract_vial = new Item_ore("creation_king_extract_vial").keep_item(empty_vial).setCreativeTab(Tabs.tabblack_sun);
+	
+	public static Item heat_heaven = new riderfood(4, true,"heat_heaven").setCreativeTab(Tabs.tabblack_sun);
+	
 	
 	//G
 	public static Item goro_wine_bottle = new Item_form_change("goro_wine_bottle",item_rider_driver.class,ShowaRiderItems.blanknoitem,"",""
