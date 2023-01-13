@@ -36,7 +36,8 @@ public class Item_mission_box extends Item implements IHasModel
 
 	public static final List<Item> core_id = new ArrayList<Item>();
 	public static final List<Item> raise_buckle = new ArrayList<Item>();
-
+	public static final List<Item> gigant_buckle = new ArrayList<Item>();
+	
 
 	@Override
 	public void registerModels() {
@@ -66,6 +67,18 @@ public class Item_mission_box extends Item implements IHasModel
 			return raise_buckle2.get(rand);
 
 	}
+	
+public Item gigant_buckle(){
+		
+		List<Item> gigant_buckle2 = new ArrayList<Item>();
+		gigant_buckle2.clear();
+		gigant_buckle2.addAll(gigant_buckle);
+		
+		Random generator = new Random();
+			int rand = generator.nextInt(gigant_buckle2.size());
+			return gigant_buckle2.get(rand);
+
+	}
 
 	/**
 	 * Called when the equipped item is right clicked.
@@ -77,6 +90,8 @@ public class Item_mission_box extends Item implements IHasModel
 		{
 			if(this==ReiwaRiderItems.bikkuri_mission_box){
 				player.dropItem(core_id(), 1);
+			}else if(this==ReiwaRiderItems.gigant_mission_box){
+				player.dropItem(gigant_buckle(), 1);
 			}else{
 				player.dropItem(raise_buckle(), 1);
 			}

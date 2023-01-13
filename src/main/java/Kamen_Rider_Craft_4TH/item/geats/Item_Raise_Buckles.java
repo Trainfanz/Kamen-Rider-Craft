@@ -97,6 +97,15 @@ public class Item_Raise_Buckles extends Item implements IHasModel
 		return this;
 	}
 
+	public Item_Raise_Buckles AddToGigantMissionBox(int num)
+	{
+		for (int i1 = 0; i1 < num; ++i1)
+		{
+			Item_mission_box.gigant_buckle.add(this);
+		}
+		return this;
+	}
+	
 	public  Item_Raise_Buckles keep_item()
 	{
 		this.setContainerItem(this);
