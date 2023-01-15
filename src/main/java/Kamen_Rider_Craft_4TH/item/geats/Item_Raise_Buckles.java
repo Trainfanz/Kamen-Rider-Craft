@@ -136,6 +136,12 @@ public class Item_Raise_Buckles extends Item implements IHasModel
 						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",21);	
 					}
 					}
+				}if (this==ReiwaRiderItems.jyamato_buckle){
+					if(belt.Rider=="buffa"){
+						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",num2);	
+						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",num2);	
+						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",setBase);
+					}
 				}
 				
 				

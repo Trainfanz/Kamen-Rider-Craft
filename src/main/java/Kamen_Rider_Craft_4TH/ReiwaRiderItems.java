@@ -733,7 +733,7 @@ public class ReiwaRiderItems {
 	public static Item gigant_hammer_buckle = new Item_Raise_Buckles("gigant_hammer_buckle").AddToGigantMissionBox(1).setCreativeTab(Tabs.tabgeats);
 	public static Item gigant_blaster_buckle = new Item_Raise_Buckles("gigant_blaster_buckle").AddToGigantMissionBox(1).setCreativeTab(Tabs.tabgeats);
 	
-	public static Item jyamato_buckle = new Item_Raise_Buckles("jyamato_buckle").setCreativeTab(Tabs.tabgeats);
+	public static Item jyamato_buckle = new Item_Raise_Buckles(24,"jyamato_buckle").changeForm(3).setCreativeTab(Tabs.tabgeats);
 	
 	
 	public static Item christmas_buckle = new Item_Raise_Buckles("christmas_buckle").setCreativeTab(Tabs.tabgeats);
