@@ -3458,6 +3458,16 @@ item.ninja_raise_buckle.name=Ninja Buckle
 item.monster_raise_buckle.name=Monster Buckle
 item.beat_raise_buckle.name=Beat Buckle
   
+item.command_twin_buckle_jet.name=Command Jet Buckle
+item.command_twin_buckle_cannon.name=Command Cannon Buckle
+item.fever_slot_raise_buckle.name=Feverslot Buckle
+
+item.gigant_sword_buckle.name=Gigant Sword Buckle
+item.gigant_hammer_buckle.name=Gigant Hammer Buckle
+item.gigant_blaster_buckle.name=Gigant Blaster Buckle
+item.powered_builder_raise_buckle.name=Powered Builder Buckle
+item.gigant_container_buckle.name=Gigant Container Buckle
+  
 item.hammer_raise_buckle.name=Hammer Buckle
 item.water_raise_buckle.name=Water Buckle
 item.arrow_raise_buckle.name=Arrow Buckle
@@ -3466,6 +3476,11 @@ item.chain_array_raise_buckle.name=Chain Array Buckle
 item.claw_raise_buckle.name=Claw Buckle
 item.drill_raise_buckle.name=Drill Buckle
 item.propeller_raise_buckle.name=Propeller Buckle
+
+item.christmas_buckle.name=Christmas Buckle
+item.jyamato_buckle.name=Jyamato Buckle
+
+item.beat_raise_buckle_theme.name=Beat Buckle (Theme Song ver)
 
 
 item.golden_hammer_raise_buckle.name=Hammer Buckle (Gold Plating ver)
@@ -3477,9 +3492,34 @@ item.revice_driver_raise_buckle.name=Revice Driver Buckle
 item.two_si_driver_raise_buckle.name=Two Sidriver Buckle
 item.demons_driver_raise_buckle.name=Demons Driver Buckle
 item.libera_driver_raise_buckle.name=Libera Driver Buckle
-    
+          
+item.seiken_swordriver_raise_buckle.name=Seiken Swordriver Buckle
 item.zero_one_driver_raise_buckle.name=Zero-One Driver Buckle
+item.zikuu_driver_raise_buckle.name=Ziku-Driver Buckle
+item.build_driver_raise_buckle.name=Build Driver Buckle
+item.gamer_driver_raise_buckle.name=Gamer Driver Buckle
+item.ghost_driver_raise_buckle.name=Ghost Driver Buckle
+item.drive_driver_raise_buckle.name=Drive Driver Buckle
+item.sengoku_driver_raise_buckle.name=Sengoku Driver Buckle
+item.wizardriver_raise_buckle.name=Wizardriver Buckle
+item.fourze_driver_raise_buckle.name=Fourze Driver Buckle
+item.ooo_driver_raise_buckle.name=OOO Driver Buckle 
 item.double_driver_raise_buckle.name=Doubledriver Buckle
+item.deca_driver_raise_buckle.name=Decadriver Buckle
+item.kivat_belt_raise_buckle.name=Kivat Belt Buckle
+item.den_o_belt_raise_buckle.name=Den-O Belt Buckle
+item.kabuto_zector_raise_buckle.name=Kabuto Zecter Buckle
+item.ongekiko_kaentsuzumi_raise_buckle.name=Ongekiko Kaentsuzumi Buckle
+item.blay_buckle_raise_buckle.name=Blay Buckle Buckle
+item.faiz_driver_raise_buckle.name=Faiz Driver Buckle
+item.v_buckle_raise_buckle.name=V Buckle Buckle
+item.alter_ring_raise_buckle.name=Altering Buckle
+item.arcle_raise_buckle.name=Arcle Buckle
+item.king_stone_raise_buckle.name=Kingstone Buckle
+item.double_typhoon_raise_buckle.name=Double Typhoon Buckle
+item.typhoon_raise_buckle.name=Typhoon Buckle
+    
+    
     
 item.blank_rider_core_id.name=Blank Rider Core ID
 
@@ -3500,6 +3540,9 @@ item.seeker_rider_core_id.name=Kamen Rider Seeker Core ID
 item.revi_rider_core_id.name=Kamen Rider Revi Core ID   
 item.vice_rider_core_id.name=Kamen Rider Vice Core ID   
   
+item.discore_id.name=DisCore ID
+item.providence_card.name=Providence Card
+
 item.bikkuri_mission_box.name=Bikkuri Mission Box
 item.hatena_mission_box.name=Hatena Mission Box
 

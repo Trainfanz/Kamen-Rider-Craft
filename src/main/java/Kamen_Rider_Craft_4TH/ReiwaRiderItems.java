@@ -763,17 +763,17 @@ public class ReiwaRiderItems {
 	public static Item ooo_driver_raise_buckle = new Item_Raise_Buckles("ooo_driver_raise_buckle").setCreativeTab(Tabs.tabgeats);
 	public static Item double_driver_raise_buckle = new Item_Raise_Buckles("double_driver_raise_buckle").setCreativeTab(Tabs.tabgeats);
 	public static Item deca_driver_raise_buckle = new Item_Raise_Buckles("deca_driver_raise_buckle").setCreativeTab(Tabs.tabgeats);
-	public static Item kivat_belt_raise_buckle = new Item_Raise_Buckles("kivat_belt_driver_raise_buckle").setCreativeTab(Tabs.tabgeats);
+	public static Item kivat_belt_raise_buckle = new Item_Raise_Buckles("kivat_belt_raise_buckle").setCreativeTab(Tabs.tabgeats);
 	public static Item den_o_belt_raise_buckle = new Item_Raise_Buckles("den_o_belt_raise_buckle").setCreativeTab(Tabs.tabgeats);
 	public static Item kabuto_zector_raise_buckle = new Item_Raise_Buckles("kabuto_zector_raise_buckle").setCreativeTab(Tabs.tabgeats);
 	public static Item ongekiko_kaentsuzumi_raise_buckle = new Item_Raise_Buckles("ongekiko_kaentsuzumi_raise_buckle").setCreativeTab(Tabs.tabgeats);
 	public static Item blay_buckle_raise_buckle = new Item_Raise_Buckles("blay_buckle_raise_buckle").setCreativeTab(Tabs.tabgeats);
 	public static Item faiz_driver_raise_buckle = new Item_Raise_Buckles("faiz_driver_raise_buckle").setCreativeTab(Tabs.tabgeats);
 	public static Item v_buckle_raise_buckle = new Item_Raise_Buckles("v_buckle_raise_buckle").setCreativeTab(Tabs.tabgeats);
-	public static Item altering_raise_buckle = new Item_Raise_Buckles("altering_raise_buckle").setCreativeTab(Tabs.tabgeats);
+	public static Item alter_ring_raise_buckle = new Item_Raise_Buckles("alter_ring_raise_buckle").setCreativeTab(Tabs.tabgeats);
 	public static Item arcle_raise_buckle = new Item_Raise_Buckles("arcle_raise_buckle").setCreativeTab(Tabs.tabgeats);
-	public static Item kingstone_raise_buckle = new Item_Raise_Buckles("kingstone_raise_buckle").setCreativeTab(Tabs.tabgeats);
-	public static Item double_typhoon_raise_buckle = new Item_Raise_Buckles("double_typhoon_buckle").setCreativeTab(Tabs.tabgeats);
+	public static Item king_stone_raise_buckle = new Item_Raise_Buckles("king_stone_raise_buckle").setCreativeTab(Tabs.tabgeats);
+	public static Item double_typhoon_raise_buckle = new Item_Raise_Buckles("double_typhoon_raise_buckle").setCreativeTab(Tabs.tabgeats);
 	public static Item typhoon_raise_buckle = new Item_Raise_Buckles("typhoon_raise_buckle").setCreativeTab(Tabs.tabgeats);
 	
 	
@@ -787,16 +787,17 @@ public class ReiwaRiderItems {
 	public static Item ginpen_rider_core_id = new Item_rider_core_id("ginpen_rider_core_id","ginpen").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
 	public static Item punk_jack_rider_core_id = new Item_rider_core_id("punk_jack_rider_core_id","punk_jack").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
 	public static Item reta_rider_core_id = new Item_rider_core_id("reta_rider_core_id","reta").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
-	public static Item keirou_rider_core_id = new Item_rider_core_id("keirou_rider_core_id","keirou").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
-	public static Item nudge_sparrow_rider_core_id = new Item_rider_core_id("nudge_sparrow_rider_core_id","nudge_sparrow").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
-	public static Item lopo_rider_core_id = new Item_rider_core_id("lopo_rider_core_id","lopo").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
-	public static Item seeker_rider_core_id = new Item_rider_core_id("seeker_rider_core_id","seeker").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
+	public static Item keirou_rider_core_id = new Item_rider_core_id("keirou_rider_core_id","keirou").AddToMissionBox(2).setCreativeTab(Tabs.tabgeats);
+	public static Item nudge_sparrow_rider_core_id = new Item_rider_core_id("nudge_sparrow_rider_core_id","nudge_sparrow").AddToMissionBox(3).setCreativeTab(Tabs.tabgeats);
+	public static Item lopo_rider_core_id = new Item_rider_core_id("lopo_rider_core_id","lopo").AddToMissionBox(3).setCreativeTab(Tabs.tabgeats);
+	public static Item seeker_rider_core_id = new Item_rider_core_id("seeker_rider_core_id","seeker").AddToMissionBox(3).setCreativeTab(Tabs.tabgeats);
 	
 	public static Item revi_rider_core_id = new Item_rider_core_id("revi_rider_core_id","revi").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
 	public static Item vice_rider_core_id = new Item_rider_core_id("vice_rider_core_id","vice").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
 	
+	public static Item discore_id = new Item_ore("discore_id").setCreativeTab(Tabs.tabgeats);
 	public static Item providence_card = new Item_ore("providence_card").setCreativeTab(Tabs.tabgeats);
-	
+
 	public static Item bikkuri_mission_box = new Item_mission_box("bikkuri_mission_box").setCreativeTab(Tabs.tabgeats);
 	public static Item hatena_mission_box = new Item_mission_box("hatena_mission_box").setCreativeTab(Tabs.tabgeats);
 	
