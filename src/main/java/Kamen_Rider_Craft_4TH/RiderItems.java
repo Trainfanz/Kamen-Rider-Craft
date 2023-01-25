@@ -475,7 +475,7 @@ public class RiderItems {
 	public static Item v_buckle_knight_survive = new Item_ore("v_buckle_knight_survive");
 	public static Item v_buckle_raia_survive = new Item_ore("v_buckle_raia_survive");
 	public static Item v_buckle_ryuga_survive = new Item_ore("v_buckle_ryuga_survive");
-
+	public static Item v_buckle_ouja_survive = new Item_ore("v_buckle_ouja_survive");
 	
 	public static Item dragreder_advent = new Item_form_change("dragreder_advent",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","ryuki"
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
@@ -561,7 +561,10 @@ public class RiderItems {
 			new PotionEffect(MobEffects.HASTE, 5, 0,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false),
 			new PotionEffect(MobEffects.SPEED, 5, 1,true,false)).addAlternative((Item_form_change) survive_raia_advent).addAlternative((Item_form_change) survive_ouja_advent).setCreativeTab(Tabs.tabryuki);
 	
-	public static Item survive_mugen_advent = new Item_ore("survive_mugen_advent").setCreativeTab(Tabs.tabryuki);
+	public static Item survive_mugen_advent = new Item_form_change("survive_mugen_advent",item_rider_driver.class,v_buckle_ouja_survive,"_survive_mugen","ouja"
+			,new PotionEffect(MobEffects.STRENGTH, 5, 5,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false),
+			new PotionEffect(MobEffects.HASTE, 5, 0,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false),
+			new PotionEffect(MobEffects.SPEED, 5, 1,true,false)).setCreativeTab(Tabs.tabryuki);
 	
 	public static Item survive_advent = new Item_form_change("survive_advent",item_rider_driver.class,v_buckle_ryuki_survive,"_survive","ryuki"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)

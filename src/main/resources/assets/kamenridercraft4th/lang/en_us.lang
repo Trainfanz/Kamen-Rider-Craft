@@ -3545,7 +3545,7 @@ item.providence_card.name=Providence Card
 
 item.bikkuri_mission_box.name=Bikkuri Mission Box
 item.hatena_mission_box.name=Hatena Mission Box
-
+item.gigant_mission_box.name=Support Mission Box Type Geats
 
 itemGroup.tab_kikaider=Android Kikaider
 item.kikaider_circuit.name=Kikaider Circuit
