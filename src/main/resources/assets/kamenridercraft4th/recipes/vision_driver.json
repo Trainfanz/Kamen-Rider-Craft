@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "desire_driver",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:blank_rider_core_id"
+    }, "C": {
+      "item": "kamenridercraft4th:providence_card"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:vision_driver"
+  }
+}

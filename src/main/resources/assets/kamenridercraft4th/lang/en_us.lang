@@ -3416,6 +3416,14 @@ item.zombie_breaker.name=Zombie Breaker
 
 item.beat_axe.name=Beat Axe
 
+item.ninja_dueler.name=Ninja Dueler
+
+item.raising_sword.name=Raising Sword
+
+item.gigant_sword.name=Gigant Sword
+item.gigant_hammer=Gigant Hammer
+item.gigant_blaster.name=Gigant Blaster
+
 item.raise_hammer.name=Raise Hammer
 item.raise_arrow.name=Raise Arrow
 item.raise_water.name=Raise Water

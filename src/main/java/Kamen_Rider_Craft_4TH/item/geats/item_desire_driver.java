@@ -180,7 +180,22 @@ public class item_desire_driver extends item_rider_driver
 
 									String formL = get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "l");
 									String formR = get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "r");
-
+									String formF = FormName[get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f")];
+									
+									boolean fever = is_fever(player.getItemStackFromSlot(EntityEquipmentSlot.FEET));
+									
+									if (formF=="_raising"){
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5,1,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.SLASH_POTION, 5, 3,true,false));
+									}
+									
+									if (fever){	
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5,1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5,1,true,false));
+									}
+									
 									if ( Rider == "geats"){	
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5,0,true,false));
 									}else if ( Rider == "tycoon"){	
@@ -276,6 +291,52 @@ public class item_desire_driver extends item_rider_driver
 									if ( formL=="beat"||formR=="beat"){	
 										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+									}
+									if ( formL=="jet"||formR=="jet"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,3,true,false));
+										if ( formL=="jet"){
+											player.addPotionEffect(new PotionEffect(PotionCore.FLY_POTION, 5,0,true,false));
+										}
+										if ( formL=="cannon"){
+											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,2,true,false));
+										}
+									}
+									
+									if ( formL=="gigant_container"||formR=="gigant_container"){	
+										player.addPotionEffect(new PotionEffect(PotionCore.SLASH_POTION, 5, 3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false));
+									}
+									if ( formL=="poweredbuilder"||formR=="poweredbuilder"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false));
+									}
+									if ( formL=="jyamato"||formR=="jyamato"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.WITHER, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
+									}
+									if ( formL=="ichigo"||formR=="ichigo"){	
+									}
+									if ( formL==""||formR==""){	
+									}
+									if ( formL==""||formR==""){	
+									}
+									if ( formL==""||formR==""){	
+									}
+									if ( formL==""||formR==""){	
+									}
+									if ( formL==""||formR==""){	
+									}
+									if ( formL==""||formR==""){	
+									}
+									if ( formL==""||formR==""){	
+									}
+									if ( formL==""||formR==""){	
 									}
 
 								}

@@ -652,9 +652,10 @@ public class ReiwaRiderItems {
 	public static Item magnum_shooter_40x_rifle = new Item_gun("magnum_shooter_40x_rifle",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
 	public static Item zombie_breaker = new ItemBaseSword("zombie_breaker",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
-	
 	public static Item beat_axe = new ItemBaseSword("beat_axe",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item ninja_dueler = new ItemBaseSword("ninja_dueler",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	
+	public static Item raising_sword = new ItemBaseSword("raising_sword",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
 	public static Item gigant_blaster = new Item_gun("gigant_blaster",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item gigant_sword = new ItemBaseSword("gigant_sword",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
@@ -705,21 +706,18 @@ public class ReiwaRiderItems {
 	public static Item command_twin_buckle_jet = new Item_Raise_Buckles(0,"command_twin_buckle_jet").changeForm(2).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item command_twin_buckle_cannon = new Item_Raise_Buckles(21,"command_twin_buckle_cannon").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
-	
 	public static Item zombie_raise_buckle = new Item_Raise_Buckles(8,"zombie_raise_buckle").AddToMissionBox(4).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
-	
 	public static Item ninja_raise_buckle = new Item_Raise_Buckles(15,"ninja_raise_buckle").AddToMissionBox(4).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
-	
 	public static Item monster_raise_buckle = new Item_Raise_Buckles(18,"monster_raise_buckle").AddToMissionBox(3).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
-	
 	public static Item beat_raise_buckle = new Item_Raise_Buckles(19,"beat_raise_buckle").AddToMissionBox(3).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
-	
-	public static Item fever_slot_raise_buckle = new Item_Feverslot("fever_slot_raise_buckle").setCreativeTab(Tabs.tabgeats);
+	public static Item fever_slot_raise_buckle = new Item_Feverslot("fever_slot_raise_buckle").setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
 	public static Item powered_builder_raise_buckle = new Item_Raise_Buckles(23,"powered_builder_raise_buckle").AddToGigantMissionBox(1).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item gigant_container_buckle = new Item_Raise_Buckles(22,"gigant_container_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
-	
-	
+	public static Item gigant_sword_buckle = new Item_Raise_Buckles("gigant_sword_buckle").AddToGigantMissionBox(1).setCreativeTab(Tabs.tabgeats);
+	public static Item gigant_hammer_buckle = new Item_Raise_Buckles("gigant_hammer_buckle").AddToGigantMissionBox(1).setCreativeTab(Tabs.tabgeats);
+	public static Item gigant_blaster_buckle = new Item_Raise_Buckles("gigant_blaster_buckle").AddToGigantMissionBox(1).setCreativeTab(Tabs.tabgeats);
+
 	public static Item hammer_raise_buckle = new Item_Raise_Buckles(3,"hammer_raise_buckle").AddToMissionBox(10).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item water_raise_buckle = new Item_Raise_Buckles(4,"water_raise_buckle").AddToMissionBox(10).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item arrow_raise_buckle = new Item_Raise_Buckles(5,"arrow_raise_buckle").AddToMissionBox(10).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
@@ -729,14 +727,10 @@ public class ReiwaRiderItems {
 	public static Item propeller_raise_buckle = new Item_Raise_Buckles(16,"propeller_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item drill_raise_buckle = new Item_Raise_Buckles(17,"drill_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
-	public static Item gigant_sword_buckle = new Item_Raise_Buckles("gigant_sword_buckle").AddToGigantMissionBox(1).setCreativeTab(Tabs.tabgeats);
-	public static Item gigant_hammer_buckle = new Item_Raise_Buckles("gigant_hammer_buckle").AddToGigantMissionBox(1).setCreativeTab(Tabs.tabgeats);
-	public static Item gigant_blaster_buckle = new Item_Raise_Buckles("gigant_blaster_buckle").AddToGigantMissionBox(1).setCreativeTab(Tabs.tabgeats);
-	
+		
 	public static Item jyamato_buckle = new Item_Raise_Buckles(24,"jyamato_buckle").changeForm(3).setCreativeTab(Tabs.tabgeats);
 	
-	
-	public static Item christmas_buckle = new Item_Raise_Buckles("christmas_buckle").setCreativeTab(Tabs.tabgeats);
+	public static Item christmas_buckle = new Item_Raise_Buckles("christmas_buckle").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
 	
 	public static Item golden_hammer_raise_buckle = new Item_Raise_Buckles("golden_hammer_raise_buckle").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);	
 	public static Item silver_arrow_raise_buckle = new Item_Raise_Buckles("silver_arrow_raise_buckle").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
