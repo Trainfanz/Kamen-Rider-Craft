@@ -35,7 +35,9 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityByakkoInves;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityElementaryInvesBlue;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityElementaryInvesGreen;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityElementaryInvesRed;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityGMRider;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityHekijaInves;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityJyamatoRider;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityKurokageTroopers;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMageCaptain;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityMageFootSoldiers;
@@ -369,7 +371,8 @@ public class ClientProxyRider extends CommonProxyRider
 		RenderingRegistry.registerEntityRenderingHandler(Entity_daiouika_deadman.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/daiouika_deadman.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_pawn_jyamato.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/pawn_jyamato.png"));
-		
+		RenderingRegistry.registerEntityRenderingHandler(EntityJyamatoRider.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/pawn_jyamato.png"));
+		RenderingRegistry.registerEntityRenderingHandler(EntityGMRider.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/pawn_jyamato.png"));
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityAcrobatter.class, new RenderRiderMob2(new Model_machine_builder(), 0.5F,"textures/entities/acrobatter.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_ridoron.class, new RenderRiderMob2(new model_ridoron(), 0.5F,"textures/entities/ridoron.png"));

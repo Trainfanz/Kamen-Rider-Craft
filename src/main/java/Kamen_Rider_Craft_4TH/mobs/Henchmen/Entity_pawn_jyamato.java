@@ -17,6 +17,7 @@ import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_legeiel;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_storious;
 import Kamen_Rider_Craft_4TH.mobs.Boss.Entity_zooous;
 import Kamen_Rider_Craft_4TH.mobs.Boss.entity_desast;
+import Kamen_Rider_Craft_4TH.mobs.Boss.entity_salty_bugster;
 import net.minecraft.block.Block;
 
 import net.minecraft.entity.Entity;
@@ -70,8 +71,20 @@ public class Entity_pawn_jyamato extends Entity_base_henchmen
 			
 			this.dropItem(ReiwaRiderItems.blank_rider_core_id, 1);
 				this.dropItem(ReiwaRiderItems.hatena_mission_box, 1);
-			
-			
+				
+				if (this.getAttackTarget()instanceof EntityPlayer){
+					EntityPlayer playerIn=	(EntityPlayer) this.getAttackTarget();
+					 EntityJyamatoRider entityboss  = new EntityJyamatoRider(world);
+				switch (this.rand.nextInt(10))
+				{
+				case 0:
+
+			 		playerIn.sendMessage( new TextComponentString(TextFormatting.DARK_GREEN+"Jyamato!"));
+					entityboss.setLocationAndAngles(this.posX, this.posY, this.posZ, 0, 0.0F);
+					world.spawnEntity(entityboss);
+					break;
+				}
+				}
 		}
 	}	
 }

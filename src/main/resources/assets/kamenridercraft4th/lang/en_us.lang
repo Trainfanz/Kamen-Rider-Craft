@@ -214,8 +214,9 @@ entity.MageFootSoldiersMob.name=Kamen Rider Mage (Foot Soldier)
 entity.MageCaptainMob.name=Kamen Rider Mage (Captain)
 entity.SorcererMob.name=Kamen Rider Sorcerer
 
-
 entity.PawnJyamatoMob.name=Pawn Jyamato
+entity.JyamatoRiderMob.name=Jyamato Rider
+entity.GMRiderMob.name=GM Rider
 
 effect.fly=Flying
 effect.fire_punch=Fire Punch
@@ -3243,6 +3244,7 @@ item.barid_rex_vistamp.name=Barid Rex Vistamp
 item.volcano_vistamp.name=Volcano Vistamp
 item.rolling_vistamp.name=Rolling Vistamp
 item.thunder_gale_vistamp.name=Thunder Gale Vistamp
+item.gold_spino_vistamp.name=Gold Spino Vistamp 
 
 item.crow_vistamp.name=Crow Vistamp
 item.holy_wing_vistamp.name=Holy Wing Vistamp
@@ -3421,7 +3423,7 @@ item.ninja_dueler.name=Ninja Dueler
 item.raising_sword.name=Raising Sword
 
 item.gigant_sword.name=Gigant Sword
-item.gigant_hammer=Gigant Hammer
+item.gigant_hammer.name=Gigant Hammer
 item.gigant_blaster.name=Gigant Blaster
 
 item.raise_hammer.name=Raise Hammer

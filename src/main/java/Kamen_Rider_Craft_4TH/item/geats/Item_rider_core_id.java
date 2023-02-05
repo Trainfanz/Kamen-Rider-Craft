@@ -84,6 +84,7 @@ public class Item_rider_core_id extends Item implements IHasModel
 				if (belt.Rider==Name){
 					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",0);	
 					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",0);		
+					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",0);		
 				}
 			}
 		}
