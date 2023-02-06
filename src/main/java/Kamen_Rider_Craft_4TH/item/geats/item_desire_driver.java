@@ -45,7 +45,7 @@ public class item_desire_driver extends item_rider_driver
 
 	public static final String[] CoreName= new String[] {"entry","magnum","boost","hammer","water","arrow","shield","revice","zombie","demons","chain_array","claw","zero_one"
 			,"live","jeanne","ninja","propeller","drill","monster","beat","jet","cannon","gigant_container","poweredbuilder","jyamato","ichigo","v3","black","kuuga","agito"
-			,"ryuki","faiz","blade","","","","","","","","","","","","","","","","",""};
+			,"ryuki","faiz","blade","hibiki","kabuto","den_o","","","","","","","","","","","","","",""};
 
 	public static final String[] FormName= new String[] {"","","_raising","_jyamato","","","","","","","","","",""};
 
