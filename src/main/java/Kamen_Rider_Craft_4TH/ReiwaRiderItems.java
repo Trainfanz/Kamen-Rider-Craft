@@ -786,8 +786,8 @@ public class ReiwaRiderItems {
 	public static Item lopo_rider_core_id = new Item_rider_core_id("lopo_rider_core_id","lopo").AddToMissionBox(3).setCreativeTab(Tabs.tabgeats);
 	public static Item seeker_rider_core_id = new Item_rider_core_id("seeker_rider_core_id","seeker").AddToMissionBox(3).setCreativeTab(Tabs.tabgeats);
 	
-	public static Item revi_rider_core_id = new Item_rider_core_id("revi_rider_core_id","revi").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
-	public static Item vice_rider_core_id = new Item_rider_core_id("vice_rider_core_id","vice").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
+	public static Item revi_rider_core_id = new Item_rider_core_id("revi_rider_core_id","geats_revi").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
+	public static Item vice_rider_core_id = new Item_rider_core_id("vice_rider_core_id","geats_vice").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
 	
 	public static Item discore_id = new Item_ore("discore_id").setCreativeTab(Tabs.tabgeats);
 	public static Item providence_card = new Item_ore("providence_card").setCreativeTab(Tabs.tabgeats);
