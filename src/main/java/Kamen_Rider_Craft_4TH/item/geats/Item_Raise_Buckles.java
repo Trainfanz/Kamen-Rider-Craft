@@ -142,6 +142,12 @@ public class Item_Raise_Buckles extends Item implements IHasModel
 						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",num2);	
 						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",setBase);
 					}
+				}	else if (this==ReiwaRiderItems.command_twin_buckle_jet){
+					if(belt.Rider=="geats"||belt.Rider=="tycoon") {
+						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",num2);
+						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",setBase);
+					}
+				
 				}
 
 
@@ -155,10 +161,10 @@ public class Item_Raise_Buckles extends Item implements IHasModel
 
 					if(handIn == EnumHand.MAIN_HAND&CanUseL){
 						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",num2);	
-						if (f!=3){
-							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",setBase);
+						if (f==1){
+							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",0);
 						}
-					
+
 					}else if(handIn == EnumHand.OFF_HAND&CanUseR){
 						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",num2);	
 					}
