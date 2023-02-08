@@ -115,32 +115,13 @@ public class Item_Feverslot extends Item implements IHasModel
 		case 4:
 			return 19;
 		case 5:
-			return item_desire_driver.get_lock(belt,"r");
+			return 2;
 	
 		} 
 		return GoldenFever[rand.nextInt(GoldenFever.length)];
 	}
 	
-	public  int randFormR(ItemStack belt)
-	{
-		 int[] GoldenFever = new int[]{2,3,4,5,6,10,11,16,17};
-
-		Random rand = new Random();
-		switch (rand.nextInt(10))
-		{
-		case 0:
-			return 1;
-		case 1:
-			return 8;
-		case 2:
-			return 15;
-		case 3:
-			return 18;
-		case 4:
-			return 19;
-		}
-		return GoldenFever[rand.nextInt(GoldenFever.length)];
-	}
+	
 	
 	/**
 	 * Called when the equipped item is right clicked.

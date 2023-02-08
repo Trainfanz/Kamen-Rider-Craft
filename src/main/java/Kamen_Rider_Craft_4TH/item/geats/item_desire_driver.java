@@ -51,6 +51,7 @@ public class item_desire_driver extends item_rider_driver
 
 
 	public boolean CanFever = false;
+	public boolean BaseBody = false;
 	
 	public String armorNamePrefix;
 	public ArmorMaterial material;
@@ -115,6 +116,12 @@ public class item_desire_driver extends item_rider_driver
 	public item_desire_driver AddCanFever()
 	{
 		CanFever=true;
+		return this;
+	}
+	
+	public item_desire_driver AddBaseBody()
+	{
+		BaseBody=true;
 		return this;
 	}
 	
@@ -379,7 +386,12 @@ public class item_desire_driver extends item_rider_driver
 					if (num==12||num==13){
 						return Refercence.MODID+":textures/armor/"+rider+FormName[get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f")]+"_base_over.png";
 					}else 	if (num==2||num==5||num==3||num==6||num==8){
-						return Refercence.MODID+":textures/armor/"+rider+FormName[get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f")]+"_rider_base"+ext;
+						if (BaseBody) {
+							return Refercence.MODID+":textures/armor/geats_rider_base"+ext;
+						} else {
+							return Refercence.MODID+":textures/armor/"+rider+FormName[get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f")]+"_rider_base"+ext;
+						}
+						
 					}else 	if (num==1||num==4||num==9||num==7){
 						return Refercence.MODID+":textures/armor/geats_rider_"+forml+ext;
 

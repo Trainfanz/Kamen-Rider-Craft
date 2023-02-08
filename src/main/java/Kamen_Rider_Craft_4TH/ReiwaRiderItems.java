@@ -679,25 +679,25 @@ public class ReiwaRiderItems {
 	public static Item desire_driver_tycoon = new item_desire_driver("desire_driver_tycoon",ArmorMaterial.DIAMOND, 4, "tycoon",0).AddCanFever().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item desire_driver_na_go = new item_desire_driver("desire_driver_na_go",ArmorMaterial.DIAMOND, 4, "na_go",0).AddCanFever().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item desire_driver_buffa = new item_desire_driver("desire_driver_buffa",ArmorMaterial.DIAMOND, 4, "buffa",0).AddCanFever().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
-	public static Item desire_driver_shirowe = new item_desire_driver("desire_driver_shirowe",ArmorMaterial.DIAMOND, 4, "shirowe",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
-	public static Item desire_driver_da_paan = new item_desire_driver("desire_driver_da_paan",ArmorMaterial.DIAMOND, 4, "da_paan",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
-	public static Item desire_driver_mary = new item_desire_driver("desire_driver_mary",ArmorMaterial.DIAMOND, 4, "mary",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
-	public static Item desire_driver_ginpen = new item_desire_driver("desire_driver_ginpen",ArmorMaterial.DIAMOND, 4, "ginpen",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_shirowe = new item_desire_driver("desire_driver_shirowe",ArmorMaterial.DIAMOND, 4, "shirowe",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_da_paan = new item_desire_driver("desire_driver_da_paan",ArmorMaterial.DIAMOND, 4, "da_paan",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_mary = new item_desire_driver("desire_driver_mary",ArmorMaterial.DIAMOND, 4, "mary",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_ginpen = new item_desire_driver("desire_driver_ginpen",ArmorMaterial.DIAMOND, 4, "ginpen",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item desire_driver_punk_jack = new item_desire_driver("desire_driver_punk_jack",ArmorMaterial.DIAMOND, 4, "punk_jack",0).AddCanFever().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
-	public static Item desire_driver_reta = new item_desire_driver("desire_driver_reta",ArmorMaterial.DIAMOND, 4, "reta",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
-	public static Item desire_driver_keirou = new item_desire_driver("desire_driver_keirou",ArmorMaterial.DIAMOND, 4, "keirou",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
-	public static Item desire_driver_nudge_sparrow = new item_desire_driver("desire_driver_nudge_sparrow",ArmorMaterial.DIAMOND, 4, "nudge_sparrow",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
-	public static Item desire_driver_lopo = new item_desire_driver("desire_driver_lopo",ArmorMaterial.DIAMOND, 4, "lopo",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_reta = new item_desire_driver("desire_driver_reta",ArmorMaterial.DIAMOND, 4, "reta",0).AddCanFever().AddBaseBody().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_keirou = new item_desire_driver("desire_driver_keirou",ArmorMaterial.DIAMOND, 4, "keirou",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_nudge_sparrow = new item_desire_driver("desire_driver_nudge_sparrow",ArmorMaterial.DIAMOND, 4, "nudge_sparrow",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_lopo = new item_desire_driver("desire_driver_lopo",ArmorMaterial.DIAMOND, 4, "lopo",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
 	
 	public static Item vision_driver = new item_desire_driver("vision_driver",ArmorMaterial.DIAMOND, 4, "glare",1).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
-	public static Item desire_driver_gm = new item_desire_driver("desire_driver_gm",ArmorMaterial.DIAMOND, 4, "gm",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_gm = new item_desire_driver("desire_driver_gm",ArmorMaterial.DIAMOND, 4, "gm",0).AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
 	public static Item desire_driver_jyamato = new item_desire_driver("desire_driver_jyamato",ArmorMaterial.DIAMOND, 4, "jyamato",1).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
-	public static Item desire_driver_seeker= new item_desire_driver("desire_driver_seeker",ArmorMaterial.DIAMOND, 4, "seeker",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
-	public static Item desire_driver_revi = new item_desire_driver("desire_driver_revi",ArmorMaterial.DIAMOND, 4, "geats_revi",0).AddCanFever().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
-	public static Item desire_driver_vice = new item_desire_driver("desire_driver_vice",ArmorMaterial.DIAMOND, 4, "geats_vice",0).AddCanFever().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_seeker= new item_desire_driver("desire_driver_seeker",ArmorMaterial.DIAMOND, 4, "seeker",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_revi = new item_desire_driver("desire_driver_revi",ArmorMaterial.DIAMOND, 4, "geats_revi",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_vice = new item_desire_driver("desire_driver_vice",ArmorMaterial.DIAMOND, 4, "geats_vice",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
 	
 	public static Item magnum_raise_buckle = new Item_Raise_Buckles(1,"magnum_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
