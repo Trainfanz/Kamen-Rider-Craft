@@ -3458,7 +3458,10 @@ item.desire_driver_vice.name=Desire Driver(Vice)
 
 item.desire_driver_jyamato.name=Desire Driver(Jyamato)
 item.desire_driver_gm.name=Desire Driver(GM)
-item.vision_driver.name=Vision Driver
+item.desire_driver_gm_chirami.name=Desire Driver(GM)
+item.vision_driver.name=Vision Driver (Glare)
+item.vision_driver_gazer.name=Vision Driver (Gazer)
+item.vision_driver_chirami.name=Vision Driver (Glare Chirami)
 
 item.magnum_raise_buckle.name=Magnum Buckle
 item.boost_raise_buckle.name=Boost Buckle

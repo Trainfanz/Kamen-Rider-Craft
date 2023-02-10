@@ -691,7 +691,11 @@ public class ReiwaRiderItems {
 	
 	
 	public static Item vision_driver = new item_desire_driver("vision_driver",ArmorMaterial.DIAMOND, 4, "glare",1).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item vision_driver_gazer = new item_desire_driver("vision_driver_gazer",ArmorMaterial.DIAMOND, 4, "gazer",1).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item vision_driver_chirami = new item_desire_driver("vision_driver_chirami",ArmorMaterial.DIAMOND, 4, "glare_chirami",1).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	
 	public static Item desire_driver_gm = new item_desire_driver("desire_driver_gm",ArmorMaterial.DIAMOND, 4, "gm",0).AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_gm_chirami = new item_desire_driver("desire_driver_gm_chirami",ArmorMaterial.DIAMOND, 4, "gm_chirami",0).AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
 	public static Item desire_driver_jyamato = new item_desire_driver("desire_driver_jyamato",ArmorMaterial.DIAMOND, 4, "jyamato",1).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
