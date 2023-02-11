@@ -73,12 +73,8 @@ public class giantHandler
 		boolean small = false;
 	
 		if(entity.isPotionActive(PotionCore.BIG_POTION)) big = true;
-		if(entity.isPotionActive(Potion.getPotionFromResourceLocation("supersentaicraft"+ ":" + "big"))) big = true;
-		if(entity.isPotionActive(Potion.getPotionFromResourceLocation("ultracraft"+ ":" + "big"))) big = true;
 		
 		if(entity.isPotionActive(PotionCore.SMALL_POTION)) small = true;
-		if(entity.isPotionActive(Potion.getPotionFromResourceLocation("supersentaicraft"+ ":" + "small"))) small = true;
-		if(entity.isPotionActive(Potion.getPotionFromResourceLocation("ultracraft"+ ":" + "small"))) small = true;
 		
 		
 			if(big&!small)

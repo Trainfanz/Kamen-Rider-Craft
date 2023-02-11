@@ -3415,10 +3415,13 @@ item.magnum_shooter_40x.name=Magnum Shooter 40X
 item.magnum_shooter_40x_rifle.name=Magnum Shooter 40X(Rifle)
     
 item.zombie_breaker.name=Zombie Breaker
+item.zombie_breaker_poison_charge.name=Zombie Breaker(Poison Charge)
 
 item.beat_axe.name=Beat Axe
 
 item.ninja_dueler.name=Ninja Dueler
+item.ninja_dueler_twin_blade_mode.name=Ninja Dueler
+item.ninja_dueler_twin_blade_mode2.name=Ninja Dueler
 
 item.raising_sword.name=Raising Sword
 
@@ -3480,7 +3483,11 @@ item.gigant_hammer_buckle.name=Gigant Hammer Buckle
 item.gigant_blaster_buckle.name=Gigant Blaster Buckle
 item.powered_builder_raise_buckle.name=Powered Builder Buckle
 item.gigant_container_buckle.name=Gigant Container Buckle
-  
+
+item.magnum_shooter_40x_raise_buckle.name=Magnum Shooter 40X Buckle
+item.ninja_dueler_raise_buckle.name=Ninja Dueler Buckle
+item.zombie_breaker_raise_buckle.name=Zombie Breaker Buckle
+ 
 item.hammer_raise_buckle.name=Hammer Buckle
 item.water_raise_buckle.name=Water Buckle
 item.arrow_raise_buckle.name=Arrow Buckle

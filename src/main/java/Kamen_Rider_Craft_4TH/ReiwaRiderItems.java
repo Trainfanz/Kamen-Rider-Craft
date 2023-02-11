@@ -652,16 +652,20 @@ public class ReiwaRiderItems {
 	public static Item magnum_shooter_40x_rifle = new Item_gun("magnum_shooter_40x_rifle",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
 	public static Item zombie_breaker = new ItemBaseSword("zombie_breaker",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
-	public static Item beat_axe = new ItemBaseSword("beat_axe",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
-	public static Item ninja_dueler = new ItemBaseSword("ninja_dueler",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item zombie_breaker_poison_charge = new ItemBaseSword("zombie_breaker_poison_charge",Tabs.axcalibur, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
-	public static Item raising_sword = new ItemBaseSword("raising_sword",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item beat_axe = new ItemBaseSword("beat_axe",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	
+	public static Item ninja_dueler = new ItemBaseSword("ninja_dueler",Tabs.axcalibur, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item ninja_dueler_twin_blade_mode = new ItemBaseSword("ninja_dueler_twin_blade_mode",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item ninja_dueler_twin_blade_mode2 = new ItemBaseSword("ninja_dueler_twin_blade_mode2",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	
+	public static Item raising_sword = new ItemBaseSword("raising_sword",Tabs.axcalibur, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
 	public static Item gigant_blaster = new Item_gun("gigant_blaster",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item gigant_sword = new ItemBaseSword("gigant_sword",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item gigant_hammer = new ItemBaseSword("gigant_hammer",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
-
 	public static Item raise_hammer = new ItemBaseSword("raise_hammer",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item raise_arrow = new Item_gun("raise_arrow",Tabs.den_dengu, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item raise_water = new Item_gun("raise_water",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
@@ -669,7 +673,6 @@ public class ReiwaRiderItems {
 	public static Item raise_chain_array = new ItemBaseSword("raise_chain_array",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item raise_claw = new ItemBaseSword("raise_claw",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item raise_propeller = new ItemBaseSword("raise_propeller",Tabs.gashacon_breaker, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
-	
 	
 	public static Item geatshead = new item_rider_armor("geatshead",item_revicedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, blank_rider_core_id).setCreativeTab(Tabs.tabgeats);
 	public static Item geatstroso = new item_rider_armor("geatstroso",item_revicedriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, blank_rider_core_id).setCreativeTab(Tabs.tabgeats);
@@ -731,6 +734,10 @@ public class ReiwaRiderItems {
 	public static Item propeller_raise_buckle = new Item_Raise_Buckles(16,"propeller_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item drill_raise_buckle = new Item_Raise_Buckles(17,"drill_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
+	public static Item magnum_shooter_40x_raise_buckle = new Item_Raise_Buckles("magnum_shooter_40x_raise_buckle").AddToGigantMissionBox(1).setCreativeTab(Tabs.tabgeats);
+	public static Item ninja_dueler_raise_buckle = new Item_Raise_Buckles("ninja_dueler_raise_buckle").AddToGigantMissionBox(1).setCreativeTab(Tabs.tabgeats);
+	public static Item zombie_breaker_raise_buckle = new Item_Raise_Buckles("zombie_breaker_raise_buckle").AddToGigantMissionBox(1).setCreativeTab(Tabs.tabgeats);
+
 		
 	public static Item jyamato_buckle = new Item_Raise_Buckles(24,"jyamato_buckle").changeForm(3).setCreativeTab(Tabs.tabgeats);
 	
