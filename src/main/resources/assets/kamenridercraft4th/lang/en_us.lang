@@ -3464,7 +3464,7 @@ item.desire_driver_gm.name=Desire Driver(GM)
 item.desire_driver_gm_chirami.name=Desire Driver(GM)
 item.vision_driver.name=Vision Driver (Glare)
 item.vision_driver_gazer.name=Vision Driver (Gazer)
-item.vision_driver_chirami.name=Vision Driver (Glare Chirami)
+item.vision_driver_chirami.name=Vision Driver (Glare 2)
 
 item.magnum_raise_buckle.name=Magnum Buckle
 item.boost_raise_buckle.name=Boost Buckle
@@ -3538,7 +3538,6 @@ item.arcle_raise_buckle.name=Arcle Buckle
 item.king_stone_raise_buckle.name=Kingstone Buckle
 item.double_typhoon_raise_buckle.name=Double Typhoon Buckle
 item.typhoon_raise_buckle.name=Typhoon Buckle
-    
     
     
 item.blank_rider_core_id.name=Blank Rider Core ID
