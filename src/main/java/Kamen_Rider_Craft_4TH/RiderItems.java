@@ -437,7 +437,8 @@ public class RiderItems {
 
 	public static Item veno_visor = new ItemBaseSword("veno_visor",Tabs.den_denro, RiderItems.contract_advent).setCreativeTab(Tabs.tabryuki);
 	public static Item veno_saber = new ItemBaseSword("veno_saber",Tabs.den_denso, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
-
+	public static Item veno_visor_zwei = new ItemBaseSword("veno_visor_zwei",Tabs.denkamen_sword, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
+	
 	public static Item dest_visor = new ItemBaseSword("dest_visor",Tabs.den_denaxe, RiderItems.contract_advent).setCreativeTab(Tabs.tabryuki);
 	public static Item dest_claws = new ItemBaseSword("dest_claws",Tabs.den_denro, RiderItems.contract_advent).setMaxStackSize(1).setCreativeTab(Tabs.tabryuki);
 
@@ -604,7 +605,8 @@ public class RiderItems {
 	public static Item gold_sabers_vent = new Item_vent("gold_sabers_vent","odin",gold_sabers,0,gold_visor).setCreativeTab(Tabs.tabryuki);
 	public static Item drag_visor_zwei_sword_mode_vent = new Item_vent("drag_visor_zwei_sword_mode_vent","ryuki",drag_visor_zwei,1,drag_visor).setCreativeTab(Tabs.tabryuki);
 	public static Item dark_blade_vent = new Item_vent("dark_blade_vent","knight",dark_blade,1,dark_visor).setCreativeTab(Tabs.tabryuki);
-
+	public static Item veno_visor_zwei_sword_mode_vent = new Item_vent("veno_visor_zwei_sword_mode_vent","ouja",veno_visor_zwei,1,veno_visor).setCreativeTab(Tabs.tabryuki);
+	
 	public static Item abyss_saber_vent = new Item_vent("abyss_saber_vent","abyss",abyss_saber,0,abyss_visor).setCreativeTab(Tabs.tabryuki);
 	public static Item alternative_sword_vent = new Item_vent("alternative_sword_vent","alternative",alternative_sword,0,slash_visor).setCreativeTab(Tabs.tabryuki);
 
@@ -3259,6 +3261,7 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item another_ooo_driver = new item_zikudriver("another_ooo_driver",ArmorMaterial.DIAMOND, 4, "another_ooo",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item another_w_driver = new item_zikudriver("another_w_driver",ArmorMaterial.DIAMOND, 4, "another_w",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 	public static Item another_faiz_driver = new item_zikudriver("another_faiz_driver",ArmorMaterial.DIAMOND, 4, "another_faiz",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
+	public static Item another_altering = new item_zikudriver("another_altering",ArmorMaterial.DIAMOND, 4, "another_agito_zio",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 
 	public static Item another_shinobi_driver = new item_zikudriver("another_shinobi_driver",ArmorMaterial.DIAMOND, 4, "another_shinobi",0).setMaxStackSize(1).setCreativeTab(Tabs.tabzi_o);
 

@@ -556,6 +556,7 @@ public class ReiwaRiderItems {
 	public static Item perfect_wing_vistamp = new Item_Vistamps(11,"perfect_wing_vistamp").ChangeForm(6).AddLiveCanUse().setCreativeTab(Tabs.tabrevice);
 	
 	public static Item spider_vistamp = new Item_Vistamps(12,"spider_vistamp").AddDemonsCanUse().AddToVistampBar(6).setCreativeTab(Tabs.tabrevice);
+	public static Item giant_spider_vistamp = new Item_Vistamps(37,"giant_spider_vistamp").AddDemonsCanUse().setCreativeTab(Tabs.tabrevice);
 	public static Item batta_vistamp = new Item_Vistamps(13,"batta_vistamp").AddDemonsCanUse().AddOverDemonsCanUse().AddToVistampBar(4).setCreativeTab(Tabs.tabrevice);
 	public static Item mogura_vistamp = new Item_Vistamps(14,"mogura_vistamp").AddDemonsCanUse().AddOverDemonsCanUse().AddToVistampBar(4).setCreativeTab(Tabs.tabrevice);
 	public static Item scorpion_vistamp = new Item_Vistamps(16,"scorpion_vistamp").AddToVistampBar(4).AddDemonsCanUse().AddOverDemonsCanUse().setCreativeTab(Tabs.tabrevice);
