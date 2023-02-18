@@ -22,6 +22,7 @@ import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.MobEffects;
 import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.item.IItemPropertyGetter;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
@@ -29,6 +30,7 @@ import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
@@ -67,6 +69,33 @@ public class item_decadedriver extends item_rider_driver
 		this.material = par2EnumArmorMaterial;
 		par2EnumArmorMaterial.getDamageReductionAmount(EntityEquipmentSlot.FEET);
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(EntityEquipmentSlot.FEET));
+		
+		 this.addPropertyOverride(new ResourceLocation("form"), new IItemPropertyGetter()
+	        {
+	            @SideOnly(Side.CLIENT)
+	            public float apply(ItemStack stack, @Nullable World worldIn, @Nullable EntityLivingBase entityIn)
+	            {
+	      		  if (stack.getItem()== RiderItems.decadedriver||stack.getItem()== RiderItems.dienddriver||stack.getItem()== RiderItems.new_decadriver){
+	            	
+	            	if (!stack.hasTagCompound())
+	        		{
+	            		return 0;
+	        		}else {
+	        			if (item_decadedriver.get_core(stack)=="decade_complete"||item_decadedriver.get_core(stack)=="decade_neo_complete"||item_decadedriver.get_core(stack)=="diend_complete"){
+	    					return 1;
+	    				}else{
+	    					return 0;
+	    				}
+
+	            	
+					}
+	      			
+	            
+	      		  }else{
+	      			return 0;
+	      		  }
+	      		  }
+	        });
 	}
 
 	@Override
@@ -95,16 +124,9 @@ public class item_decadedriver extends item_rider_driver
 
 				model_belt armorModel = new model_belt();
 
-				if (this.get_core(stack)=="decade_complete"){
-					armorModel.belt=new ItemStack(RiderItems.k_touch);
-				}else if (this.get_core(stack)=="decade_neo_complete"){
-					armorModel.belt=new ItemStack(RiderItems.neo_k_touch);
-				}else if (this.get_core(stack)=="diend_complete"){
-					armorModel.belt=new ItemStack(RiderItems.k_touch_diend);
-				}else{
-					armorModel.belt=stack;
-				}
-
+			
+				armorModel.belt=stack;
+		
 				armorModel.isSneak = defaultModel.isSneak;
 				armorModel.isRiding = defaultModel.isRiding;
 				armorModel.isChild = defaultModel.isChild;

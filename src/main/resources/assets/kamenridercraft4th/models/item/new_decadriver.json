@@ -1,7 +1,15 @@
 {
-  "_comment": "Generated using MiningMark48's JSON Generator.",
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "kamenridercraft4th:items/new_decadriver"
-  }
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "kamenridercraft4th:items/new_decadriver"
+    }
+,
+    "overrides": [
+        {
+            "predicate": {
+                "form": 1
+            },
+            "model": "kamenridercraft4th:item/neo_k_touch"
+        }
+    ]
 }

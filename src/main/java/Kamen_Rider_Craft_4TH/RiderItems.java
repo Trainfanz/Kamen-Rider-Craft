@@ -1372,7 +1372,6 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item kuugacard = new Itemrider_cards(9,1,"kuugacard").setCreativeTab(Tabs.tabdecade);
 
 
-
 	public static Item k_touch_diend = new Itemrider_cards(0,1,"k_touch_diend").setCreativeTab(Tabs.tabdecade);
 
 	public static Item garulu_kivacard = new Itemrider_cards(1,1,"garulu_kivacard").setCreativeTab(Tabs.tabdecade);

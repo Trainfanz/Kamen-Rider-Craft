@@ -433,11 +433,11 @@ public class ShowaRiderItems {
 	public static Item akaridertroso = new item_rider_armor("akaridertroso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabGoRider);
 	public static Item akariderlegs = new item_rider_armor("akariderlegs",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabGoRider);
 
-	public static Item typhoon_akarider = new item_rider_driver("typhoon_akarider",ArmorMaterial.DIAMOND, 4,"akarider",(Item_form_change) akarider_card, akariderhead, gtroso, akariderlegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabGoRider);
-	public static Item typhoon_aorider = new item_rider_driver("typhoon_aorider",ArmorMaterial.DIAMOND, 4,"aorider",(Item_form_change) aorider_card, akariderhead, gtroso, akariderlegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabGoRider);
-	public static Item typhoon_kirider = new item_rider_driver("typhoon_kirider",ArmorMaterial.DIAMOND, 4,"kirider",(Item_form_change) kirider_card, akariderhead, gtroso, akariderlegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabGoRider);
-	public static Item typhoon_momorider = new item_rider_driver("typhoon_momorider",ArmorMaterial.DIAMOND, 4,"momorider",(Item_form_change) momorider_card, akariderhead, gtroso, akariderlegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabGoRider);
-	public static Item typhoon_midorider = new item_rider_driver("typhoon_midorider",ArmorMaterial.DIAMOND, 4,"midorider",(Item_form_change) midorider_card, akariderhead, gtroso, akariderlegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabGoRider);
+	public static Item typhoon_akarider = new item_rider_driver("typhoon_akarider",ArmorMaterial.DIAMOND, 4,"akarider",(Item_form_change) akarider_card, akariderhead, akaridertroso, akariderlegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabGoRider);
+	public static Item typhoon_aorider = new item_rider_driver("typhoon_aorider",ArmorMaterial.DIAMOND, 4,"aorider",(Item_form_change) aorider_card, akariderhead, akaridertroso, akariderlegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabGoRider);
+	public static Item typhoon_kirider = new item_rider_driver("typhoon_kirider",ArmorMaterial.DIAMOND, 4,"kirider",(Item_form_change) kirider_card, akariderhead, akaridertroso, akariderlegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabGoRider);
+	public static Item typhoon_momorider = new item_rider_driver("typhoon_momorider",ArmorMaterial.DIAMOND, 4,"momorider",(Item_form_change) momorider_card, akariderhead, akaridertroso, akariderlegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabGoRider);
+	public static Item typhoon_midorider = new item_rider_driver("typhoon_midorider",ArmorMaterial.DIAMOND, 4,"midorider",(Item_form_change) midorider_card, akariderhead, akaridertroso, akariderlegs, rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabGoRider);
 
 
 	public static void init() {

@@ -44,7 +44,8 @@ public class Itemrider_cards extends Item implements IHasModel
 	    {
 		if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
 
-		if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.decadedriver&this==RiderItems.diendcard){
+		if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.decadedriver&this==RiderItems.diendcard
+				||playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.new_decadriver&this==RiderItems.diendcard){
 			item_decadedriver.set_core(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET), 0,3);
 			
 		}else	if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() == RiderItems.dienddriver&this==RiderItems.decadecard){
