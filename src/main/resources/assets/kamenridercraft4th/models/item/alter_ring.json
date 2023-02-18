@@ -3,4 +3,25 @@
     "textures": {
         "layer0": "kamenridercraft4th:items/alter_ring"
     }
+,
+    "overrides": [
+        {
+            "predicate": {
+                "form": 1
+            },
+            "model": "kamenridercraft4th:item/alter_ring_st"
+        },
+         {
+            "predicate": {
+                "form": 2
+            },
+            "model": "kamenridercraft4th:item/alter_ring_fl"
+        },
+         {
+            "predicate": {
+                "form": 3
+            },
+            "model": "kamenridercraft4th:item/alter_ring_shining"
+        }
+    ]
 }

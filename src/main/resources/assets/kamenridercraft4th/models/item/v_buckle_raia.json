@@ -3,4 +3,13 @@
     "textures": {
         "layer0": "kamenridercraft4th:items/v_buckle_raia"
     }
+,
+    "overrides": [
+        {
+            "predicate": {
+                "form": 1
+            },
+            "model": "kamenridercraft4th:item/v_buckle_raia_survive"
+        }
+    ]
 }

@@ -49,33 +49,33 @@ public class miscellaneousRiderItems {
 	public static Item flaresalamander_sword = new ItemBaseSword("flaresalamander_sword",Tabs.ridol_stick, ShowaRiderItems.rider_circuit).setMaxStackSize(1).setCreativeTab(Tabs.tabmisc);
 		
 	public static Item ryuki_dragreder_wings = new Item_ore("ryuki_dragreder_wings");
-	public static Item dragreder = new Item_form_change("dragreder",item_rider_driver.class,RiderItems.v_buckle_ryuki_survive,"_dragreder","ryuki"
+	public static Item dragreder = new Item_form_change("dragreder",item_rider_driver.class,1,"_dragreder","ryuki"
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
 			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).addWing(ryuki_dragreder_wings).Rend2ndLyer("dragreder").setCreativeTab(Tabs.tabmisc);
 
 	public static Item agito_stagtornador_wings = new Item_ore("agito_stagtornador_wings");
-	public static Item stagtornador = new Item_form_change("stagtornador",item_agitodriver.class,RiderItems.alter_ring_gr,"","agito"
+	public static Item stagtornador = new Item_form_change("stagtornador",item_agitodriver.class,0,"","agito"
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false),new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)
 			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).addWing(agito_stagtornador_wings).Rend2ndLyer("agito_stagtornador").setCreativeTab(Tabs.tabmisc);
 
 	public static Item herculespader_wings = new Item_ore("herculespader_wings");
-	public static Item herculespader = new Item_form_change("herculespader",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","blade"
+	public static Item herculespader = new Item_form_change("herculespader",item_rider_driver.class,0,"","blade"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false),new PotionEffect(MobEffects.HASTE, 5, 0,true,false),
 			new PotionEffect(MobEffects.SPEED, 5, 2,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false)
 			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).addWing(herculespader_wings).Rend2ndLyer("herculespader").setCreativeTab(Tabs.tabmisc);
 
 	public static Item knight_darkwing_wings = new Item_ore("knight_darkwing_wings");
-	public static Item darkwing = new Item_form_change("darkwing",item_rider_driver.class,RiderItems.v_buckle_knight_survive,"_darkwing","knight"
+	public static Item darkwing = new Item_form_change("darkwing",item_rider_driver.class,1,"_darkwing","knight"
 			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
 			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).addWing(knight_darkwing_wings).Rend2ndLyer("darkwing").setCreativeTab(Tabs.tabmisc);
 
-	public static Item greywolch = new Item_form_change("greywolch",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","faiz"
+	public static Item greywolch = new Item_form_change("greywolch",item_rider_driver.class,0,"","faiz"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false),new PotionEffect(MobEffects.HASTE, 5, 1,true,false)
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false)
 			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 1,true,false)).Rend2ndLyer("faiz_greywolch").setCreativeTab(Tabs.tabmisc);
 
 	public static Item grand_gouram_wings = new Item_ore("grand_gouram_wings");
-	public static Item grand_gouram = new Item_form_change("grand_gouram",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_grand_gouram","kuuga"
+	public static Item grand_gouram = new Item_form_change("grand_gouram",item_rider_driver.class,0,"_grand_gouram","kuuga"
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false)
 			,new PotionEffect(MobEffects.SPEED, 5, 2,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false)
@@ -83,39 +83,39 @@ public class miscellaneousRiderItems {
 			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 8,true,false)).Rend2ndLyer("grand_gouram").addWing(grand_gouram_wings).setCreativeTab(Tabs.tabmisc);
 
 	public static Item exbeeter_wings = new Item_ore("exbeeter_wings");
-	public static Item exbeeter = new Item_form_change("exbeeter",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","kabuto"
+	public static Item exbeeter = new Item_form_change("exbeeter",item_rider_driver.class,0,"","kabuto"
 			,new PotionEffect(MobEffects.HASTE, 5, 3,true,false),new PotionEffect(MobEffects.SPEED, 5, 4,true,false),
 			new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 4,true,false),new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)
 			,new PotionEffect(MobEffects.NIGHT_VISION, 500, 0,true,false)).Rend2ndLyer("exbeeter").addWing(exbeeter_wings).setCreativeTab(Tabs.tabmisc);
 
 	
-	public static Item chaosdile = new Item_form_change("chaosdile",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","kaixa"
+	public static Item chaosdile = new Item_form_change("chaosdile",item_rider_driver.class,0,"","kaixa"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false),new PotionEffect(MobEffects.HASTE, 5, 1,true,false)
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false)
 			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 1,true,false)).Rend2ndLyer("chaosdile").setCreativeTab(Tabs.tabmisc);
 
-	public static Item leatheraider = new Item_form_change("leatheraider",item_agitodriver.class,ShowaRiderItems.blanknoitem,"_leatheraider","gills"
+	public static Item leatheraider = new Item_form_change("leatheraider",item_agitodriver.class,0,"_leatheraider","gills"
 			,new PotionEffect(MobEffects.SPEED, 5, 4,true,false)
 			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false)
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false)).Rend2ndLyer("leatheraider").setCreativeTab(Tabs.tabmisc);
 	
 	public static Item v3_flaresalamander_wings = new Item_ore("v3_flaresalamander_wings");
-	public static Item flaresalamander = new Item_form_change("flaresalamander",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","v3"
+	public static Item flaresalamander = new Item_form_change("flaresalamander",item_rider_driver.class,0,"","v3"
 			,new PotionEffect(MobEffects.STRENGTH,20, 3,true,false),new PotionEffect(MobEffects.RESISTANCE,20, 3,true,false)
 			,new PotionEffect(MobEffects.SPEED,20, 3,true,false),new PotionEffect(MobEffects.JUMP_BOOST,20, 4,true,false)
 			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false),new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)
 			).addWing(v3_flaresalamander_wings).Rend2ndLyer("v3_flaresalamander").setCreativeTab(Tabs.tabmisc);
 
 	public static Item ryuki_dragranzer_wings = new Item_ore("ryuki_dragranzer_wings");
-	public static Item dragranzer = new Item_form_change("dragranzer",item_rider_driver.class,RiderItems.v_buckle_ryuki_survive,"_dragranzer","ryuki"
+	public static Item dragranzer = new Item_form_change("dragranzer",item_rider_driver.class,1,"_dragranzer","ryuki"
 			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false),new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false),new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false)
 			,new PotionEffect(MobEffects.HASTE, 5, 1,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false),
 			new PotionEffect(MobEffects.SPEED, 5, 1,true,false)).addWing(ryuki_dragranzer_wings).Rend2ndLyer("dragranzer").setCreativeTab(Tabs.tabmisc);
 
 	public static Item scissorbeeter_wings = new Item_ore("scissorbeeter_wings");
-	public static Item scissorbeeter = new Item_form_change("scissorbeeter",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","gatack"
+	public static Item scissorbeeter = new Item_form_change("scissorbeeter",item_rider_driver.class,0,"","gatack"
 			,new PotionEffect(MobEffects.HASTE, 5, 3,true,false),new PotionEffect(MobEffects.SPEED, 5, 4,true,false),
 			new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 1,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 4,true,false),new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)
@@ -123,20 +123,20 @@ public class miscellaneousRiderItems {
 
 	
 	public static Item akanetaka_wings = new Item_ore("akanetaka_wings");
-	public static Item akanetaka = new Item_form_change("akanetaka",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","hibiki"
+	public static Item akanetaka = new Item_form_change("akanetaka",item_rider_driver.class,0,"","hibiki"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false),new PotionEffect(MobEffects.HASTE, 5, 3,true,false),
 			new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false),new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
 			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).addWing(akanetaka_wings).Rend2ndLyer("akanetaka").setCreativeTab(Tabs.tabmisc);
 
 	public static Item shadowmantis_wings = new Item_ore("shadowmantis_wings");
-	public static Item shadowmantis = new Item_form_change("shadowmantis",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","chalice"
+	public static Item shadowmantis = new Item_form_change("shadowmantis",item_rider_driver.class,0,"","chalice"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false),new PotionEffect(MobEffects.HASTE, 5, 0,true,false),
 			new PotionEffect(MobEffects.RESISTANCE, 5, 3,true,false),new PotionEffect(MobEffects.JUMP_BOOST, 5, 0,true,false)
 			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).addWing(shadowmantis_wings).Rend2ndLyer("shadowmantis").setCreativeTab(Tabs.tabmisc);
 
 	
 	public static Item cyclonehopper_wings = new Item_ore("cyclonehopper_wings");
-	public static Item cyclonehopper = new Item_form_change("cyclonehopper",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_cyclonehopper","ichigo"
+	public static Item cyclonehopper = new Item_form_change("cyclonehopper",item_rider_driver.class,0,"_cyclonehopper","ichigo"
 			,new PotionEffect(MobEffects.STRENGTH,20, 3,true,false),new PotionEffect(MobEffects.RESISTANCE,20, 3,true,false)
 			,new PotionEffect(MobEffects.SPEED,20, 3,true,false),new PotionEffect(MobEffects.JUMP_BOOST,20, 4,true,false)
 			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false),new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)
@@ -146,18 +146,18 @@ public class miscellaneousRiderItems {
 	public static Item jinrai_no_senshi_wings = new Item_ore("jinrai_no_senshi_wings");
 	
 	
-	public static Item kuuga_jinrai_no_senshi = new Item_form_change("kuuga_jinrai_no_senshi",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_rising_mighty_jinrai_no_senshi","kuuga"
+	public static Item kuuga_jinrai_no_senshi = new Item_form_change("kuuga_jinrai_no_senshi",item_rider_driver.class,0,"_rising_mighty_jinrai_no_senshi","kuuga"
 			,new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false),new PotionEffect(MobEffects.SPEED, 5, 2,true,false)
 			,new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false),new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false)
 			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 8,true,false)).addWing(jinrai_no_senshi_wings).Rend2ndLyer("kuuga_jinrai_no_senshi");
 
-	public static Item blade_jinrai_no_senshi = new Item_form_change("blade_jinrai_no_senshi",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_jack","blade"
+	public static Item blade_jinrai_no_senshi = new Item_form_change("blade_jinrai_no_senshi",item_rider_driver.class,0,"_jack","blade"
 			,new PotionEffect(MobEffects.STRENGTH,20, 3,true,false),new PotionEffect(MobEffects.RESISTANCE,20, 3,true,false)
 			,new PotionEffect(MobEffects.SPEED,20, 3,true,false),new PotionEffect(MobEffects.JUMP_BOOST,20, 4,true,false)
 			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false),new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)
 			).Rend2ndLyer("blade_jinrai_no_senshi").addWing(jinrai_no_senshi_wings);
 
-	public static Item dark_kabuto_jinrai_no_senshi = new Item_form_change("dark_kabuto_jinrai_no_senshi",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","dark_kabuto"
+	public static Item dark_kabuto_jinrai_no_senshi = new Item_form_change("dark_kabuto_jinrai_no_senshi",item_rider_driver.class,0,"","dark_kabuto"
 			,new PotionEffect(MobEffects.STRENGTH,20, 3,true,false),new PotionEffect(MobEffects.RESISTANCE,20, 3,true,false)
 			,new PotionEffect(MobEffects.SPEED,20, 3,true,false),new PotionEffect(MobEffects.JUMP_BOOST,20, 4,true,false)
 			,new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false),new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)
@@ -167,18 +167,18 @@ public class miscellaneousRiderItems {
 	public static Item bakuen_no_senshi_wings = new Item_ore("bakuen_no_senshi_wings");
 	public static Item bakuen_no_senshi_hibiki_wings = new Item_ore("bakuen_no_senshi_hibiki_wings");
 	
-	public static Item bakuen_no_senshi_ryuga = new Item_form_change("bakuen_no_senshi_ryuga",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_bakuen_no_senshi","ryuga"
+	public static Item bakuen_no_senshi_ryuga = new Item_form_change("bakuen_no_senshi_ryuga",item_rider_driver.class,0,"_bakuen_no_senshi","ryuga"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 5,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 250, 0,true,false),
 			new PotionEffect(MobEffects.HASTE, 5, 0,true,false),new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false),
 			new PotionEffect(MobEffects.SPEED, 5, 1,true,false)).Rend2ndLyer("bakuen_no_senshi_ryuga").addWing(bakuen_no_senshi_wings);
 
-	public static Item bakuen_no_senshi_faiz = new Item_form_change("bakuen_no_senshi_faiz",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_blaster","faiz"
+	public static Item bakuen_no_senshi_faiz = new Item_form_change("bakuen_no_senshi_faiz",item_rider_driver.class,0,"_blaster","faiz"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 4,true,false),new PotionEffect(MobEffects.SPEED, 5, 3,true,false),
 			new PotionEffect(MobEffects.HASTE, 5, 3,true,false),new PotionEffect(MobEffects.JUMP_BOOST, 5, 3,true,false),
 			new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false),new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false)
 			,new PotionEffect(PotionCore.FLY_POTION, 5, 1,true,false)).Rend2ndLyer("bakuen_no_senshi_faiz").addWing(bakuen_no_senshi_hibiki_wings);
 
-	public static Item bakuen_no_senshi_hibiki = new Item_form_change("bakuen_no_senshi_hibiki",item_rider_driver.class,ShowaRiderItems.blanknoitem,"_kurenai","hibiki"
+	public static Item bakuen_no_senshi_hibiki = new Item_form_change("bakuen_no_senshi_hibiki",item_rider_driver.class,0,"_kurenai","hibiki"
 			,new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false),new PotionEffect(MobEffects.HASTE, 5, 3,true,false),
 			new PotionEffect(MobEffects.RESISTANCE, 5, 2,true,false),new PotionEffect(MobEffects.SPEED, 5, 1,true,false)
 			,new PotionEffect(MobEffects.REGENERATION, 5, 0,true,false)).Rend2ndLyer("bakuen_no_senshi_hibiki").addWing(bakuen_no_senshi_wings)

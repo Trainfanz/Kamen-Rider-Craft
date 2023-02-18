@@ -28,6 +28,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
 import net.minecraft.init.MobEffects;
 import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.item.IItemPropertyGetter;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
@@ -35,6 +36,7 @@ import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.fml.relauncher.Side;
@@ -70,6 +72,22 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 		TORSO=torso;
 		LEGS=legs;
 		base = item;
+		
+		  this.addPropertyOverride(new ResourceLocation("form"), new IItemPropertyGetter()
+	        {
+	            @SideOnly(Side.CLIENT)
+	            public float apply(ItemStack stack, @Nullable World worldIn, @Nullable EntityLivingBase entityIn)
+	            {
+	      		  
+	            	if (!stack.hasTagCompound())
+	        		{
+	            		return 0;
+	        		}else {
+	            		return get_Form_Item(stack, 1).getBelt();
+					
+	      		  }
+	      		  }
+	        });
 
 	}
 
@@ -182,11 +200,8 @@ public class item_rider_driver extends ItemArmor implements IHasModel
 
 				if(belt == true){
 					armorModel.belt=new ItemStack(ShowaRiderItems.blanknoitem);
-				}else if (get_Form_Item(stack,1).getBelt()==ShowaRiderItems.blanknoitem ){
+				}else{
 					armorModel.belt=stack;
-				}else 
-				{
-					armorModel.belt=new ItemStack(get_Form_Item(stack,1).getBelt());
 				}
 
 

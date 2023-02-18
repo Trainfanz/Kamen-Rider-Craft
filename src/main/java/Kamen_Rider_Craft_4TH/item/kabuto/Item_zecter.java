@@ -5,7 +5,6 @@ import com.google.common.collect.Lists;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
-import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigodriver;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
@@ -26,7 +25,7 @@ public class Item_zecter extends Item_form_change
 	public Item num;
 
 
-	public Item_zecter(Item NUM,String name,Class<? extends item_rider_driver> beltClass,Item belt,String formName,String ridername,PotionEffect... effects)
+	public Item_zecter(Item NUM,String name,Class<? extends item_rider_driver> beltClass,int belt,String formName,String ridername,PotionEffect... effects)
 	{
 		super(name,beltClass, belt,formName,ridername,effects);
 		num = NUM;

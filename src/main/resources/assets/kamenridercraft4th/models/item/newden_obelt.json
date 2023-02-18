@@ -3,4 +3,19 @@
     "textures": {
         "layer0": "kamenridercraft4th:items/newden_obelt"
     }
+
+,
+    "overrides": [
+        {
+            "predicate": {
+                "form": 1
+            },
+            "model": "kamenridercraft4th:item/newden_obeltbl"
+        },{
+            "predicate": {
+                "form": 2
+            },
+            "model": "kamenridercraft4th:item/newden_obeltvega"
+        }
+    ]
 }

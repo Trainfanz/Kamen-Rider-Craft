@@ -3,7 +3,6 @@ package Kamen_Rider_Craft_4TH.item.kabuto;
 
 import Kamen_Rider_Craft_4TH.RiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
-import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigodriver;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.MobEffects;

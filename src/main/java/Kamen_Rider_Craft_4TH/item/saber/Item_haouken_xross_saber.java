@@ -2,7 +2,6 @@ package Kamen_Rider_Craft_4TH.item.saber;
 
 import Kamen_Rider_Craft_4TH.ReiwaRiderItems;
 import Kamen_Rider_Craft_4TH.TokuCraft_core;
-import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigodriver;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;

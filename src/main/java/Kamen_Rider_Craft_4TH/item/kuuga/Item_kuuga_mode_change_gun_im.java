@@ -78,7 +78,7 @@ public class Item_kuuga_mode_change_gun_im extends ItemBow  implements IHasModel
 	                }else if (entityIn.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
 
 						if (entityIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_rider_driver){
-							if (item_rider_driver.get_Form_Item_tex(entityIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).getBelt()==RiderItems.arcle_u||item_rider_driver.get_Form_Item_tex(entityIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).getBelt()==RiderItems.arcle_ru)
+							if (item_rider_driver.get_Form_Item_tex(entityIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),1).getBelt()>3)
 									return 1;
 						}else{
 							return 0;

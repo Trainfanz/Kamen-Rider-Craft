@@ -5,8 +5,6 @@ import Kamen_Rider_Craft_4TH.item.ItemBaseSword;
 import Kamen_Rider_Craft_4TH.item.Item_gun;
 import Kamen_Rider_Craft_4TH.item.Item_ore;
 import Kamen_Rider_Craft_4TH.item.Item_sword_gun;
-import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigoarmor;
-import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigoarmor2;
 import Kamen_Rider_Craft_4TH.item.W.item_Wdriver;
 import Kamen_Rider_Craft_4TH.item.geats.Item_Feverslot;
 import Kamen_Rider_Craft_4TH.item.geats.Item_Raise_Buckles;

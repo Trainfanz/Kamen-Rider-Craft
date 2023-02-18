@@ -1,8 +1,6 @@
 package Kamen_Rider_Craft_4TH;
 
 import Kamen_Rider_Craft_4TH.item.Item_ore;
-import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigoarmor;
-import Kamen_Rider_Craft_4TH.item.Ichigo.item_Ichigoarmor2;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_armor;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
@@ -21,7 +19,7 @@ public class kikaiderItems {
 	public static Item kikaider_troso = new item_rider_armor("kikaider_troso",item_rider_driver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, kikaider_circuit).setCreativeTab(Tabs.tab_kikaider);
 	public static Item kikaider_legs = new item_rider_armor("kikaider_legs",item_rider_driver.class, ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, kikaider_circuit).setCreativeTab(Tabs.tab_kikaider);
 
-	public static Item kikaider_core= new Item_form_change("kikaider_core",item_rider_driver.class,ShowaRiderItems.blanknoitem,"","",
+	public static Item kikaider_core= new Item_form_change("kikaider_core",item_rider_driver.class,0,"","",
 			new PotionEffect(MobEffects.SPEED, 20, 0,true,false),
 			new PotionEffect(MobEffects.STRENGTH, 20, 0,true,false),
 			new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 2,true,false),
