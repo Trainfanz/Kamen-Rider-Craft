@@ -15,6 +15,7 @@ import Kamen_Rider_Craft_4TH.item.rider_armor_base.Item_form_change;
 import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
 import Kamen_Rider_Craft_4TH.item.zero_one.Item_progrise_keys;
 import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onedriver;
+import Kamen_Rider_Craft_4TH.model.Model_Beroba;
 import Kamen_Rider_Craft_4TH.model.Model_breaking_mammoth;
 import Kamen_Rider_Craft_4TH.model.model_belt_plus;
 import Kamen_Rider_Craft_4TH.potion.PotionCore;
@@ -47,7 +48,7 @@ public class item_desire_driver extends item_rider_driver
 			,"live","jeanne","ninja","propeller","drill","monster","beat","jet","cannon","gigant_container","poweredbuilder","jyamato","ichigo","v3","black","kuuga","agito"
 			,"ryuki","faiz","blade","hibiki","kabuto","den_o","kiva","decade","w","ooo","fourze","wizard","gaim","drive","ghost","ex_aid","build","zi_o","saber",""};
 
-	public static final String[] FormName= new String[] {"","","_raising","_jyamato","","","","","","","","","",""};
+	public static final String[] FormName= new String[] {"","","_raising","","","","","","","","","","",""};
 
 
 	public boolean CanFever = false;
@@ -94,8 +95,12 @@ public class item_desire_driver extends item_rider_driver
 			{
 
 				model_belt_plus armorModel = new model_belt_plus();
-
-
+				
+				if (stack.getItem()==ReiwaRiderItems.raise_riser_belt_beroba){
+					armorModel = new 	Model_Beroba();
+				}else{
+				}
+			
 
 				armorModel.belt=stack;
 
@@ -133,6 +138,15 @@ public class item_desire_driver extends item_rider_driver
 			return true;
 		}else{
 		return false;
+		}
+	}
+	
+	public static String is_Cracked (ItemStack itemstack)
+	{
+		if (get_lock(itemstack,"c")==1){
+			return "_jyamato";
+		}else{
+		return "";
 		}
 	}
 	
@@ -221,6 +235,13 @@ public class item_desire_driver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 50,0,true,false));
 									}
 
+									if ( Rider == "beroba"){	
+										player.setInvisible(true);
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,2,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.BIG_POTION, 1, 0,true,false));
+								}
+									
 									if ( formL=="magnum"||formR=="magnum"){	
 										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5,0,true,false));
@@ -370,7 +391,9 @@ public class item_desire_driver extends item_rider_driver
 					String forml = get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "l");
 					String formr = get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r");
 
-		
+					if (belt==ReiwaRiderItems.raise_riser_belt_beroba){
+						return Refercence.MODID+":textures/armor/blank.png";
+					}else{
 					
 					if (forml=="poweredbuilder"&rider=="seeker"){
 						forml="poweredbuilder_seeker";
@@ -384,12 +407,12 @@ public class item_desire_driver extends item_rider_driver
 					}
 					
 					if (num==12||num==13){
-						return Refercence.MODID+":textures/armor/"+rider+FormName[get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f")]+"_base_over.png";
+						return Refercence.MODID+":textures/armor/"+rider+is_Cracked(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+FormName[get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f")]+"_base_over.png";
 					}else 	if (num==2||num==5||num==3||num==6||num==8){
 						if (BaseBody) {
 							return Refercence.MODID+":textures/armor/geats_rider_base"+ext;
 						} else {
-							return Refercence.MODID+":textures/armor/"+rider+FormName[get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f")]+"_rider_base"+ext;
+							return Refercence.MODID+":textures/armor/"+rider+is_Cracked(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+FormName[get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f")]+"_rider_base"+ext;
 						}
 						
 					}else 	if (num==1||num==4||num==9||num==7){
@@ -406,7 +429,7 @@ public class item_desire_driver extends item_rider_driver
 
 					} else{
 
-
+					}
 					}
 				}else{
 					return "blank";

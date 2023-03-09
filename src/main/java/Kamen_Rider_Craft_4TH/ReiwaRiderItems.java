@@ -691,6 +691,10 @@ public class ReiwaRiderItems {
 	public static Item desire_driver_nudge_sparrow = new item_desire_driver("desire_driver_nudge_sparrow",ArmorMaterial.DIAMOND, 4, "nudge_sparrow",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item desire_driver_lopo = new item_desire_driver("desire_driver_lopo",ArmorMaterial.DIAMOND, 4, "lopo",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
+	public static Item desire_driver_seeker= new item_desire_driver("desire_driver_seeker",ArmorMaterial.DIAMOND, 4, "seeker",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_revi = new item_desire_driver("desire_driver_revi",ArmorMaterial.DIAMOND, 4, "geats_revi",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_vice = new item_desire_driver("desire_driver_vice",ArmorMaterial.DIAMOND, 4, "geats_vice",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	
 	
 	public static Item vision_driver = new item_desire_driver("vision_driver",ArmorMaterial.DIAMOND, 4, "glare",1).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item vision_driver_gazer = new item_desire_driver("vision_driver_gazer",ArmorMaterial.DIAMOND, 4, "gazer",1).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
@@ -701,9 +705,10 @@ public class ReiwaRiderItems {
 	
 	public static Item desire_driver_jyamato = new item_desire_driver("desire_driver_jyamato",ArmorMaterial.DIAMOND, 4, "jyamato",1).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
-	public static Item desire_driver_seeker= new item_desire_driver("desire_driver_seeker",ArmorMaterial.DIAMOND, 4, "seeker",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
-	public static Item desire_driver_revi = new item_desire_driver("desire_driver_revi",ArmorMaterial.DIAMOND, 4, "geats_revi",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
-	public static Item desire_driver_vice = new item_desire_driver("desire_driver_vice",ArmorMaterial.DIAMOND, 4, "geats_vice",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item raise_riser_belt_ziin = new item_desire_driver("raise_riser_belt_ziin",ArmorMaterial.DIAMOND, 4, "ziin",1).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item raise_riser_belt_beroba = new item_desire_driver("raise_riser_belt_beroba",ArmorMaterial.DIAMOND, 4, "beroba",1).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item raise_riser_belt_kekera = new item_desire_driver("raise_riser_belt_kekera",ArmorMaterial.DIAMOND, 4, "kekera",1).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item raise_riser_belt_kyuun = new item_desire_driver("raise_riser_belt_kyuun",ArmorMaterial.DIAMOND, 4, "kyuun",1).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
 	
 	public static Item magnum_raise_buckle = new Item_Raise_Buckles(1,"magnum_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
@@ -795,6 +800,8 @@ public class ReiwaRiderItems {
 	public static Item nudge_sparrow_rider_core_id = new Item_rider_core_id("nudge_sparrow_rider_core_id","nudge_sparrow").AddToMissionBox(3).setCreativeTab(Tabs.tabgeats);
 	public static Item lopo_rider_core_id = new Item_rider_core_id("lopo_rider_core_id","lopo").AddToMissionBox(3).setCreativeTab(Tabs.tabgeats);
 	public static Item seeker_rider_core_id = new Item_rider_core_id("seeker_rider_core_id","seeker").AddToMissionBox(3).setCreativeTab(Tabs.tabgeats);
+	
+	public static Item buffa_rider_core_id_cracked = new Item_rider_core_id("buffa_rider_core_id_cracked","buffa").changeCracked(1).setCreativeTab(Tabs.tabgeats);
 	
 	public static Item revi_rider_core_id = new Item_rider_core_id("revi_rider_core_id","geats_revi").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
 	public static Item vice_rider_core_id = new Item_rider_core_id("vice_rider_core_id","geats_vice").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);

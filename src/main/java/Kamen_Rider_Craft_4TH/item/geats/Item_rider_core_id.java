@@ -35,7 +35,8 @@ public class Item_rider_core_id extends Item implements IHasModel
 {
 
 	public String Name;
-
+	public int setCracked = 0;
+	
 	public Item_rider_core_id(String name,String ridrName)
 	{
 		super();
@@ -59,7 +60,11 @@ public class Item_rider_core_id extends Item implements IHasModel
 		getContainerItem();
 		return this;
 	}
-	
+	public Item_rider_core_id changeCracked(int num)
+	{
+		setCracked=num;
+		return this;
+	}
 	
 	public Item_rider_core_id AddToMissionBox(int num)
 	{
@@ -84,7 +89,8 @@ public class Item_rider_core_id extends Item implements IHasModel
 				if (belt.Rider==Name){
 					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",0);	
 					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",0);		
-					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",0);		
+					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",0);	
+					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"c",setCracked);		
 				}
 			}
 		}
