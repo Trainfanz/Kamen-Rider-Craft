@@ -17,6 +17,8 @@ import Kamen_Rider_Craft_4TH.item.zero_one.Item_progrise_keys;
 import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onedriver;
 import Kamen_Rider_Craft_4TH.model.Model_Beroba;
 import Kamen_Rider_Craft_4TH.model.Model_breaking_mammoth;
+import Kamen_Rider_Craft_4TH.model.Model_kekera;
+import Kamen_Rider_Craft_4TH.model.Model_ziin;
 import Kamen_Rider_Craft_4TH.model.model_belt_plus;
 import Kamen_Rider_Craft_4TH.potion.PotionCore;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
@@ -96,18 +98,20 @@ public class item_desire_driver extends item_rider_driver
 
 				model_belt_plus armorModel = new model_belt_plus();
 				
-				if (stack.getItem()==ReiwaRiderItems.raise_riser_belt_beroba){
+				if (stack.getItem()==ReiwaRiderItems.raise_riser_belt_kekera){
+					armorModel = new 	Model_kekera();
+				}else if (stack.getItem()==ReiwaRiderItems.raise_riser_belt_beroba){
 					armorModel = new 	Model_Beroba();
+				}else if (stack.getItem()==ReiwaRiderItems.raise_riser_belt_ziin){
+					armorModel = new 	Model_ziin();
 				}else{
 				}
 			
 
 				armorModel.belt=stack;
-
 				armorModel.isSneak = defaultModel.isSneak;
 				armorModel.isRiding = defaultModel.isRiding;
 				armorModel.isChild = defaultModel.isChild;
-
 				armorModel.swingProgress = living.swingProgress;
 				armorModel.rightArmPose = defaultModel.rightArmPose;
 				armorModel.leftArmPose = defaultModel.leftArmPose;
@@ -233,14 +237,14 @@ public class item_desire_driver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5,0,true,false));
 									}else if ( Rider == "ginpen"){	
 										player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 50,0,true,false));
-									}
-
-									if ( Rider == "beroba"){	
+									}else if ( Rider == "beroba"){	
 										player.setInvisible(true);
 										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,2,true,false));
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,2,true,false));
 										player.addPotionEffect(new PotionEffect(PotionCore.BIG_POTION, 1, 0,true,false));
-								}
+								}else if ( Rider == "kekera"){	
+									player.setInvisible(true);
+							}
 									
 									if ( formL=="magnum"||formR=="magnum"){	
 										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
@@ -391,7 +395,7 @@ public class item_desire_driver extends item_rider_driver
 					String forml = get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "l");
 					String formr = get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r");
 
-					if (belt==ReiwaRiderItems.raise_riser_belt_beroba){
+					if (belt==ReiwaRiderItems.raise_riser_belt_beroba||belt==ReiwaRiderItems.raise_riser_belt_kekera){
 						return Refercence.MODID+":textures/armor/blank.png";
 					}else{
 					
