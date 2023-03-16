@@ -713,6 +713,8 @@ public class ReiwaRiderItems {
 	
 	public static Item magnum_raise_buckle = new Item_Raise_Buckles(1,"magnum_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item boost_raise_buckle = new Item_Raise_Buckles(2,"boost_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	public static Item boost_markii_raise_buckle  = new Item_Raise_Buckles(49,"boost_markii_raise_buckle").changeForm(3).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	public static Item unite_grip  = new Item_Raise_Buckles(50,"unite_grip").changeForm(4).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
 	public static Item command_twin_buckle_jet = new Item_Raise_Buckles(0,"command_twin_buckle_jet").changeForm(2).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item command_twin_buckle_cannon = new Item_Raise_Buckles(21,"command_twin_buckle_cannon").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
@@ -743,7 +745,7 @@ public class ReiwaRiderItems {
 	public static Item zombie_breaker_raise_buckle = new Item_Raise_Buckles("zombie_breaker_raise_buckle").AddToGigantMissionBox(1).setCreativeTab(Tabs.tabgeats);
 
 		
-	public static Item jyamato_buckle = new Item_Raise_Buckles(24,"jyamato_buckle").changeForm(3).setCreativeTab(Tabs.tabgeats);
+	public static Item jyamato_buckle = new Item_Raise_Buckles(24,"jyamato_buckle").setCreativeTab(Tabs.tabgeats);
 	
 	public static Item christmas_buckle = new Item_Raise_Buckles("christmas_buckle").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
 	

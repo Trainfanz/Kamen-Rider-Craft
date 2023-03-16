@@ -48,9 +48,10 @@ public class item_desire_driver extends item_rider_driver
 
 	public static final String[] CoreName= new String[] {"entry","magnum","boost","hammer","water","arrow","shield","revice","zombie","demons","chain_array","claw","zero_one"
 			,"live","jeanne","ninja","propeller","drill","monster","beat","jet","cannon","gigant_container","poweredbuilder","jyamato","ichigo","v3","black","kuuga","agito"
-			,"ryuki","faiz","blade","hibiki","kabuto","den_o","kiva","decade","w","ooo","fourze","wizard","gaim","drive","ghost","ex_aid","build","zi_o","saber",""};
+			,"ryuki","faiz","blade","hibiki","kabuto","den_o","kiva","decade","w","ooo","fourze","wizard","gaim","drive","ghost","ex_aid","build","zi_o","saber","boost_markii"
+			,"laserboost"};
 
-	public static final String[] FormName= new String[] {"","","_raising","","","","","","","","","","",""};
+	public static final String[] FormName= new String[] {"","","_raising","_boost_markii","_laserboost","","","","","","","","",""};
 
 
 	public boolean CanFever = false;
@@ -66,7 +67,7 @@ public class item_desire_driver extends item_rider_driver
 
 	public item_desire_driver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, String rider, int driver)
 	{
-		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,ReiwaRiderItems.geatshead, ReiwaRiderItems.geatstroso, ReiwaRiderItems.geatslegs,ReiwaRiderItems.proto_vistamp);
+		super(name,par2EnumArmorMaterial,4,rider,(Item_form_change) RiderItems.keyfuestle,ReiwaRiderItems.geatshead, ReiwaRiderItems.geatstroso, ReiwaRiderItems.geatslegs,ReiwaRiderItems.blank_rider_core_id);
 		this.material = par2EnumArmorMaterial;
 		par2EnumArmorMaterial.getDamageReductionAmount(EntityEquipmentSlot.FEET);
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(EntityEquipmentSlot.FEET));
@@ -244,6 +245,7 @@ public class item_desire_driver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(PotionCore.BIG_POTION, 1, 0,true,false));
 								}else if ( Rider == "kekera"){	
 									player.setInvisible(true);
+									player.addPotionEffect(new PotionEffect(PotionCore.BIG_POTION, 1, 0,true,false));
 							}
 									
 									if ( formL=="magnum"||formR=="magnum"){	

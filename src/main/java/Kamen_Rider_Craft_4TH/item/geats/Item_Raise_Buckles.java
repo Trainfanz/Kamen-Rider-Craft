@@ -124,7 +124,19 @@ public class Item_Raise_Buckles extends Item implements IHasModel
 			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_desire_driver){
 				item_desire_driver belt = (item_desire_driver) playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem();
 
-				if (this==ReiwaRiderItems.command_twin_buckle_cannon){
+				if (this==ReiwaRiderItems.unite_grip){
+					if(belt.Rider=="geats")
+						if (playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.boost_markii_raise_buckle))){
+								item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",num2);	
+								item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",num2);		
+								item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",setBase);
+						}
+				} else if (this==ReiwaRiderItems.boost_markii_raise_buckle){
+					if(belt.Rider=="geats")
+								item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",num2);	
+								item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",num2);		
+								item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",setBase);
+				}else if (this==ReiwaRiderItems.command_twin_buckle_cannon){
 					if(belt.Rider=="geats"||belt.Rider=="tycoon"||belt.Rider=="buffa")
 						if (item_desire_driver.get_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f")==2){
 							if(handIn == EnumHand.MAIN_HAND&CanUseL){
@@ -140,7 +152,6 @@ public class Item_Raise_Buckles extends Item implements IHasModel
 					if(belt.Rider=="buffa"&item_desire_driver.is_Cracked(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="_jyamato"){
 						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",num2);	
 						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",num2);	
-						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",setBase);
 					}
 				}	else if (this==ReiwaRiderItems.command_twin_buckle_jet){
 					if(belt.Rider=="geats"||belt.Rider=="tycoon"||belt.Rider=="buffa") {
