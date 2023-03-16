@@ -63,6 +63,7 @@ public class item_desire_driver extends item_rider_driver
 	public String Rider;
 	public int DRIVER;
 
+	public String deform = "entry";
 
 
 	public item_desire_driver (String name,ArmorMaterial par2EnumArmorMaterial, int par3, String rider, int driver)
@@ -86,7 +87,13 @@ public class item_desire_driver extends item_rider_driver
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
 	}
 
-
+	public item_desire_driver SetDefaultForm(String form)
+	{
+		deform=form;
+		return this;
+	}
+	
+	
 	@Override
 	@SideOnly(Side.CLIENT)
 	@Nullable
@@ -175,7 +182,7 @@ public class item_desire_driver extends item_rider_driver
 			return((item_desire_driver)itemstack.getItem()).Rider;
 		}
 		
-		return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("seed"+string)!=0? CoreName[itemstack.getTagCompound().getInteger("seed"+string)]: "entry" : "entry";
+		return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("seed"+string)!=0? CoreName[itemstack.getTagCompound().getInteger("seed"+string)]: ((item_desire_driver)itemstack.getItem()).deform :  ((item_desire_driver)itemstack.getItem()).deform;
 	}
 
 	public static int get_lock(ItemStack itemstack,String string)

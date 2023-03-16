@@ -145,7 +145,7 @@ public class Item_Feverslot extends Item implements IHasModel
 					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",1);	
 					this.set_ammo(playerIn.getHeldItem(handIn), 0);
 					}
-				}else if(handIn == EnumHand.OFF_HAND){
+				}else if(handIn == EnumHand.OFF_HAND&belt.Rider!="jyamato"){
 					if (this.get_ammo(playerIn.getHeldItem(handIn))==200){
 						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",randForm(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET)));	
 						this.set_ammo(playerIn.getHeldItem(handIn), 0);

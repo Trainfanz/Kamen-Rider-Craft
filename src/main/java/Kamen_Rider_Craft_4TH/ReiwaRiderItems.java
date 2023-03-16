@@ -703,7 +703,7 @@ public class ReiwaRiderItems {
 	public static Item desire_driver_gm = new item_desire_driver("desire_driver_gm",ArmorMaterial.DIAMOND, 4, "gm",0).AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item desire_driver_gm_chirami = new item_desire_driver("desire_driver_gm_chirami",ArmorMaterial.DIAMOND, 4, "gm_chirami",0).AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
-	public static Item desire_driver_jyamato = new item_desire_driver("desire_driver_jyamato",ArmorMaterial.DIAMOND, 4, "jyamato",1).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_jyamato = new item_desire_driver("desire_driver_jyamato",ArmorMaterial.DIAMOND, 4, "jyamato",0).SetDefaultForm("jyamato").setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
 	public static Item raise_riser_belt_ziin = new item_desire_driver("raise_riser_belt_ziin",ArmorMaterial.DIAMOND, 4, "ziin",1).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item raise_riser_belt_beroba = new item_desire_driver("raise_riser_belt_beroba",ArmorMaterial.DIAMOND, 4, "beroba",1).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
