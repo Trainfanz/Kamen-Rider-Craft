@@ -16,6 +16,7 @@ import Kamen_Rider_Craft_4TH.item.rider_armor_base.item_rider_driver;
 import Kamen_Rider_Craft_4TH.item.zero_one.Item_progrise_keys;
 import Kamen_Rider_Craft_4TH.item.zero_one.item_zero_onedriver;
 import Kamen_Rider_Craft_4TH.model.Model_Beroba;
+import Kamen_Rider_Craft_4TH.model.Model_Kyuun;
 import Kamen_Rider_Craft_4TH.model.Model_breaking_mammoth;
 import Kamen_Rider_Craft_4TH.model.Model_kekera;
 import Kamen_Rider_Craft_4TH.model.Model_ziin;
@@ -110,13 +111,20 @@ public class item_desire_driver extends item_rider_driver
 					armorModel = new 	Model_kekera();
 				}else if (stack.getItem()==ReiwaRiderItems.raise_riser_belt_beroba){
 					armorModel = new 	Model_Beroba();
+				}else if (stack.getItem()==ReiwaRiderItems.raise_riser_belt_kyuun){
+					armorModel = new 	Model_Kyuun();
 				}else if (stack.getItem()==ReiwaRiderItems.raise_riser_belt_ziin){
 					armorModel = new 	Model_ziin();
 				}else{
 				}
-			
+				
+				ItemStack belt=stack;
+				
+				if (belt.getItem()==ReiwaRiderItems.raise_riser_belt_beroba||belt.getItem()==ReiwaRiderItems.raise_riser_belt_kekera||belt.getItem()==ReiwaRiderItems.raise_riser_belt_kyuun){
+					belt= new ItemStack(ShowaRiderItems.blanknoitem);
+				}
 
-				armorModel.belt=stack;
+				armorModel.belt=belt;
 				armorModel.isSneak = defaultModel.isSneak;
 				armorModel.isRiding = defaultModel.isRiding;
 				armorModel.isChild = defaultModel.isChild;
@@ -253,7 +261,10 @@ public class item_desire_driver extends item_rider_driver
 								}else if ( Rider == "kekera"){	
 									player.setInvisible(true);
 									player.addPotionEffect(new PotionEffect(PotionCore.BIG_POTION, 1, 0,true,false));
-							}
+							}else if ( Rider == "kyuun"){	
+								player.setInvisible(true);
+								player.addPotionEffect(new PotionEffect(PotionCore.BIG_POTION, 1, 0,true,false));
+						}
 									
 									if ( formL=="magnum"||formR=="magnum"){	
 										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
@@ -404,7 +415,7 @@ public class item_desire_driver extends item_rider_driver
 					String forml = get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET), "l");
 					String formr = get_lockbase(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r");
 
-					if (belt==ReiwaRiderItems.raise_riser_belt_beroba||belt==ReiwaRiderItems.raise_riser_belt_kekera){
+					if (belt==ReiwaRiderItems.raise_riser_belt_beroba||belt==ReiwaRiderItems.raise_riser_belt_kekera||belt==ReiwaRiderItems.raise_riser_belt_kyuun){
 						return Refercence.MODID+":textures/armor/blank.png";
 					}else{
 					
