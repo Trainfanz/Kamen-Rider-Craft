@@ -22,6 +22,7 @@ import net.minecraft.world.storage.loot.LootTableList;
 import net.minecraft.world.storage.loot.conditions.LootCondition;
 import net.minecraft.world.storage.loot.functions.LootFunction;
 import net.minecraftforge.common.DimensionManager;
+import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.event.LootTableLoadEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -65,11 +66,11 @@ public class TokuCraft_core {
 
 	@EventHandler
 	public static void init(FMLInitializationEvent event) {
-		//GameRegistry.registerWorldGenerator()
 		proxy.preInit();
 		riderBiomes.initBiomeManagerAndDictionary();
 		PotionCore.init(event);
 		Rider_VillagerProfession.associateCareersAndTrades();
+		//EnumHelper.addArt("test", "test", 16, 16, 112, 0);
 	}
 
 	@EventHandler

@@ -46,6 +46,7 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityNebulaBugsterVirus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityRidePlayer;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityRiotrooper;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.EntityShimi;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_anguis_masculus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_foundation_x_masquerade;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_ghouls;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_giff_junior;
@@ -54,6 +55,7 @@ import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_knight_soldier;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_magiadodo_chick;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_needle_smash;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_neotrooper;
+import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_pantheras_luteus;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_pawn_jyamato;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_shadow_trooper;
 import Kamen_Rider_Craft_4TH.mobs.Henchmen.Entity_trilobite_magia;
@@ -145,7 +147,11 @@ public class ClientProxyRider extends CommonProxyRider
 	public void registerRenderThings()
 	{
 		RenderingRegistry.registerEntityRenderingHandler(Entity_zu_gumun_ba.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/zu_gumun_ba.png"));
-
+		
+		RenderingRegistry.registerEntityRenderingHandler(Entity_pantheras_luteus.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/pantheras_luteus.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_anguis_masculus.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/anguis_masculus.png"));
+		
+		
 		RenderingRegistry.registerEntityRenderingHandler(EntityRiotrooper.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/riotrooper.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_orga.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/horse_orpnoch.png"));
 		

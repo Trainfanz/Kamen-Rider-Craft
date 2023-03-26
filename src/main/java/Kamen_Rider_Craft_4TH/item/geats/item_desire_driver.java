@@ -50,9 +50,12 @@ public class item_desire_driver extends item_rider_driver
 	public static final String[] CoreName= new String[] {"entry","magnum","boost","hammer","water","arrow","shield","revice","zombie","demons","chain_array","claw","zero_one"
 			,"live","jeanne","ninja","propeller","drill","monster","beat","jet","cannon","gigant_container","poweredbuilder","jyamato","ichigo","v3","black","kuuga","agito"
 			,"ryuki","faiz","blade","hibiki","kabuto","den_o","kiva","decade","w","ooo","fourze","wizard","gaim","drive","ghost","ex_aid","build","zi_o","saber","boost_markii"
-			,"laserboost"};
+			,"laserboost","ouja"};
 
 	public static final String[] FormName= new String[] {"","","_raising","_boost_markii","_laserboost","","","","","","","","",""};
+
+	public static final String[] GmName= new String[] {"","gm","gm_chirami","","","","","","","","",""};
+
 
 
 	public boolean CanFever = false;
@@ -170,6 +173,11 @@ public class item_desire_driver extends item_rider_driver
 		}
 	}
 	
+	public static String is_Hacked (ItemStack itemstack)
+	{
+			return GmName[get_lock(itemstack,"h")];
+	}
+	
 	public static int get_eftTime(ItemStack itemstack)
 	{
 		return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("eftTime") : 100;
@@ -260,10 +268,10 @@ public class item_desire_driver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(PotionCore.BIG_POTION, 1, 0,true,false));
 								}else if ( Rider == "kekera"){	
 									player.setInvisible(true);
-									player.addPotionEffect(new PotionEffect(PotionCore.BIG_POTION, 1, 0,true,false));
+									//player.addPotionEffect(new PotionEffect(PotionCore.BIG_POTION, 1, 0,true,false));
 							}else if ( Rider == "kyuun"){	
 								player.setInvisible(true);
-								player.addPotionEffect(new PotionEffect(PotionCore.BIG_POTION, 1, 0,true,false));
+								//player.addPotionEffect(new PotionEffect(PotionCore.BIG_POTION, 1, 0,true,false));
 						}
 									
 									if ( formL=="magnum"||formR=="magnum"){	
@@ -431,7 +439,12 @@ public class item_desire_driver extends item_rider_driver
 					}
 					
 					if (num==12||num==13){
+						if (get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"h")!=0){
+						return Refercence.MODID+":textures/armor/"+is_Hacked(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+"_base_over.png";
+						}
+						else{
 						return Refercence.MODID+":textures/armor/"+rider+is_Cracked(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))+FormName[get_lock(player.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f")]+"_base_over.png";
+						}
 					}else 	if (num==2||num==5||num==3||num==6||num==8){
 						if (BaseBody) {
 							return Refercence.MODID+":textures/armor/geats_rider_base"+ext;

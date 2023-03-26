@@ -31,13 +31,13 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 
-public class Item_rider_core_id extends Item implements IHasModel
+public class Item_providence_card extends Item implements IHasModel
 {
 
-	public String Name;
+	public int Name;
 	public int setCracked = 0;
 	
-	public Item_rider_core_id(String name,String ridrName)
+	public Item_providence_card(String name,int ridrName)
 	{
 		super();
 		this.setMaxDamage(0);
@@ -51,30 +51,6 @@ public class Item_rider_core_id extends Item implements IHasModel
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
 	}
-
-
-
-	public  Item_rider_core_id keep_item()
-	{
-		this.setContainerItem(this);
-		getContainerItem();
-		return this;
-	}
-	public Item_rider_core_id changeCracked(int num)
-	{
-		setCracked=num;
-		return this;
-	}
-	
-	public Item_rider_core_id AddToMissionBox(int num)
-	{
-		for (int i1 = 0; i1 < num; ++i1)
-		{
-			Item_mission_box.core_id.add(this);
-		}
-		return this;
-	}
-	
 	/**
 	 * Called when the equipped item is right clicked.
 	 */
@@ -86,12 +62,8 @@ public class Item_rider_core_id extends Item implements IHasModel
 			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_desire_driver){
 				item_desire_driver belt = (item_desire_driver) playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem();
 
-				if (belt.Rider==Name){
-					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",0);	
-					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",0);		
-					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",0);	
-					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"c",setCracked);	
-					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"h",0);	
+				if (belt.DRIVER==0){
+					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"h",Name);	
 				}
 			}
 		}

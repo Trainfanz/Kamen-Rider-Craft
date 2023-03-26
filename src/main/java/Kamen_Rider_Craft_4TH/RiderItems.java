@@ -360,6 +360,12 @@ public class RiderItems {
 
 	public static Item g1_belt = new item_agitodriver("g1_belt",ArmorMaterial.DIAMOND, 4,"g1",(Item_form_change) g1).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);	
 
+	public static Item v1 = new Item_form_change("v1",item_agitodriver.class,0,"",""
+			,new PotionEffect(MobEffects.SPEED, 5, 0,true,false)
+			,new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false)).AddToList( g_chip_programer_block.g_chip, 10).setCreativeTab(Tabs.tabagito);
+
+	public static Item v1_belt = new item_agitodriver("v1_belt",ArmorMaterial.DIAMOND, 4,"v1",(Item_form_change) v1).belt(true).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
+
 
 	public static Item agito_miracle = new Item_form_change("agito_miracle",item_agitodriver.class,0,"",""
 			,new PotionEffect(MobEffects.SPEED, 5, 4,true,false)

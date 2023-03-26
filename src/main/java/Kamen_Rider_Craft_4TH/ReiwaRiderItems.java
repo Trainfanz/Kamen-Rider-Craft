@@ -9,6 +9,7 @@ import Kamen_Rider_Craft_4TH.item.W.item_Wdriver;
 import Kamen_Rider_Craft_4TH.item.geats.Item_Feverslot;
 import Kamen_Rider_Craft_4TH.item.geats.Item_Raise_Buckles;
 import Kamen_Rider_Craft_4TH.item.geats.Item_mission_box;
+import Kamen_Rider_Craft_4TH.item.geats.Item_providence_card;
 import Kamen_Rider_Craft_4TH.item.geats.Item_rider_core_id;
 import Kamen_Rider_Craft_4TH.item.geats.item_desire_driver;
 import Kamen_Rider_Craft_4TH.item.revice.Item_Vistamps;
@@ -787,6 +788,8 @@ public class ReiwaRiderItems {
 	public static Item double_typhoon_raise_buckle = new Item_Raise_Buckles(26,"double_typhoon_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item typhoon_raise_buckle = new Item_Raise_Buckles(25,"typhoon_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
+	public static Item ouja_v_buckle_raise_buckle = new Item_Raise_Buckles(51,"ouja_v_buckle_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	
 	
 	public static Item geats_rider_core_id = new Item_rider_core_id("geats_rider_core_id","geats").AddToMissionBox(10).setCreativeTab(Tabs.tabgeats);
 	public static Item tycoon_rider_core_id = new Item_rider_core_id("tycoon_rider_core_id","tycoon").AddToMissionBox(5).setCreativeTab(Tabs.tabgeats);
@@ -809,8 +812,17 @@ public class ReiwaRiderItems {
 	public static Item vice_rider_core_id = new Item_rider_core_id("vice_rider_core_id","geats_vice").AddToMissionBox(1).setCreativeTab(Tabs.tabgeats);
 	
 	public static Item discore_id = new Item_ore("discore_id").setCreativeTab(Tabs.tabgeats);
+	
 	public static Item providence_card = new Item_ore("providence_card").setCreativeTab(Tabs.tabgeats);
+	public static Item providence_card_glare = new Item_providence_card("providence_card_glare",1).setCreativeTab(Tabs.tabgeats);
+	public static Item providence_card_glare2 = new Item_providence_card("providence_card_glare2",2).setCreativeTab(Tabs.tabgeats);
 
+	public static Item ziin_raise_riser_card = new Item_ore("ziin_raise_riser_card").setCreativeTab(Tabs.tabgeats);
+	public static Item beroba_raise_riser_card = new Item_ore("beroba_raise_riser_card").setCreativeTab(Tabs.tabgeats);
+	public static Item kekera_raise_riser_card = new Item_ore("kekera_raise_riser_card").setCreativeTab(Tabs.tabgeats);
+	public static Item kyuun_raise_riser_card = new Item_ore("kyuun_raise_riser_card").setCreativeTab(Tabs.tabgeats);
+
+	
 	public static Item bikkuri_mission_box = new Item_mission_box("bikkuri_mission_box").setCreativeTab(Tabs.tabgeats);
 	public static Item hatena_mission_box = new Item_mission_box("hatena_mission_box").setCreativeTab(Tabs.tabgeats);
 	

@@ -19,6 +19,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldType;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.world.biome.BiomeBeach;
 import net.minecraft.world.biome.BiomeDesert;
 import net.minecraft.world.biome.BiomeForest;
 import net.minecraft.world.biome.BiomeHell;
@@ -81,6 +82,8 @@ public class WorldGenCustomStructures implements IWorldGenerator
 	
 	public static final WorldGenStructure M_BUS = new WorldGenStructure("m_bus");
 	
+	public static final WorldGenStructure Overlord_OOpart = new WorldGenStructure("overlord_oopart");
+	
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
 		switch(world.provider.getDimension()) {
@@ -95,6 +98,8 @@ public class WorldGenCustomStructures implements IWorldGenerator
 				generateStructure(taddle_quest, world, random, chunkX, chunkZ,-1, 1000, Blocks.DIRT, BiomeSavanna.class);
 				generateStructure(bang_bang_shooting, world, random, chunkX, chunkZ,-1, 1000, Blocks.DIRT, BiomeForest.class);
 				generateStructure(bakusou_bike, world, random, chunkX, chunkZ,-1, 1000, Blocks.DIRT, BiomePlains.class);
+				
+				generateStructure(Overlord_OOpart, world, random, chunkX, chunkZ,-1, 100, Blocks.SAND, BiomeBeach.class);
 				
 				generateStructureFlames(GINGA, world, random, chunkX, chunkZ,1, 800, Blocks.STONE, BiomeHills.class);
 				
