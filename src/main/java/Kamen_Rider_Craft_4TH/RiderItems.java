@@ -242,17 +242,34 @@ public class RiderItems {
 
 
 	//agito
-	public static Item flame_saber_charge = new Item_ore("flame_saber_charge");
 	public static Item flame_saber = new ItemChargeSword("flame_saber",Tabs.medajalibur, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 	public static Item storm_halberd = new ItemBaseSword("storm_halberd",ToolMaterial.DIAMOND, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 
 	public static Item shining_caliber_summoned = new ItemBaseSword("shining_caliber_summoned",ToolMaterial.DIAMOND, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 	public static Item shining_caliber = new ItemBaseSword("shining_caliber",ToolMaterial.DIAMOND, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 
+	
+	public static Item guard_acceller = new ItemBaseSword("guard_acceller",Tabs.medajalibur, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
+	public static Item gm_01_scorpion = new Item_gun("gm_01_scorpion",Tabs.deltablaster, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
+// GG-02 Salamander + Scorpion
+	public static Item gs_03_destroyer = new ItemBaseSword("gs_03_destroyer",Tabs.medajalibur, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
+//	GA-04 Antoures
+//	GX-05 Kerberos 
+//	GX-05 Kerberos GX-Launcher
+	public static Item gk_06_unicorn = new ItemChargeSword("gk_06_unicorn",Tabs.medajalibur, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
+	public static Item g3_shield = new ItemBaseShield("g3_shield", RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
+	public static Item g3x_shield = new ItemBaseShield("g3x_shield", RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
+
+//	G4 Gigant
+	
+	public static Item 	v1_shot = new Item_gun("v1_shot",Tabs.deltablaster, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
+
+	
 	public static Item agitohead = new item_rider_armor("agitohead",item_agitodriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 	public static Item agitotroso = new item_rider_armor("agitotroso",item_agitodriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.CHEST, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 	public static Item agitolegs = new item_rider_armor("agitolegs",item_agitodriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.LEGS, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 
+	
 	public static Item alter_ring_gr = new Item_ore("alter_ring_gr");
 	public static Item alter_ring_fl = new Item_ore("alter_ring_fl");
 	public static Item alter_ring_st = new Item_ore("alter_ring_st");

@@ -790,7 +790,6 @@ public class ReiwaRiderItems {
 	
 	public static Item ouja_v_buckle_raise_buckle = new Item_Raise_Buckles(51,"ouja_v_buckle_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
-	
 	public static Item geats_rider_core_id = new Item_rider_core_id("geats_rider_core_id","geats").AddToMissionBox(10).setCreativeTab(Tabs.tabgeats);
 	public static Item tycoon_rider_core_id = new Item_rider_core_id("tycoon_rider_core_id","tycoon").AddToMissionBox(5).setCreativeTab(Tabs.tabgeats);
 	public static Item na_go_rider_core_id = new Item_rider_core_id("na_go_rider_core_id","na_go").AddToMissionBox(5).setCreativeTab(Tabs.tabgeats);
