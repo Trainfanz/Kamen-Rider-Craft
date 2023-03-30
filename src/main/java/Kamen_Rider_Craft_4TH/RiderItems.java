@@ -253,7 +253,7 @@ public class RiderItems {
 	public static Item gm_01_scorpion = new Item_gun("gm_01_scorpion",Tabs.deltablaster, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 // GG-02 Salamander + Scorpion
 	public static Item gs_03_destroyer = new ItemBaseSword("gs_03_destroyer",Tabs.medajalibur, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
-//	GA-04 Antoures
+	public static Item ga_04_antares = new ItemBaseSword("ga_04_antares",Tabs.medajalibur, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 //	GX-05 Kerberos 
 //	GX-05 Kerberos GX-Launcher
 	public static Item gk_06_unicorn = new ItemChargeSword("gk_06_unicorn",Tabs.medajalibur, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
@@ -263,6 +263,8 @@ public class RiderItems {
 //	G4 Gigant
 	
 	public static Item 	v1_shot = new Item_gun("v1_shot",Tabs.deltablaster, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
+
+	public static Item judgment_staff = new ItemBaseSword("judgment_staff",ToolMaterial.DIAMOND, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 
 	
 	public static Item agitohead = new item_rider_armor("agitohead",item_agitodriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);

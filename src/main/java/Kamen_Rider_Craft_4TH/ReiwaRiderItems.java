@@ -2,6 +2,7 @@ package Kamen_Rider_Craft_4TH;
 
 import Kamen_Rider_Craft_4TH.item.ItemBaseShield;
 import Kamen_Rider_Craft_4TH.item.ItemBaseSword;
+import Kamen_Rider_Craft_4TH.item.Item_Beltpart;
 import Kamen_Rider_Craft_4TH.item.Item_gun;
 import Kamen_Rider_Craft_4TH.item.Item_ore;
 import Kamen_Rider_Craft_4TH.item.Item_sword_gun;
@@ -826,6 +827,10 @@ public class ReiwaRiderItems {
 	public static Item hatena_mission_box = new Item_mission_box("hatena_mission_box").setCreativeTab(Tabs.tabgeats);
 	
 	public static Item gigant_mission_box = new Item_mission_box("gigant_mission_box").setCreativeTab(Tabs.tabgeats);
+	
+	public static Item desire_driver_parts = new Item_Beltpart("desire_driver_parts");
+	public static Item desire_driver_parts_r = new Item_Beltpart("desire_driver_parts_r");
+	
 	
 	public static void init() {
 	}

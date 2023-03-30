@@ -212,6 +212,8 @@ public class mobsCore {
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":AnguisMasculusMob"),Entity_anguis_masculus.class, "AnguisMasculusMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x445a94, 0xceb42b);
 		EntityRegistry.addSpawn(Entity_anguis_masculus.class,  15, 1, 4, EnumCreatureType.MONSTER,Biome.getBiome(8));
 
+		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":AnotherAgitoMob"),Entity_AnotherAgito.class, "AnotherAgitoMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0x273d31, 0x131313);
+		
 		
 		EntityRegistry.registerModEntity(new  ResourceLocation(Refercence.MODID+":RiotrooperMob"),EntityRiotrooper.class, "RiotrooperMob", newMobID(), TokuCraft_core.instance, 80, 3, false,0xf1c192, 0x854303);
 		EntityRegistry.addSpawn(EntityRiotrooper.class,  15, 1, 4, EnumCreatureType.MONSTER,Biome.getBiome(8));

@@ -123,10 +123,19 @@ public class item_desire_driver extends item_rider_driver
 				
 				ItemStack belt=stack;
 				
+				
+				
 				if (belt.getItem()==ReiwaRiderItems.raise_riser_belt_beroba||belt.getItem()==ReiwaRiderItems.raise_riser_belt_kekera||belt.getItem()==ReiwaRiderItems.raise_riser_belt_kyuun){
 					belt= new ItemStack(ShowaRiderItems.blanknoitem);
 				}
-
+				ItemStack belt2= new ItemStack(ReiwaRiderItems.desire_driver_parts);
+				set_lock(belt2,"part",get_lock(stack, "l"));
+				armorModel.belt2=belt2;
+				
+				ItemStack belt3= new ItemStack(ReiwaRiderItems.desire_driver_parts_r);
+				set_lock(belt3,"part",get_lock(stack, "r"));
+				armorModel.belt3=belt3;
+				
 				armorModel.belt=belt;
 				armorModel.isSneak = defaultModel.isSneak;
 				armorModel.isRiding = defaultModel.isRiding;

@@ -150,6 +150,7 @@ public class ClientProxyRider extends CommonProxyRider
 		
 		RenderingRegistry.registerEntityRenderingHandler(Entity_pantheras_luteus.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/pantheras_luteus.png"));
 		RenderingRegistry.registerEntityRenderingHandler(Entity_anguis_masculus.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/anguis_masculus.png"));
+		RenderingRegistry.registerEntityRenderingHandler(Entity_AnotherAgito.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/anguis_masculus.png"));
 		
 		
 		RenderingRegistry.registerEntityRenderingHandler(EntityRiotrooper.class, new RenderRiderMob2(new ModelBiped(), 0.5F,"textures/entities/riotrooper.png"));
