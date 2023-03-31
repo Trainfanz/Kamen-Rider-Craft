@@ -745,6 +745,7 @@ public class ReiwaRiderItems {
 	public static Item magnum_shooter_40x_raise_buckle = new Item_Raise_Buckles("magnum_shooter_40x_raise_buckle").AddToGigantMissionBox(1).setCreativeTab(Tabs.tabgeats);
 	public static Item ninja_dueler_raise_buckle = new Item_Raise_Buckles("ninja_dueler_raise_buckle").AddToGigantMissionBox(1).setCreativeTab(Tabs.tabgeats);
 	public static Item zombie_breaker_raise_buckle = new Item_Raise_Buckles("zombie_breaker_raise_buckle").AddToGigantMissionBox(1).setCreativeTab(Tabs.tabgeats);
+	public static Item beat_axe_raise_buckle = new Item_Raise_Buckles("beat_axe_raise_buckle").AddToGigantMissionBox(1).setCreativeTab(Tabs.tabgeats);
 
 		
 	public static Item jyamato_buckle = new Item_Raise_Buckles(24,"jyamato_buckle").setCreativeTab(Tabs.tabgeats);
@@ -790,6 +791,9 @@ public class ReiwaRiderItems {
 	public static Item typhoon_raise_buckle = new Item_Raise_Buckles(25,"typhoon_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
 	public static Item ouja_v_buckle_raise_buckle = new Item_Raise_Buckles(51,"ouja_v_buckle_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	
+	public static Item king_ohger_raise_buckle = new Item_Raise_Buckles("king_ohger_raise_buckle").setCreativeTab(Tabs.tabgeats);
+
 	
 	public static Item geats_rider_core_id = new Item_rider_core_id("geats_rider_core_id","geats").AddToMissionBox(10).setCreativeTab(Tabs.tabgeats);
 	public static Item tycoon_rider_core_id = new Item_rider_core_id("tycoon_rider_core_id","tycoon").AddToMissionBox(5).setCreativeTab(Tabs.tabgeats);

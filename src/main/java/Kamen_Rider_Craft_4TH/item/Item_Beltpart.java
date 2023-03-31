@@ -36,7 +36,6 @@ public class Item_Beltpart extends Item implements IHasModel
             @SideOnly(Side.CLIENT)
             public float apply(ItemStack stack, @Nullable World worldIn, @Nullable EntityLivingBase entityIn)
             {
-            	//return stack.getTagCompound().getInteger("bletpart")
             	if (!stack.hasTagCompound())
         		{
             		return 0;
