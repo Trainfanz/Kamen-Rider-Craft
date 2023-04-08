@@ -79,7 +79,6 @@ public class RiderBlocks {
 	public static Block door_kamiyama = new BlockCustomDoor("door_kamiyama").setHardness(1F).setCreativeTab(Tabs.tabdecor);
 	
 	
-	
 	public static Block denliner_interior = CustomBlock.builder().material(Material.ROCK).hardness(1F).blockType(BlockType.BASIC).name("denliner_interior").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block denliner_interior_darker = CustomBlock.builder().material(Material.ROCK).hardness(1F).blockType(BlockType.BASIC).name("denliner_interior_darker").setCreativeTabe(Tabs.tabdecor).build();
 	public static Block denliner_interior_with_line = CustomBlock.builder().material(Material.ROCK).hardness(1F).blockType(BlockType.BASIC).name("denliner_interior_with_line").setCreativeTabe(Tabs.tabdecor).build();

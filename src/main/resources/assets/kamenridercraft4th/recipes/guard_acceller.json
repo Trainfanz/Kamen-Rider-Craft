@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "g3",
+  "pattern": [
+    "RIR",
+    "RGR",
+    "RCR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:IRON_INGOT"
+      }, "I": {
+      "item": "kamenridercraft4th:g3"
+    }, "G": {
+      "item": "kamenridercraft4th:base_sword"
+    }, "C": {
+      "item": "kamenridercraft4th:rider_circuit"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:guard_acceller"
+  }
+}

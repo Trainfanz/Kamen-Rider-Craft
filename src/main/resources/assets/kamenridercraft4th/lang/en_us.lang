@@ -413,6 +413,9 @@ tile.sword_of_logos_arch.name=Sword of Logos Arch
 tile.sword_of_logos_wood_trim.name=Sword of Logos Trimmed Wooden Block
 tile.planks_brown.name=Wooden Planks
 
+tile.overlord_oopart.name=Overlord's Out-of-place Artifact Block
+tile.overlord_oopart2.name=Overlord's Out-of-place Artifact Block
+
 tile.denliner_interior.name=Denliner Interior
 tile.denliner_interior_darker.name=Denliner Interior (Dark)
 tile.denliner_interior_with_line.name=Denliner Interior (Line)
@@ -1026,6 +1029,7 @@ item.genesis_driver_sigurd.name=Genesis Driver (Sigurd)
 item.genesis_driver_marika.name=Genesis Driver (Marika)
 item.genesis_driver_baron.name=Genesis Driver (Baron)
 item.genesis_driver_kurokage_shin.name=Genesis Driver (Kurokage Shin)
+item.genesis_driver_ryugen.name=Genesis Driver (Ryugen)
 
 item.matsubokkuri_lockseed.name=Matsubokkuri Lockseed
 item.kurumi_lockseed.name=Kurumi Lockseed
@@ -1340,7 +1344,9 @@ item.nadeshiko_switch.name=Nadeshiko Switch
 item.ride_saber.name=Ride Saber
 item.drag_saber.name=Drag Saber
 item.drag_claw.name=Drag Claw
-item.drag_visor_zwei.name=Drag Visor Zwei
+item.drag_visor_zwei.name=Dragvisorzwei
+
+item.veno_visor_zwei.name=Venovisorzwei
 
 item.wing_lancer.name=Wing Lancer
 item.dark_blade.name=Dark Blade
@@ -1429,8 +1435,9 @@ item.wing_lancer_vent.name=Wing Lancer Sword Vent
 item.dark_blade_vent.name=Dark Blade Sword Vent
 item.veno_saber_vent.name=Veno Saber Sword Vent
 item.wing_slasher_vent.name=Wing Slasher Sword Vent
-item.gold_sabers_vent.name=Gold Sabers Sword Vent
-    
+item.gold_sabers_vent.name=Gold Sabers Sword Vent  
+item.veno_visor_zwei_sword_mode_vent.name=Venovisorzwei Sword Vent
+
 item.abyss_saber_vent.name=Abyss Saber Sword Vent
 item.alternative_sword_vent.name=Alternative Sword Vent
 
@@ -1780,6 +1787,20 @@ item.kuuga_ultimate.name=Kuuga Ultimate
 item.kuuga_rising_ultimate.name=Kuuga Rising Ultimate
 item.kuuga_super_rising_ultimate.name=Kuuga Super Rising Ultimate
 
+    
+item.guard_acceller.name=Guardacceler
+item.gm_01_scorpion.name=GM-01 Scorpion
+item.gg_02_salamander.name=GM-01 Scorpion + GG-02 Salamander
+item.gs_03_destroyer.name=GS-03 Destroyer
+item.ga_04_antares.name=GA-04 Antoures
+item.gx_05_kerberos.name=GX-05 Kerberos
+item.gx_launcher.name=GX-Launcher
+item.gk_06_unicorn.name=GK-06 Unicorn
+item.g3_shield.name=G3 Shield
+item.g3x_shield.name=G3-X Shield
+item.g4_gigant.name=G4 Gigant
+item.v1_shot.name=V-1 Shot
+item.judgment_staff.name=Judgment Staff
 
 item.agitohead.name=Agito Helmet
 item.agitotroso.name=Agito Chestplate
@@ -1801,6 +1822,8 @@ item.g4_x_belt.name=G4-X Belt
 
 item.g1_belt.name=G1 Belt
 
+item.v1_belt.name=V-1 Belt
+
 item.agito_ground.name=Agito Ground
 item.agito_storm.name=Agito Storm
 item.agito_flame.name=Agito Flame
@@ -1817,6 +1840,8 @@ item.g3x.name=G3-X Chip
 item.g3mild.name=G3 Mild Chip
 item.g4.name=G4 Chip
 item.g4x.name=G4-X Chip
+
+item.v1.name=V-1 Chip
 
 item.another_agito.name=Another Agito
 item.agito_miracle.name=Agito Miracle
@@ -2727,6 +2752,7 @@ item.another_faiz_driver.name=Another Faiz Driver
 item.ziku_driver_tsukuyomi.name=Ziku Driver (Tsukuyomi)
 item.another_w_driver.name=Another W Driver
 item.another_shinobi_driver.name=Another Shinobi Driver
+item.another_altering.name=Another Altering
 
 item.unfinished_ohma_zi_o_driver_1.name=Unfinished Ohma Ziku Driver Part
 item.unfinished_ohma_zi_o_driver_2.name=Unfinished Ohma Ziku Driver Part
@@ -3263,6 +3289,7 @@ item.neo_batta_vistamp.name=Neo Batta Vistamp
 item.kangaroo_vistamp.name=Kangaroo Vistamp
 item.bat_vistamp.name=Bat Vistamp
 item.spider_vistamp.name=Spider Vistamp
+item.giant_spider_vistamp.name=Giant Spider Vistamp
 item.batta_vistamp.name=Batta Vistamp
 item.mogura_vistamp.name=Mogura Vistamp
 item.scorpion_vistamp.name=Scorpion Vistamp
@@ -3458,17 +3485,24 @@ item.desire_driver_seeker.name=Desire Driver(Seeker)
 item.desire_driver_revi.name=Desire Driver(Revi)
 item.desire_driver_vice.name=Desire Driver(Vice)
 
+item.raise_riser_belt_ziin.name=Raise Riser Belt (Ziin)
+item.raise_riser_belt_beroba.name=Raise Riser Belt (Beroba)
+item.raise_riser_belt_kekera.name=Raise Riser Belt (Kekera)
+item.raise_riser_belt_kyuun.name=Raise Riser Belt (Kyuun)
+
 
 item.desire_driver_jyamato.name=Desire Driver(Jyamato)
-item.desire_driver_gm.name=Desire Driver(GM)
-item.desire_driver_gm_chirami.name=Desire Driver(GM)
+item.desire_driver_gm.name=Desire Driver (GM)
+item.desire_driver_gm_chirami.name=Desire Driver (GM)
 item.vision_driver.name=Vision Driver (Glare)
 item.vision_driver_gazer.name=Vision Driver (Gazer)
-item.vision_driver_chirami.name=Vision Driver (Glare 2)
+item.vision_driver_chirami.name=Vision Driver (Glare2)
 
 item.magnum_raise_buckle.name=Magnum Buckle
 item.boost_raise_buckle.name=Boost Buckle
-   
+item.boost_markii_raise_buckle.name=Boost MarkII Buckle
+item.unite_grip.name=Unite Grip
+
 item.zombie_raise_buckle.name=Zombie Buckle
 item.ninja_raise_buckle.name=Ninja Buckle
 item.monster_raise_buckle.name=Monster Buckle
@@ -3487,6 +3521,7 @@ item.gigant_container_buckle.name=Gigant Container Buckle
 item.magnum_shooter_40x_raise_buckle.name=Magnum Shooter 40X Buckle
 item.ninja_dueler_raise_buckle.name=Ninja Dueler Buckle
 item.zombie_breaker_raise_buckle.name=Zombie Breaker Buckle
+item.beat_axe_raise_buckle.name=Beat Axe Buckle
  
 item.hammer_raise_buckle.name=Hammer Buckle
 item.water_raise_buckle.name=Water Buckle
@@ -3539,7 +3574,9 @@ item.king_stone_raise_buckle.name=Kingstone Buckle
 item.double_typhoon_raise_buckle.name=Double Typhoon Buckle
 item.typhoon_raise_buckle.name=Typhoon Buckle
     
-    
+item.ouja_v_buckle_raise_buckle.name=V Buckle Buckle (Ouja)
+
+item.king_ohger_raise_buckle.name=King-Ohger Buckle
 item.blank_rider_core_id.name=Blank Rider Core ID
 
 item.geats_rider_core_id.name=Kamen Rider Geats Core ID
@@ -3559,8 +3596,17 @@ item.seeker_rider_core_id.name=Kamen Rider Seeker Core ID
 item.revi_rider_core_id.name=Kamen Rider Revi Core ID   
 item.vice_rider_core_id.name=Kamen Rider Vice Core ID   
   
+item.buffa_rider_core_id_cracked.name=Kamen Rider Buffa Core ID (Cracked)
+  
 item.discore_id.name=DisCore ID
-item.providence_card.name=Providence Card
+item.providence_card.name=Providence Card (Gazer)
+item.providence_card_glare.name=Providence Card (Glare)
+item.providence_card_glare2.name=Providence Card (Glare2)
+
+item.ziin_raise_riser_card.name=Raise Riser Card (Ziin)
+item.beroba_raise_riser_card.name=Raise Riser Card (Beroba)
+item.kekera_raise_riser_card.name=Raise Riser Card (Kekera)
+item.kyuun_raise_riser_card.name=Raise Riser Card (Kyuun)
 
 item.bikkuri_mission_box.name=Bikkuri Mission Box
 item.hatena_mission_box.name=Hatena Mission Box

@@ -712,7 +712,6 @@ public class ReiwaRiderItems {
 	public static Item raise_riser_belt_kekera = new item_desire_driver("raise_riser_belt_kekera",ArmorMaterial.DIAMOND, 4, "kekera",1).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item raise_riser_belt_kyuun = new item_desire_driver("raise_riser_belt_kyuun",ArmorMaterial.DIAMOND, 4, "kyuun",1).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
-	
 	public static Item magnum_raise_buckle = new Item_Raise_Buckles(1,"magnum_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item boost_raise_buckle = new Item_Raise_Buckles(2,"boost_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item boost_markii_raise_buckle  = new Item_Raise_Buckles(49,"boost_markii_raise_buckle").changeForm(3).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
