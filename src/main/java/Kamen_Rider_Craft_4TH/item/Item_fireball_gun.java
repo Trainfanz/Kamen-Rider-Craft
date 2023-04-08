@@ -121,9 +121,9 @@ public class Item_fireball_gun extends ItemBow  implements IHasModel
 
 					fireball.setPosition(playerIn.posX + look.x * 1.6,playerIn.posY + 1,playerIn.posZ + look.z * 1.6);
 
-					fireball.motionX = look.x*3;
-					fireball.motionY = look.y*3;
-					fireball.motionZ = look.z*3;
+					fireball.accelerationX = look.x*3;
+					fireball.accelerationY = look.y*3;
+					fireball.accelerationZ = look.z*3;
 					
 
 					worldIn.spawnEntity(fireball);

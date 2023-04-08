@@ -297,13 +297,13 @@
             "predicate": {
                 "form": 49
             },
-            "model": "kamenridercraft4th:item/desire_driver_boost_markii_r"
+            "model": "kamenridercraft4th:item/blanknoitem"
         },
          {
             "predicate": {
                 "form": 50
             },
-            "model": "kamenridercraft4th:item/desire_driver_laserboost_r"
+            "model": "kamenridercraft4th:item/blanknoitem"
         },
          {
             "predicate": {

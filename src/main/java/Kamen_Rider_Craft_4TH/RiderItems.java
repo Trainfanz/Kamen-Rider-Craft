@@ -251,16 +251,16 @@ public class RiderItems {
 	
 	public static Item guard_acceller = new ItemBaseSword("guard_acceller",Tabs.medajalibur, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 	public static Item gm_01_scorpion = new Item_gun("gm_01_scorpion",Tabs.deltablaster, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
-// GG-02 Salamander + Scorpion
+	public static Item gg_02_salamander = new Item_fireball_gun("gg_02_salamander",Tabs.deltablaster, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 	public static Item gs_03_destroyer = new ItemBaseSword("gs_03_destroyer",Tabs.medajalibur, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 	public static Item ga_04_antares = new ItemBaseSword("ga_04_antares",Tabs.medajalibur, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
-//	GX-05 Kerberos 
-//	GX-05 Kerberos GX-Launcher
+	public static Item gx_05_kerberos = new Item_gatling_gun("gx_05_kerberos",Tabs.deltablaster, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
+	public static Item gx_launcher = new Item_Large_fireball_gun("gx_launcher",Tabs.deltablaster, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 	public static Item gk_06_unicorn = new ItemChargeSword("gk_06_unicorn",Tabs.medajalibur, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 	public static Item g3_shield = new ItemBaseShield("g3_shield", RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 	public static Item g3x_shield = new ItemBaseShield("g3x_shield", RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 
-//	G4 Gigant
+	public static Item g4_gigant = new Item_Large_fireball_gun("g4_gigant",Tabs.deltablaster, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 	
 	public static Item 	v1_shot = new Item_gun("v1_shot",Tabs.deltablaster, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 
@@ -2391,6 +2391,9 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item genesis_driver_kurokage_shin = new item_Gaimdriver("genesis_driver_kurokage_shin",ArmorMaterial.DIAMOND, 4, 3,"kurokage_shin","energy_matsubokkuri_arms",1,sengoku_driver_matsubokkuri_energy).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
 	public static Item genesis_driver_tyrant = new item_Gaimdriver("genesis_driver_tyrant",ArmorMaterial.DIAMOND, 4, 3,"tyrant","energy_prototype_dragon_fruits_arms",1,sengoku_driver_dragon_fruits_energy).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
 
+	public static Item genesis_driver_ryugen = new item_Gaimdriver("genesis_driver_ryugen",ArmorMaterial.DIAMOND, 4, 3,"ryugen_shin","energy_melon_arms",1,sengoku_driver_melon_energy).setMaxStackSize(1).setCreativeTab(Tabs.tabGaim);
+	
+	
 	public static Item matsubokkuri_lockseed = new Item_lockseed(1,1,"matsubokkuri_lockseed").AddlockseedToHelheimVine(20).setCreativeTab(Tabs.tabGaim);
 	public static Item kurumi_lockseed = new Item_lockseed(1,2,"kurumi_lockseed").AddlockseedToHelheimVine(20).setCreativeTab(Tabs.tabGaim);
 	public static Item donguri_lockseed = new Item_lockseed(1,3,"donguri_lockseed").AddlockseedToHelheimVine(20).setCreativeTab(Tabs.tabGaim);
