@@ -147,7 +147,7 @@
             "predicate": {
                 "form": 24
             },
-            "model": "kamenridercraft4th:item/desire_driver_jyamato_buckle"
+            "model": "kamenridercraft4th:item/desire_driver_jyamato_buckle_r"
         },
          {
             "predicate": {
@@ -310,6 +310,12 @@
                 "form": 51
             },
             "model": "kamenridercraft4th:item/desire_driver_ouja_r"
+        },
+         {
+            "predicate": {
+                "form": 100
+            },
+            "model": "kamenridercraft4th:item/desire_driver_fever_slot_r"
         }
     ]
 }

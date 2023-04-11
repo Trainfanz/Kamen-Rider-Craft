@@ -129,11 +129,27 @@ public class item_desire_driver extends item_rider_driver
 					belt= new ItemStack(ShowaRiderItems.blanknoitem);
 				}
 				ItemStack belt2= new ItemStack(ReiwaRiderItems.desire_driver_parts);
+				
+				if (get_lock(stack, "l")==24&get_lock(stack, "r")==24){
+					set_lock(belt2,"part",0);
+				}else	if (get_lock(stack, "f")==2&get_lock(stack, "l")==0){
+					set_lock(belt2,"part",20);
+				}else	if (get_lock(stack, "f")==1){
+					set_lock(belt2,"part",100);
+				}else{
 				set_lock(belt2,"part",get_lock(stack, "l"));
+				}
+				
 				armorModel.belt2=belt2;
 				
 				ItemStack belt3= new ItemStack(ReiwaRiderItems.desire_driver_parts_r);
+		
+				if (get_lock(stack, "f2")==1){
+					set_lock(belt3,"part",100);
+				}else{
 				set_lock(belt3,"part",get_lock(stack, "r"));
+				}
+				
 				armorModel.belt3=belt3;
 				
 				armorModel.belt=belt;
