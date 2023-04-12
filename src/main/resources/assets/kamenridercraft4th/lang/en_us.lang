@@ -73,6 +73,11 @@ entity.Villager.humagear_villager=Humagear Villager
 
 entity.ZuGumunBaMob.name=Zu-Gumun-Ba
 
+entity.PantherasLuteusMob.name=Pantheras Luteus
+entity.AnguisMasculusMob.name=Anguis Masculus
+entity.ElOfTheWaterMob.name=El of the Water
+entity.AnotherAgitoMob.name=Kamen Rider Another Agito
+
 entity.TakaCanMob.name=Taka Candroid
 entity.TakoCanMob.name=Tako Candroid
 entity.BattaCanMob.name=Batta Candroid
@@ -1801,6 +1806,7 @@ item.g3x_shield.name=G3-X Shield
 item.g4_gigant.name=G4 Gigant
 item.v1_shot.name=V-1 Shot
 item.judgment_staff.name=Judgment Staff
+item.el_of_the_water_staff.name=El of the Water Staff
 
 item.agitohead.name=Agito Helmet
 item.agitotroso.name=Agito Chestplate

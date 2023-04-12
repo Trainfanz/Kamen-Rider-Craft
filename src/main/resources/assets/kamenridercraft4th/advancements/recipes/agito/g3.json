@@ -2,7 +2,13 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "kamenridercraft4th:g3_belt"
+      "kamenridercraft4th:g3_belt",
+      "kamenridercraft4th:guard_acceller",
+      "kamenridercraft4th:gm_01_scorpion",
+      "kamenridercraft4th:gg_02_salamander",
+      "kamenridercraft4th:gs_03_destroyer",
+      "kamenridercraft4th:ga_04_antares",
+      "kamenridercraft4th:g3_shield"
     ]
   },
   "criteria": {

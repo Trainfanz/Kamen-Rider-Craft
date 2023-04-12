@@ -11,9 +11,11 @@ import Kamen_Rider_Craft_4TH.blocks.vistamp_bar;
 import Kamen_Rider_Craft_4TH.blocks.zaia_3d_printing;
 import Kamen_Rider_Craft_4TH.blocks.wood.BlockHelheimVine;
 import Kamen_Rider_Craft_4TH.item.Item_ore;
+import Kamen_Rider_Craft_4TH.item.fourze.Item_astroswitch;
 import Kamen_Rider_Craft_4TH.item.saber.Item_wonder_ride_book;
 import Kamen_Rider_Craft_4TH.item.zero_one.Item_progrise_keys;
 import Kamen_Rider_Craft_4TH.util.IHasModel;
+import Kamen_Rider_Craft_4TH.util.Refercence;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
@@ -21,11 +23,13 @@ import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.IItemPropertyGetter;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
@@ -64,6 +68,12 @@ public class Item_Raise_Buckles extends Item implements IHasModel
 
 	}
 
+	public Item_Raise_Buckles AddLegendCrafting(Item Thing)
+	{
+		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID,"raise_buckles_and_"+Thing.getTranslationKey()),new ResourceLocation(Refercence.MODID,"raise_buckles"),new ItemStack(this), new Ingredient[]{Ingredient.fromItem(ReiwaRiderItems.hatena_mission_box),Ingredient.fromItem(Thing)});			
+		return this;
+	}
+	
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");

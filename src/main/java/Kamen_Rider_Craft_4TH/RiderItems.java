@@ -265,6 +265,7 @@ public class RiderItems {
 	public static Item 	v1_shot = new Item_gun("v1_shot",Tabs.deltablaster, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 
 	public static Item judgment_staff = new ItemBaseSword("judgment_staff",ToolMaterial.DIAMOND, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
+	public static Item el_of_the_water_staff = new ItemBaseSword("el_of_the_water_staff",ToolMaterial.DIAMOND, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);
 
 	
 	public static Item agitohead = new item_rider_armor("agitohead",item_agitodriver.class,ArmorMaterial.DIAMOND, 4, EntityEquipmentSlot.HEAD, RiderItems.agito_of_seed).setMaxStackSize(1).setCreativeTab(Tabs.tabagito);

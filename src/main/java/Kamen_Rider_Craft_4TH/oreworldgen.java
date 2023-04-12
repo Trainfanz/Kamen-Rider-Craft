@@ -173,15 +173,6 @@ public class oreworldgen implements IWorldGenerator
 			int randPosZ = chunkZ + rand.nextInt(16);
 			// 10 blocks per vein
 			BlockPos position = new BlockPos(randPosX, randPosY, randPosZ);
-			(new WorldGenMinable(RiderItems.stone_agito.getDefaultState(), 10)).generate(world, rand,position);
-		}for (int i = 0; i < 4; i++)
-		{
-			//16x16 area up to y = 64
-			int randPosX = chunkX + rand.nextInt(16);
-			int randPosY = rand.nextInt(60);
-			int randPosZ = chunkZ + rand.nextInt(16);
-			// 10 blocks per vein
-			BlockPos position = new BlockPos(randPosX, randPosY, randPosZ);
 			(new WorldGenMinable(RiderItems.advent_glass.getDefaultState(), 10)).generate(world, rand,position);
 		}
 		for (int i = 0; i < 4; i++)

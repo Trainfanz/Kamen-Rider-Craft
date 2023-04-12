@@ -2,7 +2,11 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "kamenridercraft4th:g3_x_belt"
+      "kamenridercraft4th:g3_x_belt",
+      "kamenridercraft4th:gx_05_kerberos",
+      "kamenridercraft4th:gx_launcher",
+      "kamenridercraft4th:gk_06_unicorn",
+      "kamenridercraft4th:g3x_shield"
     ]
   },
   "criteria": {

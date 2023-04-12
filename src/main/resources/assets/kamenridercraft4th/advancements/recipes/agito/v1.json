@@ -2,7 +2,8 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "kamenridercraft4th:v1_belt"
+      "kamenridercraft4th:v1_belt",
+      "kamenridercraft4th:v1_shot"
     ]
   },
   "criteria": {
