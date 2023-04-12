@@ -205,16 +205,7 @@ public class item_ghostdriver extends item_rider_driver
 										}
 
 										if (this.get_lock(armor)==Item_ghost_Icons.ARMS[1]){
-											if (player.isSneaking()){
-												if(item_OOOdriver.get_eftTime(armor)==100){
-													Vec3d look = player.getLookVec();
-													world.spawnEntity(new EntityLightningBolt(world,  player.posX + look.x * 8,  -1 + player.posY + look.y * 5,  player.posZ + look.z * 8, false));
-
-													armor.damageItem(2, player);
-													item_OOOdriver.set_eftTime(armor,0);
-												}
-
-											}
+											
 										}else if (this.get_lock(armor)==Item_ghost_Icons.ARMS[2]){
 											player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 10,true,false));									
 										}else if (this.get_lock(armor)==Item_ghost_Icons.ARMS[3]){

@@ -293,10 +293,12 @@ public class item_desire_driver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(PotionCore.BIG_POTION, 1, 0,true,false));
 								}else if ( Rider == "kekera"){	
 									player.setInvisible(true);
-									//player.addPotionEffect(new PotionEffect(PotionCore.BIG_POTION, 1, 0,true,false));
+									player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,2,true,false));
+									player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,2,true,false));
 							}else if ( Rider == "kyuun"){	
 								player.setInvisible(true);
-								//player.addPotionEffect(new PotionEffect(PotionCore.BIG_POTION, 1, 0,true,false));
+								player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 25,2,true,false));
+								player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 25,2,true,false));
 						}
 									
 									if ( formL=="magnum"||formR=="magnum"){	
@@ -338,7 +340,6 @@ public class item_desire_driver extends item_rider_driver
 
 									}
 									if ( formL=="zero_one"||formR=="zero_one"){	
-
 										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,3,true,false));
 									}
 									if ( formL=="live"||formR=="live"){	
@@ -406,22 +407,125 @@ public class item_desire_driver extends item_rider_driver
 										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 3,true,false));
 									}
 									if ( formL=="ichigo"||formR=="ichigo"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED,20, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false));
 									}
-									if ( formL==""||formR==""){	
+									if ( formL=="v3"||formR=="v3"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,20, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,20, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED,20, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST,20, 2,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false));
+										
 									}
-									if ( formL==""||formR==""){	
+									if ( formL=="black"||formR=="black"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 20, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE,20, 1,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 20, 4,true,false));	
 									}
-									if ( formL==""||formR==""){	
+									if ( formL=="kuuga"||formR=="kuuga"){	
+										player.addPotionEffect(new PotionEffect(PotionCore.PUNCH_BOOST_POTION, 5, 4,true,false));
 									}
-									if ( formL==""||formR==""){	
+									if ( formL=="agito"||formR=="agito"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));	
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));
 									}
-									if ( formL==""||formR==""){	
+									if ( formL=="ryuki"||formR=="ryuki"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));	
+										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));	
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));	
 									}
-									if ( formL==""||formR==""){	
+									if ( formL=="faiz"||formR=="faiz"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));	
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));	
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 5, 0,true,false));	
 									}
-									if ( formL==""||formR==""){	
+									if ( formL=="blade"||formR=="blade"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));	
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));	
 									}
-									if ( formL==""||formR==""){	
+									if ( formL=="hibiki"||formR=="hibiki"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));	
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));	
+									}
+									if ( formL=="kabuto"||formR=="kabuto"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 3,true,false));	
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 3,true,false));	
+									}
+									if ( formL=="den_o"||formR=="den_o"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+									}
+									if ( formL=="kiva"||formR=="kiva"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));	
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));	
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));	
+									}
+									if ( formL=="decade"||formR=="decade"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+									}
+									if ( formL=="w"||formR=="w"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 1,true,false));
+									}
+									if ( formL=="ooo"||formR=="ooo"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 250,0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 25,1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 25,2,true,false));
+									}
+									if ( formL=="fourze"||formR=="fourze"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(PotionCore.BOOST_POTION, 5, 0,true,false));
+									}
+									if ( formL=="wizard"||formR=="wizard"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
+									}
+									if ( formL=="gaim"||formR=="gaim"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+									}
+									if ( formL=="drive"||formR=="drive"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));
+									}
+									if ( formL=="ghost"||formR=="ghost"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.INVISIBILITY, 5, 0,true,false));
+									}
+									if ( formL=="ex_aid"||formR=="ex_aid"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+									}
+									if ( formL=="build"||formR=="build"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 2,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));
+											player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 5, 0,true,false));
+									}
+									if ( formL=="zi_o"||formR=="zi_o"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 0,true,false));		
+									}
+									if ( formL=="saber"||formR=="saber"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 5, 0,true,false));
+										player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 5, 0,true,false));
+									}
+									if ( formL=="ouja"||formR=="ouja"){	
+										player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5, 2,true,false));	
+										player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 0,true,false));	
+									}
+									if ( formL=="boost_markii"||formR=="boost_markii"){	
+									}
+									if ( formL=="laserboost"||formR=="laserboost"){	
 									}
 
 								}
