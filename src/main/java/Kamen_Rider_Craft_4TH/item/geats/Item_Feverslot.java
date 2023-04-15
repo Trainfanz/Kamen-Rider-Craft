@@ -41,7 +41,7 @@ public class Item_Feverslot extends Item implements IHasModel
 {
 
 
-	
+
 
 	public Item_Feverslot(String name)
 	{
@@ -52,7 +52,7 @@ public class Item_Feverslot extends Item implements IHasModel
 		TokuCraft_core.ITEMS.add(this);
 
 	}
-	
+
 
 	@Override
 	public void registerModels() {
@@ -63,7 +63,7 @@ public class Item_Feverslot extends Item implements IHasModel
 	{
 		return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("Ammo") : 0;
 	}
-	
+
 	public static void set_ammo(ItemStack itemstack, int flag)
 	{
 		if (!itemstack.hasTagCompound())
@@ -72,7 +72,7 @@ public class Item_Feverslot extends Item implements IHasModel
 		}
 		itemstack.getTagCompound().setInteger("Ammo", flag);
 	}
-	
+
 	@SideOnly(Side.CLIENT)
 	public boolean hasEffect(ItemStack par1ItemStack)
 	{
@@ -82,24 +82,24 @@ public class Item_Feverslot extends Item implements IHasModel
 			return !true;
 		}
 	}
-	
+
 	public void onUpdate(ItemStack par1ItemStack, World worldIn, Entity par3Entity, int par4, boolean par5) {
 
 		if (this.get_ammo(par1ItemStack)<200){
 			this.set_ammo(par1ItemStack, this.get_ammo(par1ItemStack)+1);
 		}
 	}
-	
+
 	public  Item_Feverslot keep_item()
 	{
 		this.setContainerItem(this);
 		getContainerItem();
 		return this;
 	}
-	
+
 	public  int randForm(ItemStack belt)
 	{
-		 int[] GoldenFever = new int[]{2,3,4,5,6,10,11,16,17};
+		int[] GoldenFever = new int[]{2,3,4,5,6,10,11,16,17};
 
 		Random rand = new Random();
 		switch (rand.nextInt(10))
@@ -116,13 +116,13 @@ public class Item_Feverslot extends Item implements IHasModel
 			return 19;
 		case 5:
 			return 2;
-	
+
 		} 
 		return GoldenFever[rand.nextInt(GoldenFever.length)];
 	}
-	
-	
-	
+
+
+
 	/**
 	 * Called when the equipped item is right clicked.
 	 */
@@ -130,30 +130,35 @@ public class Item_Feverslot extends Item implements IHasModel
 	{
 		if (!worldIn.isRemote)
 		{
-		if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
+			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET)!= null){
 
-			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_desire_driver){
-				item_desire_driver belt = (item_desire_driver) playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem();
-				if (item_desire_driver.get_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f")>1){
-					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",0);	
-					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",0);	
-					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",0);
-				}
-				if(handIn == EnumHand.MAIN_HAND){
-					if (this.get_ammo(playerIn.getHeldItem(handIn))==200){
-					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",randForm(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET)));	
-					item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",1);	
-					this.set_ammo(playerIn.getHeldItem(handIn), 0);
+				if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_desire_driver){
+					item_desire_driver belt = (item_desire_driver) playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem();
+					
+					if (belt.DRIVER == 0){
+						if (item_desire_driver.get_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f")>1){
+							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",0);	
+							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",0);	
+							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",0);
+							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f2",0);
+						}
+						if(handIn == EnumHand.MAIN_HAND){
+							if (this.get_ammo(playerIn.getHeldItem(handIn))==200){
+								item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",randForm(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET)));	
+								item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",1);	
+								this.set_ammo(playerIn.getHeldItem(handIn), 0);
+							}
+						}else if(handIn == EnumHand.OFF_HAND&belt.Rider!="jyamato"){
+							if (this.get_ammo(playerIn.getHeldItem(handIn))==200){
+								item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",randForm(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET)));	
+								item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f2",1);	
+								this.set_ammo(playerIn.getHeldItem(handIn), 0);
+							}
+						}
+					
 					}
-				}else if(handIn == EnumHand.OFF_HAND&belt.Rider!="jyamato"){
-					if (this.get_ammo(playerIn.getHeldItem(handIn))==200){
-						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",randForm(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET)));	
-						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f2",1);	
-						this.set_ammo(playerIn.getHeldItem(handIn), 0);
-				}
 				}
 			}
-					}
 		}
 		playerIn.setActiveHand(handIn);
 		return new ActionResult<ItemStack>(EnumActionResult.SUCCESS, playerIn.getHeldItem(handIn));

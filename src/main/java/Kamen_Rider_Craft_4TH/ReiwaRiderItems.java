@@ -712,6 +712,12 @@ public class ReiwaRiderItems {
 	public static Item raise_riser_belt_kekera = new item_desire_driver("raise_riser_belt_kekera",ArmorMaterial.DIAMOND, 4, "kekera",1).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item raise_riser_belt_kyuun = new item_desire_driver("raise_riser_belt_kyuun",ArmorMaterial.DIAMOND, 4, "kyuun",1).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
+	public static Item bikkuri_mission_box = new Item_mission_box("bikkuri_mission_box").setCreativeTab(Tabs.tabgeats);
+	public static Item hatena_mission_box = new Item_mission_box("hatena_mission_box").setCreativeTab(Tabs.tabgeats);
+	
+	public static Item gigant_mission_box = new Item_mission_box("gigant_mission_box").setCreativeTab(Tabs.tabgeats);
+
+	
 	public static Item magnum_raise_buckle = new Item_Raise_Buckles(1,"magnum_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item boost_raise_buckle = new Item_Raise_Buckles(2,"boost_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item boost_markii_raise_buckle  = new Item_Raise_Buckles(49,"boost_markii_raise_buckle").changeForm(3).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
@@ -825,12 +831,6 @@ public class ReiwaRiderItems {
 	public static Item kekera_raise_riser_card = new Item_ore("kekera_raise_riser_card").setCreativeTab(Tabs.tabgeats);
 	public static Item kyuun_raise_riser_card = new Item_ore("kyuun_raise_riser_card").setCreativeTab(Tabs.tabgeats);
 
-	
-	public static Item bikkuri_mission_box = new Item_mission_box("bikkuri_mission_box").setCreativeTab(Tabs.tabgeats);
-	public static Item hatena_mission_box = new Item_mission_box("hatena_mission_box").setCreativeTab(Tabs.tabgeats);
-	
-	public static Item gigant_mission_box = new Item_mission_box("gigant_mission_box").setCreativeTab(Tabs.tabgeats);
-	
 	public static Item desire_driver_parts = new Item_Beltpart("desire_driver_parts");
 	public static Item desire_driver_parts_r = new Item_Beltpart("desire_driver_parts_r");
 	

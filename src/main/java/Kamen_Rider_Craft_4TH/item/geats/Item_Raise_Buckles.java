@@ -73,7 +73,7 @@ public class Item_Raise_Buckles extends Item implements IHasModel
 		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID,"raise_buckles_and_"+Thing.getTranslationKey()),new ResourceLocation(Refercence.MODID,"raise_buckles"),new ItemStack(this), new Ingredient[]{Ingredient.fromItem(ReiwaRiderItems.hatena_mission_box),Ingredient.fromItem(Thing)});			
 		return this;
 	}
-	
+
 	@Override
 	public void registerModels() {
 		TokuCraft_core.proxy.registerItemRender(this,0,"inventory");
@@ -133,72 +133,83 @@ public class Item_Raise_Buckles extends Item implements IHasModel
 
 			if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof item_desire_driver){
 				item_desire_driver belt = (item_desire_driver) playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem();
+				if (belt.DRIVER == 0){
 
-				if (this==ReiwaRiderItems.unite_grip){
-					if(belt.Rider=="geats")
-						if (playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.boost_markii_raise_buckle))){
+					if (this==ReiwaRiderItems.unite_grip){
+						if(belt.Rider=="geats"){
+							if (playerIn.inventory.hasItemStack(new ItemStack(ReiwaRiderItems.boost_markii_raise_buckle))){
 								item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",num2);	
 								item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",num2);		
 								item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",setBase);
 								item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f2",0);
-						}
-				} else if (this==ReiwaRiderItems.boost_markii_raise_buckle){
-					if(belt.Rider=="geats")
-								item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",num2);	
-								item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",num2);		
-								item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",setBase);
-								item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f2",0);
-				}else if (this==ReiwaRiderItems.command_twin_buckle_cannon){
-					if(belt.Rider=="geats"||belt.Rider=="tycoon"||belt.Rider=="buffa")
-						if (item_desire_driver.get_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f")==2){
-							if(handIn == EnumHand.MAIN_HAND&CanUseL){
-								item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",21);	
-								item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",20);	
-
-							}else if(handIn == EnumHand.OFF_HAND&CanUseR){
-								item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",20);	
-								item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",21);	
 							}
 						}
-				}else if (this==ReiwaRiderItems.jyamato_buckle){
-					if(belt.Rider=="buffa"&item_desire_driver.is_Cracked(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="_jyamato"||belt.Rider=="jyamato"){
-						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",num2);	
-						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",num2);	
+					} 
+					else if (this==ReiwaRiderItems.boost_markii_raise_buckle){
+						if(belt.Rider=="geats"){
+							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",num2);	
+							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",num2);		
+							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",setBase);
+							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f2",0);
+						}
 					}
-				}	else if (this==ReiwaRiderItems.command_twin_buckle_jet){
-					if(belt.Rider=="geats"||belt.Rider=="tycoon"||belt.Rider=="buffa") {
-						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",num2);
-						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",setBase);
-						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f2",0);
-					}
-				
-				}	else if (belt.Rider=="jyamato"){
-					if(handIn == EnumHand.MAIN_HAND&CanUseL){
-						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",num2);	
+					else if (this==ReiwaRiderItems.command_twin_buckle_cannon){
+						if(belt.Rider=="geats"||belt.Rider=="tycoon"||belt.Rider=="buffa"){
+							if (item_desire_driver.get_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f")==2){
+								if(handIn == EnumHand.MAIN_HAND&CanUseL){
+									item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",21);	
+									item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",20);	
+
+								}else if(handIn == EnumHand.OFF_HAND&CanUseR){
+									item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",20);	
+									item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",21);	
+								}
+							}
+						}
+					}else if (this==ReiwaRiderItems.jyamato_buckle){
+						if(belt.Rider=="buffa"&item_desire_driver.is_Cracked(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET))=="_jyamato"||belt.Rider=="jyamato"){
+							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",num2);	
+							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",num2);	
 							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",0);
 							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f2",0);
-					}
-				}
+						}
+					}	
+					else if (this==ReiwaRiderItems.command_twin_buckle_jet){
+						if(belt.Rider=="geats"||belt.Rider=="tycoon"||belt.Rider=="buffa") {
+							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",num2);
+							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",setBase);
+							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f2",0);
+						}
+
+					}	
+					else if (belt.Rider=="jyamato"){
+						if(handIn == EnumHand.MAIN_HAND&CanUseL){
+							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",num2);	
+							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",0);
+							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f2",0);
+						}
+					}else{
 
 
-				else if (belt.DRIVER == 0){
-					int f =item_desire_driver.get_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f");
-					if (f>1&f!=3){
-						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",0);	
-						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",0);	
-						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",0);
-						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f2",0);
-					}
-
-					if(handIn == EnumHand.MAIN_HAND&CanUseL){
-						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",num2);	
-						if (f==1){
+						int f =item_desire_driver.get_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f");
+						
+						if (f>1){
+							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",0);	
+							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",0);	
 							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",0);
 							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f2",0);
 						}
 
-					}else if(handIn == EnumHand.OFF_HAND&CanUseR){
-						item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",num2);	
+						if(handIn == EnumHand.MAIN_HAND&CanUseL){
+							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",num2);	
+							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",0);
+						
+
+						}else if(handIn == EnumHand.OFF_HAND&CanUseR){
+							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",num2);	
+							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f2",0);
+							
+						}
 					}
 				}
 
