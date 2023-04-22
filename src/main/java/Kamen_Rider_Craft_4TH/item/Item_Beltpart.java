@@ -15,6 +15,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.IItemPropertyGetter;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
@@ -31,6 +32,7 @@ public class Item_Beltpart extends Item implements IHasModel
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 
+        
         this.addPropertyOverride(new ResourceLocation("form"), new IItemPropertyGetter()
         {
             @SideOnly(Side.CLIENT)
@@ -40,13 +42,27 @@ public class Item_Beltpart extends Item implements IHasModel
         		{
             		return 0;
         		}else {
-            		return item_desire_driver.get_lock(stack, "part");
+            		return get_num(stack, "part");
         		}
       		  }
         });
 
         
     }
+    
+	public static int get_num(ItemStack itemstack,String string)
+	{	
+		return itemstack.hasTagCompound() ? itemstack.getTagCompound().getInteger("seed"+string)!=0? itemstack.getTagCompound().getInteger("seed"+string): 0 : 0;
+	}
+	
+	public static void set_num(ItemStack itemstack,String string,int flag)
+	{
+		if (!itemstack.hasTagCompound())
+		{
+			itemstack.setTagCompound(new NBTTagCompound());
+		}
+		itemstack.getTagCompound().setInteger("seed"+string, flag);
+	}
     
 	@Override
 	public void registerModels() {

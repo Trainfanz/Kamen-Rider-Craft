@@ -131,7 +131,10 @@ public class Model_giger extends ModelBiped {
 		this.bipedRightLeg.setRotationPoint(-1.9F, 12.0F, 0.0F);
 		this.bipedRightLeg.addBox(-1.0F, 0.0F, -1.0F, 3, 2, 2, 0.0F);
 		this.setRotateAngle(bipedRightLeg, 0.0F, 0.0F, 0.04363323129985824F);
-	
+		this.armtopl = new ModelRenderer(this, 12, 8);
+		this.armtopl.setRotationPoint(1.1F, 1.3F, -1.5F);
+		this.armtopl.addBox(-1.0F, 0.0F, 0.0F, 3, 4, 3, 0.0F);
+		this.setRotateAngle(armtopl, 0.0F, 0.0F, -0.1993166005777524F);
 		this.armbotl2 = new ModelRenderer(this, 96, 7);
 		this.armbotl2.setRotationPoint(0.0F, 0.0F, 0.0F);
 		this.armbotl2.addBox(-3.3F, 0.0F, -2.4F, 3, 13, 8, 0.0F);

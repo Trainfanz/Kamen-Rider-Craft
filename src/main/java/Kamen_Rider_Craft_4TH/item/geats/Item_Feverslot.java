@@ -139,8 +139,6 @@ public class Item_Feverslot extends Item implements IHasModel
 						if (item_desire_driver.get_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f")>1){
 							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"r",0);	
 							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"l",0);	
-							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f",0);
-							item_desire_driver.set_lock(playerIn.getItemStackFromSlot(EntityEquipmentSlot.FEET),"f2",0);
 						}
 						if(handIn == EnumHand.MAIN_HAND){
 							if (this.get_ammo(playerIn.getHeldItem(handIn))==200){

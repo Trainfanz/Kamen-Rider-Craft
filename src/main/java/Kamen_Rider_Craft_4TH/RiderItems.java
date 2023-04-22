@@ -2465,7 +2465,8 @@ public static Item oni_ore = new Item_ore("oni_ore").setCreativeTab(Tabs.tabhibi
 	public static Item lupin_belt = new item_drivedriver("lupin_belt",ArmorMaterial.DIAMOND, "lupin").setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
 	public static Item drivedriver_dark = new item_drivedriver("drivedriver_dark",ArmorMaterial.DIAMOND, "drive_next").setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
 	public static Item drivedriverbrain = new item_drivedriver("drivedriverbrain",ArmorMaterial.DIAMOND, "brain").setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
-
+	public static Item drivedriverbronze = new item_drivedriver("drivedriverbronze",ArmorMaterial.DIAMOND, "drive_bronze").setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
+	
 	public static Item drivedriverhart = new item_drivedriver("drivedriverhart",ArmorMaterial.DIAMOND, "drive_miracle").setMaxStackSize(1).setCreativeTab(Tabs.tabdrive);
 
 	

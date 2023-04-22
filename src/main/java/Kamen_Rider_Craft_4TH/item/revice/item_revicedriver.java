@@ -39,7 +39,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class item_revicedriver extends item_rider_driver
 {
 
-	public static final String[] CoreName= new String[] {"","_barid_rex","_volcano_rex","_jack_revice","_revice","_holy","_evilyty","_ultimate"};
+	public static final String[] CoreName= new String[] {"","_barid_rex","_volcano_rex","_jack_revice","_revice","_holy","_evilyty","_ultimate","_shin"};
 	
 	
 	private static final int[] maxDamageArray = new int[] {11, 16, 15, 13};

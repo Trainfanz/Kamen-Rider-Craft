@@ -532,7 +532,8 @@ public class ReiwaRiderItems {
 	public static Item giffard_rex_vistamp = new Item_Vistamps(0,"giffard_rex_vistamp").AddReviCanUse().AddViceCanUse().ChangeForm(7).setCreativeTab(Tabs.tabrevice);
 	public static Item fifty_gale_vistamp = new Item_Vistamps(27,"fifty_gale_vistamp").AddReviCanUse().setCreativeTab(Tabs.tabrevice);
 	public static Item gold_spino_vistamp = new Item_Vistamps(36,"gold_spino_vistamp").AddReviCanUse().AddViceCanUse().setCreativeTab(Tabs.tabrevice);
-	
+	public static Item true_rex_vistamp = new Item_Vistamps(0,"true_rex_vistamp").AddReviCanUse().ChangeForm(8).setCreativeTab(Tabs.tabrevice);
+
 	public static Item eagle_vistamp = new Item_Vistamps(1,"eagle_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(9).setCreativeTab(Tabs.tabrevice);
 	public static Item mammoth_vistamp = new Item_Vistamps(2,"mammoth_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(9).setCreativeTab(Tabs.tabrevice);
 	public static Item megalodon_vistamp = new Item_Vistamps(3,"megalodon_vistamp").AddReviCanUse().AddViceCanUse().AddToVistampBar(9).setCreativeTab(Tabs.tabrevice);

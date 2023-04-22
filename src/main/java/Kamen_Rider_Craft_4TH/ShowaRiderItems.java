@@ -5,6 +5,7 @@ import Kamen_Rider_Craft_4TH.blocks.amazon_cell_mutator;
 import Kamen_Rider_Craft_4TH.blocks.kaijin_stone_generator_block;
 import Kamen_Rider_Craft_4TH.item.ItemBaseShield;
 import Kamen_Rider_Craft_4TH.item.ItemBaseSword;
+import Kamen_Rider_Craft_4TH.item.Item_Beltpart;
 import Kamen_Rider_Craft_4TH.item.Item_gun;
 import Kamen_Rider_Craft_4TH.item.Item_ore;
 import Kamen_Rider_Craft_4TH.item.Item_sword_gun;
@@ -46,6 +47,7 @@ public class ShowaRiderItems {
 	public static Item blanknoitem = new Item_ore("blanknoitem");
 	public static Item blanknoform = new Item_form_change("blanknoform",item_rider_driver.class,0,"","");
 	public static Item rider_circuit = new Item_ore("rider_circuit").setCreativeTab(Tabs.tabmisc);
+	
 	
 	//Kamen Rider
 	

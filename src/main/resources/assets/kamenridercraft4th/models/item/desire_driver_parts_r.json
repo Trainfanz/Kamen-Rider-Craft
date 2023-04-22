@@ -7,7 +7,7 @@
     "overrides": [
         {
             "predicate": {
-                "form": 1
+                "form": 1, "beltpart": 1
             },
             "model": "kamenridercraft4th:item/desire_driver_magnum_r"
         },

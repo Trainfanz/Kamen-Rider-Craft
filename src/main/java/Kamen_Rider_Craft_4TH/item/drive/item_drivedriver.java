@@ -164,6 +164,9 @@ public class item_drivedriver extends item_rider_driver
 	}else  if (belt==RiderItems.drivedrivergold){
 		return itemstack.hasTagCompound() ? tireName[itemstack.getTagCompound().getInteger("core2")] : "gold";
 
+	}else  if (belt==RiderItems.drivedriverbronze){
+		return itemstack.hasTagCompound() ? tireName[itemstack.getTagCompound().getInteger("core2")] : "bronze";
+
 	}else if (belt==RiderItems.drivedriverbrain){
 		return itemstack.hasTagCompound() ? tireName[itemstack.getTagCompound().getInteger("core2")] : "brain";
 
@@ -646,7 +649,6 @@ public  String getTexture(Entity entity, int num,String ext)
 						return Refercence.MODID+":textures/armor/"+rider+ext;	
 					}
 				}
-				//else if (num==4||num==9||num==10||num==11||num==12||num==13||num==14){
 				
 			}else{
 				return "blank";
