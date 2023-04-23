@@ -1923,7 +1923,8 @@ item.lemon_lockseed.name=Lemon Lockseed
 item.marron_energy_lockseed.name=Marron Energy Lockseed
 item.zakuro_lockseed.name=Zakuro Lockseed
 
-item.drivedrivergold.name=Drive Driver Gold
+item.drivedrivergold.name=Banno Driver 
+item.drivedriverbronze.name=Banno Driver(Bronze)
 item.metro_pd_driver_honoh.name=Metro PD Driver Honoh
 
 item.handle_sword.name=Handle-Ken
