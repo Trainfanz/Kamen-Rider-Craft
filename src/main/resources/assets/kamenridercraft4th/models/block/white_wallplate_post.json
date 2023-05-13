@@ -1,7 +1,0 @@
-{
-  "_comment": "Generated using MiningMark48's JSON Generator.",
-  "parent": "block/fence_post",
-  "textures": {
-    "texture": "kamenridercraft4th:blocks/white_wallplate"
-  }
-}

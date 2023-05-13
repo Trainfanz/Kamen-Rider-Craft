@@ -1,6 +1,0 @@
-{
-    "parent": "block/cube_all",
-    "textures": {
-        "all": "kamenridercraft4th:blocks/mighty_block"
-    }
-}
