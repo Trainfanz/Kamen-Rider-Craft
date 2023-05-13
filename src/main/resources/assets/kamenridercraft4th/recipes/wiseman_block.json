@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wizard_gem_crafting_chisel",
+  "pattern": [
+   " f ",
+   "cgd",
+   " e "
+  ],
+  "key": {
+   "c": {
+      "item": "kamenridercraft4th:mage_b_ring"
+    }, "f": {
+      "item": "kamenridercraft4th:flame_ring_dragon"
+    }, "e": {
+      "item": "kamenridercraft4th:mage_o_ring"
+    }, "d": {
+      "item": "kamenridercraft4th:mage_g_ring"
+    }, "g": {
+      "item": "kamenridercraft4th:eclipse_ring"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:wiseman_block"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "card_warrior_kamen_rider_card",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:gatack_zecter"
+    }, 
+    {
+      "item": "kamenridercraft4th:card_warrior_kamen_rider_manga"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:scissorbeeter"
+  }
+}

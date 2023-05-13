@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "kamenridercraft4th:fourzehead",
+      "kamenridercraft4th:fourzetroso",
+      "kamenridercraft4th:fourzelegs",
+      "kamenridercraft4th:gate_switch",
+      "kamenridercraft4th:astroswitch"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kamenridercraft4th:astroswitch"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:fourzehead"
+      }
+    },
+    "has_the_recipe1": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:fourzetroso"
+      }
+    },
+    "has_the_recipe2": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:fourzelegs"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logo",
+      "has_the_recipe",
+      "has_the_recipe1",
+      "has_the_recipe2"
+    ]
+  ]
+}

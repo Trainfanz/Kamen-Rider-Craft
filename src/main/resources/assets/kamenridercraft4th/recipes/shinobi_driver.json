@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "shinobi",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:blank_miridewatch"
+    }, "C": {
+      "item": "kamenridercraft4th:shuriken_starter"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:shinobi_driver"
+  }
+}

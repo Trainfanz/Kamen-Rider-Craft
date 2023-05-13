@@ -1,0 +1,8 @@
+{
+    "variants":{   
+    "facing=north": { "model": "kamenridercraft4th:wooden_panel2" },
+    "facing=south": { "model": "kamenridercraft4th:wooden_panel2", "y": 180 },
+    "facing=west": { "model": "kamenridercraft4th:wooden_panel2", "y": 270 },
+    "facing=east": { "model": "kamenridercraft4th:wooden_panel2", "y": 90 }
+  }
+ }

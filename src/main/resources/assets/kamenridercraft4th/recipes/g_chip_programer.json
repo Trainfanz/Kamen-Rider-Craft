@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ACA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "kamenridercraft4th:g3core"
+    }, "C": {
+      "item": "kamenridercraft4th:monitor"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:g_chip_programer"
+  }
+}

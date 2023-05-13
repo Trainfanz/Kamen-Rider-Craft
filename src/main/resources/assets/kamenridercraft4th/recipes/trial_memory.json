@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "accel_trial",
+  "pattern": [
+    "BYR",
+    "IwI",
+    " M "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:IRON_INGOT"
+    }, "w": {
+      "item": "kamenridercraft4th:weather_memory"
+    }, "M": {
+      "item": "kamenridercraft4th:trial_memory_un"
+    }, "B": {
+      "item": "minecraft:STAINED_GLASS",
+      "data": 11
+    }, "Y": {
+      "item": "minecraft:STAINED_GLASS",
+      "data": 4
+    }, "R": {
+      "item": "minecraft:STAINED_GLASS",
+      "data": 14
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:trial_memory"
+  }
+}

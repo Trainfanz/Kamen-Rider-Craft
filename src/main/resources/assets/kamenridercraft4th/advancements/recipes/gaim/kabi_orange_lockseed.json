@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "kamenridercraft4th:kabi_daidaimaru"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kamenridercraft4th:kabi_orange_lockseed"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:kabi_daidaimaru"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logo",
+      "has_the_recipe"
+    ]
+  ]
+}

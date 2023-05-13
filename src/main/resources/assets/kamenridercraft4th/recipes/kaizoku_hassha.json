@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "build_kaizokuressha",
+  "pattern": [
+    "XXX",
+    "LZR",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:full_bottle"
+    }, "L": {
+      "item": "kamenridercraft4th:kaizoku_full_bottle"
+    }, "R": {
+     "item": "kamenridercraft4th:ressha_full_bottle"
+    }, "Z": {
+      "item": "kamenridercraft4th:base_sword"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:kaizoku_hassha"
+  }
+}

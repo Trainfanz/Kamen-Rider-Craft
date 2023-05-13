@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "revice_barid_rex",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:king_crab_vistamp"
+    }, 
+    {
+      "item": "kamenridercraft4th:crocodile_vistamp"
+    }, 
+    {
+      "item": "kamenridercraft4th:giff_eye"
+    }
+    ],
+  "result": {
+    "item": "kamenridercraft4th:twin_chimera_vistamp"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "v3",
+  "pattern": [
+    "XXX",
+    "XMX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:rider_circuit"
+    },
+    "M": {
+      "item": "kamenridercraft4th:double_typhoon_core"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:double_typhoon"
+  }    
+}

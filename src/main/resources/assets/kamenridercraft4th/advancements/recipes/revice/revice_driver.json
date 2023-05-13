@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "kamenridercraft4th:revice_driver",
+      "kamenridercraft4th:ohin_buster_50"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kamenridercraft4th:rex_vistamp"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:revice_driver"
+      }
+    },
+    "has_the_recipe1": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:ohin_buster_50"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logo",
+      "has_the_recipe",
+      "has_the_recipe1"
+    ]
+  ]
+}

@@ -1,0 +1,26 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "particle": "kamenridercraft4th:blocks/sword_of_logos_arch",
+        "0": "kamenridercraft4th:blocks/sword_of_logos_wood_trim",
+        "1": "kamenridercraft4th:blocks/sword_of_logos_wood",
+        "2": "kamenridercraft4th:blocks/sword_of_logos_wood_trim2",
+        "3": "kamenridercraft4th:blocks/sword_of_logos_wood",
+        "4": "kamenridercraft4th:blocks/sword_of_logos_wood"
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 0.0, 0.0, 0.0 ], 
+            "to": [ 16.0, 16.0, 16.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "east": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "south": { "texture": "#2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "west": { "texture": "#3", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "up": { "texture": "#4", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "down": { "texture": "#4", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        }
+    ]
+}

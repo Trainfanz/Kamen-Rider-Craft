@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "geiz",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:blank_watch"
+    }, "C": {
+      "item": "kamenridercraft4th:geiz_ridewatch"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:ziku_driver_geiz"
+  }
+}

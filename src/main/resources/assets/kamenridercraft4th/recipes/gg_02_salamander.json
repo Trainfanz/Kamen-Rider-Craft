@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "g3",
+  "pattern": [
+    "RRR",
+    "CGI",
+    "RRR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:IRON_INGOT"
+      }, "I": {
+      "item": "kamenridercraft4th:g3"
+    }, "G": {
+      "item": "kamenridercraft4th:gm_01_scorpion"
+    }, "C": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:gg_02_salamander"
+  }
+}

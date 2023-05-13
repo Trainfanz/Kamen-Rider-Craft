@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "progrise_key",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:hiden_metal"
+    }, 
+    {
+      "item": "kamenridercraft4th:rider_circuit"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:blank_progrise_key"
+  }
+}

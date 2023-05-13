@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "gaim_armor",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:blank_watch"
+    }, "C": {
+      "item": "kamenridercraft4th:suika_lockseed"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:kodama_suika_arms"
+  }
+}

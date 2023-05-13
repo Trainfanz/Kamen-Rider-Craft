@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "gaim_natsumi",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:himawari_lockseed"
+    }, 
+    {
+      "item": "kamenridercraft4th:kivaladriver"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:natsumikan_lockseed"
+  }
+}

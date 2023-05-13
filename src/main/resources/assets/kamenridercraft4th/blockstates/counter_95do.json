@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "kamenridercraft4th:counter_95do" },
+        "facing=south": { "model": "kamenridercraft4th:counter_95do", "y": 180 },
+        "facing=west":  { "model": "kamenridercraft4th:counter_95do", "y": 270 },
+        "facing=east":  { "model": "kamenridercraft4th:counter_95do", "y": 90 }
+    }
+}

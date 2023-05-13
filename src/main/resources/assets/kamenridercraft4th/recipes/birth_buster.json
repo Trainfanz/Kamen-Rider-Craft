@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "birth",
+  "pattern": [
+    "XMX",
+    "XSX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:cellmedal"
+    },
+    "S": {
+      "item": "kamenridercraft4th:base_sword"
+    },
+    "M": {
+      "item": "kamenridercraft4th:birth_core"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:birth_buster"
+  }    
+}
+

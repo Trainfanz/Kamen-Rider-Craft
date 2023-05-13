@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "evol",
+  "pattern": [
+    "XXX",
+    "LXR",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:full_bottle"
+    }, "L": {
+      "item": "kamenridercraft4th:cobra_evol_bottle"
+    }, "R": {
+      "item": "kamenridercraft4th:rider_system_evol_bottle"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:evol_driver_evol"
+  }
+}

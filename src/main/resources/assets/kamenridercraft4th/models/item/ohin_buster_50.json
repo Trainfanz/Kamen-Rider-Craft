@@ -1,0 +1,16 @@
+{
+  "_comment": "Generated using MiningMark48's JSON Generator.",
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "kamenridercraft4th:items/ohin_buster_50"
+  },
+    "overrides": [
+       
+        {
+            "predicate": {
+                "pull": 1
+            },
+            "model": "kamenridercraft4th:item/ohin_buster_50_gun"
+        }
+    ]
+}

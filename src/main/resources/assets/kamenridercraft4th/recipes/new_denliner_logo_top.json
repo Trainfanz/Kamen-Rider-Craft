@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "liner_deco_new",
+  "pattern": [
+    "aaa",
+    "ada",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+	  "item": "kamenridercraft4th:new_denliner_interior"
+    },
+	"d": {
+	  "item": "kamenridercraft4th:denliner_matel"
+	}
+  },
+  "result": {
+    "item": "kamenridercraft4th:new_denliner_logo_top",
+	"count": 9
+  }
+}

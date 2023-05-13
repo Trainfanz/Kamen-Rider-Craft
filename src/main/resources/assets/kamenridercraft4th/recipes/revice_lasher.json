@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "jackal_genome",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:ohin_buster_50"
+    }, 
+    {
+      "item": "kamenridercraft4th:osutoderu_hammer_50"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:revice_lasher"
+  }
+}

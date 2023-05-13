@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "kamenridercraft4th:items/genius_full_bottle"
+    }
+}

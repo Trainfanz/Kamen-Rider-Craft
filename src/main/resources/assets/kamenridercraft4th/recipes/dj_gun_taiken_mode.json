@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "gaim_kachidoki",
+  "ingredients": [
+    {
+      "item": "kamenridercraft4th:dj_gun"
+    }, 
+    {
+      "item": "kamenridercraft4th:musou_saber"
+    }
+    ],
+  "result": {
+    "item": "kamenridercraft4th:dj_gun_taiken_mode"
+  }    
+}
+

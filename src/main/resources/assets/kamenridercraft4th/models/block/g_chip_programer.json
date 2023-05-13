@@ -1,0 +1,8 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "kamenridercraft4th:blocks/monitorside",
+        "front": "kamenridercraft4th:blocks/g_chip_programer",
+        "side": "kamenridercraft4th:blocks/monitorside"
+    }
+}

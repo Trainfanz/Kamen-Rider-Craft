@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "full_bottle",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    }, "C": {
+      "item": "kamenridercraft4th:nebula_gas_sample"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:purifyer"
+  }
+}

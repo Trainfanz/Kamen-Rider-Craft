@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hattari",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:blank_miridewatch"
+    }, "C": {
+      "item": "kamenridercraft4th:shuriken_starter_hattari"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:hattari_driver"
+  }
+}

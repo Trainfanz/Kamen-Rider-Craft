@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sol_deco",
+  "pattern": [
+    "###",
+    "dd#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "kamenridercraft4th:planks_brown"
+    },
+	"d": {
+      "item": "kamenridercraft4th:sword_of_logos_wood"
+	}
+  },
+  "result": {
+    "item": "kamenridercraft4th:wooden_panel",
+	"count": 9
+  }
+}

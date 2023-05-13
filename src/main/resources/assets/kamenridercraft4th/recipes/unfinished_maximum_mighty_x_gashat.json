@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "gashat",
+  "ingredients": [
+	{ 
+      "item": "kamenridercraft4th:xx_bugster_virus_dna"
+    },
+	{ 
+      "item": "kamenridercraft4th:bakusou_bike_gashat"
+    }, 
+    {
+      "item": "minecraft:iron_ingot"
+    } , 
+    {
+      "item": "minecraft:iron_ingot"
+    } , 
+    {
+      "item": "minecraft:iron_ingot"
+    } , 
+    {
+      "item": "minecraft:redstone"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:unfinished_maximum_mighty_x_gashat"
+  }
+}

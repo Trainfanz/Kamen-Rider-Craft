@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "kamenridercraft4th:items/brave_dragon_wonderride_book"
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kr_g",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:ichigolegs"
+    }, 
+    {
+      "item": "kamenridercraft4th:goro_wine_bottle"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:glegs"
+  }
+}

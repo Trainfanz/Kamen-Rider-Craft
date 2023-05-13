@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "quiz",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:blank_miridewatch"
+    }, "C": {
+      "item": "kamenridercraft4th:quiz_topper"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:quiz_driver"
+  }
+}

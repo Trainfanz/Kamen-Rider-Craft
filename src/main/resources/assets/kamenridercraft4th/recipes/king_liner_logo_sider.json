@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "liner_deco_king",
+  "pattern": [
+    "ddd",
+    "dda",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+	  "item": "kamenridercraft4th:king_liner_red"
+    },
+	"d": {
+	  "item": "kamenridercraft4th:new_denliner_interior"
+	}
+  },
+  "result": {
+    "item": "kamenridercraft4th:king_liner_logo_sider",
+	"count": 9
+  }
+}

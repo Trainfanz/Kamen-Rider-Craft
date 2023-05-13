@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "gamedeus",
+  "pattern": [
+    "XXX",
+    "XCM",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:blank_gashat"
+    }, "C": {
+      "item": "kamenridercraft4th:gamedeus_hyper_muteki_gashat"
+    }, "M": {
+      "item": "kamenridercraft4th:maximum_mighty_x_gashat"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:gamer_driver_gamedeus_muteki"
+  }
+}

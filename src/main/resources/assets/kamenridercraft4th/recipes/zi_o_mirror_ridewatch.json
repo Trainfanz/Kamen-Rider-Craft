@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "mirror_zi_o",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:zi_o_ridewatch"
+    }, 
+    {
+      "item": "minecraft:glass"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:zi_o_mirror_ridewatch"
+  }
+}

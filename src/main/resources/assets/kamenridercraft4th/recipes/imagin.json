@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "ooo_tamashii",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:rider_ticket_sword"
+    }, 
+    {
+      "item": "kamenridercraft4th:cellmedal"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:imagin"
+  }
+}

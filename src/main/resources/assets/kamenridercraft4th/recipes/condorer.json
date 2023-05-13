@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "amazon",
+  "pattern": [
+    "XXX",
+    "XMX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:rider_circuit"
+    },
+    "M": {
+      "item": "kamenridercraft4th:condorer_wheel"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:condorer"
+  }    
+}

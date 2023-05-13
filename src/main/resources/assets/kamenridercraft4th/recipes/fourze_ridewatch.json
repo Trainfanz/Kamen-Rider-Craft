@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "ridewatch",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:blank_watch"
+    }, 
+    {
+      "item": "kamenridercraft4th:rocket_swich"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:fourze_ridewatch"
+  }
+}

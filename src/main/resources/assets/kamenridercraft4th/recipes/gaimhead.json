@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kr_gaim",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:himawari_lockseed"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:gaimhead"
+  }
+}

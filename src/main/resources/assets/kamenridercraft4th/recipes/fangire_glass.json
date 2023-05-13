@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kiva_deco",
+  "ingredients": [
+	{
+      "item": "minecraft:stained_glass",
+      "data": 14
+    }, 
+    {
+      "item": "minecraft:stained_glass",
+      "data": 4
+    }, 
+    {
+      "item": "minecraft:stained_glass",
+      "data": 13
+    }, 
+    {
+      "item": "minecraft:stained_glass",
+      "data": 11
+    }, 
+    {
+      "item": "minecraft:stained_glass",
+      "data": 10
+    }, 
+    {
+      "item": "minecraft:stained_glass",
+      "data": 15
+    } 
+  ],
+  "result": {
+    "item": "kamenridercraft4th:fangire_glass",
+    "count": 6
+  }
+}

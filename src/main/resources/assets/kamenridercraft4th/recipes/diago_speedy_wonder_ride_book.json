@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "saber",
+  "pattern": [
+    "XCX",
+    "XZX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:blank_wonder_ride_book"
+    }, "C": {
+      "item": "kamenridercraft4th:brave_dragon_wonderride_book"
+    }, "Z": {
+      "item": "kamenridercraft4th:base_bike"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:diago_speedy_wonder_ride_book"
+  }
+}

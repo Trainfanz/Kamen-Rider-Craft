@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "birth",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:REDSTONE"
+    }, "A": {
+      "item": "kamenridercraft4th:cell_alloy_ingot"
+    }, "C": {
+      "item": "kamenridercraft4th:rider_circuit"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:birth_core"
+  }
+}

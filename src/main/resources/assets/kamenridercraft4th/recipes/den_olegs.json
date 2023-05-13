@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kr_den_o",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:imaginsand"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:den_olegs"
+  }
+}

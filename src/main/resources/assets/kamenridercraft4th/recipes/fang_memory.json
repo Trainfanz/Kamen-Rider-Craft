@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "w_fang",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:BONE"
+    }, "C": {
+      "item": "kamenridercraft4th:fang_memory_un"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:fang_memory"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "cross_z_evol",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:dragon_full_bottle"
+    }, 
+    {
+      "item": "kamenridercraft4th:dragon_sclashjelly"
+    }, 
+    {
+      "item": "kamenridercraft4th:dragon_evol_bottle_gold"
+    } , 
+    {
+      "item": "kamenridercraft4th:dragon_magma_full_bottle"
+    } , 
+    {
+      "item": "kamenridercraft4th:cobra_full_bottle"
+    } , 
+    {
+      "item": "kamenridercraft4th:cobra_evol_bottle"
+    } , 
+    {
+      "item": "kamenridercraft4th:rider_system_evol_bottle"
+    } , 
+    {
+      "item": "kamenridercraft4th:dragon_evol_bottle"
+    } , 
+    {
+      "item": "kamenridercraft4th:rabbit_evol_bottle"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:muscle_galaxy_full_bottle"
+  }
+}

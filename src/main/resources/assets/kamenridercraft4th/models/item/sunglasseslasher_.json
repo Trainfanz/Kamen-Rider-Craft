@@ -1,0 +1,15 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "kamenridercraft4th:items/sunglasseslasher_sword"
+    },
+    "overrides": [
+       
+        {
+            "predicate": {
+                "pull": 1
+            },
+            "model": "kamenridercraft4th:item/sunglasseslasher_gun"
+        }
+    ]
+}

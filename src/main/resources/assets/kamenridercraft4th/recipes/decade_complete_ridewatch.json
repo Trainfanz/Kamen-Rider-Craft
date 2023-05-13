@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "final_watch",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:decade_ridewatch"
+    }, 
+    {
+      "item": "kamenridercraft4th:k_touch"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:decade_complete_ridewatch"
+  }
+}

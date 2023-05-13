@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "kamenridercraft4th:g_chip_programer" },
+        "facing=south": { "model": "kamenridercraft4th:g_chip_programer", "y": 180 },
+        "facing=west":  { "model": "kamenridercraft4th:g_chip_programer", "y": 270 },
+        "facing=east":  { "model": "kamenridercraft4th:g_chip_programer", "y": 90 }
+    }
+}

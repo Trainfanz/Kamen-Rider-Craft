@@ -1,0 +1,69 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "kamenridercraft4th:zi_ohead",
+      "kamenridercraft4th:zi_otroso",
+      "kamenridercraft4th:zi_olegs",
+      "kamenridercraft4th:build_ridewatch",
+      "kamenridercraft4th:exaid_ridewatch",
+      "kamenridercraft4th:ghost_ridewatch",
+      "kamenridercraft4th:drive_ridewatch",
+      "kamenridercraft4th:gaim_ridewatch",
+      "kamenridercraft4th:wizard_ridewatch",
+      "kamenridercraft4th:fourze_ridewatch",
+      "kamenridercraft4th:ooo_ridewatch",
+      "kamenridercraft4th:w_ridewatch",
+      "kamenridercraft4th:decade_ridewatch",
+      "kamenridercraft4th:kiva_ridewatch",
+      "kamenridercraft4th:deno_ridewatch",
+      "kamenridercraft4th:kabuto_ridewatch",
+      "kamenridercraft4th:hibiki_ridewatch",
+      "kamenridercraft4th:blade_ridewatch",
+      "kamenridercraft4th:chalice_ridewatch",
+      "kamenridercraft4th:faiz_ridewatch",
+      "kamenridercraft4th:ryuki_ridewatch",
+      "kamenridercraft4th:knight_ridewatch",
+      "kamenridercraft4th:agito_ridewatch",
+      "kamenridercraft4th:kuuga_ridewatch"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kamenridercraft4th:blank_watch"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:zi_ohead"
+      }
+    },
+    "has_the_recipe1": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:zi_otroso"
+      }
+    },
+    "has_the_recipe2": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:zi_olegs"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logo",
+      "has_the_recipe",
+      "has_the_recipe1",
+      "has_the_recipe2"
+    ]
+  ]
+}

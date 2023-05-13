@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "shippu_memory",
+  "ingredients": [
+{
+    
+     "item": "minecraft:planks",
+      "data": 2
+    }, 
+    {
+      "item": "kamenridercraft4th:joker_memory"
+    },{
+      "item": "minecraft:dye",
+      "data": 0
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:kirifuda_memory"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "legend_lockseed",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:himawari_lockseed"
+    }, 
+    {
+      "item": "kamenridercraft4th:kuuga_mighty"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:kuuga_lockseed"
+  }
+}

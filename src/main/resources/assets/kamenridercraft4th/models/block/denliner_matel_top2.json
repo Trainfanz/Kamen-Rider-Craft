@@ -1,0 +1,11 @@
+{
+   "parent": "block/bedrock",
+    "textures": {
+        "up": "kamenridercraft4th:blocks/denliner_matel_top2",
+        "down": "kamenridercraft4th:blocks/denliner_interior",
+        "west": "kamenridercraft4th:blocks/denliner_matel",
+        "north": "kamenridercraft4th:blocks/denliner_matel_side1",
+        "south": "kamenridercraft4th:blocks/denliner_matel_side2",
+        "east": "kamenridercraft4th:blocks/denliner_matel"
+    }
+}

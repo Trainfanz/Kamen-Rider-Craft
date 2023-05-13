@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "meteor_storm",
+  "pattern": [
+    "XXX",
+    "XZX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:meteor_swich"
+      } , "Z": {
+      "item": "kamenridercraft4th:elek_swich"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:meteor_storm_swich"
+  }
+}

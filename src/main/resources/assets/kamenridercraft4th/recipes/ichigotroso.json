@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kr_ichigo",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:rider_circuit"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:ichigotroso"
+  }
+}

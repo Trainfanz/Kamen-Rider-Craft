@@ -1,0 +1,64 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "kamenridercraft4th:new_denliner_interior",
+      "kamenridercraft4th:new_denliner_logo_bottom",
+      "kamenridercraft4th:new_denliner_logo_top",
+      "kamenridercraft4th:new_denliner_side_with_line",
+      "kamenridercraft4th:new_denliner_side_with_start_line"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kamenridercraft4th:new_denliner_interior"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:new_denliner_interior"
+      }
+    },
+    "has_the_recipe1": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:new_denliner_logo_bottom"
+      }
+    },
+    "has_the_recipe2": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:new_denliner_logo_top"
+      }
+    },
+    "has_the_recipe3": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:new_denliner_side_with_line"
+      }
+    },
+    "has_the_recipe4": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:new_denliner_side_with_start_line"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logo",
+      "has_the_recipe",
+      "has_the_recipe1",
+      "has_the_recipe2",
+      "has_the_recipe3",
+      "has_the_recipe4"
+    ]
+  ]
+}

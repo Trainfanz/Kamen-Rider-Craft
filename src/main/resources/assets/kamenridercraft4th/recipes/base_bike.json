@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kamen_rider",
+  "pattern": [
+    "X  ",
+    "XXX",
+    "Z Z"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:rider_circuit"
+    }, "Z": {
+      "item": "minecraft:wool",
+	  "data": 15
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:base_bike"
+  }
+}

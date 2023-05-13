@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "mission_box",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:rider_circuit"
+    }, 
+    {
+      "item": "kamenridercraft4th:blank_rider_core_id"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:bikkuri_mission_box"
+  }
+}

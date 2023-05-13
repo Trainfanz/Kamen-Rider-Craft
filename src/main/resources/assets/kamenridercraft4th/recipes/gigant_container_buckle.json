@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "gigant_container_buckle",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:gigant_sword_buckle"
+    }, 
+    {
+      "item": "kamenridercraft4th:gigant_hammer_buckle"
+    } , 
+    {
+      "item": "kamenridercraft4th:gigant_blaster_buckle"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:gigant_container_buckle"
+  }
+}

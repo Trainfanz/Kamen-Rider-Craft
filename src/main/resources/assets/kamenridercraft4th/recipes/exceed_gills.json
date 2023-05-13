@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "legend_medal",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:gills"
+    }, 
+    {
+      "item": "kamenridercraft4th:agito_burning"
+    }
+    ],
+  "result": {
+    "item": "kamenridercraft4th:exceed_gills"
+  }
+}

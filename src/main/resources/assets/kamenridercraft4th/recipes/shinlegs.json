@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kr_shin",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:ichigolegs"
+    }, 
+    {
+      "item": "kamenridercraft4th:shin_stone"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:shinlegs"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "pine_arms",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:musou_saber"
+    }, 
+    {
+      "item": "kamenridercraft4th:pine_iron"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:musou_saber_kusarigama"
+  }
+}

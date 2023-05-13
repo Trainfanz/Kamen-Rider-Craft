@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blood_stalk",
+  "pattern": [
+    "XCX",
+    "XZX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:full_bottle"
+    }, "C": {
+      "item": "kamenridercraft4th:cobra_full_bottle"
+    }, "Z": {
+      "item": "kamenridercraft4th:base_sword"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:steam_blade"
+  }
+}

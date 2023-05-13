@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "kamenridercraft4th:gamer_driver_genmu"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kamenridercraft4th:proto_mighty_action_x_gashat"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logo"
+    ]
+  ]
+}
