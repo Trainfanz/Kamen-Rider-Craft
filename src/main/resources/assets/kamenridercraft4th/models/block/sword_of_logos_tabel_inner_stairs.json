@@ -1,8 +1,0 @@
-{
-    "parent": "block/inner_stairs",
-    "textures": {
-        "bottom": "blocks/wool_colored_red",
-        "top": "kamenridercraft4th:blocks/sword_of_logos_wood",
-        "side": "kamenridercraft4th:blocks/sword_of_logos_tabel"
-    }
-}

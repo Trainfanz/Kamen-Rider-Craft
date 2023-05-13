@@ -1,8 +1,0 @@
-{
-    "variants":{   
-    "facing=north": { "model": "kamenridercraft4th:purifyer" },
-    "facing=south": { "model": "kamenridercraft4th:purifyer", "y": 180 },
-    "facing=west": { "model": "kamenridercraft4th:purifyer", "y": 270 },
-    "facing=east": { "model": "kamenridercraft4th:purifyer", "y": 90 }
-  }
- }

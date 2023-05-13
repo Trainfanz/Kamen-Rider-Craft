@@ -1,6 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "kamenridercraft4th:items/clear_arrow_raise_buckle"
-    }
-}
