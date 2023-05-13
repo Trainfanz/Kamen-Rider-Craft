@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "build_deco",
+  "pattern": [
+    "###",
+    "#d#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "kamenridercraft4th:wallplate"
+    },
+	"d": {
+      "item": "minecraft:dye",
+      "data": 15
+	}
+  },
+  "result": {
+    "item": "kamenridercraft4th:white_wallplate",
+	"count": 8
+  }
+}

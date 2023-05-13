@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "super_ginga_oh",
+  "pattern": [
+    "A1A",
+    "2B3",
+    "A4A"
+  ],
+  "key": {
+    "B": {
+      "item": "kamenridercraft4th:rider_circuit"
+    }, "A": {
+      "item": "kamenridercraft4th:cell_alloy_ingot"
+    }, "1": {
+      "item": "kamenridercraft4th:solu_switch"
+    }, "2": {
+      "item": "kamenridercraft4th:same"
+    }, "3": {
+      "item": "kamenridercraft4th:kujira"
+    }, "4": {
+      "item": "kamenridercraft4th:ookamiuo"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:super_ginga_oh_boss_block"
+  }
+}

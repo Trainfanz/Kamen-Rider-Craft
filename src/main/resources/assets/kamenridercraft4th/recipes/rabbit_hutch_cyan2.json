@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "fourze_deco",
+  "pattern": [
+    "d#d",
+    "###",
+    "d#d"
+  ],
+  "key": {
+    "#": {
+	  "item": "kamenridercraft4th:rabbit_hutch_cyan"
+    },
+	"d": {
+      "item": "minecraft:dye",
+      "data": 15
+	}
+  },
+  "result": {
+    "item": "kamenridercraft4th:rabbit_hutch_cyan2",
+	"count": 5
+  }
+}

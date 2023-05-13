@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kr_skyrider",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:ichigohead"
+    }, 
+    {
+      "item": "kamenridercraft4th:tornado_core"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:skyriderhead"
+  }
+}

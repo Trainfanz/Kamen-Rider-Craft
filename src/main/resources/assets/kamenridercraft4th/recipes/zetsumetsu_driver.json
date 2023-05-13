@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "horobi_ark_scorpion",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:hiden_metal"
+    }, "C": {
+      "item": "kamenridercraft4th:ark_scorpion_progrise_key"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:zetsumetsu_driver"
+  }
+}

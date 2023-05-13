@@ -1,0 +1,17 @@
+{
+  "_comment": "Generated using MiningMark48's JSON Generator.",
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "kamenridercraft4th:items/vice_belt"
+  }
+  ,
+    "overrides": [
+       
+        {
+            "predicate": {
+                "form": 5
+            },
+            "model": "kamenridercraft4th:item/revice_driver_giffard_rex_vice"
+        }
+    ]
+}

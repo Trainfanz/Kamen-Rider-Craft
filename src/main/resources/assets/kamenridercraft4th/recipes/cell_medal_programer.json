@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cell_medal",
+  "pattern": [
+    "AAA",
+    "ACA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "kamenridercraft4th:cell_alloy_ingot"
+    }, "C": {
+      "item": "kamenridercraft4th:monitor"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:cell_medal_programer"
+  }
+}

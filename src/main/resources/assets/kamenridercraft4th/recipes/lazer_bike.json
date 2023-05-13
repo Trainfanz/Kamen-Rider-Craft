@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lazer",
+  "pattern": [
+    "XCX",
+    "XZX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:blank_gashat"
+    }, "C": {
+      "item": "kamenridercraft4th:bakusou_bike_gashat"
+    }, "Z": {
+      "item": "kamenridercraft4th:base_bike"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:lazer_bike"
+  }
+}

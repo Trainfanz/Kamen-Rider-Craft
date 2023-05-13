@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "kamenridercraft4th:gamer_driver_paradox",
+      "kamenridercraft4th:parabragun_axe",
+      "kamenridercraft4th:paradoxbelt"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kamenridercraft4th:perfect_puzzle_gashat"
+          }
+        ]
+      }
+    },
+	"has_logo1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kamenridercraft4th:knock_out_fighter_gashat"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logo",
+      "has_logo1"
+    ]
+  ]
+}

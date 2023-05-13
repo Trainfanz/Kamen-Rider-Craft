@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wonder_ride_book",
+  "ingredients": [
+{
+    
+    "item": "minecraft:BOOK"
+    }, 
+    {
+      "item": "kamenridercraft4th:rider_circuit"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:blank_wonder_ride_book"
+  }
+}

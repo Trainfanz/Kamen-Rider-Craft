@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "extra_vistamp",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:eagle_vistamp"
+    }, 
+    {
+      "item": "kamenridercraft4th:joker_t2_memory"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:condor_vistamp"
+  }
+}

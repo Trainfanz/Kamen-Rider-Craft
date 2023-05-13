@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ooo_tajadol_eternity",
+  "pattern": [
+    "ACB",
+    "XSX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:cellmedal"
+    }, "C": {
+      "item": "kamenridercraft4th:kujaku_eternity"
+    }, "A": {
+      "item": "kamenridercraft4th:taka_eternity"
+    }, "B": {
+      "item": "kamenridercraft4th:condor_eternity"
+    },
+    "S": {
+      "item": "kamenridercraft4th:base_sword"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:tajaspinner_eternity"
+  }
+}

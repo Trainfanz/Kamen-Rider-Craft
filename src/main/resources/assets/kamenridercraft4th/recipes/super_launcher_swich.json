@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "fourze_super",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:launcher_switch"
+    }, 
+    {
+      "item": "kamenridercraft4th:solu_switch"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:super_launcher_swich"
+  }
+}

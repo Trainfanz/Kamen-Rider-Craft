@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kuuga_titan",
+  "ingredients": [
+    {
+      "item": "kamenridercraft4th:kuuga_titan"
+    }, 
+    {
+      "item": "kamenridercraft4th:kuuga_titan"
+    }, 
+    {
+      "item": "kamenridercraft4th:kuuga_titan"
+    }, 
+    {
+      "item": "kamenridercraft4th:kuuga_titan"
+    }
+    ],
+  "result": {
+    "item": "kamenridercraft4th:kuuga_rising_titan"
+  }
+}  

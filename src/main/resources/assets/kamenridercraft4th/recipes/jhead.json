@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kr_j",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:ichigohead"
+    }, 
+    {
+      "item": "kamenridercraft4th:j_stone"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:jhead"
+  }
+}

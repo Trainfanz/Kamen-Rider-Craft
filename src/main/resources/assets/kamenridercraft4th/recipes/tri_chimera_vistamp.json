@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "revice_barid_rex",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:kurosai_vistamp"
+    }, 
+    {
+      "item": "kamenridercraft4th:octopus_vistamp"
+    }, 
+    {
+      "item": "kamenridercraft4th:oomukade_vistamp"
+    }, 
+    {
+      "item": "kamenridercraft4th:giff_eye"
+    }
+    ],
+  "result": {
+    "item": "kamenridercraft4th:tri_chimera_vistamp"
+  }
+}

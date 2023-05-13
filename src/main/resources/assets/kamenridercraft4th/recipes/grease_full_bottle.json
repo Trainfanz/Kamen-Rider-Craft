@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "grease_perfect_kingdom",
+  "pattern": [
+    "XCX",
+    "XBX",
+    "WXG"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:metal_full_bottle"
+    }, "C": {
+      "item": "kamenridercraft4th:lost_fukurou_full_bottle"
+    }, "W": {
+      "item": "kamenridercraft4th:lost_castle_full_bottle"
+    }, "G": {
+      "item": "kamenridercraft4th:lost_kuwagata_full_bottle"
+    }, "B": {
+      "item": "kamenridercraft4th:robot_sclashjelly"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:grease_full_bottle"
+  }
+}

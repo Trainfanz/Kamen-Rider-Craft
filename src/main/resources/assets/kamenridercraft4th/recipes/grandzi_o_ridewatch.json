@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "grand_zi_o",
+  "pattern": [
+    "XZX",
+    "UBG",
+    "XDX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:gold_ingot"
+    }, "Z": {
+      "item": "kamenridercraft4th:zi_o_ridewatch"
+    }, "D": {
+      "item": "kamenridercraft4th:decade_ridewatch"
+    }, "U": {
+      "item": "kamenridercraft4th:unfinished_grandzi_o_ridewatch_1"
+    }, "G": {
+      "item": "kamenridercraft4th:unfinished_grandzi_o_ridewatch_2"
+    }, "B": {
+      "item": "kamenridercraft4th:blank_watch"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:grandzi_o_ridewatch"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kr_black",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:ichigohead"
+    }, 
+    {
+      "item": "kamenridercraft4th:king_stone_core"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:black_head"
+  }
+}

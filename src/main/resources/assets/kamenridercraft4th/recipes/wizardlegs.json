@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kr_wizard",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:wizardgem"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:wizardlegs"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "woz",
+  "ingredients": [
+{
+    
+      "item": "minecraft:book"
+    }, 
+    {
+      "item": "kamenridercraft4th:woz_miridewatch"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:ohma_advent_calendar"
+  }
+}

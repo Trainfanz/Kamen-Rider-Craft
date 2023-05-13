@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "kamenridercraft4th:items/matsuda_enji_progrise_key"
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "skull",
+  "pattern": [
+    "XCX",
+    "XZX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:gaiamemory"
+    }, "C": {
+      "item": "kamenridercraft4th:skull_memory"
+    }, "Z": {
+      "item": "kamenridercraft4th:base_bike"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:skull_boilder"
+  }
+}

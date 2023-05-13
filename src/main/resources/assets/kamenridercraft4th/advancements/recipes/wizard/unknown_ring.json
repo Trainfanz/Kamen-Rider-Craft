@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "kamenridercraft4th:unknown_amber_ring",
+       "kamenridercraft4th:unknown_red_ring",
+       "kamenridercraft4th:unknown_blue_ring",
+       "kamenridercraft4th:unknown_green_ring",
+       "kamenridercraft4th:unknown_yellow_ring",
+       "kamenridercraft4th:unknown_violet_ring",
+       "kamenridercraft4th:unknown_black_ring",
+       "kamenridercraft4th:unknown_cyan_ring"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kamenridercraft4th:wizard_gem_crafting_chisel"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft4th:unknown_amber_ring"
+      }
+    }
+    
+  },
+  "requirements": [
+    [
+      "has_logo",
+      "has_the_recipe"
+    ]
+  ]
+}

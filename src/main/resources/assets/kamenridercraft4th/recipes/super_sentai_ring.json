@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kr_sentai",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:wizardgem"
+    }, 
+    {
+      "item": "supersentaicraft:kyoryuger_logo"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:super_sentai_ring"
+  }
+}

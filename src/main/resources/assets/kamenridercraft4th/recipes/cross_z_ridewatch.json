@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "extra_watch",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:blank_watch"
+    }, 
+    {
+      "item": "kamenridercraft4th:dragon_full_bottle"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:cross_z_ridewatch"
+  }
+}

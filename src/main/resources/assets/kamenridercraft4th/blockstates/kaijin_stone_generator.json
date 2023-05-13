@@ -1,0 +1,8 @@
+{
+    "variants":{   
+    "facing=north": { "model": "kamenridercraft4th:kaijin_stone_generator" },
+    "facing=south": { "model": "kamenridercraft4th:kaijin_stone_generator", "y": 180 },
+    "facing=west": { "model": "kamenridercraft4th:kaijin_stone_generator", "y": 270 },
+    "facing=east": { "model": "kamenridercraft4th:kaijin_stone_generator", "y": 90 }
+  }
+ }

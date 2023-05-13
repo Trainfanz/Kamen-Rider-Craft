@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "gaim",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:musou_saber"
+    }, 
+    {
+      "item": "kamenridercraft4th:daidaimaru"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:musou_saber_naginata"
+  }
+}

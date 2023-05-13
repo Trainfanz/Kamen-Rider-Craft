@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "kamenridercraft4th:blocks/denliner_logo_bottom"
+    }
+}

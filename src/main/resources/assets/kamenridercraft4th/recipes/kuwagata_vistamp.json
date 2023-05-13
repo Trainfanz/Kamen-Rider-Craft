@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "over_demons",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:spider_vistamp"
+    }, 
+    {
+      "item": "kamenridercraft4th:kabuto_vistamp"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:kuwagata_vistamp"
+  }
+}

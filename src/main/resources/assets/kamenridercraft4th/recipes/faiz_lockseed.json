@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "ridewatch",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:himawari_lockseed"
+    }, 
+    {
+      "item": "kamenridercraft4th:faiz_mission_memory"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:faiz_lockseed"
+  }
+}

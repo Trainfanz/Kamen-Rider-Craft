@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lazer",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:unfinished_kamen_rider_chronicle_gashat"
+    }, "C": {
+      "item": "kamenridercraft4th:giri_giri_chambara_gashat"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:gashacon_bugvisor_ii_lazer"
+  }
+}

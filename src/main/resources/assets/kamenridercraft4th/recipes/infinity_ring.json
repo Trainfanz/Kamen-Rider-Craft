@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wizard_gem_crafting_chisel",
+  "pattern": [
+   "afa",
+   "cgd",
+   "aea"
+  ],
+  "key": {
+   "a": {
+      "item": "kamenridercraft4th:wizardgem_cyan"
+    }, "c": {
+      "item": "kamenridercraft4th:land_ring_dragon"
+    }, "f": {
+      "item": "kamenridercraft4th:flame_ring_dragon"
+    }, "e": {
+      "item": "kamenridercraft4th:hurricane_ring_dragon"
+    }, "d": {
+      "item": "kamenridercraft4th:water_ring_dragon"
+    }, "g": {
+      "item": "kamenridercraft4th:drago_timer"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:infinity_ring"
+  }
+}

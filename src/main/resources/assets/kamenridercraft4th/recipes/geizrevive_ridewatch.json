@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "geiz_revive",
+  "pattern": [
+    "XCX",
+    "XBX",
+    "WXG"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    }, "C": {
+      "item": "kamenridercraft4th:shinobi_miridewatch"
+    }, "W": {
+      "item": "kamenridercraft4th:kikai_miridewatch"
+    }, "G": {
+      "item": "kamenridercraft4th:quiz_miridewatch"
+    }, "B": {
+      "item": "kamenridercraft4th:blank_watch"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:geizrevive_ridewatch"
+  }
+}

@@ -1,0 +1,321 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "kamenridercraft4th:items/blank"
+    }
+,
+    "overrides": [
+        {
+            "predicate": {
+                "form": 1
+            },
+            "model": "kamenridercraft4th:item/desire_driver_magnum"
+        },
+         {
+            "predicate": {
+                "form": 2
+            },
+            "model": "kamenridercraft4th:item/desire_driver_boost"
+        },
+         {
+            "predicate": {
+                "form": 3
+            },
+            "model": "kamenridercraft4th:item/desire_driver_hammer"
+        },
+         {
+            "predicate": {
+                "form": 4
+            },
+            "model": "kamenridercraft4th:item/desire_driver_water"
+        },
+         {
+            "predicate": {
+                "form": 5
+            },
+            "model": "kamenridercraft4th:item/desire_driver_arrow"
+        },
+         {
+            "predicate": {
+                "form": 6
+            },
+            "model": "kamenridercraft4th:item/desire_driver_shield"
+        },
+         {
+            "predicate": {
+                "form": 7
+            },
+            "model": "kamenridercraft4th:item/desire_driver_revice"
+        },
+         {
+            "predicate": {
+                "form": 8
+            },
+            "model": "kamenridercraft4th:item/desire_driver_zombie"
+        },
+         {
+            "predicate": {
+                "form": 9
+            },
+            "model": "kamenridercraft4th:item/desire_driver_demons"
+        },
+         {
+            "predicate": {
+                "form": 10
+            },
+            "model": "kamenridercraft4th:item/desire_driver_chain_array"
+        },
+         {
+            "predicate": {
+                "form": 11
+            },
+            "model": "kamenridercraft4th:item/desire_driver_claw"
+        },
+         {
+            "predicate": {
+                "form": 12
+            },
+            "model": "kamenridercraft4th:item/desire_driver_zero_one"
+        },
+         {
+            "predicate": {
+                "form": 13
+            },
+            "model": "kamenridercraft4th:item/desire_driver_live"
+        },
+         {
+            "predicate": {
+                "form": 14
+            },
+            "model": "kamenridercraft4th:item/desire_driver_jeanne"
+        },
+         {
+            "predicate": {
+                "form": 15
+            },
+            "model": "kamenridercraft4th:item/desire_driver_ninja"
+        },
+         {
+            "predicate": {
+                "form": 16
+            },
+            "model": "kamenridercraft4th:item/desire_driver_propeller"
+        },
+         {
+            "predicate": {
+                "form": 17
+            },
+            "model": "kamenridercraft4th:item/desire_driver_drill"
+        },
+         {
+            "predicate": {
+                "form": 18
+            },
+            "model": "kamenridercraft4th:item/desire_driver_monster"
+        },
+         {
+            "predicate": {
+                "form": 19
+            },
+            "model": "kamenridercraft4th:item/desire_driver_beat"
+        },
+         {
+            "predicate": {
+                "form": 20
+            },
+            "model": "kamenridercraft4th:item/desire_driver_jet"
+        },
+         {
+            "predicate": {
+                "form": 21
+            },
+            "model": "kamenridercraft4th:item/desire_driver_cannon"
+        },
+         {
+            "predicate": {
+                "form": 22
+            },
+            "model": "kamenridercraft4th:item/desire_driver_gigant_container"
+        },
+         {
+            "predicate": {
+                "form": 23
+            },
+            "model": "kamenridercraft4th:item/desire_driver_poweredbuilder"
+        },
+         {
+            "predicate": {
+                "form": 24
+            },
+            "model": "kamenridercraft4th:item/desire_driver_jyamato_buckle"
+        },
+         {
+            "predicate": {
+                "form": 25
+            },
+            "model": "kamenridercraft4th:item/desire_driver_ichigo"
+        },
+         {
+            "predicate": {
+                "form": 26
+            },
+            "model": "kamenridercraft4th:item/desire_driver_v3"
+        },
+         {
+            "predicate": {
+                "form": 27
+            },
+            "model": "kamenridercraft4th:item/desire_driver_black"
+        },
+         {
+            "predicate": {
+                "form": 28
+            },
+            "model": "kamenridercraft4th:item/desire_driver_kuuga"
+        },
+         {
+            "predicate": {
+                "form": 29
+            },
+            "model": "kamenridercraft4th:item/desire_driver_agito"
+        },
+         {
+            "predicate": {
+                "form": 30
+            },
+            "model": "kamenridercraft4th:item/desire_driver_ryuki"
+        },
+         {
+            "predicate": {
+                "form": 31
+            },
+            "model": "kamenridercraft4th:item/desire_driver_faiz"
+        },
+         {
+            "predicate": {
+                "form": 32
+            },
+            "model": "kamenridercraft4th:item/desire_driver_blade"
+        },
+         {
+            "predicate": {
+                "form": 33
+            },
+            "model": "kamenridercraft4th:item/desire_driver_hibiki"
+        },
+         {
+            "predicate": {
+                "form": 34
+            },
+            "model": "kamenridercraft4th:item/desire_driver_kabuto"
+        },
+         {
+            "predicate": {
+                "form": 35
+            },
+            "model": "kamenridercraft4th:item/desire_driver_den_o"
+        },
+         {
+            "predicate": {
+                "form": 36
+            },
+            "model": "kamenridercraft4th:item/desire_driver_kiva"
+        },
+         {
+            "predicate": {
+                "form": 37
+            },
+            "model": "kamenridercraft4th:item/desire_driver_decade"
+        },
+         {
+            "predicate": {
+                "form": 38
+            },
+            "model": "kamenridercraft4th:item/desire_driver_w"
+        },
+         {
+            "predicate": {
+                "form": 39
+            },
+            "model": "kamenridercraft4th:item/desire_driver_ooo"
+        },
+         {
+            "predicate": {
+                "form": 40
+            },
+            "model": "kamenridercraft4th:item/desire_driver_fourze"
+        },
+         {
+            "predicate": {
+                "form": 41
+            },
+            "model": "kamenridercraft4th:item/desire_driver_wizard"
+        },
+         {
+            "predicate": {
+                "form": 42
+            },
+            "model": "kamenridercraft4th:item/desire_driver_gaim"
+        },
+         {
+            "predicate": {
+                "form": 43
+            },
+            "model": "kamenridercraft4th:item/desire_driver_drive"
+        },
+         {
+            "predicate": {
+                "form": 44
+            },
+            "model": "kamenridercraft4th:item/desire_driver_ghost"
+        },
+         {
+            "predicate": {
+                "form": 45
+            },
+            "model": "kamenridercraft4th:item/desire_driver_ex_aid"
+        },
+         {
+            "predicate": {
+                "form": 46
+            },
+            "model": "kamenridercraft4th:item/desire_driver_build"
+        },
+         {
+            "predicate": {
+                "form": 47
+            },
+            "model": "kamenridercraft4th:item/desire_driver_zi_o"
+        },
+         {
+            "predicate": {
+                "form": 48
+            },
+            "model": "kamenridercraft4th:item/desire_driver_saber"
+        },
+         {
+            "predicate": {
+                "form": 49
+            },
+            "model": "kamenridercraft4th:item/desire_driver_boost_markii"
+        },
+         {
+            "predicate": {
+                "form": 50
+            },
+            "model": "kamenridercraft4th:item/desire_driver_laserboost"
+        },
+         {
+            "predicate": {
+                "form": 51
+            },
+            "model": "kamenridercraft4th:item/desire_driver_ouja"
+        },
+         {
+            "predicate": {
+                "form": 100
+            },
+            "model": "kamenridercraft4th:item/desire_driver_fever_slot"
+        }
+    ]
+}

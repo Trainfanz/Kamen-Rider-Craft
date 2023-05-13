@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kr_sentai",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:blankcard"
+    }, 
+    {
+      "item": "supersentaicraft:shishi_disk"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:rekka_daizantou_card"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "ridewatch",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:blank_watch"
+    }, 
+    {
+      "item": "kamenridercraft4th:decadecard"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:decade_ridewatch"
+  }
+}

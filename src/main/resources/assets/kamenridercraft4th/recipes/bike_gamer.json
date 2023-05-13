@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ex_aid",
+  "pattern": [
+    "XCX",
+    "XZX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:blank_gashat"
+    }, "C": {
+      "item": "kamenridercraft4th:proto_bakusou_bike_gashat"
+    }, "Z": {
+      "item": "kamenridercraft4th:base_bike"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:bike_gamer"
+  }
+}

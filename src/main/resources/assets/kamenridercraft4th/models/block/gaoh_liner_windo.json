@@ -1,0 +1,11 @@
+{
+   "parent": "block/bedrock",
+    "textures": {
+        "up": "kamenridercraft4th:blocks/denliner_matel_dark",
+        "down": "kamenridercraft4th:blocks/denliner_matel_dark",
+        "west": "kamenridercraft4th:blocks/denliner_matel_dark",
+        "north": "kamenridercraft4th:blocks/gaoh_liner_windo",
+        "south": "kamenridercraft4th:blocks/gaoh_liner_windo",
+        "east": "kamenridercraft4th:blocks/denliner_matel_dark"
+    }
+}

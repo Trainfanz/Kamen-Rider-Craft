@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kr_amazon",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft4th:ichigolegs"
+    }, 
+    {
+      "item": "kamenridercraft4th:condorer_wheel"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft4th:amazonlegs"
+  }
+}

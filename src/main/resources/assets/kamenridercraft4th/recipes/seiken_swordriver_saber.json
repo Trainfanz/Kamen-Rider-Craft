@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "saber",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft4th:blank_wonder_ride_book"
+    }, "C": {
+      "item": "kamenridercraft4th:brave_dragon_wonderride_book"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:seiken_swordriver_saber"
+  }
+}
