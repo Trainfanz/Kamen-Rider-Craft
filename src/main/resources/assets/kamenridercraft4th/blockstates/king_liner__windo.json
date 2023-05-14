@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "facing=north": { "model": "kamenridercraft4th:king_liner__windo" },
-        "facing=south": { "model": "kamenridercraft4th:king_liner__windo", "y": 180 },
-        "facing=west":  { "model": "kamenridercraft4th:king_liner__windo", "y": 270 },
-        "facing=east":  { "model": "kamenridercraft4th:king_liner__windo", "y": 90 }
-    }
-}
