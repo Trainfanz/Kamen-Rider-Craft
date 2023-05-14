@@ -36,38 +36,39 @@ public class KamenRiderCraftCore {
 
 
 		if(event.getTab() == RiderTabs.IchigoTab) {
-
-
 			for (int i = 0; i < RiderTabs.ICHIGO_TAB_ITEM.size(); i++)
 			{
 				event.accept( RiderTabs.ICHIGO_TAB_ITEM.get(i));
 			}
 
 		}
-
 		if(event.getTab() == RiderTabs.V3Tab) {
 			for (int i = 0; i < RiderTabs.V3_TAB_ITEM.size(); i++)
 			{
 				event.accept( RiderTabs.V3_TAB_ITEM.get(i));
 			}
 		}
-
 		if(event.getTab() == RiderTabs.XTab) {
-			event.accept(Ichigo_Rider_Items.RIDOL_STICK);
-			
 			for (int i = 0; i < RiderTabs.X_TAB_ITEM.size(); i++)
 			{
 				event.accept( RiderTabs.X_TAB_ITEM.get(i));
 			}
 
 		}
+		
+		if(event.getTab() == RiderTabs.AMAZONTab) {
+			for (int i = 0; i < RiderTabs.AMAZON_TAB_ITEM.size(); i++)
+			{
+				event.accept( RiderTabs.AMAZON_TAB_ITEM.get(i));
+			}
+
+		}
 
 		if(event.getTab() == RiderTabs.RiderMiscTab) {
-			event.accept(Modded_item_core.RIDER_CIRCUIT);
-			event.accept(Modded_item_core.BASE_SWORD);
-			event.accept(Modded_item_core.BASE_BIKE);
-			event.accept(Modded_item_core.SHOCKER_EMBLEM);
-			event.accept(Modded_item_core.DONUT);
+			for (int i = 0; i < RiderTabs.Misc_TAB_ITEM.size(); i++)
+			{
+				event.accept( RiderTabs.Misc_TAB_ITEM.get(i));
+			}
 		}
 
 

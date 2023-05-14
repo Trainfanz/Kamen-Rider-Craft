@@ -1,12 +1,15 @@
 package com.kelco.kamenridercraft.Items;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
+import com.kelco.kamenridercraft.Items.rider_armor_base.BaseSwordItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderArmorItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderDriverItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderFormChangeItem;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.food.Foods;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Item;
@@ -187,9 +190,8 @@ public class Ichigo_Rider_Items {
 
 	    //X
 	    
-	    //ridol_stick
 	    public static final RegistryObject<SwordItem> RIDOL_STICK = ITEMS.register("ridol_stick",
-	            () -> new SwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()));
+	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.X_TAB_ITEM));
 	    
 	    public static final RegistryObject<Item> XHELMET = ITEMS.register("xhead",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.X_TAB_ITEM));
@@ -207,7 +209,29 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> RIDOL = ITEMS.register("ridol",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"x",RIDOL_CORE ,XHELMET,XCHESTPLATE,XLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.X_TAB_ITEM));
 
-	
+		//Amazon
+	    
+	    public static final RegistryObject<Item> AMAZONHELMET = ITEMS.register("amazonhead",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
+	    public static final RegistryObject<Item> AMAZONCHESTPLATE = ITEMS.register("amazontroso",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
+	    public static final RegistryObject<Item> AMAZONLEGGINGS = ITEMS.register("amazonlegs",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
+
+	    public static final RegistryObject<Item> CONDORER_WHEEL = ITEMS.register("condorer_wheel",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","amazon","condorer_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.REGENERATION,200, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 2,true,false),new MobEffectInstance(MobEffects.JUMP,20, 2,true,false)).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
+	 
+	    public static final RegistryObject<Item> CONDORER = ITEMS.register("condorer",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"amazon",CONDORER_WHEEL ,AMAZONHELMET,AMAZONCHESTPLATE,AMAZONLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
+
+	    public static final RegistryObject<Item> GIGI_ARMLET = ITEMS.register("gigi_armlet",
+	    		  () -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
+	    
+	    public static final RegistryObject<Item> GAGA_ARMLET = ITEMS.register("gaga_armlet",
+	    		  () -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
+	    
 	    
 	    /**
 	    public static final RegistryObject<Item> HELMET = ITEMS.register("head",

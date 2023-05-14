@@ -128,33 +128,4 @@ public class RiderDriverItem extends RiderArmorItem{
 		}
 	}
 
-	/**
-
-public RiderFormChangeItem get_Form_Item(ItemStack itemstack,int SLOT)
-	{
-		if (!itemstack.hasTagCompound())
-		{
-			return Base_Form_Item;
-		}else if (Item.getItemById(itemstack.getTagCompound().getInteger("slot"+SLOT))instanceof RiderFormChangeItem){
-			return (RiderFormChangeItem) Item.getItemById(itemstack.getTagCompound().getInteger("slot"+SLOT));
-		}else{
-			return Base_Form_Item;
-		}
-	}
-
-	public static RiderFormChangeItem get_Form_Item_tex(ItemStack itemstack,int SLOT)
-	{
-		if (!itemstack.hasTagCompound())
-		{
-			return  ((RiderDriverItem)itemstack.getItem()).Base_Form_Item;
-		}else if (Item.getItemById(itemstack.getTagCompound().getInteger("slot"+SLOT))instanceof RiderFormChangeItem){
-			return (RiderFormChangeItem) Item.getItemById(itemstack.getTagCompound().getInteger("slot"+SLOT));
-		}else{
-			return  ((RiderDriverItem)itemstack.getItem()).Base_Form_Item;
-		}
-	}
-
-	 **/
-
-
 }

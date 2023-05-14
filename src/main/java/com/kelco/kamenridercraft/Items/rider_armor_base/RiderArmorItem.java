@@ -51,14 +51,14 @@ public class RiderArmorItem extends ArmorItem implements GeoItem {
 		return this;
 	}
 
-	private PlayState predicate(AnimationState animationState) {
+	private PlayState predicate(AnimationState<?> animationState) {
 		animationState.getController().setAnimation(RawAnimation.begin().then("idle", Animation.LoopType.LOOP));
 		return PlayState.CONTINUE;
 	}
 
 	@Override
 	public void registerControllers(AnimatableManager.ControllerRegistrar controllerRegistrar) {
-		controllerRegistrar.add(new AnimationController(this, "controller", 0, this::predicate));
+		controllerRegistrar.add(new AnimationController<RiderArmorItem>(this, "controller", 0, this::predicate));
 	}
 
 	@Override

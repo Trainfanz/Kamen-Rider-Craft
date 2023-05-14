@@ -1,6 +1,7 @@
 package com.kelco.kamenridercraft.Items;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
 
 import net.minecraft.world.food.Foods;
 import net.minecraft.world.item.*;
@@ -13,20 +14,20 @@ public class Modded_item_core {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, KamenRiderCraftCore.MODID);
     
     public static final RegistryObject<Item> RIDER_CIRCUIT = ITEMS.register("rider_circuit",
-    		  () -> new Item(new Item.Properties()));
+    		  () -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.Misc_TAB_ITEM));
     
     public static final RegistryObject<Item> BASE_SWORD = ITEMS.register("base_sword",
-  		  () -> new Item(new Item.Properties()));
+  		  () -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.Misc_TAB_ITEM));
   
     public static final RegistryObject<Item> BASE_BIKE = ITEMS.register("base_bike",
-    		  () -> new Item(new Item.Properties()));
+    		  () -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.Misc_TAB_ITEM));
     
     public static final RegistryObject<Item> SHOCKER_EMBLEM = ITEMS.register("shocker_emblem",
-    		  () -> new Item(new Item.Properties()));
+    		  () -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.Misc_TAB_ITEM));
     
 
     public static final RegistryObject<Item> DONUT = ITEMS.register("donut",
-    		  () -> new Item(new Item.Properties().food(Foods.BREAD)));
+    		  () -> new BaseItem(new Item.Properties().food(Foods.BREAD)).AddToTabList(RiderTabs.Misc_TAB_ITEM));
     
   
     // public static final RegistryObject<Item> CYCLONEHOPPER = ITEMS.register("cyclonehopper",
