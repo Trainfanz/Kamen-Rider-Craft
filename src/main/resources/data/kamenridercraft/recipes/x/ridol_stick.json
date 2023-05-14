@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "x",
+  "pattern": [
+    "XCX",
+    "XZX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraftrider_circuit"
+    }, "C": {
+      "item": "kamenridercraftridol_core"
+    }, "Z": {
+      "item": "kamenridercraftbase_sword"
+    }
+  },
+  "result": {
+    "item": "kamenridercraftridol_stick"
+  }
+}
