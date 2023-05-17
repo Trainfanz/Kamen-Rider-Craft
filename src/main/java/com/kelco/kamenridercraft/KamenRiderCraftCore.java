@@ -1,11 +1,11 @@
 package com.kelco.kamenridercraft;
 
 
+import com.kelco.kamenridercraft.Entities.MobsCore;
 import com.kelco.kamenridercraft.Items.Ichigo_Rider_Items;
 import com.kelco.kamenridercraft.Items.Modded_item_core;
 import com.kelco.kamenridercraft.Items.RiderTabs;
 
-import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -25,7 +25,7 @@ public class KamenRiderCraftCore {
 		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 		Modded_item_core.register(modEventBus);
 		Ichigo_Rider_Items.register(modEventBus);
-
+MobsCore.MOBLIST.register(modEventBus);
 		MinecraftForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::addCreative);
 	}
@@ -65,6 +65,9 @@ public class KamenRiderCraftCore {
 		}
 
 		if(event.getTab() == RiderTabs.RiderMiscTab) {
+			
+			event.accept(Modded_item_core.SHOCKER_COMBATMAN_SPAWN_EGG);
+			
 			for (int i = 0; i < RiderTabs.Misc_TAB_ITEM.size(); i++)
 			{
 				event.accept( RiderTabs.Misc_TAB_ITEM.get(i));
