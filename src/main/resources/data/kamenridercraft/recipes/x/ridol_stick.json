@@ -8,14 +8,14 @@
   ],
   "key": {
     "X": {
-      "item": "kamenridercraftrider_circuit"
+      "item": "kamenridercraft:rider_circuit"
     }, "C": {
-      "item": "kamenridercraftridol_core"
+      "item": "kamenridercraft:ridol_core"
     }, "Z": {
-      "item": "kamenridercraftbase_sword"
+      "item": "kamenridercraft:base_sword"
     }
   },
   "result": {
-    "item": "kamenridercraftridol_stick"
+    "item": "kamenridercraft:ridol_stick"
   }
 }

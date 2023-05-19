@@ -14,9 +14,6 @@ import net.minecraft.resources.ResourceLocation;
 
 public class BasicEntityRenderer  extends  HumanoidMobRenderer<BaseHenchmenEntity, BasicMobModel<BaseHenchmenEntity>>  {
 
-	private static final ResourceLocation TEXTURE = new ResourceLocation(KamenRiderCraftCore.MODID, "textures/entities/shocker_combatman.png");
-
-	private String NAME = "shocker_combatman";
 
 	public BasicEntityRenderer(EntityRendererProvider.Context ctx) {
 		this(ctx, ModelLayers.PLAYER);

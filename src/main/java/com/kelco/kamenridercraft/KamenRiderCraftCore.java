@@ -42,28 +42,31 @@ MobsCore.MOBLIST.register(modEventBus);
 				event.accept( RiderTabs.ICHIGO_TAB_ITEM.get(i));
 			}
 
-		}
-		if(event.getTab() == RiderTabs.V3Tab) {
+		}else if(event.getTab() == RiderTabs.V3Tab) {
 			for (int i = 0; i < RiderTabs.V3_TAB_ITEM.size(); i++)
 			{
 				event.accept( RiderTabs.V3_TAB_ITEM.get(i));
 			}
-		}
-		if(event.getTab() == RiderTabs.XTab) {
+		}else if(event.getTab() == RiderTabs.XTab) {
 			for (int i = 0; i < RiderTabs.X_TAB_ITEM.size(); i++)
 			{
 				event.accept( RiderTabs.X_TAB_ITEM.get(i));
 			}
 
-		}
-		
-		if(event.getTab() == RiderTabs.AMAZONTab) {
+		}else if(event.getTab() == RiderTabs.AMAZONTab) {
 			for (int i = 0; i < RiderTabs.AMAZON_TAB_ITEM.size(); i++)
 			{
 				event.accept( RiderTabs.AMAZON_TAB_ITEM.get(i));
 			}
 
+		}else if(event.getTab() == RiderTabs.STRONGERTab) {
+			for (int i = 0; i < RiderTabs.STRONGER_TAB_ITEM.size(); i++)
+			{
+				event.accept( RiderTabs.STRONGER_TAB_ITEM.get(i));
+			}
+
 		}
+
 
 		if(event.getTab() == RiderTabs.RiderMiscTab) {
 			

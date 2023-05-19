@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kr_v3",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:ichigohead"
+    }, 
+    {
+      "item": "kamenridercraft:condorer_wheel"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft:amazonhead"
+  }
+}

@@ -232,6 +232,29 @@ public class Ichigo_Rider_Items {
 	    		  () -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
 	    
 	    
+	    //Stronger
+	    public static final RegistryObject<Item> STRONGERHELMET = ITEMS.register("strongerhead",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
+	    public static final RegistryObject<Item> STRONGERCHESTPLATE = ITEMS.register("strongertroso",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
+	    public static final RegistryObject<Item> STRONGERLEGGINGS = ITEMS.register("strongerlegs",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
+	
+	    public static final RegistryObject<Item> ELECTRER_CORE = ITEMS.register("electrer_core",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","stronger","electrer_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.FIRE_RESISTANCE,20, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 2,true,false),new MobEffectInstance(MobEffects.JUMP,20, 1,true,false)).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
+	 
+	    public static final RegistryObject<Item> CHARGE_UP = ITEMS.register("charge_up",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_charge_up","stronger","electrer_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 3,true,false),new MobEffectInstance(MobEffects.FIRE_RESISTANCE,20, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 2,true,false),new MobEffectInstance(MobEffects.JUMP,20, 1,true,false)).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
+	 
+	    
+	    public static final RegistryObject<Item> ELECTRER = ITEMS.register("electrer",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"stronger",ELECTRER_CORE ,STRONGERHELMET,STRONGERCHESTPLATE,STRONGERLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
+
+	    
 	    /**
 	    public static final RegistryObject<Item> HELMET = ITEMS.register("head",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs._TAB_ITEM));
