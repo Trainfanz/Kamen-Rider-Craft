@@ -265,8 +265,8 @@ public class Ichigo_Rider_Items {
 
 	    public static final RegistryObject<Item> TORNADO_CORE = ITEMS.register("tornado_core",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","skyrider","tornado_belt",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 3,true,false),new MobEffectInstance(MobEffects.FIRE_RESISTANCE,20, 1,true,false)
-	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 2,true,false),new MobEffectInstance(MobEffects.JUMP,20, 1,true,false)).AddToTabList(RiderTabs.SKYRIDER_TAB_ITEM));
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 1,true,false),
+	            		new MobEffectInstance(MobEffects.JUMP,20, 5,true,false)).AddToTabList(RiderTabs.SKYRIDER_TAB_ITEM));
 	 
 	    
 	    public static final RegistryObject<Item> TORNADO = ITEMS.register("tornado",
