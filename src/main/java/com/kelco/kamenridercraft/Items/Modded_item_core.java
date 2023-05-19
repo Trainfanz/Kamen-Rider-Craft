@@ -32,9 +32,7 @@ public class Modded_item_core {
     		  () -> new BaseItem(new Item.Properties().food(Foods.BREAD)).AddToTabList(RiderTabs.Misc_TAB_ITEM));
     
   
-    public static final RegistryObject<ForgeSpawnEggItem> SHOCKER_COMBATMAN_SPAWN_EGG = ITEMS.register("shocker_combatman_spawn_egg",
-            () -> new ForgeSpawnEggItem(MobsCore.SHOCKER_COMBATMAN, 0xFF55AA, 0x27DA9F, new Item.Properties().stacksTo(16)));
-    
+     
     // public static final RegistryObject<Item> CYCLONEHOPPER = ITEMS.register("cyclonehopper",
 	   //        () -> new RiderFormChangeItem(new Item.Properties(),0,"_cyclonehopper","ichigo","typhoon_belt_original"));
 

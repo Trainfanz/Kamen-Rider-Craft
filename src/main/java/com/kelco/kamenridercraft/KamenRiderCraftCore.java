@@ -25,6 +25,7 @@ public class KamenRiderCraftCore {
 		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 		Modded_item_core.register(modEventBus);
 		Ichigo_Rider_Items.register(modEventBus);
+		MobsCore.register(modEventBus);
 MobsCore.MOBLIST.register(modEventBus);
 		MinecraftForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::addCreative);
@@ -66,7 +67,8 @@ MobsCore.MOBLIST.register(modEventBus);
 
 		if(event.getTab() == RiderTabs.RiderMiscTab) {
 			
-			event.accept(Modded_item_core.SHOCKER_COMBATMAN_SPAWN_EGG);
+			event.accept(MobsCore.SHOCKER_COMBATMAN_SPAWN_EGG);
+			event.accept(MobsCore.DESTRON_COMBATMAN_SPAWN_EGG);
 			
 			for (int i = 0; i < RiderTabs.Misc_TAB_ITEM.size(); i++)
 			{

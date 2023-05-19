@@ -5,12 +5,7 @@ import net.minecraft.client.model.AnimationUtils;
 import net.minecraft.client.model.PlayerModel;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
-import net.minecraft.util.Mth;
-import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.monster.piglin.AbstractPiglin;
-import net.minecraft.world.entity.monster.piglin.PiglinArmPose;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.TieredItem;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -38,26 +33,6 @@ public class BasicMobModel<T extends Mob> extends PlayerModel<T> {
 	          if (p_103366_.isAggressive() && p_103366_.getMainHandItem().getItem() instanceof TieredItem) {
 	            this.holdWeaponHigh(p_103366_);
 	         }
-	          /**
-	            else if (piglinarmpose == PiglinArmPose.CROSSBOW_HOLD) {
-	            @param p_103361_
-	           
-	            AnimationUtils.animateCrossbowHold(this.rightArm, this.leftArm, this.head, !p_103366_.isLeftHanded());
-	         } else if (piglinarmpose == PiglinArmPose.CROSSBOW_CHARGE) {
-	            AnimationUtils.animateCrossbowCharge(this.rightArm, this.leftArm, p_103366_, !p_103366_.isLeftHanded());
-	         } else if (piglinarmpose == PiglinArmPose.ADMIRING_ITEM) {
-	            this.head.xRot = 0.5F;
-	            this.head.yRot = 0.0F;
-	            if (p_103366_.isLeftHanded()) {
-	               this.rightArm.yRot = -0.5F;
-	               this.rightArm.xRot = -0.9F;
-	            } else {
-	               this.leftArm.yRot = 0.5F;
-	               this.leftArm.xRot = -0.9F;
-	            }
-	            }
-	         **/
-	      
 
 	      this.leftPants.copyFrom(this.leftLeg);
 	      this.rightPants.copyFrom(this.rightLeg);

@@ -1,7 +1,7 @@
 package com.kelco.kamenridercraft.client.renderer;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
-import com.kelco.kamenridercraft.Entities.ShockerCombatmanEntity;
+import com.kelco.kamenridercraft.Entities.BaseHenchmenEntity;
 import com.kelco.kamenridercraft.client.models.BasicMobModel;
 
 
@@ -12,10 +12,11 @@ import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
 import net.minecraft.resources.ResourceLocation;
 
 
-public class BasicEntityRenderer  extends  HumanoidMobRenderer<ShockerCombatmanEntity, BasicMobModel<ShockerCombatmanEntity>>  {
+public class BasicEntityRenderer  extends  HumanoidMobRenderer<BaseHenchmenEntity, BasicMobModel<BaseHenchmenEntity>>  {
 
 	private static final ResourceLocation TEXTURE = new ResourceLocation(KamenRiderCraftCore.MODID, "textures/entities/shocker_combatman.png");
 
+	private String NAME = "shocker_combatman";
 
 	public BasicEntityRenderer(EntityRendererProvider.Context ctx) {
 		this(ctx, ModelLayers.PLAYER);
@@ -29,8 +30,8 @@ public class BasicEntityRenderer  extends  HumanoidMobRenderer<ShockerCombatmanE
 
 
 	@Override
-	public ResourceLocation getTextureLocation(ShockerCombatmanEntity p_114482_) {
-		// TODO Auto-generated method stub
-		return TEXTURE;
+	public ResourceLocation getTextureLocation(BaseHenchmenEntity p_114482_) {
+		
+		return new ResourceLocation(KamenRiderCraftCore.MODID, "textures/entities/"+p_114482_.NAME+".png");
 	}
 }
