@@ -1,6 +1,9 @@
 package com.kelco.kamenridercraft.Entities;
 
 
+
+
+
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
@@ -38,6 +41,12 @@ public class ShockerCombatmanEntity extends Zombie {
         this.goalSelector.addGoal(8, new LookAtPlayerGoal(this, Player.class, 8.0F));
         this.goalSelector.addGoal(8, new RandomLookAroundGoal(this));
         this.addBehaviourGoals();
+        
+        //this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(Ichigo_Rider_Items.RIDOL_STICK.get()));
+        //this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(Ichigo_Rider_Items.ICHIGOHELMET.get()));
+       // this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(Ichigo_Rider_Items.ICHIGOCHESTPLATE.get()));
+       // this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(Ichigo_Rider_Items.ICHIGOLEGGINGS.get()));
+        //this.setItemSlot(EquipmentSlot.FEET, new ItemStack(Ichigo_Rider_Items.TYPHOON_SHOCKER_RIDER_1.get()));
      }
     
     @Override

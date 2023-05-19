@@ -2,25 +2,28 @@ package com.kelco.kamenridercraft.client.renderer;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.Entities.ShockerCombatmanEntity;
-import net.minecraft.client.model.ZombieModel;
+import com.kelco.kamenridercraft.client.models.BasicMobModel;
+
+
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.renderer.entity.AbstractZombieRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
 import net.minecraft.resources.ResourceLocation;
 
 
-public class BasicEntityRenderer  extends  AbstractZombieRenderer<ShockerCombatmanEntity, ZombieModel<ShockerCombatmanEntity>>  {
+public class BasicEntityRenderer  extends  HumanoidMobRenderer<ShockerCombatmanEntity, BasicMobModel<ShockerCombatmanEntity>>  {
 
 	private static final ResourceLocation TEXTURE = new ResourceLocation(KamenRiderCraftCore.MODID, "textures/entities/shocker_combatman.png");
 
 
 	public BasicEntityRenderer(EntityRendererProvider.Context ctx) {
-		this(ctx, ModelLayers.ZOMBIE, ModelLayers.ZOMBIE_INNER_ARMOR, ModelLayers.ZOMBIE_OUTER_ARMOR);
+		this(ctx, ModelLayers.PLAYER);
 	}
 
-	public BasicEntityRenderer(EntityRendererProvider.Context ctx, ModelLayerLocation ModelLayer, ModelLayerLocation INNER_ARMOR, ModelLayerLocation OUTER_ARMO) {
-		super(ctx, new ZombieModel<>(ctx.bakeLayer(ModelLayer)), new ZombieModel<>(ctx.bakeLayer(INNER_ARMOR)), new ZombieModel<>(ctx.bakeLayer(OUTER_ARMO)));
+	
+	public BasicEntityRenderer(EntityRendererProvider.Context ctx, ModelLayerLocation ModelLayer) {
+		super(ctx, new BasicMobModel<>(ctx.bakeLayer(ModelLayer)),1);
 	}
 
 
