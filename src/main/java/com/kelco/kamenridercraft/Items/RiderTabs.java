@@ -23,12 +23,15 @@ public class RiderTabs {
     public static CreativeModeTab XTab;
     public static CreativeModeTab AMAZONTab;
     public static CreativeModeTab STRONGERTab;
+    public static CreativeModeTab SKYRIDERTab;
 
     public static List<Item> ICHIGO_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> V3_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> X_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> AMAZON_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> STRONGER_TAB_ITEM= new ArrayList<Item>();
+    public static List<Item> SKYRIDER_TAB_ITEM= new ArrayList<Item>();
+    
     public static List<Item> Misc_TAB_ITEM= new ArrayList<Item>();
     
     
@@ -49,6 +52,9 @@ public class RiderTabs {
  
     	STRONGERTab = event.registerCreativeModeTab(new ResourceLocation(KamenRiderCraftCore.MODID, "rider_stronger_tab"),
                 builder-> builder.icon(() -> new ItemStack(Ichigo_Rider_Items.STRONGERHELMET.get())).withBackgroundLocation(new ResourceLocation(KamenRiderCraftCore.MODID+":textures/gui/tab_iichigo_items.png")).title(Component.literal("Stronger Rider Items")).build());
+ 
+    	SKYRIDERTab = event.registerCreativeModeTab(new ResourceLocation(KamenRiderCraftCore.MODID, "rider_skyrider_tab"),
+                builder-> builder.icon(() -> new ItemStack(Ichigo_Rider_Items.SKYRIDERHELMET.get())).withBackgroundLocation(new ResourceLocation(KamenRiderCraftCore.MODID+":textures/gui/tab_iichigo_items.png")).title(Component.literal("Skyrider Rider Items")).build());
  
     	
     	RiderMiscTab = event.registerCreativeModeTab(new ResourceLocation(KamenRiderCraftCore.MODID, "rider_misc_tab"),

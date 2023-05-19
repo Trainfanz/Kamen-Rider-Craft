@@ -65,6 +65,12 @@ MobsCore.MOBLIST.register(modEventBus);
 				event.accept( RiderTabs.STRONGER_TAB_ITEM.get(i));
 			}
 
+		}else if(event.getTab() == RiderTabs.SKYRIDERTab) {
+			for (int i = 0; i < RiderTabs.SKYRIDER_TAB_ITEM.size(); i++)
+			{
+				event.accept( RiderTabs.SKYRIDER_TAB_ITEM.get(i));
+			}
+
 		}
 
 

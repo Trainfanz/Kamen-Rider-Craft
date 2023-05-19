@@ -29,8 +29,6 @@ public class RiderDriverItem extends RiderArmorItem{
 	public Item TORSO;
 	public Item LEGS; 
 
-	private boolean belt=false;
-
 
 	public RiderDriverItem (ArmorMaterial material, String rider,RegistryObject<Item> baseFormItem,RegistryObject<Item> head,RegistryObject<Item>torso,RegistryObject<Item> legs, Properties properties)
 	{
@@ -59,6 +57,7 @@ public class RiderDriverItem extends RiderArmorItem{
 						List<MobEffectInstance> potionEffectList = get_Form_Item(player.getItemBySlot(EquipmentSlot.FEET),1).getPotionEffectList();
 						for (int i = 0; i < potionEffectList.size(); i++)
 						{
+							player.setInvisible(true);
 							player.addEffect(new MobEffectInstance(potionEffectList.get(i).getEffect(),potionEffectList.get(i).getDuration(),potionEffectList.get(i).getAmplifier(),true,false));
 						}
 
@@ -89,17 +88,13 @@ public class RiderDriverItem extends RiderArmorItem{
 			}
 		});
 	}
-	public RiderDriverItem belt(boolean num)
-	{
-		belt=num;
-		return this;
-	}
 
 
 	public static String GET_TEXT(ItemStack itemstack, EquipmentSlot equipmentSlot)
 	{
 		if (equipmentSlot == EquipmentSlot.FEET) {
-			return get_Form_Item(itemstack,1).getBeltTex();
+			
+			return "belts/"+get_Form_Item(itemstack,1).getBeltTex();
 		}
 		else return get_Form_Item(itemstack,1).getFormName();
 	}

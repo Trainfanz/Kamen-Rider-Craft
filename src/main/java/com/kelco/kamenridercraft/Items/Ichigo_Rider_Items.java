@@ -255,6 +255,25 @@ public class Ichigo_Rider_Items {
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"stronger",ELECTRER_CORE ,STRONGERHELMET,STRONGERCHESTPLATE,STRONGERLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
 
 	    
+	    //Skyrider    
+	    public static final RegistryObject<Item> SKYRIDERHELMET = ITEMS.register("skyriderhead",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.SKYRIDER_TAB_ITEM));
+	    public static final RegistryObject<Item> SKYRIDERCHESTPLATE = ITEMS.register("skyridertroso",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.SKYRIDER_TAB_ITEM));
+	    public static final RegistryObject<Item> SKYRIDERLEGGINGS = ITEMS.register("skyriderlegs",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.SKYRIDER_TAB_ITEM));
+
+	    public static final RegistryObject<Item> TORNADO_CORE = ITEMS.register("tornado_core",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","skyrider","tornado_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 3,true,false),new MobEffectInstance(MobEffects.FIRE_RESISTANCE,20, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 2,true,false),new MobEffectInstance(MobEffects.JUMP,20, 1,true,false)).AddToTabList(RiderTabs.SKYRIDER_TAB_ITEM));
+	 
+	    
+	    public static final RegistryObject<Item> TORNADO = ITEMS.register("tornado",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"skyrider",TORNADO_CORE ,SKYRIDERHELMET,SKYRIDERCHESTPLATE,SKYRIDERLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.SKYRIDER_TAB_ITEM));
+
+	    
+	    
 	    /**
 	    public static final RegistryObject<Item> HELMET = ITEMS.register("head",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs._TAB_ITEM));
