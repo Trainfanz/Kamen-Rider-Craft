@@ -24,13 +24,17 @@ public class RiderTabs {
     public static CreativeModeTab AMAZONTab;
     public static CreativeModeTab STRONGERTab;
     public static CreativeModeTab SKYRIDERTab;
-
+    public static CreativeModeTab SUPER1Tab;
+    public static CreativeModeTab ZXTab;
+    
     public static List<Item> ICHIGO_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> V3_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> X_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> AMAZON_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> STRONGER_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> SKYRIDER_TAB_ITEM= new ArrayList<Item>();
+    public static List<Item> SUPER1_TAB_ITEM= new ArrayList<Item>();
+    public static List<Item> ZX_TAB_ITEM= new ArrayList<Item>();
     
     public static List<Item> Misc_TAB_ITEM= new ArrayList<Item>();
     
@@ -55,11 +59,16 @@ public class RiderTabs {
  
     	SKYRIDERTab = event.registerCreativeModeTab(new ResourceLocation(KamenRiderCraftCore.MODID, "rider_skyrider_tab"),
                 builder-> builder.icon(() -> new ItemStack(Ichigo_Rider_Items.SKYRIDERHELMET.get())).withBackgroundLocation(new ResourceLocation(KamenRiderCraftCore.MODID+":textures/gui/tab_iichigo_items.png")).title(Component.literal("Skyrider Rider Items")).build());
+
+    	SUPER1Tab = event.registerCreativeModeTab(new ResourceLocation(KamenRiderCraftCore.MODID, "rider_super_1_tab"),
+                builder-> builder.icon(() -> new ItemStack(Ichigo_Rider_Items.SUPER1HELMET.get())).withBackgroundLocation(new ResourceLocation(KamenRiderCraftCore.MODID+":textures/gui/tab_iichigo_items.png")).title(Component.literal("Super 1 Rider Items")).build());
  
     	
     	RiderMiscTab = event.registerCreativeModeTab(new ResourceLocation(KamenRiderCraftCore.MODID, "rider_misc_tab"),
                 builder-> builder.icon(() -> new ItemStack(Modded_item_core.RIDER_CIRCUIT.get())).withBackgroundLocation(new ResourceLocation(KamenRiderCraftCore.MODID+":textures/gui/tab_iichigo_items.png")).title(Component.literal("Misc Rider Items")).build());
  
-    
+    	ZXTab = event.registerCreativeModeTab(new ResourceLocation(KamenRiderCraftCore.MODID, "rider_zx_tab"),
+                builder-> builder.icon(() -> new ItemStack(Ichigo_Rider_Items.ZXHELMET.get())).withBackgroundLocation(new ResourceLocation(KamenRiderCraftCore.MODID+":textures/gui/tab_iichigo_items.png")).title(Component.literal("ZX Rider Items")).build());
+    	
     }
 }

@@ -29,7 +29,7 @@
 					"parent": "bipedBody",
 					"pivot": [0, 24, 0],
 					"cubes": [
-						{"origin": [-5, 12, -3], "size": [10, 3, 6], "inflate": -0.2, "uv": [0, 0]},
+						{"origin": [-5, 12, -3], "size": [10, 3, 6], "inflate": -0.3, "uv": [0, 0]},
 						{"origin": [-8, 5.5, -5.1], "size": [16, 16, 7], "inflate": -5, "uv": [18, 9]}
 					]
 				},

@@ -272,7 +272,49 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> TORNADO = ITEMS.register("tornado",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"skyrider",TORNADO_CORE ,SKYRIDERHELMET,SKYRIDERCHESTPLATE,SKYRIDERLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.SKYRIDER_TAB_ITEM));
 
+	    //Super 1
+	    public static final RegistryObject<Item> SUPER1HELMET = ITEMS.register("super_1head",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.SUPER1_TAB_ITEM));
+	    public static final RegistryObject<Item> SUPER1CHESTPLATE = ITEMS.register("super_1troso",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.SUPER1_TAB_ITEM));
+	    public static final RegistryObject<Item> SUPER1LEGGINGS = ITEMS.register("super_1legs",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.SUPER1_TAB_ITEM));
+	
+	    public static final RegistryObject<Item> CYCLODE_CORE = ITEMS.register("cyclode_core",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","super_1","cyclode_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.FIRE_RESISTANCE,20, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 2,true,false),new MobEffectInstance(MobEffects.JUMP,20, 1,true,false)).AddToTabList(RiderTabs.SUPER1_TAB_ITEM));
+
+	    public static final RegistryObject<Item> CYCLODE = ITEMS.register("cyclode",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"super_1",CYCLODE_CORE ,SUPER1HELMET,SUPER1CHESTPLATE,SUPER1LEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.SUPER1_TAB_ITEM));
+
 	    
+	    //ZX
+	    public static final RegistryObject<Item> ZXHELMET = ITEMS.register("zxhead",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.ZX_TAB_ITEM));
+	    public static final RegistryObject<Item> ZXCHESTPLATE = ITEMS.register("zxtroso",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.ZX_TAB_ITEM));
+	    public static final RegistryObject<Item> ZXLEGGINGS = ITEMS.register("zxlegs",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.ZX_TAB_ITEM));
+
+
+	    public static final RegistryObject<Item> ZX_BELT_CORE = ITEMS.register("zx_belt_core",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","zx","zx_belt_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.REGENERATION,200, 0,true,false)
+	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 2,true,false),new MobEffectInstance(MobEffects.JUMP,20, 1,true,false)).AddToTabList(RiderTabs.ZX_TAB_ITEM));
+	 
+	    public static final RegistryObject<Item> ZX_BELT = ITEMS.register("zx_belt",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"zx",ZX_BELT_CORE ,ZXHELMET,ZXCHESTPLATE,ZXLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.ZX_TAB_ITEM));
+
+	    public static final RegistryObject<Item> SUSANOO_BELT = ITEMS.register("susanoo_belt",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"susanoo_zx",ZX_BELT_CORE ,ZXHELMET,ZXCHESTPLATE,ZXLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.ZX_TAB_ITEM));
+
+	    public static final RegistryObject<Item> TSUKUYOMI_BELT = ITEMS.register("tsukuyomi_belt",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"tsukuyomi_zx",ZX_BELT_CORE ,ZXHELMET,ZXCHESTPLATE,ZXLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.ZX_TAB_ITEM));
+
+	    public static final RegistryObject<Item> AMATERASU_BELT = ITEMS.register("amaterasu_belt",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"amaterasu_zx",ZX_BELT_CORE ,ZXHELMET,ZXCHESTPLATE,ZXLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.ZX_TAB_ITEM));
+
 	    
 	    /**
 	    public static final RegistryObject<Item> HELMET = ITEMS.register("head",

@@ -71,6 +71,18 @@ MobsCore.MOBLIST.register(modEventBus);
 				event.accept( RiderTabs.SKYRIDER_TAB_ITEM.get(i));
 			}
 
+		}else if(event.getTab() == RiderTabs.SUPER1Tab) {
+			for (int i = 0; i < RiderTabs.SUPER1_TAB_ITEM.size(); i++)
+			{
+				event.accept( RiderTabs.SUPER1_TAB_ITEM.get(i));
+			}
+
+		}else if(event.getTab() == RiderTabs.ZXTab) {
+			for (int i = 0; i < RiderTabs.ZX_TAB_ITEM.size(); i++)
+			{
+				event.accept( RiderTabs.ZX_TAB_ITEM.get(i));
+			}
+
 		}
 
 
