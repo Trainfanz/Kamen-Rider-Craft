@@ -7,15 +7,13 @@ import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.monster.Zombie;
 import net.minecraft.world.level.Level;
 
-public class ShockerCombatmanEntity extends BaseHenchmenEntity {
+public class BlackSatanSoldierEntity extends BaseHenchmenEntity {
 	
-	
-    public ShockerCombatmanEntity(EntityType<? extends Zombie> type, Level level) {
+    public BlackSatanSoldierEntity(EntityType<? extends Zombie> type, Level level) {
         super(type, level);
-        NAME="shocker_combatman";
+        NAME="black_satan_soldier";
     }
 
- 
 
     public static AttributeSupplier setAttributes() {
     
