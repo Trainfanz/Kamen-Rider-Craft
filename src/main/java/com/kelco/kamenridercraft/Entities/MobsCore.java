@@ -45,7 +45,7 @@ public class MobsCore {
             () -> EntityType.Builder.of(RedFollowerEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":red_follower"));
     
     public static final RegistryObject<ForgeSpawnEggItem> RED_FOLLWER_SPAWN_EGG = ITEMS.register("red_follower_spawn_egg",
-            () -> new ForgeSpawnEggItem(RED_FOLLWER, 000000,0x7e0000, new Item.Properties().stacksTo(16)));
+            () -> new ForgeSpawnEggItem(RED_FOLLWER,  0x7e0000,0xcacaca, new Item.Properties().stacksTo(16)));
 
     
     
@@ -61,7 +61,7 @@ public class MobsCore {
             () -> EntityType.Builder.of(AriCommandoEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":ari_commando"));
     
     public static final RegistryObject<ForgeSpawnEggItem> ARI_COMMANDO_SPAWN_EGG = ITEMS.register("ari_commando_spawn_egg",
-            () -> new ForgeSpawnEggItem(ARI_COMMANDO, 000000,0x7e0000, new Item.Properties().stacksTo(16)));
+            () -> new ForgeSpawnEggItem(ARI_COMMANDO, 000000,0x121212, new Item.Properties().stacksTo(16)));
 
     
     
@@ -69,7 +69,7 @@ public class MobsCore {
             () -> EntityType.Builder.of(DogmaFighterEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":dogma_fighter"));
     
     public static final RegistryObject<ForgeSpawnEggItem> DOGMA_FIGHTER_SPAWN_EGG = ITEMS.register("dogma_fighter_spawn_egg",
-            () -> new ForgeSpawnEggItem(DOGMA_FIGHTER, 000000,0x7e0000, new Item.Properties().stacksTo(16)));
+            () -> new ForgeSpawnEggItem(DOGMA_FIGHTER, 0x730000,0xa5a5a5, new Item.Properties().stacksTo(16)));
  
     
     
@@ -77,7 +77,7 @@ public class MobsCore {
             () -> EntityType.Builder.of(CombatRoidEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":combat_roid"));
     
     public static final RegistryObject<ForgeSpawnEggItem> COMBAT_ROID_SPAWN_EGG = ITEMS.register("combat_roid_spawn_egg",
-            () -> new ForgeSpawnEggItem(COMBAT_ROID, 000000,0x7e0000, new Item.Properties().stacksTo(16)));
+            () -> new ForgeSpawnEggItem(COMBAT_ROID, 0xa5a5a5,0x8c0000, new Item.Properties().stacksTo(16)));
  
 
     
@@ -85,7 +85,7 @@ public class MobsCore {
             () -> EntityType.Builder.of(ChapEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":chap"));
     
     public static final RegistryObject<ForgeSpawnEggItem> CHAP_SPAWN_EGG = ITEMS.register("chap_spawn_egg",
-            () -> new ForgeSpawnEggItem(CHAP, 000000,0x7e0000, new Item.Properties().stacksTo(16)));
+            () -> new ForgeSpawnEggItem(CHAP,  000000,0xFFFFFF, new Item.Properties().stacksTo(16)));
  
     
     
