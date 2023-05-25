@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kr_super_1",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:ichigohead"
+    }, 
+    {
+      "item": "kamenridercraft:cyclode_core"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft:super_1head"
+  }
+}

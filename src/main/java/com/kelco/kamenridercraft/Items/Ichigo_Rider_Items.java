@@ -37,11 +37,6 @@ public class Ichigo_Rider_Items {
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 1,true,false)
 	            		,new MobEffectInstance(MobEffects.JUMP,20, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
 	    
-	    public static final RegistryObject<Item> ORIGINAL_TYPHOON_CORE = ITEMS.register("original_typhoon_core",
-	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_original","ichigo","typhoon_belt_original",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 1,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP,20, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
-
 	    public static final RegistryObject<Item> TYPHOON_CORE_NIGO = ITEMS.register("typhoon_core_nigo",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","nigo","typhoon_belt",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 1,true,false)
@@ -51,7 +46,12 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> ORIGINAL_TYPHOON_CORE_NIGO = ITEMS.register("original_typhoon_core_nigo",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_original","nigo","typhoon_belt",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 1,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP,20, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
+	            		,new MobEffectInstance(MobEffects.JUMP,20, 2,true,false)));
+
+	    public static final RegistryObject<Item> ORIGINAL_TYPHOON_CORE = ITEMS.register("original_typhoon_core",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_original","ichigo","typhoon_belt_original",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP,20, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM).addAlternative(ORIGINAL_TYPHOON_CORE_NIGO.get()));
 
 	    
 	    public static final RegistryObject<Item> SAKURAJIMA_TYPHOON_CORE = ITEMS.register("sakurajima_typhoon_core",

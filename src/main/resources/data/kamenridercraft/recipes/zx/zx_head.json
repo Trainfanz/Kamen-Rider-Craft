@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kr_zx",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:ichigohead"
+    }, 
+    {
+      "item": "kamenridercraft:zx_belt_core"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft:zxhead"
+  }
+}

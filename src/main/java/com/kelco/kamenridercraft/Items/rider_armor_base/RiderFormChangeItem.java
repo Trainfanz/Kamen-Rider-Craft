@@ -4,6 +4,8 @@ package com.kelco.kamenridercraft.Items.rider_armor_base;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.jetbrains.annotations.NotNull;
+
 import com.google.common.collect.Lists;
 
 import net.minecraft.world.InteractionHand;
@@ -29,6 +31,7 @@ public class RiderFormChangeItem extends Item {
 
 
 
+
 	public RiderFormChangeItem( Properties properties,int belt,String formName,String ridername,String beltTex, MobEffectInstance... effects) {
 		super( properties);
 
@@ -50,9 +53,14 @@ public class RiderFormChangeItem extends Item {
 	public String getFormName() {
 		return FORM_NAME;
 	}
-	
+
 	public String getBeltTex() {
 		return BELT_TEX;
+	}
+
+	public RiderFormChangeItem addAlternative( Item item) {
+		alternative.add((RiderFormChangeItem) item);
+		return this;
 	}
 
 	public RiderFormChangeItem AddToTabList(List<Item> TabList) {
@@ -60,24 +68,34 @@ public class RiderFormChangeItem extends Item {
 		return this;
 	}
 
-		 public InteractionResultHolder<ItemStack> use(Level p_41128_, Player p_41129_, InteractionHand p_41130_) {
-			  
-	    ItemStack itemstack = p_41129_.getItemInHand(p_41130_);
 
-	    ItemStack belt = p_41129_.getItemBySlot(EquipmentSlot.FEET);
-	    
-	    if (belt.getItem() instanceof RiderDriverItem) {
-	    
-	    	if (((RiderDriverItem)belt.getItem()).Rider==RIDER_NAME)
-			RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, 1);
-			
-	    }
-			   return InteractionResultHolder.sidedSuccess(itemstack, p_41128_.isClientSide());
-	    
+
+	public InteractionResultHolder<ItemStack> use(Level p_41128_, Player p_41129_, InteractionHand p_41130_) {
+
+		ItemStack itemstack = p_41129_.getItemInHand(p_41130_);
+
+		ItemStack belt = p_41129_.getItemBySlot(EquipmentSlot.FEET);
+
+		if (belt.getItem() instanceof RiderDriverItem) {
+
+			if (((RiderDriverItem)belt.getItem()).Rider==RIDER_NAME) {
+				RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, 1);
+
+			}else if(!alternative.isEmpty()){
+
+				for (int i = 0; i < alternative.size(); i++)
+				{
+					RiderFormChangeItem alternativeItem_form_change = alternative.get(i);
+					alternativeItem_form_change.use(p_41128_, p_41129_, p_41130_);
+				}
+			}
+		}
+		return InteractionResultHolder.sidedSuccess(itemstack, p_41128_.isClientSide());
+
 	}
 }
 
-			/**
+/**
 	public Item getWing() {
 		return WINGS;
 	}
@@ -141,5 +159,4 @@ public class RiderFormChangeItem extends Item {
 	}
 
 
-			 **/
-	
+ **/

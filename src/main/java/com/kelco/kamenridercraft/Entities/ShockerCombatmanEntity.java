@@ -29,4 +29,6 @@ public class ShockerCombatmanEntity extends BaseHenchmenEntity {
         		.add(Attributes.SPAWN_REINFORCEMENTS_CHANCE)
         		.build();
      }
+    
+
 }

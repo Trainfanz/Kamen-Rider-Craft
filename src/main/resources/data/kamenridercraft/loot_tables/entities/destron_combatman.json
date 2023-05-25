@@ -11,17 +11,17 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "kamenridercraft:typhoon_core"
+          "name": "kamenridercraft:double_typhoon_core"
         },
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "kamenridercraft:typhoon_core_nigo"
+          "name": "kamenridercraft:riderman_belt_core"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "kamenridercraft:original_typhoon_core"
+          "name": "kamenridercraft:blue_double_typhoon_core"
         }
       ]
     },
