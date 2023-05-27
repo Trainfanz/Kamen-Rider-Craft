@@ -23,7 +23,7 @@ public class DestronCombatmanEntity extends BaseHenchmenEntity {
         		.add(Attributes.MOVEMENT_SPEED,(double)0.23F)
         		.add(Attributes.ATTACK_DAMAGE, 4.0D)
         		.add(Attributes.ARMOR, 3.0D)
-        		.add(Attributes.MAX_HEALTH, 45.0D)
+        		.add(Attributes.MAX_HEALTH, 30.0D)
         		.add(Attributes.SPAWN_REINFORCEMENTS_CHANCE)
         		.build();
      }

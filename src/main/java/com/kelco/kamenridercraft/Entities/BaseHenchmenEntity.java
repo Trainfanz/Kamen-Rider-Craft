@@ -2,11 +2,10 @@ package com.kelco.kamenridercraft.Entities;
 
 
 
-
-
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
+import net.minecraft.util.RandomSource;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobType;
@@ -38,6 +37,7 @@ public class BaseHenchmenEntity extends Zombie {
         super(type, level);
     }
 
+    
     @Override
     protected void registerGoals() {
     	 this.goalSelector.addGoal(1, new FloatGoal(this));
@@ -71,6 +71,12 @@ public class BaseHenchmenEntity extends Zombie {
         		.add(Attributes.MAX_HEALTH, 45.0D)
         		.add(Attributes.SPAWN_REINFORCEMENTS_CHANCE)
         		.build();
+     }
+    
+    
+    
+    public static boolean getSpawnAsBabyOdds(RandomSource p_219163_) {
+        return false;
      }
     
     public boolean isBaby() {

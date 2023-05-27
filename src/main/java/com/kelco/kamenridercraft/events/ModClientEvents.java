@@ -20,6 +20,8 @@ public class ModClientEvents {
     public static void entityRenderers(EntityRenderersEvent.RegisterRenderers event) {
     	
         event.registerEntityRenderer(MobsCore.SHOCKER_COMBATMAN.get(), BasicEntityRenderer::new);
+        event.registerEntityRenderer(MobsCore.SHOCKER_RIDER.get(), BasicEntityRenderer::new);
+        
         event.registerEntityRenderer(MobsCore.DESTRON_COMBATMAN.get(), BasicEntityRenderer::new);
         event.registerEntityRenderer(MobsCore.GOD_WARFARE_AGENT.get(), BasicEntityRenderer::new);
         event.registerEntityRenderer(MobsCore.RED_FOLLWER.get(), BasicEntityRenderer::new);
@@ -27,7 +29,7 @@ public class ModClientEvents {
         event.registerEntityRenderer(MobsCore.ARI_COMMANDO.get(), BasicEntityRenderer::new);
         event.registerEntityRenderer(MobsCore.DOGMA_FIGHTER.get(), BasicEntityRenderer::new);
         event.registerEntityRenderer(MobsCore.COMBAT_ROID.get(), BasicEntityRenderer::new);
-        event.registerEntityRenderer(MobsCore.CHAP.get(), BasicEntityRenderer::new);
+       // event.registerEntityRenderer(MobsCore.CHAP.get(), BasicEntityRenderer::new);
     }
    
 

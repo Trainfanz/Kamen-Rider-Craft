@@ -34,60 +34,60 @@ public class Ichigo_Rider_Items {
 
 	    public static final RegistryObject<Item> TYPHOON_CORE = ITEMS.register("typhoon_core",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","ichigo","typhoon_belt",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 1,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP,20, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
 	    
 	    public static final RegistryObject<Item> TYPHOON_CORE_NIGO = ITEMS.register("typhoon_core_nigo",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","nigo","typhoon_belt",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 1,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP,20, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
 	    
 
 	    public static final RegistryObject<Item> ORIGINAL_TYPHOON_CORE_NIGO = ITEMS.register("original_typhoon_core_nigo",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_original","nigo","typhoon_belt",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 1,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP,20, 2,true,false)));
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)));
 
 	    public static final RegistryObject<Item> ORIGINAL_TYPHOON_CORE = ITEMS.register("original_typhoon_core",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_original","ichigo","typhoon_belt_original",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 1,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP,20, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM).addAlternative(ORIGINAL_TYPHOON_CORE_NIGO.get()));
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM).addAlternative(ORIGINAL_TYPHOON_CORE_NIGO.get()));
 
 	    
 	    public static final RegistryObject<Item> SAKURAJIMA_TYPHOON_CORE = ITEMS.register("sakurajima_typhoon_core",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_sakurajima","ichigo","typhoon_belt_original",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 1,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP,20, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
 
 	    public static final RegistryObject<Item> TYPHOON_CORE_SANGO = ITEMS.register("typhoon_core_sango",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","sango","typhoon_belt_sango",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 1,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP,20, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
 	    
 	    public static final RegistryObject<Item> RIDER3_VS_THE_DEMON_OF_GENERAL_BLACK = ITEMS.register("rider3_vs_the_demon_of_general_black",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_manga","sango","typhoon_belt_original",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 1,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP,20, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
 	    
 	    public static final RegistryObject<Item> TYPHOON_CORE_YONGO = ITEMS.register("typhoon_core_yongo",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","yongo","typhoon_belt_yongo",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 1,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP,20, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
 	    
 	    public static final RegistryObject<Item> NEW_TYPHOON_CORE = ITEMS.register("new_typhoon_core",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_new","ichigo","new_typhoon_belt",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 1,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP,20, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
 	    
 	    public static final RegistryObject<Item> SHOCKER_RIDER_TYPHOON_CORE = ITEMS.register("shocker_rider_typhoon_core",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","shocker_rider","shocker_rider_typhoon_belt",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 1,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP,20, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
 	    
 	    public static final RegistryObject<Item> NOPHOON_CORE = ITEMS.register("nophoon_core",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","ichigo","nophoon_belt",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 1,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP,20, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
 	
 
 	    public static final RegistryObject<Item> TYPHOON_ICHIGO = ITEMS.register("typhoon_ichigo",
@@ -165,18 +165,18 @@ public class Ichigo_Rider_Items {
 
 	    public static final RegistryObject<Item> DOUBLE_TYPHOON_CORE = ITEMS.register("double_typhoon_core",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","v3","double_typhoon_belt",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 1,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP,20, 2,true,false),new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE,20, 1,true,false)).AddToTabList(RiderTabs.V3_TAB_ITEM));
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false),new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false)).AddToTabList(RiderTabs.V3_TAB_ITEM));
 	    
 	    public static final RegistryObject<Item> BLUE_DOUBLE_TYPHOON_CORE = ITEMS.register("blue_double_typhoon_core",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_blue","v3","double_typhoon_belt",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 2,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP,20, 2,true,false),new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE,20, 2,true,false)).AddToTabList(RiderTabs.V3_TAB_ITEM));
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false),new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false)).AddToTabList(RiderTabs.V3_TAB_ITEM));
 
 	    public static final RegistryObject<Item> RIDERMAN_BELT_CORE = ITEMS.register("riderman_belt_core",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","riderman","riderman_belt",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.REGENERATION,200, 0,true,false)
-	            		,new MobEffectInstance(MobEffects.DIG_SPEED,20, 2,true,false)).AddToTabList(RiderTabs.V3_TAB_ITEM));
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.REGENERATION,200, 0,true,false)
+	            		,new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false)).AddToTabList(RiderTabs.V3_TAB_ITEM));
 
 	    
 	    public static final RegistryObject<Item> DOUBLE_TYPHOON = ITEMS.register("double_typhoon",
@@ -202,8 +202,8 @@ public class Ichigo_Rider_Items {
 
 	    public static final RegistryObject<Item> RIDOL_CORE = ITEMS.register("ridol_core",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","x","ridol_belt",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.REGENERATION,200, 0,true,false)
-	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 2,true,false),new MobEffectInstance(MobEffects.JUMP,20, 2,true,false)).AddToTabList(RiderTabs.X_TAB_ITEM));
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.REGENERATION,200, 0,true,false)
+	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).AddToTabList(RiderTabs.X_TAB_ITEM));
 	 
 	    public static final RegistryObject<Item> RIDOL = ITEMS.register("ridol",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"x",RIDOL_CORE ,XHELMET,XCHESTPLATE,XLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.X_TAB_ITEM));
@@ -219,8 +219,8 @@ public class Ichigo_Rider_Items {
 
 	    public static final RegistryObject<Item> CONDORER_WHEEL = ITEMS.register("condorer_wheel",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","amazon","condorer_belt",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.REGENERATION,200, 1,true,false)
-	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 2,true,false),new MobEffectInstance(MobEffects.JUMP,20, 2,true,false)).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.REGENERATION,200, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
 	 
 	    public static final RegistryObject<Item> CONDORER = ITEMS.register("condorer",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"amazon",CONDORER_WHEEL ,AMAZONHELMET,AMAZONCHESTPLATE,AMAZONLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
@@ -242,13 +242,13 @@ public class Ichigo_Rider_Items {
 	
 	    public static final RegistryObject<Item> ELECTRER_CORE = ITEMS.register("electrer_core",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","stronger","electrer_belt",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.FIRE_RESISTANCE,20, 1,true,false)
-	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 2,true,false),new MobEffectInstance(MobEffects.JUMP,20, 1,true,false)).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
 	 
 	    public static final RegistryObject<Item> CHARGE_UP = ITEMS.register("charge_up",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_charge_up","stronger","electrer_belt",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 3,true,false),new MobEffectInstance(MobEffects.FIRE_RESISTANCE,20, 1,true,false)
-	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 2,true,false),new MobEffectInstance(MobEffects.JUMP,20, 1,true,false)).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
 	 
 	    
 	    public static final RegistryObject<Item> ELECTRER = ITEMS.register("electrer",
@@ -265,8 +265,8 @@ public class Ichigo_Rider_Items {
 
 	    public static final RegistryObject<Item> TORNADO_CORE = ITEMS.register("tornado_core",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","skyrider","tornado_belt",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 1,true,false),
-	            		new MobEffectInstance(MobEffects.JUMP,20, 5,true,false)).AddToTabList(RiderTabs.SKYRIDER_TAB_ITEM));
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+	            		new MobEffectInstance(MobEffects.JUMP, 40, 5,true,false)).AddToTabList(RiderTabs.SKYRIDER_TAB_ITEM));
 	 
 	    
 	    public static final RegistryObject<Item> TORNADO = ITEMS.register("tornado",
@@ -282,8 +282,8 @@ public class Ichigo_Rider_Items {
 	
 	    public static final RegistryObject<Item> CYCLODE_CORE = ITEMS.register("cyclode_core",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","super_1","cyclode_belt",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.FIRE_RESISTANCE,20, 1,true,false)
-	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 2,true,false),new MobEffectInstance(MobEffects.JUMP,20, 1,true,false)).AddToTabList(RiderTabs.SUPER1_TAB_ITEM));
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).AddToTabList(RiderTabs.SUPER1_TAB_ITEM));
 
 	    public static final RegistryObject<Item> CYCLODE = ITEMS.register("cyclode",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"super_1",CYCLODE_CORE ,SUPER1HELMET,SUPER1CHESTPLATE,SUPER1LEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.SUPER1_TAB_ITEM));
@@ -300,8 +300,8 @@ public class Ichigo_Rider_Items {
 
 	    public static final RegistryObject<Item> ZX_BELT_CORE = ITEMS.register("zx_belt_core",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","zx","zx_belt_belt",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 1,true,false),new MobEffectInstance(MobEffects.REGENERATION,200, 0,true,false)
-	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 2,true,false),new MobEffectInstance(MobEffects.JUMP,20, 1,true,false)).AddToTabList(RiderTabs.ZX_TAB_ITEM));
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.REGENERATION,200, 0,true,false)
+	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).AddToTabList(RiderTabs.ZX_TAB_ITEM));
 	 
 	    public static final RegistryObject<Item> ZX_BELT = ITEMS.register("zx_belt",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"zx",ZX_BELT_CORE ,ZXHELMET,ZXCHESTPLATE,ZXLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.ZX_TAB_ITEM));

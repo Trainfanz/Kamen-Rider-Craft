@@ -57,7 +57,7 @@ public class RiderDriverItem extends RiderArmorItem{
 						List<MobEffectInstance> potionEffectList = get_Form_Item(player.getItemBySlot(EquipmentSlot.FEET),1).getPotionEffectList();
 						for (int i = 0; i < potionEffectList.size(); i++)
 						{
-							player.setInvisible(true);
+							//player.setInvisible(true);
 							player.addEffect(new MobEffectInstance(potionEffectList.get(i).getEffect(),potionEffectList.get(i).getDuration(),potionEffectList.get(i).getAmplifier(),true,false));
 						}
 

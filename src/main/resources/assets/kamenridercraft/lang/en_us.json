@@ -2,6 +2,13 @@
 
 "item.kamenridercraft.rider_circuit": "Rider Circuit",
 
+"item.kamenridercraft.base_sword": "Base Weapon",
+"item.kamenridercraft.base_bike": "Base Gun",
+"item.kamenridercraft.shocker_emblem": "Shocker Emblem",
+"item.kamenridercraft.donut": "Donut",
+
+
+
 "item.kamenridercraft.ichigohead": "Ichigo Helmet",
 "item.kamenridercraft.ichigotroso": "Ichigo Chestplate",
 "item.kamenridercraft.ichigolegs": "Ichigo Leggings",
@@ -89,5 +96,27 @@
 "item.kamenridercraft.zx_belt": "ZX Belt",
 "item.kamenridercraft.susanoo_belt": "Susanoo Belt",
 "item.kamenridercraft.tsukuyomi_belt": "Tsukuyomi Belt",
-"item.kamenridercraft.amaterasu_belt": "Amaterasu Belt"
+"item.kamenridercraft.amaterasu_belt": "Amaterasu Belt",
+
+
+
+"entity.kamenridercraft.shocker_combatman":"Shocker Combatman",
+"entity.kamenridercraft.shocker_riders":"Shocker Rider",
+"entity.kamenridercraft.destron_combatman":"Destron Combatman",
+"entity.kamenridercraft.god_warfare_agent":"G.O.D. Warfare Agent",
+"entity.kamenridercraft.red_follower":"Red Follower",
+"entity.kamenridercraft.black_satan_soldier":"Black Satan Soldier",
+"entity.kamenridercraft.ari_commando":"Ari Commandon",
+"entity.kamenridercraft.dogma_fighter":"Dogma Fighter",
+"entity.kamenridercraft.combat_roid":"Combat Roid",
+
+"item.kamenridercraft.shocker_combatman_spawn_egg": "Shocker Combatman Spawn Egg",
+"item.kamenridercraft.shocker_riders_spawn_egg": "Shocker Rider Spawn Egg",
+"item.kamenridercraft.destron_combatman_spawn_egg": "Destron Combatman Spawn Egg",
+"item.kamenridercraft.god_warfare_agent_spawn_egg": "G.O.D. Warfare Agent Spawn Egg",
+"item.kamenridercraft.red_follower_spawn_egg": "Red Follower Spawn Egg",
+"item.kamenridercraft.black_satan_soldier_spawn_egg": "Black Satan Soldier Spawn Egg",
+"item.kamenridercraft.ari_commando_spawn_egg": "Ari Commando Spawn Egg",
+"item.kamenridercraft.dogma_fighter_spawn_egg": "Dogma Fighter Spawn Egg",
+"item.kamenridercraft.combat_roid_spawn_egg": "Combat Roid Spawn Egg"
 }

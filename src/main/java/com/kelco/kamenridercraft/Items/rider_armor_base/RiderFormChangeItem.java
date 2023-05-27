@@ -4,8 +4,6 @@ package com.kelco.kamenridercraft.Items.rider_armor_base;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.jetbrains.annotations.NotNull;
-
 import com.google.common.collect.Lists;
 
 import net.minecraft.world.InteractionHand;
@@ -22,7 +20,7 @@ public class RiderFormChangeItem extends Item {
 	private String FORM_NAME;
 	private List<MobEffectInstance> potionEffectList;
 	private int BELT;
-	private List<Item> NEEDSITEM = new ArrayList<Item>();
+	//private List<Item> NEEDSITEM = new ArrayList<Item>();
 	protected String RIDER_NAME;
 	private String BELT_TEX;
 	//private Item WINGS = ShowaRiderItems.blanknoitem;

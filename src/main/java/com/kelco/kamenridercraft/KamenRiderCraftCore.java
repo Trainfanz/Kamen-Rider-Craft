@@ -89,6 +89,8 @@ MobsCore.MOBLIST.register(modEventBus);
 		if(event.getTab() == RiderTabs.RiderMiscTab) {
 			
 			event.accept(MobsCore.SHOCKER_COMBATMAN_SPAWN_EGG);
+			event.accept(MobsCore.SHOCKER_RIDER_SPAWN_EGG);
+			
 			event.accept(MobsCore.DESTRON_COMBATMAN_SPAWN_EGG);
 			event.accept(MobsCore.GOD_WARFARE_AGENT_SPAWN_EGG);
 			event.accept(MobsCore.RED_FOLLWER_SPAWN_EGG);
@@ -96,7 +98,7 @@ MobsCore.MOBLIST.register(modEventBus);
 			event.accept(MobsCore.ARI_COMMANDO_SPAWN_EGG);	
 			event.accept(MobsCore.DOGMA_FIGHTER_SPAWN_EGG);
 			event.accept(MobsCore.COMBAT_ROID_SPAWN_EGG);
-			event.accept(MobsCore.CHAP_SPAWN_EGG);
+			//event.accept(MobsCore.CHAP_SPAWN_EGG);
 			
 			for (int i = 0; i < RiderTabs.Misc_TAB_ITEM.size(); i++)
 			{
