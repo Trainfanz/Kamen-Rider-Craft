@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "skyrider",
+  "group": "super_1",
   "pattern": [
     "XXX",
     "XMX",
@@ -11,10 +11,10 @@
       "item": "kamenridercraft:rider_circuit"
     },
     "M": {
-      "item": "kamenridercraft:tornado_core"
+      "item": "kamenridercraft:cyclode_core"
     }
   },
   "result": {
-    "item": "kamenridercraft:tornado"
+    "item": "kamenridercraft:cyclode"
   }    
 }
