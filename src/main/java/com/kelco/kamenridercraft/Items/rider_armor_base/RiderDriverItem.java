@@ -126,11 +126,11 @@ public class RiderDriverItem extends RiderArmorItem{
 	}
 
 
-	public ResourceLocation getModelResource(RiderArmorItem animatable) {
+	public ResourceLocation getModelResource(RiderArmorItem animatable, EquipmentSlot slot) {
 		return new ResourceLocation(KamenRiderCraftCore.MODID, "geo/ichigo.geo.json");
 	}
 
-	public ResourceLocation getAnimationResource(RiderArmorItem animatable) {
+	public ResourceLocation getAnimationResource(RiderArmorItem animatable, EquipmentSlot slot) {
 		return new ResourceLocation(KamenRiderCraftCore.MODID, "animations/ichigo.animation.json");
 	}
 
@@ -189,5 +189,8 @@ public class RiderDriverItem extends RiderArmorItem{
 			return Base_Form_Item;
 		}
 	}
+
+
+	
 
 }

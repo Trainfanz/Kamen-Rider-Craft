@@ -31,7 +31,7 @@ public class RiderArmorModel extends GeoModel<RiderArmorItem> {
 			if (RIDER.getItemBySlot(EquipmentSlot.FEET).getItem() instanceof RiderDriverItem) {
 				RiderDriverItem BELT = ((RiderDriverItem)RIDER.getItemBySlot(EquipmentSlot.FEET).getItem()); 
 				
-				return BELT.getModelResource(animatable);
+				return BELT.getModelResource(animatable,slot);
 				
 			}else return new ResourceLocation(KamenRiderCraftCore.MODID, "geo/ichigo.geo.json");
 		}
@@ -69,7 +69,7 @@ public ResourceLocation getAnimationResource(RiderArmorItem animatable) {
 		if (RIDER.getItemBySlot(EquipmentSlot.FEET).getItem() instanceof RiderDriverItem) {
 			RiderDriverItem BELT = ((RiderDriverItem)RIDER.getItemBySlot(EquipmentSlot.FEET).getItem()); 
 			
-			return BELT.getAnimationResource(animatable);
+			return BELT.getAnimationResource(animatable,slot);
 			
 		}else return new ResourceLocation(KamenRiderCraftCore.MODID, "animations/ichigo.animation.json");
 	}

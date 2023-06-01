@@ -1,8 +1,11 @@
 package com.kelco.kamenridercraft.Items.w;
 
+import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.Items.rider_armor_base.RiderArmorItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderDriverItem;
 
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.Item;
@@ -33,6 +36,13 @@ public class WDriverItem extends RiderDriverItem{
 	}
 
 
+	public ResourceLocation getModelResource(RiderArmorItem animatable, EquipmentSlot slot) {
+		if (slot!= EquipmentSlot.HEAD) {
+			return new ResourceLocation(KamenRiderCraftCore.MODID, "geo/rider_plusbelt.geo.json");
+		}else
+		return new ResourceLocation(KamenRiderCraftCore.MODID, "geo/ichigo.geo.json");
+	}
+	
 	public  boolean getPartsForSlot(EquipmentSlot currentSlot,String  part) {
 
 		switch (currentSlot) {
