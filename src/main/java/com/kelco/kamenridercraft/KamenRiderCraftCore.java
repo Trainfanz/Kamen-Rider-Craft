@@ -5,6 +5,7 @@ import com.kelco.kamenridercraft.Entities.MobsCore;
 import com.kelco.kamenridercraft.Items.Ichigo_Rider_Items;
 import com.kelco.kamenridercraft.Items.Modded_item_core;
 import com.kelco.kamenridercraft.Items.RiderTabs;
+import com.kelco.kamenridercraft.Items.W_Rider_Items;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.CreativeModeTabEvent;
@@ -25,6 +26,7 @@ public class KamenRiderCraftCore {
 		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 		Modded_item_core.register(modEventBus);
 		Ichigo_Rider_Items.register(modEventBus);
+		W_Rider_Items.register(modEventBus);
 		MobsCore.register(modEventBus);
 MobsCore.MOBLIST.register(modEventBus);
 		MinecraftForge.EVENT_BUS.register(this);

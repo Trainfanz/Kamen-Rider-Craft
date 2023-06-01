@@ -18,6 +18,7 @@ import net.minecraft.world.level.Level;
 public class RiderFormChangeItem extends Item {
 
 	private String FORM_NAME;
+	private int Slot =1;
 	private List<MobEffectInstance> potionEffectList;
 	private int BELT;
 	//private List<Item> NEEDSITEM = new ArrayList<Item>();
@@ -52,10 +53,16 @@ public class RiderFormChangeItem extends Item {
 		return FORM_NAME;
 	}
 
+	
 	public String getBeltTex() {
 		return BELT_TEX;
 	}
 
+	public RiderFormChangeItem ChangeSlot(int slot) {
+		Slot=slot;
+		return this;
+	}
+	
 	public RiderFormChangeItem addAlternative( Item item) {
 		alternative.add((RiderFormChangeItem) item);
 		return this;
@@ -77,7 +84,7 @@ public class RiderFormChangeItem extends Item {
 		if (belt.getItem() instanceof RiderDriverItem) {
 
 			if (((RiderDriverItem)belt.getItem()).Rider==RIDER_NAME) {
-				RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, 1);
+				RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, Slot);
 
 			}else if(!alternative.isEmpty()){
 

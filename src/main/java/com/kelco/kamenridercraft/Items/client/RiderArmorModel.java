@@ -27,7 +27,13 @@ public class RiderArmorModel extends GeoModel<RiderArmorItem> {
 		if (slot== EquipmentSlot.FEET) {
 			return new ResourceLocation(KamenRiderCraftCore.MODID, "geo/riderbelt.geo.json");
 		}else {
-			return new ResourceLocation(KamenRiderCraftCore.MODID, "geo/ichigo.geo.json");
+			
+			if (RIDER.getItemBySlot(EquipmentSlot.FEET).getItem() instanceof RiderDriverItem) {
+				RiderDriverItem BELT = ((RiderDriverItem)RIDER.getItemBySlot(EquipmentSlot.FEET).getItem()); 
+				
+				return BELT.getModelResource(animatable);
+				
+			}else return new ResourceLocation(KamenRiderCraftCore.MODID, "geo/ichigo.geo.json");
 		}
 	}
 
@@ -38,10 +44,10 @@ public class RiderArmorModel extends GeoModel<RiderArmorItem> {
 		String FORM="blank";
 		ItemStack BELT = RIDER.getItemBySlot(EquipmentSlot.FEET); 
 		if (BELT.getItem() instanceof RiderDriverItem) {
-			FORM= ((RiderDriverItem) BELT.getItem()).Rider+RiderDriverItem.GET_TEXT(BELT,slot );
+			FORM= ((RiderDriverItem) BELT.getItem()).Rider+((RiderDriverItem) BELT.getItem()).GET_TEXT(BELT,slot );
 			if (slot == EquipmentSlot.FEET) {
 
-				FORM=RiderDriverItem.GET_TEXT(BELT,slot );
+				FORM=((RiderDriverItem) BELT.getItem()).GET_TEXT(BELT,slot );
 			}else if ( ((RiderDriverItem) BELT.getItem()).HEAD.asItem()!=RIDER.getItemBySlot(EquipmentSlot.HEAD).getItem()||
 					 ((RiderDriverItem) BELT.getItem()).TORSO.asItem()!=RIDER.getItemBySlot(EquipmentSlot.CHEST).getItem()||
 					 ((RiderDriverItem) BELT.getItem()).LEGS.asItem()!=RIDER.getItemBySlot(EquipmentSlot.LEGS).getItem()) {
@@ -59,7 +65,13 @@ public ResourceLocation getAnimationResource(RiderArmorItem animatable) {
 	if (slot== EquipmentSlot.FEET) {
 		return new ResourceLocation(KamenRiderCraftCore.MODID, "animations/riderbelt.animation.json");
 	}else {
-		return new ResourceLocation(KamenRiderCraftCore.MODID, "animations/ichigo.animation.json");
+		
+		if (RIDER.getItemBySlot(EquipmentSlot.FEET).getItem() instanceof RiderDriverItem) {
+			RiderDriverItem BELT = ((RiderDriverItem)RIDER.getItemBySlot(EquipmentSlot.FEET).getItem()); 
+			
+			return BELT.getAnimationResource(animatable);
+			
+		}else return new ResourceLocation(KamenRiderCraftCore.MODID, "animations/ichigo.animation.json");
 	}
 
 }

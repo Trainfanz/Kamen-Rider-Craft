@@ -28,6 +28,8 @@ public class RiderTabs {
     public static CreativeModeTab SUPER1Tab;
     public static CreativeModeTab ZXTab;
     
+    public static CreativeModeTab WTab;
+    
     public static List<Item> ICHIGO_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> V3_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> X_TAB_ITEM= new ArrayList<Item>();
@@ -36,6 +38,7 @@ public class RiderTabs {
     public static List<Item> SKYRIDER_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> SUPER1_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> ZX_TAB_ITEM= new ArrayList<Item>();
+    public static List<Item> W_TAB_ITEM= new ArrayList<Item>();
     
     public static List<Item> Misc_TAB_ITEM= new ArrayList<Item>();
     
@@ -72,6 +75,11 @@ public class RiderTabs {
     	ZXTab = event.registerCreativeModeTab(new ResourceLocation(KamenRiderCraftCore.MODID, "rider_zx_tab"),
                 builder-> builder.icon(() -> new ItemStack(Ichigo_Rider_Items.ZXHELMET.get())).withBackgroundLocation(new ResourceLocation(KamenRiderCraftCore.MODID+":textures/gui/tab_iichigo_items.png")).title(Component.literal("ZX Rider Items")).build());
     	
+    	
+    	
+    	WTab = event.registerCreativeModeTab(new ResourceLocation(KamenRiderCraftCore.MODID, "rider_w_tab"),
+                builder-> builder.icon(() -> new ItemStack(W_Rider_Items.WHELMET.get())).withBackgroundLocation(new ResourceLocation(KamenRiderCraftCore.MODID+":textures/gui/tab_w_items.png")).title(Component.literal("W Rider Items")).build());
+
     }
     
     public static void AddItemsToTabs(CreativeModeTabEvent.BuildContents event){
@@ -121,6 +129,15 @@ public class RiderTabs {
 			for (int i = 0; i < RiderTabs.ZX_TAB_ITEM.size(); i++)
 			{
 				event.accept( RiderTabs.ZX_TAB_ITEM.get(i));
+			}
+
+		}
+		
+		
+		else if(event.getTab() == RiderTabs.WTab) {
+			for (int i = 0; i < RiderTabs.W_TAB_ITEM.size(); i++)
+			{
+				event.accept( RiderTabs.W_TAB_ITEM.get(i));
 			}
 
 		}
