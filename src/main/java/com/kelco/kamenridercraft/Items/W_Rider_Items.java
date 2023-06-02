@@ -52,6 +52,11 @@ public class W_Rider_Items {
 	            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
 	            		new MobEffectInstance(MobEffects.CONFUSION, 40, 0,true,false)).AddToTabList(RiderTabs.W_TAB_ITEM));
 	    
+	    public static final RegistryObject<Item> JOKER_JOKER_MEMORY = ITEMS.register("joker_joker_memory",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_joker_joker","w","wdriver_belt_jj",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false))
+	            .AddToTabList(RiderTabs.W_TAB_ITEM));
+	    
 	    
 	    public static final RegistryObject<Item> JOKER_MEMORY = ITEMS.register("joker_memory",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_joker","w","wdriver_belt",
@@ -68,6 +73,12 @@ public class W_Rider_Items {
 	            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false))
 	            .ChangeSlot(2).AddToTabList(RiderTabs.W_TAB_ITEM));
 	    
+	    public static final RegistryObject<Item> CYCLONE_CYCLONE_MEMORY = ITEMS.register("cyclone_cyclone_memory",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_cyclone_cyclone","w","wdriver_belt",
+	            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+	            		new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
+	            .ChangeSlot(2).AddToTabList(RiderTabs.W_TAB_ITEM));
+	  
 	    
 	    public static final RegistryObject<Item> WDRIVER = ITEMS.register("wdriver",
 		           () -> new WDriverItem(ArmorMaterials.DIAMOND,"w",CYCLONE_MEMORY ,WHELMET,WCHESTPLATE,WLEGGINGS , new Item.Properties())
