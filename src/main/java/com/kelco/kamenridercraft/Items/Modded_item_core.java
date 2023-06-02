@@ -2,6 +2,7 @@ package com.kelco.kamenridercraft.Items;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
+import com.kelco.kamenridercraft.Items.rider_armor_base.RiderFormChangeItem;
 
 import net.minecraft.world.food.Foods;
 import net.minecraft.world.item.*;
@@ -32,8 +33,8 @@ public class Modded_item_core {
 
 
 
-	//public static final RegistryObject<Item> CYCLONEHOPPER = ITEMS.register("cyclonehopper",
-	//		() -> new RiderFormChangeItem(new Item.Properties(),0,"_cyclonehopper","ichigo","typhoon_belt_original").AddToTabList(RiderTabs.Misc_TAB_ITEM));
+	public static final RegistryObject<Item> CYCLONEHOPPER = ITEMS.register("cyclonehopper",
+		() -> new RiderFormChangeItem(new Item.Properties(),0,"_cyclonehopper","ichigo","typhoon_belt_original").ChangeModel("geo/cyclonehopper_wingsarmor.geo.json").AddToTabList(RiderTabs.Misc_TAB_ITEM));
 
 
 	public static void register(IEventBus eventBus) {

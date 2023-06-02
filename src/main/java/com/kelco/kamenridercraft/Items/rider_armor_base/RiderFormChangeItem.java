@@ -24,6 +24,7 @@ public class RiderFormChangeItem extends Item {
 	//private List<Item> NEEDSITEM = new ArrayList<Item>();
 	protected String RIDER_NAME;
 	private String BELT_TEX;
+	private String UPDATED_MODEL;
 	//private Item WINGS = ShowaRiderItems.blanknoitem;
 	//private Item STIFT_ITEM = ShowaRiderItems.blanknoitem;
 	private List<RiderFormChangeItem> alternative = new ArrayList<RiderFormChangeItem>();
@@ -58,11 +59,20 @@ public class RiderFormChangeItem extends Item {
 		return BELT_TEX;
 	}
 
+	public String get_Model() {
+		if (UPDATED_MODEL!=null) return UPDATED_MODEL;
+		return "geo/ichigo.geo.json";
+	}
+	
 	public RiderFormChangeItem alsoChange2ndSlot(Item item) {
 		alsoChange2ndSlot=  (RiderFormChangeItem) item;
 		return this;
 	}
 	
+	public RiderFormChangeItem ChangeModel(String model) {
+		UPDATED_MODEL=model;
+		return this;
+	}
 	public RiderFormChangeItem ChangeSlot(int slot) {
 		Slot=slot;
 		return this;
