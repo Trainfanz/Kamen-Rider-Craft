@@ -1,10 +1,10 @@
 package com.kelco.kamenridercraft.Items.w;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.Items.W_Rider_Items;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderArmorItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderDriverItem;
 
-import net.minecraft.nbt.CompoundTag;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorMaterial;
@@ -31,6 +31,9 @@ public class WDriverItem extends RiderDriverItem{
 			
 		else {
 			if (get_Form_Item(itemstack,1).getFormName()=="_fang") return "_fang"+get_Form_Item(itemstack,2).getFormName();
+			else if (get_Form_Item(itemstack,1).getFormName()=="_cyclone_xtreme") return get_Form_Item(itemstack,2).getFormName()+"_xtreme";
+			else if (get_Form_Item(itemstack,1).getFormName()=="_cyclone_xtreme_gold") return get_Form_Item(itemstack,2).getFormName()+"_xtreme_gold";
+			else if (get_Form_Item(itemstack,1).getFormName()=="_cyclone_xtreme_accel") return "_accel_xtreme";
 			else return get_Form_Item(itemstack,2).getFormName();
 		}
 	}
@@ -68,15 +71,12 @@ public class WDriverItem extends RiderDriverItem{
 		return false;
 	}
 
-	public static void set_Form_Item(ItemStack itemstack, Item ITEM,int SLOT)
+	
+	public void Extra_set_Form_Item(ItemStack itemstack, Item ITEM,int SLOT)
 	{
-		if (!itemstack.hasTag())
-		{
-			itemstack.setTag(new CompoundTag());
-		}
-		if (itemstack.getItem() instanceof RiderDriverItem) {
-			itemstack.getTag().putInt("slot"+SLOT, Item.getId(ITEM));
-		}
+	if (get_Form_Item(itemstack, 1)==W_Rider_Items.XTREME_MEMORY.get()||get_Form_Item(itemstack, 1)==W_Rider_Items.XTREME_GOLD_MEMORY.get()||get_Form_Item(itemstack, 1)==W_Rider_Items.XTREME_ACCEL_MEMORY.get()) {
+		itemstack.getTag().putInt("slot"+1, Item.getId(W_Rider_Items.CYCLONE_MEMORY.get()));
+	}
 	}
 
 }

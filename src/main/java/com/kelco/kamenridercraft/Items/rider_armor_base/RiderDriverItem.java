@@ -26,7 +26,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class RiderDriverItem extends RiderArmorItem{
 
 	public String armorNamePrefix;
-	private RiderFormChangeItem Base_Form_Item;
+	public RiderFormChangeItem Base_Form_Item;
 	private ArrayList<RiderFormChangeItem> Extra_Base_Form_Item;
 	public String Rider;
 	public Item HEAD;
@@ -134,15 +134,22 @@ public class RiderDriverItem extends RiderArmorItem{
 		return new ResourceLocation(KamenRiderCraftCore.MODID, "animations/ichigo.animation.json");
 	}
 
+
 	public static void set_Form_Item(ItemStack itemstack, Item ITEM,int SLOT)
 	{
-		if (!itemstack.hasTag())
+			if (!itemstack.hasTag())
 		{
 			itemstack.setTag(new CompoundTag());
 		}
 		if (itemstack.getItem() instanceof RiderDriverItem) {
+			((RiderDriverItem)itemstack.getItem()).Extra_set_Form_Item(itemstack, ITEM, SLOT);
+			
 			itemstack.getTag().putInt("slot"+SLOT, Item.getId(ITEM));
 		}
+	}
+
+	public void Extra_set_Form_Item(ItemStack itemstack, Item ITEM,int SLOT)
+	{
 	}
 
 	public  boolean getPartsForSlot(EquipmentSlot currentSlot,String  part) {
@@ -165,6 +172,9 @@ public class RiderDriverItem extends RiderArmorItem{
 		}
 		return false;
 	}
+
+
+
 
 	public static RiderFormChangeItem get_Form_Item(ItemStack itemstack,int SLOT)
 	{
@@ -191,6 +201,6 @@ public class RiderDriverItem extends RiderArmorItem{
 	}
 
 
-	
+
 
 }

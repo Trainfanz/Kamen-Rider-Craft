@@ -28,7 +28,7 @@ public class RiderFormChangeItem extends Item {
 	//private Item STIFT_ITEM = ShowaRiderItems.blanknoitem;
 	private List<RiderFormChangeItem> alternative = new ArrayList<RiderFormChangeItem>();
 
-
+	private RiderFormChangeItem alsoChange2ndSlot;
 
 
 	public RiderFormChangeItem( Properties properties,int belt,String formName,String ridername,String beltTex, MobEffectInstance... effects) {
@@ -58,6 +58,11 @@ public class RiderFormChangeItem extends Item {
 		return BELT_TEX;
 	}
 
+	public RiderFormChangeItem alsoChange2ndSlot(Item item) {
+		alsoChange2ndSlot=  (RiderFormChangeItem) item;
+		return this;
+	}
+	
 	public RiderFormChangeItem ChangeSlot(int slot) {
 		Slot=slot;
 		return this;
@@ -84,6 +89,8 @@ public class RiderFormChangeItem extends Item {
 		if (belt.getItem() instanceof RiderDriverItem) {
 
 			if (((RiderDriverItem)belt.getItem()).Rider==RIDER_NAME) {
+				if (alsoChange2ndSlot !=null)RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),alsoChange2ndSlot, 2);
+				
 				RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, Slot);
 
 			}else if(!alternative.isEmpty()){

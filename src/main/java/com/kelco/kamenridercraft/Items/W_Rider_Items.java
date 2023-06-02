@@ -80,6 +80,34 @@ public class W_Rider_Items {
 	            .ChangeSlot(2).AddToTabList(RiderTabs.W_TAB_ITEM));
 	  
 	    
+	    public static final RegistryObject<Item> XTREME_MEMORY = ITEMS.register("xtreme_memory",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_cyclone_xtreme","w","wdriver_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),
+	            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
+	            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
+	            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
+	            		new MobEffectInstance(MobEffects.REGENERATION, 40, 1,true,false))
+	            .alsoChange2ndSlot(JOKER_MEMORY.get()).AddToTabList(RiderTabs.W_TAB_ITEM));
+	
+	    public static final RegistryObject<Item> XTREME_GOLD_MEMORY = ITEMS.register("xtreme_gold_memory",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_cyclone_xtreme_gold","w","wdriver_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),
+	            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
+	            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
+	            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
+	            		new MobEffectInstance(MobEffects.REGENERATION, 40, 1,true,false))
+	            .alsoChange2ndSlot(JOKER_MEMORY.get()).AddToTabList(RiderTabs.W_TAB_ITEM));
+	
+	    public static final RegistryObject<Item> XTREME_ACCEL_MEMORY = ITEMS.register("xtreme_accel_memory",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_cyclone_xtreme_accel","w","wdriver_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),
+	            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
+	            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
+	            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
+	            		new MobEffectInstance(MobEffects.REGENERATION, 40, 1,true,false))
+	            .alsoChange2ndSlot(JOKER_MEMORY.get()).AddToTabList(RiderTabs.W_TAB_ITEM));
+	
+	    
 	    public static final RegistryObject<Item> WDRIVER = ITEMS.register("wdriver",
 		           () -> new WDriverItem(ArmorMaterials.DIAMOND,"w",CYCLONE_MEMORY ,WHELMET,WCHESTPLATE,WLEGGINGS , new Item.Properties())
 		           .Add_Extra_Base_Form_Items(JOKER_MEMORY).AddToTabList(RiderTabs.W_TAB_ITEM));
