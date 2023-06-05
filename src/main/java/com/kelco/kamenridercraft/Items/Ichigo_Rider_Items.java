@@ -329,8 +329,20 @@ public class Ichigo_Rider_Items {
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
 	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
 	    
+	    public static final RegistryObject<Item> BATTA_MAN_KING_STONE = ITEMS.register("batta_man_king_stone",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_batta_man","black","king_stone_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
+	    
+	    
 	    public static final RegistryObject<Item> GREEN_KING_STONE = ITEMS.register("green_king_stone",
-	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","black","vital_charger_belt",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","shadow_moon","vital_charger_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false))
+	            .AddToTabList(RiderTabs.BLACK_TAB_ITEM));
+	    	
+	    public static final RegistryObject<Item> CREATION_KING_STONE = ITEMS.register("creation_king_stone",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_red","shadow_moon","vital_charger_belt",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
 	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false))
 	            .AddToTabList(RiderTabs.BLACK_TAB_ITEM));
@@ -339,15 +351,9 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> VITAL_CHARGER = ITEMS.register("vital_charger",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"black",RED_KING_STONE ,BLACKHELMET,BLACKCHESTPLATE,BLACKLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
 
-	    public static final RegistryObject<Item> BATTA_MAN_BELT = ITEMS.register("batta_man_belt",
-		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"black",GREEN_KING_STONE ,BLACKHELMET,BLACKCHESTPLATE,BLACKLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
-
 	    public static final RegistryObject<Item> SHADOW_CHARGER = ITEMS.register("shadow_charger",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"shadow_moon",GREEN_KING_STONE ,BLACKHELMET,BLACKCHESTPLATE,BLACKLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
-
-	    public static final RegistryObject<Item> SHADOW_CHARGER_RED = ITEMS.register("shadow_charger_red",
-		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"shadow_moon",GREEN_KING_STONE ,BLACKHELMET,BLACKCHESTPLATE,BLACKLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
-	    
+ 
 	    /**
 	    public static final RegistryObject<Item> HELMET = ITEMS.register("head",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs._TAB_ITEM));
