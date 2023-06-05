@@ -314,7 +314,39 @@ public class Ichigo_Rider_Items {
 
 	    public static final RegistryObject<Item> AMATERASU_BELT = ITEMS.register("amaterasu_belt",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"amaterasu_zx",ZX_BELT_CORE ,ZXHELMET,ZXCHESTPLATE,ZXLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.ZX_TAB_ITEM));
+	    
+	    
+	    //Black
+	    public static final RegistryObject<Item> BLACKHELMET = ITEMS.register("blackhead",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
+	    public static final RegistryObject<Item> BLACKCHESTPLATE = ITEMS.register("blacktroso",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
+	    public static final RegistryObject<Item> BLACKLEGGINGS = ITEMS.register("blacklegs",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
 
+	    public static final RegistryObject<Item> RED_KING_STONE = ITEMS.register("red_king_stone",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","black","vital_charger_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
+	    
+	    public static final RegistryObject<Item> GREEN_KING_STONE = ITEMS.register("green_king_stone",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","black","vital_charger_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false))
+	            .AddToTabList(RiderTabs.BLACK_TAB_ITEM));
+	    	
+	    
+	    public static final RegistryObject<Item> VITAL_CHARGER = ITEMS.register("vital_charger",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"black",RED_KING_STONE ,BLACKHELMET,BLACKCHESTPLATE,BLACKLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
+
+	    public static final RegistryObject<Item> BATTA_MAN_BELT = ITEMS.register("batta_man_belt",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"black",GREEN_KING_STONE ,BLACKHELMET,BLACKCHESTPLATE,BLACKLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
+
+	    public static final RegistryObject<Item> SHADOW_CHARGER = ITEMS.register("shadow_charger",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"shadow_moon",GREEN_KING_STONE ,BLACKHELMET,BLACKCHESTPLATE,BLACKLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
+
+	    public static final RegistryObject<Item> SHADOW_CHARGER_RED = ITEMS.register("shadow_charger_red",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"shadow_moon",GREEN_KING_STONE ,BLACKHELMET,BLACKCHESTPLATE,BLACKLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
 	    
 	    /**
 	    public static final RegistryObject<Item> HELMET = ITEMS.register("head",
