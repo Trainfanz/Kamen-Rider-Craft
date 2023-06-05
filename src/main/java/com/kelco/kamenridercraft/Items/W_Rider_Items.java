@@ -113,6 +113,11 @@ public class W_Rider_Items {
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","skull","lostdriver_belt",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false))
 			.AddToTabList(RiderTabs.W_TAB_ITEM));
+	
+	public static final RegistryObject<Item> ETERNAL_MEMORY = ITEMS.register("eternal_memory",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_red","eternal","lostdriver_belt_e",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false))
+			.AddToTabList(RiderTabs.W_TAB_ITEM));
 
 
 	public static final RegistryObject<Item> PRISM_MEMORY = ITEMS.register("prism_memory",
@@ -159,6 +164,11 @@ public class W_Rider_Items {
 					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
 			.AddToTabList(RiderTabs.W_TAB_ITEM));
 	//dummy_memory
+	public static final RegistryObject<Item> T2_ETERNAL_MEMORY = ITEMS.register("eternal_t2_memory",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"","eternal","lostdriver_belt_e",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false))
+			.AddToTabList(RiderTabs.W_TAB_ITEM));
+
 	//eternal_t2_memory
 	//fang_t2_memory 
 	//gene_t2_memory 
@@ -168,7 +178,7 @@ public class W_Rider_Items {
 	public static final RegistryObject<Item> T2_JOKER_MEMORY = ITEMS.register("joker_t2_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","joker","lostdriver_belt",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false))
-			.ChangeSlot(2).AddToTabList(RiderTabs.W_TAB_ITEM));
+			.AddToTabList(RiderTabs.W_TAB_ITEM));
 
 	//key_t2_memory 
 	//luna_t2_memory 
@@ -185,7 +195,11 @@ public class W_Rider_Items {
 	//weather_t2_memory
 	//xtreme_t2_memory 
 	//yesterday_t2_memory
-	//zone_t2_memory
+	public static final RegistryObject<Item> T2_ZONE_MEMORY = ITEMS.register("zone_t2_memory",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_strengthening_armament","eternal","lostdriver_belt_e",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false))
+			.AddToTabList(RiderTabs.W_TAB_ITEM));
+
 
 	//unrefined_memory_g
 	//unrefined_memory_s
@@ -227,6 +241,9 @@ public class W_Rider_Items {
 
 	public static final RegistryObject<Item> LOSTDRIVER_SKULL = ITEMS.register("lostdriver_skull",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"skull",SKULL_MEMORY ,WHELMET,WCHESTPLATE,WLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	public static final RegistryObject<Item> LOSTDRIVER_ETERNAL = ITEMS.register("lostdriver_eternal",
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"eternal",T2_ETERNAL_MEMORY ,WHELMET,WCHESTPLATE,WLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
 	/**
 	    public static final RegistryObject<Item> HELMET = ITEMS.register("head",
