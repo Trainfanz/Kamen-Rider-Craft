@@ -317,6 +317,10 @@ public class Ichigo_Rider_Items {
 	    
 	    
 	    //Black
+	    
+	    public static final RegistryObject<SwordItem> SATANSABER = ITEMS.register("satansaber",
+	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
+	    
 	    public static final RegistryObject<Item> BLACKHELMET = ITEMS.register("blackhead",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
 	    public static final RegistryObject<Item> BLACKCHESTPLATE = ITEMS.register("blacktroso",
