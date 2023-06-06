@@ -1,11 +1,13 @@
 package com.kelco.kamenridercraft;
 
 
+import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Entities.MobsCore;
 import com.kelco.kamenridercraft.Items.Ichigo_Rider_Items;
 import com.kelco.kamenridercraft.Items.Modded_item_core;
 import com.kelco.kamenridercraft.Items.RiderTabs;
 import com.kelco.kamenridercraft.Items.W_Rider_Items;
+import com.kelco.kamenridercraft.Potion.Potion_core;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.CreativeModeTabEvent;
@@ -28,7 +30,9 @@ public class KamenRiderCraftCore {
 		Ichigo_Rider_Items.register(modEventBus);
 		W_Rider_Items.register(modEventBus);
 		MobsCore.register(modEventBus);
-MobsCore.MOBLIST.register(modEventBus);
+		MobsCore.MOBLIST.register(modEventBus);
+		Effect_core.register(modEventBus);
+		Potion_core.register(modEventBus);
 		MinecraftForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::addCreative);
 	}
