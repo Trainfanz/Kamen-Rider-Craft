@@ -323,7 +323,7 @@ public class Ichigo_Rider_Items {
 	    
 	    public static final RegistryObject<Item> BLACKHELMET = ITEMS.register("blackhead",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
-	    public static final RegistryObject<Item> BLACKCHESTPLATE = ITEMS.register("blacktroso",
+	    public static final RegistryObject<Item> BLACKCHESTPLATE = ITEMS.register("blacktorso",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
 	    public static final RegistryObject<Item> BLACKLEGGINGS = ITEMS.register("blacklegs",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
