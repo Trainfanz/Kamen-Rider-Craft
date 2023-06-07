@@ -26,12 +26,17 @@ public class Effect_core {
 	public static final RegistryObject<MobEffect> PUNCH= EFFECT.register("punch",
 			() -> new 	PunchEffect(MobEffectCategory.BENEFICIAL, 0x1d8519));
 
+	public static final RegistryObject<MobEffect> FLYING= EFFECT.register("flying",
+			() -> new 	FlyingEffect(MobEffectCategory.BENEFICIAL, 0x1d8519));
 
-	//FLY_POTION
+	//public static final RegistryObject<MobEffect> SMALL= EFFECT.register("small",
+	//		() -> new 	SmallEffect(MobEffectCategory.BENEFICIAL, 0x1d8519));
+
+	//public static final RegistryObject<MobEffect> BIG= EFFECT.register("big",
+	//		() -> new 	BigEffect(MobEffectCategory.BENEFICIAL, 0x1d8519));
+
+
 	//FIRE_PUNCH_POTION
-
-	//BIG_POTION
-	//SMALL_POTION 
 
 	//BUGSTER_POTION 
 

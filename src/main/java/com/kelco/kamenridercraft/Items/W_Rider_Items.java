@@ -1,6 +1,7 @@
 package com.kelco.kamenridercraft.Items;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderArmorItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderDriverItem;
@@ -56,13 +57,15 @@ public class W_Rider_Items {
 
 	public static final RegistryObject<Item> JOKER_JOKER_MEMORY = ITEMS.register("joker_joker_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_joker_joker","w","wdriver_belt_jj",
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false))
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
 			.AddToTabList(RiderTabs.W_TAB_ITEM));
 
 
 	public static final RegistryObject<Item> JOKER_MEMORY = ITEMS.register("joker_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_joker","w","wdriver_belt",
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false))
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
 			.ChangeSlot(2).AddToTabList(RiderTabs.W_TAB_ITEM));
 
 	public static final RegistryObject<Item> METAL_MEMORY = ITEMS.register("metal_memory",
@@ -88,7 +91,8 @@ public class W_Rider_Items {
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
-					new MobEffectInstance(MobEffects.REGENERATION, 40, 1,true,false))
+					new MobEffectInstance(MobEffects.REGENERATION, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 3,true,false))
 			.alsoChange2ndSlot(JOKER_MEMORY.get()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
 	public static final RegistryObject<Item> XTREME_GOLD_MEMORY = ITEMS.register("xtreme_gold_memory",
@@ -97,7 +101,8 @@ public class W_Rider_Items {
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
-					new MobEffectInstance(MobEffects.REGENERATION, 40, 1,true,false))
+					new MobEffectInstance(MobEffects.REGENERATION, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 4,true,false))
 			.alsoChange2ndSlot(JOKER_MEMORY.get()).ChangeModel("geo/cyclonehopper_wingsarmor.geo.json").AddToTabList(RiderTabs.W_TAB_ITEM));
 
 	public static final RegistryObject<Item> XTREME_ACCEL_MEMORY = ITEMS.register("xtreme_accel_memory",
@@ -106,17 +111,20 @@ public class W_Rider_Items {
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
-					new MobEffectInstance(MobEffects.REGENERATION, 40, 1,true,false))
+					new MobEffectInstance(MobEffects.REGENERATION, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 3,true,false))
 			.alsoChange2ndSlot(JOKER_MEMORY.get()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
 	public static final RegistryObject<Item> SKULL_MEMORY = ITEMS.register("skull_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","skull","lostdriver_belt",
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false))
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
 			.AddToTabList(RiderTabs.W_TAB_ITEM));
 	
 	public static final RegistryObject<Item> ETERNAL_MEMORY = ITEMS.register("eternal_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_red","eternal","lostdriver_belt_e",
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false))
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
 			.AddToTabList(RiderTabs.W_TAB_ITEM));
 
 
@@ -161,12 +169,14 @@ public class W_Rider_Items {
 	public static final RegistryObject<Item> T2_CYCLONE_MEMORY = ITEMS.register("cyclone_t2_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","cyclone","lostdriver_belt_c",
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
-					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
+					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
 			.AddToTabList(RiderTabs.W_TAB_ITEM));
 	//dummy_memory
 	public static final RegistryObject<Item> T2_ETERNAL_MEMORY = ITEMS.register("eternal_t2_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","eternal","lostdriver_belt_e",
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false))
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
 			.AddToTabList(RiderTabs.W_TAB_ITEM));
 
 	//eternal_t2_memory
@@ -177,7 +187,8 @@ public class W_Rider_Items {
 
 	public static final RegistryObject<Item> T2_JOKER_MEMORY = ITEMS.register("joker_t2_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","joker","lostdriver_belt",
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false))
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
 			.AddToTabList(RiderTabs.W_TAB_ITEM));
 
 	//key_t2_memory 

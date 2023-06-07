@@ -1,5 +1,9 @@
 {
 "effect.kamenridercraft.boost":"Boost",
+"effect.kamenridercraft.anti_poison":"Anti Poison",
+"effect.kamenridercraft.slash":"Slash",
+"effect.kamenridercraft.punch":"Punch",
+"effect.kamenridercraft.flying":"Flying",
 
 
 "item.kamenridercraft.rider_circuit": "Rider Circuit",
