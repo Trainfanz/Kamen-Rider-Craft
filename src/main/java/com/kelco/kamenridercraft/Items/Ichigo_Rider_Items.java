@@ -250,10 +250,18 @@ public class Ichigo_Rider_Items {
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_charge_up","stronger","electrer_belt",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 1,true,false)
 	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
+
+	    public static final RegistryObject<Item> TACKLE_CORE = ITEMS.register("tackle_core",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","tackle","tackle_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
 	 
 	    
 	    public static final RegistryObject<Item> ELECTRER = ITEMS.register("electrer",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"stronger",ELECTRER_CORE ,STRONGERHELMET,STRONGERCHESTPLATE,STRONGERLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
+	   
+	    public static final RegistryObject<Item> TACKLE_BELT = ITEMS.register("tackle_belt",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"tackle",TACKLE_CORE ,STRONGERHELMET,STRONGERCHESTPLATE,STRONGERLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
 
 	    
 	    //Skyrider    
@@ -330,24 +338,24 @@ public class Ichigo_Rider_Items {
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
 
 	    public static final RegistryObject<Item> RED_KING_STONE = ITEMS.register("red_king_stone",
-	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","black","king_stone_belt",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","black","vital_charger_belt",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
 	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
 	    
 	    public static final RegistryObject<Item> BATTA_MAN_KING_STONE = ITEMS.register("batta_man_king_stone",
-	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_batta_man","black","king_stone_belt",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_batta_man","black","vital_charger_belt",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
 	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
 	    
 	    
 	    public static final RegistryObject<Item> GREEN_KING_STONE = ITEMS.register("green_king_stone",
-	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","shadow_moon","vital_charger_belt",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","shadow_moon","shadow_charger_belt",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
 	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false))
 	            .AddToTabList(RiderTabs.BLACK_TAB_ITEM));
 	    	
 	    public static final RegistryObject<Item> CREATION_KING_STONE = ITEMS.register("creation_king_stone",
-	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_red","shadow_moon","vital_charger_belt",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_red","shadow_moon","shadow_charger_belt",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
 	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false))
 	            .AddToTabList(RiderTabs.BLACK_TAB_ITEM));
