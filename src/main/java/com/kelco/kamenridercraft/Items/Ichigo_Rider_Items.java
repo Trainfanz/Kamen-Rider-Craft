@@ -1,6 +1,7 @@
 package com.kelco.kamenridercraft.Items;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseSwordItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderArmorItem;
@@ -331,7 +332,7 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> RED_KING_STONE = ITEMS.register("red_king_stone",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","black","king_stone_belt",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH, 40, 1,true,false)).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
 	    
 	    public static final RegistryObject<Item> BATTA_MAN_KING_STONE = ITEMS.register("batta_man_king_stone",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_batta_man","black","king_stone_belt",
