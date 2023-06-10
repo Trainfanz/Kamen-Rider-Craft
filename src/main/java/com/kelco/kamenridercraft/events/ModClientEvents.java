@@ -29,7 +29,7 @@ public class ModClientEvents {
         event.registerEntityRenderer(MobsCore.ARI_COMMANDO.get(), BasicEntityRenderer::new);
         event.registerEntityRenderer(MobsCore.DOGMA_FIGHTER.get(), BasicEntityRenderer::new);
         event.registerEntityRenderer(MobsCore.COMBAT_ROID.get(), BasicEntityRenderer::new);
-       // event.registerEntityRenderer(MobsCore.CHAP.get(), BasicEntityRenderer::new);
+        event.registerEntityRenderer(MobsCore.CHAP.get(), BasicEntityRenderer::new);
     }
    
 

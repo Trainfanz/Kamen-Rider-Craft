@@ -3,6 +3,7 @@ package com.kelco.kamenridercraft.events;
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.Entities.AriCommandoEntity;
 import com.kelco.kamenridercraft.Entities.BlackSatanSoldierEntity;
+import com.kelco.kamenridercraft.Entities.ChapEntity;
 import com.kelco.kamenridercraft.Entities.CombatRoidEntity;
 import com.kelco.kamenridercraft.Entities.DestronCombatmanEntity;
 import com.kelco.kamenridercraft.Entities.DogmaFighterEntity;
@@ -34,7 +35,7 @@ public class ModCommonEvents {
 	        event.register(MobsCore.ARI_COMMANDO.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
 	        event.register(MobsCore.DOGMA_FIGHTER.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
 	        event.register(MobsCore.COMBAT_ROID.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
-	       // event.register(MobsCore.CHAP.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
+	       event.register(MobsCore.CHAP.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
 	    	
 	  }
 	  
@@ -50,7 +51,7 @@ public class ModCommonEvents {
         event.put(MobsCore.ARI_COMMANDO.get(), AriCommandoEntity.setAttributes());
         event.put(MobsCore.DOGMA_FIGHTER.get(), DogmaFighterEntity.setAttributes());
         event.put(MobsCore.COMBAT_ROID.get(), CombatRoidEntity.setAttributes());
-       // event.put(MobsCore.CHAP.get(), ChapEntity.setAttributes());
+        event.put(MobsCore.CHAP.get(), ChapEntity.setAttributes());
 
     }
 

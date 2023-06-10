@@ -165,7 +165,7 @@ public class RiderTabs {
 			event.accept(MobsCore.ARI_COMMANDO_SPAWN_EGG);	
 			event.accept(MobsCore.DOGMA_FIGHTER_SPAWN_EGG);
 			event.accept(MobsCore.COMBAT_ROID_SPAWN_EGG);
-			//event.accept(MobsCore.CHAP_SPAWN_EGG);
+			event.accept(MobsCore.CHAP_SPAWN_EGG);
 			
 			for (int i = 0; i < RiderTabs.Misc_TAB_ITEM.size(); i++)
 			{
