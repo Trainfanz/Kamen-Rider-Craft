@@ -115,6 +115,26 @@ public class W_Rider_Items {
 					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 3,true,false))
 			.alsoChange2ndSlot(JOKER_MEMORY.get()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
+	
+	public static final RegistryObject<Item> ACCEL_MEMORY = ITEMS.register("accel_memory",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"","accel","acceldriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+			.AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	public static final RegistryObject<Item> TRIAL_MEMORY = ITEMS.register("trial_memory",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_trial","accel","acceldriver_belt_t",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+			.AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	public static final RegistryObject<Item> ACCEL_BOOSTER_MEMORY = ITEMS.register("accel_booster_memory",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_booster","accel","acceldriver_belt_b",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+			.AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	
 	public static final RegistryObject<Item> SKULL_MEMORY = ITEMS.register("skull_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","skull","lostdriver_belt",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
@@ -244,6 +264,10 @@ public class W_Rider_Items {
 			() -> new WDriverItem(ArmorMaterials.DIAMOND,"w",CYCLONE_MEMORY ,WHELMET,WCHESTPLATE,WLEGGINGS , new Item.Properties())
 			.Add_Extra_Base_Form_Items(JOKER_MEMORY).AddToTabList(RiderTabs.W_TAB_ITEM));
 
+	public static final RegistryObject<Item> ACCELDRIVER = ITEMS.register("acceldriver",
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"accel",ACCEL_MEMORY ,WHELMET,WCHESTPLATE,WLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	
 	public static final RegistryObject<Item> LOSTDRIVER_JOKER = ITEMS.register("lostdriver_joker",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"joker",T2_JOKER_MEMORY ,WHELMET,WCHESTPLATE,WLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
@@ -256,6 +280,11 @@ public class W_Rider_Items {
 	public static final RegistryObject<Item> LOSTDRIVER_ETERNAL = ITEMS.register("lostdriver_eternal",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"eternal",T2_ETERNAL_MEMORY ,WHELMET,WCHESTPLATE,WLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
+	
+	public static final RegistryObject<Item> AKIKO_NO_SLIPPER = ITEMS.register("akiko_no_slipper",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	
 	/**
 	    public static final RegistryObject<Item> HELMET = ITEMS.register("head",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs._TAB_ITEM));
