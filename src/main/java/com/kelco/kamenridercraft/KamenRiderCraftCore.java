@@ -53,6 +53,7 @@ public class KamenRiderCraftCore {
 	public static class ClientModEvents {
 		@SubscribeEvent
 		public static void onClientSetup(FMLClientSetupEvent event) {
+				       
 		}
 	}
 }

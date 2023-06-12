@@ -1,6 +1,7 @@
 package com.kelco.kamenridercraft.Items;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.Blocks.MachineBlocks.GaiaMemoryRefinerBlock;
 import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderArmorItem;
@@ -35,18 +36,19 @@ public class W_Rider_Items {
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_cyclone","w","wdriver_belt",
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
-			.AddToTabList(RiderTabs.W_TAB_ITEM));
+			.AddToTabList(RiderTabs.W_TAB_ITEM).AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_S, 20));
 
 	public static final RegistryObject<Item> HEAT_MEMORY = ITEMS.register("heat_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_heat","w","wdriver_belt_hj",
 					new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false))
-			.AddToTabList(RiderTabs.W_TAB_ITEM));
+			.AddToTabList(RiderTabs.W_TAB_ITEM).AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_S, 10));
 
 	public static final RegistryObject<Item> LUNA_MEMORY = ITEMS.register("luna_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_luna","w","wdriver_belt_lj",
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 40, 0,true,false),
-					new MobEffectInstance(MobEffects.REGENERATION, 40, 0,true,false)).AddToTabList(RiderTabs.W_TAB_ITEM));
+					new MobEffectInstance(MobEffects.REGENERATION, 40, 0,true,false))
+			.AddToTabList(RiderTabs.W_TAB_ITEM).AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_S, 10));
 
 	public static final RegistryObject<Item> FANG_MEMORY = ITEMS.register("fang_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_fang","w","wdriver_belt_fj",
@@ -66,17 +68,17 @@ public class W_Rider_Items {
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_joker","w","wdriver_belt",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
 					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
-			.ChangeSlot(2).AddToTabList(RiderTabs.W_TAB_ITEM));
+			.ChangeSlot(2).AddToTabList(RiderTabs.W_TAB_ITEM).AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_G, 20));
 
 	public static final RegistryObject<Item> METAL_MEMORY = ITEMS.register("metal_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_metal","w","wdriver_belt",
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false))
-			.ChangeSlot(2).AddToTabList(RiderTabs.W_TAB_ITEM));
+			.ChangeSlot(2).AddToTabList(RiderTabs.W_TAB_ITEM).AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_G, 10));
 
 	public static final RegistryObject<Item> TRIGGER_MEMORY = ITEMS.register("trigger_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_trigger","w","wdriver_belt",
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false))
-			.ChangeSlot(2).AddToTabList(RiderTabs.W_TAB_ITEM));
+			.ChangeSlot(2).AddToTabList(RiderTabs.W_TAB_ITEM).AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_G, 10));
 
 	public static final RegistryObject<Item> CYCLONE_CYCLONE_MEMORY = ITEMS.register("cyclone_cyclone_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_cyclone_cyclone","w","wdriver_belt",
@@ -120,7 +122,7 @@ public class W_Rider_Items {
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","accel","acceldriver_belt",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
 					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
-			.AddToTabList(RiderTabs.W_TAB_ITEM));
+			.AddToTabList(RiderTabs.W_TAB_ITEM).AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_G, 5));
 
 	public static final RegistryObject<Item> TRIAL_MEMORY = ITEMS.register("trial_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_trial","accel","acceldriver_belt_t",
@@ -139,35 +141,42 @@ public class W_Rider_Items {
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","skull","lostdriver_belt",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
 					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
-			.AddToTabList(RiderTabs.W_TAB_ITEM));
+			.AddToTabList(RiderTabs.W_TAB_ITEM).AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_S, 5));
 	
 	public static final RegistryObject<Item> ETERNAL_MEMORY = ITEMS.register("eternal_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_red","eternal","lostdriver_belt_e",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
 					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
-			.AddToTabList(RiderTabs.W_TAB_ITEM));
+			.AddToTabList(RiderTabs.W_TAB_ITEM).AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_S, 1));
 
 
 	public static final RegistryObject<Item> PRISM_MEMORY = ITEMS.register("prism_memory",
-			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_S, 5));
 
 	public static final RegistryObject<Item> ENGINE_MEMORY = ITEMS.register("engine_memory",
-			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_S, 5));
 
 	public static final RegistryObject<Item> BOMB_MEMORY = ITEMS.register("bomb_memory",
-			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_S, 1));
 
 	public static final RegistryObject<Item> TRIAL_MEMORY_UN = ITEMS.register("trial_memory_un",
-			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_G, 2));
 
 	public static final RegistryObject<Item> FANG_MEMORY_UN = ITEMS.register("fang_memory_un",
-			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_S, 5));
 
 	public static final RegistryObject<Item> XTREME_MEMORY_G = ITEMS.register("xtreme_memory_g",
-			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_G, 1));
 
 	public static final RegistryObject<Item> XTREME_MEMORY_S = ITEMS.register("xtreme_memory_s",
-			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_S, 1));
 
 
 	public static final RegistryObject<Item> SHIPPU_MEMORY = ITEMS.register("shippu_memory",
@@ -176,65 +185,121 @@ public class W_Rider_Items {
 	public static final RegistryObject<Item> KIRIFUDA_MEMORY = ITEMS.register("kirifuda_memory",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
+	
+	public static final RegistryObject<Item> ACCEL_T2_MEMORY = ITEMS.register("accel_t2_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
 
+	public static final RegistryObject<Item> BIRD_T2_MEMORY = ITEMS.register("bird_t2_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
 
-	//public static final RegistryObject<Item> _MEMORY = ITEMS.register("prism_memory",
-	//		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
-
-
-	//accel_t2_memory 
-	//bird_t2_memory 
-
-
-	public static final RegistryObject<Item> T2_CYCLONE_MEMORY = ITEMS.register("cyclone_t2_memory",
+	public static final RegistryObject<Item> CYCLONE_T2_MEMORY = ITEMS.register("cyclone_t2_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","cyclone","lostdriver_belt_c",
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false),
 					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
-			.AddToTabList(RiderTabs.W_TAB_ITEM));
-	//dummy_memory
-	public static final RegistryObject<Item> T2_ETERNAL_MEMORY = ITEMS.register("eternal_t2_memory",
+			.AddToTabList(RiderTabs.W_TAB_ITEM).AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
+	
+	public static final RegistryObject<Item> DUMMY_T2_MEMORY = ITEMS.register("dummy_t2_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
+	
+	public static final RegistryObject<Item> ETERNAL_T2_MEMORY = ITEMS.register("eternal_t2_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","eternal","lostdriver_belt_e",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
 					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
-			.AddToTabList(RiderTabs.W_TAB_ITEM));
+			.AddToTabList(RiderTabs.W_TAB_ITEM).AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 5));
 
-	//eternal_t2_memory
-	//fang_t2_memory 
-	//gene_t2_memory 
-	//heat_t2_memory
-	//iceage_t2_memory
 
-	public static final RegistryObject<Item> T2_JOKER_MEMORY = ITEMS.register("joker_t2_memory",
+	public static final RegistryObject<Item> FANG_T2_MEMORY = ITEMS.register("fang_t2_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
+
+	public static final RegistryObject<Item> GENE_T2_MEMORY = ITEMS.register("gene_t2_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
+
+	public static final RegistryObject<Item> HEAT_T2_MEMORY = ITEMS.register("heat_t2_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
+
+	public static final RegistryObject<Item> ICEAGE_T2_MEMORY = ITEMS.register("iceage_t2_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
+
+	public static final RegistryObject<Item> JOKER_T2_MEMORY = ITEMS.register("joker_t2_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","joker","lostdriver_belt",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
 					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
-			.AddToTabList(RiderTabs.W_TAB_ITEM));
+			.AddToTabList(RiderTabs.W_TAB_ITEM).AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 5));
 
-	//key_t2_memory 
-	//luna_t2_memory 
-	//metal_t2_memory
-	//nasca_t2_memory
-	//ocean_t2_memory
-	//puppeteer_t2_memory
-	//queen_t2_memory
-	//rocket_t2_memory 
-	//skull_t2_memory 
-	//trigger_t2_memory
-	//unicorn_t2_memory
-	//violence_t2_memory
-	//weather_t2_memory
-	//xtreme_t2_memory 
-	//yesterday_t2_memory
+	public static final RegistryObject<Item> KEY_T2_MEMORY = ITEMS.register("key_t2_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
+
+	public static final RegistryObject<Item> luna_T2_MEMORY = ITEMS.register("luna_t2_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
+
+	public static final RegistryObject<Item> METAL_T2_MEMORY = ITEMS.register("metal_t2_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
+
+	public static final RegistryObject<Item> NASCA_T2_MEMORY = ITEMS.register("nasca_t2_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
+
+	public static final RegistryObject<Item> OCEAN_T2_MEMORY = ITEMS.register("ocean_t2_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
+
+	public static final RegistryObject<Item> PUPPETEER_T2_MEMORY = ITEMS.register("puppeteer_t2_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
+
+	public static final RegistryObject<Item> QUEEN_T2_MEMORY = ITEMS.register("queen_t2_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
+
+	public static final RegistryObject<Item> ROCKET_T2_MEMORY = ITEMS.register("rocket_t2_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
+
+	public static final RegistryObject<Item> SKULL_T2_MEMORY = ITEMS.register("skull_t2_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
+
+	public static final RegistryObject<Item> TRIGGER_T2_MEMORY = ITEMS.register("trigger_t2_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
+
+	public static final RegistryObject<Item> UNICORN_T2_MEMORY = ITEMS.register("unicorn_t2_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
+
+	public static final RegistryObject<Item> VIOLENCE_T2_MEMORY = ITEMS.register("violence_t2_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
+
+	public static final RegistryObject<Item> WEATHER_T2_MEMORY = ITEMS.register("weather_t2_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
+
+	public static final RegistryObject<Item> XTREMEM_T2_MEMORY = ITEMS.register("xtreme_t2_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
+
+	public static final RegistryObject<Item> YESTERDAY_T2_MEMORY = ITEMS.register("yesterday_t2_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
+			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
+
+
 	public static final RegistryObject<Item> T2_ZONE_MEMORY = ITEMS.register("zone_t2_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_strengthening_armament","eternal","lostdriver_belt_e",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false))
-			.AddToTabList(RiderTabs.W_TAB_ITEM));
+			.AddToTabList(RiderTabs.W_TAB_ITEM).AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1) );
 
-
-	//unrefined_memory_g
-	//unrefined_memory_s
-	//unrefined_memory_t2
 
 	//terror_memory
 	//taboo_memory
@@ -269,16 +334,16 @@ public class W_Rider_Items {
 
 	
 	public static final RegistryObject<Item> LOSTDRIVER_JOKER = ITEMS.register("lostdriver_joker",
-			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"joker",T2_JOKER_MEMORY ,WHELMET,WCHESTPLATE,WLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"joker",JOKER_T2_MEMORY ,WHELMET,WCHESTPLATE,WLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
 	public static final RegistryObject<Item> LOSTDRIVER_CYCLONE = ITEMS.register("lostdriver_cyclone",
-			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"cyclone",T2_CYCLONE_MEMORY ,WHELMET,WCHESTPLATE,WLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"cyclone",CYCLONE_T2_MEMORY ,WHELMET,WCHESTPLATE,WLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
 	public static final RegistryObject<Item> LOSTDRIVER_SKULL = ITEMS.register("lostdriver_skull",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"skull",SKULL_MEMORY ,WHELMET,WCHESTPLATE,WLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
 	public static final RegistryObject<Item> LOSTDRIVER_ETERNAL = ITEMS.register("lostdriver_eternal",
-			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"eternal",T2_ETERNAL_MEMORY ,WHELMET,WCHESTPLATE,WLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"eternal",ETERNAL_T2_MEMORY ,WHELMET,WCHESTPLATE,WLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
 	
 	public static final RegistryObject<Item> AKIKO_NO_SLIPPER = ITEMS.register("akiko_no_slipper",
@@ -286,6 +351,17 @@ public class W_Rider_Items {
 
 	
 	public static final RegistryObject<Item> GAIA_MEMORY = ITEMS.register("gaiamemory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	
+	
+	public static final RegistryObject<Item> UNREFINED_MEMORY_G = ITEMS.register("unrefined_memory_g",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	public static final RegistryObject<Item> UNREFINED_MEMORY_S = ITEMS.register("unrefined_memory_s",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	public static final RegistryObject<Item> UNREFINED_MEMORY_T2 = ITEMS.register("unrefined_memory_t2",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
 	

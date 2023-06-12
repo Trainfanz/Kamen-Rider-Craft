@@ -15,7 +15,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
-public class RiderFormChangeItem extends Item {
+public class RiderFormChangeItem extends BaseItem {
 
 	private String FORM_NAME;
 	private int Slot =1;
@@ -80,11 +80,6 @@ public class RiderFormChangeItem extends Item {
 	
 	public RiderFormChangeItem addAlternative( Item item) {
 		alternative.add((RiderFormChangeItem) item);
-		return this;
-	}
-
-	public RiderFormChangeItem AddToTabList(List<Item> TabList) {
-		TabList.add(this);
 		return this;
 	}
 

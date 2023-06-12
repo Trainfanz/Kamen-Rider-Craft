@@ -52,7 +52,7 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> ORIGINAL_TYPHOON_CORE = ITEMS.register("original_typhoon_core",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_original","ichigo","typhoon_belt_original",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM).addAlternative(ORIGINAL_TYPHOON_CORE_NIGO.get()));
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).addAlternative(ORIGINAL_TYPHOON_CORE_NIGO.get()).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
 
 	    
 	    public static final RegistryObject<Item> SAKURAJIMA_TYPHOON_CORE = ITEMS.register("sakurajima_typhoon_core",

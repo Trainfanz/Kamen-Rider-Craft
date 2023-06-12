@@ -1,16 +1,10 @@
 package com.kelco.kamenridercraft.Potion;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
-import com.kelco.kamenridercraft.Items.RiderTabs;
-import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
-
-import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.alchemy.Potion;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
 
 public class Potion_core {
 
