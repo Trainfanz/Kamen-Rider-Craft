@@ -12,11 +12,12 @@
           "type": "minecraft:item",
           "weight": 5,
           "name": "kamenridercraft:red_king_stone"
-        }
+        },
         {
           "type": "minecraft:item",
           "weight": 1,
           "name": "kamenridercraft:batta_man_king_stone"
+		}
       ]
     },
     {
