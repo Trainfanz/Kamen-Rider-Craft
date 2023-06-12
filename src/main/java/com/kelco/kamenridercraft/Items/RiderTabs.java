@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.Blocks.Rider_Blocks;
 import com.kelco.kamenridercraft.Entities.MobsCore;
 
 import net.minecraft.network.chat.Component;
@@ -12,6 +13,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -19,6 +21,7 @@ import net.minecraftforge.fml.common.Mod;
 @Mod.EventBusSubscriber(modid = KamenRiderCraftCore.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class RiderTabs {
     public static CreativeModeTab RiderMiscTab;
+    public static CreativeModeTab RiderblockTab;
     public static CreativeModeTab IchigoTab;
     public static CreativeModeTab V3Tab;
     public static CreativeModeTab XTab;
@@ -41,6 +44,8 @@ public class RiderTabs {
     public static List<Item> ZX_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> BLACK_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> W_TAB_ITEM= new ArrayList<Item>();
+    
+    public static List<Block> RIDER_BLOCK= new ArrayList<Block>();
     
     public static List<Item> Misc_TAB_ITEM= new ArrayList<Item>();
     
@@ -83,6 +88,9 @@ public class RiderTabs {
     	
     	WTab = event.registerCreativeModeTab(new ResourceLocation(KamenRiderCraftCore.MODID, "rider_w_tab"),
                 builder-> builder.icon(() -> new ItemStack(W_Rider_Items.WHELMET.get())).withBackgroundLocation(new ResourceLocation(KamenRiderCraftCore.MODID+":textures/gui/tab_w_items.png")).title(Component.literal("W Rider Items")).build());
+
+    	RiderblockTab = event.registerCreativeModeTab(new ResourceLocation(KamenRiderCraftCore.MODID, "rider_blocks_tab"),
+                builder-> builder.icon(() -> new ItemStack(Rider_Blocks.PURE_GAIA_MEMORY_BLOCK.get())).withBackgroundLocation(new ResourceLocation(KamenRiderCraftCore.MODID+":textures/gui/tab_iichigo_items.png")).title(Component.literal("Rider Blocks")).build());
 
     }
     
@@ -151,9 +159,15 @@ public class RiderTabs {
 			}
 
 		}
+		else if(event.getTab() == RiderTabs.RiderblockTab) {
+			for (int i = 0; i < RiderTabs.RIDER_BLOCK.size(); i++)
+			{
+				event.accept( RiderTabs.RIDER_BLOCK.get(i));
+			}
 
+		}
 
-		if(event.getTab() == RiderTabs.RiderMiscTab) {
+		else if(event.getTab() == RiderTabs.RiderMiscTab) {
 			
 			event.accept(MobsCore.SHOCKER_COMBATMAN_SPAWN_EGG);
 			event.accept(MobsCore.SHOCKER_RIDER_SPAWN_EGG);

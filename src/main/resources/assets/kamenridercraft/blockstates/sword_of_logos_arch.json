@@ -1,0 +1,8 @@
+{
+    "variants":{   
+    "facing=north": { "model": "kamenridercraft:block/sword_of_logos_arch" },
+    "facing=south": { "model": "kamenridercraft:block/sword_of_logos_arch", "y": 180 },
+    "facing=west": { "model": "kamenridercraft:block/sword_of_logos_arch", "y": 270 },
+    "facing=east": { "model": "kamenridercraft:block/sword_of_logos_arch", "y": 90 }
+  }
+ }

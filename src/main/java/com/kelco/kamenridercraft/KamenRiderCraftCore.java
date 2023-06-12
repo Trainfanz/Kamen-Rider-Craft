@@ -1,6 +1,7 @@
 package com.kelco.kamenridercraft;
 
 
+import com.kelco.kamenridercraft.Blocks.Rider_Blocks;
 import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Entities.MobsCore;
 import com.kelco.kamenridercraft.Items.Ichigo_Rider_Items;
@@ -33,6 +34,7 @@ public class KamenRiderCraftCore {
 		MobsCore.MOBLIST.register(modEventBus);
 		Effect_core.register(modEventBus);
 		Potion_core.register(modEventBus);
+		Rider_Blocks.register(modEventBus);
 		MinecraftForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::addCreative);
 	}

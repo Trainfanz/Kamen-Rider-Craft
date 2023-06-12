@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "kamenridercraft:block/monitor" },
+        "facing=south": { "model": "kamenridercraft:block/monitor", "y": 180 },
+        "facing=west":  { "model": "kamenridercraft:block/monitor", "y": 270 },
+        "facing=east":  { "model": "kamenridercraft:block/monitor", "y": 90 }
+    }
+}

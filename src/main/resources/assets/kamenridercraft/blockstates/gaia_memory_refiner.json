@@ -1,0 +1,8 @@
+{
+    "variants":{   
+    "facing=north": { "model": "kamenridercraft:block/gaia_memory_refiner" },
+    "facing=south": { "model": "kamenridercraft:block/gaia_memory_refiner", "y": 180 },
+    "facing=west": { "model": "kamenridercraft:block/gaia_memory_refiner", "y": 270 },
+    "facing=east": { "model": "kamenridercraft:block/gaia_memory_refiner", "y": 90 }
+  }
+ }

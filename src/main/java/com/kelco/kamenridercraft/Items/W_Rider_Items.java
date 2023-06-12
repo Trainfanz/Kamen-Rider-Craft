@@ -285,6 +285,10 @@ public class W_Rider_Items {
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
 	
+	public static final RegistryObject<Item> GAIA_MEMORY = ITEMS.register("gaiamemory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	
 	/**
 	    public static final RegistryObject<Item> HELMET = ITEMS.register("head",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs._TAB_ITEM));

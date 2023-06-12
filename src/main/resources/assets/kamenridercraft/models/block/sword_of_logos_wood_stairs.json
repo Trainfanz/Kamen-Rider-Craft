@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "kamenridercraft:block/sword_of_logos_wood",
+        "top": "kamenridercraft:block/sword_of_logos_wood",
+        "side": "kamenridercraft:block/sword_of_logos_wood"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "variants":{   
+    "facing=north": { "model": "kamenridercraft:block/sword_of_logos_wood_trim" },
+    "facing=south": { "model": "kamenridercraft:block/sword_of_logos_wood_trim", "y": 180 },
+    "facing=west": { "model": "kamenridercraft:block/sword_of_logos_wood_trim", "y": 270 },
+    "facing=east": { "model": "kamenridercraft:block/sword_of_logos_wood_trim", "y": 90 }
+  }
+ }

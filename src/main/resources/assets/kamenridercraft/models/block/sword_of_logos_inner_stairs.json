@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "block/wool_colored_red",
+        "top": "block/wool_colored_red",
+        "side": "kamenridercraft:block/wool_colored_red_step"
+    }
+}

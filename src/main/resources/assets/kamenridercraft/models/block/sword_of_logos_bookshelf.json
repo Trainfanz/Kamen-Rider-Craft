@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "kamenridercraft:block/sword_of_logos_planks",
+        "side": "kamenridercraft:block/dark_oak_bookshelf"
+    }
+}

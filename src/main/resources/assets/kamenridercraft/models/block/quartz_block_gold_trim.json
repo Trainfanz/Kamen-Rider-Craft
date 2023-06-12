@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "blocks/quartz_block_top",
+        "side": "kamenridercraft:block/quartz_block_gold_trim"
+    }
+}
