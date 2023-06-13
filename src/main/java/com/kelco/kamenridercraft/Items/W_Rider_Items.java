@@ -314,7 +314,8 @@ public class W_Rider_Items {
 	//magma_memory
 	// unicorn_memory_enhancing_adapter
 	//commander_memory
-	//commander_memory_enhancing_adapter memory_memory
+	//commander_memory_enhancing_adapter 
+	//memory_memory
 	//egg_chicken_memory
 
 	//stag_memory
