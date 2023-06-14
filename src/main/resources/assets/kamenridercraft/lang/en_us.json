@@ -245,7 +245,7 @@
 "item.kamenridercraft.ari_commando_spawn_egg": "Ari Commando Spawn Egg",
 "item.kamenridercraft.dogma_fighter_spawn_egg": "Dogma Fighter Spawn Egg",
 "item.kamenridercraft.combat_roid_spawn_egg": "Combat Roid Spawn Egg",
-"item.kamenridercraft.chap_spawn_egg": "Chap Spawn Egg"
+"item.kamenridercraft.chap_spawn_egg": "Chap Spawn Egg",
 
 
 
@@ -253,5 +253,5 @@
 "block.kamenridercraft.gaiamemoryblock": "Gaia Memory Ore",
 "block.kamenridercraft.deepslate_gaiamemoryblock": "Deepslate Gaia Memory Ore",
 
-"block.kamenridercraft.gaia_memory_refiner": "Gaia Memory Refiner",
+"block.kamenridercraft.gaia_memory_refiner": "Gaia Memory Refiner"
 }

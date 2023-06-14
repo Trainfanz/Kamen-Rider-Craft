@@ -73,8 +73,9 @@ public class GaiaMemoryRefinerBlock extends MachineBlock {
             if (pPlayer.getItemInHand(pHand).getItem() == W_Rider_Items.UNREFINED_MEMORY_G.get()) process(pPlayer, pLevel, pPos, pHand, getmemoryDrop(0));
 			else if (pPlayer.getItemInHand(pHand).getItem() == W_Rider_Items.UNREFINED_MEMORY_S.get()) process(pPlayer, pLevel, pPos, pHand, getmemoryDrop(1));
 			else if (pPlayer.getItemInHand(pHand).getItem() == W_Rider_Items.UNREFINED_MEMORY_T2.get()) process(pPlayer, pLevel, pPos, pHand, getmemoryDrop(2));
+            return  InteractionResult.sidedSuccess(true);
         }
-        return InteractionResult.sidedSuccess(pLevel.isClientSide());
+        return InteractionResult.sidedSuccess(false);
     }
 
 
