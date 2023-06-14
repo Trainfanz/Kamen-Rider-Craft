@@ -301,29 +301,74 @@ public class W_Rider_Items {
 			.AddToTabList(RiderTabs.W_TAB_ITEM).AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1) );
 
 
-	//terror_memory
-	//taboo_memory
-	//claydoll_memory
-	//nasca_memory
-	//smilodon_memory
-	//weather_memory
-	//quetzalcoatlus_memory
-	//quetzalcoatlus_memory_prototype
-	//utopia_memory
-	//unicorn_memory
-	//magma_memory
-	// unicorn_memory_enhancing_adapter
-	//commander_memory
-	//commander_memory_enhancing_adapter 
-	//memory_memory
-	//egg_chicken_memory
+	public static final RegistryObject<Item> TERROR_MEMORY = ITEMS.register("terror_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
-	//stag_memory
-	//spider_memory
-	//bat_memory 
-	//beetle_memory
-	//frog_memory
-	//denden_memory
+	public static final RegistryObject<Item> TABOO_MEMORY = ITEMS.register("taboo_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	public static final RegistryObject<Item> CLAYDOLL_MEMORY = ITEMS.register("claydoll_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	public static final RegistryObject<Item> NASCA_MEMORY = ITEMS.register("nasca_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	public static final RegistryObject<Item> SMILODON_MEMORY = ITEMS.register("smilodon_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	public static final RegistryObject<Item> WEATHER_MEMORY = ITEMS.register("weather_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	public static final RegistryObject<Item> QUETZALCOATUS_MEMORY = ITEMS.register("quetzalcoatlus_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	public static final RegistryObject<Item> QUETZALCOATUS_MEMORY_PROTOTYPE = ITEMS.register("quetzalcoatlus_memory_prototype",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	public static final RegistryObject<Item> UTOPIA_MEMORY = ITEMS.register("utopia_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	public static final RegistryObject<Item> UNICON_MEMORY = ITEMS.register("unicorn_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+	
+	public static final RegistryObject<Item> UNICON_MEMORY_ENHANCING_ADAPTER = ITEMS.register("unicorn_memory_enhancing_adapter",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	public static final RegistryObject<Item> MAGMA_MEMORY = ITEMS.register("magma_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	public static final RegistryObject<Item> COMMANDER_MEMORY = ITEMS.register("commander_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	public static final RegistryObject<Item> COMMANDER_MEMORY_ENHANCING_ADAPTER = ITEMS.register("commander_memory_enhancing_adapter",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	public static final RegistryObject<Item> MEMORY_MEMORY = ITEMS.register("memory_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	public static final RegistryObject<Item> EGG_CHICKEN_MEMORY = ITEMS.register("egg_chicken_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+
+	
+	public static final RegistryObject<Item> STAG_MEMORY = ITEMS.register("stag_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	public static final RegistryObject<Item> SPIDER_MEMORY = ITEMS.register("spider_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	public static final RegistryObject<Item> BAT_MEMORY = ITEMS.register("bat_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	public static final RegistryObject<Item> BEETEL_MEMORY = ITEMS.register("beetle_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	public static final RegistryObject<Item> FROG_MEMORY = ITEMS.register("frog_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	public static final RegistryObject<Item> DENDEN_MEMORY = ITEMS.register("denden_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
 
 
 	public static final RegistryObject<Item> WDRIVER = ITEMS.register("wdriver",
