@@ -2,6 +2,7 @@ package com.kelco.kamenridercraft.Entities;
 
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.Entities.bosses.ShadowmoonEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ShockerRidersEntity;
 
 import net.minecraft.world.entity.EntityType;
@@ -94,7 +95,13 @@ public class MobsCore {
     public static final RegistryObject<ForgeSpawnEggItem> CHAP_SPAWN_EGG = ITEMS.register("chap_spawn_egg",
            () -> new ForgeSpawnEggItem(CHAP,  000000,0xFFFFFF, new Item.Properties()));
  
-    
+    public static final RegistryObject<EntityType<ShadowmoonEntity>> SHADOWMOON = MOBLIST.register("shadowmoon",
+            () -> EntityType.Builder.of(ShadowmoonEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":shadowmoon"));
+     
+     public static final RegistryObject<ForgeSpawnEggItem> SHADOWMOON_SPAWN_EGG = ITEMS.register("shadowmoon_spawn_egg",
+            () -> new ForgeSpawnEggItem(SHADOWMOON,  000000,0xFFFFFF, new Item.Properties()));
+     
+     
     
     
     public static void register(IEventBus eventBus) {

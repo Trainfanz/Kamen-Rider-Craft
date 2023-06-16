@@ -144,7 +144,7 @@
 "item.kamenridercraft.unrefined_memory_g": "Unrefined Memory (Gold)",
 "item.kamenridercraft.unrefined_memory_s": "Unrefined Memory (Silver)",
 "item.kamenridercraft.unrefined_memory_t2": "Unrefined Memory (T2)",
-"item.kamenridercraft.gaiamemory": "Gaia Memory",
+"item.kamenridercraft.gaiamemory": "Gaia Memory Shard",
 "item.kamenridercraft.fang_memory_un": "Unfinished Fang Memory",
 "item.kamenridercraft.trial_memory_un": "Unfinished Trial Memory",
 "item.kamenridercraft.xtreme_memory_g": "Xtreme Memory (Gold)",
@@ -246,6 +246,7 @@
 "item.kamenridercraft.dogma_fighter_spawn_egg": "Dogma Fighter Spawn Egg",
 "item.kamenridercraft.combat_roid_spawn_egg": "Combat Roid Spawn Egg",
 "item.kamenridercraft.chap_spawn_egg": "Chap Spawn Egg",
+"item.kamenridercraft.shadowmoon_spawn_egg": "Shadow Moon Spawn Egg",
 
 
 
