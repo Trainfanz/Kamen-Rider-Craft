@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "w",
+  "pattern": [
+    "XCX",
+    "CZC",
+    "XCX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    }, "C": {
+      "item": "minecraft:redstone"
+    }, "Z": {
+      "item": "kamenridercraft:gaiamemory"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:gaia_memory_refiner"
+  }
+}
