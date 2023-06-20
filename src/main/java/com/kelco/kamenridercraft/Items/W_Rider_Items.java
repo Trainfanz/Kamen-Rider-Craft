@@ -3,6 +3,7 @@ package com.kelco.kamenridercraft.Items;
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.Blocks.MachineBlocks.GaiaMemoryRefinerBlock;
 import com.kelco.kamenridercraft.Effect.Effect_core;
+import com.kelco.kamenridercraft.Items.rider_armor_base.BaseBlasterItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseSwordItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderArmorItem;
@@ -26,7 +27,10 @@ public class W_Rider_Items {
 
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, KamenRiderCraftCore.MODID);
 
-	//trigger_magnum
+	
+	 public static final RegistryObject<BaseBlasterItem> TRIGGER_MAGNUM = ITEMS.register("trigger_magnum",
+	            () -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
 	//metal_shaft
 	//prism_bicker
 	//shield_prism_bicker
@@ -34,10 +38,16 @@ public class W_Rider_Items {
 	
 	 public static final RegistryObject<SwordItem> ETERNAL_EDGE = ITEMS.register("eternal_edge",
 	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
-	//skull_magnum 
+	 
+	 public static final RegistryObject<BaseBlasterItem> SKILL_MAGNUM = ITEMS.register("skull_magnum",
+	            () -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
 	 public static final RegistryObject<SwordItem> ENGINE_BLADE = ITEMS.register("engine_blade",
 	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
-	//bomb_magnum
+
+	 public static final RegistryObject<BaseBlasterItem> BOMB_MAGNUM = ITEMS.register("bomb_magnum",
+	            () -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
 	 public static final RegistryObject<SwordItem> NASCA_BLADE = ITEMS.register("nasca_blade",
 	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
