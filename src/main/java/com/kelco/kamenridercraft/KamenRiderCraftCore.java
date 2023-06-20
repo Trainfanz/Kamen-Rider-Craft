@@ -6,6 +6,7 @@ import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Entities.MobsCore;
 import com.kelco.kamenridercraft.Items.Ichigo_Rider_Items;
 import com.kelco.kamenridercraft.Items.Modded_item_core;
+import com.kelco.kamenridercraft.Items.Reboot_Rider_Items;
 import com.kelco.kamenridercraft.Items.RiderTabs;
 import com.kelco.kamenridercraft.Items.W_Rider_Items;
 import com.kelco.kamenridercraft.Potion.Potion_core;
@@ -30,6 +31,7 @@ public class KamenRiderCraftCore {
 		Modded_item_core.register(modEventBus);
 		Ichigo_Rider_Items.register(modEventBus);
 		W_Rider_Items.register(modEventBus);
+		Reboot_Rider_Items.register(modEventBus);
 		MobsCore.register(modEventBus);
 		MobsCore.MOBLIST.register(modEventBus);
 		Effect_core.register(modEventBus);

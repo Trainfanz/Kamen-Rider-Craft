@@ -4,6 +4,7 @@ import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.Blocks.MachineBlocks.GaiaMemoryRefinerBlock;
 import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
+import com.kelco.kamenridercraft.Items.rider_armor_base.BaseSwordItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderArmorItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderDriverItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderFormChangeItem;
@@ -14,6 +15,8 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -23,6 +26,22 @@ public class W_Rider_Items {
 
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, KamenRiderCraftCore.MODID);
 
+	//trigger_magnum
+	//metal_shaft
+	//prism_bicker
+	//shield_prism_bicker
+	
+	
+	 public static final RegistryObject<SwordItem> ETERNAL_EDGE = ITEMS.register("eternal_edge",
+	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+	//skull_magnum 
+	 public static final RegistryObject<SwordItem> ENGINE_BLADE = ITEMS.register("engine_blade",
+	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+	//bomb_magnum
+	 public static final RegistryObject<SwordItem> NASCA_BLADE = ITEMS.register("nasca_blade",
+	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	
 	public static final RegistryObject<Item> WHELMET = ITEMS.register("whead",
 			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 	public static final RegistryObject<Item> WCHESTPLATE = ITEMS.register("wtroso",
@@ -409,16 +428,6 @@ public class W_Rider_Items {
 
 	public static final RegistryObject<Item> UNREFINED_MEMORY_T2 = ITEMS.register("unrefined_memory_t2",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
-
-	
-	/**
-	    public static final RegistryObject<Item> HELMET = ITEMS.register("head",
-	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs._TAB_ITEM));
-	    public static final RegistryObject<Item> CHESTPLATE = ITEMS.register("troso",
-	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs._TAB_ITEM));
-	    public static final RegistryObject<Item> LEGGINGS = ITEMS.register("legs",
-	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs._TAB_ITEM));
-	 **/
 
 
 
