@@ -226,6 +226,26 @@
 
 
 
+"item.kamenridercraft.amazonshead": "Amazons Helmet",
+"item.kamenridercraft.amazonstroso": "Amazons Chestplate",
+"item.kamenridercraft.amazonslegs": "Amazons Leggings",
+"item.kamenridercraft.amazons_driver_alpha": "Amazons Driver (Alpha)",
+"item.kamenridercraft.amazons_driver_omega": "Amazons Driver (Omega)",
+"item.kamenridercraft.amazons_driver_sigma": "Amazons Driver (Sigma)",
+"item.kamenridercraft.neo_amazons_driver_neo_alpha": "Neo Amazons Driver (Neo Alpha)",
+"item.kamenridercraft.neo_amazons_driver_omega": "Neo Amazons Driver (Omega)",
+"item.kamenridercraft.neo_amazons_driver_neo": "Neo Amazons Driver (Neo)",
+
+"item.kamenridercraft.condorer_core_alpha": "Condorer Core (Alpha)",
+"item.kamenridercraft.condorer_core_alpha_blind": "Condorer Core (Blind Alpha)",
+"item.kamenridercraft.condorer_core_omega": "Condorer Core (Omega)",
+"item.kamenridercraft.condorer_core_sigma": "Condorer Core (Sigma)",
+"item.kamenridercraft.amazon_injector_neo_alpha": "Amazon Injector (Neo Alpha)",
+"item.kamenridercraft.amazon_injector_new_omega": "Amazon Injector (New Alpha)",
+"item.kamenridercraft.amazon_injector_neo": "Amazon Injector (Neo)",
+
+
+
 "entity.kamenridercraft.shocker_combatman":"Shocker Combatman",
 "entity.kamenridercraft.shocker_riders":"Shocker Rider",
 "entity.kamenridercraft.destron_combatman":"Destron Combatman",
