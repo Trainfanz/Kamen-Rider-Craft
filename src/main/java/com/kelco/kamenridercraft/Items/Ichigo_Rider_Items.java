@@ -2,6 +2,7 @@ package com.kelco.kamenridercraft.Items;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.Effect.Effect_core;
+import com.kelco.kamenridercraft.Items.rider_armor_base.BaseBlasterItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseSwordItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderArmorItem;
@@ -367,6 +368,35 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> SHADOW_CHARGER = ITEMS.register("shadow_charger",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"shadow_moon",GREEN_KING_STONE ,BLACKHELMET,BLACKCHESTPLATE,BLACKLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
  
+	    
+	    //Black RX
+	    public static final RegistryObject<SwordItem> REVOLCANE = ITEMS.register("revolcane",
+	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+	    
+		 public static final RegistryObject<BaseBlasterItem> VORTECHSHOOTER = ITEMS.register("vortech_shooter",
+		            () -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+		 
+		    public static final RegistryObject<SwordItem> BIOBLADE = ITEMS.register("bio_blade",
+		            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+	    
+		    
+	    public static final RegistryObject<Item> RXHELMET = ITEMS.register("rxhead",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+	    public static final RegistryObject<Item> RXCHESTPLATE = ITEMS.register("rxtroso",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+	    public static final RegistryObject<Item> RXLEGGINGS = ITEMS.register("rxlegs",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+
+	    public static final RegistryObject<Item> SPLIT_KING_STONE = ITEMS.register("split_king_stone",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","rx","sun_riser_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.RX_TAB_ITEM));
+	    
+	    public static final RegistryObject<Item> SUN_RISER = ITEMS.register("sun_riser",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"rx",SPLIT_KING_STONE ,RXHELMET,RXCHESTPLATE,RXLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+    
+
+	    
 	    /**
 	    public static final RegistryObject<Item> HELMET = ITEMS.register("head",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs._TAB_ITEM));
