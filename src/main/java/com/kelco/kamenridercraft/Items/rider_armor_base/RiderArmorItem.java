@@ -25,7 +25,8 @@ import java.util.function.Consumer;
 
 public class RiderArmorItem extends ArmorItem implements GeoItem {
 	private AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
-
+	private Item RepairItem = Modded_item_core.RIDER_CIRCUIT.get();
+	
 	public RiderArmorItem(ArmorMaterial material, Type type, Properties properties) {
 		super(material, type, properties);
 	
@@ -62,10 +63,16 @@ public class RiderArmorItem extends ArmorItem implements GeoItem {
 		controllerRegistrar.add(new AnimationController<RiderArmorItem>(this, "controller", 0, this::predicate));
 	}
 
-	 public boolean isValidRepairItem(ItemStack p_40392_, ItemStack p_40393_) {
-	     // return this.material.getRepairIngredient().test(p_40393_) || super.isValidRepairItem(p_40392_, p_40393_);
-	      return p_40393_.getItem()== Modded_item_core.RIDER_CIRCUIT.get();
-	   }
+	public RiderArmorItem ChangeRepairItem(Item item) {
+		RepairItem = item;
+		return this;
+	}
+	
+	public boolean isValidRepairItem(ItemStack p_40392_, ItemStack p_40393_) {
+		return p_40393_.getItem()== RepairItem;
+	}
+	
+
 	
 	@Override
 	public AnimatableInstanceCache getAnimatableInstanceCache() {

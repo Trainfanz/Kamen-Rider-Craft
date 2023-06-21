@@ -52,8 +52,6 @@ public class RiderDriverItem extends RiderArmorItem{
 	public void onArmorTick(ItemStack stack, Level level, Player player)
 	{
 
-		//player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20, 1,true,false));
-
 		if (player.getItemBySlot(EquipmentSlot.LEGS).getItem() == LEGS){
 			if (player.getItemBySlot(EquipmentSlot.CHEST).getItem() == TORSO){
 				if (player.getItemBySlot(EquipmentSlot.HEAD).getItem() == HEAD){
