@@ -127,6 +127,9 @@
 "item.kamenridercraft.revolcane": "Revolcane",
 "item.kamenridercraft.vortech_shooter": "Vortech shooter",
 "item.kamenridercraft.bio_blade": "Bio Blade",
+"item.kamenridercraft.rx_core": "Black RX Core",
+"item.kamenridercraft.robo_core": "Roborider Core",
+"item.kamenridercraft.bio_core": "Biorider Core",
 
 
 
@@ -149,6 +152,7 @@
 "item.kamenridercraft.metal_shaft": "Metal Shaft",
 "item.kamenridercraft.prism_bicker": "Prism Bicker (Sword)",
 "item.kamenridercraft.shield_prism_bicker": "Prism Bicker (Shield)",
+"item.kamenridercraft.nasca_blade": "Nasca Blade",
 
 "item.kamenridercraft.unrefined_memory_g": "Unrefined Memory (Gold)",
 "item.kamenridercraft.unrefined_memory_s": "Unrefined Memory (Silver)",

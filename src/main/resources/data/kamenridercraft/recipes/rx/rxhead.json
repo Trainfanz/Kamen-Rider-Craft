@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kr_black_rx",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:blackhead"
+    }, 
+    {
+      "item": "kamenridercraft:split_king_stone"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft:rxhead"
+  }
+}

@@ -388,12 +388,26 @@ public class Ichigo_Rider_Items {
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
 
 	    public static final RegistryObject<Item> SPLIT_KING_STONE = ITEMS.register("split_king_stone",
-	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","rx","sun_riser_belt",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+	    
+	    public static final RegistryObject<Item> RX_CORE = ITEMS.register("rx_core",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","black_rx","sun_riser_belt",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
 	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.RX_TAB_ITEM));
 	    
+	    public static final RegistryObject<Item> BIO_CORE = ITEMS.register("bio_core",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_bio","black_rx","sun_riser_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.WATER_BREATHING,40, 0,true,false)
+	            		,new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.RX_TAB_ITEM));
+
+	    public static final RegistryObject<Item> ROBO_CORE = ITEMS.register("robo_core",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_robo","black_rx","sun_riser_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false)).AddToTabList(RiderTabs.RX_TAB_ITEM));
+	    
+	    
 	    public static final RegistryObject<Item> SUN_RISER = ITEMS.register("sun_riser",
-		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"rx",SPLIT_KING_STONE ,RXHELMET,RXCHESTPLATE,RXLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"black_rx",RX_CORE ,RXHELMET,RXCHESTPLATE,RXLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
     
 
 	    

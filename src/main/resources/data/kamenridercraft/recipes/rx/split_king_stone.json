@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "black",
+  "pattern": [
+    "XXX",
+    "XZC",
+    "CCC"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:red_king_stone"
+    }, "C": {
+      "item": "kamenridercraft:green_king_stone"
+    }, "Z": {
+      "item": "kamenridercraft:batta_man_king_stone"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:creation_king_stone"
+  }
+}
