@@ -4,12 +4,16 @@ import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.Items.W_Rider_Items;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderArmorItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderDriverItem;
+import com.kelco.kamenridercraft.Items.rider_armor_base.RiderFormChangeItem;
 
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.Level;
 import net.minecraftforge.registries.RegistryObject;
 
 public class WDriverItem extends RiderDriverItem{
@@ -20,6 +24,19 @@ public class WDriverItem extends RiderDriverItem{
 		super(material, rider, baseFormItem, head, torso, legs, properties);
 	}
 
+	
+	@Override
+	public void onArmorTick(ItemStack stack, Level level, Player player)
+	{
+		super.onArmorTick(stack, level, player);
+		if (RiderDriverItem.get_Form_Item(stack, 1)==W_Rider_Items.XTREME_MEMORY.get()&player.fallDistance>10) {
+			
+			RiderFormChangeItem alternativeItem_form_change = (RiderFormChangeItem) W_Rider_Items.XTREME_GOLD_MEMORY.get();
+			
+			alternativeItem_form_change.use(level, player, InteractionHand.MAIN_HAND);
+	
+			}
+	}
 
 	public String GET_TEXT(ItemStack itemstack, EquipmentSlot equipmentSlot)
 	{

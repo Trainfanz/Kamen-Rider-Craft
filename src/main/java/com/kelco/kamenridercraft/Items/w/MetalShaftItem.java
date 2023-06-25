@@ -3,22 +3,16 @@ package com.kelco.kamenridercraft.Items.w;
 
 import java.util.List;
 
-import com.kelco.kamenridercraft.Items.Modded_item_core;
 import com.kelco.kamenridercraft.Items.W_Rider_Items;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseSwordItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderDriverItem;
-import com.kelco.kamenridercraft.Items.rider_armor_base.RiderFormChangeItem;
-
-import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tier;
-import net.minecraftforge.event.entity.living.MobEffectEvent;
 public class MetalShaftItem extends BaseSwordItem {
 
 	public MetalShaftItem(Tier toolTier, int Atk, float Spd, Properties prop) {

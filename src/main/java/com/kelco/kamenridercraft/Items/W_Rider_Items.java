@@ -146,7 +146,8 @@ public class W_Rider_Items {
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.REGENERATION, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
-					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 4,true,false))
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 4,true,false),
+					new MobEffectInstance(Effect_core.FLYING.get(), 40, 4,true,false))
 			.alsoChange2ndSlot(JOKER_MEMORY.get()).ChangeModel("geo/cyclonehopper_wingsarmor.geo.json").AddToTabList(RiderTabs.W_TAB_ITEM));
 
 	public static final RegistryObject<Item> XTREME_ACCEL_MEMORY = ITEMS.register("xtreme_accel_memory",

@@ -33,18 +33,21 @@ public class FlyingHandler {
 	private static void execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return;
+
 		if (entity instanceof LivingEntity _livEnt ? _livEnt.hasEffect(Effect_core.FLYING.get()) : false) {
 			if (entity instanceof Player _player) {
 				_player.getAbilities().mayfly = (true);
 				_player.onUpdateAbilities();
 			}
-		}
-		if (!(entity instanceof LivingEntity _livEnt ? _livEnt.hasEffect(Effect_core.FLYING.get()) : false)) {
+		}	
+		else if (!(entity instanceof LivingEntity _livEnt ? _livEnt.hasEffect(Effect_core.FLYING.get()) : false)) {
 			if (entity instanceof Player _player) {
 				_player.getAbilities().mayfly = (false);
 				_player.onUpdateAbilities();
 			}
 		}
+
+
 		if (new Object() {
 			public boolean checkGamemode(Entity _ent) {
 				if (_ent instanceof ServerPlayer _serverPlayer) {
