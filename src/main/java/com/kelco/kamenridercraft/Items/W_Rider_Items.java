@@ -188,7 +188,7 @@ public class W_Rider_Items {
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
 					new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),
 					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false),
-					new MobEffectInstance(Effect_core.BOOST.get(), 40, 0,true,false))
+					new MobEffectInstance(Effect_core.BOOST.get(), 40, 5,true,false))
 			.AddToTabList(RiderTabs.W_TAB_ITEM));
 
 	

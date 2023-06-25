@@ -23,7 +23,7 @@ public class BoostEffect extends MobEffect {
 
 				pLivingEntity.fallDistance = 0.0f;
 				Vec3 look = pLivingEntity.getLookAngle();
-				pLivingEntity.setDeltaMovement(pLivingEntity.getDeltaMovement().add(look.x*(0.2*(1+pAmplifier)), look.y*(0.2*(1+pAmplifier)), look.z*(0.2*(1+pAmplifier))));
+				pLivingEntity.setDeltaMovement(pLivingEntity.getDeltaMovement().add(look.x*(0.1*(1+pAmplifier)), look.y*0.2, look.z*(0.1*(1+pAmplifier))));
 				if ( pLivingEntity instanceof Player) {
 					((Player)pLivingEntity).hurtMarked=true;
 				}
