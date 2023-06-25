@@ -454,7 +454,7 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> ZO_STONE = ITEMS.register("zo_stone",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","zo","_belt",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.J_TAB_ITEM));
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.ZO_TAB_ITEM));
 
 	    public static final RegistryObject<Item> ZO_CORE = ITEMS.register("zo_core",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"zo",ZO_STONE ,ZOHELMET,ZOCHESTPLATE,ZOLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.ZO_TAB_ITEM));
