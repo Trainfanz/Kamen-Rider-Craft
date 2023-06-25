@@ -3,17 +3,35 @@ package com.kelco.kamenridercraft.events;
 
 
 import com.kelco.kamenridercraft.Entities.MobsCore;
+import com.kelco.kamenridercraft.Items.W_Rider_Items;
 import com.kelco.kamenridercraft.client.renderer.BasicEntityRenderer;
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
+
+import net.minecraft.client.renderer.item.ItemProperties;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 
 @Mod.EventBusSubscriber(modid = KamenRiderCraftCore.MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ModClientEvents {
 
 
+	private static ResourceLocation BLOCKING_PROPERTY_RESLOC = new ResourceLocation(KamenRiderCraftCore.MODID, "blocking");
+	
+	@SubscribeEvent
+    public static void onClientSetup(final FMLClientSetupEvent event) {
+
+		event.enqueueWork(() -> {
+			
+	    	ItemProperties.register(W_Rider_Items.SHIELD_PRISM_BICKER.get(), BLOCKING_PROPERTY_RESLOC, ($itemStack, $level, $entity, $seed) -> {
+	    		return $entity != null && $entity.isUsingItem() && $entity.getUseItem() == $itemStack ? 1.0F : 0.0F;
+	    	});
+		});
+		
+    }
  
 	 
     @SubscribeEvent

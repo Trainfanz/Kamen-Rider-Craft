@@ -5,6 +5,7 @@ import com.kelco.kamenridercraft.Blocks.MachineBlocks.GaiaMemoryRefinerBlock;
 import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseBlasterItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
+import com.kelco.kamenridercraft.Items.rider_armor_base.BaseShieldItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseSwordItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderArmorItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderDriverItem;
@@ -17,6 +18,7 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ShieldItem;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -41,6 +43,10 @@ public class W_Rider_Items {
 	 
 	 public static final RegistryObject<SwordItem> PRISM_BICKER = ITEMS.register("prism_bicker",
 	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
+	
+	 
+	 public static final RegistryObject<ShieldItem> SHIELD_PRISM_BICKER = ITEMS.register("shield_prism_bicker",
+	            () -> new BaseShieldItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
 	
 	 
 	//prism_bicker
@@ -188,7 +194,7 @@ public class W_Rider_Items {
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
 					new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),
 					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false),
-					new MobEffectInstance(Effect_core.BOOST.get(), 40, 5,true,false))
+					new MobEffectInstance(Effect_core.BOOST.get(), 40, 0,true,false))
 			.AddToTabList(RiderTabs.W_TAB_ITEM));
 
 	
