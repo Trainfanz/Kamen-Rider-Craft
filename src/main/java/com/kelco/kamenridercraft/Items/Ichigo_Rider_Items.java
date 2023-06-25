@@ -410,6 +410,56 @@ public class Ichigo_Rider_Items {
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"black_rx",RX_CORE ,RXHELMET,RXCHESTPLATE,RXLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
     
 
+	    // Shin
+	   
+	    public static final RegistryObject<Item> SHINHELMET = ITEMS.register("shinhead",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.SHIN_TAB_ITEM));
+	    public static final RegistryObject<Item> SHINCHESTPLATE = ITEMS.register("shintroso",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.SHIN_TAB_ITEM));
+	    public static final RegistryObject<Item> SHINLEGGINGS = ITEMS.register("shinlegs",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.SHIN_TAB_ITEM));
+	    
+	    public static final RegistryObject<Item> SHIN_STONE = ITEMS.register("shin_stone",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","shin","_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.SHIN_TAB_ITEM));
+
+	    public static final RegistryObject<Item> GRASSHOPPER_DNA = ITEMS.register("grasshopper_dna",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"shin",SHIN_STONE ,SHINHELMET,SHINCHESTPLATE,SHINLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.SHIN_TAB_ITEM));
+	    
+	    // J
+	    public static final RegistryObject<Item> JHELMET = ITEMS.register("jhead",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.J_TAB_ITEM));
+	    public static final RegistryObject<Item> JCHESTPLATE = ITEMS.register("jtroso",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.J_TAB_ITEM));
+	    public static final RegistryObject<Item> JLEGGINGS = ITEMS.register("jlegs",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.J_TAB_ITEM));
+
+	    public static final RegistryObject<Item> J_STONE = ITEMS.register("j_stone",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","j","_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.J_TAB_ITEM));
+
+	    public static final RegistryObject<Item> J_SPIRIT = ITEMS.register("j_spirit",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"j",J_STONE ,JHELMET,JCHESTPLATE,JLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.J_TAB_ITEM));
+	
+	    // ZO
+	    public static final RegistryObject<Item> ZOHELMET = ITEMS.register("zohead",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.ZO_TAB_ITEM));
+	    public static final RegistryObject<Item> ZOCHESTPLATE = ITEMS.register("zotroso",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.ZO_TAB_ITEM));
+	    public static final RegistryObject<Item> ZOLEGGINGS = ITEMS.register("zolegs",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.ZO_TAB_ITEM));
+	    
+	    public static final RegistryObject<Item> ZO_STONE = ITEMS.register("zo_stone",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","zo","_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.J_TAB_ITEM));
+
+	    public static final RegistryObject<Item> ZO_CORE = ITEMS.register("zo_core",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"zo",ZO_STONE ,ZOHELMET,ZOCHESTPLATE,ZOLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.ZO_TAB_ITEM));
+
+	    
 	    
 	    /**
 	    public static final RegistryObject<Item> HELMET = ITEMS.register("head",
