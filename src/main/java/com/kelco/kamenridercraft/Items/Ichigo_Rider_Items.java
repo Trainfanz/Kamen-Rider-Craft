@@ -420,7 +420,7 @@ public class Ichigo_Rider_Items {
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.SHIN_TAB_ITEM));
 	    
 	    public static final RegistryObject<Item> SHIN_STONE = ITEMS.register("shin_stone",
-	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","shin","_belt",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","shin","blank",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
 	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.SHIN_TAB_ITEM));
 
@@ -436,7 +436,7 @@ public class Ichigo_Rider_Items {
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.J_TAB_ITEM));
 
 	    public static final RegistryObject<Item> J_STONE = ITEMS.register("j_stone",
-	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","j","_belt",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","j","blank",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
 	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.J_TAB_ITEM));
 
@@ -452,7 +452,7 @@ public class Ichigo_Rider_Items {
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.ZO_TAB_ITEM));
 	    
 	    public static final RegistryObject<Item> ZO_STONE = ITEMS.register("zo_stone",
-	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","zo","_belt",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","zo","blank",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
 	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.ZO_TAB_ITEM));
 
