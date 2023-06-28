@@ -9,8 +9,7 @@ import com.kelco.kamenridercraft.Items.Modded_item_core;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.ShieldItem;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.Tier;
+
 public class BaseShieldItem extends ShieldItem {
 
 	private Item RepairItem = Modded_item_core.RIDER_CIRCUIT.get();

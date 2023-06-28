@@ -11,20 +11,87 @@ import com.kelco.kamenridercraft.Entities.GODWarfareAgentEntity;
 import com.kelco.kamenridercraft.Entities.MobsCore;
 import com.kelco.kamenridercraft.Entities.RedFollowerEntity;
 import com.kelco.kamenridercraft.Entities.ShockerCombatmanEntity;
+import com.kelco.kamenridercraft.Entities.Villager.RiderVillagers;
 import com.kelco.kamenridercraft.Entities.bosses.ShockerRidersEntity;
+import com.kelco.kamenridercraft.Items.Ichigo_Rider_Items;
+import com.kelco.kamenridercraft.Items.Modded_item_core;
 
+import java.util.List;
+import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.monster.Monster;
+import net.minecraft.world.entity.npc.VillagerProfession;
+import net.minecraft.world.entity.npc.VillagerTrades;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.trading.MerchantOffer;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.event.entity.SpawnPlacementRegisterEvent;
+import net.minecraftforge.event.village.VillagerTradesEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+
 
 @Mod.EventBusSubscriber(modid = KamenRiderCraftCore.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 
 public class ModCommonEvents {
  
+	  @Mod.EventBusSubscriber(modid = KamenRiderCraftCore.MODID)
+	    public static class ForgeEvents {
+	  @SubscribeEvent
+	    public static void addCustomTrades(VillagerTradesEvent event) {
+	       if(event.getType() == VillagerProfession.LIBRARIAN) {
+               Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+               ItemStack stack = new ItemStack(Ichigo_Rider_Items.RIDER3_VS_THE_DEMON_OF_GENERAL_BLACK.get(), 1);
+               int villagerLevel = 1;
+
+               trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                       new ItemStack(Items.EMERALD, 2),
+                       stack,10,8,0.02F));
+           }
+
+	       if(event.getType() == RiderVillagers.SHOCKER_VILLAGER.get()) {
+               Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+               ItemStack stack = new ItemStack(Modded_item_core.SHOCKER_EMBLEM.get(), 1);
+               int villagerLevel = 1;
+
+               trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                       new ItemStack(Items.EMERALD, 2),
+                       stack,10,8,0.02F));
+           }
+	       
+	       if(event.getType() == RiderVillagers.SHOCKER_VILLAGER.get()) {
+               Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+               ItemStack stack = new ItemStack(Ichigo_Rider_Items.J_STONE.get(), 1);
+               int villagerLevel = 1;
+
+               trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                       new ItemStack(Items.EMERALD, 2),
+                       stack,10,8,0.02F));
+           }
+	       
+	       if(event.getType() == RiderVillagers.SHOCKER_VILLAGER.get()) {
+               Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+               ItemStack stack = new ItemStack(Ichigo_Rider_Items.ZO_STONE.get(), 1);
+               int villagerLevel = 1;
+
+               trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                       new ItemStack(Items.EMERALD, 2),
+                       stack,10,8,0.02F));
+           }
+	       
+	       if(event.getType() == RiderVillagers.SHOCKER_VILLAGER.get()) {
+               Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+               ItemStack stack = new ItemStack(Ichigo_Rider_Items.GRASSHOPPER_DNA.get(), 1);
+               int villagerLevel = 1;
+
+               trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                       new ItemStack(Items.EMERALD, 2),
+                       stack,10,8,0.02F));
+           }
+	    }
+	  }
 	  @SubscribeEvent
 	    public static void entitySpawnRestriction(SpawnPlacementRegisterEvent event) {
 	        event.register(MobsCore.SHOCKER_COMBATMAN.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);	      

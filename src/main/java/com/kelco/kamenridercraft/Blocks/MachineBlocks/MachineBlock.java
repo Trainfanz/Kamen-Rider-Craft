@@ -5,7 +5,6 @@ import java.util.List;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.core.BlockPos;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
@@ -26,8 +25,6 @@ public class MachineBlock extends HorizontalDirectionalBlock {
     public MachineBlock(Properties properties) {
         super(properties);
     }
-
-
 
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> p_53681_) {
         p_53681_.add(FACING);

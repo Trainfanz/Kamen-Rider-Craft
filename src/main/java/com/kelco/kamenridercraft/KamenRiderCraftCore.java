@@ -4,6 +4,7 @@ package com.kelco.kamenridercraft;
 import com.kelco.kamenridercraft.Blocks.Rider_Blocks;
 import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Entities.MobsCore;
+import com.kelco.kamenridercraft.Entities.Villager.RiderVillagers;
 import com.kelco.kamenridercraft.Items.Ichigo_Rider_Items;
 import com.kelco.kamenridercraft.Items.Modded_item_core;
 import com.kelco.kamenridercraft.Items.Reboot_Rider_Items;
@@ -17,6 +18,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 
@@ -38,10 +40,18 @@ public class KamenRiderCraftCore {
 		Potion_core.register(modEventBus);
 		Rider_Blocks.register(modEventBus);
 		MinecraftForge.EVENT_BUS.register(this);
+		RiderVillagers.register(modEventBus);
 		modEventBus.addListener(this::addCreative);
+		modEventBus.addListener(this::commonSetup);
 	}
 
 
+	 private void commonSetup(final FMLCommonSetupEvent event) {
+
+	        event.enqueueWork(() -> {
+	            RiderVillagers.registerPOIs();
+	        });
+	    }
 
 	private void addCreative(CreativeModeTabEvent.BuildContents event) {
 

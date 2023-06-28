@@ -23,6 +23,9 @@ public class Rider_Blocks {
 
 	public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, KamenRiderCraftCore.MODID);
 
+	public static final RegistryObject<Block> SHOCKER_MONITOR = registerBlock("shocker_monitor",
+			() -> new BaseFacingBlock(BlockBehaviour.Properties.of(Material.METAL)
+					.lightLevel((glow) -> { return 15; }).strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
 
 
 	public static final RegistryObject<Block> PURE_GAIA_MEMORY_BLOCK = registerBlock("pure_gaia_memory_block",
