@@ -44,7 +44,159 @@ public class Rider_Blocks {
 	public static final RegistryObject<Block> GAIA_MEMORY_REFINER = registerBlock("gaia_memory_refiner",
 			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.METAL)
 					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> COUNTER_95DO = registerBlock("counter_95do",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.WOOD)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> MONITOR = registerBlock("monitor",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.METAL)
+					.lightLevel((glow) -> { return 15; })
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> OVERLORD_OOPART = registerBlock("overlord_oopart",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.METAL)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> OVERLORD_OOPART2 = registerBlock("overlord_oopart2",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.METAL)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
 
+	public static final RegistryObject<Block> PLANKS_BIG_OAK_GOLDEN_TRIM = registerBlock("planks_big_oak_golden_trim",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.WOOD)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> PLANKS_BROWN = registerBlock("planks_brown",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.WOOD)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> PLANKS_DARK_BLUE = registerBlock("planks_dark_blue",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.WOOD)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> PLANKS_LIGHT_BLUE = registerBlock("planks_light_blue",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.WOOD)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> PLANKS_WHITE = registerBlock("planks_white",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.WOOD)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> QUARTZ_BLOCK_GOLD_TRIM = registerBlock("quartz_block_gold_trim",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> SPRUCE_FLOORING = registerBlock("spruce_flooring",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.WOOD)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> STONE_FLOORING = registerBlock("stone_flooring",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> SWORD_OF_LOGOS_BOOKSHELF = registerBlock("sword_of_logos_bookshelf",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.WOOD)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> SWORD_OF_LOGOS_BRICK = registerBlock("sword_of_logos_brick",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> SWORD_OF_LOGOS_GOLD_STAIRS = registerBlock("sword_of_logos_gold_stairs",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.METAL)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> SWORD_OF_LOGOS_GOLD_TRIM = registerBlock("sword_of_logos_gold_trim",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.METAL)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> SWORD_OF_LOGOS_INNER_GOLD_STAIRS = registerBlock("sword_of_logos_inner_gold_stairs",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.METAL)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> SWORD_OF_LOGOS_INNER_STAIRS = registerBlock("sword_of_logos_inner_stairs",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.WOOL)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> SWORD_OF_LOGOS_INNER_WOOD_STAIRS = registerBlock("sword_of_logos_inner_wood_stairs",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.WOOD)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> SWORD_OF_LOGOS_LOGO = registerBlock("sword_of_logos_logo",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.METAL)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> SWORD_OF_LOGOS_OUTER_GOLD_STAIRS = registerBlock("sword_of_logos_outer_gold_stairs",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.METAL)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> SWORD_OF_LOGOS_OUTER_STAIRS = registerBlock("sword_of_logos_outer_stairs",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> SWORD_OF_LOGOS_OUTER_WOOD_STAIRS = registerBlock("sword_of_logos_outer_wood_stair",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.WOOD)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> SWORD_OF_LOGOS_STAIRS = registerBlock("sword_of_logos_stairs",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.WOOD)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> SWORD_OF_LOGOS_SWORD_BLADE = registerBlock("sword_of_logos_sword_blade",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> SWORD_OF_LOGOS_TABEL_INNER_STAIRS = registerBlock("sword_of_logos_tabel_inner_stairs",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> SWORD_OF_LOGOS_TABEL_OUTER_STAIRS = registerBlock("sword_of_logos_tabel_outer_stairs",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> SWORD_OF_LOGOS_TABEL_TOP = registerBlock("sword_of_logos_tabel_top",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> SWORD_OF_LOGOS_WOOD_STAIRS = registerBlock("sword_of_logos_wood_stairs",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.WOOD)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> SWORD_OF_LOGOS_WOOD_TRIM = registerBlock("sword_of_logos_wood_trim",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.WOOD)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));	
+	
+	public static final RegistryObject<Block> SWORD_OF_LOGOS_WOOD = registerBlock("sword_of_logos_wood",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.WOOD)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> SWORD_OF_LOGOS_WOOD2 = registerBlock("sword_of_logos_wood2",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.WOOD)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> TADDLE_BRICK = registerBlock("taddle_brick",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+
+	public static final RegistryObject<Block> TADDLE_WALL = registerBlock("taddle_wall",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.STONE)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> WALLPLATE = registerBlock("wallplate",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.METAL)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> WHITE_WALLPLATE = registerBlock("white_wallplate",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.METAL)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> WOODEN_PANEL = registerBlock("wooden_panel",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.WOOD)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> WOODEN_PANEL2 = registerBlock("wooden_panel2",
+			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.of(Material.WOOD)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
 	
 	private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
 		RegistryObject<T> toReturn = BLOCKS.register(name, block);
