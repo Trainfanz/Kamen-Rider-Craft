@@ -379,6 +379,13 @@ public class Ichigo_Rider_Items {
 		    public static final RegistryObject<SwordItem> BIOBLADE = ITEMS.register("bio_blade",
 		            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
 	    
+		    public static final RegistryObject<SwordItem> SHADOWSABER = ITEMS.register("shadow_saber",
+		            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+	
+		    public static final RegistryObject<SwordItem> SHADOWSABERSHORT = ITEMS.register("shadow_saber_short",
+		            () -> new BaseSwordItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+		    
+		    
 		    
 	    public static final RegistryObject<Item> RXHELMET = ITEMS.register("rxhead",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));

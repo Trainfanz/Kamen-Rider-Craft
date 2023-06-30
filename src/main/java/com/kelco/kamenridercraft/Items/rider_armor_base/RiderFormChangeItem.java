@@ -53,8 +53,8 @@ public class RiderFormChangeItem extends BaseItem {
 	public String getFormName() {
 		return FORM_NAME;
 	}
-
 	
+
 	public String getBeltTex() {
 		return BELT_TEX;
 	}

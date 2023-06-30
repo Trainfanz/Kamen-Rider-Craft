@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kr_zo",
+  "pattern": [
+    "XXX",
+    "XMX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:rider_circuit"
+    },
+    "M": {
+      "item": "kamenridercraft:zo_stone"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:zo_core"
+  }    
+}
