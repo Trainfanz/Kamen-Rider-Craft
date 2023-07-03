@@ -302,9 +302,50 @@
 
 
 
+"block.kamenridercraft.monitor": "Monitor",
 "block.kamenridercraft.pure_gaia_memory_block": "Gaia Memory Block",
 "block.kamenridercraft.gaiamemoryblock": "Gaia Memory Ore",
 "block.kamenridercraft.deepslate_gaiamemoryblock": "Deepslate Gaia Memory Ore",
+"block.kamenridercraft.blue_rose": "Blue Rose",
+"block.kamenridercraft.counter_95do": "95Do Display Counter",
+"block.kamenridercraft.overlord_oopart": "Overlord OOPArt Block",
+"block.kamenridercraft.overlord_oopart2": "Overlord OOPArt Block",
+"block.kamenridercraft.quartz_block_gold_trim": "Gold Trim Quartz Block",
+"block.kamenridercraft.spruce_flooring": "Spruce Flooring",
+"block.kamenridercraft.stone_flooring": "Stone Flooring",
+"block.kamenridercraft.taddle_brick": "Taddle Quest Brick",
+"block.kamenridercraft.taddle_wall": "Taddle Quest Wall",
+"block.kamenridercraft.wallplate": "Wallplate",
+"block.kamenridercraft.white_wallplate": "White Wallplate",
+"block.kamenridercraft.wooden_panel": "Dark Wood Panel Block",
+"block.kamenridercraft.wooden_panel2": "Light Wood Panel Block",
 
-"block.kamenridercraft.gaia_memory_refiner": "Gaia Memory Refiner"
+"block.kamenridercraft.planks_big_oak_golden_trim": "Golden Trim Oak Planks",
+"block.kamenridercraft.planks_brown": "Brown Planks",
+"block.kamenridercraft.planks_dark_blue": "Dark Blue Planks",
+"block.kamenridercraft.planks_light_blue": "Light Blue Planks",
+"block.kamenridercraft.planks_white": "White Planks",
+
+"block.kamenridercraft.sword_of_logos_bookshelf": "Sword of Logos Bookshelf",
+"block.kamenridercraft.sword_of_logos_brick": "Sword of Logos Brick Block",
+"block.kamenridercraft.sword_of_logos_gold_stairs": "Sword of Logos Gold Stairs",
+"block.kamenridercraft.sword_of_logos_gold_trim": "Sword of Logos Gold Trim Block",
+"block.kamenridercraft.sword_of_logos_inner_gold_stairs": "Sword of Logos Inner Gold Stairs",
+"block.kamenridercraft.sword_of_logos_inner_stairs": "Sword of Logos Inner Stairs",
+"block.kamenridercraft.sword_of_logos_inner_wood_stairs": "Sword of Logos Inner Wood Stairs",
+"block.kamenridercraft.sword_of_logos_logo": "Sword of Logos Logo Block",
+"block.kamenridercraft.sword_of_logos_outer_stairs": "Sword of Logos Outer Stairs",
+"block.kamenridercraft.sword_of_logos_outer_gold_stairs": "Sword of Logos Outer Gold Stairs",
+"block.kamenridercraft.sword_of_logos_outer_wood_stairs": "Sword of Logos Outer Wood Stairs",
+"block.kamenridercraft.sword_of_logos_tabel_outer_stairs": "Sword of Logos Table",
+"block.kamenridercraft.sword_of_logos_tabel_inner_stairs": "Sword of Logos Table",
+"block.kamenridercraft.sword_of_logos_tabel_stairs": "Sword of Logos Table",
+"block.kamenridercraft.sword_of_logos_tabel_top": "Sword of Logos Table (Top)",
+"block.kamenridercraft.sword_of_logos_wood_stairs": "Sword of Logos Wood Stairs",
+"block.kamenridercraft.sword_of_logos_wood": "Sword of Logos Dark Wood Block",
+"block.kamenridercraft.sword_of_logos_wood_trim": "Sword of Logos Trimmed Dark Wood Block",
+"block.kamenridercraft.sword_of_logos_wood2": "Sword of Logos Wood Block",
+
+"block.kamenridercraft.gaia_memory_refiner": "Gaia Memory Refiner",
+"block.kamenridercraft.shocker_monitor": "Shocker Monitor"
 }
