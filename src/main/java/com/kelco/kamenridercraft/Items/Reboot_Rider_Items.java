@@ -1,7 +1,10 @@
 package com.kelco.kamenridercraft.Items;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.Blocks.MachineBlocks.AmazonCellExtractor;
+import com.kelco.kamenridercraft.Blocks.MachineBlocks.AmazonCellMutator;
 import com.kelco.kamenridercraft.Effect.Effect_core;
+import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderArmorItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderDriverItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderFormChangeItem;
@@ -41,7 +44,6 @@ public class Reboot_Rider_Items {
 	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false)
 	            		,new MobEffectInstance(MobEffects.BLINDNESS, 40, 0,true,false)).AddToTabList(RiderTabs.AMAZONS_TAB_ITEM));
 	
-	    
 	    public static final RegistryObject<Item> CONDORER_CORE_OMEGA = ITEMS.register("condorer_core_omega",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","amazon_omega","amazons_driver_omega_belt",
 	            		new MobEffectInstance(Effect_core.PUNCH.get(), 40, 3,true,false),new MobEffectInstance(MobEffects.REGENERATION,200, 1,true,false)
@@ -89,9 +91,23 @@ public class Reboot_Rider_Items {
 	    public static final RegistryObject<Item> NEO_AMAZONS_DRIVER_NEO_ALPHA = ITEMS.register("neo_amazons_driver_neo_alpha",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"amazon_neo_alpha",AMAZON_INJECTOR_NEO_ALPHA ,AMAZONSHELMET,AMAZONSCHESTPLATE,AMAZONSLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.AMAZONS_TAB_ITEM));
 
-
+	    public static final RegistryObject<Item> EMPTY_VIAL = ITEMS.register("empty_vial",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZONS_TAB_ITEM));
 	    
-	 
+	    public static final RegistryObject<Item> AMAZON_CELL_VIAL = ITEMS.register("amazon_cell_vial",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZONS_TAB_ITEM).AddToTabList(AmazonCellExtractor.CELL_EXTRACTOR, 5));
+	    
+	    public static final RegistryObject<Item> OMEGA_AMAZON_CELL_VIAL = ITEMS.register("omega_amazon_cell_vial",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZONS_TAB_ITEM).AddToTabList(AmazonCellMutator.AMAZON_CELL, 5));
+	    
+	    public static final RegistryObject<Item> ALPHA_AMAZON_CELL_VIAL = ITEMS.register("alpha_amazon_cell_vial",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZONS_TAB_ITEM).AddToTabList(AmazonCellMutator.AMAZON_CELL, 5));
+
+	    public static final RegistryObject<Item> SIGMA_AMAZON_CELL_VIAL = ITEMS.register("sigma_amazon_cell_vial",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZONS_TAB_ITEM).AddToTabList(AmazonCellMutator.AMAZON_CELL, 2));
+	    
+	    public static final RegistryObject<Item> NEO_AMAZON_CELL_VIAL = ITEMS.register("neo_amazon_cell_vial",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZONS_TAB_ITEM).AddToTabList(AmazonCellMutator.AMAZON_CELL, 1));
 	    
 	    public static void register(IEventBus eventBus) {
 	        ITEMS.register(eventBus);

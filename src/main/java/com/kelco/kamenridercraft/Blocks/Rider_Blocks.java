@@ -3,6 +3,8 @@ package com.kelco.kamenridercraft.Blocks;
 import java.util.function.Supplier;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.Blocks.MachineBlocks.AmazonCellExtractor;
+import com.kelco.kamenridercraft.Blocks.MachineBlocks.AmazonCellMutator;
 import com.kelco.kamenridercraft.Blocks.MachineBlocks.GaiaMemoryRefinerBlock;
 import com.kelco.kamenridercraft.Items.Modded_item_core;
 import com.kelco.kamenridercraft.Items.RiderTabs;
@@ -26,6 +28,14 @@ public class Rider_Blocks {
 	public static final RegistryObject<Block> SHOCKER_MONITOR = registerBlock("shocker_monitor",
 			() -> new BaseFacingBlock(BlockBehaviour.Properties.of(Material.METAL)
 					.lightLevel((glow) -> { return 15; }).strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> AMAZON_CELL_EXTRACTOR = registerBlock("amazon_cell_extractor",
+			() -> new AmazonCellExtractor(BlockBehaviour.Properties.of(Material.METAL)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> AMAZON_CELL_MUTATOR = registerBlock("amazon_cell_mutator",
+			() -> new AmazonCellMutator(BlockBehaviour.Properties.of(Material.METAL)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
 
 
 	public static final RegistryObject<Block> PURE_GAIA_MEMORY_BLOCK = registerBlock("pure_gaia_memory_block",
