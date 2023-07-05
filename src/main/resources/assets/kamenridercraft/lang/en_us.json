@@ -313,6 +313,7 @@
 "block.kamenridercraft.gaiamemoryblock": "Gaia Memory Ore",
 "block.kamenridercraft.deepslate_gaiamemoryblock": "Deepslate Gaia Memory Ore",
 "block.kamenridercraft.blue_rose": "Blue Rose",
+"block.kamenridercraft.potted_blue_rose": "Potted Blue Rose",
 "block.kamenridercraft.counter_95do": "95Do Display Counter",
 "block.kamenridercraft.overlord_oopart": "Overlord OOPArt Block",
 "block.kamenridercraft.overlord_oopart2": "Overlord OOPArt Block",
@@ -353,5 +354,7 @@
 "block.kamenridercraft.sword_of_logos_wood2": "Sword of Logos Wood Block",
 
 "block.kamenridercraft.gaia_memory_refiner": "Gaia Memory Refiner",
-"block.kamenridercraft.shocker_monitor": "Shocker Monitor"
+"block.kamenridercraft.shocker_monitor": "Shocker Monitor",
+"block.kamenridercraft.amazon_cell_extractor": "Amazon Cell Extractor",
+"block.kamenridercraft.amazon_cell_mutator": "Amazon Cell Mutator"
 }

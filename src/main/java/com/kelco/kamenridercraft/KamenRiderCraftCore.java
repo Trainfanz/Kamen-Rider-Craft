@@ -12,6 +12,8 @@ import com.kelco.kamenridercraft.Items.RiderTabs;
 import com.kelco.kamenridercraft.Items.W_Rider_Items;
 import com.kelco.kamenridercraft.Potion.Potion_core;
 
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -49,6 +51,7 @@ public class KamenRiderCraftCore {
 	 private void commonSetup(final FMLCommonSetupEvent event) {
 
 	        event.enqueueWork(() -> {
+	        	((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(Rider_Blocks.BLUE_ROSE.getId(), Rider_Blocks.POTTED_BLUE_ROSE);
 	            RiderVillagers.registerPOIs();
 	        });
 	    }

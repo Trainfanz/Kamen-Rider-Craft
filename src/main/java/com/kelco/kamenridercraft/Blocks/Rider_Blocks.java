@@ -10,6 +10,7 @@ import com.kelco.kamenridercraft.Items.Modded_item_core;
 import com.kelco.kamenridercraft.Items.RiderTabs;
 
 import net.minecraft.util.valueproviders.UniformInt;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -37,6 +38,15 @@ public class Rider_Blocks {
 			() -> new AmazonCellMutator(BlockBehaviour.Properties.of(Material.METAL)
 					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
 
+	
+	public static final RegistryObject<Block> BLUE_ROSE = registerBlock("blue_rose",
+			() -> new FlowerBlock(MobEffects.MOVEMENT_SPEED, 5, 
+					BlockBehavior.Properties.copy(Blocks.DANDELION)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> POTTED_BLUE_ROSE = BLOCKS.register("potted_blue_rose",
+			() -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT). Rider_Blocks.BLUE_ROSE (
+					BlockBehavior.Properties.copy(blocks.DANDELION)));
+	
 
 	public static final RegistryObject<Block> PURE_GAIA_MEMORY_BLOCK = registerBlock("pure_gaia_memory_block",
 			() -> new BaseBlock(BlockBehaviour.Properties.of(Material.STONE)
@@ -219,6 +229,7 @@ public class Rider_Blocks {
 		return  Modded_item_core.ITEMS.register(name, () -> new BlockItem(block.get(),new Item.Properties()));
 	}
 
+	
 
 	public static void register(IEventBus eventBus) {
 		BLOCKS.register(eventBus);
