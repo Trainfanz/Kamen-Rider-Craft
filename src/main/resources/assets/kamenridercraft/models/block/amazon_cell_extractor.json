@@ -3,7 +3,7 @@
     "textures": {
         "particle": "kamenridercraft:block/purifyersides",
         "0": "kamenridercraft:block/amazon_cell_extractor_front",
-        "1": "kamenridercraft:block/amazon_cell_extractor"
+        "1": "kamenridercraft:block/amazon_cell_extractor",
         "2": "kamenridercraft:block/amazon_cell_extractor_top"
     },
     "elements": [

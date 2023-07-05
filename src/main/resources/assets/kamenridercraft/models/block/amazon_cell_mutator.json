@@ -1,10 +1,10 @@
 {
     "parent": "block/orientable",
     "textures": {
-        "particle": "kamenridercraft4th:blocks/purifyersides",
-        "0": "kamenridercraft4th:blocks/amazon_cell_mutator",
-        "1": "kamenridercraft4th:blocks/amazon_cell_mutator",
-        "2": "kamenridercraft4th:blocks/amazon_cell_mutator_top"
+        "particle": "kamenridercraft:block/purifyersides",
+        "0": "kamenridercraft:block/amazon_cell_mutator",
+        "1": "kamenridercraft:block/amazon_cell_mutator",
+        "2": "kamenridercraft:block/amazon_cell_mutator_top"
     },
     "elements": [
         {
