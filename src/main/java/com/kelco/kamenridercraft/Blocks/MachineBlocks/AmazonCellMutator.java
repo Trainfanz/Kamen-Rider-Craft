@@ -49,12 +49,10 @@ public class AmazonCellMutator extends MachineBlock {
 
      private Item getcellDrop (int num) {
  		Random generator = new Random();
- 		if (num==1){
  			int rand = generator.nextInt(AMAZON_CELL.size());
  			return AMAZON_CELL.get(rand);
  		}
-		return null;
- 	}
+ 	
    
     @Override
     public InteractionResult use(BlockState pState, Level pLevel, BlockPos pPos,

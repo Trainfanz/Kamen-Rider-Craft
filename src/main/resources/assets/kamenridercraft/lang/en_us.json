@@ -276,6 +276,12 @@
 "item.kamenridercraft.amazon_injector_new_omega": "Amazon Injector (New Alpha)",
 "item.kamenridercraft.amazon_injector_neo": "Amazon Injector (Neo)",
 
+"item.kamenridercraft.empty_vial": "Empty Vial",
+"item.kamenridercraft.amazon_cell_vial": "Amazon Cell Vial",
+"item.kamenridercraft.alpha_amazon_cell_vial": "Amazon Cell Vial (Alpha)",
+"item.kamenridercraft.omega_amazon_cell_vial": "Amazon Cell Vial (Omega)",
+"item.kamenridercraft.sigma_amazon_cell_vial": "Amazon Cell Vial (Sigma)",
+"item.kamenridercraft.neo_amazon_cell_vial": "Amazon Cell Vial (Neo)",
 
 
 "entity.kamenridercraft.shocker_combatman":"Shocker Combatman",

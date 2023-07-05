@@ -49,13 +49,9 @@ public class AmazonCellExtractor extends MachineBlock {
 
      private Item getvialDrop(int num) {
  		Random generator = new Random();
- 		if (num==1){
  			int rand = generator.nextInt(CELL_EXTRACTOR.size());
  			return CELL_EXTRACTOR.get(rand);
-
  		}
-		return null;
- 	}
    
     @Override
     public InteractionResult use(BlockState pState, Level pLevel, BlockPos pPos,
