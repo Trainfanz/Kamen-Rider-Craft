@@ -429,7 +429,7 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> SHIN_STONE = ITEMS.register("shin_stone",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","shin","blank",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.SHIN_TAB_ITEM));
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.SHIN_TAB_ITEM).KeepItem());
 
 	    public static final RegistryObject<Item> GRASSHOPPER_DNA = ITEMS.register("grasshopper_dna",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"shin",SHIN_STONE ,SHINHELMET,SHINCHESTPLATE,SHINLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.SHIN_TAB_ITEM));
@@ -445,7 +445,7 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> J_STONE = ITEMS.register("j_stone",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","j","blank",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.J_TAB_ITEM));
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.J_TAB_ITEM).KeepItem());
 
 	    public static final RegistryObject<Item> J_SPIRIT = ITEMS.register("j_spirit",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"j",J_STONE ,JHELMET,JCHESTPLATE,JLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.J_TAB_ITEM));
@@ -461,7 +461,7 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> ZO_STONE = ITEMS.register("zo_stone",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","zo","blank",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.ZO_TAB_ITEM));
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.ZO_TAB_ITEM).KeepItem());
 
 	    public static final RegistryObject<Item> ZO_CORE = ITEMS.register("zo_core",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"zo",ZO_STONE ,ZOHELMET,ZOCHESTPLATE,ZOLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.ZO_TAB_ITEM));

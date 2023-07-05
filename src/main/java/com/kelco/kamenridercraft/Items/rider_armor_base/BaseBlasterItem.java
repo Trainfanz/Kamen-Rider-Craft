@@ -39,7 +39,7 @@ public class BaseBlasterItem extends BowItem {
 	private Item RepairItem = Modded_item_core.RIDER_CIRCUIT.get();
 	
 	public BaseBlasterItem(Tier toolTier, int Atk, float Spd, Properties prop) {
-		super(prop);
+		super(prop.defaultDurability(toolTier.getUses()));
 		this.attackDamage = (float)Atk;
 		ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
 		builder.put(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_UUID, "Weapon modifier", (double)this.attackDamage, AttributeModifier.Operation.ADDITION));
