@@ -1,7 +1,7 @@
 {
     "parent": "block/stairs",
     "textures": {
-        "bottom": "block/wool_colored_red",
+        "bottom": "minecraft:block/red_wool",
         "top": "kamenridercraft:block/sword_of_logos_wood",
         "side": "kamenridercraft:block/sword_of_logos_tabel"
     }

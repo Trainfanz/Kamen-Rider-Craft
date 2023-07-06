@@ -51,7 +51,7 @@ public class KamenRiderCraftCore {
 	 private void commonSetup(final FMLCommonSetupEvent event) {
 
 	        event.enqueueWork(() -> {
-	        	((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(Rider_Blocks.BLUE_ROSE.getId(), Rider_Blocks.POTTED_BLUE_ROSE);
+	        	//((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(Rider_Blocks.BLUE_ROSE.getId(), Rider_Blocks.POTTED_BLUE_ROSE);
 	            RiderVillagers.registerPOIs();
 	        });
 	    }
