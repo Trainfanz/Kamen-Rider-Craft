@@ -6,6 +6,7 @@ import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.Blocks.MachineBlocks.AmazonCellExtractor;
 import com.kelco.kamenridercraft.Blocks.MachineBlocks.AmazonCellMutator;
 import com.kelco.kamenridercraft.Blocks.MachineBlocks.GaiaMemoryRefinerBlock;
+import com.kelco.kamenridercraft.Blocks.MachineBlocks.KaijinStoneGenerator;
 import com.kelco.kamenridercraft.Items.Modded_item_core;
 import com.kelco.kamenridercraft.Items.RiderTabs;
 
@@ -37,6 +38,9 @@ public class Rider_Blocks {
 			() -> new AmazonCellMutator(BlockBehaviour.Properties.of(Material.METAL)
 					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
 
+	public static final RegistryObject<Block> KAIJIN_STONE_GENERATOR = registerBlock("kaijin_stone_generator",
+			() -> new KaijinStoneGenerator(BlockBehaviour.Properties.of(Material.METAL)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
 	/**
 	public static final RegistryObject<Block> BLUE_ROSE = registerBlock("blue_rose",
 			() -> new FlowerBlock(MobEffects.MOVEMENT_SPEED, 5, 

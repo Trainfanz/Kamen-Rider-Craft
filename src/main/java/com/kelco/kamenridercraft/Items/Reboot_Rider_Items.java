@@ -3,8 +3,10 @@ package com.kelco.kamenridercraft.Items;
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.Blocks.MachineBlocks.AmazonCellExtractor;
 import com.kelco.kamenridercraft.Blocks.MachineBlocks.AmazonCellMutator;
+import com.kelco.kamenridercraft.Blocks.MachineBlocks.KaijinStoneGenerator;
 import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
+import com.kelco.kamenridercraft.Items.rider_armor_base.BaseSwordItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderArmorItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderDriverItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderFormChangeItem;
@@ -14,6 +16,8 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -108,6 +112,59 @@ public class Reboot_Rider_Items {
 	    
 	    public static final RegistryObject<Item> NEO_AMAZON_CELL_VIAL = ITEMS.register("neo_amazon_cell_vial",
 	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZONS_TAB_ITEM).AddToTabList(AmazonCellMutator.AMAZON_CELL, 1));
+	    
+	    
+	    // BLack Sun
+	    
+	    public static final RegistryObject<Item> BLACKSUNHELMET = ITEMS.register("blacksunhead",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.BLACK_SUN_TAB_ITEM));
+	    public static final RegistryObject<Item> BLACKSUNCHESTPLATE = ITEMS.register("blacksuntroso",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.BLACK_SUN_TAB_ITEM));
+	    public static final RegistryObject<Item> BLACKSUNLEGGINGS = ITEMS.register("blacksunlegs",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.BLACK_SUN_TAB_ITEM));
+	    
+	    public static final RegistryObject<SwordItem> CENTURY_KING_BLACK_BLADE = ITEMS.register("century_king_black_blade",
+	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.BLACK_SUN_TAB_ITEM));
+	    public static final RegistryObject<SwordItem> CENTURY_KING_SHADOW_BLADE = ITEMS.register("century_king_shadow_blade",
+	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.BLACK_SUN_TAB_ITEM));
+	    
+	    public static final RegistryObject<Item> KING_STONE_SUN = ITEMS.register("king_stone_sun",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","black_sun","century_king_sun_driver_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.BLACK_SUN_TAB_ITEM).AddToTabList(KaijinStoneGenerator.KING_STONE, 10));
+
+	    public static final RegistryObject<Item> GLOWING_KING_STONE_SUN = ITEMS.register("glowing_king_stone_sun",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_revived","black_sun","century_king_sun_driver_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.BLACK_SUN_TAB_ITEM).AddToTabList(KaijinStoneGenerator.KING_STONE, 1));
+
+	    public static final RegistryObject<Item> KING_STONE_MOON = ITEMS.register("king_stone_moon",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","shadowmoon","century_king_moon_driver_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false))
+	            .AddToTabList(RiderTabs.BLACK_SUN_TAB_ITEM).AddToTabList(KaijinStoneGenerator.KING_STONE, 5));
+	
+	    public static final RegistryObject<Item> GLOWING_KING_STONE_MOON = ITEMS.register("glowing_king_stone_moon",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","shadowmoon","century_king_moon_driver_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false))
+	            .AddToTabList(RiderTabs.BLACK_SUN_TAB_ITEM).AddToTabList(KaijinStoneGenerator.KING_STONE, 1));
+
+	    
+	    public static final RegistryObject<Item> CENTURY_KING_SUN_DRIVER = ITEMS.register("century_king_sun_driver",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"black_sun",KING_STONE_SUN ,BLACKSUNHELMET,BLACKSUNCHESTPLATE,BLACKSUNLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLACK_SUN_TAB_ITEM));
+
+	    public static final RegistryObject<Item> CENTURY_KING_MOON_DRIVER = ITEMS.register("century_king_moon_driver",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"shadowmoon",KING_STONE_MOON ,BLACKSUNHELMET,BLACKSUNCHESTPLATE,BLACKSUNLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLACK_SUN_TAB_ITEM));
+
+	    public static final RegistryObject<Item> KAIJIN_STONE = ITEMS.register("kaijin_stone",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.BLACK_SUN_TAB_ITEM));
+	    
+	    public static final RegistryObject<Item> CREATION_KING_EXTRACT_VIAL = ITEMS.register("creation_king_extract_vial",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.BLACK_SUN_TAB_ITEM));
+
+	    
+
 	    
 	    public static void register(IEventBus eventBus) {
 	        ITEMS.register(eventBus);

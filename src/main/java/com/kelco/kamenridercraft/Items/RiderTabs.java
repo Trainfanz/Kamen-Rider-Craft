@@ -38,6 +38,7 @@ public class RiderTabs {
     
     public static CreativeModeTab WTab;
     public static CreativeModeTab AMAZONSTab;
+    public static CreativeModeTab BLACKSUNTab;
     
     public static List<Item> ICHIGO_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> V3_TAB_ITEM= new ArrayList<Item>();
@@ -56,6 +57,7 @@ public class RiderTabs {
     public static List<Item> W_TAB_ITEM= new ArrayList<Item>();
 
     public static List<Item> AMAZONS_TAB_ITEM= new ArrayList<Item>();
+    public static List<Item> BLACK_SUN_TAB_ITEM= new ArrayList<Item>();
     
     public static List<Block> RIDER_BLOCK= new ArrayList<Block>();
     
@@ -116,6 +118,10 @@ public class RiderTabs {
     	AMAZONSTab = event.registerCreativeModeTab(new ResourceLocation(KamenRiderCraftCore.MODID, "rider_amazons_tab"),
                 builder-> builder.icon(() -> new ItemStack(Reboot_Rider_Items.AMAZONSHELMET.get())).withBackgroundLocation(new ResourceLocation(KamenRiderCraftCore.MODID+":textures/gui/tab_amazons_items.png")).title(Component.literal("Amazons Rider Items")).build());
  
+      	BLACKSUNTab = event.registerCreativeModeTab(new ResourceLocation(KamenRiderCraftCore.MODID, "rider_black_sun_tab"),
+                builder-> builder.icon(() -> new ItemStack(Reboot_Rider_Items.BLACKSUNHELMET.get())).withBackgroundLocation(new ResourceLocation(KamenRiderCraftCore.MODID+":textures/gui/tab_black_sun_items.png")).title(Component.literal("Black Sun Rider Items")).build());
+
+    	
     	RiderblockTab = event.registerCreativeModeTab(new ResourceLocation(KamenRiderCraftCore.MODID, "rider_blocks_tab"),
                 builder-> builder.icon(() -> new ItemStack(Rider_Blocks.PURE_GAIA_MEMORY_BLOCK.get())).withBackgroundLocation(new ResourceLocation(KamenRiderCraftCore.MODID+":textures/gui/tab_iichigo_items.png")).title(Component.literal("Rider Blocks")).build());
 
@@ -215,6 +221,12 @@ public class RiderTabs {
 			for (int i = 0; i < RiderTabs.AMAZONS_TAB_ITEM.size(); i++)
 			{
 				event.accept( RiderTabs.AMAZONS_TAB_ITEM.get(i));
+			}
+
+		}else if(event.getTab() == RiderTabs.BLACKSUNTab) {
+			for (int i = 0; i < RiderTabs.BLACK_SUN_TAB_ITEM.size(); i++)
+			{
+				event.accept( RiderTabs.BLACK_SUN_TAB_ITEM.get(i));
 			}
 
 		}
