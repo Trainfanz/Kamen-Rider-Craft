@@ -284,6 +284,21 @@
 "item.kamenridercraft.neo_amazon_cell_vial": "Amazon Cell Vial (Neo)",
 
 
+"item.kamenridercraft.blacksunhead": "Black Sun Helmet",
+"item.kamenridercraft.blacksuntorso": "Black Sun Chestplate",
+"item.kamenridercraft.blacksunlegs": "Black Sun Leggings",
+"item.kamenridercraft.king_stone_sun": "Sun Kingstone",
+"item.kamenridercraft.king_stone_moon": "Moon Kingstone",
+"item.kamenridercraft.glowing_king_stone_sun": "Glowing Sun Kingstone",
+"item.kamenridercraft.glowing_king_stone_moon": "Glowing Moon Kingstone",
+"item.kamenridercraft.century_king_sun_driver": "Century King Sun Driver",
+"item.kamenridercraft.century_king_moon_driver": "Century King Moon Driver",
+"item.kamenridercraft.century_king_black_blade": "Century King Black Blade",
+"item.kamenridercraft.century_king_shadow_blade": "Century King Shadow Blade",
+"item.kamenridercraft.kaijin_stone": "Kaijin Stone",
+"item.kamenridercraft.creation_king_extract_vial": "Creation King Extract Vial",
+
+
 "entity.kamenridercraft.shocker_combatman":"Shocker Combatman",
 "entity.kamenridercraft.shocker_riders":"Shocker Rider",
 "entity.kamenridercraft.destron_combatman":"Destron Combatman",

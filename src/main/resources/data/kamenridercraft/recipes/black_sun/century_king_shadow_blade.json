@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "century_king_blade",
+  "pattern": [
+    "XRX",
+    "XMX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:kaijin_stone"
+    },
+    "M": {
+      "item": "kamenridercraft:base_sword"
+    },
+    "R": {
+      "item": "kamenridercraft:king_stone_moon"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:century_king_shadow_blade"
+  }    
+}

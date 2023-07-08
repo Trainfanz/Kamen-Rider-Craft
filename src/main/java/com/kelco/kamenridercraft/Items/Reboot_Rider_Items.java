@@ -158,7 +158,7 @@ public class Reboot_Rider_Items {
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"shadowmoon",KING_STONE_MOON ,BLACKSUNHELMET,BLACKSUNCHESTPLATE,BLACKSUNLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLACK_SUN_TAB_ITEM));
 
 	    public static final RegistryObject<Item> KAIJIN_STONE = ITEMS.register("kaijin_stone",
-	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.BLACK_SUN_TAB_ITEM));
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.BLACK_SUN_TAB_ITEM).AddToTabList(KaijinStoneGenerator.KING_STONE, 20));
 	    
 	    public static final RegistryObject<Item> CREATION_KING_EXTRACT_VIAL = ITEMS.register("creation_king_extract_vial",
 	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.BLACK_SUN_TAB_ITEM));
