@@ -273,7 +273,7 @@
 "item.kamenridercraft.condorer_core_omega": "Condorer Core (Omega)",
 "item.kamenridercraft.condorer_core_sigma": "Condorer Core (Sigma)",
 "item.kamenridercraft.amazon_injector_neo_alpha": "Amazon Injector (Neo Alpha)",
-"item.kamenridercraft.amazon_injector_new_omega": "Amazon Injector (New Alpha)",
+"item.kamenridercraft.amazon_injector_new_omega": "Amazon Injector (New Omega)",
 "item.kamenridercraft.amazon_injector_neo": "Amazon Injector (Neo)",
 
 "item.kamenridercraft.empty_vial": "Empty Vial",
@@ -364,6 +364,8 @@
 "block.kamenridercraft.sword_of_logos_tabel_stairs": "Sword of Logos Table",
 "block.kamenridercraft.sword_of_logos_tabel_top": "Sword of Logos Table (Top)",
 "block.kamenridercraft.sword_of_logos_wood_stairs": "Sword of Logos Wood Stairs",
+"block.kamenridercraft.sword_of_logos_stairs": "Sword of Logos Stairs",
+"block.kamenridercraft.sword_of_logos_sword_blade": "Sword of Logos Sword Blade Block",
 "block.kamenridercraft.sword_of_logos_wood": "Sword of Logos Dark Wood Block",
 "block.kamenridercraft.sword_of_logos_wood_trim": "Sword of Logos Trimmed Dark Wood Block",
 "block.kamenridercraft.sword_of_logos_wood2": "Sword of Logos Wood Block",
@@ -371,5 +373,6 @@
 "block.kamenridercraft.gaia_memory_refiner": "Gaia Memory Refiner",
 "block.kamenridercraft.shocker_monitor": "Shocker Monitor",
 "block.kamenridercraft.amazon_cell_extractor": "Amazon Cell Extractor",
-"block.kamenridercraft.amazon_cell_mutator": "Amazon Cell Mutator"
+"block.kamenridercraft.amazon_cell_mutator": "Amazon Cell Mutator",
+"block.kamenridercraft.kaijin_stone_generator": "Kaijin Stone Generator"
 }

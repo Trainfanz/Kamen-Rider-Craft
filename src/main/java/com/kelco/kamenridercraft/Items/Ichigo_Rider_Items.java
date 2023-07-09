@@ -335,6 +335,9 @@ public class Ichigo_Rider_Items {
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
 	    public static final RegistryObject<Item> BLACKLEGGINGS = ITEMS.register("blacklegs",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
+	    
+	    public static final RegistryObject<SwordItem> SATANSABER = ITEMS.register("satansaber",
+	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
 
 	    public static final RegistryObject<Item> RED_KING_STONE = ITEMS.register("red_king_stone",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","black","vital_charger_belt",
