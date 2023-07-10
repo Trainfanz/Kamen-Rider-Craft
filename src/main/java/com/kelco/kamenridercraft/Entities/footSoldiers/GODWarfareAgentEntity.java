@@ -1,4 +1,4 @@
-package com.kelco.kamenridercraft.Entities;
+package com.kelco.kamenridercraft.Entities.footSoldiers;
 
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
@@ -7,11 +7,11 @@ import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.monster.Zombie;
 import net.minecraft.world.level.Level;
 
-public class RedFollowerEntity extends BaseHenchmenEntity {
+public class GODWarfareAgentEntity extends BaseHenchmenEntity {
 	
-    public RedFollowerEntity(EntityType<? extends Zombie> type, Level level) {
+    public GODWarfareAgentEntity(EntityType<? extends Zombie> type, Level level) {
         super(type, level);
-        NAME="red_follower";
+        NAME="god_warfare_agents";
     }
 
 

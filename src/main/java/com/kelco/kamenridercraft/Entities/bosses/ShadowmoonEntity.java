@@ -2,7 +2,7 @@ package com.kelco.kamenridercraft.Entities.bosses;
 
 import java.util.Random;
 
-import com.kelco.kamenridercraft.Entities.BaseHenchmenEntity;
+import com.kelco.kamenridercraft.Entities.footSoldiers.BaseHenchmenEntity;
 import com.kelco.kamenridercraft.Items.Ichigo_Rider_Items;
 
 import net.minecraft.world.entity.EntityType;

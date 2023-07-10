@@ -1,4 +1,6 @@
-package com.kelco.kamenridercraft.Entities;
+package com.kelco.kamenridercraft.Entities.footSoldiers;
+
+import com.kelco.kamenridercraft.Entities.MobsCore;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;

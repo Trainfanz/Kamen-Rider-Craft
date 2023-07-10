@@ -1,4 +1,4 @@
-package com.kelco.kamenridercraft.Entities;
+package com.kelco.kamenridercraft.Entities.footSoldiers;
 
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;

@@ -1,4 +1,4 @@
-package com.kelco.kamenridercraft.Entities;
+package com.kelco.kamenridercraft.Entities.footSoldiers;
 
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
@@ -7,11 +7,11 @@ import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.monster.Zombie;
 import net.minecraft.world.level.Level;
 
-public class DogmaFighterEntity extends BaseHenchmenEntity {
+public class CombatRoidEntity extends BaseHenchmenEntity {
 	
-    public DogmaFighterEntity(EntityType<? extends Zombie> type, Level level) {
+    public CombatRoidEntity(EntityType<? extends Zombie> type, Level level) {
         super(type, level);
-        NAME="dogma_fighter";
+        NAME="combatroid";
     }
 
 

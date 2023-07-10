@@ -12,8 +12,6 @@ import com.kelco.kamenridercraft.Items.RiderTabs;
 import com.kelco.kamenridercraft.Items.W_Rider_Items;
 import com.kelco.kamenridercraft.Potion.Potion_core;
 
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.eventbus.api.IEventBus;

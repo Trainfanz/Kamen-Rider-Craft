@@ -1,18 +1,18 @@
 package com.kelco.kamenridercraft.events;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
-import com.kelco.kamenridercraft.Entities.AriCommandoEntity;
-import com.kelco.kamenridercraft.Entities.BlackSatanSoldierEntity;
-import com.kelco.kamenridercraft.Entities.ChapEntity;
-import com.kelco.kamenridercraft.Entities.CombatRoidEntity;
-import com.kelco.kamenridercraft.Entities.DestronCombatmanEntity;
-import com.kelco.kamenridercraft.Entities.DogmaFighterEntity;
-import com.kelco.kamenridercraft.Entities.GODWarfareAgentEntity;
 import com.kelco.kamenridercraft.Entities.MobsCore;
-import com.kelco.kamenridercraft.Entities.RedFollowerEntity;
-import com.kelco.kamenridercraft.Entities.ShockerCombatmanEntity;
 import com.kelco.kamenridercraft.Entities.Villager.RiderVillagers;
 import com.kelco.kamenridercraft.Entities.bosses.ShockerRidersEntity;
+import com.kelco.kamenridercraft.Entities.footSoldiers.AriCommandoEntity;
+import com.kelco.kamenridercraft.Entities.footSoldiers.BlackSatanSoldierEntity;
+import com.kelco.kamenridercraft.Entities.footSoldiers.ChapEntity;
+import com.kelco.kamenridercraft.Entities.footSoldiers.CombatRoidEntity;
+import com.kelco.kamenridercraft.Entities.footSoldiers.DestronCombatmanEntity;
+import com.kelco.kamenridercraft.Entities.footSoldiers.DogmaFighterEntity;
+import com.kelco.kamenridercraft.Entities.footSoldiers.GODWarfareAgentEntity;
+import com.kelco.kamenridercraft.Entities.footSoldiers.RedFollowerEntity;
+import com.kelco.kamenridercraft.Entities.footSoldiers.ShockerCombatmanEntity;
 import com.kelco.kamenridercraft.Items.Ichigo_Rider_Items;
 import com.kelco.kamenridercraft.Items.Modded_item_core;
 

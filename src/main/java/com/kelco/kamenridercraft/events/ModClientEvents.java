@@ -1,11 +1,10 @@
 package com.kelco.kamenridercraft.events;
 
 
-
-import com.kelco.kamenridercraft.Entities.MobsCore;
 import com.kelco.kamenridercraft.Items.W_Rider_Items;
 import com.kelco.kamenridercraft.client.renderer.BasicEntityRenderer;
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.Entities.MobsCore;
 
 import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.resources.ResourceLocation;

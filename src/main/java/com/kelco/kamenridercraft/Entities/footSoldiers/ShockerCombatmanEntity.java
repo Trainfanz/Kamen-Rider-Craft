@@ -1,6 +1,8 @@
-package com.kelco.kamenridercraft.Entities;
+package com.kelco.kamenridercraft.Entities.footSoldiers;
 
 import net.minecraft.network.chat.Component;
+
+import com.kelco.kamenridercraft.Entities.MobsCore;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.world.entity.Entity;
@@ -21,7 +23,6 @@ public class ShockerCombatmanEntity extends BaseHenchmenEntity {
 
 
 	}
-
 
 
 	public void remove(Entity.RemovalReason p_149847_) {
