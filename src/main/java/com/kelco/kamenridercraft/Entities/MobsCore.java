@@ -11,6 +11,7 @@ import com.kelco.kamenridercraft.Entities.footSoldiers.CombatRoidEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.DestronCombatmanEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.DogmaFighterEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.GODWarfareAgentEntity;
+import com.kelco.kamenridercraft.Entities.footSoldiers.MasqueradeEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.RedFollowerEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.ShockerCombatmanEntity;
 
@@ -108,10 +109,15 @@ public class MobsCore {
             () -> EntityType.Builder.of(ShadowmoonEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":shadowmoon"));
      
      public static final RegistryObject<ForgeSpawnEggItem> SHADOWMOON_SPAWN_EGG = ITEMS.register("shadowmoon_spawn_egg",
-            () -> new ForgeSpawnEggItem(SHADOWMOON,  000000,0xFFFFFF, new Item.Properties()));
+            () -> new ForgeSpawnEggItem(SHADOWMOON,  0xbabab6,0x00a01c, new Item.Properties()));
      
      
-    
+     public static final RegistryObject<EntityType<MasqueradeEntity>> MASQUERADE = MOBLIST.register("masquerade",
+             () -> EntityType.Builder.of(MasqueradeEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":masquerade"));
+
+     public static final RegistryObject<ForgeSpawnEggItem> MASQUERADE_SPAWN_EGG = ITEMS.register("masquerade_spawn_egg",
+             () -> new ForgeSpawnEggItem(MASQUERADE,  000000,0xFFFFFF, new Item.Properties()));
+      
     
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

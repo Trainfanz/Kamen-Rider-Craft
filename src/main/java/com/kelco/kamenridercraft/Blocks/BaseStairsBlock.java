@@ -11,6 +11,7 @@ public class BaseStairsBlock extends StairBlock {
 	public BaseStairsBlock(BlockState state ,Properties prop) {
 		super(state, prop);
 		
+		
 	}
 
 	public BaseStairsBlock AddToTabList(List<Block> TabList) {

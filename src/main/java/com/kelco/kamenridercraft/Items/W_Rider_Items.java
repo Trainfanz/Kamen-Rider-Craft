@@ -421,6 +421,8 @@ public class W_Rider_Items {
 	public static final RegistryObject<Item> EGG_CHICKEN_MEMORY = ITEMS.register("egg_chicken_memory",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
+	public static final RegistryObject<Item> MASQUERADE_MEMORY = ITEMS.register("masquerade_memory",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
 	
 	public static final RegistryObject<Item> STAG_MEMORY = ITEMS.register("stag_memory",
