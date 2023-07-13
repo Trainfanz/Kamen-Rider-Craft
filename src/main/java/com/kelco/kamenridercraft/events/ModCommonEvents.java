@@ -105,6 +105,7 @@ public class ModCommonEvents {
 	        event.register(MobsCore.CHAP.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
 	    	
 	        event.register(MobsCore.MASQUERADE.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
+	        event.register(MobsCore.FOUNDATION_X_MASQUERADE.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
 	    	
 	  }
 	  
@@ -123,6 +124,7 @@ public class ModCommonEvents {
         event.put(MobsCore.CHAP.get(), ChapEntity.setAttributes());
         event.put(MobsCore.SHADOWMOON.get(), ChapEntity.setAttributes());
         event.put(MobsCore.MASQUERADE.get(), ChapEntity.setAttributes());
+        event.put(MobsCore.FOUNDATION_X_MASQUERADE.get(), ChapEntity.setAttributes());
     }
 
 }

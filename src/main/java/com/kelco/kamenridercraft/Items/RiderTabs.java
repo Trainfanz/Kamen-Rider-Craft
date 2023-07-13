@@ -254,6 +254,7 @@ public class RiderTabs {
 			event.accept(MobsCore.SHADOWMOON_SPAWN_EGG);
 			
 			event.accept(MobsCore.MASQUERADE_SPAWN_EGG);
+			event.accept(MobsCore.FOUNDATION_X_MASQUERADE_SPAWN_EGG);
 			
 			for (int i = 0; i < RiderTabs.Misc_TAB_ITEM.size(); i++)
 			{

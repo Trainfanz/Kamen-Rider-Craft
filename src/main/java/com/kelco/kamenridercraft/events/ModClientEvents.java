@@ -50,6 +50,7 @@ public class ModClientEvents {
         event.registerEntityRenderer(MobsCore.SHADOWMOON.get(), BasicEntityRenderer::new);
         
         event.registerEntityRenderer(MobsCore.MASQUERADE.get(), BasicEntityRenderer::new);
+        event.registerEntityRenderer(MobsCore.FOUNDATION_X_MASQUERADE.get(), BasicEntityRenderer::new);
     }
    
 
