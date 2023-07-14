@@ -127,7 +127,10 @@ public class Reboot_Rider_Items {
 	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.BLACK_SUN_TAB_ITEM));
 	    public static final RegistryObject<SwordItem> CENTURY_KING_SHADOW_BLADE = ITEMS.register("century_king_shadow_blade",
 	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.BLACK_SUN_TAB_ITEM));
-	    
+	    public static final RegistryObject<SwordItem> SATANSABRE = ITEMS.register("satansabre",
+	            () -> new BaseSwordItem(Tiers.DIAMOND, 8, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.BLACK_SUN_TAB_ITEM));
+
+
 	    public static final RegistryObject<Item> KING_STONE_SUN = ITEMS.register("king_stone_sun",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","black_sun","century_king_sun_driver_belt",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)

@@ -232,6 +232,7 @@
 "item.kamenridercraft.yesterday_t2_memory": "Yesterday T2 Memory",
 "item.kamenridercraft.zone_t2_memory": "Zone T2 Memory",
 
+"item.kamenridercraft.masquerade_memory": "Masquerade Memory",
 "item.kamenridercraft.terror_memory": "Terror Memory",
 "item.kamenridercraft.taboo_memory": "Taboo Memory",
 "item.kamenridercraft.claydoll_memory": "Claydoll Memory",
@@ -295,6 +296,7 @@
 "item.kamenridercraft.century_king_moon_driver": "Century King Moon Driver",
 "item.kamenridercraft.century_king_black_blade": "Century King Black Blade",
 "item.kamenridercraft.century_king_shadow_blade": "Century King Shadow Blade",
+"item.kamenridercraft.satansabre": "Satansaber (Black Sun)",
 "item.kamenridercraft.kaijin_stone": "Kaijin Stone",
 "item.kamenridercraft.creation_king_extract_vial": "Creation King Extract Vial",
 
@@ -308,6 +310,12 @@
 "entity.kamenridercraft.ari_commando":"Ari Commandon",
 "entity.kamenridercraft.dogma_fighter":"Dogma Fighter",
 "entity.kamenridercraft.combat_roid":"Combat Roid",
+"item.kamenridercraft.chap": "Chap",
+"item.kamenridercraft.shadowmoon": "Shadow Moon",
+"item.kamenridercraft.masquerade": "Masquerade",
+"item.kamenridercraft.foundation_x_masquerade": "Foundation X Masquerade",
+"item.kamenridercraft.eternal": "Eternal",
+"item.kamenridercraft.commander_dopant": "Commander Dopant",
 
 "item.kamenridercraft.shocker_combatman_spawn_egg": "Shocker Combatman Spawn Egg",
 "item.kamenridercraft.shocker_riders_spawn_egg": "Shocker Rider Spawn Egg",
@@ -320,6 +328,10 @@
 "item.kamenridercraft.combat_roid_spawn_egg": "Combat Roid Spawn Egg",
 "item.kamenridercraft.chap_spawn_egg": "Chap Spawn Egg",
 "item.kamenridercraft.shadowmoon_spawn_egg": "Shadow Moon Spawn Egg",
+"item.kamenridercraft.masquerade_spawn_egg": "Masquerade Spawn Egg",
+"item.kamenridercraft.foundation_x_masquerade_spawn_egg": "Foundation X Masquerade Spawn Egg",
+"item.kamenridercraft.eternal_spawn_egg": "Eternal Spawn Egg",
+"item.kamenridercraft.commander_dopant_spawn_egg": "Commander Dopant Spawn Egg",
 
 
 
