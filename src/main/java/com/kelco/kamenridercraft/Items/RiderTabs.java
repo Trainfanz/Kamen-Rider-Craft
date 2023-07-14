@@ -7,6 +7,12 @@ import java.util.List;
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.Blocks.Rider_Blocks;
 import com.kelco.kamenridercraft.Entities.MobsCore;
+import com.kelco.kamenridercraft.Entities.bosses.ClayDollDopantEntity;
+import com.kelco.kamenridercraft.Entities.bosses.NazcaDopantEntity;
+import com.kelco.kamenridercraft.Entities.bosses.RedNazcaDopantEntity;
+import com.kelco.kamenridercraft.Entities.bosses.SmilodonDopantEntity;
+import com.kelco.kamenridercraft.Entities.bosses.TerrorDopantEntity;
+import com.kelco.kamenridercraft.Entities.bosses.WeatherDopantEntity;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -239,7 +245,7 @@ public class RiderTabs {
 		}
 
 		else if(event.getTab() == RiderTabs.RiderMiscTab) {
-			
+
 			event.accept(MobsCore.SHOCKER_COMBATMAN_SPAWN_EGG);
 			event.accept(MobsCore.SHOCKER_RIDER_SPAWN_EGG);
 			
@@ -254,6 +260,13 @@ public class RiderTabs {
 			event.accept(MobsCore.SHADOWMOON_SPAWN_EGG);
 			
 			event.accept(MobsCore.MASQUERADE_SPAWN_EGG);
+			event.accept(MobsCore.CLAYDOLL_DOPANT_SPAWN_EGG);
+			event.accept(MobsCore.TERROR_DOPANT_SPAWN_EGG);
+			event.accept(MobsCore.NASCA_DOPANT_SPAWN_EGG);
+			event.accept(MobsCore.RED_NASCA_DOPANT_SPAWN_EGG);
+			event.accept(MobsCore.SMILODON_DOPANT_SPAWN_EGG);
+			event.accept(MobsCore.WEATHER_DOPANT_SPAWN_EGG);
+
 			event.accept(MobsCore.FOUNDATION_X_MASQUERADE_SPAWN_EGG);
 			event.accept(MobsCore.COMMANDER_DOPANT_SPAWN_EGG);
 			event.accept(MobsCore.ETERNAL_SPAWN_EGG);

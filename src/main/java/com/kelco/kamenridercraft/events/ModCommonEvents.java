@@ -3,10 +3,16 @@ package com.kelco.kamenridercraft.events;
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.Entities.MobsCore;
 import com.kelco.kamenridercraft.Entities.Villager.RiderVillagers;
+import com.kelco.kamenridercraft.Entities.bosses.ClayDollDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.CommanderDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.EternalEntity;
+import com.kelco.kamenridercraft.Entities.bosses.NazcaDopantEntity;
+import com.kelco.kamenridercraft.Entities.bosses.RedNazcaDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ShadowmoonEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ShockerRidersEntity;
+import com.kelco.kamenridercraft.Entities.bosses.SmilodonDopantEntity;
+import com.kelco.kamenridercraft.Entities.bosses.TerrorDopantEntity;
+import com.kelco.kamenridercraft.Entities.bosses.WeatherDopantEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.AriCommandoEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.BlackSatanSoldierEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.ChapEntity;
@@ -20,6 +26,7 @@ import com.kelco.kamenridercraft.Entities.footSoldiers.RedFollowerEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.ShockerCombatmanEntity;
 import com.kelco.kamenridercraft.Items.Ichigo_Rider_Items;
 import com.kelco.kamenridercraft.Items.Modded_item_core;
+import com.kelco.kamenridercraft.client.renderer.BasicEntityRenderer;
 
 import java.util.List;
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
@@ -130,6 +137,13 @@ public class ModCommonEvents {
         event.put(MobsCore.SHADOWMOON.get(), ShadowmoonEntity.setAttributes());
         
         event.put(MobsCore.MASQUERADE.get(), MasqueradeEntity.setAttributes());
+        event.put(MobsCore.CLAYDOLL_DOPANT.get(), ClayDollDopantEntity.setAttributes());        
+        event.put(MobsCore.TERROR_DOPANT.get(), TerrorDopantEntity.setAttributes());        
+        event.put(MobsCore.NASCA_DOPANT.get(), NazcaDopantEntity.setAttributes());        
+        event.put(MobsCore.RED_NASCA_DOPANT.get(),RedNazcaDopantEntity.setAttributes());        
+        event.put(MobsCore.SMILODON_DOPANT.get(), SmilodonDopantEntity.setAttributes());        
+        event.put(MobsCore.WEATHER_DOPANT.get(), WeatherDopantEntity.setAttributes());
+        
         event.put(MobsCore.FOUNDATION_X_MASQUERADE.get(), FoundationXMasqueradeEntity.setAttributes());
         event.put(MobsCore.COMMANDER_DOPANT.get(), CommanderDopantEntity.setAttributes());
         event.put(MobsCore.ETERNAL.get(), EternalEntity.setAttributes());
