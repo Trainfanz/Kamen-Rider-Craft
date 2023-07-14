@@ -2,6 +2,8 @@ package com.kelco.kamenridercraft.Entities;
 
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.Entities.bosses.CommanderDopantEntity;
+import com.kelco.kamenridercraft.Entities.bosses.EternalEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ShadowmoonEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ShockerRidersEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.AriCommandoEntity;
@@ -163,12 +165,6 @@ public class MobsCore {
           public static final RegistryObject<ForgeSpawnEggItem> SMILODON_DOPANT_SPAWN_EGG = ITEMS.register("smilodon_dopant_spawn_egg",
                   () -> new ForgeSpawnEggItem(SMILODON_DOPANT_MASQUERADE, 0xc7b372,0x727272, new Item.Properties()));
 
-          public static final RegistryObject<EntityType<CommanderDopantEntity>> COMMANDER_DOPANT = MOBLIST.register("commander_dopant",
-                  () -> EntityType.Builder.of(CommanderDopantEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":commander_dopant"));
-
-           public static final RegistryObject<ForgeSpawnEggItem> COMMANDER_DOPANT_SPAWN_EGG = ITEMS.register("commander_dopant_spawn_egg",
-                   () -> new ForgeSpawnEggItem(COMMANDER_DOPANT_MASQUERADE, 0xc7b372,0x727272, new Item.Properties()));
-
            public static final RegistryObject<EntityType<TerrorDopantEntity>> TERROR_DOPANT = MOBLIST.register("terror_dopant",
                    () -> EntityType.Builder.of(TerrorDopantEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":terror_dopant"));
 
@@ -176,7 +172,18 @@ public class MobsCore {
                     () -> new ForgeSpawnEggItem(TERROR_DOPANT_MASQUERADE, 0x161616,0x0092BB, new Item.Properties()));
 
 **/
+     public static final RegistryObject<EntityType<CommanderDopantEntity>> COMMANDER_DOPANT = MOBLIST.register("commander_dopant",
+             () -> EntityType.Builder.of(CommanderDopantEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":commander_dopant"));
 
+      public static final RegistryObject<ForgeSpawnEggItem> COMMANDER_DOPANT_SPAWN_EGG = ITEMS.register("commander_dopant_spawn_egg",
+              () -> new ForgeSpawnEggItem(COMMANDER_DOPANT, 0xc7b372,0x727272, new Item.Properties()));
+
+     
+     public static final RegistryObject<EntityType<EternalEntity>> ETERNAL = MOBLIST.register("eternal_mob",
+             () -> EntityType.Builder.of(EternalEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":eternal_mob"));
+
+      public static final RegistryObject<ForgeSpawnEggItem> ETERNAL_SPAWN_EGG = ITEMS.register("eternal_spawn_egg",
+              () -> new ForgeSpawnEggItem(ETERNAL, 0xffe892, 0xFFFFFF, new Item.Properties()));
 
      //Eternal 0xffe892, 0xFFFFFF
     

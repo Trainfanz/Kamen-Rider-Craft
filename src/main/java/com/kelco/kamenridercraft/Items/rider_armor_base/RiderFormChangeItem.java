@@ -84,7 +84,6 @@ public class RiderFormChangeItem extends BaseItem {
 	}
 
 
-
 	public InteractionResultHolder<ItemStack> use(Level p_41128_, Player p_41129_, InteractionHand p_41130_) {
 
 		ItemStack itemstack = p_41129_.getItemInHand(p_41130_);
@@ -154,26 +153,6 @@ public class RiderFormChangeItem extends BaseItem {
 		return this;
 	}
 
-
-
-
-
-	public  RiderFormChangeItem keep_item()
-	{
-		this.setContainerItem(this);
-		getContainerItem();
-		return this;
-	}
-
-
-	public RiderFormChangeItem AddToList(List<Item> list,int num)
-	{
-		for (int i1 = 0; i1 < num; ++i1)
-		{
-			list.add(this);
-		}
-		return this;
-	}
 
 
  **/

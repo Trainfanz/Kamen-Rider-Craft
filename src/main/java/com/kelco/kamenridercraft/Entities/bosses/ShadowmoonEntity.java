@@ -22,10 +22,11 @@ public class ShadowmoonEntity extends BaseHenchmenEntity {
 	
     public ShadowmoonEntity(EntityType<? extends Zombie> type, Level level) {
         super(type, level);
-        NAME="shadowmoon";
+        NAME="shadow_moon";
         this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(Ichigo_Rider_Items.BLACKHELMET.get()));
         this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(Ichigo_Rider_Items.BLACKCHESTPLATE.get()));
         this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(Ichigo_Rider_Items.BLACKLEGGINGS.get()));
+        this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(Ichigo_Rider_Items.SATANSABER.get()));
         Random generator = new Random();
 		int rand = generator.nextInt(belt.length);
 	
@@ -37,9 +38,9 @@ public class ShadowmoonEntity extends BaseHenchmenEntity {
     public static AttributeSupplier setAttributes() {
 
         return Monster.createMonsterAttributes()
-        		.add(Attributes.FOLLOW_RANGE, 35.0D)
+        		.add(Attributes.FOLLOW_RANGE, 135.0D)
         		.add(Attributes.MOVEMENT_SPEED,(double)0.23F)
-        		.add(Attributes.ATTACK_DAMAGE, 4.0D)
+        		.add(Attributes.ATTACK_DAMAGE, 6.0D)
         		.add(Attributes.ARMOR, 3.0D)
         		.add(Attributes.MAX_HEALTH, 45.0D)
         		.add(Attributes.SPAWN_REINFORCEMENTS_CHANCE)
