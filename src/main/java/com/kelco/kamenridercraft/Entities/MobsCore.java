@@ -15,6 +15,7 @@ import com.kelco.kamenridercraft.Entities.bosses.WeatherDopantEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.AriCommandoEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.BlackSatanSoldierEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.ChapEntity;
+import com.kelco.kamenridercraft.Entities.footSoldiers.ChapGreyEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.CombatRoidEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.DestronCombatmanEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.DogmaFighterEntity;
@@ -119,6 +120,12 @@ public class MobsCore {
      
      public static final RegistryObject<ForgeSpawnEggItem> SHADOWMOON_SPAWN_EGG = ITEMS.register("shadowmoon_spawn_egg",
             () -> new ForgeSpawnEggItem(SHADOWMOON,  0xbabab6,0x00a01c, new Item.Properties()));
+     
+     public static final RegistryObject<EntityType<ChapGreyEntity>> CHAP_GREY = MOBLIST.register("chap_grey",
+             () -> EntityType.Builder.of(ChapGreyEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":chap_grey"));
+      
+      public static final RegistryObject<ForgeSpawnEggItem> CHAP_GREY_SPAWN_EGG = ITEMS.register("chap_grey_spawn_egg",
+             () -> new ForgeSpawnEggItem(CHAP_GREY,  0x919191,0xFFFFFF, new Item.Properties()));
      
      
      

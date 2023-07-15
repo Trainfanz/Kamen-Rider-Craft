@@ -257,6 +257,7 @@ public class RiderTabs {
 			event.accept(MobsCore.DOGMA_FIGHTER_SPAWN_EGG);
 			event.accept(MobsCore.COMBAT_ROID_SPAWN_EGG);
 			event.accept(MobsCore.CHAP_SPAWN_EGG);
+			event.accept(MobsCore.CHAP_GREY_SPAWN_EGG);
 			event.accept(MobsCore.SHADOWMOON_SPAWN_EGG);
 			
 			event.accept(MobsCore.MASQUERADE_SPAWN_EGG);
