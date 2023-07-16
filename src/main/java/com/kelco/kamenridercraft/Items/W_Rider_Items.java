@@ -413,7 +413,7 @@ public class W_Rider_Items {
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
 	public static final RegistryObject<Item> COMMANDER_MEMORY_ENHANCING_ADAPTER = ITEMS.register("commander_memory_enhancing_adapter",
-			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).KeepDifItem(COMMANDER_MEMORY.get()));
 
 	public static final RegistryObject<Item> MEMORY_MEMORY = ITEMS.register("memory_memory",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));

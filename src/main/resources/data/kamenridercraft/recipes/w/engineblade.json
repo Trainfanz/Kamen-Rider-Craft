@@ -10,12 +10,12 @@
     "X": {
       "item": "kamenridercraft:gaiamemory"
     }, "C": {
-      "item": "kamenridercraft:enigne_memory"
+      "item": "kamenridercraft:engine_memory"
     }, "Z": {
       "item": "kamenridercraft:base_sword"
     }
   },
   "result": {
-    "item": "kamenridercraft:engineblade"
+    "item": "kamenridercraft:engine_blade"
   }
 }

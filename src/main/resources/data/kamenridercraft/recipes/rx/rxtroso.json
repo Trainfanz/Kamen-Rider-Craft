@@ -4,13 +4,13 @@
   "ingredients": [
 {
     
-      "item": "kamenridercraft:blacktroso"
+      "item": "kamenridercraft:blacktorso"
     }, 
     {
       "item": "kamenridercraft:split_king_stone"
     } 
     ],
   "result": {
-    "item": "kamenridercraft:rxtorso"
+    "item": "kamenridercraft:rxtroso"
   }
 }

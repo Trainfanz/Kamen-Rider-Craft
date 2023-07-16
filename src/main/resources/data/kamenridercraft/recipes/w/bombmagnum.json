@@ -10,12 +10,12 @@
     "X": {
       "item": "kamenridercraft:gaiamemory"
     }, "C": {
-      "item": "kamenridercraft:metal_memory"
+      "item": "kamenridercraft:bomb_memory"
     }, "Z": {
       "item": "kamenridercraft:base_sword"
     }
   },
   "result": {
-    "item": "kamenridercraft:metal_shaft"
+    "item": "kamenridercraft:bomb_magnum"
   }
 }

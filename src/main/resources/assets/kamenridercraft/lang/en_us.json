@@ -107,7 +107,7 @@
 "item.kamenridercraft.amaterasu_belt": "Amaterasu Belt",
 
 "item.kamenridercraft.blackhead": "Black Helmet",
-"item.kamenridercraft.blacktorso": "Black Chestplate",
+"item.kamenridercraft.blacktroso": "Black Chestplate",
 "item.kamenridercraft.blacklegs": "Black Leggings",
 "item.kamenridercraft.red_king_stone": "Red King Stone",
 "item.kamenridercraft.vital_charger": "Vital Charger",
@@ -120,12 +120,13 @@
 "item.kamenridercraft.batta_man_king_stone": "Batta Man King Stone",
 
 "item.kamenridercraft.rxhead": "Black RX Helmet",
-"item.kamenridercraft.rxtorso": "Black RX Chestplate",
+"item.kamenridercraft.rxtroso": "Black RX Chestplate",
 "item.kamenridercraft.rxlegs": "Black RX Leggings",
 "item.kamenridercraft.split_king_stone": "Split King Stone",
 "item.kamenridercraft.sun_riser": "Sun Riser",
 "item.kamenridercraft.revolcane": "Revolcane",
 "item.kamenridercraft.vortech_shooter": "Vortech shooter",
+"item.kamenridercraft.shadow_saber": "Shadow Saber",
 "item.kamenridercraft.bio_blade": "Bio Blade",
 "item.kamenridercraft.rx_core": "Black RX Core",
 "item.kamenridercraft.robo_core": "Roborider Core",
@@ -134,19 +135,19 @@
 "item.kamenridercraft.shadow_blade_short": "Shadow Blade (short)",
 
 "item.kamenridercraft.shinhead": "Shin Helmet",
-"item.kamenridercraft.shintorso": "Shin Chestplate",
+"item.kamenridercraft.shintroso": "Shin Chestplate",
 "item.kamenridercraft.shinlegs": "Shin Leggings",
 "item.kamenridercraft.shin_stone": "Shin Stone",
 "item.kamenridercraft.grasshopper_dna": "Grasshopper DNA",
 
 "item.kamenridercraft.zohead": "ZO Helmet",
-"item.kamenridercraft.zotorso": "ZO Chestplate",
+"item.kamenridercraft.zotroso": "ZO Chestplate",
 "item.kamenridercraft.zolegs": "ZO Leggings",
 "item.kamenridercraft.zo_stone": "ZO Stone",
 "item.kamenridercraft.zo_core": "ZO Core",
 
 "item.kamenridercraft.jhead": "J Helmet",
-"item.kamenridercraft.jtorso": "J Chestplate",
+"item.kamenridercraft.jtroso": "J Chestplate",
 "item.kamenridercraft.jlegs": "J Leggings",
 "item.kamenridercraft.j_stone": "J Stone",
 "item.kamenridercraft.j_spirit": "J Spirit",
@@ -286,7 +287,7 @@
 
 
 "item.kamenridercraft.blacksunhead": "Black Sun Helmet",
-"item.kamenridercraft.blacksuntorso": "Black Sun Chestplate",
+"item.kamenridercraft.blacksuntroso": "Black Sun Chestplate",
 "item.kamenridercraft.blacksunlegs": "Black Sun Leggings",
 "item.kamenridercraft.king_stone_sun": "Sun Kingstone",
 "item.kamenridercraft.king_stone_moon": "Moon Kingstone",
@@ -300,6 +301,7 @@
 "item.kamenridercraft.kaijin_stone": "Kaijin Stone",
 "item.kamenridercraft.creation_king_extract_vial": "Creation King Extract Vial",
 
+"item.kamenridercraft.cyclonehopper": "Cyclonehopper Card Warrior Card",
 
 "entity.kamenridercraft.shocker_combatman":"Shocker Combatman",
 "entity.kamenridercraft.shocker_riders":"Shocker Rider",

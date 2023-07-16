@@ -143,7 +143,7 @@ public class ModCommonEvents {
         event.put(MobsCore.CLAYDOLL_DOPANT.get(), ClayDollDopantEntity.setAttributes());        
         event.put(MobsCore.TERROR_DOPANT.get(), TerrorDopantEntity.setAttributes());        
         event.put(MobsCore.NASCA_DOPANT.get(), NazcaDopantEntity.setAttributes());        
-        event.put(MobsCore.RED_NASCA_DOPANT.get(),RedNazcaDopantEntity.setAttributes());        
+       // event.put(MobsCore.RED_NASCA_DOPANT.get(),RedNazcaDopantEntity.setAttributes());        
         event.put(MobsCore.SMILODON_DOPANT.get(), SmilodonDopantEntity.setAttributes());        
         event.put(MobsCore.WEATHER_DOPANT.get(), WeatherDopantEntity.setAttributes());
         

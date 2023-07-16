@@ -17,7 +17,10 @@ public class BaseItem extends Item {
 	
 	}
 
-
+	public BaseItem KeepDifItem(Item Dif) {
+		craftingRemainingItem=Dif;
+		return this;
+	}
 	
 	public BaseItem KeepItem() {
 		craftingRemainingItem=this;
