@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-@Mod.EventBusSubscriber(modid = KamenRiderCraftCore.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
+@Mod.EventBusSubscriber(modid = KamenRiderCraftCore.MODID)
 
 public class VillageAddition {
 
@@ -80,7 +80,7 @@ public class VillageAddition {
         // Note, the resourcelocation is getting the pool files from the data folder. Not assets folder.
         addBuildingToPool(templatePoolRegistry, processorListRegistry,
                 new ResourceLocation("minecraft:village/plains/houses"),
-                "kamenridercraft:shocker_hideout", 250);
+                "kamenridercraft:shocker_hideout", 1000);
 
         //addBuildingToPool(templatePoolRegistry, processorListRegistry,
         //        new ResourceLocation("minecraft:village/snowy/houses"),
