@@ -13,6 +13,7 @@ import com.kelco.kamenridercraft.Items.rider_armor_base.RiderFormChangeItem;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.food.Foods;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Item;
@@ -96,22 +97,22 @@ public class Reboot_Rider_Items {
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"amazon_neo_alpha",AMAZON_INJECTOR_NEO_ALPHA ,AMAZONSHELMET,AMAZONSCHESTPLATE,AMAZONSLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.AMAZONS_TAB_ITEM));
 
 	    public static final RegistryObject<Item> EMPTY_VIAL = ITEMS.register("empty_vial",
-	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZONS_TAB_ITEM));
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.Misc_TAB_ITEM));
 	    
 	    public static final RegistryObject<Item> AMAZON_CELL_VIAL = ITEMS.register("amazon_cell_vial",
-	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZONS_TAB_ITEM).AddToTabList(AmazonCellExtractor.CELL_EXTRACTOR, 5));
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZONS_TAB_ITEM).AddToTabList(AmazonCellExtractor.CELL_EXTRACTOR, 5).KeepDifItem(EMPTY_VIAL.get()));
 	    
 	    public static final RegistryObject<Item> OMEGA_AMAZON_CELL_VIAL = ITEMS.register("omega_amazon_cell_vial",
-	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZONS_TAB_ITEM).AddToTabList(AmazonCellMutator.AMAZON_CELL, 5));
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZONS_TAB_ITEM).AddToTabList(AmazonCellMutator.AMAZON_CELL, 5).KeepDifItem(EMPTY_VIAL.get()));
 	    
 	    public static final RegistryObject<Item> ALPHA_AMAZON_CELL_VIAL = ITEMS.register("alpha_amazon_cell_vial",
-	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZONS_TAB_ITEM).AddToTabList(AmazonCellMutator.AMAZON_CELL, 5));
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZONS_TAB_ITEM).AddToTabList(AmazonCellMutator.AMAZON_CELL, 5).KeepDifItem(EMPTY_VIAL.get()));
 
 	    public static final RegistryObject<Item> SIGMA_AMAZON_CELL_VIAL = ITEMS.register("sigma_amazon_cell_vial",
-	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZONS_TAB_ITEM).AddToTabList(AmazonCellMutator.AMAZON_CELL, 2));
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZONS_TAB_ITEM).AddToTabList(AmazonCellMutator.AMAZON_CELL, 2).KeepDifItem(EMPTY_VIAL.get()));
 	    
 	    public static final RegistryObject<Item> NEO_AMAZON_CELL_VIAL = ITEMS.register("neo_amazon_cell_vial",
-	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZONS_TAB_ITEM).AddToTabList(AmazonCellMutator.AMAZON_CELL, 1));
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZONS_TAB_ITEM).AddToTabList(AmazonCellMutator.AMAZON_CELL, 1).KeepDifItem(EMPTY_VIAL.get()));
 	    
 	    
 	    // BLack Sun
@@ -163,8 +164,12 @@ public class Reboot_Rider_Items {
 	    public static final RegistryObject<Item> KAIJIN_STONE = ITEMS.register("kaijin_stone",
 	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.BLACK_SUN_TAB_ITEM).AddToTabList(KaijinStoneGenerator.KING_STONE, 20));
 	    
-	    public static final RegistryObject<Item> CREATION_KING_EXTRACT_VIAL = ITEMS.register("creation_king_extract_vial",
-	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.BLACK_SUN_TAB_ITEM));
+	    public static final RegistryObject<Item> CREATION_KING_EXTRACT_VIAL = ITEMS.register("creation_king_extract_vial",	
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.BLACK_SUN_TAB_ITEM).KeepDifItem(EMPTY_VIAL.get()));
+	    
+		public static final RegistryObject<Item> HEAT_HEAVEN = ITEMS.register("heat_heaven",
+				() -> new BaseItem(new Item.Properties().food(Foods.CARROT)).AddToTabList(RiderTabs.BLACK_SUN_TAB_ITEM));
+
 
 	    
 

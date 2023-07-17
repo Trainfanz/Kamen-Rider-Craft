@@ -56,15 +56,15 @@ public class VillageAddition {
         // Weight is handled by how many times the entry appears in this list.
         // We do not need to worry about immutability as this field is created using Lists.newArrayList(); which makes a mutable list.
         for (int i = 0; i < weight; i++) {
-            pool.templates.add(piece);
+  //          pool.templates.add(piece);
         }
 
         // Use AccessTransformer or Accessor Mixin to make StructureTemplatePool's rawTemplates field public for us to see.
         // This list of pairs of pieces and weights is not used by vanilla by default but another mod may need it for efficiency.
         // So lets add to this list for completeness. We need to make a copy of the array as it can be an immutable list.
-        List<Pair<StructurePoolElement, Integer>> listOfPieceEntries = new ArrayList<>(pool.rawTemplates);
-        listOfPieceEntries.add(new Pair<>(piece, weight));
-        pool.rawTemplates = listOfPieceEntries;
+   //   List<Pair<StructurePoolElement, Integer>> listOfPieceEntries = new ArrayList<>(pool.rawTemplates);
+   //     listOfPieceEntries.add(new Pair<>(piece, weight));
+   //     pool.rawTemplates = listOfPieceEntries;
     }
 
     /**
