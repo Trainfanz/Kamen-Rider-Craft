@@ -319,6 +319,12 @@
 "item.kamenridercraft.foundation_x_masquerade": "Foundation X Masquerade",
 "item.kamenridercraft.eternal": "Eternal",
 "item.kamenridercraft.commander_dopant": "Commander Dopant",
+"item.kamenridercraft.nazca_dopant": "Nazca Dopant",
+"item.kamenridercraft.red_nazca_dopant": "Red Nazca Dopant",
+"item.kamenridercraft.claydoll_dopant": "Claydoll Dopant",
+"item.kamenridercraft.taboo_dopant": "Taboo Dopant",
+"item.kamenridercraft.smilodon_dopant": "Smilodon Dopant",
+"item.kamenridercraft.terror_dopant": "Terror Dopant",
 
 "item.kamenridercraft.shocker_combatman_spawn_egg": "Shocker Combatman Spawn Egg",
 "item.kamenridercraft.shocker_riders_spawn_egg": "Shocker Rider Spawn Egg",
@@ -335,8 +341,12 @@
 "item.kamenridercraft.foundation_x_masquerade_spawn_egg": "Foundation X Masquerade Spawn Egg",
 "item.kamenridercraft.eternal_spawn_egg": "Eternal Spawn Egg",
 "item.kamenridercraft.commander_dopant_spawn_egg": "Commander Dopant Spawn Egg",
-
-
+"item.kamenridercraft.nazca_dopant_spawn_egg": "Nazca Dopant Spawn Egg",
+"item.kamenridercraft.red_nazca_dopant_spawn_egg": "Red Nazca Dopant Spawn Egg",
+"item.kamenridercraft.claydoll_dopant_spawn_egg": "Claydoll Dopant Spawn Egg",
+"item.kamenridercraft.taboo_dopant_spawn_egg": "Taboo Dopant Spawn Egg",
+"item.kamenridercraft.smilodon_dopant_spawn_egg": "Smilodon Dopant Spawn Egg",
+"item.kamenridercraft.terror_dopant_spawn_egg": "Terror Dopant Spawn Egg",
 
 "block.kamenridercraft.monitor": "Monitor",
 "block.kamenridercraft.pure_gaia_memory_block": "Gaia Memory Block",

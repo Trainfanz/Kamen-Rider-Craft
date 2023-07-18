@@ -62,6 +62,7 @@ public class KaijinStoneGenerator extends MachineBlock {
             if (pPlayer.getItemInHand(pHand).getItem() == Reboot_Rider_Items.CREATION_KING_EXTRACT_VIAL.get()) process(pPlayer, pLevel, pPos, pHand, getvialDrop(0));
             return  InteractionResult.sidedSuccess(true);
         }
+        
         return InteractionResult.sidedSuccess(false);
     }
 
