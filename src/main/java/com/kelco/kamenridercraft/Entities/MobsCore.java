@@ -198,7 +198,7 @@ public class MobsCore {
              () -> EntityType.Builder.of(EternalEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":eternal_mob"));
 
       public static final RegistryObject<ForgeSpawnEggItem> ETERNAL_SPAWN_EGG = ITEMS.register("eternal_spawn_egg",
-              () -> new ForgeSpawnEggItem(ETERNAL, 0xffe892, 0xFFFFFF, new Item.Properties()));
+              () -> new ForgeSpawnEggItem(ETERNAL, 0xFFFFFF, 0x0092BB, new Item.Properties()));
 
      //Eternal 0xffe892, 0xFFFFFF
     
