@@ -337,6 +337,7 @@
 "item.kamenridercraft.combat_roid_spawn_egg": "Combat Roid Spawn Egg",
 "item.kamenridercraft.chap_spawn_egg": "Chap Spawn Egg",
 "item.kamenridercraft.shadowmoon_spawn_egg": "Shadow Moon Spawn Egg",
+"item.kamenridercraft.chap_grey_spawn_egg": "Grey Chap Spawn Egg",
 "item.kamenridercraft.masquerade_spawn_egg": "Masquerade Spawn Egg",
 "item.kamenridercraft.foundation_x_masquerade_spawn_egg": "Foundation X Masquerade Spawn Egg",
 "item.kamenridercraft.eternal_spawn_egg": "Eternal Spawn Egg",
@@ -347,6 +348,7 @@
 "item.kamenridercraft.taboo_dopant_spawn_egg": "Taboo Dopant Spawn Egg",
 "item.kamenridercraft.smilodon_dopant_spawn_egg": "Smilodon Dopant Spawn Egg",
 "item.kamenridercraft.terror_dopant_spawn_egg": "Terror Dopant Spawn Egg",
+"item.kamenridercraft.weather_dopant_spawn_egg": "Weather Dopant Spawn Egg",
 
 "block.kamenridercraft.monitor": "Monitor",
 "block.kamenridercraft.pure_gaia_memory_block": "Gaia Memory Block",

@@ -65,7 +65,12 @@ public class KaijinStoneGenerator extends MachineBlock {
         
         return InteractionResult.sidedSuccess(false);
     }
-
+    
+    public void process(Player player, Level world, BlockPos pos, InteractionHand hand, Item... items) {
+        // world.playSound((double)pos.getX() + 0.5D, (double)pos.getY(), (double)pos.getZ() + 0.5D, SoundEvents.BLOCK_NOTE_BELL, SoundCategory.BLOCKS, 1.0F, 1.0F, false);
+        for(Item item : items) player.drop(new ItemStack(item), true);
+    	player.drop(new ItemStack (Reboot_Rider_Items.EMPTY_VIAL.get()), true);
+    	player.getItemInHand(hand).shrink(1);}
 
 
 	public KaijinStoneGenerator AddToTabList(List<Block> TabList) {
