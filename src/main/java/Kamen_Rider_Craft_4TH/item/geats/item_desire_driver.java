@@ -50,7 +50,7 @@ public class item_desire_driver extends item_rider_driver
 	public static final String[] CoreName= new String[] {"entry","magnum","boost","hammer","water","arrow","shield","revice","zombie","demons","chain_array","claw","zero_one"
 			,"live","jeanne","ninja","propeller","drill","monster","beat","jet","cannon","gigant_container","poweredbuilder","jyamato","ichigo","v3","black","kuuga","agito"
 			,"ryuki","faiz","blade","hibiki","kabuto","den_o","kiva","decade","w","ooo","fourze","wizard","gaim","drive","ghost","ex_aid","build","zi_o","saber","boost_markii"
-			,"laserboost","ouja"};
+			,"laserboost","ouja","fantasy"};
 
 	public static final String[] FormName= new String[] {"","","_raising","_boost_markii","_laserboost","","","","","","","","",""};
 
@@ -561,6 +561,9 @@ public class item_desire_driver extends item_rider_driver
 					}
 					if (formr=="poweredbuilder"&rider=="seeker"){
 						formr="poweredbuilder_seeker";
+					}
+					if (forml=="fantasy"&rider=="gya_go"){
+						forml="fantasy_gya_go";
 					}
 					
 					if (is_fever(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))&CanFever){

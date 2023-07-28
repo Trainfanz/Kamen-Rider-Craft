@@ -693,6 +693,12 @@ public class ReiwaRiderItems {
 	public static Item desire_driver_keirou = new item_desire_driver("desire_driver_keirou",ArmorMaterial.DIAMOND, 4, "keirou",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item desire_driver_nudge_sparrow = new item_desire_driver("desire_driver_nudge_sparrow",ArmorMaterial.DIAMOND, 4, "nudge_sparrow",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item desire_driver_lopo = new item_desire_driver("desire_driver_lopo",ArmorMaterial.DIAMOND, 4, "lopo",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_groovy = new item_desire_driver("desire_driver_groovy",ArmorMaterial.DIAMOND, 4, "groovy",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_hakubi = new item_desire_driver("desire_driver_hakubi",ArmorMaterial.DIAMOND, 4, "hakubi",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_butchi = new item_desire_driver("desire_driver_butchi",ArmorMaterial.DIAMOND, 4, "butchi",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_turbon = new item_desire_driver("desire_driver_turbon",ArmorMaterial.DIAMOND, 4, "turbon",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_brali = new item_desire_driver("desire_driver_brali",ArmorMaterial.DIAMOND, 4, "brali",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_gya_go = new item_desire_driver("desire_driver_gya_go",ArmorMaterial.DIAMOND, 4, "gya_go",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
 	public static Item desire_driver_seeker= new item_desire_driver("desire_driver_seeker",ArmorMaterial.DIAMOND, 4, "seeker",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item desire_driver_revi = new item_desire_driver("desire_driver_revi",ArmorMaterial.DIAMOND, 4, "geats_revi",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
@@ -705,6 +711,7 @@ public class ReiwaRiderItems {
 	
 	public static Item desire_driver_gm = new item_desire_driver("desire_driver_gm",ArmorMaterial.DIAMOND, 4, "gm",0).AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item desire_driver_gm_chirami = new item_desire_driver("desire_driver_gm_chirami",ArmorMaterial.DIAMOND, 4, "gm_chirami",0).AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item desire_driver_guard_rider = new item_desire_driver("desire_driver_guard_rider",ArmorMaterial.DIAMOND, 4, "guard_rider",0).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
 	public static Item desire_driver_jyamato = new item_desire_driver("desire_driver_jyamato",ArmorMaterial.DIAMOND, 4, "jyamato",0).SetDefaultForm("jyamato").setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	
@@ -732,6 +739,7 @@ public class ReiwaRiderItems {
 	public static Item monster_raise_buckle = new Item_Raise_Buckles(18,"monster_raise_buckle").AddToMissionBox(3).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item beat_raise_buckle = new Item_Raise_Buckles(19,"beat_raise_buckle").AddToMissionBox(3).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item fever_slot_raise_buckle = new Item_Feverslot("fever_slot_raise_buckle").setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+	public static Item fantasy_raise_buckle = new Item_Raise_Buckles(52,"fantasy_raise_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	
 	public static Item powered_builder_raise_buckle = new Item_Raise_Buckles(23,"powered_builder_raise_buckle").AddToGigantMissionBox(1).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item gigant_container_buckle = new Item_Raise_Buckles(22,"gigant_container_buckle").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
