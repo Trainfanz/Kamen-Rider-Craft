@@ -50,9 +50,9 @@ public class item_desire_driver extends item_rider_driver
 	public static final String[] CoreName= new String[] {"entry","magnum","boost","hammer","water","arrow","shield","revice","zombie","demons","chain_array","claw","zero_one"
 			,"live","jeanne","ninja","propeller","drill","monster","beat","jet","cannon","gigant_container","poweredbuilder","jyamato","ichigo","v3","black","kuuga","agito"
 			,"ryuki","faiz","blade","hibiki","kabuto","den_o","kiva","decade","w","ooo","fourze","wizard","gaim","drive","ghost","ex_aid","build","zi_o","saber","boost_markii"
-			,"laserboost","ouja","fantasy"};
+			,"laserboost","ouja","fantasy","boost_markiii","geats_ix",""};
 
-	public static final String[] FormName= new String[] {"","","_raising","_boost_markii","_laserboost","","","","","","","","",""};
+	public static final String[] FormName= new String[] {"","","_raising","_boost_markii","_laserboost","_boost_markiii","_ix","","","","","","",""};
 
 	public static final String[] GmName= new String[] {"","gm","gm_chirami","","","","","","","","",""};
 
@@ -122,13 +122,14 @@ public class item_desire_driver extends item_rider_driver
 				}
 				
 				ItemStack belt=stack;
-				
-				
+
 				
 				if (belt.getItem()==ReiwaRiderItems.raise_riser_belt_beroba||belt.getItem()==ReiwaRiderItems.raise_riser_belt_kekera||belt.getItem()==ReiwaRiderItems.raise_riser_belt_kyuun){
 					belt= new ItemStack(ShowaRiderItems.blanknoitem);
 				}
 				ItemStack belt2= new ItemStack(ReiwaRiderItems.desire_driver_parts);
+				
+			
 				
 				if (get_lock(stack, "l")==24&get_lock(stack, "r")==24){
 					set_lock(belt2,"part",0);
@@ -148,6 +149,12 @@ public class item_desire_driver extends item_rider_driver
 					set_lock(belt3,"part",100);
 				}else{
 				set_lock(belt3,"part",get_lock(stack, "r"));
+				}
+				
+				if (get_lock(stack, "f")==6){
+					
+				}else if (stack.getItem()==ReiwaRiderItems.desire_driver_cross_geats) {
+					armorModel.wings=new ItemStack(ReiwaRiderItems.cross_geats_cape);
 				}
 				
 				armorModel.belt3=belt3;

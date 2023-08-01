@@ -648,6 +648,9 @@ public class ReiwaRiderItems {
 	
 	//geats
 
+	public static Item geats_ix_cape = new Item_ore("geats_ix_cape");
+	public static Item cross_geats_cape = new Item_ore("cross_geats_cape");
+	
 	public static Item blank_rider_core_id = new Item_ore("blank_rider_core_id").setCreativeTab(Tabs.tabgeats);
 	
 	public static Item magnum_shooter_40x = new Item_gun("magnum_shooter_40x",Tabs.den_dengu, blank_rider_core_id).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
@@ -703,7 +706,8 @@ public class ReiwaRiderItems {
 	public static Item desire_driver_seeker= new item_desire_driver("desire_driver_seeker",ArmorMaterial.DIAMOND, 4, "seeker",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item desire_driver_revi = new item_desire_driver("desire_driver_revi",ArmorMaterial.DIAMOND, 4, "geats_revi",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item desire_driver_vice = new item_desire_driver("desire_driver_vice",ArmorMaterial.DIAMOND, 4, "geats_vice",0).AddCanFever().AddBaseBody().setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
-	
+	public static Item desire_driver_cross_geats = new item_desire_driver("desire_driver_cross_geats",ArmorMaterial.DIAMOND, 4, "cross_geats",1).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
+
 	
 	public static Item vision_driver = new item_desire_driver("vision_driver",ArmorMaterial.DIAMOND, 4, "glare",1).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
 	public static Item vision_driver_gazer = new item_desire_driver("vision_driver_gazer",ArmorMaterial.DIAMOND, 4, "gazer",1).setMaxStackSize(1).setCreativeTab(Tabs.tabgeats);
@@ -730,6 +734,8 @@ public class ReiwaRiderItems {
 	public static Item boost_raise_buckle = new Item_Raise_Buckles(2,"boost_raise_buckle").AddToMissionBox(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item boost_markii_raise_buckle  = new Item_Raise_Buckles(49,"boost_markii_raise_buckle").changeForm(3).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item unite_grip  = new Item_Raise_Buckles(50,"unite_grip").changeForm(4).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+	public static Item boost_markiii_raise_buckle  = new Item_Raise_Buckles(53,"boost_markiii_raise_buckle").changeForm(5).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
+
 	
 	public static Item command_twin_buckle_jet = new Item_Raise_Buckles(0,"command_twin_buckle_jet").changeForm(2).AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
 	public static Item command_twin_buckle_cannon = new Item_Raise_Buckles(21,"command_twin_buckle_cannon").AddCanUseL().AddCanUseR().setCreativeTab(Tabs.tabgeats);
