@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kuuga",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:kuuga_growing"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:kuugahead"
+  }
+}

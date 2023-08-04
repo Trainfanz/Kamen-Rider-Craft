@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kuuga_mighty",
+  "ingredients": [
+    {
+      "item": "kamenridercraft:kuuga_rising_mighty"
+    }, 
+    {
+      "item": "kamenridercraft:kuuga_rising_mighty"
+    }, 
+    {
+      "item": "kamenridercraft:kuuga_rising_mighty"
+    }, 
+    {
+      "item": "kamenridercraft:kuuga_rising_mighty"
+    }
+    ],
+  "result": {
+    "item": "kamenridercraft:kuuga_amazing_mighty"
+  }
+}

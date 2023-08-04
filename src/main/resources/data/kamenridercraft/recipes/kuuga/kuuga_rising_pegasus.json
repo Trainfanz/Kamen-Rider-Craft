@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kuuga_pegasus",
+  "ingredients": [
+    {
+      "item": "kamenridercraft:kuuga_pegasus"
+    }, 
+    {
+      "item": "kamenridercraft:kuuga_pegasus"
+    }, 
+    {
+      "item": "kamenridercraft:kuuga_pegasus"
+    }, 
+    {
+      "item": "kamenridercraft:kuuga_pegasus"
+    }
+    ],
+  "result": {
+    "item": "kamenridercraft:kuuga_rising_pegasus"
+  }
+}

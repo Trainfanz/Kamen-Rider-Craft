@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "amazon_neo",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:amazon_cell_vial"
+    }, "C": {
+      "item": "kamenridercraft:amazon_injector_neo"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:neo_amazons_driver_neo"
+  }
+}

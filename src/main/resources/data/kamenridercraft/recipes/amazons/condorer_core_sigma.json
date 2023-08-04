@@ -4,13 +4,13 @@
   "ingredients": [
 {
     
-      "item": "kamenridercraft:omega_amazon_cell_vial"
+      "item": "kamenridercraft:sigma_amazon_cell_vial"
     }, 
     {
       "item": "kamenridercraft:condorer_wheel"
     } 
     ],
   "result": {
-    "item": "kamenridercraft:condorer_core_omega"
+    "item": "kamenridercraft:condorer_core_sigma"
   }
 }
