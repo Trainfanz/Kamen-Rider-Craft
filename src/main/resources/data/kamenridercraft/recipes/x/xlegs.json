@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kr_x",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:ichigolegs"
+    }, 
+    {
+      "item": "kamenridercraft:ridol_core"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft:xlegs"
+  }
+}

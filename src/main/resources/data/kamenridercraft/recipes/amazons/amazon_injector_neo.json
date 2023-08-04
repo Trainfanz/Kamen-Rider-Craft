@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "amazon_neo",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:neo_amazon_cell_vial"
+    }, 
+    {
+      "item": "kamenridercraft:condorer_wheel"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft:amazon_injector_neo"
+  }
+}

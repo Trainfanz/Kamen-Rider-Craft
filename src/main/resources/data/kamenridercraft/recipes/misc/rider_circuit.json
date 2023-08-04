@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kamen_rider",
+  "pattern": [
+    "ZXZ",
+    "XZX",
+    "ZXZ"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:gold_ingot"
+    }, "Z": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:rider_circuit"
+  }
+}

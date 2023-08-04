@@ -1,8 +1,0 @@
-{
-    "variants":{   
-    "facing=north": { "model": "kamenridercraft4th:astro_switch_programer" },
-    "facing=south": { "model": "kamenridercraft4th:astro_switch_programer", "y": 180 },
-    "facing=west": { "model": "kamenridercraft4th:astro_switch_programer", "y": 270 },
-    "facing=east": { "model": "kamenridercraft4th:astro_switch_programer", "y": 90 }
-  }
- }

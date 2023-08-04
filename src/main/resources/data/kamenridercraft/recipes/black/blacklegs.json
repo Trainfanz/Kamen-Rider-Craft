@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kr_black",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:ichigolegs"
+    }, 
+    {
+      "item": "kamenridercraft:red_king_stone"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft:blacklegs"
+  }
+}

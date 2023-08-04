@@ -1,8 +1,0 @@
-{
-    "variants":{   
-    "facing=north": { "model": "kamenridercraft4th:amazon_cell_mutator" },
-    "facing=south": { "model": "kamenridercraft4th:amazon_cell_mutator", "y": 180 },
-    "facing=west": { "model": "kamenridercraft4th:amazon_cell_mutator", "y": 270 },
-    "facing=east": { "model": "kamenridercraft4th:amazon_cell_mutator", "y": 90 }
-  }
- }

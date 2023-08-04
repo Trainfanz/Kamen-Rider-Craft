@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kr_v3",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:ichigolegs"
+    }, 
+    {
+      "item": "kamenridercraft:double_typhoon_core"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft:v3legs"
+  }
+}

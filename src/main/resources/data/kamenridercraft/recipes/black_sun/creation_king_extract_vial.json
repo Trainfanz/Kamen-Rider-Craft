@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kaijin_stone",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:empty_vial"
+    }, "C": {
+      "item": "kamenridercraft:red_king_stone"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:creation_king_extract_vial",
+    "count": 8
+  }
+}

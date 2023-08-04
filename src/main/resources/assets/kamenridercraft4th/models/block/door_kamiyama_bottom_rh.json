@@ -1,7 +1,0 @@
-{
-    "parent": "block/door_bottom_rh",
-    "textures": {
-        "bottom": "kamenridercraft4th:blocks/door_kamiyama_lower",
-        "top": "kamenridercraft4th:blocks/door_kamiyama_upper"
-    }
-}

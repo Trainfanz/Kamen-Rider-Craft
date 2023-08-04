@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "kamenridercraft:block/pure_gaia_memory_block"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "w",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:gaiamemory"
+    }, 
+    {
+      "item": "minecraft:iron_ingot"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft:unrefined_memory_s"
+  }
+}

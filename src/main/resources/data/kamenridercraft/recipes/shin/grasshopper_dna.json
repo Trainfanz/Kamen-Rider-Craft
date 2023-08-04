@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kr_shin",
+  "pattern": [
+    "XXX",
+    "XMX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:rider_circuit"
+    },
+    "M": {
+      "item": "kamenridercraft:shin_stone"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:grasshopper_dna"
+  }    
+}

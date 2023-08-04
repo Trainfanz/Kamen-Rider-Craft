@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "w",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:pure_gaia_memory_block"
+    }
+    ],
+  "result": {
+  "count": 9,
+    "item": "kamenridercraft:gaiamemory"
+  }
+}

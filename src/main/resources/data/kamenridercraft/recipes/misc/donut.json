@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "rider_food",
+  "pattern": [
+    " C ",
+    "X X",
+    " X "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:wheat"
+    }, "C": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:donut"
+  }
+}

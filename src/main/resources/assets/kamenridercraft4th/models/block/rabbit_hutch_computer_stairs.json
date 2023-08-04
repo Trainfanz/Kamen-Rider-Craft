@@ -1,8 +1,0 @@
-{
-    "parent": "block/stairs",
-    "textures": {
-        "bottom": "kamenridercraft4th:blocks/rabbit_hutch_cyan",
-        "top": "kamenridercraft4th:blocks/rabbit_hutch_cyan",
-        "side": "kamenridercraft4th:blocks/rabbit_hutch_computer"
-    }
-}

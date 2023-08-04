@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "w",
+  "pattern": [
+    "XXX",
+    "XMX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:gaiamemory"
+    },
+    "M": {
+      "item": "kamenridercraft:cyclone_t2_memory"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:lostdriver_cyclone"
+  }    
+}

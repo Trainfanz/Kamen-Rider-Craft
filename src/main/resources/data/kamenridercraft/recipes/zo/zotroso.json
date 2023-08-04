@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kr_zo",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:ichigotroso"
+    }, 
+    {
+      "item": "kamenridercraft:zo_stone"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft:zotroso"
+  }
+}

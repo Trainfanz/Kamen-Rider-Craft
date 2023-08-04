@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "kamenridercraft:block/blue_rose"
+    }
+}

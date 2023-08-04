@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "kamenridercraft:item/rider3_vs_the_demon_of_general_black"
+    }
+}

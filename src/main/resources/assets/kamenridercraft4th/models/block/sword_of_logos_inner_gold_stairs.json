@@ -1,8 +1,0 @@
-{
-    "parent": "block/inner_stairs",
-    "textures": {
-        "bottom": "kamenridercraft4th:blocks/sword_of_logos_gold_block",
-        "top": "kamenridercraft4th:blocks/sword_of_logos_gold_block",
-        "side": "kamenridercraft4th:blocks/sword_of_logos_gold_block"
-    }
-}

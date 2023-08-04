@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "facing=north": { "model": "kamenridercraft4th:denliner_matel_dark_line" },
-        "facing=south": { "model": "kamenridercraft4th:denliner_matel_dark_line", "y": 180 },
-        "facing=west":  { "model": "kamenridercraft4th:denliner_matel_dark_line", "y": 270 },
-        "facing=east":  { "model": "kamenridercraft4th:denliner_matel_dark_line", "y": 90 }
-    }
-}

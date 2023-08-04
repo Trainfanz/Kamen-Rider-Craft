@@ -1,8 +1,0 @@
-{
-    "variants":{   
-    "facing=north": { "model": "kamenridercraft4th:hiden_3d_printing" },
-    "facing=south": { "model": "kamenridercraft4th:hiden_3d_printing", "y": 180 },
-    "facing=west": { "model": "kamenridercraft4th:hiden_3d_printing", "y": 270 },
-    "facing=east": { "model": "kamenridercraft4th:hiden_3d_printing", "y": 90 }
-  }
- }

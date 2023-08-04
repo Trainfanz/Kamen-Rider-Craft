@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "w",
+  "pattern": [
+    "XXX",
+    "ZXY",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:gaiamemory"
+    },
+    "Z": {
+      "item": "kamenridercraft:cyclone_memory"
+    },
+    "Y": {
+      "item": "kamenridercraft:joker_memory"
+      }
+  },
+  "result": {
+    "item": "kamenridercraft:wdriver"
+  }    
+}

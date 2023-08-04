@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "amazon_sigma",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:amazon_cell_vial"
+    }, "C": {
+      "item": "kamenridercraft:condorer_core_sigma"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:amazons_driver_sigma"
+  }
+}
