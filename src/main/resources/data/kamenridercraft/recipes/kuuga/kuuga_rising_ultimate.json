@@ -3,19 +3,19 @@
   "group": "kuuga_ultimate",
   "ingredients": [
     {
-      "item": "kamenridercraft4th:kuuga_ultimate"
+      "item": "kamenridercraft:kuuga_ultimate"
     }, 
     {
-      "item": "kamenridercraft4th:kuuga_ultimate"
+      "item": "kamenridercraft:kuuga_ultimate"
     }, 
     {
-      "item": "kamenridercraft4th:kuuga_ultimate"
+      "item": "kamenridercraft:kuuga_ultimate"
     }, 
     {
-      "item": "kamenridercraft4th:kuuga_ultimate"
+      "item": "kamenridercraft:kuuga_ultimate"
     }
     ],
   "result": {
-    "item": "kamenridercraft4th:kuuga_rising_ultimate"
+    "item": "kamenridercraft:kuuga_rising_ultimate"
   }
 }  

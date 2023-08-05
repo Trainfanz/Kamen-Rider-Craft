@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kamenridercraft:kuuga_pegasus"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft:kuuga/pegasus_bowgun"
+      }
+    },
+    "has_the_recipe1": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "kamenridercraft:kuuga/kuuga_rising_pegasus"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item",
+      "has_the_recipe",
+      "has_the_recipe1"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "kamenridercraft:kuuga/pegasus_bowgun",
+      "kamenridercraft:kuuga/kuuga_rising_pegasus"
+    ]
+  },
+  "sends_telemetry_event": false
+}
