@@ -5,6 +5,7 @@ import com.kelco.kamenridercraft.Blocks.Rider_Blocks;
 import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Entities.MobsCore;
 import com.kelco.kamenridercraft.Entities.Villager.RiderVillagers;
+import com.kelco.kamenridercraft.Items.Faiz_Rider_Items;
 import com.kelco.kamenridercraft.Items.Ichigo_Rider_Items;
 import com.kelco.kamenridercraft.Items.Kuuga_Rider_Items;
 import com.kelco.kamenridercraft.Items.Modded_item_core;
@@ -35,6 +36,7 @@ public class KamenRiderCraftCore {
 		Modded_item_core.register(modEventBus);
 		Ichigo_Rider_Items.register(modEventBus);
 		Kuuga_Rider_Items.register(modEventBus);
+		Faiz_Rider_Items.register(modEventBus);
 		W_Rider_Items.register(modEventBus);
 		Reboot_Rider_Items.register(modEventBus);
 		MobsCore.register(modEventBus);
