@@ -411,11 +411,18 @@ public class Ichigo_Rider_Items {
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
 	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false)).AddToTabList(RiderTabs.RX_TAB_ITEM));
 	    
+	    public static final RegistryObject<Item> MOON_RX_CORE = ITEMS.register("moon_rx_core",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","white_rx","moon_riser",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.RX_TAB_ITEM));
+	 
 	    
 	    public static final RegistryObject<Item> SUN_RISER = ITEMS.register("sun_riser",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"black_rx",RX_CORE ,RXHELMET,RXCHESTPLATE,RXLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
     
-
+	    public static final RegistryObject<Item> MOON_RISER = ITEMS.register("moon_riser",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"white_rx",MOON_RX_CORE ,RXHELMET,RXCHESTPLATE,RXLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+ 
 	    // Shin
 	   
 	    public static final RegistryObject<Item> SHINHELMET = ITEMS.register("shinhead",
