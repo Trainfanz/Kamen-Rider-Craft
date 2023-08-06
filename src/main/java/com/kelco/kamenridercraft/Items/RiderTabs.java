@@ -74,6 +74,9 @@ public class RiderTabs {
     public static RegistryObject<CreativeModeTab> KuugaTab = CREATIVE_MODE_TABS.register("rider_kuuga_tab", () -> 
 			CreativeModeTab.builder().icon(() -> new ItemStack(Kuuga_Rider_Items.KUUGAHELMET.get())).withBackgroundLocation(new ResourceLocation(KamenRiderCraftCore.MODID+":textures/gui/tab_kuuga_items.png"))
 			.title(Component.literal("Kuuga Rider Items")).build());
+    public static RegistryObject<CreativeModeTab> AgitoTab = CREATIVE_MODE_TABS.register("rider_agito_tab", () -> 
+	CreativeModeTab.builder().icon(() -> new ItemStack(Agito_Rider_Items.AGITOHELMET.get())).withBackgroundLocation(new ResourceLocation(KamenRiderCraftCore.MODID+":textures/gui/tab_agito_items.png"))
+			.title(Component.literal("Agito Rider Items")).build());
     public static RegistryObject<CreativeModeTab> FaizTab = CREATIVE_MODE_TABS.register("rider_faiz_tab", () -> 
  			CreativeModeTab.builder().icon(() -> new ItemStack(Faiz_Rider_Items.FAIZHELMET.get())).withBackgroundLocation(new ResourceLocation(KamenRiderCraftCore.MODID+":textures/gui/tab_faiz_items.png"))
  			.title(Component.literal("Faiz Rider Items")).build());
@@ -103,6 +106,7 @@ public class RiderTabs {
     public static List<Item> ZO_TAB_ITEM= new ArrayList<Item>();
     
     public static List<Item> KUUGA_TAB_ITEM= new ArrayList<Item>();
+    public static List<Item> AGITO_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> FAIZ_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> W_TAB_ITEM= new ArrayList<Item>();
 
@@ -205,6 +209,11 @@ public class RiderTabs {
 			for (int i = 0; i < RiderTabs.KUUGA_TAB_ITEM.size(); i++)
 			{
 				event.accept( RiderTabs.KUUGA_TAB_ITEM.get(i));
+			}
+		}else if(event.getTab() == RiderTabs.AgitoTab.get()) {
+			for (int i = 0; i < RiderTabs.AGITO_TAB_ITEM.size(); i++)
+			{
+				event.accept( RiderTabs.AGITO_TAB_ITEM.get(i));
 			}
 		}else if(event.getTab() == RiderTabs.FaizTab.get()) {
 			for (int i = 0; i < RiderTabs.FAIZ_TAB_ITEM.size(); i++)

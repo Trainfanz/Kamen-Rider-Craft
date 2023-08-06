@@ -21,7 +21,7 @@ public class OrgaEntity extends BaseHenchmenEntity {
 	
     public OrgaEntity(EntityType<? extends Zombie> type, Level level) {
         super(type, level);
-        NAME="";
+        NAME="orga";
         this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(Faiz_Rider_Items.FAIZHELMET.get()));
         this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(Faiz_Rider_Items.FAIZCHESTPLATE.get()));
         this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(Faiz_Rider_Items.FAIZLEGGINGS.get()));

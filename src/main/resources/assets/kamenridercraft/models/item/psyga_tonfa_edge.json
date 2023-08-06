@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "builtin/generated",
+	"textures": {
+		"layer0": "kamenridercraft:item/psyga_tonfa_edge"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-45, -90, 0],
+			"translation": [0, -2.5, -1],
+			"scale": [1.7, 1.7, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-45, 90, 0],
+			"translation": [0, -2.5, -1],
+			"scale": [1.7, 1.7, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [45, -85, 0],
+			"translation": [0, 3, 1],
+			"scale": [1.25, 1.25, 0.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [45, 85, 0],
+			"translation": [0, 3, 1],
+			"scale": [1.25, 1.25, 0.75]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"head": {
+			"translation": [0, 13, 7]
+		}
+	}
+}
