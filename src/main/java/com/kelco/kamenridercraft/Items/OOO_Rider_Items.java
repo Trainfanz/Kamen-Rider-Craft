@@ -50,7 +50,18 @@ public class OOO_Rider_Items {
 					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
 			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
-	
+	public static final RegistryObject<Item> KUWAGATA_MEDAL = ITEMS.register("kuwagata_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kuwagata","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
+			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> LION_MEDAL = ITEMS.register("lion_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_lion","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
+			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
 	public static final RegistryObject<Item> TORA_MEDAL = ITEMS.register("tora_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_tora","ooo","ooodriver_belt",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
