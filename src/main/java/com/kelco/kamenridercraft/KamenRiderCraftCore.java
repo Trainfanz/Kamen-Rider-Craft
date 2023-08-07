@@ -10,6 +10,7 @@ import com.kelco.kamenridercraft.Items.Faiz_Rider_Items;
 import com.kelco.kamenridercraft.Items.Ichigo_Rider_Items;
 import com.kelco.kamenridercraft.Items.Kuuga_Rider_Items;
 import com.kelco.kamenridercraft.Items.Modded_item_core;
+import com.kelco.kamenridercraft.Items.OOO_Rider_Items;
 import com.kelco.kamenridercraft.Items.Reboot_Rider_Items;
 import com.kelco.kamenridercraft.Items.RiderTabs;
 import com.kelco.kamenridercraft.Items.W_Rider_Items;
@@ -40,6 +41,7 @@ public class KamenRiderCraftCore {
 		Agito_Rider_Items.register(modEventBus);
 		Faiz_Rider_Items.register(modEventBus);
 		W_Rider_Items.register(modEventBus);
+		OOO_Rider_Items.register(modEventBus);
 		Reboot_Rider_Items.register(modEventBus);
 		MobsCore.register(modEventBus);
 		MobsCore.MOBLIST.register(modEventBus);

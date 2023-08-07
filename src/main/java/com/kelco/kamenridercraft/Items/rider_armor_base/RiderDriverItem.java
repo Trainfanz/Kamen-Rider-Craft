@@ -183,9 +183,9 @@ public class RiderDriverItem extends RiderArmorItem{
 
 		if (SLOT == 2) {
 			Base_Form_Item =belt.Extra_Base_Form_Item.get(0);
-		}else if (SLOT == 2) {
-			Base_Form_Item =belt.Extra_Base_Form_Item.get(1);
 		}else if (SLOT == 3) {
+			Base_Form_Item =belt.Extra_Base_Form_Item.get(1);
+		}else if (SLOT == 4) {
 			Base_Form_Item =belt.Extra_Base_Form_Item.get(2);
 		}
 

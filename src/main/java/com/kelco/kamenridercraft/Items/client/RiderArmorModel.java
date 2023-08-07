@@ -53,6 +53,7 @@ public class RiderArmorModel extends GeoModel<RiderArmorItem> {
 					 ((RiderDriverItem) BELT.getItem()).LEGS.asItem()!=RIDER.getItemBySlot(EquipmentSlot.LEGS).getItem()) {
 				 FORM="blank";
 			}
+	
 
 		}
 		return new ResourceLocation(KamenRiderCraftCore.MODID, "textures/armor/"+FORM+".png");

@@ -33,14 +33,14 @@ public class RiderVillagers {
                     SoundEvents.VILLAGER_WORK_ARMORER));
 
 
-    /**public static void registerPOIs() {
+    public static void registerPOIs() {
         try {
             ObfuscationReflectionHelper.findMethod(PoiType.class,
                     "registerBlockStates", PoiType.class).invoke(null, SHOCKER_MONITOR_POI.get());
         } catch (InvocationTargetException | IllegalAccessException exception) {
             exception.printStackTrace();
         }
-    }**/
+    }
 
     public static void register(IEventBus eventBus) {
         POI_TYPES.register(eventBus);
