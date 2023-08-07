@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "faiz",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:blank_mission_memory"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:faiztroso"
+  }
+}

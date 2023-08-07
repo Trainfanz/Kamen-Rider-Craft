@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "faiz_gear",
+  "pattern": [
+    "XRX",
+    "XMX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:blank_mission_memory"
+    },
+    "M": {
+      "item": "kamenridercraft:base_sword"
+    },
+    "R": {
+      "item": "kamenridercraft:faiz_mission_memory"
+      }
+  },
+  "result": {
+    "item": "kamenridercraft:faiz_edge"
+  }    
+}

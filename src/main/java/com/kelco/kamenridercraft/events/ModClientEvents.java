@@ -52,8 +52,8 @@ public class ModClientEvents {
         
         event.registerEntityRenderer(MobsCore.ZU_GUMUN_BA.get(), BasicEntityRenderer::new);
 
-        //event.registerEntityRenderer(MobsCore.RIOTROOPER.get(), BasicEntityRenderer::new);
-        //event.registerEntityRenderer(MobsCore.ORGA.get(), BasicEntityRenderer::new);
+        event.registerEntityRenderer(MobsCore.RIOTROOPER.get(), BasicEntityRenderer::new);
+        event.registerEntityRenderer(MobsCore.ORGA.get(), BasicEntityRenderer::new);
         
         event.registerEntityRenderer(MobsCore.MASQUERADE.get(), BasicEntityRenderer::new);
         event.registerEntityRenderer(MobsCore.WEATHER_DOPANT.get(), BasicEntityRenderer::new);

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "psyga_gear",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:blank_mission_memory"
+    }, "C": {
+      "item": "kamenridercraft:psyga_mission_memory"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:psyga_driver"
+  }
+}

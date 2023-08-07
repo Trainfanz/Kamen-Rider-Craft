@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "faiz",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:blank_mission_memory"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:faizlegs"
+  }
+}
