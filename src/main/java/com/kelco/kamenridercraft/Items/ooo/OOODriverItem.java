@@ -1,6 +1,7 @@
 package com.kelco.kamenridercraft.Items.ooo;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.Items.OOO_Rider_Items;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderArmorItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderDriverItem;
 
@@ -27,6 +28,7 @@ public class OOODriverItem extends RiderDriverItem{
 			
 			return "belts/"+get_Form_Item(itemstack,1).getBeltTex();
 		}
+		else if (equipmentSlot == EquipmentSlot.HEAD&get_Form_Item(itemstack,1)==OOO_Rider_Items.TAKA_MEDAL.get()&get_Form_Item(itemstack,2)==OOO_Rider_Items.KUJAKU_MEDAL.get()&get_Form_Item(itemstack,3)==OOO_Rider_Items.CONDOR_MEDAL.get()) return "_taka_tajado";
 		else if (equipmentSlot == EquipmentSlot.HEAD) return get_Form_Item(itemstack,1).getFormName();
 		else if (equipmentSlot == EquipmentSlot.CHEST) return get_Form_Item(itemstack,2).getFormName();
 		else return get_Form_Item(itemstack,3).getFormName();

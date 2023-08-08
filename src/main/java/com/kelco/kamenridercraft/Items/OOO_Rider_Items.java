@@ -1,27 +1,17 @@
 package com.kelco.kamenridercraft.Items;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
-import com.kelco.kamenridercraft.Blocks.MachineBlocks.GaiaMemoryRefinerBlock;
 import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Items.ooo.OOODriverItem;
-import com.kelco.kamenridercraft.Items.rider_armor_base.BaseBlasterItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
-import com.kelco.kamenridercraft.Items.rider_armor_base.BaseShieldItem;
-import com.kelco.kamenridercraft.Items.rider_armor_base.BaseSwordItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderArmorItem;
-import com.kelco.kamenridercraft.Items.rider_armor_base.RiderDriverItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderFormChangeItem;
-import com.kelco.kamenridercraft.Items.w.MetalShaftItem;
-import com.kelco.kamenridercraft.Items.w.WDriverItem;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ShieldItem;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -33,7 +23,16 @@ public class OOO_Rider_Items {
 
 	public static final RegistryObject<Item> CELL_MEDAL = ITEMS.register("cellmedal",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
-
+	
+	/**
+	medajalibur
+	tajaspinner
+	tajaspinner_eternity
+	medagaburyu
+	birth_buster
+	deepest_harpoon
+	ancient_ooo_greeed_sword 
+	 **/
 	
 	public static final RegistryObject<Item> OOOHELMET = ITEMS.register("ooohead",
 			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
@@ -61,6 +60,20 @@ public class OOO_Rider_Items {
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
 			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	/**
+	sai
+	shachi
+	ptera
+	cobra
+	super_taka
+	same
+	shika
+	seiuchi
+	mukade
+	ebi_new
+	habataki
+	taka_ankh
+	 **/
 
 	public static final RegistryObject<Item> TORA_MEDAL = ITEMS.register("tora_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_tora","ooo","ooodriver_belt",
@@ -68,12 +81,145 @@ public class OOO_Rider_Items {
 					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
 			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
+	public static final RegistryObject<Item> KAMAKIRI_MEDAL = ITEMS.register("kamakiri_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kamakiri","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> KUJAKU_MEDAL = ITEMS.register("kujaku_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kujaku","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	/**
+	kamakiri
+	gorilla
+	kujaku
+	unagi
+	 tricera
+	 kame
+	imagin
+	panda
+	super_tora
+	kangaroo
+	kujira
+	gazelle
+	 shirokuma
+	hachi
+	kani_new
+	 yadokari
+	 taiga
+	 **/
+
 	public static final RegistryObject<Item> BATTA_MEDAL = ITEMS.register("batta_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_batta","ooo","ooodriver_belt",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
 					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
 			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> CHEETAH_MEDAL = ITEMS.register("cheetah_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_cheetah","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
+	public static final RegistryObject<Item> CONDOR_MEDAL = ITEMS.register("condor_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_condor","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	/**
+	zou
+	tako
+	tyranno
+	wani
+	shocker
+	super_batta
+	ookamiuo
+	ushi
+	penguin
+	ari
+	sasori_new
+	ichigo
+
+	taka_eternity
+	kujaku_eternity
+	condor_eternity
+
+	ancient_taka
+	ancient_tora
+	ancient_batta
+
+	mukade_goda
+	hachi_goda
+	ari_goda
+
+	love_core
+	love_core2
+	love_core3
+
+	sasori
+	kani
+	ebi
+
+	x_core
+	amazon_core
+	stronger_core
+
+	foundation_x_taka
+	foundation_x_kuwagata
+	foundation_x_lion
+	foundation_x_sai
+	foundation_x_shachi
+
+	foundation_x_tora
+	foundation_x_kamakiri
+	foundation_x_gorilla
+	foundation_x_kujaku
+	foundation_x_unagi
+
+	foundation_x_batta
+	foundation_x_cheetah
+	foundation_x_zou
+	foundation_x_condor
+	foundation_x_tako
+
+	zeus_taka
+	zeus_kuwagata
+	zeus_lion
+	zeus_sai
+	zeus_shachi
+	zeus_ptera
+	zeus_mukade
+
+	zeus_tora
+	zeus_kamakiri
+	zeus_gorilla
+	zeus_kujaku
+	zeus_unagi
+	zeus_tricera
+	zeus_hachi
+
+	zeus_batta
+	zeus_cheetah
+	zeus_zou
+	zeus_condor
+	zeus_tako
+	zeus_tyranno
+	zeus_ari
+
+	gel_shocker_core
+	destron_core
+	god_core
+	garanda_core
+	delza_core
+	neo_shocker_core
+	jin_dogma_core
+	badan_core
+	 **/
 
 	public static final RegistryObject<Item> OOODRIVER = ITEMS.register("ooodriver",
 			() -> new OOODriverItem(ArmorMaterials.DIAMOND,"ooo",TAKA_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
@@ -81,7 +227,7 @@ public class OOO_Rider_Items {
 
 
 
-	
+
 
 	public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);
