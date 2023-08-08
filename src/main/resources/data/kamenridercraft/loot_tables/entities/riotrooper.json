@@ -4,23 +4,23 @@
     {
       "rolls": {
         "min": 0,
-        "max": 1
+        "max": 2
       },
       "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 1,
           "name": "kamenridercraft:faiz_mission_memory"
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
+          "weight": 1,
           "name": "kamenridercraft:kaixa_mission_memory"
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
+          "weight": 1,
           "name": "kamenridercraft:delta_mission_memory"
         },
         {
@@ -37,6 +37,21 @@
     },
     {
       "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "kamenridercraft:faiz_axel_mission_memory"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "kamenridercraft:psyga_mission_memory"
+        }
+      ]
+    },
+    {
+      "rolls": 2,
       "entries": [
         {
           "type": "minecraft:item",

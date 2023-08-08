@@ -49,7 +49,9 @@ public class Faiz_Rider_Items {
 	public static final RegistryObject<SwordItem> ORGA_STLANZER = ITEMS.register("orga_stlanzer",
 			() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
 
-	
+	public static final RegistryObject<SwordItem> AXEL_RAY_GUN = ITEMS.register("axel_ray_gun",
+			() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
+
 	public static final RegistryObject<Item> FAIZHELMET = ITEMS.register("faizhead",
 			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
 	public static final RegistryObject<Item> FAIZCHESTPLATE = ITEMS.register("faiztroso",

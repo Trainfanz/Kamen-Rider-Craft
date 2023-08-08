@@ -89,15 +89,15 @@ public class BaseHenchmenEntity extends Zombie {
     
 
     protected SoundEvent getAmbientSound() {
-       return SoundEvents.VILLAGER_AMBIENT;
+       return SoundEvents.PILLAGER_AMBIENT;
     }
 
     protected SoundEvent getHurtSound(DamageSource p_34327_) {
-       return SoundEvents.VILLAGER_HURT;
+       return SoundEvents.PILLAGER_HURT;
     }
 
     protected SoundEvent getDeathSound() {
-       return SoundEvents.VILLAGER_DEATH;
+       return SoundEvents.PILLAGER_DEATH;
     }
 
     protected SoundEvent getStepSound() {
