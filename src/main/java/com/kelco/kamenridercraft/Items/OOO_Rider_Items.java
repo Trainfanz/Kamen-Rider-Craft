@@ -48,102 +48,111 @@ public class OOO_Rider_Items {
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
 			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
-
-	public static final RegistryObject<Item> KUWAGATA_MEDAL = ITEMS.register("kuwagata_medal",
-			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kuwagata","ooo","ooodriver_belt",
-					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
-					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
-			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
-
-	public static final RegistryObject<Item> LION_MEDAL = ITEMS.register("lion_medal",
-			() -> new RiderFormChangeItem(new Item.Properties(),0,"_lion","ooo","ooodriver_belt",
-					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
-					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
-			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
-	/**
-	sai
-	shachi
-	ptera
-	cobra
-	super_taka
-	same
-	shika
-	seiuchi
-	mukade
-	ebi_new
-	habataki
-	taka_ankh
-	 **/
-
-	public static final RegistryObject<Item> TORA_MEDAL = ITEMS.register("tora_medal",
-			() -> new RiderFormChangeItem(new Item.Properties(),0,"_tora","ooo","ooodriver_belt",
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
-					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
-			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
-
-	public static final RegistryObject<Item> KAMAKIRI_MEDAL = ITEMS.register("kamakiri_medal",
-			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kamakiri","ooo","ooodriver_belt",
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
-					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
-			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
-
+	
 	public static final RegistryObject<Item> KUJAKU_MEDAL = ITEMS.register("kujaku_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kujaku","ooo","ooodriver_belt",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
 					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
 			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
-	/**
-	kamakiri
-	gorilla
-	kujaku
-	unagi
-	 tricera
-	 kame
-	imagin
-	panda
-	super_tora
-	kangaroo
-	kujira
-	gazelle
-	 shirokuma
-	hachi
-	kani_new
-	 yadokari
-	 taiga
-	 **/
-
-	public static final RegistryObject<Item> BATTA_MEDAL = ITEMS.register("batta_medal",
-			() -> new RiderFormChangeItem(new Item.Properties(),0,"_batta","ooo","ooodriver_belt",
+	public static final RegistryObject<Item> CONDOR_MEDAL = ITEMS.register("condor_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_condor","ooo","ooodriver_belt",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
 					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
 			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	
+	public static final RegistryObject<Item> LION_MEDAL = ITEMS.register("lion_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_lion","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
+			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> TORA_MEDAL = ITEMS.register("tora_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_tora","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
 	public static final RegistryObject<Item> CHEETAH_MEDAL = ITEMS.register("cheetah_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_cheetah","ooo","ooodriver_belt",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
 					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
 			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
-
-	public static final RegistryObject<Item> CONDOR_MEDAL = ITEMS.register("condor_medal",
-			() -> new RiderFormChangeItem(new Item.Properties(),0,"_condor","ooo","ooodriver_belt",
+	
+	
+	public static final RegistryObject<Item> KUWAGATA_MEDAL = ITEMS.register("kuwagata_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kuwagata","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
+			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> KAMAKIRI_MEDAL = ITEMS.register("kamakiri_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kamakiri","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> BATTA_MEDAL = ITEMS.register("batta_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_batta","ooo","ooodriver_belt",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
 					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
 			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
+	
+	
+
 	/**
+	sai
+	gorilla
 	zou
+	
+	shachi
+	unagi
 	tako
+	
+	ptera
+	tricera
 	tyranno
+	
+	cobra
+	kame
 	wani
-	shocker
-	super_batta
-	ookamiuo
-	ushi
-	penguin
+	
+	mukade
+	hachi
 	ari
+	
+	
+	sasori
+	kani
+	ebi
+
 	sasori_new
-	ichigo
+	ebi_new
+	kani_new
+	
+	same
+	kujira
+	ookamiuo
+	
+	shika
+	gazelle
+	ushi
+	
+	seiuchi
+	shirokuma
+	penguin
+	
+	panda
+	kangaroo
+	yadokari
+	taka_ankh
+
+	super_taka
+	super_tora
+	super_batta
+	
 
 	taka_eternity
 	kujaku_eternity
@@ -161,13 +170,6 @@ public class OOO_Rider_Items {
 	love_core2
 	love_core3
 
-	sasori
-	kani
-	ebi
-
-	x_core
-	amazon_core
-	stronger_core
 
 	foundation_x_taka
 	foundation_x_kuwagata
@@ -211,6 +213,17 @@ public class OOO_Rider_Items {
 	zeus_tyranno
 	zeus_ari
 
+	x_core
+	amazon_core
+	stronger_core
+
+	habataki
+	taiga
+	ichigo
+
+	imagin
+	
+    shocker
 	gel_shocker_core
 	destron_core
 	god_core
