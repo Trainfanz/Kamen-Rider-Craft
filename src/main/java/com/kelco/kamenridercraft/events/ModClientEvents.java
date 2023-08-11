@@ -52,6 +52,11 @@ public class ModClientEvents {
         
         event.registerEntityRenderer(MobsCore.ZU_GUMUN_BA.get(), BasicEntityRenderer::new);
 
+        event.registerEntityRenderer(MobsCore.PANTHERAS_LUTEUS.get(), BasicEntityRenderer::new);
+        event.registerEntityRenderer(MobsCore.EL_OF_THE_WATER.get(), BasicEntityRenderer::new);
+        event.registerEntityRenderer(MobsCore.ANGUIS_MASCULUS.get(), BasicEntityRenderer::new);
+        event.registerEntityRenderer(MobsCore.ANOTHER_AGITO.get(), BasicEntityRenderer::new);
+
         event.registerEntityRenderer(MobsCore.RIOTROOPER.get(), BasicEntityRenderer::new);
         event.registerEntityRenderer(MobsCore.ORGA.get(), BasicEntityRenderer::new);
         

@@ -3,8 +3,10 @@ package com.kelco.kamenridercraft.events;
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.Entities.MobsCore;
 import com.kelco.kamenridercraft.Entities.Villager.RiderVillagers;
+import com.kelco.kamenridercraft.Entities.bosses.AnotherAgitoEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ClayDollDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.CommanderDopantEntity;
+import com.kelco.kamenridercraft.Entities.bosses.ElOfTheWaterEntity;
 import com.kelco.kamenridercraft.Entities.bosses.EternalEntity;
 import com.kelco.kamenridercraft.Entities.bosses.NazcaDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.OrgaEntity;
@@ -13,6 +15,7 @@ import com.kelco.kamenridercraft.Entities.bosses.ShockerRidersEntity;
 import com.kelco.kamenridercraft.Entities.bosses.SmilodonDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.TerrorDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.WeatherDopantEntity;
+import com.kelco.kamenridercraft.Entities.footSoldiers.AnguisMasculusEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.AriCommandoEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.BlackSatanSoldierEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.ChapEntity;
@@ -23,6 +26,7 @@ import com.kelco.kamenridercraft.Entities.footSoldiers.DogmaFighterEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.FoundationXMasqueradeEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.GODWarfareAgentEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.MasqueradeEntity;
+import com.kelco.kamenridercraft.Entities.footSoldiers.PantherasLuteusEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.RedFollowerEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.RiotrooperEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.ShockerCombatmanEntity;
@@ -120,8 +124,10 @@ public class ModCommonEvents {
 	      
 	        event.register(MobsCore.ZU_GUMUN_BA.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
 
+	        event.register(MobsCore.PANTHERAS_LUTEUS.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
+	        event.register(MobsCore.ANGUIS_MASCULUS.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
+
 	        event.register(MobsCore.RIOTROOPER.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
-	        event.register(MobsCore.ORGA.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
 	        
 	        event.register(MobsCore.MASQUERADE.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
 	        event.register(MobsCore.FOUNDATION_X_MASQUERADE.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
@@ -145,6 +151,11 @@ public class ModCommonEvents {
         event.put(MobsCore.SHADOWMOON.get(), ShadowmoonEntity.setAttributes());
         
         event.put(MobsCore.ZU_GUMUN_BA.get(), ZuGumunBaEntity.setAttributes());
+
+        event.put(MobsCore.PANTHERAS_LUTEUS.get(), PantherasLuteusEntity.setAttributes());
+        event.put(MobsCore.EL_OF_THE_WATER.get(), ElOfTheWaterEntity.setAttributes());
+        event.put(MobsCore.ANGUIS_MASCULUS.get(), AnguisMasculusEntity.setAttributes());
+        event.put(MobsCore.ANOTHER_AGITO.get(), AnotherAgitoEntity.setAttributes());
 
         event.put(MobsCore.RIOTROOPER.get(), RiotrooperEntity.setAttributes());
         event.put(MobsCore.ORGA.get(), OrgaEntity.setAttributes());
