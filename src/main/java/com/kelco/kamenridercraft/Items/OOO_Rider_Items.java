@@ -175,6 +175,16 @@ public class OOO_Rider_Items {
 			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
 	
+	public static final RegistryObject<Item> SASORI_MEDAL = ITEMS.register("sasori_medal",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> KANI_MEDAL = ITEMS.register("kani_medal",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> EBI_MEDAL = ITEMS.register("ebi_medal",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	
 	public static final RegistryObject<Item> MUKADE_MEDAL = ITEMS.register("mukade_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_mukade","ooo","ooodriver_belt",
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false))
@@ -330,72 +340,309 @@ public class OOO_Rider_Items {
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false))
 			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
-	/**	
-	sasori
-	kani
-	ebi
-
-	mukade_goda
-	hachi_goda
-	ari_goda
-
-	love_core
-	love_core2
-	love_core3
-
-
-	foundation_x_taka
-	foundation_x_kuwagata
-	foundation_x_lion
-	foundation_x_sai
-	foundation_x_shachi
-
-	foundation_x_tora
-	foundation_x_kamakiri
-	foundation_x_gorilla
-	foundation_x_kujaku
-	foundation_x_unagi
-
-	foundation_x_batta
-	foundation_x_cheetah
-	foundation_x_zou
-	foundation_x_condor
-	foundation_x_tako
-
-	zeus_taka
-	zeus_kuwagata
-	zeus_lion
-	zeus_sai
-	zeus_shachi
-	zeus_ptera
-	zeus_mukade
-
-	zeus_tora
-	zeus_kamakiri
-	zeus_gorilla
-	zeus_kujaku
-	zeus_unagi
-	zeus_tricera
-	zeus_hachi
-
-	zeus_batta
-	zeus_cheetah
-	zeus_zou
-	zeus_condor
-	zeus_tako
-	zeus_tyranno
-	zeus_ari
-
-	x_core
-	amazon_core
-	stronger_core
-
-	habataki
-	taiga
-	ichigo
-
-	imagin
 	
+	
+	public static final RegistryObject<Item> MUKADE_GODA_MEDAL = ITEMS.register("mukade_goda_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_mukade_goda","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.REGENERATION, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false),
+					new MobEffectInstance(Effect_core.ANTIPOISON.get(), 400, 0,true,false))
+			.ChangeSlot(1).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> HACHI_GODA_MEDAL = ITEMS.register("hachi_goda_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_hachi_goda","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 3,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 5,true,false))
+			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> ARI_GODA_MEDAL = ITEMS.register("ari_goda_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_ari_goda","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 4,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false))
+			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	
+	public static final RegistryObject<Item> LOVE_CORE_MEDAL = ITEMS.register("love_core_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_love_core","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.REGENERATION, 40, 1,true,false))
+			.ChangeSlot(1).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> LOVE_CORE2_MEDAL = ITEMS.register("love_core2_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_love_core2","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false))
+			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> LOVE_CORE3_MEDAL = ITEMS.register("love_core3_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_love_core3","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.SATURATION, 40, 1,true,false))
+			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	
+	
+	public static final RegistryObject<Item> FOUNDATION_X_TAKA_MEDAL = ITEMS.register("foundation_x_taka_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_taka","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
+			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> FOUNDATION_X_KUJAKU_MEDAL = ITEMS.register("foundation_x_kujaku_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kujaku","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> FOUNDATION_X_CONDOR_MEDAL = ITEMS.register("foundation_x_condor_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_condor","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	
+	public static final RegistryObject<Item> FOUNDATION_X_LION_MEDAL = ITEMS.register("foundation_x_lion_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_lion","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
+			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> FOUNDATION_X_TORA_MEDAL = ITEMS.register("foundation_x_tora_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_tora","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> FOUNDATION_X_CHEETAH_MEDAL = ITEMS.register("foundation_x_cheetah_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_cheetah","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	
+	public static final RegistryObject<Item> FOUNDATION_X_KUWAGATA_MEDAL = ITEMS.register("foundation_x_kuwagata_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kuwagata","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
+			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> FOUNDATION_X_KAMAKIRI_MEDAL = ITEMS.register("foundation_x_kamakiri_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kamakiri","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> FOUNDATION_X_BATTA_MEDAL = ITEMS.register("foundation_x_batta_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_batta","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	
+	public static final RegistryObject<Item> FOUNDATION_X_SAI_MEDAL = ITEMS.register("foundation_x_sai_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_sai","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 1,true,false))
+			.ChangeSlot(1).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> FOUNDATION_X_GORILLA_MEDAL = ITEMS.register("foundation_x_gorilla_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_gorilla","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 1,true,false))
+			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> FOUNDATION_X_ZOU_MEDAL = ITEMS.register("foundation_x_zou_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_zou","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 1,true,false))
+			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+
+	public static final RegistryObject<Item> FOUNDATION_X_SHACHI_MEDAL = ITEMS.register("foundation_x_shachi_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_shachi","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.WATER_BREATHING, 400, 0,true,false),
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false))
+			.ChangeSlot(1).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> FOUNDATION_X_UNAGI_MEDAL = ITEMS.register("foundation_x_unagi_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_unagi","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.REGENERATION, 40, 0,true,false))
+			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> FOUNDATION_X_TAKO_MEDAL = ITEMS.register("foundation_x_tako_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_tako","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 400, 0,true,false))
+			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	
+	
+	public static final RegistryObject<Item> ZEUS_TAKA_MEDAL = ITEMS.register("zeus_taka_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_taka","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
+			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> ZEUS_KUJAKU_MEDAL = ITEMS.register("zeus_kujaku_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kujaku","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> ZEUS_CONDOR_MEDAL = ITEMS.register("zeus_condor_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_condor","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	
+	public static final RegistryObject<Item> ZEUS_LION_MEDAL = ITEMS.register("zeus_lion_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_lion","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
+			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> ZEUS_TORA_MEDAL = ITEMS.register("zeus_tora_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_tora","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> ZEUS_CHEETAH_MEDAL = ITEMS.register("zeus_cheetah_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_cheetah","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	
+	public static final RegistryObject<Item> ZEUS_KUWAGATA_MEDAL = ITEMS.register("zeus_kuwagata_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kuwagata","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
+			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> ZEUS_KAMAKIRI_MEDAL = ITEMS.register("zeus_kamakiri_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kamakiri","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> ZEUS_BATTA_MEDAL = ITEMS.register("zeus_batta_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_batta","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	
+	public static final RegistryObject<Item> ZEUS_SAI_MEDAL = ITEMS.register("zeus_sai_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_sai","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 1,true,false))
+			.ChangeSlot(1).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> ZEUS_GORILLA_MEDAL = ITEMS.register("zeus_gorilla_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_gorilla","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 1,true,false))
+			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> ZEUS_ZOU_MEDAL = ITEMS.register("zeus_zou_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_zou","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 1,true,false))
+			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+
+	public static final RegistryObject<Item> ZEUS_SHACHI_MEDAL = ITEMS.register("zeus_shachi_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_shachi","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.WATER_BREATHING, 400, 0,true,false),
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false))
+			.ChangeSlot(1).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> ZEUS_UNAGI_MEDAL = ITEMS.register("zeus_unagi_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_unagi","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.REGENERATION, 40, 0,true,false))
+			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> ZEUS_TAKO_MEDAL = ITEMS.register("zeus_tako_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_tako","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 400, 0,true,false))
+			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	
+	public static final RegistryObject<Item> ZEUS_PTERA_MEDAL = ITEMS.register("zeus_ptera_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_ptera","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false))
+			.ChangeSlot(1).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> ZEUS_TRICERA_MEDAL = ITEMS.register("zeus_tricera_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_tricera","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40	, 3,true,false))
+			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> ZEUS_TYRANNO_MEDAL = ITEMS.register("zeus_tyranno_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_tyranno","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false))
+			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	
+	public static final RegistryObject<Item> ZEUS_MUKADE_MEDAL = ITEMS.register("zeus_mukade_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_mukade","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false))
+			.ChangeSlot(1).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> ZEUS_HACHI_MEDAL = ITEMS.register("zeus_hachi_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_hachi","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false))
+			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> ZEUS_ARI_MEDAL = ITEMS.register("zeus_ari_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_ari","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false))
+			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	
+	public static final RegistryObject<Item> X_MEDAL = ITEMS.register("x_medal",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> AMAZON_MEDAL = ITEMS.register("amazon_medal",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> STRONGER_MEDAL = ITEMS.register("stronger_medal",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	
+	public static final RegistryObject<Item> HABATAKI_MEDAL = ITEMS.register("habataki_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_habataki","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false))
+			.ChangeSlot(1).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> TAIGA_MEDAL = ITEMS.register("taiga_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_taiga","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false))
+			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> ICHIGO_MEDAL = ITEMS.register("ichigo_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_ichigo","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false))
+			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	
+	public static final RegistryObject<Item> IMAGIN_MEDAL = ITEMS.register("imagin_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_imagin","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 400, 0,true,false))
+			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> SHOCKER_MEDAL = ITEMS.register("shocker_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_shocker","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false))
+			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	
+	
+	
+	/**	
     shocker
 	gel_shocker_core
 	destron_core
