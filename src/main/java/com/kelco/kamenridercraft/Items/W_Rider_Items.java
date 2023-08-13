@@ -480,6 +480,8 @@ public class W_Rider_Items {
 	public static final RegistryObject<Item> UNREFINED_MEMORY_T2 = ITEMS.register("unrefined_memory_t2",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
+    public static final RegistryObject<Item> W_LOGO = ITEMS.register("w_logo",
+    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
 
 	public static void register(IEventBus eventBus) {

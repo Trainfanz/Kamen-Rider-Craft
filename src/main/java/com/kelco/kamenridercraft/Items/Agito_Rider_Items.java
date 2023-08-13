@@ -238,6 +238,9 @@ public class Agito_Rider_Items {
 	public static final RegistryObject<SwordItem> RESENTMENT_DU_SANGA = ITEMS.register("el_of_the_water_staff",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.AGITO_TAB_ITEM).ChangeRepairItem(SEED_OF_AGITO.get()));
 
+    public static final RegistryObject<Item> AGITO_LOGO = ITEMS.register("agito_logo",
+    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AGITO_TAB_ITEM));
+
     
 	public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);

@@ -3,6 +3,7 @@ package com.kelco.kamenridercraft.Items;
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseBlasterItem;
+import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseSwordItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderArmorItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderDriverItem;
@@ -130,7 +131,10 @@ public class Faiz_Rider_Items {
 	
 	public static final RegistryObject<Item> SMARTBUCKLE = ITEMS.register("smartbuckle",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"riotrooper",BLANK_MISSION_MEMORY ,FAIZHELMET, FAIZCHESTPLATE, FAIZLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
-	
+
+    public static final RegistryObject<Item> FAIZ_LOGO = ITEMS.register("faiz_logo",
+    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM));
+
 	public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);
 	}

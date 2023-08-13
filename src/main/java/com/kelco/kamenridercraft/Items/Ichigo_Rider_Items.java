@@ -152,6 +152,9 @@ public class Ichigo_Rider_Items {
 	    
 	    public static final RegistryObject<Item> NOPHOON_KAMEN_NORIDER = ITEMS.register("nophoon_kamen_norider",
 	            () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"kamen_norider",NOPHOON_CORE ,ICHIGOHELMET, ICHIGOCHESTPLATE,ICHIGOLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
+
+	    public static final RegistryObject<Item> KAMEN_RIDER_LOGO = ITEMS.register("kamen_rider_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
 	    
 	    
 	    //V3
@@ -188,6 +191,10 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> RIDERMAN_BELT = ITEMS.register("riderman_belt",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"riderman",RIDERMAN_BELT_CORE ,V3HELMET,V3CHESTPLATE,V3LEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.V3_TAB_ITEM));
 
+	    public static final RegistryObject<Item> V3_LOGO = ITEMS.register("v3_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.V3_TAB_ITEM));
+	    public static final RegistryObject<Item> RIDERMAN_LOGO = ITEMS.register("riderman_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.V3_TAB_ITEM));
 
 	    //X
 	    
@@ -209,6 +216,9 @@ public class Ichigo_Rider_Items {
 	 
 	    public static final RegistryObject<Item> RIDOL = ITEMS.register("ridol",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"x",RIDOL_CORE ,XHELMET,XCHESTPLATE,XLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.X_TAB_ITEM));
+
+	    public static final RegistryObject<Item> X_LOGO = ITEMS.register("x_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.X_TAB_ITEM));
 
 		//Amazon
 	    
@@ -232,7 +242,10 @@ public class Ichigo_Rider_Items {
 	    
 	    public static final RegistryObject<Item> GAGA_ARMLET = ITEMS.register("gaga_armlet",
 	    		  () -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
-	    
+
+	    public static final RegistryObject<Item> AMAZON_LOGO = ITEMS.register("amazon_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
+
 	    
 	    //Stronger
 	    public static final RegistryObject<Item> STRONGERHELMET = ITEMS.register("strongerhead",
@@ -264,6 +277,9 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> TACKLE_BELT = ITEMS.register("tackle_belt",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"tackle",TACKLE_CORE ,STRONGERHELMET,STRONGERCHESTPLATE,STRONGERLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
 
+	    public static final RegistryObject<Item> STRONGER_LOGO = ITEMS.register("stronger_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
+
 	    
 	    //Skyrider    
 	    public static final RegistryObject<Item> SKYRIDERHELMET = ITEMS.register("skyriderhead",
@@ -282,6 +298,9 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> TORNADO = ITEMS.register("tornado",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"skyrider",TORNADO_CORE ,SKYRIDERHELMET,SKYRIDERCHESTPLATE,SKYRIDERLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.SKYRIDER_TAB_ITEM));
 
+	    public static final RegistryObject<Item> SKYRIDER_LOGO = ITEMS.register("skyrider_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.SKYRIDER_TAB_ITEM));
+
 	    //Super 1
 	    public static final RegistryObject<Item> SUPER1HELMET = ITEMS.register("super_1head",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.SUPER1_TAB_ITEM));
@@ -297,6 +316,9 @@ public class Ichigo_Rider_Items {
 
 	    public static final RegistryObject<Item> CYCLODE = ITEMS.register("cyclode",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"super_1",CYCLODE_CORE ,SUPER1HELMET,SUPER1CHESTPLATE,SUPER1LEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.SUPER1_TAB_ITEM));
+
+	    public static final RegistryObject<Item> SUPER_1_LOGO = ITEMS.register("super_1_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.SUPER1_TAB_ITEM));
 
 	    
 	    //ZX
@@ -324,7 +346,10 @@ public class Ichigo_Rider_Items {
 
 	    public static final RegistryObject<Item> AMATERASU_BELT = ITEMS.register("amaterasu_belt",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"amaterasu_zx",ZX_BELT_CORE ,ZXHELMET,ZXCHESTPLATE,ZXLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.ZX_TAB_ITEM));
-	    
+
+	    public static final RegistryObject<Item> ZX_LOGO = ITEMS.register("zx_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.ZX_TAB_ITEM));
+
 	    
 	    //Black
 	   
@@ -368,7 +393,10 @@ public class Ichigo_Rider_Items {
 
 	    public static final RegistryObject<Item> SHADOW_CHARGER = ITEMS.register("shadow_charger",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"shadow_moon",GREEN_KING_STONE ,BLACKHELMET,BLACKCHESTPLATE,BLACKLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
- 
+
+	    public static final RegistryObject<Item> BLACK_LOGO = ITEMS.register("black_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
+
 	    
 	    //Black RX
 	    public static final RegistryObject<SwordItem> REVOLCANE = ITEMS.register("revolcane",
@@ -422,7 +450,10 @@ public class Ichigo_Rider_Items {
     
 	    public static final RegistryObject<Item> MOON_RISER = ITEMS.register("moon_riser",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"white_rx",MOON_RX_CORE ,RXHELMET,RXCHESTPLATE,RXLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
- 
+
+	    public static final RegistryObject<Item> BLACK_RX_LOGO = ITEMS.register("black_rx_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+
 	    // Shin
 	   
 	    public static final RegistryObject<Item> SHINHELMET = ITEMS.register("shinhead",
@@ -439,7 +470,10 @@ public class Ichigo_Rider_Items {
 
 	    public static final RegistryObject<Item> GRASSHOPPER_DNA = ITEMS.register("grasshopper_dna",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"shin",SHIN_STONE ,SHINHELMET,SHINCHESTPLATE,SHINLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.SHIN_TAB_ITEM));
-	    
+
+	    public static final RegistryObject<Item> SHIN_LOGO = ITEMS.register("shin_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.SHIN_TAB_ITEM));
+
 	    // J
 	    public static final RegistryObject<Item> JHELMET = ITEMS.register("jhead",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.J_TAB_ITEM));
@@ -455,7 +489,10 @@ public class Ichigo_Rider_Items {
 
 	    public static final RegistryObject<Item> J_SPIRIT = ITEMS.register("j_spirit",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"j",J_STONE ,JHELMET,JCHESTPLATE,JLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.J_TAB_ITEM));
-	
+
+	    public static final RegistryObject<Item> J_LOGO = ITEMS.register("j_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.J_TAB_ITEM));
+
 	    // ZO
 	    public static final RegistryObject<Item> ZOHELMET = ITEMS.register("zohead",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.ZO_TAB_ITEM));
@@ -471,6 +508,9 @@ public class Ichigo_Rider_Items {
 
 	    public static final RegistryObject<Item> ZO_CORE = ITEMS.register("zo_core",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"zo",ZO_STONE ,ZOHELMET,ZOCHESTPLATE,ZOLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.ZO_TAB_ITEM));
+
+	    public static final RegistryObject<Item> ZO_LOGO = ITEMS.register("zo_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.ZO_TAB_ITEM));
 
 	    
 	    
