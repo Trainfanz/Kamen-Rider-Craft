@@ -1,16 +1,9 @@
-buildscript {
-        repositories {
-                maven { url = 'https://repo.spongepowered.org/repository/maven-public/' }
-        }
-}
-
 plugins {
     id 'eclipse'
     id 'maven-publish'
-    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+    id 'net.minecraftforge.gradle' version '5.1.+'
 	id 'org.spongepowered.mixin' version '0.7.+'
 }
-
 
 version = '1.0'
 group = 'com.kelco.kamenridercraft'
@@ -72,12 +65,15 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-    maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
+     maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
+
 }
 
 dependencies {
-    minecraft "net.minecraftforge:forge:1.20.1-47.1.43"
-	implementation fg.deobf("software.bernie.geckolib:geckolib-forge-1.20.1:4.2.1")
+       minecraft 'net.minecraftforge:forge:1.20.1-47.1.43'
+       
+      implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.20.1:4.2.1')
+       
 }
 
 jar {
@@ -85,7 +81,7 @@ jar {
         attributes([
                 "Specification-Title"     : "Kamen Rider Craft",
                 "Specification-Vendor"    : "Kelco",
-                "Specification-Version"   : "1", // We are version 1 of ourselves
+                "Specification-Version"   : "0.1", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
                 "Implementation-Vendor"   : "Kelco",

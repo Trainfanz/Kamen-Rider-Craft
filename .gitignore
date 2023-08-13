@@ -1,14 +1,25 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
 
-out/
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
 
-run/
+# gradle
+build
+.gradle
 
-\.idea/
+# other
+eclipse
+run
 
-\.gradle/
-
-build/
-src/main/resources/assets/kamenridercraft4th/textures/items/tajador_wings.png
-src/main/resources/assets/kamenridercraft4th/textures/items/tajador_wings.png
-src/main/resources/assets/kamenridercraft4th/textures/items/condor_wings.png
-src/main/java/Kamen_Rider_Craft_4TH/item/W/item_Wdriver.java
+# Files from Forge MDK
+forge*changelog.txt
