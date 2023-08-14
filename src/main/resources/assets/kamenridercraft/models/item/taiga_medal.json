@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "kamenridercraft:items/taiga_medal"
+        "layer0": "kamenridercraft4th:item/taiga_medal"
     }
 }
