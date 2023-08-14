@@ -32,35 +32,6 @@ public class Faiz_Rider_Items {
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).AddToTabList(RiderTabs.FAIZ_TAB_ITEM));
 
 	
-	public static final RegistryObject<SwordItem> FAIZ_EDGE = ITEMS.register("faiz_edge",
-			() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
-	public static final RegistryObject<BaseBlasterItem> FAIZ_BLASTER = ITEMS.register("faiz_blaster",
-			() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
-	
-	public static final RegistryObject<SwordItem> KAIXA_BLAYGUN = ITEMS.register("kaixa_blaygun",
-			() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
-	
-		
-	public static final RegistryObject<BaseBlasterItem> DELTA_BLASTER = ITEMS.register("delta_blaster",
-			() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
-		
-	public static final RegistryObject<SwordItem> PSYGA_TONFA_EDGE = ITEMS.register("psyga_tonfa_edge",
-			() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
-	   
-	public static final RegistryObject<SwordItem> ORGA_STLANZER = ITEMS.register("orga_stlanzer",
-			() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
-
-	public static final RegistryObject<SwordItem> AXEL_RAY_GUN = ITEMS.register("axel_ray_gun",
-			() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
-
-	public static final RegistryObject<Item> FAIZHELMET = ITEMS.register("faizhead",
-			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
-	public static final RegistryObject<Item> FAIZCHESTPLATE = ITEMS.register("faiztroso",
-			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
-	public static final RegistryObject<Item> FAIZLEGGINGS = ITEMS.register("faizlegs",
-			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
-	 
-	
 	public static final RegistryObject<Item> FAIZ_MISSION_MEMORY = ITEMS.register("faiz_mission_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","faiz","faiz_driver_belt",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
@@ -85,6 +56,17 @@ public class Faiz_Rider_Items {
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
 					new MobEffectInstance(Effect_core.FLYING.get(), 40, 1,true,false)).AddToTabList(RiderTabs.FAIZ_TAB_ITEM));
 	    
+	public static final RegistryObject<Item> FAIZ_GOLD_BLASTER_MISSION_MEMORY = ITEMS.register("faiz_gold_blaster_mission_memory",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_gold_blaster","faiz","faiz_driver_belt_g_b",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false),
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 3,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
+					new MobEffectInstance(Effect_core.FLYING.get(), 40, 1,true,false)).AddToTabList(RiderTabs.FAIZ_TAB_ITEM));
+	    
+	
 	public static final RegistryObject<Item> KAIXA_MISSION_MEMORY = ITEMS.register("kaixa_mission_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","kaixa","kaixa_driver_belt",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),
@@ -113,6 +95,13 @@ public class Faiz_Rider_Items {
 					new MobEffectInstance(MobEffects.REGENERATION, 40, 0,true,false),
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).AddToTabList(RiderTabs.FAIZ_TAB_ITEM));
 	        
+	public static final RegistryObject<Item> FAIZHELMET = ITEMS.register("faizhead",
+			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
+	public static final RegistryObject<Item> FAIZCHESTPLATE = ITEMS.register("faiztroso",
+			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
+	public static final RegistryObject<Item> FAIZLEGGINGS = ITEMS.register("faizlegs",
+			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
+	 
 	
 	public static final RegistryObject<Item> FAIZ_DRIVER = ITEMS.register("faiz_driver",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"faiz",FAIZ_MISSION_MEMORY ,FAIZHELMET, FAIZCHESTPLATE, FAIZLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
@@ -132,6 +121,28 @@ public class Faiz_Rider_Items {
 	public static final RegistryObject<Item> SMARTBUCKLE = ITEMS.register("smartbuckle",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"riotrooper",BLANK_MISSION_MEMORY ,FAIZHELMET, FAIZCHESTPLATE, FAIZLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
 
+	public static final RegistryObject<SwordItem> FAIZ_EDGE = ITEMS.register("faiz_edge",
+			() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
+	public static final RegistryObject<BaseBlasterItem> FAIZ_BLASTER = ITEMS.register("faiz_blaster",
+			() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
+	
+	public static final RegistryObject<SwordItem> KAIXA_BLAYGUN = ITEMS.register("kaixa_blaygun",
+			() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
+	
+		
+	public static final RegistryObject<BaseBlasterItem> DELTA_BLASTER = ITEMS.register("delta_blaster",
+			() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
+		
+	public static final RegistryObject<SwordItem> PSYGA_TONFA_EDGE = ITEMS.register("psyga_tonfa_edge",
+			() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
+	   
+	public static final RegistryObject<SwordItem> ORGA_STLANZER = ITEMS.register("orga_stlanzer",
+			() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
+
+	public static final RegistryObject<SwordItem> AXEL_RAY_GUN = ITEMS.register("axel_ray_gun",
+			() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
+
+	
     public static final RegistryObject<Item> FAIZ_LOGO = ITEMS.register("faiz_logo",
     		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM));
 
