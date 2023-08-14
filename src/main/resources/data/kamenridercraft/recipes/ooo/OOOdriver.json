@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ooo",
+  "pattern": [
+    "XXX",
+    "ACB",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:cellmedal"
+    }, "C": {
+      "item": "kamenridercraft:tora_medal"
+    }, "A": {
+      "item": "kamenridercraft:taka_medal"
+    }, "B": {
+      "item": "kamenridercraft:batta_medal"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:ooodriver"
+  }
+}

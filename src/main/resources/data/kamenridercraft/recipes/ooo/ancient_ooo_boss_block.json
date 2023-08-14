@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ancient_ooo",
+  "pattern": [
+    "1X2",
+    "ACB",
+    "3X4"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:cellmedal"
+    }, "C": {
+      "item": "kamenridercraft:tora_medal"
+    }, "A": {
+      "item": "kamenridercraft:taka_medal"
+    }, "B": {
+      "item": "kamenridercraft:batta_medal"
+    }, "1": {
+      "item": "kamenridercraft:greeed_blet_kazari"
+    }, "2": {
+      "item": "kamenridercraft:greeed_blet_uva"
+    }, "3": {
+      "item": "kamenridercraft:greeed_blet_gamel"
+    }, "4": {
+      "item": "kamenridercraft:greeed_blet_mezool"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:ancient_ooo_boss_block"
+  }
+}

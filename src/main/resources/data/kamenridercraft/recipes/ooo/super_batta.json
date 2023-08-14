@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "super_medal",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:batta_medal"
+    }, 
+    {
+      "item": "kamenridercraft:cheetah_medal"
+    } , 
+    {
+      "item": "kamenridercraft:zou_medal"
+    } , 
+    {
+      "item": "kamenridercraft:condor_medal"
+    } , 
+    {
+      "item": "kamenridercraft:tako_medal"
+    } , 
+    {
+      "item": "kamenridercraft:tyranno_medal"
+    } , 
+    {
+      "item": "kamenridercraft:wani_medal"
+    } , 
+    {
+      "item": "kamenridercraft:ari_goda_medal"
+    } , 
+    {
+      "item": "kamenridercraft:sasori_new_medal"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft:super_batta_medal"
+  }
+}

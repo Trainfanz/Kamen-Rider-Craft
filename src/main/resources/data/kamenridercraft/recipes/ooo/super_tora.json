@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "super_medal",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:tora_medal"
+    }, 
+    {
+      "item": "kamenridercraft:kamakiri_medal"
+    } , 
+    {
+      "item": "kamenridercraft:gorilla_medal"
+    } , 
+    {
+      "item": "kamenridercraft:kujaku_medal"
+    } , 
+    {
+      "item": "kamenridercraft:unagi_medal"
+    } , 
+    {
+      "item": "kamenridercraft:tricera_medal"
+    } , 
+    {
+      "item": "kamenridercraft:kame_medal"
+    } , 
+    {
+      "item": "kamenridercraft:hachi_goda_medal"
+    } , 
+    {
+      "item": "kamenridercraft:kani_new_medal"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft:super_tora_medal"
+  }
+}
