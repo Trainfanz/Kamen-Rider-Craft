@@ -30,55 +30,24 @@ public class W_Rider_Items {
 
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, KamenRiderCraftCore.MODID);
 
+	public static final RegistryObject<Item> W_LOGO = ITEMS.register("w_logo",
+    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+
 	public static final RegistryObject<Item> GAIA_MEMORY = ITEMS.register("gaiamemory",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
-	
-	 public static final RegistryObject<BaseBlasterItem> TRIGGER_MAGNUM = ITEMS.register("trigger_magnum",
-	            () -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+	public static final RegistryObject<Item> UNREFINED_MEMORY_G = ITEMS.register("unrefined_memory_g",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
-	 public static final RegistryObject<BaseSwordItem> METAL_SHAFT = ITEMS.register("metal_shaft",
-	            () -> new MetalShaftItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
+	public static final RegistryObject<Item> UNREFINED_MEMORY_S = ITEMS.register("unrefined_memory_s",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
-	 
-	 public static final RegistryObject<SwordItem> PRISM_BICKER = ITEMS.register("prism_bicker",
-	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
-	
-	 
-	 public static final RegistryObject<ShieldItem> SHIELD_PRISM_BICKER = ITEMS.register("shield_prism_bicker",
-	            () -> new BaseShieldItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
-	
-	 
-	//prism_bicker
-	//shield_prism_bicker
-	
-	
-	 public static final RegistryObject<SwordItem> ETERNAL_EDGE = ITEMS.register("eternal_edge",
-	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
-	 
-	 public static final RegistryObject<BaseBlasterItem> SKILL_MAGNUM = ITEMS.register("skull_magnum",
-	            () -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
-
-	 public static final RegistryObject<SwordItem> ENGINE_BLADE = ITEMS.register("engine_blade",
-	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
-
-	 public static final RegistryObject<BaseBlasterItem> BOMB_MAGNUM = ITEMS.register("bomb_magnum",
-	            () -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
-
-	 public static final RegistryObject<SwordItem> NASCA_BLADE = ITEMS.register("nasca_blade",
-	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
+	public static final RegistryObject<Item> UNREFINED_MEMORY_T2 = ITEMS.register("unrefined_memory_t2",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
 	
-	public static final RegistryObject<Item> WHELMET = ITEMS.register("whead",
-			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
-	public static final RegistryObject<Item> WCHESTPLATE = ITEMS.register("wtroso",
-			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
-	public static final RegistryObject<Item> WLEGGINGS = ITEMS.register("wlegs",
-			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
-
-
-
-	public static final RegistryObject<Item> CYCLONE_MEMORY = ITEMS.register("cyclone_memory",
+    public static final RegistryObject<Item> CYCLONE_MEMORY = ITEMS.register("cyclone_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_cyclone","w","wdriver_belt",
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
@@ -444,6 +413,17 @@ public class W_Rider_Items {
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
 
+	public static final RegistryObject<Item> AKIKO_NO_SLIPPER = ITEMS.register("akiko_no_slipper",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	
+	public static final RegistryObject<Item> WHELMET = ITEMS.register("whead",
+			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
+	public static final RegistryObject<Item> WCHESTPLATE = ITEMS.register("wtroso",
+			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
+	public static final RegistryObject<Item> WLEGGINGS = ITEMS.register("wlegs",
+			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
+
 
 	public static final RegistryObject<Item> WDRIVER = ITEMS.register("wdriver",
 			() -> new WDriverItem(ArmorMaterials.DIAMOND,"w",CYCLONE_MEMORY ,WHELMET,WCHESTPLATE,WLEGGINGS , new Item.Properties())
@@ -466,22 +446,35 @@ public class W_Rider_Items {
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"eternal",ETERNAL_T2_MEMORY ,WHELMET,WCHESTPLATE,WLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
 
 	
-	public static final RegistryObject<Item> AKIKO_NO_SLIPPER = ITEMS.register("akiko_no_slipper",
-			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+	public static final RegistryObject<BaseBlasterItem> TRIGGER_MAGNUM = ITEMS.register("trigger_magnum",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
-	
-	
-	public static final RegistryObject<Item> UNREFINED_MEMORY_G = ITEMS.register("unrefined_memory_g",
-			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+	public static final RegistryObject<BaseSwordItem> METAL_SHAFT = ITEMS.register("metal_shaft",
+            () -> new MetalShaftItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
 
-	public static final RegistryObject<Item> UNREFINED_MEMORY_S = ITEMS.register("unrefined_memory_s",
-			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+ 
+	public static final RegistryObject<SwordItem> PRISM_BICKER = ITEMS.register("prism_bicker",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
 
-	public static final RegistryObject<Item> UNREFINED_MEMORY_T2 = ITEMS.register("unrefined_memory_t2",
-			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+ 
+	public static final RegistryObject<ShieldItem> SHIELD_PRISM_BICKER = ITEMS.register("shield_prism_bicker",
+            () -> new BaseShieldItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
 
-    public static final RegistryObject<Item> W_LOGO = ITEMS.register("w_logo",
-    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+	public static final RegistryObject<SwordItem> ETERNAL_EDGE = ITEMS.register("eternal_edge",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
+ 
+	public static final RegistryObject<BaseBlasterItem> SKILL_MAGNUM = ITEMS.register("skull_magnum",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
+
+	public static final RegistryObject<SwordItem> ENGINE_BLADE = ITEMS.register("engine_blade",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
+
+	public static final RegistryObject<BaseBlasterItem> BOMB_MAGNUM = ITEMS.register("bomb_magnum",
+			() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
+
+	public static final RegistryObject<SwordItem> NASCA_BLADE = ITEMS.register("nasca_blade",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
 
 
 	public static void register(IEventBus eventBus) {

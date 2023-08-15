@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "g4",
+  "pattern": [
+    "XXX",
+    "XMX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:g3core"
+    },
+    "M": {
+      "item": "kamenridercraft:g4"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:g4_belt"
+  }    
+}

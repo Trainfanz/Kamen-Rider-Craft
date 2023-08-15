@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "g3",
+  "pattern": [
+    "CRC",
+    "RGR",
+    "RIR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:iron_ingot"
+      }, "I": {
+      "item": "kamenridercraft:g3"
+    }, "G": {
+      "item": "kamenridercraft:base_sword"
+    }, "C": {
+      "item": "kamenridercraft:rider_circuit"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:gs_03_destroyer"
+  }
+}

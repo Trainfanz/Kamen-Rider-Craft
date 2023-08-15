@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kr_agito",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:agito_of_seed"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:agitolegs"
+  }
+}

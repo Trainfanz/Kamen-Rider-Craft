@@ -25,27 +25,13 @@ public class Kuuga_Rider_Items {
 
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, KamenRiderCraftCore.MODID);
     
-    public static final RegistryObject<Item> KUUGA_GROWING = ITEMS.register("kuuga_growing",
+	public static final RegistryObject<Item> KUUGA_LOGO = ITEMS.register("kuuga_logo",
+    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.KUUGA_TAB_ITEM));
+
+	public static final RegistryObject<Item> KUUGA_GROWING = ITEMS.register("kuuga_growing",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"_growing","kuuga","arcle_belt",
             		new MobEffectInstance(MobEffects.WEAKNESS, 40, 2,true,false)).AddToTabList(RiderTabs.KUUGA_TAB_ITEM));
 	
-    
-    public static final RegistryObject<SwordItem> DRAGON_ROD = ITEMS.register("dragon_rod",
-            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.KUUGA_TAB_ITEM).ChangeRepairItem(KUUGA_GROWING.get()));
-	public static final RegistryObject<BaseBlasterItem> PEGASUS_BOWGUN = ITEMS.register("pegasus_bowgun",
-	        () -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.KUUGA_TAB_ITEM).ChangeRepairItem(KUUGA_GROWING.get()));
-	public static final RegistryObject<SwordItem> TITAN_SWORD = ITEMS.register("titan_sword",
-	        () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.KUUGA_TAB_ITEM).ChangeRepairItem(KUUGA_GROWING.get()));
-    
-	
-	public static final RegistryObject<Item> KUUGAHELMET = ITEMS.register("kuugahead",
-            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.KUUGA_TAB_ITEM).ChangeRepairItem(KUUGA_GROWING.get()));
-    public static final RegistryObject<Item> KUUGACHESTPLATE = ITEMS.register("kuugatroso",
-            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.KUUGA_TAB_ITEM).ChangeRepairItem(KUUGA_GROWING.get()));
-    public static final RegistryObject<Item> KUUGALEGGINGS = ITEMS.register("kuugalegs",
-            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.KUUGA_TAB_ITEM).ChangeRepairItem(KUUGA_GROWING.get()));
-    
-    
     public static final RegistryObject<Item> KUUGA_MIGHTY = ITEMS.register("kuuga_mighty",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"","kuuga","arcle_belt",
             		new MobEffectInstance(Effect_core.PUNCH.get(), 40, 2,true,false)).AddToTabList(RiderTabs.KUUGA_TAB_ITEM));
@@ -126,12 +112,24 @@ public class Kuuga_Rider_Items {
             		new MobEffectInstance(Effect_core.PUNCH.get(), 40, 6,true,false)).AddToTabList(RiderTabs.KUUGA_TAB_ITEM));
 
     
+    public static final RegistryObject<Item> KUUGAHELMET = ITEMS.register("kuugahead",
+            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.KUUGA_TAB_ITEM).ChangeRepairItem(KUUGA_GROWING.get()));
+    public static final RegistryObject<Item> KUUGACHESTPLATE = ITEMS.register("kuugatroso",
+            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.KUUGA_TAB_ITEM).ChangeRepairItem(KUUGA_GROWING.get()));
+    public static final RegistryObject<Item> KUUGALEGGINGS = ITEMS.register("kuugalegs",
+            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.KUUGA_TAB_ITEM).ChangeRepairItem(KUUGA_GROWING.get()));
+    
     public static final RegistryObject<Item> ARCLE = ITEMS.register("arcle",
     		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"kuuga",KUUGA_MIGHTY ,KUUGAHELMET, KUUGACHESTPLATE,KUUGALEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.KUUGA_TAB_ITEM).ChangeRepairItem(KUUGA_GROWING.get()));
 
-    public static final RegistryObject<Item> KUUGA_LOGO = ITEMS.register("kuuga_logo",
-    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.KUUGA_TAB_ITEM));
-
+    public static final RegistryObject<SwordItem> DRAGON_ROD = ITEMS.register("dragon_rod",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.KUUGA_TAB_ITEM).ChangeRepairItem(KUUGA_GROWING.get()));
+	public static final RegistryObject<BaseBlasterItem> PEGASUS_BOWGUN = ITEMS.register("pegasus_bowgun",
+	        () -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.KUUGA_TAB_ITEM).ChangeRepairItem(KUUGA_GROWING.get()));
+	public static final RegistryObject<SwordItem> TITAN_SWORD = ITEMS.register("titan_sword",
+	        () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.KUUGA_TAB_ITEM).ChangeRepairItem(KUUGA_GROWING.get()));
+    
+	
 	public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);
 	}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "another_agito_burning",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:another_agito"
+    }, 
+    {
+      "item": "kamenridercraft:agito_burning"
+    }
+    ],
+  "result": {
+    "item": "kamenridercraft:another_agito_burning_form"
+  }
+}

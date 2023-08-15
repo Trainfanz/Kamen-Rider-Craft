@@ -25,15 +25,10 @@ public class Ichigo_Rider_Items {
 	
 	  public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, KamenRiderCraftCore.MODID);
 	    	     
-	    public static final RegistryObject<Item> ICHIGOHELMET = ITEMS.register("ichigohead",
-	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
-	    public static final RegistryObject<Item> ICHIGOCHESTPLATE = ITEMS.register("ichigotroso",
-	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
-	    public static final RegistryObject<Item> ICHIGOLEGGINGS = ITEMS.register("ichigolegs",
-	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
+	    public static final RegistryObject<Item> KAMEN_RIDER_LOGO = ITEMS.register("kamen_rider_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
 	    
 	    
-
 	    public static final RegistryObject<Item> TYPHOON_CORE = ITEMS.register("typhoon_core",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","ichigo","typhoon_belt",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
@@ -91,6 +86,15 @@ public class Ichigo_Rider_Items {
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
 	            		,new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
 	
+
+	    public static final RegistryObject<Item> ICHIGOHELMET = ITEMS.register("ichigohead",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
+	    public static final RegistryObject<Item> ICHIGOCHESTPLATE = ITEMS.register("ichigotroso",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
+	    public static final RegistryObject<Item> ICHIGOLEGGINGS = ITEMS.register("ichigolegs",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
+	    
+	    
 
 	    public static final RegistryObject<Item> TYPHOON_ICHIGO = ITEMS.register("typhoon_ichigo",
 	           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"ichigo",TYPHOON_CORE ,ICHIGOHELMET, ICHIGOCHESTPLATE,ICHIGOLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
@@ -153,20 +157,12 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> NOPHOON_KAMEN_NORIDER = ITEMS.register("nophoon_kamen_norider",
 	            () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"kamen_norider",NOPHOON_CORE ,ICHIGOHELMET, ICHIGOCHESTPLATE,ICHIGOLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
 
-	    public static final RegistryObject<Item> KAMEN_RIDER_LOGO = ITEMS.register("kamen_rider_logo",
-	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
-	    
-	    
 	    //V3
 	    
-	    public static final RegistryObject<Item> V3HELMET = ITEMS.register("v3head",
-	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.V3_TAB_ITEM));
-	    public static final RegistryObject<Item> V3CHESTPLATE = ITEMS.register("v3troso",
-	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.V3_TAB_ITEM));
-	    public static final RegistryObject<Item> V3LEGGINGS = ITEMS.register("v3legs",
-	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.V3_TAB_ITEM));
-	    
-	    
+	    public static final RegistryObject<Item> V3_LOGO = ITEMS.register("v3_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.V3_TAB_ITEM));
+	    public static final RegistryObject<Item> RIDERMAN_LOGO = ITEMS.register("riderman_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.V3_TAB_ITEM));
 
 	    public static final RegistryObject<Item> DOUBLE_TYPHOON_CORE = ITEMS.register("double_typhoon_core",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","v3","double_typhoon_belt",
@@ -183,24 +179,29 @@ public class Ichigo_Rider_Items {
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.REGENERATION,200, 0,true,false)
 	            		,new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false)).AddToTabList(RiderTabs.V3_TAB_ITEM));
 
+	    public static final RegistryObject<Item> V3HELMET = ITEMS.register("v3head",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.V3_TAB_ITEM));
+	    public static final RegistryObject<Item> V3CHESTPLATE = ITEMS.register("v3troso",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.V3_TAB_ITEM));
+	    public static final RegistryObject<Item> V3LEGGINGS = ITEMS.register("v3legs",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.V3_TAB_ITEM));
 	    
 	    public static final RegistryObject<Item> DOUBLE_TYPHOON = ITEMS.register("double_typhoon",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"v3",DOUBLE_TYPHOON_CORE ,V3HELMET,V3CHESTPLATE,V3LEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.V3_TAB_ITEM));
 
-
 	    public static final RegistryObject<Item> RIDERMAN_BELT = ITEMS.register("riderman_belt",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"riderman",RIDERMAN_BELT_CORE ,V3HELMET,V3CHESTPLATE,V3LEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.V3_TAB_ITEM));
 
-	    public static final RegistryObject<Item> V3_LOGO = ITEMS.register("v3_logo",
-	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.V3_TAB_ITEM));
-	    public static final RegistryObject<Item> RIDERMAN_LOGO = ITEMS.register("riderman_logo",
-	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.V3_TAB_ITEM));
-
 	    //X
 	    
-	    public static final RegistryObject<SwordItem> RIDOL_STICK = ITEMS.register("ridol_stick",
-	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.X_TAB_ITEM));
-	    
+	    public static final RegistryObject<Item> X_LOGO = ITEMS.register("x_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.X_TAB_ITEM));
+
+		public static final RegistryObject<Item> RIDOL_CORE = ITEMS.register("ridol_core",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","x","ridol_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.REGENERATION,200, 0,true,false)
+	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).AddToTabList(RiderTabs.X_TAB_ITEM));
+	 
 	    public static final RegistryObject<Item> XHELMET = ITEMS.register("xhead",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.X_TAB_ITEM));
 	    public static final RegistryObject<Item> XCHESTPLATE = ITEMS.register("xtroso",
@@ -208,20 +209,29 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> XLEGGINGS = ITEMS.register("xlegs",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.X_TAB_ITEM));
 
-
-	    public static final RegistryObject<Item> RIDOL_CORE = ITEMS.register("ridol_core",
-	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","x","ridol_belt",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.REGENERATION,200, 0,true,false)
-	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).AddToTabList(RiderTabs.X_TAB_ITEM));
-	 
 	    public static final RegistryObject<Item> RIDOL = ITEMS.register("ridol",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"x",RIDOL_CORE ,XHELMET,XCHESTPLATE,XLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.X_TAB_ITEM));
 
-	    public static final RegistryObject<Item> X_LOGO = ITEMS.register("x_logo",
-	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.X_TAB_ITEM));
-
-		//Amazon
+	    public static final RegistryObject<SwordItem> RIDOL_STICK = ITEMS.register("ridol_stick",
+	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.X_TAB_ITEM));
 	    
+	    //Amazon
+	    
+	    public static final RegistryObject<Item> AMAZON_LOGO = ITEMS.register("amazon_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
+
+	    
+	    public static final RegistryObject<Item> CONDORER_WHEEL = ITEMS.register("condorer_wheel",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","amazon","condorer_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.REGENERATION,200, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
+	 
+	    public static final RegistryObject<Item> GIGI_ARMLET = ITEMS.register("gigi_armlet",
+	    		  () -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
+	    
+	    public static final RegistryObject<Item> GAGA_ARMLET = ITEMS.register("gaga_armlet",
+	    		  () -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
+
 	    public static final RegistryObject<Item> AMAZONHELMET = ITEMS.register("amazonhead",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
 	    public static final RegistryObject<Item> AMAZONCHESTPLATE = ITEMS.register("amazontroso",
@@ -229,32 +239,14 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> AMAZONLEGGINGS = ITEMS.register("amazonlegs",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
 
-	    public static final RegistryObject<Item> CONDORER_WHEEL = ITEMS.register("condorer_wheel",
-	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","amazon","condorer_belt",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.REGENERATION,200, 1,true,false)
-	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
-	 
 	    public static final RegistryObject<Item> CONDORER = ITEMS.register("condorer",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"amazon",CONDORER_WHEEL ,AMAZONHELMET,AMAZONCHESTPLATE,AMAZONLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
 
-	    public static final RegistryObject<Item> GIGI_ARMLET = ITEMS.register("gigi_armlet",
-	    		  () -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
-	    
-	    public static final RegistryObject<Item> GAGA_ARMLET = ITEMS.register("gaga_armlet",
-	    		  () -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
-
-	    public static final RegistryObject<Item> AMAZON_LOGO = ITEMS.register("amazon_logo",
-	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
-
-	    
 	    //Stronger
-	    public static final RegistryObject<Item> STRONGERHELMET = ITEMS.register("strongerhead",
-	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
-	    public static final RegistryObject<Item> STRONGERCHESTPLATE = ITEMS.register("strongertroso",
-	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
-	    public static final RegistryObject<Item> STRONGERLEGGINGS = ITEMS.register("strongerlegs",
-	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
-	
+	    public static final RegistryObject<Item> STRONGER_LOGO = ITEMS.register("stronger_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
+
+	    
 	    public static final RegistryObject<Item> ELECTRER_CORE = ITEMS.register("electrer_core",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","stronger","electrer_belt",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 1,true,false)
@@ -271,23 +263,22 @@ public class Ichigo_Rider_Items {
 	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
 	 
 	    
+	    public static final RegistryObject<Item> STRONGERHELMET = ITEMS.register("strongerhead",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
+	    public static final RegistryObject<Item> STRONGERCHESTPLATE = ITEMS.register("strongertroso",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
+	    public static final RegistryObject<Item> STRONGERLEGGINGS = ITEMS.register("strongerlegs",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
+	
 	    public static final RegistryObject<Item> ELECTRER = ITEMS.register("electrer",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"stronger",ELECTRER_CORE ,STRONGERHELMET,STRONGERCHESTPLATE,STRONGERLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
 	   
 	    public static final RegistryObject<Item> TACKLE_BELT = ITEMS.register("tackle_belt",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"tackle",TACKLE_CORE ,STRONGERHELMET,STRONGERCHESTPLATE,STRONGERLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
 
-	    public static final RegistryObject<Item> STRONGER_LOGO = ITEMS.register("stronger_logo",
-	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
-
-	    
 	    //Skyrider    
-	    public static final RegistryObject<Item> SKYRIDERHELMET = ITEMS.register("skyriderhead",
-	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.SKYRIDER_TAB_ITEM));
-	    public static final RegistryObject<Item> SKYRIDERCHESTPLATE = ITEMS.register("skyridertroso",
-	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.SKYRIDER_TAB_ITEM));
-	    public static final RegistryObject<Item> SKYRIDERLEGGINGS = ITEMS.register("skyriderlegs",
-	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.SKYRIDER_TAB_ITEM));
+	    public static final RegistryObject<Item> SKYRIDER_LOGO = ITEMS.register("skyrider_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.SKYRIDER_TAB_ITEM));
 
 	    public static final RegistryObject<Item> TORNADO_CORE = ITEMS.register("tornado_core",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","skyrider","tornado_belt",
@@ -295,13 +286,26 @@ public class Ichigo_Rider_Items {
 	            		new MobEffectInstance(MobEffects.JUMP, 40, 5,true,false)).AddToTabList(RiderTabs.SKYRIDER_TAB_ITEM));
 	 
 	    
+	    public static final RegistryObject<Item> SKYRIDERHELMET = ITEMS.register("skyriderhead",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.SKYRIDER_TAB_ITEM));
+	    public static final RegistryObject<Item> SKYRIDERCHESTPLATE = ITEMS.register("skyridertroso",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.SKYRIDER_TAB_ITEM));
+	    public static final RegistryObject<Item> SKYRIDERLEGGINGS = ITEMS.register("skyriderlegs",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.SKYRIDER_TAB_ITEM));
+
 	    public static final RegistryObject<Item> TORNADO = ITEMS.register("tornado",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"skyrider",TORNADO_CORE ,SKYRIDERHELMET,SKYRIDERCHESTPLATE,SKYRIDERLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.SKYRIDER_TAB_ITEM));
 
-	    public static final RegistryObject<Item> SKYRIDER_LOGO = ITEMS.register("skyrider_logo",
-	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.SKYRIDER_TAB_ITEM));
-
 	    //Super 1
+	    public static final RegistryObject<Item> SUPER_1_LOGO = ITEMS.register("super_1_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.SUPER1_TAB_ITEM));
+
+	    
+	    public static final RegistryObject<Item> CYCLODE_CORE = ITEMS.register("cyclode_core",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","super_1","cyclode_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).AddToTabList(RiderTabs.SUPER1_TAB_ITEM));
+
 	    public static final RegistryObject<Item> SUPER1HELMET = ITEMS.register("super_1head",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.SUPER1_TAB_ITEM));
 	    public static final RegistryObject<Item> SUPER1CHESTPLATE = ITEMS.register("super_1troso",
@@ -309,19 +313,19 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> SUPER1LEGGINGS = ITEMS.register("super_1legs",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.SUPER1_TAB_ITEM));
 	
-	    public static final RegistryObject<Item> CYCLODE_CORE = ITEMS.register("cyclode_core",
-	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","super_1","cyclode_belt",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 1,true,false)
-	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).AddToTabList(RiderTabs.SUPER1_TAB_ITEM));
-
 	    public static final RegistryObject<Item> CYCLODE = ITEMS.register("cyclode",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"super_1",CYCLODE_CORE ,SUPER1HELMET,SUPER1CHESTPLATE,SUPER1LEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.SUPER1_TAB_ITEM));
 
-	    public static final RegistryObject<Item> SUPER_1_LOGO = ITEMS.register("super_1_logo",
-	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.SUPER1_TAB_ITEM));
+	    //ZX
+	    public static final RegistryObject<Item> ZX_LOGO = ITEMS.register("zx_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.ZX_TAB_ITEM));
 
 	    
-	    //ZX
+	    public static final RegistryObject<Item> ZX_BELT_CORE = ITEMS.register("zx_belt_core",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","zx","zx_belt_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.REGENERATION,200, 0,true,false)
+	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).AddToTabList(RiderTabs.ZX_TAB_ITEM));
+	 
 	    public static final RegistryObject<Item> ZXHELMET = ITEMS.register("zxhead",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.ZX_TAB_ITEM));
 	    public static final RegistryObject<Item> ZXCHESTPLATE = ITEMS.register("zxtroso",
@@ -330,11 +334,6 @@ public class Ichigo_Rider_Items {
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.ZX_TAB_ITEM));
 
 
-	    public static final RegistryObject<Item> ZX_BELT_CORE = ITEMS.register("zx_belt_core",
-	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","zx","zx_belt_belt",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.REGENERATION,200, 0,true,false)
-	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).AddToTabList(RiderTabs.ZX_TAB_ITEM));
-	 
 	    public static final RegistryObject<Item> ZX_BELT = ITEMS.register("zx_belt",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"zx",ZX_BELT_CORE ,ZXHELMET,ZXCHESTPLATE,ZXLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.ZX_TAB_ITEM));
 
@@ -347,23 +346,13 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> AMATERASU_BELT = ITEMS.register("amaterasu_belt",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"amaterasu_zx",ZX_BELT_CORE ,ZXHELMET,ZXCHESTPLATE,ZXLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.ZX_TAB_ITEM));
 
-	    public static final RegistryObject<Item> ZX_LOGO = ITEMS.register("zx_logo",
-	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.ZX_TAB_ITEM));
-
-	    
 	    //Black
 	   
 	    
-	    public static final RegistryObject<Item> BLACKHELMET = ITEMS.register("blackhead",
-	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
-	    public static final RegistryObject<Item> BLACKCHESTPLATE = ITEMS.register("blacktorso",
-	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
-	    public static final RegistryObject<Item> BLACKLEGGINGS = ITEMS.register("blacklegs",
-	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
-	    
-	    public static final RegistryObject<SwordItem> SATANSABER = ITEMS.register("satansaber",
-	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
+	    public static final RegistryObject<Item> BLACK_LOGO = ITEMS.register("black_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
 
+	    
 	    public static final RegistryObject<Item> RED_KING_STONE = ITEMS.register("red_king_stone",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","black","vital_charger_belt",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
@@ -388,38 +377,25 @@ public class Ichigo_Rider_Items {
 	            .AddToTabList(RiderTabs.BLACK_TAB_ITEM));
 	    	
 	    
+	    public static final RegistryObject<Item> BLACKHELMET = ITEMS.register("blackhead",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
+	    public static final RegistryObject<Item> BLACKCHESTPLATE = ITEMS.register("blacktorso",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
+	    public static final RegistryObject<Item> BLACKLEGGINGS = ITEMS.register("blacklegs",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
+	    
 	    public static final RegistryObject<Item> VITAL_CHARGER = ITEMS.register("vital_charger",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"black",RED_KING_STONE ,BLACKHELMET,BLACKCHESTPLATE,BLACKLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
 
 	    public static final RegistryObject<Item> SHADOW_CHARGER = ITEMS.register("shadow_charger",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"shadow_moon",GREEN_KING_STONE ,BLACKHELMET,BLACKCHESTPLATE,BLACKLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
 
-	    public static final RegistryObject<Item> BLACK_LOGO = ITEMS.register("black_logo",
-	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
+	    public static final RegistryObject<SwordItem> SATANSABER = ITEMS.register("satansaber",
+	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
 
-	    
 	    //Black RX
-	    public static final RegistryObject<SwordItem> REVOLCANE = ITEMS.register("revolcane",
-	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
-	    
-		 public static final RegistryObject<BaseBlasterItem> VORTECHSHOOTER = ITEMS.register("vortech_shooter",
-		            () -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
-		 
-		    public static final RegistryObject<SwordItem> BIOBLADE = ITEMS.register("bio_blade",
-		            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
-	    
-		    public static final RegistryObject<SwordItem> SHADOWSABER = ITEMS.register("shadow_saber",
-		            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
-	
-		    
-		    
-		    
-	    public static final RegistryObject<Item> RXHELMET = ITEMS.register("rxhead",
-	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
-	    public static final RegistryObject<Item> RXCHESTPLATE = ITEMS.register("rxtroso",
-	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
-	    public static final RegistryObject<Item> RXLEGGINGS = ITEMS.register("rxlegs",
-	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+	    public static final RegistryObject<Item> BLACK_RX_LOGO = ITEMS.register("black_rx_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
 
 	    public static final RegistryObject<Item> SPLIT_KING_STONE = ITEMS.register("split_king_stone",
 	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
@@ -445,17 +421,42 @@ public class Ichigo_Rider_Items {
 	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.RX_TAB_ITEM));
 	 
 	    
+	    public static final RegistryObject<Item> RXHELMET = ITEMS.register("rxhead",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+	    public static final RegistryObject<Item> RXCHESTPLATE = ITEMS.register("rxtroso",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+	    public static final RegistryObject<Item> RXLEGGINGS = ITEMS.register("rxlegs",
+	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+
 	    public static final RegistryObject<Item> SUN_RISER = ITEMS.register("sun_riser",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"black_rx",RX_CORE ,RXHELMET,RXCHESTPLATE,RXLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
     
 	    public static final RegistryObject<Item> MOON_RISER = ITEMS.register("moon_riser",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"white_rx",MOON_RX_CORE ,RXHELMET,RXCHESTPLATE,RXLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
-
-	    public static final RegistryObject<Item> BLACK_RX_LOGO = ITEMS.register("black_rx_logo",
-	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
-
+	    
+	    
+	    public static final RegistryObject<SwordItem> REVOLCANE = ITEMS.register("revolcane",
+	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+	    
+		public static final RegistryObject<BaseBlasterItem> VORTECHSHOOTER = ITEMS.register("vortech_shooter",
+		        () -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+		 
+		public static final RegistryObject<SwordItem> BIOBLADE = ITEMS.register("bio_blade",
+		        () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+	    
+		public static final RegistryObject<SwordItem> SHADOWSABER = ITEMS.register("shadow_saber",
+		        () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+	
 	    // Shin
 	   
+	    public static final RegistryObject<Item> SHIN_LOGO = ITEMS.register("shin_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.SHIN_TAB_ITEM));
+
+	    public static final RegistryObject<Item> SHIN_STONE = ITEMS.register("shin_stone",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","shin","blank",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.SHIN_TAB_ITEM).KeepItem());
+
 	    public static final RegistryObject<Item> SHINHELMET = ITEMS.register("shinhead",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.SHIN_TAB_ITEM));
 	    public static final RegistryObject<Item> SHINCHESTPLATE = ITEMS.register("shintroso",
@@ -463,18 +464,18 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> SHINLEGGINGS = ITEMS.register("shinlegs",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.SHIN_TAB_ITEM));
 	    
-	    public static final RegistryObject<Item> SHIN_STONE = ITEMS.register("shin_stone",
-	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","shin","blank",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.SHIN_TAB_ITEM).KeepItem());
-
 	    public static final RegistryObject<Item> GRASSHOPPER_DNA = ITEMS.register("grasshopper_dna",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"shin",SHIN_STONE ,SHINHELMET,SHINCHESTPLATE,SHINLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.SHIN_TAB_ITEM));
 
-	    public static final RegistryObject<Item> SHIN_LOGO = ITEMS.register("shin_logo",
-	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.SHIN_TAB_ITEM));
-
 	    // J
+	    public static final RegistryObject<Item> J_LOGO = ITEMS.register("j_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.J_TAB_ITEM));
+
+	    public static final RegistryObject<Item> J_STONE = ITEMS.register("j_stone",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","j","blank",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.J_TAB_ITEM).KeepItem());
+
 	    public static final RegistryObject<Item> JHELMET = ITEMS.register("jhead",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.J_TAB_ITEM));
 	    public static final RegistryObject<Item> JCHESTPLATE = ITEMS.register("jtroso",
@@ -482,18 +483,18 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> JLEGGINGS = ITEMS.register("jlegs",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.J_TAB_ITEM));
 
-	    public static final RegistryObject<Item> J_STONE = ITEMS.register("j_stone",
-	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","j","blank",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.J_TAB_ITEM).KeepItem());
-
 	    public static final RegistryObject<Item> J_SPIRIT = ITEMS.register("j_spirit",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"j",J_STONE ,JHELMET,JCHESTPLATE,JLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.J_TAB_ITEM));
 
-	    public static final RegistryObject<Item> J_LOGO = ITEMS.register("j_logo",
-	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.J_TAB_ITEM));
-
 	    // ZO
+	    public static final RegistryObject<Item> ZO_LOGO = ITEMS.register("zo_logo",
+	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.ZO_TAB_ITEM));
+
+	    public static final RegistryObject<Item> ZO_STONE = ITEMS.register("zo_stone",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","zo","blank",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.ZO_TAB_ITEM).KeepItem());
+
 	    public static final RegistryObject<Item> ZOHELMET = ITEMS.register("zohead",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.ZO_TAB_ITEM));
 	    public static final RegistryObject<Item> ZOCHESTPLATE = ITEMS.register("zotroso",
@@ -501,16 +502,8 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> ZOLEGGINGS = ITEMS.register("zolegs",
 	            () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.ZO_TAB_ITEM));
 	    
-	    public static final RegistryObject<Item> ZO_STONE = ITEMS.register("zo_stone",
-	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","zo","blank",
-	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.ZO_TAB_ITEM).KeepItem());
-
 	    public static final RegistryObject<Item> ZO_CORE = ITEMS.register("zo_core",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"zo",ZO_STONE ,ZOHELMET,ZOCHESTPLATE,ZOLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.ZO_TAB_ITEM));
-
-	    public static final RegistryObject<Item> ZO_LOGO = ITEMS.register("zo_logo",
-	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.ZO_TAB_ITEM));
 
 	    
 	    

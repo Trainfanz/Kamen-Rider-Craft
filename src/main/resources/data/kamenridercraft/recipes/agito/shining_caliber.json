@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "agito_shining",
+  "pattern": [
+    "XTX",
+    "XSX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:agito_of_seed"
+    },
+    "T": {
+      "item": "kamenridercraft:agito_shining"
+    },
+    "S": {
+      "item": "kamenridercraft:base_sword"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:shining_caliber"
+  }    
+}
+

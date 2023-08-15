@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "v1",
+  "pattern": [
+    "RRR",
+    "CGI",
+    "RRR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:IRON_INGOT"
+      }, "I": {
+      "item": "kamenridercraft:v1"
+    }, "G": {
+      "item": "kamenridercraft:base_sword"
+    }, "C": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:v1_shot"
+  }
+}

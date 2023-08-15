@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "g3_x",
+  "pattern": [
+    "RCR",
+    "CGI",
+    "RCR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:iron_ingot"
+      }, "I": {
+      "item": "kamenridercraft:g3x"
+    }, "G": {
+      "item": "kamenridercraft:base_sword"
+    }, "C": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:gx_05_kerberos"
+  }
+}

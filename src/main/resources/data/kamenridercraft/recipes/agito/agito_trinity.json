@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "agito_trinity",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:agito_ground"
+    }, 
+    {
+      "item": "kamenridercraft:agito_storm"
+    } , 
+    {
+      "item": "kamenridercraft:agito_flame"
+    }
+    ],
+  "result": {
+    "item": "kamenridercraft:agito_trinity"
+  }
+}

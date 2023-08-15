@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "agito_shining",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:agito_trinity"
+    }, 
+    {
+      "item": "kamenridercraft:agito_burning"
+    }
+    ],
+  "result": {
+    "item": "kamenridercraft:agito_shining"
+  }
+}

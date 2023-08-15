@@ -25,6 +25,9 @@ public class Faiz_Rider_Items {
 
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, KamenRiderCraftCore.MODID);
 	
+	public static final RegistryObject<Item> FAIZ_LOGO = ITEMS.register("faiz_logo",
+    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM));
+
 	public static final RegistryObject<Item> BLANK_MISSION_MEMORY = ITEMS.register("blank_mission_memory",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","riotrooper","smart_buckle_belt",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
@@ -143,10 +146,7 @@ public class Faiz_Rider_Items {
 			() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
 
 	
-    public static final RegistryObject<Item> FAIZ_LOGO = ITEMS.register("faiz_logo",
-    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM));
-
-	public static void register(IEventBus eventBus) {
+    public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);
 	}
 

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "another_agito_burning",
+  "pattern": [
+    "XXX",
+    "XMX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:agito_of_seed"
+    },
+    "M": {
+      "item": "kamenridercraft:another_agito_burning_form"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:ank_point_burning"
+  }    
+}

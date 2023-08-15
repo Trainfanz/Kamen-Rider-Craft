@@ -26,10 +26,12 @@ public class Agito_Rider_Items {
 
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, KamenRiderCraftCore.MODID);
 
+	public static final RegistryObject<Item> AGITO_LOGO = ITEMS.register("agito_logo",
+    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AGITO_TAB_ITEM));
+ 
 	public static final RegistryObject<Item> SEED_OF_AGITO = ITEMS.register("agito_of_seed",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AGITO_TAB_ITEM));
     	    
-
     public static final RegistryObject<Item> AGITO_GROUND = ITEMS.register("agito_ground",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"","agito","alter_ring_belt",
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
@@ -68,28 +70,6 @@ public class Agito_Rider_Items {
             		new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false)).AddToTabList(RiderTabs.AGITO_TAB_ITEM));
 
-    public static final RegistryObject<Item> MIRAGE_AGITO = ITEMS.register("agito_miracle",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"","mirage_agito","alter_ring_mirage_belt",
-            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 4,true,false),
-            		new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),
-            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false),
-            		new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false),
-            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false)).AddToTabList(RiderTabs.AGITO_TAB_ITEM));
-
-
-    public static final RegistryObject<Item> ANOTHER_AGITO = ITEMS.register("another_agito",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"","another_agito","ank_point_belt",
-            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
-            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
-            		new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false)).AddToTabList(RiderTabs.AGITO_TAB_ITEM));
-    
-    public static final RegistryObject<Item> ANOTHER_AGITO_BURNING = ITEMS.register("another_agito_burning_form",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"","another_agito_burning","ank_point_belt_b",
-            		new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),
-            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false),
-            		new MobEffectInstance(MobEffects.JUMP, 40, 5,true,false),
-            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false)).AddToTabList(RiderTabs.AGITO_TAB_ITEM));
-
     public static final RegistryObject<Item> GILLS = ITEMS.register("gills",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"","gills","meta_factor_belt",
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
@@ -103,10 +83,31 @@ public class Agito_Rider_Items {
             		new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false)).AddToTabList(RiderTabs.AGITO_TAB_ITEM));
 
-	public static final RegistryObject<Item> BLANK_G_SYSTEM_CHIP = ITEMS.register("g3core",
+    public static final RegistryObject<Item> ANOTHER_AGITO = ITEMS.register("another_agito",
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"","another_agito","ank_point_belt",
+            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+            		new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false)).AddToTabList(RiderTabs.AGITO_TAB_ITEM));
+    
+    public static final RegistryObject<Item> MIRAGE_AGITO = ITEMS.register("agito_miracle",
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"","mirage_agito","alter_ring_mirage_belt",
+            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 4,true,false),
+            		new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),
+            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false),
+            		new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false),
+            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false)).AddToTabList(RiderTabs.AGITO_TAB_ITEM));
+
+    public static final RegistryObject<Item> ANOTHER_AGITO_BURNING = ITEMS.register("another_agito_burning_form",
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"","another_agito_burning","ank_point_belt_b",
+            		new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),
+            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false),
+            		new MobEffectInstance(MobEffects.JUMP, 40, 5,true,false),
+            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false)).AddToTabList(RiderTabs.AGITO_TAB_ITEM));
+
+    
+    public static final RegistryObject<Item> BLANK_G_SYSTEM_CHIP = ITEMS.register("g3core",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AGITO_TAB_ITEM));
-    
-    
+     
 	public static final RegistryObject<Item> G3_CHIP = ITEMS.register("g3",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"","g3","g_buckle_belt",
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
@@ -238,11 +239,7 @@ public class Agito_Rider_Items {
 	public static final RegistryObject<SwordItem> RESENTMENT_DU_SANGA = ITEMS.register("el_of_the_water_staff",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.AGITO_TAB_ITEM).ChangeRepairItem(SEED_OF_AGITO.get()));
 
-    public static final RegistryObject<Item> AGITO_LOGO = ITEMS.register("agito_logo",
-    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.AGITO_TAB_ITEM));
-
-    
-	public static void register(IEventBus eventBus) {
+    public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);
 	}
 

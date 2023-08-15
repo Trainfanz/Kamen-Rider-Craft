@@ -21,28 +21,13 @@ public class OOO_Rider_Items {
 
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, KamenRiderCraftCore.MODID);
 
-	public static final RegistryObject<Item> CELL_MEDAL = ITEMS.register("cellmedal",
+	public static final RegistryObject<Item> OOO_LOGO = ITEMS.register("ooo_logo",
+    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+    public static final RegistryObject<Item> CELL_MEDAL = ITEMS.register("cellmedal",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
-	/**
-	medajalibur
-	tajaspinner
-	tajaspinner_eternity
-	medagaburyu
-	birth_buster
-	deepest_harpoon
-	ancient_ooo_greeed_sword 
-	 **/
-	
-	public static final RegistryObject<Item> OOOHELMET = ITEMS.register("ooohead",
-			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
-	public static final RegistryObject<Item> OOOCHESTPLATE = ITEMS.register("oootroso",
-			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
-	public static final RegistryObject<Item> OOOLEGGINGS = ITEMS.register("ooolegs",
-			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
-
-
-
+    
 	public static final RegistryObject<Item> TAKA_MEDAL = ITEMS.register("taka_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_taka","ooo","ooodriver_belt",
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
@@ -365,17 +350,17 @@ public class OOO_Rider_Items {
 	
 	
 	public static final RegistryObject<Item> LOVE_CORE_MEDAL = ITEMS.register("love_core_medal",
-			() -> new RiderFormChangeItem(new Item.Properties(),0,"_love_core","ooo","ooodriver_belt",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_love_1","ooo","ooodriver_belt",
 					new MobEffectInstance(MobEffects.REGENERATION, 40, 1,true,false))
 			.ChangeSlot(1).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
 	public static final RegistryObject<Item> LOVE_CORE2_MEDAL = ITEMS.register("love_core2_medal",
-			() -> new RiderFormChangeItem(new Item.Properties(),0,"_love_core2","ooo","ooodriver_belt",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_love_2","ooo","ooodriver_belt",
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false))
 			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> LOVE_CORE3_MEDAL = ITEMS.register("love_core3_medal",
-			() -> new RiderFormChangeItem(new Item.Properties(),0,"_love_core3","ooo","ooodriver_belt",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_love_3","ooo","ooodriver_belt",
 					new MobEffectInstance(MobEffects.SATURATION, 40, 1,true,false))
 			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
@@ -639,9 +624,6 @@ public class OOO_Rider_Items {
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false))
 			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
-	
-	
-	
 	/**	
     shocker
 	gel_shocker_core
@@ -654,16 +636,27 @@ public class OOO_Rider_Items {
 	badan_core
 	 **/
 
+	public static final RegistryObject<Item> OOOHELMET = ITEMS.register("ooohead",
+			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
+	public static final RegistryObject<Item> OOOCHESTPLATE = ITEMS.register("oootroso",
+			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
+	public static final RegistryObject<Item> OOOLEGGINGS = ITEMS.register("ooolegs",
+			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
+
+
 	public static final RegistryObject<Item> OOODRIVER = ITEMS.register("ooodriver",
 			() -> new OOODriverItem(ArmorMaterials.DIAMOND,"ooo",TAKA_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
 			.Add_Extra_Base_Form_Items(TORA_MEDAL,BATTA_MEDAL).AddToTabList(RiderTabs.OOO_TAB_ITEM));
-
-    public static final RegistryObject<Item> OOO_LOGO = ITEMS.register("ooo_logo",
-    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
-
-
-
-
+	
+	/**
+	medajalibur
+	tajaspinner
+	tajaspinner_eternity
+	medagaburyu
+	birth_buster
+	deepest_harpoon
+	ancient_ooo_greeed_sword 
+	 **/
 
 	public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "g4",
+  "pattern": [
+    "CIC",
+    "RGR",
+    "CRC"
+  ],
+  "key": {
+    "R": {
+      "item": "kamenridercraft:rider_circuit"
+      }, "I": {
+      "item": "kamenridercraft:g4"
+    }, "G": {
+      "item": "kamenridercraft:base_sword"
+    }, "C": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:g4_gigant"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "g_system",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:rider_circuit"
+    }, 
+    {
+      "item": "kamenridercraft:kuuga_growing"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft:g3core"
+  }
+}
