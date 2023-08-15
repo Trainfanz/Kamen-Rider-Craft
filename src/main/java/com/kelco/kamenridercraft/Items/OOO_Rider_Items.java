@@ -653,6 +653,10 @@ public class OOO_Rider_Items {
 	public static final RegistryObject<Item> OOODRIVER = ITEMS.register("ooodriver",
 			() -> new OOODriverItem(ArmorMaterials.DIAMOND,"ooo",TAKA_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
 			.Add_Extra_Base_Form_Items(TORA_MEDAL,BATTA_MEDAL).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> GREEED_BLET_ = ITEMS.register("greeed_blet_",
+			() -> new OOODriverItem(ArmorMaterials.DIAMOND,"",TAKA_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS ,.AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
 	
 	/**
 	medajalibur

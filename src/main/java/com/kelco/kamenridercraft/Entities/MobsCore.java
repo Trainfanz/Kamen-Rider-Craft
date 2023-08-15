@@ -2,11 +2,16 @@ package com.kelco.kamenridercraft.Entities;
 
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.Entities.bosses.AnkhCompleteEntity;
 import com.kelco.kamenridercraft.Entities.bosses.AnotherAgitoEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ClayDollDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.CommanderDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ElOfTheWaterEntity;
 import com.kelco.kamenridercraft.Entities.bosses.EternalEntity;
+import com.kelco.kamenridercraft.Entities.bosses.GamelEntity;
+import com.kelco.kamenridercraft.Entities.bosses.KazariEntity;
+import com.kelco.kamenridercraft.Entities.bosses.MezoolEntity;
+import com.kelco.kamenridercraft.Entities.bosses.MuchiriEntity;
 import com.kelco.kamenridercraft.Entities.bosses.NazcaDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.OrgaEntity;
 import com.kelco.kamenridercraft.Entities.bosses.RedNazcaDopantEntity;
@@ -14,6 +19,7 @@ import com.kelco.kamenridercraft.Entities.bosses.ShadowmoonEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ShockerRidersEntity;
 import com.kelco.kamenridercraft.Entities.bosses.SmilodonDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.TerrorDopantEntity;
+import com.kelco.kamenridercraft.Entities.bosses.UvaEntity;
 import com.kelco.kamenridercraft.Entities.bosses.WeatherDopantEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.AnguisMasculusEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.AriCommandoEntity;
@@ -30,6 +36,7 @@ import com.kelco.kamenridercraft.Entities.footSoldiers.PantherasLuteusEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.RedFollowerEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.RiotrooperEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.ShockerCombatmanEntity;
+import com.kelco.kamenridercraft.Entities.footSoldiers.YummyEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.ZuGumunBaEntity;
 
 import net.minecraft.world.entity.EntityType;
@@ -252,8 +259,56 @@ public class MobsCore {
       public static final RegistryObject<ForgeSpawnEggItem> ETERNAL_SPAWN_EGG = ITEMS.register("eternal_spawn_egg",
               () -> new ForgeSpawnEggItem(ETERNAL, 0xFFFFFF, 0x0092BB, new Item.Properties()));
 
-     //Eternal 0xffe892, 0xFFFFFF
+      //Eternal 0xffe892, 0xFFFFFF
+      
+      public static final RegistryObject<EntityType<YummyEntity>> YUMMY = MOBLIST.register("yummy_mob",
+              () -> EntityType.Builder.of(YummyEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":yummy_mob"));
+
+       public static final RegistryObject<ForgeSpawnEggItem> YUMMY_SPAWN_EGG = ITEMS.register("yummy_spawn_egg",
+               () -> new ForgeSpawnEggItem(YUMMY, 0xE7E6B2, 0x959586, new Item.Properties()));
+
     
+       public static final RegistryObject<EntityType<AnkhCompleteEntity>> ANKHCOMPLETE = MOBLIST.register("ankh_complete_mob",
+               () -> EntityType.Builder.of(AnkhCompleteEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":ankh_complete_mob"));
+
+        public static final RegistryObject<ForgeSpawnEggItem> ANKH_COMPLETE_SPAWN_EGG = ITEMS.register("ankh_complete_spawn_egg",
+                () -> new ForgeSpawnEggItem(ANKHCOMPLETE, 0x000000, 0xFF0000, new Item.Properties()));
+         
+        
+        public static final RegistryObject<EntityType<UvaEntity>> UVA = MOBLIST.register("uva_mob",
+                () -> EntityType.Builder.of(UvaEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":uva_mob"));
+
+         public static final RegistryObject<ForgeSpawnEggItem> UVA_SPAWN_EGG = ITEMS.register("uva_spawn_egg",
+                 () -> new ForgeSpawnEggItem(UVA, 0x000000, 0x00FF1F, new Item.Properties()));
+        
+         
+         public static final RegistryObject<EntityType<KazariEntity>> KAZARI = MOBLIST.register("kazari_mob",
+                 () -> EntityType.Builder.of(KazariEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":kazari_mob"));
+
+          public static final RegistryObject<ForgeSpawnEggItem> KAZARI_SPAWN_EGG = ITEMS.register("kazari_spawn_egg",
+                  () -> new ForgeSpawnEggItem(KAZARI, 0x000000, 0xFFDC00, new Item.Properties()));
+          
+         
+          public static final RegistryObject<EntityType<MezoolEntity>> MEZOOL = MOBLIST.register("mezool_mob",
+                  () -> EntityType.Builder.of(MezoolEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":mezool_mob"));
+
+          public static final RegistryObject<ForgeSpawnEggItem> MEZOOL_SPAWN_EGG = ITEMS.register("mezool_spawn_egg",
+                   () -> new ForgeSpawnEggItem(MEZOOL, 0x000000, 0x0000FF, new Item.Properties()));
+          
+          
+          public static final RegistryObject<EntityType<GamelEntity>> GAMEL = MOBLIST.register("gamel_mob",
+                  () -> EntityType.Builder.of(GamelEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":gamel_mob"));
+
+          public static final RegistryObject<ForgeSpawnEggItem> GAMEL_SPAWN_EGG = ITEMS.register("gamel_spawn_egg",
+                   () -> new ForgeSpawnEggItem(GAMEL, 0x000000, 0xBFBFBF, new Item.Properties()));
+          
+          
+          public static final RegistryObject<EntityType<MuchiriEntity>> MUCHIRI = MOBLIST.register("muchiri_mob",
+                  () -> EntityType.Builder.of(MuchiriEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":muchiri_mob"));
+
+          public static final RegistryObject<ForgeSpawnEggItem> MUCHIRI_SPAWN_EGG = ITEMS.register("muchiri_spawn_egg",
+                   () -> new ForgeSpawnEggItem(MUCHIRI, 0x000000, 0xFF9E00, new Item.Properties()));
+         
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
