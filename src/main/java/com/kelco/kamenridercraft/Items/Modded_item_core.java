@@ -31,12 +31,29 @@ public class Modded_item_core {
 			() -> new BaseItem(new Item.Properties().food(Foods.BREAD)).AddToTabList(RiderTabs.Misc_TAB_ITEM));
 
 
+	//Dragreder
+	//Stagtornador
+	//Herculespader
+	//Darkwing
+	//Greywolch
+	
+	//GrandGouram
+	//Exbeeter
+	//Chaosdile
+	//Leatheraider
+	public static final RegistryObject<Item> FLARESALAMANDER = ITEMS.register("flaresalamander",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_flaresalamander","v3","double_typhoon_belt").ChangeModel("geo/v3_flaresalamander.geo.json").AddToTabList(RiderTabs.Misc_TAB_ITEM));
 
-
+	//Dragranzer
+	//Scissorbeeter
+	//Akanetaka
+	//Shadowmantis
 	public static final RegistryObject<Item> CYCLONEHOPPER = ITEMS.register("cyclonehopper",
 		() -> new RiderFormChangeItem(new Item.Properties(),0,"_cyclonehopper","ichigo","typhoon_belt_original").ChangeModel("geo/cyclonehopper_wingsarmor.geo.json").AddToTabList(RiderTabs.Misc_TAB_ITEM));
 
-
+	//Bakuen no senshi
+	//Jinrai no senshi
+	
 	public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);
 	}
