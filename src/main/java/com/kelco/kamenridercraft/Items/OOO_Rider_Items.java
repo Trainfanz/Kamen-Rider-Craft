@@ -255,11 +255,17 @@ public class OOO_Rider_Items {
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false))
 			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
+	
+	public static final RegistryObject<Item> KANGAROO_MEDAL_LEG = ITEMS.register("kangaroo_medal_leg",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kangaroo_leg","ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false))
+			.ChangeSlot(3));
+
 		
 	public static final RegistryObject<Item> KANGAROO_MEDAL = ITEMS.register("kangaroo_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kangaroo","ooo","ooodriver_belt",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false))
-			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+			.ChangeSlot(2).addShiftForm(KANGAROO_MEDAL_LEG.get()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	
 	public static final RegistryObject<Item> YADOKARI_MEDAL = ITEMS.register("yadokari_medal",

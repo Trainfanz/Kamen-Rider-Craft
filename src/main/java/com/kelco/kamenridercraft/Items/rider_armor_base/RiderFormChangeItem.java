@@ -13,6 +13,7 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 
 public class RiderFormChangeItem extends BaseItem {
@@ -26,9 +27,8 @@ public class RiderFormChangeItem extends BaseItem {
 	private String BELT_TEX;
 	private String UPDATED_MODEL;
 	//private Item WINGS = ShowaRiderItems.blanknoitem;
-	//private Item STIFT_ITEM = ShowaRiderItems.blanknoitem;
+	private Item STIFT_ITEM = Items.APPLE;
 	private List<RiderFormChangeItem> alternative = new ArrayList<RiderFormChangeItem>();
-
 	private RiderFormChangeItem alsoChange2ndSlot;
 
 
@@ -83,6 +83,10 @@ public class RiderFormChangeItem extends BaseItem {
 		return this;
 	}
 
+	public RiderFormChangeItem addShiftForm(Item item) {
+		STIFT_ITEM=item;
+		return this;
+	}
 
 	public InteractionResultHolder<ItemStack> use(Level p_41128_, Player p_41129_, InteractionHand p_41130_) {
 
@@ -92,7 +96,10 @@ public class RiderFormChangeItem extends BaseItem {
 
 		if (belt.getItem() instanceof RiderDriverItem) {
 
-			if (((RiderDriverItem)belt.getItem()).Rider==RIDER_NAME) {
+	if (STIFT_ITEM instanceof RiderFormChangeItem& p_41129_.isShiftKeyDown()) {
+		((RiderFormChangeItem)STIFT_ITEM).use(p_41128_, p_41129_, p_41130_);
+	}
+	else if (((RiderDriverItem)belt.getItem()).Rider==RIDER_NAME) {
 				if (alsoChange2ndSlot !=null)RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),alsoChange2ndSlot, 2);
 				
 				RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, Slot);
