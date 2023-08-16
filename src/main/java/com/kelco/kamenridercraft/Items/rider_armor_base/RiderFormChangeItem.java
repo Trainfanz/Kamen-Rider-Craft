@@ -27,9 +27,7 @@ public class RiderFormChangeItem extends BaseItem {
 	private String BELT_TEX;
 	private String UPDATED_MODEL;
 	private String FLYING_MODEL;
-	private String FLYING_TEXT;
-	
-	//private Item WINGS = ShowaRiderItems.blanknoitem;
+	private Boolean FLYING_TEXT = false;
 	private Item STIFT_ITEM = Items.APPLE;
 	private List<RiderFormChangeItem> alternative = new ArrayList<RiderFormChangeItem>();
 	private RiderFormChangeItem alsoChange2ndSlot;
@@ -53,10 +51,11 @@ public class RiderFormChangeItem extends BaseItem {
 		return BELT;
 	}
 
-	public String getFormName() {
-		return FORM_NAME;
+	public String getFormName(Boolean isFlaying) {
+		if (isFlaying&FLYING_TEXT) return FORM_NAME+"_wing";
+		else return FORM_NAME;
 	}
-	
+
 
 	public String getBeltTex() {
 		return BELT_TEX;
@@ -66,12 +65,19 @@ public class RiderFormChangeItem extends BaseItem {
 		if (UPDATED_MODEL!=null) return UPDATED_MODEL;
 		return "geo/ichigo.geo.json";
 	}
+
+	public String get_FlyingModel() {
+		return FLYING_MODEL;
+	}
+	public Boolean HasWingsIfFlying() {
+		return FLYING_TEXT;
+	}
 	
 	public RiderFormChangeItem alsoChange2ndSlot(Item item) {
 		alsoChange2ndSlot=  (RiderFormChangeItem) item;
 		return this;
 	}
-	
+
 	public RiderFormChangeItem ChangeModel(String model) {
 		UPDATED_MODEL=model;
 		return this;
@@ -80,7 +86,13 @@ public class RiderFormChangeItem extends BaseItem {
 		Slot=slot;
 		return this;
 	}
-	
+
+	public RiderFormChangeItem ifFlyingModelResource(String model) {
+		FLYING_TEXT=true;
+		FLYING_MODEL=model;
+		return this;
+	}
+
 	public RiderFormChangeItem addAlternative( Item item) {
 		alternative.add((RiderFormChangeItem) item);
 		return this;
@@ -99,12 +111,12 @@ public class RiderFormChangeItem extends BaseItem {
 
 		if (belt.getItem() instanceof RiderDriverItem) {
 
-	if (STIFT_ITEM instanceof RiderFormChangeItem& p_41129_.isShiftKeyDown()) {
-		((RiderFormChangeItem)STIFT_ITEM).use(p_41128_, p_41129_, p_41130_);
-	}
-	else if (((RiderDriverItem)belt.getItem()).Rider==RIDER_NAME) {
+			if (STIFT_ITEM instanceof RiderFormChangeItem& p_41129_.isShiftKeyDown()) {
+				((RiderFormChangeItem)STIFT_ITEM).use(p_41128_, p_41129_, p_41130_);
+			}
+			else if (((RiderDriverItem)belt.getItem()).Rider==RIDER_NAME) {
 				if (alsoChange2ndSlot !=null)RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),alsoChange2ndSlot, 2);
-				
+
 				RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, Slot);
 
 			}else if(!alternative.isEmpty()){

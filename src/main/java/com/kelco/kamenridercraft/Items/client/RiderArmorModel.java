@@ -44,10 +44,10 @@ public class RiderArmorModel extends GeoModel<RiderArmorItem> {
 		String FORM="blank";
 		ItemStack BELT = RIDER.getItemBySlot(EquipmentSlot.FEET); 
 		if (BELT.getItem() instanceof RiderDriverItem) {
-			FORM= ((RiderDriverItem) BELT.getItem()).Rider+((RiderDriverItem) BELT.getItem()).GET_TEXT(BELT,slot );
+			FORM= ((RiderDriverItem) BELT.getItem()).Rider+((RiderDriverItem) BELT.getItem()).GET_TEXT(BELT,slot,RIDER );
 			if (slot == EquipmentSlot.FEET) {
 
-				FORM=((RiderDriverItem) BELT.getItem()).GET_TEXT(BELT,slot );
+				FORM=((RiderDriverItem) BELT.getItem()).GET_TEXT(BELT,slot ,RIDER);
 			}else if ( ((RiderDriverItem) BELT.getItem()).HEAD.asItem()!=RIDER.getItemBySlot(EquipmentSlot.HEAD).getItem()||
 					 ((RiderDriverItem) BELT.getItem()).TORSO.asItem()!=RIDER.getItemBySlot(EquipmentSlot.CHEST).getItem()||
 					 ((RiderDriverItem) BELT.getItem()).LEGS.asItem()!=RIDER.getItemBySlot(EquipmentSlot.LEGS).getItem()) {

@@ -22,28 +22,35 @@ public class OOODriverItem extends RiderDriverItem{
 		
 	}
 
-	
-	public String GET_TEXT(ItemStack itemstack, EquipmentSlot equipmentSlot)
+	@Override
+	public String GET_TEXT(ItemStack itemstack, EquipmentSlot equipmentSlot, LivingEntity rider)
 	{
+		boolean fly = !rider.onGround();
 		if (equipmentSlot == EquipmentSlot.FEET) {
 			
 			return "belts/"+get_Form_Item(itemstack,1).getBeltTex();
 		}
 		else if (equipmentSlot == EquipmentSlot.HEAD&get_Form_Item(itemstack,1)==OOO_Rider_Items.TAKA_MEDAL.get()&get_Form_Item(itemstack,2)==OOO_Rider_Items.KUJAKU_MEDAL.get()&get_Form_Item(itemstack,3)==OOO_Rider_Items.CONDOR_MEDAL.get()) return "_taka_tajado";
-		else if (equipmentSlot == EquipmentSlot.HEAD) return get_Form_Item(itemstack,1).getFormName();
-		else if (equipmentSlot == EquipmentSlot.CHEST) return get_Form_Item(itemstack,2).getFormName();
-		else return get_Form_Item(itemstack,3).getFormName();
+		else if (equipmentSlot == EquipmentSlot.HEAD) return get_Form_Item(itemstack,1).getFormName(fly);
+		else if (equipmentSlot == EquipmentSlot.CHEST) return get_Form_Item(itemstack,2).getFormName(fly);
+		else return get_Form_Item(itemstack,3).getFormName(fly);
 
 	}
 
 
 
 	public ResourceLocation getModelResource(ItemStack itemstack,RiderArmorItem animatable, EquipmentSlot slot, LivingEntity rider) {
-		 if (get_Form_Item(itemstack, 1).get_Model()=="geo/ichigo.geo.json") {
+		int num = 1;
+		if (slot == EquipmentSlot.CHEST)num=2;
+		if (slot == EquipmentSlot.LEGS)num=3;
+		
+		if (get_Form_Item(itemstack, num).HasWingsIfFlying() & !rider.onGround()){
+			return new ResourceLocation(KamenRiderCraftCore.MODID, get_Form_Item(itemstack, num).get_FlyingModel());
+	 }else if (get_Form_Item(itemstack, num).get_Model()=="geo/ichigo.geo.json") {
 			return new ResourceLocation(KamenRiderCraftCore.MODID, "geo/rider_plusbelt.geo.json");
-		 }else {
-			 return super.getModelResource(itemstack, animatable, slot,rider);
-		 }
+		 }else   
+			 return new ResourceLocation(KamenRiderCraftCore.MODID, get_Form_Item(itemstack, num).get_Model());
+
 	}
 	
 	public  boolean getPartsForSlot(EquipmentSlot currentSlot,String  part) {

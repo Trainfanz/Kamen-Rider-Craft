@@ -114,18 +114,16 @@ public class RiderDriverItem extends RiderArmorItem{
 	}
 
 
-	public String GET_TEXT(ItemStack itemstack, EquipmentSlot equipmentSlot)
+	public String GET_TEXT(ItemStack itemstack, EquipmentSlot equipmentSlot, LivingEntity rider)
 	{
-		if (equipmentSlot == EquipmentSlot.FEET) {
-
-			return "belts/"+get_Form_Item(itemstack,1).getBeltTex();
-		}
-		else return get_Form_Item(itemstack,1).getFormName();
+		boolean fly = !rider.onGround();
+		if (equipmentSlot == EquipmentSlot.FEET) return "belts/"+get_Form_Item(itemstack,1).getBeltTex();
+		else return get_Form_Item(itemstack,1).getFormName(fly);
+	
 	}
 
 
 	public ResourceLocation getModelResource(ItemStack itemstack,RiderArmorItem animatable, EquipmentSlot slot, LivingEntity rider) {
-
 		return new ResourceLocation(KamenRiderCraftCore.MODID, get_Form_Item(itemstack, 1).get_Model());
 	}
 
