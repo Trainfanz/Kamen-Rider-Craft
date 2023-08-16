@@ -26,6 +26,9 @@ public class RiderFormChangeItem extends BaseItem {
 	protected String RIDER_NAME;
 	private String BELT_TEX;
 	private String UPDATED_MODEL;
+	private String FLYING_MODEL;
+	private String FLYING_TEXT;
+	
 	//private Item WINGS = ShowaRiderItems.blanknoitem;
 	private Item STIFT_ITEM = Items.APPLE;
 	private List<RiderFormChangeItem> alternative = new ArrayList<RiderFormChangeItem>();

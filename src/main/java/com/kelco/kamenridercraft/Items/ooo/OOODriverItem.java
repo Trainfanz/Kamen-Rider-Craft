@@ -7,6 +7,7 @@ import com.kelco.kamenridercraft.Items.rider_armor_base.RiderDriverItem;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -37,9 +38,12 @@ public class OOODriverItem extends RiderDriverItem{
 
 
 
-	public ResourceLocation getModelResource(ItemStack itemstack,RiderArmorItem animatable, EquipmentSlot slot) {
-		
+	public ResourceLocation getModelResource(ItemStack itemstack,RiderArmorItem animatable, EquipmentSlot slot, LivingEntity rider) {
+		 if (get_Form_Item(itemstack, 1).get_Model()=="geo/ichigo.geo.json") {
 			return new ResourceLocation(KamenRiderCraftCore.MODID, "geo/rider_plusbelt.geo.json");
+		 }else {
+			 return super.getModelResource(itemstack, animatable, slot,rider);
+		 }
 	}
 	
 	public  boolean getPartsForSlot(EquipmentSlot currentSlot,String  part) {
