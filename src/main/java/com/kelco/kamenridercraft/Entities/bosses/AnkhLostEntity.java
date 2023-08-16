@@ -16,14 +16,18 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
-public class AnkhCompleteEntity extends BaseHenchmenEntity {
+public class AnkhLostEntity extends BaseHenchmenEntity {
 
 
 	
-	public AnkhCompleteEntity(EntityType<? extends Zombie> type, Level level) {
+	public AnkhLostEntity(EntityType<? extends Zombie> type, Level level) {
         super(type, level);
-        NAME="ankh_complete";}
-  
+        NAME="ankh_lost";
+    }
+
+    
+    
+
 
     public static AttributeSupplier setAttributes() {
 

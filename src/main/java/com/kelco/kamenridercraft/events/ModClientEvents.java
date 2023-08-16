@@ -71,6 +71,17 @@ public class ModClientEvents {
         event.registerEntityRenderer(MobsCore.FOUNDATION_X_MASQUERADE.get(), BasicEntityRenderer::new);
         event.registerEntityRenderer(MobsCore.ETERNAL.get(), BasicEntityRenderer::new);
         event.registerEntityRenderer(MobsCore.COMMANDER_DOPANT.get(), BasicEntityRenderer::new);
+        event.registerEntityRenderer(MobsCore.MUCHIRI.get(), BasicEntityRenderer::new);
+        
+        event.registerEntityRenderer(MobsCore.YUMMY.get(), BasicEntityRenderer::new);
+        event.registerEntityRenderer(MobsCore.ANKHCOMPLETE.get(), BasicEntityRenderer::new);
+        event.registerEntityRenderer(MobsCore.UVA.get(), BasicEntityRenderer::new);
+        event.registerEntityRenderer(MobsCore.KAZARI.get(), BasicEntityRenderer::new);
+        event.registerEntityRenderer(MobsCore.MEZOOL.get(), BasicEntityRenderer::new);
+        event.registerEntityRenderer(MobsCore.GAMEL.get(), BasicEntityRenderer::new);
+        event.registerEntityRenderer(MobsCore.ANKH_LOST.get(), BasicEntityRenderer::new);
+     //   event.registerEntityRenderer(MobsCore.ANKH.get(), BasicEntityRenderer::new);
+        event.registerEntityRenderer(MobsCore.POSEIDON.get(), BasicEntityRenderer::new);
     }
    
 

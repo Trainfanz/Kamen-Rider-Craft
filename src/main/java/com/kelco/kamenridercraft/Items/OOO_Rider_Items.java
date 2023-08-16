@@ -4,6 +4,7 @@ import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Items.ooo.OOODriverItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
+import com.kelco.kamenridercraft.Items.rider_armor_base.BaseSwordItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderArmorItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderFormChangeItem;
 
@@ -12,6 +13,8 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -653,18 +656,29 @@ public class OOO_Rider_Items {
 	public static final RegistryObject<Item> OOODRIVER = ITEMS.register("ooodriver",
 			() -> new OOODriverItem(ArmorMaterials.DIAMOND,"ooo",TAKA_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
 			.Add_Extra_Base_Form_Items(TORA_MEDAL,BATTA_MEDAL).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	//birth driver
+	
+	public static final RegistryObject<Item> POSEIDONDRIVER = ITEMS.register("poseidon_driver",
+			() -> new OOODriverItem(ArmorMaterials.DIAMOND,"poseidon",SAME_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
+			.Add_Extra_Base_Form_Items(KUJIRA_MEDAL,OOKAMIUO_MEDAL).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
 
 	//public static final RegistryObject<Item> GREEED_BLET_ = ITEMS.register("greeed_blet_",
 	//		() -> new OOODriverItem(ArmorMaterials.DIAMOND,"",TAKA_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS ,.AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
 	
+	
+    public static final RegistryObject<SwordItem> DEEPEST_HARPOON = ITEMS.register("deepest_harpoon",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
+
 	/**
 	medajalibur
 	tajaspinner
 	tajaspinner_eternity
 	medagaburyu
 	birth_buster
-	deepest_harpoon
+	
 	ancient_ooo_greeed_sword 
 	 **/
 

@@ -47,6 +47,17 @@ public class FoundationXMasqueradeEntity extends BaseHenchmenEntity {
 						playerIn.sendSystemMessage(Component.translatable("Commander!").withStyle(ChatFormatting.GREEN));
 					}
 				}
+			} else if (this.random.nextInt(9) == 1) {
+				BaseHenchmenEntity boss = MobsCore.MUCHIRI.get().create(this.level());
+				if (boss != null) {
+					boss.moveTo(this.getX(), this.getY(), this.getZ(), this.getYRot(), 0.0F);
+					this.level().addFreshEntity(boss);
+
+					if (this.getLastAttacker()instanceof Player){
+						Player playerIn=	(Player) this.getLastAttacker();
+						playerIn.sendSystemMessage(Component.translatable("Mukade! Hachi! Ari!").withStyle(ChatFormatting.YELLOW));
+					}
+				}
 			}
 		}
 		super.remove(p_149847_);

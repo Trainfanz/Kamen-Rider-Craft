@@ -3,6 +3,7 @@ package com.kelco.kamenridercraft.Entities;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.Entities.bosses.AnkhCompleteEntity;
+import com.kelco.kamenridercraft.Entities.bosses.AnkhLostEntity;
 import com.kelco.kamenridercraft.Entities.bosses.AnotherAgitoEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ClayDollDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.CommanderDopantEntity;
@@ -14,6 +15,7 @@ import com.kelco.kamenridercraft.Entities.bosses.MezoolEntity;
 import com.kelco.kamenridercraft.Entities.bosses.MuchiriEntity;
 import com.kelco.kamenridercraft.Entities.bosses.NazcaDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.OrgaEntity;
+import com.kelco.kamenridercraft.Entities.bosses.PoseidonEntity;
 import com.kelco.kamenridercraft.Entities.bosses.RedNazcaDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ShadowmoonEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ShockerRidersEntity;
@@ -268,11 +270,23 @@ public class MobsCore {
                () -> new ForgeSpawnEggItem(YUMMY, 0xE7E6B2, 0x959586, new Item.Properties()));
 
     
+     //  public static final RegistryObject<EntityType<AnkhEntity>> ANKH = MOBLIST.register("ankh_mob",
+     //          () -> EntityType.Builder.of(AnkhEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":ankh_mob"));
+
+   //    public static final RegistryObject<ForgeSpawnEggItem> ANKH_SPAWN_EGG = ITEMS.register("ankh_spawn_egg",
+     //           () -> new ForgeSpawnEggItem(ANKH, 0xFF2300, 0x42FF00, new Item.Properties()));
+       
        public static final RegistryObject<EntityType<AnkhCompleteEntity>> ANKHCOMPLETE = MOBLIST.register("ankh_complete_mob",
                () -> EntityType.Builder.of(AnkhCompleteEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":ankh_complete_mob"));
 
         public static final RegistryObject<ForgeSpawnEggItem> ANKH_COMPLETE_SPAWN_EGG = ITEMS.register("ankh_complete_spawn_egg",
                 () -> new ForgeSpawnEggItem(ANKHCOMPLETE, 0x000000, 0xFF0000, new Item.Properties()));
+        
+        public static final RegistryObject<EntityType<AnkhLostEntity>> ANKH_LOST = MOBLIST.register("ankh_lost_mob",
+                () -> EntityType.Builder.of(AnkhLostEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":ankh_lost_mob"));
+
+        public static final RegistryObject<ForgeSpawnEggItem> ANKH_LOST_SPAWN_EGG = ITEMS.register("ankh_lost_spawn_egg",
+                 () -> new ForgeSpawnEggItem(ANKH_LOST, 0x000000, 0xC61500, new Item.Properties()));
          
         
         public static final RegistryObject<EntityType<UvaEntity>> UVA = MOBLIST.register("uva_mob",
@@ -308,6 +322,12 @@ public class MobsCore {
 
           public static final RegistryObject<ForgeSpawnEggItem> MUCHIRI_SPAWN_EGG = ITEMS.register("muchiri_spawn_egg",
                    () -> new ForgeSpawnEggItem(MUCHIRI, 0x000000, 0xFF9E00, new Item.Properties()));
+          
+          public static final RegistryObject<EntityType<PoseidonEntity>> POSEIDON = MOBLIST.register("poseidon",
+                  () -> EntityType.Builder.of(PoseidonEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":poseidon"));
+
+          public static final RegistryObject<ForgeSpawnEggItem> POSEIDON_SPAWN_EGG = ITEMS.register("poseidon_spawn_egg",
+                   () -> new ForgeSpawnEggItem(POSEIDON, 0x000000, 0xFF9E00, new Item.Properties()));
          
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

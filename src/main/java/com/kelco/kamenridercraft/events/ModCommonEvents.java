@@ -131,7 +131,8 @@ public class ModCommonEvents {
 	        
 	        event.register(MobsCore.MASQUERADE.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
 	        event.register(MobsCore.FOUNDATION_X_MASQUERADE.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
-	    	
+	        event.register(MobsCore.YUMMY.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
+	  	  
 	  }
 	  
     @SubscribeEvent
@@ -171,6 +172,16 @@ public class ModCommonEvents {
         event.put(MobsCore.FOUNDATION_X_MASQUERADE.get(), FoundationXMasqueradeEntity.setAttributes());
         event.put(MobsCore.COMMANDER_DOPANT.get(), CommanderDopantEntity.setAttributes());
         event.put(MobsCore.ETERNAL.get(), EternalEntity.setAttributes());
+        event.put(MobsCore.MUCHIRI.get(), EternalEntity.setAttributes());
+        
+        event.put(MobsCore.YUMMY.get(), EternalEntity.setAttributes());
+      //  event.put(MobsCore.ANKH.get(), EternalEntity.setAttributes());
+        event.put(MobsCore.ANKHCOMPLETE.get(), EternalEntity.setAttributes());
+        event.put(MobsCore.ANKH_LOST.get(), EternalEntity.setAttributes());
+        event.put(MobsCore.UVA.get(), EternalEntity.setAttributes());
+        event.put(MobsCore.KAZARI.get(), EternalEntity.setAttributes());
+        event.put(MobsCore.MEZOOL.get(), EternalEntity.setAttributes());
+        event.put(MobsCore.GAMEL.get(), EternalEntity.setAttributes());
     }
 
 }
