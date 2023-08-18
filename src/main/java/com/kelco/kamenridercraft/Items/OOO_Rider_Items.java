@@ -348,7 +348,7 @@ public class OOO_Rider_Items {
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 5,true,false))
-			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+			.ChangeSlot(2).ChangeModel("geo/ooo_imagin.geo.json").AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> ARI_GODA_MEDAL = ITEMS.register("ari_goda_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_ari_goda","ooo","ooodriver_belt",
@@ -612,7 +612,7 @@ public class OOO_Rider_Items {
 			.ChangeSlot(1).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
 	public static final RegistryObject<Item> TAIGA_MEDAL = ITEMS.register("taiga_medal",
-			() -> new RiderFormChangeItem(new Item.Properties(),0,"_taiga","ooo","ooodriver_belt",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_tiger","ooo","ooodriver_belt",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false))
 			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
