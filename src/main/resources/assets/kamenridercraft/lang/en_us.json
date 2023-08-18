@@ -15,7 +15,7 @@
 "item.kamenridercraft.heat_heaven": "Heat Heaven",
 
 
-
+"item.kamenridercraft.kamen_rider_logo": "Kamen Rider Logo",
 "item.kamenridercraft.ichigohead": "Ichigo Helmet",
 "item.kamenridercraft.ichigotroso": "Ichigo Chestplate",
 "item.kamenridercraft.ichigolegs": "Ichigo Leggings",
@@ -50,6 +50,7 @@
 "item.kamenridercraft.typhoon_shocker_rider_12": "Typhoon (Shocker Rider 12)",
 "item.kamenridercraft.nophoon_kamen_norider": "Nophoon",
 
+"item.kamenridercraft.v3_logo": "V3 Logo",
 "item.kamenridercraft.v3head": "V3 Helmet",
 "item.kamenridercraft.v3troso": "V3 Chestplate",
 "item.kamenridercraft.v3legs": "V3 Leggings",
@@ -62,6 +63,7 @@
 "item.kamenridercraft.riderman_belt": "Riderman Belt",
 
 
+"item.kamenridercraft.x_logo": "X Logo",
 "item.kamenridercraft.ridol_stick": "Ridol Stick",
 "item.kamenridercraft.xhead": "X Helmet",
 "item.kamenridercraft.xtroso": "X Chestplate",
@@ -69,6 +71,7 @@
 "item.kamenridercraft.ridol_core": "Ridol Core",
 "item.kamenridercraft.ridol": "Ridol",
 
+"item.kamenridercraft.amazon_logo": "Amazon Logo",
 "item.kamenridercraft.amazonhead": "Amazon Helmet",
 "item.kamenridercraft.amazontroso": "Amazon Chestplate",
 "item.kamenridercraft.amazonlegs": "Amazon Leggings",
@@ -77,6 +80,7 @@
 "item.kamenridercraft.gigi_armlet": "Gigi Armlet",
 "item.kamenridercraft.gaga_armlet": "Gaga Armlet",
 
+"item.kamenridercraft.stronger_logo": "Stronger Logo",
 "item.kamenridercraft.strongerhead": "Stronger Helmet",
 "item.kamenridercraft.strongertroso": "Stronger Chestplate",
 "item.kamenridercraft.strongerlegs": "Stronger Leggings",
@@ -86,18 +90,21 @@
 "item.kamenridercraft.electrer": "Electrer",
 "item.kamenridercraft.tackle_belt": "Tackle Belt",
 
+"item.kamenridercraft.skyrider_logo": "Skyrider Logo",
 "item.kamenridercraft.skyriderhead": "Skyrider Helmet",
 "item.kamenridercraft.skyridertroso": "Skyrider Chestplate",
 "item.kamenridercraft.skyriderlegs": "Skyrider Leggings",
 "item.kamenridercraft.tornado_core": "Tornado Core",
 "item.kamenridercraft.tornado": "Tornado",
 
+"item.kamenridercraft.super_1_logo": "Super 1 Logo",
 "item.kamenridercraft.super_1head": "Super 1 Helmet",
 "item.kamenridercraft.super_1troso": "Super 1 Chestplate",
 "item.kamenridercraft.super_1legs": "Super 1 Leggings",
 "item.kamenridercraft.cyclode_core": "Cyclode Core",
 "item.kamenridercraft.cyclode": "Cyclode",
 
+"item.kamenridercraft.zx_logo": "ZX Logo",
 "item.kamenridercraft.zxhead": "ZX Helmet",
 "item.kamenridercraft.zxtroso": "ZX Chestplate",
 "item.kamenridercraft.zxlegs": "ZX Leggings",
@@ -107,6 +114,7 @@
 "item.kamenridercraft.tsukuyomi_belt": "Tsukuyomi Belt",
 "item.kamenridercraft.amaterasu_belt": "Amaterasu Belt",
 
+"item.kamenridercraft.black_logo": "Black Logo",
 "item.kamenridercraft.blackhead": "Black Helmet",
 "item.kamenridercraft.blacktroso": "Black Chestplate",
 "item.kamenridercraft.blacklegs": "Black Leggings",
@@ -120,6 +128,7 @@
 "item.kamenridercraft.satansaber": "Satansaber",
 "item.kamenridercraft.batta_man_king_stone": "Batta Man King Stone",
 
+"item.kamenridercraft.black_rx_logo": "Black RX Logo",
 "item.kamenridercraft.rxhead": "Black RX Helmet",
 "item.kamenridercraft.rxtroso": "Black RX Chestplate",
 "item.kamenridercraft.rxlegs": "Black RX Leggings",
@@ -135,24 +144,28 @@
 "item.kamenridercraft.shadow_blade": "Shadow Blade",
 "item.kamenridercraft.shadow_blade_short": "Shadow Blade (short)",
 
+"item.kamenridercraft.shin_logo": "Shin Logo",
 "item.kamenridercraft.shinhead": "Shin Helmet",
 "item.kamenridercraft.shintroso": "Shin Chestplate",
 "item.kamenridercraft.shinlegs": "Shin Leggings",
 "item.kamenridercraft.shin_stone": "Shin Stone",
 "item.kamenridercraft.grasshopper_dna": "Grasshopper DNA",
 
+"item.kamenridercraft.zo_logo": "ZO Logo",
 "item.kamenridercraft.zohead": "ZO Helmet",
 "item.kamenridercraft.zotroso": "ZO Chestplate",
 "item.kamenridercraft.zolegs": "ZO Leggings",
 "item.kamenridercraft.zo_stone": "ZO Stone",
 "item.kamenridercraft.zo_core": "ZO Core",
 
+"item.kamenridercraft.j_logo": "J Logo",
 "item.kamenridercraft.jhead": "J Helmet",
 "item.kamenridercraft.jtroso": "J Chestplate",
 "item.kamenridercraft.jlegs": "J Leggings",
 "item.kamenridercraft.j_stone": "J Stone",
 "item.kamenridercraft.j_spirit": "J Spirit",
 
+"item.kamenridercraft.kuuga_logo": "Kuuga Logo",
 "item.kamenridercraft.kuugahead": "Kuuga Helmet",
 "item.kamenridercraft.kuugatroso": "Kuuga Chestplate",
 "item.kamenridercraft.kuugalegs": "Kuuga Leggings",
@@ -244,6 +257,7 @@
 "item.kamenridercraft.g1": "G1 Chip",
 "item.kamenridercraft.v1": "V1 Chip",
 
+"item.kamenridercraft.faiz_logo": "Faiz Logo",
 "item.kamenridercraft.faizhead": "Faiz Helmet",
 "item.kamenridercraft.faiztroso": "Faiz Chestplate",
 "item.kamenridercraft.faizlegs": "Faiz Leggings",
@@ -271,6 +285,7 @@
 "item.kamenridercraft.psyga_mission_memory": "Psyga Mission Memory",
 "item.kamenridercraft.orga_mission_memory": "Orga Mission Memory",
 
+"item.kamenridercraft.w_logo": "Double Logo",
 "item.kamenridercraft.whead": "Double Helmet",
 "item.kamenridercraft.wtroso": "Double Chestplate",
 "item.kamenridercraft.wlegs": "Double Leggings",
@@ -376,14 +391,17 @@
 "item.kamenridercraft.frog_memory": "Frog Gadget Memory",
 "item.kamenridercraft.denden_memory": "Denden Gadget Memory",
 
-
+"item.kamenridercraft.ooo_logo": "OOO Logo",
 "item.kamenridercraft.ooohead": "OOO Helmet",
 "item.kamenridercraft.oootroso": "OOO Chestplate",
 "item.kamenridercraft.ooolegs": "OOO Leggings",
 "item.kamenridercraft.ooodriver": "OOO Driver",
 "item.kamenridercraft.poseidon_driver": "Poseidon Driver",
 
+"item.kamenridercraft.medajalibur": "Medajalibur",
+"item.kamenridercraft.medagaburyu": "Medagaburyu",
 "item.kamenridercraft.deepest_harpoon": "Deepest Harpoon",
+"item.kamenridercraft.ancient_ooo_greeed_sword": "Ancient OOO' Greeed Sword",
 
 "item.kamenridercraft.taka_medal": "Taka Core Medal",
 "item.kamenridercraft.kujaku_medal": "Kujaku Core Medal",
@@ -486,13 +504,14 @@
 "item.kamenridercraft.amazon_medal": "Amazon Core Medal",
 "item.kamenridercraft.stronger_medal": "Stronger Core Medal",
 "item.kamenridercraft.habataki_medal": "Habataki Core Medal",
-"item.kamenridercraft.taiga_medal": "Taiga Core Medal",
+"item.kamenridercraft.tiger_medal": "Tiger Core Medal",
 "item.kamenridercraft.ichigo_medal": "Ichigo Core Medal",
 "item.kamenridercraft.imagin_medal": "Imagin Core Medal",
 "item.kamenridercraft.shocker_medal": "Shocker Core Medal",
 "item.kamenridercraft.cellmedal": "Cell Medal",
 
 
+"item.kamenridercraft.amazons_logo": "Amazons Logo",
 "item.kamenridercraft.amazonshead": "Amazons Helmet",
 "item.kamenridercraft.amazonstroso": "Amazons Chestplate",
 "item.kamenridercraft.amazonslegs": "Amazons Leggings",
@@ -518,7 +537,7 @@
 "item.kamenridercraft.sigma_amazon_cell_vial": "Amazon Cell Vial (Sigma)",
 "item.kamenridercraft.neo_amazon_cell_vial": "Amazon Cell Vial (Neo)",
 
-
+"item.kamenridercraft.blacksun_logo": "Black Sun Logo",
 "item.kamenridercraft.blacksunhead": "Black Sun Helmet",
 "item.kamenridercraft.blacksuntroso": "Black Sun Chestplate",
 "item.kamenridercraft.blacksunlegs": "Black Sun Leggings",

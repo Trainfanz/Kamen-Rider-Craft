@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ooo_putotyra",
+  "pattern": [
+    "ACB",
+    "XSX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:cellmedal"
+    }, "C": {
+      "item": "kamenridercraft:tricera"
+    }, "A": {
+      "item": "kamenridercraft:ptera"
+    }, "B": {
+      "item": "kamenridercraft:tyranno"
+    },
+    "S": {
+      "item": "kamenridercraft:base_sword"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:medagaburyu"
+  }    
+}
+

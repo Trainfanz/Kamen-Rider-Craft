@@ -327,7 +327,7 @@ public class MobsCore {
                   () -> EntityType.Builder.of(PoseidonEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":poseidon"));
 
           public static final RegistryObject<ForgeSpawnEggItem> POSEIDON_SPAWN_EGG = ITEMS.register("poseidon_spawn_egg",
-                   () -> new ForgeSpawnEggItem(POSEIDON, 0x000000, 0xFF9E00, new Item.Properties()));
+                   () -> new ForgeSpawnEggItem(POSEIDON, 0xD11B1E, 0x30BBEC, new Item.Properties()));
          
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

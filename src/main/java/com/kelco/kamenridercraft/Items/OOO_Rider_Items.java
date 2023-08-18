@@ -644,7 +644,14 @@ public class OOO_Rider_Items {
 	jin_dogma_core
 	badan_core
 	 **/
-
+	
+	public static final RegistryObject<Item> PURPLE_MEDALS_SEALED = ITEMS.register("purple_medals_sealed",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	public static final RegistryObject<Item> PURPLE_MEDALS_OPENED = ITEMS.register("purple_medals_opened",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	public static final RegistryObject<Item> PURPLE_MEDALS_EMPTY = ITEMS.register("purple_medals_empty",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
 	public static final RegistryObject<Item> OOOHELMET = ITEMS.register("ooohead",
 			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
 	public static final RegistryObject<Item> OOOCHESTPLATE = ITEMS.register("oootroso",
@@ -668,18 +675,25 @@ public class OOO_Rider_Items {
 	//		() -> new OOODriverItem(ArmorMaterials.DIAMOND,"",TAKA_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS ,.AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
 	
+	public static final RegistryObject<SwordItem> MEDAJALIBUR = ITEMS.register("medajalibur",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
+	
+	 public static final RegistryObject<SwordItem> MEDAGABURYU = ITEMS.register("medagaburyu",
+	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
+	    
 	
     public static final RegistryObject<SwordItem> DEEPEST_HARPOON = ITEMS.register("deepest_harpoon",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
+   
+    public static final RegistryObject<SwordItem> ANICENT_OOO_GREEED_SWORD = ITEMS.register("ancient_ooo_greeed_sword",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
 
 	/**
-	medajalibur
 	tajaspinner
 	tajaspinner_eternity
-	medagaburyu
+
 	birth_buster
 	
-	ancient_ooo_greeed_sword 
 	 **/
 
 	public static void register(IEventBus eventBus) {

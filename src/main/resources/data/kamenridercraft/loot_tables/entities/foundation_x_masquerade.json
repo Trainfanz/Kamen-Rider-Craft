@@ -22,7 +22,22 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "kamenridercraft:masquerade_memory"
-        }
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "kamenridercraft:shika_medal"
+          },
+          {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "kamenridercraft:gazelle_medal"
+          },
+          {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "kamenridercraft:ushi_medal"
+          }
       ]
     },
     {

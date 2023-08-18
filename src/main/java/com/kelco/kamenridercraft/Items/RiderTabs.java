@@ -296,6 +296,17 @@ public class RiderTabs {
 			event.accept(MobsCore.COMMANDER_DOPANT_SPAWN_EGG);
 			event.accept(MobsCore.ETERNAL_SPAWN_EGG);
 			
+			event.accept(MobsCore.YUMMY_SPAWN_EGG);
+		//	event.accept(MobsCore.ANKH_SPAWN_EGG);
+			event.accept(MobsCore.ANKH_COMPLETE_SPAWN_EGG);
+			event.accept(MobsCore.ANKH_LOST_SPAWN_EGG);
+			event.accept(MobsCore.UVA_SPAWN_EGG);
+			event.accept(MobsCore.KAZARI_SPAWN_EGG);
+			event.accept(MobsCore.MEZOOL_SPAWN_EGG);
+			event.accept(MobsCore.GAMEL_SPAWN_EGG);
+			event.accept(MobsCore.MUCHIRI_SPAWN_EGG);
+			event.accept(MobsCore.POSEIDON_SPAWN_EGG);
+			
 			
 			for (int i = 0; i < RiderTabs.Misc_TAB_ITEM.size(); i++)
 			{
