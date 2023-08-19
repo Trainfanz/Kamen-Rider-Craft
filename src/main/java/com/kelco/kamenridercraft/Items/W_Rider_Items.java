@@ -172,7 +172,7 @@ public class W_Rider_Items {
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
 					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
-					new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false))
+					new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).ChangeModel("geo/skull_fedora.geo.json")
 			.AddToTabList(RiderTabs.W_TAB_ITEM).AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_S, 5));
 	
 	public static final RegistryObject<Item> ETERNAL_MEMORY = ITEMS.register("eternal_memory",
