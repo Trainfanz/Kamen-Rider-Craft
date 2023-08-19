@@ -28,9 +28,18 @@ public class OOODriverItem extends RiderDriverItem{
 		boolean fly = !rider.onGround();
 		if (equipmentSlot == EquipmentSlot.FEET) {
 			
-			return "belts/"+get_Form_Item(itemstack,1).getBeltTex();
+			
+				String belt = ((RiderDriverItem)itemstack.getItem()).BELT_TEXT;
+				if (((RiderDriverItem)itemstack.getItem()).BELT_TEXT==null) {
+					belt = get_Form_Item(itemstack,1).getBeltTex();
+				}
+				return "belts/"+belt;
+			
 		}
 		else if (equipmentSlot == EquipmentSlot.HEAD&get_Form_Item(itemstack,1)==OOO_Rider_Items.TAKA_MEDAL.get()&get_Form_Item(itemstack,2)==OOO_Rider_Items.KUJAKU_MEDAL.get()&get_Form_Item(itemstack,3)==OOO_Rider_Items.CONDOR_MEDAL.get()) return "_taka_tajado";
+		else if (equipmentSlot == EquipmentSlot.HEAD&get_Form_Item(itemstack,2)==OOO_Rider_Items.GREED_ABSORPTION_CORE.get()) return get_Form_Item(itemstack,1).getFormName(fly)+ "_greeed_absorption";
+		else if (equipmentSlot == EquipmentSlot.LEGS&get_Form_Item(itemstack,2)==OOO_Rider_Items.GREED_ABSORPTION_CORE.get()) return get_Form_Item(itemstack,3).getFormName(fly)+ "_greeed_absorption";
+		
 		else if (equipmentSlot == EquipmentSlot.HEAD) return get_Form_Item(itemstack,1).getFormName(fly);
 		else if (equipmentSlot == EquipmentSlot.CHEST) return get_Form_Item(itemstack,2).getFormName(fly);
 		else return get_Form_Item(itemstack,3).getFormName(fly);
@@ -41,7 +50,7 @@ public class OOODriverItem extends RiderDriverItem{
 
 	public ResourceLocation getModelResource(ItemStack itemstack,RiderArmorItem animatable, EquipmentSlot slot, LivingEntity rider) {
 		int num = 1;
-		if (slot == EquipmentSlot.CHEST)num=2;
+		if (slot == EquipmentSlot.CHEST)num=2; 
 		if (slot == EquipmentSlot.LEGS)num=3;
 		
 		if (get_Form_Item(itemstack, num).HasWingsIfFlying() & !rider.onGround()){

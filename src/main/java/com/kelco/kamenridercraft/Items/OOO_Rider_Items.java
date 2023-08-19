@@ -318,40 +318,40 @@ public class OOO_Rider_Items {
 	
 	
 	public static final RegistryObject<Item> ANCIENT_TAKA_MEDAL = ITEMS.register("ancient_taka_medal",
-			() -> new RiderFormChangeItem(new Item.Properties(),0,"_ancient_taka","ooo","ooodriver_belt",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_taka","ooo","ooodriver_belt",
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 6,true,false))
 			.ChangeSlot(1).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
 	public static final RegistryObject<Item> ANCIENT_TORA_MEDAL = ITEMS.register("ancient_tora_medal",
-			() -> new RiderFormChangeItem(new Item.Properties(),0,"_ancient_tora","ooo","ooodriver_belt",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_tora","ooo","ooodriver_belt",
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false))
 			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> ANCIENT_BATTA_MEDAL = ITEMS.register("ancient_batta_medal",
-			() -> new RiderFormChangeItem(new Item.Properties(),0,"_ancient_batta","ooo","ooodriver_belt",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_batta","ooo","ooodriver_belt",
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false))
 			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
 	
 	public static final RegistryObject<Item> MUKADE_GODA_MEDAL = ITEMS.register("mukade_goda_medal",
-			() -> new RiderFormChangeItem(new Item.Properties(),0,"_mukade_goda","ooo","ooodriver_belt",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_mukade","goda","ooodriver_belt",
 					new MobEffectInstance(MobEffects.REGENERATION, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false),
 					new MobEffectInstance(Effect_core.ANTIPOISON.get(), 400, 0,true,false))
 			.ChangeSlot(1).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
 	public static final RegistryObject<Item> HACHI_GODA_MEDAL = ITEMS.register("hachi_goda_medal",
-			() -> new RiderFormChangeItem(new Item.Properties(),0,"_hachi_goda","ooo","ooodriver_belt",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_hachi","goda","ooodriver_belt",
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 5,true,false))
 			.ChangeSlot(2).ChangeModel("geo/ooo_imagin.geo.json").AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> ARI_GODA_MEDAL = ITEMS.register("ari_goda_medal",
-			() -> new RiderFormChangeItem(new Item.Properties(),0,"_ari_goda","ooo","ooodriver_belt",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_ari","goda","ooodriver_belt",
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.JUMP, 40, 4,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false))
@@ -633,10 +633,22 @@ public class OOO_Rider_Items {
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false))
 			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
+	public static final RegistryObject<Item> GEL_SHOCKER_MEDAL = ITEMS.register("gel_shocker_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_gel_shocker","shocker_ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false))
+			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> DESTRON_MEDAL = ITEMS.register("destron_medal",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_destron","shocker_ooo","ooodriver_belt",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false))
+			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> GREED_ABSORPTION_CORE = ITEMS.register("greeed_absorption_core",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_tora_greeed_absorption","ooo_ancient","ooodriver_belt",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false))
+			.ChangeSlot(2).ChangeModel("geo/ooo_imagin.geo.json").AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
 	/**	
-    shocker
-	gel_shocker_core
-	destron_core
 	god_core
 	garanda_core
 	delza_core
@@ -663,14 +675,26 @@ public class OOO_Rider_Items {
 	public static final RegistryObject<Item> OOODRIVER = ITEMS.register("ooodriver",
 			() -> new OOODriverItem(ArmorMaterials.DIAMOND,"ooo",TAKA_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
 			.Add_Extra_Base_Form_Items(TORA_MEDAL,BATTA_MEDAL).AddToTabList(RiderTabs.OOO_TAB_ITEM));
-	
+		
 	//birth driver
 	
 	public static final RegistryObject<Item> POSEIDONDRIVER = ITEMS.register("poseidon_driver",
 			() -> new OOODriverItem(ArmorMaterials.DIAMOND,"poseidon",SAME_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
-			.Add_Extra_Base_Form_Items(KUJIRA_MEDAL,OOKAMIUO_MEDAL).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+			.Add_Extra_Base_Form_Items(KUJIRA_MEDAL,OOKAMIUO_MEDAL).Override_belt_text("poseidon_driver_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
+	public static final RegistryObject<Item> ANCIENT_OOODRIVER = ITEMS.register("ancient_ooodriver",
+			() -> new OOODriverItem(ArmorMaterials.DIAMOND,"ooo_ancient",ANCIENT_TAKA_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
+			.Add_Extra_Base_Form_Items(ANCIENT_TORA_MEDAL,ANCIENT_BATTA_MEDAL).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
+	public static final RegistryObject<Item> GODA_OOODRIVER = ITEMS.register("goda_ooodriver",
+			() -> new OOODriverItem(ArmorMaterials.DIAMOND,"goda",MUKADE_GODA_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
+			.Add_Extra_Base_Form_Items(HACHI_GODA_MEDAL,ARI_GODA_MEDAL).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> SHOCKER_OOODRIVER = ITEMS.register("shocker_ooodriver",
+			() -> new OOODriverItem(ArmorMaterials.DIAMOND,"shocker_ooo",SHOCKER_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
+			.Add_Extra_Base_Form_Items(GEL_SHOCKER_MEDAL,DESTRON_MEDAL).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	
 	//public static final RegistryObject<Item> GREEED_BLET_ = ITEMS.register("greeed_blet_",
 	//		() -> new OOODriverItem(ArmorMaterials.DIAMOND,"",TAKA_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS ,.AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	

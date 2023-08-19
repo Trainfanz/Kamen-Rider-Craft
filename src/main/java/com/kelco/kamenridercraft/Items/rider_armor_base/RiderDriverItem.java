@@ -33,6 +33,7 @@ public class RiderDriverItem extends RiderArmorItem{
 	public Item TORSO;
 	public Item LEGS; 
 	public int Num_Base_Form_Item = 1;
+	public String BELT_TEXT;
 
 
 	public RiderDriverItem (ArmorMaterial material, String rider,RegistryObject<Item> baseFormItem,RegistryObject<Item> head,RegistryObject<Item>torso,RegistryObject<Item> legs, Properties properties)
@@ -73,25 +74,25 @@ public class RiderDriverItem extends RiderArmorItem{
 
 	}
 
-	public RiderArmorItem AddToTabList(List<Item> TabList) {
-		TabList.add(this);
-		return this;
-	}
 
-
-	public RiderArmorItem Add_Extra_Base_Form_Items(RegistryObject<Item> item) {
+	public RiderDriverItem Add_Extra_Base_Form_Items(RegistryObject<Item> item) {
 		Extra_Base_Form_Item= Lists.newArrayList((RiderFormChangeItem)item.get());
 		Num_Base_Form_Item=2;
 		return this;
 	}
 
-	public RiderArmorItem Add_Extra_Base_Form_Items(RegistryObject<Item> item,RegistryObject<Item> item2) {
+	public RiderDriverItem Override_belt_text(String belt) {
+		BELT_TEXT = belt;
+		return this;
+	}
+
+	public RiderDriverItem Add_Extra_Base_Form_Items(RegistryObject<Item> item,RegistryObject<Item> item2) {
 		Extra_Base_Form_Item= Lists.newArrayList((RiderFormChangeItem)item.get(),(RiderFormChangeItem)item2.get());
 		Num_Base_Form_Item=3;
 		return this;
 	}
 
-	public RiderArmorItem Add_Extra_Base_Form_Items(RegistryObject<Item> item,RegistryObject<Item> item2,RegistryObject<Item> item3) {
+	public RiderDriverItem Add_Extra_Base_Form_Items(RegistryObject<Item> item,RegistryObject<Item> item2,RegistryObject<Item> item3) {
 		Extra_Base_Form_Item= Lists.newArrayList((RiderFormChangeItem)item.get(),(RiderFormChangeItem)item2.get(),(RiderFormChangeItem)item3.get());
 		Num_Base_Form_Item=4;
 		return this;
@@ -116,10 +117,18 @@ public class RiderDriverItem extends RiderArmorItem{
 
 	public String GET_TEXT(ItemStack itemstack, EquipmentSlot equipmentSlot, LivingEntity rider)
 	{
+
 		boolean fly = !rider.onGround();
-		if (equipmentSlot == EquipmentSlot.FEET) return "belts/"+get_Form_Item(itemstack,1).getBeltTex();
+
+		if (equipmentSlot == EquipmentSlot.FEET) {
+			String belt = ((RiderDriverItem)itemstack.getItem()).BELT_TEXT;
+			if (((RiderDriverItem)itemstack.getItem()).BELT_TEXT==null) {
+				belt = get_Form_Item(itemstack,1).getBeltTex();
+			}
+			return "belts/"+belt;
+		}
 		else return get_Form_Item(itemstack,1).getFormName(fly);
-	
+
 	}
 
 
@@ -134,13 +143,13 @@ public class RiderDriverItem extends RiderArmorItem{
 
 	public static void set_Form_Item(ItemStack itemstack, Item ITEM,int SLOT)
 	{
-			if (!itemstack.hasTag())
+		if (!itemstack.hasTag())
 		{
 			itemstack.setTag(new CompoundTag());
 		}
 		if (itemstack.getItem() instanceof RiderDriverItem) {
 			((RiderDriverItem)itemstack.getItem()).Extra_set_Form_Item(itemstack, ITEM, SLOT);
-			
+
 			itemstack.getTag().putInt("slot"+SLOT, Item.getId(ITEM));
 		}
 	}
