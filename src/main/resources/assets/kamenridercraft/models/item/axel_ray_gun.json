@@ -9,7 +9,7 @@
             "predicate": {
                 "pull": 1
             },
-            "model": "kamenridercraft4th:item/axel_ray_gun_gun"
+            "model": "kamenridercraft:item/axel_ray_gun_gun"
         }
     ]
 }

@@ -5,9 +5,13 @@ import java.util.List;
 
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
+import com.kelco.kamenridercraft.Items.Faiz_Rider_Items;
 import com.kelco.kamenridercraft.Items.Modded_item_core;
+import com.kelco.kamenridercraft.events.ModClientEvents;
 
+import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.core.BlockPos;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.stats.Stats;
@@ -97,7 +101,7 @@ public class BaseBlasterItem extends BowItem {
 					p_40668_.addFreshEntity(abstractarrow);
 				}
 
-				p_40668_.playSound((Player)null, player.getX(), player.getY(), player.getZ(), SoundEvents.ARROW_SHOOT, SoundSource.PLAYERS, 1.0F, 1.0F / (p_40668_.getRandom().nextFloat() * 0.4F + 1.2F) + f * 0.5F);
+				p_40668_.playSound((Player)null, player.getX(), player.getY(), player.getZ(), SoundEvents.BLAZE_SHOOT, SoundSource.PLAYERS, 1.0F, 1.0F / (p_40668_.getRandom().nextFloat() * 0.4F + 1.2F) + f * 0.5F);
 
 
 				player.awardStat(Stats.ITEM_USED.get(this));
@@ -152,7 +156,10 @@ public class BaseBlasterItem extends BowItem {
 		return p_40393_.getItem()== RepairItem;
 	}
 
-
+	public BaseBlasterItem IsSwordGun() {
+		ModClientEvents.SWORD_GUN_ITEM.add(this);
+		return this;
+	}
 
 	public BaseBlasterItem AddToTabList(List<Item> TabList) {
 		TabList.add(this);
