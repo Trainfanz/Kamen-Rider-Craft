@@ -1,7 +1,7 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "kamenridercraft:item/dragon_rod"
+        "layer0": "kamenridercraft:item/ultimate_dragon_rod"
     },
     "display": {
 "ground": {
@@ -37,21 +37,5 @@
             "scale": [ 1.25, 1.25, 0.75 ]
 
 }
-  },
-    "overrides": [
-       
-        {
-            "predicate": {
-                "pull": 1
-            },
-            "model": "kamenridercraft:item/rising_dragon_rod"
-        }  ,   {
-            "predicate": {
-                "pull": 2
-            },
-            "model": "kamenridercraft:item/ultimate_dragon_rod"
-        }
-        
-    ]
 }
 }

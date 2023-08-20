@@ -9,7 +9,12 @@
             "predicate": {
                 "pull": 1
             },
-            "model": "kamenridercraft4th:item/rising_titan_sword"
+            "model": "kamenridercraft:item/rising_titan_sword"
+        },   {
+            "predicate": {
+                "pull": 2
+            },
+            "model": "kamenridercraft:item/ultimate_titan_sword"
         }
     ]
 }

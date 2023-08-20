@@ -9,7 +9,12 @@
             "predicate": {
                 "pull": 1
             },
-            "model": "kamenridercraft4th:item/rising_pegasus_bowgun"
+            "model": "kamenridercraft:item/rising_pegasus_bowgun"
+        } ,   {
+            "predicate": {
+                "pull": 2
+            },
+            "model": "kamenridercraft:item/ultimate_pegasus_bowgun"
         }
     ]
 }

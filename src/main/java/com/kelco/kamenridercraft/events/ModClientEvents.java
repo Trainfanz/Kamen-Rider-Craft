@@ -2,8 +2,10 @@ package com.kelco.kamenridercraft.events;
 
 
 import com.kelco.kamenridercraft.Items.Faiz_Rider_Items;
+import com.kelco.kamenridercraft.Items.Kuuga_Rider_Items;
 import com.kelco.kamenridercraft.Items.RiderTabs;
 import com.kelco.kamenridercraft.Items.W_Rider_Items;
+import com.kelco.kamenridercraft.Items.rider_armor_base.RiderDriverItem;
 import com.kelco.kamenridercraft.client.renderer.BasicEntityRenderer;
 
 import java.util.ArrayList;
@@ -14,7 +16,9 @@ import com.kelco.kamenridercraft.Entities.MobsCore;
 
 import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -28,6 +32,8 @@ public class ModClientEvents {
 	private static ResourceLocation BLOCKING_PROPERTY_RESLOC = new ResourceLocation(KamenRiderCraftCore.MODID, "blocking");
 
 	public static List<Item> SWORD_GUN_ITEM= new ArrayList<Item>();
+	
+	public static List<Item> KUUGA_CHANGING_ITEM= new ArrayList<Item>();
 
 	public static List<Item> SHIELD_ITEM= new ArrayList<Item>();
 
@@ -37,6 +43,8 @@ public class ModClientEvents {
 		event.enqueueWork(() -> {
 
 
+		
+			
 			for (int i = 0; i < SHIELD_ITEM.size(); i++)
 			{
 		
@@ -46,6 +54,32 @@ public class ModClientEvents {
 		}
 
 
+
+			for (int i = 0; i < KUUGA_CHANGING_ITEM.size(); i++)
+			{
+				ItemProperties.register(KUUGA_CHANGING_ITEM.get(i), new ResourceLocation("pull"), (p_174635_, p_174636_, p_174637_, p_174638_) -> {
+					if (p_174637_ == null) {
+						return 0.0F;
+					}
+						else if (p_174637_.getItemBySlot(EquipmentSlot.FEET)!= null){
+
+							if (p_174637_.getItemBySlot(EquipmentSlot.FEET).getItem() == Kuuga_Rider_Items.ARCLE.get()){
+								ItemStack belt = p_174637_.getItemBySlot(EquipmentSlot.FEET);
+								if (RiderDriverItem.get_Form_Item(belt, 1).getBeltTex()=="arcle_belt_r") return 1;
+								if (RiderDriverItem.get_Form_Item(belt, 1).getBeltTex()=="arcle_belt_u") return 2;
+								if (RiderDriverItem.get_Form_Item(belt, 1).getBeltTex()=="arcle_belt_ru") return 2;
+							}else {
+								return 0;
+							}
+							return 0;
+						}
+						return 0;
+						//return p_174637_.getUseItem() != p_174635_ ? 0.0F : (float)(p_174635_.getUseDuration() - p_174637_.getUseItemRemainingTicks()) / 1.0F;
+					}
+				);
+			}
+	
+	
 
 			for (int i = 0; i < SWORD_GUN_ITEM.size(); i++)
 			{
