@@ -9,7 +9,7 @@
             "predicate": {
                 "pull": 1
             },
-            "model": "kamenridercraft4th:item/medagaburyu_gun"
+            "model": "kamenridercraft:item/medagaburyu_gun"
         }
     ]
 }

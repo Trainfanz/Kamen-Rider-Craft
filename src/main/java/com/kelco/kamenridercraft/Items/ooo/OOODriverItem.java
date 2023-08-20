@@ -37,6 +37,8 @@ public class OOODriverItem extends RiderDriverItem{
 			
 		}
 		else if (equipmentSlot == EquipmentSlot.HEAD&get_Form_Item(itemstack,1)==OOO_Rider_Items.TAKA_MEDAL.get()&get_Form_Item(itemstack,2)==OOO_Rider_Items.KUJAKU_MEDAL.get()&get_Form_Item(itemstack,3)==OOO_Rider_Items.CONDOR_MEDAL.get()) return "_taka_tajado";
+		else if (equipmentSlot == EquipmentSlot.HEAD&rider.getMainHandItem().getItem()==OOO_Rider_Items.MEDAGABURYU.get()&get_Form_Item(itemstack,1)==OOO_Rider_Items.TAKA_MEDAL.get()&get_Form_Item(itemstack,2)==OOO_Rider_Items.TORA_MEDAL.get()&get_Form_Item(itemstack,3)==OOO_Rider_Items.BATTA_MEDAL.get()) return "_taka_purple";
+		
 		else if (equipmentSlot == EquipmentSlot.HEAD&get_Form_Item(itemstack,2)==OOO_Rider_Items.GREED_ABSORPTION_CORE.get()) return get_Form_Item(itemstack,1).getFormName(fly)+ "_greeed_absorption";
 		else if (equipmentSlot == EquipmentSlot.LEGS&get_Form_Item(itemstack,2)==OOO_Rider_Items.GREED_ABSORPTION_CORE.get()) return get_Form_Item(itemstack,3).getFormName(fly)+ "_greeed_absorption";
 		
