@@ -29,15 +29,21 @@ public class ModClientEvents {
 
 	public static List<Item> SWORD_GUN_ITEM= new ArrayList<Item>();
 
+	public static List<Item> SHIELD_ITEM= new ArrayList<Item>();
+
 	@SubscribeEvent
 	public static void onClientSetup(final FMLClientSetupEvent event) {
 
 		event.enqueueWork(() -> {
 
-			ItemProperties.register(W_Rider_Items.SHIELD_PRISM_BICKER.get(), BLOCKING_PROPERTY_RESLOC, ($itemStack, $level, $entity, $seed) -> {
+
+			for (int i = 0; i < SHIELD_ITEM.size(); i++)
+			{
+		
+			ItemProperties.register(SHIELD_ITEM.get(i), BLOCKING_PROPERTY_RESLOC, ($itemStack, $level, $entity, $seed) -> {
 				return $entity != null && $entity.isUsingItem() && $entity.getUseItem() == $itemStack ? 1.0F : 0.0F;
 			});
-
+		}
 
 
 

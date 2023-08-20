@@ -5,6 +5,7 @@ import java.util.List;
 
 
 import com.kelco.kamenridercraft.Items.Modded_item_core;
+import com.kelco.kamenridercraft.events.ModClientEvents;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -16,6 +17,7 @@ public class BaseShieldItem extends ShieldItem {
 	
 	public BaseShieldItem(Properties prop) {
 		super(prop);
+		ModClientEvents.SHIELD_ITEM.add(this);
 
 	}
 
