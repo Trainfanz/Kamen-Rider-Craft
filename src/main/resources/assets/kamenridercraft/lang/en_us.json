@@ -397,11 +397,15 @@
 "item.kamenridercraft.ooolegs": "OOO Leggings",
 "item.kamenridercraft.ooodriver": "OOO Driver",
 "item.kamenridercraft.poseidon_driver": "Poseidon Driver",
+"item.kamenridercraft.ancient_ooodriver": "OOO Driver (Ancient OOO)",
+"item.kamenridercraft.goda_ooodriver": "OOO Driver (Goda)",
+"item.kamenridercraft.shocker_ooodriver": "OOO Driver (Shocker OOO)",
 
 "item.kamenridercraft.medajalibur": "Medajalibur",
 "item.kamenridercraft.medagaburyu": "Medagaburyu",
 "item.kamenridercraft.deepest_harpoon": "Deepest Harpoon",
 "item.kamenridercraft.ancient_ooo_greeed_sword": "Ancient OOO' Greeed Sword",
+"item.kamenridercraft.birth_buster": "Birth Buster",
 
 "item.kamenridercraft.taka_medal": "Taka Core Medal",
 "item.kamenridercraft.kujaku_medal": "Kujaku Core Medal",
@@ -508,6 +512,13 @@
 "item.kamenridercraft.ichigo_medal": "Ichigo Core Medal",
 "item.kamenridercraft.imagin_medal": "Imagin Core Medal",
 "item.kamenridercraft.shocker_medal": "Shocker Core Medal",
+"item.kamenridercraft.gel_shocker_medal": "Gel Shocker Core Medal",
+"item.kamenridercraft.destron_medal": "Destron Core Medal",
+
+"item.kamenridercraft.greeed_absorbtion_core": "Greeed Absorbtion Core",
+"item.kamenridercraft.purple_medals_sealed": "Sealed Medal Container",
+"item.kamenridercraft.purple_medals_opened": "Opened Medal Container",
+"item.kamenridercraft.purple_medals_empty": "Empty Medal Container",
 "item.kamenridercraft.cellmedal": "Cell Medal",
 
 

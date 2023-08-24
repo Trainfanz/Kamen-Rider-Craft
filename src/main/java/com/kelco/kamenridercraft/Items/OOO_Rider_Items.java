@@ -3,9 +3,11 @@ package com.kelco.kamenridercraft.Items;
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Items.ooo.OOODriverItem;
+import com.kelco.kamenridercraft.Items.rider_armor_base.BaseBlasterItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseSwordItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderArmorItem;
+import com.kelco.kamenridercraft.Items.rider_armor_base.RiderDriverItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderFormChangeItem;
 
 import net.minecraft.world.effect.MobEffectInstance;
@@ -695,9 +697,34 @@ public class OOO_Rider_Items {
 			.Add_Extra_Base_Form_Items(GEL_SHOCKER_MEDAL,DESTRON_MEDAL).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	
-	//public static final RegistryObject<Item> GREEED_BLET_ = ITEMS.register("greeed_blet_",
-	//		() -> new OOODriverItem(ArmorMaterials.DIAMOND,"",TAKA_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS ,.AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	public static final RegistryObject<Item> GREEED_BLET_ANKH_LOST = ITEMS.register("greeed_blet_ankh_lost",
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"ankh_lost",TAKA_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
+			.Add_Extra_Base_Form_Items(KUJAKU_MEDAL,CONDOR_MEDAL).Override_belt_text("ankh_lost_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
+	public static final RegistryObject<Item> GREEED_BLET_ANKH = ITEMS.register("greeed_blet_ankh",
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"ankh_complete",TAKA_ANKH_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
+			.Add_Extra_Base_Form_Items(KUJAKU_MEDAL,CONDOR_MEDAL).Override_belt_text("ankh_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> GREEED_BLET_UVA = ITEMS.register("greeed_blet_uva",
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"uva",KUWAGATA_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
+			.Add_Extra_Base_Form_Items(KAMAKIRI_MEDAL,BATTA_MEDAL).Override_belt_text("uva_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> GREEED_BLET_KAZARI = ITEMS.register("greeed_blet_kazari",
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"kazari",LION_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
+			.Add_Extra_Base_Form_Items(TORA_MEDAL,CHEETAH_MEDAL).Override_belt_text("kazari_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> GREEED_BLET_MEZOOL = ITEMS.register("greeed_blet_mezool",
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"mezool",SHACHI_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
+			.Add_Extra_Base_Form_Items(UNAGI_MEDAL,TAKO_MEDAL).Override_belt_text("mezool_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> GREEED_BLET_GAMEL = ITEMS.register("greeed_blet_gamel",
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"gamel",SAI_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
+			.Add_Extra_Base_Form_Items(GORILLA_MEDAL,ZOU_MEDAL).Override_belt_text("gamel_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> GREEED_BLET_MUCHIRI = ITEMS.register("greeed_blet_muchiri",
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"muchiri",MUKADE_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
+			.Add_Extra_Base_Form_Items(HACHI_MEDAL,ARI_MEDAL).Override_belt_text("muchiri_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
 	
 	public static final RegistryObject<SwordItem> MEDAJALIBUR = ITEMS.register("medajalibur",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
@@ -712,12 +739,12 @@ public class OOO_Rider_Items {
     public static final RegistryObject<SwordItem> ANICENT_OOO_GREEED_SWORD = ITEMS.register("ancient_ooo_greeed_sword",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
 
+    public static final RegistryObject<BaseBlasterItem> BIRTH_BUSTER = ITEMS.register("birth_buster",
+			() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
 	/**
 	tajaspinner
 	tajaspinner_eternity
 
-	birth_buster
-	
 	 **/
 
 	public static void register(IEventBus eventBus) {

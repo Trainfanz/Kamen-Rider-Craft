@@ -1,0 +1,12 @@
+{
+	"type":"minecraft:blasting",
+	"category":"misc",
+	"cookingtime":100,
+	"experience":1,
+	"group":"purple_medals",
+	"ingredient": {
+		"item": "kamenridercraft:purple_medals_sealed"
+	},
+	"result": "kamenridercraft:purple_medals_opened"
+	
+}	
