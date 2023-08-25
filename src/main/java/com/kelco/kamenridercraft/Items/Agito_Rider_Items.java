@@ -209,7 +209,7 @@ public class Agito_Rider_Items {
 	public static final RegistryObject<BaseBlasterItem> GM_01_SCORPION = ITEMS.register("gm_01_scorpion",
 			() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.AGITO_TAB_ITEM).ChangeRepairItem(SEED_OF_AGITO.get()));
 	public static final RegistryObject<BaseBlasterItem> GG_02_SALAMANDER = ITEMS.register("gg_02_salamander",
-			() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.AGITO_TAB_ITEM).ChangeRepairItem(SEED_OF_AGITO.get()));
+			() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).setProjectileLargeFireball(1).AddToTabList(RiderTabs.AGITO_TAB_ITEM).ChangeRepairItem(SEED_OF_AGITO.get()));
 	public static final RegistryObject<SwordItem> GS_03_DESTROYER = ITEMS.register("gs_03_destroyer",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.AGITO_TAB_ITEM).ChangeRepairItem(SEED_OF_AGITO.get()));
 	public static final RegistryObject<SwordItem> GA_04_ANTARES = ITEMS.register("ga_04_antares",
@@ -217,7 +217,7 @@ public class Agito_Rider_Items {
 	public static final RegistryObject<BaseBlasterItem> GX_05_KERBEROS = ITEMS.register("gx_05_kerberos",
 			() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.AGITO_TAB_ITEM).ChangeRepairItem(SEED_OF_AGITO.get()));
 	public static final RegistryObject<BaseBlasterItem> GX_LAUNCHER = ITEMS.register("gx_launcher",
-			() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.AGITO_TAB_ITEM).ChangeRepairItem(SEED_OF_AGITO.get()));
+			() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).setProjectileLargeFireball(2).AddToTabList(RiderTabs.AGITO_TAB_ITEM).ChangeRepairItem(SEED_OF_AGITO.get()));
 	public static final RegistryObject<SwordItem> GK_06_UNICORN = ITEMS.register("gk_06_unicorn",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.AGITO_TAB_ITEM).ChangeRepairItem(SEED_OF_AGITO.get()));
 	public static final RegistryObject<ShieldItem> G3_SHIELD = ITEMS.register("g3_shield",
@@ -227,7 +227,7 @@ public class Agito_Rider_Items {
 
 	
 	public static final RegistryObject<BaseBlasterItem> G4_GIGANT = ITEMS.register("g4_gigant",
-			() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.AGITO_TAB_ITEM).ChangeRepairItem(SEED_OF_AGITO.get()));
+			() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).setProjectileLargeFireball(4).AddToTabList(RiderTabs.AGITO_TAB_ITEM).ChangeRepairItem(SEED_OF_AGITO.get()));
 	
 	
 	public static final RegistryObject<BaseBlasterItem> V1_SHOT = ITEMS.register("v1_shot",

@@ -729,8 +729,8 @@ public class OOO_Rider_Items {
 	public static final RegistryObject<SwordItem> MEDAJALIBUR = ITEMS.register("medajalibur",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
 	
-	 public static final RegistryObject<SwordItem> MEDAGABURYU = ITEMS.register("medagaburyu",
-	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
+	 public static final RegistryObject<BaseBlasterItem> MEDAGABURYU = ITEMS.register("medagaburyu",
+	            () -> new BaseBlasterItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).IsSwordGun().setProjectileWitherSkull().AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
 	    
 	
     public static final RegistryObject<SwordItem> DEEPEST_HARPOON = ITEMS.register("deepest_harpoon",
