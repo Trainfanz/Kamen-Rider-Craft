@@ -681,7 +681,7 @@ public class OOO_Rider_Items {
 	//birth driver
 	
 	public static final RegistryObject<Item> POSEIDONDRIVER = ITEMS.register("poseidon_driver",
-			() -> new OOODriverItem(ArmorMaterials.DIAMOND,"poseidon",SAME_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"poseidon",SAME_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
 			.Add_Extra_Base_Form_Items(KUJIRA_MEDAL,OOKAMIUO_MEDAL).Override_belt_text("poseidon_driver_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
 	public static final RegistryObject<Item> ANCIENT_OOODRIVER = ITEMS.register("ancient_ooodriver",
@@ -706,24 +706,24 @@ public class OOO_Rider_Items {
 			.Add_Extra_Base_Form_Items(KUJAKU_MEDAL,CONDOR_MEDAL).Override_belt_text("ankh_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
 	public static final RegistryObject<Item> GREEED_BLET_UVA = ITEMS.register("greeed_blet_uva",
-			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"uva",KUWAGATA_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
-			.Add_Extra_Base_Form_Items(KAMAKIRI_MEDAL,BATTA_MEDAL).Override_belt_text("uva_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"uva_complete",KUWAGATA_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
+			.Add_Extra_Base_Form_Items(KAMAKIRI_MEDAL,BATTA_MEDAL).Override_belt_text("ankh_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
 	public static final RegistryObject<Item> GREEED_BLET_KAZARI = ITEMS.register("greeed_blet_kazari",
-			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"kazari",LION_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
-			.Add_Extra_Base_Form_Items(TORA_MEDAL,CHEETAH_MEDAL).Override_belt_text("kazari_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"kazari_complete",LION_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
+			.Add_Extra_Base_Form_Items(TORA_MEDAL,CHEETAH_MEDAL).Override_belt_text("ankh_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
 	public static final RegistryObject<Item> GREEED_BLET_MEZOOL = ITEMS.register("greeed_blet_mezool",
-			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"mezool",SHACHI_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
-			.Add_Extra_Base_Form_Items(UNAGI_MEDAL,TAKO_MEDAL).Override_belt_text("mezool_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"mezool_complete",SHACHI_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
+			.Add_Extra_Base_Form_Items(UNAGI_MEDAL,TAKO_MEDAL).Override_belt_text("ankh_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
 	public static final RegistryObject<Item> GREEED_BLET_GAMEL = ITEMS.register("greeed_blet_gamel",
-			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"gamel",SAI_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
-			.Add_Extra_Base_Form_Items(GORILLA_MEDAL,ZOU_MEDAL).Override_belt_text("gamel_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"gamel_complete",SAI_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
+			.Add_Extra_Base_Form_Items(GORILLA_MEDAL,ZOU_MEDAL).Override_belt_text("ankh_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
 	public static final RegistryObject<Item> GREEED_BLET_MUCHIRI = ITEMS.register("greeed_blet_muchiri",
-			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"muchiri",MUKADE_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
-			.Add_Extra_Base_Form_Items(HACHI_MEDAL,ARI_MEDAL).Override_belt_text("muchiri_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"muchiri_complete",MUKADE_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
+			.Add_Extra_Base_Form_Items(HACHI_MEDAL,ARI_MEDAL).Override_belt_text("ankh_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	
 	public static final RegistryObject<SwordItem> MEDAJALIBUR = ITEMS.register("medajalibur",
