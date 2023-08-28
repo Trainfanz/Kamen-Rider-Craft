@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "ooo_putotyra",
+  "group": "ooo_tajadol",
   "pattern": [
     "ACB",
     "XSX",
@@ -10,18 +10,17 @@
     "X": {
       "item": "kamenridercraft:cellmedal"
     }, "C": {
-      "item": "kamenridercraft:tricera_medal"
+      "item": "kamenridercraft:kujaku_medal"
     }, "A": {
-      "item": "kamenridercraft:ptera_medal"
+      "item": "kamenridercraft:taka_medal"
     }, "B": {
-      "item": "kamenridercraft:tyranno_medal"
+      "item": "kamenridercraft:condor_medal"
     },
     "S": {
       "item": "kamenridercraft:base_sword"
     }
   },
   "result": {
-    "item": "kamenridercraft:medagaburyu"
-  }    
+    "item": "kamenridercraft:tajaspinner"
+  }
 }
-
