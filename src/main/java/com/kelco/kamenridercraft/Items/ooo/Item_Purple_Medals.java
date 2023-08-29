@@ -1,12 +1,15 @@
 package com.kelco.kamenridercraft.Items.ooo;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.Items.Faiz_Rider_Items;
 import com.kelco.kamenridercraft.Items.OOO_Rider_Items;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 
 public class Item_Purple_Medals extends Item  implements IHasModel
@@ -16,27 +19,19 @@ public class Item_Purple_Medals extends Item  implements IHasModel
 
 	public Item_Purple_Medals(String name)
 	{
-		super();
+		super(null);
 		
-		setMaxDamage(0);
-		maxStackSize = 1;
-	       setTranslationKey(name);
-	        setRegistryName(name);
-	        KamenRiderCraftCore.ITEMS.add(this);
 		}
-		@Override
 		public void registerModels() {
-			KamenRiderCraftCore.proxy.registerItemRender(this,0,"inventory");
+			KamenRiderCraftCore.registerItemRender(this,0,"inventory");
 		}
 
-	public void onUpdate(ItemStack par1ItemStack, World par2World, Entity par3Entity, int par4, boolean par5) {
+		@Override
+	    public void onUpdate(ItemStack itemstack, World world, Entity entity, int i, boolean flag)
+	    if (this.asItem()!=OOO_Rider_Items.PURPLE_MEDALS_OPENED.get()) {
 
-
-
-		if (par3Entity instanceof EntityPlayer){
-			EntityPlayer player = (EntityPlayer) par3Entity;
-	
-			if (! par2World.isRemote)
+    	
+					
 			{
 				Random generator = new Random();
 				
@@ -44,7 +39,7 @@ public class Item_Purple_Medals extends Item  implements IHasModel
 				int rand = generator.nextInt(3);
 				int rand2 = generator.nextInt(4);
 				
-				Player playerIn = (Player)
+				Player playerIn = (Player);
 				playerIn.sendSystemMessage(Component.translatable("<You released the purple medals!").withStyle(ChatFormatting.DARK_PURPLE));
 				
 				player.dropItem(OOO_Rider_Items.PURPLE_MEDALS_EMPTY, 1);
@@ -53,7 +48,7 @@ public class Item_Purple_Medals extends Item  implements IHasModel
 				player.dropItem(OOO_Rider_Items.TYRANNO_MEDAL, rand1);
 
 
-				par1ItemStack.shrink(1);	
+				itemstack.shrink(1);	
 					
 				}
 			}
