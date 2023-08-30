@@ -2,6 +2,7 @@ package com.kelco.kamenridercraft.Items;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.Effect.Effect_core;
+import com.kelco.kamenridercraft.Items.ooo.Item_Purple_Medals;
 import com.kelco.kamenridercraft.Items.ooo.OOODriverItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseBlasterItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
@@ -661,8 +662,8 @@ public class OOO_Rider_Items {
 	
 	public static final RegistryObject<Item> PURPLE_MEDALS_SEALED = ITEMS.register("purple_medals_sealed",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
-	public static final RegistryObject<Item> PURPLE_MEDALS_OPENED = ITEMS.register("purple_medals_opened",
-			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	public static final RegistryObject<BaseItem> PURPLE_MEDALS_OPENED = ITEMS.register("purple_medals_opened",
+			() -> new Item_Purple_Medals(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	public static final RegistryObject<Item> PURPLE_MEDALS_EMPTY = ITEMS.register("purple_medals_empty",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	

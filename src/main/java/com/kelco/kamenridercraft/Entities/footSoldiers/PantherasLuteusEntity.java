@@ -1,16 +1,12 @@
 package com.kelco.kamenridercraft.Entities.footSoldiers;
 
 import com.kelco.kamenridercraft.Entities.MobsCore;
-
-import net.minecraft.ChatFormatting;
-import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.monster.Zombie;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 
 public class PantherasLuteusEntity extends BaseHenchmenEntity {

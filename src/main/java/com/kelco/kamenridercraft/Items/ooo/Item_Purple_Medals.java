@@ -1,58 +1,46 @@
 package com.kelco.kamenridercraft.Items.ooo;
 
-import com.kelco.kamenridercraft.KamenRiderCraftCore;
-import com.kelco.kamenridercraft.Items.Faiz_Rider_Items;
+import java.util.Random;
+
+
 import com.kelco.kamenridercraft.Items.OOO_Rider_Items;
+import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.Level;
 
-public class Item_Purple_Medals extends Item  implements IHasModel
+public class Item_Purple_Medals extends BaseItem 
 {
 
 
 
-	public Item_Purple_Medals(String name)
+	public Item_Purple_Medals(Properties properties)
 	{
-		super(null);
-		
-		}
-		public void registerModels() {
-			KamenRiderCraftCore.registerItemRender(this,0,"inventory");
-		}
+		super(properties);
 
-		@Override
-	    public void onUpdate(ItemStack itemstack, World world, Entity entity, int i, boolean flag)
-	    if (this.asItem()!=OOO_Rider_Items.PURPLE_MEDALS_OPENED.get()) {
+	}
 
-    	
-					
-			{
+
+	@Override
+	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int i, boolean flag) {
 				Random generator = new Random();
-				
 				int rand1 = generator.nextInt(3);
 				int rand = generator.nextInt(3);
 				int rand2 = generator.nextInt(4);
-				
-				Player playerIn = (Player);
-				playerIn.sendSystemMessage(Component.translatable("<You released the purple medals!").withStyle(ChatFormatting.DARK_PURPLE));
-				
-				player.dropItem(OOO_Rider_Items.PURPLE_MEDALS_EMPTY, 1);
-				player.dropItem(OOO_Rider_Items.PTERA_MEDAL, rand2);
-				player.dropItem(OOO_Rider_Items.TRICERA_MEDAL, rand);
-				player.dropItem(OOO_Rider_Items.TYRANNO_MEDAL, rand1);
-
-
-				itemstack.shrink(1);	
-					
-				}
-			}
+				if (entity instanceof Player ) {
+					Player playerIn = ((Player)entity);
+					if(world.isClientSide) {
+					playerIn.sendSystemMessage(Component.translatable("You released the purple medals!").withStyle(ChatFormatting.DARK_PURPLE));
+					}
+					playerIn.drop(new ItemStack(OOO_Rider_Items.PURPLE_MEDALS_EMPTY.get(), 1), true);
+					playerIn.drop(new ItemStack(OOO_Rider_Items.PTERA_MEDAL.get(), rand2), true);
+					playerIn.drop(new ItemStack(OOO_Rider_Items.TRICERA_MEDAL.get(), rand), true);
+					playerIn.drop(new ItemStack(OOO_Rider_Items.TYRANNO_MEDAL.get(), rand1), true);
+					itemstack.shrink(1);	
 		}
-	
-
+	}
 }
