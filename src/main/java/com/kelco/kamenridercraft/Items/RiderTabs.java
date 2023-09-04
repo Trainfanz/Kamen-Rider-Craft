@@ -80,6 +80,9 @@ public class RiderTabs {
     public static RegistryObject<CreativeModeTab> FaizTab = CREATIVE_MODE_TABS.register("krc_230_faiz_tab", () -> 
  			CreativeModeTab.builder().icon(() -> new ItemStack(Faiz_Rider_Items.FAIZHELMET.get())).withBackgroundLocation(new ResourceLocation(KamenRiderCraftCore.MODID+":textures/gui/tab_faiz_items.png"))
  			.title(Component.literal("Faiz Rider Items")).build());
+    public static RegistryObject<CreativeModeTab> BladeTab = CREATIVE_MODE_TABS.register("krc_240_blade_tab", () -> 
+		CreativeModeTab.builder().icon(() -> new ItemStack(Blade_Rider_Items.BLADEHELMET.get())).withBackgroundLocation(new ResourceLocation(KamenRiderCraftCore.MODID+":textures/gui/tab_blade_items.png"))
+		.title(Component.literal("Blade Rider Items")).build());
     public static RegistryObject<CreativeModeTab> WTab = CREATIVE_MODE_TABS.register("krc_310_w_tab", () -> 
 			CreativeModeTab.builder().icon(() -> new ItemStack(W_Rider_Items.WHELMET.get())).withBackgroundLocation(new ResourceLocation(KamenRiderCraftCore.MODID+":textures/gui/tab_w_items.png"))
 			.title(Component.literal("W Rider Items")).build());
@@ -112,6 +115,7 @@ public class RiderTabs {
     public static List<Item> KUUGA_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> AGITO_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> FAIZ_TAB_ITEM= new ArrayList<Item>();
+    public static List<Item> BLADE_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> W_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> OOO_TAB_ITEM= new ArrayList<Item>();
     
@@ -224,6 +228,11 @@ public class RiderTabs {
 			for (int i = 0; i < RiderTabs.FAIZ_TAB_ITEM.size(); i++)
 			{
 				event.accept( RiderTabs.FAIZ_TAB_ITEM.get(i));
+			}
+		}else if(event.getTab() == RiderTabs.BladeTab.get()) {
+			for (int i = 0; i < RiderTabs.BLADE_TAB_ITEM.size(); i++)
+			{
+				event.accept( RiderTabs.BLADE_TAB_ITEM.get(i));
 			}
 		}else if(event.getTab() == RiderTabs.WTab.get()) {
 			for (int i = 0; i < RiderTabs.W_TAB_ITEM.size(); i++)
