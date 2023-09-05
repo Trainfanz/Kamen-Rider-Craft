@@ -84,7 +84,7 @@ public class Blade_Rider_Items {
             		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
     
-    public static final RegistryObject<Item> FUSION_ELEPHANT = ITEMS.register("fusion_elepkant",
+    public static final RegistryObject<Item> FUSION_ELEPHANT = ITEMS.register("fusion_elephant",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"_jack","leangle","leanglebuckle_belt",
             		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
@@ -94,7 +94,8 @@ public class Blade_Rider_Items {
 	public static final RegistryObject<Item> ABSORB_TIGER = ITEMS.register("absorb_tiger",
     		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
     
-	//evolution tarantula
+	public static final RegistryObject<Item> EVOLUTION_TARANTULA = ITEMS.register("evolution_tarantula",
+    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
 	
 	public static final RegistryObject<Item> CHANGE_MANTIS = ITEMS.register("change_mantis",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"","chalice","chalicerouzer_belt",
@@ -109,16 +110,16 @@ public class Blade_Rider_Items {
             		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false)).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
     
-    public static final RegistryObject<Item> CHANGE_CERBEROS_GLAIVE = ITEMS.register("change_cerberos_glaive",
+    public static final RegistryObject<Item> CHANGE_KERBEROS_GLAIVE = ITEMS.register("change_kerberos_glaive",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"","glaive","glaivebuckle_belt",
             		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false)).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
-    public static final RegistryObject<Item> CHANGE_CERBEROS_LARC = ITEMS.register("change_cerberos_larc",
+    public static final RegistryObject<Item> CHANGE_KERBEROS_LARC = ITEMS.register("change_kerberos_larc",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"","larc","larcbuckle_belt",
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
             		new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
-    public static final RegistryObject<Item> CHANGE_CERBEROS_LANCE = ITEMS.register("change_cerberos_lance",
+    public static final RegistryObject<Item> CHANGE_KERBEROS_LANCE = ITEMS.register("change_kerberos_lance",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"","lance","lancebuckle_belt",
             		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
             		new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),
@@ -133,20 +134,20 @@ public class Blade_Rider_Items {
             () -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM).ChangeRepairItem(BLADECARD.get()));
 
     
-    public static final RegistryObject<Item> BLAYBUCKLE = ITEMS.register("blaybuckle",
+    public static final RegistryObject<Item> BLAYBUCKLE = ITEMS.register("blay_buckle",
     		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"blade",CHANGE_BEETLE ,BLADEHELMET, BLADECHESTPLATE,BLADELEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM).ChangeRepairItem(BLADECARD.get()));
-    public static final RegistryObject<Item> GARRENBUCKLE = ITEMS.register("garrenbuckle",
+    public static final RegistryObject<Item> GARRENBUCKLE = ITEMS.register("garren_buckle",
     		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"garren",CHANGE_STAG ,BLADEHELMET, BLADECHESTPLATE,BLADELEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM).ChangeRepairItem(BLADECARD.get()));
-    public static final RegistryObject<Item> LEANGLEBUCKLE = ITEMS.register("leanglebuckle",
+    public static final RegistryObject<Item> LEANGLEBUCKLE = ITEMS.register("leangle_buckle",
     		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"leangle",CHANGE_SPIDER ,BLADEHELMET, BLADECHESTPLATE,BLADELEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM).ChangeRepairItem(BLADECARD.get()));
-    public static final RegistryObject<Item> CHALICEROUZER = ITEMS.register("chalicerouzer",
+    public static final RegistryObject<Item> CHALICEROUZER = ITEMS.register("chalice_rouzer",
     		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"blade",CHANGE_MANTIS ,BLADEHELMET, BLADECHESTPLATE,BLADELEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM).ChangeRepairItem(BLADECARD.get()));
-    public static final RegistryObject<Item> GLAIVEBUCKLE = ITEMS.register("glaivebuckle",
-    		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"glaive",CHANGE_CERBEROS_GLAIVE ,BLADEHELMET, BLADECHESTPLATE,BLADELEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM).ChangeRepairItem(BLADECARD.get()));
-    public static final RegistryObject<Item> LARCBUCKLE = ITEMS.register("larcbuckle",
-    		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"larc",CHANGE_CERBEROS_LARC ,BLADEHELMET, BLADECHESTPLATE,BLADELEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM).ChangeRepairItem(BLADECARD.get()));
-    public static final RegistryObject<Item> LANCEBUCKLE = ITEMS.register("lancebuckle",
-    		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"lance",CHANGE_CERBEROS_LANCE ,BLADEHELMET, BLADECHESTPLATE,BLADELEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM).ChangeRepairItem(BLADECARD.get()));
+    public static final RegistryObject<Item> GLAIVEBUCKLE = ITEMS.register("glaive_buckle",
+    		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"glaive",CHANGE_KERBEROS_GLAIVE ,BLADEHELMET, BLADECHESTPLATE,BLADELEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM).ChangeRepairItem(BLADECARD.get()));
+    public static final RegistryObject<Item> LARCBUCKLE = ITEMS.register("larc_buckle",
+    		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"larc",CHANGE_KERBEROS_LARC ,BLADEHELMET, BLADECHESTPLATE,BLADELEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM).ChangeRepairItem(BLADECARD.get()));
+    public static final RegistryObject<Item> LANCEBUCKLE = ITEMS.register("lance_buckle",
+    		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"lance",CHANGE_KERBEROS_LANCE ,BLADEHELMET, BLADECHESTPLATE,BLADELEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM).ChangeRepairItem(BLADECARD.get()));
  
 	public static final RegistryObject<Item> ROUZE_ABSORBER = ITEMS.register("rouze_absorber",
     		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
@@ -168,7 +169,7 @@ public class Blade_Rider_Items {
     
     public static final RegistryObject<BaseBlasterItem> CHALICE_ARROW = ITEMS.register("chalice_arrow",
     		() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM).ChangeRepairItem(BLADECARD.get()));
-    public static final RegistryObject<SwordItem> WILD_SLASHER = ITEMS.register("wild_slash",
+    public static final RegistryObject<SwordItem> WILD_SLASHER = ITEMS.register("wild_slasher",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM).ChangeRepairItem(BLADECARD.get()));
     public static final RegistryObject<BaseBlasterItem> WILD_CHALICE_ARROW = ITEMS.register("wild_chalice_arrow",
     		() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).setProjectileFireball().AddToTabList(RiderTabs.BLADE_TAB_ITEM).ChangeRepairItem(BLADECARD.get()));

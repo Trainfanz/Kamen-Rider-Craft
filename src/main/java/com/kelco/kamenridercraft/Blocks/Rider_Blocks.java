@@ -62,6 +62,14 @@ public class Rider_Blocks {
 	public static final RegistryObject<Block> G_SYSTEM_CHIP_PROGRAMMER = registerBlock("g_chip_programer",
 			() -> new GSystemChipProgrammer(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
 					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> BLADE_ORE = registerBlock("stone_blade",
+			() -> new BaseBlockDropExperience(BlockBehaviour.Properties.copy(Blocks.STONE)
+					.strength(6f).requiresCorrectToolForDrops().strength(4.5F, 3.0F), UniformInt.of(2, 6)).AddToTabList(RiderTabs.RIDER_BLOCK));
+
+	public static final RegistryObject<Block> DEEPSLATE_BLADE_ORE = registerBlock("deepslate_stone_blade",
+			() -> new BaseBlockDropExperience(BlockBehaviour.Properties.copy(Blocks.STONE)
+					.strength(6f).requiresCorrectToolForDrops().strength(4.5F, 3.0F).sound(SoundType.DEEPSLATE), UniformInt.of(2, 6)).AddToTabList(RiderTabs.RIDER_BLOCK));
 
 	
 	public static final RegistryObject<Block> PURE_GAIA_MEMORY_BLOCK = registerBlock("pure_gaia_memory_block",
