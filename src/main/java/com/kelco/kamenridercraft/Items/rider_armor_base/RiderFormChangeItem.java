@@ -3,6 +3,7 @@ package com.kelco.kamenridercraft.Items.rider_armor_base;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 import com.google.common.collect.Lists;
 
@@ -22,7 +23,7 @@ public class RiderFormChangeItem extends BaseItem {
 	private int Slot =1;
 	private List<MobEffectInstance> potionEffectList;
 	private int BELT;
-	//private List<Item> NEEDSITEM = new ArrayList<Item>();
+	private List<Item> NEEDITEM = new ArrayList<Item>();
 	protected String RIDER_NAME;
 	private String BELT_TEX;
 	private String UPDATED_MODEL;
@@ -31,6 +32,7 @@ public class RiderFormChangeItem extends BaseItem {
 	private Item STIFT_ITEM = Items.APPLE;
 	private List<RiderFormChangeItem> alternative = new ArrayList<RiderFormChangeItem>();
 	private RiderFormChangeItem alsoChange2ndSlot;
+
 
 
 	public RiderFormChangeItem( Properties properties,int belt,String formName,String ridername,String beltTex, MobEffectInstance... effects) {
@@ -72,7 +74,7 @@ public class RiderFormChangeItem extends BaseItem {
 	public Boolean HasWingsIfFlying() {
 		return FLYING_TEXT;
 	}
-	
+
 	public RiderFormChangeItem alsoChange2ndSlot(Item item) {
 		alsoChange2ndSlot=  (RiderFormChangeItem) item;
 		return this;
@@ -98,9 +100,27 @@ public class RiderFormChangeItem extends BaseItem {
 		return this;
 	}
 
+	public RiderFormChangeItem addNeedItem( Item item) {
+		NEEDITEM.add((RiderFormChangeItem) item);
+		return this;
+	}
+	
 	public RiderFormChangeItem addShiftForm(Item item) {
 		STIFT_ITEM=item;
 		return this;
+	}
+
+	public Boolean CanChange(Player player) {
+
+		if ( !NEEDITEM.isEmpty()) {
+			for (int i = 0; i < NEEDITEM.size(); i++)
+			{
+				if (player.getInventory().countItem(NEEDITEM.get(i))==0){
+					return false;
+				}
+			}
+		}
+		return true;
 	}
 
 	public InteractionResultHolder<ItemStack> use(Level p_41128_, Player p_41129_, InteractionHand p_41130_) {
@@ -115,10 +135,11 @@ public class RiderFormChangeItem extends BaseItem {
 				((RiderFormChangeItem)STIFT_ITEM).use(p_41128_, p_41129_, p_41130_);
 			}
 			else if (((RiderDriverItem)belt.getItem()).Rider==RIDER_NAME) {
+				if(CanChange(p_41129_)) {
 				if (alsoChange2ndSlot !=null)RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),alsoChange2ndSlot, 2);
 
 				RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, Slot);
-
+			}
 			}else if(!alternative.isEmpty()){
 
 				for (int i = 0; i < alternative.size(); i++)

@@ -97,8 +97,15 @@ public class Agito_Rider_Items {
             		new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false)).AddToTabList(RiderTabs.AGITO_TAB_ITEM));
 
+    
+    public static final RegistryObject<Item> ANOTHER_AGITO_KOJI = ITEMS.register("another_agito_koji",
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"","another_agito_koji","ank_point_belt",
+            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+            		new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false)).AddToTabList(RiderTabs.AGITO_TAB_ITEM));
+ 
     public static final RegistryObject<Item> ANOTHER_AGITO_BURNING = ITEMS.register("another_agito_burning_form",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"","another_agito_burning","ank_point_belt_b",
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"_burning","another_agito_koji","ank_point_belt_b",
             		new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false),
             		new MobEffectInstance(MobEffects.JUMP, 40, 5,true,false),
@@ -191,7 +198,7 @@ public class Agito_Rider_Items {
     		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"mirage_agito",MIRAGE_AGITO ,AGITOHELMET, AGITOCHESTPLATE,AGITOLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.AGITO_TAB_ITEM).ChangeRepairItem(SEED_OF_AGITO.get()));
     
     public static final RegistryObject<Item> ANK_POINT_BURNING = ITEMS.register("ank_point_burning",
-    		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"another_agito_burning",ANOTHER_AGITO_BURNING ,AGITOHELMET, AGITOCHESTPLATE,AGITOLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.AGITO_TAB_ITEM).ChangeRepairItem(SEED_OF_AGITO.get()));
+    		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"another_agito_koji",ANOTHER_AGITO_KOJI ,AGITOHELMET, AGITOCHESTPLATE,AGITOLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.AGITO_TAB_ITEM).ChangeRepairItem(SEED_OF_AGITO.get()));
     
     public static final RegistryObject<SwordItem> FLAME_SABER = ITEMS.register("flame_saber",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.AGITO_TAB_ITEM).ChangeRepairItem(SEED_OF_AGITO.get()));
