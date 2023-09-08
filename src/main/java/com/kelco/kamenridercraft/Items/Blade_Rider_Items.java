@@ -34,12 +34,12 @@ public class Blade_Rider_Items {
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
     	    	
     public static final RegistryObject<Item> CHANGE_BEETLE = ITEMS.register("change_beetle",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"","blade","bladedriver_belt",
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"","blade","blay_buckle_belt",
             		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
     
     public static final RegistryObject<Item> FUSION_EAGLE = ITEMS.register("fusion_eagle",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"_jack","blade","bladedriver_belt",
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"_jack","blade","blay_buckle_belt",
             		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false),
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
@@ -50,19 +50,19 @@ public class Blade_Rider_Items {
     		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
     
     public static final RegistryObject<Item> EVOLUTION_CAUCASUS = ITEMS.register("evolution_caucasus",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"_king","blade","bladedriver_belt",
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"_king","blade","blay_buckle_belt",
             		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
             		new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false),
             		new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 0,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false)).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
     
     public static final RegistryObject<Item> CHANGE_STAG = ITEMS.register("change_stag",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"","garren","garrenbuckle_belt",
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"","garren","garren_buckle_belt",
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false)).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
     
     public static final RegistryObject<Item> FUSION_PEACOCK = ITEMS.register("fusion_peacock",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"_jack","garren","garrenbuckle_belt",
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"_jack","garren","garren_buckle_belt",
             		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false),
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
@@ -73,11 +73,24 @@ public class Blade_Rider_Items {
     		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
     
     public static final RegistryObject<Item> EVOLUTION_GIRAFFA = ITEMS.register("evolution_giraffa",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"_king","garren","garrenbuckle_belt",
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"_king","garren","garren_buckle_belt",
             		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
             		new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false),
             		new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 0,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false)).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
+    
+    public static final RegistryObject<Item> CHANGE_MANTIS = ITEMS.register("change_mantis",
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"","chalice","chalice_rouzer_belt",
+            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false),
+            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false)).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
+    
+    public static final RegistryObject<Item> EVOLUTION_PARADOXA = ITEMS.register("evolution_paradoxa",
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"_wild","chalice","chalice_rouzer_belt",
+            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false),
+            		new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false),
+            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false),
+            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false)).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
     
     public static final RegistryObject<Item> CHANGE_SPIDER = ITEMS.register("change_spider",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"","leangle","leanglebuckle_belt",
@@ -97,20 +110,7 @@ public class Blade_Rider_Items {
 	public static final RegistryObject<Item> EVOLUTION_TARANTULA = ITEMS.register("evolution_tarantula",
     		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
 	
-	public static final RegistryObject<Item> CHANGE_MANTIS = ITEMS.register("change_mantis",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"","chalice","chalicerouzer_belt",
-            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
-            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false),
-            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false)).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
-    
-    public static final RegistryObject<Item> EVOLUTION_PARADOXA = ITEMS.register("evolution_paradoxa",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"_wild","chalice","chalicerouzer_belt",
-            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false),
-            		new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false),
-            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false),
-            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false)).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
-    
-    public static final RegistryObject<Item> CHANGE_KERBEROS_GLAIVE = ITEMS.register("change_kerberos_glaive",
+	public static final RegistryObject<Item> CHANGE_KERBEROS_GLAIVE = ITEMS.register("change_kerberos_glaive",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"","glaive","glaivebuckle_belt",
             		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false)).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
@@ -138,10 +138,10 @@ public class Blade_Rider_Items {
     		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"blade",CHANGE_BEETLE ,BLADEHELMET, BLADECHESTPLATE,BLADELEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM).ChangeRepairItem(BLADECARD.get()));
     public static final RegistryObject<Item> GARRENBUCKLE = ITEMS.register("garren_buckle",
     		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"garren",CHANGE_STAG ,BLADEHELMET, BLADECHESTPLATE,BLADELEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM).ChangeRepairItem(BLADECARD.get()));
+    public static final RegistryObject<Item> CHALICEROUZER = ITEMS.register("chalice_rouzer",
+    		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"chalice",CHANGE_MANTIS ,BLADEHELMET, BLADECHESTPLATE,BLADELEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM).ChangeRepairItem(BLADECARD.get()));
     public static final RegistryObject<Item> LEANGLEBUCKLE = ITEMS.register("leangle_buckle",
     		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"leangle",CHANGE_SPIDER ,BLADEHELMET, BLADECHESTPLATE,BLADELEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM).ChangeRepairItem(BLADECARD.get()));
-    public static final RegistryObject<Item> CHALICEROUZER = ITEMS.register("chalice_rouzer",
-    		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"blade",CHANGE_MANTIS ,BLADEHELMET, BLADECHESTPLATE,BLADELEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM).ChangeRepairItem(BLADECARD.get()));
     public static final RegistryObject<Item> GLAIVEBUCKLE = ITEMS.register("glaive_buckle",
     		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"glaive",CHANGE_KERBEROS_GLAIVE ,BLADEHELMET, BLADECHESTPLATE,BLADELEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM).ChangeRepairItem(BLADECARD.get()));
     public static final RegistryObject<Item> LARCBUCKLE = ITEMS.register("larc_buckle",
