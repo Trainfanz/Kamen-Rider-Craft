@@ -32,9 +32,11 @@ public class RiderFormChangeItem extends BaseItem {
 	private Item STIFT_ITEM = Items.APPLE;
 	private List<RiderFormChangeItem> alternative = new ArrayList<RiderFormChangeItem>();
 	private RiderFormChangeItem alsoChange2ndSlot;
+	//private List<String> compatibilityList = new ArrayList<String>();
+	public String[] compatibilityList= new String[] {""};
 
 
-
+	
 	public RiderFormChangeItem( Properties properties,int belt,String formName,String ridername,String beltTex, MobEffectInstance... effects) {
 		super( properties);
 
@@ -101,7 +103,7 @@ public class RiderFormChangeItem extends BaseItem {
 	}
 
 	public RiderFormChangeItem addNeedItem( Item item) {
-		NEEDITEM.add((RiderFormChangeItem) item);
+		NEEDITEM.add(item);
 		return this;
 	}
 	
@@ -110,8 +112,29 @@ public class RiderFormChangeItem extends BaseItem {
 		return this;
 	}
 
-	public Boolean CanChange(Player player) {
+	public BaseItem AddCompatibilityList(String[] List) {
+		 compatibilityList=List;
+		return this;
+	}
 
+	public Boolean iscompatible(String rider) {
+		
+		for (int i = 0; i < compatibilityList.length; i++)
+		{
+			if (compatibilityList[i]==rider){
+				return true;
+			}
+		}
+		
+		return false;
+	}
+	
+	
+	public Boolean CanChange(Player player,RiderDriverItem belt) {
+
+		if(belt.Rider!=RIDER_NAME&!iscompatible(belt.Rider)) {
+			return false;
+		}
 		if ( !NEEDITEM.isEmpty()) {
 			for (int i = 0; i < NEEDITEM.size(); i++)
 			{
@@ -127,19 +150,18 @@ public class RiderFormChangeItem extends BaseItem {
 
 		ItemStack itemstack = p_41129_.getItemInHand(p_41130_);
 
-		ItemStack belt = p_41129_.getItemBySlot(EquipmentSlot.FEET);
+		ItemStack BELT = p_41129_.getItemBySlot(EquipmentSlot.FEET);
 
-		if (belt.getItem() instanceof RiderDriverItem) {
+		if (BELT.getItem() instanceof RiderDriverItem belt) {
 
 			if (STIFT_ITEM instanceof RiderFormChangeItem& p_41129_.isShiftKeyDown()) {
 				((RiderFormChangeItem)STIFT_ITEM).use(p_41128_, p_41129_, p_41130_);
 			}
-			else if (((RiderDriverItem)belt.getItem()).Rider==RIDER_NAME) {
-				if(CanChange(p_41129_)) {
+			else if (CanChange(p_41129_,belt)) {
 				if (alsoChange2ndSlot !=null)RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),alsoChange2ndSlot, 2);
 
 				RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, Slot);
-			}
+			
 			}else if(!alternative.isEmpty()){
 
 				for (int i = 0; i < alternative.size(); i++)
@@ -155,47 +177,9 @@ public class RiderFormChangeItem extends BaseItem {
 }
 
 /**
-	public Item getWing() {
-		return WINGS;
-	}
-
-
-	public boolean getNeedItem(Player  playerIn) {
-		boolean NEED = true;
-		if (NEEDSITEM.isEmpty()){
-			NEED=true;
-		}
-		else {
-			for (int i = 0; i < NEEDSITEM.size(); i++)
-			{
-				if (!playerIn.inventory.hasItemStack(new ItemStack(NEEDSITEM.get(i)))){
-						(new ItemStack(NEEDSITEM.get(i)))){
-					NEED=false;
-				}
-			}
-		}
-		return NEED;
-	}
-
-
-	public RiderFormChangeItem addWing(Item wings) {
-		WINGS = wings;
-		return this;
-	}
 	public RiderFormChangeItem ShiftForm(Item ShiftItem) {
 		STIFT_ITEM = ShiftItem;
 		return this;
 	}
-
-	public RiderFormChangeItem addAlternative(RiderFormChangeItem alternativeItem) {
-		alternative.add(alternativeItem);
-		return this;
-	}
-	public RiderFormChangeItem addNeedItem(Item needitem) {
-		NEEDSITEM.add(needitem);
-		return this;
-	}
-
-
 
  **/

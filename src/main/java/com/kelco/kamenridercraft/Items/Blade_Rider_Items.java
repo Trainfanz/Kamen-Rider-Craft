@@ -33,6 +33,10 @@ public class Blade_Rider_Items {
 	public static final RegistryObject<Item> BLADECARD = ITEMS.register("bladecard",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
     	    	
+	public static final RegistryObject<Item> ROUZE_ABSORBER = ITEMS.register("rouze_absorber",
+    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
+
+	
     public static final RegistryObject<Item> CHANGE_BEETLE = ITEMS.register("change_beetle",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"","blade","blay_buckle_belt",
             		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
@@ -44,7 +48,8 @@ public class Blade_Rider_Items {
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
-            		new MobEffectInstance(Effect_core.FLYING.get(), 400, 0,true,false)).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
+            		new MobEffectInstance(Effect_core.FLYING.get(), 400, 0,true,false))
+            .addNeedItem(ROUZE_ABSORBER.get()).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
     
 	public static final RegistryObject<Item> ABSORB_CAPRICORN = ITEMS.register("absorb_capricorn",
     		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
@@ -54,7 +59,8 @@ public class Blade_Rider_Items {
             		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
             		new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false),
             		new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 0,true,false),
-            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false)).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
+            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false))
+            .addNeedItem(ROUZE_ABSORBER.get()).addNeedItem(ABSORB_CAPRICORN.get()).addNeedItem(FUSION_EAGLE.get()).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
     
     public static final RegistryObject<Item> CHANGE_STAG = ITEMS.register("change_stag",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"","garren","garren_buckle_belt",
@@ -67,7 +73,8 @@ public class Blade_Rider_Items {
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
-            		new MobEffectInstance(Effect_core.FLYING.get(), 400, 0,true,false)).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
+            		new MobEffectInstance(Effect_core.FLYING.get(), 400, 0,true,false))
+            .addNeedItem(ROUZE_ABSORBER.get()).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
     
 	public static final RegistryObject<Item> ABSORB_SERPENT = ITEMS.register("absorb_serpent",
     		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
@@ -77,7 +84,8 @@ public class Blade_Rider_Items {
             		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
             		new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false),
             		new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 0,true,false),
-            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false)).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
+            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false))
+            .addNeedItem(ROUZE_ABSORBER.get()).addNeedItem(ABSORB_SERPENT.get()).addNeedItem(FUSION_PEACOCK.get()).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
     
     public static final RegistryObject<Item> CHANGE_MANTIS = ITEMS.register("change_mantis",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"","chalice","chalice_rouzer_belt",
@@ -102,7 +110,8 @@ public class Blade_Rider_Items {
             		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
-            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
+            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false))
+            .addNeedItem(ROUZE_ABSORBER.get()).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
     
 	public static final RegistryObject<Item> ABSORB_TIGER = ITEMS.register("absorb_tiger",
     		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
@@ -149,8 +158,6 @@ public class Blade_Rider_Items {
     public static final RegistryObject<Item> LANCEBUCKLE = ITEMS.register("lance_buckle",
     		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"lance",CHANGE_KERBEROS_LANCE ,BLADEHELMET, BLADECHESTPLATE,BLADELEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM).ChangeRepairItem(BLADECARD.get()));
  
-	public static final RegistryObject<Item> ROUZE_ABSORBER = ITEMS.register("rouze_absorber",
-    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
 
     public static final RegistryObject<SwordItem> BLAYROUZER = ITEMS.register("blayrouzer",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.BLADE_TAB_ITEM).ChangeRepairItem(BLADECARD.get()));
