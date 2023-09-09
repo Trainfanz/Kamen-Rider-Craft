@@ -31,8 +31,9 @@ public class RiderArmorRenderer extends GeoArmorRenderer<RiderArmorItem> {
 				setBoneVisible(this.leftArm,  BELT.getPartsForSlot(currentSlot,"leftArm"));
 				setBoneVisible(this.rightLeg,  BELT.getPartsForSlot(currentSlot,"rightLeg"));
 				setBoneVisible(this.leftLeg,  BELT.getPartsForSlot(currentSlot,"leftLeg"));
+				if (currentSlot == EquipmentSlot.FEET) {
 				setBoneVisible(this.body, true);
-
+				}
 			
 		}else {
 			
