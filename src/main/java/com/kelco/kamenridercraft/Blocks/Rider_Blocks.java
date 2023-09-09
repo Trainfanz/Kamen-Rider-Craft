@@ -1,5 +1,6 @@
 package com.kelco.kamenridercraft.Blocks;
 
+
 import java.util.function.Supplier;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
@@ -8,9 +9,12 @@ import com.kelco.kamenridercraft.Blocks.MachineBlocks.AmazonCellMutator;
 import com.kelco.kamenridercraft.Blocks.MachineBlocks.GSystemChipProgrammer;
 import com.kelco.kamenridercraft.Blocks.MachineBlocks.GaiaMemoryRefinerBlock;
 import com.kelco.kamenridercraft.Blocks.MachineBlocks.KaijinStoneGenerator;
+import com.kelco.kamenridercraft.Entities.MobsCore;
 import com.kelco.kamenridercraft.Items.Modded_item_core;
 import com.kelco.kamenridercraft.Items.RiderTabs;
 
+import net.minecraft.ChatFormatting;
+import net.minecraft.network.chat.Component;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -224,6 +228,12 @@ public class Rider_Blocks {
 		return toReturn;
 	}
 
+
+	public static final RegistryObject<Block> POSEIDON_BOSS_BLOCK = registerBlock("poseidon_boss_block",
+			() -> new BossBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).strength(6f)
+					,MobsCore.POSEIDON
+					,Component.translatable("Same! Kujira! Ookamiuo!").withStyle(ChatFormatting.AQUA)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
 
 	public static <T extends Block>RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block ){
 		return  Modded_item_core.ITEMS.register(name, () -> new BlockItem(block.get(),new Item.Properties()));

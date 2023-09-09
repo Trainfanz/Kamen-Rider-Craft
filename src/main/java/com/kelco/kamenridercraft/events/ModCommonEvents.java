@@ -182,6 +182,7 @@ public class ModCommonEvents {
         event.put(MobsCore.KAZARI.get(), EternalEntity.setAttributes());
         event.put(MobsCore.MEZOOL.get(), EternalEntity.setAttributes());
         event.put(MobsCore.GAMEL.get(), EternalEntity.setAttributes());
+        event.put(MobsCore.POSEIDON.get(), EternalEntity.setAttributes());
     }
 
 }

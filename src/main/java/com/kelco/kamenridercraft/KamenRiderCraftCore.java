@@ -49,10 +49,10 @@ public class KamenRiderCraftCore {
 		MobsCore.MOBLIST.register(modEventBus);
 		Effect_core.register(modEventBus);
 		Potion_core.register(modEventBus);
-		Rider_Blocks.register(modEventBus);
-		MinecraftForge.EVENT_BUS.register(this);
 		RiderVillagers.register(modEventBus);
 		ModLootModifiers.register(modEventBus);
+		Rider_Blocks.register(modEventBus);
+		MinecraftForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::addCreative);
 		//modEventBus.addListener(this::commonSetup);
 	}

@@ -3,11 +3,7 @@ package com.kelco.kamenridercraft.Entities.bosses;
 import java.util.Random;
 
 import com.kelco.kamenridercraft.Entities.footSoldiers.BaseHenchmenEntity;
-import com.kelco.kamenridercraft.Items.Ichigo_Rider_Items;
 import com.kelco.kamenridercraft.Items.OOO_Rider_Items;
-import com.kelco.kamenridercraft.Items.W_Rider_Items;
-import com.kelco.kamenridercraft.Items.rider_armor_base.RiderDriverItem;
-import com.kelco.kamenridercraft.Items.rider_armor_base.RiderFormChangeItem;
 
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -15,27 +11,20 @@ import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.monster.Zombie;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
 public class PoseidonEntity extends BaseHenchmenEntity {
-	
-	public static final Item[] belt = new Item[] {OOO_Rider_Items.SAME_MEDAL.get(), OOO_Rider_Items.KUJIRA_MEDAL.get(), OOO_Rider_Items.OOKAMIUO_MEDAL.get()};
 
-	
-	
+
     public PoseidonEntity(EntityType<? extends Zombie> type, Level level) {
         super(type, level);
         NAME="poseidon";
         this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(OOO_Rider_Items.OOOHELMET.get()));
         this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(OOO_Rider_Items.OOOCHESTPLATE.get()));
         this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(OOO_Rider_Items.OOOLEGGINGS.get()));
+        this.setItemSlot(EquipmentSlot.FEET, new ItemStack(OOO_Rider_Items.POSEIDONDRIVER.get()));
         this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(OOO_Rider_Items.DEEPEST_HARPOON.get()));
-        Random generator = new Random();
-		int rand = generator.nextInt(belt.length);
-	
-        this.setItemSlot(EquipmentSlot.FEET, new ItemStack(belt[rand]));
     }
 
  
