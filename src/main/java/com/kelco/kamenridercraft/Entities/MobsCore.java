@@ -7,6 +7,7 @@ import com.kelco.kamenridercraft.Entities.bosses.AnkhLostEntity;
 import com.kelco.kamenridercraft.Entities.bosses.AnotherAgitoEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ClayDollDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.CommanderDopantEntity;
+import com.kelco.kamenridercraft.Entities.bosses.CoreEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ElOfTheWaterEntity;
 import com.kelco.kamenridercraft.Entities.bosses.EternalEntity;
 import com.kelco.kamenridercraft.Entities.bosses.GamelEntity;
@@ -16,6 +17,7 @@ import com.kelco.kamenridercraft.Entities.bosses.MuchiriEntity;
 import com.kelco.kamenridercraft.Entities.bosses.NazcaDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.OrgaEntity;
 import com.kelco.kamenridercraft.Entities.bosses.PoseidonEntity;
+import com.kelco.kamenridercraft.Entities.bosses.PoweredUpCoreEntity;
 import com.kelco.kamenridercraft.Entities.bosses.RedNazcaDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ShadowmoonEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ShockerRidersEntity;
@@ -329,6 +331,19 @@ public class MobsCore {
           public static final RegistryObject<ForgeSpawnEggItem> POSEIDON_SPAWN_EGG = ITEMS.register("poseidon_spawn_egg",
                    () -> new ForgeSpawnEggItem(POSEIDON, 0xD11B1E, 0x30BBEC, new Item.Properties()));
          
+          public static final RegistryObject<EntityType<CoreEntity>> CORE = MOBLIST.register("core",
+                  () -> EntityType.Builder.of(CoreEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":core"));
+
+          public static final RegistryObject<ForgeSpawnEggItem> CORE_SPAWN_EGG = ITEMS.register("core_spawn_egg",
+                   () -> new ForgeSpawnEggItem(CORE, 0x312511, 0xF97012, new Item.Properties()));
+         
+          public static final RegistryObject<EntityType<PoweredUpCoreEntity>> POWERED_UP_CORE = MOBLIST.register("powered_up_core",
+                  () -> EntityType.Builder.of(PoweredUpCoreEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":powered_up_core"));
+
+          public static final RegistryObject<ForgeSpawnEggItem> POWERED_UP_CORE_SPAWN_EGG = ITEMS.register("powered_up_core_spawn_egg",
+                   () -> new ForgeSpawnEggItem(POWERED_UP_CORE, 0x51115D, 0xB419D1, new Item.Properties()));
+          
+          
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

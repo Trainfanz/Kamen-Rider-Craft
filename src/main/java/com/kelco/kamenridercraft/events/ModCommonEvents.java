@@ -3,17 +3,27 @@ package com.kelco.kamenridercraft.events;
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.Entities.MobsCore;
 import com.kelco.kamenridercraft.Entities.Villager.RiderVillagers;
+import com.kelco.kamenridercraft.Entities.bosses.AnkhCompleteEntity;
+import com.kelco.kamenridercraft.Entities.bosses.AnkhLostEntity;
 import com.kelco.kamenridercraft.Entities.bosses.AnotherAgitoEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ClayDollDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.CommanderDopantEntity;
+import com.kelco.kamenridercraft.Entities.bosses.CoreEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ElOfTheWaterEntity;
 import com.kelco.kamenridercraft.Entities.bosses.EternalEntity;
+import com.kelco.kamenridercraft.Entities.bosses.GamelEntity;
+import com.kelco.kamenridercraft.Entities.bosses.KazariEntity;
+import com.kelco.kamenridercraft.Entities.bosses.MezoolEntity;
+import com.kelco.kamenridercraft.Entities.bosses.MuchiriEntity;
 import com.kelco.kamenridercraft.Entities.bosses.NazcaDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.OrgaEntity;
+import com.kelco.kamenridercraft.Entities.bosses.PoseidonEntity;
+import com.kelco.kamenridercraft.Entities.bosses.PoweredUpCoreEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ShadowmoonEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ShockerRidersEntity;
 import com.kelco.kamenridercraft.Entities.bosses.SmilodonDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.TerrorDopantEntity;
+import com.kelco.kamenridercraft.Entities.bosses.UvaEntity;
 import com.kelco.kamenridercraft.Entities.bosses.WeatherDopantEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.AnguisMasculusEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.AriCommandoEntity;
@@ -30,6 +40,7 @@ import com.kelco.kamenridercraft.Entities.footSoldiers.PantherasLuteusEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.RedFollowerEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.RiotrooperEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.ShockerCombatmanEntity;
+import com.kelco.kamenridercraft.Entities.footSoldiers.YummyEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.ZuGumunBaEntity;
 import com.kelco.kamenridercraft.Items.Ichigo_Rider_Items;
 import com.kelco.kamenridercraft.Items.Modded_item_core;
@@ -172,17 +183,20 @@ public class ModCommonEvents {
         event.put(MobsCore.FOUNDATION_X_MASQUERADE.get(), FoundationXMasqueradeEntity.setAttributes());
         event.put(MobsCore.COMMANDER_DOPANT.get(), CommanderDopantEntity.setAttributes());
         event.put(MobsCore.ETERNAL.get(), EternalEntity.setAttributes());
-        event.put(MobsCore.MUCHIRI.get(), EternalEntity.setAttributes());
+        event.put(MobsCore.MUCHIRI.get(), MuchiriEntity.setAttributes());
         
-        event.put(MobsCore.YUMMY.get(), EternalEntity.setAttributes());
-      //  event.put(MobsCore.ANKH.get(), EternalEntity.setAttributes());
-        event.put(MobsCore.ANKHCOMPLETE.get(), EternalEntity.setAttributes());
-        event.put(MobsCore.ANKH_LOST.get(), EternalEntity.setAttributes());
-        event.put(MobsCore.UVA.get(), EternalEntity.setAttributes());
-        event.put(MobsCore.KAZARI.get(), EternalEntity.setAttributes());
-        event.put(MobsCore.MEZOOL.get(), EternalEntity.setAttributes());
-        event.put(MobsCore.GAMEL.get(), EternalEntity.setAttributes());
-        event.put(MobsCore.POSEIDON.get(), EternalEntity.setAttributes());
+        event.put(MobsCore.YUMMY.get(), YummyEntity.setAttributes());
+      //  event.put(MobsCore.ANKH.get(), AnkhEntity.setAttributes());
+        event.put(MobsCore.ANKHCOMPLETE.get(), AnkhCompleteEntity.setAttributes());
+        event.put(MobsCore.ANKH_LOST.get(), AnkhLostEntity.setAttributes());
+        event.put(MobsCore.UVA.get(), UvaEntity.setAttributes());
+        event.put(MobsCore.KAZARI.get(), KazariEntity.setAttributes());
+        event.put(MobsCore.MEZOOL.get(), MezoolEntity.setAttributes());
+        event.put(MobsCore.GAMEL.get(), GamelEntity.setAttributes());
+        event.put(MobsCore.POSEIDON.get(), PoseidonEntity.setAttributes());
+        event.put(MobsCore.CORE.get(), CoreEntity.setAttributes());
+        event.put(MobsCore.POWERED_UP_CORE.get(), PoweredUpCoreEntity.setAttributes());
+        
     }
 
 }

@@ -766,7 +766,14 @@ public class OOO_Rider_Items {
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"muchiri_complete",MUKADE_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
 			.Add_Extra_Base_Form_Items(HACHI_MEDAL,ARI_MEDAL).Override_belt_text("ankh_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
-
+	public static final RegistryObject<Item> CORE_DRIVER = ITEMS.register("core_driver",
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"core",EBI_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
+			.Add_Extra_Base_Form_Items(KANI_MEDAL,SASORI_MEDAL).Override_belt_text("core_driver_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	public static final RegistryObject<Item> POWERED_UP_CORE_DRIVER = ITEMS.register("powered_up_core_driver",
+			
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"powered_up_core",EBI_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
+			.Add_Extra_Base_Form_Items(KANI_MEDAL,SASORI_MEDAL).Override_belt_text("powered_up_core_driver_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
 	public static final RegistryObject<SwordItem> MEDAJALIBUR = ITEMS.register("medajalibur",
 			() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
 

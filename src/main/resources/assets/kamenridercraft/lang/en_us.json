@@ -650,6 +650,8 @@
 "entity.kamenridercraft.gamel_mob": "Gamel",
 "entity.kamenridercraft.muchiri_mob": "Muchiri",
 "entity.kamenridercraft.poseidon": "Poseidon",
+"entity.kamenridercraft.core": "Core",
+"entity.kamenridercraft.powered_up_core": "Powered Up Core",
 
 "item.kamenridercraft.shocker_combatman_spawn_egg": "Shocker Combatman Spawn Egg",
 "item.kamenridercraft.shocker_riders_spawn_egg": "Shocker Rider Spawn Egg",
@@ -691,6 +693,8 @@
 "item.kamenridercraft.gamel_spawn_egg": "Gamel Spawn Egg",
 "item.kamenridercraft.muchiri_spawn_egg": "Muchiri Spawn Egg",
 "item.kamenridercraft.poseidon_spawn_egg": "Poseidon Spawn Egg",
+"item.kamenridercraft.core_spawn_egg": "Core Spawn Egg",
+"item.kamenridercraft.powered_up_core_spawn_egg": "Powered Up Core Spawn Egg",
 
 "block.kamenridercraft.monitor": "Monitor",
 "block.kamenridercraft.stone_kuuga": "Kuuga Ore",

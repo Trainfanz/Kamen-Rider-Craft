@@ -234,6 +234,15 @@ public class Rider_Blocks {
 					,MobsCore.POSEIDON
 					,Component.translatable("Same! Kujira! Ookamiuo!").withStyle(ChatFormatting.AQUA)).AddToTabList(RiderTabs.RIDER_BLOCK));
 	
+	public static final RegistryObject<Block> CORE_BOSS_BLOCK = registerBlock("core_boss_block",
+			() -> new BossBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).strength(6f)
+					,MobsCore.CORE
+					,Component.translatable("Henshin!").withStyle(ChatFormatting.RED)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> POWERED_UP_CORE_BOSS_BLOCK = registerBlock("powered_up_core_boss_block",
+			() -> new BossBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).strength(6f)
+					,MobsCore.POWERED_UP_CORE
+					,Component.translatable("Henshin!").withStyle(ChatFormatting.DARK_PURPLE)).AddToTabList(RiderTabs.RIDER_BLOCK));
 
 	public static <T extends Block>RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block ){
 		return  Modded_item_core.ITEMS.register(name, () -> new BlockItem(block.get(),new Item.Properties()));

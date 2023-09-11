@@ -145,6 +145,8 @@ public class ModClientEvents {
 		event.registerEntityRenderer(MobsCore.ANKH_LOST.get(), BasicEntityRenderer::new);
 		//   event.registerEntityRenderer(MobsCore.ANKH.get(), BasicEntityRenderer::new);
 		event.registerEntityRenderer(MobsCore.POSEIDON.get(), BasicEntityRenderer::new);
+		event.registerEntityRenderer(MobsCore.CORE.get(), BasicEntityRenderer::new);
+		event.registerEntityRenderer(MobsCore.POWERED_UP_CORE.get(), BasicEntityRenderer::new);
 	}
 
 

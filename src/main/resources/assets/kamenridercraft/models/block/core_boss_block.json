@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "kamenridercraft:block/core_boss_block"
+    }
+}
