@@ -168,13 +168,16 @@ public class OOO_Rider_Items {
 
 
 	public static final RegistryObject<Item> SASORI_MEDAL = ITEMS.register("sasori_medal",
-			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"","core","core_driver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false)).ChangeSlot(1).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> KANI_MEDAL = ITEMS.register("kani_medal",
-			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"","core","core_driver_belt",
+					new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 2,true,false)).ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> EBI_MEDAL = ITEMS.register("ebi_medal",
-			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"","core","core_driver_belt",
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 
 	public static final RegistryObject<Item> MUKADE_MEDAL = ITEMS.register("mukade_medal",

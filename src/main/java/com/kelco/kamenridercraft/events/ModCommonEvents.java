@@ -3,6 +3,7 @@ package com.kelco.kamenridercraft.events;
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.Entities.MobsCore;
 import com.kelco.kamenridercraft.Entities.Villager.RiderVillagers;
+import com.kelco.kamenridercraft.Entities.bosses.AncientOOOEntity;
 import com.kelco.kamenridercraft.Entities.bosses.AnkhCompleteEntity;
 import com.kelco.kamenridercraft.Entities.bosses.AnkhLostEntity;
 import com.kelco.kamenridercraft.Entities.bosses.AnotherAgitoEntity;
@@ -12,6 +13,7 @@ import com.kelco.kamenridercraft.Entities.bosses.CoreEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ElOfTheWaterEntity;
 import com.kelco.kamenridercraft.Entities.bosses.EternalEntity;
 import com.kelco.kamenridercraft.Entities.bosses.GamelEntity;
+import com.kelco.kamenridercraft.Entities.bosses.GodaEntity;
 import com.kelco.kamenridercraft.Entities.bosses.KazariEntity;
 import com.kelco.kamenridercraft.Entities.bosses.MezoolEntity;
 import com.kelco.kamenridercraft.Entities.bosses.MuchiriEntity;
@@ -196,6 +198,8 @@ public class ModCommonEvents {
         event.put(MobsCore.POSEIDON.get(), PoseidonEntity.setAttributes());
         event.put(MobsCore.CORE.get(), CoreEntity.setAttributes());
         event.put(MobsCore.POWERED_UP_CORE.get(), PoweredUpCoreEntity.setAttributes());
+        event.put(MobsCore.ANCIENT_OOO.get(), AncientOOOEntity.setAttributes());
+        event.put(MobsCore.GODA.get(), GodaEntity.setAttributes());
         
     }
 

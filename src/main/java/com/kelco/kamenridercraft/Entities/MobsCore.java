@@ -2,6 +2,7 @@ package com.kelco.kamenridercraft.Entities;
 
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.Entities.bosses.AncientOOOEntity;
 import com.kelco.kamenridercraft.Entities.bosses.AnkhCompleteEntity;
 import com.kelco.kamenridercraft.Entities.bosses.AnkhLostEntity;
 import com.kelco.kamenridercraft.Entities.bosses.AnotherAgitoEntity;
@@ -11,6 +12,7 @@ import com.kelco.kamenridercraft.Entities.bosses.CoreEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ElOfTheWaterEntity;
 import com.kelco.kamenridercraft.Entities.bosses.EternalEntity;
 import com.kelco.kamenridercraft.Entities.bosses.GamelEntity;
+import com.kelco.kamenridercraft.Entities.bosses.GodaEntity;
 import com.kelco.kamenridercraft.Entities.bosses.KazariEntity;
 import com.kelco.kamenridercraft.Entities.bosses.MezoolEntity;
 import com.kelco.kamenridercraft.Entities.bosses.MuchiriEntity;
@@ -343,6 +345,17 @@ public class MobsCore {
           public static final RegistryObject<ForgeSpawnEggItem> POWERED_UP_CORE_SPAWN_EGG = ITEMS.register("powered_up_core_spawn_egg",
                    () -> new ForgeSpawnEggItem(POWERED_UP_CORE, 0x51115D, 0xB419D1, new Item.Properties()));
           
+          public static final RegistryObject<EntityType<AncientOOOEntity>> ANCIENT_OOO = MOBLIST.register("ancient_ooo",
+                  () -> EntityType.Builder.of(AncientOOOEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":ancient_ooo"));
+
+          public static final RegistryObject<ForgeSpawnEggItem> ANCIENT_OOO_SPAWN_EGG = ITEMS.register("ancient_ooo_spawn_egg",
+                   () -> new ForgeSpawnEggItem(ANCIENT_OOO, 0x262320, 0xE5B216, new Item.Properties()));
+          
+          public static final RegistryObject<EntityType<GodaEntity>> GODA = MOBLIST.register("goda",
+                  () -> EntityType.Builder.of(GodaEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":goda"));
+
+          public static final RegistryObject<ForgeSpawnEggItem> GODA_SPAWN_EGG = ITEMS.register("goda_spawn_egg",
+                   () -> new ForgeSpawnEggItem(GODA, 0x000000, 0xB200FF, new Item.Properties()));
           
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

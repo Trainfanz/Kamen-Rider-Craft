@@ -14,16 +14,16 @@ import net.minecraft.world.entity.monster.Zombie;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
-public class CoreEntity extends BaseHenchmenEntity {
+public class GodaEntity extends BaseHenchmenEntity {
 
 
-    public CoreEntity(EntityType<? extends Zombie> type, Level level) {
+    public GodaEntity(EntityType<? extends Zombie> type, Level level) {
         super(type, level);
-        NAME="core";
+        NAME="goda";
         this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(OOO_Rider_Items.OOOHELMET.get()));
         this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(OOO_Rider_Items.OOOCHESTPLATE.get()));
         this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(OOO_Rider_Items.OOOLEGGINGS.get()));
-        this.setItemSlot(EquipmentSlot.FEET, new ItemStack(OOO_Rider_Items.CORE_DRIVER.get()));
+        this.setItemSlot(EquipmentSlot.FEET, new ItemStack(OOO_Rider_Items.GODA_OOODRIVER.get()));
     }
 
  
@@ -36,7 +36,6 @@ public class CoreEntity extends BaseHenchmenEntity {
         		.add(Attributes.ATTACK_DAMAGE, 6.0D)
         		.add(Attributes.ARMOR, 3.0D)
         		.add(Attributes.MAX_HEALTH, 45.0D)
-        		.add(Attributes.SPAWN_REINFORCEMENTS_CHANCE)
         		.build();
      }
     

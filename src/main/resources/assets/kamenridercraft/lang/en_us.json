@@ -652,6 +652,7 @@
 "entity.kamenridercraft.poseidon": "Poseidon",
 "entity.kamenridercraft.core": "Core",
 "entity.kamenridercraft.powered_up_core": "Powered Up Core",
+"entity.kamenridercraft.ancient_ooo": "Ancient OOO",
 
 "item.kamenridercraft.shocker_combatman_spawn_egg": "Shocker Combatman Spawn Egg",
 "item.kamenridercraft.shocker_riders_spawn_egg": "Shocker Rider Spawn Egg",
@@ -695,6 +696,7 @@
 "item.kamenridercraft.poseidon_spawn_egg": "Poseidon Spawn Egg",
 "item.kamenridercraft.core_spawn_egg": "Core Spawn Egg",
 "item.kamenridercraft.powered_up_core_spawn_egg": "Powered Up Core Spawn Egg",
+"item.kamenridercraft.ancient_ooo_spawn_egg": "Ancient OOO Spawn Egg",
 
 "block.kamenridercraft.monitor": "Monitor",
 "block.kamenridercraft.stone_kuuga": "Kuuga Ore",
@@ -749,5 +751,11 @@
 "block.kamenridercraft.shocker_monitor": "Shocker Monitor",
 "block.kamenridercraft.amazon_cell_extractor": "Amazon Cell Extractor",
 "block.kamenridercraft.amazon_cell_mutator": "Amazon Cell Mutator",
-"block.kamenridercraft.kaijin_stone_generator": "Kaijin Stone Generator"
+"block.kamenridercraft.kaijin_stone_generator": "Kaijin Stone Generator",
+
+"block.kamenridercraft.poseidon_boss_block": "Poseidon Boss Block",
+"block.kamenridercraft.goda_boss_block": "Goda Boss Block",
+"block.kamenridercraft.core_boss_block": "Core Boss Block",
+"block.kamenridercraft.powered_up_core_boss_block": "Powered Up Core Boss Block",
+"block.kamenridercraft.ancient_ooo_boss_block": "Ancient OOO Boss Block"
 }
