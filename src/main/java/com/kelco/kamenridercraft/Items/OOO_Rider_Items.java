@@ -650,7 +650,7 @@ public class OOO_Rider_Items {
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false))
 			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
-	public static final RegistryObject<Item> GREED_ABSORPTION_CORE = ITEMS.register("greeed_absorption_core",
+	public static final RegistryObject<Item> GREEED_ABSORPTION_CORE = ITEMS.register("greeed_absorption_core",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_tora_greeed_absorption","ooo_ancient","ooodriver_belt",
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false))
 			.ChangeSlot(2).ChangeModel("geo/ooo_imagin.geo.json").AddToTabList(RiderTabs.OOO_TAB_ITEM));
@@ -798,11 +798,7 @@ public class OOO_Rider_Items {
 
 	public static final RegistryObject<BaseBlasterItem> BIRTH_BUSTER = ITEMS.register("birth_buster",
 			() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
-	/**
-	tajaspinner
-	tajaspinner_eternity
-
-	 **/
+	
 
 	public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);

@@ -443,6 +443,8 @@
 "item.kamenridercraft.ancient_ooodriver": "OOO Driver (Ancient OOO)",
 "item.kamenridercraft.goda_ooodriver": "OOO Driver (Goda)",
 "item.kamenridercraft.shocker_ooodriver": "OOO Driver (Shocker OOO)",
+"item.kamenridercraft.birth_driver": "Birth Driver",
+"item.kamenridercraft.proto_birth_driver": "Proto Birth Driver",
 
 "item.kamenridercraft.medajalibur": "Medajalibur",
 "item.kamenridercraft.tajaspinner": "Tajaspinner",
@@ -553,17 +555,20 @@
 "item.kamenridercraft.amazon_medal": "Amazon Core Medal",
 "item.kamenridercraft.stronger_medal": "Stronger Core Medal",
 "item.kamenridercraft.habataki_medal": "Habataki Core Medal",
-"item.kamenridercraft.tiger_medal": "Tiger Core Medal",
+"item.kamenridercraft.taiga_medal": "Tiger Core Medal",
 "item.kamenridercraft.ichigo_medal": "Ichigo Core Medal",
 "item.kamenridercraft.imagin_medal": "Imagin Core Medal",
 "item.kamenridercraft.shocker_medal": "Shocker Core Medal",
 "item.kamenridercraft.gel_shocker_medal": "Gel Shocker Core Medal",
 "item.kamenridercraft.destron_medal": "Destron Core Medal",
 
-"item.kamenridercraft.greeed_absorbtion_core": "Greeed Absorbtion Core",
+"item.kamenridercraft.greeed_absorption_core": "Greeed Absorption Core",
 "item.kamenridercraft.purple_medals_sealed": "Sealed Medal Container",
 "item.kamenridercraft.purple_medals_opened": "Opened Medal Container",
 "item.kamenridercraft.purple_medals_empty": "Empty Medal Container",
+"item.kamenridercraft.birth_core": "Birth Core",
+"item.kamenridercraft.proto_birth_core": "Proto Birth Core",
+"item.kamenridercraft.birth_core_eyes": "Birth Core (Powered)",
 "item.kamenridercraft.cellmedal": "Cell Medal",
 
 
