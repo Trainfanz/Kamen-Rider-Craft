@@ -1,7 +1,7 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "kamenridercrafts:items/tajaspinner"
+        "layer0": "kamenridercraft:item/tajaspinner"
     },  "display": {
     
         "thirdperson_righthand": {

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "core",
+  "pattern": [
+    "ACA",
+    "XYZ",
+    "AAA"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:sasori"
+    }, "Y": {
+      "item": "kamenridercraft:kani"
+    }, "Z": {
+      "item": "kamenridercraft:ebi"
+    }, "A": {
+      "item": "kamenridercraft:blank_watch"
+    }, "C": {
+      "item": "kamenridercraft:king_stone_core"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:power_up_core_boss_block"
+  }
+}

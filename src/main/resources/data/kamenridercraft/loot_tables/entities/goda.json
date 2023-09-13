@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:constant",
+        "value": 5
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:mukade_goda_medal"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:hachi_goda_medal"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:ari_goda_medal"
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:cellmedal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        }
+      ]
+    }
+    
+  ]
+}
