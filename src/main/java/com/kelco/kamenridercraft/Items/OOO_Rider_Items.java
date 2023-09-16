@@ -657,34 +657,63 @@ public class OOO_Rider_Items {
 
 	public static final RegistryObject<Item> BIRTH_CORE = ITEMS.register("birth_core",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","birth","birth_driver_belt",
-					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false))
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false))
 			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> PROTO_BIRTH_CORE = ITEMS.register("proto_birth_core",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","birth_prototype","birth_driver_belt",
-					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false))
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false))
 			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> BIRTH_CORE_EYES = ITEMS.register("birth_core_eyes",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_eyes","birth","birth_driver_belt",
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false))
+			.AddCompatibilityList(new String[] {"birth_prototype"}).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> BIRTH_CORE_BREAST_CANNON = ITEMS.register("birth_core_breast_cannon",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"","birth","",
+					new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 1,true,false))
+			.ChangeSlot(2).addSwitchForm(Modded_item_core.BLANK_FORM.get())
+			.AddCompatibilityList(new String[] {"birth_prototype"}).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> BIRTH_CORE_CRANE_ARM = ITEMS.register("birth_core_crane_arm",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"","birth","",
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false))
+			.ChangeSlot(3).addSwitchForm(Modded_item_core.BLANK_FORM.get())
+			.AddCompatibilityList(new String[] {"birth_prototype"}).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> BIRTH_CORE_SHOVEL_ARM = ITEMS.register("birth_core_shovel_arm",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"","birth","",
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 40, 1,true,false))
+			.ChangeSlot(4).addSwitchForm(Modded_item_core.BLANK_FORM.get())
+			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> BIRTH_CORE_CATEPTLLAR_LEG = ITEMS.register("birth_core_catepillar_leg",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"","birth","",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false))
+			.ChangeSlot(5).addSwitchForm(Modded_item_core.BLANK_FORM.get())
+			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> BIRTH_CORE_DRILL_ARM = ITEMS.register("birth_core_drill_arm",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"","birth","",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false))
+			.ChangeSlot(6).addSwitchForm(Modded_item_core.BLANK_FORM.get())
+			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	
+	public static final RegistryObject<Item> BIRTH_CORE_CUTTER_WING = ITEMS.register("birth_core_cutter_wing",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"","birth","",
+					new MobEffectInstance(Effect_core.FLYING.get(), 40, 0,true,false))
+			.ChangeSlot(7).addSwitchForm(Modded_item_core.BLANK_FORM.get())
 			.AddCompatibilityList(new String[] {"birth_prototype"}).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	
-	//proto_birth_core
-
-	//birth_core_cutter_wing
-	//cutter_wing
-	//birth_core_catepillar_leg
-	//birth_core_crane_arm
-	//birth_core_drill_arm
-	//birth_core_shovel_arm
-	//birth_core_breast_cannon
-
 
 	//cell_alloy_ingot
-
-
 
 	/**	
 	god_core

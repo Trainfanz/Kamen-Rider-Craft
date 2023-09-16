@@ -67,7 +67,8 @@ public class WDriverItem extends RiderDriverItem{
 		return super.getModelResource(itemstack, animatable, slot,rider);
 	}
 	
-	public  boolean getPartsForSlot(EquipmentSlot currentSlot,String  part) {
+	@Override
+	public  boolean getPartsForSlot(ItemStack itemstack,EquipmentSlot currentSlot,String  part) {
 
 		switch (currentSlot) {
 		case HEAD ->{ 

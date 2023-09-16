@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Set;
 
 import com.google.common.collect.Lists;
+import com.kelco.kamenridercraft.Items.Modded_item_core;
 
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
@@ -30,6 +31,8 @@ public class RiderFormChangeItem extends BaseItem {
 	private String FLYING_MODEL;
 	private Boolean FLYING_TEXT = false;
 	private Item STIFT_ITEM = Items.APPLE;
+	private Item SWITCH_ITEM;
+
 	private List<RiderFormChangeItem> alternative = new ArrayList<RiderFormChangeItem>();
 	private RiderFormChangeItem alsoChange2ndSlot;
 	//private List<String> compatibilityList = new ArrayList<String>();
@@ -111,6 +114,11 @@ public class RiderFormChangeItem extends BaseItem {
 		STIFT_ITEM=item;
 		return this;
 	}
+	
+	public RiderFormChangeItem addSwitchForm(Item item) {
+		SWITCH_ITEM=item;
+		return this;
+	}
 
 	public BaseItem AddCompatibilityList(String[] List) {
 		 compatibilityList=List;
@@ -132,7 +140,10 @@ public class RiderFormChangeItem extends BaseItem {
 	
 	public Boolean CanChange(Player player,RiderDriverItem belt) {
 
-		if(belt.Rider!=RIDER_NAME&!iscompatible(belt.Rider)) {
+		if (this == Modded_item_core.BLANK_FORM.get()) {
+			return true;
+		}
+		else if(belt.Rider!=RIDER_NAME&!iscompatible(belt.Rider)) {
 			return false;
 		}
 		if ( !NEEDITEM.isEmpty()) {
@@ -160,7 +171,8 @@ public class RiderFormChangeItem extends BaseItem {
 			else if (CanChange(p_41129_,belt)) {
 				if (alsoChange2ndSlot !=null)RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),alsoChange2ndSlot, 2);
 
-				RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, Slot);
+				if (SWITCH_ITEM!=null&RiderDriverItem.get_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET), Slot)==this) RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),SWITCH_ITEM, Slot);
+					else RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, Slot);
 			
 			}else if(!alternative.isEmpty()){
 

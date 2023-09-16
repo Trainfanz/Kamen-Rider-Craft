@@ -27,7 +27,7 @@ public class RiderDriverItem extends RiderArmorItem{
 
 	public String armorNamePrefix;
 	public RiderFormChangeItem Base_Form_Item;
-	private ArrayList<RiderFormChangeItem> Extra_Base_Form_Item;
+	protected ArrayList<RiderFormChangeItem> Extra_Base_Form_Item;
 	public String Rider;
 	public Item HEAD;
 	public Item TORSO;
@@ -158,7 +158,7 @@ public class RiderDriverItem extends RiderArmorItem{
 	{
 	}
 
-	public  boolean getPartsForSlot(EquipmentSlot currentSlot,String  part) {
+	public  boolean getPartsForSlot(ItemStack itemstack,EquipmentSlot currentSlot,String  part) {
 
 		switch (currentSlot) {
 		case HEAD ->{ 

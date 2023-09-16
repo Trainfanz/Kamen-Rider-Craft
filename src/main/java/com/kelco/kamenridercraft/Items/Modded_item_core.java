@@ -14,6 +14,10 @@ import net.minecraftforge.registries.RegistryObject;
 public class Modded_item_core {
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, KamenRiderCraftCore.MODID);
 
+	public static final RegistryObject<Item> BLANK_FORM = ITEMS.register("blank_form",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"","",""));
+
+	
 	public static final RegistryObject<Item> RIDER_CIRCUIT = ITEMS.register("rider_circuit",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.Misc_TAB_ITEM));
 
