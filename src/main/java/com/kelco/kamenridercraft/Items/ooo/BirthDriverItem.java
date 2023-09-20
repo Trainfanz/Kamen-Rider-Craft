@@ -40,6 +40,7 @@ public class BirthDriverItem extends RiderDriverItem{
 			return "belts/"+belt;
 
 		}
+
 		else if (equipmentSlot == EquipmentSlot.CHEST) return "_claws_1";
 		else if (equipmentSlot == EquipmentSlot.LEGS) return "_claws_2";
 		else return get_Form_Item(itemstack,1).getFormName(false);
@@ -55,11 +56,13 @@ public class BirthDriverItem extends RiderDriverItem{
 			return new ResourceLocation(KamenRiderCraftCore.MODID, get_Form_Item(itemstack, 1).get_Model());
 		}
 		case CHEST -> {
-			return new ResourceLocation(KamenRiderCraftCore.MODID, "geo/ichigo_plus.geo.json");
+			return new ResourceLocation(KamenRiderCraftCore.MODID, "geo/claws_1.geo.json");
 
 		}
 		case LEGS -> {
-			return new ResourceLocation(KamenRiderCraftCore.MODID, "geo/claws_2.json");
+			if (get_Form_Item(itemstack, 3)==OOO_Rider_Items.BIRTH_CORE_CRANE_ARM.get()) 
+				return new ResourceLocation(KamenRiderCraftCore.MODID, "geo/claws_2_crane.geo.json");
+			else return new ResourceLocation(KamenRiderCraftCore.MODID, "geo/claws_2.geo.json");
 
 		}
 		default -> {}
