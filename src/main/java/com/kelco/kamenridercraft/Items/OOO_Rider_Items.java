@@ -712,6 +712,11 @@ public class OOO_Rider_Items {
 			.AddCompatibilityList(new String[] {"birth_prototype"}).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	
+	  public static final RegistryObject<Item> AQUA_CORE = ITEMS.register("aqua_core",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","aqua","aqua_driver_belt",
+	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false),new MobEffectInstance(MobEffects.WATER_BREATHING, 40, 2,true,false)).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
 
 	//cell_alloy_ingot
 
@@ -752,7 +757,14 @@ public class OOO_Rider_Items {
 			() -> new BirthDriverItem(ArmorMaterials.DIAMOND,"birth_prototype",BIRTH_CORE ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
 			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
+	public static final RegistryObject<Item> BIRTH_DRIVER_X = ITEMS.register("birth_driver_x",
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"birth_x",EBI_NEW_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
+			.Add_Extra_Base_Form_Items(KANI_NEW_MEDAL, SASORI_NEW_MEDAL).Override_belt_text("birth_driver_x_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
+	public static final RegistryObject<Item> AQUA_DRIVER = ITEMS.register("aqua_driver",
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"aqua",AQUA_CORE ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
+			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
 	public static final RegistryObject<Item> POSEIDONDRIVER = ITEMS.register("poseidon_driver",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"poseidon",SAME_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
 			.Add_Extra_Base_Form_Items(KUJIRA_MEDAL,OOKAMIUO_MEDAL).Override_belt_text("poseidon_driver_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
@@ -801,8 +813,8 @@ public class OOO_Rider_Items {
 	public static final RegistryObject<Item> CORE_DRIVER = ITEMS.register("core_driver",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"core",EBI_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
 			.Add_Extra_Base_Form_Items(KANI_MEDAL,SASORI_MEDAL).Override_belt_text("core_driver_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
 	public static final RegistryObject<Item> POWERED_UP_CORE_DRIVER = ITEMS.register("powered_up_core_driver",
-			
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"powered_up_core",EBI_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
 			.Add_Extra_Base_Form_Items(KANI_MEDAL,SASORI_MEDAL).Override_belt_text("powered_up_core_driver_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
