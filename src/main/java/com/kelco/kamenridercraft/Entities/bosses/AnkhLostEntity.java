@@ -3,6 +3,7 @@ package com.kelco.kamenridercraft.Entities.bosses;
 
 import com.kelco.kamenridercraft.Entities.footSoldiers.BaseHenchmenEntity;
 import com.kelco.kamenridercraft.Items.Faiz_Rider_Items;
+import com.kelco.kamenridercraft.Items.OOO_Rider_Items;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
@@ -23,6 +24,10 @@ public class AnkhLostEntity extends BaseHenchmenEntity {
 	public AnkhLostEntity(EntityType<? extends Zombie> type, Level level) {
         super(type, level);
         NAME="ankh_lost";
+        this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(OOO_Rider_Items.OOOHELMET.get()));
+        this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(OOO_Rider_Items.OOOCHESTPLATE.get()));
+        this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(OOO_Rider_Items.OOOLEGGINGS.get()));
+        this.setItemSlot(EquipmentSlot.FEET, new ItemStack(OOO_Rider_Items.GREEED_BLET_ANKH_LOST.get()));
     }
 
     

@@ -1,7 +1,5 @@
 package com.kelco.kamenridercraft.Entities.bosses;
 
-import java.util.Random;
-
 import com.kelco.kamenridercraft.Entities.footSoldiers.BaseHenchmenEntity;
 import com.kelco.kamenridercraft.Items.OOO_Rider_Items;
 
@@ -19,7 +17,7 @@ public class AncientOOOEntity extends BaseHenchmenEntity {
 
     public AncientOOOEntity(EntityType<? extends Zombie> type, Level level) {
         super(type, level);
-        NAME="poseidon";
+        NAME="ancientooo";
         this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(OOO_Rider_Items.OOOHELMET.get()));
         this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(OOO_Rider_Items.OOOCHESTPLATE.get()));
         this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(OOO_Rider_Items.OOOLEGGINGS.get()));

@@ -13,7 +13,7 @@ public class YummyEntity extends BaseHenchmenEntity {
 	
     public YummyEntity(EntityType<? extends Zombie> type, Level level) {
         super(type, level);
-        NAME="masquerade";
+        NAME="yummy";
     }
 
 

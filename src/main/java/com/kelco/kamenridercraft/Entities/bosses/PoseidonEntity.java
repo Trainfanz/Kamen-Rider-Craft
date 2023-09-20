@@ -1,7 +1,5 @@
 package com.kelco.kamenridercraft.Entities.bosses;
 
-import java.util.Random;
-
 import com.kelco.kamenridercraft.Entities.footSoldiers.BaseHenchmenEntity;
 import com.kelco.kamenridercraft.Items.OOO_Rider_Items;
 
