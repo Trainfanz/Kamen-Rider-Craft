@@ -316,8 +316,8 @@ public class RiderTabs {
 			event.accept(MobsCore.MUCHIRI_SPAWN_EGG);
 			event.accept(MobsCore.POSEIDON_SPAWN_EGG);
 			event.accept(MobsCore.CORE_SPAWN_EGG);
-			event.accept(MobsCore.POWERED_UP_CORE_SPAWN_EGG);
-			event.accept(MobsCore.ANCIENT_OOO_SPAWN_EGG);
+			//event.accept(MobsCore.POWERED_UP_CORE_SPAWN_EGG);
+			//event.accept(MobsCore.ANCIENT_OOO_SPAWN_EGG);
 			
 			for (int i = 0; i < RiderTabs.Misc_TAB_ITEM.size(); i++)
 			{

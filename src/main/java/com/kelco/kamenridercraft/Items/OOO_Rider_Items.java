@@ -1,6 +1,7 @@
 package com.kelco.kamenridercraft.Items;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.Blocks.MachineBlocks.CellMedalProgramer;
 import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Items.ooo.BirthDriverItem;
 import com.kelco.kamenridercraft.Items.ooo.Item_Purple_Medals;
@@ -650,10 +651,26 @@ public class OOO_Rider_Items {
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false))
 			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
-	public static final RegistryObject<Item> GREEED_ABSORPTION_CORE = ITEMS.register("greeed_absorption_core",
-			() -> new RiderFormChangeItem(new Item.Properties(),0,"_tora_greeed_absorption","ooo_ancient","ooodriver_belt",
-					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false))
-			.ChangeSlot(2).ChangeModel("geo/ooo_imagin.geo.json").AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	public static final RegistryObject<Item> GOD_MEDAL = ITEMS.register("god_medal",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> GARANDA_MEDAL = ITEMS.register("garanda_medal",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> DELZA_MEDAL = ITEMS.register("delza_medal",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> NEO_SHOCKER_MEDAL = ITEMS.register("neo_shocker_medal",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> JIN_DOGMA_MEDAL = ITEMS.register("jin_dogma_medal",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> BADAN_MEDAL = ITEMS.register("badan_medal",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	
+	
 
 	public static final RegistryObject<Item> BIRTH_CORE = ITEMS.register("birth_core",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","birth","birth_driver_belt",
@@ -672,44 +689,49 @@ public class OOO_Rider_Items {
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 1,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false),
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false))
-			.AddCompatibilityList(new String[] {"birth_prototype"}).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+			.AddCompatibilityList(new String[] {"birth_prototype"}).AddToTabList(CellMedalProgramer.CELL_MEDAL).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> BIRTH_CORE_BREAST_CANNON = ITEMS.register("birth_core_breast_cannon",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","birth","",
 					new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 1,true,false))
 			.ChangeSlot(2).addSwitchForm(Modded_item_core.BLANK_FORM.get())
-			.AddCompatibilityList(new String[] {"birth_prototype"}).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+			.AddCompatibilityList(new String[] {"birth_prototype"}).AddToTabList(CellMedalProgramer.CELL_MEDAL).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> BIRTH_CORE_CRANE_ARM = ITEMS.register("birth_core_crane_arm",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","birth","",
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false))
 			.ChangeSlot(3).addSwitchForm(Modded_item_core.BLANK_FORM.get())
-			.AddCompatibilityList(new String[] {"birth_prototype"}).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+			.AddCompatibilityList(new String[] {"birth_prototype"}).AddToTabList(CellMedalProgramer.CELL_MEDAL).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> BIRTH_CORE_SHOVEL_ARM = ITEMS.register("birth_core_shovel_arm",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","birth","",
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 40, 1,true,false))
 			.ChangeSlot(4).addSwitchForm(Modded_item_core.BLANK_FORM.get())
-			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
+			.AddToTabList(CellMedalProgramer.CELL_MEDAL).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
 	public static final RegistryObject<Item> BIRTH_CORE_CATEPTLLAR_LEG = ITEMS.register("birth_core_catepillar_leg",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","birth","",
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false))
 			.ChangeSlot(5).addSwitchForm(Modded_item_core.BLANK_FORM.get())
-			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
+			.AddToTabList(CellMedalProgramer.CELL_MEDAL).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> BIRTH_CORE_DRILL_ARM = ITEMS.register("birth_core_drill_arm",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","birth","",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false))
 			.ChangeSlot(6).addSwitchForm(Modded_item_core.BLANK_FORM.get())
-			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
+			.AddToTabList(CellMedalProgramer.CELL_MEDAL).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	
 	public static final RegistryObject<Item> BIRTH_CORE_CUTTER_WING = ITEMS.register("birth_core_cutter_wing",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","birth","",
 					new MobEffectInstance(Effect_core.FLYING.get(), 40, 0,true,false))
 			.ChangeSlot(7).addSwitchForm(Modded_item_core.BLANK_FORM.get())
-			.AddCompatibilityList(new String[] {"birth_prototype"}).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+			.AddCompatibilityList(new String[] {"birth_prototype"}).AddToTabList(CellMedalProgramer.CELL_MEDAL).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> GREEED_ABSORPTION_CORE = ITEMS.register("greeed_absorption_core",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_tora_greeed_absorption","ooo_ancient","ooodriver_belt",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false))
+			.ChangeSlot(2).ChangeModel("geo/ooo_imagin.geo.json").AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	
 	  public static final RegistryObject<Item> AQUA_CORE = ITEMS.register("aqua_core",
@@ -718,16 +740,6 @@ public class OOO_Rider_Items {
 	            		,new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false),new MobEffectInstance(MobEffects.WATER_BREATHING, 40, 2,true,false)).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
 
-	//cell_alloy_ingot
-
-	/**	
-	god_core
-	garanda_core
-	delza_core
-	neo_shocker_core
-	jin_dogma_core
-	badan_core
-	 **/
 
 	public static final RegistryObject<Item> PURPLE_MEDALS_SEALED = ITEMS.register("purple_medals_sealed",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
@@ -761,6 +773,11 @@ public class OOO_Rider_Items {
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"birth_x",EBI_NEW_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
 			.Add_Extra_Base_Form_Items(KANI_NEW_MEDAL, SASORI_NEW_MEDAL).Override_belt_text("birth_driver_x_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
+	public static final RegistryObject<Item> REBIRTH_DRIVER_X = ITEMS.register("rebirth_driver",
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"re_birth",Modded_item_core.BLANK_FORM ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
+			.Override_belt_text("rebirth_driver_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	
 	public static final RegistryObject<Item> AQUA_DRIVER = ITEMS.register("aqua_driver",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"aqua",AQUA_CORE ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
 			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
@@ -781,6 +798,14 @@ public class OOO_Rider_Items {
 			() -> new OOODriverItem(ArmorMaterials.DIAMOND,"shocker_ooo",SHOCKER_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
 			.Add_Extra_Base_Form_Items(GEL_SHOCKER_MEDAL,DESTRON_MEDAL).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
+	public static final RegistryObject<Item> CORE_DRIVER = ITEMS.register("core_driver",
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"core",EBI_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
+			.Add_Extra_Base_Form_Items(KANI_MEDAL,SASORI_MEDAL).Override_belt_text("gaia_core_typhoon_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
+	public static final RegistryObject<Item> POWERED_UP_CORE_DRIVER = ITEMS.register("powered_up_core_driver",
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"powered_up_core",EBI_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
+			.Add_Extra_Base_Form_Items(KANI_MEDAL,SASORI_MEDAL).Override_belt_text("powered_up_gaia_core_typhoon_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
+	
 
 	public static final RegistryObject<Item> GREEED_BLET_ANKH_LOST = ITEMS.register("greeed_blet_ankh_lost",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"ankh_lost",TAKA_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
@@ -810,14 +835,7 @@ public class OOO_Rider_Items {
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"muchiri_complete",MUKADE_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
 			.Add_Extra_Base_Form_Items(HACHI_MEDAL,ARI_MEDAL).Override_belt_text("ankh_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
-	public static final RegistryObject<Item> CORE_DRIVER = ITEMS.register("core_driver",
-			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"core",EBI_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
-			.Add_Extra_Base_Form_Items(KANI_MEDAL,SASORI_MEDAL).Override_belt_text("core_driver_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
-	
-	public static final RegistryObject<Item> POWERED_UP_CORE_DRIVER = ITEMS.register("powered_up_core_driver",
-			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"powered_up_core",EBI_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
-			.Add_Extra_Base_Form_Items(KANI_MEDAL,SASORI_MEDAL).Override_belt_text("powered_up_core_driver_belt").AddToTabList(RiderTabs.OOO_TAB_ITEM));
-	
+
 	public static final RegistryObject<SwordItem> MEDAJALIBUR = ITEMS.register("medajalibur",
 			() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
 

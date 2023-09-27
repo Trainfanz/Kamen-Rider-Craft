@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "kamenridercraft:item/cellmedal"
+        "layer0": "kamenridercraft:item/birth_driver_x"
     }
 }

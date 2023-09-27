@@ -197,9 +197,9 @@ public class ModCommonEvents {
         event.put(MobsCore.GAMEL.get(), GamelEntity.setAttributes());
         event.put(MobsCore.POSEIDON.get(), PoseidonEntity.setAttributes());
         event.put(MobsCore.CORE.get(), CoreEntity.setAttributes());
-        event.put(MobsCore.POWERED_UP_CORE.get(), PoweredUpCoreEntity.setAttributes());
-        event.put(MobsCore.ANCIENT_OOO.get(), AncientOOOEntity.setAttributes());
-        event.put(MobsCore.GODA.get(), GodaEntity.setAttributes());
+        //event.put(MobsCore.POWERED_UP_CORE.get(), PoweredUpCoreEntity.setAttributes());
+        //event.put(MobsCore.ANCIENT_OOO.get(), AncientOOOEntity.setAttributes());
+       // event.put(MobsCore.GODA.get(), GodaEntity.setAttributes());
         
     }
 

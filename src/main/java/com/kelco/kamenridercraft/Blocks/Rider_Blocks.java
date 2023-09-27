@@ -6,6 +6,7 @@ import java.util.function.Supplier;
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.Blocks.MachineBlocks.AmazonCellExtractor;
 import com.kelco.kamenridercraft.Blocks.MachineBlocks.AmazonCellMutator;
+import com.kelco.kamenridercraft.Blocks.MachineBlocks.CellMedalProgramer;
 import com.kelco.kamenridercraft.Blocks.MachineBlocks.GSystemChipProgrammer;
 import com.kelco.kamenridercraft.Blocks.MachineBlocks.GaiaMemoryRefinerBlock;
 import com.kelco.kamenridercraft.Blocks.MachineBlocks.KaijinStoneGenerator;
@@ -92,6 +93,11 @@ public class Rider_Blocks {
 	public static final RegistryObject<Block> GAIA_MEMORY_REFINER = registerBlock("gaia_memory_refiner",
 			() -> new GaiaMemoryRefinerBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
 					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
+	public static final RegistryObject<Block> CELL_MEDAL_PROGRAMER = registerBlock("cell_medal_programer",
+			() -> new CellMedalProgramer(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
+					.strength(6f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	
 	
 	public static final RegistryObject<Block> COUNTER_95DO = registerBlock("counter_95do",
 			() -> new BaseFacingBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)
@@ -239,6 +245,7 @@ public class Rider_Blocks {
 					,MobsCore.CORE
 					,Component.translatable("Henshin!").withStyle(ChatFormatting.RED)).AddToTabList(RiderTabs.RIDER_BLOCK));
 	
+	/**
 	public static final RegistryObject<Block> POWERED_UP_CORE_BOSS_BLOCK = registerBlock("powered_up_core_boss_block",
 			() -> new BossBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).strength(6f)
 					,MobsCore.POWERED_UP_CORE
@@ -253,12 +260,11 @@ public class Rider_Blocks {
 			() -> new BossBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).strength(6f)
 					,MobsCore.GODA
 					,Component.translatable("Mukade! Hachi! Ari!").withStyle(ChatFormatting.DARK_PURPLE)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	**/
 	
 	public static <T extends Block>RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block ){
 		return  Modded_item_core.ITEMS.register(name, () -> new BlockItem(block.get(),new Item.Properties()));
 	}
-
-	
 
 	public static void register(IEventBus eventBus) {
 		BLOCKS.register(eventBus);
