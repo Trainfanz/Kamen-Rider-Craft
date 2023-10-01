@@ -1,6 +1,7 @@
 package com.kelco.kamenridercraft.events;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.Entities.AnkhEntity;
 import com.kelco.kamenridercraft.Entities.MobsCore;
 import com.kelco.kamenridercraft.Entities.Villager.RiderVillagers;
 import com.kelco.kamenridercraft.Entities.bosses.AncientOOOEntity;
@@ -188,7 +189,7 @@ public class ModCommonEvents {
         event.put(MobsCore.MUCHIRI.get(), MuchiriEntity.setAttributes());
         
         event.put(MobsCore.YUMMY.get(), YummyEntity.setAttributes());
-      //  event.put(MobsCore.ANKH.get(), AnkhEntity.setAttributes());
+        event.put(MobsCore.ANKH.get(), AnkhEntity.setAttributes());
         event.put(MobsCore.ANKHCOMPLETE.get(), AnkhCompleteEntity.setAttributes());
         event.put(MobsCore.ANKH_LOST.get(), AnkhLostEntity.setAttributes());
         event.put(MobsCore.UVA.get(), UvaEntity.setAttributes());

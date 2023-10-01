@@ -30,7 +30,16 @@ public class Modded_item_core {
 	public static final RegistryObject<Item> SHOCKER_EMBLEM = ITEMS.register("shocker_emblem",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.Misc_TAB_ITEM));
 
+	public static final RegistryObject<Item> ICE_POP = ITEMS.register("icepop1",
+			() -> new BaseItem(new Item.Properties().food(Foods.BEEF)).AddToTabList(RiderTabs.Misc_TAB_ITEM));
 
+	public static final RegistryObject<Item> ICE_POP2 = ITEMS.register("icepop2",
+			() -> new BaseItem(new Item.Properties().food(Foods.BEEF)).AddToTabList(RiderTabs.Misc_TAB_ITEM));
+
+	public static final RegistryObject<Item> ICE_POP3 = ITEMS.register("icepop3",
+			() -> new BaseItem(new Item.Properties().food(Foods.BEEF)).AddToTabList(RiderTabs.Misc_TAB_ITEM));
+
+	
 	public static final RegistryObject<Item> DONUT = ITEMS.register("donut",
 			() -> new BaseItem(new Item.Properties().food(Foods.BREAD)).AddToTabList(RiderTabs.Misc_TAB_ITEM));
 

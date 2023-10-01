@@ -274,11 +274,11 @@ public class MobsCore {
                () -> new ForgeSpawnEggItem(YUMMY, 0xE7E6B2, 0x959586, new Item.Properties()));
 
     
-     //  public static final RegistryObject<EntityType<AnkhEntity>> ANKH = MOBLIST.register("ankh_mob",
-     //          () -> EntityType.Builder.of(AnkhEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":ankh_mob"));
+       public static final RegistryObject<EntityType<AnkhEntity>> ANKH = MOBLIST.register("ankh_mob",
+              () -> EntityType.Builder.of(AnkhEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":ankh_mob"));
 
-   //    public static final RegistryObject<ForgeSpawnEggItem> ANKH_SPAWN_EGG = ITEMS.register("ankh_spawn_egg",
-     //           () -> new ForgeSpawnEggItem(ANKH, 0xFF2300, 0x42FF00, new Item.Properties()));
+       public static final RegistryObject<ForgeSpawnEggItem> ANKH_SPAWN_EGG = ITEMS.register("ankh_spawn_egg",
+                () -> new ForgeSpawnEggItem(ANKH, 0xFF2300, 0x42FF00, new Item.Properties()));
        
        public static final RegistryObject<EntityType<AnkhCompleteEntity>> ANKHCOMPLETE = MOBLIST.register("ankh_complete_mob",
                () -> EntityType.Builder.of(AnkhCompleteEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":ankh_complete_mob"));

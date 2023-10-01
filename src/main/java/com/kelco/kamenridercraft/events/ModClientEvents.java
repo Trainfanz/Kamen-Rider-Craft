@@ -6,6 +6,7 @@ import com.kelco.kamenridercraft.Items.Kuuga_Rider_Items;
 import com.kelco.kamenridercraft.Items.RiderTabs;
 import com.kelco.kamenridercraft.Items.W_Rider_Items;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderDriverItem;
+import com.kelco.kamenridercraft.client.renderer.AnkhRenderer;
 import com.kelco.kamenridercraft.client.renderer.BasicEntityRenderer;
 
 import java.util.ArrayList;
@@ -143,7 +144,7 @@ public class ModClientEvents {
 		event.registerEntityRenderer(MobsCore.MEZOOL.get(), BasicEntityRenderer::new);
 		event.registerEntityRenderer(MobsCore.GAMEL.get(), BasicEntityRenderer::new);
 		event.registerEntityRenderer(MobsCore.ANKH_LOST.get(), BasicEntityRenderer::new);
-		//   event.registerEntityRenderer(MobsCore.ANKH.get(), BasicEntityRenderer::new);
+		event.registerEntityRenderer(MobsCore.ANKH.get(), AnkhRenderer::new);
 		event.registerEntityRenderer(MobsCore.POSEIDON.get(), BasicEntityRenderer::new);
 		event.registerEntityRenderer(MobsCore.CORE.get(), BasicEntityRenderer::new);
 		//event.registerEntityRenderer(MobsCore.POWERED_UP_CORE.get(), BasicEntityRenderer::new);
