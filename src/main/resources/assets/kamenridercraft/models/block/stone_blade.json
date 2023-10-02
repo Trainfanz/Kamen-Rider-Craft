@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "kamenridercraft:block/stone_blade"
+    }
+}

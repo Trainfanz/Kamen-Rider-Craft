@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kr_blade",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:bladecard"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:bladehead"
+  }
+}

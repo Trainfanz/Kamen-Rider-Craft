@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "birth",
+  "pattern": [
+    "XX3",
+    "XC2",
+    "XX1"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:cellmedal"
+    }, "C": {
+      "item": "kamenridercraft:birth_driver"
+    }, "1": {
+      "item": "kamenridercraft:sasori_medal"
+    }, "2": {
+      "item": "kamenridercraft:kani_medal"
+    }, "3": {
+      "item": "kamenridercraft:ebi_medal"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:rebirth_driver"
+  }
+}

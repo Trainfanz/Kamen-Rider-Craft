@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "birth_proto",
+  "pattern": [
+    "AAA",
+    "ACA",
+    "AAA"
+  ],
+  "key": {
+     "A": {
+      "item": "minecraft:REDSTONE"
+    }, "C": {
+      "item": "kamenridercraft:birth_core"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:proto_birth_core"
+  }
+}
