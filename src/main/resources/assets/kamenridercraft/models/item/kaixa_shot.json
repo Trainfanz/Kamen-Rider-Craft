@@ -2,28 +2,28 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "kamenridercraft:item/kaixa_blaygun_gun"
+		"layer0": "kamenridercraft:item/kaixa_shot"
 	},
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [0, -90, 55],
-			"translation": [0, 0.75, 1.25],
-			"scale": [0.85, 0.85, 0.85]
+			"rotation": [0, -90, 45],
+			"translation": [4, -2, 0.5],
+			"scale": [0.85, 0.85, 2]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [0, 90, -55],
-			"translation": [0, 0.75, 1.25],
-			"scale": [0.85, 0.85, 0.85]
+			"rotation": [0, 90, -45],
+			"translation": [4, -2, 0.5],
+			"scale": [0.85, 0.85, 2]
 		},
 		"firstperson_righthand": {
-			"rotation": [0, -90, 25],
+			"rotation": [100, 25, 135],
 			"translation": [1.13, 3.2, 1.13],
-			"scale": [0.68, 0.68, 0.68]
+			"scale": [0.68, 0.68, 2]
 		},
 		"firstperson_lefthand": {
-			"rotation": [0, 90, -25],
+			"rotation": [100, 25, -135],
 			"translation": [1.13, 3.2, 1.13],
-			"scale": [0.68, 0.68, 0.68]
+			"scale": [0.68, 0.68, 2]
 		},
 		"fixed": {
 			"rotation": [0, 180, 0]

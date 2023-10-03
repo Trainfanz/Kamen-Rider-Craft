@@ -126,10 +126,20 @@ public class Faiz_Rider_Items {
 
 	public static final RegistryObject<SwordItem> FAIZ_EDGE = ITEMS.register("faiz_edge",
 			() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
-	public static final RegistryObject<BaseBlasterItem> FAIZ_BLASTER = ITEMS.register("faiz_blaster",
+	public static final RegistryObject<BaseBlasterItem> FAIZ_PHONE = ITEMS.register("faiz_phone",
 			() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
+	public static final RegistryObject<BaseBlasterItem> FAIZ_PHONE_POINTER = ITEMS.register("faiz_phone_pointer",
+			() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
+	public static final RegistryObject<SwordItem> FAIZ_SHOT = ITEMS.register("faiz_shot",
+			() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
+	public static final RegistryObject<BaseBlasterItem> FAIZ_BLASTER = ITEMS.register("faiz_blaster",
+			() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).IsSwordGun().AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
 	
-	public static final RegistryObject<SwordItem> KAIXA_BLAYGUN = ITEMS.register("kaixa_blaygun",
+	public static final RegistryObject<BaseBlasterItem> KAIXA_BLAYGUN = ITEMS.register("kaixa_blaygun",
+			() -> new BaseBlasterItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).IsSwordGun().AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
+	public static final RegistryObject<BaseBlasterItem> KAIXA_PHONE = ITEMS.register("kaixa_phone",
+			() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
+	public static final RegistryObject<SwordItem> KAIXA_SHOT = ITEMS.register("kaixa_shot",
 			() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
 	
 		
