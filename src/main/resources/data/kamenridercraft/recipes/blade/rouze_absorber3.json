@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blade",
+  "pattern": [
+    "XXX",
+    "XMX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:bladecard"
+    },
+    "M": {
+      "item": "kamenridercraft:fusion_elephant"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:rouze_absorber"
+  }    
+}

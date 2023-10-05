@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "faiz_gear",
+  "pattern": [
+    "XXX",
+    " MR",
+    ""
+  ],
+  "key": {
+    "R": {
+      "item": "kamenridercraft:blank_mission_memory"
+    },
+    "M": {
+      "item": "kamenridercraft:faiz_phone"
+    },
+    "X": {
+      "item": "minecraft:iron"
+      }
+  },
+  "result": {
+    "item": "kamenridercraft:faiz_phone_pointer"
+  }    
+}
