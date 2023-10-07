@@ -1,6 +1,7 @@
 package com.kelco.kamenridercraft.events;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Entities.AnkhEntity;
 import com.kelco.kamenridercraft.Entities.MobsCore;
 import com.kelco.kamenridercraft.Entities.Villager.RiderVillagers;
@@ -38,6 +39,7 @@ import com.kelco.kamenridercraft.Entities.footSoldiers.DestronCombatmanEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.DogmaFighterEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.FoundationXMasqueradeEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.GODWarfareAgentEntity;
+import com.kelco.kamenridercraft.Entities.footSoldiers.KnightSoldierEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.MasqueradeEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.PantherasLuteusEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.RedFollowerEntity;
@@ -47,16 +49,25 @@ import com.kelco.kamenridercraft.Entities.footSoldiers.YummyEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.ZuGumunBaEntity;
 import com.kelco.kamenridercraft.Items.Ichigo_Rider_Items;
 import com.kelco.kamenridercraft.Items.Modded_item_core;
+import com.mojang.blaze3d.vertex.PoseStack;
+
 import java.util.List;
+
+import org.jetbrains.annotations.ApiStatus;
+
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
+import net.minecraft.client.renderer.MultiBufferSource;
+import net.minecraft.client.renderer.entity.player.PlayerRenderer;
 import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.entity.npc.VillagerTrades;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.trading.MerchantOffer;
 import net.minecraft.world.level.levelgen.Heightmap;
+import net.minecraftforge.client.event.RenderPlayerEvent;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.event.entity.SpawnPlacementRegisterEvent;
 import net.minecraftforge.event.village.VillagerTradesEvent;
@@ -67,9 +78,24 @@ import net.minecraftforge.fml.common.Mod;
 @Mod.EventBusSubscriber(modid = KamenRiderCraftCore.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 
 public class ModCommonEvents {
- 
+	
+
 	  @Mod.EventBusSubscriber(modid = KamenRiderCraftCore.MODID)
 	    public static class ForgeEvents {
+		  
+			
+			@SubscribeEvent
+			    public static void addRenderPlayerEvent(RenderPlayerEvent.Pre event) {
+		
+			 float size = 1;
+				 if (event.getEntity().hasEffect(Effect_core.BIG.get())&!event.getEntity().hasEffect(Effect_core.SMALL.get())) { 
+					 size=size*2;
+				 }else  if (!event.getEntity().hasEffect(Effect_core.BIG.get())&event.getEntity().hasEffect(Effect_core.SMALL.get())) {
+					 size=(float) (size/2);
+				 }
+				 event.getPoseStack().scale(size,size,size);
+		    }
+		 
 	  @SubscribeEvent
 	    public static void addCustomTrades(VillagerTradesEvent event) {
 	       if(event.getType() == VillagerProfession.LIBRARIAN) {
@@ -189,6 +215,7 @@ public class ModCommonEvents {
         event.put(MobsCore.MUCHIRI.get(), MuchiriEntity.setAttributes());
         
         event.put(MobsCore.YUMMY.get(), YummyEntity.setAttributes());
+        event.put(MobsCore.KNIGHT_SOLDIER.get(), KnightSoldierEntity.setAttributes());
         event.put(MobsCore.ANKH.get(), AnkhEntity.setAttributes());
         event.put(MobsCore.ANKHCOMPLETE.get(), AnkhCompleteEntity.setAttributes());
         event.put(MobsCore.ANKH_LOST.get(), AnkhLostEntity.setAttributes());

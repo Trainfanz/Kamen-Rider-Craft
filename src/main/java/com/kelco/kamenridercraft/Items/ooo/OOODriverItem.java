@@ -64,7 +64,8 @@ public class OOODriverItem extends RiderDriverItem{
 
 	}
 	
-	public  boolean getPartsForSlot(EquipmentSlot currentSlot,String  part) {
+	@Override
+	public  boolean getPartsForSlot(ItemStack itemstack,EquipmentSlot currentSlot,String  part) {
 
 		switch (currentSlot) {
 		case HEAD ->{ 

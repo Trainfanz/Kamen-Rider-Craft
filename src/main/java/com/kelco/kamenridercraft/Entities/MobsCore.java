@@ -37,6 +37,7 @@ import com.kelco.kamenridercraft.Entities.footSoldiers.DestronCombatmanEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.DogmaFighterEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.FoundationXMasqueradeEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.GODWarfareAgentEntity;
+import com.kelco.kamenridercraft.Entities.footSoldiers.KnightSoldierEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.MasqueradeEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.PantherasLuteusEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.RedFollowerEntity;
@@ -272,6 +273,12 @@ public class MobsCore {
 
        public static final RegistryObject<ForgeSpawnEggItem> YUMMY_SPAWN_EGG = ITEMS.register("yummy_spawn_egg",
                () -> new ForgeSpawnEggItem(YUMMY, 0xE7E6B2, 0x959586, new Item.Properties()));
+
+       public static final RegistryObject<EntityType<KnightSoldierEntity>> KNIGHT_SOLDIER = MOBLIST.register("knight_soldier_mob",
+               () -> EntityType.Builder.of(KnightSoldierEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":knight_soldier_mob"));
+
+        public static final RegistryObject<ForgeSpawnEggItem> KNIGHT_SOLDIER_SPAWN_EGG = ITEMS.register("knight_soldier_spawn_egg",
+                () -> new ForgeSpawnEggItem(KNIGHT_SOLDIER, 0xca570f,0x919191, new Item.Properties()));
 
     
        public static final RegistryObject<EntityType<AnkhEntity>> ANKH = MOBLIST.register("ankh_mob",

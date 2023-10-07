@@ -38,6 +38,8 @@ public class ModClientEvents {
 
 	public static List<Item> SHIELD_ITEM= new ArrayList<Item>();
 
+	
+	
 	@SubscribeEvent
 	public static void onClientSetup(final FMLClientSetupEvent event) {
 
@@ -138,6 +140,7 @@ public class ModClientEvents {
 		event.registerEntityRenderer(MobsCore.MUCHIRI.get(), BasicEntityRenderer::new);
 
 		event.registerEntityRenderer(MobsCore.YUMMY.get(), BasicEntityRenderer::new);
+		event.registerEntityRenderer(MobsCore.KNIGHT_SOLDIER.get(), BasicEntityRenderer::new);
 		event.registerEntityRenderer(MobsCore.ANKHCOMPLETE.get(), BasicEntityRenderer::new);
 		event.registerEntityRenderer(MobsCore.UVA.get(), BasicEntityRenderer::new);
 		event.registerEntityRenderer(MobsCore.KAZARI.get(), BasicEntityRenderer::new);

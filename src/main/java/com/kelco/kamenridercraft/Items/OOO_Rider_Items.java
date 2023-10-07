@@ -38,8 +38,7 @@ public class OOO_Rider_Items {
 
 	public static final RegistryObject<Item> TAKA_MEDAL = ITEMS.register("taka_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_taka","ooo","ooodriver_belt",
-					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
-					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 1,true,false))
 			.AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> KUJAKU_MEDAL = ITEMS.register("kujaku_medal",
@@ -686,7 +685,7 @@ public class OOO_Rider_Items {
 
 	public static final RegistryObject<Item> BIRTH_CORE_EYES = ITEMS.register("birth_core_eyes",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_eyes","birth","birth_driver_belt",
-					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 1,true,false),
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 4000, 1,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false),
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false))
 			.AddCompatibilityList(new String[] {"birth_prototype"}).AddToTabList(CellMedalProgramer.CELL_MEDAL).AddToTabList(RiderTabs.OOO_TAB_ITEM));
@@ -705,7 +704,7 @@ public class OOO_Rider_Items {
 
 	public static final RegistryObject<Item> BIRTH_CORE_SHOVEL_ARM = ITEMS.register("birth_core_shovel_arm",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","birth","",
-					new MobEffectInstance(MobEffects.NIGHT_VISION, 40, 1,true,false))
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false))
 			.ChangeSlot(4).addSwitchForm(Modded_item_core.BLANK_FORM.get())
 			.AddToTabList(CellMedalProgramer.CELL_MEDAL).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 	
