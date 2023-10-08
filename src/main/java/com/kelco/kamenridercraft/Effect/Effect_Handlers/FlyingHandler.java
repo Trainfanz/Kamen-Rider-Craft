@@ -28,15 +28,13 @@ public class FlyingHandler {
 	@SubscribeEvent
 	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
 		if (event.phase == TickEvent.Phase.END) {
-			execute(event, event.player);
+			execute( event.player);
 		}
 	}
 
-	public static void execute(Entity entity) {
-		execute(null, entity);
-	}
 
-	private static void execute(@Nullable Event event, Entity entity) {
+
+	private static void execute(Entity entity) {
 		if (entity == null)
 			return;
 

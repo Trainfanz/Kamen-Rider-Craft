@@ -111,6 +111,11 @@ public class Kuuga_Rider_Items {
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 7,true,false),
             		new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
             		new MobEffectInstance(Effect_core.PUNCH.get(), 40, 6,true,false)).AddToTabList(RiderTabs.KUUGA_TAB_ITEM));
+    
+    public static final RegistryObject<Item> KUUGA_MANGA = ITEMS.register("kuuga_manga",
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"","kuuga_manga","arcle_belt_manga",
+            		new MobEffectInstance(Effect_core.PUNCH.get(), 40, 2,true,false)
+            		,new MobEffectInstance(Effect_core.FLAT.get(), 40, 2,true,false)).AddToTabList(RiderTabs.KUUGA_TAB_ITEM));
 
     
     public static final RegistryObject<Item> KUUGAHELMET = ITEMS.register("kuugahead",
@@ -123,6 +128,10 @@ public class Kuuga_Rider_Items {
     public static final RegistryObject<Item> ARCLE = ITEMS.register("arcle",
     		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"kuuga",KUUGA_MIGHTY ,KUUGAHELMET, KUUGACHESTPLATE,KUUGALEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.KUUGA_TAB_ITEM).ChangeRepairItem(KUUGA_GROWING.get()));
 
+    public static final RegistryObject<Item> MANGA_ARCLE = ITEMS.register("manga_arcle",
+    		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"kuuga_manga",KUUGA_MANGA ,KUUGAHELMET, KUUGACHESTPLATE,KUUGALEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.KUUGA_TAB_ITEM).ChangeRepairItem(KUUGA_GROWING.get()));
+
+    
     public static final RegistryObject<SwordItem> DRAGON_ROD = ITEMS.register("dragon_rod",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(ModClientEvents.KUUGA_CHANGING_ITEM).AddToTabList(RiderTabs.KUUGA_TAB_ITEM).ChangeRepairItem(KUUGA_GROWING.get()));
 	public static final RegistryObject<BaseBlasterItem> PEGASUS_BOWGUN = ITEMS.register("pegasus_bowgun",
