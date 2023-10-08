@@ -96,20 +96,18 @@ public class ModCommonEvents {
 
 			if (event.getEntity() instanceof Player entity) {
 
-			
-				float size = 1;
-
 				if (!entity.canUpdate()) { 
-					//size=2;
+					float size = 1;
 					if (entity.hasEffect(Effect_core.BIG.get())&!entity.hasEffect(Effect_core.SMALL.get())) { 
 						size= size*((entity.getEffect(Effect_core.BIG.get()).getAmplifier())+1);
 					}else  if (!entity.hasEffect(Effect_core.BIG.get())&entity.hasEffect(Effect_core.SMALL.get())) {
 					size=(float) (size/2);
 					}
+					event.setNewSize(entity.getDimensions(entity.getPose()).scale(size),true);
+					event.setNewEyeHeight(((float)Player.DEFAULT_EYE_HEIGHT*size));
 				}
 
-				event.setNewSize(entity.getDimensions(entity.getPose()).scale(size));
-				event.setNewEyeHeight(Player.DEFAULT_EYE_HEIGHT+(size-1));
+				
 				//DIMENSIONS = EntityDimensions.scalable(0.6F, 1.8F);
 				//Entity.setViewScale(2);
 				//event.player.v;
