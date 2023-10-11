@@ -54,6 +54,7 @@
 "item.kamenridercraft.nophoon_kamen_norider": "Nophoon",
 
 "item.kamenridercraft.v3_logo": "V3 Logo",
+"item.kamenridercraft.riderman_logo": "Riderman Logo",
 "item.kamenridercraft.v3head": "V3 Helmet",
 "item.kamenridercraft.v3troso": "V3 Chestplate",
 "item.kamenridercraft.v3legs": "V3 Leggings",
@@ -119,7 +120,7 @@
 
 "item.kamenridercraft.black_logo": "Black Logo",
 "item.kamenridercraft.blackhead": "Black Helmet",
-"item.kamenridercraft.blacktroso": "Black Chestplate",
+"item.kamenridercraft.blacktorso": "Black Chestplate",
 "item.kamenridercraft.blacklegs": "Black Leggings",
 "item.kamenridercraft.red_king_stone": "Red King Stone",
 "item.kamenridercraft.vital_charger": "Vital Charger",
@@ -175,6 +176,7 @@
 "item.kamenridercraft.kuugatroso": "Kuuga Chestplate",
 "item.kamenridercraft.kuugalegs": "Kuuga Leggings",
 "item.kamenridercraft.arcle": "Arcle",
+"item.kamenridercraft.manga_arcle": "Arcle (Manga)",
 
 "item.kamenridercraft.kuuga_growing": "Kuuga Growing Amadam",
 "item.kamenridercraft.kuuga_mighty": "Kuuga Mighty Amadam",
@@ -189,6 +191,7 @@
 "item.kamenridercraft.kuuga_ultimate": "Kuuga Ultimate Amadam",
 "item.kamenridercraft.kuuga_rising_ultimate": "Kuuga Rising Ultimate Amadam",
 "item.kamenridercraft.kuuga_super_rising_ultimate": "Kuuga Super Rising Ultimate Amadam",
+"item.kamenridercraft.kuuga_manga": "Kuuga Mighty Amadam (Manga)",
 
 "item.kamenridercraft.dragon_rod": "Dragon Rod",
 "item.kamenridercraft.pegasus_bowgun": "Pegasus Bowgun",
@@ -283,7 +286,7 @@
 "item.kamenridercraft.kaixa_phone": "Kaixa Phone",
 "item.kamenridercraft.kaixa_shot": "Kaixa Shot",
 "item.kamenridercraft.delta_blaster": "Delta Blaster",
-"item.kamenridercraft.orga_stlanzler": "Orga Stlanzer",
+"item.kamenridercraft.orga_stlanzer": "Orga Stlanzer",
 "item.kamenridercraft.psyga_tonfa_edge": "Psyga Tonfa Edge",
 "item.kamenridercraft.axel_ray_gun": "Axel Ray Gun",
 
@@ -321,7 +324,7 @@
 "item.kamenridercraft.lancerouzer": "Lance Rouzer",
 
 "item.kamenridercraft.chalice_arrow": "Chalice Arrow",
-"item.kamenridercraft.wild_slasher": "wild Slasher",
+"item.kamenridercraft.wild_slasher": "Wild Slasher",
 "item.kamenridercraft.wild_chalice_arrow": "Wild Chalice Arrow",
 
 "item.kamenridercraft.bladecard": "Common Blank Rouze Card",
@@ -608,6 +611,7 @@
 
 "item.kamenridercraft.birth_core_breast_cannon": "Birth Cell Medal (Breast Cannon)",
 "item.kamenridercraft.birth_core_crane_arm": "Birth Cell Medal (Crane Arm)",
+"item.kamenridercraft.birth_core_drill_arm": "Birth Cell Medal (Drill Arm)",
 "item.kamenridercraft.birth_core_shovel_arm": "Birth Cell Medal (Shovel Arm)",
 "item.kamenridercraft.birth_core_catepillar_leg": "Birth Cell Medal (Caterpillar Leg)",
 "item.kamenridercraft.birth_core_cutter_wing": "Birth Cell Medal (Cutter Wing)",
@@ -730,6 +734,7 @@
 "item.kamenridercraft.terror_dopant_spawn_egg": "Terror Dopant Spawn Egg",
 "item.kamenridercraft.weather_dopant_spawn_egg": "Weather Dopant Spawn Egg",
 "item.kamenridercraft.yummy_spawn_egg": "Yummy Spawn Egg",
+"item.kamenridercraft.knight_soldier_spawn_egg": "Knight Soldier Spawn Egg",
 "item.kamenridercraft.ankh_spawn_egg": "Ankh Spawn Egg",
 "item.kamenridercraft.ankh_lost_spawn_egg": "Lost Ankh Spawn Egg",
 "item.kamenridercraft.ankh_complete_spawn_egg": "Complete Ankh Spawn Egg",

@@ -43,14 +43,12 @@ public class OOO_Rider_Items {
 
 	public static final RegistryObject<Item> KUJAKU_MEDAL = ITEMS.register("kujaku_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kujaku","ooo","ooodriver_belt",
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
-					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+					new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false))
 			.ChangeSlot(2).ifFlyingModelResource( "geo/rider_plusbelt_and_wings.geo.json").AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> CONDOR_MEDAL = ITEMS.register("condor_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_condor","ooo","ooodriver_belt",
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
-					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false))
 			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> TAKA_ANKH_MEDAL = ITEMS.register("taka_ankh_medal",
@@ -68,14 +66,12 @@ public class OOO_Rider_Items {
 
 	public static final RegistryObject<Item> TORA_MEDAL = ITEMS.register("tora_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_tora","ooo","ooodriver_belt",
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
-					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false))
 			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> CHEETAH_MEDAL = ITEMS.register("cheetah_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_cheetah","ooo","ooodriver_belt",
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
-					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false))
 			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 
@@ -87,32 +83,29 @@ public class OOO_Rider_Items {
 
 	public static final RegistryObject<Item> KAMAKIRI_MEDAL = ITEMS.register("kamakiri_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kamakiri","ooo","ooodriver_belt",
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
-					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false))
 			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> BATTA_MEDAL = ITEMS.register("batta_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_batta","ooo","ooodriver_belt",
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
-					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 0,true,false))
+					new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false))
 			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 
 	public static final RegistryObject<Item> SAI_MEDAL = ITEMS.register("sai_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_sai","ooo","ooodriver_belt",
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false),
 					new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 1,true,false))
 			.ChangeSlot(1).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> GORILLA_MEDAL = ITEMS.register("gorilla_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_gorilla","ooo","ooodriver_belt",
-					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false),
 					new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 1,true,false))
 			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> ZOU_MEDAL = ITEMS.register("zou_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_zou","ooo","ooodriver_belt",
-					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
 					new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 1,true,false))
 			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
@@ -158,7 +151,7 @@ public class OOO_Rider_Items {
 
 	public static final RegistryObject<Item> KAME_MEDAL = ITEMS.register("kame_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kame","ooo","ooodriver_belt",
-					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40	, 2,true,false))
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false))
 			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> WANI_MEDAL = ITEMS.register("wani_medal",
