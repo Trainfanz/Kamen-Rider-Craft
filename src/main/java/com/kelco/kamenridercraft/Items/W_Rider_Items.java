@@ -385,7 +385,11 @@ public class W_Rider_Items {
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).KeepDifItem(COMMANDER_MEMORY.get()));
 
 	public static final RegistryObject<Item> MEMORY_MEMORY = ITEMS.register("memory_memory",
-			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"","core","core_driver_belt",
+					new MobEffectInstance(Effect_core.BIG.get(), 40, 2,true,false))
+			.ChangeSlot(4).addSwitchForm(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.W_TAB_ITEM));
+
+
 
 	public static final RegistryObject<Item> EGG_CHICKEN_MEMORY = ITEMS.register("egg_chicken_memory",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));

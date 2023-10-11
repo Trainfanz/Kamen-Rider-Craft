@@ -36,7 +36,7 @@ public class Effect_core {
 			() -> new 	BigEffect(MobEffectCategory.BENEFICIAL, 0x1d8519));
 
 	public static final RegistryObject<MobEffect> FLAT= EFFECT.register("flat",
-			() -> new 	BigEffect(MobEffectCategory.BENEFICIAL, 0x1d8519));
+			() -> new 	BigEffect(MobEffectCategory.BENEFICIAL, 0xf7fada));
 
 
 	//FIRE_PUNCH_POTION
