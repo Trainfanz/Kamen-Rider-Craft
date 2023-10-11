@@ -90,20 +90,20 @@ public class ModCommonEvents {
 	@Mod.EventBusSubscriber(modid = KamenRiderCraftCore.MODID)
 	public static class ForgeEvents {
 
-		@SuppressWarnings({ "deprecation", "removal" })
+		@SuppressWarnings({ "removal" })
 		@SubscribeEvent
 		public static void addRenderPlayerEvent(EntityEvent.Size event) {
 
 			if (event.getEntity() instanceof Player entity) {
-
-				if (!entity.canUpdate()) { 
+				
+				if (entity.isAddedToWorld()) { 
 					float size = 1;
 					if (entity.hasEffect(Effect_core.BIG.get())&!entity.hasEffect(Effect_core.SMALL.get())) { 
 						size= size*((entity.getEffect(Effect_core.BIG.get()).getAmplifier())+1);
 					}else  if (!entity.hasEffect(Effect_core.BIG.get())&entity.hasEffect(Effect_core.SMALL.get())) {
 					size=(float) (size/2);
 					}
-					event.setNewSize(entity.getDimensions(entity.getPose()).scale(size),true);
+					//event.setNewSize(entity.getDimensions(entity.getPose()).scale(size),true);
 					event.setNewEyeHeight(((float)Player.DEFAULT_EYE_HEIGHT*size));
 				}
 
@@ -113,25 +113,7 @@ public class ModCommonEvents {
 				//event.player.v;
 			}
 		}
-		/**
-		@SuppressWarnings("removal")
-		@SubscribeEvent
-		public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
-			if (event.phase == TickEvent.Phase.END) {
-				float size = Player.DEFAULT_EYE_HEIGHT;
 
-				if (event.player.hasEffect(Effect_core.BIG.get())&!event.player.hasEffect(Effect_core.SMALL.get())) { 
-					size= size*((event.player.getEffect(Effect_core.BIG.get()).getAmplifier())+1);
-				}else  if (!event.player.hasEffect(Effect_core.BIG.get())&event.player.hasEffect(Effect_core.SMALL.get())) {
-					size=(float) (size/2);
-				}
-				//DIMENSIONS = EntityDimensions.scalable(0.6F, 1.8F);
-				//Entity.setViewScale(2);
-				//event.player.v;
-
-			}
-		}
-		 **/
 		@SubscribeEvent
 		public static void addRenderPlayerEvent(RenderPlayerEvent.Pre event) {
 
