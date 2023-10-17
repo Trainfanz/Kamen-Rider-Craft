@@ -48,6 +48,7 @@ import com.kelco.kamenridercraft.Entities.footSoldiers.ShockerCombatmanEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.YummyEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.ZuGumunBaEntity;
 import com.kelco.kamenridercraft.Items.Ichigo_Rider_Items;
+import com.kelco.kamenridercraft.Items.Kuuga_Rider_Items;
 import com.kelco.kamenridercraft.Items.Modded_item_core;
 import com.mojang.blaze3d.vertex.PoseStack;
 
@@ -136,6 +137,15 @@ public class ModCommonEvents {
 			if(event.getType() == VillagerProfession.LIBRARIAN) {
 				Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
 				ItemStack stack = new ItemStack(Ichigo_Rider_Items.RIDER3_VS_THE_DEMON_OF_GENERAL_BLACK.get(), 1);
+				int villagerLevel = 1;
+
+				trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+						new ItemStack(Items.EMERALD, 2),
+						stack,10,8,0.02F));
+			}
+			if(event.getType() == VillagerProfession.LIBRARIAN) {
+				Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+				ItemStack stack = new ItemStack(Kuuga_Rider_Items.KUUGA_MANGA.get(), 1);
 				int villagerLevel = 1;
 
 				trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
