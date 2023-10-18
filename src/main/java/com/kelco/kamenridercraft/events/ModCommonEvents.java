@@ -104,7 +104,7 @@ public class ModCommonEvents {
 					}else  if (!entity.hasEffect(Effect_core.BIG.get())&entity.hasEffect(Effect_core.SMALL.get())) {
 					size=(float) (size/2);
 					}
-					//event.setNewSize(entity.getDimensions(entity.getPose()).scale(size),true);
+					event.setNewSize(entity.getDimensions(entity.getPose()).scale(size),true);
 					event.setNewEyeHeight(((float)Player.DEFAULT_EYE_HEIGHT*size));
 				}
 

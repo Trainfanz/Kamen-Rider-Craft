@@ -162,7 +162,8 @@ public class OOO_Rider_Items {
 
 	public static final RegistryObject<Item> SASORI_MEDAL = ITEMS.register("sasori_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","core","core_driver_belt",
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false)).ChangeSlot(1).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.INVISIBILITY, 40, 0,true,false)).ChangeSlot(1).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> KANI_MEDAL = ITEMS.register("kani_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","core","core_driver_belt",
