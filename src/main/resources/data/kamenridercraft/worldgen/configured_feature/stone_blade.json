@@ -6,7 +6,7 @@
     "targets": [
       {
         "state": {
-          "Name": "kamenridercraft:stone_kuuga"
+          "Name": "kamenridercraft:stone_blade"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",
@@ -15,7 +15,7 @@
       },
       {
         "state": {
-          "Name": "kamenridercraft:deepslate_stone_kuuga"
+          "Name": "kamenridercraft:deepslate_stone_blade"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",

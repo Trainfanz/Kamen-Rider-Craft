@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": "kamenridercraft:stone_blade_placed",
+  "step": "underground_ores"
+}

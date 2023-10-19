@@ -20,9 +20,9 @@ public class BigEffect extends MobEffect {
 		super(mobEffectCategory, color);
 	}
 
-	@Override
+
 	public void applyEffectTick(LivingEntity pLivingEntity, int pAmplifier) {
-		/**
+		
 		if (!pLivingEntity.level().isClientSide()) {
 			if (pLivingEntity instanceof Player player) {
 
@@ -31,13 +31,19 @@ public class BigEffect extends MobEffect {
 				}
 			}
 		}
-		**/
+		
 	}
-
-
-
+	@Override
+	   public void applyInstantenousEffect(@Nullable Entity p_19462_, @Nullable Entity p_19463_, LivingEntity p_19464_, int p_19465_, double p_19466_) {
+		  
+		   }
+	
+	 public boolean isInstantenous() {
+	      return true;
+	   }
+	 
 	@Override
 	public boolean isDurationEffectTick(int pDuration, int pAmplifier) {
-		return false;
+		return true;
 	}
 }

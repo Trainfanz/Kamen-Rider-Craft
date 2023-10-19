@@ -1,9 +1,14 @@
 package com.kelco.kamenridercraft.Effect;
 
 
+import javax.annotation.Nullable;
+
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Pose;
+import net.minecraft.world.entity.player.Player;
 
 
 public class SmallEffect extends MobEffect {
@@ -13,14 +18,23 @@ public class SmallEffect extends MobEffect {
 		super(mobEffectCategory, color);
 	}
 
-	@Override
-	public void applyEffectTick(LivingEntity pLivingEntity, int pAmplifier) {
-	 if (!pLivingEntity.level().isClientSide()) {
-
+public void applyEffectTick(LivingEntity pLivingEntity, int pAmplifier) {
 		
-			
+		if (!pLivingEntity.level().isClientSide()) {
+			if (pLivingEntity instanceof Player player) {
+
+				if (Player.DEFAULT_BB_HEIGHT==player.getDimensionsForge(player.getPose()).height) {
+					player.setPose(Pose.CROUCHING);;
+				}
+			}
+		}
+		
 	}
-	 }
+	@Override
+	   public void applyInstantenousEffect(@Nullable Entity p_19462_, @Nullable Entity p_19463_, LivingEntity p_19464_, int p_19465_, double p_19466_) {
+		  
+		   }
+	
 
 	@Override
 	public boolean isDurationEffectTick(int pDuration, int pAmplifier) {
