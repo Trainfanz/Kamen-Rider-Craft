@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "kaixa_gear",
+  "group": "faiz_gear",
   "pattern": [
     "XXX",
-    "XMR",
+    "RMX",
     "XXX"
   ],
   "key": {
@@ -14,10 +14,10 @@
       "item": "kamenridercraft:base_sword"
     },
     "R": {
-      "item": "kamenridercraft:kaixa_mission_memory"
+      "item": "kamenridercraft:faiz_mission_memory"
       }
   },
   "result": {
-    "item": "kamenridercraft:kaixa_shot"
+    "item": "kamenridercraft:faiz_phone"
   }    
 }

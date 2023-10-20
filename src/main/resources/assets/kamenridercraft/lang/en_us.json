@@ -52,6 +52,8 @@
 "item.kamenridercraft.typhoon_shocker_rider_11": "Typhoon (Shocker Rider 11)",
 "item.kamenridercraft.typhoon_shocker_rider_12": "Typhoon (Shocker Rider 12)",
 "item.kamenridercraft.nophoon_kamen_norider": "Nophoon",
+"item.kamenridercraft.typhoon_dark_ichigo": "Typhoon (Dark Ichigo)",
+"item.kamenridercraft.typhoon_dark_nigo": "Typhoon (Dark Nigo)",
 
 "item.kamenridercraft.v3_logo": "V3 Logo",
 "item.kamenridercraft.riderman_logo": "Riderman Logo",
@@ -66,6 +68,8 @@
 "item.kamenridercraft.double_typhoon": "Double Typhoon",
 "item.kamenridercraft.riderman_belt": "Riderman Belt",
 
+"item.kamenridercraft.double_typhoon_dark": "Double Typhoon (Dark V-3)",
+"item.kamenridercraft.riderman_belt_dark": "Riderman Belt (Dark Riderman)",
 
 "item.kamenridercraft.x_logo": "X Logo",
 "item.kamenridercraft.ridol_stick": "Ridol Stick",
@@ -74,6 +78,7 @@
 "item.kamenridercraft.xlegs": "X Leggings",
 "item.kamenridercraft.ridol_core": "Ridol Core",
 "item.kamenridercraft.ridol": "Ridol",
+"item.kamenridercraft.ridol_dark": "Ridol (Dark X)",
 
 "item.kamenridercraft.amazon_logo": "Amazon Logo",
 "item.kamenridercraft.amazonhead": "Amazon Helmet",
@@ -83,6 +88,7 @@
 "item.kamenridercraft.condorer": "Condorer",
 "item.kamenridercraft.gigi_armlet": "Gigi Armlet",
 "item.kamenridercraft.gaga_armlet": "Gaga Armlet",
+"item.kamenridercraft.condorer_dark": "Condorer (Dark Amazon)",
 
 "item.kamenridercraft.stronger_logo": "Stronger Logo",
 "item.kamenridercraft.strongerhead": "Stronger Helmet",
@@ -93,6 +99,7 @@
 "item.kamenridercraft.tackle_core": "Tackle Core",
 "item.kamenridercraft.electrer": "Electrer",
 "item.kamenridercraft.tackle_belt": "Tackle Belt",
+"item.kamenridercraft.electrer_dark": "Electrer (Dark Stronger)",
 
 "item.kamenridercraft.skyrider_logo": "Skyrider Logo",
 "item.kamenridercraft.skyriderhead": "Skyrider Helmet",
