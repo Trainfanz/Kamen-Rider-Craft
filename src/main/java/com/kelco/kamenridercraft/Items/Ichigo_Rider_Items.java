@@ -157,6 +157,14 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> NOPHOON_KAMEN_NORIDER = ITEMS.register("nophoon_kamen_norider",
 	            () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"kamen_norider",NOPHOON_CORE ,ICHIGOHELMET, ICHIGOCHESTPLATE,ICHIGOLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
 
+	    public static final RegistryObject<Item> TYPHOON_DARK_ICHIGO = ITEMS.register("typhoon_dark_ichigo",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"dark_ichigo",TYPHOON_CORE ,ICHIGOHELMET, ICHIGOCHESTPLATE,ICHIGOLEGGINGS , new Item.Properties())
+		           .Override_belt_text("dark_typhoon_belt").AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
+
+	    public static final RegistryObject<Item> TYPHOON_DARK_NIGO = ITEMS.register("typhoon_dark_nigo",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"dark_nigo",TYPHOON_CORE ,ICHIGOHELMET, ICHIGOCHESTPLATE,ICHIGOLEGGINGS , new Item.Properties())
+		           .Override_belt_text("dark_typhoon_belt").AddToTabList(RiderTabs.ICHIGO_TAB_ITEM));
+
 	    //V3
 	    
 	    public static final RegistryObject<Item> V3_LOGO = ITEMS.register("v3_logo",
