@@ -5,8 +5,10 @@ import java.util.Random;
 import com.kelco.kamenridercraft.Entities.footSoldiers.BaseHenchmenEntity;
 import com.kelco.kamenridercraft.Items.OOO_Rider_Items;
 
+import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.monster.Monster;
@@ -24,6 +26,7 @@ public class CoreEntity extends BaseHenchmenEntity {
         this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(OOO_Rider_Items.OOOCHESTPLATE.get()));
         this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(OOO_Rider_Items.OOOLEGGINGS.get()));
         this.setItemSlot(EquipmentSlot.FEET, new ItemStack(OOO_Rider_Items.CORE_DRIVER.get()));
+   Scale= 3;
     }
 
  
@@ -40,6 +43,10 @@ public class CoreEntity extends BaseHenchmenEntity {
         		.build();
      }
     
+    protected float getStandingEyeHeight(Pose p_32794_, EntityDimensions p_32795_) {
+        return 5.22F;
+     }
+
 
 }
 

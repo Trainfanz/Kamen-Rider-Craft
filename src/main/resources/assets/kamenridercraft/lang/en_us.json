@@ -4,7 +4,9 @@
 "effect.kamenridercraft.slash":"Slash",
 "effect.kamenridercraft.punch":"Punch",
 "effect.kamenridercraft.flying":"Flying",
-
+"effect.kamenridercraft.big":"Giant",
+"effect.kamenridercraft.small":"Shrink",
+"effect.kamenridercraft.flat":"Flatten",
 
 "item.kamenridercraft.rider_circuit": "Rider Circuit",
 
@@ -67,6 +69,7 @@
 
 "item.kamenridercraft.double_typhoon": "Double Typhoon",
 "item.kamenridercraft.riderman_belt": "Riderman Belt",
+"item.kamenridercraft.dark_double_typhoon": "Dark Double Typhoon",
 
 "item.kamenridercraft.double_typhoon_dark": "Double Typhoon (Dark V-3)",
 "item.kamenridercraft.riderman_belt_dark": "Riderman Belt (Dark Riderman)",

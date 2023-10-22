@@ -38,9 +38,7 @@ public class BigEffect extends MobEffect {
 		  
 		   }
 	
-	 public boolean isInstantenous() {
-	      return true;
-	   }
+
 	 
 	@Override
 	public boolean isDurationEffectTick(int pDuration, int pAmplifier) {

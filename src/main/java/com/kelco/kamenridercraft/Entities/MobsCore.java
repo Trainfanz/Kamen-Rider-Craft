@@ -341,7 +341,7 @@ public class MobsCore {
                    () -> new ForgeSpawnEggItem(POSEIDON, 0xD11B1E, 0x30BBEC, new Item.Properties()));
          
           public static final RegistryObject<EntityType<CoreEntity>> CORE = MOBLIST.register("core",
-                  () -> EntityType.Builder.of(CoreEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":core"));
+                  () -> EntityType.Builder.of(CoreEntity::new, MobCategory.MONSTER).sized(1.8F, 5.85F).fireImmune().clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":core"));
 
           public static final RegistryObject<ForgeSpawnEggItem> CORE_SPAWN_EGG = ITEMS.register("core_spawn_egg",
                    () -> new ForgeSpawnEggItem(CORE, 0x312511, 0xF97012, new Item.Properties()));

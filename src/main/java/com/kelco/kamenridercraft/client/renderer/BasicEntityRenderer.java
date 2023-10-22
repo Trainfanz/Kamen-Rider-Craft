@@ -1,8 +1,10 @@
 package com.kelco.kamenridercraft.client.renderer;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Entities.footSoldiers.BaseHenchmenEntity;
 import com.kelco.kamenridercraft.client.models.BasicMobModel;
+import com.mojang.blaze3d.vertex.PoseStack;
 
 import net.minecraft.client.model.ZombieModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
@@ -27,6 +29,11 @@ public class BasicEntityRenderer  extends  HumanoidMobRenderer<BaseHenchmenEntit
 	}
 
 
+	   protected void scale(BaseHenchmenEntity p_114775_, PoseStack p_114776_, float p_114777_) {
+		   
+		   float size = p_114775_.getScale();
+		      p_114776_.scale(size,size,size);
+		   }
 
 	@Override
 	public ResourceLocation getTextureLocation(BaseHenchmenEntity p_114482_) {

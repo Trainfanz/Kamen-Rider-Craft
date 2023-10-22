@@ -1,6 +1,6 @@
 package com.kelco.kamenridercraft.Entities;
 
-import java.util.UUID;
+
 
 import javax.annotation.Nullable;
 
@@ -10,9 +10,7 @@ import com.kelco.kamenridercraft.Entities.footSoldiers.YummyEntity;
 import com.kelco.kamenridercraft.Items.Modded_item_core;
 import com.kelco.kamenridercraft.Items.OOO_Rider_Items;
 
-import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
-import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
@@ -45,7 +43,6 @@ import net.minecraft.world.entity.monster.Enemy;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.gameevent.GameEvent;
@@ -204,15 +201,16 @@ public class AnkhEntity extends Wolf implements GeoEntity {
 
 	   @Nullable
 	   public Wolf getBreedOffspring(ServerLevel p_149088_, AgeableMob p_149089_) {
-	      Wolf wolf = MobsCore.ANKH.get().create(p_149088_);
-
-
-	      return wolf;
+	
+	      return null;
 	   }
 
 	   public boolean isFood(ItemStack p_30440_) {
 		      Item item = p_30440_.getItem();
-		      return item.isEdible() && p_30440_.getFoodProperties(this).isMeat();
+
+		    	  
+		      
+		      return item ==Modded_item_core.ICE_POP.get()||item ==Modded_item_core.ICE_POP2.get()||item ==Modded_item_core.ICE_POP3.get();
 		   }
 
 }

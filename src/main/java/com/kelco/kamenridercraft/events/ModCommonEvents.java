@@ -71,6 +71,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.trading.MerchantOffer;
 import net.minecraft.world.level.levelgen.Heightmap;
+import net.minecraftforge.client.event.RenderLivingEvent;
 import net.minecraftforge.client.event.RenderPlayerEvent;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
@@ -91,9 +92,9 @@ public class ModCommonEvents {
 	@Mod.EventBusSubscriber(modid = KamenRiderCraftCore.MODID)
 	public static class ForgeEvents {
 
-		@SuppressWarnings({ "removal" })
+		@SuppressWarnings({ "removal", "deprecation" })
 		@SubscribeEvent
-		public static void addRenderPlayerEvent(EntityEvent.Size event) {
+		public static void addChangeSize(EntityEvent.Size event) {
 
 			if (event.getEntity() instanceof Player entity) {
 				
@@ -107,16 +108,13 @@ public class ModCommonEvents {
 					event.setNewSize(entity.getDimensions(entity.getPose()).scale(size),true);
 					event.setNewEyeHeight(((float)Player.DEFAULT_EYE_HEIGHT*size));
 				}
-
-				
-				//DIMENSIONS = EntityDimensions.scalable(0.6F, 1.8F);
-				//Entity.setViewScale(2);
-				//event.player.v;
 			}
 		}
 
+		// /effect give @e kamenridercraft:big infinite 3
+		
 		@SubscribeEvent
-		public static void addRenderPlayerEvent(RenderPlayerEvent.Pre event) {
+		public static void addRenderLivingEvent(RenderLivingEvent.Pre event) {
 
 			float size = 1;
 			if (event.getEntity().hasEffect(Effect_core.BIG.get())&!event.getEntity().hasEffect(Effect_core.SMALL.get())) { 
@@ -130,6 +128,12 @@ public class ModCommonEvents {
 			}
 
 			event.getPoseStack().scale(size,size,size2);
+		}
+		
+		@SubscribeEvent
+		public static void addRenderPlayerEvent(RenderPlayerEvent.Pre event) {
+
+		
 		}
 
 		@SubscribeEvent
