@@ -1,10 +1,7 @@
 package com.kelco.kamenridercraft.events;
 
 
-import com.kelco.kamenridercraft.Items.Faiz_Rider_Items;
 import com.kelco.kamenridercraft.Items.Kuuga_Rider_Items;
-import com.kelco.kamenridercraft.Items.RiderTabs;
-import com.kelco.kamenridercraft.Items.W_Rider_Items;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderDriverItem;
 import com.kelco.kamenridercraft.client.renderer.AnkhRenderer;
 import com.kelco.kamenridercraft.client.renderer.BasicEntityRenderer;

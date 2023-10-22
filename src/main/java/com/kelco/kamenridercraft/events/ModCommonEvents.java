@@ -5,7 +5,6 @@ import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Entities.AnkhEntity;
 import com.kelco.kamenridercraft.Entities.MobsCore;
 import com.kelco.kamenridercraft.Entities.Villager.RiderVillagers;
-import com.kelco.kamenridercraft.Entities.bosses.AncientOOOEntity;
 import com.kelco.kamenridercraft.Entities.bosses.AnkhCompleteEntity;
 import com.kelco.kamenridercraft.Entities.bosses.AnkhLostEntity;
 import com.kelco.kamenridercraft.Entities.bosses.AnotherAgitoEntity;
@@ -15,14 +14,12 @@ import com.kelco.kamenridercraft.Entities.bosses.CoreEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ElOfTheWaterEntity;
 import com.kelco.kamenridercraft.Entities.bosses.EternalEntity;
 import com.kelco.kamenridercraft.Entities.bosses.GamelEntity;
-import com.kelco.kamenridercraft.Entities.bosses.GodaEntity;
 import com.kelco.kamenridercraft.Entities.bosses.KazariEntity;
 import com.kelco.kamenridercraft.Entities.bosses.MezoolEntity;
 import com.kelco.kamenridercraft.Entities.bosses.MuchiriEntity;
 import com.kelco.kamenridercraft.Entities.bosses.NazcaDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.OrgaEntity;
 import com.kelco.kamenridercraft.Entities.bosses.PoseidonEntity;
-import com.kelco.kamenridercraft.Entities.bosses.PoweredUpCoreEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ShadowmoonEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ShockerRidersEntity;
 import com.kelco.kamenridercraft.Entities.bosses.SmilodonDopantEntity;
@@ -50,18 +47,8 @@ import com.kelco.kamenridercraft.Entities.footSoldiers.ZuGumunBaEntity;
 import com.kelco.kamenridercraft.Items.Ichigo_Rider_Items;
 import com.kelco.kamenridercraft.Items.Kuuga_Rider_Items;
 import com.kelco.kamenridercraft.Items.Modded_item_core;
-import com.mojang.blaze3d.vertex.PoseStack;
-
 import java.util.List;
-
-import org.jetbrains.annotations.ApiStatus;
-
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
-import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.renderer.entity.player.PlayerRenderer;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.entity.EntityDimensions;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.npc.VillagerProfession;
@@ -73,7 +60,7 @@ import net.minecraft.world.item.trading.MerchantOffer;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraftforge.client.event.RenderLivingEvent;
 import net.minecraftforge.client.event.RenderPlayerEvent;
-import net.minecraftforge.event.TickEvent;
+import net.minecraftforge.common.ForgeMod;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.event.entity.EntityEvent;
 import net.minecraftforge.event.entity.SpawnPlacementRegisterEvent;
@@ -111,6 +98,8 @@ public class ModCommonEvents {
 			}
 		}
 
+
+		
 		// /effect give @e kamenridercraft:big infinite 3
 		
 		@SubscribeEvent
@@ -126,7 +115,13 @@ public class ModCommonEvents {
 			if (event.getEntity().hasEffect(Effect_core.FLAT.get())) { 
 				size2= 0.1f;
 			}
+if (event.getEntity() instanceof Player player) {
+	
+	 player.self().getAttributeValue(ForgeMod.BLOCK_REACH.get());
 
+}
+			
+			
 			event.getPoseStack().scale(size,size,size2);
 		}
 		

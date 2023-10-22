@@ -1,7 +1,6 @@
 package com.kelco.kamenridercraft.client.renderer;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
-import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Entities.footSoldiers.BaseHenchmenEntity;
 import com.kelco.kamenridercraft.client.models.BasicMobModel;
 import com.mojang.blaze3d.vertex.PoseStack;
