@@ -9,7 +9,7 @@
             "predicate": {
                 "pull": 1
             },
-            "model": "kamenridercraft4th:item/flame_saber_charge"
+            "model": "kamenridercraft:item/flame_saber_charge"
         }
     ]
 }

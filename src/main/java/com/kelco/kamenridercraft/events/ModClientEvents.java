@@ -147,9 +147,9 @@ public class ModClientEvents {
 		event.registerEntityRenderer(MobsCore.ANKH.get(), AnkhRenderer::new);
 		event.registerEntityRenderer(MobsCore.POSEIDON.get(), BasicEntityRenderer::new);
 		event.registerEntityRenderer(MobsCore.CORE.get(), BasicEntityRenderer::new);
-		//event.registerEntityRenderer(MobsCore.POWERED_UP_CORE.get(), BasicEntityRenderer::new);
-		//event.registerEntityRenderer(MobsCore.ANCIENT_OOO.get(), BasicEntityRenderer::new);
-		//event.registerEntityRenderer(MobsCore.GODA.get(), BasicEntityRenderer::new);
+		event.registerEntityRenderer(MobsCore.POWERED_UP_CORE.get(), BasicEntityRenderer::new);
+		event.registerEntityRenderer(MobsCore.ANCIENT_OOO.get(), BasicEntityRenderer::new);
+		event.registerEntityRenderer(MobsCore.GODA.get(), BasicEntityRenderer::new);
 	}
 
 

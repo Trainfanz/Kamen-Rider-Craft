@@ -11,7 +11,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "kamenridercraft:shauta_medal"
+          "name": "kamenridercraft:shachi_medal"
         },
         {
           "type": "minecraft:item",
@@ -20,7 +20,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 5,
           "name": "kamenridercraft:tako_medal"
         },
         {

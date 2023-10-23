@@ -22,10 +22,23 @@
           "type": "minecraft:item",
           "weight": 5,
           "name": "kamenridercraft:taka_medal"
-        },
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
+          "name": "kamenridercraft:taka_ankh_medal"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "kamenridercraft:greeed_blet_ankh"
         }
       ]
@@ -47,15 +60,6 @@
           ]
         }
       ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-      {
-        "type": "minecraft:item",
-        "name": "kamenridercaft:taka_ankh_medal"
-      }
-     ]
     }
   ]
 }

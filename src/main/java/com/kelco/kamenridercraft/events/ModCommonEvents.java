@@ -5,6 +5,7 @@ import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Entities.AnkhEntity;
 import com.kelco.kamenridercraft.Entities.MobsCore;
 import com.kelco.kamenridercraft.Entities.Villager.RiderVillagers;
+import com.kelco.kamenridercraft.Entities.bosses.AncientOOOEntity;
 import com.kelco.kamenridercraft.Entities.bosses.AnkhCompleteEntity;
 import com.kelco.kamenridercraft.Entities.bosses.AnkhLostEntity;
 import com.kelco.kamenridercraft.Entities.bosses.AnotherAgitoEntity;
@@ -14,12 +15,14 @@ import com.kelco.kamenridercraft.Entities.bosses.CoreEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ElOfTheWaterEntity;
 import com.kelco.kamenridercraft.Entities.bosses.EternalEntity;
 import com.kelco.kamenridercraft.Entities.bosses.GamelEntity;
+import com.kelco.kamenridercraft.Entities.bosses.GodaEntity;
 import com.kelco.kamenridercraft.Entities.bosses.KazariEntity;
 import com.kelco.kamenridercraft.Entities.bosses.MezoolEntity;
 import com.kelco.kamenridercraft.Entities.bosses.MuchiriEntity;
 import com.kelco.kamenridercraft.Entities.bosses.NazcaDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.OrgaEntity;
 import com.kelco.kamenridercraft.Entities.bosses.PoseidonEntity;
+import com.kelco.kamenridercraft.Entities.bosses.PoweredUpCoreEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ShadowmoonEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ShockerRidersEntity;
 import com.kelco.kamenridercraft.Entities.bosses.SmilodonDopantEntity;
@@ -269,9 +272,9 @@ if (event.getEntity() instanceof Player player) {
 		event.put(MobsCore.GAMEL.get(), GamelEntity.setAttributes());
 		event.put(MobsCore.POSEIDON.get(), PoseidonEntity.setAttributes());
 		event.put(MobsCore.CORE.get(), CoreEntity.setAttributes());
-		//event.put(MobsCore.POWERED_UP_CORE.get(), PoweredUpCoreEntity.setAttributes());
-		//event.put(MobsCore.ANCIENT_OOO.get(), AncientOOOEntity.setAttributes());
-		// event.put(MobsCore.GODA.get(), GodaEntity.setAttributes());
+		event.put(MobsCore.POWERED_UP_CORE.get(), PoweredUpCoreEntity.setAttributes());
+		event.put(MobsCore.ANCIENT_OOO.get(), AncientOOOEntity.setAttributes());
+		event.put(MobsCore.GODA.get(), GodaEntity.setAttributes());
 
 	}
 

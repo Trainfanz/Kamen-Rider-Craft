@@ -3,13 +3,4 @@
     "textures": {
         "layer0": "kamenridercraft:item/meta_factor"
     }
-,
-    "overrides": [
-        {
-            "predicate": {
-                "form": 1
-            },
-            "model": "kamenridercraft4th:item/meta_factor_exceed"
-        }
-    ]
 }

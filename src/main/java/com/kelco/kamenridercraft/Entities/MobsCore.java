@@ -346,7 +346,7 @@ public class MobsCore {
           public static final RegistryObject<ForgeSpawnEggItem> CORE_SPAWN_EGG = ITEMS.register("core_spawn_egg",
                    () -> new ForgeSpawnEggItem(CORE, 0x312511, 0xF97012, new Item.Properties()));
          
-          /***
+          
           public static final RegistryObject<EntityType<PoweredUpCoreEntity>> POWERED_UP_CORE = MOBLIST.register("powered_up_core",
                   () -> EntityType.Builder.of(PoweredUpCoreEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":powered_up_core"));
 
@@ -364,7 +364,7 @@ public class MobsCore {
 
           public static final RegistryObject<ForgeSpawnEggItem> GODA_SPAWN_EGG = ITEMS.register("goda_spawn_egg",
                    () -> new ForgeSpawnEggItem(GODA, 0x000000, 0xB200FF, new Item.Properties()));
-          **/
+       
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

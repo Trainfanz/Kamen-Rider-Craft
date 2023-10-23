@@ -12,14 +12,14 @@
     }, "C": {
       "item": "kamenridercraft:birth_driver"
     }, "1": {
-      "item": "kamenridercraft:sasori_new"
+      "item": "kamenridercraft:sasori_new_medal"
     }, "2": {
-      "item": "kamenridercraft:kani_new"
+      "item": "kamenridercraft:kani_new_medal"
     }, "3": {
-      "item": "kamenridercraft:ebi_new"
+      "item": "kamenridercraft:ebi_new_medal"
     }
   },
   "result": {
-    "item": "kamenridercraft:birth_x_driver"
+    "item": "kamenridercraft:birth_driver_x"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "purple_medals",
+  "ingredient": {
+    "item": "kamenridercraft:cellmedal"
+  },
+  "result": "kamenridercraft:cell_alloy_ingot",
+  "experience": 1,
+  "cookingtime": 200
+}

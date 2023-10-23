@@ -245,7 +245,7 @@ public class Rider_Blocks {
 					,MobsCore.CORE
 					,Component.translatable("Henshin!").withStyle(ChatFormatting.RED)).AddToTabList(RiderTabs.RIDER_BLOCK));
 	
-	/**
+	
 	public static final RegistryObject<Block> POWERED_UP_CORE_BOSS_BLOCK = registerBlock("powered_up_core_boss_block",
 			() -> new BossBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).strength(6f)
 					,MobsCore.POWERED_UP_CORE
@@ -260,7 +260,7 @@ public class Rider_Blocks {
 			() -> new BossBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).strength(6f)
 					,MobsCore.GODA
 					,Component.translatable("Mukade! Hachi! Ari!").withStyle(ChatFormatting.DARK_PURPLE)).AddToTabList(RiderTabs.RIDER_BLOCK));
-	**/
+
 	
 	public static <T extends Block>RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block ){
 		return  Modded_item_core.ITEMS.register(name, () -> new BlockItem(block.get(),new Item.Properties()));

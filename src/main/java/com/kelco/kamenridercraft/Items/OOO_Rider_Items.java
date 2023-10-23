@@ -35,6 +35,9 @@ public class OOO_Rider_Items {
 	public static final RegistryObject<Item> CELL_MEDAL = ITEMS.register("cellmedal",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
+	public static final RegistryObject<Item> CELL_ALLOY_INGOT = ITEMS.register("cell_alloy_ingot",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
 
 	public static final RegistryObject<Item> TAKA_MEDAL = ITEMS.register("taka_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_taka","ooo","ooodriver_belt",

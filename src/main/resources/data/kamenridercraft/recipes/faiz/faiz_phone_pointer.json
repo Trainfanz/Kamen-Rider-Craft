@@ -3,21 +3,20 @@
   "group": "faiz_gear",
   "pattern": [
     "XXX",
-    " MR",
-    ""
+    " MR"
   ],
   "key": {
     "R": {
-      "item": "kamenridercraft:blank_mission_memory"
+            "item": "kamenridercraft:blank_mission_memory"
     },
     "M": {
       "item": "kamenridercraft:faiz_phone"
     },
     "X": {
-      "item": "minecraft:iron"
-      }
+      "item": "minecraft:iron_ingot"
+    }
   },
   "result": {
     "item": "kamenridercraft:faiz_phone_pointer"
-  }    
+  }
 }

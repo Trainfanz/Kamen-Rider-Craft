@@ -1,7 +1,5 @@
 {
-  "variants": {
-    "normal": {
-      "": "kamenridercraft:block/white_wallplate"
-    }
+    "variants":{
+    "": {"model":"kamenridercraft:block/white_wallplate"}
   }
-}
+ }
