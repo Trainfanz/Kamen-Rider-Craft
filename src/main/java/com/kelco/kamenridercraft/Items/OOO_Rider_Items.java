@@ -6,6 +6,7 @@ import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Items.ooo.BirthDriverItem;
 import com.kelco.kamenridercraft.Items.ooo.Item_Purple_Medals;
 import com.kelco.kamenridercraft.Items.ooo.OOODriverItem;
+import com.kelco.kamenridercraft.Items.ooo.oScannerItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseBlasterItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseSwordItem;
@@ -57,7 +58,8 @@ public class OOO_Rider_Items {
 	public static final RegistryObject<Item> TAKA_ANKH_MEDAL = ITEMS.register("taka_ankh_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_taka_ankh","ooo","ooodriver_belt",
 					new MobEffectInstance(MobEffects.REGENERATION, 40, 0,true,false),
-					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
+					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false),
+					new MobEffectInstance(Effect_core.FLYING.get(), 40, 0,true,false))
 			.ChangeSlot(1).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 
@@ -115,19 +117,18 @@ public class OOO_Rider_Items {
 
 	public static final RegistryObject<Item> SHACHI_MEDAL = ITEMS.register("shachi_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_shachi","ooo","ooodriver_belt",
-					new MobEffectInstance(MobEffects.WATER_BREATHING, 400, 0,true,false),
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false))
 			.ChangeSlot(1).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> UNAGI_MEDAL = ITEMS.register("unagi_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_unagi","ooo","ooodriver_belt",
-					new MobEffectInstance(MobEffects.REGENERATION, 40, 0,true,false))
+					new MobEffectInstance(MobEffects.WATER_BREATHING, 400, 0,true,false))
 			.ChangeSlot(2).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> TAKO_MEDAL = ITEMS.register("tako_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_tako","ooo","ooodriver_belt",
-					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
-					new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 400, 0,true,false))
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
+					)
 			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 
@@ -830,6 +831,9 @@ public class OOO_Rider_Items {
 	public static final RegistryObject<Item> GREEED_BLET_MUCHIRI = ITEMS.register("greeed_blet_muchiri",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"muchiri_complete",MUKADE_MEDAL ,OOOHELMET,OOOCHESTPLATE,OOOLEGGINGS , new Item.Properties())
 			.Add_Extra_Base_Form_Items(HACHI_MEDAL,ARI_MEDAL).Override_belt_text("ankh_belt").ChangeRepairItem(CELL_MEDAL.get()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
+
+	public static final RegistryObject<Item> O_SCANNER = ITEMS.register("o_scanner",
+			() -> new oScannerItem(new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 
 	public static final RegistryObject<SwordItem> MEDAJALIBUR = ITEMS.register("medajalibur",
