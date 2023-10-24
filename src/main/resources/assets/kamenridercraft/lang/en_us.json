@@ -69,11 +69,9 @@
 
 "item.kamenridercraft.double_typhoon": "Double Typhoon",
 "item.kamenridercraft.riderman_belt": "Riderman Belt",
-"item.kamenridercraft.dark_double_typhoon": "Dark Double Typhoon",
-"item.kamenridercraft.dark_riderman_belt": "Dark Riderman Belt",
 
-"item.kamenridercraft.double_typhoon_dark": "Double Typhoon (Dark V-3)",
-"item.kamenridercraft.riderman_belt_dark": "Riderman Belt (Dark Riderman)",
+"item.kamenridercraft.dark_double_typhoon": "Double Typhoon (Dark V-3)",
+"item.kamenridercraft.dark_riderman_belt": "Riderman Belt (Dark Riderman)",
 
 "item.kamenridercraft.x_logo": "X Logo",
 "item.kamenridercraft.ridol_stick": "Ridol Stick",
@@ -82,7 +80,7 @@
 "item.kamenridercraft.xlegs": "X Leggings",
 "item.kamenridercraft.ridol_core": "Ridol Core",
 "item.kamenridercraft.ridol": "Ridol",
-"item.kamenridercraft.ridol_dark": "Ridol (Dark X)",
+"item.kamenridercraft.dark_ridol": "Ridol (Dark X)",
 
 "item.kamenridercraft.amazon_logo": "Amazon Logo",
 "item.kamenridercraft.amazonhead": "Amazon Helmet",

@@ -228,6 +228,10 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> RIDOL = ITEMS.register("ridol",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"x",RIDOL_CORE ,XHELMET,XCHESTPLATE,XLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.X_TAB_ITEM));
 
+	    public static final RegistryObject<Item> DARK_RIDOL = ITEMS.register("dark_ridol",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"dark_x",RIDOL_CORE ,XHELMET,XCHESTPLATE,XLEGGINGS , new Item.Properties())
+		           .Override_belt_text("dark_ridol_belt").AddToTabList(RiderTabs.X_TAB_ITEM));
+
 	    public static final RegistryObject<SwordItem> RIDOL_STICK = ITEMS.register("ridol_stick",
 	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.X_TAB_ITEM));
 	    
