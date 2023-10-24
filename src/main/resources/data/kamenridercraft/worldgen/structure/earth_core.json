@@ -23,7 +23,7 @@
     // This will add land around the bottom of the structure. (Based on the starting piece's y value)
     // The kinds of values allowed here are: none, beard_thin, beard_box, and bury
     // If no land change is deseried, removed this field entirely.
-  "terrain_adaptation": "none",
+  "terrain_adaptation": "beard_box",
 
     // Where to spawn our structure at what y value if project_start_to_heightmap is not present.
     // start_height can be used to spawn at a random fixed y value by doing something like: "max_inclusive": { "below_top": 10 }, "min_inclusive": { "above_bottom": 32 }
