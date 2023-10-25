@@ -262,6 +262,11 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> CONDORER = ITEMS.register("condorer",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"amazon",CONDORER_WHEEL ,AMAZONHELMET,AMAZONCHESTPLATE,AMAZONLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
 
+	    public static final RegistryObject<Item> DARK_CONDORER = ITEMS.register("dark_condorer",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"dark_amazon",CONDORER_WHEEL ,AMAZONHELMET,AMAZONCHESTPLATE,AMAZONLEGGINGS , new Item.Properties())
+		           .Override_belt_text("dark_condorer_belt").AddToTabList(RiderTabs.AMAZON_TAB_ITEM));
+
+	    
 	    //Stronger
 	    public static final RegistryObject<Item> STRONGER_LOGO = ITEMS.register("stronger_logo",
 	    		() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
