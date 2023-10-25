@@ -325,7 +325,8 @@ public class OOO_Rider_Items {
 	public static final RegistryObject<Item> ANCIENT_TAKA_MEDAL = ITEMS.register("ancient_taka_medal",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_taka","ooo","ooodriver_belt",
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 6,true,false))
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 6,true,false),
+					new MobEffectInstance(Effect_core.FLYING.get(), 40, 6,true,false))
 			.ChangeSlot(1).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> ANCIENT_TORA_MEDAL = ITEMS.register("ancient_tora_medal",

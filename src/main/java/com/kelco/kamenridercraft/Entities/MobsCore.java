@@ -20,7 +20,6 @@ import com.kelco.kamenridercraft.Entities.bosses.NazcaDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.OrgaEntity;
 import com.kelco.kamenridercraft.Entities.bosses.PoseidonEntity;
 import com.kelco.kamenridercraft.Entities.bosses.PoweredUpCoreEntity;
-import com.kelco.kamenridercraft.Entities.bosses.RedNazcaDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ShadowmoonEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ShockerRidersEntity;
 import com.kelco.kamenridercraft.Entities.bosses.SmilodonDopantEntity;
@@ -348,7 +347,7 @@ public class MobsCore {
          
           
           public static final RegistryObject<EntityType<PoweredUpCoreEntity>> POWERED_UP_CORE = MOBLIST.register("powered_up_core",
-                  () -> EntityType.Builder.of(PoweredUpCoreEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":powered_up_core"));
+                  () -> EntityType.Builder.of(PoweredUpCoreEntity::new, MobCategory.MONSTER).sized(1.8F, 5.85F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":powered_up_core"));
 
           public static final RegistryObject<ForgeSpawnEggItem> POWERED_UP_CORE_SPAWN_EGG = ITEMS.register("powered_up_core_spawn_egg",
                    () -> new ForgeSpawnEggItem(POWERED_UP_CORE, 0x51115D, 0xB419D1, new Item.Properties()));

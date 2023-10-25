@@ -15,6 +15,7 @@ import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -232,6 +233,8 @@ public class Ichigo_Rider_Items {
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"dark_x",RIDOL_CORE ,XHELMET,XCHESTPLATE,XLEGGINGS , new Item.Properties())
 		           .Override_belt_text("dark_ridol_belt").AddToTabList(RiderTabs.X_TAB_ITEM));
 
+	   // public static ToolMaterial ridol_stick = EnumHelper.addToolMaterial("ridol_stick", 10, 6000, 12.0F, 3.0F, 22);
+
 	    public static final RegistryObject<SwordItem> RIDOL_STICK = ITEMS.register("ridol_stick",
 	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.X_TAB_ITEM));
 	    
@@ -298,6 +301,11 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> ELECTRER = ITEMS.register("electrer",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"stronger",ELECTRER_CORE ,STRONGERHELMET,STRONGERCHESTPLATE,STRONGERLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
 	   
+	    public static final RegistryObject<Item> DARK_ELECTRER = ITEMS.register("dark_electrer",
+		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"dark_stronger",ELECTRER_CORE ,STRONGERHELMET,STRONGERCHESTPLATE,STRONGERLEGGINGS , new Item.Properties())
+		           .Override_belt_text("dark_electrer_belt").AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
+	   
+	    
 	    public static final RegistryObject<Item> TACKLE_BELT = ITEMS.register("tackle_belt",
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"tackle",TACKLE_CORE ,STRONGERHELMET,STRONGERCHESTPLATE,STRONGERLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.STRONGER_TAB_ITEM));
 
