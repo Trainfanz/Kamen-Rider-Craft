@@ -43,6 +43,8 @@ public class Modded_item_core {
 	public static final RegistryObject<Item> DONUT = ITEMS.register("donut",
 			() -> new BaseItem(new Item.Properties().food(Foods.BREAD)).AddToTabList(RiderTabs.Misc_TAB_ITEM));
 
+	public static final RegistryObject<Item> SINISTER_PACHINKO_BALL = ITEMS.register("sinister_pachinko_ball",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.Misc_TAB_ITEM));
 
 	//Dragreder
 	//Stagtornador

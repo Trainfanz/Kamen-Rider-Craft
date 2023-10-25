@@ -194,6 +194,15 @@ if (event.getEntity() instanceof Player player) {
 						new ItemStack(Items.EMERALD, 2),
 						stack,10,8,0.02F));
 			}
+			if(event.getType() == RiderVillagers.SHOCKER_VILLAGER.get()) {
+				Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+				ItemStack stack = new ItemStack(Modded_item_core.SINISTER_PACHINKO_BALL.get(), 1);
+				int villagerLevel = 2;
+
+				trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+						new ItemStack(Items.EMERALD, 4),
+						stack,10,8,0.02F));
+			}
 		}
 	}
 	@SubscribeEvent
