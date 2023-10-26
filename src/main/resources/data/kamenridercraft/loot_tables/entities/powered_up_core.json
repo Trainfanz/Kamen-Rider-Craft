@@ -3,32 +3,35 @@
   "pools": [
     {
       "rolls": {
-        "type": "minecraft:constant",
-        "value": 5
+        "min": 1,
+        "max": 3
       },
-      "bonus_rolls": 0,
+      "bonus_rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "kamenridercraft:powered_up_core_driver"
-        },
-       
-        {
-          "type": "minecraft:item",
-          "name": "kamenridercraft:ebi_new_medal"
+          "weight": 10,
+          "name": "kamenridercraft:sasori_new_medal"
         },
         {
           "type": "minecraft:item",
+          "weight": 10,
           "name": "kamenridercraft:kani_new_medal"
         },
         {
           "type": "minecraft:item",
-          "name": "kamenridercraft:ookaimuo_new_medal"
+          "weight": 10,
+          "name": "kamenridercraft:ebi_new_medal"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "kamenridercraft:powered_up_core_driver"
         }
       ]
     },
     {
-      "rolls": 2,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
@@ -42,22 +45,8 @@
               }
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "kamenridercraft:gaiamemory",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3,
-                "max": 6
-              }
-            }
-          ]
         }
       ]
     }
-    
   ]
 }
