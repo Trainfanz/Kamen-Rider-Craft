@@ -131,9 +131,13 @@ public class RiderDriverItem extends RiderArmorItem{
 
 	}
 
+	
+
 
 	public ResourceLocation getModelResource(ItemStack itemstack,RiderArmorItem animatable, EquipmentSlot slot, LivingEntity rider) {
-		return new ResourceLocation(KamenRiderCraftCore.MODID, get_Form_Item(itemstack, 1).get_Model());
+		if (get_Form_Item(itemstack, 1).HasWingsIfFlying() & !rider.onGround()){
+			return new ResourceLocation(KamenRiderCraftCore.MODID, get_Form_Item(itemstack, 1).get_FlyingModel());
+	 }else return new ResourceLocation(KamenRiderCraftCore.MODID, get_Form_Item(itemstack, 1).get_Model());	
 	}
 
 	public ResourceLocation getAnimationResource(ItemStack itemstack,RiderArmorItem animatable, EquipmentSlot slot) {
