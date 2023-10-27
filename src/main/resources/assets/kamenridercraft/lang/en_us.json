@@ -91,7 +91,7 @@
 "item.kamenridercraft.condorer": "Condorer",
 "item.kamenridercraft.gigi_armlet": "Gigi Armlet",
 "item.kamenridercraft.gaga_armlet": "Gaga Armlet",
-"item.kamenridercraft.condorer_dark": "Condorer (Dark Amazon)",
+"item.kamenridercraft.dark_condorer": "Condorer (Dark Amazon)",
 
 "item.kamenridercraft.stronger_logo": "Stronger Logo",
 "item.kamenridercraft.strongerhead": "Stronger Helmet",
@@ -102,7 +102,7 @@
 "item.kamenridercraft.tackle_core": "Tackle Core",
 "item.kamenridercraft.electrer": "Electrer",
 "item.kamenridercraft.tackle_belt": "Tackle Belt",
-"item.kamenridercraft.electrer_dark": "Electrer (Dark Stronger)",
+"item.kamenridercraft.dark_electrer": "Electrer (Dark Stronger)",
 
 "item.kamenridercraft.skyrider_logo": "Skyrider Logo",
 "item.kamenridercraft.skyriderhead": "Skyrider Helmet",
@@ -352,6 +352,7 @@
 "item.kamenridercraft.absorb_serpent": "Absorb Serpent Rouze Card",
 "item.kamenridercraft.absorb_tiger": "Absorb Tiger Rouze Card",
 "item.kamenridercraft.evolution_caucasus": "Evolution Caucasus Rouze Card",
+"item.kamenridercraft.silver_evolution_caucasus": "Silver Evolution Caucasus Rouze Card",
 "item.kamenridercraft.evolution_giraffa": "Evolution Giraffa Rouze Card",
 "item.kamenridercraft.evolution_paradoxa": "Evolution Paradoxa Rouze Card",
 "item.kamenridercraft.evolution_tarantula": "Evolution Tarantula Rouze Card",
@@ -478,6 +479,7 @@
 "item.kamenridercraft.rebirth_driver": "ReBirth Driver",
 "item.kamenridercraft.core_driver": "Gaia Core Typhoon",
 "item.kamenridercraft.powered_up_core_driver": "Powered Up Gaia Core Typhoon",
+"item.kamenridercraft.o_scanner": "O Scanner",
 
 "item.kamenridercraft.greeed_blet_ankh": "Greeed Belt (Ankh)",
 "item.kamenridercraft.greeed_blet_ankh_lost": "Greeed Belt (Lost Ankh)",
@@ -618,6 +620,7 @@
 "item.kamenridercraft.birth_core_eyes": "Birth Core (Powered)",
 "item.kamenridercraft.cellmedal": "Cell Medal",
 "item.kamenridercraft.aqua_core": "Aqua Core",
+"item.kamenridercraft.cell_alloy_ingot": "Cell Alloy Ingot",
 
 "item.kamenridercraft.birth_core_breast_cannon": "Birth Cell Medal (Breast Cannon)",
 "item.kamenridercraft.birth_core_crane_arm": "Birth Cell Medal (Crane Arm)",
@@ -758,6 +761,7 @@
 "item.kamenridercraft.core_spawn_egg": "Core Spawn Egg",
 "item.kamenridercraft.powered_up_core_spawn_egg": "Powered Up Core Spawn Egg",
 "item.kamenridercraft.ancient_ooo_spawn_egg": "Ancient OOO Spawn Egg",
+"item.kamenridercraft.goda_spawn_egg": "Goda Spawn Egg",
 
 "block.kamenridercraft.monitor": "Monitor",
 "block.kamenridercraft.stone_kuuga": "Kuuga Ore",

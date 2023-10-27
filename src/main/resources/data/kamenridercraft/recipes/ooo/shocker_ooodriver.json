@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ooo",
+  "pattern": [
+    "XXX",
+    "CAB",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:cellmedal"
+    }, "C": {
+      "item": "kamenridercraft:shocker_medal"
+    }, "A": {
+      "item": "kamenridercraft:gel_shocker_medal"
+    }, "B": {
+      "item": "kamenridercraft:destron_medal"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:shocker_ooodriver"
+  }
+}

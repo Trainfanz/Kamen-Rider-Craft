@@ -62,6 +62,15 @@ public class Blade_Rider_Items {
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false))
             .addNeedItem(ROUZE_ABSORBER.get()).addNeedItem(ABSORB_CAPRICORN.get()).addNeedItem(FUSION_EAGLE.get()).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
     
+    public static final RegistryObject<Item> SILVER_EVOLUTION_CAUCASUS = ITEMS.register("silver_evolution_caucasus",
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"_silver_king","blade","blay_buckle_belt",
+            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
+            		new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false),
+            		new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 0,true,false),
+            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false))
+            .addNeedItem(ROUZE_ABSORBER.get()).addNeedItem(ABSORB_CAPRICORN.get()).addNeedItem(FUSION_EAGLE.get()).AddToTabList(RiderTabs.BLADE_TAB_ITEM));
+    
+    
     public static final RegistryObject<Item> CHANGE_STAG = ITEMS.register("change_stag",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"","garren","garren_buckle_belt",
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
