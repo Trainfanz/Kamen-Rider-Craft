@@ -76,6 +76,14 @@ public class Rider_Blocks {
 			() -> new BaseBlockDropExperience(BlockBehaviour.Properties.copy(Blocks.STONE)
 					.strength(6f).requiresCorrectToolForDrops().strength(4.5F, 3.0F).sound(SoundType.DEEPSLATE), UniformInt.of(2, 6)).AddToTabList(RiderTabs.RIDER_BLOCK));
 
+	public static final RegistryObject<Block> KIVA_ORE = registerBlock("stone_kiva",
+			() -> new BaseBlockDropExperience(BlockBehaviour.Properties.copy(Blocks.STONE)
+					.strength(6f).requiresCorrectToolForDrops().strength(4.5F, 3.0F), UniformInt.of(2, 6)).AddToTabList(RiderTabs.RIDER_BLOCK));
+
+	public static final RegistryObject<Block> DEEPSLATE_KIVA_ORE = registerBlock("deepslate_stone_kiva",
+			() -> new BaseBlockDropExperience(BlockBehaviour.Properties.copy(Blocks.STONE)
+					.strength(6f).requiresCorrectToolForDrops().strength(4.5F, 3.0F).sound(SoundType.DEEPSLATE), UniformInt.of(2, 6)).AddToTabList(RiderTabs.RIDER_BLOCK));
+
 	
 	public static final RegistryObject<Block> PURE_GAIA_MEMORY_BLOCK = registerBlock("pure_gaia_memory_block",
 			() -> new BaseBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
