@@ -2,17 +2,17 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "kamenridercraft:item/dogga_hammer"
+		"layer0": "kamenridercraft:item/basshaa_magnum_tatsulot"
 	},
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, -90, 55],
-			"translation": [0, 2.5, 1],
+			"translation": [0, 4, 0.5],
 			"scale": [1.7, 1.7, 0.85]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [0, 90, -55],
-			"translation": [0, 2.5, 1],
+			"translation": [0, 4, 0.5],
 			"scale": [1.7, 1.7, 0.85]
 		},
 		"firstperson_righthand": {

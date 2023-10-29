@@ -200,13 +200,26 @@ public class Kiva_Rider_Items {
     public static final RegistryObject<Item> KIVALA_BELT = ITEMS.register("kivaladriver",
     		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"kivala", WAKE_UP_FUESTLE_KIVALA,KIVAHELMET, KIVACHESTPLATE, KIVALEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.KIVA_TAB_ITEM).ChangeRepairItem(FUESTLE.get()));
 
-    /***
-    public static final RegistryObject<SwordItem> FLAME_SABER = ITEMS.register("flame_saber",
-         	() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.AGITO_TAB_ITEM).ChangeRepairItem(SEED_OF_AGITO.get()));
-	public static final RegistryObject<BaseBlasterItem> GM_01_SCORPION = ITEMS.register("gm_01_scorpion",
-			() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.AGITO_TAB_ITEM).ChangeRepairItem(SEED_OF_AGITO.get()));
-***/
-    public static void register(IEventBus eventBus) {
+    
+    public static final RegistryObject<SwordItem> GARULU_SABER = ITEMS.register("garulu_saber",
+         	() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.KIVA_TAB_ITEM).ChangeRepairItem(FUESTLE.get()));
+    
+	public static final RegistryObject<BaseBlasterItem> BASSHAA_MAGNUM = ITEMS.register("basshaamagnum",
+			() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.KIVA_TAB_ITEM).ChangeRepairItem(FUESTLE.get()));
+
+	public static final RegistryObject<SwordItem> DOGGA_HAMMER = ITEMS.register("dogga_hammer",
+         	() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.KIVA_TAB_ITEM).ChangeRepairItem(FUESTLE.get()));
+    
+	public static final RegistryObject<SwordItem> GARULU_SABER_TATSULOT = ITEMS.register("garulu_saber_tatsulot",
+         	() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.KIVA_TAB_ITEM).ChangeRepairItem(FUESTLE.get()));
+    
+	public static final RegistryObject<BaseBlasterItem> BASSHAA_MAGNUM_TATSULOT = ITEMS.register("basshaa_magnum_tatsulot",
+			() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.KIVA_TAB_ITEM).ChangeRepairItem(FUESTLE.get()));
+
+	public static final RegistryObject<SwordItem> DOGGA_HAMMER_TATSULOT = ITEMS.register("dogga_hammer_tatsulot",
+         	() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.KIVA_TAB_ITEM).ChangeRepairItem(FUESTLE.get()));
+    
+	public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);
 	}
 }
