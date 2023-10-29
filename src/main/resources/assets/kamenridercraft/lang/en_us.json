@@ -362,30 +362,35 @@
 "item.kamenridercraft.fuestle": "Fuestle",
 "item.kamenridercraft.fuestlefake": "Fake Fuestle",
 
+"item.kamenridercraft.wakeupfuestle": "Wake Up Fuestle (Kiva)",
 "item.kamenridercraft.garulufuestle": "Garulu Fuestle",
-"item.kamenridercraft.wakeupfuestle": "Wake Up Fuestle",
-"item.kamenridercraft.doggafuestle": "Dogga Fuestle",
 "item.kamenridercraft.basshaafuestle": "Basshaa Fuestle",
+"item.kamenridercraft.doggafuestle": "Dogga Fuestle",
+"item.kamenridercraft.tatsulot": "Tatsulot",
+"item.kamenridercraft.kiva_says_fuestle": "Kivatte Fuestle",
+
+"item.kamenridercraft.knucklefuestle": "Knuckle Fuestle",
+"item.kamenridercraft.risingfuestle": "Riser Fuestle",
+
 "item.kamenridercraft.sagafuestle": "Wake Up Fuestle (Saga)",
 "item.kamenridercraft.darkwakeupfuestle": "Wake Up Fuestle (Dark Kiva)",
 "item.kamenridercraft.newwakeupfuestle": "Wake Up Fuestle (New Kiva)",
-"item.kamenridercraft.keyfuestle": "Key Fuestle",
-"item.kamenridercraft.knucklefuestle": "Knuckle Fuestle",
-"item.kamenridercraft.kivalafuestle": "Kivala Fuestle",
-"item.kamenridercraft.risingfuestle": "Rising Fuestle",
-"item.kamenridercraft.kiva_says_fuestle": "Kiva Says Fuestle",
+
+"item.kamenridercraft.keyfuestle": "Wake Up Fuestle (Rey/Arc)",
+"item.kamenridercraft.kivalafuestle": "Wake Up Fuestle (Kivala)",
 
 "item.kamenridercraft.kivahead": "Kiva Helmet",
 "item.kamenridercraft.kivatroso": "Kiva Chestplate",
 "item.kamenridercraft.kivalegs": "Kiva Leggings",
-"item.kamenridercraft.kivadriver": "Kiva Belt",
-"item.kamenridercraft.darkkivadriver": "Dark Kiva Belt",
+
+"item.kamenridercraft.kivadriver": "Kivat Belt",
+"item.kamenridercraft.darkkivadriver": "Dark Kivat Belt",
 "item.kamenridercraft.ixa_belt": "IXA Belt",
 "item.kamenridercraft.sagarc_belt": "Sagarc Belt",
 "item.kamenridercraft.arcdriver": "Arc Kivat Belt",
 "item.kamenridercraft.reydriver": "Rey Kivat Belt",
 "item.kamenridercraft.kivaladriver": "Kivala Belt",
-"item.kamenridercraft.newkivadriver": "New Kiva Belt",
+"item.kamenridercraft.newkivadriver": "New Kivat Belt",
 
 "item.kamenridercraft.garulu_saber": "Garulu Saber",
 "item.kamenridercraft.basshaamagnum": "Basshaa Magnum",
@@ -393,7 +398,6 @@
 "item.kamenridercraft.ixa_calibur": "IXA Calibur",
 "item.kamenridercraft.ixariser": "IXA Riser",
 "item.kamenridercraft.jacorder": "Jacorder",
-"item.kamenridercraft.tatsulot": "Tatsulot",
 "item.kamenridercraft.zanbatsword": "Zanbat Sword",
 "item.kamenridercraft.zanbatsword_core": "Zanbat Sword (Unfinished)",
 
