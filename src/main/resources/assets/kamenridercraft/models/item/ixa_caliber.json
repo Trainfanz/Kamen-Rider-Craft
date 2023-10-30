@@ -1,15 +1,35 @@
 {
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "kamenridercraft:item/ixa_caliber"
-    },
-    "overrides": [
-       
-        {
-            "predicate": {
-                "pull": 1
-            },
-            "model": "kamenridercraft4th:item/ixa_caliber_gun"
-        }
-    ]
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "kamenridercraft:item/ixa_caliber"
+	},
+	"overrides": [
+		{"predicate": {"pull": 1}, "model": "kamenridercraft:item/ixa_caliber_gun"}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [55, -90, 55],
+			"translation": [0, 8.5, -0.5],
+			"scale": [1.7, 1.7, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [55, 90, -55],
+			"translation": [0, 8.5, -0.5],
+			"scale": [1.7, 1.7, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [10, -90, 0],
+			"translation": [1.13, 7.7, 1.13],
+			"scale": [1.36, 1.36, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [10, 90, 0],
+			"translation": [1.13, 7.7, 1.13],
+			"scale": [1.36, 1.36, 0.68]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0]
+		}
+	}
 }
