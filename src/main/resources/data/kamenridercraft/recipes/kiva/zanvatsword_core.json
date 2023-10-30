@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "emperor",
+  "pattern": [
+    "XRX",
+    "XMX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:fuestle"
+    },
+    "M": {
+      "item": "kamenridercraft:base_sword"
+    },
+    "R": {
+      "item": "kamenridercraft:tatsulot"
+      }
+  },
+  "result": {
+    "item": "kamenridercraft:zanbatsword_core"
+  }    
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kiva",
+ "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:fuestle"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:kivalegs"
+  }
+}

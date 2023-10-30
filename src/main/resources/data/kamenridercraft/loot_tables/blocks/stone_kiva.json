@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "kamenridercraft:deepslate_stone_kiva",
+              "name": "kamenridercraft:stone_kiva",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -153,144 +153,9 @@
               "function": "minecraft:explosion_decay"
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "kamenridercraft:fake_fuestle",
-          "functions": [
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            },
-            {
-              "function": "minecraft:explosion_decay"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "name": "kamenridercraft:knucklefuestle",
-          "functions": [
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            },
-            {
-              "function": "minecraft:explosion_decay"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "kamenridercraft:caliburfuestle",
-          "functions": [
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            },
-            {
-              "function": "minecraft:explosion_decay"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "kamenridercraft:risingfuestle",
-          "functions": [
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            },
-            {
-              "function": "minecraft:explosion_decay"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "kamenridercraft:sagafuestle",
-          "functions": [
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            },
-            {
-              "function": "minecraft:explosion_decay"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "kamenridercraft:newwakeupfuestle",
-          "functions": [
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            },
-            {
-              "function": "minecraft:explosion_decay"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "kamenridercraft:keyfuestle",
-          "functions": [
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            },
-            {
-              "function": "minecraft:explosion_decay"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "kamenridercraft:keyfuestle_arc",
-          "functions": [
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            },
-            {
-              "function": "minecraft:explosion_decay"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "kamenridercraft:kivalafuestle",
-          "functions": [
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            },
-            {
-              "function": "minecraft:explosion_decay"
-            }
-          ]
         }
       ]
     }
   ],
-  "random_sequence": "kamenridercraft:deepslate_stone_kiva"
+  "random_sequence": "kamenridercraft:stone_kiva"
 }

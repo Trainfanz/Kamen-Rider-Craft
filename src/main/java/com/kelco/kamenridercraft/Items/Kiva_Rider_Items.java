@@ -112,6 +112,9 @@ public class Kiva_Rider_Items {
             		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false)).addSwitchForm(KNUCKLE_FUESTLE_BURST.get()).AddToTabList(RiderTabs.KIVA_TAB_ITEM));
 	
+	public static final RegistryObject<Item> CALIBUR_FUESTLE = ITEMS.register("caliburfuestle",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.KIVA_TAB_ITEM));
+    
     public static final RegistryObject<Item> RISER_FUESTLE = ITEMS.register("risingfuestle",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"_rising","ixa","ixa_belt",
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),

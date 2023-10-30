@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "emperor",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:zanbatsword_core"
+    }, 
+    {
+      "item": "kamenridercraft:garulufuestle"
+    } , 
+    {
+      "item": "kamenridercraft:basshaafuestle"
+    }, 
+    {
+      "item": "kamenridercraft:doggafuestle"
+    }
+    ],
+  "result": {
+    "item": "kamenridercraft:zanbatsword"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kr_kiva",
+   "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:fuestle"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:kivahead"
+  }
+}
