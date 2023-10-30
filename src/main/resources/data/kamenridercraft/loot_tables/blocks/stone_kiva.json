@@ -67,7 +67,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "kamenridercraft:garurufuestle",
+          "name": "kamenridercraft:garulufuestle",
           "functions": [
             {
               "function": "minecraft:apply_bonus",
