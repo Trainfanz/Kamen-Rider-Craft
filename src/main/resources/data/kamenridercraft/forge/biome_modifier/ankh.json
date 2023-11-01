@@ -3,7 +3,7 @@
   "biomes": "#minecraft:is_desert",
   "spawners": {
     "type": "kamenridercraft:ankh_mob",
-    "weight": 2,
+    "weight": 30,
     "minCount": 1,
     "maxCount": 1
   }

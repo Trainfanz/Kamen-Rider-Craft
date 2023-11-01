@@ -2,7 +2,7 @@
   "type": "forge:add_spawns",
   "biomes": "#minecraft:is_overworld",
   "spawners": {
-    "type": "kamenridercraft:yummy",
+    "type": "kamenridercraft:yummy_mob",
     "weight": 15,
     "minCount": 1,
     "maxCount": 4
