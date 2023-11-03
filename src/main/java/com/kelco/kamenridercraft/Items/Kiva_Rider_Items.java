@@ -1,11 +1,12 @@
 package com.kelco.kamenridercraft.Items;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
-import com.kelco.kamenridercraft.Blocks.MachineBlocks.GSystemChipProgrammer;
 import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseBlasterItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
-import com.kelco.kamenridercraft.Items.rider_armor_base.BaseShieldItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseSwordItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderArmorItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderDriverItem;
@@ -15,7 +16,6 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ShieldItem;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -36,7 +36,10 @@ public class Kiva_Rider_Items {
 	public static final RegistryObject<Item> FAKE_FUESTLE = ITEMS.register("fuestlefake",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.KIVA_TAB_ITEM));
 	
-    	    
+    	  
+	   public static List<Item> NEED_ITEM_DOGABAKI= new ArrayList<Item>();
+	   
+	
 	public static final RegistryObject<Item> DOGABAKI = ITEMS.register("dogabaki",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"_dogabaki","kiva","kivat_belt",
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
@@ -44,31 +47,35 @@ public class Kiva_Rider_Items {
             		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false),
             		new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false),
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
-            		new MobEffectInstance(MobEffects.WITHER, 40, 0,true,false)));
+            		new MobEffectInstance(MobEffects.WITHER, 40, 0,true,false)).AddNeedItemList(NEED_ITEM_DOGABAKI));
     
     public static final RegistryObject<Item> WAKE_UP_FUESTLE = ITEMS.register("wakeupfuestle",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"","kiva","kivat_belt",
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false),
-            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false)).addShiftForm(DOGABAKI.get()).AddToTabList(RiderTabs.KIVA_TAB_ITEM));
+            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false)).addShiftForm(DOGABAKI.get())
+            .AddToTabList(NEED_ITEM_DOGABAKI).AddToTabList(RiderTabs.KIVA_TAB_ITEM));
     
     public static final RegistryObject<Item> GARULU_FUESTLE = ITEMS.register("garulufuestle",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"_garulu","kiva","kivat_belt_g",
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false),
-            		new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).addShiftForm(DOGABAKI.get()).AddToTabList(RiderTabs.KIVA_TAB_ITEM));
+            		new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).addShiftForm(DOGABAKI.get())
+            .AddToTabList(NEED_ITEM_DOGABAKI).AddToTabList(RiderTabs.KIVA_TAB_ITEM));
     
     public static final RegistryObject<Item> BASSHAA_FUESTLE = ITEMS.register("basshaafuestle",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"_basshaa","kiva","kivat_belt_b",
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
-            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false)).addShiftForm(DOGABAKI.get()).AddToTabList(RiderTabs.KIVA_TAB_ITEM));
+            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false)).addShiftForm(DOGABAKI.get())
+            .AddToTabList(NEED_ITEM_DOGABAKI).AddToTabList(RiderTabs.KIVA_TAB_ITEM));
     
     public static final RegistryObject<Item> DOGGA_FUESTLE = ITEMS.register("doggafuestle",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"_dogga","kiva","kivat_belt_d",
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false),
-            		new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 0,true,false)).addShiftForm(DOGABAKI.get()).AddToTabList(RiderTabs.KIVA_TAB_ITEM));
+            		new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 0,true,false)).addShiftForm(DOGABAKI.get())
+            .AddToTabList(NEED_ITEM_DOGABAKI).AddToTabList(RiderTabs.KIVA_TAB_ITEM));
     
     public static final RegistryObject<Item> DOGABAKI_EMPEROR = ITEMS.register("dogabaki_emperor",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"_dogabaki_emperor","kiva","kivat_belt_e",

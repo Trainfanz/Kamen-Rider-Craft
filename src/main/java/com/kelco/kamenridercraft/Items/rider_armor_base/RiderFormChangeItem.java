@@ -35,9 +35,9 @@ public class RiderFormChangeItem extends BaseItem {
 
 	private List<RiderFormChangeItem> alternative = new ArrayList<RiderFormChangeItem>();
 	private RiderFormChangeItem alsoChange2ndSlot;
-	//private List<String> compatibilityList = new ArrayList<String>();
 	public String[] compatibilityList= new String[] {""};
-
+	private Boolean HAS_NEED_ITEM_LIST = false;
+	public List<Item> needItemList;
 
 	
 	public RiderFormChangeItem( Properties properties,int belt,String formName,String ridername,String beltTex, MobEffectInstance... effects) {
@@ -120,6 +120,12 @@ public class RiderFormChangeItem extends BaseItem {
 		return this;
 	}
 
+	public BaseItem AddNeedItemList(List<Item> nEED_ITEM_DOGABAKI) {
+		needItemList=nEED_ITEM_DOGABAKI;
+		HAS_NEED_ITEM_LIST=true;
+		return this;
+	}
+	
 	public BaseItem AddCompatibilityList(String[] List) {
 		 compatibilityList=List;
 		return this;
@@ -150,6 +156,14 @@ public class RiderFormChangeItem extends BaseItem {
 			for (int i = 0; i < NEEDITEM.size(); i++)
 			{
 				if (player.getInventory().countItem(NEEDITEM.get(i))==0){
+					return false;
+				}
+			}
+		}
+		if  (HAS_NEED_ITEM_LIST) {
+			for (int i = 0; i < needItemList.size(); i++)
+			{
+				if (player.getInventory().countItem(needItemList.get(i))==0){
 					return false;
 				}
 			}
