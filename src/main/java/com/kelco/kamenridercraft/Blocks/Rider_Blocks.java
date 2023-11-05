@@ -43,8 +43,8 @@ public class Rider_Blocks {
 					.strength(5.0F, 6.0F).sound(SoundType.METAL)).AddToTabList(RiderTabs.RIDER_BLOCK));
 	
 	public static final RegistryObject<Block> AMAZON_CELL_MUTATOR = registerBlock("amazon_cell_mutator",
-			() -> new AmazonCellMutator(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
-					.strength(2f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+			() -> new AmazonCellMutator(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+					.strength(5.0F, 6.0F).sound(SoundType.METAL)).AddToTabList(RiderTabs.RIDER_BLOCK));
 
 	public static final RegistryObject<Block> KAIJIN_STONE_GENERATOR = registerBlock("kaijin_stone_generator",
 			() -> new KaijinStoneGenerator(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
@@ -146,24 +146,24 @@ public class Rider_Blocks {
 					.strength(2f)).AddToTabList(RiderTabs.RIDER_BLOCK));
 	
 	public static final RegistryObject<Block> QUARTZ_BLOCK_GOLD_TRIM = registerBlock("quartz_block_gold_trim",
-			() -> new BaseBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
-					.strength(2f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+			() -> new BaseBlock(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)
+					.strength(2.0F, 6.0F).sound(SoundType.STONE)).AddToTabList(RiderTabs.RIDER_BLOCK));
 	
 	public static final RegistryObject<Block> SPRUCE_FLOORING = registerBlock("spruce_flooring",
 			() -> new BaseBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)
 					.strength(2f)).AddToTabList(RiderTabs.RIDER_BLOCK));
 	
 	public static final RegistryObject<Block> STONE_FLOORING = registerBlock("stone_flooring",
-			() -> new BaseBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
-					.strength(2f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+			() -> new BaseBlock(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)
+					.strength(2.0F, 6.0F).sound(SoundType.STONE)).AddToTabList(RiderTabs.RIDER_BLOCK));
 	
 	public static final RegistryObject<Block> SWORD_OF_LOGOS_BOOKSHELF = registerBlock("sword_of_logos_bookshelf",
 			() -> new BaseBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)
 					.strength(2f)).AddToTabList(RiderTabs.RIDER_BLOCK));
 	
 	public static final RegistryObject<Block> SWORD_OF_LOGOS_BRICK = registerBlock("sword_of_logos_brick",
-			() -> new BaseBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
-					.strength(2f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+			() -> new BaseBlock(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)
+					.strength(2.0F, 6.0F).sound(SoundType.STONE)).AddToTabList(RiderTabs.RIDER_BLOCK));
 	
 
 	public static final RegistryObject<Block> SWORD_OF_LOGOS_GOLD_TRIM = registerBlock("sword_of_logos_gold_trim",
@@ -177,8 +177,8 @@ public class Rider_Blocks {
 	
 
 	public static final RegistryObject<Block> SWORD_OF_LOGOS_SWORD_BLADE = registerBlock("sword_of_logos_sword_blade",
-			() -> new BaseFacingBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
-					.strength(2f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+			() -> new BaseFacingBlock(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)
+					.strength(2.0F, 6.0F).sound(SoundType.STONE)).AddToTabList(RiderTabs.RIDER_BLOCK));
 
 
 	public static final RegistryObject<Block> SWORD_OF_LOGOS_STAIRS = registerBlock("sword_of_logos_stairs",
@@ -198,7 +198,7 @@ public class Rider_Blocks {
 					.strength(2f)).AddToTabList(RiderTabs.RIDER_BLOCK));
 	
 	public static final RegistryObject<Block> SWORD_OF_LOGOS_TABEL_TOP = registerBlock("sword_of_logos_tabel_top",
-			() -> new BaseFacingBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+			() -> new BaseFacingBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)
 					.strength(2f)).AddToTabList(RiderTabs.RIDER_BLOCK));
 	
 	public static final RegistryObject<Block> SWORD_OF_LOGOS_WOOD_TRIM = registerBlock("sword_of_logos_wood_trim",
@@ -210,16 +210,16 @@ public class Rider_Blocks {
 					.strength(2f)).AddToTabList(RiderTabs.RIDER_BLOCK));
 	
 	public static final RegistryObject<Block> SWORD_OF_LOGOS_WOOD2 = registerBlock("sword_of_logos_wood2",
-			() -> new BaseBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)
-					.strength(2f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+			() -> new BaseBlock(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)
+					.strength(2.0F, 6.0F).sound(SoundType.STONE)).AddToTabList(RiderTabs.RIDER_BLOCK));
 	
 	public static final RegistryObject<Block> TADDLE_BRICK = registerBlock("taddle_brick",
-			() -> new BaseBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
-					.strength(2f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+			() -> new BaseBlock(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)
+					.strength(2.0F, 6.0F).sound(SoundType.STONE)).AddToTabList(RiderTabs.RIDER_BLOCK));
 
 	public static final RegistryObject<Block> TADDLE_WALL = registerBlock("taddle_wall",
-			() -> new BaseBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
-					.strength(2f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+			() -> new BaseBlock(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)
+					.strength(2.0F, 6.0F).sound(SoundType.STONE)).AddToTabList(RiderTabs.RIDER_BLOCK));
 	
 	public static final RegistryObject<Block> WALLPLATE = registerBlock("wallplate",
 			() -> new BaseBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
@@ -237,12 +237,6 @@ public class Rider_Blocks {
 			() -> new BaseFacingBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)
 					.strength(2f)).AddToTabList(RiderTabs.RIDER_BLOCK));
 	
-	private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
-		RegistryObject<T> toReturn = BLOCKS.register(name, block);
-		registerBlockItem(name, toReturn);
-		return toReturn;
-	}
-
 
 	public static final RegistryObject<Block> POSEIDON_BOSS_BLOCK = registerBlock("poseidon_boss_block",
 			() -> new BossBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).strength(2f)
@@ -270,7 +264,12 @@ public class Rider_Blocks {
 					,MobsCore.GODA
 					,Component.translatable("Mukade! Hachi! Ari!").withStyle(ChatFormatting.DARK_PURPLE)).AddToTabList(RiderTabs.RIDER_BLOCK));
 
-	
+	private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
+		RegistryObject<T> toReturn = BLOCKS.register(name, block);
+		registerBlockItem(name, toReturn);
+		return toReturn;
+	}
+
 	public static <T extends Block>RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block ){
 		return  Modded_item_core.ITEMS.register(name, () -> new BlockItem(block.get(),new Item.Properties()));
 	}

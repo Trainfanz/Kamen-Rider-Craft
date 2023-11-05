@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
-    "kamenridercraft:poseidon_boss_block"
+    "kamenridercraft:poseidon_boss_block",
+      "kamenridercraft:taddle_wall",
+      "kamenridercraft:taddle_brick",
+      "kamenridercraft:sword_of_logos_sword_blade",
+      "kamenridercraft:sword_of_logos_brick",
+      "kamenridercraft:stone_flooring",
+      "kamenridercraft:quartz_block_gold_trim"
   ]
 }

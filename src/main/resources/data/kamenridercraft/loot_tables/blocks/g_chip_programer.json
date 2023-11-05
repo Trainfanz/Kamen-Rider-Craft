@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:g_chip_programer"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "kamenridercraft:g_chip_programer"
+}
