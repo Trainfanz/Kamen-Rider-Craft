@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "rider_logo",
+  "ingredients": [
+{
+    
+      "item": "minecraft:paper"
+    }, 
+    {
+      "item": "kamenridercraft:condorer_core_omega"
+    }
+    ],
+  "result": {
+    "item": "kamenridercraft:amazons_logo"
+  }
+}

@@ -56,7 +56,7 @@ public class OOO_Rider_Items {
 			.ChangeSlot(3).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> TAKA_ANKH_MEDAL = ITEMS.register("taka_ankh_medal",
-			() -> new RiderFormChangeItem(new Item.Properties(),0,"_taka_ankh","ooo","ooodriver_belt",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_taka","ooo","ooodriver_belt",
 					new MobEffectInstance(MobEffects.REGENERATION, 40, 0,true,false),
 					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false),
 					new MobEffectInstance(Effect_core.FLYING.get(), 40, 0,true,false))

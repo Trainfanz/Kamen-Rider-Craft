@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "w_xtreme",
+  "pattern": [
+    "IEI",
+    "SIG",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:gold_ingot"
+    }, "E": {
+      "item": "kamenridercraft:gaiamemory"
+    }, "S": {
+      "item": "kamenridercraft:xtreme_memory_s"
+    }, "G": {
+      "item": "kamenridercraft:xtreme_memory_g"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:xtreme_memory"
+  }
+}

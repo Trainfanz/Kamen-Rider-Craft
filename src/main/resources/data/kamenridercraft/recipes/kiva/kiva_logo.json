@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "rider_logo",
+  "ingredients": [
+{
+    
+      "item": "minecraft:paper"
+    }, 
+    {
+      "item": "kamenridercraft:wakeupfuestle"
+    }
+    ],
+  "result": {
+    "item": "kamenridercraft:kiva_logo"
+  }
+}

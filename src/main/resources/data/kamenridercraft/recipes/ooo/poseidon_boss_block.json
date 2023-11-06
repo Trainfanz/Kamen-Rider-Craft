@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "poseidon",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "B": {
+      "item": "kamenridercraft:ginga_meteor"
+    }, "A": {
+      "item": "kamenridercraft:cellmedal"
+    }, "C": {
+      "item": "minecraft:clock"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft4th:poseidon_boss_block"
+  }
+}

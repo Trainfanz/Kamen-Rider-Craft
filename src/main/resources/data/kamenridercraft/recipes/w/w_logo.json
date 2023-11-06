@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "rider_logo",
+  "ingredients": [
+{
+    
+      "item": "minecraft:paper"
+    }, 
+    {
+      "item": "kamenridercraft:cyclone_memory"
+    }, 
+    {
+      "item": "kamenridercraft:joker_memory"
+    }
+    ],
+  "result": {
+    "item": "kamenridercraft:w_logo"
+  }
+}
