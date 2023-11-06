@@ -8,7 +8,7 @@
   ],
   "key": {
     "B": {
-      "item": "kamenridercraft:ginga_meteor"
+      "item": "minecraft:end_stone"
     }, "A": {
       "item": "kamenridercraft:cellmedal"
     }, "C": {
@@ -16,6 +16,6 @@
     }
   },
   "result": {
-    "item": "kamenridercraft4th:poseidon_boss_block"
+    "item": "kamenridercraft:poseidon_boss_block"
   }
 }
