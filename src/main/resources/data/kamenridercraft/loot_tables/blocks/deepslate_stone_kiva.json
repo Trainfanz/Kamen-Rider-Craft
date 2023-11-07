@@ -262,21 +262,6 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "kamenridercraft:keyfuestle_arc",
-          "functions": [
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            },
-            {
-              "function": "minecraft:explosion_decay"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
           "name": "kamenridercraft:kivalafuestle",
           "functions": [
             {
