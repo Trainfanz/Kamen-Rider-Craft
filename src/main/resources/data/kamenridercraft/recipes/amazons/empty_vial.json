@@ -13,6 +13,7 @@
     }
   },
   "result": {
-    "item": "kamenridercraft:empty_vial"
+    "item": "kamenridercraft:empty_vial",
+    "count": 3
   }
 }
