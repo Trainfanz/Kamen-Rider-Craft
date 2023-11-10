@@ -315,7 +315,8 @@ public class Ichigo_Rider_Items {
 	    public static final RegistryObject<Item> TORNADO_CORE = ITEMS.register("tornado_core",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","skyrider","tornado_belt",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
-	            		new MobEffectInstance(MobEffects.JUMP, 40, 5,true,false)).AddToTabList(RiderTabs.SKYRIDER_TAB_ITEM));
+	            		new MobEffectInstance(MobEffects.JUMP, 40, 5,true,false),
+						new MobEffectInstance(Effect_core.FLYING.get(), 40, 4,true,false)).AddToTabList(RiderTabs.SKYRIDER_TAB_ITEM));
 	 
 	    
 	    public static final RegistryObject<Item> SKYRIDERHELMET = ITEMS.register("skyriderhead",
@@ -438,12 +439,12 @@ public class Ichigo_Rider_Items {
 	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.RX_TAB_ITEM));
 	    
 	    public static final RegistryObject<Item> BIO_CORE = ITEMS.register("bio_core",
-	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_bio","black_rx","sun_riser_belt",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_bio","black_rx","sun_riser_belt_bio",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.WATER_BREATHING,40, 0,true,false)
 	            		,new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 40, 1,true,false),new MobEffectInstance(Effect_core.PUNCH.get(), 40, 1,true,false)).AddToTabList(RiderTabs.RX_TAB_ITEM));
 
 	    public static final RegistryObject<Item> ROBO_CORE = ITEMS.register("robo_core",
-	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_robo","black_rx","sun_riser_belt",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_robo","black_rx","sun_riser_belt_robo",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.DIG_SPEED,40, 0,true,false)
 	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false)).AddToTabList(RiderTabs.RX_TAB_ITEM));
 	    
