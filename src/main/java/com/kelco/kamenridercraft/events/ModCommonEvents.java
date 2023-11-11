@@ -98,7 +98,8 @@ public class ModCommonEvents {
 					size=(float) (size/2);
 					}
 					event.setNewSize(entity.getDimensions(entity.getPose()).scale(size),true);
-					event.setNewEyeHeight(((float)Player.DEFAULT_EYE_HEIGHT*size));
+					event.setNewEyeHeight(((float)entity.getEyeHeight(entity.getPose())*size));
+					//event.setNewEyeHeight(((float)Player.DEFAULT_EYE_HEIGHT*size));
 				}
 			}
 		}
