@@ -39,22 +39,22 @@ public class WDriverItem extends RiderDriverItem{
 			}
 	}
 	@Override
-	public String GET_TEXT(ItemStack itemstack, EquipmentSlot equipmentSlot, LivingEntity rider)
+	public String GET_TEXT(ItemStack itemstack, EquipmentSlot equipmentSlot, LivingEntity rider,String riderName)
 	{
 		boolean fly = !rider.onGround();
 		if (equipmentSlot == EquipmentSlot.FEET) {
 			
 			return "belts/"+get_Form_Item(itemstack,1).getBeltTex();
 		}
-		else if (equipmentSlot == EquipmentSlot.HEAD) return get_Form_Item(itemstack,1).getFormName(fly);
+		else if (equipmentSlot == EquipmentSlot.HEAD) return riderName+get_Form_Item(itemstack,1).getFormName(fly);
 			
 		
 		else {
-			if (get_Form_Item(itemstack,1).getFormName(fly)=="_fang") return "_fang"+get_Form_Item(itemstack,2).getFormName(fly);
-			else if (get_Form_Item(itemstack,1).getFormName(fly)=="_cyclone_xtreme") return get_Form_Item(itemstack,2).getFormName(fly)+"_xtreme";
-			else if (get_Form_Item(itemstack,1).getFormName(fly)=="_cyclone_xtreme_gold") return get_Form_Item(itemstack,2).getFormName(fly)+"_xtreme_gold";
-			else if (get_Form_Item(itemstack,1).getFormName(fly)=="_cyclone_xtreme_accel") return "_accel_xtreme";
-			else return get_Form_Item(itemstack,2).getFormName(fly);
+			if (get_Form_Item(itemstack,1).getFormName(fly)=="_fang") return riderName+"_fang"+get_Form_Item(itemstack,2).getFormName(fly);
+			else if (get_Form_Item(itemstack,1).getFormName(fly)=="_cyclone_xtreme") return riderName+get_Form_Item(itemstack,2).getFormName(fly)+"_xtreme";
+			else if (get_Form_Item(itemstack,1).getFormName(fly)=="_cyclone_xtreme_gold") return riderName+get_Form_Item(itemstack,2).getFormName(fly)+"_xtreme_gold";
+			else if (get_Form_Item(itemstack,1).getFormName(fly)=="_cyclone_xtreme_accel") return riderName+"_accel_xtreme";
+			else return riderName+get_Form_Item(itemstack,2).getFormName(fly);
 		}
 	}
 

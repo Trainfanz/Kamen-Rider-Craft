@@ -23,7 +23,7 @@ public class OOODriverItem extends RiderDriverItem{
 	}
 
 	@Override
-	public String GET_TEXT(ItemStack itemstack, EquipmentSlot equipmentSlot, LivingEntity rider)
+	public String GET_TEXT(ItemStack itemstack, EquipmentSlot equipmentSlot, LivingEntity rider,String riderName)
 	{
 		boolean fly = !rider.onGround();
 		if (equipmentSlot == EquipmentSlot.FEET) {
@@ -43,9 +43,9 @@ public class OOODriverItem extends RiderDriverItem{
 		else if (equipmentSlot == EquipmentSlot.HEAD&get_Form_Item(itemstack,2)==OOO_Rider_Items.GREEED_ABSORPTION_CORE.get()) return get_Form_Item(itemstack,1).getFormName(fly)+ "_greeed_absorption";
 		else if (equipmentSlot == EquipmentSlot.LEGS&get_Form_Item(itemstack,2)==OOO_Rider_Items.GREEED_ABSORPTION_CORE.get()) return get_Form_Item(itemstack,3).getFormName(fly)+ "_greeed_absorption";
 		
-		else if (equipmentSlot == EquipmentSlot.HEAD) return get_Form_Item(itemstack,1).getFormName(fly);
-		else if (equipmentSlot == EquipmentSlot.CHEST) return get_Form_Item(itemstack,2).getFormName(fly);
-		else return get_Form_Item(itemstack,3).getFormName(fly);
+		else if (equipmentSlot == EquipmentSlot.HEAD) return riderName+ get_Form_Item(itemstack,1).getFormName(fly);
+		else if (equipmentSlot == EquipmentSlot.CHEST) return riderName+ get_Form_Item(itemstack,2).getFormName(fly);
+		else return riderName+ get_Form_Item(itemstack,3).getFormName(fly);
 
 	}
 

@@ -115,7 +115,7 @@ public class RiderDriverItem extends RiderArmorItem{
 	}
 
 
-	public String GET_TEXT(ItemStack itemstack, EquipmentSlot equipmentSlot, LivingEntity rider)
+	public String GET_TEXT(ItemStack itemstack, EquipmentSlot equipmentSlot, LivingEntity rider, String riderName)
 	{
 
 		boolean fly = !rider.onGround();
@@ -127,7 +127,7 @@ public class RiderDriverItem extends RiderArmorItem{
 			}
 			return "belts/"+belt;
 		}
-		else return get_Form_Item(itemstack,1).getFormName(fly);
+		else return riderName+get_Form_Item(itemstack,1).getFormName(fly);
 
 	}
 

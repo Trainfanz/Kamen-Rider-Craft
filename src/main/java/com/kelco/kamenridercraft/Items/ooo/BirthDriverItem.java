@@ -28,7 +28,7 @@ public class BirthDriverItem extends RiderDriverItem{
 	}
 
 	@Override
-	public String GET_TEXT(ItemStack itemstack, EquipmentSlot equipmentSlot, LivingEntity rider)
+	public String GET_TEXT(ItemStack itemstack, EquipmentSlot equipmentSlot, LivingEntity rider,String riderName)
 	{
 			if (equipmentSlot == EquipmentSlot.FEET) {
 
@@ -41,9 +41,9 @@ public class BirthDriverItem extends RiderDriverItem{
 
 		}
 
-		else if (equipmentSlot == EquipmentSlot.CHEST) return "_claws_1";
-		else if (equipmentSlot == EquipmentSlot.LEGS) return "_claws_2";
-		else return get_Form_Item(itemstack,1).getFormName(false);
+		else if (equipmentSlot == EquipmentSlot.CHEST) return "birth_claws_1";
+		else if (equipmentSlot == EquipmentSlot.LEGS) return "birth_claws_2";
+		else return riderName+get_Form_Item(itemstack,1).getFormName(false);
 
 	}
 
