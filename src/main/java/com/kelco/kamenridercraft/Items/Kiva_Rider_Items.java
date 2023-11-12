@@ -163,12 +163,23 @@ public class Kiva_Rider_Items {
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
             		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false)));
     
+    
+    public static final RegistryObject<Item> WAKE_UP_FUESTLE_ARC_LEGEND = ITEMS.register("keyfuestle_arc_legend",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_legend","arc","arc_kivat_belt_mecha",
+					new MobEffectInstance(Effect_core.BIG.get(), 40, 1,true,false),
+					new MobEffectInstance(Effect_core.FLYING.get(), 40, 0,true,false),
+            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
+            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
+            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false))
+			.ChangeModel("geo/arc_legend.geo.json").AddToTabList(RiderTabs.KIVA_TAB_ITEM));
+    
     public static final RegistryObject<Item> WAKE_UP_FUESTLE_REY = ITEMS.register("keyfuestle",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"","rey","rey_kivat_belt",
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
-            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false)).addShiftForm(WAKE_UP_FUESTLE_ARC.get()).AddCompatibilityList(new String[] {"arc"}).AddToTabList(RiderTabs.KIVA_TAB_ITEM));
+            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false)).addAlternative(WAKE_UP_FUESTLE_ARC.get()).AddToTabList(RiderTabs.KIVA_TAB_ITEM));
     
     
     public static final RegistryObject<Item> WAKE_UP_FUESTLE_KIVALA = ITEMS.register("kivalafuestle",
@@ -205,7 +216,7 @@ public class Kiva_Rider_Items {
     		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"rey", WAKE_UP_FUESTLE_REY,KIVAHELMET, KIVACHESTPLATE, KIVALEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.KIVA_TAB_ITEM).ChangeRepairItem(FUESTLE.get()));
 
     public static final RegistryObject<Item> ARC_KIVAT_BELT = ITEMS.register("arcdriver",
-    		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"arc", WAKE_UP_FUESTLE_ARC,KIVAHELMET, KIVACHESTPLATE, KIVALEGGINGS, new Item.Properties()).Override_belt_text("arc_kivat_belt").AddToTabList(RiderTabs.KIVA_TAB_ITEM).ChangeRepairItem(FUESTLE.get()));
+    		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"arc", WAKE_UP_FUESTLE_ARC,KIVAHELMET, KIVACHESTPLATE, KIVALEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.KIVA_TAB_ITEM).ChangeRepairItem(FUESTLE.get()));
 
     public static final RegistryObject<Item> KIVALA_BELT = ITEMS.register("kivaladriver",
     		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"kivala", WAKE_UP_FUESTLE_KIVALA,KIVAHELMET, KIVACHESTPLATE, KIVALEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.KIVA_TAB_ITEM).ChangeRepairItem(FUESTLE.get()));
