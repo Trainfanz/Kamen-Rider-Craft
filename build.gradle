@@ -1,7 +1,12 @@
+buildscript {
+        repositories {
+                maven { url = 'https://repo.spongepowered.org/repository/maven-public/' }
+        }
+}
 plugins {
     id 'eclipse'
     id 'maven-publish'
-    id 'net.minecraftforge.gradle' version '5.1.+'
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
 	id 'org.spongepowered.mixin' version '0.7.+'
 }
 
@@ -13,7 +18,8 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
 minecraft {
-      mappings channel: 'official', version: '1.20.1'
+     
+   mappings channel: 'official', version: '1.20.1'
 
     accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg') // Currently, this location cannot be changed from the default.
 
@@ -65,14 +71,17 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-     maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
+       maven {
+        name = 'GeckoLib'
+        url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' 
+    }
 
 }
 
 dependencies {
-       minecraft 'net.minecraftforge:forge:1.20.1-47.1.43'
+       minecraft 'net.minecraftforge:forge:1.20.1-47.2.5'
        
-      implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.20.1:4.2.1')
+      implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.20.1:4.2.4')
        
 }
 

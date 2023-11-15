@@ -34,7 +34,7 @@ Collect items, assemble an arsenal of armors and weapons, and fight a variety of
 [[dependencies.kamenridercraft]] #optional
     modId="geckolib" #mandatory
     mandatory=true #mandatory
-    versionRange="[4.2.1,)" #mandatory
+    versionRange="[4.2.4,)" #mandatory
     ordering="NONE"
     side="BOTH"
 # Here's another dependency
@@ -42,6 +42,6 @@ Collect items, assemble an arsenal of armors and weapons, and fight a variety of
     modId="minecraft"
     mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
-    versionRange="[1.19.3,1.21)"
+    versionRange="[1.20.1,1.21)"
     ordering="NONE"
     side="BOTH"

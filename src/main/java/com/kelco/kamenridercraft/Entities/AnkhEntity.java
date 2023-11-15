@@ -1,7 +1,6 @@
 package com.kelco.kamenridercraft.Entities;
 
 
-
 import javax.annotation.Nullable;
 
 import com.kelco.kamenridercraft.Entities.bosses.AnkhCompleteEntity;
@@ -14,7 +13,6 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
-import net.minecraft.tags.BlockTags;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
@@ -40,7 +38,6 @@ import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.OwnerHurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.OwnerHurtTargetGoal;
 import net.minecraft.world.entity.animal.Animal;
-import net.minecraft.world.entity.animal.Rabbit;
 import net.minecraft.world.entity.animal.Wolf;
 import net.minecraft.world.entity.monster.Creeper;
 import net.minecraft.world.entity.monster.Enemy;
@@ -53,16 +50,14 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.gameevent.GameEvent;
 import software.bernie.geckolib.animatable.GeoEntity;
-import software.bernie.geckolib.core.animatable.GeoAnimatable;
 import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
-import software.bernie.geckolib.core.animatable.instance.SingletonAnimatableInstanceCache;
 import software.bernie.geckolib.core.animation.*;
-import software.bernie.geckolib.core.object.PlayState;
+import software.bernie.geckolib.util.GeckoLibUtil;
+
 
 public class AnkhEntity extends Wolf implements GeoEntity {
 	
-	private AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
-
+	private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
 	
 	public AnkhEntity(EntityType<? extends Wolf> entityType, Level level) {
 		super(entityType, level);
@@ -96,29 +91,8 @@ public class AnkhEntity extends Wolf implements GeoEntity {
 
 	}
 
-	@Override
-	public void registerControllers(AnimatableManager.ControllerRegistrar controllerRegistrar) {
-		controllerRegistrar.add(new AnimationController<>(this, "controller", 0, this::predicate));
-	}
 
-	private <T extends GeoAnimatable> PlayState predicate(AnimationState<T> tAnimationState) {
-		if(tAnimationState.isMoving()) {
-			tAnimationState.getController().setAnimation(RawAnimation.begin().then("animation.ankh.walk", Animation.LoopType.LOOP));
-			return PlayState.CONTINUE;
-		}else if(this.isInSittingPose()) {
-			tAnimationState.getController().setAnimation(RawAnimation.begin().then("animation.ankh.sit", Animation.LoopType.LOOP));
-			return PlayState.CONTINUE;
-		}
-
-		tAnimationState.getController().setAnimation(RawAnimation.begin().then("animation.ankh.idle", Animation.LoopType.LOOP));
-		return PlayState.CONTINUE;
-	}
-
-	@Override
-	public AnimatableInstanceCache getAnimatableInstanceCache() {
-		return cache;
-	}
-
+	
 	public InteractionResult mobInteract(Player p_30412_, InteractionHand p_30413_) {
 	      ItemStack itemstack = p_30412_.getItemInHand(p_30413_);
 	      Item item = itemstack.getItem();
@@ -224,4 +198,20 @@ public class AnkhEntity extends Wolf implements GeoEntity {
 		      return item ==Modded_item_core.ICE_POP.get()||item ==Modded_item_core.ICE_POP2.get()||item ==Modded_item_core.ICE_POP3.get();
 		   }
 
+
+		@Override
+		public AnimatableInstanceCache getAnimatableInstanceCache() {
+			return this.cache;
+		}
+		
+		// Add our generic idle animation controller
+		@Override
+		public void registerControllers(AnimatableManager.ControllerRegistrar controllers) {
+			
+			RawAnimation IDLE = RawAnimation.begin().thenLoop("animation.ankh.idle");
+			RawAnimation WALK = RawAnimation.begin().thenLoop("animation.ankh.walk");
+			RawAnimation SIT = RawAnimation.begin().thenPlay("animation.ankh.sit");
+			
+			controllers.add(new AnimationController<AnkhEntity>(this, "Walk/Idle", 0, state -> state.setAndContinue(!isInSittingPose()? state.isMoving() ? WALK : IDLE :SIT)));
+		}
 }
