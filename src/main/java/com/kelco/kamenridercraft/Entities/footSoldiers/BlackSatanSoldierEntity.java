@@ -26,5 +26,7 @@ public class BlackSatanSoldierEntity extends BaseHenchmenEntity {
         		.add(Attributes.MAX_HEALTH, 30.0D)
         		.add(Attributes.SPAWN_REINFORCEMENTS_CHANCE)
         		.build();
+        
+        
      }
 }

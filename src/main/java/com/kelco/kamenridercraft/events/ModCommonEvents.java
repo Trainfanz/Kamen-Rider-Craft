@@ -87,13 +87,13 @@ public class ModCommonEvents {
 		public static void addChangeSize(EntityEvent.Size event) {
 
 			if (event.getEntity() instanceof Player entity) {
-				
+
 				if (entity.isAddedToWorld()) { 
 					float size = 1;
 					if (entity.hasEffect(Effect_core.BIG.get())&!entity.hasEffect(Effect_core.SMALL.get())) { 
 						size= size*((entity.getEffect(Effect_core.BIG.get()).getAmplifier())+1);
 					}else  if (!entity.hasEffect(Effect_core.BIG.get())&entity.hasEffect(Effect_core.SMALL.get())) {
-					size=(float) (size/2);
+						size=(float) (size/2);
 					}
 					event.setNewSize(entity.getDimensions(entity.getPose()).scale(size),true);
 					event.setNewEyeHeight(((float)entity.getEyeHeight(entity.getPose())*size));
@@ -103,9 +103,9 @@ public class ModCommonEvents {
 		}
 
 
-		
+
 		// /effect give @e kamenridercraft:big infinite 3
-		
+
 		@SubscribeEvent
 		public static void addRenderLivingEvent(RenderLivingEvent.Pre event) {
 
@@ -119,20 +119,20 @@ public class ModCommonEvents {
 			if (event.getEntity().hasEffect(Effect_core.FLAT.get())) { 
 				size2= 0.1f;
 			}
-if (event.getEntity() instanceof Player player) {
-	
-	 player.self().getAttributeValue(ForgeMod.BLOCK_REACH.get());
+			if (event.getEntity() instanceof Player player) {
 
-}
-			
-			
+				player.self().getAttributeValue(ForgeMod.BLOCK_REACH.get());
+
+			}
+
+
 			event.getPoseStack().scale(size,size,size2);
 		}
-		
+
 		@SubscribeEvent
 		public static void addRenderPlayerEvent(RenderPlayerEvent.Pre event) {
 
-		
+
 		}
 
 		@SubscribeEvent

@@ -81,8 +81,18 @@ public class Agito_Rider_Items {
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
             		new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false),
-            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false)).AddToTabList(RiderTabs.AGITO_TAB_ITEM));
+            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false))
+            .ChangeModel("geo/gills_exceed.geo.json").AddToTabList(RiderTabs.AGITO_TAB_ITEM));
 
+    public static final RegistryObject<Item> GOLD_EXCEED_GILLS = ITEMS.register("gold_exceed_gills",
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"_gold_exceed","gills","meta_factor_belt_g",
+            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
+            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
+            		new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false),
+            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false))
+            .ChangeModel("geo/gills_exceed.geo.json").AddToTabList(RiderTabs.AGITO_TAB_ITEM));
+
+    
     public static final RegistryObject<Item> ANOTHER_AGITO = ITEMS.register("another_agito",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"","another_agito","ank_point_belt",
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
