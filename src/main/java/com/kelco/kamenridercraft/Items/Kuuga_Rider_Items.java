@@ -137,7 +137,7 @@ public class Kuuga_Rider_Items {
 	public static final RegistryObject<BaseBlasterItem> PEGASUS_BOWGUN = ITEMS.register("pegasus_bowgun",
 	        () -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(ModClientEvents.KUUGA_CHANGING_ITEM).AddToTabList(RiderTabs.KUUGA_TAB_ITEM).ChangeRepairItem(KUUGA_GROWING.get()));
 	public static final RegistryObject<SwordItem> TITAN_SWORD = ITEMS.register("titan_sword",
-	        () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(ModClientEvents.KUUGA_CHANGING_ITEM).AddToTabList(RiderTabs.KUUGA_TAB_ITEM).ChangeRepairItem(KUUGA_GROWING.get()));
+	        () -> new BaseSwordItem(Tiers.DIAMOND, 7, 3.5f, new Item.Properties()).AddToTabList(ModClientEvents.KUUGA_CHANGING_ITEM).AddToTabList(RiderTabs.KUUGA_TAB_ITEM).ChangeRepairItem(KUUGA_GROWING.get()));
     
 	
 	public static void register(IEventBus eventBus) {

@@ -844,20 +844,20 @@ public class OOO_Rider_Items {
 			() -> new BaseBlasterItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).IsSwordGun().setProjectileFireball().AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
 
 	public static final RegistryObject<BaseBlasterItem> MEDAGABURYU = ITEMS.register("medagaburyu",
-			() -> new BaseBlasterItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).IsSwordGun().setProjectileWitherSkull().AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
+			() -> new BaseBlasterItem(Tiers.DIAMOND, 12, 3.5f, new Item.Properties()).IsSwordGun().setProjectileWitherSkull().AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
 
 	public static final RegistryObject<BaseBlasterItem> TAJASPINNER_ETERNITY = ITEMS.register("tajaspinner_eternity",
-			() -> new BaseBlasterItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).IsSwordGun().setProjectileLargeFireball(1).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
+			() -> new BaseBlasterItem(Tiers.DIAMOND, 9, 3.5f, new Item.Properties()).IsSwordGun().setProjectileLargeFireball(1).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
 
 
 	public static final RegistryObject<SwordItem> DEEPEST_HARPOON = ITEMS.register("deepest_harpoon",
-			() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
+			() -> new BaseSwordItem(Tiers.DIAMOND, 9, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
 
 	public static final RegistryObject<SwordItem> ANICENT_OOO_GREEED_SWORD = ITEMS.register("ancient_ooo_greeed_sword",
-			() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
+			() -> new BaseSwordItem(Tiers.DIAMOND, 11, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
 
 	public static final RegistryObject<BaseBlasterItem> BIRTH_BUSTER = ITEMS.register("birth_buster",
-			() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
+			() -> new BaseBlasterItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.OOO_TAB_ITEM).ChangeRepairItem(CELL_MEDAL.get()));
 	
 
 	public static void register(IEventBus eventBus) {

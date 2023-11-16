@@ -41,7 +41,7 @@
     "overrides": [
         {
             "predicate": {
-                "blocking": 1
+                 "kamenridercraft:blocking": 1
             },
             "model": "kamenridercraft:item/g3x_shield_blocking"
         }

@@ -235,7 +235,7 @@ public class Ichigo_Rider_Items {
 	   // public static ToolMaterial ridol_stick = EnumHelper.addToolMaterial("ridol_stick", 10, 6000, 12.0F, 3.0F, 22);
 
 	    public static final RegistryObject<SwordItem> RIDOL_STICK = ITEMS.register("ridol_stick",
-	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.X_TAB_ITEM));
+	            () -> new BaseSwordItem(Tiers.DIAMOND, 3, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.X_TAB_ITEM));
 	    
 	    //Amazon
 	    
@@ -424,7 +424,7 @@ public class Ichigo_Rider_Items {
 		           () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"shadow_moon",GREEN_KING_STONE ,BLACKHELMET,BLACKCHESTPLATE,BLACKLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
 
 	    public static final RegistryObject<SwordItem> SATANSABER = ITEMS.register("satansaber",
-	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
+	            () -> new BaseSwordItem(Tiers.DIAMOND, 3, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.BLACK_TAB_ITEM));
 
 	    //Black RX
 	    public static final RegistryObject<Item> BLACK_RX_LOGO = ITEMS.register("black_rx_logo",
@@ -469,16 +469,16 @@ public class Ichigo_Rider_Items {
 	    
 	    
 	    public static final RegistryObject<SwordItem> REVOLCANE = ITEMS.register("revolcane",
-	            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+	            () -> new BaseSwordItem(Tiers.DIAMOND, 3, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
 	    
 		public static final RegistryObject<BaseBlasterItem> VORTECHSHOOTER = ITEMS.register("vortech_shooter",
-		        () -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+		        () -> new BaseBlasterItem(Tiers.DIAMOND, 3, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
 		 
 		public static final RegistryObject<SwordItem> BIOBLADE = ITEMS.register("bio_blade",
-		        () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+		        () -> new BaseSwordItem(Tiers.DIAMOND, 3, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
 	    
 		public static final RegistryObject<SwordItem> SHADOWSABER = ITEMS.register("shadow_saber",
-		        () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
+		        () -> new BaseSwordItem(Tiers.DIAMOND, 3, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RX_TAB_ITEM));
 	
 	    // Shin
 	   

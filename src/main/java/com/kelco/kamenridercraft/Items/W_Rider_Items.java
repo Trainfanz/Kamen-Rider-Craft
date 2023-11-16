@@ -451,14 +451,14 @@ public class W_Rider_Items {
 
 	
 	public static final RegistryObject<BaseBlasterItem> TRIGGER_MAGNUM = ITEMS.register("trigger_magnum",
-            () -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 3, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM));
 
 	public static final RegistryObject<BaseSwordItem> METAL_SHAFT = ITEMS.register("metal_shaft",
-            () -> new MetalShaftItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
+            () -> new MetalShaftItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
 
  
 	public static final RegistryObject<SwordItem> PRISM_BICKER = ITEMS.register("prism_bicker",
-            () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
+            () -> new BaseSwordItem(Tiers.DIAMOND, 9, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
 
  
 	public static final RegistryObject<ShieldItem> SHIELD_PRISM_BICKER = ITEMS.register("shield_prism_bicker",
@@ -469,13 +469,13 @@ public class W_Rider_Items {
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
  
 	public static final RegistryObject<BaseBlasterItem> SKILL_MAGNUM = ITEMS.register("skull_magnum",
-            () -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 3, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
 
 	public static final RegistryObject<SwordItem> ENGINE_BLADE = ITEMS.register("engine_blade",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
 
 	public static final RegistryObject<BaseBlasterItem> BOMB_MAGNUM = ITEMS.register("bomb_magnum",
-			() -> new BaseBlasterItem(Tiers.DIAMOND, 4, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
+			() -> new BaseBlasterItem(Tiers.DIAMOND, 3, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
 
 	public static final RegistryObject<SwordItem> NASCA_BLADE = ITEMS.register("nasca_blade",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM).ChangeRepairItem( GAIA_MEMORY.get()));
