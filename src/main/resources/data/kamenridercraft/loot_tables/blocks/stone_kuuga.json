@@ -36,7 +36,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 4,
+          "weight": 8,
           "name": "kamenridercraft:kuuga_growing",
           "functions": [
             {

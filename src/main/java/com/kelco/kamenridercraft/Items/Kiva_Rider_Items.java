@@ -172,7 +172,7 @@ public class Kiva_Rider_Items {
             		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
             		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false))
-			.ChangeModel("geo/arc_legend.geo.json").AddToTabList(RiderTabs.KIVA_TAB_ITEM));
+			.ChangeModel("geo/arc_legend.geo.json"));
     
     public static final RegistryObject<Item> WAKE_UP_FUESTLE_REY = ITEMS.register("keyfuestle",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"","rey","rey_kivat_belt",

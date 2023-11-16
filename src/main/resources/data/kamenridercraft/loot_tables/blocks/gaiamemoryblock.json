@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "kamenridercraft:deepslate_gaiamemoryblock"
+              "name": "kamenridercraft:gaiamemoryblock"
             },
             {
               "type": "minecraft:item",
@@ -46,5 +46,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "kamenridercraft:deepslate_gaiamemoryblock"
+  "random_sequence": "kamenridercraft:gaiamemoryblock"
 }

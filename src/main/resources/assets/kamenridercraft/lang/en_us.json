@@ -21,6 +21,7 @@
 "item.kamenridercraft.icepop3": "Ice Pop",
 
 
+
 "item.kamenridercraft.kamen_rider_logo": "Kamen Rider Logo",
 "item.kamenridercraft.ichigohead": "Ichigo Helmet",
 "item.kamenridercraft.ichigotroso": "Ichigo Chestplate",
@@ -261,6 +262,7 @@
 
 "item.kamenridercraft.gills": "Gills Philoshopher's Stone",
 "item.kamenridercraft.exceed_gills": "Exceed Gills Philoshopher's Stone",
+"item.kamenridercraft.gold_exceed_gills": "Gold Exceed Gills Philoshopher's Stone",
 
 "item.kamenridercraft.another_agito": "Another Agito Philoshopher's Stone",
 "item.kamenridercraft.another_agito_koji": "Another Agito Philoshopher's Stone (Kouji Majima)",
@@ -723,6 +725,8 @@
 "item.kamenridercraft.kaijin_stone": "Kaijin Stone",
 "item.kamenridercraft.creation_king_extract_vial": "Creation King Extract Vial",
 
+"item.kamenridercraft.stagtornador": "Stagtornador Card Warrior Card",
+"item.kamenridercraft.grandgouram": "Grand Gouram Card Warrior Card",
 "item.kamenridercraft.cyclonehopper": "Cyclonehopper Card Warrior Card",
 "item.kamenridercraft.flaresalamander": "Flaresalamander Card Warrior Card",
 
@@ -756,6 +760,7 @@
 "entity.kamenridercraft.smilodon_dopant": "Smilodon Dopant",
 "entity.kamenridercraft.terror_dopant": "Terror Dopant",
 "entity.kamenridercraft.yummy_mob": "Yummy",
+"entity.kamenridercraft.knight_soldier_mob": "Knight Soldier",
 "entity.kamenridercraft.ankh_lost_mob": "Ankh (Lost)",
 "entity.kamenridercraft.ankh_mob": "Ankh",
 "entity.kamenridercraft.ankh_complete_mob": "Ankh (Complete)",

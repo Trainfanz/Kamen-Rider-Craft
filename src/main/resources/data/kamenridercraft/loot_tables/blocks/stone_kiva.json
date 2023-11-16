@@ -36,7 +36,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 7,
+          "weight": 10,
           "name": "kamenridercraft:fuestle",
           "functions": [
             {
