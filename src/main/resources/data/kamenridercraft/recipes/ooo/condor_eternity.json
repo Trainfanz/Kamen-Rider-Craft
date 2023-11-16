@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "eternity_medal",
+  "pattern": [
+    "XXX",
+    "XMX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:condor_medal"
+    },
+    "M": {
+      "item": "kamenridercraft:taka_ankh_medal"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:condor_eternity_medal"
+  }    
+}
