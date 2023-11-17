@@ -2,35 +2,26 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": {
-        "min": 0,
-        "max": 2
-      },
-      "bonus_rolls": 0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
           "name": "kamenridercraft:faiz_mission_memory"
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
           "name": "kamenridercraft:kaixa_mission_memory"
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
           "name": "kamenridercraft:delta_mission_memory"
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
           "name": "kamenridercraft:axel_ray_gun"
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
           "name": "kamenridercraft:smartbuckle"
         }
       ]
@@ -47,11 +38,16 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "kamenridercraft:psyga_mission_memory"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "kamenridercraft:blank_mission_memory"
         }
       ]
     },
     {
-      "rolls": 2,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",

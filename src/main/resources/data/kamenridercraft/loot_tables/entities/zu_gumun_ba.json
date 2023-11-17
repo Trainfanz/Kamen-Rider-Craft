@@ -2,31 +2,27 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": {
-        "min": 0,
-        "max": 1
-      },
-      "bonus_rolls": 0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "kamenridercraft:kuuga_mighty"
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "kamenridercraft:kuuga_dragon"
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "kamenridercraft:kuuga_pegasus"
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "kamenridercraft:kuuga_titan"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:kuuga_growing"
         }
       ]
     },

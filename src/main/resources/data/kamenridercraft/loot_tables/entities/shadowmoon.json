@@ -1,12 +1,12 @@
 {
   "type": "minecraft:entity",
   "pools": [
-  	{
+    {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "kamenridercraft:shocker_emblem"
+          "name": "kamenridercraft:green_king_stone"
         }
       ]
     },
