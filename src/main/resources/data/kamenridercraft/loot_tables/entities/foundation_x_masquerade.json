@@ -2,11 +2,7 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": {
-        "min": 0,
-        "max": 1
-      },
-      "bonus_rolls": 0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
@@ -22,22 +18,32 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "kamenridercraft:masquerade_memory"
-        },
-        {
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+       	{
           "type": "minecraft:item",
           "weight": 1,
           "name": "kamenridercraft:shika_medal"
-          },
-          {
+       	},
+       	{
           "type": "minecraft:item",
           "weight": 1,
           "name": "kamenridercraft:gazelle_medal"
-          },
-          {
+       	},
+       	{
           "type": "minecraft:item",
           "weight": 1,
           "name": "kamenridercraft:ushi_medal"
-          }
+       	},
+       	{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "kamenridercraft:gaiamemory"
+       	}
       ]
     },
     {

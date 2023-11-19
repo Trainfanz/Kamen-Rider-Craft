@@ -687,6 +687,7 @@ public class OOO_Rider_Items {
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 4000, 1,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false),
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false))
+			.addSwitchForm(OOO_Rider_Items.BIRTH_CORE.get())
 			.AddCompatibilityList(new String[] {"birth_prototype"}).AddToTabList(CellMedalProgramer.CELL_MEDAL).AddToTabList(RiderTabs.OOO_TAB_ITEM));
 
 	public static final RegistryObject<Item> BIRTH_CORE_BREAST_CANNON = ITEMS.register("birth_core_breast_cannon",

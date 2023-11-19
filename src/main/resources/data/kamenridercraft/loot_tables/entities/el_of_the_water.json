@@ -2,15 +2,17 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": {
-        "min": 0,
-        "max": 1
-      },
-      "bonus_rolls": 0,
+     "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 1,
           "name": "kamenridercraft:agito_burning"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "kamenridercraft:agito_of_seed"
         }
       ]
     },

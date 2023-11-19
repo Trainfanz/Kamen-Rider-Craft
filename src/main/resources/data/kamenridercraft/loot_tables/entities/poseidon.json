@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "kamenridercraft:sasori_new_medal"
+          "name": "kamenridercraft:deepest_harpoon"
         }
       ]
     },
@@ -15,7 +15,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "kamenridercraft:kani_new_medal"
+          "name": "kamenridercraft:poseidon_driver"
         }
       ]
     },
@@ -24,7 +24,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "kamenridercraft:ebi_new_medal"
+          "name": "kamenridercraft:aqua_core"
         }
       ]
     },
@@ -33,7 +33,25 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "kamenridercraft:powered_up_core_driver"
+          "name": "kamenridercraft:same_medal"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:kujira_medal"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:ookamiuo_medal"
         }
       ]
     },
@@ -47,8 +65,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3,
-                "max": 6
+                "min": 8,
+                "max": 10
               }
             }
           ]

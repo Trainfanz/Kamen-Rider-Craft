@@ -2,16 +2,32 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": {
-        "min": 0,
-        "max": 1
-      },
-      "bonus_rolls": 0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
           "weight": 5,
           "name": "kamenridercraft:split_king_stone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "kamenridercraft:rx_core"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "kamenridercraft:bio_core"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "kamenridercraft:robo_core"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "kamenridercraft:rider_circuit"
         }
       ]
     },

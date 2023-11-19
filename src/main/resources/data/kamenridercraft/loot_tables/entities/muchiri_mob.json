@@ -2,31 +2,34 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": {
-        "min": 0,
-        "max": 1
-      },
-      "bonus_rolls": 0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "kamenridercraft:mukade_medal"
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "kamenridercraft:hachi_medal"
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "kamenridercraft:ari_medal"
-        },
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
         {
           "type": "minecraft:item",
           "weight": 1,
           "name": "kamenridercraft:greeed_blet_muchiri"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 9,
+          "name": "kamenridercraft:cellmedal"
         }
       ]
     },
@@ -41,7 +44,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 3,
-                "max": 6
+                "max": 5
               }
             }
           ]

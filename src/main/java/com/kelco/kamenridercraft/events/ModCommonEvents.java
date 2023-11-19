@@ -188,7 +188,7 @@ public class ModCommonEvents {
 
 			if(event.getType() == RiderVillagers.SHOCKER_VILLAGER.get()) {
 				Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
-				ItemStack stack = new ItemStack(Ichigo_Rider_Items.GRASSHOPPER_DNA.get(), 1);
+				ItemStack stack = new ItemStack(Ichigo_Rider_Items.SHIN_STONE.get(), 1);
 				int villagerLevel = 1;
 
 				trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(

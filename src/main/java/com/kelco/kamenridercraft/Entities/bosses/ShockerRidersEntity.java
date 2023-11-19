@@ -17,8 +17,11 @@ import net.minecraft.world.level.Level;
 
 public class ShockerRidersEntity extends BaseHenchmenEntity {
 	
-	public static final Item[] belt = new Item[] {Ichigo_Rider_Items.TYPHOON_SHOCKER_RIDER_1.get(),Ichigo_Rider_Items.TYPHOON_SHOCKER_RIDER_2.get(),Ichigo_Rider_Items.TYPHOON_SHOCKER_RIDER_3.get(),Ichigo_Rider_Items.TYPHOON_SHOCKER_RIDER_4.get(),Ichigo_Rider_Items.TYPHOON_SHOCKER_RIDER_5.get(),
-			Ichigo_Rider_Items.TYPHOON_SHOCKER_RIDER_6.get(),Ichigo_Rider_Items.TYPHOON_SHOCKER_RIDER_1.get()};
+	public static final Item[] belt = new Item[] {Ichigo_Rider_Items.TYPHOON_SHOCKER_RIDER_1.get(),Ichigo_Rider_Items.TYPHOON_SHOCKER_RIDER_2.get(),
+			Ichigo_Rider_Items.TYPHOON_SHOCKER_RIDER_3.get(),Ichigo_Rider_Items.TYPHOON_SHOCKER_RIDER_4.get(),Ichigo_Rider_Items.TYPHOON_SHOCKER_RIDER_5.get(),
+			Ichigo_Rider_Items.TYPHOON_SHOCKER_RIDER_6.get(),Ichigo_Rider_Items.TYPHOON_SHOCKER_RIDER_7.get(),Ichigo_Rider_Items.TYPHOON_SHOCKER_RIDER_8.get(),
+			Ichigo_Rider_Items.TYPHOON_SHOCKER_RIDER_9.get(),Ichigo_Rider_Items.TYPHOON_SHOCKER_RIDER_10.get(),Ichigo_Rider_Items.TYPHOON_SHOCKER_RIDER_11.get(),
+			Ichigo_Rider_Items.TYPHOON_SHOCKER_RIDER_12.get()};
 
 	
     public ShockerRidersEntity(EntityType<? extends Zombie> type, Level level) {
