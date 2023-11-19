@@ -2,6 +2,7 @@ package com.kelco.kamenridercraft.Entities;
 
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.Entities.Bikes.baseBikeEntity;
 import com.kelco.kamenridercraft.Entities.bosses.AncientOOOEntity;
 import com.kelco.kamenridercraft.Entities.bosses.AnkhCompleteEntity;
 import com.kelco.kamenridercraft.Entities.bosses.AnkhLostEntity;
@@ -364,6 +365,14 @@ public class MobsCore {
           public static final RegistryObject<ForgeSpawnEggItem> GODA_SPAWN_EGG = ITEMS.register("goda_spawn_egg",
                    () -> new ForgeSpawnEggItem(GODA, 0x000000, 0xB200FF, new Item.Properties()));
        
+
+          public static final RegistryObject<EntityType<baseBikeEntity>> HAEDBOILER = MOBLIST.register("hardboilder",
+                  () -> EntityType.Builder.of(baseBikeEntity::new, MobCategory.MONSTER).clientTrackingRange(8).sized(0.6F, 1.95F).build( KamenRiderCraftCore.MODID + ":hardboilder"));
+
+          public static final RegistryObject<ForgeSpawnEggItem> HAEDBOILER_SPAWN_EGG = ITEMS.register("hardboilder_spawn_egg",
+                  () -> new ForgeSpawnEggItem(HAEDBOILER, 0x00a63b, 0x222222, new Item.Properties()));
+      
+          
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

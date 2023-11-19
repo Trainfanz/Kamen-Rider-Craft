@@ -287,6 +287,8 @@ public class ModCommonEvents {
 		event.put(MobsCore.POWERED_UP_CORE.get(), PoweredUpCoreEntity.setAttributes());
 		event.put(MobsCore.ANCIENT_OOO.get(), AncientOOOEntity.setAttributes());
 		event.put(MobsCore.GODA.get(), GodaEntity.setAttributes());
+		
+		event.put(MobsCore.HAEDBOILER.get(), GodaEntity.setAttributes());
 
 	}
 

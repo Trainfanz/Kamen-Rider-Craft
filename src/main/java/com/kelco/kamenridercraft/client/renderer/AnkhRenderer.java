@@ -10,7 +10,11 @@ import net.minecraft.resources.ResourceLocation;
 import software.bernie.geckolib.renderer.GeoEntityRenderer;
 
 public class AnkhRenderer extends GeoEntityRenderer<AnkhEntity> {
-    public AnkhRenderer(EntityRendererProvider.Context renderManager) {
+	
+	
+
+
+	public AnkhRenderer(EntityRendererProvider.Context renderManager) {
         super(renderManager, new AnkhModel());
     }
 

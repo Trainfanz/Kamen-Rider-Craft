@@ -3,8 +3,10 @@ package com.kelco.kamenridercraft.events;
 
 import com.kelco.kamenridercraft.Items.Kuuga_Rider_Items;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderDriverItem;
+import com.kelco.kamenridercraft.client.models.AnkhModel;
 import com.kelco.kamenridercraft.client.renderer.AnkhRenderer;
 import com.kelco.kamenridercraft.client.renderer.BasicEntityRenderer;
+import com.kelco.kamenridercraft.client.renderer.BikeRenderer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -150,6 +152,8 @@ public class ModClientEvents {
 		event.registerEntityRenderer(MobsCore.POWERED_UP_CORE.get(), BasicEntityRenderer::new);
 		event.registerEntityRenderer(MobsCore.ANCIENT_OOO.get(), BasicEntityRenderer::new);
 		event.registerEntityRenderer(MobsCore.GODA.get(), BasicEntityRenderer::new);
+		
+		event.registerEntityRenderer(MobsCore.HAEDBOILER.get(), BikeRenderer::new);
 	}
 
 
