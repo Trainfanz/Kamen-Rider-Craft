@@ -1,0 +1,15 @@
+{
+  "values": [
+    "minecraft:plains",
+    "minecraft:windswept_hills",
+    "minecraft:swamp",
+    "minecraft:frozen_ocean",
+    "minecraft:snowy_plains",
+    "minecraft:jungle",
+    "minecraft:birch_forest",
+    "minecraft:dark_forest",
+    "minecraft:windswept_forest",
+    "minecraft:savanna_plateau",
+    "minecraft:badlands"
+  ]
+}

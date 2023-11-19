@@ -1,8 +1,8 @@
 {
   "type": "forge:add_spawns",
-  "biomes": "#kamenridercraft:dogma_fighter",
+  "biomes": "#kamenridercraft:pantheras_luteus",
   "spawners": {
-    "type": "kamenridercraft:dogma_fighter",
+    "type": "kamenridercraft:pantheras_luteus",
     "weight": 15,
     "minCount": 1,
     "maxCount": 4

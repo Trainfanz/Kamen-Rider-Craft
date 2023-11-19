@@ -1,0 +1,14 @@
+{
+  "values": [
+    "minecraft:plains",
+    "minecraft:desert",
+    "minecraft:taiga",
+    "minecraft:snowy_plains",
+    "minecraft:beach",
+    "minecraft:jungle",
+    "minecraft:birch_forest",
+    "minecraft:snowy_taiga",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:savanna"
+  ]
+}
