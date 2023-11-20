@@ -15,6 +15,7 @@ import com.kelco.kamenridercraft.Items.Modded_item_core;
 import com.kelco.kamenridercraft.Items.OOO_Rider_Items;
 import com.kelco.kamenridercraft.Items.Reboot_Rider_Items;
 import com.kelco.kamenridercraft.Items.RiderTabs;
+import com.kelco.kamenridercraft.Items.Ryuki_Rider_Items;
 import com.kelco.kamenridercraft.Items.W_Rider_Items;
 import com.kelco.kamenridercraft.Potion.Potion_core;
 import com.kelco.kamenridercraft.loot.ModLootModifiers;
@@ -41,6 +42,7 @@ public class KamenRiderCraftCore {
 		Ichigo_Rider_Items.register(modEventBus);
 		Kuuga_Rider_Items.register(modEventBus);
 		Agito_Rider_Items.register(modEventBus);
+		Ryuki_Rider_Items.register(modEventBus);
 		Faiz_Rider_Items.register(modEventBus);
 		Blade_Rider_Items.register(modEventBus);
 		Kiva_Rider_Items.register(modEventBus);
