@@ -12,12 +12,12 @@ import software.bernie.geckolib.model.GeoModel;
 public class BikeModel extends GeoModel<baseBikeEntity> {
     @Override
     public ResourceLocation getModelResource(baseBikeEntity animatable) {
-        return new ResourceLocation(KamenRiderCraftCore.MODID, "geo/"+animatable.NAME+".geo.json");
+        return new ResourceLocation(KamenRiderCraftCore.MODID, "geo/"+animatable.NAME_MODEL+".geo.json");
     }
 
     @Override
     public ResourceLocation getTextureResource(baseBikeEntity animatable) {
-        return new ResourceLocation(KamenRiderCraftCore.MODID, "textures/entity/"+animatable.NAME_MODEL+".png");
+        return new ResourceLocation(KamenRiderCraftCore.MODID, "textures/entities/"+animatable.NAME+".png");
     }
 
     @Override

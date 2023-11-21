@@ -4,6 +4,7 @@ import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Entities.AnkhEntity;
 import com.kelco.kamenridercraft.Entities.MobsCore;
+import com.kelco.kamenridercraft.Entities.Bikes.baseBikeEntity;
 import com.kelco.kamenridercraft.Entities.Villager.RiderVillagers;
 import com.kelco.kamenridercraft.Entities.bosses.AncientOOOEntity;
 import com.kelco.kamenridercraft.Entities.bosses.AnkhCompleteEntity;
@@ -288,7 +289,9 @@ public class ModCommonEvents {
 		event.put(MobsCore.ANCIENT_OOO.get(), AncientOOOEntity.setAttributes());
 		event.put(MobsCore.GODA.get(), GodaEntity.setAttributes());
 		
-		event.put(MobsCore.HAEDBOILER.get(), GodaEntity.setAttributes());
+		event.put(MobsCore.MACEHINE_TORADOR.get(), baseBikeEntity.setAttributes());
+		event.put(MobsCore.HARDBOILER.get(), baseBikeEntity.setAttributes());
+		event.put(MobsCore.SKULLBOILER.get(), baseBikeEntity.setAttributes());
 
 	}
 

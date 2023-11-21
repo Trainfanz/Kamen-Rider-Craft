@@ -4,8 +4,11 @@ package com.kelco.kamenridercraft.Entities.Bikes;
 import javax.annotation.Nullable;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityDimensions;
@@ -32,7 +35,7 @@ public class baseBikeEntity extends Animal implements GeoEntity {
 
 	
 	private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
-	public String NAME ="hardboilder";
+	public String NAME ="skullboilder";
 	public String NAME_MODEL ="hardboilder";
 	
 	public baseBikeEntity(EntityType<? extends Animal> entityType, Level level) {
@@ -41,7 +44,7 @@ public class baseBikeEntity extends Animal implements GeoEntity {
 
 
 	public static AttributeSupplier setAttributes() {
-		return Mob.createMobAttributes().add(Attributes.MOVEMENT_SPEED, (double)0.3F).add(Attributes.MAX_HEALTH, 40.0D).add(Attributes.ATTACK_DAMAGE, 2.0D).build();
+		return Mob.createMobAttributes().add(Attributes.MOVEMENT_SPEED, (double)0.3F).add(Attributes.MAX_HEALTH, 20.0D).add(Attributes.ATTACK_DAMAGE, 2.0D).build();
 	}
 
 	// Let the player ride the entity
@@ -99,6 +102,9 @@ public class baseBikeEntity extends Animal implements GeoEntity {
 		return true;
 	}
 
+
+	
+	   
 	// Adjust the rider's position while riding
 	@Override
 	public void positionRider(Entity entity, MoveFunction moveFunction) {
@@ -109,6 +115,15 @@ public class baseBikeEntity extends Animal implements GeoEntity {
 		}
 	}
 
+
+
+protected SoundEvent getHurtSound(DamageSource p_30424_) {
+	return SoundEvents.METAL_BREAK;
+}
+
+protected SoundEvent getDeathSound() {
+	return SoundEvents.METAL_BREAK;
+}
 
 	@Override
 	public AgeableMob getBreedOffspring(ServerLevel world, AgeableMob entity) {

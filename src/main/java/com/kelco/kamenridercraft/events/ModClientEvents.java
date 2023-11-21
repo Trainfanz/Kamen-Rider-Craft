@@ -153,7 +153,9 @@ public class ModClientEvents {
 		event.registerEntityRenderer(MobsCore.ANCIENT_OOO.get(), BasicEntityRenderer::new);
 		event.registerEntityRenderer(MobsCore.GODA.get(), BasicEntityRenderer::new);
 		
-		event.registerEntityRenderer(MobsCore.HAEDBOILER.get(), BikeRenderer::new);
+		event.registerEntityRenderer(MobsCore.MACEHINE_TORADOR.get(), BikeRenderer::new);
+		event.registerEntityRenderer(MobsCore.HARDBOILER.get(), BikeRenderer::new);
+		event.registerEntityRenderer(MobsCore.SKULLBOILER.get(), BikeRenderer::new);
 	}
 
 

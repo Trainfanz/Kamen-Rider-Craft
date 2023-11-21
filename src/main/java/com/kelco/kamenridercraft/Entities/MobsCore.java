@@ -2,6 +2,9 @@ package com.kelco.kamenridercraft.Entities;
 
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.Entities.Bikes.HardboilderEntity;
+import com.kelco.kamenridercraft.Entities.Bikes.MachineTornadorEntity;
+import com.kelco.kamenridercraft.Entities.Bikes.SkullboilderEntity;
 import com.kelco.kamenridercraft.Entities.Bikes.baseBikeEntity;
 import com.kelco.kamenridercraft.Entities.bosses.AncientOOOEntity;
 import com.kelco.kamenridercraft.Entities.bosses.AnkhCompleteEntity;
@@ -366,11 +369,23 @@ public class MobsCore {
                    () -> new ForgeSpawnEggItem(GODA, 0x000000, 0xB200FF, new Item.Properties()));
        
 
-          public static final RegistryObject<EntityType<baseBikeEntity>> HAEDBOILER = MOBLIST.register("hardboilder",
-                  () -> EntityType.Builder.of(baseBikeEntity::new, MobCategory.MONSTER).clientTrackingRange(8).sized(0.6F, 1.95F).build( KamenRiderCraftCore.MODID + ":hardboilder"));
+          public static final RegistryObject<EntityType<MachineTornadorEntity>> MACEHINE_TORADOR = MOBLIST.register("machine_tornador",
+                  () -> EntityType.Builder.of(MachineTornadorEntity::new, MobCategory.MONSTER).clientTrackingRange(8).sized(0.6F, 1.95F).build( KamenRiderCraftCore.MODID + ":machine_tornador"));
 
-          public static final RegistryObject<ForgeSpawnEggItem> HAEDBOILER_SPAWN_EGG = ITEMS.register("hardboilder_spawn_egg",
-                  () -> new ForgeSpawnEggItem(HAEDBOILER, 0x00a63b, 0x222222, new Item.Properties()));
+          public static final RegistryObject<ForgeSpawnEggItem> MACEHINE_TORADOR_SPAWN_EGG = ITEMS.register("machine_tornador_spawn_egg",
+                  () -> new ForgeSpawnEggItem(MACEHINE_TORADOR, 0xff002a, 0xffe300, new Item.Properties()));
+
+          public static final RegistryObject<EntityType<HardboilderEntity>> HARDBOILER = MOBLIST.register("hardboilder",
+                  () -> EntityType.Builder.of(HardboilderEntity::new, MobCategory.MONSTER).clientTrackingRange(8).sized(0.6F, 1.95F).build( KamenRiderCraftCore.MODID + ":hardboilder"));
+
+          public static final RegistryObject<ForgeSpawnEggItem> HARDBOILER_SPAWN_EGG = ITEMS.register("hardboilder_spawn_egg",
+                  () -> new ForgeSpawnEggItem(HARDBOILER, 0x00a63b, 0x222222, new Item.Properties()));
+      
+          public static final RegistryObject<EntityType<SkullboilderEntity>> SKULLBOILER = MOBLIST.register("skullboilder",
+                  () -> EntityType.Builder.of(SkullboilderEntity::new, MobCategory.MONSTER).clientTrackingRange(8).sized(0.6F, 1.95F).build( KamenRiderCraftCore.MODID + ":skullboilder"));
+
+          public static final RegistryObject<ForgeSpawnEggItem> SKULLBOILER_SPAWN_EGG = ITEMS.register("skullboilder_spawn_egg",
+                  () -> new ForgeSpawnEggItem(SKULLBOILER, 0x535353, 0x151515, new Item.Properties()));
       
           
     public static void register(IEventBus eventBus) {
