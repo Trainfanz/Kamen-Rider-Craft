@@ -17,6 +17,7 @@ import com.kelco.kamenridercraft.Items.Reboot_Rider_Items;
 import com.kelco.kamenridercraft.Items.RiderTabs;
 import com.kelco.kamenridercraft.Items.Ryuki_Rider_Items;
 import com.kelco.kamenridercraft.Items.W_Rider_Items;
+import com.kelco.kamenridercraft.Items.painting.ModPaintings;
 import com.kelco.kamenridercraft.Potion.Potion_core;
 import com.kelco.kamenridercraft.loot.ModLootModifiers;
 
@@ -56,6 +57,7 @@ public class KamenRiderCraftCore {
 		RiderVillagers.register(modEventBus);
 		ModLootModifiers.register(modEventBus);
 		Rider_Blocks.register(modEventBus);
+		ModPaintings.register(modEventBus);
 		MinecraftForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::addCreative);
 		//modEventBus.addListener(this::commonSetup);
