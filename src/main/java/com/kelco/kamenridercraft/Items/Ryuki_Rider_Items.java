@@ -24,8 +24,9 @@ public class Ryuki_Rider_Items {
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
 
 	public static final RegistryObject<Item> ADVENT_CARD = ITEMS.register("advent_card",
-			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
-	
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"_blank","ryuki","v_buckle_belt",
+            		new MobEffectInstance(MobEffects.WEAKNESS, 400, 0,true,false)).AddCompatibilityList(new String[] {"ouja","knight"}).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
+  
 	
 	  public static final RegistryObject<Item> DRAGREDER_ADVENT = ITEMS.register("dragreder_advent",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","ryuki","v_buckle_belt_ryuki",
@@ -191,7 +192,47 @@ public class Ryuki_Rider_Items {
 	public static final RegistryObject<Item> ALTERNATIVEZERODRIVER = ITEMS.register("alternative_zero_v_buckle",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"alternative_zero",PSYCOROGUE_ADVENT ,RYUKIHELMET,RTUKICHESTPLATE,RYUKILEGGINGS , new Item.Properties())
 			.ChangeRepairItem(ADVENT_CARD.get()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
-	
+	/**
+	drag_visor
+	ride_saber
+	drag_saber
+	drag_claw
+	drag_shield
+	drag_visor_zwei
+	dark_visor
+	wing_lancer
+	dark_blade
+	scissors_visor
+	scissors_pincer 
+	incisor_guard
+	magna_visor
+	torque_guard
+	evil_visor
+	metal_visor
+	hetal_horn
+	veno_visor
+	veno_saber
+	veno_visor_zwei
+	dest_visor
+	dest_claws
+	gazelle_visor
+	gold_visor
+	gold_sabers
+	gold_shield
+	wing_slasher
+	wing_shield
+	dark_drag_visor
+	drag_saber_ryuga
+	ryuga_drag_claw
+	ryuga_drag_shield
+	blanc_visor
+	bio_visor
+	abyss_visor
+	abyss_saber
+	abyssmash
+	slash_visor
+	alternative_sword
+	**/
 	public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);
 	}
