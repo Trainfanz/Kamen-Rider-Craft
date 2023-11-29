@@ -122,6 +122,13 @@ public class Ryuki_Rider_Items {
 	            		,new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 5,true,false),new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false)
 	            		,new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false)).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
 	  
+	  public static final RegistryObject<Item> SURVIVE_BLACK = ITEMS.register("survive_black",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_survive_black","ryuki","v_buckle_belt_ryuki",
+	            		new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false)
+	            		,new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false)).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
+	  
+	  
 	public static final RegistryObject<Item> RYUKIHELMET = ITEMS.register("ryukihead",
 			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM).ChangeRepairItem(ADVENT_CARD.get()));
 	public static final RegistryObject<Item> RTUKICHESTPLATE = ITEMS.register("ryukitroso",
