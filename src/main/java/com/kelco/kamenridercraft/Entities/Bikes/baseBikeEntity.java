@@ -72,13 +72,15 @@ public class baseBikeEntity extends Animal implements GeoEntity {
 				this.yRotO = getYRot();
 				this.xRotO = getXRot();
 
-				setYRot(passenger.getYRot());
-				setXRot(passenger.getXRot() * 0.1f);
+				
+			
+					setYRot(yRotO-passenger.xxa * 5F);
+					setXRot(passenger.getXRot() * 0.1f);
 				setRot(getYRot(), getXRot());
-
+			
 				this.yBodyRot = this.getYRot();
 				this.yHeadRot = this.yBodyRot;
-				float x = passenger.xxa * 0.5F;
+				float x = passenger.xxa * 0.01F;
 				float z = passenger.zza;
 
 				if (z <= 0)
