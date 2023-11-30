@@ -104,23 +104,41 @@ public class Ryuki_Rider_Items {
 	            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false)
 	            		,new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false)).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
 	  
+	  public static final RegistryObject<Item> SURVIVE_REKKA_RYUGA = ITEMS.register("survive_rekka_ryuga",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_survive","ryuga","v_buckle_belt_ryuga_survive",
+	            		new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false)
+	            		,new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false)));
+
 	  public static final RegistryObject<Item> SURVIVE_REKKA = ITEMS.register("survive_rekka",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_survive","ryuki","v_buckle_belt_ryuki_survive",
 	            		new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
 	            		,new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false)
-	            		,new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false)).AddCompatibilityList(new String[] {"ryuga"}).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
+	            		,new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false)).addAlternative(SURVIVE_REKKA_RYUGA.get()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
+
+	  public static final RegistryObject<Item> SURVIVE_SHIPPU_RAIA = ITEMS.register("survive_shippu_raia",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_survive","raia","v_buckle_belt_raia_survive",
+	            		new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 5,true,false),new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false)
+	            		,new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false)));
+
+	  public static final RegistryObject<Item> SURVIVE_SHIPPU_OUJA = ITEMS.register("survive_shippu_ouja",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_survive","ouja","v_buckle_belt_ouja_survive",
+	            		new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
+	            		,new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 5,true,false),new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false)
+	            		,new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false)));
 	  
 	  public static final RegistryObject<Item> SURVIVE_SHIPPU = ITEMS.register("survive_shippu",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_survive","knight","v_buckle_belt_knight_survive",
 	            		new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
 	            		,new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 5,true,false),new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false)
-	            		,new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false)).AddCompatibilityList(new String[] {"raia","ouja"}).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
-	  
+	            		,new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false)).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
+
 	  public static final RegistryObject<Item> SURVIVE_MUGEN = ITEMS.register("survive_mugen",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_survive","ouja","v_buckle_belt_ouja_survive",
 	            		new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
 	            		,new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 5,true,false),new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false)
-	            		,new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false)).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
+	            		,new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false)).addAlternative(SURVIVE_SHIPPU_RAIA.get()).addAlternative(SURVIVE_SHIPPU_OUJA.get()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
 	  
 	  public static final RegistryObject<Item> SURVIVE_BLACK = ITEMS.register("survive_black",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_survive_black","ryuki","v_buckle_belt_ryuki",
