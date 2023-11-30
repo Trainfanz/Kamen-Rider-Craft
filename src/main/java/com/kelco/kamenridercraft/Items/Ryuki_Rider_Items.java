@@ -136,59 +136,59 @@ public class Ryuki_Rider_Items {
 	public static final RegistryObject<Item> RYUKILEGGINGS = ITEMS.register("ryukilegs",
 			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM).ChangeRepairItem(ADVENT_CARD.get()));
 
-	public static final RegistryObject<Item> RYUKIDRIVER = ITEMS.register("ryuki_v_buckle",
+	public static final RegistryObject<Item> RYUKIDRIVER = ITEMS.register("v_buckle_ryuki",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"ryuki",DRAGREDER_ADVENT ,RYUKIHELMET,RTUKICHESTPLATE,RYUKILEGGINGS , new Item.Properties())
 			.ChangeRepairItem(ADVENT_CARD.get()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
 
-	public static final RegistryObject<Item> KNIGHTDRIVER = ITEMS.register("knight_v_buckle",
+	public static final RegistryObject<Item> KNIGHTDRIVER = ITEMS.register("v_buckle_knight",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"knight",DARKWING_ADVENT ,RYUKIHELMET,RTUKICHESTPLATE,RYUKILEGGINGS , new Item.Properties())
 			.ChangeRepairItem(ADVENT_CARD.get()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
 	
-	public static final RegistryObject<Item> SCISSORSDRIVER = ITEMS.register("scissors_v_buckle",
+	public static final RegistryObject<Item> SCISSORSDRIVER = ITEMS.register("v_buckle_scissors",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"scissors",VOLCANCER_ADVENT ,RYUKIHELMET,RTUKICHESTPLATE,RYUKILEGGINGS , new Item.Properties())
 			.ChangeRepairItem(ADVENT_CARD.get()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
 	
-	public static final RegistryObject<Item> ZOLDADRIVER = ITEMS.register("zolda_v_buckle",
+	public static final RegistryObject<Item> ZOLDADRIVER = ITEMS.register("v_buckle_zolda",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"zolda",MAGNUGIGA_ADVENT ,RYUKIHELMET,RTUKICHESTPLATE,RYUKILEGGINGS , new Item.Properties())
 			.ChangeRepairItem(ADVENT_CARD.get()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
 	
-	public static final RegistryObject<Item> RAIADRIVER = ITEMS.register("raia_v_buckle",
+	public static final RegistryObject<Item> RAIADRIVER = ITEMS.register("v_buckle_raia",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"raia",EVILDIVER_ADVENT ,RYUKIHELMET,RTUKICHESTPLATE,RYUKILEGGINGS , new Item.Properties())
 			.ChangeRepairItem(ADVENT_CARD.get()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
 	
-	public static final RegistryObject<Item> GAIDRIVER = ITEMS.register("gai_v_buckle",
+	public static final RegistryObject<Item> GAIDRIVER = ITEMS.register("v_buckle_gai",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"gai",METALGELAS_ADVENT ,RYUKIHELMET,RTUKICHESTPLATE,RYUKILEGGINGS , new Item.Properties())
 			.ChangeRepairItem(ADVENT_CARD.get()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
 	
-	public static final RegistryObject<Item> OUJADRIVER = ITEMS.register("ouja_v_buckle",
+	public static final RegistryObject<Item> OUJADRIVER = ITEMS.register("v_buckle_ouja",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"ouja",VENOSNAKER_ADVENT ,RYUKIHELMET,RTUKICHESTPLATE,RYUKILEGGINGS , new Item.Properties())
 			.ChangeRepairItem(ADVENT_CARD.get()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
 	
-	public static final RegistryObject<Item> ODINDRIVER = ITEMS.register("odin_v_buckle",
+	public static final RegistryObject<Item> ODINDRIVER = ITEMS.register("v_buckle_odin",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"odin",GOLDPHOENIX_ADVENT ,RYUKIHELMET,RTUKICHESTPLATE,RYUKILEGGINGS , new Item.Properties())
 			.ChangeRepairItem(ADVENT_CARD.get()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
 	
-	public static final RegistryObject<Item> TIGERDRIVER = ITEMS.register("tiger_v_buckle",
+	public static final RegistryObject<Item> TIGERDRIVER = ITEMS.register("v_buckle_tiger",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"tiger",DESTWILDER_ADVENT ,RYUKIHELMET,RTUKICHESTPLATE,RYUKILEGGINGS , new Item.Properties())
 			.ChangeRepairItem(ADVENT_CARD.get()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
 	
-	public static final RegistryObject<Item> IMPERERDRIVER = ITEMS.register("imperer_v_buckle",
+	public static final RegistryObject<Item> IMPERERDRIVER = ITEMS.register("v_buckle_imperer",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"imperer",GIGAZELLE_ADVENT ,RYUKIHELMET,RTUKICHESTPLATE,RYUKILEGGINGS , new Item.Properties())
 			.ChangeRepairItem(ADVENT_CARD.get()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
 	
-	public static final RegistryObject<Item> FEMMEDRIVER = ITEMS.register("femme_v_buckle",
+	public static final RegistryObject<Item> FEMMEDRIVER = ITEMS.register("v_buckle_femme",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"femme",BLANCWING_ADVENT ,RYUKIHELMET,RTUKICHESTPLATE,RYUKILEGGINGS , new Item.Properties())
 			.ChangeRepairItem(ADVENT_CARD.get()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
 	
-	public static final RegistryObject<Item> RYUGADRIVER = ITEMS.register("ryuga_v_buckle",
+	public static final RegistryObject<Item> RYUGADRIVER = ITEMS.register("v_buckle_ryuga",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"ryuga",DRAGBLACKER_ADVENT ,RYUKIHELMET,RTUKICHESTPLATE,RYUKILEGGINGS , new Item.Properties())
 			.ChangeRepairItem(ADVENT_CARD.get()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
 	
-	public static final RegistryObject<Item> VERDEDRIVER = ITEMS.register("verde_v_buckle",
+	public static final RegistryObject<Item> VERDEDRIVER = ITEMS.register("v_buckle_verde",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"verde",BIOGREEZA_ADVENT ,RYUKIHELMET,RTUKICHESTPLATE,RYUKILEGGINGS , new Item.Properties())
 			.ChangeRepairItem(ADVENT_CARD.get()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
 	
-	public static final RegistryObject<Item> ABYSSDRIVER = ITEMS.register("abyss_v_buckle",
+	public static final RegistryObject<Item> ABYSSDRIVER = ITEMS.register("v_buckle_abyss",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"abyss",ABYSSLASHER_ADVENT ,RYUKIHELMET,RTUKICHESTPLATE,RYUKILEGGINGS , new Item.Properties())
 			.ChangeRepairItem(ADVENT_CARD.get()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
 	

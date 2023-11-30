@@ -1,0 +1,21 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "kamenridercraft:item/v_buckle_ryuki"
+    }
+,
+    "overrides": [
+        {
+            "predicate": {
+                "form": 1
+            },
+            "model": "kamenridercraft4th:item/v_buckle_ryuki_survive"
+        },
+          {
+            "predicate": {
+                "form": 2
+            },
+            "model": "kamenridercraft4th:item/v_buckle"
+        }
+    ]
+}
