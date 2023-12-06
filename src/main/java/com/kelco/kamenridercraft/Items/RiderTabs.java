@@ -96,6 +96,10 @@ public class RiderTabs {
 	CreativeModeTab.builder().icon(() -> new ItemStack(OOO_Rider_Items.OOOHELMET.get())).withBackgroundLocation(new ResourceLocation(KamenRiderCraftCore.MODID+":textures/gui/tab_ooo_items.png"))
 	.title(Component.literal("OOO Rider Items")).build());
 
+    public static RegistryObject<CreativeModeTab> EX_AIDTab = CREATIVE_MODE_TABS.register("krc_380_exaid_tab", () -> 
+   	CreativeModeTab.builder().icon(() -> new ItemStack(Ex_Aid_Rider_Items.EX_AIDHELMET.get())).withBackgroundLocation(new ResourceLocation(KamenRiderCraftCore.MODID+":textures/gui/tab_ex_aid_items.png"))
+   	.title(Component.literal("Ex-Aid Rider Items")).build());
+
     
     public static RegistryObject<CreativeModeTab> AMAZONSTab = CREATIVE_MODE_TABS.register("krc_041_amazons_tab", () -> 
 			CreativeModeTab.builder().icon(() -> new ItemStack(Reboot_Rider_Items.AMAZONSHELMET.get())).withBackgroundLocation(new ResourceLocation(KamenRiderCraftCore.MODID+":textures/gui/tab_amazons_items.png"))
@@ -126,6 +130,8 @@ public class RiderTabs {
     public static List<Item> KIVA_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> W_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> OOO_TAB_ITEM= new ArrayList<Item>();
+    
+    public static List<Item> EX_AID_TAB_ITEM= new ArrayList<Item>();
     
     public static List<Item> AMAZONS_TAB_ITEM= new ArrayList<Item>();
     public static List<Item> BLACK_SUN_TAB_ITEM= new ArrayList<Item>();
@@ -262,6 +268,12 @@ public class RiderTabs {
 			for (int i = 0; i < RiderTabs.OOO_TAB_ITEM.size(); i++)
 			{
 				event.accept( RiderTabs.OOO_TAB_ITEM.get(i));
+			}
+
+		}else if(event.getTab() == RiderTabs.EX_AIDTab.get()) {
+			for (int i = 0; i < RiderTabs.EX_AID_TAB_ITEM.size(); i++)
+			{
+				event.accept( RiderTabs.EX_AID_TAB_ITEM.get(i));
 			}
 
 		}else if(event.getTab() == RiderTabs.AMAZONSTab.get()) {

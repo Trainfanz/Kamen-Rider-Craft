@@ -36,8 +36,8 @@ public class Rider_Blocks {
 
 	public static final RegistryObject<Block> SHOCKER_MONITOR = registerBlock("shocker_monitor",
 			() -> new BaseFacingBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
-					.strength(5.0F, 6.0F).sound(SoundType.METAL).lightLevel((glow) -> { return 15; })).AddToTabList(RiderTabs.RIDER_BLOCK));
-	
+					.strength(5.0F, 6.0F).sound(SoundType.METAL)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	//.lightLevel((glow) -> { return 15; })
 	public static final RegistryObject<Block> AMAZON_CELL_EXTRACTOR = registerBlock("amazon_cell_extractor",
 			() -> new AmazonCellExtractor(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
 					.strength(5.0F, 6.0F).sound(SoundType.METAL)).AddToTabList(RiderTabs.RIDER_BLOCK));
@@ -89,12 +89,13 @@ public class Rider_Blocks {
 	
 	public static final RegistryObject<Block> PURE_GAIA_MEMORY_BLOCK = registerBlock("pure_gaia_memory_block",
 			() -> new BaseBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
-					.lightLevel((glow) -> { return 15; }).strength(2f)).AddToTabList(RiderTabs.RIDER_BLOCK));
-
+					.strength(2f)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	//.lightLevel((glow) -> { return 15; })
+	
 	public static final RegistryObject<Block> GAIA_MEMORY_ORE = registerBlock("gaiamemoryblock",
-			() -> new BaseBlockDropExperience(BlockBehaviour.Properties.copy(Blocks.STONE).lightLevel((glow) -> { return 15; })
+			() -> new BaseBlockDropExperience(BlockBehaviour.Properties.copy(Blocks.STONE)
 					.strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F), UniformInt.of(2, 6)).AddToTabList(RiderTabs.RIDER_BLOCK));
-
+	//.lightLevel((glow) -> { return 15; })
 	public static final RegistryObject<Block> DEEPSLATE_GAIA_MEMORY_ORE = registerBlock("deepslate_gaiamemoryblock",
 			() -> new BaseBlockDropExperience(BlockBehaviour.Properties.copy(Blocks.STONE)
 					.strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F).sound(SoundType.DEEPSLATE), UniformInt.of(2, 6)).AddToTabList(RiderTabs.RIDER_BLOCK));
@@ -115,8 +116,8 @@ public class Rider_Blocks {
 	
 	public static final RegistryObject<Block> MONITOR = registerBlock("monitor",
 			() -> new BaseFacingBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
-					.strength(5.0F, 6.0F).sound(SoundType.METAL).lightLevel((glow) -> { return 15; })).AddToTabList(RiderTabs.RIDER_BLOCK));
-	
+					.strength(5.0F, 6.0F).sound(SoundType.METAL)).AddToTabList(RiderTabs.RIDER_BLOCK));
+	//.lightLevel((glow) -> { return 15; })
 	public static final RegistryObject<Block> OVERLORD_OOPART = registerBlock("overlord_oopart",
 			() -> new BaseBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
 					.strength(5.0F, 6.0F).sound(SoundType.METAL)).AddToTabList(RiderTabs.RIDER_BLOCK));
