@@ -3,7 +3,6 @@ package com.kelco.kamenridercraft.Items.rider_armor_base;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 import com.google.common.collect.Lists;
 import com.kelco.kamenridercraft.Items.Modded_item_core;
@@ -27,6 +26,7 @@ public class RiderFormChangeItem extends BaseItem {
 	private List<Item> NEEDITEM = new ArrayList<Item>();
 	protected String RIDER_NAME;
 	private String BELT_TEX;
+	private String UPDATED_BELT_MODEL;
 	private String UPDATED_MODEL;
 	private String FLYING_MODEL;
 	private Boolean FLYING_TEXT = false;
@@ -68,6 +68,11 @@ public class RiderFormChangeItem extends BaseItem {
 		return BELT_TEX;
 	}
 
+	public String get_Belt_Model() {
+		if (UPDATED_BELT_MODEL!=null) return UPDATED_BELT_MODEL;
+		return "geo/riderbelt.geo.json";
+	}
+	
 	public String get_Model() {
 		if (UPDATED_MODEL!=null) return UPDATED_MODEL;
 		return "geo/ichigo.geo.json";
@@ -87,6 +92,10 @@ public class RiderFormChangeItem extends BaseItem {
 
 	public RiderFormChangeItem ChangeModel(String model) {
 		UPDATED_MODEL=model;
+		return this;
+	}
+	public RiderFormChangeItem ChangeBeltModel(String model) {
+		UPDATED_BELT_MODEL=model;
 		return this;
 	}
 	public RiderFormChangeItem ChangeSlot(int slot) {

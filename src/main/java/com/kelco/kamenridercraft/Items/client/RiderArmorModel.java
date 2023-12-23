@@ -25,7 +25,10 @@ public class RiderArmorModel extends GeoModel<RiderArmorItem> {
 	@Override
 	public ResourceLocation getModelResource(RiderArmorItem animatable) {
 		if (slot== EquipmentSlot.FEET) {
-			return new ResourceLocation(KamenRiderCraftCore.MODID, "geo/riderbelt.geo.json");
+			
+			RiderDriverItem BELT = ((RiderDriverItem)RIDER.getItemBySlot(EquipmentSlot.FEET).getItem()); 
+			
+			return BELT.getBeltModelResource(RIDER.getItemBySlot(EquipmentSlot.FEET),animatable,slot,RIDER);
 		}else {
 			
 			if (RIDER.getItemBySlot(EquipmentSlot.FEET).getItem() instanceof RiderDriverItem) {
