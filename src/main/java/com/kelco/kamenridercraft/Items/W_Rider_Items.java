@@ -323,7 +323,7 @@ public class W_Rider_Items {
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
 			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
 
-	public static final RegistryObject<Item> XTREMEM_T2_MEMORY = ITEMS.register("xtreme_t2_memory",
+	public static final RegistryObject<Item> XTREME_T2_MEMORY = ITEMS.register("xtreme_t2_memory",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.W_TAB_ITEM)
 			.AddToTabList(GaiaMemoryRefinerBlock.GAIA_MEMORY_T2, 1));
 

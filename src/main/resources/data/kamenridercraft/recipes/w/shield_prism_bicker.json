@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "w",
+  "pattern": [
+    "XCX",
+    "XZX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:gaiamemory"
+    }, "C": {
+      "item": "kamenridercraft:prism_memory"
+    }, "Z": {
+      "item": "minecraft:shield"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:shield_prism_bicker"
+  }
+}
