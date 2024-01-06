@@ -1,0 +1,14 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "kamenridercraft:item/gashacon_breaker"
+  },   "overrides": [
+       
+        {
+            "predicate": {
+                "pull": 1
+            },
+            "model": "kamenridercraft4th:item/gashacon_breaker_ham"
+        }
+    ]
+}

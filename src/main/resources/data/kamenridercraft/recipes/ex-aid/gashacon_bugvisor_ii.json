@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cronus",
+  "pattern": [
+    "XMX",
+    "XSX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:blank_gashat"
+    },
+    "S": {
+      "item": "kamenridercraft:base_sword"
+    },
+    "M": [
+	{
+      "item": "kamenridercraft:kamen_rider_chronicle_gashat"
+    },
+	{
+      "item": "kamenridercraft:toki_meki_crisis_gashat"
+    }
+	]
+  },
+  "result": {
+    "item": "kamenridercraft:gashacon_bugvisor_ii"
+  }    
+}
+

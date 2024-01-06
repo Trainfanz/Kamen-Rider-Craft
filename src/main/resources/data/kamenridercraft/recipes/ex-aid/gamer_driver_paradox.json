@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "para_dx",
+  "pattern": [
+    "XXX",
+    "XCP",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:blank_gashat"
+    }, "C": {
+      "item": "kamenridercraft:perfect_puzzle_gashat"
+    }, "P": {
+      "item": "kamenridercraft:knock_out_fighter_gashat"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:gamer_driver_paradox"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "gashat",
+  "ingredients": [
+	{ 
+      "item": "minecraft:iron_ingot"
+    },
+	{ 
+      "item": "minecraft:redstone"
+    }, 
+    {
+      "item": "kamenridercraft:xx_bugster_virus_dna"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft:mighty_brothers_xx_unfinished_gashat"
+  }
+}

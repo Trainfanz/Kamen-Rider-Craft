@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cronus",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:unfinished_kamen_rider_chronicle_gashat"
+    }, "C": {
+      "item": "kamenridercraft:kamen_rider_chronicle_gashat"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:gashacon_bugvisor_ii_chronos"
+  }
+}

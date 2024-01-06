@@ -1,0 +1,7 @@
+{
+  "_comment": "Generated using MiningMark48's JSON Generator.",
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "kamenridercraft:item/proto_mighty_action_x_gashat_origin"
+  }
+}

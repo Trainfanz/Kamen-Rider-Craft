@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cronus",
+  "pattern": [
+    "XXX",
+    "XCC",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:blank_gashat"
+    }, "C": {
+      "item": "kamenridercraft:kamen_rider_chronicle_gashat"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:gamer_driver_chronos"
+  }
+}

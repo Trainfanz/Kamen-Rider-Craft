@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "poppy",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:unfinished_kamen_rider_chronicle_gashat"
+    }, "C": {
+      "item": "kamenridercraft:toki_meki_crisis_gashat"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:gashacon_bugvisor_ii_poppy"
+  }
+}

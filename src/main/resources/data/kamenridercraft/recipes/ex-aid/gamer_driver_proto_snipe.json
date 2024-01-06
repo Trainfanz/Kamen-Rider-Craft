@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "snipe",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:blank_gashat"
+    }, "C": {
+      "item": "kamenridercraft:proto_bang_bang_shooting_gashat"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:gamer_driver_proto_snipe"
+  }
+}

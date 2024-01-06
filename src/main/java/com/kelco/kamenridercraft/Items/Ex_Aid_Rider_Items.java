@@ -56,7 +56,6 @@ public class Ex_Aid_Rider_Items {
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"robotgamer","ex_aid","gamer_driver_mighty_action_x",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 	/**    
-	gekitotsu_robots_gashat
 	doremifa_beat_gashat
 	jet_combat_gashat
 	giri_giri_chambara_gashat
@@ -112,7 +111,7 @@ public class Ex_Aid_Rider_Items {
 	xevious_gashat
 	galaxian_gashat
 	taiko_no_tatsujin_gashat
-	gabarizing_gashat
+	ganbarizing_gashat
 
 	poppy_doremifa_beat_gashat
 

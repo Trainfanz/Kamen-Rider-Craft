@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "nico_snipe",
+  "pattern": [
+    "XMX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:blank_gashat"
+    }, "C": {
+      "item": "kamenridercraft:bang_bang_shooting_gashat"
+    }, "M": {
+      "item": "kamenridercraft:kamen_rider_chronicle_gashat"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:gamer_driver_nico_snipe"
+  }
+}

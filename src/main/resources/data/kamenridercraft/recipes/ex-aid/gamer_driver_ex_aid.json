@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ex_aid",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:blank_gashat"
+    }, "C": {
+      "item": "kamenridercraft:mighty_action_x_gashat"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:gamer_driver_ex_aid"
+  }
+}
