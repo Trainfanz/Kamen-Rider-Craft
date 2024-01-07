@@ -33,8 +33,8 @@
 					"parent": "bipedBody",
 					"pivot": [0, 24, 0],
 					"cubes": [
-						{"origin": [-4, 12, -2], "size": [8, 12, 4], "inflate": 1, "uv": [16, 16]},
-						{"origin": [-4, 12, -2], "size": [8, 12, 4], "inflate": 1.5, "uv": [16, 32]}
+						{"origin": [-4, 12, -2], "size": [8, 12, 4], "inflate": 1.5, "uv": [16, 16]},
+						{"origin": [-4, 12, -2], "size": [8, 12, 4], "inflate": 2, "uv": [16, 32]}
 					]
 				},
 				{

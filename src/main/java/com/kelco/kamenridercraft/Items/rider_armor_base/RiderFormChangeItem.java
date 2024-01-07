@@ -135,7 +135,7 @@ public class RiderFormChangeItem extends BaseItem {
 		return this;
 	}
 	
-	public BaseItem AddCompatibilityList(String[] List) {
+	public RiderFormChangeItem AddCompatibilityList(String[] List) {
 		 compatibilityList=List;
 		return this;
 	}
