@@ -32,6 +32,7 @@ public class RiderFormChangeItem extends BaseItem {
 	private Boolean FLYING_TEXT = false;
 	private Item STIFT_ITEM = Items.APPLE;
 	private Item SWITCH_ITEM;
+	private Boolean RESET_FORM = false;
 
 	private List<RiderFormChangeItem> alternative = new ArrayList<RiderFormChangeItem>();
 	private RiderFormChangeItem alsoChange2ndSlot;
@@ -39,6 +40,10 @@ public class RiderFormChangeItem extends BaseItem {
 	private Boolean HAS_NEED_ITEM_LIST = false;
 	public List<Item> needItemList;
 
+	private RiderFormChangeItem NEED_FORM_SLOT_1;
+	private RiderFormChangeItem NEED_FORM_SLOT_2;
+	private RiderFormChangeItem NEED_FORM_SLOT_3;
+	private RiderFormChangeItem NEED_FORM_SLOT_4;
 	
 	public RiderFormChangeItem( Properties properties,int belt,String formName,String ridername,String beltTex, MobEffectInstance... effects) {
 		super( properties);
@@ -114,6 +119,19 @@ public class RiderFormChangeItem extends BaseItem {
 		return this;
 	}
 
+	public RiderFormChangeItem ResetFormToBase() {
+		RESET_FORM=true;
+		return this;
+	}
+
+	public RiderFormChangeItem addNeedForm(Item  item, int slot) {
+		if (slot==1)NEED_FORM_SLOT_1=((RiderFormChangeItem)item);
+		else if (slot==2)NEED_FORM_SLOT_2=((RiderFormChangeItem)item);
+		else if (slot==3)NEED_FORM_SLOT_3=((RiderFormChangeItem)item);
+		else if (slot==4)NEED_FORM_SLOT_4=((RiderFormChangeItem)item);
+		return this;
+	}
+	
 	public RiderFormChangeItem addNeedItem( Item item) {
 		NEEDITEM.add(item);
 		return this;
@@ -153,7 +171,7 @@ public class RiderFormChangeItem extends BaseItem {
 	}
 	
 	
-	public Boolean CanChange(Player player,RiderDriverItem belt) {
+	public Boolean CanChange(Player player,RiderDriverItem belt, ItemStack stack) {
 
 		if (this == Modded_item_core.BLANK_FORM.get()) {
 			return true;
@@ -169,6 +187,11 @@ public class RiderFormChangeItem extends BaseItem {
 				}
 			}
 		}
+		if (NEED_FORM_SLOT_1!=null )if (RiderDriverItem.get_Form_Item(stack, 1)!=NEED_FORM_SLOT_1)return false;
+		if (NEED_FORM_SLOT_2!=null )if (RiderDriverItem.get_Form_Item(stack, 2)!=NEED_FORM_SLOT_1)return false;
+		if (NEED_FORM_SLOT_3!=null )if (RiderDriverItem.get_Form_Item(stack, 3)!=NEED_FORM_SLOT_1)return false;
+		if (NEED_FORM_SLOT_4!=null )if (RiderDriverItem.get_Form_Item(stack, 4)!=NEED_FORM_SLOT_1)return false;
+		
 		if  (HAS_NEED_ITEM_LIST) {
 			for (int i = 0; i < needItemList.size(); i++)
 			{
@@ -191,8 +214,9 @@ public class RiderFormChangeItem extends BaseItem {
 			if (STIFT_ITEM instanceof RiderFormChangeItem& p_41129_.isShiftKeyDown()) {
 				((RiderFormChangeItem)STIFT_ITEM).use(p_41128_, p_41129_, p_41130_);
 			}
-			else if (CanChange(p_41129_,belt)) {
+			else if (CanChange(p_41129_,belt,BELT)) {
 				if (alsoChange2ndSlot !=null)RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),alsoChange2ndSlot, 2);
+				if (RESET_FORM)RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),belt.Base_Form_Item, 1);
 
 				if (SWITCH_ITEM!=null&RiderDriverItem.get_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET), Slot)==this) RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),SWITCH_ITEM, Slot);
 					else RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, Slot);
