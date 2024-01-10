@@ -238,7 +238,6 @@ public class Ex_Aid_Rider_Items {
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 40, 2,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
 	/**
-	mighty_creator_vrx_gashat
 	mighty_novel_x_gashat
 	ju_ju_burger_gashat
 	night_of_safari_gashat
