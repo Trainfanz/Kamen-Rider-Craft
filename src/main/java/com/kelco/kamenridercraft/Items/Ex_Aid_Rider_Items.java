@@ -245,24 +245,87 @@ public class Ex_Aid_Rider_Items {
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 40, 2,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
+	public static final RegistryObject<Item> JU_JU_BURGER_GASHAT = ITEMS.register("ju_ju_burger_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"burger_gamer","ex_aid","gamer_driver_mighty_action_x",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 4,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> NIGHT_OF_SAFARI_GASHAT = ITEMS.register("night_of_safari_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"safari_gamer","ex_aid","gamer_driver_mighty_action_x",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
+	public static final RegistryObject<Item> BANG_BANG_TANK_GASHAT = ITEMS.register("bang_bang_tank_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"tank_gamer","ex_aid","gamer_driver_mighty_action_x",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> TADDLE_LEGACY_GASHAT = ITEMS.register("taddle_legacy_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"legacy_gamer","brave","gamer_driver_taddle_legacy",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false)).ResetFormToBase().ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
+	public static final RegistryObject<Item> HURRICANE_NINJA_GASHAT = ITEMS.register("hurricane_ninja_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"","fuma","gamer_driver_hurricane",
+					new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> PAC_ADVENTURE_GASHAT = ITEMS.register("pac_adventure_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"pac_gamer","ex_aid","gamer_driver_mighty_action_x",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
+	public static final RegistryObject<Item> FAMITSA_GASHAT = ITEMS.register("famitsa_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"famitsa_gamer","ex_aid","gamer_driver_mighty_action_x",
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> XEVIOUS_GASHAT = ITEMS.register("xevious_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"xevious_gamer","ex_aid","gamer_driver_mighty_action_x",
+					new MobEffectInstance(Effect_core.FLYING.get(), 40, 0,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
+	public static final RegistryObject<Item> galaxian_GASHAT = ITEMS.register("galaxian_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"galaxian_gamer","ex_aid","gamer_driver_mighty_action_x",
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> TAIKO_NO_TATSUJIN_GASHAT = ITEMS.register("taiko_no_tatsujin_gashat",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> GANBERIZING_GASHAT = ITEMS.register("ganbarizing_gashat",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> POPPY_DOREMIFA_BEAT_GASHAT_GASHAT = ITEMS.register("poppy_doremifa_beat_gashat",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+
+	public static final RegistryObject<Item>  MIGHTY_BROTHERS_XX_GASHAT_L = ITEMS.register("mighty_brothers_xx_gashat_l",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_lvxxl","ex_aid","gamer_driver_mighty_brothers_xx",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()));
+	
+	public static final RegistryObject<Item>  MIGHTY_BROTHERS_XX_GASHAT_R = ITEMS.register("mighty_brothers_xx_gashat_r",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_lvxxr","ex_aid","gamer_driver_mighty_brothers_xx",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).addSwitchForm(MIGHTY_BROTHERS_XX_GASHAT_L.get()).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()));
+
+	public static final RegistryObject<Item> MIGHTY_BROTHERS_XX_GASHAT = ITEMS.register("mighty_brothers_xx_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_lvx","ex_aid","gamer_driver_mighty_brothers_x",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).ChangeModel("geo/lv_1.geo.json").ChangeBeltModel("geo/lv_1_belt.geo.json").addShiftForm(MIGHTY_BROTHERS_XX_GASHAT_R.get()).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> DOCTOR_MIGHTY_XX_GASHAT = ITEMS.register("doctor_mighty_xx_gashat",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
 	/**
-	mighty_novel_x_gashat
-	ju_ju_burger_gashat
-	night_of_safari_gashat
-
-	taddle_legacy_gashat
-	hurricane_ninja_gashat
-	bang_bang_tank_gashat
-
-	mighty_brothers_xx_gashat
-	doctor_mighty_xx_gashat
 	knock_out_fighter_2_gashat
-
-	maximum_mighty_x_gashat
-	god_maximum_mighty_x_gashat
-
-	hyper_muteki_gashat
-	gamedeus_hyper_muteki_gashat
 
 	taddle_fantasy_gashat
 	bang_bang_simulation_gashat
@@ -272,14 +335,12 @@ public class Ex_Aid_Rider_Items {
 
 	genm_musou_gashat
 
-	pac_adventure_gashat
-	famitsa_gashat
-	xevious_gashat
-	galaxian_gashat
-	taiko_no_tatsujin_gashat
-	ganbarizing_gashat
+	maximum_mighty_x_gashat
+	god_maximum_mighty_x_gashat
 
-	poppy_doremifa_beat_gashat
+	hyper_muteki_gashat
+	gamedeus_hyper_muteki_gashat
+
 
 	kamen_rider_build_gashat
 	kaigan_ghost_gashat
@@ -323,6 +384,10 @@ public class Ex_Aid_Rider_Items {
 
 	public static final RegistryObject<Item> GAMER_DRIVER_GENM = ITEMS.register("gamer_driver_genm",
 			() -> new GamerDriverItem(ArmorMaterials.DIAMOND,"genm",PROTO_MIGHTY_ACTION_X_GASHAT ,EX_AIDHELMET, EX_AIDCHESTPLATE,EX_AIDLEGGINGS , new Item.Properties())
+			.AddToTabList(RiderTabs.EX_AID_TAB_ITEM).ChangeRepairItem(BLANK_GASHAT.get()));
+
+	public static final RegistryObject<Item> GAMER_DRIVER_FUMA = ITEMS.register("gamer_driver_fuma",
+			() -> new GamerDriverItem(ArmorMaterials.DIAMOND,"fuma",HURRICANE_NINJA_GASHAT ,EX_AIDHELMET, EX_AIDCHESTPLATE,EX_AIDLEGGINGS , new Item.Properties())
 			.AddToTabList(RiderTabs.EX_AID_TAB_ITEM).ChangeRepairItem(BLANK_GASHAT.get()));
 
 
