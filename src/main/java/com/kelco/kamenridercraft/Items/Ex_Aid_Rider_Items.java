@@ -261,9 +261,10 @@ public class Ex_Aid_Rider_Items {
 
 	public static final RegistryObject<Item> TADDLE_LEGACY_GASHAT = ITEMS.register("taddle_legacy_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"legacy_gamer","brave","gamer_driver_taddle_legacy",
-					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
-					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false)).ResetFormToBase().ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 5,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false)).ResetFormToBase().ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 	
 	public static final RegistryObject<Item> HURRICANE_NINJA_GASHAT = ITEMS.register("hurricane_ninja_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","fuma","gamer_driver_hurricane",
@@ -324,13 +325,63 @@ public class Ex_Aid_Rider_Items {
 	public static final RegistryObject<Item> DOCTOR_MIGHTY_XX_GASHAT = ITEMS.register("doctor_mighty_xx_gashat",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
-	/**
-	knock_out_fighter_2_gashat
+	public static final RegistryObject<Item> KNOCK_OUT_FIGHTER_2_GASHAT = ITEMS.register("knock_out_fighter_2_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_lv39","ex_aid","gamer_driver_knock_out_fighter_2",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 4,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 4,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).AddCompatibilityList(new String[] {"para_dx_lv99"}).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
-	taddle_fantasy_gashat
-	bang_bang_simulation_gashat
-	perfect_puzzle_gashat
-	knock_out_fighter_gashat
+	public static final RegistryObject<Item> TADDLE_FANTASY_GASHAT = ITEMS.register("taddle_fantasy_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"fantasy_gamer","brave","gamer_driver_taddle_fantasy",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false)).ResetFormToBase().ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
+	public static final RegistryObject<Item> BANG_BANG_SIMULATION_GASHAT = ITEMS.register("bang_bang_simulation_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"simulation_gashat_gamer","brave","gamer_driver_bang_bang_simulation",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false)).ResetFormToBase().ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
+	
+	public static final RegistryObject<Item> GASHAT_GEAR_DUAL = ITEMS.register("gashat_gear_dual",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"","para_dx_lv99","gamer_driver_gashat_gear_dual",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()));
+
+	
+	public static final RegistryObject<Item> PERFECT_PUZZLE_GASHAT = ITEMS.register("perfect_puzzle_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"","para_dx","paradoxbelt",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).addAlternative(GASHAT_GEAR_DUAL.get()).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> KNOCK_OUT_FIGHTER_GASHAT = ITEMS.register("knock_out_fighter_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_fighter","para_dx","paradoxbelt",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false)).addAlternative(GASHAT_GEAR_DUAL.get()).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> GASHAT_GEAR_DUAL_ANOTHER = ITEMS.register("gashat_gear_dual_another",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"","another_para_dx","gamer_driver_gashat_gear_dual_another",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()));
+
+	/**
+
 	gashat_gear_dual_another
 
 	genm_musou_gashat
@@ -386,6 +437,10 @@ public class Ex_Aid_Rider_Items {
 			() -> new GamerDriverItem(ArmorMaterials.DIAMOND,"genm",PROTO_MIGHTY_ACTION_X_GASHAT ,EX_AIDHELMET, EX_AIDCHESTPLATE,EX_AIDLEGGINGS , new Item.Properties())
 			.AddToTabList(RiderTabs.EX_AID_TAB_ITEM).ChangeRepairItem(BLANK_GASHAT.get()));
 
+	public static final RegistryObject<Item> GAMER_DRIVER_PARA_DX = ITEMS.register("gamer_driver_para_dx",
+			() -> new GamerDriverItem(ArmorMaterials.DIAMOND,"para_dx_lv99",GASHAT_GEAR_DUAL ,EX_AIDHELMET, EX_AIDCHESTPLATE,EX_AIDLEGGINGS , new Item.Properties())
+			.AddToTabList(RiderTabs.EX_AID_TAB_ITEM).ChangeRepairItem(BLANK_GASHAT.get()));
+
 	public static final RegistryObject<Item> GAMER_DRIVER_FUMA = ITEMS.register("gamer_driver_fuma",
 			() -> new GamerDriverItem(ArmorMaterials.DIAMOND,"fuma",HURRICANE_NINJA_GASHAT ,EX_AIDHELMET, EX_AIDCHESTPLATE,EX_AIDLEGGINGS , new Item.Properties())
 			.AddToTabList(RiderTabs.EX_AID_TAB_ITEM).ChangeRepairItem(BLANK_GASHAT.get()));
@@ -418,6 +473,9 @@ public class Ex_Aid_Rider_Items {
 			() -> new GamerDriverItem(ArmorMaterials.DIAMOND,"lazer_lvx_",GIRI_GIRI_CHAMBARA_GASHAT ,EX_AIDHELMET, EX_AIDCHESTPLATE,EX_AIDLEGGINGS , new Item.Properties())
 			.Override_belt_text("gashacon_bugvisor_ii").AddToTabList(RiderTabs.EX_AID_TAB_ITEM).ChangeRepairItem(BLANK_GASHAT.get()));
 
+	public static final RegistryObject<Item> PARA_DX_BELT = ITEMS.register("paradoxbelt",
+			() -> new GamerDriverItem(ArmorMaterials.DIAMOND,"para_dx",PERFECT_PUZZLE_GASHAT ,EX_AIDHELMET, EX_AIDCHESTPLATE,EX_AIDLEGGINGS , new Item.Properties())
+			.AddToTabList(RiderTabs.EX_AID_TAB_ITEM).ChangeRepairItem(BLANK_GASHAT.get()));
 
 	public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);
