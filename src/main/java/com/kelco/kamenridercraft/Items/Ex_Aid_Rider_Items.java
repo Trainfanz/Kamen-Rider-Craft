@@ -27,10 +27,7 @@ public class Ex_Aid_Rider_Items {
 	public static final RegistryObject<Item> BLANK_GASHAT = ITEMS.register("blank_gashat",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
-	//mighty_brothers_xx_unfinished_gashat
-	//unfinished_maximum_mighty_x_gashat
-	//unfinished_hyper_muteki_gashat 
-	//unfinished_kamen_rider_chronicle_gashat
+	
 
 	public static final RegistryObject<Item> MIGHTY_ACTION_X_GASHAT_LV_1 = ITEMS.register("mighty_action_x_gashat_lv_1",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_lv1","ex_aid","gamer_driver_mighty_action_x_lv_1",
@@ -199,14 +196,31 @@ public class Ex_Aid_Rider_Items {
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
+
+	public static final RegistryObject<Item> DANGEROUS_ZOBIE_GASHAT_BD= ITEMS.register("dangerous_zombie_gashat_bd",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_lvx","genm_bugvisor","gamer_driver_dangerous_zombie_gashat",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.REGENERATION, 40, 3,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()));
+
+	
 	public static final RegistryObject<Item> DANGEROUS_ZOBIE_GASHAT= ITEMS.register("dangerous_zombie_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_lvx","genm","gamer_driver_dangerous_zombie_gashat",
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
-					new MobEffectInstance(MobEffects.REGENERATION, 40, 3,true,false)).addNeedForm(PROTO_MIGHTY_ACTION_X_GASHAT_ORIGIN.get(),1).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.REGENERATION, 40, 3,true,false)).addAlternative(DANGEROUS_ZOBIE_GASHAT_BD.get())
+			.addNeedForm(PROTO_MIGHTY_ACTION_X_GASHAT_ORIGIN.get(),1).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
+	public static final RegistryObject<Item> UNFINISHED_KAMEN_RIDER_CHRONICLE_GASHAT = ITEMS.register("unfinished_kamen_rider_chronicle_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"","ride_player","ride_player_belt",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	
 	public static final RegistryObject<Item> KAMEN_RIDER_CHRONICLE_GASHAT= ITEMS.register("kamen_rider_chronicle_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_cronus","snipe","gamer_driver_chronicle_gashat",
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 4,true,false),
@@ -243,7 +257,7 @@ public class Ex_Aid_Rider_Items {
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 4,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
-					new MobEffectInstance(MobEffects.NIGHT_VISION, 40, 2,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
 	public static final RegistryObject<Item> JU_JU_BURGER_GASHAT = ITEMS.register("ju_ju_burger_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"burger_gamer","ex_aid","gamer_driver_mighty_action_x",
@@ -298,7 +312,10 @@ public class Ex_Aid_Rider_Items {
 	public static final RegistryObject<Item> POPPY_DOREMIFA_BEAT_GASHAT_GASHAT = ITEMS.register("poppy_doremifa_beat_gashat",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
+	public static final RegistryObject<Item> MIGHTY_BROTHERS_XX_UNFINISHED_GASHAT = ITEMS.register("mighty_brothers_xx_unfinished_gashat",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
+	
 	public static final RegistryObject<Item>  MIGHTY_BROTHERS_XX_GASHAT_L = ITEMS.register("mighty_brothers_xx_gashat_l",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_lvxxl","ex_aid","gamer_driver_mighty_brothers_xx",
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
@@ -378,41 +395,199 @@ public class Ex_Aid_Rider_Items {
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
-					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()));
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
-	/**
+	public static final RegistryObject<Item> GENM_MUSOU_GASHAT = ITEMS.register("genm_musou_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_musou","genm","gamer_driver_genm_musou",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 4,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 4,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 5,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 6,true,false),
+					new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
+					new MobEffectInstance(MobEffects.SATURATION, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
-	gashat_gear_dual_another
+	public static final RegistryObject<Item> UNFINISHED_MAXIMUN_MIGHTY_X_GASHAT = ITEMS.register("unfinished_maximum_mighty_x_gashat",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
+	public static final RegistryObject<Item> MAXIMUN_MIGHTY_X_GASHAT_lv2 = ITEMS.register("mighty_action_x_gashat_lv2",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"","ex_aid","gamer_driver_maximum_mighty_x_lv2",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()));
 
-	genm_musou_gashat
+	
+	public static final RegistryObject<Item> MAXIMUN_MIGHTY_X_GASHAT = ITEMS.register("maximum_mighty_x_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_lv99","ex_aid","gamer_driver_maximum_mighty_x",
+					new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false)).addSwitchForm(MAXIMUN_MIGHTY_X_GASHAT_lv2.get())
+			.ChangeModel("geo/lv_max.geo.json").ChangeBeltModel("geo/lv_1_belt.geo.json").alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
-	maximum_mighty_x_gashat
-	god_maximum_mighty_x_gashat
+	
+	public static final RegistryObject<Item> GOD_MAXIMUN_MIGHTY_X_GASHAT_lv0 = ITEMS.register("god_mighty_action_x_gashat_lv0",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_lv0","genm","gamer_driver_god_maximum_mighty_x_lv0",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 4,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false),
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 1,true,false),
+					new MobEffectInstance(MobEffects.REGENERATION, 40, 4,true,false),
+					new MobEffectInstance(MobEffects.SATURATION, 40, 2,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()));
 
-	hyper_muteki_gashat
-	gamedeus_hyper_muteki_gashat
+	
+	public static final RegistryObject<Item> GOD_MAXIMUN_MIGHTY_X_GASHAT = ITEMS.register("god_maximum_mighty_x_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_lv_billion","genm","gamer_driver_god_maximum_mighty_x",
+					new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 6,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false),
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 1,true,false),
+					new MobEffectInstance(MobEffects.REGENERATION, 40, 4,true,false),
+					new MobEffectInstance(MobEffects.SATURATION, 40, 2,true,false)).addSwitchForm(MAXIMUN_MIGHTY_X_GASHAT_lv2.get())
+			.ChangeModel("geo/lv_max.geo.json").ChangeBeltModel("geo/lv_1_belt.geo.json").alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
+	public static final RegistryObject<Item> UNFINISHED_HYPER_MUTEKI_GASHAT= ITEMS.register("unfinished_hyper_muteki_gashat",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
-	kamen_rider_build_gashat
-	kaigan_ghost_gashat
-	full_throttle_drive_gashat
-	toukenden_gaim_gashat
-	magic_the_wizard_gashat
-	space_galaxy_fourze_gashat
-	jungle_ooo_gashat
-	detective_double_gashat
-	barcode_warrior_decade_gashat
-	dokidoki_makai_castle_kiva_gashat
-	time_express_den_o_gashat
-	insect_wars_kabuto_gashat
-	taiko_master_hibik_gashat
-	king_of_poker_blade_gashat
-	moshi_moshi_faiz_gashat
-	mirror_labryinth_ryuki_gashat
-	agito_of_the_sun_gashat
-	adventure_guy_kuuga_gashat
-	lets_go_ichigou_gashat
-	 **/
+	public static final RegistryObject<Item> HYPER_MUTEKI_GASHAT = ITEMS.register("hyper_muteki_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_muteki","ex_aid","gamer_driver_hyper_muteki",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 4,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 6,true,false),
+					new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
+					new MobEffectInstance(MobEffects.SATURATION, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false)).addNeedForm(MAXIMUN_MIGHTY_X_GASHAT.get(), 1).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> GEMEDEUS_HYPER_MUTEKI_GASHAT = ITEMS.register("gamedeus_hyper_muteki_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_muteki","gamedeus","gamer_driver_gamedeus_hyper_muteki",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 4,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 6,true,false),
+					new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
+					new MobEffectInstance(MobEffects.SATURATION, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false)).addNeedForm(MAXIMUN_MIGHTY_X_GASHAT.get(), 1).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> THE_UNBEATABLE_GAME= ITEMS.register("the_unbeatable_game",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_totema","genm_bugvisor","gamer_driver_dangerous_zombie_gashat",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.REGENERATION, 40, 3,true,false)).ChangeModel("geo/cyclonehopper_wingsarmor.geo.json").alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	
+	public static final RegistryObject<Item> KAMEN_RIDER_BUILD_GASHAT = ITEMS.register("kamen_rider_build_gashat",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> KAIGEN_GHOST_GASHAT_LV_1 = ITEMS.register("kaigan_ghost_gashat_lv_1",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_ghost_lv1","ex_aid","gamer_driver_kaigan_ghost_lv_1",
+					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false)).ChangeModel("geo/lv_1.geo.json").ChangeBeltModel("geo/lv_1_belt.geo.json").alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()));
+
+	public static final RegistryObject<Item> KAIGEN_GHOST_GASHAT = ITEMS.register("kaigan_ghost_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_ghost","ex_aid","gamer_driver_kaigan_ghost",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).addSwitchForm(KAIGEN_GHOST_GASHAT_LV_1.get()).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> FULL_THROTTLE_DRIVE_GASHAT = ITEMS.register("full_throttle_drive_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_drive","ex_aid","gamer_driver_full_throttle_drive",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> TOUKENDEN_GAIM_GASHAT = ITEMS.register("toukenden_gaim_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_gaim","ex_aid","gamer_driver_toukenden_gaim",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> MAGIC_THE_WIZARD_GASHAT_LV_1 = ITEMS.register("magic_the_wizard_gashat_lv_1",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_wizard_lv1","genm","gamer_driver_magic_the_wizard_lv_1",
+					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false)).ChangeModel("geo/lv_1.geo.json").ChangeBeltModel("geo/lv_1_belt.geo.json").alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()));
+
+	public static final RegistryObject<Item> MAGIC_THE_WIZARD_GASHAT = ITEMS.register("magic_the_wizard_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_wizard","genm","gamer_driver_magic_the_wizard",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).addSwitchForm(MAGIC_THE_WIZARD_GASHAT_LV_1.get()).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> SPACE_GALAXY_FOUZE_GASHAT = ITEMS.register("space_galaxy_fourze_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_fourze","genm","gamer_driver_space_galaxy_fourze",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> JUNGLE_OOO_GASHAT = ITEMS.register("jungle_ooo_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_ooo","genm","gamer_driver_jungle_ooo",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> DETECTICE_DOUBLE_GASHAT = ITEMS.register("detective_double_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_w","ex_aid","gamer_driver_detective_double",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
+	public static final RegistryObject<Item> BERCODE_WARRIOR_DECADE_GASHAT = ITEMS.register("barcode_warrior_decade_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_decade","ex_aid","gamer_driver_barcode_warrior_decade",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).AddCompatibilityList(new String[] {"genm"})
+			.alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> DOKIDOKI_MAKAI_CASTLE_KIVA_GASHAT = ITEMS.register("dokidoki_makai_castle_kiva_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kiva","ex_aid","gamer_driver_dokidoki_makai_castle_kiva",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
+	public static final RegistryObject<Item> TIME_EXPRESS_DEN_O_GASHAT = ITEMS.register("time_express_den_o_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_den_o","genm","gamer_driver_time_express_den_o",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> INSECT_WARS_KABUTO_GASHAT = ITEMS.register("insect_wars_kabuto_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kabuto","ex_aid","gamer_driver_insect_wars_kabuto",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
+	public static final RegistryObject<Item> TAIKO_MASTER_HIBIKI_GASHAT = ITEMS.register("taiko_master_hibiki_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_hibiki","genm","gamer_driver_taiko_master_hibiki",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> KING_OF_POKER_BLADE_GASHAT = ITEMS.register("king_of_poker_blade_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_blade","genm","gamer_driver_king_of_poker_blade",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> MOSHI_MOSHI_FAIZ_GASHAT = ITEMS.register("moshi_moshi_faiz_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_faiz","genm","gamer_driver_moshi_moshi_faiz",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> MIRROR_LABRYINTH_RYUKI_GASHAT = ITEMS.register("mirror_labryinth_ryuki_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_ryuki","ex_aid","gamer_driver_mirror_labryinth_ryuki",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> AGITO_OF_THE_SUN_GASHAT = ITEMS.register("agito_of_the_sun_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_agito","genm","gamer_driver_agito_of_the_sun",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> ADVENTURE_GUY_KUUGA_GASHAT = ITEMS.register("adventure_guy_kuuga_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kuuga","ex_aid","gamer_driver_adventure_guy_kuuga",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
+	public static final RegistryObject<Item> LETS_GO_ICHIGOU_GASHAT = ITEMS.register("lets_go_ichigou_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_ichigou","ex_aid","gamer_driver_lets_go_ichigou",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
 
 	public static final RegistryObject<Item> EX_AIDHELMET = ITEMS.register("ex_aidhead",
 			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).ChangeRepairItem(BLANK_GASHAT.get()));
@@ -445,8 +620,16 @@ public class Ex_Aid_Rider_Items {
 			() -> new GamerDriverItem(ArmorMaterials.DIAMOND,"fuma",HURRICANE_NINJA_GASHAT ,EX_AIDHELMET, EX_AIDCHESTPLATE,EX_AIDLEGGINGS , new Item.Properties())
 			.AddToTabList(RiderTabs.EX_AID_TAB_ITEM).ChangeRepairItem(BLANK_GASHAT.get()));
 
+	public static final RegistryObject<Item> GAMER_DRIVER_ANOTHER_PARA_DX = ITEMS.register("gamer_driver_anotherparadox",
+			() -> new GamerDriverItem(ArmorMaterials.DIAMOND,"another_para_dx",GASHAT_GEAR_DUAL_ANOTHER ,EX_AIDHELMET, EX_AIDCHESTPLATE,EX_AIDLEGGINGS , new Item.Properties())
+			.AddToTabList(RiderTabs.EX_AID_TAB_ITEM).ChangeRepairItem(BLANK_GASHAT.get()));
 
+	
+	public static final RegistryObject<Item> GAMER_DRIVER_SNIPE_NICO = ITEMS.register("gamer_driver_snipe_nico",
+			() -> new GamerDriverItem(ArmorMaterials.DIAMOND,"snipe_nico",BANG_BANG_SHOOTING_GASHAT ,EX_AIDHELMET, EX_AIDCHESTPLATE,EX_AIDLEGGINGS , new Item.Properties())
+			.AddToTabList(RiderTabs.EX_AID_TAB_ITEM).ChangeRepairItem(BLANK_GASHAT.get()));
 
+	
 	public static final RegistryObject<Item> GAMER_DRIVER_PROTO_BRAVE = ITEMS.register("gamer_driver_proto_brave",
 			() -> new GamerDriverItem(ArmorMaterials.DIAMOND,"proto_brave",PROTO_TADDLE_QUEST_X_GASHAT ,EX_AIDHELMET, EX_AIDCHESTPLATE,EX_AIDLEGGINGS , new Item.Properties())
 			.AddToTabList(RiderTabs.EX_AID_TAB_ITEM).ChangeRepairItem(BLANK_GASHAT.get()));
@@ -475,6 +658,18 @@ public class Ex_Aid_Rider_Items {
 
 	public static final RegistryObject<Item> PARA_DX_BELT = ITEMS.register("paradoxbelt",
 			() -> new GamerDriverItem(ArmorMaterials.DIAMOND,"para_dx",PERFECT_PUZZLE_GASHAT ,EX_AIDHELMET, EX_AIDCHESTPLATE,EX_AIDLEGGINGS , new Item.Properties())
+			.AddToTabList(RiderTabs.EX_AID_TAB_ITEM).ChangeRepairItem(BLANK_GASHAT.get()));
+
+	public static final RegistryObject<Item> RIDE_PLAYER_BELT = ITEMS.register("rideplayerbelt",
+			() -> new GamerDriverItem(ArmorMaterials.DIAMOND,"ride_player",UNFINISHED_KAMEN_RIDER_CHRONICLE_GASHAT ,EX_AIDHELMET, EX_AIDCHESTPLATE,EX_AIDLEGGINGS , new Item.Properties())
+			.AddToTabList(RiderTabs.EX_AID_TAB_ITEM).ChangeRepairItem(BLANK_GASHAT.get()));
+
+	public static final RegistryObject<Item> RIDE_PLAYER_BELT_NICO = ITEMS.register("rideplayerbelt_nico",
+			() -> new GamerDriverItem(ArmorMaterials.DIAMOND,"ride_player_nico",UNFINISHED_KAMEN_RIDER_CHRONICLE_GASHAT ,EX_AIDHELMET, EX_AIDCHESTPLATE,EX_AIDLEGGINGS , new Item.Properties())
+			.AddToTabList(RiderTabs.EX_AID_TAB_ITEM).ChangeRepairItem(BLANK_GASHAT.get()));
+
+	public static final RegistryObject<Item> NINjA_PLAYER_BELT = ITEMS.register("ninjaplayerbelt",
+			() -> new GamerDriverItem(ArmorMaterials.DIAMOND,"ninja_player",UNFINISHED_KAMEN_RIDER_CHRONICLE_GASHAT ,EX_AIDHELMET, EX_AIDCHESTPLATE,EX_AIDLEGGINGS , new Item.Properties())
 			.AddToTabList(RiderTabs.EX_AID_TAB_ITEM).ChangeRepairItem(BLANK_GASHAT.get()));
 
 	public static void register(IEventBus eventBus) {
