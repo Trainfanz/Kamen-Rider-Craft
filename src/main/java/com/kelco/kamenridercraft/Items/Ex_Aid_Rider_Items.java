@@ -67,11 +67,11 @@ public class Ex_Aid_Rider_Items {
 
 	public static final RegistryObject<Item> DOREMIFA_BEAT_GASHAT = ITEMS.register("doremifa_beat_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"beat_gamer","ex_aid","gamer_driver_mighty_action_x",
-					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false)).AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
 	public static final RegistryObject<Item> JET_COMBAT_GASHAT = ITEMS.register("jet_combat_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"combat_gamer","ex_aid","gamer_driver_mighty_action_x",
-					new MobEffectInstance(Effect_core.BOOST.get(), 40, 1,true,false)).AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(Effect_core.BOOST.get(), 40, 1,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
 	public static final RegistryObject<Item> GIRI_GIRI_CHAMBARA_GASHAT = ITEMS.register("giri_giri_chambara_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"chambara_gamer","lazer","gamer_driver_doremifa",
@@ -81,29 +81,30 @@ public class Ex_Aid_Rider_Items {
 	public static final RegistryObject<Item> SHAKARIKI_SPORTS_GASHAT = ITEMS.register("shakariki_sports_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"sports_gamer","ex_aid","gamer_driver_mighty_action_x",
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
-					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)).AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
 
 	public static final RegistryObject<Item> DRAGO_KNIGHT_HUNTER_Z_GASHAT_CLAW = ITEMS.register("gekitotsu_robots_gashat_claw",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"hunter_gamer_claw","lazer","gamer_driver_mighty_action_x",
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).ChangeSlot(2));
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).ResetFormToBase().ChangeSlot(2));
 
 	public static final RegistryObject<Item> DRAGO_KNIGHT_HUNTER_Z_GASHAT_GUN = ITEMS.register("gekitotsu_robots_gashat_gun",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"hunter_gamer_gun","snipe","gamer_driver_mighty_action_x",
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).addAlternative(DRAGO_KNIGHT_HUNTER_Z_GASHAT_CLAW.get()).ChangeSlot(2));
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).ResetFormToBase().addAlternative(DRAGO_KNIGHT_HUNTER_Z_GASHAT_CLAW.get()).ChangeSlot(2));
 
 	public static final RegistryObject<Item> DRAGO_KNIGHT_HUNTER_Z_GASHAT_BLADE = ITEMS.register("gekitotsu_robots_gashat_blade",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"hunter_gamer_blade","brave","gamer_driver_mighty_action_x",
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).addAlternative(DRAGO_KNIGHT_HUNTER_Z_GASHAT_GUN.get()).ChangeSlot(2));
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).ResetFormToBase().addAlternative(DRAGO_KNIGHT_HUNTER_Z_GASHAT_GUN.get()).ChangeSlot(2));
 
 	public static final RegistryObject<Item> DRAGO_KNIGHT_HUNTER_Z_GASHAT_FANG = ITEMS.register("gekitotsu_robots_gashat_fang",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"hunter_gamer_fang","ex_aid","gamer_driver_mighty_action_x",
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).addAlternative(DRAGO_KNIGHT_HUNTER_Z_GASHAT_BLADE.get()).ChangeSlot(2));
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).ResetFormToBase().addAlternative(DRAGO_KNIGHT_HUNTER_Z_GASHAT_BLADE.get()).ChangeSlot(2));
 
 	public static final RegistryObject<Item> DRAGO_KNIGHT_HUNTER_Z_GASHAT = ITEMS.register("drago_knight_hunter_z_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"hunter_gamer","ex_aid","gamer_driver_mighty_action_x",
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
-					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)).addShiftForm(DRAGO_KNIGHT_HUNTER_Z_GASHAT_FANG.get()).AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)).ResetFormToBase().addShiftForm(DRAGO_KNIGHT_HUNTER_Z_GASHAT_FANG.get())
+			.AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
 
 	public static final RegistryObject<Item> PROTO_MIGHTY_ACTION_X_GASHAT_LV_1 = ITEMS.register("proto_mighty_action_x_gashat_lv_1",
@@ -134,17 +135,20 @@ public class Ex_Aid_Rider_Items {
 
 	public static final RegistryObject<Item> PROTO_GEKITOTSU_ROBOTS_GASHAT = ITEMS.register("proto_gekitotsu_robots_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"proto_robot_gamer","ex_aid","gamer_driver_mighty_action_x",
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false)).AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers)
+			.ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
 	public static final RegistryObject<Item> PROTO_DOREMIFA_BEAT_GASHAT = ITEMS.register("proto_doremifa_beat_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"proto_beat_gamer","ex_aid","gamer_driver_mighty_action_x",
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers)
+			.ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
 	public static final RegistryObject<Item> PROTO_JET_COMBAT_GASHAT = ITEMS.register("proto_jet_combat_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"proto_combat_gamer","ex_aid","gamer_driver_mighty_action_x",
 					new MobEffectInstance(Effect_core.BOOST.get(), 40, 1,true,false),
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers)
+			.ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
 	public static final RegistryObject<Item> PROTO_GIRI_GIRI_CHAMBARA_GASHAT = ITEMS.register("proto_giri_giri_chambara_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"proto_chambara_gamer","lazer","gamer_driver_doremifa",
@@ -155,7 +159,8 @@ public class Ex_Aid_Rider_Items {
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"proto_sports_gamer","ex_aid","gamer_driver_mighty_action_x",
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers)
+			.ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
 	public static final RegistryObject<Item> PROTO_DRAGO_KNIGHT_HUNTER_Z_GASHAT_CLAW = ITEMS.register("proto_gekitotsu_robots_gashat_claw",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"proto_hunter_gamer_claw","lazer","gamer_driver_mighty_action_x",
@@ -165,22 +170,26 @@ public class Ex_Aid_Rider_Items {
 	public static final RegistryObject<Item> PROTO_DRAGO_KNIGHT_HUNTER_Z_GASHAT_GUN = ITEMS.register("proto_gekitotsu_robots_gashat_gun",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"proto_hunter_gamer_gun","snipe","gamer_driver_mighty_action_x",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
-					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false)).addAlternative(PROTO_DRAGO_KNIGHT_HUNTER_Z_GASHAT_CLAW.get()).ChangeSlot(2));
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false)).ResetFormToBase()
+			.addAlternative(PROTO_DRAGO_KNIGHT_HUNTER_Z_GASHAT_CLAW.get()).ChangeSlot(2));
 
 	public static final RegistryObject<Item> PROTO_DRAGO_KNIGHT_HUNTER_Z_GASHAT_BLADE = ITEMS.register("proto_gekitotsu_robots_gashat_blade",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"proto_hunter_gamer_blade","brave","gamer_driver_mighty_action_x",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
-					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false)).addAlternative(PROTO_DRAGO_KNIGHT_HUNTER_Z_GASHAT_GUN.get()).ChangeSlot(2));
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false)).ResetFormToBase()
+			.addAlternative(PROTO_DRAGO_KNIGHT_HUNTER_Z_GASHAT_GUN.get()).ChangeSlot(2));
 
 	public static final RegistryObject<Item> PROTO_DRAGO_KNIGHT_HUNTER_Z_GASHAT_FANG = ITEMS.register("proto_gekitotsu_robots_gashat_fang",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"proto_hunter_gamer_fang","ex_aid","gamer_driver_mighty_action_x",
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false)).addAlternative(PROTO_DRAGO_KNIGHT_HUNTER_Z_GASHAT_BLADE.get()).ChangeSlot(2));
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false)).ResetFormToBase()
+			.addAlternative(PROTO_DRAGO_KNIGHT_HUNTER_Z_GASHAT_BLADE.get()).ChangeSlot(2));
 
 	public static final RegistryObject<Item> PROTO_DRAGO_KNIGHT_HUNTER_Z_GASHAT = ITEMS.register("proto_drago_knight_hunter_z_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"proto_hunter_gamer","ex_aid","gamer_driver_mighty_action_x",
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).addShiftForm(PROTO_DRAGO_KNIGHT_HUNTER_Z_GASHAT_FANG.get()).AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).ResetFormToBase()
+			.addShiftForm(PROTO_DRAGO_KNIGHT_HUNTER_Z_GASHAT_FANG.get()).AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
 	public static final RegistryObject<Item> PROTO_MIGHTY_ACTION_X_GASHAT_ORIGIN = ITEMS.register("proto_mighty_action_x_gashat_origin",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_lv0","genm","gamer_driver_proto_mighty_action_x_origin",
@@ -194,7 +203,8 @@ public class Ex_Aid_Rider_Items {
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).ResetFormToBase()
+			.alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
 
 	public static final RegistryObject<Item> DANGEROUS_ZOBIE_GASHAT_BD= ITEMS.register("dangerous_zombie_gashat_bd",
