@@ -1,6 +1,8 @@
 package com.kelco.kamenridercraft.Items;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.Blocks.MachineBlocks.GaiaMemoryRefinerBlock;
+import com.kelco.kamenridercraft.Blocks.MachineBlocks.GameCreator;
 import com.kelco.kamenridercraft.Effect.Effect_core;
 import com.kelco.kamenridercraft.Items.ex_aid.GamerDriverItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
@@ -36,7 +38,7 @@ public class Ex_Aid_Rider_Items {
 	public static final RegistryObject<Item> MIGHTY_ACTION_X_GASHAT = ITEMS.register("mighty_action_x_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","ex_aid","gamer_driver_mighty_action_x",
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
-					new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).addSwitchForm(MIGHTY_ACTION_X_GASHAT_LV_1.get()).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).addSwitchForm(MIGHTY_ACTION_X_GASHAT_LV_1.get()).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_GASHAT, 20));
 
 	public static final RegistryObject<Item> TADDLE_QUEST_GASHAT_LV_1 = ITEMS.register("taddle_quest_gashat_lv_1",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_lv1","brave","gamer_driver_taddle_quest_lv_1",
@@ -44,7 +46,7 @@ public class Ex_Aid_Rider_Items {
 
 	public static final RegistryObject<Item> TADDLE_QUEST_X_GASHAT = ITEMS.register("taddle_quest_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","brave","gamer_driver_taddle_quest",
-					new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).addSwitchForm(TADDLE_QUEST_GASHAT_LV_1.get()).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).addSwitchForm(TADDLE_QUEST_GASHAT_LV_1.get()).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_GASHAT, 15));
 
 	public static final RegistryObject<Item> BANG_BANG_SHOOTING_GASHAT_LV_1 = ITEMS.register("bang_bang_shooting_gashat_lv_1",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_lv1","snipe","gamer_driver_bang_bang_shooting_lv_1",
@@ -52,7 +54,7 @@ public class Ex_Aid_Rider_Items {
 
 	public static final RegistryObject<Item> BANG_BANG_SHOOTING_GASHAT = ITEMS.register("bang_bang_shooting_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","snipe","gamer_driver_bang_bang_shooting",
-					new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).addSwitchForm(BANG_BANG_SHOOTING_GASHAT_LV_1.get()).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).addSwitchForm(BANG_BANG_SHOOTING_GASHAT_LV_1.get()).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_GASHAT, 15));
 
 	/**
 	bakusou_bike_gashat
@@ -63,25 +65,25 @@ public class Ex_Aid_Rider_Items {
 
 	public static final RegistryObject<Item> GEKITOTSU_ROBOTS_GASHAT = ITEMS.register("gekitotsu_robots_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"robot_gamer","ex_aid","gamer_driver_mighty_action_x",
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_GASHAT, 10));
 
 	public static final RegistryObject<Item> DOREMIFA_BEAT_GASHAT = ITEMS.register("doremifa_beat_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"beat_gamer","ex_aid","gamer_driver_mighty_action_x",
-					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_GASHAT, 10));
 
 	public static final RegistryObject<Item> JET_COMBAT_GASHAT = ITEMS.register("jet_combat_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"combat_gamer","ex_aid","gamer_driver_mighty_action_x",
-					new MobEffectInstance(Effect_core.BOOST.get(), 40, 1,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(Effect_core.BOOST.get(), 40, 1,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_GASHAT, 10));
 
 	public static final RegistryObject<Item> GIRI_GIRI_CHAMBARA_GASHAT = ITEMS.register("giri_giri_chambara_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"chambara_gamer","lazer","gamer_driver_doremifa",
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
-					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_GASHAT, 10));
 
 	public static final RegistryObject<Item> SHAKARIKI_SPORTS_GASHAT = ITEMS.register("shakariki_sports_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"sports_gamer","ex_aid","gamer_driver_mighty_action_x",
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
-					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_GASHAT, 10));
 
 
 	public static final RegistryObject<Item> DRAGO_KNIGHT_HUNTER_Z_GASHAT_CLAW = ITEMS.register("gekitotsu_robots_gashat_claw",
@@ -104,7 +106,7 @@ public class Ex_Aid_Rider_Items {
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"hunter_gamer","ex_aid","gamer_driver_mighty_action_x",
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)).ResetFormToBase().addShiftForm(DRAGO_KNIGHT_HUNTER_Z_GASHAT_FANG.get())
-			.AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+			.AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_GASHAT, 5));
 
 
 	public static final RegistryObject<Item> PROTO_MIGHTY_ACTION_X_GASHAT_LV_1 = ITEMS.register("proto_mighty_action_x_gashat_lv_1",
@@ -237,7 +239,7 @@ public class Ex_Aid_Rider_Items {
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),
-					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false)).AddCompatibilityList(new String[] {"cronus"}).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false)).AddCompatibilityList(new String[] {"cronus"}).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_CHRONICLE_GASHAT, 20));
 
 	public static final RegistryObject<Item> TOKI_MEKI_CRISIS_GASHAT_RED_EYES= ITEMS.register("toki_meki_crisis_gashat_red_eyes",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_red","poppy","gashacon_bugvisor_ii",
@@ -271,31 +273,31 @@ public class Ex_Aid_Rider_Items {
 
 	public static final RegistryObject<Item> JU_JU_BURGER_GASHAT = ITEMS.register("ju_ju_burger_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"burger_gamer","ex_aid","gamer_driver_mighty_action_x",
-					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 4,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 4,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_GASHAT, 5));
 
 	public static final RegistryObject<Item> NIGHT_OF_SAFARI_GASHAT = ITEMS.register("night_of_safari_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"safari_gamer","ex_aid","gamer_driver_mighty_action_x",
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
-					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_GASHAT, 5));
 	
 	public static final RegistryObject<Item> BANG_BANG_TANK_GASHAT = ITEMS.register("bang_bang_tank_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"tank_gamer","ex_aid","gamer_driver_mighty_action_x",
-					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_GASHAT, 5));
 
 	public static final RegistryObject<Item> TADDLE_LEGACY_GASHAT = ITEMS.register("taddle_legacy_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"legacy_gamer","brave","gamer_driver_taddle_legacy",
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 5,true,false),
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false)).ResetFormToBase().ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false)).ResetFormToBase().ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_GASHAT, 5));
 	
 	public static final RegistryObject<Item> HURRICANE_NINJA_GASHAT = ITEMS.register("hurricane_ninja_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","fuma","gamer_driver_hurricane",
 					new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_GASHAT, 5));
 
 	public static final RegistryObject<Item> PAC_ADVENTURE_GASHAT = ITEMS.register("pac_adventure_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"pac_gamer","ex_aid","gamer_driver_mighty_action_x",
@@ -347,10 +349,10 @@ public class Ex_Aid_Rider_Items {
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
-					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).ChangeModel("geo/lv_1.geo.json").ChangeBeltModel("geo/lv_1_belt.geo.json").addShiftForm(MIGHTY_BROTHERS_XX_GASHAT_R.get()).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).ChangeModel("geo/lv_1.geo.json").ChangeBeltModel("geo/lv_1_belt.geo.json").addShiftForm(MIGHTY_BROTHERS_XX_GASHAT_R.get()).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_DOUBLE_GASHAT, 20));
 
 	public static final RegistryObject<Item> DOCTOR_MIGHTY_XX_GASHAT = ITEMS.register("doctor_mighty_xx_gashat",
-			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_DOUBLE_GASHAT, 5));
 
 	public static final RegistryObject<Item> KNOCK_OUT_FIGHTER_2_GASHAT = ITEMS.register("knock_out_fighter_2_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_lv39","ex_aid","gamer_driver_knock_out_fighter_2",
@@ -358,21 +360,21 @@ public class Ex_Aid_Rider_Items {
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 4,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
-					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).AddCompatibilityList(new String[] {"para_dx_lv99"}).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).AddCompatibilityList(new String[] {"para_dx_lv99"}).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_DOUBLE_GASHAT, 5));
 
 	public static final RegistryObject<Item> TADDLE_FANTASY_GASHAT = ITEMS.register("taddle_fantasy_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"fantasy_gamer","brave","gamer_driver_taddle_fantasy",
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false)).ResetFormToBase().ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false)).ResetFormToBase().ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_DOUBLE_GASHAT, 15));
 	
 	public static final RegistryObject<Item> BANG_BANG_SIMULATION_GASHAT = ITEMS.register("bang_bang_simulation_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"simulation_gashat_gamer","brave","gamer_driver_bang_bang_simulation",
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false)).ResetFormToBase().ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false)).ResetFormToBase().ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_DOUBLE_GASHAT, 15));
 	
 	
 	public static final RegistryObject<Item> GASHAT_GEAR_DUAL = ITEMS.register("gashat_gear_dual",
@@ -390,14 +392,14 @@ public class Ex_Aid_Rider_Items {
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
-					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).addAlternative(GASHAT_GEAR_DUAL.get()).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).addAlternative(GASHAT_GEAR_DUAL.get()).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_DOUBLE_GASHAT, 10));
 
 	public static final RegistryObject<Item> KNOCK_OUT_FIGHTER_GASHAT = ITEMS.register("knock_out_fighter_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_fighter","para_dx","paradoxbelt",
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),
-					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false)).addAlternative(GASHAT_GEAR_DUAL.get()).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false)).addAlternative(GASHAT_GEAR_DUAL.get()).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_DOUBLE_GASHAT, 10));
 
 	public static final RegistryObject<Item> GASHAT_GEAR_DUAL_ANOTHER = ITEMS.register("gashat_gear_dual_another",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","another_para_dx","gamer_driver_gashat_gear_dual_another",
@@ -405,7 +407,7 @@ public class Ex_Aid_Rider_Items {
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
-					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_DOUBLE_GASHAT, 5));
 
 	public static final RegistryObject<Item> GENM_MUSOU_GASHAT = ITEMS.register("genm_musou_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_musou","genm","gamer_driver_genm_musou",
@@ -435,7 +437,7 @@ public class Ex_Aid_Rider_Items {
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false)).addSwitchForm(MAXIMUN_MIGHTY_X_GASHAT_lv2.get())
-			.ChangeModel("geo/lv_max.geo.json").ChangeBeltModel("geo/lv_1_belt.geo.json").alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+			.ChangeModel("geo/lv_max.geo.json").ChangeBeltModel("geo/lv_1_belt.geo.json").alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_MAXIMUM_GASHAT, 20));
 
 	
 	public static final RegistryObject<Item> GOD_MAXIMUN_MIGHTY_X_GASHAT_lv0 = ITEMS.register("god_mighty_action_x_gashat_lv0",
@@ -460,7 +462,7 @@ public class Ex_Aid_Rider_Items {
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 1,true,false),
 					new MobEffectInstance(MobEffects.REGENERATION, 40, 4,true,false),
 					new MobEffectInstance(MobEffects.SATURATION, 40, 2,true,false)).addSwitchForm(MAXIMUN_MIGHTY_X_GASHAT_lv2.get())
-			.ChangeModel("geo/lv_max.geo.json").ChangeBeltModel("geo/lv_1_belt.geo.json").alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+			.ChangeModel("geo/lv_max.geo.json").ChangeBeltModel("geo/lv_1_belt.geo.json").alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_MAXIMUM_GASHAT, 5));
 
 	public static final RegistryObject<Item> UNFINISHED_HYPER_MUTEKI_GASHAT= ITEMS.register("unfinished_hyper_muteki_gashat",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
@@ -474,7 +476,7 @@ public class Ex_Aid_Rider_Items {
 					new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
 					new MobEffectInstance(MobEffects.SATURATION, 40, 2,true,false),
-					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false)).addNeedForm(MAXIMUN_MIGHTY_X_GASHAT.get(), 1).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false)).addNeedForm(MAXIMUN_MIGHTY_X_GASHAT.get(), 1).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_HYPER_GASHAT, 20));
 
 	public static final RegistryObject<Item> GEMEDEUS_HYPER_MUTEKI_GASHAT = ITEMS.register("gamedeus_hyper_muteki_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_muteki","gamedeus","gamer_driver_gamedeus_hyper_muteki",
@@ -485,7 +487,7 @@ public class Ex_Aid_Rider_Items {
 					new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
 					new MobEffectInstance(MobEffects.SATURATION, 40, 2,true,false),
-					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false)).addNeedForm(MAXIMUN_MIGHTY_X_GASHAT.get(), 1).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false)).addNeedForm(MAXIMUN_MIGHTY_X_GASHAT.get(), 1).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_HYPER_GASHAT, 5));
 
 	public static final RegistryObject<Item> THE_UNBEATABLE_GAME= ITEMS.register("the_unbeatable_game",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_totema","genm_bugvisor","gamer_driver_dangerous_zombie_gashat",

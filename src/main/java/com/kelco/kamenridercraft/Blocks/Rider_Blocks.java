@@ -9,6 +9,7 @@ import com.kelco.kamenridercraft.Blocks.MachineBlocks.AmazonCellMutator;
 import com.kelco.kamenridercraft.Blocks.MachineBlocks.CellMedalProgramer;
 import com.kelco.kamenridercraft.Blocks.MachineBlocks.GSystemChipProgrammer;
 import com.kelco.kamenridercraft.Blocks.MachineBlocks.GaiaMemoryRefinerBlock;
+import com.kelco.kamenridercraft.Blocks.MachineBlocks.GameCreator;
 import com.kelco.kamenridercraft.Blocks.MachineBlocks.KaijinStoneGenerator;
 import com.kelco.kamenridercraft.Entities.MobsCore;
 import com.kelco.kamenridercraft.Items.Modded_item_core;
@@ -109,6 +110,10 @@ public class Rider_Blocks {
 			() -> new CellMedalProgramer(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
 					.strength(5.0F, 6.0F).sound(SoundType.METAL)).AddToTabList(RiderTabs.RIDER_BLOCK));
 	
+	
+	public static final RegistryObject<Block> GAME_CREATOR = registerBlock("gamecreator",
+			() -> new GameCreator(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+					.strength(5.0F, 6.0F).sound(SoundType.METAL)).AddToTabList(RiderTabs.RIDER_BLOCK));
 	
 	public static final RegistryObject<Block> COUNTER_95DO = registerBlock("counter_95do",
 			() -> new BaseFacingBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)

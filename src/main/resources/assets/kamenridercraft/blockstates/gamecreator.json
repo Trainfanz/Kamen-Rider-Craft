@@ -1,0 +1,8 @@
+{
+    "variants":{   
+    "facing=north": { "model": "kamenridercraft:block/gamecreator" },
+    "facing=south": { "model": "kamenridercraft:block/gamecreator", "y": 180 },
+    "facing=west": { "model": "kamenridercraft:block/gamecreator", "y": 270 },
+    "facing=east": { "model": "kamenridercraft:block/gamecreator", "y": 90 }
+  }
+ }
