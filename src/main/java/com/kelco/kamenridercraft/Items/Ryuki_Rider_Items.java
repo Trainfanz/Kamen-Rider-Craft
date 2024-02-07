@@ -2,6 +2,7 @@ package com.kelco.kamenridercraft.Items;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
+import com.kelco.kamenridercraft.Items.rider_armor_base.BaseSwordItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderArmorItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderDriverItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderFormChangeItem;
@@ -11,6 +12,8 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -26,8 +29,7 @@ public class Ryuki_Rider_Items {
 	public static final RegistryObject<Item> ADVENT_CARD = ITEMS.register("advent_card",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"_blank","ryuki","v_buckle_belt",
             		new MobEffectInstance(MobEffects.WEAKNESS, 400, 0,true,false)).AddCompatibilityList(new String[] {"ouja","knight"}).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
-  
-	
+
 	  public static final RegistryObject<Item> DRAGREDER_ADVENT = ITEMS.register("dragreder_advent",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"","ryuki","v_buckle_belt_ryuki",
 	            		new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false)
@@ -217,15 +219,28 @@ public class Ryuki_Rider_Items {
 	public static final RegistryObject<Item> ALTERNATIVEZERODRIVER = ITEMS.register("alternative_zero_v_buckle",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"alternative_zero",PSYCOROGUE_ADVENT ,RYUKIHELMET,RTUKICHESTPLATE,RYUKILEGGINGS , new Item.Properties())
 			.ChangeRepairItem(ADVENT_CARD.get()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
-	/**
-	drag_visor
-	ride_saber
+
+	
+	public static final RegistryObject<Item> RIDE_VISOR = ITEMS.register("ride_visor",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
+	
+    public static final RegistryObject<SwordItem> RIDE_SABER = ITEMS.register("ride_saber",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 3, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM).ChangeRepairItem(ADVENT_CARD.get()));
+	
+    public static final RegistryObject<Item> DRAG_VISOR = ITEMS.register("drag_visor",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
+	
+    public static final RegistryObject<SwordItem> DARK_VISOR = ITEMS.register("dark_visor",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 3, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM).ChangeRepairItem(ADVENT_CARD.get()));
+	
+    public static final RegistryObject<SwordItem> WING_LANCER = ITEMS.register("wing_lancer",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 3, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM).ChangeRepairItem(ADVENT_CARD.get()));
+	
+    /**
 	drag_saber
 	drag_claw
 	drag_shield
 	drag_visor_zwei
-	dark_visor
-	wing_lancer
 	dark_blade
 	scissors_visor
 	scissors_pincer 
