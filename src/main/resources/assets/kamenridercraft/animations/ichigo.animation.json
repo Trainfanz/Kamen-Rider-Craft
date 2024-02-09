@@ -3,6 +3,18 @@
 	"animations": {
 		"idle": {
 			"loop": true
+		},
+		"walk": {
+			"loop": true
+		},
+		"fly": {
+			"loop": true
+		},
+		"swing_l": {
+			"loop": true
+		},
+		"swing_r": {
+			"loop": true
 		}
 	},
 	"geckolib_format_version": 2

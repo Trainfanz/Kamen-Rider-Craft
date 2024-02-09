@@ -144,7 +144,9 @@ public class RiderDriverItem extends RiderArmorItem{
 	}
 
 	public ResourceLocation getAnimationResource(ItemStack itemstack,RiderArmorItem animatable, EquipmentSlot slot) {
-		return new ResourceLocation(KamenRiderCraftCore.MODID, "animations/ichigo.animation.json");
+		
+		return new ResourceLocation(KamenRiderCraftCore.MODID, get_Form_Item(itemstack, 1).get_Animation());
+		
 	}
 
 

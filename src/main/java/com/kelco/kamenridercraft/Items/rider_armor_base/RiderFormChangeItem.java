@@ -29,6 +29,8 @@ public class RiderFormChangeItem extends BaseItem {
 	private String UPDATED_BELT_MODEL;
 	private String UPDATED_MODEL;
 	private String FLYING_MODEL;
+	private String UPDATED_MODEL_ANIMATION;
+	
 	private Boolean FLYING_TEXT = false;
 	private Item STIFT_ITEM = Items.APPLE;
 	private Item SWITCH_ITEM;
@@ -83,6 +85,12 @@ public class RiderFormChangeItem extends BaseItem {
 		return "geo/ichigo.geo.json";
 	}
 
+	public String get_Animation() {
+		if (UPDATED_MODEL_ANIMATION!=null) return "animations/"+UPDATED_MODEL_ANIMATION;
+		return "animations/ichigo.animation.json";
+	}
+
+	
 	public String get_FlyingModel() {
 		return FLYING_MODEL;
 	}
@@ -99,10 +107,16 @@ public class RiderFormChangeItem extends BaseItem {
 		UPDATED_MODEL=model;
 		return this;
 	}
+	public RiderFormChangeItem ChangeModel(String model,String animation) {
+		UPDATED_MODEL=model;
+		UPDATED_MODEL_ANIMATION=animation;
+		return this;
+	}
 	public RiderFormChangeItem ChangeBeltModel(String model) {
 		UPDATED_BELT_MODEL=model;
 		return this;
 	}
+
 	public RiderFormChangeItem ChangeSlot(int slot) {
 		Slot=slot;
 		return this;

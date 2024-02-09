@@ -11,6 +11,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.client.extensions.common.IClientItemExtensions;
 import org.jetbrains.annotations.NotNull;
 
+import com.kelco.kamenridercraft.Entities.Bikes.baseBikeEntity;
 import com.kelco.kamenridercraft.Items.Modded_item_core;
 import com.kelco.kamenridercraft.Items.client.RiderArmorRenderer;
 
@@ -53,14 +54,12 @@ public class RiderArmorItem extends ArmorItem implements GeoItem {
 		return this;
 	}
 
-	private PlayState predicate(AnimationState<?> animationState) {
-		animationState.getController().setAnimation(RawAnimation.begin().then("idle", Animation.LoopType.LOOP));
-		return PlayState.CONTINUE;
-	}
-
+	
 	@Override
 	public void registerControllers(AnimatableManager.ControllerRegistrar controllerRegistrar) {
-		controllerRegistrar.add(new AnimationController<RiderArmorItem>(this, "controller", 0, this::predicate));
+		RawAnimation IDLE = RawAnimation.begin().thenLoop("idle");
+		RawAnimation WALK = RawAnimation.begin().thenLoop("walk");
+		controllerRegistrar.add(new AnimationController<RiderArmorItem>(this, "Walk/Idle", 0, state -> state.setAndContinue(state.isMoving() ? WALK : IDLE )));
 	}
 
 	public RiderArmorItem ChangeRepairItem(Item item) {
