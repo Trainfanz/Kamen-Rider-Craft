@@ -2,8 +2,11 @@ package com.kelco.kamenridercraft.Items.rider_armor_base;
 
 
 import net.minecraft.client.model.HumanoidModel;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.decoration.ArmorStand;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.Item;
@@ -14,8 +17,10 @@ import org.jetbrains.annotations.NotNull;
 import com.kelco.kamenridercraft.Entities.Bikes.baseBikeEntity;
 import com.kelco.kamenridercraft.Items.Modded_item_core;
 import com.kelco.kamenridercraft.Items.client.RiderArmorRenderer;
+import com.mojang.datafixers.FunctionType.Instance;
 
 import software.bernie.geckolib.animatable.GeoItem;
+import software.bernie.geckolib.constant.DataTickets;
 import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
 import software.bernie.geckolib.core.animatable.instance.SingletonAnimatableInstanceCache;
 import software.bernie.geckolib.core.animation.*;
@@ -59,7 +64,25 @@ public class RiderArmorItem extends ArmorItem implements GeoItem {
 	public void registerControllers(AnimatableManager.ControllerRegistrar controllerRegistrar) {
 		RawAnimation IDLE = RawAnimation.begin().thenLoop("idle");
 		RawAnimation WALK = RawAnimation.begin().thenLoop("walk");
-		controllerRegistrar.add(new AnimationController<RiderArmorItem>(this, "Walk/Idle", 0, state -> state.setAndContinue(state.isMoving() ? WALK : IDLE )));
+		RawAnimation SNEAK = RawAnimation.begin().thenLoop("sneak");
+
+		controllerRegistrar.add(new AnimationController<RiderArmorItem>(this, "Walk/Idle", 20, state -> {
+			  Entity entity = state.getData(DataTickets.ENTITY);
+			  
+			  Boolean IsWaking = false;
+			  if (entity instanceof Player player) {
+
+				 
+				  
+				  if(player.getDeltaMovement().x!=0||player.getDeltaMovement().z!=0)IsWaking=true;
+			}
+			  
+			state.setAndContinue(IsWaking ? WALK:IDLE);
+			
+			 state.setAndContinue(entity.isShiftKeyDown() ? SNEAK:IsWaking ? WALK:IDLE);
+		return PlayState.CONTINUE;
+	    }));
+
 	}
 
 	public RiderArmorItem ChangeRepairItem(Item item) {

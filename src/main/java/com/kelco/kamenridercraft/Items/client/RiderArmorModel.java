@@ -72,7 +72,6 @@ public ResourceLocation getAnimationResource(RiderArmorItem animatable) {
 		
 		if (RIDER.getItemBySlot(EquipmentSlot.FEET).getItem() instanceof RiderDriverItem) {
 			RiderDriverItem BELT = ((RiderDriverItem)RIDER.getItemBySlot(EquipmentSlot.FEET).getItem()); 
-			
 			return BELT.getAnimationResource(RIDER.getItemBySlot(EquipmentSlot.FEET),animatable,slot);
 			
 		}else return new ResourceLocation(KamenRiderCraftCore.MODID, "animations/ichigo.animation.json");

@@ -1,7 +1,21 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"idle": {
+				"idle": {
+			"loop": true
+		},
+		"walk": {
+			"loop": true
+		},
+		"fly": {
+			"loop": true
+		},"sneak": {
+			"loop": true
+		},
+		"swing_l": {
+			"loop": true
+		},
+		"swing_r": {
 			"loop": true
 		}
 	},

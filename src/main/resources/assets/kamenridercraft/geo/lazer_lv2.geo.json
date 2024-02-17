@@ -30,8 +30,13 @@
 					"pivot": [0, 23, 0]
 				},
 				{
-					"name": "Shape1",
+					"name": "BikeBody",
 					"parent": "armorBody",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Shape1",
+					"parent": "BikeBody",
 					"pivot": [-4, 20.6, -6.5],
 					"mirror": true,
 					"cubes": [
@@ -40,7 +45,7 @@
 				},
 				{
 					"name": "Shape9",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [21.5, 8.16667, -15.5],
 					"mirror": true,
 					"cubes": [
@@ -49,7 +54,7 @@
 				},
 				{
 					"name": "Shape22",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [16.5, 8.16667, 6.5],
 					"mirror": true,
 					"cubes": [
@@ -58,7 +63,7 @@
 				},
 				{
 					"name": "b_wheel",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [1, 6.5, 8]
 				},
 				{
@@ -160,7 +165,7 @@
 				},
 				{
 					"name": "f_wheel",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [0, 6.5, -14]
 				},
 				{
@@ -262,7 +267,7 @@
 				},
 				{
 					"name": "Shape29",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [-2.5, 12, -8],
 					"rotation": [27.85714, 0, 0],
 					"mirror": true,
@@ -272,7 +277,7 @@
 				},
 				{
 					"name": "Shape26",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [-1, 15, 2],
 					"rotation": [10.68893, 0, 0],
 					"mirror": true,
@@ -282,7 +287,7 @@
 				},
 				{
 					"name": "Shape2",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [-2, 19, -8],
 					"rotation": [-27.69231, 0, 0],
 					"mirror": true,
@@ -292,7 +297,7 @@
 				},
 				{
 					"name": "Shape3",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [1, 13.5, -8],
 					"rotation": [14.94928, 0, 0],
 					"mirror": true,
@@ -302,7 +307,7 @@
 				},
 				{
 					"name": "Shape14",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [0, 16, 10],
 					"mirror": true,
 					"cubes": [
@@ -311,7 +316,7 @@
 				},
 				{
 					"name": "Shape30",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [4.5, 17, -10],
 					"mirror": true,
 					"cubes": [
@@ -320,7 +325,7 @@
 				},
 				{
 					"name": "Shape31",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [-2.5, 17, -10],
 					"mirror": true,
 					"cubes": [
@@ -329,7 +334,7 @@
 				},
 				{
 					"name": "Shape32",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [4, 13, 0],
 					"rotation": [10.68893, 0, 0],
 					"mirror": true,
@@ -339,7 +344,7 @@
 				},
 				{
 					"name": "Shape33",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [-2, 13, 0],
 					"rotation": [10.68893, 0, 0],
 					"mirror": true,
@@ -349,7 +354,7 @@
 				},
 				{
 					"name": "Shape34",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [-1, 15, -5],
 					"mirror": true,
 					"cubes": [
@@ -358,7 +363,7 @@
 				},
 				{
 					"name": "Shape35",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [-2, 12, -8],
 					"rotation": [14.94928, 0, 0],
 					"mirror": true,
@@ -368,7 +373,7 @@
 				},
 				{
 					"name": "Shape36",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [0, 15, -1],
 					"mirror": true,
 					"cubes": [
@@ -377,7 +382,7 @@
 				},
 				{
 					"name": "Shape37",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [3, 6, -15],
 					"rotation": [75.45476, 0, 0],
 					"cubes": [
@@ -386,7 +391,7 @@
 				},
 				{
 					"name": "Shape38",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [-1, 6, -15],
 					"rotation": [75.45476, 0, 0],
 					"mirror": true,
@@ -396,7 +401,7 @@
 				},
 				{
 					"name": "Shape39",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [3, 9, 2],
 					"rotation": [-11.8825, 0, 0],
 					"mirror": true,
@@ -406,7 +411,7 @@
 				},
 				{
 					"name": "Shape40",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [-1, 9, 2],
 					"rotation": [-11.8825, 0, 0],
 					"mirror": true,
@@ -416,7 +421,7 @@
 				},
 				{
 					"name": "Shape41",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [-0.5, 15.5, 2],
 					"rotation": [10.68893, 0, 0],
 					"mirror": true,
@@ -426,7 +431,7 @@
 				},
 				{
 					"name": "Shape42",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [-0.5, 16, -3],
 					"mirror": true,
 					"cubes": [
@@ -435,7 +440,7 @@
 				},
 				{
 					"name": "Shape43",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [-1.5, 20.5, -12],
 					"mirror": true,
 					"cubes": [
@@ -444,7 +449,7 @@
 				},
 				{
 					"name": "Shape44",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [-20.5, 21, -8],
 					"mirror": true,
 					"cubes": [
@@ -453,7 +458,7 @@
 				},
 				{
 					"name": "belt",
-					"parent": "armorBody",
+					"parent": "BikeBody",
 					"pivot": [14, 23, 0],
 					"cubes": [
 						{"origin": [20.5, -8.5, -19.6], "size": [16, 16, 7], "inflate": -5, "pivot": [14, -1, 0], "rotation": [-90, 180, 0], "uv": [18, 105], "mirror": true},

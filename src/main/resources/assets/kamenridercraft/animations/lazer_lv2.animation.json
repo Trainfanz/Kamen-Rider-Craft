@@ -31,6 +31,16 @@
 		},
 		"fly": {
 			"loop": true
+		},"sneak": {
+			"loop": true,
+			"bones": {
+				"armorBody": {
+				
+					"position": {
+						"vector": [0, 7, 13]
+					}
+				}
+			}
 		},
 		"swing_l": {
 			"loop": true

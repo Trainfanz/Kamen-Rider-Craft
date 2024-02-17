@@ -9,6 +9,8 @@
 		},
 		"fly": {
 			"loop": true
+		},"sneak": {
+			"loop": true
 		},
 		"swing_l": {
 			"loop": true
