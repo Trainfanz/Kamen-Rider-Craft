@@ -35,7 +35,9 @@
 			"loop": true,
 			"bones": {
 				"armorBody": {
-				
+				"rotation": {
+						"vector": [-32.05618, 3.64529, -5.19931]
+					},
 					"position": {
 						"vector": [0, 7, 13]
 					}
