@@ -37,6 +37,7 @@ public class RiderFormChangeItem extends BaseItem {
 	private Boolean RESET_FORM = false;
 
 	private List<RiderFormChangeItem> alternative = new ArrayList<RiderFormChangeItem>();
+	private RiderFormChangeItem alsoChange1stSlot;
 	private RiderFormChangeItem alsoChange2ndSlot;
 	public String[] compatibilityList= new String[] {""};
 	private Boolean HAS_NEED_ITEM_LIST = false;
@@ -98,6 +99,11 @@ public class RiderFormChangeItem extends BaseItem {
 		return FLYING_TEXT;
 	}
 
+	public RiderFormChangeItem alsoChange1stSlot(Item item) {
+		alsoChange1stSlot=  (RiderFormChangeItem) item;
+		return this;
+	}
+	
 	public RiderFormChangeItem alsoChange2ndSlot(Item item) {
 		alsoChange2ndSlot=  (RiderFormChangeItem) item;
 		return this;
@@ -229,6 +235,7 @@ public class RiderFormChangeItem extends BaseItem {
 				((RiderFormChangeItem)STIFT_ITEM).use(p_41128_, p_41129_, p_41130_);
 			}
 			else if (CanChange(p_41129_,belt,BELT)) {
+				if (alsoChange1stSlot !=null)RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),alsoChange1stSlot, 1);
 				if (alsoChange2ndSlot !=null)RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),alsoChange2ndSlot, 2);
 				if (RESET_FORM)RiderDriverItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),belt.Base_Form_Item, 1);
 
