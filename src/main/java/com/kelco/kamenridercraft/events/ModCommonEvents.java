@@ -231,6 +231,9 @@ public class ModCommonEvents {
 		event.register(MobsCore.FOUNDATION_X_MASQUERADE.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
 		event.register(MobsCore.YUMMY.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
 
+		event.register(MobsCore.BUGSTERVIRUS.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
+		event.register(MobsCore.LOVELY_BUGSTER.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
+
 		event.register(MobsCore.ANKH.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, AnkhEntity::checkAnkhSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
 
 	}
@@ -288,6 +291,24 @@ public class ModCommonEvents {
 		event.put(MobsCore.POWERED_UP_CORE.get(), PoweredUpCoreEntity.setAttributes());
 		event.put(MobsCore.ANCIENT_OOO.get(), AncientOOOEntity.setAttributes());
 		event.put(MobsCore.GODA.get(), GodaEntity.setAttributes());
+		
+		event.put(MobsCore.BUGSTERVIRUS.get(), GodaEntity.setAttributes());
+		event.put(MobsCore.MIGHTY_BUGSTER.get(), GodaEntity.setAttributes());
+		event.put(MobsCore.TADDLE_BUGSTER.get(), GodaEntity.setAttributes());
+		event.put(MobsCore.BANG_BANG_BUGSTER.get(), GodaEntity.setAttributes());
+		event.put(MobsCore.LOVELY_BUGSTER.get(), GodaEntity.setAttributes());
+		event.put(MobsCore.SALTY_BUGSTER.get(), GodaEntity.setAttributes());
+		event.put(MobsCore.CHARLIE_BUGSTER.get(), GodaEntity.setAttributes());
+		event.put(MobsCore.VERNIER_BUGSTER.get(), GodaEntity.setAttributes());
+		event.put(MobsCore.GATTON_BUGSTER.get(), GodaEntity.setAttributes());
+		event.put(MobsCore.KAIDEN_BUGSTER.get(), GodaEntity.setAttributes());
+		event.put(MobsCore.MOTORS_BUGSTER.get(), GodaEntity.setAttributes());
+		event.put(MobsCore.GRAPHITE_BUGSTER.get(), GodaEntity.setAttributes());
+		event.put(MobsCore.ARANBURA_BUGSTER.get(), GodaEntity.setAttributes());
+		event.put(MobsCore.REVOL_BUGSTER.get(), GodaEntity.setAttributes());
+		event.put(MobsCore.LOVELICA_BUGSTER.get(), GodaEntity.setAttributes());
+		event.put(MobsCore.GENM.get(), GodaEntity.setAttributes());
+		event.put(MobsCore.POPPY_RED.get(), GodaEntity.setAttributes());
 		
 		event.put(MobsCore.MACEHINE_TORADOR.get(), baseBikeEntity.setAttributes());
 		event.put(MobsCore.HARDBOILER.get(), baseBikeEntity.setAttributes());
