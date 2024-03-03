@@ -169,6 +169,9 @@ public class ModClientEvents {
 		event.registerEntityRenderer(MobsCore.LOVELICA_BUGSTER.get(), BasicEntityRenderer::new);
 		event.registerEntityRenderer(MobsCore.GENM.get(), BasicEntityRenderer::new);
 		event.registerEntityRenderer(MobsCore.POPPY_RED.get(), BasicEntityRenderer::new);
+		event.registerEntityRenderer(MobsCore.RIDEPLAYER.get(), BasicEntityRenderer::new);
+		event.registerEntityRenderer(MobsCore.PARADX.get(), BasicEntityRenderer::new);
+		event.registerEntityRenderer(MobsCore.CRONUS.get(), BasicEntityRenderer::new);
 		
 		event.registerEntityRenderer(MobsCore.MACEHINE_TORADOR.get(), BikeRenderer::new);
 		event.registerEntityRenderer(MobsCore.HARDBOILER.get(), BikeRenderer::new);

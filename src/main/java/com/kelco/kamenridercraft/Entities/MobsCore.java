@@ -15,6 +15,7 @@ import com.kelco.kamenridercraft.Entities.bosses.CharlieBugsterEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ClayDollDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.CommanderDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.CoreEntity;
+import com.kelco.kamenridercraft.Entities.bosses.CronusEntity;
 import com.kelco.kamenridercraft.Entities.bosses.ElOfTheWaterEntity;
 import com.kelco.kamenridercraft.Entities.bosses.EternalEntity;
 import com.kelco.kamenridercraft.Entities.bosses.GamelEntity;
@@ -30,6 +31,7 @@ import com.kelco.kamenridercraft.Entities.bosses.MotorsBugsterEntity;
 import com.kelco.kamenridercraft.Entities.bosses.MuchiriEntity;
 import com.kelco.kamenridercraft.Entities.bosses.NazcaDopantEntity;
 import com.kelco.kamenridercraft.Entities.bosses.OrgaEntity;
+import com.kelco.kamenridercraft.Entities.bosses.ParaDxEntity;
 import com.kelco.kamenridercraft.Entities.bosses.PoppyRedEntity;
 import com.kelco.kamenridercraft.Entities.bosses.PoseidonEntity;
 import com.kelco.kamenridercraft.Entities.bosses.PoweredUpCoreEntity;
@@ -60,6 +62,7 @@ import com.kelco.kamenridercraft.Entities.footSoldiers.MasqueradeEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.MightyBugsterEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.PantherasLuteusEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.RedFollowerEntity;
+import com.kelco.kamenridercraft.Entities.footSoldiers.RideplayerEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.RiotrooperEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.ShockerCombatmanEntity;
 import com.kelco.kamenridercraft.Entities.footSoldiers.TaddleBugsterEntity;
@@ -426,67 +429,87 @@ public class MobsCore {
                   () -> EntityType.Builder.of(CharlieBugsterEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":charlie_bugster_mob"));
  
           public static final RegistryObject<ForgeSpawnEggItem> CHARLIE_BUGSTER_SPAWN_EGG = ITEMS.register("charlie_bugster_spawn_egg",
-                  () -> new ForgeSpawnEggItem(CHARLIE_BUGSTER, 0x1C15E5, 0x131315, new Item.Properties()));
+                  () -> new ForgeSpawnEggItem(CHARLIE_BUGSTER, 0x1C15E5, 0x79B6EC, new Item.Properties()));
           
           public static final RegistryObject<EntityType<GattonBugsterEntity>> GATTON_BUGSTER = MOBLIST.register("gatton_bugster_mob",
                   () -> EntityType.Builder.of(GattonBugsterEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":gatton_bugster_mob"));
  
           public static final RegistryObject<ForgeSpawnEggItem> GATTON_BUGSTER_SPAWN_EGG = ITEMS.register("gatton_bugster_spawn_egg",
-                  () -> new ForgeSpawnEggItem(GATTON_BUGSTER, 0x1C15E5, 0x131315, new Item.Properties()));
+                  () -> new ForgeSpawnEggItem(GATTON_BUGSTER, 0x1C15E5, 0xF71D0B, new Item.Properties()));
           
           public static final RegistryObject<EntityType<KaidenBugsterEntity>> KAIDEN_BUGSTER = MOBLIST.register("kaiden_bugster_mob",
                   () -> EntityType.Builder.of(KaidenBugsterEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":kaiden_bugster_mob"));
  
           public static final RegistryObject<ForgeSpawnEggItem> KAIDEN_BUGSTER_SPAWN_EGG = ITEMS.register("kaiden_bugster_spawn_egg",
-                  () -> new ForgeSpawnEggItem(KAIDEN_BUGSTER, 0x1C15E5, 0x131315, new Item.Properties()));
+                  () -> new ForgeSpawnEggItem(KAIDEN_BUGSTER, 0x1C15E5, 0x9C1408, new Item.Properties()));
           
           public static final RegistryObject<EntityType<MotorsBugsterEntity>> MOTORS_BUGSTER = MOBLIST.register("motors_bugster_mob",
                   () -> EntityType.Builder.of(MotorsBugsterEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":motors_bugster_mob"));
  
           public static final RegistryObject<ForgeSpawnEggItem> MOTORS_BUGSTER_SPAWN_EGG = ITEMS.register("motors_bugster_spawn_egg",
-                  () -> new ForgeSpawnEggItem(MOTORS_BUGSTER, 0x1C15E5, 0x131315, new Item.Properties()));
+                  () -> new ForgeSpawnEggItem(MOTORS_BUGSTER, 0x1C15E5, 0xF5C40C, new Item.Properties()));
           
           public static final RegistryObject<EntityType<VernierBugsterEntity>> VERNIER_BUGSTER = MOBLIST.register("vernier_bugster_mob",
                   () -> EntityType.Builder.of(VernierBugsterEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":vernier_bugster_mob"));
  
           public static final RegistryObject<ForgeSpawnEggItem> VERNIER_BUGSTER_SPAWN_EGG = ITEMS.register("vernier_bugster_spawn_egg",
-                  () -> new ForgeSpawnEggItem(VERNIER_BUGSTER, 0x1C15E5, 0x131315, new Item.Properties()));
+                  () -> new ForgeSpawnEggItem(VERNIER_BUGSTER, 0x1C15E5, 0xF58B0C, new Item.Properties()));
           
           public static final RegistryObject<EntityType<GraphiteBugsterEntity>> GRAPHITE_BUGSTER = MOBLIST.register("graphite_bugster_mob",
                   () -> EntityType.Builder.of(GraphiteBugsterEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":graphite_bugster_mob"));
  
           public static final RegistryObject<ForgeSpawnEggItem> GRAPHITE_BUGSTER_SPAWN_EGG = ITEMS.register("graphite_bugster_spawn_egg",
-                  () -> new ForgeSpawnEggItem(GRAPHITE_BUGSTER, 0x1C15E5, 0x131315, new Item.Properties()));
+                  () -> new ForgeSpawnEggItem(GRAPHITE_BUGSTER, 0x1C15E5, 0x127120, new Item.Properties()));
           
           public static final RegistryObject<EntityType<AranburaBugsterEntity>> ARANBURA_BUGSTER = MOBLIST.register("aranbura_bugster_mob",
                   () -> EntityType.Builder.of(AranburaBugsterEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":aranbura_bugster_mob"));
  
           public static final RegistryObject<ForgeSpawnEggItem> ARANBURA_BUGSTER_SPAWN_EGG = ITEMS.register("aranbura_bugster_spawn_egg",
-                  () -> new ForgeSpawnEggItem(ARANBURA_BUGSTER, 0x1C15E5, 0x131315, new Item.Properties()));
+                  () -> new ForgeSpawnEggItem(ARANBURA_BUGSTER, 0x1C15E5, 0xF52B0B, new Item.Properties()));
           
           public static final RegistryObject<EntityType<RevolBugsterEntity>> REVOL_BUGSTER = MOBLIST.register("revol_bugster_mob",
                   () -> EntityType.Builder.of(RevolBugsterEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":revol_bugster_mob"));
  
           public static final RegistryObject<ForgeSpawnEggItem> REVOL_BUGSTER_SPAWN_EGG = ITEMS.register("revol_bugster_spawn_egg",
-                  () -> new ForgeSpawnEggItem(REVOL_BUGSTER, 0x1C15E5, 0x131315, new Item.Properties()));
+                  () -> new ForgeSpawnEggItem(REVOL_BUGSTER, 0x1C15E5, 0x8AB2E0, new Item.Properties()));
           
           public static final RegistryObject<EntityType<LovelicaBugsterEntity>> LOVELICA_BUGSTER = MOBLIST.register("lovelica_bugster_mob",
                   () -> EntityType.Builder.of(LovelicaBugsterEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":lovelica_bugster_mob"));
  
           public static final RegistryObject<ForgeSpawnEggItem> LOVELICA_BUGSTER_SPAWN_EGG = ITEMS.register("lovelica_bugster_spawn_egg",
-                  () -> new ForgeSpawnEggItem(LOVELICA_BUGSTER, 0x1C15E5, 0x131315, new Item.Properties()));
+                  () -> new ForgeSpawnEggItem(LOVELICA_BUGSTER, 0x1C15E5, 0xC865F3, new Item.Properties()));
           
           public static final RegistryObject<EntityType<GenmEntity>> GENM = MOBLIST.register("genm_mob",
                   () -> EntityType.Builder.of(GenmEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":genm_mob"));
  
           public static final RegistryObject<ForgeSpawnEggItem> GENM_SPAWN_EGG = ITEMS.register("genm_spawn_egg",
-                  () -> new ForgeSpawnEggItem(GENM, 0x1C15E5, 0x131315, new Item.Properties()));
+                  () -> new ForgeSpawnEggItem(GENM, 0x201F20, 0x8629F6, new Item.Properties()));
           
           public static final RegistryObject<EntityType<PoppyRedEntity>> POPPY_RED = MOBLIST.register("poppy_red_mob",
                   () -> EntityType.Builder.of(PoppyRedEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":poppy_red_mob"));
  
           public static final RegistryObject<ForgeSpawnEggItem> POPPY_RED_SPAWN_EGG = ITEMS.register("poppy_red_spawn_egg",
-                  () -> new ForgeSpawnEggItem(POPPY_RED, 0x1C15E5, 0x131315, new Item.Properties()));
+                  () -> new ForgeSpawnEggItem(POPPY_RED, 0xE0C819, 0xC865F3, new Item.Properties()));
+          
+          public static final RegistryObject<EntityType<RideplayerEntity>> RIDEPLAYER = MOBLIST.register("rideplayer",
+                  () -> EntityType.Builder.of(RideplayerEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":rideplayer_mob"));
+ 
+          public static final RegistryObject<ForgeSpawnEggItem> RIDEPLAYER_SPAWN_EGG = ITEMS.register("rideplayer_spawn_egg",
+                  () -> new ForgeSpawnEggItem(RIDEPLAYER, 0xE0C819, 0xC865F3, new Item.Properties()));
+          
+          public static final RegistryObject<EntityType<ParaDxEntity>> PARADX = MOBLIST.register("para-dx",
+                  () -> EntityType.Builder.of(ParaDxEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":paradx_mob"));
+ 
+          public static final RegistryObject<ForgeSpawnEggItem> PARADX_SPAWN_EGG = ITEMS.register("paradx_spawn_egg",
+                  () -> new ForgeSpawnEggItem(PARADX, 0xE0C819, 0xC865F3, new Item.Properties()));
+          
+          public static final RegistryObject<EntityType<CronusEntity>> CRONUS = MOBLIST.register("cronus",
+                  () -> EntityType.Builder.of(CronusEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build( KamenRiderCraftCore.MODID + ":cronus_mob"));
+ 
+          public static final RegistryObject<ForgeSpawnEggItem> CRONUS_SPAWN_EGG = ITEMS.register("cronus_spawn_egg",
+                  () -> new ForgeSpawnEggItem(CRONUS, 0xE0C819, 0xC865F3, new Item.Properties()));
+          
+          
           
           public static final RegistryObject<EntityType<MachineTornadorEntity>> MACEHINE_TORADOR = MOBLIST.register("machine_tornador",
                   () -> EntityType.Builder.of(MachineTornadorEntity::new, MobCategory.MONSTER).clientTrackingRange(8).sized(0.6F, 1.95F).build( KamenRiderCraftCore.MODID + ":machine_tornador"));

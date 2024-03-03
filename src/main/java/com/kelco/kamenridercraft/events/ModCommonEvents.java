@@ -233,6 +233,7 @@ public class ModCommonEvents {
 
 		event.register(MobsCore.BUGSTERVIRUS.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
 		event.register(MobsCore.LOVELY_BUGSTER.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
+		event.register(MobsCore.RIDEPLAYER.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
 
 		event.register(MobsCore.ANKH.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, AnkhEntity::checkAnkhSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
 
@@ -309,6 +310,9 @@ public class ModCommonEvents {
 		event.put(MobsCore.LOVELICA_BUGSTER.get(), GodaEntity.setAttributes());
 		event.put(MobsCore.GENM.get(), GodaEntity.setAttributes());
 		event.put(MobsCore.POPPY_RED.get(), GodaEntity.setAttributes());
+		event.put(MobsCore.RIDEPLAYER.get(), GodaEntity.setAttributes());
+		event.put(MobsCore.PARADX.get(), GodaEntity.setAttributes());
+		event.put(MobsCore.CRONUS.get(), GodaEntity.setAttributes());
 		
 		event.put(MobsCore.MACEHINE_TORADOR.get(), baseBikeEntity.setAttributes());
 		event.put(MobsCore.HARDBOILER.get(), baseBikeEntity.setAttributes());
