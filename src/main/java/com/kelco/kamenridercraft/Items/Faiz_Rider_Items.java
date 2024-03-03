@@ -111,6 +111,12 @@ public class Faiz_Rider_Items {
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).AddToTabList(RiderTabs.FAIZ_TAB_ITEM));
 	
+	public static final RegistryObject<Item> SEEDA_MISSION_MEMORY = ITEMS.register("seeda_mission_memory",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"","seeda","seeda_driver_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).AddToTabList(RiderTabs.FAIZ_TAB_ITEM));
+	
 	
 	public static final RegistryObject<Item> FAIZHELMET = ITEMS.register("faizhead",
 			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
@@ -150,6 +156,20 @@ public class Faiz_Rider_Items {
 	public static final RegistryObject<Item> PYRON_DRIVER_MB = ITEMS.register("pyron_driver_mb",
 			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"pyron_midnight_black",PYRON_MISSION_MEMORY ,FAIZHELMET, FAIZCHESTPLATE, FAIZLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
 
+	public static final RegistryObject<Item> SEEDA_DRIVER = ITEMS.register("seeda_driver",
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"seeda",SEEDA_MISSION_MEMORY ,FAIZHELMET, FAIZCHESTPLATE, FAIZLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
+
+	public static final RegistryObject<Item> SEEDA_DRIVER_GB = ITEMS.register("seeda_driver_gb",
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"seeda_gb",SEEDA_MISSION_MEMORY ,FAIZHELMET, FAIZCHESTPLATE, FAIZLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
+
+	public static final RegistryObject<Item> SEEDA_DRIVER_RO = ITEMS.register("seeda_driver_ro",
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"seeda_ro",SEEDA_MISSION_MEMORY ,FAIZHELMET, FAIZCHESTPLATE, FAIZLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
+
+	public static final RegistryObject<Item> SEEDA_DRIVER_UW = ITEMS.register("seeda_driver_uw",
+			() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"seeda_uw",SEEDA_MISSION_MEMORY ,FAIZHELMET, FAIZCHESTPLATE, FAIZLEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
+
+	
+	
 	public static final RegistryObject<SwordItem> FAIZ_EDGE = ITEMS.register("faiz_edge",
 			() -> new BaseSwordItem(Tiers.DIAMOND, 5, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.FAIZ_TAB_ITEM).ChangeRepairItem(BLANK_MISSION_MEMORY.get()));
 	public static final RegistryObject<BaseBlasterItem> FAIZ_PHONE = ITEMS.register("faiz_phone",

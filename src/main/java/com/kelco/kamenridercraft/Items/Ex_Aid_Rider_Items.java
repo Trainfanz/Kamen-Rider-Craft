@@ -62,12 +62,21 @@ public class Ex_Aid_Rider_Items {
 	public static final RegistryObject<Item> BAKUSOU_BIKE_GASHAT_UNDER = ITEMS.register("bakusou_bike_gashat_under",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","lazer","gamer_driver_bakusou_bike",
 					new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)));
-
 	
 	public static final RegistryObject<Item> BAKUSOU_BIKE_GASHAT = ITEMS.register("bakusou_bike_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_lv2_bike","lazer","blank",
 					new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false)).addSwitchForm(BAKUSOU_BIKE_GASHAT_LV_1.get())
 			.ChangeModel("geo/lazer_lv2.geo.json","lazer_lv2.animation.json").alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_GASHAT, 15));
+
+	public static final RegistryObject<Item> BAKUSOU_BIKE_GASHAT_TURBO = ITEMS.register("bakusou_bike_gashat_turbo",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_turbo","lazer","gamer_driver_bakusou_bike",
+					new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).addSwitchForm(BAKUSOU_BIKE_GASHAT_LV_1.get())
+			.alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_GASHAT, 15));
+
 
 
 	public static String[] BaseGamerDriverUsers = new String[] {"ex_aid","genm","brave","snipe"};
@@ -163,11 +172,17 @@ public class Ex_Aid_Rider_Items {
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers)
 			.ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
+	
+	public static final RegistryObject<Item> PROTO_JET_COMBAT_GASHAT_LAZER = ITEMS.register("proto_jet_combat_gashat_lazer",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"proto_combat_gamer","lazer","gamer_driver_mighty_action_x",
+					new MobEffectInstance(Effect_core.BOOST.get(), 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).addNeedForm(BAKUSOU_BIKE_GASHAT_TURBO.get(), 1).ChangeSlot(2));
+
 	public static final RegistryObject<Item> PROTO_JET_COMBAT_GASHAT = ITEMS.register("proto_jet_combat_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"proto_combat_gamer","ex_aid","gamer_driver_mighty_action_x",
 					new MobEffectInstance(Effect_core.BOOST.get(), 40, 1,true,false),
-					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers)
-			.ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false))
+			.addAlternative(PROTO_JET_COMBAT_GASHAT_LAZER.get()).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
 	public static final RegistryObject<Item> PROTO_GIRI_GIRI_CHAMBARA_GASHAT = ITEMS.register("proto_giri_giri_chambara_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"proto_chambara_gamer","lazer","gamer_driver_bakusou_bike",
@@ -175,13 +190,21 @@ public class Ex_Aid_Rider_Items {
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)).ChangeSlot(2)
 			.alsoChange1stSlot(BAKUSOU_BIKE_GASHAT_UNDER.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
+	
+	public static final RegistryObject<Item> PROTO_SHAKARIKI_SPORTS_GASHAT_LAZER = ITEMS.register("proto_shakariki_sports_gashat_lazer",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"proto_sports_gamer","lazer","gamer_driver_mighty_action_x",
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false))
+			.addNeedForm(BAKUSOU_BIKE_GASHAT_TURBO.get(), 1).ChangeSlot(2));
+
 
 	public static final RegistryObject<Item> PROTO_SHAKARIKI_SPORTS_GASHAT = ITEMS.register("proto_shakariki_sports_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"proto_sports_gamer","ex_aid","gamer_driver_mighty_action_x",
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers)
-			.ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+			.addAlternative(PROTO_SHAKARIKI_SPORTS_GASHAT_LAZER.get()).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
 	
 	public static final RegistryObject<Item> PROTO_DRAGO_KNIGHT_HUNTER_Z_GASHAT_CLAW = ITEMS.register("proto_gekitotsu_robots_gashat_claw",
@@ -332,7 +355,7 @@ public class Ex_Aid_Rider_Items {
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"xevious_gamer","ex_aid","gamer_driver_mighty_action_x",
 					new MobEffectInstance(Effect_core.FLYING.get(), 40, 0,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 	
-	public static final RegistryObject<Item> galaxian_GASHAT = ITEMS.register("galaxian_gashat",
+	public static final RegistryObject<Item> GALAXIAN_GASHAT = ITEMS.register("galaxian_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"galaxian_gamer","ex_aid","gamer_driver_mighty_action_x",
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false)).ResetFormToBase().AddCompatibilityList(BaseGamerDriverUsers).ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
@@ -391,7 +414,7 @@ public class Ex_Aid_Rider_Items {
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false)).ResetFormToBase().ChangeSlot(2).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_DOUBLE_GASHAT, 15));
 	
 	public static final RegistryObject<Item> BANG_BANG_SIMULATION_GASHAT = ITEMS.register("bang_bang_simulation_gashat",
-			() -> new RiderFormChangeItem(new Item.Properties(),0,"simulation_gashat_gamer","brave","gamer_driver_bang_bang_simulation",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"simulation_gamer","snipe","gamer_driver_taddle_fantasy",
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
