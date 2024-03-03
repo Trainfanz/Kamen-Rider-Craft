@@ -3,6 +3,7 @@ package com.kelco.kamenridercraft.Items;
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.Blocks.MachineBlocks.GameCreator;
 import com.kelco.kamenridercraft.Effect.Effect_core;
+import com.kelco.kamenridercraft.Items.ex_aid.ExAidEnergyItem;
 import com.kelco.kamenridercraft.Items.ex_aid.GamerDriverItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderArmorItem;
@@ -533,6 +534,20 @@ public class Ex_Aid_Rider_Items {
 					new MobEffectInstance(MobEffects.SATURATION, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false)).addNeedForm(MAXIMUN_MIGHTY_X_GASHAT.get(), 1).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_HYPER_GASHAT, 5));
 
+	//hyper_fumetsu_gashat Still needs .addNeedForm(MAXIMUN_MIGHTY_X_GASHAT.get(), 1)
+	
+	public static final RegistryObject<Item> HYPER_FUMESTU_GASHAT = ITEMS.register("hyper_fumetsu_gashat",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_hyper_fumetsu","genm","gamer_driver_hyper_fumetsu",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 4,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 6,true,false),
+					new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
+					new MobEffectInstance(MobEffects.SATURATION, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_HYPER_GASHAT, 20));
+
+	
 	public static final RegistryObject<Item> THE_UNBEATABLE_GAME= ITEMS.register("the_unbeatable_game",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"_totema","genm_bugvisor","gamer_driver_dangerous_zombie",
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
@@ -644,7 +659,223 @@ public class Ex_Aid_Rider_Items {
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
 					new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
+	
+	public static final RegistryObject<Item> MIGHTY_ACTION_X_GASHA_TROPHY = ITEMS.register("mighty_action_x_gasha_trophy",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
+	public static final RegistryObject<Item> TADDLE_QUEST_GASHA_TROPHY = ITEMS.register("taddle_quest_gasha_trophy",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
+	public static final RegistryObject<Item> BANG_BANG_SHOOTING_GASHA_TROPHY = ITEMS.register("bang_bang_shooting_gasha_trophy",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
+	public static final RegistryObject<Item> BAKUSOU_BIKE_GASHA_TROPHY = ITEMS.register("bakusou_bike_gasha_trophy",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
+	public static final RegistryObject<Item> GEKITOTSU_ROBOTS_GASHA_TROPHY = ITEMS.register("gekitotsu_robots_gasha_trophy",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
+	public static final RegistryObject<Item> DOREMIFA_BEAT_GASHA_TROPHY = ITEMS.register("doremifa_beat_gasha_trophy",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
+	public static final RegistryObject<Item> JET_COMBAT_GASHA_TROPHY = ITEMS.register("jet_combat_gasha_trophy",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
+	public static final RegistryObject<Item> GIRI_GIRI_CHAMBARA_GASHA_TROPHY = ITEMS.register("giri_giri_chambara_gasha_trophy",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
+	public static final RegistryObject<Item> SHAKARIKI_SPORTS_GASHA_TROPHY = ITEMS.register("shakariki_sports_gasha_trophy",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
+	public static final RegistryObject<Item> DRAGO_KNIGHT_HUNTER_Z_GASHA_TROPHY = ITEMS.register("drago_knight_hunter_z_gasha_trophy",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
+	public static final RegistryObject<Item> PERFECT_PUZZLE_GASHA_TROPHY = ITEMS.register("perfect_puzzle_gasha_trophy",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
+	public static final RegistryObject<Item> KNOCK_OUT_FIGHTER_GASHA_TROPHY = ITEMS.register("knockout_fighter_gasha_trophy",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
+	public static final RegistryObject<Item> TOKI_MEKI_CRISIS_GASHA_TROPHY = ITEMS.register("toki_meki_crisis_gasha_trophy",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
+	
+	
+	public static final RegistryObject<Item> SPEED_ENERGY_ITEM = ITEMS.register("speed_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 500, 20,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> IRON_ENERGY_ITEM = ITEMS.register("iron_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 500, 5,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> INSTIGATE_ENERGY_ITEM = ITEMS.register("instigate_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.GLOWING, 500, 0,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> JUMP_ENERGY_ITEM = ITEMS.register("jump_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.JUMP, 500, 10,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> MUSCLE_ENERGY_ITEM = ITEMS.register("muscle_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.DAMAGE_BOOST, 500, 5,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> RECOVER_ITEM = ITEMS.register("recover_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.HEAL, 1, 10,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> SHRINK_ENERGY_ITEM = ITEMS.register("shrink_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(Effect_core.SMALL.get(), 500, 2,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> GIANT_ENERGY_ITEM = ITEMS.register("giant_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(Effect_core.BIG.get(), 500, 2,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> INVISIBLE_ENERGY_ITEM = ITEMS.register("invisible_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.INVISIBILITY, 500, 0,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> CONFUSION_ENERGY_ITEM = ITEMS.register("confusion_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.CONFUSION, 500, 0,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	//christmas_energy_item
+
+	public static final RegistryObject<Item> EMISSION_ENERGY_ITEM = ITEMS.register("emission_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.NIGHT_VISION, 500, 0,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> LIQUID_ENERGY_ITEM = ITEMS.register("liquid_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.WATER_BREATHING, 500, 0,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	//seperation_energy_item
+	
+	public static final RegistryObject<Item> DARK_ENERGY_ITEM = ITEMS.register("dark_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.BLINDNESS, 500, 0,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	//stretch_energy_item
+	//sleep_energy_item
+	//reflect_energy_item
+	
+	public static final RegistryObject<Item> REVERSE_ITEM = ITEMS.register("reverse_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.HEAL, 1, 10,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
+	//Senior
+	
+	public static final RegistryObject<Item> LUCK_ENERGY_ITEM = ITEMS.register("luck_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.LUCK, 500, 0,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	public static final RegistryObject<Item> FLATTEN_ENERGY_ITEM = ITEMS.register("flatten_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(Effect_core.FLAT.get(), 500, 2,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	//balloon_energy_item
+	//gag_energy_item
+	
+	//Memory
+	//Desire
+	//Friendship
+	//Veteran
+	
+	//disguise_energy_item
+	//fascination_energy_item
+	//partner_energy_item
+	//prediction_energy_item
+	
+	public static final RegistryObject<Item> HALT_ENERGY_ITEM = ITEMS.register("halt_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 500, 100,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	//end_energy_item
+	//Succession
+	
+	//bug_energy_item
+	//random_energy_item
+	//save_energy_item
+	
+	//Continue
+	//Rampage
+	//Afterimage
+	//Geniusization
+	//Barrier
+	//Gravity-Manipulation
+	//Weathering
+	//Thunder-Strike
+	//Cyclone
+	//Joker
+	//Destroyer
+	//Negativeization
+	//Calming
+	//Passion
+	//Deadly-Poison
+	//Knight
+	//War God
+	//Justice
+	//Oblivion
+	//Lost
+	//Ending
+	//Mechanization
+	//United-Fight
+	//Mortality
+	//Fusion A
+	//Fusion B
+	//Sorrow
+	//Fury
+	//Survive 
+	//Breakout
+	//Freezing
+	//Seal
+	//Love & Peace
+	//Eye
+	//Sliding
+	//Enjoyment
+	
+	//Aries
+	//Taurus
+	//Gemini
+	//Cancer
+	//Leo
+	//Virgo
+	//Libra
+	//Scorpio
+	//Sagittarius
+	//Capricorn
+	//Aquarius
+	//Pisces
+	
+	//Supernova
+	
+	//Sonic Speeding-Up
+	//Diamond-Body
+	//Abetting
+	//Flight
+	//Rigidification
+	//Full-Recover
+	//Minimize
+	//Maximize
+	//Disappearance
+	//Chaos
+	
+	//State Change
+	//Multiplication
+	//Jet Black
+	//Flexible
+	//Hypnosis
+	//Ironclad
+	//Resuscitation
+	//Heisei
+	//Fortune
+	//Paper
+	//Expansion
+	//Very Funny
+	//Captivation
+	//Unique
+	//Wisdom
+	//Demise
+	//Inheritance
+	//Uncontrollable
+	//Second Coming
+	//Full Stop
+	
+	//Tomorrow
+	//Wind
+	//Forest
+	//Fire
+	//Shadow
+	//Mountain
+	//Thunder
+	
+	// Ghost x Ex-Aid maybe use for the Ex-Aid Ghost Eyecon
+	
 	public static final RegistryObject<Item> EX_AIDHELMET = ITEMS.register("ex_aidhead",
 			() -> new RiderArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).ChangeRepairItem(BLANK_GASHAT.get()));
 	public static final RegistryObject<Item> EX_AIDCHESTPLATE = ITEMS.register("ex_aidtroso",
