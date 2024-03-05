@@ -98,7 +98,7 @@ public class ModCommonEvents {
 					}
 					event.setNewSize(entity.getDimensions(entity.getPose()).scale(size),true);
 					event.setNewEyeHeight(((float)entity.getEyeHeight(entity.getPose())*size));
-					//event.setNewEyeHeight(((float)Player.DEFAULT_EYE_HEIGHT*size));
+					
 				}
 			}
 		}
@@ -111,12 +111,18 @@ public class ModCommonEvents {
 		public static void addRenderLivingEvent(RenderLivingEvent.Pre event) {
 
 			float size = 1;
-			if (event.getEntity().hasEffect(Effect_core.BIG.get())&!event.getEntity().hasEffect(Effect_core.SMALL.get())) { 
+			boolean Tall = event.getEntity().hasEffect(Effect_core.BIG.get())||event.getEntity().hasEffect(Effect_core.STRETCH.get());
+			
+			if (event.getEntity().hasEffect(Effect_core.STRETCH.get())&!event.getEntity().hasEffect(Effect_core.SMALL.get())) { 
+				size= size*((event.getEntity().getEffect(Effect_core.STRETCH.get()).getAmplifier())+1);
+			}else if (event.getEntity().hasEffect(Effect_core.BIG.get())&!event.getEntity().hasEffect(Effect_core.SMALL.get())) { 
 				size= size*((event.getEntity().getEffect(Effect_core.BIG.get()).getAmplifier())+1);
 			}else  if (!event.getEntity().hasEffect(Effect_core.BIG.get())&event.getEntity().hasEffect(Effect_core.SMALL.get())) {
 				size=(float) (size/2);
 			}
-			float size2 = size;
+			
+			
+			float size2 = event.getEntity().hasEffect(Effect_core.STRETCH.get())? 1:size;
 			if (event.getEntity().hasEffect(Effect_core.FLAT.get())) { 
 				size2= 0.1f;
 			}
@@ -125,9 +131,9 @@ public class ModCommonEvents {
 				player.self().getAttributeValue(ForgeMod.BLOCK_REACH.get());
 
 			}
+			float size3 = event.getEntity().hasEffect(Effect_core.STRETCH.get())? 1:size;
 
-
-			event.getPoseStack().scale(size,size,size2);
+			event.getPoseStack().scale(size3,size,size2);
 		}
 
 		@SubscribeEvent

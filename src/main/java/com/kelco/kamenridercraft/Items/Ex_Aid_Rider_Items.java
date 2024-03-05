@@ -716,42 +716,48 @@ public class Ex_Aid_Rider_Items {
 	public static final RegistryObject<Item> MUSCLE_ENERGY_ITEM = ITEMS.register("muscle_energy_item",
 			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.DAMAGE_BOOST, 500, 5,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
-	public static final RegistryObject<Item> RECOVER_ITEM = ITEMS.register("recover_energy_item",
-			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.HEAL, 1, 10,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
-
 	public static final RegistryObject<Item> SHRINK_ENERGY_ITEM = ITEMS.register("shrink_energy_item",
 			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(Effect_core.SMALL.get(), 500, 2,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
-	public static final RegistryObject<Item> GIANT_ENERGY_ITEM = ITEMS.register("giant_energy_item",
-			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(Effect_core.BIG.get(), 500, 2,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	//christmas_energy_item
 
+	public static final RegistryObject<Item> STRETCH_ENERGY_ITEM = ITEMS.register("stretch_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(Effect_core.STRETCH.get(), 500, 2,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	
 	public static final RegistryObject<Item> INVISIBLE_ENERGY_ITEM = ITEMS.register("invisible_energy_item",
 			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.INVISIBILITY, 500, 0,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
 	public static final RegistryObject<Item> CONFUSION_ENERGY_ITEM = ITEMS.register("confusion_energy_item",
 			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.CONFUSION, 500, 0,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
-	//christmas_energy_item
-
-	public static final RegistryObject<Item> EMISSION_ENERGY_ITEM = ITEMS.register("emission_energy_item",
-			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.NIGHT_VISION, 500, 0,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
-
-	public static final RegistryObject<Item> LIQUID_ENERGY_ITEM = ITEMS.register("liquid_energy_item",
-			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.WATER_BREATHING, 500, 0,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	public static final RegistryObject<Item> RECOVER_ITEM = ITEMS.register("recover_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.HEAL, 1, 10,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
 	//seperation_energy_item
 	
-	public static final RegistryObject<Item> DARK_ENERGY_ITEM = ITEMS.register("dark_energy_item",
-			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.BLINDNESS, 500, 0,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
-
-	//stretch_energy_item
-	//sleep_energy_item
+	public static final RegistryObject<Item> EMISSION_ENERGY_ITEM = ITEMS.register("emission_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.NIGHT_VISION, 500, 0,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+	
 	//reflect_energy_item
+	//save_energy_item
 	
 	public static final RegistryObject<Item> REVERSE_ITEM = ITEMS.register("reverse_energy_item",
 			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.HEAL, 1, 10,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 	
-	//Senior
+	public static final RegistryObject<Item> GIANT_ENERGY_ITEM = ITEMS.register("giant_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(Effect_core.BIG.get(), 500, 2,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	//disguise_energy_item
+	
+	public static final RegistryObject<Item> LIQUID_ENERGY_ITEM = ITEMS.register("liquid_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.WATER_BREATHING, 500, 0,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	
+	public static final RegistryObject<Item> DARK_ENERGY_ITEM = ITEMS.register("dark_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.BLINDNESS, 500, 0,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+	//sleep_energy_item
 	
 	public static final RegistryObject<Item> LUCK_ENERGY_ITEM = ITEMS.register("luck_energy_item",
 			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.LUCK, 500, 0,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
@@ -761,26 +767,25 @@ public class Ex_Aid_Rider_Items {
 
 	//balloon_energy_item
 	//gag_energy_item
-	
-	//Memory
-	//Desire
-	//Friendship
-	//Veteran
-	
-	//disguise_energy_item
 	//fascination_energy_item
 	//partner_energy_item
 	//prediction_energy_item
-	
 	public static final RegistryObject<Item> HALT_ENERGY_ITEM = ITEMS.register("halt_energy_item",
 			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 500, 100,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
 	//end_energy_item
-	//Succession
-	
-	//bug_energy_item
 	//random_energy_item
-	//save_energy_item
+	//bug_energy_item
+	
+	
+	// no plan to add these but adding just in case
+	
+	//Senior
+	//Memory
+	//Desire
+	//Friendship
+	//Veteran
+	//Succession
 	
 	//Continue
 	//Rampage
