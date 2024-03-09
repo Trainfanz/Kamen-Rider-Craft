@@ -765,7 +765,10 @@ public class Ex_Aid_Rider_Items {
 	public static final RegistryObject<Item> FLATTEN_ENERGY_ITEM = ITEMS.register("flatten_energy_item",
 			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(Effect_core.FLAT.get(), 500, 2,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
-	//balloon_energy_item
+	public static final RegistryObject<Item> BALLOON_ENERGY_ITEM = ITEMS.register("balloon_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(Effect_core.WIDE.get(), 500, 2,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
+
 	//gag_energy_item
 	//fascination_energy_item
 	//partner_energy_item

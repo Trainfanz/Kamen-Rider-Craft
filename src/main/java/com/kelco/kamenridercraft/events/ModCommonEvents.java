@@ -123,6 +123,7 @@ public class ModCommonEvents {
 			
 			
 			float size2 = event.getEntity().hasEffect(Effect_core.STRETCH.get())? 1:size;
+			
 			if (event.getEntity().hasEffect(Effect_core.FLAT.get())) { 
 				size2= 0.1f;
 			}
@@ -133,6 +134,12 @@ public class ModCommonEvents {
 			}
 			float size3 = event.getEntity().hasEffect(Effect_core.STRETCH.get())? 1:size;
 
+			 if (event.getEntity().hasEffect(Effect_core.WIDE.get())) {
+				size2=(float) (size2*3);
+				size3=(float) (size3*3);
+			}
+			
+			
 			event.getPoseStack().scale(size3,size,size2);
 		}
 

@@ -41,6 +41,9 @@ public class Effect_core {
 	public static final RegistryObject<MobEffect> STRETCH= EFFECT.register("stretch",
 			() -> new 	StretchEffect(MobEffectCategory.BENEFICIAL, 0xf78d95));
 
+	public static final RegistryObject<MobEffect> WIDE= EFFECT.register("wide",
+			() -> new 	WideEffect(MobEffectCategory.BENEFICIAL, 0x87ce87));
+
 
 	//FIRE_PUNCH_POTION
 
