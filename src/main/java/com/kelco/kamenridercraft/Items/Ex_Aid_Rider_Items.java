@@ -776,7 +776,9 @@ public class Ex_Aid_Rider_Items {
 	//end_energy_item
 	//random_energy_item
 	//bug_energy_item
-	
+	public static final RegistryObject<Item> BUG_ENERGY_ITEM = ITEMS.register("bug_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(Effect_core.BUGSTER.get(), 500, 1,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
 	
 	// no plan to add these but adding just in case
 	

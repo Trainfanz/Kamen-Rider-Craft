@@ -46,6 +46,9 @@ public class Effect_core {
 
 	//BUGSTER_POTION 
 
+	public static final RegistryObject<MobEffect> BUGSTER= EFFECT.register("bug",
+			() -> new 	BugEffect(MobEffectCategory.BENEFICIAL, 0xe8842e));
+
 	
 
 	public static void register(IEventBus eventBus) {
