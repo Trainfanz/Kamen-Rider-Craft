@@ -776,7 +776,9 @@ public class Ex_Aid_Rider_Items {
 	public static final RegistryObject<Item> HALT_ENERGY_ITEM = ITEMS.register("halt_energy_item",
 			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 500, 100,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
-	//end_energy_item
+	public static final RegistryObject<Item> END_ENERGY_ITEM = ITEMS.register("end_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(Effect_core.EXPLODE.get(), 500, 1,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
 	//random_energy_item
 	//bug_energy_item
 	public static final RegistryObject<Item> BUG_ENERGY_ITEM = ITEMS.register("bug_energy_item",

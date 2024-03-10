@@ -30,27 +30,31 @@ public class Effect_core {
 			() -> new 	FlyingEffect(MobEffectCategory.BENEFICIAL, 0x1d8519));
 
 	public static final RegistryObject<MobEffect> SMALL= EFFECT.register("small",
-			() -> new 	SmallEffect(MobEffectCategory.BENEFICIAL, 0x1d8519));
+			() -> new 	SmallEffect(MobEffectCategory.NEUTRAL, 0x1d8519));
 
 	public static final RegistryObject<MobEffect> BIG= EFFECT.register("big",
-			() -> new 	BigEffect(MobEffectCategory.BENEFICIAL, 0x1d8519));
+			() -> new 	BigEffect(MobEffectCategory.NEUTRAL, 0x1d8519));
 
 	public static final RegistryObject<MobEffect> FLAT= EFFECT.register("flat",
-			() -> new 	BigEffect(MobEffectCategory.BENEFICIAL, 0xf7fada));
+			() -> new 	BigEffect(MobEffectCategory.NEUTRAL, 0xf7fada));
 
 	public static final RegistryObject<MobEffect> STRETCH= EFFECT.register("stretch",
-			() -> new 	StretchEffect(MobEffectCategory.BENEFICIAL, 0xf78d95));
+			() -> new 	StretchEffect(MobEffectCategory.NEUTRAL, 0xf78d95));
 
 	public static final RegistryObject<MobEffect> WIDE= EFFECT.register("wide",
-			() -> new 	WideEffect(MobEffectCategory.BENEFICIAL, 0x87ce87));
+			() -> new 	WideEffect(MobEffectCategory.NEUTRAL, 0x87ce87));
 
 
+	public static final RegistryObject<MobEffect> EXPLODE= EFFECT.register("explode",
+			() -> new 	ExplodeEffect(MobEffectCategory.HARMFUL, 0x565656));
+
+	
 	//FIRE_PUNCH_POTION
 
 	//BUGSTER_POTION 
 
 	public static final RegistryObject<MobEffect> BUGSTER= EFFECT.register("bug",
-			() -> new 	BugEffect(MobEffectCategory.BENEFICIAL, 0xe8842e));
+			() -> new 	BugEffect(MobEffectCategory.HARMFUL, 0xe8842e));
 
 	
 
