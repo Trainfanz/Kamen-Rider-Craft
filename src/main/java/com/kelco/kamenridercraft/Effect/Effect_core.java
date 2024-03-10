@@ -44,14 +44,10 @@ public class Effect_core {
 	public static final RegistryObject<MobEffect> WIDE= EFFECT.register("wide",
 			() -> new 	WideEffect(MobEffectCategory.NEUTRAL, 0x87ce87));
 
-
 	public static final RegistryObject<MobEffect> EXPLODE= EFFECT.register("explode",
 			() -> new 	ExplodeEffect(MobEffectCategory.HARMFUL, 0x565656));
 
-	
 	//FIRE_PUNCH_POTION
-
-	//BUGSTER_POTION 
 
 	public static final RegistryObject<MobEffect> BUGSTER= EFFECT.register("bug",
 			() -> new 	BugEffect(MobEffectCategory.HARMFUL, 0xe8842e));
