@@ -27,6 +27,8 @@ public class FlyingHandler {
 		if (entity == null)
 			return;
 
+		
+		
 		if (entity instanceof LivingEntity _livEnt ? _livEnt.hasEffect(Effect_core.FLYING.get()) : false) {
 			if (entity instanceof Player _player) {
 				_player.getAbilities().mayfly = (true);
@@ -35,41 +37,18 @@ public class FlyingHandler {
 		}	
 		else if (!(entity instanceof LivingEntity _livEnt ? _livEnt.hasEffect(Effect_core.FLYING.get()) : false)) {
 			if (entity instanceof Player _player) {
-				_player.getAbilities().mayfly = (false);
-				_player.onUpdateAbilities();
-			}
-		}
-
-
-		if (new Object() {
-			public boolean checkGamemode(Entity _ent) {
-				if (_ent instanceof ServerPlayer _serverPlayer) {
-					return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
-				} else if (_ent.level().isClientSide() && _ent instanceof Player _player) {
-					return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null && Minecraft.getInstance()
-							.getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
-				}
-				return false;
-			}
-		}.checkGamemode(entity)) {
-			if (entity instanceof Player _player) {
-				_player.getAbilities().mayfly = (true);
-				_player.onUpdateAbilities();
-			}
-		}
-		if (new Object() {
-			public boolean checkGamemode(Entity _ent) {
-				if (_ent instanceof ServerPlayer _serverPlayer) {
-					return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.SPECTATOR;
-				} else if (_ent.level().isClientSide() && _ent instanceof Player _player) {
-					return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null && Minecraft.getInstance()
-							.getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.SPECTATOR;
-				}
-				return false;
-			}
-		}.checkGamemode(entity)) {
-			if (entity instanceof Player _player) {
-				_player.getAbilities().mayfly = (true);
+				
+				boolean checkGamemode = false;
+				
+					if (_player instanceof ServerPlayer _serverPlayer) {
+						checkGamemode = _serverPlayer.gameMode.getGameModeForPlayer() != GameType.CREATIVE&_serverPlayer.gameMode.getGameModeForPlayer() != GameType.SPECTATOR;
+					} else if (entity.level().isClientSide()) {
+						checkGamemode =  Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null && Minecraft.getInstance()
+								.getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() != GameType.SPECTATOR && Minecraft.getInstance()
+										.getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() != GameType.CREATIVE;
+					}
+					
+				_player.getAbilities().mayfly = (checkGamemode? false:true);
 				_player.onUpdateAbilities();
 			}
 		}

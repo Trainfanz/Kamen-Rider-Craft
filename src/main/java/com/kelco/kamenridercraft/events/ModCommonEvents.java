@@ -53,6 +53,8 @@ import com.kelco.kamenridercraft.Items.Kuuga_Rider_Items;
 import com.kelco.kamenridercraft.Items.Modded_item_core;
 import java.util.List;
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
+import net.minecraft.world.damagesource.DamageTypes;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.npc.VillagerProfession;
@@ -61,6 +63,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.trading.MerchantOffer;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraftforge.client.event.RenderLivingEvent;
 import net.minecraftforge.client.event.RenderPlayerEvent;
@@ -68,6 +71,7 @@ import net.minecraftforge.common.ForgeMod;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.event.entity.EntityEvent;
 import net.minecraftforge.event.entity.SpawnPlacementRegisterEvent;
+import net.minecraftforge.event.entity.living.LivingDamageEvent;
 import net.minecraftforge.event.village.VillagerTradesEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -143,6 +147,32 @@ public class ModCommonEvents {
 			event.getPoseStack().scale(size3,size,size2);
 		}
 
+		
+		// /effect give @e kamenridercraft:big infinite 3
+
+		@SubscribeEvent
+		public static void addLivingDamageEvent(LivingDamageEvent event) {
+
+			if ( event.getSource().getEntity() instanceof LivingEntity _livEnt) {
+				if (_livEnt.hasEffect(Effect_core.FIRE_PUNCH_POTION.get())){
+					if(event.getSource().is(DamageTypes.PLAYER_ATTACK)||event.getSource().is(DamageTypes.MOB_ATTACK)||event.getSource().is(DamageTypes.MOB_ATTACK_NO_AGGRO)) {
+						event.getEntity().setSecondsOnFire(_livEnt.getEffect(Effect_core.FIRE_PUNCH_POTION.get()).getAmplifier()+1);
+					}
+					
+				}
+				if (_livEnt.hasEffect(Effect_core.EXPLOSION_PUNCH_POTION.get())){
+					if(event.getSource().is(DamageTypes.PLAYER_ATTACK)||event.getSource().is(DamageTypes.MOB_ATTACK)||event.getSource().is(DamageTypes.MOB_ATTACK_NO_AGGRO)) {
+						
+					boolean flag = net.minecraftforge.event.ForgeEventFactory.getMobGriefingEvent(_livEnt.level(), _livEnt);
+					event.getEntity().level().explode(null, event.getEntity().getX(), event.getEntity().getY(), event.getEntity().getZ(),_livEnt.getEffect(Effect_core.EXPLOSION_PUNCH_POTION.get()).getAmplifier(), flag, Level.ExplosionInteraction.MOB);
+					}
+				}
+				
+			}
+		//event.getEntity().hasEffect(Effect_core.BIG.get())||event.getEntity().hasEffect(Effect_core.STRETCH.get());
+		
+		}
+		
 		@SubscribeEvent
 		public static void addRenderPlayerEvent(RenderPlayerEvent.Pre event) {
 
