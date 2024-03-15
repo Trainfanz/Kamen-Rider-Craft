@@ -55,6 +55,13 @@ public class Effect_core {
 	public static final RegistryObject<MobEffect> EXPLOSION_PUNCH_POTION= EFFECT.register("explosion_punch",
 			() -> new 	ExplosionPunchEffect(MobEffectCategory.BENEFICIAL, 0xf7c208));
 
+	public static final RegistryObject<MobEffect> FIRE_SHOT_POTION= EFFECT.register("fire_shot",
+			() -> new 	FireShotEffect(MobEffectCategory.BENEFICIAL, 0xf7c208));
+
+	
+	public static final RegistryObject<MobEffect> EXPLOSION_SHOT_POTION= EFFECT.register("explosion_shot",
+			() -> new 	ExplosionShotEffect(MobEffectCategory.BENEFICIAL, 0xf7c208));
+
 
 	public static final RegistryObject<MobEffect> BUGSTER= EFFECT.register("bug",
 			() -> new 	BugEffect(MobEffectCategory.HARMFUL, 0xe8842e));

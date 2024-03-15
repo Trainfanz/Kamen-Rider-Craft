@@ -102,7 +102,7 @@ public class ModCommonEvents {
 					}
 					event.setNewSize(entity.getDimensions(entity.getPose()).scale(size),true);
 					event.setNewEyeHeight(((float)entity.getEyeHeight(entity.getPose())*size));
-					
+
 				}
 			}
 		}
@@ -116,7 +116,7 @@ public class ModCommonEvents {
 
 			float size = 1;
 			boolean Tall = event.getEntity().hasEffect(Effect_core.BIG.get())||event.getEntity().hasEffect(Effect_core.STRETCH.get());
-			
+
 			if (event.getEntity().hasEffect(Effect_core.STRETCH.get())&!event.getEntity().hasEffect(Effect_core.SMALL.get())) { 
 				size= size*((event.getEntity().getEffect(Effect_core.STRETCH.get()).getAmplifier())+1);
 			}else if (event.getEntity().hasEffect(Effect_core.BIG.get())&!event.getEntity().hasEffect(Effect_core.SMALL.get())) { 
@@ -124,10 +124,10 @@ public class ModCommonEvents {
 			}else  if (!event.getEntity().hasEffect(Effect_core.BIG.get())&event.getEntity().hasEffect(Effect_core.SMALL.get())) {
 				size=(float) (size/2);
 			}
-			
-			
+
+
 			float size2 = event.getEntity().hasEffect(Effect_core.STRETCH.get())? 1:size;
-			
+
 			if (event.getEntity().hasEffect(Effect_core.FLAT.get())) { 
 				size2= 0.1f;
 			}
@@ -138,41 +138,50 @@ public class ModCommonEvents {
 			}
 			float size3 = event.getEntity().hasEffect(Effect_core.STRETCH.get())? 1:size;
 
-			 if (event.getEntity().hasEffect(Effect_core.WIDE.get())) {
+			if (event.getEntity().hasEffect(Effect_core.WIDE.get())) {
 				size2=(float) (size2*3);
 				size3=(float) (size3*3);
 			}
-			
-			
+
+
 			event.getPoseStack().scale(size3,size,size2);
 		}
 
-		
+
 		// /effect give @e kamenridercraft:big infinite 3
 
 		@SubscribeEvent
 		public static void addLivingDamageEvent(LivingDamageEvent event) {
 
 			if ( event.getSource().getEntity() instanceof LivingEntity _livEnt) {
-				if (_livEnt.hasEffect(Effect_core.FIRE_PUNCH_POTION.get())){
-					if(event.getSource().is(DamageTypes.PLAYER_ATTACK)||event.getSource().is(DamageTypes.MOB_ATTACK)||event.getSource().is(DamageTypes.MOB_ATTACK_NO_AGGRO)) {
+				if(event.getSource().is(DamageTypes.PLAYER_ATTACK)||event.getSource().is(DamageTypes.MOB_ATTACK)||event.getSource().is(DamageTypes.MOB_ATTACK_NO_AGGRO)) {
+
+					if (_livEnt.hasEffect(Effect_core.FIRE_PUNCH_POTION.get())){
 						event.getEntity().setSecondsOnFire(_livEnt.getEffect(Effect_core.FIRE_PUNCH_POTION.get()).getAmplifier()+1);
 					}
-					
-				}
-				if (_livEnt.hasEffect(Effect_core.EXPLOSION_PUNCH_POTION.get())){
-					if(event.getSource().is(DamageTypes.PLAYER_ATTACK)||event.getSource().is(DamageTypes.MOB_ATTACK)||event.getSource().is(DamageTypes.MOB_ATTACK_NO_AGGRO)) {
-						
-					boolean flag = net.minecraftforge.event.ForgeEventFactory.getMobGriefingEvent(_livEnt.level(), _livEnt);
-					event.getEntity().level().explode(null, event.getEntity().getX(), event.getEntity().getY(), event.getEntity().getZ(),_livEnt.getEffect(Effect_core.EXPLOSION_PUNCH_POTION.get()).getAmplifier(), flag, Level.ExplosionInteraction.MOB);
+
+					if (_livEnt.hasEffect(Effect_core.EXPLOSION_PUNCH_POTION.get())){
+						boolean flag = net.minecraftforge.event.ForgeEventFactory.getMobGriefingEvent(_livEnt.level(), _livEnt);
+						event.getEntity().level().explode(null, event.getEntity().getX(), event.getEntity().getY(), event.getEntity().getZ(),_livEnt.getEffect(Effect_core.EXPLOSION_PUNCH_POTION.get()).getAmplifier(), flag, Level.ExplosionInteraction.MOB);
+					}
+
+				}else if(event.getSource().is(DamageTypes.ARROW)||event.getSource().is(DamageTypes.MOB_PROJECTILE)) {
+					if (_livEnt.hasEffect(Effect_core.FIRE_SHOT_POTION.get())){
+						event.getEntity().setSecondsOnFire(_livEnt.getEffect(Effect_core.FIRE_SHOT_POTION.get()).getAmplifier()+1);
+					}
+
+					if (_livEnt.hasEffect(Effect_core.EXPLOSION_SHOT_POTION.get())){
+						boolean flag = net.minecraftforge.event.ForgeEventFactory.getMobGriefingEvent(_livEnt.level(), _livEnt);
+						event.getEntity().level().explode(null, event.getEntity().getX(), event.getEntity().getY(), event.getEntity().getZ(),_livEnt.getEffect(Effect_core.EXPLOSION_SHOT_POTION.get()).getAmplifier(), flag, Level.ExplosionInteraction.MOB);
+					}
 					}
 				}
-				
-			}
-		//event.getEntity().hasEffect(Effect_core.BIG.get())||event.getEntity().hasEffect(Effect_core.STRETCH.get());
-		
+
+			
+			//event.getEntity().hasEffect(Effect_core.BIG.get())||event.getEntity().hasEffect(Effect_core.STRETCH.get());
+
 		}
-		
+
 		@SubscribeEvent
 		public static void addRenderPlayerEvent(RenderPlayerEvent.Pre event) {
 
@@ -335,7 +344,7 @@ public class ModCommonEvents {
 		event.put(MobsCore.POWERED_UP_CORE.get(), PoweredUpCoreEntity.setAttributes());
 		event.put(MobsCore.ANCIENT_OOO.get(), AncientOOOEntity.setAttributes());
 		event.put(MobsCore.GODA.get(), GodaEntity.setAttributes());
-		
+
 		event.put(MobsCore.BUGSTERVIRUS.get(), GodaEntity.setAttributes());
 		event.put(MobsCore.MIGHTY_BUGSTER.get(), GodaEntity.setAttributes());
 		event.put(MobsCore.TADDLE_BUGSTER.get(), GodaEntity.setAttributes());
@@ -356,7 +365,7 @@ public class ModCommonEvents {
 		event.put(MobsCore.RIDEPLAYER.get(), GodaEntity.setAttributes());
 		event.put(MobsCore.PARADX.get(), GodaEntity.setAttributes());
 		event.put(MobsCore.CRONUS.get(), GodaEntity.setAttributes());
-		
+
 		event.put(MobsCore.MACEHINE_TORADOR.get(), baseBikeEntity.setAttributes());
 		event.put(MobsCore.HARDBOILER.get(), baseBikeEntity.setAttributes());
 		event.put(MobsCore.SKULLBOILER.get(), baseBikeEntity.setAttributes());
