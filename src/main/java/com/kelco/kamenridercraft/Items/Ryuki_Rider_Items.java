@@ -2,6 +2,7 @@ package com.kelco.kamenridercraft.Items;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseItem;
+import com.kelco.kamenridercraft.Items.rider_armor_base.BaseShieldItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.BaseSwordItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderArmorItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderDriverItem;
@@ -12,6 +13,7 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ShieldItem;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -229,6 +231,18 @@ public class Ryuki_Rider_Items {
 	
     public static final RegistryObject<Item> DRAG_VISOR = ITEMS.register("drag_visor",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM));
+    
+    public static final RegistryObject<SwordItem> DRAG_SABER = ITEMS.register("drag_saber",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 3, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM).ChangeRepairItem(ADVENT_CARD.get()));
+	
+    public static final RegistryObject<SwordItem> DRAG_CLAW = ITEMS.register("drag_claw",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 3, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM).ChangeRepairItem(ADVENT_CARD.get()));
+	
+	public static final RegistryObject<ShieldItem> DRAG_SHIELD = ITEMS.register("drag_shield",
+            () -> new BaseShieldItem(new Item.Properties()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM).ChangeRepairItem( ADVENT_CARD.get()));
+    
+    public static final RegistryObject<SwordItem> DRAG_VISOR_ZWEI = ITEMS.register("drag_visor_zwei",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 3, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM).ChangeRepairItem(ADVENT_CARD.get()));
 	
     public static final RegistryObject<SwordItem> DARK_VISOR = ITEMS.register("dark_visor",
             () -> new BaseSwordItem(Tiers.DIAMOND, 3, 3.5f, new Item.Properties()).AddToTabList(RiderTabs.RYUKI_TAB_ITEM).ChangeRepairItem(ADVENT_CARD.get()));
