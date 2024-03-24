@@ -53,7 +53,9 @@ import com.kelco.kamenridercraft.Items.Kuuga_Rider_Items;
 import com.kelco.kamenridercraft.Items.Modded_item_core;
 import java.util.List;
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
+import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.damagesource.DamageTypes;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.monster.Monster;
@@ -156,26 +158,41 @@ public class ModCommonEvents {
 			if ( event.getSource().getEntity() instanceof LivingEntity _livEnt) {
 				if(event.getSource().is(DamageTypes.PLAYER_ATTACK)||event.getSource().is(DamageTypes.MOB_ATTACK)||event.getSource().is(DamageTypes.MOB_ATTACK_NO_AGGRO)) {
 
-					if (_livEnt.hasEffect(Effect_core.FIRE_PUNCH_POTION.get())){
-						event.getEntity().setSecondsOnFire(_livEnt.getEffect(Effect_core.FIRE_PUNCH_POTION.get()).getAmplifier()+1);
+					if (_livEnt.hasEffect(Effect_core.FIRE_PUNCH.get())){
+						event.getEntity().setSecondsOnFire(_livEnt.getEffect(Effect_core.FIRE_PUNCH.get()).getAmplifier()+1);
+					}
+					
+					if (event.getEntity().hasEffect(Effect_core.FIRE_ARMOR.get())){
+						_livEnt.setSecondsOnFire(event.getEntity().getEffect(Effect_core.FIRE_ARMOR.get()).getAmplifier()+1);
 					}
 
-					if (_livEnt.hasEffect(Effect_core.EXPLOSION_PUNCH_POTION.get())){
+					if (_livEnt.hasEffect(Effect_core.EXPLOSION_PUNCH.get())){
 						boolean flag = net.minecraftforge.event.ForgeEventFactory.getMobGriefingEvent(_livEnt.level(), _livEnt);
-						event.getEntity().level().explode(null, event.getEntity().getX(), event.getEntity().getY(), event.getEntity().getZ(),_livEnt.getEffect(Effect_core.EXPLOSION_PUNCH_POTION.get()).getAmplifier(), flag, Level.ExplosionInteraction.MOB);
+						event.getEntity().level().explode(null, event.getEntity().getX(), event.getEntity().getY(), event.getEntity().getZ(),_livEnt.getEffect(Effect_core.EXPLOSION_PUNCH.get()).getAmplifier(), flag, Level.ExplosionInteraction.MOB);
+					}
+					
+					if (event.getEntity().hasEffect(Effect_core.REFLECT.get())){
+						event.getSource().getEntity().hurt(event.getSource(), (event.getAmount())*(1+event.getEntity().getEffect(Effect_core.REFLECT.get()).getAmplifier()+1));
 					}
 
 				}else if(event.getSource().is(DamageTypes.ARROW)||event.getSource().is(DamageTypes.MOB_PROJECTILE)) {
-					if (_livEnt.hasEffect(Effect_core.FIRE_SHOT_POTION.get())){
-						event.getEntity().setSecondsOnFire(_livEnt.getEffect(Effect_core.FIRE_SHOT_POTION.get()).getAmplifier()+1);
+					if (_livEnt.hasEffect(Effect_core.FIRE_SHOT.get())){
+						event.getEntity().setSecondsOnFire(_livEnt.getEffect(Effect_core.FIRE_SHOT.get()).getAmplifier()+1);
 					}
 
-					if (_livEnt.hasEffect(Effect_core.EXPLOSION_SHOT_POTION.get())){
+					if (_livEnt.hasEffect(Effect_core.EXPLOSION_SHOT.get())){
 						boolean flag = net.minecraftforge.event.ForgeEventFactory.getMobGriefingEvent(_livEnt.level(), _livEnt);
-						event.getEntity().level().explode(null, event.getEntity().getX(), event.getEntity().getY(), event.getEntity().getZ(),_livEnt.getEffect(Effect_core.EXPLOSION_SHOT_POTION.get()).getAmplifier(), flag, Level.ExplosionInteraction.MOB);
+						event.getEntity().level().explode(null, event.getEntity().getX(), event.getEntity().getY(), event.getEntity().getZ(),_livEnt.getEffect(Effect_core.EXPLOSION_SHOT.get()).getAmplifier(), flag, Level.ExplosionInteraction.MOB);
 					}
 					}
+				
+				if (event.getEntity().hasEffect(Effect_core.REFLECT.get())){
+					event.getSource().getEntity().hurt(event.getSource(), (event.getAmount())*(1+event.getEntity().getEffect(Effect_core.REFLECT.get()).getAmplifier()+1));
 				}
+				}
+
+			
+
 
 			
 			//event.getEntity().hasEffect(Effect_core.BIG.get())||event.getEntity().hasEffect(Effect_core.STRETCH.get());

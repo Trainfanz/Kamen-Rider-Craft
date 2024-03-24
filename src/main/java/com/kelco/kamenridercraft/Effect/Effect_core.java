@@ -48,25 +48,31 @@ public class Effect_core {
 			() -> new 	ExplodeEffect(MobEffectCategory.HARMFUL, 0x565656));
 
 	
-	public static final RegistryObject<MobEffect> FIRE_PUNCH_POTION= EFFECT.register("fire_punch",
+	public static final RegistryObject<MobEffect> FIRE_PUNCH= EFFECT.register("fire_punch",
 			() -> new 	FirePunchEffect(MobEffectCategory.BENEFICIAL, 0xf7c208));
-
 	
-	public static final RegistryObject<MobEffect> EXPLOSION_PUNCH_POTION= EFFECT.register("explosion_punch",
+	public static final RegistryObject<MobEffect> EXPLOSION_PUNCH= EFFECT.register("explosion_punch",
 			() -> new 	ExplosionPunchEffect(MobEffectCategory.BENEFICIAL, 0xf7c208));
 
-	public static final RegistryObject<MobEffect> FIRE_SHOT_POTION= EFFECT.register("fire_shot",
+	public static final RegistryObject<MobEffect> FIRE_SHOT= EFFECT.register("fire_shot",
 			() -> new 	FireShotEffect(MobEffectCategory.BENEFICIAL, 0xf7c208));
-
 	
-	public static final RegistryObject<MobEffect> EXPLOSION_SHOT_POTION= EFFECT.register("explosion_shot",
+	public static final RegistryObject<MobEffect> EXPLOSION_SHOT= EFFECT.register("explosion_shot",
 			() -> new 	ExplosionShotEffect(MobEffectCategory.BENEFICIAL, 0xf7c208));
 
+	public static final RegistryObject<MobEffect> FIRE_ARMOR= EFFECT.register("fire_armor",
+			() -> new 	FireArmorEffect(MobEffectCategory.BENEFICIAL, 0xf7c208));
 
+	public static final RegistryObject<MobEffect> REFLECT= EFFECT.register("reflect",
+			() -> new 	ReflectEffect(MobEffectCategory.BENEFICIAL, 0xd1d1d1));
+
+	
 	public static final RegistryObject<MobEffect> BUGSTER= EFFECT.register("bug",
 			() -> new 	BugEffect(MobEffectCategory.HARMFUL, 0xe8842e));
 
-	
+	public static final RegistryObject<MobEffect> RESET= EFFECT.register("reset",
+			() -> new 	ResetEffect(MobEffectCategory.HARMFUL, 0x4eff00));
+
 
 	public static void register(IEventBus eventBus) {
 		EFFECT.register(eventBus);

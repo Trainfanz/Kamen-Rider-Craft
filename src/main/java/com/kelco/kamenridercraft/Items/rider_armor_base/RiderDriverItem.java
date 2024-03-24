@@ -131,24 +131,41 @@ public class RiderDriverItem extends RiderArmorItem{
 
 	}
 
-	
+
 	public ResourceLocation getBeltModelResource(ItemStack itemstack,RiderArmorItem animatable, EquipmentSlot slot, LivingEntity rider) {
-	return new ResourceLocation(KamenRiderCraftCore.MODID, get_Form_Item(itemstack, 1).get_Belt_Model());	
+		return new ResourceLocation(KamenRiderCraftCore.MODID, get_Form_Item(itemstack, 1).get_Belt_Model());	
 	}
 
 
 	public ResourceLocation getModelResource(ItemStack itemstack,RiderArmorItem animatable, EquipmentSlot slot, LivingEntity rider) {
 		if (get_Form_Item(itemstack, 1).HasWingsIfFlying() & !rider.onGround()){
 			return new ResourceLocation(KamenRiderCraftCore.MODID, get_Form_Item(itemstack, 1).get_FlyingModel());
-	 }else return new ResourceLocation(KamenRiderCraftCore.MODID, get_Form_Item(itemstack, 1).get_Model());	
+		}else return new ResourceLocation(KamenRiderCraftCore.MODID, get_Form_Item(itemstack, 1).get_Model());	
 	}
 
 	public ResourceLocation getAnimationResource(ItemStack itemstack,RiderArmorItem animatable, EquipmentSlot slot) {
-		
+
 		return new ResourceLocation(KamenRiderCraftCore.MODID, get_Form_Item(itemstack, 1).get_Animation());
-		
+
 	}
 
+
+	public static void reset_Form_Item(ItemStack  itemstack)
+	{
+		
+		if(itemstack.getItem() instanceof RiderDriverItem belt){
+
+			if (belt.Num_Base_Form_Item!=1) {
+				for (int n = 0; n < belt.Num_Base_Form_Item-1; n++)
+				{
+					set_Form_Item( itemstack,belt.Extra_Base_Form_Item.get(n),2+n);
+				}
+			} 
+			set_Form_Item( itemstack,belt.Base_Form_Item,1);
+
+		}
+
+	}
 
 	public static void set_Form_Item(ItemStack itemstack, Item ITEM,int SLOT)
 	{
