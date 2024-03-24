@@ -4,6 +4,7 @@ import com.kelco.kamenridercraft.KamenRiderCraftCore;
 
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -36,7 +37,7 @@ public class Effect_core {
 			() -> new 	BigEffect(MobEffectCategory.NEUTRAL, 0x1d8519));
 
 	public static final RegistryObject<MobEffect> FLAT= EFFECT.register("flat",
-			() -> new 	BigEffect(MobEffectCategory.NEUTRAL, 0xf7fada));
+			() -> new 	FlatEffect(MobEffectCategory.NEUTRAL, 0xf7fada));
 
 	public static final RegistryObject<MobEffect> STRETCH= EFFECT.register("stretch",
 			() -> new 	StretchEffect(MobEffectCategory.NEUTRAL, 0xf78d95));
