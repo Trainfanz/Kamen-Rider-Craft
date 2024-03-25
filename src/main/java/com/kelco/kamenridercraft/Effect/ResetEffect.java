@@ -29,7 +29,7 @@ public class ResetEffect extends InstantenousMobEffect {
 	public void applyEffectTick(LivingEntity pLivingEntity, int pAmplifier) {
 		if (!pLivingEntity.level().isClientSide()) {
 
-			if (pLivingEntity.getItemBySlot(EquipmentSlot.FEET)!=null) {
+			if (pLivingEntity.getItemBySlot(EquipmentSlot.FEET)!=null&!pLivingEntity.hasEffect(Effect_core.MUTEKI.get())) {
 				if (pLivingEntity.getItemBySlot(EquipmentSlot.FEET).getItem() instanceof RiderDriverItem) {	
 				RiderDriverItem.reset_Form_Item(pLivingEntity.getItemBySlot(EquipmentSlot.FEET));
 				}

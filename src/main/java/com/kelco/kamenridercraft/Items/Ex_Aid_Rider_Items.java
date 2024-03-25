@@ -463,7 +463,8 @@ public class Ex_Aid_Rider_Items {
 					new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
 					new MobEffectInstance(MobEffects.SATURATION, 40, 2,true,false),
-					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false),
+					new MobEffectInstance(Effect_core.MUTEKI.get(), 40, 0,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
 
 	public static final RegistryObject<Item> UNFINISHED_MAXIMUN_MIGHTY_X_GASHAT = ITEMS.register("unfinished_maximum_mighty_x_gashat",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
@@ -521,7 +522,8 @@ public class Ex_Aid_Rider_Items {
 					new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
 					new MobEffectInstance(MobEffects.SATURATION, 40, 2,true,false),
-					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false)).addNeedForm(MAXIMUN_MIGHTY_X_GASHAT.get(), 1).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_HYPER_GASHAT, 20));
+					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false),
+					new MobEffectInstance(Effect_core.MUTEKI.get(), 40, 0,true,false)).addNeedForm(MAXIMUN_MIGHTY_X_GASHAT.get(), 1).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_HYPER_GASHAT, 20));
 
 	public static final RegistryObject<Item> GEMEDEUS_HYPER_MUTEKI_GASHAT = ITEMS.register("gamedeus_hyper_muteki_gashat",
 			() -> new RiderFormChangeItem(new Item.Properties(),0,"","gamedeus_muteki","gamer_driver_gamedeus_hyper_muteki",
@@ -532,7 +534,8 @@ public class Ex_Aid_Rider_Items {
 					new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
 					new MobEffectInstance(MobEffects.SATURATION, 40, 2,true,false),
-					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false)).addNeedForm(MAXIMUN_MIGHTY_X_GASHAT.get(), 1).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_HYPER_GASHAT, 5));
+					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false),
+					new MobEffectInstance(Effect_core.MUTEKI.get(), 40, 0,true,false)).addNeedForm(MAXIMUN_MIGHTY_X_GASHAT.get(), 1).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_HYPER_GASHAT, 5));
 
 	//hyper_fumetsu_gashat Still needs .addNeedForm(MAXIMUN_MIGHTY_X_GASHAT.get(), 1)
 	
@@ -545,7 +548,8 @@ public class Ex_Aid_Rider_Items {
 					new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
 					new MobEffectInstance(MobEffects.SATURATION, 40, 2,true,false),
-					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_HYPER_GASHAT, 20));
+					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false),
+					new MobEffectInstance(Effect_core.MUTEKI.get(), 40, 0,true,false)).alsoChange2ndSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.EX_AID_TAB_ITEM).AddToTabList(GameCreator.BLANK_HYPER_GASHAT, 20));
 
 	
 	public static final RegistryObject<Item> THE_UNBEATABLE_GAME= ITEMS.register("the_unbeatable_game",
@@ -741,6 +745,9 @@ public class Ex_Aid_Rider_Items {
 	
 	//reflect_energy_item
 	//save_energy_item
+	public static final RegistryObject<Item> SAVE_ENERGY_ITEM = ITEMS.register("save_energy_item",
+			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(Effect_core.MUTEKI.get(), 500, 0,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
+
 	
 	public static final RegistryObject<Item> REVERSE_ITEM = ITEMS.register("reverse_energy_item",
 			() -> new ExAidEnergyItem(new Item.Properties(),new MobEffectInstance(MobEffects.HEAL, 1, 10,true,false)).AddToTabList(RiderTabs.EX_AID_TAB_ITEM));
