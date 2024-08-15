@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:w/main",
+    "name": "W Rider Items",
+    "description": "All W-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "kamenridercraft:joker_memory",
+    "sortnum": 2
+}

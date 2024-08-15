@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:w/main",
+    "name": "W Arsenal",
+    "description": "Every weapon used by the W Riders.",
+    "icon": "kamenridercraft:trigger_magnum",
+    "sortnum": 3
+}

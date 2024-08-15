@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:ooo/main",
+    "name": "OOO Riders",
+    "description": "Every Rider and pseudo-Rider from or relating to the show, Kamen Rider OOO.",
+    "icon": "kamenridercraft:ooohead",
+    "sortnum": 0
+}

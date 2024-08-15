@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:ooo/main",
+    "name": "OOO Arsenal",
+    "description": "Every weapon used by the OOO Riders.",
+    "icon": "kamenridercraft:medajalibur",
+    "sortnum": 3
+}

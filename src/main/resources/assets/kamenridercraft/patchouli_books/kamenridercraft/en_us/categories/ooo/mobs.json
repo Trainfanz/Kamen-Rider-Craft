@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:ooo/main",
+    "name": "OOO Mobs",
+    "description": "Every mob from or relating to the show, Kamen Rider OOO.",
+    "icon": "kamenridercraft:ooo_logo",
+    "sortnum": 4
+}

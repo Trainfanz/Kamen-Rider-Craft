@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:w/main",
+    "name": "W Riders",
+    "description": "Every Rider and pseudo-Rider from or relating to the show, Kamen Rider W.",
+    "icon": "kamenridercraft:whead",
+    "sortnum": 0
+}

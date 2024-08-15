@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:w/main",
+    "name": "Earth's Core",
+    "description": "",
+    "icon": "kamenridercraft:pure_gaia_memory_block",
+    "sortnum": 5
+}

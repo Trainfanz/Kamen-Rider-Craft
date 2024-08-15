@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:w/main",
+    "name": "W Transformation Devices",
+    "description": "The transformation devices used by the W Riders.",
+    "icon": "kamenridercraft:wdriver",
+    "sortnum": 1
+}

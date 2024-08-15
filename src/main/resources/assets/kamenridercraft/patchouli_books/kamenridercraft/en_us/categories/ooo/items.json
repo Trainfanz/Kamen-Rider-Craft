@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:ooo/main",
+    "name": "OOO Rider Items",
+    "description": "All OOO-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "kamenridercraft:taka_medal",
+    "sortnum": 2
+}

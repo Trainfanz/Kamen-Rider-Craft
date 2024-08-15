@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:ooo/main",
+    "name": "OOO Transformation Devices",
+    "description": "The transformation devices used by the OOO Riders.",
+    "icon": "kamenridercraft:ooodriver",
+    "sortnum": 1
+}
