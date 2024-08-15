@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:gavv/main",
+    "name": "Gavv Transformation Devices",
+    "description": "The transformation devices used by the Gavv Riders.",
+    "icon": "kamenridercraft:henshin_belt_gavv",
+    "sortnum": 1
+}

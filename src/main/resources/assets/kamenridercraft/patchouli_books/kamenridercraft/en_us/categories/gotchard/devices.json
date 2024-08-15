@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:gotchard/main",
+    "name": "Gotchard Transformation Devices",
+    "description": "The transformation devices used by the Gotchard Riders.",
+    "icon": "kamenridercraft:gotchardriver",
+    "sortnum": 1
+}

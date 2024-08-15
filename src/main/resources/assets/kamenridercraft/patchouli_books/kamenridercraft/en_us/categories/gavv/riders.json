@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:gavv/main",
+    "name": "Gavv Riders",
+    "description": "Every Rider and pseudo-Rider from or relating to the show, Kamen Rider Gavv.",
+    "icon": "kamenridercraft:gavv_head",
+    "sortnum": 0
+}

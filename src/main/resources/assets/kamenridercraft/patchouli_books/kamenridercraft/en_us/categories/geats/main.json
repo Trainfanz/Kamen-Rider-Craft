@@ -1,0 +1,7 @@
+{
+    "parent": "kamenridercraft:main/reiwa",
+    "name": "Kamen Rider Geats",
+    "description": "Everything related to the show, Kamen Rider Geats.",
+    "icon": "kamenridercraft:geats_logo",
+    "sortnum": 37
+}

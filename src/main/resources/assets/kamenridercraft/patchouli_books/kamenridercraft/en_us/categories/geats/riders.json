@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:geats/main",
+    "name": "Geats Riders",
+    "description": "Every Rider and pseudo-Rider from or relating to the show, Kamen Rider Geats.",
+    "icon": "kamenridercraft:geatshead",
+    "sortnum": 0
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:gotchard/main",
+    "name": "Gotchard Rider Items",
+    "description": "All Gotchard-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "kamenridercraft:hopper1_ride_chemy_card",
+    "sortnum": 2
+}

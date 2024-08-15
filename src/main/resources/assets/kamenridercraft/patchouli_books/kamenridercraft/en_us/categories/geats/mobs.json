@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:geats/main",
+    "name": "Geats Mobs",
+    "description": "Every mob from or relating to the show, Kamen Rider Geats.",
+    "icon": "kamenridercraft:geats_logo",
+    "sortnum": 4
+}

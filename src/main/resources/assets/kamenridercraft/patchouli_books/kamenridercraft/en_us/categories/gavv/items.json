@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:gavv/main",
+    "name": "Gavv Rider Items",
+    "description": "All Gavv-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "kamenridercraft:poppingummy_gochizo",
+    "sortnum": 2
+}

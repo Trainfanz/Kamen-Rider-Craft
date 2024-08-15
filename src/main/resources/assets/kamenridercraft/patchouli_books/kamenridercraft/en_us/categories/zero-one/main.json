@@ -1,0 +1,7 @@
+{
+    "parent": "kamenridercraft:main/reiwa",
+    "name": "Kamen Rider Zero-One",
+    "description": "Everything related to the show, Kamen Rider Zero-One.",
+    "icon": "kamenridercraft:zero_one_logo",
+    "sortnum": 35
+}
