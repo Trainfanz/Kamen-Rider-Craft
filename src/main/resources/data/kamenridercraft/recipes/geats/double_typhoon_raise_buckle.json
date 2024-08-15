@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "legend_rider_buckles",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:hatena_mission_box"
+    }, 
+    {
+      "item": "kamenridercraft:double_typhoon_core"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft:double_typhoon_raise_buckle"
+  }
+}

@@ -23,7 +23,8 @@
 	"recipes": [
 	  "kamenridercraft:hibiki/hibikidriver",
 	  "kamenridercraft:hibiki/ongekibo_rekka",
-	  "kamenridercraft:hibiki/hibiki_logo"
+	  "kamenridercraft:hibiki/hibiki_logo",
+	  "kamenridercraft:geats/ongekiko_kaentsuzumi_raise_buckle"
 	]
   },
   "sends_telemetry_event": false

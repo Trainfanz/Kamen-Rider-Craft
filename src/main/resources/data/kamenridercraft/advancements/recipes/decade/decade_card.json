@@ -24,7 +24,8 @@
 	  "kamenridercraft:decade/decade_logo",
 	  "kamenridercraft:decade/decadriver",
 	  "kamenridercraft:decade/ride_booker",
-	  "kamenridercraft:decade/ongekibo_rekka_decade"
+	  "kamenridercraft:decade/ongekibo_rekka_decade",
+	  "kamenridercraft:geats/deca_driver_raise_buckle"
 	]
   },
   "sends_telemetry_event": false

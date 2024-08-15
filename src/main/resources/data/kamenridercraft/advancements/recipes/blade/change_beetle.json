@@ -23,7 +23,8 @@
 	"recipes": [
 	  "kamenridercraft:blade/blay_buckle",
 	  "kamenridercraft:blade/blade_rouzer",
-	  "kamenridercraft:blade/blade_logo"
+	  "kamenridercraft:blade/blade_logo",
+	  "kamenridercraft:geats/blay_buckle_raise_buckle"
 	]
   },
   "sends_telemetry_event": false

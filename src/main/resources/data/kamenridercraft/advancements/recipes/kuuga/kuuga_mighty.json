@@ -21,9 +21,10 @@
   ],
   "rewards": {
 	"recipes": [
-	  "kamenridercraft:kuuga/arcle",
+	  "kamenridercraft:kuuga/kuuga_arcle",
 	  "kamenridercraft:kuuga/kuuga_rising_mighty",
-	  "kamenridercraft:kuuga/kuuga_logo"
+	  "kamenridercraft:kuuga/kuuga_logo",
+	  "kamenridercraft:geats/arcle_raise_buckle"
 	]
   },
   "sends_telemetry_event": false

@@ -22,7 +22,8 @@
   "rewards": {
 	"recipes": [
 	  "kamenridercraft:agito/alter_ring",
-	  "kamenridercraft:agito/agito_logo"
+	  "kamenridercraft:agito/agito_logo",
+	  "kamenridercraft:geats/alter_ring_raise_buckle"
 	]
   },
   "sends_telemetry_event": false

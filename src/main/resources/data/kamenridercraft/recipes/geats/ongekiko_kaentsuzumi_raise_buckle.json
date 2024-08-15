@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "legend_rider_buckles",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:hatena_mission_box"
+    }, 
+    {
+      "item": "kamenridercraft:henshin_onsa"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft:ongekiko_kaentsuzumi_raise_buckle"
+  }
+}

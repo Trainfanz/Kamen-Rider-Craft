@@ -23,7 +23,8 @@
 	"recipes": [
 	  "kamenridercraft:ryuki/v_buckle_ryuki",
 	  "kamenridercraft:ryuki/drag_visor",
-	  "kamenridercraft:ryuki/ryuki_logo"
+	  "kamenridercraft:ryuki/ryuki_logo",
+	  "kamenridercraft:geats/v_buckle_raise_buckle"
 	]
   },
   "sends_telemetry_event": false

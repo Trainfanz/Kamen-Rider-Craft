@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "legend_rider_buckles",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:hatena_mission_box"
+    }, 
+    {
+      "item": "kamenridercraft:taka_medal"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft:ooo_driver_raise_buckle"
+  }
+}

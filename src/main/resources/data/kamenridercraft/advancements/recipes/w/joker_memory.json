@@ -23,7 +23,8 @@
 	"recipes": [
 	  "kamenridercraft:w/wdriver",
 	  "kamenridercraft:w/kirifuda_memory",
-	  "kamenridercraft:w/w_logo"
+	  "kamenridercraft:w/w_logo",
+	  "kamenridercraft:geats/double_driver_raise_buckle"
 	]
   },
   "sends_telemetry_event": false

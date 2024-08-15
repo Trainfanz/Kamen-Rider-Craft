@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "legend_rider_buckles",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:hatena_mission_box"
+    }, 
+    {
+      "item": "kamenridercraft:red_king_stone"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft:king_stone_raise_buckle"
+  }
+}

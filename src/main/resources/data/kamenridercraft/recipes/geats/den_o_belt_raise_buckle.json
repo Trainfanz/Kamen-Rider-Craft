@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "legend_rider_buckles",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:hatena_mission_box"
+    }, 
+    {
+      "item": "kamenridercraft:rider_ticket_sword"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft:den_o_belt_raise_buckle"
+  }
+}

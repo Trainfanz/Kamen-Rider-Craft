@@ -26,7 +26,8 @@
 	  "kamenridercraft:v3/v3legs",
 	  "kamenridercraft:v3/double_typhoon",
 	  "kamenridercraft:v3/v3_logo",
-	  "kamenridercraft:decade/v3_card"
+	  "kamenridercraft:decade/v3_card",
+	  "kamenridercraft:geats/double_typhoon_raise_buckle"
 	]
   },
   "sends_telemetry_event": false

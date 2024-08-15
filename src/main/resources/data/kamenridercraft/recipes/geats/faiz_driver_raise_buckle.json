@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "legend_rider_buckles",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:hatena_mission_box"
+    }, 
+    {
+      "item": "kamenridercraft:faiz_mission_memory"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft:faiz_driver_raise_buckle"
+  }
+}

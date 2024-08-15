@@ -23,7 +23,8 @@
 	"recipes": [
 	  "kamenridercraft:zero_one/zero_one_logo",
 	  "kamenridercraft:zero_one/hiden_zero_one_driver",
-	  "kamenridercraft:zero_one/attache_calibur"
+	  "kamenridercraft:zero_one/attache_calibur",
+	  "kamenridercraft:geats/zero_one_driver_raise_buckle"
 	]
   },
   "sends_telemetry_event": false

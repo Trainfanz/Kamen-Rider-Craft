@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "legend_rider_buckles",
+  "ingredients": [
+{
+    
+      "item": "kamenridercraft:hatena_mission_box"
+    }, 
+    {
+      "item": "kamenridercraft:kabuto_zecter"
+    } 
+    ],
+  "result": {
+    "item": "kamenridercraft:kabuto_zector_raise_buckle"
+  }
+}

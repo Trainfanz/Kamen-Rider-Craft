@@ -22,7 +22,8 @@
   "rewards": {
 	"recipes": [
 	  "kamenridercraft:kiva/kivadriver",
-	  "kamenridercraft:kiva/kiva_logo"
+	  "kamenridercraft:kiva/kiva_logo",
+	  "kamenridercraft:geats/kivat_belt_raise_buckle"
 	]
   },
   "sends_telemetry_event": false

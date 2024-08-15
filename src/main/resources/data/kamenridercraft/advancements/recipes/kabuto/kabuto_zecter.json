@@ -23,7 +23,8 @@
 	"recipes": [
 	  "kamenridercraft:kabuto/kabuto_rider_belt",
 	  "kamenridercraft:kabuto/kabuto_kunai",
-	  "kamenridercraft:kabuto/kabuto_logo"
+	  "kamenridercraft:kabuto/kabuto_logo",
+	  "kamenridercraft:geats/kabuto_zector_raise_buckle"
 	]
   },
   "sends_telemetry_event": false

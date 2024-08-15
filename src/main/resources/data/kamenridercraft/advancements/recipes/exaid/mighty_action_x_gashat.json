@@ -23,7 +23,8 @@
 	"recipes": [
 	  "kamenridercraft:exaid/gamer_driver_ex_aid",
 	  "kamenridercraft:exaid/gashacon_breaker",
-	  "kamenridercraft:exaid/ex_aid_logo"
+	  "kamenridercraft:exaid/ex_aid_logo",
+	  "kamenridercraft:geats/gamer_driver_raise_buckle"
 	]
   },
   "sends_telemetry_event": false
