@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:ex-aid/main",
+    "name": "Ex-Aid Arsenal",
+    "description": "Every weapon used by the Ex-Aid Riders.",
+    "icon": "kamenridercraft:gashacon_breaker",
+    "sortnum": 3
+}
