@@ -1,0 +1,7 @@
+{
+    "parent": "kamenridercraft:main/heisei",
+    "name": "Kamen Rider Hibiki",
+    "description": "Everything related to the show, Kamen Rider Hibiki.",
+    "icon": "kamenridercraft:hibiki_logo",
+    "sortnum": 20
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:decade/main",
+    "name": "Decade Arsenal",
+    "description": "Every weapon used by the Decade Riders.",
+    "icon": "kamenridercraft:ride_booker",
+    "sortnum": 3
+}

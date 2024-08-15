@@ -1,0 +1,7 @@
+{
+    "parent": "kamenridercraft:main/heisei",
+    "name": "Kamen Rider Kiva",
+    "description": "Everything related to the show, Kamen Rider Kiva.",
+    "icon": "kamenridercraft:kiva_logo",
+    "sortnum": 23
+}

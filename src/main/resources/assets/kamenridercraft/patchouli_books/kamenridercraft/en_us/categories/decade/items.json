@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:decade/main",
+    "name": "Decade Rider Items",
+    "description": "All Decade-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "kamenridercraft:decade_card",
+    "sortnum": 2
+}

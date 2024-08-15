@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:kabuto/main",
+    "name": "Kabuto Rider Items",
+    "description": "All Kabuto-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "kamenridercraft:kabuto_zecter",
+    "sortnum": 2
+}

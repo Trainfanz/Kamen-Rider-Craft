@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:decade/main",
+    "name": "Decade Riders",
+    "description": "Every Rider and pseudo-Rider from or relating to the show, Kamen Rider Decade.",
+    "icon": "kamenridercraft:decadehead",
+    "sortnum": 0
+}

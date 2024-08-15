@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:hibiki/main",
+    "name": "Hibiki Transformation Devices",
+    "description": "The transformation devices used by the Hibiki Riders.",
+    "icon": "kamenridercraft:hibikidriver",
+    "sortnum": 1
+}

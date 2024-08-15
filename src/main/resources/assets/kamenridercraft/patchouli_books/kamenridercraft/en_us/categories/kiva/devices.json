@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:kiva/main",
+    "name": "Kiva Transformation Devices",
+    "description": "The transformation devices used by the Kiva Riders.",
+    "icon": "kamenridercraft:kivadriver",
+    "sortnum": 1
+}

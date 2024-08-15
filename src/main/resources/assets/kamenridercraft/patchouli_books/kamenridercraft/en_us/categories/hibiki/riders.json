@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:hibiki/main",
+    "name": "Hibiki Riders",
+    "description": "Every Rider and pseudo-Rider from or relating to the show, Kamen Rider Hibiki.",
+    "icon": "kamenridercraft:hibikihead",
+    "sortnum": 0
+}

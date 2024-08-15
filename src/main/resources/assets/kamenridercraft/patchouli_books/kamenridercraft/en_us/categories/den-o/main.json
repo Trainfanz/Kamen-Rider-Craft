@@ -1,0 +1,7 @@
+{
+    "parent": "kamenridercraft:main/heisei",
+    "name": "Kamen Rider Den-O",
+    "description": "Everything related to the show, Kamen Rider Den-O.",
+    "icon": "kamenridercraft:den_o_logo",
+    "sortnum": 22
+}

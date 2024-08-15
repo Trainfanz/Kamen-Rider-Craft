@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:hibiki/main",
+    "name": "Hibiki Rider Items",
+    "description": "All Hibiki-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "kamenridercraft:henshin_onsa",
+    "sortnum": 2
+}

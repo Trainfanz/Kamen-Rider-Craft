@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:kiva/main",
+    "name": "Kiva Arsenal",
+    "description": "Every weapon used by the Kiva Riders.",
+    "icon": "kamenridercraft:garulu_saber",
+    "sortnum": 3
+}

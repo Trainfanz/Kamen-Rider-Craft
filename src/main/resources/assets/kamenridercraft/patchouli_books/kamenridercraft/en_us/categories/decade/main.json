@@ -1,0 +1,7 @@
+{
+    "parent": "kamenridercraft:main/heisei",
+    "name": "Kamen Rider Decade",
+    "description": "Everything related to the show, Kamen Rider Decade.",
+    "icon": "kamenridercraft:decade_logo",
+    "sortnum": 24
+}

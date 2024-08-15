@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:decade/main",
+    "name": "Decade Transformation Devices",
+    "description": "The transformation devices used by the Decade Riders.",
+    "icon": "kamenridercraft:decadriver",
+    "sortnum": 1
+}

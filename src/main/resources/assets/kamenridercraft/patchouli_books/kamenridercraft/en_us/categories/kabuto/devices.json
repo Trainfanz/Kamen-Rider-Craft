@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:kabuto/main",
+    "name": "Kabuto Transformation Devices",
+    "description": "The transformation devices used by the Kabuto Riders.",
+    "icon": "kamenridercraft:kabuto_rider_belt",
+    "sortnum": 1
+}

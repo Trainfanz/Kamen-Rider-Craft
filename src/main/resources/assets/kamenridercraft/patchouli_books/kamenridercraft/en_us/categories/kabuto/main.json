@@ -1,0 +1,7 @@
+{
+    "parent": "kamenridercraft:main/heisei",
+    "name": "Kamen Rider Kabuto",
+    "description": "Everything related to the show, Kamen Rider Kabuto.",
+    "icon": "kamenridercraft:kabuto_logo",
+    "sortnum": 21
+}

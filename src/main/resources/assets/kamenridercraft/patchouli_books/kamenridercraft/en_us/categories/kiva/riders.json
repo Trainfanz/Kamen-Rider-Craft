@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:kiva/main",
+    "name": "Kiva Riders",
+    "description": "Every Rider and pseudo-Rider from or relating to the show, Kamen Rider Kiva.",
+    "icon": "kamenridercraft:kivahead",
+    "sortnum": 0
+}

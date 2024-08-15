@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:kiva/main",
+    "name": "Kiva Rider Items",
+    "description": "All Kiva-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "kamenridercraft:wakeupfuestle",
+    "sortnum": 2
+}

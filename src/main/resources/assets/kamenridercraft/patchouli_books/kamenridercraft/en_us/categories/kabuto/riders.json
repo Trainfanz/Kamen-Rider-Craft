@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:kabuto/main",
+    "name": "Kabuto Riders",
+    "description": "Every Rider and pseudo-Rider from or relating to the show, Kamen Rider Kabuto.",
+    "icon": "kamenridercraft:kabutohead",
+    "sortnum": 0
+}
