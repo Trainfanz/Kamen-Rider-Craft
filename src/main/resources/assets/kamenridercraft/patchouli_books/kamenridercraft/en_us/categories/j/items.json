@@ -1,7 +1,7 @@
 {
 	"parent": "kamenridercraft:j/main",
     "name": "J Rider Items",
-    "description": "All J-related items that are neither armor nor a weapon.",
+    "description": "All J-related items that are neither an armor piece nor part of an arsenal.",
     "icon": "kamenridercraft:j_stone",
     "sortnum": 2
 }

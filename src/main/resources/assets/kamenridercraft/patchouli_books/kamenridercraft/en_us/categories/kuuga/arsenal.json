@@ -1,7 +1,7 @@
 {
 	"parent": "kamenridercraft:kuuga/main",
     "name": "Kuuga Arsenal",
-    "description": "Every weapon used by Kamen Rider Kuuga.",
+    "description": "Every weapon and tool used by Kamen Rider Kuuga.",
     "icon": "kamenridercraft:dragon_rod",
     "sortnum": 3
 }

@@ -1,0 +1,19 @@
+{
+    "name": "Alternative",
+    "icon": "kamenridercraft:psycorogue_advent",
+    "category": "kamenridercraft:ryuki/riders",
+    "sortnum": 14,
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:alternative_v_buckle\",Count:1b},{id:\"kamenridercraft:ryukilegs\",Count:1b},{id:\"kamenridercraft:ryukitroso\",Count:1b},{id:\"kamenridercraft:ryukihead\",Count:1b}]}",
+            "name": " ",
+            "text": ""
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Alternative",
+            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Transforms with the $(l:ryuki/devices/alternative_v_buckle)V Buckle Alternative$(/l)$(br2)Status Effects:$(li)Speed$(li)Resistance III$(li)Strength III"
+        }
+    ]
+}

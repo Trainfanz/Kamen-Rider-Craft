@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:ryuki/main",
+    "name": "Ryuki Arsenal",
+    "description": "Every weapon and tool used by Kamen Rider Ryuki.",
+    "icon": "kamenridercraft:drag_saber",
+    "sortnum": 3
+}

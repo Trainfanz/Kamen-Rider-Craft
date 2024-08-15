@@ -1,7 +1,7 @@
 {
 	"parent": "kamenridercraft:amazons/main",
     "name": "Amazons Rider Items",
-    "description": "All Amazons-related items that are neither armor nor a weapon.",
+    "description": "All Amazons-related items that are neither an armor piece nor part of an arsenal.",
     "icon": "kamenridercraft:condorer_core_omega",
     "sortnum": 2
 }

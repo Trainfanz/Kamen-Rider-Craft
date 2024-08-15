@@ -1,7 +1,7 @@
 {
 	"parent": "kamenridercraft:super-1/main",
     "name": "Super-1 Rider Items",
-    "description": "All Super-1 related items that are neither armor nor a weapon.",
+    "description": "All Super-1 related items that are neither an armor piece nor part of an arsenal.",
     "icon": "kamenridercraft:cyclode_core",
     "sortnum": 2
 }

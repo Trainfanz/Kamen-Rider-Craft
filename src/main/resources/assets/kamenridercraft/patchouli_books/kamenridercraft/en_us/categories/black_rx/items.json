@@ -1,7 +1,7 @@
 {
 	"parent": "kamenridercraft:black_rx/main",
     "name": "Black RX Rider Items",
-    "description": "All Black RX-related items that are neither armor nor a weapon.",
+    "description": "All Black RX-related items that are neither an armor piece nor part of an arsenal.",
     "icon": "kamenridercraft:rx_core",
     "sortnum": 2
 }

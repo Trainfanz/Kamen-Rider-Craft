@@ -1,0 +1,19 @@
+{
+    "name": "Dragvisorzwei",
+    "icon": "kamenridercraft:drag_visor_zwei",
+    "category": "kamenridercraft:ryuki/arsenal",
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by Ryuki's $(l:ryuki/riders/ryuki#survive)Survive$(/l)"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:drag_visor_zwei",
+            "title": " ",
+            "text": "Obtained through the $(l:ryuki/items/drag_visor_zwei_vent)Dragvisorzwei Shoot Vent Card$(/l)"
+        }
+    ]
+}

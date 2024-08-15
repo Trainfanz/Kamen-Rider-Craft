@@ -1,0 +1,19 @@
+{
+    "name": "Evilvisorzwei",
+    "icon": "kamenridercraft:evil_visor_zwei",
+    "category": "kamenridercraft:ryuki/arsenal",
+    "sortnum": 22,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by Raia's $(l:ryuki/riders/raia#survive)Survive$(/l)"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:evil_visor_zwei",
+            "title": " ",
+            "text": "Obtained through the $(l:ryuki/items/evil_visor_zwei_vent)Evilvisorzwei Shoot Vent Card$(/l)"
+        }
+    ]
+}

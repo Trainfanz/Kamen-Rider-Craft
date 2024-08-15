@@ -1,0 +1,92 @@
+{
+    "name": "Kamen Rider Ryuki",
+    "icon": "kamenridercraft:dragreder_advent",
+    "category": "kamenridercraft:ryuki/riders",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "anchor": "blank",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:v_buckle_ryuki\",tag:{slot_tex1:\"advent_card\"},Count:1b},{id:\"kamenridercraft:ryukilegs\",Count:1b},{id:\"kamenridercraft:ryukitroso\",Count:1b},{id:\"kamenridercraft:ryukihead\",Count:1b}]}",
+            "name": "Blank Form",
+            "text": "Accessed with the $(l:ryuki/items/advent_card)Contract Card$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Ryuki",
+            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Transforms with the $(l:ryuki/devices/v_buckle_ryuki)V Buckle (Ryuki)$(/l)$(br2)Status Effects:$(li)Weakness"
+        },
+        {
+            "type": "patchouli:entity",
+            "anchor": "ryuki",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:v_buckle_ryuki\",tag:{slot_tex1:\"dragreder_advent\"},Count:1b},{id:\"kamenridercraft:ryukilegs\",Count:1b},{id:\"kamenridercraft:ryukitroso\",Count:1b},{id:\"kamenridercraft:ryukihead\",Count:1b}]}",
+            "name": " ",
+            "text": "Accessed with the $(l:ryuki/items/dragreder_advent)Dragreder Advent Card$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Ryuki",
+            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Transforms with the $(l:ryuki/devices/v_buckle_ryuki)V Buckle (Ryuki)$(/l)$(br2)Status Effects:$(li)Speed$(li)Haste$(li)Fire Resistance"
+        },
+        {
+            "type": "patchouli:entity",
+            "anchor": "dragshield",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:v_buckle_ryuki\",tag:{slot_tex1:\"drag_shield_vent_form\"},Count:1b},{id:\"kamenridercraft:ryukilegs\",Count:1b},{id:\"kamenridercraft:ryukitroso\",Count:1b},{id:\"kamenridercraft:ryukihead\",Count:1b}]}",
+            "name": "Ryuki w/ Dragshields",
+            "text": "Accessed with the $(l:ryuki/items/drag_shield_vent_form)Dragshield Guard Vent Card$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Ryuki",
+            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Transforms with the $(l:ryuki/devices/v_buckle_ryuki)V Buckle (Ryuki)$(/l)$(br2)Status Effects:$(li)Speed$(li)Resistance$(li)Haste$(li)Fire Resistance"
+        },
+        {
+            "type": "patchouli:entity",
+            "anchor": "survive",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:v_buckle_ryuki\",tag:{slot_tex1:\"survive_rekka\"},Count:1b},{id:\"kamenridercraft:ryukilegs\",Count:1b},{id:\"kamenridercraft:ryukitroso\",Count:1b},{id:\"kamenridercraft:ryukihead\",Count:1b}]}",
+            "name": "Ryuki Survive",
+            "text": "Accessed with the $(l:ryuki/items/survive_rekka)Survive Card (Rekka)$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Ryuki",
+            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Transforms with the $(l:ryuki/devices/v_buckle_ryuki)V Buckle (Ryuki)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Resistance III$(li)Haste II$(li)Fire Resistance$(li)Strength V"
+        },
+        {
+            "type": "patchouli:entity",
+            "anchor": "survive_black",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:v_buckle_ryuki\",tag:{slot_tex1:\"survive_black\"},Count:1b},{id:\"kamenridercraft:ryukilegs\",Count:1b},{id:\"kamenridercraft:ryukitroso\",Count:1b},{id:\"kamenridercraft:ryukihead\",Count:1b}]}",
+            "name": "Ryuki Survive (Black Version)",
+            "text": "Accessed with the $(l:ryuki/items/survive_black)Survive Card (Black)$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Ryuki",
+            "text": "Appears in:$(li)Rider Hero Series (2002, toyline)$(br2)Transforms with the $(l:ryuki/devices/v_buckle_ryuki)V Buckle (Ryuki)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Resistance III$(li)Haste II$(li)Fire Resistance$(li)Strength V"
+        },
+        {
+            "type": "patchouli:entity",
+            "anchor": "dragreder",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:v_buckle_ryuki\",tag:{slot_tex1:\"dragreder\"},Count:1b},{id:\"kamenridercraft:ryukilegs\",Count:1b},{id:\"kamenridercraft:ryukitroso\",Count:1b},{id:\"kamenridercraft:ryukihead\",Count:1b}]}",
+            "name": "Dragreder",
+            "text": "Accessed with the $(l:ryuki/items/dragreder)Dragreder Card Warrior Card$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Ryuki",
+            "text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Transforms with the $(l:ryuki/devices/v_buckle_ryuki)V Buckle (Ryuki)$(/l)$(br2)Status Effects:$(li)Flying II$(li)Speed$(li)Haste$(li)Fire Resistance"
+        },
+        {
+            "type": "patchouli:entity",
+            "anchor": "dragranzer",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:v_buckle_ryuki\",tag:{slot_tex1:\"dragranzer\"},Count:1b},{id:\"kamenridercraft:ryukilegs\",Count:1b},{id:\"kamenridercraft:ryukitroso\",Count:1b},{id:\"kamenridercraft:ryukihead\",Count:1b}]}",
+            "name": "Survive w/ Dragranzer",
+            "text": "Accessed with the $(l:ryuki/items/dragranzer)Dragranzer Card Warrior Card$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Ryuki",
+            "text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Transforms with the $(l:ryuki/devices/v_buckle_ryuki)V Buckle (Ryuki)$(/l)$(br2)Status Effects:$(li)Flying II$(li)Speed II$(li)Resistance III$(li)Haste II$(li)Fire Resistance$(li)Strength V"
+        }
+    ]
+}

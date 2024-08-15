@@ -1,0 +1,19 @@
+{
+    "name": "Goldphoenix Advent Card",
+    "icon": "kamenridercraft:goldphoenix_advent",
+    "category": "kamenridercraft:ryuki/items",
+    "sortnum": 9,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Ryuki (2000, TV show)$(br2)Used to craft Odin's $(l:ryuki/devices/v_buckle_odin)V Buckle (Odin)$(/l)"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:goldphoenix_advent",
+            "title": " ",
+            "text": "Drops from:$(li)$(l:misc/blocks/deepslate_glass_ryuki)Deepslate Advent Glass$(/l)"
+        }
+    ]
+}

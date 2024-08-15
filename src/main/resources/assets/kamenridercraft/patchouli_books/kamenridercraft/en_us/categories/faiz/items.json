@@ -1,7 +1,7 @@
 {
 	"parent": "kamenridercraft:faiz/main",
-    "name": "Faiz Rider Items",
-    "description": "All 555-related items that are neither armor nor a weapon.",
+    "name": "555 Rider Items",
+    "description": "All 555-related items that are neither an armor piece nor part of an arsenal.",
     "icon": "kamenridercraft:faiz_mission_memory",
     "sortnum": 2
 }

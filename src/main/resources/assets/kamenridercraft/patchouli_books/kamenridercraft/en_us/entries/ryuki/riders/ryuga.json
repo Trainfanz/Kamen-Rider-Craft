@@ -1,0 +1,56 @@
+{
+    "name": "Kamen Rider Ryuga",
+    "icon": "kamenridercraft:dragblacker_advent",
+    "category": "kamenridercraft:ryuki/riders",
+    "sortnum": 11,
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "anchor": "ryuga",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:v_buckle_ryuga\",tag:{slot_tex1:\"dragblacker_advent\"},Count:1b},{id:\"kamenridercraft:ryukilegs\",Count:1b},{id:\"kamenridercraft:ryukitroso\",Count:1b},{id:\"kamenridercraft:ryukihead\",Count:1b}]}",
+            "name": " ",
+            "text": "Accessed with the $(l:ryuki/items/dragblacker_advent)Dragblacker Advent Card$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Ryuga",
+            "text": "Appears in:$(li)Kamen Rider Ryuki: Episode Final (2002, movie)$(br2)Transforms with the $(l:ryuki/devices/v_buckle_ryuga)V Buckle (Ryuga)$(/l)$(br2)Status Effects:$(li)Speed$(li)Haste$(li)Fire Resistance"
+        },
+        {
+            "type": "patchouli:entity",
+            "anchor": "dragshield",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:v_buckle_ryuga\",tag:{slot_tex1:\"drag_shield_vent_form\"},Count:1b},{id:\"kamenridercraft:ryukilegs\",Count:1b},{id:\"kamenridercraft:ryukitroso\",Count:1b},{id:\"kamenridercraft:ryukihead\",Count:1b}]}",
+            "name": "Ryuga w/ Dragshields",
+            "text": "Accessed with the $(l:ryuki/items/drag_shield_vent_form)Dragshield Guard Vent Card (Ryuga)$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Ryuga",
+            "text": "Appears in:$(li)Kamen Rider Ryuki: Episode Final (2002, movie)$(br2)Transforms with the $(l:ryuki/devices/v_buckle_ryuga)V Buckle (Ryuga)$(/l)$(br2)Status Effects:$(li)Speed$(li)Resistance$(li)Haste$(li)Fire Resistance"
+        },
+        {
+            "type": "patchouli:entity",
+            "anchor": "survive",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:v_buckle_ryuga\",tag:{slot_tex1:\"survive_rekka_ryuga\"},Count:1b},{id:\"kamenridercraft:ryukilegs\",Count:1b},{id:\"kamenridercraft:ryukitroso\",Count:1b},{id:\"kamenridercraft:ryukihead\",Count:1b}]}",
+            "name": "Ryuga Survive",
+            "text": "Accessed with the $(l:ryuki/items/survive_rekka)Survive Card (Rekka)$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Ryuga",
+            "text": "Appears in:$(li)World of If (2005, S.I.C. Hero Saga)$(br2)Transforms with the $(l:ryuki/devices/v_buckle_ryuga)V Buckle (Ryuga)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Resistance III$(li)Haste II$(li)Fire Resistance$(li)Strength V"
+        },
+        {
+            "type": "patchouli:entity",
+            "anchor": "bakuen_no_senshi",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:v_buckle_ryuga\",tag:{slot_tex1:\"bakuen_no_senshi_ryuga\"},Count:1b},{id:\"kamenridercraft:ryukilegs\",Count:1b},{id:\"kamenridercraft:ryukitroso\",Count:1b},{id:\"kamenridercraft:ryukihead\",Count:1b}]}",
+            "name": "Bakuen no Senshi",
+            "text": "Accessed with the $(l:misc/items/bakuen_no_senshi)Bakuen no senshi Card Warrior Card$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Ryuga",
+            "text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Transforms with the $(l:ryuki/devices/v_buckle_ryuga)V Buckle (Ryuga)$(/l)$(br2)Status Effects:$(li)Flying II$(li)Speed IV$(li)Resistance III$(li)Night Vision$(li)Haste IV$(li)Jump Boost IV$(li)Strength V"
+        }
+    ]
+}

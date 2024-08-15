@@ -1,7 +1,7 @@
 {
 	"parent": "kamenridercraft:black_rx/main",
     "name": "Black RX Arsenal",
-    "description": "Every weapon used by the Black RX Riders.",
+    "description": "Every weapon and tool used by the Black RX Riders.",
     "icon": "kamenridercraft:revolcane",
     "sortnum": 3
 }

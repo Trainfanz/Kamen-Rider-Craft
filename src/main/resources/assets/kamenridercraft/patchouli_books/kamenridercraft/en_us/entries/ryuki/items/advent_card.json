@@ -1,0 +1,19 @@
+{
+    "name": "Contract Card",
+    "icon": "kamenridercraft:advent_card",
+    "category": "kamenridercraft:ryuki/items",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used as the base item for most Ryuki items"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:advent_card",
+            "title": " ",
+            "text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)$(li)$(l:misc/blocks/deepslate_glass_ryuki)Deepslate Advent Glass$(/l)"
+        }
+    ]
+}

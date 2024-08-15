@@ -1,7 +1,7 @@
 {
 	"parent": "kamenridercraft:v3/main",
     "name": "V3 Rider Items",
-    "description": "All V3-related items that are neither armor nor a weapon.",
+    "description": "All V3-related items that are neither an armor piece nor part of an arsenal.",
     "icon": "kamenridercraft:double_typhoon_core",
     "sortnum": 2
 }

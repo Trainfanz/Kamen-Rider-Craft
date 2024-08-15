@@ -1,0 +1,16 @@
+{
+    "name": "V Buckle (Tiger)",
+    "icon": "kamenridercraft:v_buckle_tiger",
+    "category": "kamenridercraft:ryuki/devices",
+    "sortnum": 9,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used alongside the $(l:ryuki/devices/armor)Ryuki armor$(/l) to transform into $(l:ryuki/riders/tiger)Kamen Rider Tiger"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:ryuki/v_buckle_tiger"
+        }
+    ]
+}

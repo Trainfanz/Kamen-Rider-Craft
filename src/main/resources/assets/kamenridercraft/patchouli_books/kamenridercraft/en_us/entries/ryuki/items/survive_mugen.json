@@ -1,0 +1,19 @@
+{
+    "name": "Survive Card (Mugen)",
+    "icon": "kamenridercraft:survive_mugen",
+    "category": "kamenridercraft:ryuki/items",
+    "sortnum": 20,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used to access Ouja's $(l:ryuki/riders/ouja#survive)Survive$(/l)"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:survive_mugen",
+            "title": " ",
+            "text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
+        }
+    ]
+}

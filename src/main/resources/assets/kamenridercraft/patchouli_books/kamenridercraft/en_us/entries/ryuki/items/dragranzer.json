@@ -1,0 +1,16 @@
+{
+    "name": "Dragranzer Card Warrior Card",
+    "icon": "kamenridercraft:dragranzer",
+    "category": "kamenridercraft:ryuki/items",
+    "sortnum": 65,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Used to access Ryuki's $(l:ryuki/riders/ryuki#dragranzer)Dragranzer$(/l) form"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:misc/dragranzer"
+        }
+    ]
+}

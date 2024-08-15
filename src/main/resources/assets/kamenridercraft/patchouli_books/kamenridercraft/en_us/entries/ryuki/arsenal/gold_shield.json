@@ -1,0 +1,19 @@
+{
+    "name": "Goldshield",
+    "icon": "kamenridercraft:gold_shield",
+    "category": "kamenridercraft:ryuki/arsenal",
+    "sortnum": 30,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by $(l:ryuki/riders/odin)Kamen Rider Odin$(/l)"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:gold_shield",
+            "title": " ",
+            "text": "Obtained through the $(l:ryuki/items/gold_shield_vent)Goldshield Guard Vent Card$(/l)"
+        }
+    ]
+}

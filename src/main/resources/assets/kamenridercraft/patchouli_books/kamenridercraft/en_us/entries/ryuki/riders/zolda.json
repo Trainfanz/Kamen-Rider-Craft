@@ -1,0 +1,44 @@
+{
+    "name": "Kamen Rider Zolda",
+    "icon": "kamenridercraft:magnugiga_advent",
+    "category": "kamenridercraft:ryuki/riders",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "anchor": "zolda",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:v_buckle_zolda\",tag:{slot_tex1:\"magnugiga_advent\"},Count:1b},{id:\"kamenridercraft:ryukilegs\",Count:1b},{id:\"kamenridercraft:ryukitroso\",Count:1b},{id:\"kamenridercraft:ryukihead\",Count:1b}]}",
+            "name": " ",
+            "text": "Accessed with the $(l:ryuki/items/magnugiga_advent)Magnugiga Advent Card$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Zolda",
+            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Transforms with the $(l:ryuki/devices/v_buckle_zolda)V Buckle (Zolda)$(/l)$(br2)Status Effects:$(li)Speed$(li)Night Vision$(li)Strength"
+        },
+        {
+            "type": "patchouli:entity",
+            "anchor": "gigacannon",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:v_buckle_zolda\",tag:{slot_tex1:\"giga_cannon_vent\"},Count:1b},{id:\"kamenridercraft:ryukilegs\",Count:1b},{id:\"kamenridercraft:ryukitroso\",Count:1b},{id:\"kamenridercraft:ryukihead\",Count:1b}]}",
+            "name": "Zolda w/ Gigacannon",
+            "text": "Accessed with the $(l:ryuki/items/giga_cannon_vent)Gigacannon Shoot Vent Card$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Zolda",
+            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Transforms with the $(l:ryuki/devices/v_buckle_zolda)V Buckle (Zolda)$(/l)$(br2)Status Effects:$(li)Speed$(li)Night Vision$(li)Strength"
+        },
+        {
+            "type": "patchouli:entity",
+            "anchor": "gigatector",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:v_buckle_zolda\",tag:{slot_tex1:\"giga_tector_vent\"},Count:1b},{id:\"kamenridercraft:ryukilegs\",Count:1b},{id:\"kamenridercraft:ryukitroso\",Count:1b},{id:\"kamenridercraft:ryukihead\",Count:1b}]}",
+            "name": "Zolda w/ Gigatector",
+            "text": "Accessed with the $(l:ryuki/items/giga_tector_vent)Gigatector Guard Vent Card$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Zolda",
+            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Transforms with the $(l:ryuki/devices/v_buckle_zolda)V Buckle (Zolda)$(/l)$(br2)Status Effects:$(li)Speed$(li)Resistance$(li)Night Vision$(li)Strength"
+        }
+    ]
+}

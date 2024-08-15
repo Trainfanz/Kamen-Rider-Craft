@@ -1,4 +1,5 @@
 {
+    "parent": "kamenridercraft:main/showa",
     "name": "Shin Kamen Rider: Prologue",
     "description": "Everything related to the movie, Shin Kamen Rider: Prologue.",
     "icon": "kamenridercraft:shin_logo",

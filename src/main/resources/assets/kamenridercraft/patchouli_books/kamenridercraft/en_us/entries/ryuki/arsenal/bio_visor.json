@@ -1,0 +1,16 @@
+{
+    "name": "Biovisor",
+    "icon": "kamenridercraft:bio_visor",
+    "category": "kamenridercraft:ryuki/arsenal",
+    "sortnum": 43,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Ryuki Special: 13 Riders (2002, TV special)$(br2)Used by $(l:ryuki/riders/verde)Kamen Rider Verde$(/l)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:ryuki/bio_visor"
+        }
+    ]
+}

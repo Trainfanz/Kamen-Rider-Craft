@@ -1,7 +1,7 @@
 {
 	"parent": "kamenridercraft:black_sun/main",
     "name": "Black Sun Arsenal",
-    "description": "Every weapon used by the Black Sun Riders.",
+    "description": "Every weapon and tool used by the Black Sun Riders.",
     "icon": "kamenridercraft:century_king_black_blade",
     "sortnum": 3
 }

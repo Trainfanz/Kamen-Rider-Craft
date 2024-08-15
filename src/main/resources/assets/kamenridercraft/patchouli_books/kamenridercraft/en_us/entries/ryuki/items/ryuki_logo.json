@@ -1,0 +1,12 @@
+{
+    "name": "Ryuki Logo",
+    "icon": "kamenridercraft:ryuki_logo",
+    "category": "kamenridercraft:ryuki/items",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:ryuki/ryuki_logo"
+        }
+    ]
+}

@@ -1,4 +1,5 @@
 {
+    "parent": "kamenridercraft:main/heisei",
     "name": "Kamen Rider Kuuga",
     "description": "Everything related to the show, Kamen Rider Kuuga.",
     "icon": "kamenridercraft:kuuga_logo",

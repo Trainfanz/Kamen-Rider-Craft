@@ -1,4 +1,5 @@
 {
+    "parent": "kamenridercraft:main/showa",
     "name": "Kamen Rider ZO",
     "description": "Everything related to the movie, Kamen Rider ZO.",
     "icon": "kamenridercraft:zo_logo",

@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:ryuki/main",
+    "name": "Ryuki Transformation Devices",
+    "description": "The transformation devices used by the Ryuki Riders.",
+    "icon": "kamenridercraft:v_buckle_ryuki",
+    "sortnum": 1
+}

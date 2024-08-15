@@ -1,0 +1,16 @@
+{
+    "name": "Gazellevisor",
+    "icon": "kamenridercraft:gazelle_visor",
+    "category": "kamenridercraft:ryuki/arsenal",
+    "sortnum": 33,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by $(l:ryuki/riders/imperer)Kamen Rider Imperer$(/l)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:ryuki/gazelle_visor"
+        }
+    ]
+}

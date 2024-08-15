@@ -1,0 +1,16 @@
+{
+    "name": "Magnavisor",
+    "icon": "kamenridercraft:magna_visor",
+    "category": "kamenridercraft:ryuki/arsenal",
+    "sortnum": 16,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by $(l:ryuki/riders/zolda)Kamen Rider Zolda$(/l)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:ryuki/magna_visor"
+        }
+    ]
+}

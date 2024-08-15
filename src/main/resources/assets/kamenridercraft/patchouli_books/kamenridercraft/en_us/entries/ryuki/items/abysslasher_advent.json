@@ -1,0 +1,19 @@
+{
+    "name": "Abysslasher Advent Card",
+    "icon": "kamenridercraft:abysslasher_advent",
+    "category": "kamenridercraft:ryuki/items",
+    "sortnum": 15,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to craft Abyss's $(l:ryuki/devices/v_buckle_abyss)V Buckle (Abyss)$(/l)"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:abysslasher_advent",
+            "title": " ",
+            "text": "Drops from:$(li)$(l:misc/blocks/deepslate_glass_ryuki)Deepslate Advent Glass$(/l)"
+        }
+    ]
+}

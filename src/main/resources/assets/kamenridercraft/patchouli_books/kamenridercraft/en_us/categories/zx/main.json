@@ -1,4 +1,5 @@
 {
+    "parent": "kamenridercraft:main/showa",
     "name": "Kamen Rider ZX",
     "description": "Everything related to Kamen Rider ZX.",
     "icon": "kamenridercraft:zx_logo",

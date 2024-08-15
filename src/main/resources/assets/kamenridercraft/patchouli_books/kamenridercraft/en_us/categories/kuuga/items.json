@@ -1,7 +1,7 @@
 {
 	"parent": "kamenridercraft:kuuga/main",
     "name": "Kuuga Rider Items",
-    "description": "All Kuuga-related items that are neither armor nor a weapon.",
+    "description": "All Kuuga-related items that are neither an armor piece nor part of an arsenal.",
     "icon": "kamenridercraft:kuuga_mighty",
     "sortnum": 2
 }

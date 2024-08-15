@@ -1,7 +1,7 @@
 {
 	"parent": "kamenridercraft:black/main",
     "name": "Black Rider Items",
-    "description": "All Black-related items that are neither armor nor a weapon.",
+    "description": "All Black-related items that are neither an armor piece nor part of an arsenal.",
     "icon": "kamenridercraft:red_king_stone",
     "sortnum": 2
 }

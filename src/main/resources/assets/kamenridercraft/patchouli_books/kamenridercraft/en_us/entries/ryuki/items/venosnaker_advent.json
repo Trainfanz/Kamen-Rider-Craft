@@ -1,0 +1,19 @@
+{
+    "name": "Venosnaker Advent Card",
+    "icon": "kamenridercraft:venosnaker_advent",
+    "category": "kamenridercraft:ryuki/items",
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Ryuki (2000, TV show)$(br2)Used to craft Ouja's $(l:ryuki/devices/v_buckle_ouja)V Buckle (Ouja)$(/l)$(br2)Used to access Ouja's $(l:ryuki/riders/ouja#ouja)base$(/l) form"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:venosnaker_advent",
+            "title": " ",
+            "text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
+        }
+    ]
+}

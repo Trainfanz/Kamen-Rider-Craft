@@ -1,4 +1,5 @@
 {
+    "parent": "kamenridercraft:main/showa",
     "name": "Kamen Rider X",
     "description": "Everything related to the show, Kamen Rider X.",
     "icon": "kamenridercraft:x_logo",

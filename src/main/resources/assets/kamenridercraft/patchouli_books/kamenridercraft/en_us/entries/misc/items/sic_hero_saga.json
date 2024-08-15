@@ -2,7 +2,7 @@
     "name": "S.I.C. Hero Saga",
     "icon": "kamenridercraft:kuuga_amazing_mighty_artist",
     "category": "kamenridercraft:misc/items",
-    "sortnum": 8,
+    "sortnum": 10,
     "pages": [
         {
             "type": "patchouli:text",

@@ -1,0 +1,19 @@
+{
+    "name": "Gigacannon Shoot Vent Card",
+    "icon": "kamenridercraft:giga_cannon_vent",
+    "category": "kamenridercraft:ryuki/items",
+    "sortnum": 41,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used to access Zolda's $(l:ryuki/riders/zolda#gigacannon)base form w/ Gigacannon$(/l)"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:giga_cannon_vent",
+            "title": " ",
+            "text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
+        }
+    ]
+}

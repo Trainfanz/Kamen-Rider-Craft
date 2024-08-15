@@ -1,0 +1,19 @@
+{
+    "name": "Dragsaber (Ryuga)",
+    "icon": "kamenridercraft:drag_saber_ryuga",
+    "category": "kamenridercraft:ryuki/arsenal",
+    "sortnum": 39,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Ryuki: Episode Final (2002, movie)$(br2)Used by $(l:ryuki/riders/ryuga#ryuga)Kamen Rider Ryuga$(/l)"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:drag_saber_ryuga",
+            "title": " ",
+            "text": "Obtained through the $(l:ryuki/items/drag_saber_vent_ryuga)Dragsaber Sword Vent Card (Ryuga)$(/l)"
+        }
+    ]
+}

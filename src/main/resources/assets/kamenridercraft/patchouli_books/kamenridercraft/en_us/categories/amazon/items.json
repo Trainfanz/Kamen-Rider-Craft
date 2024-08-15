@@ -1,7 +1,7 @@
 {
 	"parent": "kamenridercraft:amazon/main",
     "name": "Amazon Rider Items",
-    "description": "All Amazon-related items that are neither armor nor a weapon.",
+    "description": "All Amazon-related items that are neither an armor piece nor part of an arsenal.",
     "icon": "kamenridercraft:condorer_wheel",
     "sortnum": 2
 }

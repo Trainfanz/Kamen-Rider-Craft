@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ryuki",
+  "pattern": [
+	"XXX",
+	"XZX",
+	"XXX"
+  ],
+  "key": {
+	"X": {
+	  "item": "kamenridercraft:advent_card"
+	}, "Z": {
+	  "item": "kamenridercraft:base_sword"
+	}
+  },
+  "result": {
+	"item": "kamenridercraft:ride_visor"
+  }
+}

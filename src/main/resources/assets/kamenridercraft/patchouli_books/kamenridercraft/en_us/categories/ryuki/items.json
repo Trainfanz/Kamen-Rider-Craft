@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:ryuki/main",
+    "name": "Ryuki Rider Items",
+    "description": "All Ryuki-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "kamenridercraft:dragreder_advent",
+    "sortnum": 2
+}

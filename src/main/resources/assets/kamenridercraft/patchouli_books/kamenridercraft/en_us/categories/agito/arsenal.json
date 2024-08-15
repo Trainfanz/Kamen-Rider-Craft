@@ -1,7 +1,7 @@
 {
 	"parent": "kamenridercraft:agito/main",
     "name": "Agito Arsenal",
-    "description": "Every weapon used by the Agito Riders.",
+    "description": "Every weapon and tool used by the Agito Riders.",
     "icon": "kamenridercraft:flame_saber",
     "sortnum": 3
 }

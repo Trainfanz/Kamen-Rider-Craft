@@ -1,4 +1,5 @@
 {
+    "parent": "kamenridercraft:main/showa",
     "name": "Kamen Rider Black RX",
     "description": "Everything related to the show, Kamen Rider Black RX.",
     "icon": "kamenridercraft:black_rx_logo",

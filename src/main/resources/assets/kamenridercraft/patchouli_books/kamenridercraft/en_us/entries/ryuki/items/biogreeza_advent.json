@@ -1,0 +1,19 @@
+{
+    "name": "Biogreeza Advent Card",
+    "icon": "kamenridercraft:biogreeza_advent",
+    "category": "kamenridercraft:ryuki/items",
+    "sortnum": 14,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Ryuki Special: 13 Riders (2002, TV special)$(br2)Used to craft Verde's $(l:ryuki/devices/v_buckle_verde)V Buckle (Verde)$(/l)"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:biogreeza_advent",
+            "title": " ",
+            "text": "Drops from:$(li)$(l:misc/blocks/deepslate_glass_ryuki)Deepslate Advent Glass$(/l)"
+        }
+    ]
+}

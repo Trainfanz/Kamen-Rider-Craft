@@ -1,4 +1,5 @@
 {
+    "parent": "kamenridercraft:main/showa",
     "name": "Kamen Rider Amazon",
     "description": "Everything related to the show, Kamen Rider Amazon.",
     "icon": "kamenridercraft:amazon_logo",

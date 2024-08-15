@@ -1,7 +1,7 @@
 {
 	"parent": "kamenridercraft:zo/main",
     "name": "ZO Rider Items",
-    "description": "All ZO-related items that are neither armor nor a weapon.",
+    "description": "All ZO-related items that are neither an armor piece nor part of an arsenal.",
     "icon": "kamenridercraft:zo_stone",
     "sortnum": 2
 }

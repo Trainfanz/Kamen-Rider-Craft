@@ -1,7 +1,7 @@
 {
 	"parent": "kamenridercraft:shin/main",
     "name": "Shin Rider Items",
-    "description": "All Shin-related items that are neither armor nor a weapon.",
+    "description": "All Shin-related items that are neither an armor piece nor part of an arsenal.",
     "icon": "kamenridercraft:shin_stone",
     "sortnum": 2
 }

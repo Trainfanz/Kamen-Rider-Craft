@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:ryuki/main",
+    "name": "Ryuki Riders",
+    "description": "Every Rider and pseudo-Rider from or relating to the show, Kamen Rider Ryuki.",
+    "icon": "kamenridercraft:ryukihead",
+    "sortnum": 0
+}

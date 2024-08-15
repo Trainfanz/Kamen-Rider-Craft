@@ -1,7 +1,7 @@
 {
 	"parent": "kamenridercraft:zx/main",
     "name": "ZX Rider Items",
-    "description": "All ZX-related items that are neither armor nor a weapon.",
+    "description": "All ZX-related items that are neither an armor piece nor part of an arsenal.",
     "icon": "kamenridercraft:zx_belt_core",
     "sortnum": 2
 }

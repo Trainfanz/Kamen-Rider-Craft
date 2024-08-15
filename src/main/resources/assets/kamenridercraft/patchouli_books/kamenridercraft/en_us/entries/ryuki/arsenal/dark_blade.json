@@ -1,0 +1,19 @@
+{
+    "name": "Darkblade",
+    "icon": "kamenridercraft:dark_blade",
+    "category": "kamenridercraft:ryuki/arsenal",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by Knight's $(l:ryuki/riders/knight#survive)Survive$(/l)"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:dark_blade",
+            "title": " ",
+            "text": "Obtained through the $(l:ryuki/items/dark_blade_vent)Darkblade Sword Vent Card$(/l)"
+        }
+    ]
+}

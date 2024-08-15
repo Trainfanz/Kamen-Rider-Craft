@@ -1,7 +1,7 @@
 {
 	"parent": "kamenridercraft:black_sun/main",
     "name": "Black Sun Rider Items",
-    "description": "All Black Sun-related items that are neither armor nor a weapon.",
+    "description": "All Black Sun-related items that are neither an armor piece nor part of an arsenal.",
     "icon": "kamenridercraft:king_stone_sun",
     "sortnum": 2
 }

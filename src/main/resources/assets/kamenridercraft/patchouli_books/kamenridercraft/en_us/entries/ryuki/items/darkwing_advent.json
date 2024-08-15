@@ -1,0 +1,19 @@
+{
+    "name": "Darkwing Advent Card",
+    "icon": "kamenridercraft:darkwing_advent",
+    "category": "kamenridercraft:ryuki/items",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Ryuki (2000, TV show)$(br2)Used to craft Knight's $(l:ryuki/devices/v_buckle_knight)V Buckle (Knight)$(/l)$(br2)Used to access Knight's $(l:ryuki/riders/knight#knight)base$(/l) form"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:darkwing_advent",
+            "title": " ",
+            "text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
+        }
+    ]
+}

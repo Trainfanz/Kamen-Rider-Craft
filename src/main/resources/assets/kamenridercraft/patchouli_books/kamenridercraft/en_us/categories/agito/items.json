@@ -1,7 +1,7 @@
 {
 	"parent": "kamenridercraft:agito/main",
     "name": "Agito Rider Items",
-    "description": "All Agito-related items that are neither armor nor a weapon.",
+    "description": "All Agito-related items that are neither an armor piece nor part of an arsenal.",
     "icon": "kamenridercraft:agito_ground",
     "sortnum": 2
 }

@@ -1,0 +1,16 @@
+{
+    "name": "Abyssvisor",
+    "icon": "kamenridercraft:abyss_visor",
+    "category": "kamenridercraft:ryuki/arsenal",
+    "sortnum": 47,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used by $(l:ryuki/riders/abyss)Kamen Rider Abyss$(/l)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:ryuki/abyss_visor"
+        }
+    ]
+}
