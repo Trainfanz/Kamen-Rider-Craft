@@ -1,0 +1,20 @@
+{
+    "name": "Kamen Rider Gavv",
+    "icon": "kamenridercraft:poppingummy_gochizo",
+    "category": "kamenridercraft:gavv/riders",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "anchor": "gavv",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:henshin_belt_gavv\",tag:{slot_tex1:\"poppingummy_gochizo\"},Count:1b},{id:\"kamenridercraft:gavv_legs\",Count:1b},{id:\"kamenridercraft:gavv_troso\",Count:1b},{id:\"kamenridercraft:gavv_head\",Count:1b}]}",
+            "name": " ",
+            "text": "Accessed with the $(l:gavv/items/poppingummy_gochizo)Poppingummy Gochizo$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Gavv",
+            "text": "Appears in:$(li)Kamen Rider Gavv (2024, TV show)$(br2)Transforms with the $(l:gavv/devices/henshin_belt_gavv)Henshin Belt Gavv$(/l)$(br2)Status Effects:$(li)Speed$(li)Jump Boost II"
+        }
+    ]
+}

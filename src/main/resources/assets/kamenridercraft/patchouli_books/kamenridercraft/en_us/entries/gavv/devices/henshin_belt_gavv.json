@@ -1,0 +1,19 @@
+{
+    "name": "Henshin Belt Gavv",
+    "icon": "kamenridercraft:henshin_belt_gavv",
+    "category": "kamenridercraft:gavv/devices",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Gavv (2004, TV show)$(br2)Used alongside the $(l:gavv/devices/armor)Gavv armor$(/l) to transform into $(l:gavv/riders/gavv)Kamen Rider Gavv"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:henshin_belt_gavv",
+            "title": " ",
+            "text": "Item is currently unobtainable"
+        }
+    ]
+}

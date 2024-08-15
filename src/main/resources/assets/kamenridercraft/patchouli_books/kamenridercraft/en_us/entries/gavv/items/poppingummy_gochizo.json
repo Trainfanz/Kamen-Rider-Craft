@@ -1,0 +1,19 @@
+{
+    "name": "Poppingummy Gochizo",
+    "icon": "kamenridercraft:poppingummy_gochizo",
+    "category": "kamenridercraft:gavv/items",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Gavv (2024, TV show)$(br2)Used to access Gavv's $(l:gavv/riders/gavv#gavv)base$(/l) form"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:poppingummy_gochizo",
+            "title": " ",
+            "text": "Item is currently unobtainable"
+        }
+    ]
+}

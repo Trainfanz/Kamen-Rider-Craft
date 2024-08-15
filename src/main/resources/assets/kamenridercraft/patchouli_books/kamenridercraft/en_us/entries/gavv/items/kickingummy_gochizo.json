@@ -1,0 +1,19 @@
+{
+    "name": "Kickingummy Gochizo",
+    "icon": "kamenridercraft:kickingummy_gochizo",
+    "category": "kamenridercraft:gavv/items",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Gavv (2024, TV show)"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:kickingummy_gochizo",
+            "title": " ",
+            "text": "Item is currently unobtainable"
+        }
+    ]
+}
