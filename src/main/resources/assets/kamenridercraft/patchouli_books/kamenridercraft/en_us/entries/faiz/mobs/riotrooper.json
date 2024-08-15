@@ -1,0 +1,17 @@
+{
+    "name": "Riotrooper",
+    "icon": "kamenridercraft:faiz_logo",
+    "category": "kamenridercraft:faiz/mobs",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "entity": "kamenridercraft:riotrooper",
+            "text": "Spawn locations: Nether"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider 555 (2001, TV show)$(br2)Drops$(li)2-4 $(l:faiz/items/blank_mission_memory)Blank Mission Memories$(/l)$(li)1 $(l:faiz/devices/smartbuckle)Smart Buckle$(/l)$(li)1 $(l:faiz/arsenal/axel_ray_gun)Axel Ray Gun$(/l)$(li)0-1 $(l:faiz/items/blank_mission_mempry)Blank Mission Memory$(/l) (80%)$(li)0-1 $(l:faiz/items/faiz_mission_memory)Faiz Mission Memory$(/l) (20%)$(li)0-1 $(l:faiz/items/kaixa_mission_memory)Kaixa Mission Memory$(/l) (20%)$(li)0-1 $(l:faiz/items/delta_mission_memory)Delta Mission Memory$(/l) (20%)$(li)0-1 $(l:faiz/items/faiz_axel_mission_memory)Faiz Axel Mission Memory$(/l) (10%)$(li)0-1 $(l:faiz/items/psyga_mission_memory)Psyga Mission Memory$(/l) (10%)$(br2)Bosses$(li)$(l:faiz/mobs/orga)Kamen Rider Orga$(/l) (10%)"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Faiz Armor",
+    "icon": "kamenridercraft:faizhead",
+    "category": "kamenridercraft:faiz/devices",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Used alongside a 555 Rider's transformation device to transform into that Rider"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:faiz/faizhead"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:faiz/faiztroso"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:faiz/faizlegs"
+        }
+    ]
+}

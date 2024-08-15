@@ -1,0 +1,16 @@
+{
+    "name": "Faiz Phone Pointer Mode",
+    "icon": "kamenridercraft:faiz_phone_pointer",
+    "category": "kamenridercraft:faiz/arsenal",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Used by Faiz's $(l:faiz/riders/faiz#base)Base$(/l) and $(l:faiz/riders/faiz#axel)Axel$(/l) forms"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:faiz/faiz_phone_pointer"
+        }
+    ]
+}

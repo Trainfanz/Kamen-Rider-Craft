@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:faiz/main",
+    "name": "Faiz Mobs",
+    "description": "Every mob from or relating to the show, Kamen Rider 555.",
+    "icon": "kamenridercraft:faiz_logo",
+    "sortnum": 4
+}

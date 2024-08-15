@@ -1,0 +1,16 @@
+{
+    "name": "Orga Stlanzer",
+    "icon": "kamenridercraft:orga_stlanzer",
+    "category": "kamenridercraft:faiz/arsenal",
+    "sortnum": 9,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider 555: Paradise Lost (2003, Movie)$(br2)Used by $(l:faiz/riders/orga)Kamen Rider Orga$(/l)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:faiz/orga_stlanzer"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "name": "Kamen Rider Faiz",
+    "icon": "kamenridercraft:faiz_mission_memory",
+    "category": "kamenridercraft:faiz/riders",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "anchor": "base",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:faiz_driver\",tag:{slot_tex1:\"faiz_mission_memory\"},Count:1b},{id:\"kamenridercraft:faizlegs\",Count:1b},{id:\"kamenridercraft:faiztroso\",Count:1b},{id:\"kamenridercraft:faizhead\",Count:1b}]}",
+            "name": "Base Form",
+            "text": "Accessed with the $(l:faiz/items/faiz_mission_memory)Faiz Mission Memory$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Faiz",
+            "text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Transforms with the $(l:faiz/devices/faiz_driver)Faiz Driver$(/l)$(br2)Status Effects:$(li)Resistance$(li)Night Vision$(li)Strength III"
+        },
+        {
+            "type": "patchouli:entity",
+            "anchor": "axel",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:faiz_driver\",tag:{slot_tex1:\"faiz_axel_mission_memory\"},Count:1b},{id:\"kamenridercraft:faizlegs\",Count:1b},{id:\"kamenridercraft:faiztroso\",Count:1b},{id:\"kamenridercraft:faizhead\",Count:1b}]}",
+            "name": "Axel Form",
+            "text": "Accessed with the $(l:faiz/items/faiz_axel_mission_memory)Faiz Axel Mission Memory$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Faiz",
+            "text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Transforms with the $(l:faiz/devices/faiz_driver)Faiz Driver$(/l)$(br2)Status Effects:$(li)Speed VI$(li)Resistance III$(li)Night Vision$(li)Haste V$(li)Strength III"
+        },
+        {
+            "type": "patchouli:entity",
+            "anchor": "blaster",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:faiz_driver\",tag:{slot_tex1:\"faiz_blaster_mission_memory\"},Count:1b},{id:\"kamenridercraft:faizlegs\",Count:1b},{id:\"kamenridercraft:faiztroso\",Count:1b},{id:\"kamenridercraft:faizhead\",Count:1b}]}",
+            "name": "Blaster Form",
+            "text": "Accessed with the $(l:faiz/items/faiz_blaster_mission_memory)Faiz Blaster Mission Memory$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Faiz",
+            "text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Transforms with the $(l:faiz/devices/faiz_driver)Faiz Driver$(/l)$(br2)Status Effects:$(li)Flying II$(li)Speed IV$(li)Resistance III$(li)Night Vision$(li)Haste IV$(li)Jump Boost IV$(li)Strength V"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Kamen Rider Delta",
+    "icon": "kamenridercraft:delta_mission_memory",
+    "category": "kamenridercraft:faiz/riders",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:delta_driver\",Count:1b},{id:\"kamenridercraft:faizlegs\",Count:1b},{id:\"kamenridercraft:faiztroso\",Count:1b},{id:\"kamenridercraft:faizhead\",Count:1b}]}",
+            "name": " ",
+            "text": ""
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Delta",
+            "text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Transforms with the $(l:faiz/devices/delta_driver)Delta Driver$(/l)$(br2)Status Effects:$(li)Resistance IV$(li)Night Vision$(li)Jump Boost II$(li)Strength III"
+        }
+    ]
+}

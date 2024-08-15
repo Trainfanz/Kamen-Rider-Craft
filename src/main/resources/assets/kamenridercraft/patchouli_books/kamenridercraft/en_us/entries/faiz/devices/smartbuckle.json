@@ -1,0 +1,12 @@
+{
+    "name": "Smart Buckle",
+    "icon": "kamenridercraft:smartbuckle",
+    "category": "kamenridercraft:faiz/devices",
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Used alongside the $(l:faiz/devices/armor)555 armor$(/l) to transform into $(l:faiz/riders/riotrooper)Riotrooper"
+        }
+    ]
+}

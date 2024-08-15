@@ -1,0 +1,12 @@
+{
+    "name": "Faiz Logo",
+    "icon": "kamenridercraft:faiz_logo",
+    "category": "kamenridercraft:faiz/items",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:faiz/faiz_logo"
+        }
+    ]
+}

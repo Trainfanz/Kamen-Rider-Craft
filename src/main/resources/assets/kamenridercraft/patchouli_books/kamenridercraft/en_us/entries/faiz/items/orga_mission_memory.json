@@ -1,0 +1,19 @@
+{
+    "name": "Orga Mission Memory",
+    "icon": "kamenridercraft:orga_mission_memory",
+    "category": "kamenridercraft:faiz/items",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider 555: Paradise Lost (2003, Movie)$(br2)Used to craft Orga's $(l:faiz/arsenal/orga_stlanzer)Orga Stlanzer$(/l)"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:orga_mission_memory",
+            "title": " ",
+            "text": "Drops from:$(li)$(l:faiz/mobs/orga)Kamen Rider Orga$(/l)"
+        }
+    ]
+}

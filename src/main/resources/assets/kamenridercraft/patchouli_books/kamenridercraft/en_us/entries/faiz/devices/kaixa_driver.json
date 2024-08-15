@@ -1,0 +1,16 @@
+{
+    "name": "Kaixa Driver",
+    "icon": "kamenridercraft:kaixa_driver",
+    "category": "kamenridercraft:faiz/devices",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Used alongside the $(l:faiz/devices/armor)555 armor$(/l) to transform into $(l:faiz/riders/kaixa)Kamen Rider Kaixa"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:faiz/kaixa_driver"
+        }
+    ]
+}
