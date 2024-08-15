@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used by Chalice's $(l:blade/riders/chalice#base)Base$(/l) form. "
+            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used by Chalice's $(l:blade/riders/chalice#chalice)Base$(/l) form. "
         },
         {
             "type": "patchouli:crafting",

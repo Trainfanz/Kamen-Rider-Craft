@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used by Blade's $(l:blade/riders/blade#base)Base$(/l) and $(l:blade/riders/blade#jack)Jack$(/l) forms. "
+            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used by Blade's $(l:blade/riders/blade#blade)Base$(/l) and $(l:blade/riders/blade#jack)Jack$(/l) forms. "
         },
         {
             "type": "patchouli:crafting",
