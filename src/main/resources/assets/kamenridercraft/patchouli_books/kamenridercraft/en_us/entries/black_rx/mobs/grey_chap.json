@@ -11,7 +11,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Black RX (1988, TV show)$(br2)Drops$(li)2-4 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)1 $(l:misc/items/rider_circuit)Rider Circuit$(/l) (38%)$(li)1 $(l:black_rx/items/split_king_stone)Split Kingstone$(/l) (38%)$(li)1 $(l:black_rx/items/rx_core)Black RX Core$(/l) (8%)$(li)1 $(l:black_rx/items/robo_core)Roborider Core$(/l) (8%)$(li)1 $(l:black_rx/items/bio_core)Biorider Core$(/l) (8%)"
+            "text": "Appears in:$(li)Kamen Rider Black RX (1988, TV show)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)0-1 $(l:misc/items/rider_circuit)Rider Circuit$(/l) (38%)$(li)0-1 $(l:black_rx/items/split_king_stone)Split Kingstone$(/l) (38%)$(li)0-1 $(l:black_rx/items/rx_core)Black RX Core$(/l) (8%)$(li)0-1 $(l:black_rx/items/robo_core)Roborider Core$(/l) (8%)$(li)0-1 $(l:black_rx/items/bio_core)Biorider Core$(/l) (8%)"
         }
     ]
 }

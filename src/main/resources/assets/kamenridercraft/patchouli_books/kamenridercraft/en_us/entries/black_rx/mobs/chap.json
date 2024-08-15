@@ -11,7 +11,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Black RX (1988, TV show)$(br2)Drops$(li)2-4 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)1 $(l:misc/items/rider_circuit)Rider Circuit$(/l) (45%)$(li)1 $(l:black/items/red_king_stone)Red Kingstone$(/l) (45%)$(li)1 $(l:black/items/batta_man_king_stone)Batta Man Kingstone$(/l) (10%)$(br2)Bosses$(li)$(l:black/mobs/shadow_moon)Shadow Moon$(/l) (10%)"
+            "text": "Appears in:$(li)Kamen Rider Black RX (1988, TV show)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)0-1 $(l:misc/items/rider_circuit)Rider Circuit$(/l) (45%)$(li)0-1 $(l:black/items/red_king_stone)Red Kingstone$(/l) (45%)$(li)0-1 $(l:black/items/batta_man_king_stone)Batta Man Kingstone$(/l) (10%)$(br2)Bosses$(li)$(l:black/mobs/shadow_moon)Shadow Moon$(/l) (10%)"
         }
     ]
 }

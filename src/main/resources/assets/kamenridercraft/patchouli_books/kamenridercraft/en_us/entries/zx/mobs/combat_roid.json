@@ -11,7 +11,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "Appears in:$(li)Birth of the 10th! Kamen Riders All Together!! (1984, TV special)$(br2)Drops$(li)2-4 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)1 $(l:misc/items/rider_circuit)Rider Circuit$(/l) (50%)$(li)1 $(l:zx/items/zx_belt_core)ZX Belt Core$(/l) (50%)"
+            "text": "Appears in:$(li)Birth of the 10th! Kamen Riders All Together!! (1984, TV special)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)0-1 $(l:misc/items/rider_circuit)Rider Circuit$(/l) (50%)$(li)0-1 $(l:zx/items/zx_belt_core)ZX Belt Core$(/l) (50%)"
         }
     ]
 }

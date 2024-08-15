@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Faiz (2003, TV show)$(br2)Used by Faiz's $(l:faiz/riders/faiz#base)Base$(/l) and $(l:faiz/riders/faiz#axel)Axel$(/l) forms. "
+            "text": "Appears in:$(li)Kamen Rider Faiz (2003, TV show)$(br2)Used by Faiz's $(l:faiz/riders/faiz#faiz)base$(/l) and $(l:faiz/riders/faiz#axel)Axel$(/l) forms"
         },
         {
             "type": "patchouli:crafting",

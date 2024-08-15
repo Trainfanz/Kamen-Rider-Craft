@@ -11,7 +11,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Drops$(li)2-4 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)1 $(l:misc/items/rider_circuit)Rider Circuit$(/l) (31%)$(li)1 $(l:ichigo/items/typhoon_core)Typhoon Core$(/l) (31%)$(li)1 $(l:ichigo/items/typhoon_core_nigo)Typhoon Core (Nigo)$(/l) (25%)$(li)1 $(l:ichigo/items/original_typhoon_core)Typhoon Core (Original)$(/l) (6.3%)$(li)1 $(l:ichigo/items/sakurajima_typhoon_core)Typhoon Core (Sakurajima)$(/l) (6.3%)$(br2)Bosses$(li)$(l:ichigo/mobs/shocker_rider)Shocker Rider$(/l) (10%)"
+            "text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)0-1 $(l:misc/items/rider_circuit)Rider Circuit$(/l) (31%)$(li)0-1 $(l:ichigo/items/typhoon_core)Typhoon Core$(/l) (31%)$(li)0-1 $(l:ichigo/items/typhoon_core_nigo)Typhoon Core (Nigo)$(/l) (25%)$(li)0-1 $(l:ichigo/items/original_typhoon_core)Typhoon Core (Original)$(/l) (6.3%)$(li)0-1 $(l:ichigo/items/sakurajima_typhoon_core)Typhoon Core (Sakurajima)$(/l) (6.3%)$(br2)Bosses$(li)$(l:ichigo/mobs/shocker_rider)Shocker Rider$(/l) (10%)"
         }
     ]
 }

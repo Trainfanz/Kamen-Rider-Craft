@@ -11,7 +11,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Drops$(li)4-6 $(l:agito/items/agito_of_seed)Seeds of Agito$(/l)"
+            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Health: 200$(br2)Drops$(li)4-6 $(l:agito/items/agito_of_seed)Seeds of Agito$(/l)"
         }
     ]
 }

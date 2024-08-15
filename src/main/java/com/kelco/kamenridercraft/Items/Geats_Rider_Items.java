@@ -17,6 +17,8 @@ import com.kelco.kamenridercraft.Items.rider_armor_base.RiderArmorItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderDriverItem;
 import com.kelco.kamenridercraft.Items.rider_armor_base.RiderFormChangeItem;
 import com.kelco.kamenridercraft.events.ModClientEvents;
+
+import net.minecraft.client.gui.font.glyphs.BakedGlyph.Effect;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.ArmorItem;
@@ -619,41 +621,215 @@ public class Geats_Rider_Items {
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false))
 			.ChangeSlot(2).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
 
-	
-	/**
-	revice_driver_raise_buckle
-	two_si_driver_raise_buckle
-	demons_driver_raise_buckle
-	libera_driver_raise_buckle
+	// Legend Rider
+	public static final RegistryObject<Item> REVICE_DRIVER_RAISE_BUCKLE_GEATS = ITEMS.register("revice_driver_raise_buckle_geats",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_revice","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers));
+	public static final RegistryObject<Item> REVICE_DRIVER_RAISE_BUCKLE_VICE = ITEMS.register("revice_driver_raise_buckle_vice",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"","geats_vice","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
+			.addAlternative(REVICE_DRIVER_RAISE_BUCKLE_GEATS.get()).ChangeSlot(2).alsoChange3rdSlot(Modded_item_core.BLANK_FORM.get()));
+	public static final RegistryObject<Item> REVICE_DRIVER_RAISE_BUCKLE = ITEMS.register("revice_driver_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"","geats_revi","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false))
+			.addAlternative(REVICE_DRIVER_RAISE_BUCKLE_VICE.get()).ChangeSlot(2).alsoChange3rdSlot(Modded_item_core.BLANK_FORM.get()).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
 
-	seiken_swordriver_raise_buckle
-	zero_one_driver_raise_buckle
-	zikuu_driver_raise_buckle
-	build_driver_raise_buckle
-	gamer_driver_raise_buckle
-	ghost_driver_raise_buckle
-	drive_driver_raise_buckle
-	sengoku_driver_raise_buckle
-	wizardriver_raise_buckle
-	fourze_driver_raise_buckle
-	ooo_driver_raise_buckle
-	double_driver_raise_buckle
-	deca_driver_raise_buckle
-	kivat_belt_raise_buckle
-	den_o_belt_raise_buckle
-	kabuto_zector_raise_buckle
-	ongekiko_kaentsuzumi_raise_buckle
-	blay_buckle_raise_buckle
-	faiz_driver_raise_buckle
-	v_buckle_raise_buckle
-	alter_ring_raise_buckle
-	arcle_raise_buckle
-	king_stone_raise_buckle
-	double_typhoon_raise_buckle
-	typhoon_raise_buckle
+	public static final RegistryObject<Item> TWO_SI_DRIVER_RAISE_BUCKLE = ITEMS.register("two_si_driver_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_live","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
 
-	ouja_v_buckle_raise_buckle
-	 **/
+	public static final RegistryObject<Item> LIBERA_DRIVER_RAISE_BUCKLE = ITEMS.register("libera_driver_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_jeanne","geats","desire_driver_belt_geats",
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 5,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.ANTIPOISON.get(), 40, 0,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> DEMONS_DRIVER_RAISE_BUCKLE = ITEMS.register("demons_driver_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_demons","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.POISON, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> SEIKEN_SWORDRIVER_RAISE_BUCKLE = ITEMS.register("seiken_swordriver_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_saber","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> ZERO_ONE_DRIVER_RAISE_BUCKLE = ITEMS.register("zero_one_driver_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_zero_one","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> ZIKUU_DRIVER_RAISE_BUCKLE = ITEMS.register("zikuu_driver_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_zi_o","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> BUILD_DRIVER_RAISE_BUCKLE = ITEMS.register("build_driver_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_build","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> GAMER_DRIVER_RAISE_BUCKLE = ITEMS.register("gamer_driver_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_ex_aid","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> GHOST_DRIVER_RAISE_BUCKLE = ITEMS.register("ghost_driver_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_ghost","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> DRIVE_DRIVER_RAISE_BUCKLE = ITEMS.register("drive_driver_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_drive","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> SENGOKU_DRIVER_RAISE_BUCKLE = ITEMS.register("sengoku_driver_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_gaim","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> WIZARDRIVER_RAISE_BUCKLE = ITEMS.register("wizardriver_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_wizard","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> FOURZE_DRIVER_RAISE_BUCKLE = ITEMS.register("fourze_driver_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_fourze","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.BOOST.get(), 40, 0,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> OOO_DRIVER_RAISE_BUCKLE = ITEMS.register("ooo_driver_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_ooo","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> DOUBLE_DRIVER_RAISE_BUCKLE = ITEMS.register("double_driver_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_w","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> DECA_DRIVER_RAISE_BUCKLE = ITEMS.register("deca_driver_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_decade","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> KIVAT_BELT_RAISE_BUCKLE = ITEMS.register("kivat_belt_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kiva","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> DEN_O_BELT_RAISE_BUCKLE = ITEMS.register("den_o_belt_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_den_o","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> KABUTO_ZECTOR_RAISE_BUCKLE = ITEMS.register("kabuto_zector_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kabuto","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 3,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> ONGEKIKO_KAENTSUZUMI_RAISE_BUCKLE = ITEMS.register("ongekiko_kaentsuzumi_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_hibiki","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> BLAY_BUCKLE_RAISE_BUCKLE = ITEMS.register("blay_buckle_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_blade","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> FAIZ_DRIVER_RAISE_BUCKLE = ITEMS.register("faiz_driver_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_faiz","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> V_BUCKLE_RAISE_BUCKLE = ITEMS.register("v_buckle_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_ryuki","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> ALTER_RING_RAISE_BUCKLE = ITEMS.register("alter_ring_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_agito","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> ARCLE_RAISE_BUCKLE = ITEMS.register("arcle_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_kuuga","geats","desire_driver_belt_geats",
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 4,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> KING_STONE_RAISE_BUCKLE = ITEMS.register("king_stone_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_black","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 4,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> DOUBLE_TYPHOON_RAISE_BUCKLE = ITEMS.register("double_typhoon_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_v3","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 4,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> TYPHOON_RAISE_BUCKLE = ITEMS.register("typhoon_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_ichigo","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+					new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false),
+					new MobEffectInstance(Effect_core.PUNCH.get(), 40, 4,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
+
+	public static final RegistryObject<Item> OUJA_V_BUCKLE_RAISE_BUCKLE = ITEMS.register("ouja_v_buckle_raise_buckle",
+			() -> new RiderFormChangeItem(new Item.Properties(),0,"_ouja","geats","desire_driver_belt_geats",
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false))
+			.ChangeSlot(2).SetOffhandSlot(3).AddCompatibilityList(BaseDesireDriverUsers).AddToTabList(RiderTabs.GEATS_TAB_ITEM));
 	
 	public static final RegistryObject<Item> KING_OHGER_RAISE_BUCKLE = ITEMS.register("king_ohger_raise_buckle",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RiderTabs.GEATS_TAB_ITEM));

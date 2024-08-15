@@ -34,14 +34,17 @@ public class DesireDriverItem  extends RiderDriverItem{
 		boolean fly = rider instanceof Player player && player.getAbilities().flying;
 		
 		Boolean isBujin= false;
-		if (get_Form_Item(itemstack,2)==Geats_Rider_Items.BOOST_RAISE_BUCKLE.get())  isBujin = true;
-			else if (get_Form_Item(itemstack,2)==Modded_item_core.BLANK_FORM.get())  isBujin = true;
+		if (get_Form_Item(itemstack,2)==Geats_Rider_Items.BOOST_RAISE_BUCKLE.get()||get_Form_Item(itemstack,2)==Modded_item_core.BLANK_FORM.get())  isBujin = true;
 		
 		if (equipmentSlot == EquipmentSlot.FEET) {
 			
 			
 				String belt = ((RiderDriverItem)itemstack.getItem()).BELT_TEXT;
-				if (((RiderDriverItem)itemstack.getItem()).BELT_TEXT==null) {
+				if (get_Form_Item(itemstack,2)==Geats_Rider_Items.REVICE_DRIVER_RAISE_BUCKLE.get()) {
+					belt = "revice_driver_belt";
+				} else if (get_Form_Item(itemstack,2)==Geats_Rider_Items.REVICE_DRIVER_RAISE_BUCKLE_VICE.get()) {
+					belt = "buddy_buckle_belt";
+				} else if (((RiderDriverItem)itemstack.getItem()).BELT_TEXT==null) {
 					belt = get_Form_Item(itemstack,1).getBeltTex();
 				}
 				return "belts/"+belt;
@@ -86,6 +89,9 @@ public class DesireDriverItem  extends RiderDriverItem{
 		else if (equipmentSlot == EquipmentSlot.CHEST&get_Form_Item(itemstack,2)==Geats_Rider_Items.COMMAND_TWIN_BUCKLE_JET.get()&&get_Form_Item(itemstack,3)==Geats_Rider_Items.COMMAND_TWIN_BUCKLE_CANNON_l.get()) return "geats_rider_jet";
 		else if (equipmentSlot == EquipmentSlot.LEGS&get_Form_Item(itemstack,3)==Geats_Rider_Items.COMMAND_TWIN_BUCKLE_JET.get()&&get_Form_Item(itemstack,2)==Geats_Rider_Items.COMMAND_TWIN_BUCKLE_CANNON.get()) return "geats_rider_jet";
 		else if (equipmentSlot == EquipmentSlot.LEGS&get_Form_Item(itemstack,2)==Geats_Rider_Items.BOOST_MKII_RAISE_BUCKLE.get()) return "geats_rider_boost_mkii_nobelt";
+
+		else if (get_Form_Item(itemstack,2)==Geats_Rider_Items.REVICE_DRIVER_RAISE_BUCKLE.get()) return "geats_rider_revi";
+		else if (get_Form_Item(itemstack,2)==Geats_Rider_Items.REVICE_DRIVER_RAISE_BUCKLE_VICE.get()) return "geats_rider_vice";
 		
 		else if (equipmentSlot == EquipmentSlot.HEAD) return riderName+"_base_over"+ get_Form_Item(itemstack,1).getFormName(fly);
 		else if (equipmentSlot == EquipmentSlot.CHEST) return "geats_rider"+get_Form_Item(itemstack,2).getFormName(fly);
@@ -158,6 +164,9 @@ public class DesireDriverItem  extends RiderDriverItem{
 		if (get_Form_Item(belt,3)==Geats_Rider_Items.BUJIN_SWORD_RAISE_BUCKLE.get()&isBujin)set_Form_Item(belt, Modded_item_core.BLANK_FORM.get(), 3);
 		
 		if (get_Form_Item(belt,3)==Geats_Rider_Items.PLOSION_RAGE_RAISE_BUCKLE.get()&get_Form_Item(belt,2)!=Modded_item_core.BLANK_FORM.get())set_Form_Item(belt, Modded_item_core.BLANK_FORM.get(), 3);
+		
+		if (get_Form_Item(belt,2)==Geats_Rider_Items.REVICE_DRIVER_RAISE_BUCKLE.get()&get_Form_Item(belt,3)!=Modded_item_core.BLANK_FORM.get())set_Form_Item(belt, Modded_item_core.BLANK_FORM.get(), 2);
+		if (get_Form_Item(belt,2)==Geats_Rider_Items.REVICE_DRIVER_RAISE_BUCKLE_VICE.get()&get_Form_Item(belt,3)!=Modded_item_core.BLANK_FORM.get())set_Form_Item(belt, Modded_item_core.BLANK_FORM.get(), 2);
 		
 		belt.getTag().putBoolean("Update_form", false);
 	}

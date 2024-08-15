@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider 555 (2001, TV show)$(br2)Used to craft Faiz's $(l:faiz/devices/faiz_driver)Faiz Driver$(/l)$(br2)Used to access Faiz's $(l:faiz/riders/faiz#base)Base Form$(/l)"
+            "text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Used to craft Faiz's $(l:faiz/devices/faiz_driver)Faiz Driver$(/l)$(br2)Used to access Faiz's $(l:faiz/riders/faiz#faiz)base$(/l) form"
         },
         {
             "type": "patchouli:spotlight",

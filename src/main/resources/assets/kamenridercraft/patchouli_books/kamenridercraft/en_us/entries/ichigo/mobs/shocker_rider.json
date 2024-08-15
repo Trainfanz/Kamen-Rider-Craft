@@ -11,7 +11,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Drops$(li)4-6 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)1 $(l:misc/items/shocker_emblem)Shocker Emblem$(/l) (45%)$(li)1 $(l:ichigo/items/typhoon_core_sango)Typhoon Core (Sango)$(/l) (27%)$(li)1 $(l:ichigo/items/typhoon_core_yongo)Typhoon Core (Yongo)$(/l) (18%)$(li)1 $(l:ichigo/items/new_typhoon_core)Power Up Typhoon Core$(/l) (9.1%)"
+            "text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Health: 45$(br2)Drops$(li)4-6 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)0-1 $(l:misc/items/shocker_emblem)Shocker Emblem$(/l) (45%)$(li)0-1 $(l:ichigo/items/typhoon_core_sango)Typhoon Core (Sango)$(/l) (27%)$(li)0-1 $(l:ichigo/items/typhoon_core_yongo)Typhoon Core (Yongo)$(/l) (18%)$(li)0-1 $(l:ichigo/items/new_typhoon_core)Power Up Typhoon Core$(/l) (9.1%)"
         }
     ]
 }

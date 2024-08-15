@@ -2,7 +2,7 @@
     "name": "Kamen Rider Delta",
     "icon": "kamenridercraft:delta_mission_memory",
     "category": "kamenridercraft:faiz/riders",
-    "sortnum": 1,
+    "sortnum": 2,
     "pages": [
         {
             "type": "patchouli:entity",

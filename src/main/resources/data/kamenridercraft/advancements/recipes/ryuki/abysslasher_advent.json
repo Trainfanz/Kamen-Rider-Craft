@@ -21,7 +21,8 @@
   ],
   "rewards": {
 	"recipes": [
-	  "kamenridercraft:ryuki/v_buckle_abyss"
+	  "kamenridercraft:ryuki/v_buckle_abyss",
+	  "kamenridercraft:ryuki/abyss_visor"
 	]
   },
   "sends_telemetry_event": false

@@ -1,0 +1,56 @@
+{
+    "name": "Kamen Rider Seeda",
+    "icon": "kamenridercraft:seeda_driver",
+    "category": "kamenridercraft:faiz/riders",
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "anchor": "silver_mint",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:seeda_driver\",Count:1b},{id:\"kamenridercraft:faizlegs\",Count:1b},{id:\"kamenridercraft:faiztroso\",Count:1b},{id:\"kamenridercraft:faizhead\",Count:1b}]}",
+            "name": "Silver Mint",
+            "text": ""
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Seeda",
+            "text": "Appears in:$(li)ICON: Tamotsu Shinohara Character Art Works (2006, art book)$(br2)Transforms with the $(l:faiz/devices/seeda_driver)Seeda Driver (Silver Mint)$(/l)$(br2)Status Effects:$(li)Resistance$(li)Night Vision$(li)Strength III"
+        },
+        {
+            "type": "patchouli:entity",
+            "anchor": "guardian_blue",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:seeda_driver_gb\",Count:1b},{id:\"kamenridercraft:faizlegs\",Count:1b},{id:\"kamenridercraft:faiztroso\",Count:1b},{id:\"kamenridercraft:faizhead\",Count:1b}]}",
+            "name": "Guardian Blue",
+            "text": ""
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Seeda",
+            "text": "Appears in:$(li)ICON: Tamotsu Shinohara Character Art Works (2006, art book)$(br2)Transforms with the $(l:faiz/devices/seeda_driver_gb)Seeda Driver (Guardian Blue)$(/l)$(br2)Status Effects:$(li)Resistance$(li)Night Vision$(li)Strength III"
+        },
+        {
+            "type": "patchouli:entity",
+            "anchor": "rescue_orange",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:seeda_driver_ro\",Count:1b},{id:\"kamenridercraft:faizlegs\",Count:1b},{id:\"kamenridercraft:faiztroso\",Count:1b},{id:\"kamenridercraft:faizhead\",Count:1b}]}",
+            "name": "Rescue Orange",
+            "text": ""
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Seeda",
+            "text": "Appears in:$(li)ICON: Tamotsu Shinohara Character Art Works (2006, art book)$(br2)Transforms with the $(l:faiz/devices/seeda_driver_ro)Seeda Driver (Rescue Orange)$(/l)$(br2)Status Effects:$(li)Resistance$(li)Night Vision$(li)Strength III"
+        },
+        {
+            "type": "patchouli:entity",
+            "anchor": "urban_white",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:seeda_driver_uw\",Count:1b},{id:\"kamenridercraft:faizlegs\",Count:1b},{id:\"kamenridercraft:faiztroso\",Count:1b},{id:\"kamenridercraft:faizhead\",Count:1b}]}",
+            "name": "Urban White",
+            "text": ""
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Seeda",
+            "text": "Appears in:$(li)ICON: Tamotsu Shinohara Character Art Works (2006, art book)$(br2)Transforms with the $(l:faiz/devices/seeda_driver_uw)Seeda Driver (Urban White)$(/l)$(br2)Status Effects:$(li)Resistance$(li)Night Vision$(li)Strength III"
+        }
+    ]
+}

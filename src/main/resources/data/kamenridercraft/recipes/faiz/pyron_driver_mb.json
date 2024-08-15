@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pyron_gear",
+  "pattern": [
+	"XDX",
+	"XCX",
+	"XXX"
+  ],
+  "key": {
+	"X": {
+	  "item": "kamenridercraft:blank_mission_memory"
+	}, "C": {
+	  "item": "kamenridercraft:pyron_mission_memory"
+	}, "D": {
+	  "item": "minecraft:black_dye"
+	}
+  },
+  "result": {
+	"item": "kamenridercraft:pyron_driver_mb"
+  }
+}

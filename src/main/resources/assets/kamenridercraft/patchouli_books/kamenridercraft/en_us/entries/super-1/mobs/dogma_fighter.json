@@ -11,7 +11,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Super-1 (1980, TV show)$(br2)Drops$(li)2-4 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)1 $(l:misc/items/rider_circuit)Rider Circuit$(/l) (50%)$(li)1 $(l:super-1/items/cyclode_core)Cyclode Core$(/l) (50%)"
+            "text": "Appears in:$(li)Kamen Rider Super-1 (1980, TV show)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)0-1 $(l:misc/items/rider_circuit)Rider Circuit$(/l) (50%)$(li)0-1 $(l:super-1/items/cyclode_core)Cyclode Core$(/l) (50%)"
         }
     ]
 }

@@ -11,7 +11,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Black (1987, TV show)$(br2)Drops$(li)4-6 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)1 $(l:black/items/green_king_stone)Green Kingstone$(/l) (91%)$(li)1 $(l:black_rx/items/moon_rx_core)Another RX Core$(/l) (9%)"
+            "text": "Appears in:$(li)Kamen Rider Black (1987, TV show)$(br2)Health: 45$(br2)Drops$(li)4-6 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)0-1 $(l:black/items/green_king_stone)Green Kingstone$(/l) (91%)$(li)0-1 $(l:black_rx/items/moon_rx_core)Another RX Core$(/l) (9%)"
         }
     ]
 }

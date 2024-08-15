@@ -2,7 +2,7 @@
     "name": "Kamen Rider Orga",
     "icon": "kamenridercraft:orga_mission_memory",
     "category": "kamenridercraft:faiz/riders",
-    "sortnum": 1,
+    "sortnum": 4,
     "pages": [
         {
             "type": "patchouli:entity",
@@ -13,7 +13,7 @@
         {
             "type": "patchouli:text",
 			"title": "Kamen Rider Orga",
-            "text": "Appears in:$(li)Kamen Rider 555: Paradise Lost (2003, Movie)$(br2)Transforms with the $(l:faiz/devices/orga_driver)Orga Driver$(/l)$(br2)Status Effects:$(li)Slowness II$(li)Resistance V$(li)Night Vision$(li)Regeneration$(li)Strength V"
+            "text": "Appears in:$(li)Kamen Rider 555: Paradise Lost (2003, movie)$(br2)Transforms with the $(l:faiz/devices/orga_driver)Orga Driver$(/l)$(br2)Status Effects:$(li)Slowness II$(li)Resistance V$(li)Night Vision$(li)Regeneration$(li)Strength V"
         }
     ]
 }

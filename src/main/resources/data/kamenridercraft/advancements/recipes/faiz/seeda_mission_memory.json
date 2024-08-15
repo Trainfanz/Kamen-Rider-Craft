@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+	"has_item": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+		  {
+			"items": [
+			  "kamenridercraft:seeda_mission_memory"
+			]
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "has_item"
+	]
+  ],
+  "rewards": {
+	"recipes": [
+	  "kamenridercraft:faiz/seeda_driver",
+	  "kamenridercraft:faiz/seeda_driver_gb",
+	  "kamenridercraft:faiz/seeda_driver_ro",
+	  "kamenridercraft:faiz/seeda_driver_uw"
+	]
+  },
+  "sends_telemetry_event": false
+}

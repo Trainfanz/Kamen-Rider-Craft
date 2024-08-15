@@ -2,11 +2,11 @@
     "name": "Psyga Mission Memory",
     "icon": "kamenridercraft:psyga_mission_memory",
     "category": "kamenridercraft:faiz/items",
-    "sortnum": 5,
+    "sortnum": 8,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider 555: Paradise Lost (2003, Movie)$(br2)Used to craft Psyga's $(l:faiz/devices/psyga_driver)Psyga Driver$(/l)"
+            "text": "Appears in:$(li)Kamen Rider 555: Paradise Lost (2003, movie)$(br2)Used to craft Psyga's $(l:faiz/devices/psyga_driver)Psyga Driver$(/l)"
         },
         {
             "type": "patchouli:spotlight",

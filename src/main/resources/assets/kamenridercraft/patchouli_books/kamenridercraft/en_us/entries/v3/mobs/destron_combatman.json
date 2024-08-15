@@ -11,7 +11,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider V3 (1973, TV show)$(br2)Drops$(li)2-4 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)1 $(l:misc/items/rider_circuit)Rider Circuit$(/l) (33%)$(li)1 $(l:v3/items/double_typhoon_core)Double Typhoon Core$(/l) (33%)$(li)1 $(l:v3/items/riderman_belt_core)Rider Buckle Core$(/l) (26%)$(li)1 $(l:v3/items/blue_double_typhoon_core)Blue Double Typhoon Core$(/l) (6.7%)"
+            "text": "Appears in:$(li)Kamen Rider V3 (1973, TV show)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)0-1 $(l:misc/items/rider_circuit)Rider Circuit$(/l) (33%)$(li)0-1 $(l:v3/items/double_typhoon_core)Double Typhoon Core$(/l) (33%)$(li)0-1 $(l:v3/items/riderman_belt_core)Rider Buckle Core$(/l) (26%)$(li)0-1 $(l:v3/items/blue_double_typhoon_core)Blue Double Typhoon Core$(/l) (6.7%)"
         }
     ]
 }

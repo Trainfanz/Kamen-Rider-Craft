@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "seeda_gear",
+  "pattern": [
+	"XDX",
+	"XCX",
+	"XXX"
+  ],
+  "key": {
+	"X": {
+	  "item": "kamenridercraft:blank_mission_memory"
+	}, "C": {
+	  "item": "kamenridercraft:seeda_mission_memory"
+	}, "D": {
+	  "item": "minecraft:orange_dye"
+	}
+  },
+  "result": {
+	"item": "kamenridercraft:seeda_driver_ro"
+  }
+}

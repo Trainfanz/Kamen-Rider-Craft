@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Used by Faiz's $(l:faiz/riders/faiz#blaster)Blaster$(/l)"
+            "text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Used by Faiz's $(l:faiz/riders/faiz#blaster)Blaster Form$(/l)"
         },
         {
             "type": "patchouli:crafting",

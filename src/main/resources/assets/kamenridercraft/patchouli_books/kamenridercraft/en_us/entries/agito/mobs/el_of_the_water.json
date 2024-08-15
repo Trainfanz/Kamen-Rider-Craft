@@ -11,7 +11,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Drops$(li)2-4 $(l:agito/items/agito_of_seed)Seeds of Agito$(/l)$(li)1 $(l:agito/items/agito_of_seed)Seed of Agito$(/l) (80%)$(li)1 $(l:agito/items/agito_burning)Agito Burning Philosopher's Stone$(/l) (20%)"
+            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Health: 60$(br2)Drops$(li)2-4 $(l:agito/items/agito_of_seed)Seeds of Agito$(/l)$(li)0-1 $(l:agito/items/agito_of_seed)Seed of Agito$(/l) (80%)$(li)0-1 $(l:agito/items/agito_burning)Agito Burning Philosopher's Stone$(/l) (20%)"
         }
     ]
 }

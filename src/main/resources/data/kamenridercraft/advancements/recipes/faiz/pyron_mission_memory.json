@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+	"has_item": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+		  {
+			"items": [
+			  "kamenridercraft:pyron_mission_memory"
+			]
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "has_item"
+	]
+  ],
+  "rewards": {
+	"recipes": [
+	  "kamenridercraft:faiz/pyron_driver",
+	  "kamenridercraft:faiz/pyron_driver_sr",
+	  "kamenridercraft:faiz/pyron_driver_mb"
+	]
+  },
+  "sends_telemetry_event": false
+}

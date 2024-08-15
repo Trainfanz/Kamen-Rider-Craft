@@ -6,9 +6,9 @@
     "pages": [
         {
             "type": "patchouli:entity",
-            "anchor": "base",
+            "anchor": "faiz",
             "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:faiz_driver\",tag:{slot_tex1:\"faiz_mission_memory\"},Count:1b},{id:\"kamenridercraft:faizlegs\",Count:1b},{id:\"kamenridercraft:faiztroso\",Count:1b},{id:\"kamenridercraft:faizhead\",Count:1b}]}",
-            "name": "Base Form",
+            "name": " ",
             "text": "Accessed with the $(l:faiz/items/faiz_mission_memory)Faiz Mission Memory$(/l)"
         },
         {
@@ -39,6 +39,42 @@
             "type": "patchouli:text",
 			"title": "Kamen Rider Faiz",
             "text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Transforms with the $(l:faiz/devices/faiz_driver)Faiz Driver$(/l)$(br2)Status Effects:$(li)Flying II$(li)Speed IV$(li)Resistance III$(li)Night Vision$(li)Haste IV$(li)Jump Boost IV$(li)Strength V"
+        },
+        {
+            "type": "patchouli:entity",
+            "anchor": "gold_blaster",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:faiz_driver\",tag:{slot_tex1:\"faiz_gold_blaster_mission_memory\"},Count:1b},{id:\"kamenridercraft:faizlegs\",Count:1b},{id:\"kamenridercraft:faiztroso\",Count:1b},{id:\"kamenridercraft:faizhead\",Count:1b}]}",
+            "name": "Blaster Form (Gold Version)",
+            "text": "Accessed with the $(l:faiz/items/faiz_gold_blaster_mission_memory)Faiz Gold Blaster Mission Memory$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Faiz",
+            "text": "Appears in:$(li)Rider Hero Series (2003, toyline)$(br2)Transforms with the $(l:faiz/devices/faiz_driver)Faiz Driver$(/l)$(br2)Status Effects:$(li)Flying II$(li)Speed IV$(li)Resistance III$(li)Night Vision$(li)Haste IV$(li)Jump Boost IV$(li)Strength V"
+        },
+        {
+            "type": "patchouli:entity",
+            "anchor": "greywolch",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:faiz_driver\",tag:{slot_tex1:\"greywolch\"},Count:1b},{id:\"kamenridercraft:faizlegs\",Count:1b},{id:\"kamenridercraft:faiztroso\",Count:1b},{id:\"kamenridercraft:faizhead\",Count:1b}]}",
+            "name": "Greywolch",
+            "text": "Accessed with the $(l:faiz/items/greywolch)Greywolch Card Warrior Card$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Faiz",
+            "text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Transforms with the $(l:faiz/devices/faiz_driver)Faiz Driver$(/l)$(br2)Status Effects:$(li)Flying II$(li)Speed IV$(li)Resistance III$(li)Night Vision$(li)Haste IV$(li)Jump Boost IV$(li)Strength V"
+        },
+        {
+            "type": "patchouli:entity",
+            "anchor": "bakuen_no_senshi",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:faiz_driver\",tag:{slot_tex1:\"bakuen_no_senshi\"},Count:1b},{id:\"kamenridercraft:faizlegs\",Count:1b},{id:\"kamenridercraft:faiztroso\",Count:1b},{id:\"kamenridercraft:faizhead\",Count:1b}]}",
+            "name": "Blaster Form (Bakuen no Senshi)",
+            "text": "Accessed with the $(l:misc/items/bakuen_no_senshi)Bakuen no senshi Card Warrior Card$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Faiz",
+            "text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Transforms with the $(l:faiz/devices/faiz_driver)Faiz Driver$(/l)$(br2)Status Effects:$(li)Flying II$(li)Speed IV$(li)Resistance III$(li)Night Vision$(li)Haste IV$(li)Jump Boost IV$(li)Strength V"
         }
     ]
 }

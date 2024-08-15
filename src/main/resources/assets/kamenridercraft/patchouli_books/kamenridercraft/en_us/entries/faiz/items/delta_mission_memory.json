@@ -2,7 +2,7 @@
     "name": "Delta Mission Memory",
     "icon": "kamenridercraft:delta_mission_memory",
     "category": "kamenridercraft:faiz/items",
-    "sortnum": 5,
+    "sortnum": 7,
     "pages": [
         {
             "type": "patchouli:text",
