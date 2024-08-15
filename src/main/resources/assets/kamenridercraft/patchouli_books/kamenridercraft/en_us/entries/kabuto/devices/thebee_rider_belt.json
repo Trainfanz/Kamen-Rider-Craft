@@ -1,0 +1,16 @@
+{
+    "name": "ZECT Buckle (TheBee)",
+    "icon": "kamenridercraft:thebee_rider_belt",
+    "category": "kamenridercraft:kabuto/devices",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used alongside the $(l:kabuto/devices/armor)Kabuto armor$(/l) to transform into $(l:kabuto/riders/thebee)Kamen Rider TheBee"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:kabuto/thebee_rider_belt"
+        }
+    ]
+}

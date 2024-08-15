@@ -1,0 +1,19 @@
+{
+    "name": "Shadow Trooper Belt",
+    "icon": "kamenridercraft:shadow_trooper_belt",
+    "category": "kamenridercraft:kabuto/devices",
+    "sortnum": 14,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used alongside the $(l:kabuto/devices/armor)Kabuto armor$(/l) to transform into a $(l:kabuto/riders/shadow_trooper)Shadow Trooper"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:shadow_trooper_belt",
+            "title": " ",
+            "text": "Item is currently unobtainable"
+        }
+    ]
+}

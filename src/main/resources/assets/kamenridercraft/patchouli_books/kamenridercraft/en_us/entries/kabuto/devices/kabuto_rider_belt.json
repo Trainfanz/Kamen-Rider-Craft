@@ -1,0 +1,16 @@
+{
+    "name": "Rider Belt (Kabuto)",
+    "icon": "kamenridercraft:kabuto_rider_belt",
+    "category": "kamenridercraft:kabuto/devices",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used alongside the $(l:kabuto/devices/armor)Kabuto armor$(/l) to transform into $(l:kabuto/riders/kabuto)Kamen Rider Kabuto"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:kabuto/kabuto_rider_belt"
+        }
+    ]
+}

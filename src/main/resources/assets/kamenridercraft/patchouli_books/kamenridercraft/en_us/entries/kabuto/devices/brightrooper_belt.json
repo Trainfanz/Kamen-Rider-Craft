@@ -1,0 +1,19 @@
+{
+    "name": "Brightrooper Belt",
+    "icon": "kamenridercraft:brightrooper_belt",
+    "category": "kamenridercraft:kabuto/devices",
+    "sortnum": 15,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used alongside the $(l:kabuto/devices/armor)Kabuto armor$(/l) to transform into a $(l:kabuto/riders/brightrooper)Brightrooper"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:brightrooper_belt",
+            "title": " ",
+            "text": "Item is currently unobtainable"
+        }
+    ]
+}

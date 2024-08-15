@@ -1,0 +1,16 @@
+{
+    "name": "Kabuto Kunaigun (Kunai Mode)",
+    "icon": "kamenridercraft:kabuto_kunai_kunai",
+    "category": "kamenridercraft:kabuto/arsenal",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used by Kabuto's $(l:kabuto/riders/kabuto#rider)Rider$(/l) form"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:kabuto/kabuto_kunai_kunai"
+        }
+    ]
+}

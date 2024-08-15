@@ -1,0 +1,19 @@
+{
+    "name": "Neotrooper Belt",
+    "icon": "kamenridercraft:neotrooper_belt",
+    "category": "kamenridercraft:kabuto/devices",
+    "sortnum": 16,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Kabuto: God Speed Love (2006, Movie)$(br2)Used alongside the $(l:kabuto/devices/armor)Kabuto armor$(/l) to transform into a $(l:kabuto/riders/neotrooper)Neotrooper"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:neotrooper_belt",
+            "title": " ",
+            "text": "Item is currently unobtainable"
+        }
+    ]
+}

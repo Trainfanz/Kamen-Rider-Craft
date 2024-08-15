@@ -1,0 +1,19 @@
+{
+    "name": "Gatack Zecter",
+    "icon": "kamenridercraft:gatack_zecter",
+    "category": "kamenridercraft:kabuto/items",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used to craft Gatack's $(l:kabuto/devices/gatack_rider_belt)Rider Belt$(/l)$(br2)Used to swap between Gatack's $(l:kabuto/riders/gatack#masked)Masked$(/l) and $(l:kabuto/riders/gatack#rider)Rider$(/l) forms"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:gatack_zecter",
+            "title": " ",
+            "text": "Drops from:$(li)$(l:kabuto/mobs/shadow_trooper)Shadow Troopers$(/l)"
+        }
+    ]
+}

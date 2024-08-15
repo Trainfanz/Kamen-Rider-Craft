@@ -1,0 +1,16 @@
+{
+    "name": "ZECT Buckle (Drake)",
+    "icon": "kamenridercraft:drake_rider_belt",
+    "category": "kamenridercraft:kabuto/devices",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used alongside the $(l:kabuto/devices/armor)Kabuto armor$(/l) to transform into $(l:kabuto/riders/drake)Kamen Rider Drake"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:kabuto/drake_rider_belt"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Clock Up Pad",
+    "icon": "kamenridercraft:clock_up_pad",
+    "category": "kamenridercraft:kabuto/arsenal",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used by all $(l:kabuto/riders)Kabuto Riders$(/l) to increase their speed for a short time."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:kabuto/clock_up_pad"
+        }
+    ]
+}

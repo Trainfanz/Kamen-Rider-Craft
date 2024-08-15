@@ -1,0 +1,16 @@
+{
+    "name": "Gatack Double Calibur Plus",
+    "icon": "kamenridercraft:gatack_double_calibur",
+    "category": "kamenridercraft:kabuto/arsenal",
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used by Kamen Rider $(l:kabuto/riders/gatack)Gatack$(/l) in conjunction with the $(l:kabuto/arsenal/gatack_double_calibur_minus)Gatack Double Calibur Minus$(/l)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:kabuto/gatack_double_calibur"
+        }
+    ]
+}

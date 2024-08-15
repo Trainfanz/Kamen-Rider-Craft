@@ -1,0 +1,16 @@
+{
+    "name": "ZECT Buckle (KickHopper)",
+    "icon": "kamenridercraft:kickhopper_rider_belt",
+    "category": "kamenridercraft:kabuto/devices",
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used alongside the $(l:kabuto/devices/armor)Kabuto armor$(/l) to transform into $(l:kabuto/riders/kickhopper)Kamen Rider KickHopper"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:kabuto/kickhopper_rider_belt"
+        }
+    ]
+}

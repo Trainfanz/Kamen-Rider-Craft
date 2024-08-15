@@ -1,0 +1,19 @@
+{
+    "name": "Kabuto Zecter",
+    "icon": "kamenridercraft:kabuto_zecter",
+    "category": "kamenridercraft:kabuto/items",
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used to craft Kabuto's $(l:kabuto/devices/kabuto_rider_belt)Rider Belt$(/l)$(br2)Used to swap between Kabuto's $(l:kabuto/riders/kabuto#masked)Masked$(/l) and $(l:kabuto/riders/kabuto#rider)Rider$(/l) forms"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:kabuto_zecter",
+            "title": " ",
+            "text": "Drops from:$(li)$(l:kabuto/mobs/zectrooper)ZECTroopers$(/l)"
+        }
+    ]
+}

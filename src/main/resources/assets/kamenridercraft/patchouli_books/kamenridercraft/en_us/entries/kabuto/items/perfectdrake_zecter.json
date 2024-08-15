@@ -1,0 +1,19 @@
+{
+    "name": "Perfect Drake Zecter",
+    "icon": "kamenridercraft:perfectdrake_zecter",
+    "category": "kamenridercraft:kabuto/items",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used as material to craft the $(l:kabuto/arsenal/perfect_zecter)Perfect Zecter$(/l)"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:perfectdrake_zecter",
+            "title": " ",
+            "text": "Drops from:$(li)$(l:kabuto/mobs/neotrooper)Neotroopers$(/l)"
+        }
+    ]
+}

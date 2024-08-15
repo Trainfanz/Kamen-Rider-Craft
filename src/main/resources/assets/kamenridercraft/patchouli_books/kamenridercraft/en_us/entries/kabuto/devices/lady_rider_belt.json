@@ -1,0 +1,16 @@
+{
+    "name": "ZECT Buckle (Lady)",
+    "icon": "kamenridercraft:lady_rider_belt",
+    "category": "kamenridercraft:kabuto/devices",
+    "sortnum": 12,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Kabuto: Special Show (2006, Stage Show)$(br2)Used alongside the $(l:kabuto/devices/armor)Kabuto armor$(/l) to transform into $(l:kabuto/riders/lady)Kamen Rider Lady"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:kabuto/lady_rider_belt"
+        }
+    ]
+}

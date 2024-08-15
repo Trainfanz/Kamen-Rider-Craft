@@ -1,0 +1,16 @@
+{
+    "name": "ZECT Buckle (Hercus)",
+    "icon": "kamenridercraft:hercus_rider_belt",
+    "category": "kamenridercraft:kabuto/devices",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Kabuto: God Speed Love (2006, Movie)$(br2)Used alongside the $(l:kabuto/devices/armor)Kabuto armor$(/l) to transform into $(l:kabuto/riders/hercus)Kamen Rider Hercus"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:kabuto/hercus_rider_belt"
+        }
+    ]
+}

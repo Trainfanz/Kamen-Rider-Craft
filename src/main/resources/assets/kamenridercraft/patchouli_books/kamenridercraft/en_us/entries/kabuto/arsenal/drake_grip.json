@@ -1,0 +1,16 @@
+{
+    "name": "Drake Glip",
+    "icon": "kamenridercraft:drake_grip",
+    "category": "kamenridercraft:kabuto/arsenal",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used by Kamen Rider $(l:kabuto/riders/drake)Drake$(/l)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:kabuto/drake_grip"
+        }
+    ]
+}

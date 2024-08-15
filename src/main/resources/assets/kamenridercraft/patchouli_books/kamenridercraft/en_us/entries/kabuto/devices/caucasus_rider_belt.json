@@ -1,0 +1,16 @@
+{
+    "name": "ZECT Buckle (Caucasus)",
+    "icon": "kamenridercraft:caucasus_rider_belt",
+    "category": "kamenridercraft:kabuto/devices",
+    "sortnum": 9,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Kabuto: God Speed Love (2006, Movie)$(br2)Used alongside the $(l:kabuto/devices/armor)Kabuto armor$(/l) to transform into $(l:kabuto/riders/caucasus)Kamen Rider Caucasus"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:kabuto/caucasus_rider_belt"
+        }
+    ]
+}

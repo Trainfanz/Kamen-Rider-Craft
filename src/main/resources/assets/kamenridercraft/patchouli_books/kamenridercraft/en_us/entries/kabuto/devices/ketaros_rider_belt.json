@@ -1,0 +1,16 @@
+{
+    "name": "ZECT Buckle (Ketaros)",
+    "icon": "kamenridercraft:ketaros_rider_belt",
+    "category": "kamenridercraft:kabuto/devices",
+    "sortnum": 11,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Kabuto: God Speed Love (2006, Movie)$(br2)Used alongside the $(l:kabuto/devices/armor)Kabuto armor$(/l) to transform into $(l:kabuto/riders/ketaros)Kamen Rider Ketaros"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:kabuto/ketaros_rider_belt"
+        }
+    ]
+}
