@@ -1,0 +1,19 @@
+{
+    "name": "Silver Evolution Caucasus Rouze Card",
+    "icon": "kamenridercraft:silver_evolution_caucasus",
+    "category": "kamenridercraft:blade/items",
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)??? (2004, ???)$(br2)Used to access Blade's $(l:blade/riders/blade#silver_king)King Form (Silver Version)$(/l)"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:silver_evolution_caucasus",
+            "title": " ",
+            "text": "Item is currently unobtainable"
+        }
+    ]
+}

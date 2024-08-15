@@ -1,0 +1,16 @@
+{
+    "name": "Leangle Rouzer",
+    "icon": "kamenridercraft:leanglerouzer",
+    "category": "kamenridercraft:blade/arsenal",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used by Leangle's $(l:blade/riders/leangle#base)Base$(/l), $(l:blade/riders/Leangle#jack)Jack$(/l) and $(l:blade/riders/leangle#king)King$(/l) forms. "
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:blade/leanglerouzer"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:blade/main",
+    "name": "Blade Riders",
+    "description": "Every Rider and pseudo-Rider from or relating to the show, Kamen Rider Blade.",
+    "icon": "kamenridercraft:bladehead",
+    "sortnum": 0
+}

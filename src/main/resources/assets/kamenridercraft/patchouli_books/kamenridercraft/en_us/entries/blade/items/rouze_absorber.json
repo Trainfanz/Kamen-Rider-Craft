@@ -1,0 +1,16 @@
+{
+    "name": "Rouze Absorber",
+    "icon": "kamenridercraft:rouze_absorber",
+    "category": "kamenridercraft:blade/items",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used to access Blade's $(l:blade/riders/blade#jack)Jack and $(l:blade/riders/blade#king)King Forms$(/l)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:blade/rouze_absorber"
+        }
+    ]
+}

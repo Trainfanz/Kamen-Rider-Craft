@@ -1,0 +1,16 @@
+{
+    "name": "Wild Slasher",
+    "icon": "kamenridercraft:wild_slasher",
+    "category": "kamenridercraft:blade/arsenal",
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used by Chalice's $(l:blade/riders/chalice#wild)Wild$(/l) form. "
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:blade/wild_slasher"
+        }
+    ]
+}

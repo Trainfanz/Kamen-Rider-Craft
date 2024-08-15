@@ -1,0 +1,16 @@
+{
+    "name": "Chalice Rouzer",
+    "icon": "kamenridercraft:chalice_rouzer",
+    "category": "kamenridercraft:blade/devices",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used alongside the $(l:blade/devices/armor)Blade armor$(/l) to transform into $(l:blade/riders/chalice)Kamen Rider Chalice"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:blade/chalice_rouzer"
+        }
+    ]
+}

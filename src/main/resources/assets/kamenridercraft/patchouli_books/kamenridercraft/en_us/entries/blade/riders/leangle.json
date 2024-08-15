@@ -1,0 +1,44 @@
+{
+    "name": "Kamen Rider Leangle",
+    "icon": "kamenridercraft:change_spider",
+    "category": "kamenridercraft:blade/riders",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "anchor": "leangle",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:leangle_buckle\",tag:{slot_tex1:\"change_spider\"},Count:1b},{id:\"kamenridercraft:bladelegs\",Count:1b},{id:\"kamenridercraft:bladetroso\",Count:1b},{id:\"kamenridercraft:bladehead\",Count:1b}]}",
+            "name": " ",
+            "text": "Accessed with the $(l:blade/items/change_spider)Change Spider Rouze Card$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Leangle",
+            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Transforms with the $(l:blade/devices/leangle_buckle)Leangle Buckle$(/l)$(br2)Status Effects:$(li)Haste II$(li)Strength II"
+        },
+        {
+            "type": "patchouli:entity",
+            "anchor": "jack",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:leangle_buckle\",tag:{slot_tex1:\"fusion_elephant\"},Count:1b},{id:\"kamenridercraft:bladelegs\",Count:1b},{id:\"kamenridercraft:bladetroso\",Count:1b},{id:\"kamenridercraft:bladehead\",Count:1b}]}",
+            "name": "Jack Form",
+            "text": "Accessed with the $(l:blade/items/fusion_elephant)Fusion Elephant Rouze Card$(/l) while having the $(l:blade/items/rouze_absorber)Rouze Absorber$(/l) in your offhand and the $(l:blade/items/absorb_tiger)Absorb Tiger Rouze Card$(/l) in your inventory"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Leangle",
+            "text": "Appears in:$(li)S.I.C. Hero Saga (2014, ???)$(br2)Transforms with the $(l:blade/devices/leangle_buckle)Leangle Buckle$(/l)$(br2)Status Effects:$(li)Speed III$(li)Resistance$(li)Haste II$(li)Strength II"
+        },
+        {
+            "type": "patchouli:entity",
+            "anchor": "king",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:leangle_buckle\",tag:{slot_tex1:\"evolution_tarantula\"},Count:1b},{id:\"kamenridercraft:bladelegs\",Count:1b},{id:\"kamenridercraft:bladetroso\",Count:1b},{id:\"kamenridercraft:bladehead\",Count:1b}]}",
+            "name": "King Form",
+            "text": "Accessed with the $(l:blade/items/evolution_tarantula)Evolution Tarantula Rouze Card$(/l) while having the $(l:blade/items/rouze_absorber)Rouze Absorber$(/l) in your offhand and the $(l:blade/items/absorb_tiger)Absorb Tiger Rouze Card$(/l) in your inventory"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Leangle",
+            "text": "Appears in:$(li)Kamen Rider Blade 20th Anniversary STAGE&TALK (2024, Stage Show)$(br2)Transforms with the $(l:blade/devices/leangle_buckle)Leangle Buckle$(/l)$(br2)Status Effects:$(li)Slowness$(li)Resistance IV$(li)Jump Boost III$(li)Strength V"
+        }
+    ]
+}

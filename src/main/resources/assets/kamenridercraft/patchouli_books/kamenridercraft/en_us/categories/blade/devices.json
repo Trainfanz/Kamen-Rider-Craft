@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:blade/main",
+    "name": "Blade Transformation Devices",
+    "description": "The transformation devices used by the Blade Riders.",
+    "icon": "kamenridercraft:blay_buckle",
+    "sortnum": 1
+}

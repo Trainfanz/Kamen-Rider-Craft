@@ -1,0 +1,19 @@
+{
+    "name": "Change Kerberus Rouze Card (Glaive)",
+    "icon": "kamenridercraft:change_kerberos_glaive",
+    "category": "kamenridercraft:blade/items",
+    "sortnum": 18,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Blade: Missing Ace (2004, Movie)$(br2)Used to craft Glaive's $(l:blade/devices/glaive_buckle)Glaive Buckle$(/l)"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:change_kerberos_glaive",
+            "title": " ",
+            "text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
+        }
+    ]
+}

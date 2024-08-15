@@ -1,0 +1,19 @@
+{
+    "name": "Absorb Tiger Rouze Card",
+    "icon": "kamenridercraft:absorb_tiger",
+    "category": "kamenridercraft:blade/items",
+    "sortnum": 16,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)S.I.C. Hero Saga (2014, ???)$(br2)Used to access Leangle's $(l:blade/riders/leangle#jack)Jack$(/l) and $(l:blade/riders/leangle#king)King$(/l) forms"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:absorb_tiger",
+            "title": " ",
+            "text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
+        }
+    ]
+}

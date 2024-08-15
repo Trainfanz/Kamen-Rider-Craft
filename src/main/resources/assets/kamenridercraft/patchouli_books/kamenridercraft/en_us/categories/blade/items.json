@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:blade/main",
+    "name": "Blade Rider Items",
+    "description": "All Blade-related items that are neither armor nor a weapon.",
+    "icon": "kamenridercraft:change_beetle",
+    "sortnum": 2
+}

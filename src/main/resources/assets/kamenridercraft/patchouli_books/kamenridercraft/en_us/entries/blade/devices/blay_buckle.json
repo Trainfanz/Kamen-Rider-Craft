@@ -1,0 +1,16 @@
+{
+    "name": "Blay Buckle",
+    "icon": "kamenridercraft:blay_buckle",
+    "category": "kamenridercraft:blade/devices",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used alongside the $(l:blade/devices/armor)Blade armor$(/l) to transform into $(l:blade/riders/blade#base)Kamen Rider Blade"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:faiz/blay_buckle"
+        }
+    ]
+}

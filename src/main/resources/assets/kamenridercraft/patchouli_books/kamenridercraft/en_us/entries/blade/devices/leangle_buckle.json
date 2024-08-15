@@ -1,0 +1,16 @@
+{
+    "name": "Leangle Buckle",
+    "icon": "kamenridercraft:leangle_buckle",
+    "category": "kamenridercraft:blade/devices",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used alongside the $(l:blade/devices/armor)Blade armor$(/l) to transform into $(l:blade/riders/leangle)Kamen Rider Leangle"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:blade/leangle_buckle"
+        }
+    ]
+}

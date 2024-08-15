@@ -1,0 +1,12 @@
+{
+    "name": "Blade Logo",
+    "icon": "kamenridercraft:blade_logo",
+    "category": "kamenridercraft:blade/items",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:blade/blade_logo"
+        }
+    ]
+}

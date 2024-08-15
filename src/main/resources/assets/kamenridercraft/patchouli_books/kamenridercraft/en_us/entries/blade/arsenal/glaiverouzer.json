@@ -1,0 +1,16 @@
+{
+    "name": "Glaive Rouzer",
+    "icon": "kamenridercraft:glaiverouzer",
+    "category": "kamenridercraft:blade/arsenal",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Blade: Missing Ace (2004, Movie)$(br2)Used by $(l:blade/riders/glaive)Kamen Rider Glaive$(/l)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:blade/glaiverouzer"
+        }
+    ]
+}

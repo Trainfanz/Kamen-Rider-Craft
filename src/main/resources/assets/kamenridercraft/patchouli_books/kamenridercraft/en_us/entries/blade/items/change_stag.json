@@ -1,0 +1,19 @@
+{
+    "name": "Change Stag Rouze Card",
+    "icon": "kamenridercraft:change_stag",
+    "category": "kamenridercraft:blade/items",
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used to craft Garren's $(l:blade/devices/garren_buckle)Garren Buckle$(/l)$(br2)Used to access Garren's $(l:blade/riders/garren#garren)base$(/l) form"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:change_stag",
+            "title": " ",
+            "text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
+        }
+    ]
+}

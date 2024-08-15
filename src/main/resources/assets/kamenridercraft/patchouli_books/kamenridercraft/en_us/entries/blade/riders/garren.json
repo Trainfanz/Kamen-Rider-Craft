@@ -1,0 +1,44 @@
+{
+    "name": "Kamen Rider Garren",
+    "icon": "kamenridercraft:change_stag",
+    "category": "kamenridercraft:blade/riders",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "anchor": "garren",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:garren_buckle\",tag:{slot_tex1:\"change_stag\"},Count:1b},{id:\"kamenridercraft:bladelegs\",Count:1b},{id:\"kamenridercraft:bladetroso\",Count:1b},{id:\"kamenridercraft:bladehead\",Count:1b}]}",
+            "name": " ",
+            "text": "Accessed with the $(l:blade/items/change_stag)Change Stag Rouze Card$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Garren",
+            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Transforms with the $(l:blade/devices/garren_buckle)Garren Buckle$(/l)$(br2)Status Effects:$(li)Speed II$(li)Strength"
+        },
+        {
+            "type": "patchouli:entity",
+            "anchor": "jack",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:garren_buckle\",tag:{slot_tex1:\"fusion_peacock\"},Count:1b},{id:\"kamenridercraft:bladelegs\",Count:1b},{id:\"kamenridercraft:bladetroso\",Count:1b},{id:\"kamenridercraft:bladehead\",Count:1b}]}",
+            "name": "Jack Form",
+            "text": "Accessed with the $(l:blade/items/fusion_peacock)Fusion Peacock Rouze Card$(/l) while having the $(l:blade/items/rouze_absorber)Rouze Absorber$(/l) in your offhand and the $(l:blade/items/absorb_serpent)Absorb Serpent Rouze Card$(/l) in your inventory"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Garren",
+            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Transforms with the $(l:blade/devices/garren_buckle)Garren Buckle$(/l)$(br2)Status Effects:$(li)Flying$(li)Speed III$(li)Resistance$(li)Haste$(li)Strength II"
+        },
+        {
+            "type": "patchouli:entity",
+            "anchor": "king",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:garren_buckle\",tag:{slot_tex1:\"evolution_giraffa\"},Count:1b},{id:\"kamenridercraft:bladelegs\",Count:1b},{id:\"kamenridercraft:bladetroso\",Count:1b},{id:\"kamenridercraft:bladehead\",Count:1b}]}",
+            "name": "King Form",
+            "text": "Accessed with the $(l:blade/items/evolution_giraffa)Evolution Giraffa Rouze Card$(/l) while having the $(l:blade/items/rouze_absorber)Rouze Absorber$(/l) in your offhand and the $(l:blade/items/absorb_serpent)Absorb Serpent Rouze Card$(/l) in your inventory"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Garren",
+            "text": "Appears in:$(li)Kamen Rider Outsiders (2023, Web Series)$(br2)Transforms with the $(l:blade/devices/garren_buckle)Garren Buckle$(/l)$(br2)Status Effects:$(li)Slowness$(li)Resistance IV$(li)Jump Boost III$(li)Strength V"
+        }
+    ]
+}

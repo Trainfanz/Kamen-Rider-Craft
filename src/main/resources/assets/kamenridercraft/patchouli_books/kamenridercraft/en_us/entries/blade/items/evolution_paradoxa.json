@@ -1,0 +1,19 @@
+{
+    "name": "Evolution Paradoxa Rouze Card",
+    "icon": "kamenridercraft:evolution_paradoxa",
+    "category": "kamenridercraft:blade/items",
+    "sortnum": 13,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used to craft Chalice's $(l:blade/devices/wild_slasher)Wild Slasher$(/l)$(br2)Used to access Chalice's $(l:blade/riders/chalice#wild)Wild$(/l) form"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:evolution_paradoxa",
+            "title": " ",
+            "text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
+        }
+    ]
+}

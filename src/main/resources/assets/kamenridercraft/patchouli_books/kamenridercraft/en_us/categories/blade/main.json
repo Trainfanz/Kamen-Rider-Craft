@@ -1,0 +1,7 @@
+{
+    "parent": "kamenridercraft:main/heisei",
+    "name": "Kamen Rider Blade",
+    "description": "Everything related to the show, Kamen Rider Blade.",
+    "icon": "kamenridercraft:blade_logo",
+    "sortnum": 19
+}

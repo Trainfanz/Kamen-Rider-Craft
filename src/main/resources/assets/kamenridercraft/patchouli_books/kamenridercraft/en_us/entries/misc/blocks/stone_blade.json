@@ -1,0 +1,19 @@
+{
+    "name": "Blade Ore",
+    "icon": "kamenridercraft:stone_blade",
+    "category": "kamenridercraft:misc/blocks",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Mine this block to get Blade's $(l:blade/items/bladecard)Rouze Cards$(/l)$(br2)Requires an iron pickaxe or better"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:stone_blade",
+            "title": " ",
+            "text": "Drops:$(li)$(l:blade/items/bladecard)Common Blank Rouze Card$(/l) (58%)$(li)$(l:blade/items/change_beetle)Change Beetle Rouze Card$(/l) (5%)$(li)$(l:blade/items/fusion_eagle)Fusion Eagle Rouze Card$(/l) (2%)$(li)$(l:blade/items/absorb_capricorn)Absorb Capricorn Rouze Card$(/l) (2%)$(li)$(l:blade/items/evolution_caucasus)Evolution Caucasus Rouze Card$(/l) (1%)$(li)$(l:blade/items/change_stag)Change Stag Rouze Card$(/l) (5%)$(li)$(l:blade/items/fusion_peacock)Fusion Peacock Rouze Card$(/l) (2%)$(li)$(l:blade/items/absorb_serpent)Absorb Serpent Rouze Card$(/l) (2%)$(li)$(l:blade/items/evolution_giraffa)Evolution Giraffa Rouze Card$(/l) (1%)$(li)$(l:blade/items/change_mantis)Change Mantis Rouze Card$(/l) (3%)$(li)$(l:blade/items/evolution_paradoxa)Evolution Paradoxa Rouze Card$(/l) (1%)$(li)$(l:blade/items/change_spider)Change Spider Rouze Card$(/l) (3%)$(li)$(l:blade/items/fusion_elephant)Fusion Elephant Rouze Card$(/l) (2%)$(li)$(l:blade/items/absorb_tiger)Absorb Tiger Rouze Card$(/l) (1%)$(li)$(l:blade/items/evolution_tarantula)Evolution Tarantula Rouze Card$(/l) (1%)$(li)$(l:blade/items/change_kerberos_glaive)Change Kerberus Rouze Card (Glaive)$(/l) (1%)$(li)$(l:blade/items/change_kerberos_lance)Change Kerberus Rouze Card (Lance)$(/l) (3%)$(li)$(l:blade/items/change_kerberos_larc)Change Kerberus Rouze Card (Larc)$(/l) (3%)"
+        }
+    ]
+}
