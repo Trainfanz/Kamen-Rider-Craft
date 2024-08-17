@@ -1,0 +1,12 @@
+{
+    "name": "Den-O Logo",
+    "icon": "kamenridercraft:den_o_logo",
+    "category": "kamenridercraft:den-o/items",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kamenridercraft:den-o/den_o_logo"
+        }
+    ]
+}
