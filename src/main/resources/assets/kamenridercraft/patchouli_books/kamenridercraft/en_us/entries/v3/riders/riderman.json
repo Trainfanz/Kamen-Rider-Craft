@@ -27,6 +27,18 @@
             "type": "patchouli:text",
 			"title": "Riderman",
             "text": "Appears in:$(li)Riderman Another After (2003, S.I.C. Hero Saga)$(br2)Transforms with the $(l:v3/devices/riderman_belt)Rider Buckle$(/l)$(br2)Status Effects:$(li)Speed III$(li)Regeneration$(li)Jump Boost III$(li)Strength II"
+        },
+        {
+            "type": "patchouli:entity",
+            "anchor": "artist_color",
+            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:riderman_belt\",tag:{slot_tex1:\"riderman_belt_core_artist\"},Count:1b},{id:\"kamenridercraft:v3legs\",Count:1b},{id:\"kamenridercraft:v3troso\",Count:1b},{id:\"kamenridercraft:v3head\",Count:1b}]}",
+            "name": "Artist Color",
+            "text": "Accessed with the $(l:misc/items/sic_hero_saga)S.I.C. Hero Saga$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+			"title": "Riderman",
+            "text": "Appears in:$(li)S.I.C. Takumi Damashii Vol. 10 (2008, toyline)$(br2)Transforms with the $(l:v3/devices/riderman_belt)Rider Buckle$(/l)$(br2)Status Effects:$(li)Regeneration$(li)Haste III$(li)Strength II"
         }
     ]
 }

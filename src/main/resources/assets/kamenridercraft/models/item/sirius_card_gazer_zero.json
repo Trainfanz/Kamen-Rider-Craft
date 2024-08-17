@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "kamenridercraft:item/sirius_card_gazer_zero"
+        "layer0": "kamenridercraft:item/sirius_card"
     }
 }
 	
