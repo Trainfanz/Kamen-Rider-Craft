@@ -2,7 +2,7 @@
     "name": "Kamen Rider Chalice",
     "icon": "kamenridercraft:change_mantis",
     "category": "kamenridercraft:blade/riders",
-    "sortnum": 2,
+    "sortnum": 1,
     "pages": [
         {
             "type": "patchouli:entity",

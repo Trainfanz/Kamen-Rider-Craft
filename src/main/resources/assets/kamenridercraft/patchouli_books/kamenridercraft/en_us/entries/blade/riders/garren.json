@@ -2,7 +2,7 @@
     "name": "Kamen Rider Garren",
     "icon": "kamenridercraft:change_stag",
     "category": "kamenridercraft:blade/riders",
-    "sortnum": 1,
+    "sortnum": 2,
     "pages": [
         {
             "type": "patchouli:entity",
