@@ -1,0 +1,19 @@
+{
+    "name": "Lady Zecter",
+    "icon": "kamenridercraft:lady_zecter",
+    "category": "kamenridercraft:kabuto/items",
+    "sortnum": 17,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Kabuto: Special Show (2006, Stage Show)$(br2)Used to craft Lady's $(l:kabuto/devices/lady_rider_belt)ZECT Buckle$(/l)"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:lady_zecter",
+            "title": " ",
+            "text": "Drops from:$(li)$(l:kabuto/mobs/shadow_trooper)Shadow Troopers$(/l)"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Neotrooper",
+    "icon": "kamenridercraft:kabuto_logo",
+    "category": "kamenridercraft:kabuto/mobs",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "entity": "kamenridercraft:neotrooper",
+            "text": "Spawns throughout the Nether"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Kabuto: God Speed Love (2006, Movie)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:kabuto/items/unfinished_kabutick_zecter)Unfinished Kabutick Zecters$(/l)$(li)1 $(l:kabuto/items/dark_kabuto_zecter)Dark Kabuto Zecter$(/l) (25%)$(li)0-1 $(l:kabuto/items/perfectthebee_zecter)Perfect TheBee Zecter$(/l) (10%)$(li)0-1 $(l:kabuto/items/perfectdrake_zecter)Perfect Drake Zecter$(/l) (10%)$(li)0-1 $(l:kabuto/items/perfectsasword_zecter)Perfect Sasword Zecter$(/l) (10%)"
+        }
+    ]
+}

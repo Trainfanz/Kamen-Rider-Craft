@@ -1,0 +1,19 @@
+{
+    "name": "Hopper Zecter (PunchHopper)",
+    "icon": "kamenridercraft:punchhopper_zecter",
+    "category": "kamenridercraft:kabuto/items",
+    "sortnum": 12,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used to craft PunchHopper's $(l:kabuto/devices/punchhopper_rider_belt)ZECT Buckle$(/l)"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:punchhopper_zecter",
+            "title": " ",
+            "text": "Drops from:$(li)$(l:kabuto/mobs/shadow_trooper)Shadow Troopers$(/l)"
+        }
+    ]
+}

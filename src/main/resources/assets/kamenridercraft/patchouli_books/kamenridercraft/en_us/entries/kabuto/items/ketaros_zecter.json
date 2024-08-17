@@ -1,0 +1,19 @@
+{
+    "name": "Ketaros Zecter",
+    "icon": "kamenridercraft:ketaros_zecter",
+    "category": "kamenridercraft:kabuto/items",
+    "sortnum": 16,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Kabuto: God Speed Love (2006, Movie)$(br2)Used to craft Ketaros's $(l:kabuto/devices/ketaros_rider_belt)ZECT Buckle$(/l)"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:ketaros_zecter",
+            "title": " ",
+            "text": "Drops from:$(li)$(l:kabuto/mobs/caucasus)Kamen Rider Caucasus$(/l)"
+        }
+    ]
+}

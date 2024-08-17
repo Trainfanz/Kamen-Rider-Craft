@@ -1,0 +1,17 @@
+{
+    "name": "Shadow Trooper",
+    "icon": "kamenridercraft:kabuto_logo",
+    "category": "kamenridercraft:kabuto/mobs",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "entity": "kamenridercraft:shadow_trooper",
+            "text": "Spawns throughout the Nether"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:kabuto/items/mini_zecter)Mizerbombers$(/l)$(li)1 $(l:kabuto/items/gatack_zecter)Gatack Zecter$(/l) (25%)$(li)0-1 $(l:kabuto/items/kickhopper_zecter)KickHopper Zecter$(/l) (10%)$(li)0-1 $(l:kabuto/items/punchhopper_zecter)PunchHopper Zecter$(/l) (10%)$(li)0-1 $(l:kabuto/items/lady_zecter)Lady Zecter$(/l) (10%)"
+        }
+    ]
+}

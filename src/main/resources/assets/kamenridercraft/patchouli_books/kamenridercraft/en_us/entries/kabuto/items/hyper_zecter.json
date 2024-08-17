@@ -1,0 +1,19 @@
+{
+    "name": "Hyper Zecter",
+    "icon": "kamenridercraft:hyper_zecter",
+    "category": "kamenridercraft:kabuto/items",
+    "sortnum": 18,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used to access Kabuto's $(l:kabuto/riders/kabuto#hyper)Hyper$(/l) and Gatack's $(l:kabuto/riders/gatack#hyper)Hyper$(/l) forms"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "link_recipe": true,
+            "item": "kamenridercraft:hyper_zecter",
+            "title": " ",
+            "text": "Drops from:$(li)$(l:kabuto/mobs/caucasus)Kamen Rider Caucasus$(/l)"
+        }
+    ]
+}
