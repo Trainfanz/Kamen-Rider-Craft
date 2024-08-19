@@ -573,43 +573,58 @@ public class Zero_One_Rider_Items {
 
 
 	public static final RegistryObject<Item> BEROTHA_ZETSUMERISEKEY = ITEMS.register("berotha_zetsumerisekey",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"","berotha_magia","zetsume_riser_belt_berotha")
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"","berotha_magia","zetsume_riser_belt_berotha",
+            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false))
 			.AddToTabList(RiderTabs.ZERO_ONE_TAB_ITEM));
 	
 	public static final RegistryObject<Item> KUEHNE_ZETSUMERISEKEY = ITEMS.register("kuehne_zetsumerisekey",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"","kuehne_magia","zetsume_riser_belt_kuehne")
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"","kuehne_magia","zetsume_riser_belt_kuehne",
+            		new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false))
 			.AddToTabList(RiderTabs.ZERO_ONE_TAB_ITEM));
 	
 	public static final RegistryObject<Item> EKAL_ZETSUMERISEKEY = ITEMS.register("ekal_zetsumerisekey",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"","ekal_magia","zetsume_riser_belt_ekal")
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"","ekal_magia","zetsume_riser_belt_ekal",
+            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false))
 			.AddToTabList(RiderTabs.ZERO_ONE_TAB_ITEM));
 	
 	public static final RegistryObject<Item> NEOHI_ZETSUMERISEKEY = ITEMS.register("neohi_zetsumerisekey",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"","neohi_magia","zetsume_riser_belt_neohi")
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"","neohi_magia","zetsume_riser_belt_neohi",
+            		new MobEffectInstance(MobEffects.WATER_BREATHING, 40, 2,true,false))
 			.AddToTabList(RiderTabs.ZERO_ONE_TAB_ITEM));
 	
 	public static final RegistryObject<Item> ONYCHO_ZETSUMERISEKEY = ITEMS.register("onycho_zetsumerisekey",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"","onycho_magia","zetsume_riser_belt_onycho")
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"","onycho_magia","zetsume_riser_belt_onycho",
+            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false))
 			.AddToTabList(RiderTabs.ZERO_ONE_TAB_ITEM));
 	
 	public static final RegistryObject<Item> VICARYA_ZETSUMERISEKEY = ITEMS.register("vicarya_zetsumerisekey",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"","vicarya_magia","zetsume_riser_belt_vicarya")
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"","vicarya_magia","zetsume_riser_belt_vicarya",
+            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false),
+            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false))
 			.AddToTabList(RiderTabs.ZERO_ONE_TAB_ITEM));
 	
 	public static final RegistryObject<Item> GAERU_ZETSUMERISEKEY = ITEMS.register("gaeru_zetsumerisekey",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"","gaeru_magia","zetsume_riser_belt_gaeru")
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"","gaeru_magia","zetsume_riser_belt_gaeru",
+            		new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false),
+            		new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 40, 1,true,false))
 			.AddToTabList(RiderTabs.ZERO_ONE_TAB_ITEM));
 	
 	public static final RegistryObject<Item> MAMMOTH_ZETSUMERISEKEY = ITEMS.register("mammoth_zetsumerisekey",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"","mammoth_magia","zetsume_riser_belt_mammoth")
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"","mammoth_magia","zetsume_riser_belt_mammoth",
+            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
+            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false))
 			.AddToTabList(RiderTabs.ZERO_ONE_TAB_ITEM));
 	
 	public static final RegistryObject<Item> DODO_ZETSUMERISEKEY_MAGIA = ITEMS.register("dodo_zetsumerisekey_magia",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"","dodo_magia","zetsume_riser_belt_dodo"));
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"","dodo_magia","zetsume_riser_belt_dodo",
+            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false)	));
 	public static final RegistryObject<Item> DODO_CUSTOM_ZETSUMERISEKEY = ITEMS.register("dodo_custom_zetsumerisekey",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"","dodo_magia_custom","zetsume_riser_belt_dodo"));
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"","dodo_magia_custom","zetsume_riser_belt_dodo",
+            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false)	));
 	public static final RegistryObject<Item> DODO_CUSTOM_TWO_ZETSUMERISEKEY = ITEMS.register("dodo_custom_two_zetsumerisekey",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"","dodo_magia_custom_two","zetsume_riser_belt_dodo"));
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"","dodo_magia_custom_two","zetsume_riser_belt_dodo",
+            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
+            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false)	));
 	public static final RegistryObject<Item> DODO_ZETSUMERISEKEY = ITEMS.register("dodo_zetsumerisekey",
             () -> new RiderFormChangeItem(new Item.Properties(),0,"","ikazuchi","metsuboujinrai_force_riser_belt_ikazuchi",
 					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false),
@@ -619,7 +634,9 @@ public class Zero_One_Rider_Items {
 			.AddToTabList(RiderTabs.ZERO_ONE_TAB_ITEM));
 	
 	public static final RegistryObject<Item> ARSINO_ZETSUMERISEKEY = ITEMS.register("arsino_zetsumerisekey",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"","arsino_magia","zetsume_riser_belt_arsino")
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"","arsino_magia","zetsume_riser_belt_arsino",
+            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
+            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false))
 			.AddToTabList(RiderTabs.ZERO_ONE_TAB_ITEM));
 	
 	public static final RegistryObject<Item> UNKNOWN_ZETSUMERISEKEY = ITEMS.register("unknown_zetsumerisekey",
