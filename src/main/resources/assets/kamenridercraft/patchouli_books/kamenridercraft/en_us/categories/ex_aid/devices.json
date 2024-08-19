@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:ex_aid/main",
+    "name": "Ex-Aid Transformation Devices",
+    "description": "The transformation devices used by the Ex-Aid Riders.",
+    "icon": "kamenridercraft:gamer_driver_ex_aid",
+    "sortnum": 1
+}

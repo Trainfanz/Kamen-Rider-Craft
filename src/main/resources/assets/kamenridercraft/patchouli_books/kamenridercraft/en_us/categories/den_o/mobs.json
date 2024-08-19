@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:den_o/main",
+    "name": "Den-O Mobs",
+    "description": "Every mob from or relating to the show, Kamen Rider Den-O.",
+    "icon": "kamenridercraft:den_o_logo",
+    "sortnum": 4
+}

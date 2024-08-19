@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:zero_one/main",
+    "name": "Zero-One Riders",
+    "description": "Every Rider and pseudo-Rider from or relating to the show, Kamen Rider Zero-One.",
+    "icon": "kamenridercraft:zero_onehead",
+    "sortnum": 0
+}

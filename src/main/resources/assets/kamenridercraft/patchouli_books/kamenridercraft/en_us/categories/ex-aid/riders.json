@@ -1,7 +1,0 @@
-{
-	"parent": "kamenridercraft:ex-aid/main",
-    "name": "Ex-Aid Riders",
-    "description": "Every Rider and pseudo-Rider from or relating to the show, Kamen Rider Ex-Aid.",
-    "icon": "kamenridercraft:ex_aidhead",
-    "sortnum": 0
-}

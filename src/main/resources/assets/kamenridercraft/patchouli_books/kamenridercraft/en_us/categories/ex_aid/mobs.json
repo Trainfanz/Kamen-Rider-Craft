@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:ex_aid/main",
+    "name": "Ex-Aid Mobs",
+    "description": "Every mob from or relating to the show, Kamen Rider Ex-Aid.",
+    "icon": "kamenridercraft:ex_aid_logo",
+    "sortnum": 4
+}

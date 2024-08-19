@@ -1,0 +1,19 @@
+{
+	"name": "Imagin Sand",
+	"icon": "kamenridercraft:imagin_sand",
+	"category": "kamenridercraft:den_o/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Used as the base item for most Den-O items"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:imagin_sand",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:den_o/mobs/new_mole_imagin)New Mole Imagin$(/l)$(li)$(l:den_o/mobs/new_mole_imagin_sand)New Mole Imagin (Sand)$(/l)$(li)$(l:den_o/mobs/momotaros)Momotaros$(/l)$(li)$(l:den_o/mobs/urataros)Urataros$(/l)$(li)$(l:den_o/mobs/kintaros)Kintaros$(/l)$(li)$(l:den_o/mobs/ryutaros)Ryutaros$(/l)$(li)$(l:misc/blocks/imagin_sand_block)Imagin Sand Blocks$(/l)"
+		}
+	]
+}

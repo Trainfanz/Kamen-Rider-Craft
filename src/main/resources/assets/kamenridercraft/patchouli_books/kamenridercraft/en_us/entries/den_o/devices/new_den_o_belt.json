@@ -1,0 +1,16 @@
+{
+	"name": "New Den-O Belt",
+	"icon": "kamenridercraft:new_den_o_belt",
+	"category": "kamenridercraft:den_o/devices",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Farewell Kamen Rider Den-O: The Final Countdown (2008, Movie)$(br2)Used alongside the $(l:den_o/devices/armor)Den-O armor$(/l) to transform into $(l:den_o/riders/new_den_o)Kamen Rider New Den-O"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den_o/new_den_o_belt"
+		}
+	]
+}

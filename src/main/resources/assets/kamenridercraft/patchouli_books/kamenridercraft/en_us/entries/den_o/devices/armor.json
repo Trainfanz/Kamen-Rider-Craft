@@ -1,0 +1,24 @@
+{
+	"name": "Den-O Armor",
+	"icon": "kamenridercraft:den_ohead",
+	"category": "kamenridercraft:den_o/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Used alongside a Den-O Rider's transformation device to transform into that Rider"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den_o/den_ohead"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den_o/den_otroso"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den_o/den_olegs"
+		}
+	]
+}

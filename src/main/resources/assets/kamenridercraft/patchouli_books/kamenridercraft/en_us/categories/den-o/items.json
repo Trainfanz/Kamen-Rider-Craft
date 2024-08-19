@@ -1,7 +1,0 @@
-{
-	"parent": "kamenridercraft:den-o/main",
-    "name": "Den-O Rider Items",
-    "description": "All Den-O-related items that are neither an armor piece nor part of an arsenal.",
-    "icon": "kamenridercraft:rider_ticket_sword",
-    "sortnum": 2
-}

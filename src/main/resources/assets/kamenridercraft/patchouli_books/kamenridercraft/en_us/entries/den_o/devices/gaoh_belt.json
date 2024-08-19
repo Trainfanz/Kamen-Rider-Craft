@@ -1,0 +1,16 @@
+{
+	"name": "Gaoh Belt",
+	"icon": "kamenridercraft:gaoh_belt",
+	"category": "kamenridercraft:den_o/devices",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Den-O: I'm Born (2007, Movie)$(br2)Used alongside the $(l:den_o/devices/armor)Den-O armor$(/l) to transform into $(l:den_o/riders/gaoh)Kamen Rider Gaoh"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den_o/gaoh_belt"
+		}
+	]
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:den_o/main",
+    "name": "Den-O Riders",
+    "description": "Every Rider and pseudo-Rider from or relating to the show, Kamen Rider Den-O.",
+    "icon": "kamenridercraft:den_ohead",
+    "sortnum": 0
+}

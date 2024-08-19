@@ -1,0 +1,16 @@
+{
+	"name": "Den-O Belt",
+	"icon": "kamenridercraft:den_o_belt",
+	"category": "kamenridercraft:den_o/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Used alongside the $(l:den_o/devices/armor)Den-O armor$(/l) to transform into $(l:den_o/riders/den_o)Kamen Rider Den-O"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den_o/den_o_belt"
+		}
+	]
+}

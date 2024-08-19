@@ -1,0 +1,16 @@
+{
+	"name": "Yuuki Belt",
+	"icon": "kamenridercraft:yuuki_belt",
+	"category": "kamenridercraft:den_o/devices",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Farewell Kamen Rider Den-O: The Final Countdown (2008, Movie)$(br2)Used alongside the $(l:den_o/devices/armor)Den-O armor$(/l) to transform into $(l:den_o/riders/yuuki)Kamen Rider Yuuki"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den_o/yuuki_belt"
+		}
+	]
+}

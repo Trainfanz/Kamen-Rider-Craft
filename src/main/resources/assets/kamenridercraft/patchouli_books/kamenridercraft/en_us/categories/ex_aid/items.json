@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:ex_aid/main",
+    "name": "Ex-Aid Rider Items",
+    "description": "All Ex-Aid-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "kamenridercraft:mighty_action_x_gashat",
+    "sortnum": 2
+}

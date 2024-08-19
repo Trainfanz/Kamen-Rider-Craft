@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:zero_one/main",
+    "name": "Zero-One Arsenal",
+    "description": "Every weapon used by the Zero-One Riders.",
+    "icon": "kamenridercraft:attache_calibur",
+    "sortnum": 3
+}

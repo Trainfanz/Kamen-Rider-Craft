@@ -1,7 +1,0 @@
-{
-	"parent": "kamenridercraft:zero-one/main",
-    "name": "Zero-One Transformation Devices",
-    "description": "The transformation devices used by the Zero-One Riders.",
-    "icon": "kamenridercraft:hiden_zero_one_driver",
-    "sortnum": 1
-}

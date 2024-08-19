@@ -1,7 +1,0 @@
-{
-	"parent": "kamenridercraft:den-o/main",
-    "name": "Den-O Arsenal",
-    "description": "Every weapon used by the Den-O Riders.",
-    "icon": "kamenridercraft:den_gasher_sword",
-    "sortnum": 3
-}

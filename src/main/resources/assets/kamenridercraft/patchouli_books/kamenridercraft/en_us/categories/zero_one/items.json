@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:zero_one/main",
+    "name": "Zero-One Rider Items",
+    "description": "All Zero-One-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "kamenridercraft:rising_hopper_progrisekey",
+    "sortnum": 2
+}

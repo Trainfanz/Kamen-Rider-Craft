@@ -1,7 +1,0 @@
-{
-	"parent": "kamenridercraft:zero-one/main",
-    "name": "Zero-One Mobs",
-    "description": "Every mob from or relating to the show, Kamen Rider Zero-One.",
-    "icon": "kamenridercraft:zero_one_logo",
-    "sortnum": 4
-}
