@@ -1,0 +1,16 @@
+{
+	"name": "Negataros Ax",
+	"icon": "kamenridercraft:nega_kintaros_ax",
+	"category": "kamenridercraft:den_o/arsenal",
+	"sortnum": 27,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Battle: Ganbaride (2008, Arcade game)$(br2)Used by Negataros"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den_o/nega_kintaros_ax"
+		}
+	]
+}

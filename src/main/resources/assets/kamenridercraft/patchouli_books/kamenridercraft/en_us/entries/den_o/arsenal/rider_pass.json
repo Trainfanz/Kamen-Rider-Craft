@@ -1,0 +1,16 @@
+{
+	"name": "Rider Pass",
+	"icon": "kamenridercraft:rider_pass",
+	"category": "kamenridercraft:den_o/arsenal",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Used by most $(l:den_o/riders)Den-O Riders$(/l)$(br2)Used to access the Sands of Time"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den_o/rider_pass"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"name": "G DenGasher Jitte Mode",
+	"icon": "kamenridercraft:g_den_gasher_jitte",
+	"category": "kamenridercraft:den_o/arsenal",
+	"sortnum": 14,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Cho Den-O Trilogy: EPISODE YELLOW: Treasure DE-End Pirates (2010, Movie)$(br2)Used by $(l:den_o/riders/g_den_o)Kamen Rider G Den-O$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den_o/g_den_gasher_jitte"
+		}
+	]
+}

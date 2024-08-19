@@ -1,0 +1,19 @@
+{
+	"name": "DenKamen Sword",
+	"icon": "kamenridercraft:denkamen_sword",
+	"category": "kamenridercraft:den_o/arsenal",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Used to access Den-O's $(l:den_o/riders/den_o#liner)Liner$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:denkamen_sword",
+			"title": " ",
+			"text": "Found on $(l:den_o/structures/kingliner)KingLiners$(/l)"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"name": "Nega DenGasher",
+	"icon": "kamenridercraft:nega_den_gasher",
+	"category": "kamenridercraft:den_o/arsenal",
+	"sortnum": 17,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Den-O & Kiva: Climax Cop (2008, Movie)$(br2)Used by $(l:den_o/riders/nega_den_o)Kamen Rider Nega Den-O$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den_o/nega_den_gasher"
+		}
+	]
+}

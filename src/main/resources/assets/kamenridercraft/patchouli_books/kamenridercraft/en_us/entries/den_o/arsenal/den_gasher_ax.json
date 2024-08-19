@@ -1,0 +1,16 @@
+{
+	"name": "DenGasher Ax Mode",
+	"icon": "kamenridercraft:den_gasher_ax",
+	"category": "kamenridercraft:den_o/arsenal",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Used by Den-O's $(l:den_o/riders/den_o#ax)Ax$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den_o/den_gasher_ax"
+		}
+	]
+}

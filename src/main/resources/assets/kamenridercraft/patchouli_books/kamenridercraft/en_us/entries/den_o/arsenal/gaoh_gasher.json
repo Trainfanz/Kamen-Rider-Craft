@@ -1,0 +1,19 @@
+{
+	"name": "Gaoh Gasher",
+	"icon": "kamenridercraft:gaoh_gasher",
+	"category": "kamenridercraft:den_o/arsenal",
+	"sortnum": 18,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Farewell Kamen Rider Den-O: Final Countdown (2008, Movie)$(br2)Used by $(l:den_o/riders/gaoh)Kamen Rider Gaoh$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:gaoh_gasher",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:den_o/mobs/gaoh)Kamen Rider Gaoh$(/l)"
+		}
+	]
+}

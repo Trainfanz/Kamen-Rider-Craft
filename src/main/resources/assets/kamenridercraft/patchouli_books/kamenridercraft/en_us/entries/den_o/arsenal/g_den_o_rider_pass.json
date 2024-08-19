@@ -1,0 +1,19 @@
+{
+	"name": "G Den-O Rider Pass",
+	"icon": "kamenridercraft:g_den_o_rider_pass",
+	"category": "kamenridercraft:den_o/arsenal",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Cho Den-O Trilogy: EPISODE YELLOW: Treasure DE-End Pirates (2010, Movie)$(br2)Used by $(l:den_o/riders/g_den_o)Kamen Rider G Den-O$(/l)$(br2)Used to access the Sands of Time"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:g_den_o_rider_pass",
+			"title": " ",
+			"text": "Item is currently unobtainable"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"name": "Negavolver",
+	"icon": "kamenridercraft:nega_ryuvolver",
+	"category": "kamenridercraft:den_o/arsenal",
+	"sortnum": 28,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Battle: Ganbaride (2008, Arcade game)$(br2)Used by Negataros"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den_o/nega_ryuvolver"
+		}
+	]
+}

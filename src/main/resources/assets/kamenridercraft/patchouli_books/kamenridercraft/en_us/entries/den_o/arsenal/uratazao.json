@@ -1,0 +1,16 @@
+{
+	"name": "Uratazao",
+	"icon": "kamenridercraft:uratazao",
+	"category": "kamenridercraft:den_o/arsenal",
+	"sortnum": 12,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Cho Den-O Trilogy: EPISODE BLUE: The Dispatched Imagin is NEW-Tral (2010, Movie)$(br2)Used by $(l:den_o/riders/new_den_o)Kamen Rider New Den-O$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den_o/uratazao"
+		}
+	]
+}

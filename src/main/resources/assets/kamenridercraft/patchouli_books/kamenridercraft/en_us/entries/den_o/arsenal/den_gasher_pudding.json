@@ -1,0 +1,16 @@
+{
+	"name": "DenGasher Pudding Mode",
+	"icon": "kamenridercraft:den_gasher_pudding",
+	"category": "kamenridercraft:den_o/arsenal",
+	"sortnum": 20,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Imagin Anime 3 (2010, OVA series)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den_o/den_gasher_pudding"
+		}
+	]
+}
