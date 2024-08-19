@@ -1,0 +1,12 @@
+{
+	"type": "patchouli:shapeless_book_recipe",
+	"ingredients": [
+	  {
+		"item": "minecraft:writable_book"
+	  },
+	  {
+		"item": "kamenridercraft:rider_circuit"
+	  }
+	],
+	"book": "kamenridercraft:kamenridercraft"
+}

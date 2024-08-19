@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used to craft PunchHopper's $(l:kabuto/devices/punchhopper_rider_belt)ZECT Buckle$(/l)"
+            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used to craft PunchHopper's $(l:kabuto/devices/puchhopper_rider_belt)ZECT Buckle$(/l)"
         },
         {
             "type": "patchouli:spotlight",

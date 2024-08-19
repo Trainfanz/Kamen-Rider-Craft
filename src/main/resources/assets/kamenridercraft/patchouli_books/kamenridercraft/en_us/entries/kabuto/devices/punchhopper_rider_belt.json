@@ -1,6 +1,6 @@
 {
     "name": "ZECT Buckle (PunchHopper)",
-    "icon": "kamenridercraft:punchhopper_rider_belt",
+    "icon": "kamenridercraft:puchhopper_rider_belt",
     "category": "kamenridercraft:kabuto/devices",
     "sortnum": 7,
     "pages": [
@@ -10,7 +10,7 @@
         },
         {
             "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:kabuto/punchhopper_rider_belt"
+            "recipe": "kamenridercraft:kabuto/puchhopper_rider_belt"
         }
     ]
 }

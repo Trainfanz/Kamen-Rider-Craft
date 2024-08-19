@@ -72,6 +72,11 @@
             "text": "Accessed with the $(l:kuuga/items/kuuga_rising_mighty)Kuuga Rising Mighty Amadam$(/l)"
         },
         {
+            "type": "patchouli:text",
+			"title": "Kamen Rider Kuuga",
+            "text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Flying$(li)Punch IV$(li)Speed IV$(li)Resistance$(li)Haste IV$(li)Strength VII (with empty hand)$(li)Strength III (with weapon)"
+        },
+        {
             "type": "patchouli:entity",
             "anchor": "jinrai_no_senshi",
             "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"jinrai_no_senshi\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
