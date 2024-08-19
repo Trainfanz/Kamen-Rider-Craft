@@ -1,0 +1,16 @@
+{
+	"name": "Ongekiko (Touki)",
+	"icon": "kamenridercraft:toukidriver",
+	"category": "kamenridercraft:hibiki/devices",
+	"sortnum": 16,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki And The 7 Senki (2005, movie)$(br2)Used alongside the $(l:hibiki/devices/armor)Hibiki armor$(/l) to transform into $(l:hibiki/riders/touki)Kamen Rider Touki"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:hibiki/toukidriver"
+		}
+	]
+}

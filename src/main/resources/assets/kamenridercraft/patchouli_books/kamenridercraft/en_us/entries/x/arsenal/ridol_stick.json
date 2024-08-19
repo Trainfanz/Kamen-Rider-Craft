@@ -1,16 +1,16 @@
 {
-    "name": "Ridol Stick",
-    "icon": "kamenridercraft:ridol_stick",
-    "category": "kamenridercraft:x/arsenal",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider X (1974, TV show)$(br2)Used by $(l:x/riders/x)Kamen Rider X$(/l)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:x/ridol_stick"
-        }
-    ]
+	"name": "Ridol Stick",
+	"icon": "kamenridercraft:ridol_stick",
+	"category": "kamenridercraft:x/arsenal",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider X (1974, TV show)$(br2)Used by $(l:x/riders/x)Kamen Rider X$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:x/ridol_stick"
+		}
+	]
 }

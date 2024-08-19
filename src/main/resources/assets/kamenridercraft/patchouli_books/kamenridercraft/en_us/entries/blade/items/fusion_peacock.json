@@ -1,19 +1,19 @@
 {
-    "name": "Fusion Peacock Rouze Card",
-    "icon": "kamenridercraft:fusion_peacock",
-    "category": "kamenridercraft:blade/items",
-    "sortnum": 9,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used to craft the $(l:blade/items/rouze_absorber)Rouze Absorber$(/l)$(br2)Used to access Garren's $(l:blade/riders/garren#jack)Jack$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:fusion_eagle",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
-        }
-    ]
+	"name": "Fusion Peacock Rouze Card",
+	"icon": "kamenridercraft:fusion_peacock",
+	"category": "kamenridercraft:blade/items",
+	"sortnum": 9,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used to craft the $(l:blade/items/rouze_absorber)Rouze Absorber$(/l)$(br2)Used to access Garren's $(l:blade/riders/garren#jack)Jack$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:fusion_eagle",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
+		}
+	]
 }

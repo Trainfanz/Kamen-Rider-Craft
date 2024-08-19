@@ -1,32 +1,32 @@
 {
-    "name": "Kamen Rider Black Sun",
-    "icon": "kamenridercraft:king_stone_sun",
-    "category": "kamenridercraft:black_sun/riders",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "anchor": "black_sun",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:century_king_sun_driver\",tag:{slot_tex1:\"king_stone_sun\"},Count:1b},{id:\"kamenridercraft:blacksunlegs\",Count:1b},{id:\"kamenridercraft:blacksuntroso\",Count:1b},{id:\"kamenridercraft:blacksunhead\",Count:1b}]}",
-            "name": " ",
-            "text": "Accessed with the $(l:black_sun/items/king_stone_sun)Sun Kingstone$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Black Sun",
+	"icon": "kamenridercraft:king_stone_sun",
+	"category": "kamenridercraft:black_sun/riders",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "black_sun",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:century_king_sun_driver\",tag:{slot_tex1:\"king_stone_sun\"},Count:1b},{id:\"kamenridercraft:blacksunlegs\",Count:1b},{id:\"kamenridercraft:blacksuntroso\",Count:1b},{id:\"kamenridercraft:blacksunhead\",Count:1b}]}",
+			"name": " ",
+			"text": "Accessed with the $(l:black_sun/items/king_stone_sun)Sun Kingstone$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Black Sun",
-            "text": "Appears in:$(li)Kamen Rider Black Sun (2022, web series)$(br2)Transforms with the $(l:black_sun/devices/century_king_sun_driver)Century King Sun Driver$(/l)$(br2)Status Effects:$(li)Punch II$(li)Haste$(li)Jump Boost II$(li)Strength V (with empty hand)$(li)Strength II (with weapon)"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "glowing_eyes",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:century_king_sun_driver\",tag:{slot_tex1:\"glowing_king_stone_sun\"},Count:1b},{id:\"kamenridercraft:blacksunlegs\",Count:1b},{id:\"kamenridercraft:blacksuntroso\",Count:1b},{id:\"kamenridercraft:blacksunhead\",Count:1b}]}",
-            "name": "Glowing Eyes",
-            "text": "Accessed with the $(l:black_sun/items/glowing_king_stone_sun)Glowing Sun Kingstone$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Black Sun (2022, web series)$(br2)Transforms with the $(l:black_sun/devices/century_king_sun_driver)Century King Sun Driver$(/l)$(br2)Status Effects:$(li)Punch II$(li)Haste$(li)Jump Boost II$(li)Strength V (with empty hand)$(li)Strength II (with weapon)"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "glowing_eyes",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:century_king_sun_driver\",tag:{slot_tex1:\"glowing_king_stone_sun\"},Count:1b},{id:\"kamenridercraft:blacksunlegs\",Count:1b},{id:\"kamenridercraft:blacksuntroso\",Count:1b},{id:\"kamenridercraft:blacksunhead\",Count:1b}]}",
+			"name": "Glowing Eyes",
+			"text": "Accessed with the $(l:black_sun/items/glowing_king_stone_sun)Glowing Sun Kingstone$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Black Sun",
-            "text": "Appears in:$(li)Kamen Rider Black Sun (2022, web series)$(br2)Transforms with the $(l:black_sun/devices/century_king_sun_driver)Century King Sun Driver$(/l)$(br2)Status Effects:$(li)Punch II$(li)Haste$(li)Jump Boost II$(li)Strength V (with empty hand)$(li)Strength II (with weapon)"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider Black Sun (2022, web series)$(br2)Transforms with the $(l:black_sun/devices/century_king_sun_driver)Century King Sun Driver$(/l)$(br2)Status Effects:$(li)Punch II$(li)Haste$(li)Jump Boost II$(li)Strength V (with empty hand)$(li)Strength II (with weapon)"
+		}
+	]
 }

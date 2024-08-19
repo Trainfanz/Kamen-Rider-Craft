@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "riotrooper",
+  "pattern": [
+	"XXX",
+	"XMX",
+	"XXX"
+  ],
+  "key": {
+	"X": {
+	  "item": "kamenridercraft:blank_mission_memory"
+	},
+	"M": {
+	  "item": "kamenridercraft:base_sword"
+	}
+  },
+  "result": {
+	"item": "kamenridercraft:axel_ray_gun"
+  }	
+}

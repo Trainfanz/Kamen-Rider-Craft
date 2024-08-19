@@ -1,16 +1,16 @@
 {
-    "name": "Glaive Buckle",
-    "icon": "kamenridercraft:glaive_buckle",
-    "category": "kamenridercraft:blade/devices",
-    "sortnum": 5,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Blade: Missing Ace (2004, Movie)$(br2)Used alongside the $(l:blade/devices/armor)Blade armor$(/l) to transform into $(l:blade/riders/glaive)Kamen Rider Glaive"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:blade/glaive_buckle"
-        }
-    ]
+	"name": "Glaive Buckle",
+	"icon": "kamenridercraft:glaive_buckle",
+	"category": "kamenridercraft:blade/devices",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Blade: Missing Ace (2004, movie)$(br2)Used alongside the $(l:blade/devices/armor)Blade armor$(/l) to transform into $(l:blade/riders/glaive)Kamen Rider Glaive"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:blade/glaive_buckle"
+		}
+	]
 }

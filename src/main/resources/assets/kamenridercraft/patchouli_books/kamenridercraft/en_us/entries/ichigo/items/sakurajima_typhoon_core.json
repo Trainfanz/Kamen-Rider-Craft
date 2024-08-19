@@ -1,19 +1,19 @@
 {
-    "name": "Typhoon Core (Sakurajima)",
-    "icon": "kamenridercraft:sakurajima_typhoon_core",
-    "category": "kamenridercraft:ichigo/items",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Used to access Ichigo's $(l:ichigo/riders/ichigo#sakurajima_ichigo)Sakurajima Ichigo$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:sakurajima_typhoon_core",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:ichigo/mobs/shocker_combatman)Shocker Combatman$(/l)"
-        }
-    ]
+	"name": "Typhoon Core (Sakurajima)",
+	"icon": "kamenridercraft:sakurajima_typhoon_core",
+	"category": "kamenridercraft:ichigo/items",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Used to access Ichigo's $(l:ichigo/riders/ichigo#sakurajima_ichigo)Sakurajima Ichigo$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:sakurajima_typhoon_core",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:ichigo/mobs/shocker_combatman)Shocker Combatman$(/l)"
+		}
+	]
 }

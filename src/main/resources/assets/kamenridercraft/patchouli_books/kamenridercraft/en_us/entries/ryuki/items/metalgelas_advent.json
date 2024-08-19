@@ -1,19 +1,19 @@
 {
-    "name": "Metalgelas Advent Card",
-    "icon": "kamenridercraft:metalgelas_advent",
-    "category": "kamenridercraft:ryuki/items",
-    "sortnum": 7,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Ryuki (2000, TV show)$(br2)Used to craft Gai's $(l:ryuki/devices/v_buckle_gai)V Buckle (Gai)$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:metalgelas_advent",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
-        }
-    ]
+	"name": "Metalgelas Advent Card",
+	"icon": "kamenridercraft:metalgelas_advent",
+	"category": "kamenridercraft:ryuki/items",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2000, TV show)$(br2)Used to craft Gai's $(l:ryuki/devices/v_buckle_gai)V Buckle (Gai)$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:metalgelas_advent",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
+		}
+	]
 }

@@ -1,16 +1,16 @@
 {
-    "name": "Zectmizer",
-    "icon": "kamenridercraft:zect_mizer",
-    "category": "kamenridercraft:kabuto/arsenal",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used by Kamen Riders $(l:kabuto/riders/kabuto)Kabuto$(/l) and $(l:kabuto/riders/drake)Drake$(/l)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:kabuto/zect_mizer"
-        }
-    ]
+	"name": "Zectmizer",
+	"icon": "kamenridercraft:zect_mizer",
+	"category": "kamenridercraft:kabuto/arsenal",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used by Kamen Riders $(l:kabuto/riders/kabuto)Kabuto$(/l) and $(l:kabuto/riders/drake)Drake$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kabuto/zect_mizer"
+		}
+	]
 }

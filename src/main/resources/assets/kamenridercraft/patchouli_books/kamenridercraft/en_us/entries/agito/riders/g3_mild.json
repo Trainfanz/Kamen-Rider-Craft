@@ -1,19 +1,19 @@
 {
-    "name": "Kamen Rider G3 Mild",
-    "icon": "kamenridercraft:g3mild",
-    "category": "kamenridercraft:agito/riders",
-    "sortnum": 5,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:g3_mild_belt\",Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
-            "name": " ",
-            "text": ""
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider G3 Mild",
+	"icon": "kamenridercraft:g3mild",
+	"category": "kamenridercraft:agito/riders",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:g3_mild_belt\",Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider G3 Mild",
-            "text": "Appears in:$(li)Kamen Rider Agito Special: A New Transformation (2001, TV special)$(br2)Transforms with the $(l:agito/devices/g3_mild_belt)G-Buckle (G3 Mild)$(/l)$(br2)Status Effects:$(li)Strength"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider Agito Special: A New Transformation (2001, TV special)$(br2)Transforms with the $(l:agito/devices/g3_mild_belt)G-Buckle (G3 Mild)$(/l)$(br2)Status Effects:$(li)Strength"
+		}
+	]
 }

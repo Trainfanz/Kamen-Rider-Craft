@@ -1,19 +1,19 @@
 {
-    "name": "Deepslate Kuuga Ore",
-    "icon": "kamenridercraft:deepslate_stone_kuuga",
-    "category": "kamenridercraft:misc/blocks",
-    "sortnum": 6,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Mine this block to get Kuuga's $(l:kuuga/items/kuuga_mighty)Amadam$(/l) stones$(br2)Requires an iron pickaxe or better"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:deepslate_stone_kuuga",
-            "title": " ",
-            "text": "Drops:$(li)$(l:kuuga/items/kuuga_growing)Kuuga Growing Amadam$(/l) (40%)$(li)$(l:kuuga/items/kuuga_mighty)Kuuga Mighty Amadam$(/l) (30%)$(li)$(l:kuuga/items/kuuga_dragon)Kuuga Dragon Amadam$(/l) (10%)$(li)$(l:kuuga/items/kuuga_pegasus)Kuuga Pegasus Amadam$(/l) (10%)$(li)$(l:kuuga/items/kuuga_titan)Kuuga Titan Amadam$(/l) (10%)"
-        }
-    ]
+	"name": "Deepslate Kuuga Ore",
+	"icon": "kamenridercraft:deepslate_stone_kuuga",
+	"category": "kamenridercraft:misc/blocks",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Mine this block to get Kuuga's $(l:kuuga/items/kuuga_mighty)Amadam$(/l) stones$(br2)Requires an iron pickaxe or better"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:deepslate_stone_kuuga",
+			"title": " ",
+			"text": "Drops:$(li)$(l:kuuga/items/kuuga_growing)Kuuga Growing Amadam$(/l) (40%)$(li)$(l:kuuga/items/kuuga_mighty)Kuuga Mighty Amadam$(/l) (30%)$(li)$(l:kuuga/items/kuuga_dragon)Kuuga Dragon Amadam$(/l) (10%)$(li)$(l:kuuga/items/kuuga_pegasus)Kuuga Pegasus Amadam$(/l) (10%)$(li)$(l:kuuga/items/kuuga_titan)Kuuga Titan Amadam$(/l) (10%)"
+		}
+	]
 }

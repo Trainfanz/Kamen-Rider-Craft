@@ -1,16 +1,16 @@
 {
-    "name": "Condorer Core (Alpha)",
-    "icon": "kamenridercraft:condorer_core_alpha",
-    "category": "kamenridercraft:amazons/items",
-    "sortnum": 6,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Amazons Season 1 (2016, web series)$(br2)Used to craft Amazon Alpha's $(l:amazons/devices/amazons_driver_alpha)Amazons Driver$(/l)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:amazons/condorer_core_alpha"
-        }
-    ]
+	"name": "Condorer Core (Alpha)",
+	"icon": "kamenridercraft:condorer_core_alpha",
+	"category": "kamenridercraft:amazons/items",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Amazons Season 1 (2016, web series)$(br2)Used to craft Amazon Alpha's $(l:amazons/devices/amazons_driver_alpha)Amazons Driver$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:amazons/condorer_core_alpha"
+		}
+	]
 }

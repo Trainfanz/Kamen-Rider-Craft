@@ -1,19 +1,19 @@
 {
-    "name": "Power Up Typhoon Core",
-    "icon": "kamenridercraft:new_typhoon_core",
-    "category": "kamenridercraft:ichigo/items",
-    "sortnum": 4,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider 1 (2016, movie)$(br2)Used to access Ichigo's $(l:ichigo/riders/ichigo#power_up_ichigo)Power Up$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:new_typhoon_core",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:ichigo/mobs/shocker_rider)Shocker Rider$(/l)"
-        }
-    ]
+	"name": "Power Up Typhoon Core",
+	"icon": "kamenridercraft:new_typhoon_core",
+	"category": "kamenridercraft:ichigo/items",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider 1 (2016, movie)$(br2)Used to access Ichigo's $(l:ichigo/riders/ichigo#power_up_ichigo)Power Up$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:new_typhoon_core",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:ichigo/mobs/shocker_rider)Shocker Rider$(/l)"
+		}
+	]
 }

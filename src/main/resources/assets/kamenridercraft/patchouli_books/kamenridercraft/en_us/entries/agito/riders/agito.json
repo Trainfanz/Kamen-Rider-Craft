@@ -1,92 +1,92 @@
 {
-    "name": "Kamen Rider Agito",
-    "icon": "kamenridercraft:agito_ground",
-    "category": "kamenridercraft:agito/riders",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "anchor": "ground",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:alter_ring\",tag:{slot_tex1:\"agito_ground\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
-            "name": "Ground Form",
-            "text": "Accessed with the $(l:agito/items/agito_ground)Agito Ground Philosopher's Stone$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Agito",
+	"icon": "kamenridercraft:agito_ground",
+	"category": "kamenridercraft:agito/riders",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "ground",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:alter_ring\",tag:{slot_tex1:\"agito_ground\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
+			"name": "Ground Form",
+			"text": "Accessed with the $(l:agito/items/agito_ground)Agito Ground Philosopher's Stone$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Agito",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Transforms with the $(l:agito/devices/alter_ring)Altering$(/l)$(br2)Status Effects:$(li)Speed$(li)Strength"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "storm",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:alter_ring\",tag:{slot_tex1:\"agito_storm\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
-            "name": "Storm Form",
-            "text": "Accessed with the $(l:agito/items/agito_storm)Agito Storm Philosopher's Stone$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Transforms with the $(l:agito/devices/alter_ring)Altering$(/l)$(br2)Status Effects:$(li)Speed$(li)Strength"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "storm",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:alter_ring\",tag:{slot_tex1:\"agito_storm\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
+			"name": "Storm Form",
+			"text": "Accessed with the $(l:agito/items/agito_storm)Agito Storm Philosopher's Stone$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Agito",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Transforms with the $(l:agito/devices/alter_ring)Altering$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "flame",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:alter_ring\",tag:{slot_tex1:\"agito_flame\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
-            "name": "Flame Form",
-            "text": "Accessed with the $(l:agito/items/agito_flame)Agito Flame Philosopher's Stone$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Transforms with the $(l:agito/devices/alter_ring)Altering$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "flame",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:alter_ring\",tag:{slot_tex1:\"agito_flame\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
+			"name": "Flame Form",
+			"text": "Accessed with the $(l:agito/items/agito_flame)Agito Flame Philosopher's Stone$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Agito",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Transforms with the $(l:agito/devices/alter_ring)Altering$(/l)$(br2)Status Effects:$(li)Speed$(li)Fire Resistance"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "trinity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:alter_ring\",tag:{slot_tex1:\"agito_trinity\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
-            "name": "Trinity Form",
-            "text": "Accessed with the $(l:agito/items/agito_trinity)Agito Trinity Philosopher's Stone$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Transforms with the $(l:agito/devices/alter_ring)Altering$(/l)$(br2)Status Effects:$(li)Speed$(li)Fire Resistance"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "trinity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:alter_ring\",tag:{slot_tex1:\"agito_trinity\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
+			"name": "Trinity Form",
+			"text": "Accessed with the $(l:agito/items/agito_trinity)Agito Trinity Philosopher's Stone$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Agito",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Transforms with the $(l:agito/devices/alter_ring)Altering$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost$(li)Strength$(li)Fire Resistance"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "burning",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:alter_ring\",tag:{slot_tex1:\"agito_burning\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
-            "name": "Burning Form",
-            "text": "Accessed with the $(l:agito/items/agito_burning)Agito Burning Philosopher's Stone$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Transforms with the $(l:agito/devices/alter_ring)Altering$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost$(li)Strength$(li)Fire Resistance"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "burning",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:alter_ring\",tag:{slot_tex1:\"agito_burning\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
+			"name": "Burning Form",
+			"text": "Accessed with the $(l:agito/items/agito_burning)Agito Burning Philosopher's Stone$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Agito",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Transforms with the $(l:agito/devices/alter_ring)Altering$(/l)$(br2)Status Effects:$(li)Speed II$(li)Resistance III$(li)Jump Boost III$(li)Fire Resistance$(li)Strength III"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "shining",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:alter_ring\",tag:{slot_tex1:\"agito_shining\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
-            "name": "Shining Form",
-            "text": "Accessed with the $(l:agito/items/agito_shining)Agito Shining Philosopher's Stone$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Transforms with the $(l:agito/devices/alter_ring)Altering$(/l)$(br2)Status Effects:$(li)Speed II$(li)Resistance III$(li)Jump Boost III$(li)Fire Resistance$(li)Strength III"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "shining",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:alter_ring\",tag:{slot_tex1:\"agito_shining\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
+			"name": "Shining Form",
+			"text": "Accessed with the $(l:agito/items/agito_shining)Agito Shining Philosopher's Stone$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Agito",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Transforms with the $(l:agito/devices/alter_ring)Altering$(/l)$(br2)Status Effects:$(li)Speed IV$(li)Resistance IV$(li)Jump Boost IV$(li)Fire Resistance$(li)Strength V"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "stagtornador",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:alter_ring\",tag:{slot_tex1:\"stagtornador\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
-            "name": "Ground Form w/ Stagtornador",
-            "text": "Accessed with the $(l:agito/items/stagtornador)Stagtornador Card Warrior Card$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Transforms with the $(l:agito/devices/alter_ring)Altering$(/l)$(br2)Status Effects:$(li)Speed IV$(li)Resistance IV$(li)Jump Boost IV$(li)Fire Resistance$(li)Strength V"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "stagtornador",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:alter_ring\",tag:{slot_tex1:\"stagtornador\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
+			"name": "Ground Form w/ Stagtornador",
+			"text": "Accessed with the $(l:agito/items/stagtornador)Stagtornador Card Warrior Card$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Agito",
-            "text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Transforms with the $(l:agito/devices/alter_ring)Altering$(/l)$(br2)Status Effects:$(li)Flying II$(li)Speed$(li)Strength"
-        }
-    ]
+			"text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Transforms with the $(l:agito/devices/alter_ring)Altering$(/l)$(br2)Status Effects:$(li)Flying II$(li)Speed$(li)Strength"
+		}
+	]
 }

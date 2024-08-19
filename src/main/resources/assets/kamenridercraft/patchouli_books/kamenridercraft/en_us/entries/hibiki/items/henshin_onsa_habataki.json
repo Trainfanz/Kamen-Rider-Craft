@@ -1,0 +1,19 @@
+{
+	"name": "Henshin Onsa (Habataki)",
+	"icon": "kamenridercraft:henshin_onsa_habataki",
+	"category": "kamenridercraft:hibiki/items",
+	"sortnum": 12,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki And The 7 Senki (2005, movie)$(br2)Used to craft Habataki's $(l:hibiki/devices/habatakidriver)Ongekimei (Habataki)$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:henshin_onsa_habataki",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/deepslate_stone_hibiki)Deepslate Oni Ore$(/l)"
+		}
+	]
+}

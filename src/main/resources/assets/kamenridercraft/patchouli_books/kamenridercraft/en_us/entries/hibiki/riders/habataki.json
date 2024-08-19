@@ -1,0 +1,19 @@
+{
+	"name": "Kamen Rider Habataki",
+	"icon": "kamenridercraft:henshin_onsa_habataki",
+	"category": "kamenridercraft:hibiki/riders",
+	"sortnum": 18,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:habatakidriver\",Count:1b},{id:\"kamenridercraft:hibikilegs\",Count:1b},{id:\"kamenridercraft:hibikitroso\",Count:1b},{id:\"kamenridercraft:hibikihead\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Habataki",
+			"text": "Appears in:$(li)Kamen Rider Hibiki And The 7 Senki (2005, movie)$(br2)Transforms with the $(l:hibiki/devices/habatakidriver)Ongekimei (Habataki)$(/l)$(br2)Status Effects:$(li)Speed III$(li)Resistance$(li)Night Vision$(li)Haste$(li)Fire Resistance$(li)Strength II"
+		}
+	]
+}

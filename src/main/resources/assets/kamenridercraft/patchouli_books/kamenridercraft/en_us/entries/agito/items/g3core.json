@@ -1,17 +1,17 @@
 {
-    "name": "Blank G-System Chip",
-    "icon": "kamenridercraft:g3core",
-    "category": "kamenridercraft:agito/items",
-    "sortnum": 15,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used as the base item for the G-System items"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:agito/g3core",
-            "text": "Drops from:$(li)$(l:agito/mobs/anguis_masculus)Anguis Masculus$(/l)"
-        }
-    ]
+	"name": "Blank G-System Chip",
+	"icon": "kamenridercraft:g3core",
+	"category": "kamenridercraft:agito/items",
+	"sortnum": 15,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used as the base item for the G-System items"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:agito/g3core",
+			"text": "Drops from:$(li)$(l:agito/mobs/anguis_masculus)Anguis Masculus$(/l)"
+		}
+	]
 }

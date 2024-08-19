@@ -1,16 +1,16 @@
 {
-    "name": "Rider Buckle (Dark Riderman)",
-    "icon": "kamenridercraft:dark_riderman_belt",
-    "category": "kamenridercraft:v3/devices",
-    "sortnum": 4,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Pachinko Kamen Rider: Full Throttle (2015, Pachinko game)$(br2)Used alongside the $(l:v3/devices/armor)V3 armor$(/l) to transform into $(l:v3/riders/dark_riderman)Dark Riderman"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:v3/dark_riderman_belt"
-        }
-    ]
+	"name": "Rider Buckle (Dark Riderman)",
+	"icon": "kamenridercraft:dark_riderman_belt",
+	"category": "kamenridercraft:v3/devices",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Pachinko Kamen Rider: Full Throttle (2015, Pachinko game)$(br2)Used alongside the $(l:v3/devices/armor)V3 armor$(/l) to transform into $(l:v3/riders/dark_riderman)Dark Riderman"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:v3/dark_riderman_belt"
+		}
+	]
 }

@@ -1,0 +1,16 @@
+{
+	"name": "Ongekiko Kaentsuzumi",
+	"icon": "kamenridercraft:hibikidriver",
+	"category": "kamenridercraft:hibiki/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Used alongside the $(l:hibiki/devices/armor)Hibiki armor$(/l) to transform into $(l:hibiki/riders/hibiki)Kamen Rider Hibiki"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:hibiki/hibikidriver"
+		}
+	]
+}

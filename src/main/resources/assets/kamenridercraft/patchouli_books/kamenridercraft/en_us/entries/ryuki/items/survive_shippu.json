@@ -1,19 +1,19 @@
 {
-    "name": "Survive Card (Shippu)",
-    "icon": "kamenridercraft:survive_shippu",
-    "category": "kamenridercraft:ryuki/items",
-    "sortnum": 19,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used to access Knight's $(l:ryuki/riders/knight#survive)Survive$(/l)$(br2)Used to access Raia's $(l:ryuki/riders/raia#survive)Survive$(/l)$(br2)Used to access Ouja's $(l:ryuki/riders/ouja#survive_sic)Survive$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:survive_shippu",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
-        }
-    ]
+	"name": "Survive Card (Shippu)",
+	"icon": "kamenridercraft:survive_shippu",
+	"category": "kamenridercraft:ryuki/items",
+	"sortnum": 19,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used to access Knight's $(l:ryuki/riders/knight#survive)Survive Form$(/l)$(br2)Used to access Raia's $(l:ryuki/riders/raia#survive)Survive Form$(/l)$(br2)Used to access Ouja's $(l:ryuki/riders/ouja#survive_sic)Survive Form$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:survive_shippu",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
+		}
+	]
 }

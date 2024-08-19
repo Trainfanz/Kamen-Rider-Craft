@@ -1,16 +1,16 @@
 {
-    "name": "Chalice Arrow",
-    "icon": "kamenridercraft:chalice_arrow",
-    "category": "kamenridercraft:blade/arsenal",
-    "sortnum": 7,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used by Chalice's $(l:blade/riders/chalice#chalice)Base$(/l) form. "
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:blade/chalice_arrow"
-        }
-    ]
+	"name": "Chalice Arrow",
+	"icon": "kamenridercraft:chalice_arrow",
+	"category": "kamenridercraft:blade/arsenal",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used by Chalice's $(l:blade/riders/chalice#chalice)base$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:blade/chalice_arrow"
+		}
+	]
 }

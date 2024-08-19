@@ -1,12 +1,12 @@
 {
-    "name": "Black RX Logo",
-    "icon": "kamenridercraft:black_rx_logo",
-    "category": "kamenridercraft:black_rx/items",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:rx/black_rx_logo"
-        }
-    ]
+	"name": "Black RX Logo",
+	"icon": "kamenridercraft:black_rx_logo",
+	"category": "kamenridercraft:black_rx/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:rx/black_rx_logo"
+		}
+	]
 }

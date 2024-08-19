@@ -1,19 +1,19 @@
 {
-    "name": "Pyron Mission Memory",
-    "icon": "kamenridercraft:pyron_mission_memory",
-    "category": "kamenridercraft:faiz/items",
-    "sortnum": 11,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)ICON: Tamotsu Shinohara Character Art Works (2006, art book)$(br2)Used to craft Pyron's $(l:faiz/devices/pyron_driver)Pyron Driver$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:pyron_mission_memory",
-            "title": " ",
-            "text": "Item is currently unobtainable"
-        }
-    ]
+	"name": "Pyron Mission Memory",
+	"icon": "kamenridercraft:pyron_mission_memory",
+	"category": "kamenridercraft:faiz/items",
+	"sortnum": 11,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)ICON: Tamotsu Shinohara Character Art Works (2006, art book)$(br2)Used to craft Pyron's $(l:faiz/devices/pyron_driver)Pyron Driver$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:pyron_mission_memory",
+			"title": " ",
+			"text": "Item is currently unobtainable"
+		}
+	]
 }

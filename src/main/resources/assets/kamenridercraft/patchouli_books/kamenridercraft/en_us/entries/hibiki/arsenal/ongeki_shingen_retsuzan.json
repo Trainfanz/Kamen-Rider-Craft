@@ -1,0 +1,16 @@
+{
+	"name": "Ongekishingen Retsuzan",
+	"icon": "kamenridercraft:ongeki_shingen_retsuzan",
+	"category": "kamenridercraft:hibiki/arsenal",
+	"sortnum": 11,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Used by $(l:hibiki/riders/zanki)Kamen Rider Zanki$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:hibiki/ongeki_shingen_retsuzan"
+		}
+	]
+}

@@ -1,23 +1,23 @@
 {
-    "name": "Advent Glass",
-    "icon": "kamenridercraft:glass_ryuki",
-    "category": "kamenridercraft:misc/blocks",
-    "sortnum": 8,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Mine this block to get various Advent Cards$(br2)Requires an iron pickaxe or better"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:glass_ryuki",
-            "title": " ",
-            "text": "Drops:$(li)$(l:ryuki/items/advent_card)Contract Card$(/l) (45%)$(li)$(l:ryuki/items/dragreder_advent)Dragreder Advent Card$(/l) (3%)$(li)$(l:ryuki/items/darkwing_advent)Darkwing Advent Card$(/l) (2.2%)$(li)$(l:ryuki/items/volcancer_advent)Volcancer Advent Card$(/l) (2.2%)$(li)$(l:ryuki/items/magnugiga_advent)Magnugiga Advent Card$(/l) (2.2%)$(li)$(l:ryuki/items/evildiver_advent)Evildiver Advent Card$(/l) (2.2%)$(li)$(l:ryuki/items/metalgelas_advent)Metalgelas Advent Card$(/l) (2.2%)$(li)$(l:ryuki/items/venosnaker_advent)Venosnaker Advent Card$(/l) (2.2%)$(li)$(l:ryuki/items/ride_saber_vent)Ridesaber Sword Vent Card$(/l) (2.2%)$(li)$(l:ryuki/items/drag_saber_vent)Dragsaber Sword Vent Card$(/l) (2.2%)$(li)$(l:ryuki/items/drag_claw_vent)Dragclaw Strike Vent Card$(/l) (2.2%)$(li)$(l:ryuki/items/drag_shield_vent)Dragshield Guard Vent Card$(/l) (2.2%)$(li)$(l:ryuki/items/drag_shield_vent_form)Dragshield Guard Vent Card$(/l) (2.2%)$(li)$(l:ryuki/items/wing_lancer_vent)Winglancer Sword Vent Card$(/l) (1.5%)$(li)$(l:ryuki/items/wing_wall_vent)Wingwall Guard Vent Card$(/l) (1.5%)$(li)$(l:ryuki/items/knight_trick_vent)Trick Vent Card (Knight)$(/l) (1.5%)$(li)$(l:ryuki/items/scissors_pinch_vent)Scissorspinch Strike Vent Card$(/l) (1.5%)$(li)$(l:ryuki/items/shell_defense_vent)Shelldefense Guard Vent Card$(/l) (1.5%)$(li)$(l:ryuki/items/giga_horn_vent)Gigahorn Strike Vent Card$(/l) (1.5%)$(li)$(l:ryuki/items/giga_launcher_vent)Gigalauncher Shoot Vent Card$(/l) (1.5%)$(li)$(l:ryuki/items/giga_cannon_vent)Gigacannon Shoot Vent Card$(/l) (1.5%)$(li)$(l:ryuki/items/giga_armor_vent)Gigaarmor Guard Vent Card$(/l) (1.5%)$(li)$(l:ryuki/items/giga_tector_vent)Gigatector Guard Vent Card$(/l) (1.5%)$(li)$(l:ryuki/items/evil_whip_vent)Evilwhip Swing Vent Card$(/l) (1.5%)"
-        },
-        {
-            "type": "patchouli:text",
-            "text": "$(li)$(l:ryuki/items/metal_horn_vent)Metalhorn Strike Vent Card$(/l) (1.5%)$(li)$(l:ryuki/items/veno_saber_vent)Venosaber Sword Vent Card$(/l) (1.5%)$(li)$(l:ryuki/items/drag_visor_zwei_vent)Dragvisorzwei Shoot Vent Card$(/l) (0.7%)$(li)$(l:ryuki/items/drag_blade_vent)Dragblade Sword Vent Card$(/l) (0.7%)$(li)$(l:ryuki/items/ryuki_trick_vent)Trick Vent Card (Ryuki)$(/l) (0.7%)$(li)$(l:ryuki/items/dark_blade_vent)Darkblade Sword Vent Card$(/l) (0.7%)$(li)$(l:ryuki/items/dark_visor_zwei_vent)Darkvisorzwei Guard Vent Card$(/l) (0.7%)$(li)$(l:ryuki/items/dark_arrow_vent)Darkarrow Shoot Vent Card$(/l) (0.7%)$(li)$(l:ryuki/items/evil_visor_zwei_vent)Evilvisorzwei Shoot Vent Card$(/l) (0.7%)$(li)$(l:ryuki/items/veno_visor_zwei_vent)Venovisorzwei Sword Vent Card$(/l) (0.7%)$(li)$(l:ryuki/items/survive_rekka)Survive Card (Rekka)$(/l) (0.7%)$(li)$(l:ryuki/items/survive_shippu)Survive Card (Shippu)$(/l) (0.7%)$(li)$(l:ryuki/items/survive_mugen)Survive Card (Mugen)$(/l) (0.7%)"
-        }
-    ]
+	"name": "Advent Glass",
+	"icon": "kamenridercraft:glass_ryuki",
+	"category": "kamenridercraft:misc/blocks",
+	"sortnum": 8,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Mine this block to get various Advent Cards$(br2)Requires an iron pickaxe or better"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:glass_ryuki",
+			"title": " ",
+			"text": "Drops:$(li)$(l:ryuki/items/advent_card)Contract Card$(/l) (45%)$(li)$(l:ryuki/items/dragreder_advent)Dragreder Advent Card$(/l) (3%)$(li)$(l:ryuki/items/darkwing_advent)Darkwing Advent Card$(/l) (2.2%)$(li)$(l:ryuki/items/volcancer_advent)Volcancer Advent Card$(/l) (2.2%)$(li)$(l:ryuki/items/magnugiga_advent)Magnugiga Advent Card$(/l) (2.2%)$(li)$(l:ryuki/items/evildiver_advent)Evildiver Advent Card$(/l) (2.2%)$(li)$(l:ryuki/items/metalgelas_advent)Metalgelas Advent Card$(/l) (2.2%)$(li)$(l:ryuki/items/venosnaker_advent)Venosnaker Advent Card$(/l) (2.2%)$(li)$(l:ryuki/items/ride_saber_vent)Ridesaber Sword Vent Card$(/l) (2.2%)$(li)$(l:ryuki/items/drag_saber_vent)Dragsaber Sword Vent Card$(/l) (2.2%)$(li)$(l:ryuki/items/drag_claw_vent)Dragclaw Strike Vent Card$(/l) (2.2%)$(li)$(l:ryuki/items/drag_shield_vent)Dragshield Guard Vent Card$(/l) (2.2%)$(li)$(l:ryuki/items/drag_shield_vent_form)Dragshield Guard Vent Card$(/l) (2.2%)$(li)$(l:ryuki/items/wing_lancer_vent)Winglancer Sword Vent Card$(/l) (1.5%)$(li)$(l:ryuki/items/wing_wall_vent)Wingwall Guard Vent Card$(/l) (1.5%)$(li)$(l:ryuki/items/knight_trick_vent)Trick Vent Card (Knight)$(/l) (1.5%)$(li)$(l:ryuki/items/scissors_pinch_vent)Scissorspinch Strike Vent Card$(/l) (1.5%)$(li)$(l:ryuki/items/shell_defense_vent)Shelldefense Guard Vent Card$(/l) (1.5%)$(li)$(l:ryuki/items/giga_horn_vent)Gigahorn Strike Vent Card$(/l) (1.5%)$(li)$(l:ryuki/items/giga_launcher_vent)Gigalauncher Shoot Vent Card$(/l) (1.5%)$(li)$(l:ryuki/items/giga_cannon_vent)Gigacannon Shoot Vent Card$(/l) (1.5%)$(li)$(l:ryuki/items/giga_armor_vent)Gigaarmor Guard Vent Card$(/l) (1.5%)$(li)$(l:ryuki/items/giga_tector_vent)Gigatector Guard Vent Card$(/l) (1.5%)$(li)$(l:ryuki/items/evil_whip_vent)Evilwhip Swing Vent Card$(/l) (1.5%)"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "$(li)$(l:ryuki/items/metal_horn_vent)Metalhorn Strike Vent Card$(/l) (1.5%)$(li)$(l:ryuki/items/veno_saber_vent)Venosaber Sword Vent Card$(/l) (1.5%)$(li)$(l:ryuki/items/drag_visor_zwei_vent)Dragvisorzwei Shoot Vent Card$(/l) (0.7%)$(li)$(l:ryuki/items/drag_blade_vent)Dragblade Sword Vent Card$(/l) (0.7%)$(li)$(l:ryuki/items/ryuki_trick_vent)Trick Vent Card (Ryuki)$(/l) (0.7%)$(li)$(l:ryuki/items/dark_blade_vent)Darkblade Sword Vent Card$(/l) (0.7%)$(li)$(l:ryuki/items/dark_visor_zwei_vent)Darkvisorzwei Guard Vent Card$(/l) (0.7%)$(li)$(l:ryuki/items/dark_arrow_vent)Darkarrow Shoot Vent Card$(/l) (0.7%)$(li)$(l:ryuki/items/evil_visor_zwei_vent)Evilvisorzwei Shoot Vent Card$(/l) (0.7%)$(li)$(l:ryuki/items/veno_visor_zwei_vent)Venovisorzwei Sword Vent Card$(/l) (0.7%)$(li)$(l:ryuki/items/survive_rekka)Survive Card (Rekka)$(/l) (0.7%)$(li)$(l:ryuki/items/survive_shippu)Survive Card (Shippu)$(/l) (0.7%)$(li)$(l:ryuki/items/survive_mugen)Survive Card (Mugen)$(/l) (0.7%)"
+		}
+	]
 }

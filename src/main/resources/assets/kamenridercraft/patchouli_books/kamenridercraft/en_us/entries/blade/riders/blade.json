@@ -1,56 +1,80 @@
 {
-    "name": "Kamen Rider Blade",
-    "icon": "kamenridercraft:change_beetle",
-    "category": "kamenridercraft:blade/riders",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "anchor": "blade",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:blay_buckle\",tag:{slot_tex1:\"change_beetle\"},Count:1b},{id:\"kamenridercraft:bladelegs\",Count:1b},{id:\"kamenridercraft:bladetroso\",Count:1b},{id:\"kamenridercraft:bladehead\",Count:1b}]}",
-            "name": " ",
-            "text": "Accessed with the $(l:blade/items/change_beetle)Change Beetle Rouze Card$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Blade",
+	"icon": "kamenridercraft:change_beetle",
+	"category": "kamenridercraft:blade/riders",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "blade",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:blay_buckle\",tag:{slot_tex1:\"change_beetle\"},Count:1b},{id:\"kamenridercraft:bladelegs\",Count:1b},{id:\"kamenridercraft:bladetroso\",Count:1b},{id:\"kamenridercraft:bladehead\",Count:1b}]}",
+			"name": " ",
+			"text": "Accessed with the $(l:blade/items/change_beetle)Change Beetle Rouze Card$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Blade",
-            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Transforms with the $(l:blade/devices/blay_buckle)Blay Buckle$(/l)$(br2)Status Effects:$(li)Haste II$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "jack",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:blay_buckle\",tag:{slot_tex1:\"fusion_eagle\"},Count:1b},{id:\"kamenridercraft:bladelegs\",Count:1b},{id:\"kamenridercraft:bladetroso\",Count:1b},{id:\"kamenridercraft:bladehead\",Count:1b}]}",
-            "name": "Jack Form",
-            "text": "Accessed with the $(l:blade/items/fusion_eagle)Fusion Eagle Rouze Card$(/l) while having the $(l:blade/items/rouze_absorber)Rouze Absorber$(/l) in your offhand and the $(l:blade/items/absorb_capricorn)Absorb Capricorn Rouze Card$(/l) in your inventory"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Transforms with the $(l:blade/devices/blay_buckle)Blay Buckle$(/l)$(br2)Status Effects:$(li)Haste II$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "jack",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:blay_buckle\",tag:{slot_tex1:\"fusion_eagle\"},Count:1b},{id:\"kamenridercraft:bladelegs\",Count:1b},{id:\"kamenridercraft:bladetroso\",Count:1b},{id:\"kamenridercraft:bladehead\",Count:1b}]}",
+			"name": "Jack Form",
+			"text": "Accessed with the $(l:blade/items/fusion_eagle)Fusion Eagle Rouze Card$(/l) while having the $(l:blade/items/rouze_absorber)Rouze Absorber$(/l) and the $(l:blade/items/absorb_capricorn)Absorb Capricorn Rouze Card$(/l) in your inventory"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Blade",
-            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Transforms with the $(l:blade/devices/blay_buckle)Blay Buckle$(/l)$(br2)Status Effects:$(li)Flying$(li)Speed II$(li)Resistance$(li)Haste$(li)Strength III"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "king",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:blay_buckle\",tag:{slot_tex1:\"evolution_caucasus\"},Count:1b},{id:\"kamenridercraft:bladelegs\",Count:1b},{id:\"kamenridercraft:bladetroso\",Count:1b},{id:\"kamenridercraft:bladehead\",Count:1b}]}",
-            "name": "King Form",
-            "text": "Accessed with the $(l:blade/items/evolution_caucasus)Evolution Caucasus Rouze Card$(/l) while having the $(l:blade/items/rouze_absorber)Rouze Absorber$(/l) in your offhand and the $(l:blade/items/absorb_capricorn)Absorb Capricorn Rouze Card$(/l) in your inventory"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Transforms with the $(l:blade/devices/blay_buckle)Blay Buckle$(/l)$(br2)Status Effects:$(li)Flying$(li)Speed II$(li)Resistance$(li)Haste$(li)Strength III"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "king",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:blay_buckle\",tag:{slot_tex1:\"evolution_caucasus\"},Count:1b},{id:\"kamenridercraft:bladelegs\",Count:1b},{id:\"kamenridercraft:bladetroso\",Count:1b},{id:\"kamenridercraft:bladehead\",Count:1b}]}",
+			"name": "King Form",
+			"text": "Accessed with the $(l:blade/items/evolution_caucasus)Evolution Caucasus Rouze Card$(/l) while having the $(l:blade/items/rouze_absorber)Rouze Absorber$(/l) and the $(l:blade/items/absorb_capricorn)Absorb Capricorn Rouze Card$(/l) in your inventory"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Blade",
-            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Transforms with the $(l:blade/devices/blay_buckle)Blay Buckle$(/l)$(br2)Status Effects:$(li)Slowness$(li)Resistance IV$(li)Jump Boost III$(li)Strength V"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "silver_king",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:blay_buckle\",tag:{slot_tex1:\"silver_evolution_caucasus\"},Count:1b},{id:\"kamenridercraft:bladelegs\",Count:1b},{id:\"kamenridercraft:bladetroso\",Count:1b},{id:\"kamenridercraft:bladehead\",Count:1b}]}",
-            "name": "King Form (Silver Version)",
-            "text": "Accessed with the $(l:blade/items/silver_evolution_caucasus)Silver Evolution Caucasus Rouze Card$(/l) while having the $(l:blade/items/rouze_absorber)Rouze Absorber$(/l) in your offhand and the $(l:blade/items/absorb_capricorn)Absorb Capricorn Rouze Card$(/l) in your inventory"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Transforms with the $(l:blade/devices/blay_buckle)Blay Buckle$(/l)$(br2)Status Effects:$(li)Slowness$(li)Resistance IV$(li)Jump Boost III$(li)Strength V"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "silver_king",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:blay_buckle\",tag:{slot_tex1:\"silver_evolution_caucasus\"},Count:1b},{id:\"kamenridercraft:bladelegs\",Count:1b},{id:\"kamenridercraft:bladetroso\",Count:1b},{id:\"kamenridercraft:bladehead\",Count:1b}]}",
+			"name": "King Form (Silver Version)",
+			"text": "Accessed with the $(l:blade/items/silver_evolution_caucasus)Silver Evolution Caucasus Rouze Card$(/l) while having the $(l:blade/items/rouze_absorber)Rouze Absorber$(/l) and the $(l:blade/items/absorb_capricorn)Absorb Capricorn Rouze Card$(/l) in your inventory"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Blade",
-            "text": "Appears in:$(li)??? (2003, ???)$(br2)Transforms with the $(l:blade/devices/blay_buckle)Blay Buckle$(/l)$(br2)Status Effects:$(li)Slowness$(li)Resistance IV$(li)Jump Boost III$(li)Strength V"
-        }
-    ]
+			"text": "Appears in:$(li)Rider Hero Series (2004, toyline)$(br2)Transforms with the $(l:blade/devices/blay_buckle)Blay Buckle$(/l)$(br2)Status Effects:$(li)Slowness$(li)Resistance IV$(li)Jump Boost III$(li)Strength V"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "herculespader",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:blay_buckle\",tag:{slot_tex1:\"herculespader\"},Count:1b},{id:\"kamenridercraft:bladelegs\",Count:1b},{id:\"kamenridercraft:bladetroso\",Count:1b},{id:\"kamenridercraft:bladehead\",Count:1b}]}",
+			"name": "Herculespader",
+			"text": "Accessed with the $(l:blade/items/herculespader)Herculespader Card Warrior Card$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Blade",
+			"text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Transforms with the $(l:blade/devices/blay_buckle)Blay Buckle$(/l)$(br2)Status Effects:$(li)Haste II$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "jinrai_no_senshi",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:blay_buckle\",tag:{slot_tex1:\"jinrai_no_senshi\"},Count:1b},{id:\"kamenridercraft:bladelegs\",Count:1b},{id:\"kamenridercraft:bladetroso\",Count:1b},{id:\"kamenridercraft:bladehead\",Count:1b}]}",
+			"name": "Jack Form (Jinrai no Senshi)",
+			"text": "Accessed with the $(l:misc/items/jinrai_no_senshi)Jinrai no senshi Card Warrior Card$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Blade",
+			"text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Transforms with the $(l:blade/devices/blay_buckle)Blay Buckle$(/l)$(br2)Status Effects:$(li)Flying$(li)Punch IV$(li)Speed IV$(li)Resistance$(li)Haste IV$(li)Strength VII (with empty hand)$(li)Strength III (with weapon)"
+		}
+	]
 }

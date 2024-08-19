@@ -1,0 +1,19 @@
+{
+	"name": "Kamen Rider Shouki",
+	"icon": "kamenridercraft:henshin_onibue_shouki",
+	"category": "kamenridercraft:hibiki/riders",
+	"sortnum": 10,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:shoukidriver\",Count:1b},{id:\"kamenridercraft:hibikilegs\",Count:1b},{id:\"kamenridercraft:hibikitroso\",Count:1b},{id:\"kamenridercraft:hibikihead\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Shouki",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Transforms with the $(l:hibiki/devices/shoukidriver)Ongekimei Fusoku$(/l)$(br2)Status Effects:$(li)Speed$(li)Night Vision$(li)Haste III$(li)Strength"
+		}
+	]
+}

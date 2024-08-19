@@ -1,16 +1,16 @@
 {
-    "name": "Double Typhoon (Dark V3)",
-    "icon": "kamenridercraft:dark_double_typhoon",
-    "category": "kamenridercraft:v3/devices",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Pachinko Kamen Rider: Full Throttle (2015, Pachinko game)$(br2)Used alongside the $(l:v3/devices/armor)V3 armor$(/l) to transform into $(l:v3/riders/dark_v3)Dark V3"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:v3/dark_double_typhoon"
-        }
-    ]
+	"name": "Double Typhoon (Dark V3)",
+	"icon": "kamenridercraft:dark_double_typhoon",
+	"category": "kamenridercraft:v3/devices",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Pachinko Kamen Rider: Full Throttle (2015, Pachinko game)$(br2)Used alongside the $(l:v3/devices/armor)V3 armor$(/l) to transform into $(l:v3/riders/dark_v3)Dark V3"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:v3/dark_double_typhoon"
+		}
+	]
 }

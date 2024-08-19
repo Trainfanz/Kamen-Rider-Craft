@@ -1,16 +1,16 @@
 {
-    "name": "Tackle Belt",
-    "icon": "kamenridercraft:tackle_belt",
-    "category": "kamenridercraft:stronger/devices",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Stronger (1975, TV show)$(br2)Used alongside the $(l:stronger/devices/armor)Stronger armor$(/l) to transform into $(l:stronger/riders/tackle#tackle)Electronic Wave Humanoid Tackle"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:stronger/tackle_belt"
-        }
-    ]
+	"name": "Tackle Belt",
+	"icon": "kamenridercraft:tackle_belt",
+	"category": "kamenridercraft:stronger/devices",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Stronger (1975, TV show)$(br2)Used alongside the $(l:stronger/devices/armor)Stronger armor$(/l) to transform into $(l:stronger/riders/tackle#tackle)Electronic Wave Humanoid Tackle"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:stronger/tackle_belt"
+		}
+	]
 }

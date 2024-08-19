@@ -1,18 +1,18 @@
 {
-    "name": "Dark V3",
-    "icon": "kamenridercraft:sinister_pachinko_ball",
-    "category": "kamenridercraft:v3/riders",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:destron_combatman{ArmorItems:[{id:\"kamenridercraft:dark_double_typhoon\",Count:1b},{id:\"kamenridercraft:v3legs\",Count:1b},{id:\"kamenridercraft:v3troso\",Count:1b},{id:\"kamenridercraft:v3head\",Count:1b}]}",
-            "name": " "
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Dark V3",
+	"icon": "kamenridercraft:sinister_pachinko_ball",
+	"category": "kamenridercraft:v3/riders",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:destron_combatman{ArmorItems:[{id:\"kamenridercraft:dark_double_typhoon\",Count:1b},{id:\"kamenridercraft:v3legs\",Count:1b},{id:\"kamenridercraft:v3troso\",Count:1b},{id:\"kamenridercraft:v3head\",Count:1b}]}",
+			"name": " "
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Dark V3",
-            "text": "Appears in:$(li)Pachinko Kamen Rider: Full Throttle (2015, Pachinko game)$(br2)Transforms with the $(l:v3/devices/dark_double_typhoon)Double Typhoon (Dark V3)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Resistance II$(li)Jump Boost III$(li)Strength II"
-        }
-    ]
+			"text": "Appears in:$(li)Pachinko Kamen Rider: Full Throttle (2015, Pachinko game)$(br2)Transforms with the $(l:v3/devices/dark_double_typhoon)Double Typhoon (Dark V3)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Resistance II$(li)Jump Boost III$(li)Strength II"
+		}
+	]
 }

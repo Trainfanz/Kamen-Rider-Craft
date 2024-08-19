@@ -1,19 +1,19 @@
 {
-    "name": "Batta Man Kingstone",
-    "icon": "kamenridercraft:batta_man_king_stone",
-    "category": "kamenridercraft:black/items",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Black (1987, TV show)$(br2)Used to access Black's $(l:black/riders/black#batta_man)Batta Man$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:batta_man_king_stone",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:black_rx/mobs/chap)Chap$(/l)"
-        }
-    ]
+	"name": "Batta Man Kingstone",
+	"icon": "kamenridercraft:batta_man_king_stone",
+	"category": "kamenridercraft:black/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Black (1987, TV show)$(br2)Used to access Black's $(l:black/riders/black#batta_man)Batta Man$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:batta_man_king_stone",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:black_rx/mobs/chap)Chap$(/l)"
+		}
+	]
 }

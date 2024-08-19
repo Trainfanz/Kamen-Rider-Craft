@@ -1,12 +1,12 @@
 {
-    "name": "Riderman Logo",
-    "icon": "kamenridercraft:riderman_logo",
-    "category": "kamenridercraft:v3/items",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:v3/riderman_logo"
-        }
-    ]
+	"name": "Riderman Logo",
+	"icon": "kamenridercraft:riderman_logo",
+	"category": "kamenridercraft:v3/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:v3/riderman_logo"
+		}
+	]
 }

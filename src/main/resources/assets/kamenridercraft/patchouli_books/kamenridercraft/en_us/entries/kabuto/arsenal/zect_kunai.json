@@ -1,16 +1,16 @@
 {
-    "name": "ZECT Kunaigun",
-    "icon": "kamenridercraft:zect_kunai",
-    "category": "kamenridercraft:kabuto/arsenal",
-    "sortnum": 10,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Kabuto: God Speed Love (2006, Movie)$(br2)Used by Kamen Riders $(l:kabuto/riders/dark_kabuto)Dark Kabuto$(/l), $(l:kabuto/riders/hercus)Hercus$(/l) and $(l:kabuto/riders/ketaros)Ketaros$(/l)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:kabuto/zect_kunai"
-        }
-    ]
+	"name": "ZECT Kunaigun",
+	"icon": "kamenridercraft:zect_kunai",
+	"category": "kamenridercraft:kabuto/arsenal",
+	"sortnum": 10,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kabuto: God Speed Love (2006, Movie)$(br2)Used by Kamen Riders $(l:kabuto/riders/dark_kabuto)Dark Kabuto$(/l), $(l:kabuto/riders/hercus)Hercus$(/l) and $(l:kabuto/riders/ketaros)Ketaros$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kabuto/zect_kunai"
+		}
+	]
 }

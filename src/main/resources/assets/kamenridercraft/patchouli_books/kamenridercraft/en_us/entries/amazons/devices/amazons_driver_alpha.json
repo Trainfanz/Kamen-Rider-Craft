@@ -1,16 +1,16 @@
 {
-    "name": "Amazons Driver (Alpha)",
-    "icon": "kamenridercraft:amazons_driver_alpha",
-    "category": "kamenridercraft:amazons/devices",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Amazons Season 1 (2016, web series)$(br2)Used alongside the $(l:amazons/devices/armor)Amazons armor$(/l) to transform into $(l:amazons/riders/amazon_alpha)Kamen Rider Amazon Alpha"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:amazons/amazons_driver_alpha"
-        }
-    ]
+	"name": "Amazons Driver (Alpha)",
+	"icon": "kamenridercraft:amazons_driver_alpha",
+	"category": "kamenridercraft:amazons/devices",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Amazons Season 1 (2016, web series)$(br2)Used alongside the $(l:amazons/devices/armor)Amazons armor$(/l) to transform into $(l:amazons/riders/amazon_alpha)Kamen Rider Amazon Alpha"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:amazons/amazons_driver_alpha"
+		}
+	]
 }

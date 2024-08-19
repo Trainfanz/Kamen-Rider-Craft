@@ -1,12 +1,12 @@
 {
-    "name": "J Logo",
-    "icon": "kamenridercraft:j_logo",
-    "category": "kamenridercraft:j/items",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:j/j_logo"
-        }
-    ]
+	"name": "J Logo",
+	"icon": "kamenridercraft:j_logo",
+	"category": "kamenridercraft:j/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:j/j_logo"
+		}
+	]
 }

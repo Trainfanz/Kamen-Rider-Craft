@@ -1,16 +1,16 @@
 {
-    "name": "Kaijin Stone Generator",
-    "icon": "kamenridercraft:kaijin_stone_generator",
-    "category": "kamenridercraft:misc/blocks",
-    "sortnum": 4,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Use $(l:black_sun/items/creation_king_extract_vial)Creation King Extract Vials$(/l) on this block to generate $(l:black_sun/items/kaijin_stone)Kaijin Stones$(/l), as well as $(l:black_sun/items/king_stone_sun)Sun$(/l) and $(l:black_sun/items/king_stone_moon)Moon$(/l) Kingstones"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:black_sun/kaijin_stone_generator"
-        }
-    ]
+	"name": "Kaijin Stone Generator",
+	"icon": "kamenridercraft:kaijin_stone_generator",
+	"category": "kamenridercraft:misc/blocks",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Use $(l:black_sun/items/creation_king_extract_vial)Creation King Extract Vials$(/l) on this block to generate $(l:black_sun/items/kaijin_stone)Kaijin Stones$(/l), as well as $(l:black_sun/items/king_stone_sun)Sun$(/l) and $(l:black_sun/items/king_stone_moon)Moon$(/l) Kingstones"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:black_sun/kaijin_stone_generator"
+		}
+	]
 }

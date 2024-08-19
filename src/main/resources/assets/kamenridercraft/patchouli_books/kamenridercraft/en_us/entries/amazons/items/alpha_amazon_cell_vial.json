@@ -1,19 +1,19 @@
 {
-    "name": "Amazon Cell Vial (Alpha)",
-    "icon": "kamenridercraft:alpha_amazon_cell_vial",
-    "category": "kamenridercraft:amazons/items",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Used to craft the $(l:amazons/items/condorer_core_alpha)Condorer Core (Alpha)$(/l) and the $(l:amazons/devices/amazons_driver_alpha)Amazons Driver (Alpha)$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:alpha_amazon_cell_vial",
-            "title": " ",
-            "text": "Obtained by using $(l:amazons/items/amazon_cell_vial)Amazon Cell Vials$(/l) on the $(l:misc/blocks/amazon_cell_mutator)Amazon Cell Mutator$(/l)"
-        }
-    ]
+	"name": "Amazon Cell Vial (Alpha)",
+	"icon": "kamenridercraft:alpha_amazon_cell_vial",
+	"category": "kamenridercraft:amazons/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Used to craft the $(l:amazons/items/condorer_core_alpha)Condorer Core (Alpha)$(/l) and the $(l:amazons/devices/amazons_driver_alpha)Amazons Driver (Alpha)$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:alpha_amazon_cell_vial",
+			"title": " ",
+			"text": "Obtained by using $(l:amazons/items/amazon_cell_vial)Amazon Cell Vials$(/l) on the $(l:misc/blocks/amazon_cell_mutator)Amazon Cell Mutator$(/l)"
+		}
+	]
 }

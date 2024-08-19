@@ -1,0 +1,19 @@
+{
+	"name": "Henshin Onsa Onkaku (Kurenai)",
+	"icon": "kamenridercraft:henshin_onsa_kurenai",
+	"category": "kamenridercraft:hibiki/items",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Used to access $(l:hibiki/riders/hibiki#kurenai)Hibiki Kurenai$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:henshin_onsa_kurenai",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_hibiki)Oni Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_hibiki)Deepslate Oni Ore$(/l)"
+		}
+	]
+}

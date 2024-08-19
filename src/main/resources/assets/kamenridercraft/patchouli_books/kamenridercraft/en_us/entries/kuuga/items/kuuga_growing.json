@@ -1,19 +1,19 @@
 {
-    "name": "Kuuga Growing Amadam",
-    "icon": "kamenridercraft:kuuga_growing",
-    "category": "kamenridercraft:kuuga/items",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Used as the base item for most Kuuga items$(br2)Used to access Kuuga's $(l:kuuga/riders/kuuga#growing)Growing Form$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:kuuga_growing",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:kuuga/mobs/zu-gumun-ba)Zu-Gumun-Ba$(/l)$(li)$(l:misc/blocks/stone_kuuga)Kuuga Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_kuuga)Deepslate Kuuga Ore$(/l)"
-        }
-    ]
+	"name": "Kuuga Growing Amadam",
+	"icon": "kamenridercraft:kuuga_growing",
+	"category": "kamenridercraft:kuuga/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Used as the base item for most Kuuga items$(br2)Used to access Kuuga's $(l:kuuga/riders/kuuga#growing)Growing Form$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:kuuga_growing",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:kuuga/mobs/zu-gumun-ba)Zu-Gumun-Ba$(/l)$(li)$(l:misc/blocks/stone_kuuga)Kuuga Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_kuuga)Deepslate Kuuga Ore$(/l)"
+		}
+	]
 }

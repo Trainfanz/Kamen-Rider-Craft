@@ -1,24 +1,24 @@
 {
-    "name": "Ichigo Armor",
-    "icon": "kamenridercraft:ichigohead",
-    "category": "kamenridercraft:ichigo/devices",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Used alongside an Ichigo Rider's transformation device to transform into that Rider"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:ichigo/ichigohead"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:ichigo/ichigotroso"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:ichigo/ichigolegs"
-        }
-    ]
+	"name": "Ichigo Armor",
+	"icon": "kamenridercraft:ichigohead",
+	"category": "kamenridercraft:ichigo/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Used alongside an Ichigo Rider's transformation device to transform into that Rider"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:ichigo/ichigohead"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:ichigo/ichigotroso"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:ichigo/ichigolegs"
+		}
+	]
 }

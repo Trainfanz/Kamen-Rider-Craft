@@ -1,19 +1,19 @@
 {
-    "name": "Change Mantis Rouze Card",
-    "icon": "kamenridercraft:change_mantis",
-    "category": "kamenridercraft:blade/items",
-    "sortnum": 12,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used to craft Chalice's $(l:blade/devices/chalice_rouzer)Chalice Rouzer$(/l)$(br2)Used to access Chalice's $(l:blade/riders/chalice#chalice)base$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:change_mantis",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
-        }
-    ]
+	"name": "Change Mantis Rouze Card",
+	"icon": "kamenridercraft:change_mantis",
+	"category": "kamenridercraft:blade/items",
+	"sortnum": 12,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used to craft Chalice's $(l:blade/devices/chalice_rouzer)Chalice Rouzer$(/l)$(br2)Used to access Chalice's $(l:blade/riders/chalice#chalice)base$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:change_mantis",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
+		}
+	]
 }

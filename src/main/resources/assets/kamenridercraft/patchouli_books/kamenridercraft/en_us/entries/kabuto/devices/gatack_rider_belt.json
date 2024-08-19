@@ -1,16 +1,16 @@
 {
-    "name": "Rider Belt (Gatack)",
-    "icon": "kamenridercraft:gatack_rider_belt",
-    "category": "kamenridercraft:kabuto/devices",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used alongside the $(l:kabuto/devices/armor)Kabuto armor$(/l) to transform into $(l:kabuto/riders/gatack)Kamen Rider Gatack"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:kabuto/gatack_rider_belt"
-        }
-    ]
+	"name": "Rider Belt (Gatack)",
+	"icon": "kamenridercraft:gatack_rider_belt",
+	"category": "kamenridercraft:kabuto/devices",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used alongside the $(l:kabuto/devices/armor)Kabuto armor$(/l) to transform into $(l:kabuto/riders/gatack)Kamen Rider Gatack"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kabuto/gatack_rider_belt"
+		}
+	]
 }

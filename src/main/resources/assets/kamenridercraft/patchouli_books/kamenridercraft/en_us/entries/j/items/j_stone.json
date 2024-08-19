@@ -1,19 +1,19 @@
 {
-    "name": "J Stone",
-    "icon": "kamenridercraft:j_stone",
-    "category": "kamenridercraft:j/items",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider J (1994, movie)$(br2)Used to craft J's $(l:j/devices/j_spirit)J-Spirit$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:j_stone",
-            "title": " ",
-            "text": "Traded by a novice Shocker Villager"
-        }
-    ]
+	"name": "J Stone",
+	"icon": "kamenridercraft:j_stone",
+	"category": "kamenridercraft:j/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider J (1994, movie)$(br2)Used to craft J's $(l:j/devices/j_spirit)J-Spirit$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:j_stone",
+			"title": " ",
+			"text": "Traded by a novice Shocker Villager"
+		}
+	]
 }

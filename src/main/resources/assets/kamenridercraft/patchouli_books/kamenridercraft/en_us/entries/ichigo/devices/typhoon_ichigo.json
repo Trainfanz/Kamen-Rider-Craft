@@ -1,16 +1,16 @@
 {
-    "name": "Typhoon (Ichigo)",
-    "icon": "kamenridercraft:typhoon_ichigo",
-    "category": "kamenridercraft:ichigo/devices",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Used alongside the $(l:ichigo/devices/armor)Ichigo armor$(/l) to transform into $(l:ichigo/riders/ichigo#new_ichigo)Kamen Rider Ichigo"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:ichigo/typhoon_ichigo"
-        }
-    ]
+	"name": "Typhoon (Ichigo)",
+	"icon": "kamenridercraft:typhoon_ichigo",
+	"category": "kamenridercraft:ichigo/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Used alongside the $(l:ichigo/devices/armor)Ichigo armor$(/l) to transform into $(l:ichigo/riders/ichigo#new_ichigo)Kamen Rider Ichigo"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:ichigo/typhoon_ichigo"
+		}
+	]
 }

@@ -1,19 +1,19 @@
 {
-    "name": "Blackdragvisorzwei",
-    "icon": "kamenridercraft:black_drag_visor_zwei",
-    "category": "kamenridercraft:ryuki/arsenal",
-    "sortnum": 42,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)World of If (2005, S.I.C. Hero Saga)$(br2)Used by Ryuga's $(l:ryuki/riders/ryuga#survive)Survive$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:black_drag_visor_zwei",
-            "title": " ",
-            "text": "Obtained through the $(l:ryuki/items/black_drag_visor_zwei_vent)Blackdragvisorzwei Sword Vent Card$(/l)"
-        }
-    ]
+	"name": "Blackdragvisorzwei",
+	"icon": "kamenridercraft:black_drag_visor_zwei",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 42,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)World of If (2005, S.I.C. Hero Saga)$(br2)Used by Ryuga's $(l:ryuki/riders/ryuga#survive)Survive Form$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:black_drag_visor_zwei",
+			"title": " ",
+			"text": "Obtained through the $(l:ryuki/items/black_drag_visor_zwei_vent)Blackdragvisorzwei Sword Vent Card$(/l)"
+		}
+	]
 }

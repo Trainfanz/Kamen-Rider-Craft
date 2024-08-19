@@ -1,16 +1,16 @@
 {
-    "name": "Ridol",
-    "icon": "kamenridercraft:ridol",
-    "category": "kamenridercraft:x/devices",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider X (1974, TV show)$(br2)Used alongside the $(l:x/devices/armor)X armor$(/l) to transform into $(l:x/riders/x)Kamen Rider X"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:x/ridol"
-        }
-    ]
+	"name": "Ridol",
+	"icon": "kamenridercraft:ridol",
+	"category": "kamenridercraft:x/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider X (1974, TV show)$(br2)Used alongside the $(l:x/devices/armor)X armor$(/l) to transform into $(l:x/riders/x)Kamen Rider X"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:x/ridol"
+		}
+	]
 }

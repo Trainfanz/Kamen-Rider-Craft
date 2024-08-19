@@ -1,16 +1,16 @@
 {
-    "name": "Condorer",
-    "icon": "kamenridercraft:condorer",
-    "category": "kamenridercraft:amazon/devices",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Amazon (1974, TV show)$(br2)Used alongside the $(l:amazon/devices/armor)Amazon armor$(/l) to transform into $(l:amazon/riders/amazon)Kamen Rider Amazon"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:amazon/condorer"
-        }
-    ]
+	"name": "Condorer",
+	"icon": "kamenridercraft:condorer",
+	"category": "kamenridercraft:amazon/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Amazon (1974, TV show)$(br2)Used alongside the $(l:amazon/devices/armor)Amazon armor$(/l) to transform into $(l:amazon/riders/amazon)Kamen Rider Amazon"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:amazon/condorer"
+		}
+	]
 }

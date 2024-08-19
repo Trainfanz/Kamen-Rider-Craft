@@ -1,12 +1,12 @@
 {
-    "name": "V3 Logo",
-    "icon": "kamenridercraft:v3_logo",
-    "category": "kamenridercraft:v3/items",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:v3/v3_logo"
-        }
-    ]
+	"name": "V3 Logo",
+	"icon": "kamenridercraft:v3_logo",
+	"category": "kamenridercraft:v3/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:v3/v3_logo"
+		}
+	]
 }

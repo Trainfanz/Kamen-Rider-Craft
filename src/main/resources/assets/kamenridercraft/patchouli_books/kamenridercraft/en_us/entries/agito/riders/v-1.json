@@ -1,19 +1,19 @@
 {
-    "name": "V-1",
-    "icon": "kamenridercraft:v1",
-    "category": "kamenridercraft:agito/riders",
-    "sortnum": 9,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:v1_belt\",Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
-            "name": " ",
-            "text": ""
-        },
-        {
-            "type": "patchouli:text",
+	"name": "V-1",
+	"icon": "kamenridercraft:v1",
+	"category": "kamenridercraft:agito/riders",
+	"sortnum": 9,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:v1_belt\",Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
 			"title": "V-1",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Transforms with the $(l:agito/devices/v1_belt)V-1 Belt$(/l)$(br2)Status Effects:$(li)Speed$(li)Strength"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Transforms with the $(l:agito/devices/v1_belt)V-1 Belt$(/l)$(br2)Status Effects:$(li)Speed$(li)Strength"
+		}
+	]
 }

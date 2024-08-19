@@ -1,19 +1,19 @@
 {
-    "name": "GaGa Armlet",
-    "icon": "kamenridercraft:gaga_armlet",
-    "category": "kamenridercraft:amazon/items",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Amazon (1974, TV show)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:gaga_armlet",
-            "title": " ",
-            "text": "Item is currently unobtainable"
-        }
-    ]
+	"name": "GaGa Armlet",
+	"icon": "kamenridercraft:gaga_armlet",
+	"category": "kamenridercraft:amazon/items",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Amazon (1974, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:gaga_armlet",
+			"title": " ",
+			"text": "Item is currently unobtainable"
+		}
+	]
 }

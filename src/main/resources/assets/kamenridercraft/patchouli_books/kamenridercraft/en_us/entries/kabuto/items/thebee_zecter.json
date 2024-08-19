@@ -1,19 +1,19 @@
 {
-    "name": "TheBee Zecter",
-    "icon": "kamenridercraft:thebee_zecter",
-    "category": "kamenridercraft:kabuto/items",
-    "sortnum": 7,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used to craft TheBee's $(l:kabuto/devices/thebee_rider_belt)ZECT Buckle$(/l)$(br2)Used to swap between TheBee's $(l:kabuto/riders/thebee#masked)Masked$(/l) and $(l:kabuto/riders/thebee#rider)Rider$(/l) forms"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:thebee_zecter",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:kabuto/mobs/zectrooper)ZECTroopers$(/l)"
-        }
-    ]
+	"name": "TheBee Zecter",
+	"icon": "kamenridercraft:thebee_zecter",
+	"category": "kamenridercraft:kabuto/items",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used to craft TheBee's $(l:kabuto/devices/thebee_rider_belt)ZECT Buckle$(/l)$(br2)Used to swap between TheBee's $(l:kabuto/riders/thebee#masked)Masked$(/l) and $(l:kabuto/riders/thebee#rider)Rider$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:thebee_zecter",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:kabuto/mobs/zectrooper)ZECTroopers$(/l)"
+		}
+	]
 }

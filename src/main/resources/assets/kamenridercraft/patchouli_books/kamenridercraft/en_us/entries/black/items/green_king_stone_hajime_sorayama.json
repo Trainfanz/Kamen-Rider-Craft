@@ -1,19 +1,19 @@
 {
-    "name": "Green Kingstone (Hajime Sorayama Ver.)",
-    "icon": "kamenridercraft:green_king_stone_hajime_sorayama",
-    "category": "kamenridercraft:black/items",
-    "sortnum": 5,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Medicom Toy 25th Anniversary Exhibition (2021, exhibition)$(br2)Used to access Shadow Moon's $(l:black/riders/shadow_moon#hajime_sorayama)Hajime Sorayama redesign$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:green_king_stone_hajime_sorayama",
-            "title": " ",
-            "text": "Item is currently unobtainable"
-        }
-    ]
+	"name": "Green Kingstone (Hajime Sorayama Ver.)",
+	"icon": "kamenridercraft:green_king_stone_hajime_sorayama",
+	"category": "kamenridercraft:black/items",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Medicom Toy 25th Anniversary Exhibition (2021, exhibition)$(br2)Used to access Shadow Moon's $(l:black/riders/shadow_moon#hajime_sorayama)Hajime Sorayama redesign$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:green_king_stone_hajime_sorayama",
+			"title": " ",
+			"text": "Item is currently unobtainable"
+		}
+	]
 }

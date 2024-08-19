@@ -1,19 +1,19 @@
 {
-    "name": "Typhoon Core (Nigo)",
-    "icon": "kamenridercraft:typhoon_core_nigo",
-    "category": "kamenridercraft:ichigo/items",
-    "sortnum": 6,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Used to craft Nigo's $(l:ichigo/devices/typhoon_nigo)Typhoon$(/l)$(br2)Used to access Nigo's $(l:ichigo/riders/nigo#new_nigo)New Nigo$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:typhoon_core_nigo",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:ichigo/mobs/shocker_combatman)Shocker Combatman$(/l)"
-        }
-    ]
+	"name": "Typhoon Core (Nigo)",
+	"icon": "kamenridercraft:typhoon_core_nigo",
+	"category": "kamenridercraft:ichigo/items",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Used to craft Nigo's $(l:ichigo/devices/typhoon_nigo)Typhoon$(/l)$(br2)Used to access Nigo's $(l:ichigo/riders/nigo#new_nigo)New Nigo$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:typhoon_core_nigo",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:ichigo/mobs/shocker_combatman)Shocker Combatman$(/l)"
+		}
+	]
 }

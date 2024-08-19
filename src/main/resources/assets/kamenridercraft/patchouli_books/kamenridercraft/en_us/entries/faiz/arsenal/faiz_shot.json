@@ -1,16 +1,16 @@
 {
-    "name": "Faiz Shot",
-    "icon": "kamenridercraft:faiz_shot",
-    "category": "kamenridercraft:faiz/arsenal",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Used by Faiz's $(l:faiz/riders/faiz#faiz)base$(/l) and $(l:faiz/riders/faiz#axel)Axel$(/l) forms"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:faiz/faiz_shot"
-        }
-    ]
+	"name": "Faiz Shot",
+	"icon": "kamenridercraft:faiz_shot",
+	"category": "kamenridercraft:faiz/arsenal",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Used by Faiz's $(l:faiz/riders/faiz#faiz)base$(/l) and $(l:faiz/riders/faiz#axel)Axel$(/l) forms"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:faiz/faiz_shot"
+		}
+	]
 }

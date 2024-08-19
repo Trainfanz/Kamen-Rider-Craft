@@ -1,19 +1,19 @@
 {
-    "name": "Rider Buckle Core",
-    "icon": "kamenridercraft:riderman_belt_core",
-    "category": "kamenridercraft:v3/items",
-    "sortnum": 5,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider V3 (1973, TV show)$(br2)Used to craft Riderman's $(l:v3/devices/riderman_belt)Rider Buckle$(/l)$(br2)Used to access Riderman's $(l:v3/riders/riderman#riderman)base$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:riderman_belt_core",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:v3/mobs/destron_combatman)Destron Combatman$(/l)"
-        }
-    ]
+	"name": "Rider Buckle Core",
+	"icon": "kamenridercraft:riderman_belt_core",
+	"category": "kamenridercraft:v3/items",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider V3 (1973, TV show)$(br2)Used to craft Riderman's $(l:v3/devices/riderman_belt)Rider Buckle$(/l)$(br2)Used to access Riderman's $(l:v3/riders/riderman#riderman)base$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:riderman_belt_core",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:v3/mobs/destron_combatman)Destron Combatman$(/l)"
+		}
+	]
 }

@@ -1,18 +1,18 @@
 {
-    "name": "Manga Kuuga",
-    "icon": "kamenridercraft:kuuga_manga",
-    "category": "kamenridercraft:kuuga/riders",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:manga_arcle\",Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
-            "name": " "
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Manga Kuuga",
+	"icon": "kamenridercraft:kuuga_manga",
+	"category": "kamenridercraft:kuuga/riders",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:manga_arcle\",Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
+			"name": " "
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Manga Kuuga",
-            "text": "Appears in:$(li)Kamen Rider Kuuga (2015, manga)$(li)Kamen Rider Zi-O: Over Quartzer (2019, movie)$(br2)Transforms with the $(l:kuuga/devices/manga_arcle)Manga Arcle$(/l)$(br2)Status Effects:$(li)Punch III$(li)Flatten$(li)Strength VI (with empty hand)"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider Kuuga (2015, manga)$(li)Kamen Rider Zi-O: Over Quartzer (2019, movie)$(br2)Transforms with the $(l:kuuga/devices/manga_arcle)Manga Arcle$(/l)$(br2)Status Effects:$(li)Punch III$(li)Flatten$(li)Strength VI (with empty hand)"
+		}
+	]
 }

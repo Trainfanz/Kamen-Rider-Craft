@@ -1,12 +1,12 @@
 {
-    "name": "Kuuga Logo",
-    "icon": "kamenridercraft:kuuga_logo",
-    "category": "kamenridercraft:kuuga/items",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:kuuga/kuuga_logo"
-        }
-    ]
+	"name": "Kuuga Logo",
+	"icon": "kamenridercraft:kuuga_logo",
+	"category": "kamenridercraft:kuuga/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kuuga/kuuga_logo"
+		}
+	]
 }

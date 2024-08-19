@@ -15,15 +15,6 @@
 	  "entries": [
 		{
 		  "type": "minecraft:item",
-		  "name": "kamenridercraft:orga_driver"
-		}
-	  ]
-	},
-	{
-	  "rolls": 1,
-	  "entries": [
-		{
-		  "type": "minecraft:item",
 		  "name": "kamenridercraft:faiz_blaster_mission_memory"
 		}
 	  ]

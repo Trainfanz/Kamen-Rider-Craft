@@ -1,18 +1,18 @@
 {
-    "name": "Dark X",
-    "icon": "kamenridercraft:sinister_pachinko_ball",
-    "category": "kamenridercraft:x/riders",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:god_warfare_agent{ArmorItems:[{id:\"kamenridercraft:dark_ridol\",Count:1b},{id:\"kamenridercraft:xlegs\",Count:1b},{id:\"kamenridercraft:xtroso\",Count:1b},{id:\"kamenridercraft:xhead\",Count:1b}]}",
-            "name": " "
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Dark X",
+	"icon": "kamenridercraft:sinister_pachinko_ball",
+	"category": "kamenridercraft:x/riders",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:god_warfare_agent{ArmorItems:[{id:\"kamenridercraft:dark_ridol\",Count:1b},{id:\"kamenridercraft:xlegs\",Count:1b},{id:\"kamenridercraft:xtroso\",Count:1b},{id:\"kamenridercraft:xhead\",Count:1b}]}",
+			"name": " "
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Dark x",
-            "text": "Appears in:$(li)Pachinko Kamen Rider: Full Throttle (2015, Pachinko game)$(br2)Transforms with the $(l:x/devices/dark_ridol)Ridol (Dark X)$(/l)$(br2)Status Effects:$(li)Speed III$(li)Regeneration$(li)Jump Boost III$(li)Strength II"
-        }
-    ]
+			"text": "Appears in:$(li)Pachinko Kamen Rider: Full Throttle (2015, Pachinko game)$(br2)Transforms with the $(l:x/devices/dark_ridol)Ridol (Dark X)$(/l)$(br2)Status Effects:$(li)Speed III$(li)Regeneration$(li)Jump Boost III$(li)Strength II"
+		}
+	]
 }

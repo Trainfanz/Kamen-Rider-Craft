@@ -1,19 +1,19 @@
 {
-    "name": "Kuuga Titan Amadam",
-    "icon": "kamenridercraft:kuuga_titan",
-    "category": "kamenridercraft:kuuga/items",
-    "sortnum": 5,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Used to access Kuuga's $(l:kuuga/riders/kuuga#titan)Titan Form$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:kuuga_titan",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:kuuga/mobs/zu-gumun-ba)Zu-Gumun-Ba$(/l)$(li)$(l:misc/blocks/stone_kuuga)Kuuga Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_kuuga)Deepslate Kuuga Ore$(/l)"
-        }
-    ]
+	"name": "Kuuga Titan Amadam",
+	"icon": "kamenridercraft:kuuga_titan",
+	"category": "kamenridercraft:kuuga/items",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Used to access Kuuga's $(l:kuuga/riders/kuuga#titan)Titan Form$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:kuuga_titan",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:kuuga/mobs/zu-gumun-ba)Zu-Gumun-Ba$(/l)$(li)$(l:misc/blocks/stone_kuuga)Kuuga Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_kuuga)Deepslate Kuuga Ore$(/l)"
+		}
+	]
 }

@@ -1,19 +1,19 @@
 {
-    "name": "Ichigo Chair",
-    "icon": "kamenridercraft:ichigo_chair",
-    "category": "kamenridercraft:misc/blocks",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Based on:$(li)Takatoku Kamen Rider Children's Chair \"Transformation\" (Green)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:ichigo_chair",
-            "title": " ",
-            "text": "The greatest block to ever exist, this block is traded by a journeyman Shocker Villager"
-        }
-    ]
+	"name": "Ichigo Chair",
+	"icon": "kamenridercraft:ichigo_chair",
+	"category": "kamenridercraft:misc/blocks",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Based on:$(li)Takatoku Kamen Rider Children's Chair \"Transformation\" (Green)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:ichigo_chair",
+			"title": " ",
+			"text": "The greatest block to ever exist, this block is traded by a journeyman Shocker Villager"
+		}
+	]
 }

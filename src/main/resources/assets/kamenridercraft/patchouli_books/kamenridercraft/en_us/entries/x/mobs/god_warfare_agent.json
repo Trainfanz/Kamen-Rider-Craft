@@ -1,17 +1,17 @@
 {
-    "name": "G.O.D. Warfare Agent",
-    "icon": "kamenridercraft:x_logo",
-    "category": "kamenridercraft:x/mobs",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:god_warfare_agent",
-            "text": "Spawn locations: Plains, Desert, Taiga, Snowy Plains, Beach, Jungle, Birch Forest, Snowy Taiga, Old Growth Pine Taiga, Savanna"
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider X (1974, TV show)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)0-1 $(l:misc/items/rider_circuit)Rider Circuit$(/l) (50%)$(li)0-1 $(l:x/items/ridol_core)Ridol Core$(/l) (50%)"
-        }
-    ]
+	"name": "G.O.D. Warfare Agent",
+	"icon": "kamenridercraft:x_logo",
+	"category": "kamenridercraft:x/mobs",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:god_warfare_agent",
+			"text": "Spawn locations: Plains, Desert, Taiga, Snowy Plains, Beach, Jungle, Birch Forest, Snowy Taiga, Old Growth Pine Taiga, Savanna"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider X (1974, TV show)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)0-1 $(l:misc/items/rider_circuit)Rider Circuit$(/l) (50%)$(li)0-1 $(l:x/items/ridol_core)Ridol Core$(/l) (50%)"
+		}
+	]
 }

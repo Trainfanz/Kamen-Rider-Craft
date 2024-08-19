@@ -1,16 +1,16 @@
 {
-    "name": "Base Weapon",
-    "icon": "kamenridercraft:base_sword",
-    "category": "kamenridercraft:misc/items",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Used to craft most Rider weapons"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:misc/base_sword"
-        }
-    ]
+	"name": "Base Weapon",
+	"icon": "kamenridercraft:base_sword",
+	"category": "kamenridercraft:misc/items",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Used to craft most Rider weapons"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:misc/base_sword"
+		}
+	]
 }

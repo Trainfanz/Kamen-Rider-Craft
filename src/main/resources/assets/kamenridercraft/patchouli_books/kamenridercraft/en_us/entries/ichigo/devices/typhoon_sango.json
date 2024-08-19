@@ -1,16 +1,16 @@
 {
-    "name": "Typhoon (Sango)",
-    "icon": "kamenridercraft:typhoon_sango",
-    "category": "kamenridercraft:ichigo/devices",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Super Hero Taisen GP: Kamen Rider 3 (2015, movie)$(br2)Used alongside the $(l:ichigo/devices/armor)Ichigo armor$(/l) to transform into $(l:ichigo/riders/sango#movie_sango)Kamen Rider Sango"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:ichigo/typhoon_sango"
-        }
-    ]
+	"name": "Typhoon (Sango)",
+	"icon": "kamenridercraft:typhoon_sango",
+	"category": "kamenridercraft:ichigo/devices",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Super Hero Taisen GP: Kamen Rider 3 (2015, movie)$(br2)Used alongside the $(l:ichigo/devices/armor)Ichigo armor$(/l) to transform into $(l:ichigo/riders/sango#movie_sango)Kamen Rider Sango"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:ichigo/typhoon_sango"
+		}
+	]
 }

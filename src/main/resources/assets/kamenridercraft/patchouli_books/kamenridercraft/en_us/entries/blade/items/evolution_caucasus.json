@@ -1,19 +1,19 @@
 {
-    "name": "Evolution Caucasus Rouze Card",
-    "icon": "kamenridercraft:evolution_caucasus",
-    "category": "kamenridercraft:blade/items",
-    "sortnum": 6,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used to access Blade's $(l:blade/riders/blade#king)King$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:evolution_caucasus",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
-        }
-    ]
+	"name": "Evolution Caucasus Rouze Card",
+	"icon": "kamenridercraft:evolution_caucasus",
+	"category": "kamenridercraft:blade/items",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used to access Blade's $(l:blade/riders/blade#king)King$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:evolution_caucasus",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
+		}
+	]
 }

@@ -1,16 +1,16 @@
 {
-    "name": "Rider Buckle",
-    "icon": "kamenridercraft:riderman_belt",
-    "category": "kamenridercraft:v3/devices",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider V3 (1973, TV show)$(br2)Used alongside the $(l:v3/devices/armor)V3 armor$(/l) to transform into $(l:v3/riders/riderman#riderman)Riderman"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:v3/riderman_belt"
-        }
-    ]
+	"name": "Rider Buckle",
+	"icon": "kamenridercraft:riderman_belt",
+	"category": "kamenridercraft:v3/devices",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider V3 (1973, TV show)$(br2)Used alongside the $(l:v3/devices/armor)V3 armor$(/l) to transform into $(l:v3/riders/riderman#riderman)Riderman"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:v3/riderman_belt"
+		}
+	]
 }

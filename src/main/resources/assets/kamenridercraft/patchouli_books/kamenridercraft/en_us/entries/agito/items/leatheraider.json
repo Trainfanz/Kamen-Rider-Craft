@@ -1,16 +1,16 @@
 {
-    "name": "Leatheraider Card Warrior Card",
-    "icon": "kamenridercraft:leatheraider",
-    "category": "kamenridercraft:agito/items",
-    "sortnum": 24,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Used to access Gills's $(l:agito/riders/gills#leatheraider)Leatheraider$(/l) form"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:misc/leatheraider"
-        }
-    ]
+	"name": "Leatheraider Card Warrior Card",
+	"icon": "kamenridercraft:leatheraider",
+	"category": "kamenridercraft:agito/items",
+	"sortnum": 24,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Used to access Gills's $(l:agito/riders/gills#leatheraider)Leatheraider$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:misc/leatheraider"
+		}
+	]
 }

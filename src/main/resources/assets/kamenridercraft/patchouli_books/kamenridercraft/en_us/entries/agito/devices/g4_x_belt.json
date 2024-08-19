@@ -1,16 +1,16 @@
 {
-    "name": "G-Buckle (G4-X)",
-    "icon": "kamenridercraft:g4_x_belt",
-    "category": "kamenridercraft:agito/devices",
-    "sortnum": 8,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Project G1 (2007, S.I.C. Hero Saga)$(br2)Used alongside the $(l:agito/devices/armor)Agito armor$(/l) to transform into $(l:agito/riders/g4-x)Kamen Rider G4-X"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:agito/g4_x_belt"
-        }
-    ]
+	"name": "G-Buckle (G4-X)",
+	"icon": "kamenridercraft:g4_x_belt",
+	"category": "kamenridercraft:agito/devices",
+	"sortnum": 8,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Project G1 (2007, S.I.C. Hero Saga)$(br2)Used alongside the $(l:agito/devices/armor)Agito armor$(/l) to transform into $(l:agito/riders/g4-x)Kamen Rider G4-X"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:agito/g4_x_belt"
+		}
+	]
 }

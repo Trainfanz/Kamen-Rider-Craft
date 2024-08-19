@@ -1,19 +1,19 @@
 {
-    "name": "Kamen Rider Verde",
-    "icon": "kamenridercraft:biogreeza_advent",
-    "category": "kamenridercraft:ryuki/riders",
-    "sortnum": 12,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:v_buckle_verde\",Count:1b},{id:\"kamenridercraft:ryukilegs\",Count:1b},{id:\"kamenridercraft:ryukitroso\",Count:1b},{id:\"kamenridercraft:ryukihead\",Count:1b}]}",
-            "name": " ",
-            "text": ""
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Verde",
+	"icon": "kamenridercraft:biogreeza_advent",
+	"category": "kamenridercraft:ryuki/riders",
+	"sortnum": 12,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:v_buckle_verde\",Count:1b},{id:\"kamenridercraft:ryukilegs\",Count:1b},{id:\"kamenridercraft:ryukitroso\",Count:1b},{id:\"kamenridercraft:ryukihead\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Verde",
-            "text": "Appears in:$(li)Kamen Rider Ryuki Special: 13 Riders (2002, TV special)$(br2)Transforms with the $(l:ryuki/devices/v_buckle_verde)V Buckle (Verde)$(/l)$(br2)Status Effects:$(li)Speed III$(li)Jump Boost VI$(li)Strength II"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider Ryuki Special: 13 Riders (2002, TV special)$(br2)Transforms with the $(l:ryuki/devices/v_buckle_verde)V Buckle (Verde)$(/l)$(br2)Status Effects:$(li)Speed III$(li)Jump Boost VI$(li)Strength II"
+		}
+	]
 }

@@ -1,16 +1,16 @@
 {
-    "name": "ZX Belt",
-    "icon": "kamenridercraft:zx_belt",
-    "category": "kamenridercraft:zx/devices",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Birth of the 10th! Kamen Riders All Together!! (1984, TV special)$(br2)Used alongside the $(l:zx/devices/armor)ZX armor$(/l) to transform into $(l:zx/riders/zx)Kamen Rider ZX"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:zx/zx_belt"
-        }
-    ]
+	"name": "ZX Belt",
+	"icon": "kamenridercraft:zx_belt",
+	"category": "kamenridercraft:zx/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Birth of the 10th! Kamen Riders All Together!! (1984, TV special)$(br2)Used alongside the $(l:zx/devices/armor)ZX armor$(/l) to transform into $(l:zx/riders/zx)Kamen Rider ZX"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:zx/zx_belt"
+		}
+	]
 }

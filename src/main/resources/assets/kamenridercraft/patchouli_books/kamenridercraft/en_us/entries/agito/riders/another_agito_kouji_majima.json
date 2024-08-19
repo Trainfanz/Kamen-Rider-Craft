@@ -1,32 +1,32 @@
 {
-    "name": "Kamen Rider Another Agito (Kouji Majima)",
-    "icon": "kamenridercraft:another_agito_koji",
-    "category": "kamenridercraft:agito/riders",
-    "sortnum": 12,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "anchor": "another_agito",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:alter_ring\",tag:{slot_tex1:\"another_agito_koji\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
-            "name": " ",
-            "text": "Accessed with the $(l:agito/items/another_agito_koji)Another Agito Philosopher's Stone (Kouji Majima)$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Another Agito (Kouji Majima)",
+	"icon": "kamenridercraft:another_agito_koji",
+	"category": "kamenridercraft:agito/riders",
+	"sortnum": 12,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "another_agito",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:alter_ring\",tag:{slot_tex1:\"another_agito_koji\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
+			"name": " ",
+			"text": "Accessed with the $(l:agito/items/another_agito_koji)Another Agito Philosopher's Stone (Kouji Majima)$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Another Agito",
-            "text": "Appears in:$(li)The Man that has Become a Kamen Rider (2012, S.I.C. Hero Saga)$(br2)Transforms with the $(l:agito/devices/alter_ring)Altering$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost IV$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "burning",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:alter_ring\",tag:{slot_tex1:\"another_agito_burning_form\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
-            "name": "Burning Form",
-            "text": "Accessed with the $(l:agito/items/another_agito_burning_form)Another Agito Burning Philosopher's Stone$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)The Man that has Become a Kamen Rider (2012, S.I.C. Hero Saga)$(br2)Transforms with the $(l:agito/devices/alter_ring)Altering$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost IV$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "burning",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:alter_ring\",tag:{slot_tex1:\"another_agito_burning_form\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
+			"name": "Burning Form",
+			"text": "Accessed with the $(l:agito/items/another_agito_burning_form)Another Agito Burning Philosopher's Stone$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Another Agito",
-            "text": "Appears in:$(li)The Man that has Become a Kamen Rider (2012, S.I.C. Hero Saga)$(br2)Transforms with the $(l:agito/devices/alter_ring)Altering$(/l)$(br2)Status Effects:$(li)Resistance IV$(li)Jump Boost VI$(li)Fire Resistance$(li)Strength V"
-        }
-    ]
+			"text": "Appears in:$(li)The Man that has Become a Kamen Rider (2012, S.I.C. Hero Saga)$(br2)Transforms with the $(l:agito/devices/alter_ring)Altering$(/l)$(br2)Status Effects:$(li)Resistance IV$(li)Jump Boost VI$(li)Fire Resistance$(li)Strength V"
+		}
+	]
 }

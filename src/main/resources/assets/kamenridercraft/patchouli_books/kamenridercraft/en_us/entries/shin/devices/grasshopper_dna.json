@@ -1,16 +1,16 @@
 {
-    "name": "Grasshopper DNA",
-    "icon": "kamenridercraft:grasshopper_dna",
-    "category": "kamenridercraft:shin/devices",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Shin Kamen Rider: Prologue (1992, movie)$(br2)Used alongside the $(l:shin/devices/armor)Shin armor$(/l) to transform into $(l:shin/riders/shin)Kamen Rider Shin"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:shin/grasshopper_dna"
-        }
-    ]
+	"name": "Grasshopper DNA",
+	"icon": "kamenridercraft:grasshopper_dna",
+	"category": "kamenridercraft:shin/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Shin Kamen Rider: Prologue (1992, movie)$(br2)Used alongside the $(l:shin/devices/armor)Shin armor$(/l) to transform into $(l:shin/riders/shin)Kamen Rider Shin"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:shin/grasshopper_dna"
+		}
+	]
 }

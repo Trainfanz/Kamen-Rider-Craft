@@ -1,19 +1,19 @@
 {
-    "name": "Kamen Rider ZX",
-    "icon": "kamenridercraft:zx_belt_core",
-    "category": "kamenridercraft:zx/riders",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:zx_belt\",Count:1b},{id:\"kamenridercraft:zxlegs\",Count:1b},{id:\"kamenridercraft:zxtroso\",Count:1b},{id:\"kamenridercraft:zxhead\",Count:1b}]}",
-            "name": " ",
-            "text": ""
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider ZX",
+	"icon": "kamenridercraft:zx_belt_core",
+	"category": "kamenridercraft:zx/riders",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:zx_belt\",Count:1b},{id:\"kamenridercraft:zxlegs\",Count:1b},{id:\"kamenridercraft:zxtroso\",Count:1b},{id:\"kamenridercraft:zxhead\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider ZX",
-            "text": "Appears in:$(li)Birth of the 10th! Kamen Riders All Together!! (1984, TV special)$(br2)Transforms with the $(l:zx/devices/zx_belt)ZX Belt$(/l)$(br2)Status Effects:$(li)Speed III$(li)Regeneration$(li)Jump Boost II$(li)Strength II"
-        }
-    ]
+			"text": "Appears in:$(li)Birth of the 10th! Kamen Riders All Together!! (1984, TV special)$(br2)Transforms with the $(l:zx/devices/zx_belt)ZX Belt$(/l)$(br2)Status Effects:$(li)Speed III$(li)Regeneration$(li)Jump Boost II$(li)Strength II"
+		}
+	]
 }

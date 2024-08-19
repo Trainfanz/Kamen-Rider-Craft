@@ -1,16 +1,16 @@
 {
-    "name": "G-Chip Programmer",
-    "icon": "kamenridercraft:g_chip_programer",
-    "category": "kamenridercraft:misc/blocks",
-    "sortnum": 7,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Use $(l:agito/items/g3core)Blank G-System Chips$(/l) on this block to turn them into different G-Chips, such as the $(l:agito/items/g3)G3 Chip$(/l)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:agito/g_chip_programer"
-        }
-    ]
+	"name": "G-Chip Programmer",
+	"icon": "kamenridercraft:g_chip_programer",
+	"category": "kamenridercraft:misc/blocks",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Use $(l:agito/items/g3core)Blank G-System Chips$(/l) on this block to turn them into different G-Chips, such as the $(l:agito/items/g3)G3 Chip$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:agito/g_chip_programer"
+		}
+	]
 }

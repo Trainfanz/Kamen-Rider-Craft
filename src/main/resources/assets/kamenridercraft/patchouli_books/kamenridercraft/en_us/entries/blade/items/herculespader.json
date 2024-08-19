@@ -1,0 +1,16 @@
+{
+	"name": "Herculespader Card Warrior Card",
+	"icon": "kamenridercraft:herculespader",
+	"category": "kamenridercraft:blade/items",
+	"sortnum": 20,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Used to access Blade's $(l:blade/riders/blade#herculespader)Herculespader$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:misc/herculespader"
+		}
+	]
+}

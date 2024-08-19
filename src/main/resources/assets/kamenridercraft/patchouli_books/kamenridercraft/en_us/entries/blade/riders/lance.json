@@ -1,19 +1,19 @@
 {
-    "name": "Kamen Rider Lance",
-    "icon": "kamenridercraft:change_kerberos_lance",
-    "category": "kamenridercraft:blade/riders",
-    "sortnum": 5,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:lance_buckle\",Count:1b},{id:\"kamenridercraft:bladelegs\",Count:1b},{id:\"kamenridercraft:bladetroso\",Count:1b},{id:\"kamenridercraft:bladehead\",Count:1b}]}",
-            "name": " ",
-            "text": ""
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Lance",
+	"icon": "kamenridercraft:change_kerberos_lance",
+	"category": "kamenridercraft:blade/riders",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:lance_buckle\",Count:1b},{id:\"kamenridercraft:bladelegs\",Count:1b},{id:\"kamenridercraft:bladetroso\",Count:1b},{id:\"kamenridercraft:bladehead\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Lance",
-            "text": "Appears in:$(li)Kamen Rider Blade: Missing Ace (2004, Movie)$(br2)Transforms with the $(l:blade/devices/lance_buckle)Lance Buckle$(/l)$(br2)Status Effects:$(li)Speed II$(li)Resistance$(li)Jump Boost II$(li)Strength"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider Blade: Missing Ace (2004, movie)$(br2)Transforms with the $(l:blade/devices/lance_buckle)Lance Buckle$(/l)$(br2)Status Effects:$(li)Speed II$(li)Resistance$(li)Jump Boost II$(li)Strength"
+		}
+	]
 }

@@ -1,19 +1,19 @@
 {
-    "name": "Kaijin Stone",
-    "icon": "kamenridercraft:kaijin_stone",
-    "category": "kamenridercraft:black_sun/items",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Used to craft the $(l:black_sun/devices/armor)Black Sun armor$(/l), weapons, and transformation devices"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:kaijin_stone",
-            "title": " ",
-            "text": "Obtained by using $(l:black_sun/items/creation_king_extract_vial)Creation King Extract Vials$(/l) on the $(l:misc/blocks/kaijin_stone_generator)Kaijin Stone Generator$(/l)"
-        }
-    ]
+	"name": "Kaijin Stone",
+	"icon": "kamenridercraft:kaijin_stone",
+	"category": "kamenridercraft:black_sun/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Used to craft the $(l:black_sun/devices/armor)Black Sun armor$(/l), weapons, and transformation devices"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:kaijin_stone",
+			"title": " ",
+			"text": "Obtained by using $(l:black_sun/items/creation_king_extract_vial)Creation King Extract Vials$(/l) on the $(l:misc/blocks/kaijin_stone_generator)Kaijin Stone Generator$(/l)"
+		}
+	]
 }

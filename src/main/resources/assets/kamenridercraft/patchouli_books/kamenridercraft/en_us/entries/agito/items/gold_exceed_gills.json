@@ -1,19 +1,19 @@
 {
-    "name": "Gold Exceed Gills Philosopher's Stone",
-    "icon": "kamenridercraft:gold_exceed_gills",
-    "category": "kamenridercraft:agito/items",
-    "sortnum": 10,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Rider Hero Series (2001, toyline)$(br2)Used to access Gills's $(l:agito/riders/gills#exceed_gills)Exceed Gills$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:gold_exceed_gills",
-            "title": " ",
-            "text": "Item is currently unobtainable"
-        }
-    ]
+	"name": "Gold Exceed Gills Philosopher's Stone",
+	"icon": "kamenridercraft:gold_exceed_gills",
+	"category": "kamenridercraft:agito/items",
+	"sortnum": 10,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Rider Hero Series (2001, toyline)$(br2)Used to access Gills's $(l:agito/riders/gills#exceed_gills)Exceed Gills$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:gold_exceed_gills",
+			"title": " ",
+			"text": "Item is currently unobtainable"
+		}
+	]
 }

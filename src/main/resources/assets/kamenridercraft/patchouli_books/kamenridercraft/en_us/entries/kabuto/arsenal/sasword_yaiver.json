@@ -1,16 +1,16 @@
 {
-    "name": "Sasword Yaiver",
-    "icon": "kamenridercraft:sasword_yaiver",
-    "category": "kamenridercraft:kabuto/arsenal",
-    "sortnum": 6,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used by Kamen Rider $(l:kabuto/riders/sasword)Sasword$(/l)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:kabuto/sasword_yaiver"
-        }
-    ]
+	"name": "Sasword Yaiver",
+	"icon": "kamenridercraft:sasword_yaiver",
+	"category": "kamenridercraft:kabuto/arsenal",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used by Kamen Rider $(l:kabuto/riders/sasword)Sasword$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kabuto/sasword_yaiver"
+		}
+	]
 }

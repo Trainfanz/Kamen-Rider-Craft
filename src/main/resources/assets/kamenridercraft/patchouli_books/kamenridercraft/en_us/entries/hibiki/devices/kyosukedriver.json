@@ -1,0 +1,16 @@
+{
+	"name": "Ongekiko (Kyoki)",
+	"icon": "kamenridercraft:kyosukedriver",
+	"category": "kamenridercraft:hibiki/devices",
+	"sortnum": 14,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Used alongside the $(l:hibiki/devices/armor)Hibiki armor$(/l) to transform into $(l:hibiki/riders/transformed_kyosuke)Transformed Kyosuke (Kamen Rider Kyoki)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:hibiki/kyosukedriver"
+		}
+	]
+}

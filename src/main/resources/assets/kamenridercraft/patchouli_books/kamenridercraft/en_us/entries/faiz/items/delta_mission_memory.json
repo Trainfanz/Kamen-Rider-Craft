@@ -1,19 +1,19 @@
 {
-    "name": "Delta Mission Memory",
-    "icon": "kamenridercraft:delta_mission_memory",
-    "category": "kamenridercraft:faiz/items",
-    "sortnum": 7,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Used to craft Delta's $(l:faiz/devices/delta_driver)Delta Driver$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:delta_mission_memory",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:faiz/mobs/riotrooper)Riotroopers$(/l)"
-        }
-    ]
+	"name": "Delta Mission Memory",
+	"icon": "kamenridercraft:delta_mission_memory",
+	"category": "kamenridercraft:faiz/items",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Used to craft Delta's $(l:faiz/devices/delta_driver)Delta Driver$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:delta_mission_memory",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:faiz/mobs/riotrooper)Riotroopers$(/l)"
+		}
+	]
 }

@@ -1,44 +1,44 @@
 {
-    "name": "Shadow Moon",
-    "icon": "kamenridercraft:green_king_stone",
-    "category": "kamenridercraft:black/riders",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "anchor": "shadow_moon",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:shadow_charger\",tag:{slot_tex1:\"green_king_stone\"},Count:1b},{id:\"kamenridercraft:blacklegs\",Count:1b},{id:\"kamenridercraft:blacktorso\",Count:1b},{id:\"kamenridercraft:blackhead\",Count:1b}]}",
-            "name": " ",
-            "text": "Accessed with the $(l:black/items/green_king_stone)Green Kingstone$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Shadow Moon",
+	"icon": "kamenridercraft:green_king_stone",
+	"category": "kamenridercraft:black/riders",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "shadow_moon",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:shadow_charger\",tag:{slot_tex1:\"green_king_stone\"},Count:1b},{id:\"kamenridercraft:blacklegs\",Count:1b},{id:\"kamenridercraft:blacktorso\",Count:1b},{id:\"kamenridercraft:blackhead\",Count:1b}]}",
+			"name": " ",
+			"text": "Accessed with the $(l:black/items/green_king_stone)Green Kingstone$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Shadow Moon",
-            "text": "Appears in:$(li)Kamen Rider Black (1987, TV show)$(br2)Transforms with the $(l:black/devices/shadow_charger)Shadow Charger$(/l)$(br2)Status Effects:$(li)Haste$(li)Jump Boost II$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "red_shadow_moon",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:shadow_charger\",tag:{slot_tex1:\"creation_king_stone\"},Count:1b},{id:\"kamenridercraft:blacklegs\",Count:1b},{id:\"kamenridercraft:blacktorso\",Count:1b},{id:\"kamenridercraft:blackhead\",Count:1b}]}",
-            "name": "Red Shadow Moon",
-            "text": "Accessed with the $(l:black/items/creation_king_stone)Creation King Stone$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Black (1987, TV show)$(br2)Transforms with the $(l:black/devices/shadow_charger)Shadow Charger$(/l)$(br2)Status Effects:$(li)Haste$(li)Jump Boost II$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "red_shadow_moon",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:shadow_charger\",tag:{slot_tex1:\"creation_king_stone\"},Count:1b},{id:\"kamenridercraft:blacklegs\",Count:1b},{id:\"kamenridercraft:blacktorso\",Count:1b},{id:\"kamenridercraft:blackhead\",Count:1b}]}",
+			"name": "Red Shadow Moon",
+			"text": "Accessed with the $(l:black/items/creation_king_stone)Creation King Stone$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Shadow Moon",
-            "text": "Appears in:$(li)Kamen Rider 3D Battle from Ganbaride (2014, 3D film)$(br2)Transforms with the $(l:black/devices/shadow_charger)Shadow Charger$(/l)$(br2)Status Effects:$(li)Haste$(li)Jump Boost II$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "hajime_sorayama",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:shadow_charger\",tag:{slot_tex1:\"green_king_stone_hajime_sorayama\"},Count:1b},{id:\"kamenridercraft:blacklegs\",Count:1b},{id:\"kamenridercraft:blacktorso\",Count:1b},{id:\"kamenridercraft:blackhead\",Count:1b}]}",
-            "name": "Hajime Sorayama Redesign",
-            "text": "Accessed with the $(l:black/items/green_king_stone_hajime_sorayama)Green Kingstone (Hajime Sorayama Ver.)$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider 3D Battle from Ganbaride (2014, 3D film)$(br2)Transforms with the $(l:black/devices/shadow_charger)Shadow Charger$(/l)$(br2)Status Effects:$(li)Haste$(li)Jump Boost II$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "hajime_sorayama",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:shadow_charger\",tag:{slot_tex1:\"green_king_stone_hajime_sorayama\"},Count:1b},{id:\"kamenridercraft:blacklegs\",Count:1b},{id:\"kamenridercraft:blacktorso\",Count:1b},{id:\"kamenridercraft:blackhead\",Count:1b}]}",
+			"name": "Hajime Sorayama Redesign",
+			"text": "Accessed with the $(l:black/items/green_king_stone_hajime_sorayama)Green Kingstone (Hajime Sorayama Ver.)$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Shadow Moon",
-            "text": "Appears in:$(li)Medicom Toy 25th Anniversary Exhibition (2021, exhibition)$(br2)Transforms with the $(l:black/devices/shadow_charger)Shadow Charger$(/l)$(br2)Status Effects:$(li)Haste$(li)Jump Boost II$(li)Strength II"
-        }
-    ]
+			"text": "Appears in:$(li)Medicom Toy 25th Anniversary Exhibition (2021, exhibition)$(br2)Transforms with the $(l:black/devices/shadow_charger)Shadow Charger$(/l)$(br2)Status Effects:$(li)Haste$(li)Jump Boost II$(li)Strength II"
+		}
+	]
 }

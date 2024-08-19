@@ -1,19 +1,19 @@
 {
-    "name": "Biorider Core",
-    "icon": "kamenridercraft:bio_core",
-    "category": "kamenridercraft:black_rx/items",
-    "sortnum": 4,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Black RX (1988, TV show)$(br2)Used to access Black RX's $(l:black_rx/riders/black_rx#biorider)Biorider$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:bio_core",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:black_rx/mobs/grey_chap)Grey Chap$(/l)"
-        }
-    ]
+	"name": "Biorider Core",
+	"icon": "kamenridercraft:bio_core",
+	"category": "kamenridercraft:black_rx/items",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Black RX (1988, TV show)$(br2)Used to access Black RX's $(l:black_rx/riders/black_rx#biorider)Biorider$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:bio_core",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:black_rx/mobs/grey_chap)Grey Chap$(/l)"
+		}
+	]
 }

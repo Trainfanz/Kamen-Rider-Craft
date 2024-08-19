@@ -1,16 +1,16 @@
 {
-    "name": "Tornado",
-    "icon": "kamenridercraft:tornado",
-    "category": "kamenridercraft:skyrider/devices",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)The New Kamen Rider (1979, TV show)$(br2)Used alongside the $(l:skyrider/devices/armor)Skyrider armor$(/l) to transform into $(l:skyrider/riders/skyrider)Skyrider"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:skyrider/tornado"
-        }
-    ]
+	"name": "Tornado",
+	"icon": "kamenridercraft:tornado",
+	"category": "kamenridercraft:skyrider/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)The New Kamen Rider (1979, TV show)$(br2)Used alongside the $(l:skyrider/devices/armor)Skyrider armor$(/l) to transform into $(l:skyrider/riders/skyrider)Skyrider"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:skyrider/tornado"
+		}
+	]
 }

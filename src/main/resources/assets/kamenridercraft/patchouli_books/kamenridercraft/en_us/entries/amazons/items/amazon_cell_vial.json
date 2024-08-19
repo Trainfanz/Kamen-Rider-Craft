@@ -1,19 +1,19 @@
 {
-    "name": "Amazon Cell Vial",
-    "icon": "kamenridercraft:amazon_cell_vial",
-    "category": "kamenridercraft:amazons/items",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "$(li)Used to craft the $(l:amazons/devices/armor)Amazons armor$(/l)$(li)Used on the $(l:misc/blocks/amazon_cell_mutator)Amazon Cell Mutator$(/l) to obtain the $(l:amazons/items/omega_amazon_cell_vial)Omega$(/l), $(l:amazons/items/alpha_amazon_cell_vial)Alpha$(/l), $(l:amazons/items/sigma_amazon_cell_vial)Sigma$(/l), or $(l:amazons/items/neo_amazon_cell_vial)Neo$(/l) cell variants"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:amazon_cell_vial",
-            "title": " ",
-            "text": "Obtained by using $(l:misc/items/empty_vial)Empty Vials$(/l) on the $(l:misc/blocks/amazon_cell_extractor)Amazon Cell Extractor$(/l)"
-        }
-    ]
+	"name": "Amazon Cell Vial",
+	"icon": "kamenridercraft:amazon_cell_vial",
+	"category": "kamenridercraft:amazons/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(li)Used to craft the $(l:amazons/devices/armor)Amazons armor$(/l)$(li)Used on the $(l:misc/blocks/amazon_cell_mutator)Amazon Cell Mutator$(/l) to obtain the $(l:amazons/items/omega_amazon_cell_vial)Omega$(/l), $(l:amazons/items/alpha_amazon_cell_vial)Alpha$(/l), $(l:amazons/items/sigma_amazon_cell_vial)Sigma$(/l), or $(l:amazons/items/neo_amazon_cell_vial)Neo$(/l) cell variants"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:amazon_cell_vial",
+			"title": " ",
+			"text": "Obtained by using $(l:misc/items/empty_vial)Empty Vials$(/l) on the $(l:misc/blocks/amazon_cell_extractor)Amazon Cell Extractor$(/l)"
+		}
+	]
 }

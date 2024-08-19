@@ -1,19 +1,19 @@
 {
-    "name": "Tornado Core",
-    "icon": "kamenridercraft:tornado_core",
-    "category": "kamenridercraft:skyrider/items",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)The New Kamen Rider (1979, TV show)$(br2)Used to craft Skyrider's $(l:skyrider/devices/tornado)Tornado$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:tornado_core",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:skyrider/mobs/ari_commando)Ari Commando$(/l)"
-        }
-    ]
+	"name": "Tornado Core",
+	"icon": "kamenridercraft:tornado_core",
+	"category": "kamenridercraft:skyrider/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)The New Kamen Rider (1979, TV show)$(br2)Used to craft Skyrider's $(l:skyrider/devices/tornado)Tornado$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:tornado_core",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:skyrider/mobs/ari_commando)Ari Commando$(/l)"
+		}
+	]
 }

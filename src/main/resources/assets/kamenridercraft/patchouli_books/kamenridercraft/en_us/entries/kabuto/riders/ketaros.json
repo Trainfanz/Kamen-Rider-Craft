@@ -1,19 +1,19 @@
 {
-    "name": "Kamen Rider Ketaros",
-    "icon": "kamenridercraft:ketaros_zecter",
-    "category": "kamenridercraft:kabuto/riders",
-    "sortnum": 10,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:ketaros_rider_belt\",Count:1b},{id:\"kamenridercraft:kabutolegs\",Count:1b},{id:\"kamenridercraft:kabutotroso\",Count:1b},{id:\"kamenridercraft:kabutohead\",Count:1b}]}",
-            "name": " ",
-            "text": ""
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Ketaros",
+	"icon": "kamenridercraft:ketaros_zecter",
+	"category": "kamenridercraft:kabuto/riders",
+	"sortnum": 10,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:ketaros_rider_belt\",Count:1b},{id:\"kamenridercraft:kabutolegs\",Count:1b},{id:\"kamenridercraft:kabutotroso\",Count:1b},{id:\"kamenridercraft:kabutohead\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Ketaros",
-            "text": "Appears in:$(li)Kamen Rider Kabuto: God Speed Love (2006, Movie)$(br2)Transforms with the $(l:kabuto/devices/ketaros_rider_belt)ZECT Buckle (Ketaros)$(/l)$(br2)Status Effects:$(li)Speed IV$(li)Haste IV$(li)Strength II"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider Kabuto: God Speed Love (2006, Movie)$(br2)Transforms with the $(l:kabuto/devices/ketaros_rider_belt)ZECT Buckle (Ketaros)$(/l)$(br2)Status Effects:$(li)Speed IV$(li)Haste IV$(li)Strength II"
+		}
+	]
 }

@@ -1,16 +1,16 @@
 {
-    "name": "Satansaber",
-    "icon": "kamenridercraft:satansabre",
-    "category": "kamenridercraft:black_sun/arsenal",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Black Sun (2022, web series)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:black_sun/satansabre"
-        }
-    ]
+	"name": "Satansaber",
+	"icon": "kamenridercraft:satansabre",
+	"category": "kamenridercraft:black_sun/arsenal",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Black Sun (2022, web series)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:black_sun/satansabre"
+		}
+	]
 }

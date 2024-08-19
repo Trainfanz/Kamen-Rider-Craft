@@ -1,0 +1,19 @@
+{
+	"name": "Henshin Onsa (Danki)",
+	"icon": "kamenridercraft:henshin_onsa_danki",
+	"category": "kamenridercraft:hibiki/items",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Used to craft Danki's $(l:hibiki/devices/dankidriver)Ongekiko Mikageban$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:henshin_onsa_danki",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_hibiki)Oni Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_hibiki)Deepslate Oni Ore$(/l)"
+		}
+	]
+}

@@ -1,19 +1,16 @@
 {
-    "name": "Orga Driver",
-    "icon": "kamenridercraft:orga_driver",
-    "category": "kamenridercraft:faiz/devices",
-    "sortnum": 5,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider 555: Paradise Lost (2003, movie)$(br2)Used alongside the $(l:faiz/devices/armor)Faiz armor$(/l) to transform into $(l:faiz/riders/orga)Kamen Rider Orga"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:orga_driver",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:faiz/mobs/orga)Kamen Rider Orga$(/l)"
-        }
-    ]
+	"name": "Orga Driver",
+	"icon": "kamenridercraft:orga_driver",
+	"category": "kamenridercraft:faiz/devices",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider 555: Paradise Lost (2003, movie)$(br2)Used alongside the $(l:faiz/devices/armor)Faiz armor$(/l) to transform into $(l:faiz/riders/orga)Kamen Rider Orga"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:faiz/orga_driver"
+		}
+	]
 }

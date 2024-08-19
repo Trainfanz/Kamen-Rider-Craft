@@ -1,24 +1,24 @@
 {
-    "name": "Super-1 Armor",
-    "icon": "kamenridercraft:super_1head",
-    "category": "kamenridercraft:super-1/devices",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Used alongside the $(l:super-1/devices/cyclode)Cyclode$(/l) to transform into $(l:super-1/riders/super-1)Super-1"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:super_1/super_1head"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:super_1/super_1troso"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:super_1/super_1legs"
-        }
-    ]
+	"name": "Super-1 Armor",
+	"icon": "kamenridercraft:super_1head",
+	"category": "kamenridercraft:super-1/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Used alongside the $(l:super-1/devices/cyclode)Cyclode$(/l) to transform into $(l:super-1/riders/super-1)Super-1"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:super_1/super_1head"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:super_1/super_1troso"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:super_1/super_1legs"
+		}
+	]
 }

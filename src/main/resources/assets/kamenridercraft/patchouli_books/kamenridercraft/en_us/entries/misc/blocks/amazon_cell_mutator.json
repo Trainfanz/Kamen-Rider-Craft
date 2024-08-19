@@ -1,16 +1,16 @@
 {
-    "name": "Amazon Cell Mutator",
-    "icon": "kamenridercraft:amazon_cell_mutator",
-    "category": "kamenridercraft:misc/blocks",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Use $(l:amazons/items/amazon_cell_vial)Amazon Cell Vials$(/l) on this block to mutate the cells into their $(l:amazons/items/omega_amazon_cell_vial)Omega$(/l), $(l:amazons/items/alpha_amazon_cell_vial)Alpha$(/l), $(l:amazons/items/sigma_amazon_cell_vial)Sigma$(/l), or $(l:amazons/items/neo_amazon_cell_vial)Neo$(/l) variants"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:amazons/amazon_cell_mutator"
-        }
-    ]
+	"name": "Amazon Cell Mutator",
+	"icon": "kamenridercraft:amazon_cell_mutator",
+	"category": "kamenridercraft:misc/blocks",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Use $(l:amazons/items/amazon_cell_vial)Amazon Cell Vials$(/l) on this block to mutate the cells into their $(l:amazons/items/omega_amazon_cell_vial)Omega$(/l), $(l:amazons/items/alpha_amazon_cell_vial)Alpha$(/l), $(l:amazons/items/sigma_amazon_cell_vial)Sigma$(/l), or $(l:amazons/items/neo_amazon_cell_vial)Neo$(/l) variants"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:amazons/amazon_cell_mutator"
+		}
+	]
 }

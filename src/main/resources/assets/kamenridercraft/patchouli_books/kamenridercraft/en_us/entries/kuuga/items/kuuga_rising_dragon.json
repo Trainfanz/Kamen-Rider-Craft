@@ -1,16 +1,16 @@
 {
-    "name": "Kuuga Rising Dragon Amadam",
-    "icon": "kamenridercraft:kuuga_rising_dragon",
-    "category": "kamenridercraft:kuuga/items",
-    "sortnum": 7,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Used to access Kuuga's $(l:kuuga/riders/kuuga#rising_dragon)Rising Dragon Form$(/l)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:kuuga/kuuga_rising_dragon"
-        }
-    ]
+	"name": "Kuuga Rising Dragon Amadam",
+	"icon": "kamenridercraft:kuuga_rising_dragon",
+	"category": "kamenridercraft:kuuga/items",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Used to access Kuuga's $(l:kuuga/riders/kuuga#rising_dragon)Rising Dragon Form$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kuuga/kuuga_rising_dragon"
+		}
+	]
 }

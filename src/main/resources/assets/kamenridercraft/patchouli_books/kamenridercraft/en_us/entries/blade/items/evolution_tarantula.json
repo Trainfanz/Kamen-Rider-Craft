@@ -1,19 +1,19 @@
 {
-    "name": "Evolution Tarantula Rouze Card",
-    "icon": "kamenridercraft:evolution_tarantula",
-    "category": "kamenridercraft:blade/items",
-    "sortnum": 17,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Blade 20th Anniversary STAGE&TALK (2024, Stage Show)$(br2)Used to access Leangle's $(l:blade/riders/leangle#king)King$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:evolution_tarantula",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
-        }
-    ]
+	"name": "Evolution Tarantula Rouze Card",
+	"icon": "kamenridercraft:evolution_tarantula",
+	"category": "kamenridercraft:blade/items",
+	"sortnum": 17,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Blade 20th Anniversary STAGE&TALK (2024, stage show)$(br2)Used to access Leangle's $(l:blade/riders/leangle#king)King$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:evolution_tarantula",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
+		}
+	]
 }

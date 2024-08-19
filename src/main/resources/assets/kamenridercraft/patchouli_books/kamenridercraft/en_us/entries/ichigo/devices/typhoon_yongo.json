@@ -1,16 +1,16 @@
 {
-    "name": "Typhoon (Yongo)",
-    "icon": "kamenridercraft:typhoon_yongo",
-    "category": "kamenridercraft:ichigo/devices",
-    "sortnum": 4,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)D-Video Special: Kamen Rider 4 (2015, web series)$(br2)Used alongside the $(l:ichigo/devices/armor)Ichigo armor$(/l) to transform into $(l:ichigo/riders/yongo)Kamen Rider Yongo"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:ichigo/typhoon_yongo"
-        }
-    ]
+	"name": "Typhoon (Yongo)",
+	"icon": "kamenridercraft:typhoon_yongo",
+	"category": "kamenridercraft:ichigo/devices",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)D-Video Special: Kamen Rider 4 (2015, web series)$(br2)Used alongside the $(l:ichigo/devices/armor)Ichigo armor$(/l) to transform into $(l:ichigo/riders/yongo)Kamen Rider Yongo"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:ichigo/typhoon_yongo"
+		}
+	]
 }

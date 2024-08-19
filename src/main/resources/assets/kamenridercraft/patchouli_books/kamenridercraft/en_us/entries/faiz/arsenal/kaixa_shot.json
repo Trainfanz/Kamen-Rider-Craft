@@ -1,16 +1,16 @@
 {
-    "name": "Kaixa Shot",
-    "icon": "kamenridercraft:kaixa_shot",
-    "category": "kamenridercraft:faiz/arsenal",
-    "sortnum": 7,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Used by $(l:faiz/riders/kaixa)Kamen Rider Kaixa$(/l)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:faiz/kaixa_shot"
-        }
-    ]
+	"name": "Kaixa Shot",
+	"icon": "kamenridercraft:kaixa_shot",
+	"category": "kamenridercraft:faiz/arsenal",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Used by $(l:faiz/riders/kaixa)Kamen Rider Kaixa$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:faiz/kaixa_shot"
+		}
+	]
 }

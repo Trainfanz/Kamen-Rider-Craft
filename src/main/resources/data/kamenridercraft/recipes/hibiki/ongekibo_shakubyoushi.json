@@ -1,10 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "shuki",
+  "group": "sabaki",
   "pattern": [
-	"XRX",
+	"XXX",
 	"XMX",
-	"XXX"
+	"XRX"
   ],
   "key": {
 	"X": {
@@ -14,7 +14,7 @@
 	  "item": "kamenridercraft:base_sword"
 	},
 	"R": {
-	  "item": "kamenridercraft:henshin_kigen_shuki"
+	  "item": "kamenridercraft:henshin_kigen_sabaki"
 	}
   },
   "result": {

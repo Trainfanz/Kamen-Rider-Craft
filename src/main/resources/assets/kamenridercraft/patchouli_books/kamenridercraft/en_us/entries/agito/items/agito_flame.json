@@ -1,19 +1,19 @@
 {
-    "name": "Agito Flame Philosopher's Stone",
-    "icon": "kamenridercraft:agito_flame",
-    "category": "kamenridercraft:agito/items",
-    "sortnum": 4,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used to access Agito's $(l:agito/riders/agito#flame)Flame Form$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:agito_flame",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:agito/mobs/pantheras_luteus)Pantheras Luteus$(/l)"
-        }
-    ]
+	"name": "Agito Flame Philosopher's Stone",
+	"icon": "kamenridercraft:agito_flame",
+	"category": "kamenridercraft:agito/items",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used to access Agito's $(l:agito/riders/agito#flame)Flame Form$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:agito_flame",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:agito/mobs/pantheras_luteus)Pantheras Luteus$(/l)"
+		}
+	]
 }

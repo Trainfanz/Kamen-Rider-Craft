@@ -1,17 +1,17 @@
 {
-    "name": "Destron Combatman",
-    "icon": "kamenridercraft:v3_logo",
-    "category": "kamenridercraft:v3/mobs",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:destron_combatman",
-            "text": "Spawn locations: Desert, Windswept Hills, Forest, Swamp, Frozen Ocean, Birch Forest, Snowy Taiga, Old Growth Pine Taiga, Windswept Forest, Badlands"
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider V3 (1973, TV show)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)0-1 $(l:misc/items/rider_circuit)Rider Circuit$(/l) (33%)$(li)0-1 $(l:v3/items/double_typhoon_core)Double Typhoon Core$(/l) (33%)$(li)0-1 $(l:v3/items/riderman_belt_core)Rider Buckle Core$(/l) (26%)$(li)0-1 $(l:v3/items/blue_double_typhoon_core)Blue Double Typhoon Core$(/l) (6.7%)"
-        }
-    ]
+	"name": "Destron Combatman",
+	"icon": "kamenridercraft:v3_logo",
+	"category": "kamenridercraft:v3/mobs",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:destron_combatman",
+			"text": "Spawn locations: Desert, Windswept Hills, Forest, Swamp, Frozen Ocean, Birch Forest, Snowy Taiga, Old Growth Pine Taiga, Windswept Forest, Badlands"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider V3 (1973, TV show)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)0-1 $(l:misc/items/rider_circuit)Rider Circuit$(/l) (33%)$(li)0-1 $(l:v3/items/double_typhoon_core)Double Typhoon Core$(/l) (33%)$(li)0-1 $(l:v3/items/riderman_belt_core)Rider Buckle Core$(/l) (26%)$(li)0-1 $(l:v3/items/blue_double_typhoon_core)Blue Double Typhoon Core$(/l) (6.7%)"
+		}
+	]
 }

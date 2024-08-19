@@ -1,16 +1,16 @@
 {
-    "name": "Heat Heaven",
-    "icon": "kamenridercraft:heat_heaven",
-    "category": "kamenridercraft:black_sun/items",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Black Sun (2022, web series)$(br2)Restores 3 hunger points when eaten"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:black_sun/heat_heaven"
-        }
-    ]
+	"name": "Heat Heaven",
+	"icon": "kamenridercraft:heat_heaven",
+	"category": "kamenridercraft:black_sun/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Black Sun (2022, web series)$(br2)Restores 3 hunger points when eaten"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:black_sun/heat_heaven"
+		}
+	]
 }

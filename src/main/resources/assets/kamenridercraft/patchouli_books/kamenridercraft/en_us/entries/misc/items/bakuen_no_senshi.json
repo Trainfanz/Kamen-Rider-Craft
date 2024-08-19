@@ -1,16 +1,16 @@
 {
-    "name": "Bakuen no senshi Card Warrior Card",
-    "icon": "kamenridercraft:bakuen_no_senshi",
-    "category": "kamenridercraft:misc/items",
-    "sortnum": 9,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br)$(li)Used to access Ryuga's $(l:ryuki/riders/ryuga#bakuen_no_senshi)Bakuen no Senshi$(/l) form$(li)Used to access Faiz's $(l:faiz/riders/faiz#bakuen_no_senshi)Bakuen no Senshi$(/l) form$(li)Used to access Hibiki's $(l:hibiki/riders/hibiki#bakuen_no_senshi)Bakuen no Senshi$(/l) form"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:misc/bakuen_no_senshi"
-        }
-    ]
+	"name": "Bakuen no senshi Card Warrior Card",
+	"icon": "kamenridercraft:bakuen_no_senshi",
+	"category": "kamenridercraft:misc/items",
+	"sortnum": 9,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br)$(li)Used to access Ryuga's $(l:ryuki/riders/ryuga#bakuen_no_senshi)Bakuen no Senshi$(/l) form$(li)Used to access Faiz's $(l:faiz/riders/faiz#bakuen_no_senshi)Blaster Form (Bakuen no Senshi)$(/l)$(li)Used to access $(l:hibiki/riders/hibiki#bakuen_no_senshi)Hibiki Kurenai (Bakuen no Senshi)$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:misc/bakuen_no_senshi"
+		}
+	]
 }

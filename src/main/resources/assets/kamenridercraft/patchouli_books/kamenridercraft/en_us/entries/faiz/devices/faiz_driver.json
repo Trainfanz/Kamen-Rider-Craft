@@ -1,16 +1,16 @@
 {
-    "name": "Faiz Driver",
-    "icon": "kamenridercraft:faiz_driver",
-    "category": "kamenridercraft:faiz/devices",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Used alongside the $(l:faiz/devices/armor)Faiz armor$(/l) to transform into $(l:faiz/riders/faiz#base)Kamen Rider Faiz"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:faiz/faiz_driver"
-        }
-    ]
+	"name": "Faiz Driver",
+	"icon": "kamenridercraft:faiz_driver",
+	"category": "kamenridercraft:faiz/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Used alongside the $(l:faiz/devices/armor)Faiz armor$(/l) to transform into $(l:faiz/riders/faiz#faiz)Kamen Rider Faiz"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:faiz/faiz_driver"
+		}
+	]
 }

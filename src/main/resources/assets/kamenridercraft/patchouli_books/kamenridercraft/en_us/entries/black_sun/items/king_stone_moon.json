@@ -1,19 +1,19 @@
 {
-    "name": "Moon Kingstone",
-    "icon": "kamenridercraft:king_stone_moon",
-    "category": "kamenridercraft:black_sun/items",
-    "sortnum": 5,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Black Sun (2022, web series)$(br2)Used to craft Shadowmoon's $(l:black_sun/devices/century_king_moon_driver)Century King Moon Driver$(/l)$(br2)Used to access Shadowmoon's $(l:black_sun/riders/shadowmoon#shadowmoon)base$(/l) state"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:king_stone_moon",
-            "title": " ",
-            "text": "Obtained by using $(l:black_sun/items/creation_king_extract_vial)Creation King Extract Vials$(/l) on the $(l:misc/blocks/kaijin_stone_generator)Kaijin Stone Generator$(/l)"
-        }
-    ]
+	"name": "Moon Kingstone",
+	"icon": "kamenridercraft:king_stone_moon",
+	"category": "kamenridercraft:black_sun/items",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Black Sun (2022, web series)$(br2)Used to craft Shadowmoon's $(l:black_sun/devices/century_king_moon_driver)Century King Moon Driver$(/l)$(br2)Used to access Shadowmoon's $(l:black_sun/riders/shadowmoon#shadowmoon)base$(/l) state"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:king_stone_moon",
+			"title": " ",
+			"text": "Obtained by using $(l:black_sun/items/creation_king_extract_vial)Creation King Extract Vials$(/l) on the $(l:misc/blocks/kaijin_stone_generator)Kaijin Stone Generator$(/l)"
+		}
+	]
 }

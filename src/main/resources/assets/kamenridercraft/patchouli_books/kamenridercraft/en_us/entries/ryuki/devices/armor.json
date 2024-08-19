@@ -1,24 +1,24 @@
 {
-    "name": "Ryuki Armor",
-    "icon": "kamenridercraft:ryukihead",
-    "category": "kamenridercraft:ryuki/devices",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Used alongside a Ryuki Rider's transformation device to transform into that Rider"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:ryuki/ryukihead"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:ryuki/ryukitroso"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:ryuki/ryukilegs"
-        }
-    ]
+	"name": "Ryuki Armor",
+	"icon": "kamenridercraft:ryukihead",
+	"category": "kamenridercraft:ryuki/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Used alongside a Ryuki Rider's transformation device to transform into that Rider"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:ryuki/ryukihead"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:ryuki/ryukitroso"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:ryuki/ryukilegs"
+		}
+	]
 }

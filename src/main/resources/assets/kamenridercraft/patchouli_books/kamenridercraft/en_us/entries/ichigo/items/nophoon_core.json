@@ -1,19 +1,19 @@
 {
-    "name": "Nophoon Core",
-    "icon": "kamenridercraft:nophoon_core",
-    "category": "kamenridercraft:ichigo/items",
-    "sortnum": 11,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Norider (1988, TV show)$(br2)Used to craft Kamen Norider's $(l:ichigo/devices/nophoon_kamen_norider)Nophoon$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:nophoon_core",
-            "title": " ",
-            "text": "Traded by a journeyman Shocker Villager"
-        }
-    ]
+	"name": "Nophoon Core",
+	"icon": "kamenridercraft:nophoon_core",
+	"category": "kamenridercraft:ichigo/items",
+	"sortnum": 11,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Norider (1988, TV show)$(br2)Used to craft Kamen Norider's $(l:ichigo/devices/nophoon_kamen_norider)Nophoon$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:nophoon_core",
+			"title": " ",
+			"text": "Traded by a journeyman Shocker Villager"
+		}
+	]
 }

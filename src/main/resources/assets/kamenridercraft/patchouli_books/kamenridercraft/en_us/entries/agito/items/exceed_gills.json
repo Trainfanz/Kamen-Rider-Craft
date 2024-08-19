@@ -1,16 +1,16 @@
 {
-    "name": "Exceed Gills Philosopher's Stone",
-    "icon": "kamenridercraft:exceed_gills",
-    "category": "kamenridercraft:agito/items",
-    "sortnum": 9,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used to access Gills's $(l:agito/riders/gills#exceed_gills)Exceed Gills$(/l) form"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:agito/exceed_gills"
-        }
-    ]
+	"name": "Exceed Gills Philosopher's Stone",
+	"icon": "kamenridercraft:exceed_gills",
+	"category": "kamenridercraft:agito/items",
+	"sortnum": 9,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used to access Gills's $(l:agito/riders/gills#exceed_gills)Exceed Gills$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:agito/exceed_gills"
+		}
+	]
 }

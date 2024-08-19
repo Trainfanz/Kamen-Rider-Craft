@@ -1,16 +1,16 @@
 {
-    "name": "Electrer (Dark Stronger)",
-    "icon": "kamenridercraft:dark_electrer",
-    "category": "kamenridercraft:stronger/devices",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Pachinko Kamen Rider: Full Throttle (2015, Pachinko game)$(br2)Used alongside the $(l:stronger/devices/armor)Stronger armor$(/l) to transform into $(l:stronger/riders/dark_stronger)Dark Stronger"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:stronger/dark_electrer"
-        }
-    ]
+	"name": "Electrer (Dark Stronger)",
+	"icon": "kamenridercraft:dark_electrer",
+	"category": "kamenridercraft:stronger/devices",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Pachinko Kamen Rider: Full Throttle (2015, Pachinko game)$(br2)Used alongside the $(l:stronger/devices/armor)Stronger armor$(/l) to transform into $(l:stronger/riders/dark_stronger)Dark Stronger"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:stronger/dark_electrer"
+		}
+	]
 }

@@ -1,16 +1,16 @@
 {
-    "name": "Condorer (Dark Amazon)",
-    "icon": "kamenridercraft:dark_condorer",
-    "category": "kamenridercraft:amazon/devices",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Pachinko Kamen Rider: Full Throttle (2015, Pachinko game)$(br2)Used alongside the $(l:amazon/devices/armor)Amazon armor$(/l) to transform into $(l:amazon/riders/dark_amazon)Dark Amazon"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:amazon/dark_condorer"
-        }
-    ]
+	"name": "Condorer (Dark Amazon)",
+	"icon": "kamenridercraft:dark_condorer",
+	"category": "kamenridercraft:amazon/devices",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Pachinko Kamen Rider: Full Throttle (2015, Pachinko game)$(br2)Used alongside the $(l:amazon/devices/armor)Amazon armor$(/l) to transform into $(l:amazon/riders/dark_amazon)Dark Amazon"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:amazon/dark_condorer"
+		}
+	]
 }

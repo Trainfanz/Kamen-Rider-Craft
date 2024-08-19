@@ -1,12 +1,12 @@
 {
-    "name": "Skyrider Logo",
-    "icon": "kamenridercraft:skyrider_logo",
-    "category": "kamenridercraft:skyrider/items",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:skyrider/skyrider_logo"
-        }
-    ]
+	"name": "Skyrider Logo",
+	"icon": "kamenridercraft:skyrider_logo",
+	"category": "kamenridercraft:skyrider/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:skyrider/skyrider_logo"
+		}
+	]
 }

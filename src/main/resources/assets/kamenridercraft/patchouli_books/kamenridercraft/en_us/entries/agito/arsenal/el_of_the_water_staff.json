@@ -1,19 +1,19 @@
 {
-    "name": "Resentment of Du Sanga",
-    "icon": "kamenridercraft:el_of_the_water_staff",
-    "category": "kamenridercraft:agito/arsenal",
-    "sortnum": 17,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used by $(l:agito/mobs/el_of_the_water)El of the Water$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:el_of_the_water_staff",
-            "title": " ",
-            "text": ""
-        }
-    ]
+	"name": "Resentment of Du Sanga",
+	"icon": "kamenridercraft:el_of_the_water_staff",
+	"category": "kamenridercraft:agito/arsenal",
+	"sortnum": 17,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used by $(l:agito/mobs/el_of_the_water)El of the Water$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:el_of_the_water_staff",
+			"title": " ",
+			"text": ""
+		}
+	]
 }

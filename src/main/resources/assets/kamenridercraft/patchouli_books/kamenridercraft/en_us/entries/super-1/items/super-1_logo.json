@@ -1,12 +1,12 @@
 {
-    "name": "Super-1 Logo",
-    "icon": "kamenridercraft:super_1_logo",
-    "category": "kamenridercraft:super-1/items",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:super_1/super1_logo"
-        }
-    ]
+	"name": "Super-1 Logo",
+	"icon": "kamenridercraft:super_1_logo",
+	"category": "kamenridercraft:super-1/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:super_1/super1_logo"
+		}
+	]
 }

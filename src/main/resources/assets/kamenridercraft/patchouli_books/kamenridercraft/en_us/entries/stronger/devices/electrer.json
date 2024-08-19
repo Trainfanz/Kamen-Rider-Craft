@@ -1,16 +1,16 @@
 {
-    "name": "Electrer",
-    "icon": "kamenridercraft:electrer",
-    "category": "kamenridercraft:stronger/devices",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Stronger (1975, TV show)$(br2)Used alongside the $(l:stronger/devices/armor)Stronger armor$(/l) to transform into $(l:stronger/riders/stronger#stronger)Kamen Rider Stronger"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:stronger/electrer"
-        }
-    ]
+	"name": "Electrer",
+	"icon": "kamenridercraft:electrer",
+	"category": "kamenridercraft:stronger/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Stronger (1975, TV show)$(br2)Used alongside the $(l:stronger/devices/armor)Stronger armor$(/l) to transform into $(l:stronger/riders/stronger#stronger)Kamen Rider Stronger"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:stronger/electrer"
+		}
+	]
 }

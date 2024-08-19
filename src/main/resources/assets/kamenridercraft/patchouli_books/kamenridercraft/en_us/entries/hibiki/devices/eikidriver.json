@@ -1,0 +1,16 @@
+{
+	"name": "Ongekiko Hakuryoku",
+	"icon": "kamenridercraft:eikidriver",
+	"category": "kamenridercraft:hibiki/devices",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Used alongside the $(l:hibiki/devices/armor)Hibiki armor$(/l) to transform into $(l:hibiki/riders/eiki)Kamen Rider Eiki"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:hibiki/eikidriver"
+		}
+	]
+}

@@ -1,19 +1,19 @@
 {
-    "name": "Fusion Eagle Rouze Card",
-    "icon": "kamenridercraft:fusion_eagle",
-    "category": "kamenridercraft:blade/items",
-    "sortnum": 4,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used to craft the $(l:blade/items/rouze_absorber)Rouze Absorber$(/l)$(br2)Used to access Blade's $(l:blade/riders/blade#jack)Jack$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:fusion_eagle",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
-        }
-    ]
+	"name": "Fusion Eagle Rouze Card",
+	"icon": "kamenridercraft:fusion_eagle",
+	"category": "kamenridercraft:blade/items",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used to craft the $(l:blade/items/rouze_absorber)Rouze Absorber$(/l)$(br2)Used to access Blade's $(l:blade/riders/blade#jack)Jack$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:fusion_eagle",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
+		}
+	]
 }

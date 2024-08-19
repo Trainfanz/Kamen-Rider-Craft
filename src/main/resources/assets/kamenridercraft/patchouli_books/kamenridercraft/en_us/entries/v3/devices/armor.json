@@ -1,24 +1,24 @@
 {
-    "name": "V3 Armor",
-    "icon": "kamenridercraft:v3head",
-    "category": "kamenridercraft:v3/devices",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Used alongside an V3 Rider's transformation device to transform into that Rider"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:v3/v3head"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:v3/v3troso"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:v3/v3legs"
-        }
-    ]
+	"name": "V3 Armor",
+	"icon": "kamenridercraft:v3head",
+	"category": "kamenridercraft:v3/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Used alongside an V3 Rider's transformation device to transform into that Rider"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:v3/v3head"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:v3/v3troso"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:v3/v3legs"
+		}
+	]
 }

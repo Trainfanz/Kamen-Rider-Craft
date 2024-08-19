@@ -1,24 +1,24 @@
 {
-    "name": "Black Armor",
-    "icon": "kamenridercraft:blackhead",
-    "category": "kamenridercraft:black/devices",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Used alongside a Black Rider's transformation device to transform into that Rider"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:black/blackhead"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:black/blacktroso"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:black/blacklegs"
-        }
-    ]
+	"name": "Black Armor",
+	"icon": "kamenridercraft:blackhead",
+	"category": "kamenridercraft:black/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Used alongside a Black Rider's transformation device to transform into that Rider"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:black/blackhead"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:black/blacktroso"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:black/blacklegs"
+		}
+	]
 }

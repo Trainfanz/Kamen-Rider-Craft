@@ -1,56 +1,56 @@
 {
-    "name": "Kamen Rider V3",
-    "icon": "kamenridercraft:double_typhoon_core",
-    "category": "kamenridercraft:v3/riders",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "anchor": "v3",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:double_typhoon\",tag:{slot_tex1:\"double_typhoon_core\"},Count:1b},{id:\"kamenridercraft:v3legs\",Count:1b},{id:\"kamenridercraft:v3troso\",Count:1b},{id:\"kamenridercraft:v3head\",Count:1b}]}",
-            "name": " ",
-            "text": "Accessed with the $(l:v3/items/double_typhoon_core)Double Typhoon Core$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider V3",
+	"icon": "kamenridercraft:double_typhoon_core",
+	"category": "kamenridercraft:v3/riders",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "v3",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:double_typhoon\",tag:{slot_tex1:\"double_typhoon_core\"},Count:1b},{id:\"kamenridercraft:v3legs\",Count:1b},{id:\"kamenridercraft:v3troso\",Count:1b},{id:\"kamenridercraft:v3head\",Count:1b}]}",
+			"name": " ",
+			"text": "Accessed with the $(l:v3/items/double_typhoon_core)Double Typhoon Core$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider V3",
-            "text": "Appears in:$(li)Kamen Rider V3 (1973, TV show)$(br2)Transforms with the $(l:v3/devices/double_typhoon)Double Typhoon$(/l)$(br2)Status Effects:$(li)Speed II$(li)Resistance II$(li)Jump Boost III$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "blue_version",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:double_typhoon\",tag:{slot_tex1:\"blue_double_typhoon_core\"},Count:1b},{id:\"kamenridercraft:v3legs\",Count:1b},{id:\"kamenridercraft:v3troso\",Count:1b},{id:\"kamenridercraft:v3head\",Count:1b}]}",
-            "name": "Blue Version",
-            "text": "Accessed with the $(l:v3/items/blue_double_typhoon_core)Blue Double Typhoon Core$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider V3 (1973, TV show)$(br2)Transforms with the $(l:v3/devices/double_typhoon)Double Typhoon$(/l)$(br2)Status Effects:$(li)Speed II$(li)Resistance II$(li)Jump Boost III$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "blue_version",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:double_typhoon\",tag:{slot_tex1:\"blue_double_typhoon_core\"},Count:1b},{id:\"kamenridercraft:v3legs\",Count:1b},{id:\"kamenridercraft:v3troso\",Count:1b},{id:\"kamenridercraft:v3head\",Count:1b}]}",
+			"name": "Blue Version",
+			"text": "Accessed with the $(l:v3/items/blue_double_typhoon_core)Blue Double Typhoon Core$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider V3",
-            "text": "Appears in:$(li)Kamen Rider SPIRITS (2001, manga)$(br2)Transforms with the $(l:v3/devices/double_typhoon)Double Typhoon$(/l)$(br2)Status Effects:$(li)Speed III$(li)Resistance III$(li)Jump Boost III$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "blue_metallic_color",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:double_typhoon\",tag:{slot_tex1:\"double_typhoon_core_artist\"},Count:1b},{id:\"kamenridercraft:v3legs\",Count:1b},{id:\"kamenridercraft:v3troso\",Count:1b},{id:\"kamenridercraft:v3head\",Count:1b}]}",
-            "name": "Blue Metallic Color",
-            "text": "Accessed with the $(l:misc/items/sic_hero_saga)S.I.C. Hero Saga$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider SPIRITS (2001, manga)$(br2)Transforms with the $(l:v3/devices/double_typhoon)Double Typhoon$(/l)$(br2)Status Effects:$(li)Speed III$(li)Resistance III$(li)Jump Boost III$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "blue_metallic_color",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:double_typhoon\",tag:{slot_tex1:\"double_typhoon_core_artist\"},Count:1b},{id:\"kamenridercraft:v3legs\",Count:1b},{id:\"kamenridercraft:v3troso\",Count:1b},{id:\"kamenridercraft:v3head\",Count:1b}]}",
+			"name": "Blue Metallic Color",
+			"text": "Accessed with the $(l:misc/items/sic_hero_saga)S.I.C. Hero Saga$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider V3",
-            "text": "Appears in:$(li)S.I.C. Takumi Damashii Vol. 3 (2004, toyline)$(br2)Transforms with the $(l:v3/devices/double_typhoon)Double Typhoon$(/l)$(br2)Status Effects:$(li)Speed II$(li)Resistance II$(li)Jump Boost III$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "flaresalamander_v3",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:double_typhoon\",tag:{slot_tex1:\"flaresalamander\"},Count:1b},{id:\"kamenridercraft:v3legs\",Count:1b},{id:\"kamenridercraft:v3troso\",Count:1b},{id:\"kamenridercraft:v3head\",Count:1b}]}",
-            "name": "Flaresalamander",
-            "text": "Accessed with the $(l:v3/items/flaresalamander)Flaresalamander Card Warrior Card$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)S.I.C. Takumi Damashii Vol. 3 (2004, toyline)$(br2)Transforms with the $(l:v3/devices/double_typhoon)Double Typhoon$(/l)$(br2)Status Effects:$(li)Speed II$(li)Resistance II$(li)Jump Boost III$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "flaresalamander_v3",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:double_typhoon\",tag:{slot_tex1:\"flaresalamander\"},Count:1b},{id:\"kamenridercraft:v3legs\",Count:1b},{id:\"kamenridercraft:v3troso\",Count:1b},{id:\"kamenridercraft:v3head\",Count:1b}]}",
+			"name": "Flaresalamander",
+			"text": "Accessed with the $(l:v3/items/flaresalamander)Flaresalamander Card Warrior Card$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider V3",
-            "text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Transforms with the $(l:v3/devices/double_typhoon)Double Typhoon$(/l)$(br2)Status Effects:$(li)Flying II$(li)Punch V$(li)Speed IV$(li)Resistance IV$(li)Jump Boost V$(li)Strength VIII (with empty hand)$(li)Strength IV (with weapon)"
-        }
-    ]
+			"text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Transforms with the $(l:v3/devices/double_typhoon)Double Typhoon$(/l)$(br2)Status Effects:$(li)Flying II$(li)Punch V$(li)Speed IV$(li)Resistance IV$(li)Jump Boost V$(li)Strength VIII (with empty hand)$(li)Strength IV (with weapon)"
+		}
+	]
 }

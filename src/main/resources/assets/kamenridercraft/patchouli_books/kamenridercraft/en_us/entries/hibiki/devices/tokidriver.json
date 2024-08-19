@@ -1,0 +1,16 @@
+{
+	"name": "Ongekimei (Toki)",
+	"icon": "kamenridercraft:tokidriver",
+	"category": "kamenridercraft:hibiki/devices",
+	"sortnum": 10,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Used alongside the $(l:hibiki/devices/armor)Hibiki armor$(/l) to transform into $(l:hibiki/riders/toki)Kamen Rider Touki"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:hibiki/tokidriver"
+		}
+	]
+}

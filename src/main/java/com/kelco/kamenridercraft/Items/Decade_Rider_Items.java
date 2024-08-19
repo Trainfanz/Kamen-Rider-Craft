@@ -566,6 +566,8 @@ public class Decade_Rider_Items {
             () -> new BaseSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).AddToTabList(RiderTabs.DECADE_TAB_ITEM).ChangeRepairItem(BLANK_CRAD.get()));
     public static final RegistryObject<SwordItem> ONGEKIBO_REKKA_DIEND = ITEMS.register("ongekibo_rekka_diend",
             () -> new BaseSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).AddToTabList(RiderTabs.DECADE_TAB_ITEM).ChangeRepairItem(BLANK_CRAD.get()));
+    public static final RegistryObject<SwordItem> ONGEKIKANABO_OUJA = ITEMS.register("ongekikanabo_ouja",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 6, -2.4F, new Item.Properties()).AddToTabList(RiderTabs.DECADE_TAB_ITEM).ChangeRepairItem(Ryuki_Rider_Items.ADVENT_CARD.get()));
 
     public static final RegistryObject<Item> DECADE_BLAST_CARD = ITEMS.register("decade_blast_card",
 			() -> new AttackRideCardItem(new Item.Properties(), new String[]{"decade","decade_complete","decade_violent_emotion","decade_cyan","dark_decade"}, new MobEffectInstance(Effect_core.SHOT_BOOST.get(), 300,2,true,false)).AddToTabList(RiderTabs.DECADE_TAB_ITEM));

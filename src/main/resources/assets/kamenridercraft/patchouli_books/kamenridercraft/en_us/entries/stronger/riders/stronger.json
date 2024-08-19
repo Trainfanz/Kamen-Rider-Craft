@@ -1,44 +1,44 @@
 {
-    "name": "Kamen Rider Stronger",
-    "icon": "kamenridercraft:electrer_core",
-    "category": "kamenridercraft:stronger/riders",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "anchor": "stronger",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:electrer\",tag:{slot_tex1:\"electrer_core\"},Count:1b},{id:\"kamenridercraft:strongerlegs\",Count:1b},{id:\"kamenridercraft:strongertroso\",Count:1b},{id:\"kamenridercraft:strongerhead\",Count:1b}]}",
-            "name": " ",
-            "text": "Accessed with the $(l:stronger/items/electrer_core)Electrer Core$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Stronger",
+	"icon": "kamenridercraft:electrer_core",
+	"category": "kamenridercraft:stronger/riders",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "stronger",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:electrer\",tag:{slot_tex1:\"electrer_core\"},Count:1b},{id:\"kamenridercraft:strongerlegs\",Count:1b},{id:\"kamenridercraft:strongertroso\",Count:1b},{id:\"kamenridercraft:strongerhead\",Count:1b}]}",
+			"name": " ",
+			"text": "Accessed with the $(l:stronger/items/electrer_core)Electrer Core$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Stronger",
-            "text": "Appears in:$(li)Kamen Rider Stronger (1975, TV show)$(br2)Transforms with the $(l:stronger/devices/electrer)Electrer$(/l)$(br2)Status Effects:$(li)Speed III$(li)Jump Boost II$(li)Fire Resistance II$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "white_color",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:electrer\",tag:{slot_tex1:\"electrer_core_artist\"},Count:1b},{id:\"kamenridercraft:strongerlegs\",Count:1b},{id:\"kamenridercraft:strongertroso\",Count:1b},{id:\"kamenridercraft:strongerhead\",Count:1b}]}",
-            "name": "White Color",
-            "text": "Accessed with the $(l:misc/items/sic_hero_saga)S.I.C. Hero Saga$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Stronger (1975, TV show)$(br2)Transforms with the $(l:stronger/devices/electrer)Electrer$(/l)$(br2)Status Effects:$(li)Speed III$(li)Jump Boost II$(li)Fire Resistance II$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "white_color",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:electrer\",tag:{slot_tex1:\"electrer_core_artist\"},Count:1b},{id:\"kamenridercraft:strongerlegs\",Count:1b},{id:\"kamenridercraft:strongertroso\",Count:1b},{id:\"kamenridercraft:strongerhead\",Count:1b}]}",
+			"name": "White Color",
+			"text": "Accessed with the $(l:misc/items/sic_hero_saga)S.I.C. Hero Saga$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Stronger",
-            "text": "Appears in:$(li)S.I.C. Takumi Damashii Vol. 4 (2004, toyline)$(br2)Transforms with the $(l:stronger/devices/electrer)Electrer$(/l)$(br2)Status Effects:$(li)Speed III$(li)Jump Boost II$(li)Fire Resistance II$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "charge_up",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:electrer\",tag:{slot_tex1:\"charge_up\"},Count:1b},{id:\"kamenridercraft:strongerlegs\",Count:1b},{id:\"kamenridercraft:strongertroso\",Count:1b},{id:\"kamenridercraft:strongerhead\",Count:1b}]}",
-            "name": "Charge Up",
-            "text": "Accessed with the $(l:stronger/items/charge_up)Super Electronic Dynamo$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)S.I.C. Takumi Damashii Vol. 4 (2004, toyline)$(br2)Transforms with the $(l:stronger/devices/electrer)Electrer$(/l)$(br2)Status Effects:$(li)Speed III$(li)Jump Boost II$(li)Fire Resistance II$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "charge_up",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:electrer\",tag:{slot_tex1:\"charge_up\"},Count:1b},{id:\"kamenridercraft:strongerlegs\",Count:1b},{id:\"kamenridercraft:strongertroso\",Count:1b},{id:\"kamenridercraft:strongerhead\",Count:1b}]}",
+			"name": "Charge Up",
+			"text": "Accessed with the $(l:stronger/items/charge_up)Super Electronic Dynamo$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Stronger",
-            "text": "Appears in:$(li)Kamen Rider Stronger (1975, TV show)$(br2)Transforms with the $(l:stronger/devices/electrer)Electrer$(/l)$(br2)Status Effects:$(li)Speed III$(li)Jump Boost II$(li)Fire Resistance II$(li)Strength IV"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider Stronger (1975, TV show)$(br2)Transforms with the $(l:stronger/devices/electrer)Electrer$(/l)$(br2)Status Effects:$(li)Speed III$(li)Jump Boost II$(li)Fire Resistance II$(li)Strength IV"
+		}
+	]
 }

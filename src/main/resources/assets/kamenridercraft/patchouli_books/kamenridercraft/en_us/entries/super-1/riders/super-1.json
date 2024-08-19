@@ -1,19 +1,19 @@
 {
-    "name": "Kamen Rider Super-1",
-    "icon": "kamenridercraft:cyclode_core",
-    "category": "kamenridercraft:super-1/riders",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:cyclode\",Count:1b},{id:\"kamenridercraft:super_1legs\",Count:1b},{id:\"kamenridercraft:super_1troso\",Count:1b},{id:\"kamenridercraft:super_1head\",Count:1b}]}",
-            "name": " ",
-            "text": ""
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Super-1",
+	"icon": "kamenridercraft:cyclode_core",
+	"category": "kamenridercraft:super-1/riders",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:cyclode\",Count:1b},{id:\"kamenridercraft:super_1legs\",Count:1b},{id:\"kamenridercraft:super_1troso\",Count:1b},{id:\"kamenridercraft:super_1head\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Super-1",
-            "text": "Appears in:$(li)Kamen Rider Super-1 (1980, TV show)$(br2)Transforms with the $(l:super-1/devices/cyclode)Cyclode$(/l)$(br2)Status Effects:$(li)Speed III$(li)Jump Boost II$(li)Fire Resistance II$(li)Strength II"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider Super-1 (1980, TV show)$(br2)Transforms with the $(l:super-1/devices/cyclode)Cyclode$(/l)$(br2)Status Effects:$(li)Speed III$(li)Jump Boost II$(li)Fire Resistance II$(li)Strength II"
+		}
+	]
 }

@@ -1,12 +1,12 @@
 {
-    "name": "Kamen Rider Logo",
-    "icon": "kamenridercraft:kamen_rider_logo",
-    "category": "kamenridercraft:ichigo/items",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:ichigo/ichigo_logo"
-        }
-    ]
+	"name": "Kamen Rider Logo",
+	"icon": "kamenridercraft:kamen_rider_logo",
+	"category": "kamenridercraft:ichigo/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:ichigo/ichigo_logo"
+		}
+	]
 }

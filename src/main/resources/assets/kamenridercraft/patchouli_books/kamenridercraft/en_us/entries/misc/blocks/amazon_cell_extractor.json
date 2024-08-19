@@ -1,16 +1,16 @@
 {
-    "name": "Amazon Cell Extractor",
-    "icon": "kamenridercraft:amazon_cell_extractor",
-    "category": "kamenridercraft:misc/blocks",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Use $(l:misc/items/empty_vial)Empty Vials$(/l) on this block to obtain $(l:amazons/items/amazon_cell_vial)Amazon Cell Vials$(/l) "
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:amazons/amazon_cell_extractor"
-        }
-    ]
+	"name": "Amazon Cell Extractor",
+	"icon": "kamenridercraft:amazon_cell_extractor",
+	"category": "kamenridercraft:misc/blocks",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Use $(l:misc/items/empty_vial)Empty Vials$(/l) on this block to obtain $(l:amazons/items/amazon_cell_vial)Amazon Cell Vials$(/l) "
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:amazons/amazon_cell_extractor"
+		}
+	]
 }

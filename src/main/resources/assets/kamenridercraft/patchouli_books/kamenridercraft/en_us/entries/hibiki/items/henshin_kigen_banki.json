@@ -1,0 +1,19 @@
+{
+	"name": "Henshin Kigen (Banki)",
+	"icon": "kamenridercraft:henshin_kigen_banki",
+	"category": "kamenridercraft:hibiki/items",
+	"sortnum": 23,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Used to craft Banki's $(l:hibiki/devices/bankidriver)Ongekishin Jigoku$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:henshin_kigen_banki",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/deepslate_stone_hibiki)Deepslate Oni Ore$(/l)"
+		}
+	]
+}

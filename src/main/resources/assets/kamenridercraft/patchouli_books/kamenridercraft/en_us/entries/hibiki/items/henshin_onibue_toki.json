@@ -1,0 +1,19 @@
+{
+	"name": "Henshin Onibue (Toki)",
+	"icon": "kamenridercraft:henshin_onibue_toki",
+	"category": "kamenridercraft:hibiki/items",
+	"sortnum": 16,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Used to craft Touki's $(l:hibiki/devices/tokidriver)Ongekimei (Toki)$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:henshin_onibue_toki",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_hibiki)Oni Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_hibiki)Deepslate Oni Ore$(/l)"
+		}
+	]
+}

@@ -1,16 +1,16 @@
 {
-    "name": "Storm Halberd",
-    "icon": "kamenridercraft:storm_halberd",
-    "category": "kamenridercraft:agito/arsenal",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used by Agito's $(l:agito/riders/agito#storm)Storm$(/l) and $(l:agito/riders/agito#trinity)Trinity$(/l) forms"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:agito/storm_halberd"
-        }
-    ]
+	"name": "Storm Halberd",
+	"icon": "kamenridercraft:storm_halberd",
+	"category": "kamenridercraft:agito/arsenal",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used by Agito's $(l:agito/riders/agito#storm)Storm$(/l) and $(l:agito/riders/agito#trinity)Trinity$(/l) forms"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:agito/storm_halberd"
+		}
+	]
 }

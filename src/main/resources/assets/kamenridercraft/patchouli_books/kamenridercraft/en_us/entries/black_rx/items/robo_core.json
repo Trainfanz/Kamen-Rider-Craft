@@ -1,19 +1,19 @@
 {
-    "name": "Roborider Core",
-    "icon": "kamenridercraft:robo_core",
-    "category": "kamenridercraft:black_rx/items",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Black RX (1988, TV show)$(br2)Used to access Black RX's $(l:black_rx/riders/black_rx#roborider)Roborider$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:robo_core",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:black_rx/mobs/grey_chap)Grey Chap$(/l)"
-        }
-    ]
+	"name": "Roborider Core",
+	"icon": "kamenridercraft:robo_core",
+	"category": "kamenridercraft:black_rx/items",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Black RX (1988, TV show)$(br2)Used to access Black RX's $(l:black_rx/riders/black_rx#roborider)Roborider$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:robo_core",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:black_rx/mobs/grey_chap)Grey Chap$(/l)"
+		}
+	]
 }

@@ -1,16 +1,16 @@
 {
-    "name": "Larc Buckle",
-    "icon": "kamenridercraft:larc_buckle",
-    "category": "kamenridercraft:blade/devices",
-    "sortnum": 6,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Blade: Missing Ace (2004, Movie)$(br2)Used alongside the $(l:blade/devices/armor)Blade armor$(/l) to transform into $(l:blade/riders/larc)Kamen Rider Larc"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:blade/larc_buckle"
-        }
-    ]
+	"name": "Larc Buckle",
+	"icon": "kamenridercraft:larc_buckle",
+	"category": "kamenridercraft:blade/devices",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Blade: Missing Ace (2004, movie)$(br2)Used alongside the $(l:blade/devices/armor)Blade armor$(/l) to transform into $(l:blade/riders/larc)Kamen Rider Larc"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:blade/larc_buckle"
+		}
+	]
 }

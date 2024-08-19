@@ -1,24 +1,24 @@
 {
-    "name": "Black RX Armor",
-    "icon": "kamenridercraft:rxhead",
-    "category": "kamenridercraft:black_rx/devices",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Used alongside a Black RX Rider's transformation device to transform into that Rider"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:rx/rxhead"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:rx/rxtroso"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:rx/rxlegs"
-        }
-    ]
+	"name": "Black RX Armor",
+	"icon": "kamenridercraft:rxhead",
+	"category": "kamenridercraft:black_rx/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Used alongside a Black RX Rider's transformation device to transform into that Rider"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:rx/rxhead"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:rx/rxtroso"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:rx/rxlegs"
+		}
+	]
 }

@@ -1,0 +1,19 @@
+{
+	"name": "Kamen Rider Ibuki",
+	"icon": "kamenridercraft:henshin_onibue_ibuki",
+	"category": "kamenridercraft:hibiki/riders",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:ibukidriver\",Count:1b},{id:\"kamenridercraft:hibikilegs\",Count:1b},{id:\"kamenridercraft:hibikitroso\",Count:1b},{id:\"kamenridercraft:hibikihead\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Ibuki",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Transforms with the $(l:hibiki/devices/ibukidriver)Ongekimei Narukaze$(/l)$(br2)Status Effects:$(li)Speed II$(li)Haste$(li)Strength II"
+		}
+	]
+}

@@ -1,19 +1,19 @@
 {
-    "name": "Kamen Rider G3-X",
-    "icon": "kamenridercraft:g3x",
-    "category": "kamenridercraft:agito/riders",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:g3_x_belt\",Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
-            "name": " ",
-            "text": ""
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider G3-X",
+	"icon": "kamenridercraft:g3x",
+	"category": "kamenridercraft:agito/riders",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:g3_x_belt\",Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider G3-X",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Transforms with the $(l:agito/devices/g3_x_belt)G-Buckle (G3-X)$(/l)$(br2)Status Effects:$(li)Speed$(li)Resistance III$(li)Strength II"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Transforms with the $(l:agito/devices/g3_x_belt)G-Buckle (G3-X)$(/l)$(br2)Status Effects:$(li)Speed$(li)Resistance III$(li)Strength II"
+		}
+	]
 }

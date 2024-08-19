@@ -1,32 +1,32 @@
 {
-    "name": "Kamen Rider Black",
-    "icon": "kamenridercraft:red_king_stone",
-    "category": "kamenridercraft:black/riders",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "anchor": "black",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:vital_charger\",tag:{slot_tex1:\"red_king_stone\"},Count:1b},{id:\"kamenridercraft:blacklegs\",Count:1b},{id:\"kamenridercraft:blacktorso\",Count:1b},{id:\"kamenridercraft:blackhead\",Count:1b}]}",
-            "name": " ",
-            "text": "Accessed with the $(l:black/items/red_king_stone)Red Kingstone$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Black",
+	"icon": "kamenridercraft:red_king_stone",
+	"category": "kamenridercraft:black/riders",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "black",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:vital_charger\",tag:{slot_tex1:\"red_king_stone\"},Count:1b},{id:\"kamenridercraft:blacklegs\",Count:1b},{id:\"kamenridercraft:blacktorso\",Count:1b},{id:\"kamenridercraft:blackhead\",Count:1b}]}",
+			"name": " ",
+			"text": "Accessed with the $(l:black/items/red_king_stone)Red Kingstone$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Black",
-            "text": "Appears in:$(li)Kamen Rider Black (1987, TV show)$(br2)Transforms with the $(l:black/devices/vital_charger)Vital Charger$(/l)$(br2)Status Effects:$(li)Punch II$(li)Haste$(li)Jump Boost II$(li)Strength V (with empty hand)$(li)Strength II (with weapon)"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "batta_man",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:vital_charger\",tag:{slot_tex1:\"batta_man_king_stone\"},Count:1b},{id:\"kamenridercraft:blacklegs\",Count:1b},{id:\"kamenridercraft:blacktorso\",Count:1b},{id:\"kamenridercraft:blackhead\",Count:1b}]}",
-            "name": "Batta Man",
-            "text": "Accessed with the $(l:black/items/batta_man_king_stone)Batta Man Kingstone$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Black (1987, TV show)$(br2)Transforms with the $(l:black/devices/vital_charger)Vital Charger$(/l)$(br2)Status Effects:$(li)Punch II$(li)Haste$(li)Jump Boost II$(li)Strength V (with empty hand)$(li)Strength II (with weapon)"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "batta_man",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:vital_charger\",tag:{slot_tex1:\"batta_man_king_stone\"},Count:1b},{id:\"kamenridercraft:blacklegs\",Count:1b},{id:\"kamenridercraft:blacktorso\",Count:1b},{id:\"kamenridercraft:blackhead\",Count:1b}]}",
+			"name": "Batta Man",
+			"text": "Accessed with the $(l:black/items/batta_man_king_stone)Batta Man Kingstone$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Black",
-            "text": "Appears in:$(li)Kamen Rider Black (1987, TV show)$(br2)Transforms with the $(l:black/devices/vital_charger)Vital Charger$(/l)$(br2)Status Effects:$(li)Haste$(li)Jump Boost II$(li)Strength II"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider Black (1987, TV show)$(br2)Transforms with the $(l:black/devices/vital_charger)Vital Charger$(/l)$(br2)Status Effects:$(li)Haste$(li)Jump Boost II$(li)Strength II"
+		}
+	]
 }

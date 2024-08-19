@@ -1,12 +1,12 @@
 {
-    "name": "Black Logo",
-    "icon": "kamenridercraft:black_logo",
-    "category": "kamenridercraft:black/items",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:black/black_logo"
-        }
-    ]
+	"name": "Black Logo",
+	"icon": "kamenridercraft:black_logo",
+	"category": "kamenridercraft:black/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:black/black_logo"
+		}
+	]
 }

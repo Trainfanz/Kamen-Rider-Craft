@@ -1,19 +1,19 @@
 {
-    "name": "Riotrooper",
-    "icon": "kamenridercraft:smartbuckle",
-    "category": "kamenridercraft:faiz/riders",
-    "sortnum": 5,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:smartbuckle\",Count:1b},{id:\"kamenridercraft:faizlegs\",Count:1b},{id:\"kamenridercraft:faiztroso\",Count:1b},{id:\"kamenridercraft:faizhead\",Count:1b}]}",
-            "name": " ",
-            "text": ""
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Riotrooper",
+	"icon": "kamenridercraft:smartbuckle",
+	"category": "kamenridercraft:faiz/riders",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:smartbuckle\",Count:1b},{id:\"kamenridercraft:faizlegs\",Count:1b},{id:\"kamenridercraft:faiztroso\",Count:1b},{id:\"kamenridercraft:faizhead\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Riotrooper",
-            "text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Transforms with the $(l:faiz/devices/smartbuckle)Smart Buckle$(/l)$(br2)Status Effects:$(li)Resistance$(li)Night Vision$(li)Strength III"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Transforms with the $(l:faiz/devices/smartbuckle)Smart Buckle$(/l)$(br2)Status Effects:$(li)Resistance$(li)Night Vision$(li)Strength III"
+		}
+	]
 }

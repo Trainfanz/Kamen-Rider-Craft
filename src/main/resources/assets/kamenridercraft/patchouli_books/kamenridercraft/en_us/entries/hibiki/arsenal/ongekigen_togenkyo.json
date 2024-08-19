@@ -1,0 +1,16 @@
+{
+	"name": "Ongekigen Togenkyo",
+	"icon": "kamenridercraft:ongekigen_togenkyo",
+	"category": "kamenridercraft:hibiki/arsenal",
+	"sortnum": 13,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Used by $(l:hibiki/riders/banki)Kamen Rider Banki$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:hibiki/ongekigen_togenkyo"
+		}
+	]
+}

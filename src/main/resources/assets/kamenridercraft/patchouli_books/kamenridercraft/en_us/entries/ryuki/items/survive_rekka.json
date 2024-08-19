@@ -1,19 +1,19 @@
 {
-    "name": "Survive Card (Rekka)",
-    "icon": "kamenridercraft:survive_rekka",
-    "category": "kamenridercraft:ryuki/items",
-    "sortnum": 18,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used to access Ryuki's $(l:ryuki/riders/ryuki#survive)Survive$(/l)$(br2)Used to access Ryuga's $(l:ryuki/riders/ryuga#survive)Survive$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:survive_rekka",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
-        }
-    ]
+	"name": "Survive Card (Rekka)",
+	"icon": "kamenridercraft:survive_rekka",
+	"category": "kamenridercraft:ryuki/items",
+	"sortnum": 18,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used to access Ryuki's $(l:ryuki/riders/ryuki#survive)Survive Form$(/l)$(br2)Used to access Ryuga's $(l:ryuki/riders/ryuga#survive)Survive Form$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:survive_rekka",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
+		}
+	]
 }

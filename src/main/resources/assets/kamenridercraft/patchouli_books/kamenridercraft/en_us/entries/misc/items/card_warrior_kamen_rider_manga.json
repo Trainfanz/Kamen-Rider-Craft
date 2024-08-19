@@ -1,19 +1,19 @@
 {
-    "name": "Card Warrior Kamen Rider Manga",
-    "icon": "kamenridercraft:card_warrior_kamen_rider_manga",
-    "category": "kamenridercraft:misc/items",
-    "sortnum": 6,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Used to craft the Card Warrior Cards"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:card_warrior_kamen_rider_manga",
-            "title": " ",
-            "text": "Traded by an apprentice Librarian"
-        }
-    ]
+	"name": "Card Warrior Kamen Rider Manga",
+	"icon": "kamenridercraft:card_warrior_kamen_rider_manga",
+	"category": "kamenridercraft:misc/items",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Used to craft the Card Warrior Cards"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:card_warrior_kamen_rider_manga",
+			"title": " ",
+			"text": "Traded by an apprentice Librarian"
+		}
+	]
 }

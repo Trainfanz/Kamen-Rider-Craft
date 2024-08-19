@@ -1,19 +1,19 @@
 {
-    "name": "Green Kingstone",
-    "icon": "kamenridercraft:green_king_stone",
-    "category": "kamenridercraft:black/items",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Black (1987, TV show)$(br2)Used to craft Shadow Moon's $(l:black/devices/shadow_charger)Shadow Charger$(/l)$(br2)Used to access Shadow Moon's $(l:black/riders/shadow_moon#shadow_moon)base$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:green_king_stone",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:black/mobs/shadow_moon)Shadow Moon$(/l)"
-        }
-    ]
+	"name": "Green Kingstone",
+	"icon": "kamenridercraft:green_king_stone",
+	"category": "kamenridercraft:black/items",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Black (1987, TV show)$(br2)Used to craft Shadow Moon's $(l:black/devices/shadow_charger)Shadow Charger$(/l)$(br2)Used to access Shadow Moon's $(l:black/riders/shadow_moon#shadow_moon)base$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:green_king_stone",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:black/mobs/shadow_moon)Shadow Moon$(/l)"
+		}
+	]
 }

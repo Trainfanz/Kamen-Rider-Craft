@@ -1,16 +1,16 @@
 {
-    "name": "Century King Moon Driver",
-    "icon": "kamenridercraft:century_king_moon_driver",
-    "category": "kamenridercraft:black_sun/devices",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Black Sun (2022, web series)$(br2)Used alongside the $(l:black_sun/devices/armor)Black Sun armor$(/l) to transform into $(l:black_sun/riders/shadowmoon)Kamen Rider Shadowmoon"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:black_sun/century_king_moon_driver"
-        }
-    ]
+	"name": "Century King Moon Driver",
+	"icon": "kamenridercraft:century_king_moon_driver",
+	"category": "kamenridercraft:black_sun/devices",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Black Sun (2022, web series)$(br2)Used alongside the $(l:black_sun/devices/armor)Black Sun armor$(/l) to transform into $(l:black_sun/riders/shadowmoon)Kamen Rider Shadowmoon"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:black_sun/century_king_moon_driver"
+		}
+	]
 }

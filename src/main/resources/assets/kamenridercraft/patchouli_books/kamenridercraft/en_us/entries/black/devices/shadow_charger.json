@@ -1,16 +1,16 @@
 {
-    "name": "Shadow Charger",
-    "icon": "kamenridercraft:shadow_charger",
-    "category": "kamenridercraft:black/devices",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Black (1987, TV show)$(br2)Used alongside the $(l:black/devices/armor)Black armor$(/l) to transform into $(l:black/riders/shadow_moon)Shadow Moon"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:black/shadow_charger"
-        }
-    ]
+	"name": "Shadow Charger",
+	"icon": "kamenridercraft:shadow_charger",
+	"category": "kamenridercraft:black/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Black (1987, TV show)$(br2)Used alongside the $(l:black/devices/armor)Black armor$(/l) to transform into $(l:black/riders/shadow_moon)Shadow Moon"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:black/shadow_charger"
+		}
+	]
 }

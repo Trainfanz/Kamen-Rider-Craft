@@ -1,16 +1,16 @@
 {
-    "name": "Stagtornador Card Warrior Card",
-    "icon": "kamenridercraft:stagtornador",
-    "category": "kamenridercraft:agito/items",
-    "sortnum": 23,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Used to access Agito's $(l:agito/riders/agito#stagtornador)Ground Form w/ Stagtornador$(/l)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:misc/stagtornador"
-        }
-    ]
+	"name": "Stagtornador Card Warrior Card",
+	"icon": "kamenridercraft:stagtornador",
+	"category": "kamenridercraft:agito/items",
+	"sortnum": 23,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Used to access Agito's $(l:agito/riders/agito#stagtornador)Ground Form w/ Stagtornador$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:misc/stagtornador"
+		}
+	]
 }

@@ -1,16 +1,16 @@
 {
-    "name": "Den-O Belt (Pretty Den-O)",
-    "icon": "kamenridercraft:pretty_den_o_belt",
-    "category": "kamenridercraft:den-o/devices",
-    "sortnum": 8,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Den-O: Pretty Den-O Appears! (2020, Movie)$(br2)Used alongside the $(l:den-o/devices/armor)Den-O armor$(/l) to transform into $(l:den-o/riders/pretty_den_o)Kamen Rider Pretty Den-O"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:den-o/pretty_den_o_belt"
-        }
-    ]
+	"name": "Den-O Belt (Pretty Den-O)",
+	"icon": "kamenridercraft:pretty_den_o_belt",
+	"category": "kamenridercraft:den-o/devices",
+	"sortnum": 8,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Den-O: Pretty Den-O Appears! (2020, Movie)$(br2)Used alongside the $(l:den-o/devices/armor)Den-O armor$(/l) to transform into $(l:den-o/riders/pretty_den_o)Kamen Rider Pretty Den-O"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den-o/pretty_den_o_belt"
+		}
+	]
 }

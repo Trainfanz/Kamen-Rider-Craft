@@ -1,16 +1,16 @@
 {
-    "name": "Meta Factor",
-    "icon": "kamenridercraft:meta_factor",
-    "category": "kamenridercraft:agito/devices",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used alongside the $(l:agito/devices/armor)Agito armor$(/l) to transform into $(l:agito/riders/gills#gills)Kamen Rider Gills"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:agito/meta_factor"
-        }
-    ]
+	"name": "Meta Factor",
+	"icon": "kamenridercraft:meta_factor",
+	"category": "kamenridercraft:agito/devices",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used alongside the $(l:agito/devices/armor)Agito armor$(/l) to transform into $(l:agito/riders/gills#gills)Kamen Rider Gills"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:agito/meta_factor"
+		}
+	]
 }

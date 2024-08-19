@@ -1,19 +1,19 @@
 {
-    "name": "Base Bike",
-    "icon": "kamenridercraft:base_bike",
-    "category": "kamenridercraft:misc/items",
-    "sortnum": 4,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Used to craft the Riders' bikes"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:base_bike",
-            "title": " ",
-            "text": "Item is currently unobtainable"
-        }
-    ]
+	"name": "Base Bike",
+	"icon": "kamenridercraft:base_bike",
+	"category": "kamenridercraft:misc/items",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Used to craft the Riders' bikes"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:base_bike",
+			"title": " ",
+			"text": "Item is currently unobtainable"
+		}
+	]
 }

@@ -1,19 +1,19 @@
 {
-    "name": "Red Kingstone",
-    "icon": "kamenridercraft:red_king_stone",
-    "category": "kamenridercraft:black/items",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Black (1987, TV show)$(br2)Used to craft Black's $(l:black/devices/vital_charger)Vital Charger$(/l)$(br2)Used to access Black's $(l:black/riders/black#black)base$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:red_king_stone",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:black_rx/mobs/chap)Chap$(/l)"
-        }
-    ]
+	"name": "Red Kingstone",
+	"icon": "kamenridercraft:red_king_stone",
+	"category": "kamenridercraft:black/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Black (1987, TV show)$(br2)Used to craft Black's $(l:black/devices/vital_charger)Vital Charger$(/l)$(br2)Used to access Black's $(l:black/riders/black#black)base$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:red_king_stone",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:black_rx/mobs/chap)Chap$(/l)"
+		}
+	]
 }

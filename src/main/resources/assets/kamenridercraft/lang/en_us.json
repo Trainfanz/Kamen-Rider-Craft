@@ -620,10 +620,10 @@
 "item.kamenridercraft.henshin_onsa_kyoki": "Henshin Onsa (Kyoki)",
 "item.kamenridercraft.henshin_onsa_habataki": "Henshin Onsa (Habataki)",
 "item.kamenridercraft.henshin_onibue_ibuki": "Henshin Onibue Onteki",
-"item.kamenridercraft.henshin_onibue_toki": "Henshin Onteki (Toki)",
-"item.kamenridercraft.henshin_onibue_shouki": "Henshin Onteki (Shouki)",
-"item.kamenridercraft.henshin_onibue_amaki": "Henshin Onteki (Amaki)",
-"item.kamenridercraft.henshin_onibue_fubuki": "Henshin Onteki (Fubuki)",
+"item.kamenridercraft.henshin_onibue_toki": "Henshin Onibue (Toki)",
+"item.kamenridercraft.henshin_onibue_shouki": "Henshin Onibue (Shouki)",
+"item.kamenridercraft.henshin_onibue_amaki": "Henshin Onibue (Amaki)",
+"item.kamenridercraft.henshin_onibue_fubuki": "Henshin Onibue (Fubuki)",
 "item.kamenridercraft.henshin_kigen_todoroki": "Henshin Kigen Onjo",
 "item.kamenridercraft.henshin_kigen_zanki": "Henshin Kigen Onka",
 "item.kamenridercraft.henshin_kigen_shuki": "Henshin Kigen (Shuki)",
@@ -942,6 +942,7 @@
 "item.kamenridercraft.ride_booker": "Ride Booker",
 "item.kamenridercraft.ongekibo_rekka_decade": "Ongekibo Rekka (Decade)",
 "item.kamenridercraft.ongekibo_rekka_diend": "Ongekibo Rekka (Diend)",
+"item.kamenridercraft.ongekikanabo_ouja": "Ongekikanabo (Ouja)",
 
 
 "item.kamenridercraft.w_logo": "Double Logo",

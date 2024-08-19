@@ -1,18 +1,18 @@
 {
-    "name": "Kamen Rider X",
-    "icon": "kamenridercraft:ridol_core",
-    "category": "kamenridercraft:x/riders",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:ridol\",Count:1b},{id:\"kamenridercraft:xlegs\",Count:1b},{id:\"kamenridercraft:xtroso\",Count:1b},{id:\"kamenridercraft:xhead\",Count:1b}]}",
-            "name": " "
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider X",
+	"icon": "kamenridercraft:ridol_core",
+	"category": "kamenridercraft:x/riders",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:ridol\",Count:1b},{id:\"kamenridercraft:xlegs\",Count:1b},{id:\"kamenridercraft:xtroso\",Count:1b},{id:\"kamenridercraft:xhead\",Count:1b}]}",
+			"name": " "
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider X",
-            "text": "Appears in:$(li)Kamen Rider X (1974, TV show)$(br2)Transforms with the $(l:x/devices/ridol)Ridol$(/l)$(br2)Status Effects:$(li)Speed III$(li)Regeneration$(li)Jump Boost III$(li)Strength II"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider X (1974, TV show)$(br2)Transforms with the $(l:x/devices/ridol)Ridol$(/l)$(br2)Status Effects:$(li)Speed III$(li)Regeneration$(li)Jump Boost III$(li)Strength II"
+		}
+	]
 }

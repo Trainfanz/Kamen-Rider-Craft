@@ -1,19 +1,19 @@
 {
-    "name": "Super Electronic Dynamo",
-    "icon": "kamenridercraft:charge_up",
-    "category": "kamenridercraft:stronger/items",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Stronger (1975, TV show)$(br2)Used to access Stronger's $(l:stronger/riders/stronger#charge_up)Charge Up$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:charge_up",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:stronger/mobs/black_satan_soldier)Black Satan Soldier$(/l)"
-        }
-    ]
+	"name": "Super Electronic Dynamo",
+	"icon": "kamenridercraft:charge_up",
+	"category": "kamenridercraft:stronger/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Stronger (1975, TV show)$(br2)Used to access Stronger's $(l:stronger/riders/stronger#charge_up)Charge Up$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:charge_up",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:stronger/mobs/black_satan_soldier)Black Satan Soldier$(/l)"
+		}
+	]
 }

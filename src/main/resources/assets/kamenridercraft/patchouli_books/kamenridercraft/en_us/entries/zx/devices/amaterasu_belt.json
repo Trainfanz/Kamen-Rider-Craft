@@ -1,19 +1,19 @@
 {
-    "name": "Amaterasu Belt",
-    "icon": "kamenridercraft:amaterasu_belt",
-    "category": "kamenridercraft:zx/devices",
-    "sortnum": 4,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider SPIRITS (2001, manga)$(br2)Used alongside the $(l:zx/devices/armor)ZX armor$(/l) to transform into $(l:zx/riders/amaterasu)Amaterasu"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:amaterasu_belt",
-            "title": " ",
-            "text": "Item is currently unobtainable"
-        }
-    ]
+	"name": "Amaterasu Belt",
+	"icon": "kamenridercraft:amaterasu_belt",
+	"category": "kamenridercraft:zx/devices",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider SPIRITS (2001, manga)$(br2)Used alongside the $(l:zx/devices/armor)ZX armor$(/l) to transform into $(l:zx/riders/amaterasu)Amaterasu"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:amaterasu_belt",
+			"title": " ",
+			"text": "Item is currently unobtainable"
+		}
+	]
 }

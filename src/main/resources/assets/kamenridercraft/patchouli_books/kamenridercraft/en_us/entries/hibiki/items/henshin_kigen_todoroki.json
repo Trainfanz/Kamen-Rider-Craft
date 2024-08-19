@@ -1,0 +1,19 @@
+{
+	"name": "Henshin Kigen Onjo",
+	"icon": "kamenridercraft:henshin_kigen_todoroki",
+	"category": "kamenridercraft:hibiki/items",
+	"sortnum": 20,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Used to craft Todoroki's $(l:hibiki/devices/todorokidriver)Ongekishin Raigou$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:henshin_kigen_todoroki",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_hibiki)Oni Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_hibiki)Deepslate Oni Ore$(/l)"
+		}
+	]
+}

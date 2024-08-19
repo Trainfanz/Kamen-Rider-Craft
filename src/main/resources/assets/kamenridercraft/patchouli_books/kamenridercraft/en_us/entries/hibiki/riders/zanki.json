@@ -1,0 +1,19 @@
+{
+	"name": "Kamen Rider Zanki",
+	"icon": "kamenridercraft:henshin_kigen_zanki",
+	"category": "kamenridercraft:hibiki/riders",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:zankidriver\",Count:1b},{id:\"kamenridercraft:hibikilegs\",Count:1b},{id:\"kamenridercraft:hibikitroso\",Count:1b},{id:\"kamenridercraft:hibikihead\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Zanki",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Transforms with the $(l:hibiki/devices/zankidriver)Ongekishin Zantetsu$(/l)$(br2)Status Effects:$(li)Speed$(li)Resistance II$(li)Strength III"
+		}
+	]
+}

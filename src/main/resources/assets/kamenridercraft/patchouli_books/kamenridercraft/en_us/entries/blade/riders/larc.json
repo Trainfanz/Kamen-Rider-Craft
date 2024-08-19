@@ -1,19 +1,19 @@
 {
-    "name": "Kamen Rider Larc",
-    "icon": "kamenridercraft:change_kerberos_larc",
-    "category": "kamenridercraft:blade/riders",
-    "sortnum": 6,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:larc_buckle\",Count:1b},{id:\"kamenridercraft:bladelegs\",Count:1b},{id:\"kamenridercraft:bladetroso\",Count:1b},{id:\"kamenridercraft:bladehead\",Count:1b}]}",
-            "name": " ",
-            "text": ""
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Larc",
+	"icon": "kamenridercraft:change_kerberos_larc",
+	"category": "kamenridercraft:blade/riders",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:larc_buckle\",Count:1b},{id:\"kamenridercraft:bladelegs\",Count:1b},{id:\"kamenridercraft:bladetroso\",Count:1b},{id:\"kamenridercraft:bladehead\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Larc",
-            "text": "Appears in:$(li)Kamen Rider Blade: Missing Ace (2004, Movie)$(br2)Transforms with the $(l:blade/devices/larc_buckle)Larc Buckle$(/l)$(br2)Status Effects:$(li)Speed$(li)Jump Boost II$(li)Strength II"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider Blade: Missing Ace (2004, movie)$(br2)Transforms with the $(l:blade/devices/larc_buckle)Larc Buckle$(/l)$(br2)Status Effects:$(li)Speed$(li)Jump Boost II$(li)Strength II"
+		}
+	]
 }

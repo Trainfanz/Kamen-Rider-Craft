@@ -1,0 +1,19 @@
+{
+	"name": "Oni Ore",
+	"icon": "kamenridercraft:stone_hibiki",
+	"category": "kamenridercraft:misc/blocks",
+	"sortnum": 12,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Mine this block to get Hibiki's $(l:hibiki/items/henshin_onsa)Henshin Onsa$(/l), $(l:hibiki/items/henshin_onibue_ibuki)Henshin Onibue$(/l), and $(l:hibiki/items/henshin_kigen_todoroki)Henshin Kigen$(/l)$(br2)Requires an iron pickaxe or better"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:stone_hibiki",
+			"title": " ",
+			"text": "Drops:$(li)$(l:hibiki/items/oni_ore)Akane Taka Disk Animal$(/l) (55%)$(li)$(l:hibiki/items/henshin_onsa)Henshin Onsa Onkaku$(/l) (8%)$(li)$(l:hibiki/items/henshin_onsa_kurenai)Henshin Onsa Onkaku (Kurenai)$(/l) (3%)$(li)$(l:hibiki/items/unfinished_armed_saber)Unfinished Armed Saber$(/l) (1%)$(li)$(l:hibiki/items/henshin_onibue_ibuki)Henshin Onibue Onteki$(/l) (4%)$(li)$(l:hibiki/items/henshin_kigen_todoroki)Henshin Kigen Onjo$(/l) (4%)$(li)$(l:hibiki/items/henshin_kigen_zanki)Henshin Kigen Onka$(/l) (4%)$(li)$(l:hibiki/items/henshin_kigen_shuki)Henshin Kigen (Shuki)$(/l) (3%)$(li)$(l:hibiki/items/henshin_onsa_danki)Henshin Onsa (Danki)$(/l) (3%)$(li)$(l:hibiki/items/henshin_onsa_eiki)Henshin Onsa (Eiki)$(/l) (3%)$(li)$(l:hibiki/items/henshin_onibue_shouki)Henshin Onibue (Shouki)$(/l) (3%)$(li)$(l:hibiki/items/henshin_onibue_amaki)Henshin Onibue (Amaki)$(/l) (3%)$(li)$(l:hibiki/items/henshin_onsa_kyoki)Henshin Onsa (Kyoki)$(/l) (3%)"
+		}
+	]
+}

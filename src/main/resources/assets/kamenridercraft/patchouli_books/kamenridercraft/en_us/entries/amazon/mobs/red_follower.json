@@ -1,17 +1,17 @@
 {
-    "name": "Red Follower",
-    "icon": "kamenridercraft:amazon_logo",
-    "category": "kamenridercraft:amazon/mobs",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:red_follower",
-            "text": "Spawn locations: Desert, Jungle, Savanna, Savanna Plateau, Beach, Badlands, Wooded Badlands"
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Amazon (1974, TV show)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)0-1 $(l:misc/items/rider_circuit)Rider Circuit$(/l) (50%)$(li)0-1 $(l:amazon/items/condorer_wheel)Condorer Wheel$(/l) (50%)"
-        }
-    ]
+	"name": "Red Follower",
+	"icon": "kamenridercraft:amazon_logo",
+	"category": "kamenridercraft:amazon/mobs",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:red_follower",
+			"text": "Spawn locations: Desert, Jungle, Savanna, Savanna Plateau, Beach, Badlands, Wooded Badlands"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Amazon (1974, TV show)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)0-1 $(l:misc/items/rider_circuit)Rider Circuit$(/l) (50%)$(li)0-1 $(l:amazon/items/condorer_wheel)Condorer Wheel$(/l) (50%)"
+		}
+	]
 }

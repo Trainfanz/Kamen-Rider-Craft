@@ -1,12 +1,12 @@
 {
-    "name": "ZO Logo",
-    "icon": "kamenridercraft:zo_logo",
-    "category": "kamenridercraft:zo/items",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:zo/zo_logo"
-        }
-    ]
+	"name": "ZO Logo",
+	"icon": "kamenridercraft:zo_logo",
+	"category": "kamenridercraft:zo/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:zo/zo_logo"
+		}
+	]
 }

@@ -1,21 +1,21 @@
 {
-    "name": "God Speed Love",
-    "icon": "kamenridercraft:kabuto_logo",
-    "category": "kamenridercraft:kabuto/structures",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "title": "God Speed Love",
-            "text": "Appears in:$(li)Kamen Rider Kabuto: God Speed Love (2006, Movie)$(br2)Spawn locations: Nether$(br2)Includes 3 $(l:kabuto/mobs/neotrooper)Neotrooper$(/l) spawners"
-        },
-        {
-            "type": "patchouli:image",
-            "border": true,
-            "images": [
-                "kamenridercraft:patchouli_books/kamenridercraft/images/god_speed_love.png"
-            ],
-            "title": " "
-        }
-    ]
+	"name": "God Speed Love",
+	"icon": "kamenridercraft:kabuto_logo",
+	"category": "kamenridercraft:kabuto/structures",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"title": "God Speed Love",
+			"text": "Appears in:$(li)Kamen Rider Kabuto: God Speed Love (2006, Movie)$(br2)Spawn locations: Nether$(br2)Includes 3 $(l:kabuto/mobs/neotrooper)Neotrooper$(/l) spawners"
+		},
+		{
+			"type": "patchouli:image",
+			"border": true,
+			"images": [
+				"kamenridercraft:patchouli_books/kamenridercraft/images/god_speed_love.png"
+			],
+			"title": " "
+		}
+	]
 }

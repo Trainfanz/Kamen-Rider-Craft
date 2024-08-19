@@ -1,24 +1,24 @@
 {
-    "name": "ZX Armor",
-    "icon": "kamenridercraft:zxhead",
-    "category": "kamenridercraft:zx/devices",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Used alongside a ZX Rider's transformation device to transform into that Rider"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:zx/zx_head"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:zx/zx_troso"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:zx/zx_legs"
-        }
-    ]
+	"name": "ZX Armor",
+	"icon": "kamenridercraft:zxhead",
+	"category": "kamenridercraft:zx/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Used alongside a ZX Rider's transformation device to transform into that Rider"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:zx/zx_head"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:zx/zx_troso"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:zx/zx_legs"
+		}
+	]
 }

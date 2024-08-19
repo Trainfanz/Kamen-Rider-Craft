@@ -1,64 +1,51 @@
 {
-  "display": {
-	"icon": {
-	  "item": "minecraft:emerald"
+	"display": {
+	  "icon": {
+		"item": "minecraft:emerald"
+	  },
+	  "title": "I Sure Do Love Paying My Taxes!",
+	  "description": [
+		{
+		  "text": "As Super-1, loot a bastion remnant"
+		}
+	  ],
+	  "frame": "challenge",
+	  "show_toast": true,
+	  "announce_to_chat": true,
+	  "hidden": true
 	},
-	"title": "I Sure Do Love Paying My Taxes!",
-	"description": [
-	  {
-		"text": "As Super-1, "
-	  },
-	  {
-		"text": "steal",
-		"strikethrough": true
-	  },
-	  {
-		"text": " collect a stack of emeralds"
-	  }
-	],
-	"frame": "challenge",
-	"show_toast": true,
-	"announce_to_chat": true,
-	"hidden": true
-  },
-  "parent": "kamenridercraft:showa/super-1",
-  "criteria": {
-	"requirement": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": [
-				"kamenridercraft:super_1head"
-			  ]
-			},
-			"chest": {
-			  "items": [
-				"kamenridercraft:super_1troso"
-			  ]
-			},
-			"legs": {
-			  "items": [
-				"kamenridercraft:super_1legs"
-			  ]
-			},
-			"feet": {
-			  "items": [
-				"kamenridercraft:cyclode"
-			  ]
+	"parent": "kamenridercraft:showa/super-1",
+	"criteria": {
+	  "requirement": {
+		"trigger": "minecraft:player_generates_container_loot",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "head": {
+				"items": [
+				  "kamenridercraft:super_1head"
+				]
+			  },
+			  "chest": {
+				"items": [
+				  "kamenridercraft:super_1troso"
+				]
+			  },
+			  "legs": {
+				"items": [
+				  "kamenridercraft:super_1legs"
+				]
+			  },
+			  "feet": {
+				"items": [
+				  "kamenridercraft:cyclode"
+				]
+			  }
 			}
-		  }
-		},
-		"items": [
-		  {
-			"items": [
-			  "minecraft:emerald"
-			],
-			"count": 64
-		  }
-		]
+		  },
+		  "loot_table": "minecraft:chests/bastion_treasure"
+		}
 	  }
 	}
   }
-}
+  

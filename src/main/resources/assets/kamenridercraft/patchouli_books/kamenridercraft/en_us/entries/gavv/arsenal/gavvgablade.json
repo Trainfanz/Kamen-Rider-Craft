@@ -1,19 +1,19 @@
 {
-    "name": "Gavvgablade",
-    "icon": "kamenridercraft:gavvgablade",
-    "category": "kamenridercraft:gavv/arsenal",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Gavv (2024, TV show)$(br2)Used by Gavv's $(l:blade/riders/gavv#gavv)Base$(/l) form. "
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:gavvgablade",
-            "title": " ",
-            "text": "Item is currently unobtainable"
-        }
-    ]
+	"name": "Gavvgablade",
+	"icon": "kamenridercraft:gavvgablade",
+	"category": "kamenridercraft:gavv/arsenal",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Gavv (2024, TV show)$(br2)Used by Gavv's $(l:blade/riders/gavv#gavv)base$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:gavvgablade",
+			"title": " ",
+			"text": "Item is currently unobtainable"
+		}
+	]
 }

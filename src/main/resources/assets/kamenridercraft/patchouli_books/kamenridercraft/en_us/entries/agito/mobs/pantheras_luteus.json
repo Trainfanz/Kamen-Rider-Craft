@@ -1,17 +1,17 @@
 {
-    "name": "Pantheras Luteus",
-    "icon": "kamenridercraft:agito_logo",
-    "category": "kamenridercraft:agito/mobs",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:pantheras_luteus",
-            "text": "Spawn locations: Beach, Badlands, Wooded Badlands, $(l:agito/structures/overlord_oopart)Overlord's Out-of-place Artifact$(/l)"
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Health: 30$(br2)Drops$(li)1-3 $(l:agito/items/agito_of_seed)Seeds of Agito$(/l)$(li)0-1 $(l:agito/items/agito_of_seed)Seed of Agito$(/l) (20%)$(li)0-1 $(l:agito/items/agito_ground)Agito Ground Philosopher's Stone$(/l) (40%)$(li)0-1 $(l:agito/items/agito_storm)Agito Storm Philosopher's Stone$(/l) (20%)$(li)0-1 $(l:agito/items/agito_flame)Agito Flame Philosopher's Stone$(/l) (20%)$(br2)Bosses$(li)$(l:agito/mobs/el_of_the_water)El of the Water$(/l) (10%)"
-        }
-    ]
+	"name": "Pantheras Luteus",
+	"icon": "kamenridercraft:agito_logo",
+	"category": "kamenridercraft:agito/mobs",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:pantheras_luteus",
+			"text": "Spawn locations: Beach, Badlands, Wooded Badlands, $(l:agito/structures/overlord_oopart)Overlord's Out-of-place Artifact$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Health: 30$(br2)Drops$(li)1-3 $(l:agito/items/agito_of_seed)Seeds of Agito$(/l)$(li)0-1 $(l:agito/items/agito_of_seed)Seed of Agito$(/l) (20%)$(li)0-1 $(l:agito/items/agito_ground)Agito Ground Philosopher's Stone$(/l) (40%)$(li)0-1 $(l:agito/items/agito_storm)Agito Storm Philosopher's Stone$(/l) (20%)$(li)0-1 $(l:agito/items/agito_flame)Agito Flame Philosopher's Stone$(/l) (20%)$(br2)Bosses$(li)$(l:agito/mobs/el_of_the_water)El of the Water$(/l) (10%)"
+		}
+	]
 }

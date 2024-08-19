@@ -1,18 +1,18 @@
 {
-    "name": "Kamen Rider Amazon Neo Alpha",
-    "icon": "kamenridercraft:amazon_injector_neo_alpha",
-    "category": "kamenridercraft:amazons/riders",
-    "sortnum": 5,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:neo_amazons_driver_neo_alpha\",Count:1b},{id:\"kamenridercraft:amazonslegs\",Count:1b},{id:\"kamenridercraft:amazonstroso\",Count:1b},{id:\"kamenridercraft:amazonshead\",Count:1b}]}",
-            "name": " "
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Amazon Neo Alpha",
+	"icon": "kamenridercraft:amazon_injector_neo_alpha",
+	"category": "kamenridercraft:amazons/riders",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:neo_amazons_driver_neo_alpha\",Count:1b},{id:\"kamenridercraft:amazonslegs\",Count:1b},{id:\"kamenridercraft:amazonstroso\",Count:1b},{id:\"kamenridercraft:amazonshead\",Count:1b}]}",
+			"name": " "
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Amazon Neo Alpha",
-            "text": "Appears in:$(li)Kamen Rider Amazons: The Last Judgement (2018, movie)$(br2)Transforms with the $(l:amazons/devices/neo_amazons_driver_neo_alpha)Neo Amazons Driver (Neo Alpha)$(/l)$(br2)Status Effects:$(li)Punch VIII$(li)Speed II$(li)Resistance II$(li)Regeneration III$(li)Jump Boost$(li)Strength XI (with empty hand)"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider Amazons: The Last Judgement (2018, movie)$(br2)Transforms with the $(l:amazons/devices/neo_amazons_driver_neo_alpha)Neo Amazons Driver (Neo Alpha)$(/l)$(br2)Status Effects:$(li)Punch VIII$(li)Speed II$(li)Resistance II$(li)Regeneration III$(li)Jump Boost$(li)Strength XI (with empty hand)"
+		}
+	]
 }

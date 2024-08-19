@@ -1,12 +1,12 @@
 {
-    "name": "Gavv Logo",
-    "icon": "kamenridercraft:gavv_logo",
-    "category": "kamenridercraft:gavv/items",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:blade/gavv_logo"
-        }
-    ]
+	"name": "Gavv Logo",
+	"icon": "kamenridercraft:gavv_logo",
+	"category": "kamenridercraft:gavv/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:blade/gavv_logo"
+		}
+	]
 }

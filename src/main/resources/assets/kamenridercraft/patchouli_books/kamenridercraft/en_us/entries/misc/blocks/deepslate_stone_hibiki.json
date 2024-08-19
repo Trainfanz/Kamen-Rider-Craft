@@ -1,0 +1,23 @@
+{
+	"name": "Deepslate Oni Ore",
+	"icon": "kamenridercraft:deepslate_stone_hibiki",
+	"category": "kamenridercraft:misc/blocks",
+	"sortnum": 13,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Mine this block to get Hibiki's $(l:hibiki/items/henshin_onsa)Henshin Onsa$(/l), $(l:hibiki/items/henshin_onibue_ibuki)Henshin Onibue$(/l), and $(l:hibiki/items/henshin_kigen_todoroki)Henshin Kigen$(/l)$(br2)Requires an iron pickaxe or better"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:stone_hibiki",
+			"title": " ",
+			"text": "Drops:$(li)$(l:hibiki/items/oni_ore)Akane Taka Disk Animal$(/l) (26.1%)$(li)$(l:hibiki/items/henshin_onsa)Henshin Onsa Onkaku$(/l) (6%)$(li)$(l:hibiki/items/henshin_onsa_kurenai)Henshin Onsa Onkaku (Kurenai)$(/l) (2.6%)$(li)$(l:hibiki/items/unfinished_armed_saber)Unfinished Armed Saber$(/l) (0.1%)$(li)$(l:hibiki/items/henshin_onibue_ibuki)Henshin Onibue Onteki$(/l) (3.4%)$(li)$(l:hibiki/items/henshin_kigen_todoroki)Henshin Kigen Onjo$(/l) (3.4%)$(li)$(l:hibiki/items/henshin_kigen_zanki)Henshin Kigen Onka$(/l) (3.4%)$(li)$(l:hibiki/items/henshin_kigen_shuki)Henshin Kigen (Shuki)$(/l) (2.6%)$(li)$(l:hibiki/items/henshin_onsa_danki)Henshin Onsa (Danki)$(/l) (2.6%)$(li)$(l:hibiki/items/henshin_onsa_eiki)Henshin Onsa (Eiki)$(/l) (2.6%)$(li)$(l:hibiki/items/henshin_onibue_shouki)Henshin Onibue (Shouki)$(/l) (2.6%)$(li)$(l:hibiki/items/henshin_onibue_amaki)Henshin Onibue (Amaki)$(/l) (2.6%)$(li)$(l:hibiki/items/henshin_onsa_kyoki)Henshin Onsa (Kyoki)$(/l) (2.6%)$(li)$(l:hibiki/items/oni_orehell)Asagi Washi Disk Animal$(/l) (17.3%)$(li)$(l:hibiki/items/henshin_kigen_banki)Henshin Kigen (Banki)$(/l) (2.6%)$(li)$(l:hibiki/items/henshin_onibue_toki)Henshin Onibue (Toki)$(/l) (2.6%)$(li)$(l:hibiki/items/henshin_onsa_gouki)Henshin Onsa (Gouki)$(/l) (2.6%)$(li)$(l:hibiki/items/henshin_kigen_sabaki)Henshin Kigen (Sabaki)$(/l) (2.6%)"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "$(li)$(l:hibiki/items/henshin_onsa_kabuki)Henshin Onsa (Kabuki)$(/l) (1.7%)$(li)$(l:hibiki/items/henshin_onsa_touki)Henshin Onsa (Touki)$(/l) (1.7%)$(li)$(l:hibiki/items/henshin_onsa_kirameki)Henshin Onsa (Kirameki)$(/l) (1.7%)$(li)$(l:hibiki/items/henshin_onsa_nishiki)Henshin Onsa (Nishiki)$(/l) (1.7%)$(li)$(l:hibiki/items/henshin_onsa_habataki)Henshin Onsa (Habataki)$(/l) (1.7%)$(li)$(l:hibiki/items/henshin_onibue_fubuki)Henshin Onibue (Fubuki)$(/l) (1.7%)"
+		}
+	]
+}

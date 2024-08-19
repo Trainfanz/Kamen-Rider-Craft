@@ -1,19 +1,19 @@
 {
-    "name": "Kamen Rider PunchHopper",
-    "icon": "kamenridercraft:punchhopper_zecter",
-    "category": "kamenridercraft:kabuto/riders",
-    "sortnum": 6,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:puchhopper_rider_belt\",Count:1b},{id:\"kamenridercraft:kabutolegs\",Count:1b},{id:\"kamenridercraft:kabutotroso\",Count:1b},{id:\"kamenridercraft:kabutohead\",Count:1b}]}",
-            "name": " ",
-            "text": ""
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider PunchHopper",
+	"icon": "kamenridercraft:punchhopper_zecter",
+	"category": "kamenridercraft:kabuto/riders",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:punchhopper_rider_belt\",Count:1b},{id:\"kamenridercraft:kabutolegs\",Count:1b},{id:\"kamenridercraft:kabutotroso\",Count:1b},{id:\"kamenridercraft:kabutohead\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider PunchHopper",
-            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Transforms with the $(l:kabuto/devices/puchhopper_rider_belt)ZECT Buckle (PunchHopper)$(/l)$(br2)Status Effects:$(li)Speed IV$(li)Resistance III$(li)Haste V$(li)Jump Boost V$(li)Strength V"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Transforms with the $(l:kabuto/devices/punchhopper_rider_belt)ZECT Buckle (PunchHopper)$(/l)$(br2)Status Effects:$(li)Speed IV$(li)Resistance III$(li)Haste V$(li)Jump Boost V$(li)Strength V"
+		}
+	]
 }

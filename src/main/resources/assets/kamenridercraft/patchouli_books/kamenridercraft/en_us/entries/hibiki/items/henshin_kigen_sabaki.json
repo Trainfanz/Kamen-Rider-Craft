@@ -1,0 +1,19 @@
+{
+	"name": "Henshin Kigen (Sabaki)",
+	"icon": "kamenridercraft:henshin_kigen_sabaki",
+	"category": "kamenridercraft:hibiki/items",
+	"sortnum": 24,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Used to craft Sabaki's $(l:hibiki/devices/sabakidriver)Ongekishin Gokuraku$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:henshin_kigen_sabaki",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/deepslate_stone_hibiki)Deepslate Oni Ore$(/l)"
+		}
+	]
+}

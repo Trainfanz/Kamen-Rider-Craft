@@ -1,19 +1,19 @@
 {
-    "name": "Tackle Core",
-    "icon": "kamenridercraft:tackle_core",
-    "category": "kamenridercraft:stronger/items",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Stronger (1975, TV show)$(br2)Used to craft Tackle's $(l:stronger/devices/tackle_belt)Tackle Belt$(/l)$(br2)Used to access Tackle's $(l:stronger/riders/tackle#tackle)base$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:tackle_core",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:stronger/mobs/black_satan_soldier)Black Satan Soldier$(/l)"
-        }
-    ]
+	"name": "Tackle Core",
+	"icon": "kamenridercraft:tackle_core",
+	"category": "kamenridercraft:stronger/items",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Stronger (1975, TV show)$(br2)Used to craft Tackle's $(l:stronger/devices/tackle_belt)Tackle Belt$(/l)$(br2)Used to access Tackle's $(l:stronger/riders/tackle#tackle)base$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:tackle_core",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:stronger/mobs/black_satan_soldier)Black Satan Soldier$(/l)"
+		}
+	]
 }

@@ -1,16 +1,16 @@
 {
-    "name": "Kabuto Kunaigun",
-    "icon": "kamenridercraft:kabuto_kunai",
-    "category": "kamenridercraft:kabuto/arsenal",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used by Kabuto's $(l:kabuto/riders/kabuto#masked)Masked$(/l) form"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:kabuto/kabuto_kunai"
-        }
-    ]
+	"name": "Kabuto Kunaigun",
+	"icon": "kamenridercraft:kabuto_kunai",
+	"category": "kamenridercraft:kabuto/arsenal",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used by Kabuto's $(l:kabuto/riders/kabuto#masked)Masked$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kabuto/kabuto_kunai"
+		}
+	]
 }

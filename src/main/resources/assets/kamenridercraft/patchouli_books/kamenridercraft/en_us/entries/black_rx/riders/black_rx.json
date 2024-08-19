@@ -1,44 +1,44 @@
 {
-    "name": "Kamen Rider Black RX",
-    "icon": "kamenridercraft:rx_core",
-    "category": "kamenridercraft:black_rx/riders",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "anchor": "black_rx",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:sun_riser\",tag:{slot_tex1:\"rx_core\"},Count:1b},{id:\"kamenridercraft:rxlegs\",Count:1b},{id:\"kamenridercraft:rxtroso\",Count:1b},{id:\"kamenridercraft:rxhead\",Count:1b}]}",
-            "name": " ",
-            "text": "Accessed with the $(l:black_rx/items/rx_core)Black RX Core$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Black RX",
+	"icon": "kamenridercraft:rx_core",
+	"category": "kamenridercraft:black_rx/riders",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "black_rx",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:sun_riser\",tag:{slot_tex1:\"rx_core\"},Count:1b},{id:\"kamenridercraft:rxlegs\",Count:1b},{id:\"kamenridercraft:rxtroso\",Count:1b},{id:\"kamenridercraft:rxhead\",Count:1b}]}",
+			"name": " ",
+			"text": "Accessed with the $(l:black_rx/items/rx_core)Black RX Core$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Black RX",
-            "text": "Appears in:$(li)Kamen Rider Black RX (1988, TV show)$(br2)Transforms with the $(l:black_rx/devices/sun_riser)Sunriser$(/l)$(br2)Status Effects:$(li)Punch II$(li)Haste$(li)Jump Boost II$(li)Strength V (with empty hand)$(li)Strength II (with weapon)"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "roborider",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:sun_riser\",tag:{slot_tex1:\"robo_core\"},Count:1b},{id:\"kamenridercraft:rxlegs\",Count:1b},{id:\"kamenridercraft:rxtroso\",Count:1b},{id:\"kamenridercraft:rxhead\",Count:1b}]}",
-            "name": "Roborider",
-            "text": "Accessed with the $(l:black_rx/items/robo_core)Roborider Core$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Black RX (1988, TV show)$(br2)Transforms with the $(l:black_rx/devices/sun_riser)Sunriser$(/l)$(br2)Status Effects:$(li)Punch II$(li)Haste$(li)Jump Boost II$(li)Strength V (with empty hand)$(li)Strength II (with weapon)"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "roborider",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:sun_riser\",tag:{slot_tex1:\"robo_core\"},Count:1b},{id:\"kamenridercraft:rxlegs\",Count:1b},{id:\"kamenridercraft:rxtroso\",Count:1b},{id:\"kamenridercraft:rxhead\",Count:1b}]}",
+			"name": "Roborider",
+			"text": "Accessed with the $(l:black_rx/items/robo_core)Roborider Core$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Black RX",
-            "text": "Appears in:$(li)Kamen Rider Black RX (1988, TV show)$(br2)Transforms with the $(l:black_rx/devices/sun_riser)Sunriser$(/l)$(br2)Status Effects:$(li)Resistance II$(li)Haste$(li)Jump Boost II$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "biorider",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:sun_riser\",tag:{slot_tex1:\"bio_core\"},Count:1b},{id:\"kamenridercraft:rxlegs\",Count:1b},{id:\"kamenridercraft:rxtroso\",Count:1b},{id:\"kamenridercraft:rxhead\",Count:1b}]}",
-            "name": "Biorider",
-            "text": "Accessed with the $(l:black_rx/items/bio_core)Biorider Core$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Black RX (1988, TV show)$(br2)Transforms with the $(l:black_rx/devices/sun_riser)Sunriser$(/l)$(br2)Status Effects:$(li)Resistance II$(li)Haste$(li)Jump Boost II$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "biorider",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:sun_riser\",tag:{slot_tex1:\"bio_core\"},Count:1b},{id:\"kamenridercraft:rxlegs\",Count:1b},{id:\"kamenridercraft:rxtroso\",Count:1b},{id:\"kamenridercraft:rxhead\",Count:1b}]}",
+			"name": "Biorider",
+			"text": "Accessed with the $(l:black_rx/items/bio_core)Biorider Core$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Black RX",
-            "text": "Appears in:$(li)Kamen Rider Black RX (1988, TV show)$(br2)Transforms with the $(l:black_rx/devices/sun_riser)Sunriser$(/l)$(br2)Status Effects:$(li)Punch II$(li)Dolphin's Grace II$(li)Water Breathing$(li)Strength V (with empty hand)$(li)Strength II (with weapon)"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider Black RX (1988, TV show)$(br2)Transforms with the $(l:black_rx/devices/sun_riser)Sunriser$(/l)$(br2)Status Effects:$(li)Punch II$(li)Dolphin's Grace II$(li)Water Breathing$(li)Strength V (with empty hand)$(li)Strength II (with weapon)"
+		}
+	]
 }

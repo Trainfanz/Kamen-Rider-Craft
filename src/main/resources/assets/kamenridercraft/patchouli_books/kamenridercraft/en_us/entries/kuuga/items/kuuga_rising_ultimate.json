@@ -1,16 +1,16 @@
 {
-    "name": "Kuuga Rising Ultimate Amadam",
-    "icon": "kamenridercraft:kuuga_rising_ultimate",
-    "category": "kamenridercraft:kuuga/items",
-    "sortnum": 12,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Decade: All Riders vs. Dai-Shocker (2009, movie)$(li)Kamen Rider Wizard (2012, TV show)$(br2)Used to access Kuuga's $(l:kuuga/riders/kuuga#rising_ultimate)Rising Ultimate Form$(/l)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:kuuga/kuuga_rising_ultimate"
-        }
-    ]
+	"name": "Kuuga Rising Ultimate Amadam",
+	"icon": "kamenridercraft:kuuga_rising_ultimate",
+	"category": "kamenridercraft:kuuga/items",
+	"sortnum": 12,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade: All Riders vs. Dai-Shocker (2009, movie)$(li)Kamen Rider Wizard (2012, TV show)$(br2)Used to access Kuuga's $(l:kuuga/riders/kuuga#rising_ultimate)Rising Ultimate Form$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kuuga/kuuga_rising_ultimate"
+		}
+	]
 }

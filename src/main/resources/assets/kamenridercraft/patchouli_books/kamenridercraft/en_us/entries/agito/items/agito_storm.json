@@ -1,19 +1,19 @@
 {
-    "name": "Agito Storm Philosopher's Stone",
-    "icon": "kamenridercraft:agito_storm",
-    "category": "kamenridercraft:agito/items",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used to access Agito's $(l:agito/riders/agito#storm)Storm Form$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:agito_storm",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:agito/mobs/pantheras_luteus)Pantheras Luteus$(/l)"
-        }
-    ]
+	"name": "Agito Storm Philosopher's Stone",
+	"icon": "kamenridercraft:agito_storm",
+	"category": "kamenridercraft:agito/items",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used to access Agito's $(l:agito/riders/agito#storm)Storm Form$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:agito_storm",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:agito/mobs/pantheras_luteus)Pantheras Luteus$(/l)"
+		}
+	]
 }

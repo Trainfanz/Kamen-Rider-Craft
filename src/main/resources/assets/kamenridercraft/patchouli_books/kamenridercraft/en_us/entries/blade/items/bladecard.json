@@ -1,19 +1,19 @@
 {
-    "name": "Common Blank Rouze Card",
-    "icon": "kamenridercraft:bladecard",
-    "category": "kamenridercraft:blade/items",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used as the base item for most Blade items"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:bladecard",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:faiz/mobs/riotrooper)Riotroopers$(/l)$(li)$(l:faiz/mobs/orga)Kamen Rider Orga$(/l)"
-        }
-    ]
+	"name": "Common Blank Rouze Card",
+	"icon": "kamenridercraft:bladecard",
+	"category": "kamenridercraft:blade/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used as the base item for most Blade items"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:bladecard",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
+		}
+	]
 }

@@ -1,19 +1,19 @@
 {
-    "name": "ZX Belt Core",
-    "icon": "kamenridercraft:zx_belt_core",
-    "category": "kamenridercraft:zx/items",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Birth of the 10th! Kamen Riders All Together!! (1984, TV special)$(br2)Used to craft ZX's $(l:zx/devices/zx_belt)ZX Belt$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:zx_belt_core",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:zx/mobs/combat_roid)Combat-Roid$(/l)"
-        }
-    ]
+	"name": "ZX Belt Core",
+	"icon": "kamenridercraft:zx_belt_core",
+	"category": "kamenridercraft:zx/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Birth of the 10th! Kamen Riders All Together!! (1984, TV special)$(br2)Used to craft ZX's $(l:zx/devices/zx_belt)ZX Belt$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:zx_belt_core",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:zx/mobs/combat_roid)Combat-Roid$(/l)"
+		}
+	]
 }

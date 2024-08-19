@@ -1,18 +1,18 @@
 {
-    "name": "Kamen Rider Yongo",
-    "icon": "kamenridercraft:typhoon_core_yongo",
-    "category": "kamenridercraft:ichigo/riders",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:typhoon_yongo\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
-            "name": " "
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Yongo",
+	"icon": "kamenridercraft:typhoon_core_yongo",
+	"category": "kamenridercraft:ichigo/riders",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:typhoon_yongo\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
+			"name": " "
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Yongo",
-            "text": "Appears in:$(li)D-Video Special: Kamen Rider 4 (2015, web series)$(br2)Transforms with the $(l:ichigo/devices/typhoon_yongo)Typhoon (Yongo)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
-        }
-    ]
+			"text": "Appears in:$(li)D-Video Special: Kamen Rider 4 (2015, web series)$(br2)Transforms with the $(l:ichigo/devices/typhoon_yongo)Typhoon (Yongo)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
+		}
+	]
 }

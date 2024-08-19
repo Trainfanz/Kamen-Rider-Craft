@@ -1,19 +1,19 @@
 {
-    "name": "Sinister Pachinko Ball",
-    "icon": "kamenridercraft:sinister_pachinko_ball",
-    "category": "kamenridercraft:misc/items",
-    "sortnum": 5,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Used to craft the Dark Shocker Army's belts"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:sinister_pachinko_ball",
-            "title": " ",
-            "text": "Traded by an apprentice Shocker Villager"
-        }
-    ]
+	"name": "Sinister Pachinko Ball",
+	"icon": "kamenridercraft:sinister_pachinko_ball",
+	"category": "kamenridercraft:misc/items",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Used to craft the Dark Shocker Army's belts"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:sinister_pachinko_ball",
+			"title": " ",
+			"text": "Traded by an apprentice Shocker Villager"
+		}
+	]
 }

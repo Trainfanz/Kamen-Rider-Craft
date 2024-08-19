@@ -1,19 +1,19 @@
 {
-    "name": "Typhoon Core (Sango)",
-    "icon": "kamenridercraft:typhoon_core_sango",
-    "category": "kamenridercraft:ichigo/items",
-    "sortnum": 7,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Super Hero Taisen GP: Kamen Rider 3 (2015, movie)$(br2)Used to craft Sango's $(l:ichigo/devices/typhoon_sango)Typhoon$(/l)$(br2)Used to access Sango's $(l:ichigo/riders/sango#movie_sango)movie$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:typhoon_core_sango",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:ichigo/mobs/shocker_rider)Shocker Rider$(/l)"
-        }
-    ]
+	"name": "Typhoon Core (Sango)",
+	"icon": "kamenridercraft:typhoon_core_sango",
+	"category": "kamenridercraft:ichigo/items",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Super Hero Taisen GP: Kamen Rider 3 (2015, movie)$(br2)Used to craft Sango's $(l:ichigo/devices/typhoon_sango)Typhoon$(/l)$(br2)Used to access Sango's $(l:ichigo/riders/sango#movie_sango)movie$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:typhoon_core_sango",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:ichigo/mobs/shocker_rider)Shocker Rider$(/l)"
+		}
+	]
 }

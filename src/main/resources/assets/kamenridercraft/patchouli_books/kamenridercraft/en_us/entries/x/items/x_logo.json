@@ -1,12 +1,12 @@
 {
-    "name": "X Logo",
-    "icon": "kamenridercraft:x_logo",
-    "category": "kamenridercraft:x/items",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:x/x_logo"
-        }
-    ]
+	"name": "X Logo",
+	"icon": "kamenridercraft:x_logo",
+	"category": "kamenridercraft:x/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:x/x_logo"
+		}
+	]
 }

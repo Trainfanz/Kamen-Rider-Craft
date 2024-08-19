@@ -1,19 +1,19 @@
 {
-    "name": "Shocker Rider Typhoon Core",
-    "icon": "kamenridercraft:shocker_rider_typhoon_core",
-    "category": "kamenridercraft:ichigo/items",
-    "sortnum": 10,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider (1971, TV show)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:shocker_rider_typhoon_core",
-            "title": " ",
-            "text": "Item is currently unobtainable"
-        }
-    ]
+	"name": "Shocker Rider Typhoon Core",
+	"icon": "kamenridercraft:shocker_rider_typhoon_core",
+	"category": "kamenridercraft:ichigo/items",
+	"sortnum": 10,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider (1971, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:shocker_rider_typhoon_core",
+			"title": " ",
+			"text": "Item is currently unobtainable"
+		}
+	]
 }

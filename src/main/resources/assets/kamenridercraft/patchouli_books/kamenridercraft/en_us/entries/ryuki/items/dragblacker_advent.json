@@ -1,19 +1,19 @@
 {
-    "name": "Dragblacker Advent Card",
-    "icon": "kamenridercraft:dragblacker_advent",
-    "category": "kamenridercraft:ryuki/items",
-    "sortnum": 13,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Ryuki: Episode Final (2002, movie)$(br2)Used to craft Ryuga's $(l:ryuki/devices/v_buckle_ryuga)V Buckle (Ryuga)$(/l)$(br2)Used to access Ryuga's $(l:ryuki/riders/ryuga#ryuga)base$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:dragblacker_advent",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:misc/blocks/deepslate_glass_ryuki)Deepslate Advent Glass$(/l)"
-        }
-    ]
+	"name": "Dragblacker Advent Card",
+	"icon": "kamenridercraft:dragblacker_advent",
+	"category": "kamenridercraft:ryuki/items",
+	"sortnum": 13,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki: Episode Final (2002, movie)$(br2)Used to craft Ryuga's $(l:ryuki/devices/v_buckle_ryuga)V Buckle (Ryuga)$(/l)$(br2)Used to access Ryuga's $(l:ryuki/riders/ryuga#ryuga)base$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:dragblacker_advent",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/deepslate_glass_ryuki)Deepslate Advent Glass$(/l)"
+		}
+	]
 }

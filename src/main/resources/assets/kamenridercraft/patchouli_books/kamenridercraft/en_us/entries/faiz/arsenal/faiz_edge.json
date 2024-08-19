@@ -1,16 +1,16 @@
 {
-    "name": "Faiz Edge",
-    "icon": "kamenridercraft:faiz_edge",
-    "category": "kamenridercraft:faiz/arsenal",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Faiz (2003, TV show)$(br2)Used by Faiz's $(l:faiz/riders/faiz#faiz)base$(/l) and $(l:faiz/riders/faiz#axel)Axel$(/l) forms"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:faiz/faiz_edge"
-        }
-    ]
+	"name": "Faiz Edge",
+	"icon": "kamenridercraft:faiz_edge",
+	"category": "kamenridercraft:faiz/arsenal",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Faiz (2003, TV show)$(br2)Used by Faiz's $(l:faiz/riders/faiz#faiz)base$(/l) and $(l:faiz/riders/faiz#axel)Axel$(/l) forms"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:faiz/faiz_edge"
+		}
+	]
 }

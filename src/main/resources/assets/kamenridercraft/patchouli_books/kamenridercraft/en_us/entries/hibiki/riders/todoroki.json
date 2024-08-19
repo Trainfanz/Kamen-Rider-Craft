@@ -1,0 +1,19 @@
+{
+	"name": "Kamen Rider Todoroki",
+	"icon": "kamenridercraft:henshin_kigen_todoroki",
+	"category": "kamenridercraft:hibiki/riders",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:todorokidriver\",Count:1b},{id:\"kamenridercraft:hibikilegs\",Count:1b},{id:\"kamenridercraft:hibikitroso\",Count:1b},{id:\"kamenridercraft:hibikihead\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Todoroki",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Transforms with the $(l:hibiki/devices/todorokidriver)Ongekishin Raigou$(/l)$(br2)Status Effects:$(li)Haste II$(li)Strength III"
+		}
+	]
+}

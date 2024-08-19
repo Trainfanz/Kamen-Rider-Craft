@@ -1,19 +1,19 @@
 {
-    "name": "Another Agito Philosopher's Stone",
-    "icon": "kamenridercraft:another_agito",
-    "category": "kamenridercraft:agito/items",
-    "sortnum": 11,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used to craft Another Agito's $(l:agito/devices/ank_point)Ank Point$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:another_agito",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:agito/mobs/another_agito)Another Agito$(/l)"
-        }
-    ]
+	"name": "Another Agito Philosopher's Stone",
+	"icon": "kamenridercraft:another_agito",
+	"category": "kamenridercraft:agito/items",
+	"sortnum": 11,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used to craft Another Agito's $(l:agito/devices/ank_point)Ank Point$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:another_agito",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:agito/mobs/another_agito)Another Agito$(/l)"
+		}
+	]
 }

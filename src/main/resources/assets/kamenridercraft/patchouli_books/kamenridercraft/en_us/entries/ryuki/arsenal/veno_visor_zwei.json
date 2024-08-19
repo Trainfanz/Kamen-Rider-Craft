@@ -1,19 +1,19 @@
 {
-    "name": "Venovisorzwei",
-    "icon": "kamenridercraft:veno_visor_zwei",
-    "category": "kamenridercraft:ryuki/arsenal",
-    "sortnum": 27,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Outsiders (2022, web series)$(br2)Used by Ouja's $(l:ryuki/riders/ouja#survive)Survive$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:veno_visor_zwei",
-            "title": " ",
-            "text": "Obtained through the $(l:ryuki/items/veno_visor_zwei_vent)Venovisorzwei Sword Vent Card$(/l)"
-        }
-    ]
+	"name": "Venovisorzwei",
+	"icon": "kamenridercraft:veno_visor_zwei",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 27,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Outsiders (2022, web series)$(br2)Used by Ouja's $(l:ryuki/riders/ouja#survive)Survive Form$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:veno_visor_zwei",
+			"title": " ",
+			"text": "Obtained through the $(l:ryuki/items/veno_visor_zwei_vent)Venovisorzwei Sword Vent Card$(/l)"
+		}
+	]
 }

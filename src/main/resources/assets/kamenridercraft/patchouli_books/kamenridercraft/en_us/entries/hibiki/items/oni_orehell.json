@@ -1,0 +1,19 @@
+{
+	"name": "Asagi Washi Disk Animal",
+	"icon": "kamenridercraft:oni_orehell",
+	"category": "kamenridercraft:hibiki/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Used as the base item for several Hibiki Rider belts"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:oni_orehell",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/deepslate_stone_hibiki)Deepslate Oni Ore$(/l)"
+		}
+	]
+}

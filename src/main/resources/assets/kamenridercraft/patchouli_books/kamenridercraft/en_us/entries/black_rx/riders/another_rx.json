@@ -1,18 +1,18 @@
 {
-    "name": "White RX (Another RX)",
-    "icon": "kamenridercraft:moon_rx_core",
-    "category": "kamenridercraft:black_rx/riders",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:moon_riser\",Count:1b},{id:\"kamenridercraft:rxlegs\",Count:1b},{id:\"kamenridercraft:rxtroso\",Count:1b},{id:\"kamenridercraft:rxhead\",Count:1b}]}",
-            "name": " "
-        },
-        {
-            "type": "patchouli:text",
+	"name": "White RX (Another RX)",
+	"icon": "kamenridercraft:moon_rx_core",
+	"category": "kamenridercraft:black_rx/riders",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:moon_riser\",Count:1b},{id:\"kamenridercraft:rxlegs\",Count:1b},{id:\"kamenridercraft:rxtroso\",Count:1b},{id:\"kamenridercraft:rxhead\",Count:1b}]}",
+			"name": " "
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Another RX",
-            "text": "Appears in:$(li)After 0 (2002, S.I.C. Hero Saga)$(br2)Transforms with the $(l:black_rx/devices/moon_riser)Moonriser$(/l)$(br2)Status Effects:$(li)Punch II$(li)Haste$(li)Jump Boost II$(li)Strength V (with empty hand)$(li)Strength II (with weapon)"
-        }
-    ]
+			"text": "Appears in:$(li)After 0 (2002, S.I.C. Hero Saga)$(br2)Transforms with the $(l:black_rx/devices/moon_riser)Moonriser$(/l)$(br2)Status Effects:$(li)Punch II$(li)Haste$(li)Jump Boost II$(li)Strength V (with empty hand)$(li)Strength II (with weapon)"
+		}
+	]
 }

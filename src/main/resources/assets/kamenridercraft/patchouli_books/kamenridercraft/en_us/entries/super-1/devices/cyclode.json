@@ -1,16 +1,16 @@
 {
-    "name": "Cyclode",
-    "icon": "kamenridercraft:cyclode",
-    "category": "kamenridercraft:super-1/devices",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Super-1 (1980, TV show)$(br2)Used alongside the $(l:super-1/devices/armor)Super-1 armor$(/l) to transform into $(l:super-1/riders/super-1)Super-1"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:super_1/cyclode"
-        }
-    ]
+	"name": "Cyclode",
+	"icon": "kamenridercraft:cyclode",
+	"category": "kamenridercraft:super-1/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Super-1 (1980, TV show)$(br2)Used alongside the $(l:super-1/devices/armor)Super-1 armor$(/l) to transform into $(l:super-1/riders/super-1)Super-1"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:super_1/cyclode"
+		}
+	]
 }

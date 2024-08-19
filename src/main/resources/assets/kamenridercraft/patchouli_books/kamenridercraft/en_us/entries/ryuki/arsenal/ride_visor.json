@@ -1,16 +1,16 @@
 {
-    "name": "Ridevisor",
-    "icon": "kamenridercraft:ride_visor",
-    "category": "kamenridercraft:ryuki/arsenal",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by Ryuki's $(l:ryuki/riders/ryuki#blank)Blank Form$(/l)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:ryuki/ride_visor"
-        }
-    ]
+	"name": "Ridevisor",
+	"icon": "kamenridercraft:ride_visor",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by Ryuki's $(l:ryuki/riders/ryuki#blank)Blank Form$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:ryuki/ride_visor"
+		}
+	]
 }

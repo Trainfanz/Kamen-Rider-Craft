@@ -1,19 +1,19 @@
 {
-    "name": "Kamen Rider Abyss",
-    "icon": "kamenridercraft:abysslasher_advent",
-    "category": "kamenridercraft:ryuki/riders",
-    "sortnum": 13,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:v_buckle_abyss\",Count:1b},{id:\"kamenridercraft:ryukilegs\",Count:1b},{id:\"kamenridercraft:ryukitroso\",Count:1b},{id:\"kamenridercraft:ryukihead\",Count:1b}]}",
-            "name": " ",
-            "text": ""
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Abyss",
+	"icon": "kamenridercraft:abysslasher_advent",
+	"category": "kamenridercraft:ryuki/riders",
+	"sortnum": 13,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:v_buckle_abyss\",Count:1b},{id:\"kamenridercraft:ryukilegs\",Count:1b},{id:\"kamenridercraft:ryukitroso\",Count:1b},{id:\"kamenridercraft:ryukihead\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Abyss",
-            "text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Transforms with the $(l:ryuki/devices/v_buckle_abyss)V Buckle (Abyss)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Water Breathing$(li)Strength II"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Transforms with the $(l:ryuki/devices/v_buckle_abyss)V Buckle (Abyss)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Water Breathing$(li)Strength II"
+		}
+	]
 }

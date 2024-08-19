@@ -1,19 +1,19 @@
 {
-    "name": "Tsukuyomi Belt",
-    "icon": "kamenridercraft:tsukuyomi_belt",
-    "category": "kamenridercraft:zx/devices",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider SPIRITS (2001, manga)$(br2)Used alongside the $(l:zx/devices/armor)ZX armor$(/l) to transform into $(l:zx/riders/tsukuyomi)Tsukuyomi"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:tsukuyomi_belt",
-            "title": " ",
-            "text": "Item is currently unobtainable"
-        }
-    ]
+	"name": "Tsukuyomi Belt",
+	"icon": "kamenridercraft:tsukuyomi_belt",
+	"category": "kamenridercraft:zx/devices",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider SPIRITS (2001, manga)$(br2)Used alongside the $(l:zx/devices/armor)ZX armor$(/l) to transform into $(l:zx/riders/tsukuyomi)Tsukuyomi"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:tsukuyomi_belt",
+			"title": " ",
+			"text": "Item is currently unobtainable"
+		}
+	]
 }

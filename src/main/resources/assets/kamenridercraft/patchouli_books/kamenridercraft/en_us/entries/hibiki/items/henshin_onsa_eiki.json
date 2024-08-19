@@ -1,0 +1,19 @@
+{
+	"name": "Henshin Onsa (Eiki)",
+	"icon": "kamenridercraft:henshin_onsa_eiki",
+	"category": "kamenridercraft:hibiki/items",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Used to craft Eiki's $(l:hibiki/devices/eikidriver)Ongekiko Hakuryoku$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:henshin_onsa_eiki",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_hibiki)Oni Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_hibiki)Deepslate Oni Ore$(/l)"
+		}
+	]
+}

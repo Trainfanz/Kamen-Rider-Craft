@@ -1,19 +1,19 @@
 {
-    "name": "Gigatector Guard Vent Card",
-    "icon": "kamenridercraft:giga_tector_vent",
-    "category": "kamenridercraft:ryuki/items",
-    "sortnum": 43,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used to access Zolda's $(l:ryuki/riders/zolda#gigatector)base form w/ Gigatector$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:giga_tector_vent",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
-        }
-    ]
+	"name": "Gigatector Guard Vent Card",
+	"icon": "kamenridercraft:giga_tector_vent",
+	"category": "kamenridercraft:ryuki/items",
+	"sortnum": 43,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used to access Zolda's $(l:ryuki/riders/zolda#gigatector)base form w/ Gigatector$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:giga_tector_vent",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
+		}
+	]
 }

@@ -1,16 +1,16 @@
 {
-    "name": "Kuuga Ultimate Amadam",
-    "icon": "kamenridercraft:kuuga_ultimate",
-    "category": "kamenridercraft:kuuga/items",
-    "sortnum": 11,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Used to access Kuuga's $(l:kuuga/riders/kuuga#ultimate)Ultimate Form$(/l)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:kuuga/kuuga_ultimate"
-        }
-    ]
+	"name": "Kuuga Ultimate Amadam",
+	"icon": "kamenridercraft:kuuga_ultimate",
+	"category": "kamenridercraft:kuuga/items",
+	"sortnum": 11,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Used to access Kuuga's $(l:kuuga/riders/kuuga#ultimate)Ultimate Form$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kuuga/kuuga_ultimate"
+		}
+	]
 }

@@ -1,0 +1,16 @@
+{
+	"name": "Ongekimei (Fubuki)",
+	"icon": "kamenridercraft:fubukidriver",
+	"category": "kamenridercraft:hibiki/devices",
+	"sortnum": 20,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Super Imaginative Chogokin (2005, toyline)$(br2)Used alongside the $(l:hibiki/devices/armor)Hibiki armor$(/l) to transform into $(l:hibiki/riders/fubuki)Kamen Rider Fubuki"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:hibiki/fubukidriver"
+		}
+	]
+}

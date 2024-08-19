@@ -1,19 +1,19 @@
 {
-    "name": "Condorer Core (Blind Alpha)",
-    "icon": "kamenridercraft:condorer_core_alpha_blind",
-    "category": "kamenridercraft:amazons/items",
-    "sortnum": 7,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Amazons Season 1 (2016, web series)$(br2)Used to access Amazon Alpha's $(l:amazons/riders/amazon_alpha#blind_alpha)blinded$(/l) state"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:condorer_core_alpha_blind",
-            "title": " ",
-            "text": "Item is currently unobtainable"
-        }
-    ]
+	"name": "Condorer Core (Blind Alpha)",
+	"icon": "kamenridercraft:condorer_core_alpha_blind",
+	"category": "kamenridercraft:amazons/items",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Amazons Season 1 (2016, web series)$(br2)Used to access Amazon Alpha's $(l:amazons/riders/amazon_alpha#blind_alpha)blinded$(/l) state"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:condorer_core_alpha_blind",
+			"title": " ",
+			"text": "Item is currently unobtainable"
+		}
+	]
 }

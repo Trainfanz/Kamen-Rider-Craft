@@ -1,19 +1,19 @@
 {
-    "name": "Amazon Cell Vial (Neo)",
-    "icon": "kamenridercraft:neo_amazon_cell_vial",
-    "category": "kamenridercraft:amazons/items",
-    "sortnum": 4,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Used to craft the $(l:amazons/items/amazon_injector_neo)Amazon$(/l) $(l:amazons/items/amazon_injector_new_omega)Injec$(/l)$(l:amazons/items/amazon_injector_neo_alpha)tors$(/l) and the $(l:amazons/devices/neo_amazons_driver_neo)Neo$(/l) $(l:amazons/devices/neo_amazons_driver_omega)Amazons$(/l) $(l:amazons/devices/neo_amazons_driver_neo_alpha)Drivers$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:neo_amazon_cell_vial",
-            "title": " ",
-            "text": "Obtained by using $(l:amazons/items/amazon_cell_vial)Amazon Cell Vials$(/l) on the $(l:misc/blocks/amazon_cell_mutator)Amazon Cell Mutator$(/l)"
-        }
-    ]
+	"name": "Amazon Cell Vial (Neo)",
+	"icon": "kamenridercraft:neo_amazon_cell_vial",
+	"category": "kamenridercraft:amazons/items",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Used to craft the $(l:amazons/items/amazon_injector_neo)Amazon$(/l) $(l:amazons/items/amazon_injector_new_omega)Injec$(/l)$(l:amazons/items/amazon_injector_neo_alpha)tors$(/l) and the $(l:amazons/devices/neo_amazons_driver_neo)Neo$(/l) $(l:amazons/devices/neo_amazons_driver_omega)Amazons$(/l) $(l:amazons/devices/neo_amazons_driver_neo_alpha)Drivers$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:neo_amazon_cell_vial",
+			"title": " ",
+			"text": "Obtained by using $(l:amazons/items/amazon_cell_vial)Amazon Cell Vials$(/l) on the $(l:misc/blocks/amazon_cell_mutator)Amazon Cell Mutator$(/l)"
+		}
+	]
 }

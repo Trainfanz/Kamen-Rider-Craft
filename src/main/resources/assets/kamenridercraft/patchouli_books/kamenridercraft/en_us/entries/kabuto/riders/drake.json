@@ -1,32 +1,32 @@
 {
-    "name": "Kamen Rider Drake",
-    "icon": "kamenridercraft:drake_zecter",
-    "category": "kamenridercraft:kabuto/riders",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "anchor": "masked",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:drake_rider_belt\",tag:{slot_tex1:\"drake_zecter_mask\"},Count:1b},{id:\"kamenridercraft:kabutolegs\",Count:1b},{id:\"kamenridercraft:kabutotroso\",Count:1b},{id:\"kamenridercraft:kabutohead\",Count:1b}]}",
-            "name": "Masked Form",
-            "text": "Accessed with the $(l:kabuto/items/drake_zecter)Drake Zecter$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Drake",
+	"icon": "kamenridercraft:drake_zecter",
+	"category": "kamenridercraft:kabuto/riders",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "masked",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:drake_rider_belt\",tag:{slot_tex1:\"drake_zecter_mask\"},Count:1b},{id:\"kamenridercraft:kabutolegs\",Count:1b},{id:\"kamenridercraft:kabutotroso\",Count:1b},{id:\"kamenridercraft:kabutohead\",Count:1b}]}",
+			"name": "Masked Form",
+			"text": "Accessed with the $(l:kabuto/items/drake_zecter)Drake Zecter$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Drake",
-            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Transforms with the $(l:kabuto/devices/drake_rider_belt)ZECT Buckle (Drake)$(/l)$(br2)Status Effects:$(li)Slowness$(li)Resistance II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "rider",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:drake_rider_belt\",tag:{slot_tex1:\"drake_zecter\"},Count:1b},{id:\"kamenridercraft:kabutolegs\",Count:1b},{id:\"kamenridercraft:kabutotroso\",Count:1b},{id:\"kamenridercraft:kabutohead\",Count:1b}]}",
-            "name": "Rider Form",
-            "text": "Accessed with the $(l:kabuto/items/drake_zecter)Drake Zecter$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Transforms with the $(l:kabuto/devices/drake_rider_belt)ZECT Buckle (Drake)$(/l)$(br2)Status Effects:$(li)Slowness$(li)Resistance II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "rider",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:drake_rider_belt\",tag:{slot_tex1:\"drake_zecter\"},Count:1b},{id:\"kamenridercraft:kabutolegs\",Count:1b},{id:\"kamenridercraft:kabutotroso\",Count:1b},{id:\"kamenridercraft:kabutohead\",Count:1b}]}",
+			"name": "Rider Form",
+			"text": "Accessed with the $(l:kabuto/items/drake_zecter)Drake Zecter$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Drake",
-            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Transforms with the $(l:kabuto/devices/drake_rider_belt)ZECT Buckle (Drake)$(/l)$(br2)Status Effects:$(li)Speed IV$(li)Night Vision$(li)Haste IV"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Transforms with the $(l:kabuto/devices/drake_rider_belt)ZECT Buckle (Drake)$(/l)$(br2)Status Effects:$(li)Speed IV$(li)Night Vision$(li)Haste IV"
+		}
+	]
 }

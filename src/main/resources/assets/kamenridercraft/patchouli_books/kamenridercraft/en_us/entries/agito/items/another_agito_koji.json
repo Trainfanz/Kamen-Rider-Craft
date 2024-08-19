@@ -1,19 +1,19 @@
 {
-    "name": "Another Agito Philosopher's Stone (Kouji Majima)",
-    "icon": "kamenridercraft:another_agito_koji",
-    "category": "kamenridercraft:agito/items",
-    "sortnum": 13,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)The Man that has Become a Kamen Rider (2012, S.I.C. Hero Saga)$(br2)Used to craft Another Agito's $(l:agito/devices/ank_point_burning)Ank Point (Kouji Majima)$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:another_agito_koji",
-            "title": " ",
-            "text": "Item is currently unobtainable"
-        }
-    ]
+	"name": "Another Agito Philosopher's Stone (Kouji Majima)",
+	"icon": "kamenridercraft:another_agito_koji",
+	"category": "kamenridercraft:agito/items",
+	"sortnum": 13,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)The Man that has Become a Kamen Rider (2012, S.I.C. Hero Saga)$(br2)Used to craft Another Agito's $(l:agito/devices/ank_point_burning)Ank Point (Kouji Majima)$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:another_agito_koji",
+			"title": " ",
+			"text": "Item is currently unobtainable"
+		}
+	]
 }

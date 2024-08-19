@@ -1,19 +1,19 @@
 {
-    "name": "Fusion Elephant Rouze Card",
-    "icon": "kamenridercraft:fusion_elephant",
-    "category": "kamenridercraft:blade/items",
-    "sortnum": 15,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)S.I.C. Hero Saga (2014, ???)$(br2)Used to craft the $(l:blade/items/rouze_absorber)Rouze Absorber$(/l)$(br2)Used to access Leangle's $(l:blade/riders/leangle#jack)Jack$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:fusion_elephant",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
-        }
-    ]
+	"name": "Fusion Elephant Rouze Card",
+	"icon": "kamenridercraft:fusion_elephant",
+	"category": "kamenridercraft:blade/items",
+	"sortnum": 15,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Special Edition: Clover (2008, S.I.C. Hero Saga)$(br2)Used to craft the $(l:blade/items/rouze_absorber)Rouze Absorber$(/l)$(br2)Used to access Leangle's $(l:blade/riders/leangle#jack)Jack$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:fusion_elephant",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
+		}
+	]
 }

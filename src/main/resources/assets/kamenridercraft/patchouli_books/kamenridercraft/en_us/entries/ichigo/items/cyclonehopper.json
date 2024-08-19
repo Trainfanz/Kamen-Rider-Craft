@@ -1,16 +1,16 @@
 {
-    "name": "Cyclonehopper Card Warrior Card",
-    "icon": "kamenridercraft:cyclonehopper",
-    "category": "kamenridercraft:ichigo/items",
-    "sortnum": 5,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Used to access Ichigo's $(l:ichigo/riders/ichigo#cyclonehopper_ichigo)Cyclonehopper$(/l) form"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:misc/cyclonehopper"
-        }
-    ]
+	"name": "Cyclonehopper Card Warrior Card",
+	"icon": "kamenridercraft:cyclonehopper",
+	"category": "kamenridercraft:ichigo/items",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Used to access Ichigo's $(l:ichigo/riders/ichigo#cyclonehopper_ichigo)Cyclonehopper$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:misc/cyclonehopper"
+		}
+	]
 }

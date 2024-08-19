@@ -1,0 +1,12 @@
+{
+	"name": "Hibiki Logo",
+	"icon": "kamenridercraft:hibiki_logo",
+	"category": "kamenridercraft:hibiki/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:hibiki/hibiki_logo"
+		}
+	]
+}

@@ -1,17 +1,17 @@
 {
-    "name": "Dogma Fighter",
-    "icon": "kamenridercraft:super_1_logo",
-    "category": "kamenridercraft:super-1/mobs",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:dogma_fighter",
-            "text": "Spawn locations: Forest, Swamp, Snowy Plains, Beach, Desert, Taiga, Windswept Hills, Jungle, Birch Forest, Snowy Taiga"
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Super-1 (1980, TV show)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)0-1 $(l:misc/items/rider_circuit)Rider Circuit$(/l) (50%)$(li)0-1 $(l:super-1/items/cyclode_core)Cyclode Core$(/l) (50%)"
-        }
-    ]
+	"name": "Dogma Fighter",
+	"icon": "kamenridercraft:super_1_logo",
+	"category": "kamenridercraft:super-1/mobs",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:dogma_fighter",
+			"text": "Spawn locations: Forest, Swamp, Snowy Plains, Beach, Desert, Taiga, Windswept Hills, Jungle, Birch Forest, Snowy Taiga"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Super-1 (1980, TV show)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)0-1 $(l:misc/items/rider_circuit)Rider Circuit$(/l) (50%)$(li)0-1 $(l:super-1/items/cyclode_core)Cyclode Core$(/l) (50%)"
+		}
+	]
 }

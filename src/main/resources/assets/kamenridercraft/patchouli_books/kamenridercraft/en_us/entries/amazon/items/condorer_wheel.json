@@ -1,19 +1,19 @@
 {
-    "name": "Condorer Wheel",
-    "icon": "kamenridercraft:condorer",
-    "category": "kamenridercraft:amazon/items",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Amazon (1974, TV show)$(br2)Used to craft Amazon's $(l:amazon/devices/condorer)Condorer$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:condorer_wheel",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:amazon/mobs/red_follower)Red Follower$(/l)"
-        }
-    ]
+	"name": "Condorer Wheel",
+	"icon": "kamenridercraft:condorer",
+	"category": "kamenridercraft:amazon/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Amazon (1974, TV show)$(br2)Used to craft Amazon's $(l:amazon/devices/condorer)Condorer$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:condorer_wheel",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:amazon/mobs/red_follower)Red Follower$(/l)"
+		}
+	]
 }

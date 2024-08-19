@@ -1,19 +1,19 @@
 {
-    "name": "Faiz Axel Mission Memory",
-    "icon": "kamenridercraft:faiz_axel_mission_memory",
-    "category": "kamenridercraft:faiz/items",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Used to access Faiz's $(l:faiz/riders/faiz#axel)Axel Form$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:faiz_axel_mission_memory",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:faiz/mobs/riotrooper)Riotroopers$(/l)"
-        }
-    ]
+	"name": "Faiz Axel Mission Memory",
+	"icon": "kamenridercraft:faiz_axel_mission_memory",
+	"category": "kamenridercraft:faiz/items",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Used to access Faiz's $(l:faiz/riders/faiz#axel)Axel Form$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:faiz_axel_mission_memory",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:faiz/mobs/riotrooper)Riotroopers$(/l)"
+		}
+	]
 }

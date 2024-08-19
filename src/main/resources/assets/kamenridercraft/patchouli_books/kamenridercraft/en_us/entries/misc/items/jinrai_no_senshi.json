@@ -1,16 +1,16 @@
 {
-    "name": "Jinrai no senshi Card Warrior Card",
-    "icon": "kamenridercraft:jinrai_no_senshi",
-    "category": "kamenridercraft:misc/items",
-    "sortnum": 8,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br)$(li)Used to access Kuuga's $(l:kuuga/riders/kuuga#jinrai_no_senshi)Jinrai no Senshi$(/l) form$(li)Used to access Blade's $(l:blade/riders/blade#jinrai_no_senshi)Jinrai no Senshi$(/l) form$(li)Used to access Dark Kabuto's $(l:kabuto/riders/dark_kabuto#jinrai_no_senshi)Jinrai no Senshi$(/l) form"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:misc/jinrai_no_senshi"
-        }
-    ]
+	"name": "Jinrai no senshi Card Warrior Card",
+	"icon": "kamenridercraft:jinrai_no_senshi",
+	"category": "kamenridercraft:misc/items",
+	"sortnum": 8,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br)$(li)Used to access Kuuga's $(l:kuuga/riders/kuuga#jinrai_no_senshi)Rising Mighty (Jinrai no Senshi)$(/l) form$(li)Used to access Blade's $(l:blade/riders/blade#jinrai_no_senshi)Jinrai no Senshi$(/l) form$(li)Used to access Dark Kabuto's $(l:kabuto/riders/dark_kabuto#jinrai_no_senshi)Jinrai no Senshi$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:misc/jinrai_no_senshi"
+		}
+	]
 }

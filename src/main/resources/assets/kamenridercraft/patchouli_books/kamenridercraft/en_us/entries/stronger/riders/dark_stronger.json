@@ -1,18 +1,18 @@
 {
-    "name": "Dark Stronger",
-    "icon": "kamenridercraft:sinister_pachinko_ball",
-    "category": "kamenridercraft:stronger/riders",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:dark_electrer\",Count:1b},{id:\"kamenridercraft:strongerlegs\",Count:1b},{id:\"kamenridercraft:strongertroso\",Count:1b},{id:\"kamenridercraft:strongerhead\",Count:1b}]}",
-            "name": " "
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Dark Stronger",
+	"icon": "kamenridercraft:sinister_pachinko_ball",
+	"category": "kamenridercraft:stronger/riders",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:dark_electrer\",Count:1b},{id:\"kamenridercraft:strongerlegs\",Count:1b},{id:\"kamenridercraft:strongertroso\",Count:1b},{id:\"kamenridercraft:strongerhead\",Count:1b}]}",
+			"name": " "
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Dark Stronger",
-            "text": "Appears in:$(li)Pachinko Kamen Rider: Full Throttle (2015, Pachinko game)$(br2)Transforms with the $(l:stronger/devices/dark_electrer)Dark Electrer$(/l)$(br2)Status Effects:$(li)Speed III$(li)Jump Boost II$(li)Fire Resistance II$(li)Strength II"
-        }
-    ]
+			"text": "Appears in:$(li)Pachinko Kamen Rider: Full Throttle (2015, Pachinko game)$(br2)Transforms with the $(l:stronger/devices/dark_electrer)Dark Electrer$(/l)$(br2)Status Effects:$(li)Speed III$(li)Jump Boost II$(li)Fire Resistance II$(li)Strength II"
+		}
+	]
 }

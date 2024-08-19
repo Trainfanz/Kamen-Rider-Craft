@@ -1,19 +1,19 @@
 {
-    "name": "Biowinder",
-    "icon": "kamenridercraft:bio_winder",
-    "category": "kamenridercraft:ryuki/arsenal",
-    "sortnum": 44,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Ryuki Special: 13 Riders (2002, TV special)$(br2)Used by $(l:ryuki/riders/verde)Kamen Rider Verde$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:bio_winder",
-            "title": " ",
-            "text": "Obtained through the $(l:ryuki/items/bio_winder_vent)Biowinder Hold Vent Card$(/l)"
-        }
-    ]
+	"name": "Biowinder",
+	"icon": "kamenridercraft:bio_winder",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 44,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki Special: 13 Riders (2002, TV special)$(br2)Used by $(l:ryuki/riders/verde)Kamen Rider Verde$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:bio_winder",
+			"title": " ",
+			"text": "Obtained through the $(l:ryuki/items/bio_winder_vent)Biowinder Hold Vent Card$(/l)"
+		}
+	]
 }

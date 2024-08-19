@@ -1,16 +1,16 @@
 {
-    "name": "Monitor",
-    "icon": "kamenridercraft:monitor",
-    "category": "kamenridercraft:misc/blocks",
-    "sortnum": 32,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Used to craft many different types of machine blocks"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:misc/monitor"
-        }
-    ]
+	"name": "Monitor",
+	"icon": "kamenridercraft:monitor",
+	"category": "kamenridercraft:misc/blocks",
+	"sortnum": 32,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Used to craft many different types of machine blocks"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:misc/monitor"
+		}
+	]
 }

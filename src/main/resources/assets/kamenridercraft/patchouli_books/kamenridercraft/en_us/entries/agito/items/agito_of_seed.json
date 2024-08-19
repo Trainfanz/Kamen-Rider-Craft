@@ -1,19 +1,19 @@
 {
-    "name": "Seed of Agito",
-    "icon": "kamenridercraft:agito_of_seed",
-    "category": "kamenridercraft:agito/items",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used as the base item for most Agito items"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:agito_of_seed",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:agito/mobs/pantheras_luteus)Pantheras Luteus$(/l)$(li)$(l:agito/mobs/el_of_the_water)El of the Water$(/l)$(li)$(l:agito/mobs/anguis_masculus)Anguis Masculus$(/l)$(li)$(l:agito/mobs/another_agito)Another Agito$(/l)"
-        }
-    ]
+	"name": "Seed of Agito",
+	"icon": "kamenridercraft:agito_of_seed",
+	"category": "kamenridercraft:agito/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used as the base item for most Agito items"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:agito_of_seed",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:agito/mobs/pantheras_luteus)Pantheras Luteus$(/l)$(li)$(l:agito/mobs/el_of_the_water)El of the Water$(/l)$(li)$(l:agito/mobs/anguis_masculus)Anguis Masculus$(/l)$(li)$(l:agito/mobs/another_agito)Another Agito$(/l)"
+		}
+	]
 }

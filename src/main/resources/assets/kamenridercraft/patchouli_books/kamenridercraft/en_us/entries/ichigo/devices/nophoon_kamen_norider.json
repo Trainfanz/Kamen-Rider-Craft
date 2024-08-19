@@ -1,16 +1,16 @@
 {
-    "name": "Nophoon",
-    "icon": "kamenridercraft:nophoon_kamen_norider",
-    "category": "kamenridercraft:ichigo/devices",
-    "sortnum": 6,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Norider (1988, TV show)$(br2)Used alongside the $(l:ichigo/devices/armor)Ichigo armor$(/l) to transform into $(l:ichigo/riders/kamen_norider)Kamen Norider"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:ichigo/nophoon_kamen_norider"
-        }
-    ]
+	"name": "Nophoon",
+	"icon": "kamenridercraft:nophoon_kamen_norider",
+	"category": "kamenridercraft:ichigo/devices",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Norider (1988, TV show)$(br2)Used alongside the $(l:ichigo/devices/armor)Ichigo armor$(/l) to transform into $(l:ichigo/riders/kamen_norider)Kamen Norider"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:ichigo/nophoon_kamen_norider"
+		}
+	]
 }

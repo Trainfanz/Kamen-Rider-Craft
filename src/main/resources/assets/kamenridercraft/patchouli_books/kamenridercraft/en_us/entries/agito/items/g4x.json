@@ -1,19 +1,19 @@
 {
-    "name": "G4-X Chip",
-    "icon": "kamenridercraft:g4x",
-    "category": "kamenridercraft:agito/items",
-    "sortnum": 20,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Project G1 (2007, S.I.C. Hero Saga)$(br2)Used to craft G4-X's $(l:agito/devices/g4_x_belt)G-Buckle$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:g4x",
-            "title": " ",
-            "text": "Obtained by using $(l:agito/items/g3core)Blank G-System Chips$(/l) on the $(l:misc/blocks/g_chip_programer)G-Chip Programmer$(/l)"
-        }
-    ]
+	"name": "G4-X Chip",
+	"icon": "kamenridercraft:g4x",
+	"category": "kamenridercraft:agito/items",
+	"sortnum": 20,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Project G1 (2007, S.I.C. Hero Saga)$(br2)Used to craft G4-X's $(l:agito/devices/g4_x_belt)G-Buckle$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:g4x",
+			"title": " ",
+			"text": "Obtained by using $(l:agito/items/g3core)Blank G-System Chips$(/l) on the $(l:misc/blocks/g_chip_programer)G-Chip Programmer$(/l)"
+		}
+	]
 }

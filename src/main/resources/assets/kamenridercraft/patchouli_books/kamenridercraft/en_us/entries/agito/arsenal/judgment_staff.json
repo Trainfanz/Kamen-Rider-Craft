@@ -1,19 +1,19 @@
 {
-    "name": "Judgement Staff",
-    "icon": "kamenridercraft:judgment_staff",
-    "category": "kamenridercraft:agito/arsenal",
-    "sortnum": 16,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used by $(l:agito/mobs/anguis_masculus)Anguis Masculus$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:judgment_staff",
-            "title": " ",
-            "text": ""
-        }
-    ]
+	"name": "Judgement Staff",
+	"icon": "kamenridercraft:judgment_staff",
+	"category": "kamenridercraft:agito/arsenal",
+	"sortnum": 16,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used by $(l:agito/mobs/anguis_masculus)Anguis Masculus$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:judgment_staff",
+			"title": " ",
+			"text": ""
+		}
+	]
 }

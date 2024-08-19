@@ -1,32 +1,32 @@
 {
-    "name": "Kamen Rider Sango",
-    "icon": "kamenridercraft:typhoon_core_sango",
-    "category": "kamenridercraft:ichigo/riders",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "anchor": "movie_sango",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:typhoon_sango\",tag:{slot_tex1:\"typhoon_core\"},Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
-            "name": " ",
-            "text": "Accessed with the $(l:ichigo/items/typhoon_core_sango)Typhoon Core (Sango)$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Sango",
+	"icon": "kamenridercraft:typhoon_core_sango",
+	"category": "kamenridercraft:ichigo/riders",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "movie_sango",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:typhoon_sango\",tag:{slot_tex1:\"typhoon_core\"},Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
+			"name": " ",
+			"text": "Accessed with the $(l:ichigo/items/typhoon_core_sango)Typhoon Core (Sango)$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Sango",
-            "text": "Appears in:$(li)Super Hero Taisen GP: Kamen Rider 3 (2015, movie)$(br2)Transforms with the $(l:ichigo/devices/typhoon_sango)Typhoon (Sango)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "manga_sango",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:typhoon_sango\",tag:{slot_tex1:\"rider3_vs_the_demon_of_general_black\"},Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
-            "name": " ",
-            "text": "Accessed with the $(l:ichigo/items/rider3_vs_the_demon_of_general_black)Rider 3 vs. The Demon of General Black Manga$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Super Hero Taisen GP: Kamen Rider 3 (2015, movie)$(br2)Transforms with the $(l:ichigo/devices/typhoon_sango)Typhoon (Sango)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "manga_sango",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:typhoon_sango\",tag:{slot_tex1:\"rider3_vs_the_demon_of_general_black\"},Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
+			"name": " ",
+			"text": "Accessed with the $(l:ichigo/items/rider3_vs_the_demon_of_general_black)Rider 3 vs. The Demon of General Black Manga$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Sango",
-            "text": "Appears in:$(li)Kamen Rider: Rider 3 vs. The Demon of General Black (1972, manga)$(br2)Transforms with the $(l:ichigo/devices/typhoon_sango)Typhoon (Sango)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider: Rider 3 vs. The Demon of General Black (1972, manga)$(br2)Transforms with the $(l:ichigo/devices/typhoon_sango)Typhoon (Sango)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
+		}
+	]
 }

@@ -1,0 +1,19 @@
+{
+	"name": "Henshin Onibue (Shouki)",
+	"icon": "kamenridercraft:henshin_onibue_shouki",
+	"category": "kamenridercraft:hibiki/items",
+	"sortnum": 17,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Used to craft Shouki's $(l:hibiki/devices/shoukidriver)Ongekimei Fusoku$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:henshin_onibue_shouki",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_hibiki)Oni Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_hibiki)Deepslate Oni Ore$(/l)"
+		}
+	]
+}

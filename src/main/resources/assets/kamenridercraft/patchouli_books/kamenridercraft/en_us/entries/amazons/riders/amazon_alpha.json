@@ -1,31 +1,31 @@
 {
-    "name": "Kamen Rider Amazon Alpha",
-    "icon": "kamenridercraft:condorer_core_alpha",
-    "category": "kamenridercraft:amazons/riders",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:amazons_driver_alpha\",tag:{slot_tex1:\"condorer_core_alpha\"},Count:1b},{id:\"kamenridercraft:amazonslegs\",Count:1b},{id:\"kamenridercraft:amazonstroso\",Count:1b},{id:\"kamenridercraft:amazonshead\",Count:1b}]}",
-            "name": " ",
-            "text": "Accessed with the $(l:amazons/items/condorer_core_alpha)Condorer Core (Alpha)$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Amazon Alpha",
+	"icon": "kamenridercraft:condorer_core_alpha",
+	"category": "kamenridercraft:amazons/riders",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:amazons_driver_alpha\",tag:{slot_tex1:\"condorer_core_alpha\"},Count:1b},{id:\"kamenridercraft:amazonslegs\",Count:1b},{id:\"kamenridercraft:amazonstroso\",Count:1b},{id:\"kamenridercraft:amazonshead\",Count:1b}]}",
+			"name": " ",
+			"text": "Accessed with the $(l:amazons/items/condorer_core_alpha)Condorer Core (Alpha)$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Amazon Alpha",
-            "text": "Appears in:$(li)Kamen Rider Amazons Season 1 (2016, web series)$(br2)Transforms with the $(l:amazons/devices/amazons_driver_alpha)Amazons Driver (Alpha)$(/l)$(br2)Status Effects:$(li)Punch V$(li)Speed II$(li)Resistance II$(li)Jump Boost II$(li)Strength VIII (with empty hand)"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "blind_alpha",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:amazons_driver_alpha\",tag:{slot_tex1:\"condorer_core_alpha_blind\"},Count:1b},{id:\"kamenridercraft:amazonslegs\",Count:1b},{id:\"kamenridercraft:amazonstroso\",Count:1b},{id:\"kamenridercraft:amazonshead\",Count:1b}]}",
-            "name": "Blind Alpha",
-            "text": "Accessed with the $(l:amazons/items/condorer_core_alpha_blind)Condorer Core (Blind Alpha)$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Amazons Season 1 (2016, web series)$(br2)Transforms with the $(l:amazons/devices/amazons_driver_alpha)Amazons Driver (Alpha)$(/l)$(br2)Status Effects:$(li)Punch V$(li)Speed II$(li)Resistance II$(li)Jump Boost II$(li)Strength VIII (with empty hand)"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "blind_alpha",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:amazons_driver_alpha\",tag:{slot_tex1:\"condorer_core_alpha_blind\"},Count:1b},{id:\"kamenridercraft:amazonslegs\",Count:1b},{id:\"kamenridercraft:amazonstroso\",Count:1b},{id:\"kamenridercraft:amazonshead\",Count:1b}]}",
+			"name": "Blind Alpha",
+			"text": "Accessed with the $(l:amazons/items/condorer_core_alpha_blind)Condorer Core (Blind Alpha)$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Amazon Alpha",
-            "text": "Appears in:$(li)Kamen Rider Amazons Season 1 (2016, web series)$(br2)Transforms with the $(l:amazons/devices/amazons_driver_alpha)Amazons Driver (Alpha)$(/l)$(br2)Status Effects:$(li)Punch VII$(li)Blindness$(li)Speed$(li)Resistance III$(li)Jump Boost$(li)Strength X (with empty hand)"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider Amazons Season 1 (2016, web series)$(br2)Transforms with the $(l:amazons/devices/amazons_driver_alpha)Amazons Driver (Alpha)$(/l)$(br2)Status Effects:$(li)Punch VII$(li)Blindness$(li)Speed$(li)Resistance III$(li)Jump Boost$(li)Strength X (with empty hand)"
+		}
+	]
 }

@@ -1,16 +1,16 @@
 {
-    "name": "Destvisor",
-    "icon": "kamenridercraft:dest_visor",
-    "category": "kamenridercraft:ryuki/arsenal",
-    "sortnum": 31,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by $(l:ryuki/riders/tiger)Kamen Rider Tiger$(/l)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:ryuki/dest_visor"
-        }
-    ]
+	"name": "Destvisor",
+	"icon": "kamenridercraft:dest_visor",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 31,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by $(l:ryuki/riders/tiger)Kamen Rider Tiger$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:ryuki/dest_visor"
+		}
+	]
 }

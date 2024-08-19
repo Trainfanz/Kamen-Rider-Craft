@@ -1,24 +1,24 @@
 {
-    "name": "Ice Pops",
-    "icon": "kamenridercraft:icepop1",
-    "category": "kamenridercraft:misc/items",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Restores 3 hunger points when eaten$(br2)Can be used to tame $(l:ooo/mobs/ankh)Ankh$(/l)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:misc/icepop1"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:misc/icepop2"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:misc/icepop3"
-        }
-    ]
+	"name": "Ice Pops",
+	"icon": "kamenridercraft:icepop1",
+	"category": "kamenridercraft:misc/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Restores 3 hunger points when eaten$(br2)Can be used to tame $(l:ooo/mobs/ankh)Ankh$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:misc/icepop1"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:misc/icepop2"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:misc/icepop3"
+		}
+	]
 }

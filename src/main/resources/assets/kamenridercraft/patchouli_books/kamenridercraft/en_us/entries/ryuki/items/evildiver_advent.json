@@ -1,19 +1,19 @@
 {
-    "name": "Evildiver Advent Card",
-    "icon": "kamenridercraft:evildiver_advent",
-    "category": "kamenridercraft:ryuki/items",
-    "sortnum": 6,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Ryuki (2000, TV show)$(br2)Used to craft Raia's $(l:ryuki/devices/v_buckle_raia)V Buckle (Raia)$(/l)$(br2)Used to access Raia's $(l:ryuki/riders/raia#raia)base$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:evildiver_advent",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
-        }
-    ]
+	"name": "Evildiver Advent Card",
+	"icon": "kamenridercraft:evildiver_advent",
+	"category": "kamenridercraft:ryuki/items",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2000, TV show)$(br2)Used to craft Raia's $(l:ryuki/devices/v_buckle_raia)V Buckle (Raia)$(/l)$(br2)Used to access Raia's $(l:ryuki/riders/raia#raia)base$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:evildiver_advent",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
+		}
+	]
 }

@@ -1,16 +1,16 @@
 {
-    "name": "King Rouzer",
-    "icon": "kamenridercraft:kingrouzer",
-    "category": "kamenridercraft:blade/arsenal",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used by Blade's $(l:blade/riders/blade#king)King$(/l) form"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:blade/kingrouzer"
-        }
-    ]
+	"name": "King Rouzer",
+	"icon": "kamenridercraft:kingrouzer",
+	"category": "kamenridercraft:blade/arsenal",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used by Blade's $(l:blade/riders/blade#king)King$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:blade/kingrouzer"
+		}
+	]
 }

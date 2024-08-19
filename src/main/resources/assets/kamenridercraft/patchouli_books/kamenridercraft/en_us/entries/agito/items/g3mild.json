@@ -1,19 +1,19 @@
 {
-    "name": "G3 Mild Chip",
-    "icon": "kamenridercraft:g3mild",
-    "category": "kamenridercraft:agito/items",
-    "sortnum": 18,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito Special: A New Transformation (2001, TV special)$(br2)Used to craft G3 Mild's $(l:agito/devices/g3_mild_belt)G-Buckle$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:g3mild",
-            "title": " ",
-            "text": "Obtained by using $(l:agito/items/g3core)Blank G-System Chips$(/l) on the $(l:misc/blocks/g_chip_programer)G-Chip Programmer$(/l)"
-        }
-    ]
+	"name": "G3 Mild Chip",
+	"icon": "kamenridercraft:g3mild",
+	"category": "kamenridercraft:agito/items",
+	"sortnum": 18,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito Special: A New Transformation (2001, TV special)$(br2)Used to craft G3 Mild's $(l:agito/devices/g3_mild_belt)G-Buckle$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:g3mild",
+			"title": " ",
+			"text": "Obtained by using $(l:agito/items/g3core)Blank G-System Chips$(/l) on the $(l:misc/blocks/g_chip_programer)G-Chip Programmer$(/l)"
+		}
+	]
 }

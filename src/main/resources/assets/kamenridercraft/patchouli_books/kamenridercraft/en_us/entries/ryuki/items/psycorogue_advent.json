@@ -1,19 +1,19 @@
 {
-    "name": "Psycorogue Advent Card",
-    "icon": "kamenridercraft:psycorogue_advent",
-    "category": "kamenridercraft:ryuki/items",
-    "sortnum": 16,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used to craft Alternative's $(l:ryuki/devices/alternative_v_buckle)V Buckle Alternative$(/l)$(br2)Used to craft Alternative Zero's $(l:ryuki/devices/alternative_zero_v_buckle)V Buckle Alternative (Alternative Zero)$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:psycorogue_advent",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:misc/blocks/deepslate_glass_ryuki)Deepslate Advent Glass$(/l)"
-        }
-    ]
+	"name": "Psycorogue Advent Card",
+	"icon": "kamenridercraft:psycorogue_advent",
+	"category": "kamenridercraft:ryuki/items",
+	"sortnum": 16,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used to craft Alternative's $(l:ryuki/devices/alternative_v_buckle)V Buckle Alternative$(/l)$(br2)Used to craft Alternative Zero's $(l:ryuki/devices/alternative_zero_v_buckle)V Buckle Alternative (Alternative Zero)$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:psycorogue_advent",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/deepslate_glass_ryuki)Deepslate Advent Glass$(/l)"
+		}
+	]
 }

@@ -1,24 +1,24 @@
 {
-    "name": "Agito Armor",
-    "icon": "kamenridercraft:agitohead",
-    "category": "kamenridercraft:agito/devices",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Used alongside a Agito Rider's transformation device to transform into that Rider"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:agito/agitohead"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:agito/agitotroso"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:agito/agitolegs"
-        }
-    ]
+	"name": "Agito Armor",
+	"icon": "kamenridercraft:agitohead",
+	"category": "kamenridercraft:agito/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Used alongside a Agito Rider's transformation device to transform into that Rider"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:agito/agitohead"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:agito/agitotroso"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:agito/agitolegs"
+		}
+	]
 }

@@ -1,16 +1,16 @@
 {
-    "name": "Darkwing Card Warrior Card",
-    "icon": "kamenridercraft:darkwing",
-    "category": "kamenridercraft:ryuki/items",
-    "sortnum": 66,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Used to access Knight's $(l:ryuki/riders/knight#darkwing)Darkwing$(/l) form"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:misc/darkwing"
-        }
-    ]
+	"name": "Darkwing Card Warrior Card",
+	"icon": "kamenridercraft:darkwing",
+	"category": "kamenridercraft:ryuki/items",
+	"sortnum": 66,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Used to access Knight's $(l:ryuki/riders/knight#darkwing)Darkwing$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:misc/darkwing"
+		}
+	]
 }

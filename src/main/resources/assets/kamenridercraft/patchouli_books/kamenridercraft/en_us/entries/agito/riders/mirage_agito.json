@@ -1,19 +1,19 @@
 {
-    "name": "Mirage Agito",
-    "icon": "kamenridercraft:agito_miracle",
-    "category": "kamenridercraft:agito/riders",
-    "sortnum": 10,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:alter_ring_miracle\",Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
-            "name": " ",
-            "text": ""
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Mirage Agito",
+	"icon": "kamenridercraft:agito_miracle",
+	"category": "kamenridercraft:agito/riders",
+	"sortnum": 10,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:alter_ring_miracle\",Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Mirage Agito",
-            "text": "Appears in:$(li)Heaven's Door (2003, S.I.C. Hero Saga)$(br2)Transforms with the $(l:agito/devices/alter_ring_miracle)Altering (Mirage Agito)$(/l)$(br2)Status Effects:$(li)Speed V$(li)Resistance IV$(li)Jump Boost III$(li)Fire Resistance$(li)Strength V"
-        }
-    ]
+			"text": "Appears in:$(li)Heaven's Door (2003, S.I.C. Hero Saga)$(br2)Transforms with the $(l:agito/devices/alter_ring_miracle)Altering (Mirage Agito)$(/l)$(br2)Status Effects:$(li)Speed V$(li)Resistance IV$(li)Jump Boost III$(li)Fire Resistance$(li)Strength V"
+		}
+	]
 }

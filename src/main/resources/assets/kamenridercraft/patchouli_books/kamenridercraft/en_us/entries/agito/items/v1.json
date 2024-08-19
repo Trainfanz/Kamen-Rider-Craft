@@ -1,19 +1,19 @@
 {
-    "name": "V1 Chip",
-    "icon": "kamenridercraft:v1",
-    "category": "kamenridercraft:agito/items",
-    "sortnum": 22,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used to craft V-1's $(l:agito/devices/v1_belt)V1 Belt$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:v1",
-            "title": " ",
-            "text": "Obtained by using $(l:agito/items/g3core)Blank G-System Chips$(/l) on the $(l:misc/blocks/g_chip_programer)G-Chip Programmer$(/l)"
-        }
-    ]
+	"name": "V1 Chip",
+	"icon": "kamenridercraft:v1",
+	"category": "kamenridercraft:agito/items",
+	"sortnum": 22,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used to craft V-1's $(l:agito/devices/v1_belt)V1 Belt$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:v1",
+			"title": " ",
+			"text": "Obtained by using $(l:agito/items/g3core)Blank G-System Chips$(/l) on the $(l:misc/blocks/g_chip_programer)G-Chip Programmer$(/l)"
+		}
+	]
 }

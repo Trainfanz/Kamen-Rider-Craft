@@ -1,0 +1,16 @@
+{
+	"name": "Akanetaka Card Warrior Card",
+	"icon": "kamenridercraft:akanetaka",
+	"category": "kamenridercraft:hibiki/items",
+	"sortnum": 25,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Used to access Hibiki's $(l:hibiki/riders/hibiki#akanetaka)Akanetaka$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:misc/akanetaka"
+		}
+	]
+}

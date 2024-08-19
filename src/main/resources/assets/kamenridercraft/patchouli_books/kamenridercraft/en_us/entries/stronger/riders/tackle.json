@@ -1,44 +1,44 @@
 {
-    "name": "Electronic Wave Humanoid Tackle",
-    "icon": "kamenridercraft:tackle_core",
-    "category": "kamenridercraft:stronger/riders",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "anchor": "tackle",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:tackle_belt\",tag:{slot_tex1:\"tackle_core\"},Count:1b},{id:\"kamenridercraft:strongerlegs\",Count:1b},{id:\"kamenridercraft:strongertroso\",Count:1b},{id:\"kamenridercraft:strongerhead\",Count:1b}]}",
-            "name": " ",
-            "text": "Accessed with the $(l:stronger/items/tackle_core)Tackle Core$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Electronic Wave Humanoid Tackle",
+	"icon": "kamenridercraft:tackle_core",
+	"category": "kamenridercraft:stronger/riders",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "tackle",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:tackle_belt\",tag:{slot_tex1:\"tackle_core\"},Count:1b},{id:\"kamenridercraft:strongerlegs\",Count:1b},{id:\"kamenridercraft:strongertroso\",Count:1b},{id:\"kamenridercraft:strongerhead\",Count:1b}]}",
+			"name": " ",
+			"text": "Accessed with the $(l:stronger/items/tackle_core)Tackle Core$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Electronic Wave Humanoid Tackle",
-            "text": "Appears in:$(li)Kamen Rider Stronger (1975, TV show)$(br2)Transforms with the $(l:stronger/devices/tackle_belt)Tackle Belt$(/l)$(br2)Status Effects:$(li)Speed III$(li)Jump Boost II$(li)Fire Resistance II$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "white_color",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:tackle_belt\",tag:{slot_tex1:\"tackle_core_artist\"},Count:1b},{id:\"kamenridercraft:strongerlegs\",Count:1b},{id:\"kamenridercraft:strongertroso\",Count:1b},{id:\"kamenridercraft:strongerhead\",Count:1b}]}",
-            "name": "White Color",
-            "text": "Accessed with the $(l:misc/items/sic_hero_saga)S.I.C. Hero Saga$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Stronger (1975, TV show)$(br2)Transforms with the $(l:stronger/devices/tackle_belt)Tackle Belt$(/l)$(br2)Status Effects:$(li)Speed III$(li)Jump Boost II$(li)Fire Resistance II$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "white_color",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:tackle_belt\",tag:{slot_tex1:\"tackle_core_artist\"},Count:1b},{id:\"kamenridercraft:strongerlegs\",Count:1b},{id:\"kamenridercraft:strongertroso\",Count:1b},{id:\"kamenridercraft:strongerhead\",Count:1b}]}",
+			"name": "White Color",
+			"text": "Accessed with the $(l:misc/items/sic_hero_saga)S.I.C. Hero Saga$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Electronic Wave Humanoid Tackle",
-            "text": "Appears in:$(li)S.I.C. Takumi Damashii Vol. 4 (2004, toyline)$(br2)Transforms with the $(l:stronger/devices/tackle_belt)Tackle Belt$(/l)$(br2)Status Effects:$(li)Speed III$(li)Jump Boost II$(li)Fire Resistance II$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "perfecter",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:tackle_belt\",tag:{slot_tex1:\"perfecter\"},Count:1b},{id:\"kamenridercraft:strongerlegs\",Count:1b},{id:\"kamenridercraft:strongertroso\",Count:1b},{id:\"kamenridercraft:strongerhead\",Count:1b}]}",
-            "name": "Tackle w/ Perfecter",
-            "text": "Accessed with the $(l:x/items/perfecter)Perfecter$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)S.I.C. Takumi Damashii Vol. 4 (2004, toyline)$(br2)Transforms with the $(l:stronger/devices/tackle_belt)Tackle Belt$(/l)$(br2)Status Effects:$(li)Speed III$(li)Jump Boost II$(li)Fire Resistance II$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "perfecter",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:tackle_belt\",tag:{slot_tex1:\"perfecter\"},Count:1b},{id:\"kamenridercraft:strongerlegs\",Count:1b},{id:\"kamenridercraft:strongertroso\",Count:1b},{id:\"kamenridercraft:strongerhead\",Count:1b}]}",
+			"name": "Tackle w/ Perfecter",
+			"text": "Accessed with the $(l:x/items/perfecter)Perfecter$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Electronic Wave Humanoid Tackle",
-            "text": "Appears in:$(li)World of Stronger (2010, S.I.C. Hero Saga)$(br2)Transforms with the $(l:stronger/devices/tackle_belt)Tackle Belt$(/l)$(br2)Status Effects:$(li)Speed III$(li)Regeneration$(li)Jump Boost III$(li)Strength II"
-        }
-    ]
+			"text": "Appears in:$(li)World of Stronger (2010, S.I.C. Hero Saga)$(br2)Transforms with the $(l:stronger/devices/tackle_belt)Tackle Belt$(/l)$(br2)Status Effects:$(li)Speed III$(li)Regeneration$(li)Jump Boost III$(li)Strength II"
+		}
+	]
 }

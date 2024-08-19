@@ -1,0 +1,19 @@
+{
+	"name": "Henshin Kigen Onka",
+	"icon": "kamenridercraft:henshin_kigen_zanki",
+	"category": "kamenridercraft:hibiki/items",
+	"sortnum": 21,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Used to craft Zanki's $(l:hibiki/devices/zankidriver)Ongekishin Zantetsu$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:henshin_kigen_zanki",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_hibiki)Oni Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_hibiki)Deepslate Oni Ore$(/l)"
+		}
+	]
+}

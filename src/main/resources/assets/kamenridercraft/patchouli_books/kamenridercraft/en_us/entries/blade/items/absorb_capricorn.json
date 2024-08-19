@@ -1,19 +1,19 @@
 {
-    "name": "Absorb Capricorn Rouze Card",
-    "icon": "kamenridercraft:absorb_capricorn",
-    "category": "kamenridercraft:blade/items",
-    "sortnum": 5,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used to access Blade's $(l:blade/riders/blade#jack)Jack$(/l) and $(l:blade/riders/blade#king)King$(/l) forms"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:absorb_capricorn",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
-        }
-    ]
+	"name": "Absorb Capricorn Rouze Card",
+	"icon": "kamenridercraft:absorb_capricorn",
+	"category": "kamenridercraft:blade/items",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used to access Blade's $(l:blade/riders/blade#jack)Jack$(/l) and $(l:blade/riders/blade#king)King$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:absorb_capricorn",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
+		}
+	]
 }

@@ -1,16 +1,16 @@
 {
-    "name": "Empty Vial",
-    "icon": "kamenridercraft:empty_vial",
-    "category": "kamenridercraft:misc/items",
-    "sortnum": 9,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Can be filled with Amazon Cells or Creation King Extract"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:amazons/empty_vial"
-        }
-    ]
+	"name": "Empty Vial",
+	"icon": "kamenridercraft:empty_vial",
+	"category": "kamenridercraft:misc/items",
+	"sortnum": 9,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Can be filled with Amazon Cells or Creation King Extract"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:amazons/empty_vial"
+		}
+	]
 }

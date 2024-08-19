@@ -1,19 +1,19 @@
 {
-    "name": "Deepslate Advent Glass",
-    "icon": "kamenridercraft:deepslate_glass_ryuki",
-    "category": "kamenridercraft:misc/blocks",
-    "sortnum": 9,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Mine this block to get various Advent Cards$(br2)Requires an iron pickaxe or better"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:deepslate_glass_ryuki",
-            "title": " ",
-            "text": "Drops:$(li)$(l:ryuki/items/advent_card)Contract Card$(/l) (41%)$(li)$(l:ryuki/items/dragblacker_advent)Dragblacker Advent Card$(/l) (4%)$(li)$(l:ryuki/items/blancwing_advent)Blancwing Advent Card$(/l) (3%)$(li)$(l:ryuki/items/biogreeza_advent)Biogreeza Advent Card$(/l) (3%)$(li)$(l:ryuki/items/goldphoenix_advent)Goldphoenix Advent Card$(/l) (3%)$(li)$(l:ryuki/items/destwilder_advent)Destwilder Advent Card$(/l) (3%)$(li)$(l:ryuki/items/gigazelle_advent)Gigazelle Advent Card$(/l) (3%)$(li)$(l:ryuki/items/abysslasher_advent)Abysslasher Advent Card$(/l) (3%)$(li)$(l:ryuki/items/psycorogue_advent)Psycorogue Advent Card$(/l) (3%)$(li)$(l:ryuki/items/drag_saber_vent_ryuga)Dragsaber Sword Vent Card (Ryuga)$(/l) (3%)$(li)$(l:ryuki/items/drag_claw_vent_ryuga)Dragclaw Strike Vent Card (Ryuga)$(/l) (3%)$(li)$(l:ryuki/items/drag_shield_vent_ryuga)Dragshield Guard Vent Card (Ryuga)$(/l) (3%)$(li)$(l:ryuki/items/drag_shield_vent_form_ryuga)Dragshield Guard Vent Card (Ryuga)$(/l) (3%)$(li)$(l:ryuki/items/wing_slasher_vent)Wingslasher Sword Vent Card$(/l) (2%)$(li)$(l:ryuki/items/wing_shield_vent)Wingshield Guard Vent Card$(/l) (2%)$(li)$(l:ryuki/items/bio_holder_vent)Biowinder Hold Vent Card$(/l) (2%)$(li)$(l:ryuki/items/gold_saber_vent)Goldsaber Sword Vent Card$(/l) (2%)$(li)$(l:ryuki/items/gold_shield_vent)Goldshield Guard Vent Card$(/l) (2%)$(li)$(l:ryuki/items/dest_claw_vent)Destclaw Strike Vent Card$(/l) (2%)$(li)$(l:ryuki/items/gazelle_stab_vent)Gazellestab Spin Vent Card$(/l) (2%)$(li)$(l:ryuki/items/abyss_saber_vent)Abysssaber Sword Vent Card$(/l) (2%)$(li)$(l:ryuki/items/abyss_claw_vent)Abyssclaw Strike Vent Card$(/l) (2%)$(li)$(l:ryuki/items/slash_dagger_vent)Slashdagger Sword Vent Card$(/l) (2%)$(li)$(l:ryuki/items/black_drag_visor_zwei_vent)Blackdragvisorzwei Sword Vent Card$(/l) (1%)"
-        }
-    ]
+	"name": "Deepslate Advent Glass",
+	"icon": "kamenridercraft:deepslate_glass_ryuki",
+	"category": "kamenridercraft:misc/blocks",
+	"sortnum": 9,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Mine this block to get various Advent Cards$(br2)Requires an iron pickaxe or better"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:deepslate_glass_ryuki",
+			"title": " ",
+			"text": "Drops:$(li)$(l:ryuki/items/advent_card)Contract Card$(/l) (41%)$(li)$(l:ryuki/items/dragblacker_advent)Dragblacker Advent Card$(/l) (4%)$(li)$(l:ryuki/items/blancwing_advent)Blancwing Advent Card$(/l) (3%)$(li)$(l:ryuki/items/biogreeza_advent)Biogreeza Advent Card$(/l) (3%)$(li)$(l:ryuki/items/goldphoenix_advent)Goldphoenix Advent Card$(/l) (3%)$(li)$(l:ryuki/items/destwilder_advent)Destwilder Advent Card$(/l) (3%)$(li)$(l:ryuki/items/gigazelle_advent)Gigazelle Advent Card$(/l) (3%)$(li)$(l:ryuki/items/abysslasher_advent)Abysslasher Advent Card$(/l) (3%)$(li)$(l:ryuki/items/psycorogue_advent)Psycorogue Advent Card$(/l) (3%)$(li)$(l:ryuki/items/drag_saber_vent_ryuga)Dragsaber Sword Vent Card (Ryuga)$(/l) (3%)$(li)$(l:ryuki/items/drag_claw_vent_ryuga)Dragclaw Strike Vent Card (Ryuga)$(/l) (3%)$(li)$(l:ryuki/items/drag_shield_vent_ryuga)Dragshield Guard Vent Card (Ryuga)$(/l) (3%)$(li)$(l:ryuki/items/drag_shield_vent_form_ryuga)Dragshield Guard Vent Card (Ryuga)$(/l) (3%)$(li)$(l:ryuki/items/wing_slasher_vent)Wingslasher Sword Vent Card$(/l) (2%)$(li)$(l:ryuki/items/wing_shield_vent)Wingshield Guard Vent Card$(/l) (2%)$(li)$(l:ryuki/items/bio_holder_vent)Biowinder Hold Vent Card$(/l) (2%)$(li)$(l:ryuki/items/gold_saber_vent)Goldsaber Sword Vent Card$(/l) (2%)$(li)$(l:ryuki/items/gold_shield_vent)Goldshield Guard Vent Card$(/l) (2%)$(li)$(l:ryuki/items/dest_claw_vent)Destclaw Strike Vent Card$(/l) (2%)$(li)$(l:ryuki/items/gazelle_stab_vent)Gazellestab Spin Vent Card$(/l) (2%)$(li)$(l:ryuki/items/abyss_saber_vent)Abysssaber Sword Vent Card$(/l) (2%)$(li)$(l:ryuki/items/abyss_claw_vent)Abyssclaw Strike Vent Card$(/l) (2%)$(li)$(l:ryuki/items/slash_dagger_vent)Slashdagger Sword Vent Card$(/l) (2%)$(li)$(l:ryuki/items/black_drag_visor_zwei_vent)Blackdragvisorzwei Sword Vent Card$(/l) (1%)"
+		}
+	]
 }

@@ -1,16 +1,16 @@
 {
-    "name": "ZECT Buckle (PunchHopper)",
-    "icon": "kamenridercraft:puchhopper_rider_belt",
-    "category": "kamenridercraft:kabuto/devices",
-    "sortnum": 7,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used alongside the $(l:kabuto/devices/armor)Kabuto armor$(/l) to transform into $(l:kabuto/riders/punchhopper)Kamen Rider PunchHopper"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:kabuto/puchhopper_rider_belt"
-        }
-    ]
+	"name": "ZECT Buckle (PunchHopper)",
+	"icon": "kamenridercraft:punchhopper_rider_belt",
+	"category": "kamenridercraft:kabuto/devices",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used alongside the $(l:kabuto/devices/armor)Kabuto armor$(/l) to transform into $(l:kabuto/riders/punchhopper)Kamen Rider PunchHopper"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kabuto/punchhopper_rider_belt"
+		}
+	]
 }

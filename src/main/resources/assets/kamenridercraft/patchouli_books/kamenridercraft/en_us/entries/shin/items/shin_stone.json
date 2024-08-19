@@ -1,19 +1,19 @@
 {
-    "name": "Shin Stone",
-    "icon": "kamenridercraft:shin_stone",
-    "category": "kamenridercraft:shin/items",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Shin Kamen Rider: Prologue (1992, movie)$(br2)Used to craft Shin's $(l:shin/devices/grasshopper_dna)Grasshopper DNA$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:shin_stone",
-            "title": " ",
-            "text": "Traded by a novice Shocker Villager"
-        }
-    ]
+	"name": "Shin Stone",
+	"icon": "kamenridercraft:shin_stone",
+	"category": "kamenridercraft:shin/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Shin Kamen Rider: Prologue (1992, movie)$(br2)Used to craft Shin's $(l:shin/devices/grasshopper_dna)Grasshopper DNA$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:shin_stone",
+			"title": " ",
+			"text": "Traded by a novice Shocker Villager"
+		}
+	]
 }

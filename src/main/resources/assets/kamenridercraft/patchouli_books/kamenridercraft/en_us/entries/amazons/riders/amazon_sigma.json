@@ -1,18 +1,18 @@
 {
-    "name": "Kamen Rider Amazon Sigma",
-    "icon": "kamenridercraft:condorer_core_sigma",
-    "category": "kamenridercraft:amazons/riders",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:amazons_driver_sigma\",Count:1b},{id:\"kamenridercraft:amazonslegs\",Count:1b},{id:\"kamenridercraft:amazonstroso\",Count:1b},{id:\"kamenridercraft:amazonshead\",Count:1b}]}",
-            "name": " "
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Amazon Sigma",
+	"icon": "kamenridercraft:condorer_core_sigma",
+	"category": "kamenridercraft:amazons/riders",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:amazons_driver_sigma\",Count:1b},{id:\"kamenridercraft:amazonslegs\",Count:1b},{id:\"kamenridercraft:amazonstroso\",Count:1b},{id:\"kamenridercraft:amazonshead\",Count:1b}]}",
+			"name": " "
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Amazon Sigma",
-            "text": "Appears in:$(li)Kamen Rider Amazons Season 1 (2016, web series)$(br2)Transforms with the $(l:amazons/devices/amazons_driver_sigma)Amazons Driver (Sigma)$(/l)$(br2)Status Effects:$(li)Punch VII$(li)Speed III$(li)Resistance II$(li)Jump Boost III$(li)Strength X (with empty hand)"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider Amazons Season 1 (2016, web series)$(br2)Transforms with the $(l:amazons/devices/amazons_driver_sigma)Amazons Driver (Sigma)$(/l)$(br2)Status Effects:$(li)Punch VII$(li)Speed III$(li)Resistance II$(li)Jump Boost III$(li)Strength X (with empty hand)"
+		}
+	]
 }

@@ -1,16 +1,16 @@
 {
-    "name": "Titan Sword",
-    "icon": "kamenridercraft:titan_sword",
-    "category": "kamenridercraft:kuuga/arsenal",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Used by $(l:kuuga/riders/kuuga#titan)Kuuga's$(/l) $(l:kuuga/riders/kuuga#rising_titan)Titan$(/l) and $(l:kuuga/riders/kuuga#ultimate)Ultimate$(/l) forms"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:kuuga/titan_sword"
-        }
-    ]
+	"name": "Titan Sword",
+	"icon": "kamenridercraft:titan_sword",
+	"category": "kamenridercraft:kuuga/arsenal",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Used by $(l:kuuga/riders/kuuga#titan)Kuuga's$(/l) $(l:kuuga/riders/kuuga#rising_titan)Titan$(/l) and $(l:kuuga/riders/kuuga#ultimate)Ultimate$(/l) forms"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kuuga/titan_sword"
+		}
+	]
 }

@@ -1,12 +1,12 @@
 {
-    "name": "Agito Logo",
-    "icon": "kamenridercraft:agito_logo",
-    "category": "kamenridercraft:agito/items",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:agito/agito_logo"
-        }
-    ]
+	"name": "Agito Logo",
+	"icon": "kamenridercraft:agito_logo",
+	"category": "kamenridercraft:agito/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:agito/agito_logo"
+		}
+	]
 }

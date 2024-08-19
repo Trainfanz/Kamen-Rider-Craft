@@ -1,19 +1,19 @@
 {
-    "name": "Blue Double Typhoon Core",
-    "icon": "kamenridercraft:blue_double_typhoon_core",
-    "category": "kamenridercraft:v3/items",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider SPIRITS (2001, manga)$(br2)Used to access V3's $(l:v3/riders/v3#blue_version)Blue Version$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:blue_double_typhoon_core",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:v3/mobs/destron_combatman)Destron Combatman$(/l)"
-        }
-    ]
+	"name": "Blue Double Typhoon Core",
+	"icon": "kamenridercraft:blue_double_typhoon_core",
+	"category": "kamenridercraft:v3/items",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider SPIRITS (2001, manga)$(br2)Used to access V3's $(l:v3/riders/v3#blue_version)Blue Version$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:blue_double_typhoon_core",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:v3/mobs/destron_combatman)Destron Combatman$(/l)"
+		}
+	]
 }

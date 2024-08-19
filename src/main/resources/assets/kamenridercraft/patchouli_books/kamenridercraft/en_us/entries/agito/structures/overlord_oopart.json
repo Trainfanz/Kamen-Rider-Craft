@@ -1,21 +1,21 @@
 {
-    "name": "Overlord's Out-of-place Artifact",
-    "icon": "kamenridercraft:overlord_oopart2",
-    "category": "kamenridercraft:agito/structures",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "title": "Overlord's Out-of-place Artifact",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Spawn locations: Beach, Snowy Beach$(br2)Includes a $(l:agito/mobs/pantheras_luteus)Pantheras Luteus$(/l) spawner"
-        },
-        {
-            "type": "patchouli:image",
-            "border": true,
-            "images": [
-                "kamenridercraft:patchouli_books/kamenridercraft/images/overlord_oopart.png"
-            ],
-            "title": " "
-        }
-    ]
+	"name": "Overlord's Out-of-place Artifact",
+	"icon": "kamenridercraft:overlord_oopart2",
+	"category": "kamenridercraft:agito/structures",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"title": "Overlord's Out-of-place Artifact",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Spawn locations: Beach, Snowy Beach$(br2)Includes a $(l:agito/mobs/pantheras_luteus)Pantheras Luteus$(/l) spawner"
+		},
+		{
+			"type": "patchouli:image",
+			"border": true,
+			"images": [
+				"kamenridercraft:patchouli_books/kamenridercraft/images/overlord_oopart.png"
+			],
+			"title": " "
+		}
+	]
 }

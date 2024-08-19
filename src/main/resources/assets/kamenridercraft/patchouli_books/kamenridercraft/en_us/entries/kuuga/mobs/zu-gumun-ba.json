@@ -1,17 +1,17 @@
 {
-    "name": "Zu-Gumun-Ba",
-    "icon": "kamenridercraft:kuuga_logo",
-    "category": "kamenridercraft:kuuga/mobs",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:zu_gumun_ba",
-            "text": "Spawn locations: Plains, Birch Forest, Windswept Forest"
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:kuuga/items/kuuga_growing)Kuuga Growing Amadams$(/l)$(li)0-1 $(l:kuuga/items/kuuga_growing)Kuuga Growing Amadam$(/l) (20%)$(li)0-1 $(l:kuuga/items/kuuga_mighty)Kuuga Mighty Amadam$(/l) (20%)$(li)0-1 $(l:kuuga/items/kuuga_dragon)Kuuga Dragon Amadam$(/l) (20%)$(li)0-1 $(l:kuuga/items/kuuga_pegasus)Kuuga Pegasus Amadam$(/l) (20%)$(li)0-1 $(l:kuuga/items/kuuga_titan)Kuuga Titan Amadam$(/l) (20%)"
-        }
-    ]
+	"name": "Zu-Gumun-Ba",
+	"icon": "kamenridercraft:kuuga_logo",
+	"category": "kamenridercraft:kuuga/mobs",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:zu_gumun_ba",
+			"text": "Spawn locations: Plains, Birch Forest, Windswept Forest"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:kuuga/items/kuuga_growing)Kuuga Growing Amadams$(/l)$(li)0-1 $(l:kuuga/items/kuuga_growing)Kuuga Growing Amadam$(/l) (20%)$(li)0-1 $(l:kuuga/items/kuuga_mighty)Kuuga Mighty Amadam$(/l) (20%)$(li)0-1 $(l:kuuga/items/kuuga_dragon)Kuuga Dragon Amadam$(/l) (20%)$(li)0-1 $(l:kuuga/items/kuuga_pegasus)Kuuga Pegasus Amadam$(/l) (20%)$(li)0-1 $(l:kuuga/items/kuuga_titan)Kuuga Titan Amadam$(/l) (20%)"
+		}
+	]
 }

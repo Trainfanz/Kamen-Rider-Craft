@@ -1,16 +1,16 @@
 {
-    "name": "ZO Core",
-    "icon": "kamenridercraft:zo_core",
-    "category": "kamenridercraft:zo/devices",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider ZO (1993, movie)$(br2)Used alongside the $(l:zo/devices/armor)ZO armor$(/l) to transform into $(l:zo/riders/zo)Kamen Rider ZO"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:zo/zo_core"
-        }
-    ]
+	"name": "ZO Core",
+	"icon": "kamenridercraft:zo_core",
+	"category": "kamenridercraft:zo/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider ZO (1993, movie)$(br2)Used alongside the $(l:zo/devices/armor)ZO armor$(/l) to transform into $(l:zo/riders/zo)Kamen Rider ZO"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:zo/zo_core"
+		}
+	]
 }

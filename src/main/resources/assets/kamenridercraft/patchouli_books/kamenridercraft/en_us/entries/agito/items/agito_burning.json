@@ -1,19 +1,19 @@
 {
-    "name": "Agito Burning Philosopher's Stone",
-    "icon": "kamenridercraft:agito_burning",
-    "category": "kamenridercraft:agito/items",
-    "sortnum": 6,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used to access Agito's $(l:agito/riders/agito#burning)Burning Form$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:agito_burning",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:agito/mobs/el_of_the_water)El of the Water$(/l)"
-        }
-    ]
+	"name": "Agito Burning Philosopher's Stone",
+	"icon": "kamenridercraft:agito_burning",
+	"category": "kamenridercraft:agito/items",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used to access Agito's $(l:agito/riders/agito#burning)Burning Form$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:agito_burning",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:agito/mobs/el_of_the_water)El of the Water$(/l)"
+		}
+	]
 }

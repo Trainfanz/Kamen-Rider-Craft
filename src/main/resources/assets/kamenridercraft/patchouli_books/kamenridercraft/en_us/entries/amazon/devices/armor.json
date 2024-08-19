@@ -1,24 +1,24 @@
 {
-    "name": "Amazon Armor",
-    "icon": "kamenridercraft:amazonhead",
-    "category": "kamenridercraft:amazon/devices",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Used alongside an Amazon Rider's transformation device to transform into that Rider"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:amazon/amazonhead"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:amazon/amazontroso"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:amazon/amazonlegs"
-        }
-    ]
+	"name": "Amazon Armor",
+	"icon": "kamenridercraft:amazonhead",
+	"category": "kamenridercraft:amazon/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Used alongside an Amazon Rider's transformation device to transform into that Rider"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:amazon/amazonhead"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:amazon/amazontroso"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:amazon/amazonlegs"
+		}
+	]
 }

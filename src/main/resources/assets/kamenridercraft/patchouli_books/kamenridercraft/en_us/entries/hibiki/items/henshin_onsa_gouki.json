@@ -1,0 +1,19 @@
+{
+	"name": "Henshin Onsa (Gouki)",
+	"icon": "kamenridercraft:henshin_onsa_gouki",
+	"category": "kamenridercraft:hibiki/items",
+	"sortnum": 8,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Used to craft Gouki's $(l:hibiki/devices/goukidriver)Ongekiko Kongou$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:henshin_onsa_gouki",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/deepslate_stone_hibiki)Deepslate Oni Ore$(/l)"
+		}
+	]
+}

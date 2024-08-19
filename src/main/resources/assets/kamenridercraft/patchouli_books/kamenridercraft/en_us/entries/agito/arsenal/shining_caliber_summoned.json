@@ -1,16 +1,16 @@
 {
-    "name": "Shining Calibur (Single Mode)",
-    "icon": "kamenridercraft:shining_caliber_summoned",
-    "category": "kamenridercraft:agito/arsenal",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used by Agito's $(l:agito/riders/agito#burning)Burning Form$(/l)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:agito/shining_caliber_summoned"
-        }
-    ]
+	"name": "Shining Calibur (Single Mode)",
+	"icon": "kamenridercraft:shining_caliber_summoned",
+	"category": "kamenridercraft:agito/arsenal",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used by Agito's $(l:agito/riders/agito#burning)Burning Form$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:agito/shining_caliber_summoned"
+		}
+	]
 }

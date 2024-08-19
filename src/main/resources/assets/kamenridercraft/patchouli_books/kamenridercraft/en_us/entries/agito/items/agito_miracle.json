@@ -1,19 +1,19 @@
 {
-    "name": "Mirage Agito Philosopher's Stone",
-    "icon": "kamenridercraft:agito_miracle",
-    "category": "kamenridercraft:agito/items",
-    "sortnum": 12,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Heaven's Door (2003, S.I.C. Hero Saga)$(br2)Used to craft Mirage Agito's $(l:agito/devices/alter_ring_miracle)Altering$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:agito_miracle",
-            "title": " ",
-            "text": "Item is currently unobtainable"
-        }
-    ]
+	"name": "Mirage Agito Philosopher's Stone",
+	"icon": "kamenridercraft:agito_miracle",
+	"category": "kamenridercraft:agito/items",
+	"sortnum": 12,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Heaven's Door (2003, S.I.C. Hero Saga)$(br2)Used to craft Mirage Agito's $(l:agito/devices/alter_ring_miracle)Altering$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:agito_miracle",
+			"title": " ",
+			"text": "Item is currently unobtainable"
+		}
+	]
 }

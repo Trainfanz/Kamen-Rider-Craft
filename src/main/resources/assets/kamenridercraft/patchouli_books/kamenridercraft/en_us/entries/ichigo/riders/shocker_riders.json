@@ -1,140 +1,140 @@
 {
-    "name": "Shocker Riders",
-    "icon": "kamenridercraft:shocker_rider_typhoon_core",
-    "category": "kamenridercraft:ichigo/riders",
-    "sortnum": 4,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "anchor": "shocker_rider_no_1",
-            "entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:typhoon_shocker_rider_1\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
-            "name": "Shocker Rider No.1"
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Shocker Riders",
+	"icon": "kamenridercraft:shocker_rider_typhoon_core",
+	"category": "kamenridercraft:ichigo/riders",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "shocker_rider_no_1",
+			"entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:typhoon_shocker_rider_1\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
+			"name": "Shocker Rider No.1"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Shocker Riders",
-            "text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Transforms with the $(l:ichigo/devices/typhoon_shocker_riders#typhoon_shocker_rider_1)Typhoon (Shocker Rider 1)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "shocker_rider_no_2",
-            "entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:typhoon_shocker_rider_2\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
-            "name": "Shocker Rider No.2"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Transforms with the $(l:ichigo/devices/typhoon_shocker_riders#typhoon_shocker_rider_1)Typhoon (Shocker Rider 1)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "shocker_rider_no_2",
+			"entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:typhoon_shocker_rider_2\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
+			"name": "Shocker Rider No.2"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Shocker Riders",
-            "text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Transforms with the $(l:ichigo/devices/typhoon_shocker_riders#typhoon_shocker_rider_2)Typhoon (Shocker Rider 2)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "shocker_rider_no_3",
-            "entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:typhoon_shocker_rider_3\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
-            "name": "Shocker Rider No.3"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Transforms with the $(l:ichigo/devices/typhoon_shocker_riders#typhoon_shocker_rider_2)Typhoon (Shocker Rider 2)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "shocker_rider_no_3",
+			"entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:typhoon_shocker_rider_3\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
+			"name": "Shocker Rider No.3"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Shocker Riders",
-            "text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Transforms with the $(l:ichigo/devices/typhoon_shocker_riders#typhoon_shocker_rider_3)Typhoon (Shocker Rider 3)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "shocker_rider_no_4",
-            "entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:typhoon_shocker_rider_4\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
-            "name": "Shocker Rider No.4"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Transforms with the $(l:ichigo/devices/typhoon_shocker_riders#typhoon_shocker_rider_3)Typhoon (Shocker Rider 3)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "shocker_rider_no_4",
+			"entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:typhoon_shocker_rider_4\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
+			"name": "Shocker Rider No.4"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Shocker Riders",
-            "text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Transforms with the $(l:ichigo/devices/typhoon_shocker_riders#typhoon_shocker_rider_4)Typhoon (Shocker Rider 4)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "shocker_rider_no_5",
-            "entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:typhoon_shocker_rider_5\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
-            "name": "Shocker Rider No.5"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Transforms with the $(l:ichigo/devices/typhoon_shocker_riders#typhoon_shocker_rider_4)Typhoon (Shocker Rider 4)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "shocker_rider_no_5",
+			"entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:typhoon_shocker_rider_5\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
+			"name": "Shocker Rider No.5"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Shocker Riders",
-            "text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Transforms with the $(l:ichigo/devices/typhoon_shocker_riders#typhoon_shocker_rider_5)Typhoon (Shocker Rider 5)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "shocker_rider_no_6",
-            "entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:typhoon_shocker_rider_6\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
-            "name": "Shocker Rider No.6"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Transforms with the $(l:ichigo/devices/typhoon_shocker_riders#typhoon_shocker_rider_5)Typhoon (Shocker Rider 5)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "shocker_rider_no_6",
+			"entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:typhoon_shocker_rider_6\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
+			"name": "Shocker Rider No.6"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Shocker Riders",
-            "text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Transforms with the $(l:ichigo/devices/typhoon_shocker_riders#typhoon_shocker_rider_6)Typhoon (Shocker Rider 6)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "shocker_rider_no_7",
-            "entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:typhoon_shocker_rider_7\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
-            "name": "Shocker Rider No.7"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Transforms with the $(l:ichigo/devices/typhoon_shocker_riders#typhoon_shocker_rider_6)Typhoon (Shocker Rider 6)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "shocker_rider_no_7",
+			"entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:typhoon_shocker_rider_7\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
+			"name": "Shocker Rider No.7"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Shocker Riders",
-            "text": "Appears in:$(li)Kamen Rider (1971, manga)$(li)Missing Link (2002, S.I.C. Hero Saga)$(br2)Transforms with the $(l:ichigo/devices/typhoon_shocker_riders#typhoon_shocker_rider_7)Typhoon (Shocker Rider 7)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "shocker_rider_no_8",
-            "entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:typhoon_shocker_rider_8\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
-            "name": "Shocker Rider No.8"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider (1971, manga)$(li)Missing Link (2002, S.I.C. Hero Saga)$(br2)Transforms with the $(l:ichigo/devices/typhoon_shocker_riders#typhoon_shocker_rider_7)Typhoon (Shocker Rider 7)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "shocker_rider_no_8",
+			"entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:typhoon_shocker_rider_8\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
+			"name": "Shocker Rider No.8"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Shocker Riders",
-            "text": "Appears in:$(li)Kamen Rider (1971, manga)$(li)Missing Link (2002, S.I.C. Hero Saga)$(br2)Transforms with the $(l:ichigo/devices/typhoon_shocker_riders#typhoon_shocker_rider_8)Typhoon (Shocker Rider 8)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "shocker_rider_no_9",
-            "entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:typhoon_shocker_rider_9\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
-            "name": "Shocker Rider No.9"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider (1971, manga)$(li)Missing Link (2002, S.I.C. Hero Saga)$(br2)Transforms with the $(l:ichigo/devices/typhoon_shocker_riders#typhoon_shocker_rider_8)Typhoon (Shocker Rider 8)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "shocker_rider_no_9",
+			"entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:typhoon_shocker_rider_9\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
+			"name": "Shocker Rider No.9"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Shocker Riders",
-            "text": "Appears in:$(li)Kamen Rider (1971, manga)$(li)Missing Link (2002, S.I.C. Hero Saga)$(br2)Transforms with the $(l:ichigo/devices/typhoon_shocker_riders#typhoon_shocker_rider_9)Typhoon (Shocker Rider 9)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "shocker_rider_no_10",
-            "entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:typhoon_shocker_rider_10\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
-            "name": "Shocker Rider No.10"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider (1971, manga)$(li)Missing Link (2002, S.I.C. Hero Saga)$(br2)Transforms with the $(l:ichigo/devices/typhoon_shocker_riders#typhoon_shocker_rider_9)Typhoon (Shocker Rider 9)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "shocker_rider_no_10",
+			"entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:typhoon_shocker_rider_10\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
+			"name": "Shocker Rider No.10"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Shocker Riders",
-            "text": "Appears in:$(li)Kamen Rider (1971, manga)$(li)Missing Link (2002, S.I.C. Hero Saga)$(br2)Transforms with the $(l:ichigo/devices/typhoon_shocker_riders#typhoon_shocker_rider_10)Typhoon (Shocker Rider 10)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "shocker_rider_no_11",
-            "entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:typhoon_shocker_rider_11\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
-            "name": "Shocker Rider No.11"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider (1971, manga)$(li)Missing Link (2002, S.I.C. Hero Saga)$(br2)Transforms with the $(l:ichigo/devices/typhoon_shocker_riders#typhoon_shocker_rider_10)Typhoon (Shocker Rider 10)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "shocker_rider_no_11",
+			"entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:typhoon_shocker_rider_11\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
+			"name": "Shocker Rider No.11"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Shocker Riders",
-            "text": "Appears in:$(li)Kamen Rider (1971, manga)$(li)Missing Link (2002, S.I.C. Hero Saga)$(br2)Transforms with the $(l:ichigo/devices/typhoon_shocker_riders#typhoon_shocker_rider_11)Typhoon (Shocker Rider 11)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "shocker_rider_no_12",
-            "entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:typhoon_shocker_rider_12\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
-            "name": "Shocker Rider No.12"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider (1971, manga)$(li)Missing Link (2002, S.I.C. Hero Saga)$(br2)Transforms with the $(l:ichigo/devices/typhoon_shocker_riders#typhoon_shocker_rider_11)Typhoon (Shocker Rider 11)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "shocker_rider_no_12",
+			"entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:typhoon_shocker_rider_12\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
+			"name": "Shocker Rider No.12"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Shocker Riders",
-            "text": "Appears in:$(li)Kamen Rider (1971, manga)$(li)Missing Link (2002, S.I.C. Hero Saga)$(br2)Transforms with the $(l:ichigo/devices/typhoon_shocker_riders#typhoon_shocker_rider_12)Typhoon (Shocker Rider 12)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider (1971, manga)$(li)Missing Link (2002, S.I.C. Hero Saga)$(br2)Transforms with the $(l:ichigo/devices/typhoon_shocker_riders#typhoon_shocker_rider_12)Typhoon (Shocker Rider 12)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
+		}
+	]
 }

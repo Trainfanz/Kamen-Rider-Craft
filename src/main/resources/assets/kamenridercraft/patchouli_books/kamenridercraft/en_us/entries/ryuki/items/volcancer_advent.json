@@ -1,19 +1,19 @@
 {
-    "name": "Volcancer Advent Card",
-    "icon": "kamenridercraft:volcancer_advent",
-    "category": "kamenridercraft:ryuki/items",
-    "sortnum": 4,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Ryuki (2000, TV show)$(br2)Used to craft Scissors's $(l:ryuki/devices/v_buckle_scissors)V Buckle (Scissors)$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:volcancer_advent",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
-        }
-    ]
+	"name": "Volcancer Advent Card",
+	"icon": "kamenridercraft:volcancer_advent",
+	"category": "kamenridercraft:ryuki/items",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2000, TV show)$(br2)Used to craft Scissors's $(l:ryuki/devices/v_buckle_scissors)V Buckle (Scissors)$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:volcancer_advent",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
+		}
+	]
 }

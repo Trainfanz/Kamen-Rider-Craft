@@ -1,17 +1,17 @@
 {
-    "name": "Anguis Masculus",
-    "icon": "kamenridercraft:agito_logo",
-    "category": "kamenridercraft:agito/mobs",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:anguis_masculus",
-            "text": "Spawns throughout the Nether"
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:agito/items/agito_of_seed)Seeds of Agito$(/l)$(li)0-1 $(l:agito/items/agito_of_seed)Seed of Agito$(/l) (20%)$(li)0-1 $(l:agito/items/gills)Gills Philosopher's Stone$(/l) (60%)$(li)0-1 $(l:agito/items/g3core)Blank G-System Core$(/l) (20%)$(br2)Bosses$(li)$(l:agito/mobs/another_agito)Another Agito$(/l) (10%)"
-        }
-    ]
+	"name": "Anguis Masculus",
+	"icon": "kamenridercraft:agito_logo",
+	"category": "kamenridercraft:agito/mobs",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:anguis_masculus",
+			"text": "Spawns throughout the Nether"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:agito/items/agito_of_seed)Seeds of Agito$(/l)$(li)0-1 $(l:agito/items/agito_of_seed)Seed of Agito$(/l) (20%)$(li)0-1 $(l:agito/items/gills)Gills Philosopher's Stone$(/l) (60%)$(li)0-1 $(l:agito/items/g3core)Blank G-System Core$(/l) (20%)$(br2)Bosses$(li)$(l:agito/mobs/another_agito)Another Agito$(/l) (10%)"
+		}
+	]
 }

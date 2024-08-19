@@ -1,16 +1,16 @@
 {
-    "name": "Ridol (Dark X)",
-    "icon": "kamenridercraft:dark_ridol",
-    "category": "kamenridercraft:x/devices",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Pachinko Kamen Rider: Full Throttle (2015, Pachinko game)$(br2)Used alongside the $(l:x/devices/armor)X armor$(/l) to transform into $(l:x/riders/dark_x)Dark X"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:x/dark_ridol"
-        }
-    ]
+	"name": "Ridol (Dark X)",
+	"icon": "kamenridercraft:dark_ridol",
+	"category": "kamenridercraft:x/devices",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Pachinko Kamen Rider: Full Throttle (2015, Pachinko game)$(br2)Used alongside the $(l:x/devices/armor)X armor$(/l) to transform into $(l:x/riders/dark_x)Dark X"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:x/dark_ridol"
+		}
+	]
 }

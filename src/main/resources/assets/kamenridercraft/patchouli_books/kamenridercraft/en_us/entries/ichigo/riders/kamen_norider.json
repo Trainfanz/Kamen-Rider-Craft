@@ -1,18 +1,18 @@
 {
-    "name": "Kamen Norider",
-    "icon": "kamenridercraft:nophoon_core",
-    "category": "kamenridercraft:ichigo/riders",
-    "sortnum": 5,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:nophoon_kamen_norider\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
-            "name": " "
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Norider",
+	"icon": "kamenridercraft:nophoon_core",
+	"category": "kamenridercraft:ichigo/riders",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_riders{ArmorItems:[{id:\"kamenridercraft:nophoon_kamen_norider\",Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
+			"name": " "
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Norider",
-            "text": "Appears in:$(li)Kamen Norider (1988, TV show)$(br2)Transforms with the $(l:ichigo/devices/nophoon_kamen_norider)Nophoon$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Norider (1988, TV show)$(br2)Transforms with the $(l:ichigo/devices/nophoon_kamen_norider)Nophoon$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
+		}
+	]
 }

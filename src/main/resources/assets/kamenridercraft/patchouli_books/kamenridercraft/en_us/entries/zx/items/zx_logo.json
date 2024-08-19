@@ -1,12 +1,12 @@
 {
-    "name": "ZX Logo",
-    "icon": "kamenridercraft:zx_logo",
-    "category": "kamenridercraft:zx/items",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:zx/zx_logo"
-        }
-    ]
+	"name": "ZX Logo",
+	"icon": "kamenridercraft:zx_logo",
+	"category": "kamenridercraft:zx/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:zx/zx_logo"
+		}
+	]
 }

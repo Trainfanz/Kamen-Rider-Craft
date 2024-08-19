@@ -1,16 +1,16 @@
 {
-    "name": "Shining Calibur (Twin Mode)",
-    "icon": "kamenridercraft:shining_caliber",
-    "category": "kamenridercraft:agito/arsenal",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used by Agito's $(l:agito/riders/agito#shining)Shining Form$(/l)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:agito/shining_caliber"
-        }
-    ]
+	"name": "Shining Calibur (Twin Mode)",
+	"icon": "kamenridercraft:shining_caliber",
+	"category": "kamenridercraft:agito/arsenal",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used by Agito's $(l:agito/riders/agito#shining)Shining Form$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:agito/shining_caliber"
+		}
+	]
 }

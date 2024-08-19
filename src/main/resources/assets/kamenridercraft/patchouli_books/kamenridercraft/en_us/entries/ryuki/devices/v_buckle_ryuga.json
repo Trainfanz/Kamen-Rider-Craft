@@ -1,16 +1,16 @@
 {
-    "name": "V Buckle (Ryuga)",
-    "icon": "kamenridercraft:v_buckle_ryuga",
-    "category": "kamenridercraft:ryuki/devices",
-    "sortnum": 12,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Ryuki: Episode Final (2002, movie)$(br2)Used alongside the $(l:ryuki/devices/armor)Ryuki armor$(/l) to transform into $(l:ryuki/riders/ryuga#ryuga)Kamen Rider Ryuga"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:ryuki/v_buckle_ryuga"
-        }
-    ]
+	"name": "V Buckle (Ryuga)",
+	"icon": "kamenridercraft:v_buckle_ryuga",
+	"category": "kamenridercraft:ryuki/devices",
+	"sortnum": 12,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki: Episode Final (2002, movie)$(br2)Used alongside the $(l:ryuki/devices/armor)Ryuki armor$(/l) to transform into $(l:ryuki/riders/ryuga#ryuga)Kamen Rider Ryuga"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:ryuki/v_buckle_ryuga"
+		}
+	]
 }

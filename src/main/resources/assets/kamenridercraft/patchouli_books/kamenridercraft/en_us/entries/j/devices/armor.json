@@ -1,24 +1,24 @@
 {
-    "name": "J Armor",
-    "icon": "kamenridercraft:jhead",
-    "category": "kamenridercraft:j/devices",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Used alongside the $(l:j/devices/j_spirit)J-Spirit$(/l) to transform into $(l:j/riders/j)Kamen Rider J"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:j/jhead"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:j/jtroso"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:j/jlegs"
-        }
-    ]
+	"name": "J Armor",
+	"icon": "kamenridercraft:jhead",
+	"category": "kamenridercraft:j/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Used alongside the $(l:j/devices/j_spirit)J-Spirit$(/l) to transform into $(l:j/riders/j)Kamen Rider J"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:j/jhead"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:j/jtroso"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:j/jlegs"
+		}
+	]
 }

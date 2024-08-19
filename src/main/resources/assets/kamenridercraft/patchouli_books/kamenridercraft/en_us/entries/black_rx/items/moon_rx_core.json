@@ -1,19 +1,19 @@
 {
-    "name": "Another RX Core",
-    "icon": "kamenridercraft:moon_rx_core",
-    "category": "kamenridercraft:black_rx/items",
-    "sortnum": 5,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)After 0 (2002, S.I.C. Hero Saga)$(br2)Used to craft Another RX's $(l:black_rx/devices/moon_riser)Moonriser$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:moon_rx_core",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:black/mobs/shadow_moon)Shadow Moon$(/l)"
-        }
-    ]
+	"name": "Another RX Core",
+	"icon": "kamenridercraft:moon_rx_core",
+	"category": "kamenridercraft:black_rx/items",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)After 0 (2002, S.I.C. Hero Saga)$(br2)Used to craft Another RX's $(l:black_rx/devices/moon_riser)Moonriser$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:moon_rx_core",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:black/mobs/shadow_moon)Shadow Moon$(/l)"
+		}
+	]
 }

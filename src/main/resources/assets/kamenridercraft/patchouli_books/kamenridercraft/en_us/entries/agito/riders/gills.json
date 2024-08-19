@@ -1,56 +1,56 @@
 {
-    "name": "Kamen Rider Gills",
-    "icon": "kamenridercraft:gills",
-    "category": "kamenridercraft:agito/riders",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "anchor": "gills",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:meta_factor\",tag:{slot_tex1:\"gills\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
-            "name": " ",
-            "text": "Accessed with the $(l:agito/items/gills)Gills Philosopher's Stone$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Gills",
+	"icon": "kamenridercraft:gills",
+	"category": "kamenridercraft:agito/riders",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "gills",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:meta_factor\",tag:{slot_tex1:\"gills\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
+			"name": " ",
+			"text": "Accessed with the $(l:agito/items/gills)Gills Philosopher's Stone$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Gills",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Transforms with the $(l:agito/devices/meta_factor)Meta Factor$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost$(li)Strength"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "exceed_gills",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:meta_factor\",tag:{slot_tex1:\"exceed_gills\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
-            "name": "Exceed Gills",
-            "text": "Accessed with the $(l:agito/items/exceed_gills)Exceed Gills Philosopher's Stone$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Transforms with the $(l:agito/devices/meta_factor)Meta Factor$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost$(li)Strength"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "exceed_gills",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:meta_factor\",tag:{slot_tex1:\"exceed_gills\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
+			"name": "Exceed Gills",
+			"text": "Accessed with the $(l:agito/items/exceed_gills)Exceed Gills Philosopher's Stone$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Gills",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Transforms with the $(l:agito/devices/meta_factor)Meta Factor$(/l)$(br2)Status Effects:$(li)Speed IV$(li)Resistance II$(li)Jump Boost IV$(li)Strength III"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "gold_exceed_gills",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:meta_factor\",tag:{slot_tex1:\"gold_exceed_gills\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
-            "name": "Gold Exceed Gills",
-            "text": "Accessed with the $(l:agito/items/gold_exceed_gills)Gold Exceed Gills Philosopher's Stone$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Transforms with the $(l:agito/devices/meta_factor)Meta Factor$(/l)$(br2)Status Effects:$(li)Speed IV$(li)Resistance II$(li)Jump Boost IV$(li)Strength III"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "gold_exceed_gills",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:meta_factor\",tag:{slot_tex1:\"gold_exceed_gills\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
+			"name": "Gold Exceed Gills",
+			"text": "Accessed with the $(l:agito/items/gold_exceed_gills)Gold Exceed Gills Philosopher's Stone$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Gills",
-            "text": "Appears in:$(li)Rider Hero Series (2001, toyline)$(br2)Transforms with the $(l:agito/devices/meta_factor)Meta Factor$(/l)$(br2)Status Effects:$(li)Speed IV$(li)Resistance II$(li)Jump Boost IV$(li)Strength III"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "leatheraider",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:meta_factor\",tag:{slot_tex1:\"leatheraider\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
-            "name": "Leatheraider",
-            "text": "Accessed with the $(l:agito/items/leatheraider)Leatheraider Card Warrior Card$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Rider Hero Series (2001, toyline)$(br2)Transforms with the $(l:agito/devices/meta_factor)Meta Factor$(/l)$(br2)Status Effects:$(li)Speed IV$(li)Resistance II$(li)Jump Boost IV$(li)Strength III"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "leatheraider",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:meta_factor\",tag:{slot_tex1:\"leatheraider\"},Count:1b},{id:\"kamenridercraft:agitolegs\",Count:1b},{id:\"kamenridercraft:agitotroso\",Count:1b},{id:\"kamenridercraft:agitohead\",Count:1b}]}",
+			"name": "Leatheraider",
+			"text": "Accessed with the $(l:agito/items/leatheraider)Leatheraider Card Warrior Card$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Gills",
-            "text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Transforms with the $(l:agito/devices/meta_factor)Meta Factor$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost$(li)Strength"
-        }
-    ]
+			"text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Transforms with the $(l:agito/devices/meta_factor)Meta Factor$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost$(li)Strength"
+		}
+	]
 }

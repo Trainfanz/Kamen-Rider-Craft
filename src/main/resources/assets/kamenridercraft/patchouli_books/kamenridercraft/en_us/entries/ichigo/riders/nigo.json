@@ -1,32 +1,32 @@
 {
-    "name": "Kamen Rider Nigo",
-    "icon": "kamenridercraft:typhoon_core_nigo",
-    "category": "kamenridercraft:ichigo/riders",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "anchor": "new_nigo",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:typhoon_nigo\",tag:{slot_tex1:\"typhoon_core\"},Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
-            "name": "New Nigo",
-            "text": "Accessed with the $(l:ichigo/items/typhoon_core_nigo)Typhoon Core (Nigo)$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Nigo",
+	"icon": "kamenridercraft:typhoon_core_nigo",
+	"category": "kamenridercraft:ichigo/riders",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "new_nigo",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:typhoon_nigo\",tag:{slot_tex1:\"typhoon_core\"},Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
+			"name": "New Nigo",
+			"text": "Accessed with the $(l:ichigo/items/typhoon_core_nigo)Typhoon Core (Nigo)$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Nigo",
-            "text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Transforms with the $(l:ichigo/devices/typhoon_nigo)Typhoon (Nigo)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "original_nigo",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:typhoon_nigo\",tag:{slot_tex1:\"original_typhoon_core_nigo\"},Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
-            "name": "Original Nigo",
-            "text": "Accessed with the $(l:ichigo/items/original_typhoon_core)Typhoon Core (Original)$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Transforms with the $(l:ichigo/devices/typhoon_nigo)Typhoon (Nigo)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "original_nigo",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:typhoon_nigo\",tag:{slot_tex1:\"original_typhoon_core_nigo\"},Count:1b},{id:\"kamenridercraft:ichigolegs\",Count:1b},{id:\"kamenridercraft:ichigotroso\",Count:1b},{id:\"kamenridercraft:ichigohead\",Count:1b}]}",
+			"name": "Original Nigo",
+			"text": "Accessed with the $(l:ichigo/items/original_typhoon_core)Typhoon Core (Original)$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Nigo",
-            "text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Transforms with the $(l:ichigo/devices/typhoon_nigo)Typhoon (Nigo)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Transforms with the $(l:ichigo/devices/typhoon_nigo)Typhoon (Nigo)$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost III$(li)Strength II"
+		}
+	]
 }

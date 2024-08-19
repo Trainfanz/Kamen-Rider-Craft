@@ -1,19 +1,19 @@
 {
-    "name": "Magnugiga Advent Card",
-    "icon": "kamenridercraft:magnugiga_advent",
-    "category": "kamenridercraft:ryuki/items",
-    "sortnum": 5,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Ryuki (2000, TV show)$(br2)Used to craft Zolda's $(l:ryuki/devices/v_buckle_zolda)V Buckle (Zolda)$(/l)$(br2)Used to access Zolda's $(l:ryuki/riders/zolda#zolda)base$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:magnugiga_advent",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
-        }
-    ]
+	"name": "Magnugiga Advent Card",
+	"icon": "kamenridercraft:magnugiga_advent",
+	"category": "kamenridercraft:ryuki/items",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2000, TV show)$(br2)Used to craft Zolda's $(l:ryuki/devices/v_buckle_zolda)V Buckle (Zolda)$(/l)$(br2)Used to access Zolda's $(l:ryuki/riders/zolda#zolda)base$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:magnugiga_advent",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
+		}
+	]
 }

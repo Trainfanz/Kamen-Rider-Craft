@@ -1,16 +1,16 @@
 {
-    "name": "Moonriser",
-    "icon": "kamenridercraft:moon_riser",
-    "category": "kamenridercraft:black_rx/devices",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)After 0 (2002, S.I.C. Hero Saga)$(br2)Used alongside the $(l:black_rx/devices/armor)Black armor$(/l) to transform into $(l:black_rx/riders/another_rx)White RX (Another RX)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:rx/moon_riser"
-        }
-    ]
+	"name": "Moonriser",
+	"icon": "kamenridercraft:moon_riser",
+	"category": "kamenridercraft:black_rx/devices",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)After 0 (2002, S.I.C. Hero Saga)$(br2)Used alongside the $(l:black_rx/devices/armor)Black armor$(/l) to transform into $(l:black_rx/riders/another_rx)White RX (Another RX)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:rx/moon_riser"
+		}
+	]
 }

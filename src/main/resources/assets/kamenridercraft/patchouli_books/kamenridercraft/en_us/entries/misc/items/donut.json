@@ -1,16 +1,16 @@
 {
-    "name": "Donut",
-    "icon": "kamenridercraft:donut",
-    "category": "kamenridercraft:misc/items",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Restores 5 hunger points when eaten$(br2)Plain sugar flavor (probably)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:misc/donut"
-        }
-    ]
+	"name": "Donut",
+	"icon": "kamenridercraft:donut",
+	"category": "kamenridercraft:misc/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Restores 5 hunger points when eaten$(br2)Plain sugar flavor (probably)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:misc/donut"
+		}
+	]
 }

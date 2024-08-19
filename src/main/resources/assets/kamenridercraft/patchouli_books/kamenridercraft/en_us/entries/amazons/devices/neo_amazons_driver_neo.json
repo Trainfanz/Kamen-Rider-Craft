@@ -1,16 +1,16 @@
 {
-    "name": "Neo Amazons Driver (Neo)",
-    "icon": "kamenridercraft:neo_amazons_driver_neo",
-    "category": "kamenridercraft:amazons/devices",
-    "sortnum": 4,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Amazons Season 2 (2017, web series)$(br2)Used alongside the $(l:amazons/devices/armor)Amazons armor$(/l) to transform into $(l:amazons/riders/amazon_neo)Kamen Rider Amazon Neo"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:amazons/neo_amazons_driver_neo"
-        }
-    ]
+	"name": "Neo Amazons Driver (Neo)",
+	"icon": "kamenridercraft:neo_amazons_driver_neo",
+	"category": "kamenridercraft:amazons/devices",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Amazons Season 2 (2017, web series)$(br2)Used alongside the $(l:amazons/devices/armor)Amazons armor$(/l) to transform into $(l:amazons/riders/amazon_neo)Kamen Rider Amazon Neo"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:amazons/neo_amazons_driver_neo"
+		}
+	]
 }

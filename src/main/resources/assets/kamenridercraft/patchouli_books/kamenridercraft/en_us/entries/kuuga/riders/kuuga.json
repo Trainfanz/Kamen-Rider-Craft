@@ -1,200 +1,200 @@
 {
-    "name": "Kamen Rider Kuuga",
-    "icon": "kamenridercraft:kuuga_mighty",
-    "category": "kamenridercraft:kuuga/riders",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "anchor": "growing",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_growing\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
-            "name": "Growing Form",
-            "text": "Accessed with the $(l:kuuga/items/kuuga_growing)Kuuga Growing Amadam$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Kuuga",
+	"icon": "kamenridercraft:kuuga_mighty",
+	"category": "kamenridercraft:kuuga/riders",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "growing",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_growing\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
+			"name": "Growing Form",
+			"text": "Accessed with the $(l:kuuga/items/kuuga_growing)Kuuga Growing Amadam$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Kuuga",
-            "text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Weakness III"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "mighty",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_mighty\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
-            "name": "Mighty Form",
-            "text": "Accessed with the $(l:kuuga/items/kuuga_mighty)Kuuga Mighty Amadam$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Weakness III"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "mighty",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_mighty\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
+			"name": "Mighty Form",
+			"text": "Accessed with the $(l:kuuga/items/kuuga_mighty)Kuuga Mighty Amadam$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Kuuga",
-            "text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Punch III$(li)Strength VI (with empty hand)"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "dragon",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_dragon\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
-            "name": "Dragon Form",
-            "text": "Accessed with the $(l:kuuga/items/kuuga_dragon)Kuuga Dragon Amadam$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Punch III$(li)Strength VI (with empty hand)"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dragon",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_dragon\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
+			"name": "Dragon Form",
+			"text": "Accessed with the $(l:kuuga/items/kuuga_dragon)Kuuga Dragon Amadam$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Kuuga",
-            "text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Speed$(li)Haste"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "pegasus",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_pegasus\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
-            "name": "Pegasus Form",
-            "text": "Accessed with the $(l:kuuga/items/kuuga_pegasus)Kuuga Pegasus Amadam$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Speed$(li)Haste"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "pegasus",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_pegasus\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
+			"name": "Pegasus Form",
+			"text": "Accessed with the $(l:kuuga/items/kuuga_pegasus)Kuuga Pegasus Amadam$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Kuuga",
-            "text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Night Vision$(li)Jump Boost III"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "titan",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_titan\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
-            "name": "Titan Form",
-            "text": "Accessed with the $(l:kuuga/items/kuuga_titan)Kuuga Titan Amadam$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Night Vision$(li)Jump Boost III"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "titan",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_titan\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
+			"name": "Titan Form",
+			"text": "Accessed with the $(l:kuuga/items/kuuga_titan)Kuuga Titan Amadam$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Kuuga",
-            "text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Slowness$(li)Resistance$(li)Strength"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "rising_mighty",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_rising_mighty\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
-            "name": "Rising Mighty Form",
-            "text": "Accessed with the $(l:kuuga/items/kuuga_rising_mighty)Kuuga Rising Mighty Amadam$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Slowness$(li)Resistance$(li)Strength"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "rising_mighty",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_rising_mighty\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
+			"name": "Rising Mighty Form",
+			"text": "Accessed with the $(l:kuuga/items/kuuga_rising_mighty)Kuuga Rising Mighty Amadam$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Kuuga",
-            "text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Flying$(li)Punch IV$(li)Speed IV$(li)Resistance$(li)Haste IV$(li)Strength VII (with empty hand)$(li)Strength III (with weapon)"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "jinrai_no_senshi",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"jinrai_no_senshi\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
-            "name": "Jinrai no Senshi",
-            "text": "Accessed with the $(l:misc/items/jinrai_no_senshi)Jinrai no senshi Card Warrior Card$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Punch IV$(li)Speed$(li)Resistance$(li)Strength VII (with empty hand)"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "rising_dragon",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_rising_dragon\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
+			"name": "Rising Dragon Form",
+			"text": "Accessed with the $(l:kuuga/items/kuuga_rising_dragon)Kuuga Rising Dragon Amadam$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Kuuga",
-            "text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Flying$(li)Punch IV$(li)Speed IV$(li)Resistance$(li)Haste IV$(li)Strength VII (with empty hand)$(li)Strength III (with weapon)"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "rising_dragon",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_rising_dragon\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
-            "name": "Rising Dragon Form",
-            "text": "Accessed with the $(l:kuuga/items/kuuga_rising_dragon)Kuuga Rising Dragon Amadam$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Speed II$(li)Haste III$(li)Strength"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "rising_pegasus",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_rising_pegasus\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
+			"name": "Rising Pegasus Form",
+			"text": "Accessed with the $(l:kuuga/items/kuuga_rising_pegasus)Kuuga Rising Pegasus Amadam$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Kuuga",
-            "text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Speed II$(li)Haste III$(li)Strength"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "rising_pegasus",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_rising_pegasus\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
-            "name": "Rising Pegasus Form",
-            "text": "Accessed with the $(l:kuuga/items/kuuga_rising_pegasus)Kuuga Rising Pegasus Amadam$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Speed II$(li)Night Vision$(li)Jump Boost V$(li)Strength"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "rising_titan",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_rising_titan\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
+			"name": "Rising Titan Form",
+			"text": "Accessed with the $(l:kuuga/items/kuuga_rising_titan)Kuuga Rising Titan Amadam$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Kuuga",
-            "text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Speed II$(li)Night Vision$(li)Jump Boost V$(li)Strength"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "rising_titan",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_rising_titan\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
-            "name": "Rising Titan Form",
-            "text": "Accessed with the $(l:kuuga/items/kuuga_rising_titan)Kuuga Rising Titan Amadam$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Slowness$(li)Resistance III$(li)Strength III"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "amazing_mighty",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_amazing_mighty\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
+			"name": "Amazing Mighty Form",
+			"text": "Accessed with the $(l:kuuga/items/kuuga_amazing_mighty)Kuuga Amazing Mighty Amadam$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Kuuga",
-            "text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Slowness$(li)Resistance III$(li)Strength III"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "amazing_mighty",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_amazing_mighty\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
-            "name": "Amazing Mighty Form",
-            "text": "Accessed with the $(l:kuuga/items/kuuga_amazing_mighty)Kuuga Amazing Mighty Amadam$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Punch V$(li)Speed III$(li)Resistance III$(li)Jump Boost II$(li)Strength VIII (with empty hand)$(li)Strength III (with weapon)"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "ultimate",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_ultimate\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
+			"name": "Ultimate Form",
+			"text": "Accessed with the $(l:kuuga/items/kuuga_ultimate)Kuuga Ultimate Amadam$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Kuuga",
-            "text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Punch V$(li)Speed III$(li)Resistance III$(li)Jump Boost II$(li)Strength VIII (with empty hand)$(li)Strength III (with weapon)"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "amazing_mighty_artist_color",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_amazing_mighty_artist\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
-            "name": "Amazing Mighty (Artist Color)",
-            "text": "Accessed with the $(l:misc/items/sic_hero_saga)S.I.C. Hero Saga$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Punch VI$(li)Speed IV$(li)Resistance IV$(li)Jump Boost IV$(li)Strength IX (with empty hand)$(li)Strength V (with weapon)"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "rising_ultimate",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_rising_ultimate\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
+			"name": "Rising Ultimate Form",
+			"text": "Accessed with the $(l:kuuga/items/kuuga_rising_ultimate)Kuuga Rising Ultimate Amadam$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Kuuga",
-            "text": "Appears in:$(li)S.I.C. Takumi Damashii Vol. 5 (2005, toyline)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Punch V$(li)Speed III$(li)Resistance III$(li)Jump Boost II$(li)Strength VIII (with empty hand)$(li)Strength III (with weapon)"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "grandgouram",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"grandgouram\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
-            "name": "Amazing Mighty w/ GrandGouram",
-            "text": "Accessed with the $(l:kuuga/items/grandgouram)GrandGouram Card Warrior Card$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade: All Riders vs. Dai-Shocker (2009, movie)$(li)Kamen Rider Wizard (2012, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Punch VI$(li)Speed V$(li)Resistance IV$(li)Night Vision$(li)Jump Boost V$(li)Strength IX (with empty hand)$(li)Strength VI (with weapon)"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "super_rising_ultimate",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_super_rising_ultimate\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
+			"name": "Super Rising Ultimate Form",
+			"text": "Accessed with the $(l:kuuga/items/kuuga_super_rising_ultimate)Kuuga Super Rising Ultimate Amadam$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Kuuga",
-            "text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Punch IX$(li)Speed III$(li)Resistance III$(li)Jump Boost II$(li)Strength XII (with empty hand)$(li)Strength III (with weapon)"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "ultimate",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_ultimate\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
-            "name": "Ultimate Form",
-            "text": "Accessed with the $(l:kuuga/items/kuuga_ultimate)Kuuga Ultimate Amadam$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)World of OOO (2015, S.I.C. Hero Saga)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Punch VII$(li)Speed VI$(li)Resistance IV$(li)Night Vision$(li)Jump Boost VII$(li)Strength X (with empty hand)$(li)Strength VIII (with weapon)"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "jinrai_no_senshi",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"jinrai_no_senshi\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
+			"name": "Rising Mighty (Jinrai no Senshi)",
+			"text": "Accessed with the $(l:misc/items/jinrai_no_senshi)Jinrai no senshi Card Warrior Card$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Kuuga",
-            "text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Punch VI$(li)Speed IV$(li)Resistance IV$(li)Jump Boost IV$(li)Strength IX (with empty hand)$(li)Strength V (with weapon)"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "rising_ultimate",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_rising_ultimate\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
-            "name": "Rising Ultimate Form",
-            "text": "Accessed with the $(l:kuuga/items/kuuga_rising_ultimate)Kuuga Rising Ultimate Amadam$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Flying$(li)Punch IV$(li)Speed IV$(li)Resistance$(li)Haste IV$(li)Strength VII (with empty hand)$(li)Strength III (with weapon)"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "amazing_mighty_artist_color",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_amazing_mighty_artist\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
+			"name": "Amazing Mighty (Artist Color)",
+			"text": "Accessed with the $(l:misc/items/sic_hero_saga)S.I.C. Hero Saga$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Kuuga",
-            "text": "Appears in:$(li)Kamen Rider Decade: All Riders vs. Dai-Shocker (2009, movie)$(li)Kamen Rider Wizard (2012, TV show)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Punch VI$(li)Speed V$(li)Resistance IV$(li)Night Vision$(li)Jump Boost V$(li)Strength IX (with empty hand)$(li)Strength VI (with weapon)"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "super_rising_ultimate",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"kuuga_super_rising_ultimate\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
-            "name": "Super Rising Ultimate Form",
-            "text": "Accessed with the $(l:kuuga/items/kuuga_super_rising_ultimate)Kuuga Super Rising Ultimate Amadam$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)S.I.C. Takumi Damashii Vol. 5 (2005, toyline)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Punch V$(li)Speed III$(li)Resistance III$(li)Jump Boost II$(li)Strength VIII (with empty hand)$(li)Strength III (with weapon)"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "grandgouram",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcle\",tag:{slot_tex1:\"grandgouram\"},Count:1b},{id:\"kamenridercraft:kuugalegs\",Count:1b},{id:\"kamenridercraft:kuugatroso\",Count:1b},{id:\"kamenridercraft:kuugahead\",Count:1b}]}",
+			"name": "Amazing Mighty w/ GrandGouram",
+			"text": "Accessed with the $(l:kuuga/items/grandgouram)GrandGouram Card Warrior Card$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Kuuga",
-            "text": "Appears in:$(li)World of OOO (2015, S.I.C. Hero Saga)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Punch VII$(li)Speed VI$(li)Resistance IV$(li)Night Vision$(li)Jump Boost VII$(li)Strength X (with empty hand)$(li)Strength VIII (with weapon)"
-        }
-    ]
+			"text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Transforms with the $(l:kuuga/devices/arcle)Arcle$(/l)$(br2)Status Effects:$(li)Punch IX$(li)Speed III$(li)Resistance III$(li)Jump Boost II$(li)Strength XII (with empty hand)$(li)Strength III (with weapon)"
+		}
+	]
 }

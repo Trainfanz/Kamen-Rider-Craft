@@ -1,19 +1,19 @@
 {
-    "name": "Wingwall Guard Vent Card",
-    "icon": "kamenridercraft:wing_wall_vent",
-    "category": "kamenridercraft:ryuki/items",
-    "sortnum": 32,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used to access Knight's $(l:ryuki/riders/knight#wingwall)base form w/ Wingwall$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:wing_wall_vent",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
-        }
-    ]
+	"name": "Wingwall Guard Vent Card",
+	"icon": "kamenridercraft:wing_wall_vent",
+	"category": "kamenridercraft:ryuki/items",
+	"sortnum": 32,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used to access Knight's $(l:ryuki/riders/knight#wingwall)base form w/ Wingwall$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:wing_wall_vent",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
+		}
+	]
 }

@@ -1,0 +1,16 @@
+{
+	"name": "Greywolch Card Warrior Card",
+	"icon": "kamenridercraft:greywolch",
+	"category": "kamenridercraft:faiz/items",
+	"sortnum": 13,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Card Warrior Kamen Riders (2009, manga/toyline)$(br2)Used to access Faiz's $(l:faiz/riders/faiz#greywolch)greywolch$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:misc/greywolch"
+		}
+	]
+}

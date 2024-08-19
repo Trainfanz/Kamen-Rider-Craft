@@ -1,16 +1,16 @@
 {
-    "name": "Kaixa Phone",
-    "icon": "kamenridercraft:kaixa_phone",
-    "category": "kamenridercraft:faiz/arsenal",
-    "sortnum": 6,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Used by $(l:faiz/riders/kaixa)Kamen Rider Kaixa$(/l)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:faiz/kaixa_phone"
-        }
-    ]
+	"name": "Kaixa Phone",
+	"icon": "kamenridercraft:kaixa_phone",
+	"category": "kamenridercraft:faiz/arsenal",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Used by $(l:faiz/riders/kaixa)Kamen Rider Kaixa$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:faiz/kaixa_phone"
+		}
+	]
 }

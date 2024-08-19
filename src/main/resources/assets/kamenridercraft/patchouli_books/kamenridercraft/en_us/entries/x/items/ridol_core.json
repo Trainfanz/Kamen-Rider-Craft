@@ -1,19 +1,19 @@
 {
-    "name": "Ridol Core",
-    "icon": "kamenridercraft:ridol_core",
-    "category": "kamenridercraft:x/items",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider X (1974, TV show)$(br2)Used to craft X's $(l:x/devices/ridol)Ridol$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:ridol_core",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:x/mobs/god_warfare_agent)G.O.D. Warfare Agent$(/l)"
-        }
-    ]
+	"name": "Ridol Core",
+	"icon": "kamenridercraft:ridol_core",
+	"category": "kamenridercraft:x/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider X (1974, TV show)$(br2)Used to craft X's $(l:x/devices/ridol)Ridol$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:ridol_core",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:x/mobs/god_warfare_agent)G.O.D. Warfare Agent$(/l)"
+		}
+	]
 }

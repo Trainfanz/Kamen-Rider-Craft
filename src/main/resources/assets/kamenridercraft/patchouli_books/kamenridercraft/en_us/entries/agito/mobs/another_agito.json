@@ -1,17 +1,17 @@
 {
-    "name": "Another Agito",
-    "icon": "kamenridercraft:agito_logo",
-    "category": "kamenridercraft:agito/mobs",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:another_agito",
-            "text": "Has a 10% chance to spawn from a $(l:agito/mobs/anguis_masculus)Anguis Masculus$(/l)"
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Health: 200$(br2)Drops$(li)4-6 $(l:agito/items/agito_of_seed)Seeds of Agito$(/l)"
-        }
-    ]
+	"name": "Another Agito",
+	"icon": "kamenridercraft:agito_logo",
+	"category": "kamenridercraft:agito/mobs",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:another_agito",
+			"text": "Has a 10% chance to spawn from a $(l:agito/mobs/anguis_masculus)Anguis Masculus$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Health: 200$(br2)Drops$(li)4-6 $(l:agito/items/agito_of_seed)Seeds of Agito$(/l)"
+		}
+	]
 }

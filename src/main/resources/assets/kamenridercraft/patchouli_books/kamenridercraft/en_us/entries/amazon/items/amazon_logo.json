@@ -1,12 +1,12 @@
 {
-    "name": "Amazon Logo",
-    "icon": "kamenridercraft:amazon_logo",
-    "category": "kamenridercraft:amazon/items",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:amazon/amazon_logo"
-        }
-    ]
+	"name": "Amazon Logo",
+	"icon": "kamenridercraft:amazon_logo",
+	"category": "kamenridercraft:amazon/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:amazon/amazon_logo"
+		}
+	]
 }

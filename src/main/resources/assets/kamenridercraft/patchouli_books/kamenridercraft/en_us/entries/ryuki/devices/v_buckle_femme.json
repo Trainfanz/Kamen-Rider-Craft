@@ -1,16 +1,16 @@
 {
-    "name": "V Buckle (Femme)",
-    "icon": "kamenridercraft:v_buckle_femme",
-    "category": "kamenridercraft:ryuki/devices",
-    "sortnum": 11,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Ryuki: Episode Final (2002, movie)$(br2)Used alongside the $(l:ryuki/devices/armor)Ryuki armor$(/l) to transform into $(l:ryuki/riders/femme)Kamen Rider Femme"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:ryuki/v_buckle_femme"
-        }
-    ]
+	"name": "V Buckle (Femme)",
+	"icon": "kamenridercraft:v_buckle_femme",
+	"category": "kamenridercraft:ryuki/devices",
+	"sortnum": 11,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki: Episode Final (2002, movie)$(br2)Used alongside the $(l:ryuki/devices/armor)Ryuki armor$(/l) to transform into $(l:ryuki/riders/femme)Kamen Rider Femme"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:ryuki/v_buckle_femme"
+		}
+	]
 }

@@ -1,19 +1,19 @@
 {
-    "name": "Wingshield",
-    "icon": "kamenridercraft:wing_shield",
-    "category": "kamenridercraft:ryuki/arsenal",
-    "sortnum": 37,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Ryuki: Episode Final (2002, movie)$(br2)Used by $(l:ryuki/riders/femme)Kamen Rider Femme$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:wing_shield",
-            "title": " ",
-            "text": "Obtained through the $(l:ryuki/items/wing_shield_vent)Wingshield Guard Vent Card$(/l)"
-        }
-    ]
+	"name": "Wingshield",
+	"icon": "kamenridercraft:wing_shield",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 37,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki: Episode Final (2002, movie)$(br2)Used by $(l:ryuki/riders/femme)Kamen Rider Femme$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:wing_shield",
+			"title": " ",
+			"text": "Obtained through the $(l:ryuki/items/wing_shield_vent)Wingshield Guard Vent Card$(/l)"
+		}
+	]
 }

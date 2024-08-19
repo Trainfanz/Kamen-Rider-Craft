@@ -1,14 +1,14 @@
 {
-    "name": "Shocker Emblem",
-    "icon": "kamenridercraft:shocker_emblem",
-    "category": "kamenridercraft:ichigo/items",
-    "sortnum": 12,
-    "pages": [
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:shocker_emblem",
-            "text": "Drops from:$(li)$(l:ichigo/mobs/shocker_rider)Shocker Rider$(/l)"
-        }
-    ]
+	"name": "Shocker Emblem",
+	"icon": "kamenridercraft:shocker_emblem",
+	"category": "kamenridercraft:ichigo/items",
+	"sortnum": 12,
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:shocker_emblem",
+			"text": "Drops from:$(li)$(l:ichigo/mobs/shocker_rider)Shocker Rider$(/l)"
+		}
+	]
 }

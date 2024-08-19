@@ -1,19 +1,19 @@
 {
-    "name": "Gavv Armor",
-    "icon": "kamenridercraft:gavvhead",
-    "category": "kamenridercraft:gavv/devices",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Used alongside a Gavv Rider's transformation device to transform into that Rider"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:gavv_head",
-            "title": " ",
-            "text": "Items are currently unobtainable"
-        }
-    ]
+	"name": "Gavv Armor",
+	"icon": "kamenridercraft:gavvhead",
+	"category": "kamenridercraft:gavv/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Used alongside a Gavv Rider's transformation device to transform into that Rider"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:gavv_head",
+			"title": " ",
+			"text": "Items are currently unobtainable"
+		}
+	]
 }

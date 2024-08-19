@@ -1,0 +1,24 @@
+{
+	"name": "Hibiki Armor",
+	"icon": "kamenridercraft:hibikihead",
+	"category": "kamenridercraft:hibiki/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Used alongside a Hibiki Rider's transformation device to transform into that Rider"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:hibiki/hibikihead"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:hibiki/hibikitroso"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:hibiki/hibikilegs"
+		}
+	]
+}

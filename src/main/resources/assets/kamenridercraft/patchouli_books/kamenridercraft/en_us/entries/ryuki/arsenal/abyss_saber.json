@@ -1,19 +1,19 @@
 {
-    "name": "Abysssaber",
-    "icon": "kamenridercraft:abyss_saber",
-    "category": "kamenridercraft:ryuki/arsenal",
-    "sortnum": 48,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used by $(l:ryuki/riders/abyss)Kamen Rider Abyss$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:abyss_saber",
-            "title": " ",
-            "text": "Obtained through the $(l:ryuki/items/abyss_saber_vent)Abysssaber Sword Vent Card$(/l)"
-        }
-    ]
+	"name": "Abysssaber",
+	"icon": "kamenridercraft:abyss_saber",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 48,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used by $(l:ryuki/riders/abyss)Kamen Rider Abyss$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:abyss_saber",
+			"title": " ",
+			"text": "Obtained through the $(l:ryuki/items/abyss_saber_vent)Abysssaber Sword Vent Card$(/l)"
+		}
+	]
 }

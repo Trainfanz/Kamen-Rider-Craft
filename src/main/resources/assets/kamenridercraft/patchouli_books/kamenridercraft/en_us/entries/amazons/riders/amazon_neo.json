@@ -1,18 +1,18 @@
 {
-    "name": "Kamen Rider Amazon Neo",
-    "icon": "kamenridercraft:amazon_injector_neo",
-    "category": "kamenridercraft:amazons/riders",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:neo_amazons_driver_neo\",Count:1b},{id:\"kamenridercraft:amazonslegs\",Count:1b},{id:\"kamenridercraft:amazonstroso\",Count:1b},{id:\"kamenridercraft:amazonshead\",Count:1b}]}",
-            "name": " "
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Amazon Neo",
+	"icon": "kamenridercraft:amazon_injector_neo",
+	"category": "kamenridercraft:amazons/riders",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:neo_amazons_driver_neo\",Count:1b},{id:\"kamenridercraft:amazonslegs\",Count:1b},{id:\"kamenridercraft:amazonstroso\",Count:1b},{id:\"kamenridercraft:amazonshead\",Count:1b}]}",
+			"name": " "
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Amazon Neo",
-            "text": "Appears in:$(li)Kamen Rider Amazons Season 2 (2017, web series)$(br2)Transforms with the $(l:amazons/devices/neo_amazons_driver_neo)Neo Amazons Driver (Neo)$(/l)$(br2)Status Effects:$(li)Punch VII$(li)Speed IV$(li)Resistance II$(li)Regeneration II$(li)Jump Boost IV$(li)Strength X (with empty hand)"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider Amazons Season 2 (2017, web series)$(br2)Transforms with the $(l:amazons/devices/neo_amazons_driver_neo)Neo Amazons Driver (Neo)$(/l)$(br2)Status Effects:$(li)Punch VII$(li)Speed IV$(li)Resistance II$(li)Regeneration II$(li)Jump Boost IV$(li)Strength X (with empty hand)"
+		}
+	]
 }

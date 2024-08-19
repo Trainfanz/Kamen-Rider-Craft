@@ -1,16 +1,16 @@
 {
-    "name": "Altering (Mirage Agito)",
-    "icon": "kamenridercraft:alter_ring_miracle",
-    "category": "kamenridercraft:agito/devices",
-    "sortnum": 12,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Heaven's Door (2003, S.I.C. Hero Saga)$(br2)Used alongside the $(l:agito/devices/armor)Agito armor$(/l) to transform into $(l:agito/riders/mirage_agito)Mirage Agito"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:agito/alter_ring_miracle"
-        }
-    ]
+	"name": "Altering (Mirage Agito)",
+	"icon": "kamenridercraft:alter_ring_miracle",
+	"category": "kamenridercraft:agito/devices",
+	"sortnum": 12,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Heaven's Door (2003, S.I.C. Hero Saga)$(br2)Used alongside the $(l:agito/devices/armor)Agito armor$(/l) to transform into $(l:agito/riders/mirage_agito)Mirage Agito"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:agito/alter_ring_miracle"
+		}
+	]
 }

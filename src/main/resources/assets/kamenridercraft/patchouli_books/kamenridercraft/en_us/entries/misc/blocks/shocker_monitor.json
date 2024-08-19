@@ -1,16 +1,16 @@
 {
-    "name": "Shocker Monitor",
-    "icon": "kamenridercraft:shocker_monitor",
-    "category": "kamenridercraft:misc/blocks",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Mega Bloks BASIC STANDARD 3500 Kamen Rider Shocker Base Set (toyline)$(br2)Used as the job block for a Shocker Villager"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:ichigo/shocker_monitor"
-        }
-    ]
+	"name": "Shocker Monitor",
+	"icon": "kamenridercraft:shocker_monitor",
+	"category": "kamenridercraft:misc/blocks",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Mega Bloks BASIC STANDARD 3500 Kamen Rider Shocker Base Set (toyline)$(br2)Used as the job block for a Shocker Villager"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:ichigo/shocker_monitor"
+		}
+	]
 }

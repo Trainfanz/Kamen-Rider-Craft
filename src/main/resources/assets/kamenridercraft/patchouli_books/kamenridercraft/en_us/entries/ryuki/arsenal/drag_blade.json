@@ -1,19 +1,19 @@
 {
-    "name": "Dragblade",
-    "icon": "kamenridercraft:drag_blade",
-    "category": "kamenridercraft:ryuki/arsenal",
-    "sortnum": 7,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by Ryuki's $(l:ryuki/riders/ryuki#survive)Survive$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:drag_blade",
-            "title": " ",
-            "text": "Obtained through the $(l:ryuki/items/drag_blade_vent)Dragblade Sword Vent Card$(/l)"
-        }
-    ]
+	"name": "Dragblade",
+	"icon": "kamenridercraft:drag_blade",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by Ryuki's $(l:ryuki/riders/ryuki#survive)Survive Form$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:drag_blade",
+			"title": " ",
+			"text": "Obtained through the $(l:ryuki/items/drag_blade_vent)Dragblade Sword Vent Card$(/l)"
+		}
+	]
 }

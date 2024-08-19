@@ -1,16 +1,16 @@
 {
-    "name": "G-Buckle (G3)",
-    "icon": "kamenridercraft:g3_belt",
-    "category": "kamenridercraft:agito/devices",
-    "sortnum": 4,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used alongside the $(l:agito/devices/armor)Agito armor$(/l) to transform into $(l:agito/riders/g3)Kamen Rider G3"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:agito/g3_belt"
-        }
-    ]
+	"name": "G-Buckle (G3)",
+	"icon": "kamenridercraft:g3_belt",
+	"category": "kamenridercraft:agito/devices",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used alongside the $(l:agito/devices/armor)Agito armor$(/l) to transform into $(l:agito/riders/g3)Kamen Rider G3"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:agito/g3_belt"
+		}
+	]
 }

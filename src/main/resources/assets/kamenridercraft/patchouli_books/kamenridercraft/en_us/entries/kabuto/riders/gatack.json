@@ -1,44 +1,44 @@
 {
-    "name": "Kamen Rider Gatack",
-    "icon": "kamenridercraft:gatack_zecter",
-    "category": "kamenridercraft:kabuto/riders",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "anchor": "masked",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:gatack_rider_belt\",tag:{slot_tex1:\"gatack_zecter_mask\"},Count:1b},{id:\"kamenridercraft:kabutolegs\",Count:1b},{id:\"kamenridercraft:kabutotroso\",Count:1b},{id:\"kamenridercraft:kabutohead\",Count:1b}]}",
-            "name": "Masked Form",
-            "text": "Accessed with the $(l:kabuto/items/gatack_zecter)Gatack Zecter$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Gatack",
+	"icon": "kamenridercraft:gatack_zecter",
+	"category": "kamenridercraft:kabuto/riders",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "masked",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:gatack_rider_belt\",tag:{slot_tex1:\"gatack_zecter_mask\"},Count:1b},{id:\"kamenridercraft:kabutolegs\",Count:1b},{id:\"kamenridercraft:kabutotroso\",Count:1b},{id:\"kamenridercraft:kabutohead\",Count:1b}]}",
+			"name": "Masked Form",
+			"text": "Accessed with the $(l:kabuto/items/gatack_zecter)Gatack Zecter$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Gatack",
-            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Transforms with the $(l:kabuto/devices/gatack_rider_belt)Rider Belt (Gatack)$(/l)$(br2)Status Effects:$(li)Slowness$(li)Resistance II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "rider",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:gatack_rider_belt\",tag:{slot_tex1:\"gatack_zecter\"},Count:1b},{id:\"kamenridercraft:kabutolegs\",Count:1b},{id:\"kamenridercraft:kabutotroso\",Count:1b},{id:\"kamenridercraft:kabutohead\",Count:1b}]}",
-            "name": "Rider Form",
-            "text": "Accessed with the $(l:kabuto/items/gatack_zecter)Gatack Zecter$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Transforms with the $(l:kabuto/devices/gatack_rider_belt)Rider Belt (Gatack)$(/l)$(br2)Status Effects:$(li)Slowness$(li)Resistance II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "rider",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:gatack_rider_belt\",tag:{slot_tex1:\"gatack_zecter\"},Count:1b},{id:\"kamenridercraft:kabutolegs\",Count:1b},{id:\"kamenridercraft:kabutotroso\",Count:1b},{id:\"kamenridercraft:kabutohead\",Count:1b}]}",
+			"name": "Rider Form",
+			"text": "Accessed with the $(l:kabuto/items/gatack_zecter)Gatack Zecter$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Gatack",
-            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Transforms with the $(l:kabuto/devices/gatack_rider_belt)Rider Belt (Gatack)$(/l)$(br2)Status Effects:$(li)Speed IV$(li)Haste IV$(li)Strength II"
-        },
-        {
-            "type": "patchouli:entity",
-            "anchor": "hyper",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:gatack_rider_belt\",tag:{slot_tex1:\"gatack_hyper_zecter\"},Count:1b},{id:\"kamenridercraft:kabutolegs\",Count:1b},{id:\"kamenridercraft:kabutotroso\",Count:1b},{id:\"kamenridercraft:kabutohead\",Count:1b}]}",
-            "name": "Hyper Form",
-            "text": "Accessed with the $(l:kabuto/items/hyper_zecter)Hyper Zecter$(/l)"
-        },
-        {
-            "type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Transforms with the $(l:kabuto/devices/gatack_rider_belt)Rider Belt (Gatack)$(/l)$(br2)Status Effects:$(li)Speed IV$(li)Haste IV$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "hyper",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:gatack_rider_belt\",tag:{slot_tex1:\"gatack_hyper_zecter\"},Count:1b},{id:\"kamenridercraft:kabutolegs\",Count:1b},{id:\"kamenridercraft:kabutotroso\",Count:1b},{id:\"kamenridercraft:kabutohead\",Count:1b}]}",
+			"name": "Hyper Form",
+			"text": "Accessed with the $(l:kabuto/items/hyper_zecter)Hyper Zecter$(/l)"
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Gatack",
-            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Transforms with the $(l:kabuto/devices/gatack_rider_belt)Rider Belt (Gatack)$(/l)$(br2)Status Effects:$(li)Speed VIII$(li)Resistance IV$(li)Night Vision$(li)Haste IV$(li)Jump Boost V$(li)Strength V"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Transforms with the $(l:kabuto/devices/gatack_rider_belt)Rider Belt (Gatack)$(/l)$(br2)Status Effects:$(li)Speed VIII$(li)Resistance IV$(li)Night Vision$(li)Haste IV$(li)Jump Boost V$(li)Strength V"
+		}
+	]
 }

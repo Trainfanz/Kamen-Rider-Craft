@@ -1,19 +1,19 @@
 {
-    "name": "Gazellestab",
-    "icon": "kamenridercraft:gazelle_stab",
-    "category": "kamenridercraft:ryuki/arsenal",
-    "sortnum": 34,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by $(l:ryuki/riders/imperer)Kamen Rider Imperer$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:gazelle_stab",
-            "title": " ",
-            "text": "Obtained through the $(l:ryuki/items/gazelle_stab_vent)Gazellestab Spin Vent Card$(/l)"
-        }
-    ]
+	"name": "Gazellestab",
+	"icon": "kamenridercraft:gazelle_stab",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 34,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by $(l:ryuki/riders/imperer)Kamen Rider Imperer$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:gazelle_stab",
+			"title": " ",
+			"text": "Obtained through the $(l:ryuki/items/gazelle_stab_vent)Gazellestab Spin Vent Card$(/l)"
+		}
+	]
 }

@@ -1,12 +1,12 @@
 {
-    "name": "Shin Logo",
-    "icon": "kamenridercraft:shin_logo",
-    "category": "kamenridercraft:shin/items",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:shin/shin_logo"
-        }
-    ]
+	"name": "Shin Logo",
+	"icon": "kamenridercraft:shin_logo",
+	"category": "kamenridercraft:shin/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:shin/shin_logo"
+		}
+	]
 }

@@ -1,0 +1,16 @@
+{
+	"name": "Ongekiko Mikageban",
+	"icon": "kamenridercraft:dankidriver",
+	"category": "kamenridercraft:hibiki/devices",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Used alongside the $(l:hibiki/devices/armor)Hibiki armor$(/l) to transform into $(l:hibiki/riders/danki)Kamen Rider Danki"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:hibiki/dankidriver"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"name": "Echo Sword Onsaken",
+	"icon": "kamenridercraft:echo_sword_onsaken",
+	"category": "kamenridercraft:hibiki/arsenal",
+	"sortnum": 14,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki And The 7 Senki (2005, movie)$(br2)Used by $(l:hibiki/riders/kabuki)Kamen Rider Kabuki$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:hibiki/echo_sword_onsaken"
+		}
+	]
+}

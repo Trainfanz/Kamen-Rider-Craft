@@ -1,19 +1,19 @@
 {
-    "name": "Change Beetle Rouze Card",
-    "icon": "kamenridercraft:change_beetle",
-    "category": "kamenridercraft:blade/items",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used to craft Blade's $(l:blade/devices/blay_buckle)Blay Buckle$(/l)$(br2)Used to access Blade's $(l:blade/riders/blade#blade)base$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:change_beetle",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
-        }
-    ]
+	"name": "Change Beetle Rouze Card",
+	"icon": "kamenridercraft:change_beetle",
+	"category": "kamenridercraft:blade/items",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used to craft Blade's $(l:blade/devices/blay_buckle)Blay Buckle$(/l)$(br2)Used to access Blade's $(l:blade/riders/blade#blade)base$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:change_beetle",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
+		}
+	]
 }

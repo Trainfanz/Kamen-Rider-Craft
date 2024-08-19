@@ -1,19 +1,19 @@
 {
-    "name": "Cyclode Core",
-    "icon": "kamenridercraft:cyclode_core",
-    "category": "kamenridercraft:super-1/items",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Super-1 (1980, TV show)$(br2)Used to craft Super-1's $(l:super-1/devices/cyclode)Cyclode$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:cyclode_core",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:super-1/mobs/dogma_fighter)Dogma Fighter$(/l)"
-        }
-    ]
+	"name": "Cyclode Core",
+	"icon": "kamenridercraft:cyclode_core",
+	"category": "kamenridercraft:super-1/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Super-1 (1980, TV show)$(br2)Used to craft Super-1's $(l:super-1/devices/cyclode)Cyclode$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:cyclode_core",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:super-1/mobs/dogma_fighter)Dogma Fighter$(/l)"
+		}
+	]
 }

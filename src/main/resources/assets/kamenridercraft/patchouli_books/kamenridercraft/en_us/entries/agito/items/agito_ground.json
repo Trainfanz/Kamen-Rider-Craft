@@ -1,19 +1,19 @@
 {
-    "name": "Agito Ground Philosopher's Stone",
-    "icon": "kamenridercraft:agito_ground",
-    "category": "kamenridercraft:agito/items",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used to craft Agito's $(l:agito/devices/alter_ring)Altering$(/l)$(br2)Used to access Agito's $(l:agito/riders/agito#ground)Ground Form$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:agito_ground",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:agito/mobs/pantheras_luteus)Pantheras Luteus$(/l)"
-        }
-    ]
+	"name": "Agito Ground Philosopher's Stone",
+	"icon": "kamenridercraft:agito_ground",
+	"category": "kamenridercraft:agito/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used to craft Agito's $(l:agito/devices/alter_ring)Altering$(/l)$(br2)Used to access Agito's $(l:agito/riders/agito#ground)Ground Form$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:agito_ground",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:agito/mobs/pantheras_luteus)Pantheras Luteus$(/l)"
+		}
+	]
 }

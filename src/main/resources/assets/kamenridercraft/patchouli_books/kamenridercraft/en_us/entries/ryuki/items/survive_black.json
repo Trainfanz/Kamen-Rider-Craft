@@ -1,19 +1,19 @@
 {
-    "name": "Survive Card (Black)",
-    "icon": "kamenridercraft:survive_black",
-    "category": "kamenridercraft:ryuki/items",
-    "sortnum": 22,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Rider Hero Series (2002, toyline)$(br2)Used to access Ryuki's $(l:ryuki/riders/ryuki#survive_black)Survive (Black Version)$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:survive_black",
-            "title": " ",
-            "text": "Item is currently unobtainable"
-        }
-    ]
+	"name": "Survive Card (Black)",
+	"icon": "kamenridercraft:survive_black",
+	"category": "kamenridercraft:ryuki/items",
+	"sortnum": 22,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Rider Hero Series (2002, toyline)$(br2)Used to access Ryuki's $(l:ryuki/riders/ryuki#survive_black)Survive (Black Version)$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:survive_black",
+			"title": " ",
+			"text": "Item is currently unobtainable"
+		}
+	]
 }

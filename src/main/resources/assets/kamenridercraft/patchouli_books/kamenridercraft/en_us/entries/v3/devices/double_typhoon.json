@@ -1,16 +1,16 @@
 {
-    "name": "Double Typhoon",
-    "icon": "kamenridercraft:double_typhoon",
-    "category": "kamenridercraft:v3/devices",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider V3 (1973, TV show)$(br2)Used alongside the $(l:v3/devices/armor)V3 armor$(/l) to transform into $(l:v3/riders/v3#v3)Kamen Rider V3"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:v3/double_typhoon"
-        }
-    ]
+	"name": "Double Typhoon",
+	"icon": "kamenridercraft:double_typhoon",
+	"category": "kamenridercraft:v3/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider V3 (1973, TV show)$(br2)Used alongside the $(l:v3/devices/armor)V3 armor$(/l) to transform into $(l:v3/riders/v3#v3)Kamen Rider V3"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:v3/double_typhoon"
+		}
+	]
 }

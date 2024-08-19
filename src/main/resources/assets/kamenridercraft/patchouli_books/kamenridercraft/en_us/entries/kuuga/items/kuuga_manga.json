@@ -1,19 +1,19 @@
 {
-    "name": "Kuuga Manga",
-    "icon": "kamenridercraft:kuuga_manga",
-    "category": "kamenridercraft:kuuga/items",
-    "sortnum": 14,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Zi-O: Over Quartzer (2019, movie)$(br2)Used to craft Kuuga's $(l:kuuga/devices/manga_arcle)Manga Arcle$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:kuuga_manga",
-            "title": " ",
-            "text": "Traded by a novice Librarian"
-        }
-    ]
+	"name": "Kuuga Manga",
+	"icon": "kamenridercraft:kuuga_manga",
+	"category": "kamenridercraft:kuuga/items",
+	"sortnum": 14,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Zi-O: Over Quartzer (2019, movie)$(br2)Used to craft Kuuga's $(l:kuuga/devices/manga_arcle)Manga Arcle$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:kuuga_manga",
+			"title": " ",
+			"text": "Traded by a novice Librarian"
+		}
+	]
 }

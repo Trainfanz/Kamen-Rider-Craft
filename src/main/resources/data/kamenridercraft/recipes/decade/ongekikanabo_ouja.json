@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "ouja",
+  "ingredients": [
+{
+	
+	  "item": "kamenridercraft:ongekikanabo_retto"
+	}, 
+	{
+	  "item": "kamenridercraft:venosnaker_advent"
+	}
+	],
+  "result": {
+	"item": "kamenridercraft:ongekikanabo_ouja"
+  }
+}

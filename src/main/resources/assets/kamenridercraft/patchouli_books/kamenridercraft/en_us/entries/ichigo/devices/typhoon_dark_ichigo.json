@@ -1,16 +1,16 @@
 {
-    "name": "Typhoon (Dark Ichigo)",
-    "icon": "kamenridercraft:typhoon_dark_ichigo",
-    "category": "kamenridercraft:ichigo/devices",
-    "sortnum": 7,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Pachinko Kamen Rider: Full Throttle (2015, Pachinko game)$(br2)Used alongside the $(l:ichigo/devices/armor)Ichigo armor$(/l) to transform into $(l:ichigo/riders/dark_ichigo)Dark Ichigo"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:ichigo/typhoon_dark_ichigo"
-        }
-    ]
+	"name": "Typhoon (Dark Ichigo)",
+	"icon": "kamenridercraft:typhoon_dark_ichigo",
+	"category": "kamenridercraft:ichigo/devices",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Pachinko Kamen Rider: Full Throttle (2015, Pachinko game)$(br2)Used alongside the $(l:ichigo/devices/armor)Ichigo armor$(/l) to transform into $(l:ichigo/riders/dark_ichigo)Dark Ichigo"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:ichigo/typhoon_dark_ichigo"
+		}
+	]
 }

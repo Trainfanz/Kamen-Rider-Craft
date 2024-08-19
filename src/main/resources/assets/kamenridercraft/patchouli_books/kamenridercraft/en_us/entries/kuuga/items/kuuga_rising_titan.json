@@ -1,16 +1,16 @@
 {
-    "name": "Kuuga Rising Titan Amadam",
-    "icon": "kamenridercraft:kuuga_rising_titan",
-    "category": "kamenridercraft:kuuga/items",
-    "sortnum": 9,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Used to access Kuuga's $(l:kuuga/riders/kuuga#rising_titan)Rising Titan Form$(/l)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:kuuga/kuuga_rising_titan"
-        }
-    ]
+	"name": "Kuuga Rising Titan Amadam",
+	"icon": "kamenridercraft:kuuga_rising_titan",
+	"category": "kamenridercraft:kuuga/items",
+	"sortnum": 9,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Used to access Kuuga's $(l:kuuga/riders/kuuga#rising_titan)Rising Titan Form$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kuuga/kuuga_rising_titan"
+		}
+	]
 }

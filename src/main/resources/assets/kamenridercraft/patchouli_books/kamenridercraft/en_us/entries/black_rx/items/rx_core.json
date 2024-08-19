@@ -1,19 +1,19 @@
 {
-    "name": "Black RX Core",
-    "icon": "kamenridercraft:rx_core",
-    "category": "kamenridercraft:black_rx/items",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Black RX (1988, TV show)$(br2)Used to access Black RX's $(l:black_rx/riders/black_rx#black_rx)base$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:rx_core",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:black_rx/mobs/grey_chap)Grey Chap$(/l)"
-        }
-    ]
+	"name": "Black RX Core",
+	"icon": "kamenridercraft:rx_core",
+	"category": "kamenridercraft:black_rx/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Black RX (1988, TV show)$(br2)Used to access Black RX's $(l:black_rx/riders/black_rx#black_rx)base$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:rx_core",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:black_rx/mobs/grey_chap)Grey Chap$(/l)"
+		}
+	]
 }

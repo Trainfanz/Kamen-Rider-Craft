@@ -1,19 +1,19 @@
 {
-    "name": "Axel Ray Gun",
-    "icon": "kamenridercraft:axel_ray_gun",
-    "category": "kamenridercraft:faiz/arsenal",
-    "sortnum": 9,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Used by $(l:faiz/mobs/riotrooper)Riotroopers$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:axel_ray_gun",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:faiz/mobs/riotrooper)Riotroopers$(/l)"
-        }
-    ]
+	"name": "Axel Ray Gun",
+	"icon": "kamenridercraft:axel_ray_gun",
+	"category": "kamenridercraft:faiz/arsenal",
+	"sortnum": 9,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider 555 (2003, TV show)$(br2)Used by $(l:faiz/mobs/riotrooper)Riotroopers$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:axel_ray_gun",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:faiz/mobs/riotrooper)Riotroopers$(/l)"
+		}
+	]
 }

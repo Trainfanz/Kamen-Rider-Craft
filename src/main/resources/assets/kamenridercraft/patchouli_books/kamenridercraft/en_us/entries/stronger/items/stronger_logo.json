@@ -1,12 +1,12 @@
 {
-    "name": "Stronger Logo",
-    "icon": "kamenridercraft:stronger_logo",
-    "category": "kamenridercraft:stronger/items",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:stronger/stronger_logo"
-        }
-    ]
+	"name": "Stronger Logo",
+	"icon": "kamenridercraft:stronger_logo",
+	"category": "kamenridercraft:stronger/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:stronger/stronger_logo"
+		}
+	]
 }

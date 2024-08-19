@@ -1,0 +1,19 @@
+{
+	"name": "Henshin Onsa Onkaku",
+	"icon": "kamenridercraft:henshin_onsa",
+	"category": "kamenridercraft:hibiki/items",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Used to craft Hibiki's $(l:hibiki/devices/hibikidriver)Ongekiko Kaentsuzumi$(/l)$(br2)Used to access Hibiki's $(l:hibiki/riders/hibiki#hibiki)base$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:henshin_onsa",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_hibiki)Oni Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_hibiki)Deepslate Oni Ore$(/l)"
+		}
+	]
+}

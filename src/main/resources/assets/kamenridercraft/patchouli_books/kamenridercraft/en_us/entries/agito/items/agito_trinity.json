@@ -1,16 +1,16 @@
 {
-    "name": "Agito Trinity Philosopher's Stone",
-    "icon": "kamenridercraft:agito_trinity",
-    "category": "kamenridercraft:agito/items",
-    "sortnum": 5,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used to craft Agito's $(l:agito/devices/alter_ring_reiko)Altering (Reiko Takano)$(/l)$(br2)Used to access Agito's $(l:agito/riders/agito#trinity)Trinity Form$(/l)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:agito/agito_trinity"
-        }
-    ]
+	"name": "Agito Trinity Philosopher's Stone",
+	"icon": "kamenridercraft:agito_trinity",
+	"category": "kamenridercraft:agito/items",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used to craft Agito's $(l:agito/devices/alter_ring_reiko)Altering (Reiko Takano)$(/l)$(br2)Used to access Agito's $(l:agito/riders/agito#trinity)Trinity Form$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:agito/agito_trinity"
+		}
+	]
 }

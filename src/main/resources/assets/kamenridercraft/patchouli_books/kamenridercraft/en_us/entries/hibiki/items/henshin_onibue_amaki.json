@@ -1,0 +1,19 @@
+{
+	"name": "Henshin Onibue (Amaki)",
+	"icon": "kamenridercraft:henshin_onibue_amaki",
+	"category": "kamenridercraft:hibiki/items",
+	"sortnum": 18,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to craft Amaki's $(l:hibiki/devices/amakidriver)Ongekimei (Amaki)$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:henshin_onibue_amaki",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_hibiki)Oni Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_hibiki)Deepslate Oni Ore$(/l)"
+		}
+	]
+}

@@ -1,19 +1,19 @@
 {
-    "name": "Change Spider Rouze Card",
-    "icon": "kamenridercraft:change_spider",
-    "category": "kamenridercraft:blade/items",
-    "sortnum": 14,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used to craft Leangle's $(l:blade/devices/leangle_buckle)Leangle Buckle$(/l)$(br2)Used to access Leangle's $(l:blade/riders/leangle#leangle)base$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:change_spider",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
-        }
-    ]
+	"name": "Change Spider Rouze Card",
+	"icon": "kamenridercraft:change_spider",
+	"category": "kamenridercraft:blade/items",
+	"sortnum": 14,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Blade (2004, TV show)$(br2)Used to craft Leangle's $(l:blade/devices/leangle_buckle)Leangle Buckle$(/l)$(br2)Used to access Leangle's $(l:blade/riders/leangle#leangle)base$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:change_spider",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
+		}
+	]
 }

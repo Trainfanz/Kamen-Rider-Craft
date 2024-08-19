@@ -1,0 +1,19 @@
+{
+	"name": "Henshin Onsa (Kyoki)",
+	"icon": "kamenridercraft:henshin_onsa_kyoki",
+	"category": "kamenridercraft:hibiki/items",
+	"sortnum": 9,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Used to craft Kyoki's $(l:hibiki/devices/kyosukedriver)Ongekiko (Kyoki)$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:henshin_onsa_kyoki",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_hibiki)Oni Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_hibiki)Deepslate Oni Ore$(/l)"
+		}
+	]
+}

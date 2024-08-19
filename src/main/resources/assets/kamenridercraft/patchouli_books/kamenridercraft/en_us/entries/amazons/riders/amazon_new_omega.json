@@ -1,18 +1,18 @@
 {
-    "name": "Kamen Rider Amazon New Omega",
-    "icon": "kamenridercraft:amazon_injector_new_omega",
-    "category": "kamenridercraft:amazons/riders",
-    "sortnum": 4,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:neo_amazons_driver_omega\",Count:1b},{id:\"kamenridercraft:amazonslegs\",Count:1b},{id:\"kamenridercraft:amazonstroso\",Count:1b},{id:\"kamenridercraft:amazonshead\",Count:1b}]}",
-            "name": " "
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Amazon New Omega",
+	"icon": "kamenridercraft:amazon_injector_new_omega",
+	"category": "kamenridercraft:amazons/riders",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:neo_amazons_driver_omega\",Count:1b},{id:\"kamenridercraft:amazonslegs\",Count:1b},{id:\"kamenridercraft:amazonstroso\",Count:1b},{id:\"kamenridercraft:amazonshead\",Count:1b}]}",
+			"name": " "
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Amazon New Omega",
-            "text": "Appears in:$(li)Kamen Rider Amazons Season 2 (2017, web series)$(br2)Transforms with the $(l:amazons/devices/neo_amazons_driver_omega)Neo Amazons Driver (New Omega)$(/l)$(br2)Status Effects:$(li)Punch VIII$(li)Speed II$(li)Resistance II$(li)Regeneration III$(li)Jump Boost$(li)Strength XI (with empty hand)"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider Amazons Season 2 (2017, web series)$(br2)Transforms with the $(l:amazons/devices/neo_amazons_driver_omega)Neo Amazons Driver (New Omega)$(/l)$(br2)Status Effects:$(li)Punch VIII$(li)Speed II$(li)Resistance II$(li)Regeneration III$(li)Jump Boost$(li)Strength XI (with empty hand)"
+		}
+	]
 }

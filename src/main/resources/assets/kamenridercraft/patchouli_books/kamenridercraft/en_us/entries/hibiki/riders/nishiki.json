@@ -1,0 +1,19 @@
+{
+	"name": "Kamen Rider Nishiki",
+	"icon": "kamenridercraft:henshin_onsa_nishiki",
+	"category": "kamenridercraft:hibiki/riders",
+	"sortnum": 17,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:nishikidriver\",Count:1b},{id:\"kamenridercraft:hibikilegs\",Count:1b},{id:\"kamenridercraft:hibikitroso\",Count:1b},{id:\"kamenridercraft:hibikihead\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Nishiki",
+			"text": "Appears in:$(li)Kamen Rider Hibiki And The 7 Senki (2005, movie)$(br2)Transforms with the $(l:hibiki/devices/nishikidriver)Ongekiko (Nishiki)$(/l)$(br2)Status Effects:$(li)Speed$(li)Resistance II$(li)Water Breathing$(li)Haste IV$(li)Fire Resistance$(li)Strength"
+		}
+	]
+}

@@ -1,19 +1,19 @@
 {
-    "name": "Darkvisorzwei",
-    "icon": "kamenridercraft:dark_visor_zwei",
-    "category": "kamenridercraft:ryuki/arsenal",
-    "sortnum": 11,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by Knight's $(l:ryuki/riders/knight#survive)Survive$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:dark_visor_zwei",
-            "title": " ",
-            "text": "Obtained through the $(l:ryuki/items/dark_visor_zwei_vent)Darkvisorzwei Guard Vent Card$(/l)"
-        }
-    ]
+	"name": "Darkvisorzwei",
+	"icon": "kamenridercraft:dark_visor_zwei",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 11,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by Knight's $(l:ryuki/riders/knight#survive)Survive Form$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:dark_visor_zwei",
+			"title": " ",
+			"text": "Obtained through the $(l:ryuki/items/dark_visor_zwei_vent)Darkvisorzwei Guard Vent Card$(/l)"
+		}
+	]
 }

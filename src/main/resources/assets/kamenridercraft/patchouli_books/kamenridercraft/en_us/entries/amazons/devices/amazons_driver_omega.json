@@ -1,16 +1,16 @@
 {
-    "name": "Amazons Driver (Omega)",
-    "icon": "kamenridercraft:amazons_driver_omega",
-    "category": "kamenridercraft:amazons/devices",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Amazons Season 1 (2016, web series)$(br2)Used alongside the $(l:amazons/devices/armor)Amazons armor$(/l) to transform into $(l:amazons/riders/amazon_omega)Kamen Rider Amazon Omega"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:amazons/amazons_driver_omega"
-        }
-    ]
+	"name": "Amazons Driver (Omega)",
+	"icon": "kamenridercraft:amazons_driver_omega",
+	"category": "kamenridercraft:amazons/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Amazons Season 1 (2016, web series)$(br2)Used alongside the $(l:amazons/devices/armor)Amazons armor$(/l) to transform into $(l:amazons/riders/amazon_omega)Kamen Rider Amazon Omega"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:amazons/amazons_driver_omega"
+		}
+	]
 }

@@ -1,19 +1,19 @@
 {
-    "name": "Another Agito Burning Philosopher's Stone",
-    "icon": "kamenridercraft:another_agito_burning_form",
-    "category": "kamenridercraft:agito/items",
-    "sortnum": 14,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)The Man that has Become a Kamen Rider (2012, S.I.C. Hero Saga)$(br2)Used to access Another Agito's $(l:agito/riders/another_agito_kouji_majima#burning)Burning Form$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:another_agito_burning_form",
-            "title": " ",
-            "text": "Item is currently unobtainable"
-        }
-    ]
+	"name": "Another Agito Burning Philosopher's Stone",
+	"icon": "kamenridercraft:another_agito_burning_form",
+	"category": "kamenridercraft:agito/items",
+	"sortnum": 14,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)The Man that has Become a Kamen Rider (2012, S.I.C. Hero Saga)$(br2)Used to access Another Agito's $(l:agito/riders/another_agito_kouji_majima#burning)Burning Form$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:another_agito_burning_form",
+			"title": " ",
+			"text": "Item is currently unobtainable"
+		}
+	]
 }

@@ -1,0 +1,19 @@
+{
+	"name": "Henshin Onibue Onteki",
+	"icon": "kamenridercraft:henshin_onibue_ibuki",
+	"category": "kamenridercraft:hibiki/items",
+	"sortnum": 15,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Used to craft Ibuki's $(l:hibiki/devices/ibukidriver)Ongekimei Narukaze$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:henshin_onibue_ibuki",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_hibiki)Oni Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_hibiki)Deepslate Oni Ore$(/l)"
+		}
+	]
+}

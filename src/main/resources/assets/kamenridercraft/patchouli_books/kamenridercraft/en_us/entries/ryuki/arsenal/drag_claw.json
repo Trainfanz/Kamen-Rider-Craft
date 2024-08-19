@@ -1,19 +1,19 @@
 {
-    "name": "Dragclaw",
-    "icon": "kamenridercraft:drag_claw",
-    "category": "kamenridercraft:ryuki/arsenal",
-    "sortnum": 4,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by $(l:ryuki/riders/ryuki#ryuki)Kamen Rider Ryuki$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:drag_claw",
-            "title": " ",
-            "text": "Obtained through the $(l:ryuki/items/drag_claw_vent)Dragclaw Strike Vent Card$(/l)"
-        }
-    ]
+	"name": "Dragclaw",
+	"icon": "kamenridercraft:drag_claw",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by $(l:ryuki/riders/ryuki#ryuki)Kamen Rider Ryuki$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:drag_claw",
+			"title": " ",
+			"text": "Obtained through the $(l:ryuki/items/drag_claw_vent)Dragclaw Strike Vent Card$(/l)"
+		}
+	]
 }

@@ -15,14 +15,6 @@
 		{
 		  "type": "minecraft:item",
 		  "name": "kamenridercraft:delta_mission_memory"
-		},
-		{
-		  "type": "minecraft:item",
-		  "name": "kamenridercraft:axel_ray_gun"
-		},
-		{
-		  "type": "minecraft:item",
-		  "name": "kamenridercraft:smartbuckle"
 		}
 	  ]
 	},

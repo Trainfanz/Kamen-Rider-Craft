@@ -1,16 +1,16 @@
 {
-    "name": "Arcle",
-    "icon": "kamenridercraft:arcle",
-    "category": "kamenridercraft:kuuga/devices",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Used alongside the $(l:kuuga/devices/armor)Kuuga armor$(/l) to transform into $(l:kuuga/riders/kuuga#mighty)Kamen Rider Kuuga"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:kuuga/kuuga_arcle"
-        }
-    ]
+	"name": "Arcle",
+	"icon": "kamenridercraft:arcle",
+	"category": "kamenridercraft:kuuga/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kuuga (2000, TV show)$(br2)Used alongside the $(l:kuuga/devices/armor)Kuuga armor$(/l) to transform into $(l:kuuga/riders/kuuga#mighty)Kamen Rider Kuuga"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kuuga/kuuga_arcle"
+		}
+	]
 }

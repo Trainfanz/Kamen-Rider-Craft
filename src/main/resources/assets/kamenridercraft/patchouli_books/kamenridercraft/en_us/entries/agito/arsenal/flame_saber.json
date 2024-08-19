@@ -1,16 +1,16 @@
 {
-    "name": "Flame Saber",
-    "icon": "kamenridercraft:flame_saber",
-    "category": "kamenridercraft:agito/arsenal",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used by Agito's $(l:agito/riders/agito#flame)Flame$(/l) and $(l:agito/riders/agito#trinity)Trinity$(/l) forms"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:agito/flame_saber"
-        }
-    ]
+	"name": "Flame Saber",
+	"icon": "kamenridercraft:flame_saber",
+	"category": "kamenridercraft:agito/arsenal",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used by Agito's $(l:agito/riders/agito#flame)Flame$(/l) and $(l:agito/riders/agito#trinity)Trinity$(/l) forms"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:agito/flame_saber"
+		}
+	]
 }

@@ -1,19 +1,19 @@
 {
-    "name": "Faiz Gold Blaster Mission Memory",
-    "icon": "kamenridercraft:faiz_gold_blaster_mission_memory",
-    "category": "kamenridercraft:faiz/items",
-    "sortnum": 5,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Rider Hero Series (2003, toyline)$(br2)Used to access Faiz's $(l:faiz/riders/faiz#gold_blaster)Blaster Form (Gold Version)$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:faiz_gold_blaster_mission_memory",
-            "title": " ",
-            "text": "Item is currently unobtainable"
-        }
-    ]
+	"name": "Faiz Gold Blaster Mission Memory",
+	"icon": "kamenridercraft:faiz_gold_blaster_mission_memory",
+	"category": "kamenridercraft:faiz/items",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Rider Hero Series (2003, toyline)$(br2)Used to access Faiz's $(l:faiz/riders/faiz#gold_blaster)Blaster Form (Gold Version)$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:faiz_gold_blaster_mission_memory",
+			"title": " ",
+			"text": "Item is currently unobtainable"
+		}
+	]
 }

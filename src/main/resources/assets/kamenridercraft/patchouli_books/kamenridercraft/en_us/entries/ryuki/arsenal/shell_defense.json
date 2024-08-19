@@ -1,19 +1,19 @@
 {
-    "name": "Shelldefense",
-    "icon": "kamenridercraft:shell_defense",
-    "category": "kamenridercraft:ryuki/arsenal",
-    "sortnum": 15,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by $(l:ryuki/riders/scissors)Kamen Rider Scissors$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:shell_defense",
-            "title": " ",
-            "text": "Obtained through the $(l:ryuki/items/shell_defense_vent)Shelldefense Guard Vent Card$(/l)"
-        }
-    ]
+	"name": "Shelldefense",
+	"icon": "kamenridercraft:shell_defense",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 15,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by $(l:ryuki/riders/scissors)Kamen Rider Scissors$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:shell_defense",
+			"title": " ",
+			"text": "Obtained through the $(l:ryuki/items/shell_defense_vent)Shelldefense Guard Vent Card$(/l)"
+		}
+	]
 }

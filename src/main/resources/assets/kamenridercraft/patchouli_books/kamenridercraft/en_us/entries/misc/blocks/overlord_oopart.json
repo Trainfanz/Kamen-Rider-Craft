@@ -1,14 +1,14 @@
 {
-    "name": "Overlord OOPArt Block",
-    "icon": "kamenridercraft:overlord_oopart",
-    "category": "kamenridercraft:misc/blocks",
-    "sortnum": 33,
-    "pages": [
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:overlord_oopart",
-            "text": "Found inside an $(l:agito/structures/overlord_oopart)Overlord's Out-of-place Artifact$(/l)"
-        }
-    ]
+	"name": "Overlord OOPArt Block",
+	"icon": "kamenridercraft:overlord_oopart",
+	"category": "kamenridercraft:misc/blocks",
+	"sortnum": 33,
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:overlord_oopart",
+			"text": "Found inside an $(l:agito/structures/overlord_oopart)Overlord's Out-of-place Artifact$(/l)"
+		}
+	]
 }

@@ -1,19 +1,19 @@
 {
-    "name": "Perfecter",
-    "icon": "kamenridercraft:perfecter",
-    "category": "kamenridercraft:x/items",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider X (1974, TV show)$(br)$(li)Used to access Riderman's $(l:v3/riders/riderman#perfecter)Perfecter$(/l) form$(li)Used to access Tackle's $(l:stronger/riders/tackle#perfecter)Perfecter$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:perfecter",
-            "title": " ",
-            "text": "Traded by a novice Shocker Villager"
-        }
-    ]
+	"name": "Perfecter",
+	"icon": "kamenridercraft:perfecter",
+	"category": "kamenridercraft:x/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider X (1974, TV show)$(br)$(li)Used to access Riderman's $(l:v3/riders/riderman#perfecter)Perfecter$(/l) form$(li)Used to access Tackle's $(l:stronger/riders/tackle#perfecter)Perfecter$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:perfecter",
+			"title": " ",
+			"text": "Traded by a novice Shocker Villager"
+		}
+	]
 }

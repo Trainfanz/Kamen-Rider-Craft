@@ -1,19 +1,19 @@
 {
-    "name": "Gills Philosopher's Stone",
-    "icon": "kamenridercraft:gills",
-    "category": "kamenridercraft:agito/items",
-    "sortnum": 8,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used to craft Gills's $(l:agito/devices/meta_factor)Meta Factor$(/l)$(br2)Used to access Gills's $(l:agito/riders/gills#gills)base$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:gills",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:agito/mobs/anguis_masculus)Anguis Masculus$(/l)"
-        }
-    ]
+	"name": "Gills Philosopher's Stone",
+	"icon": "kamenridercraft:gills",
+	"category": "kamenridercraft:agito/items",
+	"sortnum": 8,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito (2001, TV show)$(br2)Used to craft Gills's $(l:agito/devices/meta_factor)Meta Factor$(/l)$(br2)Used to access Gills's $(l:agito/riders/gills#gills)base$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:gills",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:agito/mobs/anguis_masculus)Anguis Masculus$(/l)"
+		}
+	]
 }

@@ -1,12 +1,12 @@
 {
-    "name": "Kabuto Logo",
-    "icon": "kamenridercraft:kabuto_logo",
-    "category": "kamenridercraft:kabuto/items",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:kabuto/kabuto_logo"
-        }
-    ]
+	"name": "Kabuto Logo",
+	"icon": "kamenridercraft:kabuto_logo",
+	"category": "kamenridercraft:kabuto/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kabuto/kabuto_logo"
+		}
+	]
 }

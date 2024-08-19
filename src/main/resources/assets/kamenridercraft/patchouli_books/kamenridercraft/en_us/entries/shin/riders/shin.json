@@ -1,19 +1,19 @@
 {
-    "name": "Kamen Rider Shin",
-    "icon": "kamenridercraft:grasshopper_dna",
-    "category": "kamenridercraft:shin/riders",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:grasshopper_dna\",Count:1b},{id:\"kamenridercraft:shinlegs\",Count:1b},{id:\"kamenridercraft:shintroso\",Count:1b},{id:\"kamenridercraft:shinhead\",Count:1b}]}",
-            "name": " ",
-            "text": ""
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Shin",
+	"icon": "kamenridercraft:grasshopper_dna",
+	"category": "kamenridercraft:shin/riders",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:grasshopper_dna\",Count:1b},{id:\"kamenridercraft:shinlegs\",Count:1b},{id:\"kamenridercraft:shintroso\",Count:1b},{id:\"kamenridercraft:shinhead\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Shin",
-            "text": "Appears in:$(li)Shin Kamen Rider: Prologue (1992, movie)$(br2)Transforms with the $(l:shin/devices/grasshopper_dna)Grasshopper DNA$(/l)$(br2)Status Effects:$(li)Punch II$(li)Haste$(li)Jump Boost II$(li)Strength V (with empty hand)$(li)Strength II (with weapon)"
-        }
-    ]
+			"text": "Appears in:$(li)Shin Kamen Rider: Prologue (1992, movie)$(br2)Transforms with the $(l:shin/devices/grasshopper_dna)Grasshopper DNA$(/l)$(br2)Status Effects:$(li)Punch II$(li)Haste$(li)Jump Boost II$(li)Strength V (with empty hand)$(li)Strength II (with weapon)"
+		}
+	]
 }

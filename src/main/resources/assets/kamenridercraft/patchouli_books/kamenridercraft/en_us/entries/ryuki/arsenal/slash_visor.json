@@ -1,16 +1,16 @@
 {
-    "name": "Slashvisor",
-    "icon": "kamenridercraft:slash_visor",
-    "category": "kamenridercraft:ryuki/arsenal",
-    "sortnum": 45,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by $(l:ryuki/riders/alternative)Alternative$(/l) and $(l:ryuki/riders/alternative_zero)Alternative Zero$(/l)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:ryuki/slash_visor"
-        }
-    ]
+	"name": "Slashvisor",
+	"icon": "kamenridercraft:slash_visor",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 45,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by $(l:ryuki/riders/alternative)Alternative$(/l) and $(l:ryuki/riders/alternative_zero)Alternative Zero$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:ryuki/slash_visor"
+		}
+	]
 }

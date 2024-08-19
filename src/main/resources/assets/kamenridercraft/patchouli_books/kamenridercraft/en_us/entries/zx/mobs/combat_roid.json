@@ -1,17 +1,17 @@
 {
-    "name": "Combat-Roid",
-    "icon": "kamenridercraft:zx_logo",
-    "category": "kamenridercraft:zx/mobs",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:combat_roid",
-            "text": "Spawn locations: Plains, Forest, Taiga, Swamp, Frozen Ocean, Beach, Desert, Windswept Hills, Birch Forest, Dark Forest, Snowy Taiga, Savanna, Badlands"
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Birth of the 10th! Kamen Riders All Together!! (1984, TV special)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)0-1 $(l:misc/items/rider_circuit)Rider Circuit$(/l) (50%)$(li)0-1 $(l:zx/items/zx_belt_core)ZX Belt Core$(/l) (50%)"
-        }
-    ]
+	"name": "Combat-Roid",
+	"icon": "kamenridercraft:zx_logo",
+	"category": "kamenridercraft:zx/mobs",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:combat_roid",
+			"text": "Spawn locations: Plains, Forest, Taiga, Swamp, Frozen Ocean, Beach, Desert, Windswept Hills, Birch Forest, Dark Forest, Snowy Taiga, Savanna, Badlands"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Birth of the 10th! Kamen Riders All Together!! (1984, TV special)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:misc/items/rider_circuit)Rider Circuits$(/l)$(li)0-1 $(l:misc/items/rider_circuit)Rider Circuit$(/l) (50%)$(li)0-1 $(l:zx/items/zx_belt_core)ZX Belt Core$(/l) (50%)"
+		}
+	]
 }

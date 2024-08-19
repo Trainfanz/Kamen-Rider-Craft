@@ -1,16 +1,16 @@
 {
-    "name": "Amazon Injector (New Omega)",
-    "icon": "kamenridercraft:amazon_injector_new_omega",
-    "category": "kamenridercraft:amazons/items",
-    "sortnum": 10,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Amazons Season 2 (2017, web series)$(br2)Used to craft Amazon New Omega's $(l:amazons/devices/neo_amazons_driver_omega)Neo Amazons Driver$(/l)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:amazons/amazon_injector_new_omega"
-        }
-    ]
+	"name": "Amazon Injector (New Omega)",
+	"icon": "kamenridercraft:amazon_injector_new_omega",
+	"category": "kamenridercraft:amazons/items",
+	"sortnum": 10,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Amazons Season 2 (2017, web series)$(br2)Used to craft Amazon New Omega's $(l:amazons/devices/neo_amazons_driver_omega)Neo Amazons Driver$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:amazons/amazon_injector_new_omega"
+		}
+	]
 }

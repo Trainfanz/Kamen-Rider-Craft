@@ -1,19 +1,19 @@
 {
-    "name": "Typhoon Core",
-    "icon": "kamenridercraft:typhoon_core",
-    "category": "kamenridercraft:ichigo/items",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Used to craft Ichigo's $(l:ichigo/devices/typhoon_ichigo)Typhoon$(/l)$(br2)Used to access Ichigo's $(l:ichigo/riders/ichigo#new_ichigo)New Ichigo$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:typhoon_core",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:ichigo/mobs/shocker_combatman)Shocker Combatman$(/l)"
-        }
-    ]
+	"name": "Typhoon Core",
+	"icon": "kamenridercraft:typhoon_core",
+	"category": "kamenridercraft:ichigo/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider (1971, TV show)$(br2)Used to craft Ichigo's $(l:ichigo/devices/typhoon_ichigo)Typhoon$(/l)$(br2)Used to access Ichigo's $(l:ichigo/riders/ichigo#new_ichigo)New Ichigo$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:typhoon_core",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:ichigo/mobs/shocker_combatman)Shocker Combatman$(/l)"
+		}
+	]
 }

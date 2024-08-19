@@ -1,0 +1,19 @@
+{
+	"name": "Henshin Kigen (Shuki)",
+	"icon": "kamenridercraft:henshin_kigen_shuki",
+	"category": "kamenridercraft:hibiki/items",
+	"sortnum": 22,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Hibiki (2005, TV show)$(br2)Used to craft Shuki's $(l:hibiki/devices/shukidriver)Ongekishin (Shuki)$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:henshin_kigen_shuki",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_hibiki)Oni Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_hibiki)Deepslate Oni Ore$(/l)"
+		}
+	]
+}

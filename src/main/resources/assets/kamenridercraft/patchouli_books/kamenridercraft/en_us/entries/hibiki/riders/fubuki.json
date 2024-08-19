@@ -1,0 +1,19 @@
+{
+	"name": "Kamen Rider Fubuki",
+	"icon": "kamenridercraft:henshin_onibue_fubuki",
+	"category": "kamenridercraft:hibiki/riders",
+	"sortnum": 19,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:fubukidriver\",Count:1b},{id:\"kamenridercraft:hibikilegs\",Count:1b},{id:\"kamenridercraft:hibikitroso\",Count:1b},{id:\"kamenridercraft:hibikihead\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Fubuki",
+			"text": "Appears in:$(li)Super Imaginative Chogokin (2005, toyline)$(br2)Transforms with the $(l:hibiki/devices/fubukidriver)Ongekimei (Fubuki)$(/l)$(br2)Status Effects:$(li)Speed III$(li)Resistance$(li)Night Vision$(li)Haste$(li)Fire Resistance$(li)Strength II"
+		}
+	]
+}

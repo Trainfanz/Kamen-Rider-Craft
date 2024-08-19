@@ -1,16 +1,16 @@
 {
-    "name": "Sunriser",
-    "icon": "kamenridercraft:sun_riser",
-    "category": "kamenridercraft:black_rx/devices",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Black RX (1988, TV show)$(br2)Used alongside the $(l:black_rx/devices/armor)Black armor$(/l) to transform into $(l:black_rx/riders/black_rx)Kamen Rider Black RX"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:rx/sun_riser"
-        }
-    ]
+	"name": "Sunriser",
+	"icon": "kamenridercraft:sun_riser",
+	"category": "kamenridercraft:black_rx/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Black RX (1988, TV show)$(br2)Used alongside the $(l:black_rx/devices/armor)Black armor$(/l) to transform into $(l:black_rx/riders/black_rx)Kamen Rider Black RX"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:rx/sun_riser"
+		}
+	]
 }

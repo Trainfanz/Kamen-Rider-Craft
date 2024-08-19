@@ -1,19 +1,19 @@
 {
-    "name": "Electrer Core",
-    "icon": "kamenridercraft:electrer_core",
-    "category": "kamenridercraft:stronger/items",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Stronger (1975, TV show)$(br2)Used to craft Stronger's $(l:stronger/devices/electrer)Electrer$(/l)$(br2)Used to access Stronger's $(l:stronger/riders/stronger#stronger)base$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:electrer_core",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:stronger/mobs/black_satan_soldier)Black Satan Soldier$(/l)"
-        }
-    ]
+	"name": "Electrer Core",
+	"icon": "kamenridercraft:electrer_core",
+	"category": "kamenridercraft:stronger/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Stronger (1975, TV show)$(br2)Used to craft Stronger's $(l:stronger/devices/electrer)Electrer$(/l)$(br2)Used to access Stronger's $(l:stronger/riders/stronger#stronger)base$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:electrer_core",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:stronger/mobs/black_satan_soldier)Black Satan Soldier$(/l)"
+		}
+	]
 }

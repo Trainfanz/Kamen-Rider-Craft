@@ -1,16 +1,16 @@
 {
-    "name": "Altering (Reiko Takano)",
-    "icon": "kamenridercraft:alter_ring_reiko",
-    "category": "kamenridercraft:agito/devices",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Kuuga (2015, manga)$(br2)Used alongside the $(l:agito/devices/armor)Agito armor$(/l) to transform into $(l:agito/riders/agito_reiko)Kamen Rider Agito (Reiko Takano)"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:agito/alter_ring_reiko"
-        }
-    ]
+	"name": "Altering (Reiko Takano)",
+	"icon": "kamenridercraft:alter_ring_reiko",
+	"category": "kamenridercraft:agito/devices",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kuuga (2015, manga)$(br2)Used alongside the $(l:agito/devices/armor)Agito armor$(/l) to transform into $(l:agito/riders/agito_reiko)Kamen Rider Agito (Reiko Takano)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:agito/alter_ring_reiko"
+		}
+	]
 }

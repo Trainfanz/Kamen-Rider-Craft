@@ -1,19 +1,19 @@
 {
-    "name": "Typhoon Core (Yongo)",
-    "icon": "kamenridercraft:typhoon_core_yongo",
-    "category": "kamenridercraft:ichigo/items",
-    "sortnum": 9,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)D-Video Special: Kamen Rider 4 (2015, web series)$(br2)Used to craft Yongo's $(l:ichigo/devices/typhoon_yongo)Typhoon$(/l)"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:typhoon_core_yongo",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:ichigo/mobs/shocker_rider)Shocker Rider$(/l)"
-        }
-    ]
+	"name": "Typhoon Core (Yongo)",
+	"icon": "kamenridercraft:typhoon_core_yongo",
+	"category": "kamenridercraft:ichigo/items",
+	"sortnum": 9,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)D-Video Special: Kamen Rider 4 (2015, web series)$(br2)Used to craft Yongo's $(l:ichigo/devices/typhoon_yongo)Typhoon$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:typhoon_core_yongo",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:ichigo/mobs/shocker_rider)Shocker Rider$(/l)"
+		}
+	]
 }

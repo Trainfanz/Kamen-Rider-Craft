@@ -1,17 +1,17 @@
 {
-    "name": "ZECTrooper",
-    "icon": "kamenridercraft:kabuto_logo",
-    "category": "kamenridercraft:kabuto/mobs",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:zectrooper",
-            "text": "Spawns throughout the Nether"
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:kabuto/items/mini_zecter)Mizerbombers$(/l)$(li)1 $(l:kabuto/items/kabuto_zecter)Kabuto Zecter$(/l) (25%)$(li)0-1 $(l:kabuto/items/thebee_zecter)TheBee Zecter$(/l) (10%)$(li)0-1 $(l:kabuto/items/drake_zecter)Drake Zecter$(/l) (10%)$(li)0-1 $(l:kabuto/items/sasword_zecter)Sasword Zecter$(/l) (10%)"
-        }
-    ]
+	"name": "ZECTrooper",
+	"icon": "kamenridercraft:kabuto_logo",
+	"category": "kamenridercraft:kabuto/mobs",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:zectrooper",
+			"text": "Spawns throughout the Nether"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:kabuto/items/mini_zecter)Mizerbombers$(/l)$(li)1 $(l:kabuto/items/kabuto_zecter)Kabuto Zecter$(/l) (25%)$(li)0-1 $(l:kabuto/items/thebee_zecter)TheBee Zecter$(/l) (10%)$(li)0-1 $(l:kabuto/items/drake_zecter)Drake Zecter$(/l) (10%)$(li)0-1 $(l:kabuto/items/sasword_zecter)Sasword Zecter$(/l) (10%)"
+		}
+	]
 }

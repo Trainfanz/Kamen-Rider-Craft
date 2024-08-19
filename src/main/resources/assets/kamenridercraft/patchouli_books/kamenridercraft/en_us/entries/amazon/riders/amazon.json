@@ -1,18 +1,18 @@
 {
-    "name": "Kamen Rider Amazon",
-    "icon": "kamenridercraft:condorer_wheel",
-    "category": "kamenridercraft:amazon/riders",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:entity",
-            "entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:condorer\",Count:1b},{id:\"kamenridercraft:amazonlegs\",Count:1b},{id:\"kamenridercraft:amazontroso\",Count:1b},{id:\"kamenridercraft:amazonhead\",Count:1b}]}",
-            "name": " "
-        },
-        {
-            "type": "patchouli:text",
+	"name": "Kamen Rider Amazon",
+	"icon": "kamenridercraft:condorer_wheel",
+	"category": "kamenridercraft:amazon/riders",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:condorer\",Count:1b},{id:\"kamenridercraft:amazonlegs\",Count:1b},{id:\"kamenridercraft:amazontroso\",Count:1b},{id:\"kamenridercraft:amazonhead\",Count:1b}]}",
+			"name": " "
+		},
+		{
+			"type": "patchouli:text",
 			"title": "Kamen Rider Amazon",
-            "text": "Appears in:$(li)Kamen Rider Amazon (1974, TV show)$(br2)Transforms with the $(l:amazon/devices/condorer)Condorer$(/l)$(br2)Status Effects:$(li)Speed III$(li)Regeneration II$(li)Jump Boost III$(li)Strength II"
-        }
-    ]
+			"text": "Appears in:$(li)Kamen Rider Amazon (1974, TV show)$(br2)Transforms with the $(l:amazon/devices/condorer)Condorer$(/l)$(br2)Status Effects:$(li)Speed III$(li)Regeneration II$(li)Jump Boost III$(li)Strength II"
+		}
+	]
 }

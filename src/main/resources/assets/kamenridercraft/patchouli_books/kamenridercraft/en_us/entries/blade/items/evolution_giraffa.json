@@ -1,19 +1,19 @@
 {
-    "name": "Evolution Giraffa Rouze Card",
-    "icon": "kamenridercraft:evolution_giraffa",
-    "category": "kamenridercraft:blade/items",
-    "sortnum": 11,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Outsiders (2023, Web Series)$(br2)Used to access Garren's $(l:blade/riders/garren#king)King$(/l) form"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "link_recipe": true,
-            "item": "kamenridercraft:evolution_giraffa",
-            "title": " ",
-            "text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
-        }
-    ]
+	"name": "Evolution Giraffa Rouze Card",
+	"icon": "kamenridercraft:evolution_giraffa",
+	"category": "kamenridercraft:blade/items",
+	"sortnum": 11,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Outsiders (2022, web series)$(br2)Used to access Garren's $(l:blade/riders/garren#king)King$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:evolution_giraffa",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_blade)Blade Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_blade)Deepslate Blade Ore$(/l)"
+		}
+	]
 }

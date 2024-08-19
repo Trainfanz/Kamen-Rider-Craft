@@ -1,16 +1,16 @@
 {
-    "name": "G-Buckle (G3 Mild)",
-    "icon": "kamenridercraft:g3_mild_belt",
-    "category": "kamenridercraft:agito/devices",
-    "sortnum": 6,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Appears in:$(li)Kamen Rider Agito Special: A New Transformation (2001, TV special)$(br2)Used alongside the $(l:agito/devices/armor)Agito armor$(/l) to transform into $(l:agito/riders/g3_mild)Kamen Rider G3 Mild"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "kamenridercraft:agito/g3_mild_belt"
-        }
-    ]
+	"name": "G-Buckle (G3 Mild)",
+	"icon": "kamenridercraft:g3_mild_belt",
+	"category": "kamenridercraft:agito/devices",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Agito Special: A New Transformation (2001, TV special)$(br2)Used alongside the $(l:agito/devices/armor)Agito armor$(/l) to transform into $(l:agito/riders/g3_mild)Kamen Rider G3 Mild"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:agito/g3_mild_belt"
+		}
+	]
 }
