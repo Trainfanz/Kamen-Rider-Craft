@@ -1,0 +1,19 @@
+{
+	"name": "Zeronos Plat Card",
+	"icon": "kamenridercraft:zeronos_plat_card",
+	"category": "kamenridercraft:den_o/items",
+	"sortnum": 9,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Used to craft Zeronos's $(l:den_o/devices/zeronos_belt)Zeronos Belt$(/l)$(br2)Used to access Zeronos's $(l:den_o/riders/zeronos#plat)Plat$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:zeronos_plat_card",
+			"title": " ",
+			"text": "Found on $(l:den_o/structures/zeroliner)Zeroliners$(/l)"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"name": "Rider Ticket Gaoh",
+	"icon": "kamenridercraft:rider_ticket_gaoh",
+	"category": "kamenridercraft:den_o/items",
+	"sortnum": 16,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Den-O: I'm Born (2007, Movie)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:rider_ticket_gaoh",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:den_o/mobs/gaoh)Kamen Rider Gaoh$(/l)"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"name": "Rider Ticket Negataros",
+	"icon": "kamenridercraft:rider_ticket_nega",
+	"category": "kamenridercraft:den_o/items",
+	"sortnum": 13,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Den-O & Kiva: Climax Cop (2008, Movie)$(br2)Used to craft Nega Den-O's $(l:den_o/devices/nega_den_o_belt)Nega Den-O Belt$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:rider_ticket_nega",
+			"title": " ",
+			"text": "Found on $(li)$(l:den_o/structures/negaliner)Negaliners$(/l)"
+		}
+	]
+}

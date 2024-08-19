@@ -1,0 +1,19 @@
+{
+	"name": "Rider Ticket Ghost Imagin",
+	"icon": "kamenridercraft:rider_ticket_yuuki",
+	"category": "kamenridercraft:den_o/items",
+	"sortnum": 14,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Farewell Kamen Rider Den-O: Final Countdown (2008, Movie)$(br2)Used to craft Yuuki's $(l:den_o/devices/yuuki_belt)Yuuki Belt$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:rider_ticket_yuuki",
+			"title": " ",
+			"text": "Currently unknown"
+		}
+	]
+}

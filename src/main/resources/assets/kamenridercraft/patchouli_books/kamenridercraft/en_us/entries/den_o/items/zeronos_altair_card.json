@@ -1,0 +1,19 @@
+{
+	"name": "Zeronos Altair Card",
+	"icon": "kamenridercraft:zeronos_altair_card",
+	"category": "kamenridercraft:den_o/items",
+	"sortnum": 10,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Used to access Zeronos's $(l:den_o/riders/zeronos#altair)Altair$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:zeronos_altair_card",
+			"title": " ",
+			"text": "Found on $(li)$(l:den_o/structures/zeroliner)Zeroliners$(/l)"
+		}
+	]
+}

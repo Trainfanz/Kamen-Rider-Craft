@@ -1,0 +1,16 @@
+{
+	"name": "Zeronos Zero Card",
+	"icon": "kamenridercraft:zeronos_zero_card",
+	"category": "kamenridercraft:den_o/items",
+	"sortnum": 12,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Used to access Zeronos's $(l:den_o/riders/zeronos#zero)Zero$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den_o/zeronos_zero_card"
+		}
+	]
+}

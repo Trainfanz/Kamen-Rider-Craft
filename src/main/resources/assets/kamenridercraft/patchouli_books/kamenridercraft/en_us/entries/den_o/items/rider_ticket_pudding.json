@@ -1,0 +1,19 @@
+{
+	"name": "Rider Ticket Pudding",
+	"icon": "kamenridercraft:rider_ticket_pudding",
+	"category": "kamenridercraft:den_o/items",
+	"sortnum": 17,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)??? (2010, ???)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:rider_ticket_pudding",
+			"title": " ",
+			"text": "Currently unknown"
+		}
+	]
+}

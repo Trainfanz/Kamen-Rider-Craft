@@ -1,0 +1,19 @@
+{
+	"name": "Rider Ticket Eve",
+	"icon": "kamenridercraft:rider_ticket_g",
+	"category": "kamenridercraft:den_o/items",
+	"sortnum": 15,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Cho Den-O Trilogy: EPISODE YELLOW: Treasure DE-End Pirates (2010, Movie)$(br2)Used to craft G Den-O's $(l:den_o/devices/g_den_o_belt)G Den-O Belt$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:rider_ticket_g",
+			"title": " ",
+			"text": "Currently unknown"
+		}
+	]
+}

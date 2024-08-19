@@ -1,0 +1,19 @@
+{
+	"name": "Rider Ticket",
+	"icon": "kamenridercraft:rider_ticket",
+	"category": "kamenridercraft:den_o/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Used to craft Den-O's $(l:den_o/devices/den_o_belt)Den-O Belt$(/l)$(br2)Used to access Den-O's $(l:den_o/riders/den_o#plat)Plat$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:rider_ticket",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:den_o/mobs/new_mole_imagin)New Mole Imagin$(/l)$(li)$(l:den_o/mobs/new_mole_imagin_sand)New Mole Imagin (Sand)$(/l)$(li)$(l:den_o/mobs/gaoh)Kamen Rider Gaoh$(/l)"
+		}
+	]
+}

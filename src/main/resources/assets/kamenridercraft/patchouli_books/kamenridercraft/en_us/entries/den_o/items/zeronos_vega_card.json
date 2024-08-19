@@ -1,0 +1,19 @@
+{
+	"name": "Zeronos Vega Card",
+	"icon": "kamenridercraft:zeronos_vega_card",
+	"category": "kamenridercraft:den_o/items",
+	"sortnum": 11,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Used to access Zeronos's $(l:den_o/riders/zeronos#vega)Vega$(/l) form$(br2)Used to access New Den-O's $(l:den_o/riders/new_den_o#vega)Vega$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:zeronos_vega_card",
+			"title": " ",
+			"text": "Found on $(li)$(l:den_o/structures/zeroliner)Zeroliners$(/l)"
+		}
+	]
+}

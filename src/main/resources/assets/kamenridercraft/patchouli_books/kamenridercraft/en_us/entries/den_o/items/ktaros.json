@@ -1,0 +1,16 @@
+{
+	"name": "K-Taros",
+	"icon": "kamenridercraft:ktaros",
+	"category": "kamenridercraft:den_o/items",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Used to access Den-O's $(l:den_o/riders/den_o#climax)Climax$(/l) and $(l:den_o/riders/den_o#cho_climax)Cho Climax$(/l) forms"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den_o/ktaros"
+		}
+	]
+}
