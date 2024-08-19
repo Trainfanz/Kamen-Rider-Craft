@@ -1,5 +1,4 @@
 {
-  "_comment": "Generated using MiningMark48's JSON Generator.",
   "parent": "item/handheld",
   "textures": {
     "layer0": "kamenridercraft:item/zombie_breaker_poison_charge"
