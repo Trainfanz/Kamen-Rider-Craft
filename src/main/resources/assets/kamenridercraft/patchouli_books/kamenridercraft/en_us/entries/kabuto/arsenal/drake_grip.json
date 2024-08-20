@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used by Kamen Rider $(l:kabuto/riders/drake)Drake$(/l)"
+			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used by Kamen Rider $(l:kabuto/riders/drake)Drake$(/l)$(br2)Used to obtain Drake's $(l:kabuto/devices/drake_rider_belt)ZECT Buckle$(/l)"
 		},
 		{
 			"type": "patchouli:crafting",

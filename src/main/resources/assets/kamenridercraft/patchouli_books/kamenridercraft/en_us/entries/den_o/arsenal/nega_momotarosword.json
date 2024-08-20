@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider Battle: Ganbaride (2008, Arcade game)$(br2)Used by Negataros"
+			"text": "Appears in:$(li)Kamen Rider Battle: Ganbaride (2008, arcade game)$(br2)Used by Negataros"
 		},
 		{
 			"type": "patchouli:crafting",

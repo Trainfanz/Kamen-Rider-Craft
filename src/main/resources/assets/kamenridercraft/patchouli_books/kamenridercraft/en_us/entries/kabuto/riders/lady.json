@@ -13,7 +13,7 @@
 		{
 			"type": "patchouli:text",
 			"title": "Kamen Rider Lady",
-			"text": "Appears in:$(li)Kamen Rider Kabuto: Special Show (2006, Stage Show)$(br2)Transforms with the $(l:kabuto/devices/lady_rider_belt)ZECT Buckle (Lady)$(/l)$(br2)Status Effects:$(li)Speed IV$(li)Haste IV$(li)Strength II"
+			"text": "Appears in:$(li)Kamen Rider Kabuto: Special Show (2006, stage show)$(br2)Transforms with the $(l:kabuto/devices/lady_rider_belt)ZECT Buckle (Lady)$(/l)$(br2)Status Effects:$(li)Speed IV$(li)Haste IV$(li)Strength II"
 		}
 	]
 }

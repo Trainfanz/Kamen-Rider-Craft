@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used alongside the $(l:kabuto/devices/armor)Kabuto armor$(/l) to transform into a $(l:kabuto/riders/brightrooper)Brightrooper"
+			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used alongside the $(l:kabuto/devices/armor)Kabuto armor$(/l) to transform into a $(l:kabuto/riders/brightrooper)Brightrooper"
 		},
 		{
 			"type": "patchouli:spotlight",

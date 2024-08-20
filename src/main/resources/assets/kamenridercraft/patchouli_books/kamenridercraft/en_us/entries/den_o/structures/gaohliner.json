@@ -1,0 +1,21 @@
+{
+	"name": "GaohLiner",
+	"icon": "kamenridercraft:den_o_logo",
+	"category": "kamenridercraft:den_o/structures",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"title": "GaohLiner",
+			"text": "Appears in:$(li)Kamen Rider Den-O: I'm Born! (2007, movie)$(br2)Spawns throughout the Sands of Time$(br2)Includes a $(l:misc/blocks/gaoh_boss_block)Gaoh Boss Block$(/l)"
+		},
+		{
+			"type": "patchouli:image",
+			"border": true,
+			"images": [
+				"kamenridercraft:patchouli_books/kamenridercraft/images/gaohliner.png"
+			],
+			"title": " "
+		}
+	]
+}

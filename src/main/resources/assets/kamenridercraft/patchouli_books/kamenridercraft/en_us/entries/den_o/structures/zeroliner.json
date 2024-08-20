@@ -1,0 +1,21 @@
+{
+	"name": "ZeroLiner",
+	"icon": "kamenridercraft:den_o_logo",
+	"category": "kamenridercraft:den_o/structures",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"title": "ZeroLiner",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Spawns throughout the Sands of Time$(br2)Chest loot:$(li)1 $(l:den_o/items/zeronos_altair_card)Zeronos Altair Card$(/l)$(li)4-6 $(l:den_o/items/imagin_sand)Imagin Sand$(/l) (12%)$(li)3-7 $(l:den_o/items/zeronos_plat_card)Zeronos Plat Cards$(/l) (40%)$(li)1 $(l:den_o/items/zeronos_altair_card)Zeronos Altair Card$(/l) (24%)$(li)1 $(l:den_o/items/zeronos_vega_card)Zeronos Vega Card$(/l) (24%)"
+		},
+		{
+			"type": "patchouli:image",
+			"border": true,
+			"images": [
+				"kamenridercraft:patchouli_books/kamenridercraft/images/zeroliner.png"
+			],
+			"title": " "
+		}
+	]
+}

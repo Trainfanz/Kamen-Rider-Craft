@@ -1,7 +1,7 @@
 {
 	"parent": "kamenridercraft:faiz/main",
     "name": "555 Arsenal",
-    "description": "Every weapon used by the 555 Riders.",
+    "description": "Every weapon and tool used by the 555 Riders.",
     "icon": "kamenridercraft:faiz_edge",
     "sortnum": 3
 }

@@ -6,14 +6,27 @@
 	"pages": [
 		{
 			"type": "patchouli:entity",
+			"anchor": "rider",
 			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:ketaros_rider_belt\",Count:1b},{id:\"kamenridercraft:kabutolegs\",Count:1b},{id:\"kamenridercraft:kabutotroso\",Count:1b},{id:\"kamenridercraft:kabutohead\",Count:1b}]}",
-			"name": " ",
-			"text": ""
+			"name": "Rider Form",
+			"text": "Accessed with the $(l:kabuto/items/ketaros_zecter)Ketaros Zecter$(/l)"
 		},
 		{
 			"type": "patchouli:text",
 			"title": "Kamen Rider Ketaros",
-			"text": "Appears in:$(li)Kamen Rider Kabuto: God Speed Love (2006, Movie)$(br2)Transforms with the $(l:kabuto/devices/ketaros_rider_belt)ZECT Buckle (Ketaros)$(/l)$(br2)Status Effects:$(li)Speed IV$(li)Haste IV$(li)Strength II"
+			"text": "Appears in:$(li)Kamen Rider Kabuto: God Speed Love (2006, movie)$(br2)Transforms with the $(l:kabuto/devices/ketaros_rider_belt)ZECT Buckle (Ketaros)$(/l)$(br2)Status Effects:$(li)Speed IV$(li)Haste IV$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "masked",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:ketaros_rider_belt\",tag:{slot_tex1:\"ketaros_zecter_mask\"},Count:1b},{id:\"kamenridercraft:kabutolegs\",Count:1b},{id:\"kamenridercraft:kabutotroso\",Count:1b},{id:\"kamenridercraft:kabutohead\",Count:1b}]}",
+			"name": "Masked Form",
+			"text": "Accessed with the $(l:kabuto/items/ketaros_zecter)Ketaros Zecter$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Ketaros",
+			"text": "Appears in:$(li)Cast Off Rider (2006, toyline)$(br2)Transforms with the $(l:kabuto/devices/ketaros_rider_belt)ZECT Buckle (Ketaros)$(/l)$(br2)Status Effects:$(li)Slowness$(li)Resistance II"
 		}
 	]
 }

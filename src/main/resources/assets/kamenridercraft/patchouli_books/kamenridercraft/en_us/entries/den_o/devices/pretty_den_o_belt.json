@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider Den-O: Pretty Den-O Appears! (2020, Movie)$(br2)Used alongside the $(l:den_o/devices/armor)Den-O armor$(/l) to transform into $(l:den_o/riders/pretty_den_o)Kamen Rider Pretty Den-O"
+			"text": "Appears in:$(li)Kamen Rider Den-O: Pretty Den-O Appears! (2020, movie)$(br2)Used alongside the $(l:den_o/devices/armor)Den-O armor$(/l) to transform into $(l:den_o/riders/pretty_den_o)Kamen Rider Pretty Den-O"
 		},
 		{
 			"type": "patchouli:crafting",

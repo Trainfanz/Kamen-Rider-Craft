@@ -1,0 +1,21 @@
+{
+	"name": "DenLiner Ikazuchi",
+	"icon": "kamenridercraft:den_o_logo",
+	"category": "kamenridercraft:den_o/structures",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"title": "DenLiner Ikazuchi",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Spawns throughout the Sands of Time$(br2)Chance to find $(l:den_o/mobs/ryutaros)Ryutaros$(/l) inside$(br2)Chest loot:$(li)1 $(l:den_o/items/rider_ticket_gun)Rider Ticket Ryutaros$(/l)$(li)4-6 $(l:den_o/items/imagin_sand)Imagin Sand$(/l) (16%)$(li)3-7 $(l:den_o/items/rider_ticket)Rider Tickets$(/l) (53%)$(li)1 $(l:den_o/items/rider_ticket_gun)Rider Ticket Ryutaros$(/l) (31%)"
+		},
+		{
+			"type": "patchouli:image",
+			"border": true,
+			"images": [
+				"kamenridercraft:patchouli_books/kamenridercraft/images/denliner_ikazuchi.png"
+			],
+			"title": " "
+		}
+	]
+}

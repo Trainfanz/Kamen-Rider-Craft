@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider Den-O & Kiva: Climax Cop (2008, Movie)$(br2)Used alongside the $(l:den_o/devices/armor)Den-O armor$(/l) to transform into $(l:den_o/riders/nega_den_o)Kamen Rider Nega Den-O"
+			"text": "Appears in:$(li)Kamen Rider Den-O & Kiva: Climax Cop (2008, movie)$(br2)Used alongside the $(l:den_o/devices/armor)Den-O armor$(/l) to transform into $(l:den_o/riders/nega_den_o)Kamen Rider Nega Den-O"
 		},
 		{
 			"type": "patchouli:crafting",

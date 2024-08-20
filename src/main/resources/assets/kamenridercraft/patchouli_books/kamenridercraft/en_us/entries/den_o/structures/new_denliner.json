@@ -1,0 +1,21 @@
+{
+	"name": "New DenLiner",
+	"icon": "kamenridercraft:den_o_logo",
+	"category": "kamenridercraft:den_o/structures",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"title": "New DenLiner",
+			"text": "Appears in:$(li)Farewell Kamen Rider Den-O: Final Countdown (2008, movie)$(br2)Spawns throughout the Sands of Time$(br2)Chest loot:$(li)1 $(l:den_o/items/rider_ticket_strike)Rider Ticket Teddy$(/l)$(li)4-6 $(l:den_o/items/imagin_sand)Imagin Sand$(/l) (16%)$(li)3-7 $(l:den_o/items/rider_ticket)Rider Tickets$(/l) (53%)$(li)1 $(l:den_o/items/rider_ticket_strike)Rider Ticket Teddy$(/l) (31%)"
+		},
+		{
+			"type": "patchouli:image",
+			"border": true,
+			"images": [
+				"kamenridercraft:patchouli_books/kamenridercraft/images/new_denliner.png"
+			],
+			"title": " "
+		}
+	]
+}

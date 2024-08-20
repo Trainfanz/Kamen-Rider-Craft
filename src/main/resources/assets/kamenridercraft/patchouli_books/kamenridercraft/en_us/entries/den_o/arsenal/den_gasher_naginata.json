@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Cho Kamen Rider Den-O & Decade Neo Generations The Movie: The Onigashima Warship (2009, Movie)$(br2)Used by $(l:den_o/riders/new_den_o)Kamen Rider New Den-O$(/l)"
+			"text": "Appears in:$(li)Cho Kamen Rider Den-O & Decade Neo Generations The Movie: The Onigashima Warship (2009, movie)$(br2)Used by $(l:den_o/riders/new_den_o)Kamen Rider New Den-O$(/l)"
 		},
 		{
 			"type": "patchouli:crafting",

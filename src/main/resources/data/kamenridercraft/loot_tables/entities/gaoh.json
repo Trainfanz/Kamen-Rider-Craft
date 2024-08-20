@@ -54,51 +54,6 @@
 			"name": "kamenridercraft:master_pass"
 		  }
 		]
-	  },
-	  {
-		"rolls": 1,
-		"entries": [
-		  {
-			"type": "minecraft:item",
-			"name": "kamenridercraft:rider_ticket_wing"
-		  }
-		],
-		"conditions": [
-		  {
-			"condition": "minecraft:random_chance",
-			"chance": 0.5
-		  }
-		]
-	  },
-	  {
-		"rolls": 1,
-		"entries": [
-		  {
-			"type": "minecraft:item",
-			"name": "kamenridercraft:den_gasher_handax"
-		  }
-		],
-		"conditions": [
-		  {
-			"condition": "minecraft:random_chance",
-			"chance": 0.5
-		  }
-		]
-	  },
-	  {
-		"rolls": 1,
-		"entries": [
-		  {
-			"type": "minecraft:item",
-			"name": "kamenridercraft:den_gasher_boomerang"
-		  }
-		],
-		"conditions": [
-		  {
-			"condition": "minecraft:random_chance",
-			"chance": 0.5
-		  }
-		]
 	  }
 	]
   }

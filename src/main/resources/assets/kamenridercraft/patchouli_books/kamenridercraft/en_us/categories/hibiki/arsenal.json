@@ -1,7 +1,7 @@
 {
 	"parent": "kamenridercraft:hibiki/main",
     "name": "Hibiki Arsenal",
-    "description": "Every weapon used by the Hibiki Riders.",
+    "description": "Every weapon and tool used by the Hibiki Riders.",
     "icon": "kamenridercraft:ongekibo_rekka",
     "sortnum": 3
 }

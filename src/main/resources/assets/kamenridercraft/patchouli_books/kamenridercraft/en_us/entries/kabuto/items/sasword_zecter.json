@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used to craft Sasword's $(l:kabuto/devices/sasword_rider_belt)ZECT Buckle$(/l)$(br2)Used to swap between Sasword's $(l:kabuto/riders/sasword#masked)Masked$(/l) and $(l:kabuto/riders/sasword#rider)Rider$(/l) forms"
+			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used to swap between Sasword's $(l:kabuto/riders/sasword#masked)Masked$(/l) and $(l:kabuto/riders/sasword#rider)Rider$(/l) forms"
 		},
 		{
 			"type": "patchouli:spotlight",

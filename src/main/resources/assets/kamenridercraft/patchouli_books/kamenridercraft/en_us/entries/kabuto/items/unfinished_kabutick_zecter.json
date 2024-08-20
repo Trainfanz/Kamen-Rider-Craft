@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider Kabuto: God Speed Love (2006, Movie)$(br2)Used as the base item for Kamen Riders $(l:kabuto/riders/hercus)Hercus$(/l), $(l:kabuto/riders/ketaros)Ketaros$(/l) and $(l:kabuto/riders/caucasus)Caucasus'$(/l) Rider items"
+			"text": "Appears in:$(li)Kamen Rider Kabuto: God Speed Love (2006, movie)$(br2)Used as the base item for Kamen Riders $(l:kabuto/riders/hercus)Hercus$(/l), $(l:kabuto/riders/ketaros)Ketaros$(/l) and $(l:kabuto/riders/caucasus)Caucasus'$(/l) Rider items"
 		},
 		{
 			"type": "patchouli:spotlight",

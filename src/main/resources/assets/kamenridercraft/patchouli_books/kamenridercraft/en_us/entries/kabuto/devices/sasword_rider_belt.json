@@ -9,8 +9,11 @@
 			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used alongside the $(l:kabuto/devices/armor)Kabuto armor$(/l) to transform into $(l:kabuto/riders/sasword)Kamen Rider Sasword"
 		},
 		{
-			"type": "patchouli:crafting",
-			"recipe": "kamenridercraft:kabuto/sasword_rider_belt"
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:sasword_rider_belt",
+			"title": " ",
+			"text": "Obtained by right-clicking the $(l:kabuto/arsenal/sasword_yaiver)Sasword Yaiver$(/l) without any foot armor"
 		}
 	]
 }

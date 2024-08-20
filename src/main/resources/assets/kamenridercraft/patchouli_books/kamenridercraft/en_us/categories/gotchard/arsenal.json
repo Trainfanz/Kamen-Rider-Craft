@@ -1,7 +1,7 @@
 {
 	"parent": "kamenridercraft:gotchard/main",
     "name": "Gotchard Arsenal",
-    "description": "Every weapon used by the Gotchard Riders.",
+    "description": "Every weapon and tool used by the Gotchard Riders.",
     "icon": "kamenridercraft:gotcharge_gun",
     "sortnum": 3
 }

@@ -1,0 +1,21 @@
+{
+	"name": "Nega DenLiner",
+	"icon": "kamenridercraft:den_o_logo",
+	"category": "kamenridercraft:den_o/structures",
+	"sortnum": 9,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"title": "Nega DenLiner",
+			"text": "Appears in:$(li)Kamen Rider Den-O & Kiva: Climax Cop (2008, movie)$(br2)Spawns throughout the Sands of Time$(br2)Chest loot:$(li)1 $(l:den_o/items/rider_ticket_nega)Rider Ticket Negataros$(/l)$(li)4-6 $(l:den_o/items/imagin_sand)Imagin Sand$(/l) (16%)$(li)3-7 $(l:den_o/items/rider_ticket)Rider Tickets$(/l) (53%)$(li)1 $(l:den_o/items/rider_ticket_nega)Rider Ticket Negataros$(/l) (31%)"
+		},
+		{
+			"type": "patchouli:image",
+			"border": true,
+			"images": [
+				"kamenridercraft:patchouli_books/kamenridercraft/images/nega_denliner.png"
+			],
+			"title": " "
+		}
+	]
+}

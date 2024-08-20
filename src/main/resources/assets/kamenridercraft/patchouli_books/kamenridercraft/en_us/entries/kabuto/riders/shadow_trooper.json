@@ -12,8 +12,8 @@
 		},
 		{
 			"type": "patchouli:text",
-			"title": "Kamen Rider Lady",
-			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV)$(br2)Transforms with the $(l:kabuto/devices/shadow_trooper_belt)Shadow Trooper Belt$(/l)$(br2)Status Effects:$(li)Resistance$(li)Night Vision$(li)Strength III"
+			"title": "Shadow Trooper",
+			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Transforms with the $(l:kabuto/devices/shadow_trooper_belt)Shadow Trooper Belt$(/l)$(br2)Status Effects:$(li)Resistance$(li)Night Vision$(li)Strength III"
 		}
 	]
 }

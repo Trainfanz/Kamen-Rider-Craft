@@ -1,0 +1,21 @@
+{
+	"name": "Sands of Time",
+	"icon": "kamenridercraft:rider_pass",
+	"category": "kamenridercraft:den_o/dimensions",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"title": "Sands of Time",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Accessed with a $(l:den_o/arsenal/rider_pass)Rider Pass$(/l)$(br2)Structures:$(li)$(l:den_o/structures/denliner_gouka)DenLiner Gouka$(/l)$(li)$(l:den_o/structures/denliner_isurugi)DenLiner Isurugi$(/l)$(li)$(l:den_o/structures/denliner_rekkou)DenLiner Rekkou$(/l)$(li)$(l:den_o/structures/denliner_ikazuchi)DenLiner Ikazuchi$(/l)$(li)$(l:den_o/structures/zeroliner)ZeroLiner$(/l)$(li)$(l:den_o/structures/kingliner)KingLiner$(/l)$(li)$(l:den_o/structures/new_denliner)New DenLiner$(/l)$(li)$(l:den_o/structures/gaohliner)GaohLiner$(/l)$(li)$(l:den_o/structures/nega_denliner)Nega DenLiner$(/l)"
+		},
+		{
+			"type": "patchouli:image",
+			"border": true,
+			"images": [
+				"kamenridercraft:patchouli_books/kamenridercraft/images/sands_of_time.png"
+			],
+			"title": " "
+		}
+	]
+}

@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider Den-O: I'm Born (2007, Movie)"
+			"text": "Appears in:$(li)Kamen Rider Den-O: I'm Born (2007, movie)"
 		},
 		{
 			"type": "patchouli:spotlight",

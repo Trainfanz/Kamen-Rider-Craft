@@ -1,0 +1,35 @@
+{
+	"name": "DenLiner Gouka",
+	"icon": "kamenridercraft:den_o_logo",
+	"category": "kamenridercraft:den_o/structures",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"title": "DenLiner Gouka",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Spawns throughout the Sands of Time$(br2)Chance to find $(l:den_o/mobs/momotaros)Momotaros$(/l) inside$(br)Chance to spawn with $(l:den_o/structures/denliner_gouka#sieg_carriage)an extra carriage...$(/l)$(br2)Chest loot:$(li)1 $(l:den_o/items/rider_ticket_sword)Rider Ticket Momotaros$(/l)$(li)4-6 $(l:den_o/items/imagin_sand)Imagin Sand$(/l) (16%)$(li)3-7 $(l:den_o/items/rider_ticket)Rider Tickets$(/l) (53%)$(li)1 $(l:den_o/items/rider_ticket_sword)Rider Ticket Momotaros$(/l) (31%)"
+		},
+		{
+			"type": "patchouli:image",
+			"border": true,
+			"images": [
+				"kamenridercraft:patchouli_books/kamenridercraft/images/denliner_gouka.png"
+			],
+			"title": " "
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "sieg_carriage",
+			"title": "Sieg's Carriage",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Rare chance to spawn as part of the DenLiner Gouka$(br2)Chest loot:$(li)1 $(l:den_o/items/rider_ticket_wing)Rider Ticket Sieg$(/l)$(li)4-6 $(l:den_o/items/imagin_sand)Imagin Sand$(/l) (16%)$(li)3-7 $(l:den_o/items/rider_ticket)Rider Tickets$(/l) (53%)$(li)1 $(l:den_o/items/rider_ticket_wing)Rider Ticket Sieg$(/l) (31%)"
+		},
+		{
+			"type": "patchouli:image",
+			"border": true,
+			"images": [
+				"kamenridercraft:patchouli_books/kamenridercraft/images/wing_carriage.png"
+			],
+			"title": " "
+		}
+	]
+}

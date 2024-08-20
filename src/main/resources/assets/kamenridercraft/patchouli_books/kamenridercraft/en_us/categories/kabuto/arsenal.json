@@ -1,7 +1,7 @@
 {
 	"parent": "kamenridercraft:kabuto/main",
     "name": "Kabuto Arsenal",
-    "description": "Every weapon used by the Kabuto Riders.",
+    "description": "Every weapon and tool used by the Kabuto Riders.",
     "icon": "kamenridercraft:kabuto_kunai",
     "sortnum": 3
 }

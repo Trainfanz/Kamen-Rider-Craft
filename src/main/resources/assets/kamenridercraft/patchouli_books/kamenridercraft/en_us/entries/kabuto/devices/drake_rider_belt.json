@@ -9,8 +9,11 @@
 			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Used alongside the $(l:kabuto/devices/armor)Kabuto armor$(/l) to transform into $(l:kabuto/riders/drake)Kamen Rider Drake"
 		},
 		{
-			"type": "patchouli:crafting",
-			"recipe": "kamenridercraft:kabuto/drake_rider_belt"
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:drake_rider_belt",
+			"title": " ",
+			"text": "Obtained by firing the $(l:kabuto/arsenal/drake_grip)Drake Glip$(/l) without any foot armor"
 		}
 	]
 }

@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)OOO, Den-O, All Riders: Let's Go Kamen Riders (2011, Movie)$(br2)Used by $(l:den_o/riders/new_den_o)Kamen Rider New Den-O$(/l)"
+			"text": "Appears in:$(li)OOO, Den-O, All Riders: Let's Go Kamen Riders (2011, movie)$(br2)Used by $(l:den_o/riders/new_den_o)Kamen Rider New Den-O$(/l)"
 		},
 		{
 			"type": "patchouli:crafting",

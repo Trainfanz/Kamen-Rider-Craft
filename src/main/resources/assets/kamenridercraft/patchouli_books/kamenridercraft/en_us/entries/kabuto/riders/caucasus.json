@@ -6,14 +6,27 @@
 	"pages": [
 		{
 			"type": "patchouli:entity",
-			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:caucasus_rider_belt\",Count:1b},{id:\"kamenridercraft:kabutolegs\",Count:1b},{id:\"kamenridercraft:kabutotroso\",Count:1b},{id:\"kamenridercraft:kabutohead\",Count:1b}]}",
-			"name": " ",
-			"text": ""
+			"anchor": "rider",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:caucasus_rider_belt\",tag:{slot_tex1:\"caucasus_zecter\"},Count:1b},{id:\"kamenridercraft:kabutolegs\",Count:1b},{id:\"kamenridercraft:kabutotroso\",Count:1b},{id:\"kamenridercraft:kabutohead\",Count:1b}]}",
+			"name": "Rider Form",
+			"text": "Accessed with the $(l:kabuto/items/caucasus_zecter)Caucasus Zecter$(/l)"
 		},
 		{
 			"type": "patchouli:text",
 			"title": "Kamen Rider Caucasus",
-			"text": "Appears in:$(li)Kamen Rider Kabuto: God Speed Love (2006, Movie)$(br2)Transforms with the $(l:kabuto/devices/caucasus_rider_belt)ZECT Buckle (Caucasus)$(/l)$(br2)Status Effects:$(li)Speed VIII$(li)Resistance IV$(li)Night Vision$(li)Haste IV$(li)Jump Boost V$(li)Strength V"
+			"text": "Appears in:$(li)Kamen Rider Kabuto: God Speed Love (2006, movie)$(br2)Transforms with the $(l:kabuto/devices/caucasus_rider_belt)ZECT Buckle (Caucasus)$(/l)$(br2)Status Effects:$(li)Speed VIII$(li)Resistance IV$(li)Night Vision$(li)Haste IV$(li)Jump Boost V$(li)Strength V"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "masked",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:caucasus_rider_belt\",tag:{slot_tex1:\"caucasus_zecter_mask\"},Count:1b},{id:\"kamenridercraft:kabutolegs\",Count:1b},{id:\"kamenridercraft:kabutotroso\",Count:1b},{id:\"kamenridercraft:kabutohead\",Count:1b}]}",
+			"name": "Masked Form",
+			"text": "Accessed with the $(l:kabuto/items/caucasus_zecter)Caucasus Zecter$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Caucasus",
+			"text": "Appears in:$(li)Cast Off Rider (2006, toyline)$(br2)Transforms with the $(l:kabuto/devices/caucasus_rider_belt)ZECT Buckle (Caucasus)$(/l)$(br2)Status Effects:$(li)Slowness$(li)Resistance II$(li)Night Vision"
 		}
 	]
 }

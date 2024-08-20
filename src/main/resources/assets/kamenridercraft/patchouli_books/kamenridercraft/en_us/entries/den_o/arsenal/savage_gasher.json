@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Farewell Kamen Rider Den-O: Final Countdown (2008, Movie)$(br2)Used by $(l:den_o/riders/yuuki)Kamen Rider Yuuki$(/l)"
+			"text": "Appears in:$(li)Farewell Kamen Rider Den-O: Final Countdown (2008, movie)$(br2)Used by $(l:den_o/riders/yuuki)Kamen Rider Yuuki$(/l)"
 		},
 		{
 			"type": "patchouli:crafting",

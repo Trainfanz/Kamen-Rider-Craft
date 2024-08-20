@@ -1,7 +1,7 @@
 {
 	"parent": "kamenridercraft:blade/main",
     "name": "Blade Arsenal",
-    "description": "Every weapon used by the Blade Riders.",
+    "description": "Every weapon and tool used by the Blade Riders.",
     "icon": "kamenridercraft:blayrouzer",
     "sortnum": 3
 }

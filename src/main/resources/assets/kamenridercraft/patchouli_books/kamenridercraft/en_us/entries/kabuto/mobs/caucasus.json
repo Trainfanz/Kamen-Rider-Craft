@@ -11,7 +11,7 @@
 		},
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider Kabuto: God Speed Love (2006, Movie)$(br2)Health: 100$(br2)Drops$(li)15-20 $(l:kabuto/items/mini_zecter)Mizerbombers$(/l)$(li)4-6 $(l:kabuto/items/unfinished_kabutick_zecter)Unfinished Kabutick Zecters$(/l)$(li)1 $(l:kabuto/items/caucasus_zecter)Caucasus Zecter$(/l)$(li)1 $(l:kabuto/devices/caucasus_rider_belt)ZECT Buckle (Caucasus)$(/l)$(li)1 $(l:kabuto/items/hyper_zecter)Hyper Zecter$(/l)$(li)0-1 $(l:kabuto/items/hercus_zecter)Hercus Zecter$(/l) (33%)$(li)0-1 $(l:kabuto/items/ketaros_zecter)Ketaros Zecter$(/l) (33%)$(li)1 $(l:misc/blocks/blue_rose)Blue Rose(/l)"
+			"text": "Appears in:$(li)Kamen Rider Kabuto: God Speed Love (2006, movie)$(br2)Health: 100$(br2)Drops$(li)15-20 $(l:kabuto/items/mini_zecter)Mizerbombers$(/l)$(li)4-6 $(l:kabuto/items/unfinished_kabutick_zecter)Unfinished Kabutick Zecters$(/l)$(li)1 $(l:kabuto/items/caucasus_zecter)Caucasus Zecter$(/l)$(li)1 $(l:kabuto/devices/caucasus_rider_belt)ZECT Buckle (Caucasus)$(/l)$(li)1 $(l:kabuto/items/hyper_zecter)Hyper Zecter$(/l)$(li)0-1 $(l:kabuto/items/hercus_zecter)Hercus Zecter$(/l) (33%)$(li)0-1 $(l:kabuto/items/ketaros_zecter)Ketaros Zecter$(/l) (33%)$(li)1 $(l:misc/blocks/blue_rose)Blue Rose$(/l)"
 		}
 	]
 }

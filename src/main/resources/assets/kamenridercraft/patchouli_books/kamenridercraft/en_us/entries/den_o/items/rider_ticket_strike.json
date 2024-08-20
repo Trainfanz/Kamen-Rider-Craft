@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Farewell Kamen Rider Den-O: Final Countdown (2008, Movie)$(br2)Used to craft Yuuki's $(l:den_o/devices/new_den_o_belt)New Den-O Belt$(/l)$(br2)Used to access New Den-O's $(l:den_o/riders/new_den_o#strike)Strike$(/l) form"
+			"text": "Appears in:$(li)Farewell Kamen Rider Den-O: Final Countdown (2008, movie)$(br2)Used to craft New Den-O's $(l:den_o/devices/new_den_o_belt)New Den-O Belt$(/l)$(br2)Used to access New Den-O's $(l:den_o/riders/new_den_o#strike)Strike$(/l) form"
 		},
 		{
 			"type": "patchouli:spotlight",

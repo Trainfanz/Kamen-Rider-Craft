@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider Den-O & Kiva: Climax Cop (2008, Movie)$(br2)Used to craft Nega Den-O's $(l:den_o/devices/nega_den_o_belt)Nega Den-O Belt$(/l)"
+			"text": "Appears in:$(li)Kamen Rider Den-O & Kiva: Climax Cop (2008, movie)$(br2)Used to craft Nega Den-O's $(l:den_o/devices/nega_den_o_belt)Nega Den-O Belt$(/l)"
 		},
 		{
 			"type": "patchouli:spotlight",

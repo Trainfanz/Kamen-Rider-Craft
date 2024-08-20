@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider Kabuto: God Speed Love (2006, Movie)$(br2)Used alongside the $(l:kabuto/devices/armor)Kabuto armor$(/l) to transform into $(l:kabuto/riders/caucasus)Kamen Rider Caucasus"
+			"text": "Appears in:$(li)Kamen Rider Kabuto: God Speed Love (2006, movie)$(br2)Used alongside the $(l:kabuto/devices/armor)Kabuto armor$(/l) to transform into $(l:kabuto/riders/caucasus)Kamen Rider Caucasus"
 		},
 		{
 			"type": "patchouli:crafting",

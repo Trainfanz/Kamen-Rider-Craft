@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Cho Den-O Trilogy: EPISODE YELLOW: Treasure DE-End Pirates (2010, Movie)$(br2)Used to craft G Den-O's $(l:den_o/devices/g_den_o_belt)G Den-O Belt$(/l)"
+			"text": "Appears in:$(li)Cho Den-O Trilogy: EPISODE YELLOW: Treasure DE-End Pirates (2010, movie)$(br2)Used to craft G Den-O's $(l:den_o/devices/g_den_o_belt)G Den-O Belt$(/l)"
 		},
 		{
 			"type": "patchouli:spotlight",
