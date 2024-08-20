@@ -1,0 +1,128 @@
+{
+	"name": "Kamen Rider Den-O",
+	"icon": "kamenridercraft:rider_ticket",
+	"category": "kamenridercraft:den_o/riders",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "plat",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:den_o_belt\",tag:{slot_tex1:\"rider_ticket\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
+			"name": "Plat Form",
+			"text": "Accessed with the $(l:den_o/items/rider_ticket)Rider Ticket$(/l) while the $(l:den_o/items/rider_pass)Rider Pass$(/l) is in your inventory"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Den-O",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Transforms with the $(l:den_o/devices/den_o_belt)Den-O Belt$(/l)$(br2)Status Effects:$(li)Weakness"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "sword",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:den_o_belt\",tag:{slot_tex1:\"rider_ticket_sword\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
+			"name": "Sword Form",
+			"text": "Accessed with the $(l:den_o/items/rider_ticket_sword)Rider Ticket Momotaros$(/l) while the $(l:den_o/items/rider_pass)Rider Pass$(/l) is in your inventory"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Den-O",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Transforms with the $(l:den_o/devices/den_o_belt)Den-O Belt$(/l)$(br2)Status Effects:$(li)Haste$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "rod",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:den_o_belt\",tag:{slot_tex1:\"rider_ticket_rod\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
+			"name": "Rod Form",
+			"text": "Accessed with the $(l:den_o/items/rider_ticket_rod)Rider Ticket Urataros$(/l) while the $(l:den_o/items/rider_pass)Rider Pass$(/l) is in your inventory"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Den-O",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Transforms with the $(l:den_o/devices/den_o_belt)Den-O Belt$(/l)$(br2)Status Effects:$(li)Haste III$(li)Strength"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "ax",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:den_o_belt\",tag:{slot_tex1:\"rider_ticket_ax\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
+			"name": "Ax Form",
+			"text": "Accessed with the $(l:den_o/items/rider_ticket_ax)Rider Ticket Kintaros$(/l) while the $(l:den_o/items/rider_pass)Rider Pass$(/l) is in your inventory"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Den-O",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Transforms with the $(l:den_o/devices/den_o_belt)Den-O Belt$(/l)$(br2)Status Effects:$(li)Resistance III$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "gun",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:den_o_belt\",tag:{slot_tex1:\"rider_ticket_gun\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
+			"name": "Gun Form",
+			"text": "Accessed with the $(l:den_o/items/rider_ticket_gun)Rider Ticket Ryutaros$(/l) while the $(l:den_o/items/rider_pass)Rider Pass$(/l) is in your inventory"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Den-O",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Transforms with the $(l:den_o/devices/den_o_belt)Den-O Belt$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost II$(li)Strength"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "wing",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:den_o_belt\",tag:{slot_tex1:\"rider_ticket_wing\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
+			"name": "Wing Form",
+			"text": "Accessed with the $(l:den_o/items/rider_ticket_wing)Rider Ticket Sieg$(/l) while the $(l:den_o/items/rider_pass)Rider Pass$(/l) is in your inventory"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Den-O",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Transforms with the $(l:den_o/devices/den_o_belt)Den-O Belt$(/l)$(br2)Status Effects:$(li)Flying II$(li)Speed III$(li)Weakness$(li)Haste II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "climax",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:den_o_belt\",tag:{slot_tex1:\"ktaros\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
+			"name": "Climax Form",
+			"text": "Accessed with the $(l:den_o/items/ktaros)K-Taros$(/l) while the $(l:den_o/items/rider_pass)Rider Pass$(/l) is in your inventory"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Den-O",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Transforms with the $(l:den_o/devices/den_o_belt)Den-O Belt$(/l)$(br2)Status Effects:$(li)Speed II$(li)Resistance II$(li)Haste III$(li)Jump Boost II$(li)Strength IV"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "liner",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:den_o_belt\",tag:{slot_tex1:\"denkamen_sword\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
+			"name": "Liner Form",
+			"text": "Accessed with the $(l:den_o/items/denkamen_sword)DenKamen Sword$(/l) while the $(l:den_o/items/rider_pass)Rider Pass$(/l) is in your inventory"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Den-O",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Transforms with the $(l:den_o/devices/den_o_belt)Den-O Belt$(/l)$(br2)Status Effects:$(li)Speed II$(li)Weakness$(li)Resistance II$(li)Haste III$(li)Jump Boost II$(li)Strength IV"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "cho_climax",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:den_o_belt\",tag:{slot_tex1:\"ktaros\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
+			"name": "Cho Climax Form",
+			"text": "Accessed with the $(l:den_o/items/rider_ticket_wing)Rider Ticket Sieg$(/l) while both the $(l:den_o/items/rider_pass)Rider Pass$(/l) and the $(den_o/items/ktaros)K-Taros$(/l) is in your inventory"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Den-O",
+			"text": "Appears in:$(li)Cho Kamen Rider Den-O & Decade Neo Generations The Movie: The Onigashima Warship (2009, movie)$(br2)Transforms with the $(l:den_o/devices/den_o_belt)Den-O Belt$(/l)$(br2)Status Effects:$(li)Speed II$(li)Weakness$(li)Resistance II$(li)Haste III$(li)Jump Boost II$(li)Strength IV"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "pudding",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:den_o_belt\",tag:{slot_tex1:\"rider_ticket_pudding\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
+			"name": "Pudding Form",
+			"text": "Accessed with the $(l:den_o/items/rider_ticket_pudding)Rider Ticket Pudding$(/l) while the $(l:den_o/items/rider_pass)Rider Pass$(/l) is in your inventory"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Den-O",
+			"text": "Appears in:$(li)Imagin Anime 3 (2010, OVA series)$(br2)Transforms with the $(l:den_o/devices/den_o_belt)Den-O Belt$(/l)$(br2)Status Effects:$(li)Haste III$(li)Strength"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"name": "Kamen Rider Pretty Den-O",
+	"icon": "kamenridercraft:rider_ticket_sword",
+	"category": "kamenridercraft:den_o/riders",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:pretty_den_o_belt\",Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Pretty Den-O",
+			"text": "Appears in:$(li)Kamen Rider Den-O: Pretty Den-O Appears! (2020, movie)$(br2)Transforms with the $(l:den_o/devices/pretty_den_o_belt)Pretty Den-O Belt$(/l)$(br2)Status Effects:$(li)Haste$(li)Strength II"
+		}
+	]
+}

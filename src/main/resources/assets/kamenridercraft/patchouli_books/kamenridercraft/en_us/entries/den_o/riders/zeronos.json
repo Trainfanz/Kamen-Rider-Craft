@@ -1,0 +1,56 @@
+{
+	"name": "Kamen Rider Zeronos",
+	"icon": "kamenridercraft:zeronos_plat_card",
+	"category": "kamenridercraft:den_o/riders",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "plat",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:zeronos_belt\",tag:{slot_tex1:\"zeronos_plat_card\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
+			"name": "Plat Form",
+			"text": "Accessed with the $(l:den_o/items/zeronos_plat_card)Zeronos Plat Card$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Zeronos",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Transforms with the $(l:den_o/devices/zeronos_belt)Zeronos Belt$(/l)$(br2)Status Effects:$(li)Weakness"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "altair",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:zeronos_belt\",tag:{slot_tex1:\"zeronos_altair_card\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
+			"name": "Altair Form",
+			"text": "Accessed with the $(l:den_o/items/zeronos_altair_card)Zeronos Altair Card$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Zeronos",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Transforms with the $(l:den_o/devices/zeronos_belt)Zeronos Belt$(/l)$(br2)Status Effects:$(li)Speed III$(li)Resistance$(li)Haste$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "vega",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:zeronos_belt\",tag:{slot_tex1:\"zeronos_vega_card\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
+			"name": "Vega Form",
+			"text": "Accessed with the $(l:den_o/items/zeronos_vega_card)Zeronos Vega Card$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Zeronos",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Transforms with the $(l:den_o/devices/zeronos_belt)Zeronos Belt$(/l)$(br2)Status Effects:$(li)Speed$(li)Resistance II$(li)Fire Resistance$(li)Strength III"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "zero",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:zeronos_belt\",tag:{slot_tex1:\"zeronos_zero_card\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
+			"name": "Zero Form",
+			"text": "Accessed with the $(l:den_o/items/zeronos_zero_card)Zeronos Zero Card$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Zeronos",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Transforms with the $(l:den_o/devices/zeronos_belt)Zeronos Belt$(/l)$(br2)Status Effects:$(li)Speed III$(li)Resistance II$(li)Regeneration II$(li)Haste II$(li)Fire Resistance$(li)Strength III"
+		}
+	]
+}
