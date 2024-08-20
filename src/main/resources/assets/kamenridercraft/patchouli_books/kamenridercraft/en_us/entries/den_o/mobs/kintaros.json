@@ -1,0 +1,17 @@
+{
+	"name": "Kintaros",
+	"icon": "kamenridercraft:rider_ticket_ax",
+	"category": "kamenridercraft:den_o/mobs",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:kintaros",
+			"text": "Spawns within a $(l:den_o/structures/denliner_rekkou)Denliner Rekkou$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Health: 30$(br2)Drops$(li)1-3 $(l:den_o/items/imagin_sand)Imagin Sand$(/l)$(li)1 $(l:den_o/items/rider_ticket_ax)Rider Ticket Kintaros$(/l) (10%)"
+		}
+	]
+}

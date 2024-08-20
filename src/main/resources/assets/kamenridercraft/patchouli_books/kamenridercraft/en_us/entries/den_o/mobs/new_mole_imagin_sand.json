@@ -1,0 +1,17 @@
+{
+	"name": "New Mole Imagin (Sand)",
+	"icon": "kamenridercraft:imagin_sand",
+	"category": "kamenridercraft:den_o/mobs",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:new_mole_imagin_sand",
+			"text": "Spawns throughout the $(l:den_o/dimensions/sands_of_time)Sands of Time$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:den_o/items/imagin_sand)Imagin Sand$(/l)$(li)1 $(l:den_o/items/rider_ticket)Rider Ticket$(/l) (10%)"
+		}
+	]
+}

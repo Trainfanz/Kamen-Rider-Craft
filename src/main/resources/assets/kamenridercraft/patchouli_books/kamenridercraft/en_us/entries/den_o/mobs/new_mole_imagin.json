@@ -1,0 +1,17 @@
+{
+	"name": "New Mole Imagin",
+	"icon": "kamenridercraft:den_o_logo",
+	"category": "kamenridercraft:den_o/mobs",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:new_mole_imagin",
+			"text": "Has a 10% chance to spawn from a $(l:den_o/mobs/new_mole_imagin_sand)New Mole Imagin (Sand)$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:den_o/items/imagin_sand)Imagin Sand$(/l)$(li)1 $(l:den_o/items/rider_ticket)Rider Ticket$(/l) (10%)"
+		}
+	]
+}

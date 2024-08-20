@@ -1,0 +1,17 @@
+{
+	"name": "Ryutaros",
+	"icon": "kamenridercraft:rider_ticket_gun",
+	"category": "kamenridercraft:den_o/mobs",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:ryutaros",
+			"text": "Spawns within a $(l:den_o/structures/denliner_ikazuchi)Denliner Ikazuchi$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Health: 30$(br2)Drops$(li)1-3 $(l:den_o/items/imagin_sand)Imagin Sand$(/l)$(li)1 $(l:den_o/items/rider_ticket_gun)Rider Ticket Ryutaros$(/l) (10%)"
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"name": "Kamen Rider Gaoh",
+	"icon": "kamenridercraft:den_o_logo",
+	"category": "kamenridercraft:den_o/mobs",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:gaoh",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Den-O: I'm Born (2007, movie)$(br2)Health: 30$(br2)Drops$(li)6-10 $(l:den_o/items/rider_ticket)Rider Tickets$(/l)$(li)1 $(l:den_o/items/rider_ticket_gaoh)Rider Ticket Gaoh$(/l)$(li)1 $(l:den_o/devices/gaoh_belt)Gaoh Belt$(/l)$(li)1 $(l:den_o/arsenal/gaoh_gasher)Gaoh Gasher$(/l)$(li)1 $(l:den_o/arsenal/master_pass)Master Pass$(/l)$(li)1 $(l:den_o/items/rider_ticket_wing)Rider Ticket Sieg$(/l) (50%)$(li)1 $(l:den_o/arsenal/den_gasher_handax)DenGasher Hand Ax Mode$(/l) (50%)$(li)1 $(l:den_o/arsenal/den_gasher_boomerang)DenGasher Boomerang Mode$(/l) (50%)"
+		}
+	]
+}
