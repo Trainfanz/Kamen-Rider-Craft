@@ -7,7 +7,7 @@
 		{
 			"type": "patchouli:entity",
 			"anchor": "skull",
-			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:new_den_o_belt\",tag:{slot_tex1:\"rider_ticket\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:new_den_o_belt\",tag:{slot_tex1:\"rider_ticket_yuuki\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
 			"name": "Skull Form",
 			"text": "Accessed with the $(l:den_o/items/rider_ticket_yuuki)Rider Ticket Ghost Imagin$(/l) while the $(l:den_o/items/rider_pass)Rider Pass$(/l) is in your inventory"
 		},
@@ -19,7 +19,7 @@
 		{
 			"type": "patchouli:entity",
 			"anchor": "hijack",
-			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:new_den_o_belt\",tag:{slot_tex1:\"rider_ticket_strike\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:new_den_o_belt\",tag:{slot_tex1:\"rider_ticket_yuuki_hijack\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
 			"name": "Hijack Form",
 			"text": "Accessed with the $(l:den_o/items/rider_ticket_yuuki)Rider Ticket Ghost Imagin$(/l) while the $(l:den_o/items/rider_pass)Rider Pass$(/l) is in your inventory"
 		},

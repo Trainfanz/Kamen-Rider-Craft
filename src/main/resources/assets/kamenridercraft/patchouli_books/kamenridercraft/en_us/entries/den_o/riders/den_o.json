@@ -103,7 +103,7 @@
 		{
 			"type": "patchouli:entity",
 			"anchor": "cho_climax",
-			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:den_o_belt\",tag:{slot_tex1:\"ktaros\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:den_o_belt\",tag:{slot_tex1:\"super_ktaros\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
 			"name": "Cho Climax Form",
 			"text": "Accessed with the $(l:den_o/items/rider_ticket_wing)Rider Ticket Sieg$(/l) while both the $(l:den_o/items/rider_pass)Rider Pass$(/l) and the $(den_o/items/ktaros)K-Taros$(/l) is in your inventory"
 		},
