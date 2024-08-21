@@ -1,0 +1,24 @@
+{
+	"name": "Decade Armor",
+	"icon": "kamenridercraft:decadehead",
+	"category": "kamenridercraft:decade/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Used alongside a Decade Rider's transformation device to transform into that Rider"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/decadehead"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/decadetroso"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/decadelegs"
+		}
+	]
+}

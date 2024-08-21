@@ -1,0 +1,12 @@
+{
+	"name": "Decade Logo",
+	"icon": "kamenridercraft:decade_logo",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/decade_logo"
+		}
+	]
+}
