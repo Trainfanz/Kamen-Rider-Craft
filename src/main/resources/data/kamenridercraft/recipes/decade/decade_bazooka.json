@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "decade",
+  "pattern": [
+    "XXX",
+    "XSX",
+    "XMX"
+  ],
+  "key": {
+    "X": {
+      "item": "kamenridercraft:blank_card"
+    },
+    "S": {
+      "item": "kamenridercraft:base_sword"
+    },
+    "M": {
+      "item": "kamenridercraft:decade_card"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:decade_bazooka"
+  }    
+}
+

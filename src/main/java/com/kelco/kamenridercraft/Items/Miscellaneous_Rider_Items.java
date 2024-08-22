@@ -124,12 +124,17 @@ public class Miscellaneous_Rider_Items {
 						new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.REGENERATION,200, 0,true,false)
 						,new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false)).addAlternative(DOUBLE_TYPHOON_CORE_ARTIST.get()));
 	    
+	    public static final RegistryObject<Item> CONDORER_WHEEL_PRE_AMAZON = ITEMS.register("condorer_wheel_pre_amazon",
+	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_pre","amazon","condorer_belt",
+						new MobEffectInstance(MobEffects.WEAKNESS, 40, 0,true,false),
+						new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)).addAlternative(RIDERMAN_BELT_CORE_ARTIST.get()));
+	    
 	    public static final RegistryObject<Item> ELECTRER_CORE_ARTIST = ITEMS.register("electrer_core_artist",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_artist","stronger","electrer_belt_artist",
 	            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false)
 	            		,new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 1,true,false)
 	            		,new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false)
-	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).addAlternative(RIDERMAN_BELT_CORE_ARTIST.get()));
+	            		,new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).addAlternative(CONDORER_WHEEL_PRE_AMAZON.get()));
 	 
 	    public static final RegistryObject<Item> TACKLE_CORE_ARTIST = ITEMS.register("tackle_core_artist",
 	            () -> new RiderFormChangeItem(new Item.Properties(),0,"_artist","tackle","tackle_belt_artist",

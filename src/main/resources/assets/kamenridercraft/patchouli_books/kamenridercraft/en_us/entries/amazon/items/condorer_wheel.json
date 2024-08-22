@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider Amazon (1974, TV show)$(br2)Used to craft Amazon's $(l:amazon/devices/condorer)Condorer$(/l)"
+			"text": "Appears in:$(li)Kamen Rider Amazon (1974, TV show)$(br2)Used to craft Amazon's $(l:amazon/devices/condorer)Condorer$(/l)$(br2)Used to access Amazon's $(l:amazon/riders/amazon#amazon)default$(/l) form"
 		},
 		{
 			"type": "patchouli:spotlight",
