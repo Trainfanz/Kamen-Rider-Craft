@@ -1,0 +1,16 @@
+{
+	"name": "Decadriver",
+	"icon": "kamenridercraft:decadriver",
+	"category": "kamenridercraft:decade/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used alongside the $(l:decade/devices/armor)Decade armor$(/l) to transform into $(l:decade/riders/decade)Kamen Rider Decade"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/decadriver"
+		}
+	]
+}
