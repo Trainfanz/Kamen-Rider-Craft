@@ -1,0 +1,19 @@
+{
+	"name": "Decadriver",
+	"icon": "kamenridercraft:diend_belt",
+	"category": "kamenridercraft:decade/devices",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used alongside the $(l:decade/devices/armor)Decade armor$(/l) to transform into $(l:decade/riders/diend)Kamen Rider Diend"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:diend_belt",
+			"title": " ",
+			"text": "Obtained by firing the $(l:decade/arsenal/diendriver)Diendriver$(/l) without any foot armor"
+		}
+	]
+}
