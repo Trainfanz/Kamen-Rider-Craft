@@ -1,0 +1,19 @@
+{
+	"name": "Wake Up Fuestle (Rey/Arc)",
+	"icon": "kamenridercraft:keyfuestle",
+	"category": "kamenridercraft:kiva/items",
+	"sortnum": 15,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kiva: King of the Castle in the Demon World (2008, movie)$(br2)Used to craft Rey's $(l:kiva/devices/reydriver)Rey Kivat Belt$(/l)$(br2)Used to craft Arc's $(l:kiva/devices/arcdriver)Arc Kivat Belt$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:keyfuestle",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/deepslate_stone_kiva)Deepslate Fuestle Ore$(/l)"
+		}
+	]
+}

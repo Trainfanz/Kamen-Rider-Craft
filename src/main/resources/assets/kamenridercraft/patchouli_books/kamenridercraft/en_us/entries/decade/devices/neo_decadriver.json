@@ -2,11 +2,11 @@
 	"name": "NeoDecadriver",
 	"icon": "kamenridercraft:neo_decadriver",
 	"category": "kamenridercraft:decade/devices",
-	"sortnum": 1,
+	"sortnum": 2,
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider Zi-O (20019, TV show)$(br2)Used alongside the $(l:decade/devices/armor)Decade armor$(/l) to transform into $(l:decade/riders/decade)Kamen Rider Decade"
+			"text": "Appears in:$(li)Kamen Rider Zi-O (2019, TV show)$(br2)Used alongside the $(l:decade/devices/armor)Decade armor$(/l) to transform into $(l:decade/riders/neo_decade)Kamen Rider Decade"
 		},
 		{
 			"type": "patchouli:crafting",

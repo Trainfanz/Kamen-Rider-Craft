@@ -1,0 +1,12 @@
+{
+	"name": "Geats Logo",
+	"icon": "kamenridercraft:geats_logo",
+	"category": "kamenridercraft:geats/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:geats/geats_logo"
+		}
+	]
+}

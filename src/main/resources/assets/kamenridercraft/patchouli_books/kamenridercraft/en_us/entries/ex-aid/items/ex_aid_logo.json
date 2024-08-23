@@ -1,0 +1,12 @@
+{
+	"name": "Ex-Aid Logo",
+	"icon": "kamenridercraft:ex_aid_logo",
+	"category": "kamenridercraft:ex_aid/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:exaid/ex_aid_logo"
+		}
+	]
+}

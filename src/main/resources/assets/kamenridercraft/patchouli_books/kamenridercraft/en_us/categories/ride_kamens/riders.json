@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:ride_kamens/main",
+    "name": "Ride Kamens Riders",
+    "description": "Every Rider and pseudo-Rider from or relating to the mobile game, Ride Kamens.",
+    "icon": "kamenridercraft:ride_kamens_head",
+    "sortnum": 0
+}

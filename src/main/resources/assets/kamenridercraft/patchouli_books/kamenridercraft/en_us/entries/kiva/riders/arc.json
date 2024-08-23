@@ -1,0 +1,32 @@
+{
+	"name": "Kamen Rider Arc",
+	"icon": "kamenridercraft:keyfuestle",
+	"category": "kamenridercraft:kiva/riders",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "arc",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcdriver\",tag:{slot_tex1:\"keyfuestle\"},Count:1b},{id:\"kamenridercraft:kivalegs\",Count:1b},{id:\"kamenridercraft:kivatroso\",Count:1b},{id:\"kamenridercraft:kivahead\",Count:1b}]}",
+			"name": " ",
+			"text": "Accessed with the $(l:kiva/items/keyfuestle)Wake Up Fuestle (Rey/Arc)$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Arc",
+			"text": "Appears in:$(li)Kamen Rider Kiva: King of the Castle in the Demon World (2008, movie)$(br2)Transforms with the $(l:kiva/devices/arcdriver)Arc Kivat Belt$(/l)$(br2)Status Effects:$(li)Giant II$(li)Speed II$(li)Resistance IV$(li)Haste$(li)Strength III"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "legend",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:arcdriver\",tag:{slot_tex1:\"keyfuestle_arc_legend\"},Count:1b},{id:\"kamenridercraft:kivalegs\",Count:1b},{id:\"kamenridercraft:kivatroso\",Count:1b},{id:\"kamenridercraft:kivahead\",Count:1b}]}",
+			"name": "Legend Arc",
+			"text": "Form is currently inaccessible"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Arc",
+			"text": "Appears in:$(li)Kamen Rider Kiva: King of the Castle in the Demon World (2008, movie)$(br2)Transforms with the $(l:kiva/devices/arcdriver)Arc Kivat Belt$(/l)$(br2)Status Effects:$(li)Flying$(li)Giant II$(li)Speed II$(li)Resistance IV$(li)Haste$(li)Strength III"
+		}
+	]
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:gorider/main",
+    "name": "Gorider Riders",
+    "description": "Every Rider and pseudo-Rider from or relating to the special, Kamen Sentai Gorider.",
+    "icon": "kamenridercraft:akariderhead",
+    "sortnum": 0
+}

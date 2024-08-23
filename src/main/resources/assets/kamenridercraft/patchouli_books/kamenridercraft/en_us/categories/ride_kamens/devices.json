@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:ride_kamens/main",
+    "name": "Ride Kamens Transformation Devices",
+    "description": "The transformation devices used by the Ride Kamens Riders.",
+    "icon": "kamenridercraft:chaos_driver_saigo",
+    "sortnum": 1
+}

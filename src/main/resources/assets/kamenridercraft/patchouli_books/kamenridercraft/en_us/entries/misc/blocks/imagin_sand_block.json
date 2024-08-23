@@ -1,0 +1,19 @@
+{
+	"name": "Imagin Sand Block",
+	"icon": "kamenridercraft:imagin_sand_block",
+	"category": "kamenridercraft:misc/blocks",
+	"sortnum": 121,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Mine this block to get $(l:den_o/items/imagin_sand)Imagin Sand$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:imagin_sand_block",
+			"title": " ",   
+			"text": "Found throughout the $(l:den_o/dimensions/sands_of_time)Sands of Time$(/l)"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"name": "Basshaa Fuestle",
+	"icon": "kamenridercraft:basshaafuestle",
+	"category": "kamenridercraft:kiva/items",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kiva (2008, TV show)$(br2)Used to access Kiva's $(l:kiva/riders/kiva#basshaa)Basshaa$(/l) and $(l:kiva/riders/kiva#dogabaki)DoGaBaKi$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:basshaafuestle",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_kiva)Fuestle Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_kiva)Deepslate Fuestle Ore$(/l)"
+		}
+	]
+}

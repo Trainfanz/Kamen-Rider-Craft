@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:g/main",
+    "name": "G Transformation Devices",
+    "description": "The transformation devices used by the G Riders.",
+    "icon": "kamenridercraft:g_belt",
+    "sortnum": 1
+}

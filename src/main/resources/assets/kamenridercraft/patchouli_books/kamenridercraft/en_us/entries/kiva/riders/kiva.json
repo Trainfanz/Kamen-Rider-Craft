@@ -1,0 +1,104 @@
+{
+	"name": "Kamen Rider Kiva",
+	"icon": "kamenridercraft:wakeupfuestle",
+	"category": "kamenridercraft:kiva/riders",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "kiva",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:kivadriver\",tag:{slot_tex1:\"wakeupfuestle\"},Count:1b},{id:\"kamenridercraft:kivalegs\",Count:1b},{id:\"kamenridercraft:kivatroso\",Count:1b},{id:\"kamenridercraft:kivahead\",Count:1b}]}",
+			"name": "Kiva Form",
+			"text": "Accessed with the $(l:kiva/items/wakeupfuestle)Wake Up Fuestle (Kiva)$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Kiva",
+			"text": "Appears in:$(li)Kamen Rider Kiva (2008, TV show)$(br2)Transforms with the $(l:kiva/devices/kivadriver)Kivat Belt$(/l)$(br2)Status Effects:$(li)Speed$(li)Resistance$(li)Strength"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "garulu",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:kivadriver\",tag:{slot_tex1:\"garulufuestle\"},Count:1b},{id:\"kamenridercraft:kivalegs\",Count:1b},{id:\"kamenridercraft:kivatroso\",Count:1b},{id:\"kamenridercraft:kivahead\",Count:1b}]}",
+			"name": "Garulu Form",
+			"text": "Accessed with the $(l:kiva/items/garulufuestle)Garulu Fuestle$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Kiva",
+			"text": "Appears in:$(li)Kamen Rider Kiva (2008, TV show)$(br2)Transforms with the $(l:kiva/devices/kivadriver)Kivat Belt$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost II$(li)Strength"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "basshaa",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:kivadriver\",tag:{slot_tex1:\"basshaafuestle\"},Count:1b},{id:\"kamenridercraft:kivalegs\",Count:1b},{id:\"kamenridercraft:kivatroso\",Count:1b},{id:\"kamenridercraft:kivahead\",Count:1b}]}",
+			"name": "Basshaa Form",
+			"text": "Accessed with the $(l:kiva/items/basshaafuestle)Basshaa Fuestle$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Kiva",
+			"text": "Appears in:$(li)Kamen Rider Kiva (2008, TV show)$(br2)Transforms with the $(l:kiva/devices/kivadriver)Kivat Belt$(/l)$(br2)Status Effects:$(li)Speed$(li)Resistance$(li)Haste III"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dogga",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:kivadriver\",tag:{slot_tex1:\"doggafuestle\"},Count:1b},{id:\"kamenridercraft:kivalegs\",Count:1b},{id:\"kamenridercraft:kivatroso\",Count:1b},{id:\"kamenridercraft:kivahead\",Count:1b}]}",
+			"name": "Dogga Form",
+			"text": "Accessed with the $(l:kiva/items/doggafuestle)Dogga Fuestle$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Kiva",
+			"text": "Appears in:$(li)Kamen Rider Kiva (2008, TV show)$(br2)Transforms with the $(l:kiva/devices/kivadriver)Kivat Belt$(/l)$(br2)Status Effects:$(li)Slowness$(li)Resistance II$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dogabaki",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:kivadriver\",tag:{slot_tex1:\"dogabaki\"},Count:1b},{id:\"kamenridercraft:kivalegs\",Count:1b},{id:\"kamenridercraft:kivatroso\",Count:1b},{id:\"kamenridercraft:kivahead\",Count:1b}]}",
+			"name": "DoGaBaKi Form",
+			"text": "Accessed by shift-clicking the $(l:kiva/items/wakeupfuestle)Wake Up,$(/l) $(l:kiva/items/garulufuestle)Garulu,$(/l) $(l:kiva/items/basshaafuestle)Basshaa,$(/l) or $(l:kiva/items/doggafuestle)Dogga Fuestle$(/l) with the other three in your inventory"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Kiva",
+			"text": "Appears in:$(li)Kamen Rider Kiva (2008, TV show)$(br2)Transforms with the $(l:kiva/devices/kivadriver)Kivat Belt$(/l)$(br2)Status Effects:$(li)Speed II$(li)Wither$(li)Resistance II$(li)Haste$(li)Jump Boost$(li)Strength II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "emperor",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:kivadriver\",tag:{slot_tex1:\"tatsulot\"},Count:1b},{id:\"kamenridercraft:kivalegs\",Count:1b},{id:\"kamenridercraft:kivatroso\",Count:1b},{id:\"kamenridercraft:kivahead\",Count:1b}]}",
+			"name": "Emperor Form",
+			"text": "Accessed with $(l:kiva/items/tatsulot)Tatsulot$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Kiva",
+			"text": "Appears in:$(li)Kamen Rider Kiva (2008, TV show)$(br2)Transforms with the $(l:kiva/devices/kivadriver)Kivat Belt$(/l)$(br2)Status Effects:$(li)Speed III$(li)Resistance III$(li)Regeneration II$(li)Haste II$(li)Jump Boost II$(li)Strength III"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dogabaki_emperor",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:kivadriver\",tag:{slot_tex1:\"dogabaki_emperor\"},Count:1b},{id:\"kamenridercraft:kivalegs\",Count:1b},{id:\"kamenridercraft:kivatroso\",Count:1b},{id:\"kamenridercraft:kivahead\",Count:1b}]}",
+			"name": "DoGaBaKi Emperor Form",
+			"text": "Accessed by shift-clicking $(l:kiva/items/tatsulot)Tatsulot$(/l) with the $(l:kiva/items/wakeupfuestle)Wake Up,$(/l) $(l:kiva/items/garulufuestle)Garulu,$(/l) $(l:kiva/items/basshaafuestle)Basshaa,$(/l) and $(l:kiva/items/doggafuestle)Dogga Fuestle$(/l) in your inventory"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Kiva",
+			"text": "Appears in:$(li)Kamen Rider Kiva: Adventure Battle DVD ~You Can Also Be Kiva~ (2008, Hyper Battle Video)$(br2)Transforms with the $(l:kiva/devices/kivadriver)Kivat Belt$(/l)$(br2)Status Effects:$(li)Speed V$(li)Wither II$(li)Resistance IV$(li)Regeneration$(li)Haste III$(li)Jump Boost II$(li)Strength V"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "red_emperor",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:kivadriver\",tag:{slot_tex1:\"kiva_says_fuestle\"},Count:1b},{id:\"kamenridercraft:kivalegs\",Count:1b},{id:\"kamenridercraft:kivatroso\",Count:1b},{id:\"kamenridercraft:kivahead\",Count:1b}]}",
+			"name": "Emperor Form (Red Version)",
+			"text": "Accessed with the $(l:kiva/items/kiva_says_fuestle)Kivatte Fuestle$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Kiva",
+			"text": "Appears in:$(li)Rider Hero Series (2008, toyline)$(br2)Transforms with the $(l:kiva/devices/kivadriver)Kivat Belt$(/l)$(br2)Status Effects:$(li)Speed III$(li)Resistance III$(li)Regeneration II$(li)Haste II$(li)Jump Boost II$(li)Strength III"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"name": "Wake Up Fuestle (Saga)",
+	"icon": "kamenridercraft:sagafuestle",
+	"category": "kamenridercraft:kiva/items",
+	"sortnum": 12,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kiva (2008, TV show)$(br2)Used to craft Saga's $(l:kiva/devices/sagarc_belt)Sagarc Belt$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:sagafuestle",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/deepslate_stone_kiva)Deepslate Fuestle Ore$(/l)"
+		}
+	]
+}

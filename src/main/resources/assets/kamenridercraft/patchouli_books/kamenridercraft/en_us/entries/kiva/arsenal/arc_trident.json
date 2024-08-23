@@ -1,0 +1,16 @@
+{
+	"name": "Arc Trident",
+	"icon": "kamenridercraft:arc_trident",
+	"category": "kamenridercraft:kiva/arsenal",
+	"sortnum": 12,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kiva: King of the Castle in the Demon World (2008, movie)$(br2)Used by $(l:kiva/riders/arc)Kamen Rider Arc$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kiva/arc_trident"
+		}
+	]
+}

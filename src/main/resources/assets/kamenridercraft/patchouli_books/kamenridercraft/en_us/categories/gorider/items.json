@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:gorider/main",
+    "name": "Gorider Rider Items",
+    "description": "All Gorider-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "kamenridercraft:akarider_card",
+    "sortnum": 2
+}

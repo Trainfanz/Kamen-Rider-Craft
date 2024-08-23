@@ -1,0 +1,16 @@
+{
+	"name": "Basshaa Magnum",
+	"icon": "kamenridercraft:basshaamagnum",
+	"category": "kamenridercraft:kiva/arsenal",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kiva (2008, TV show)$(br2)Used by Kiva's $(l:kiva/riders/kiva#basshaa)Basshaa$(/l) and $(l:kiva/riders/kiva#dogabaki)DoGaBaKi$(/l) forms"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kiva/basshaa_magnum"
+		}
+	]
+}

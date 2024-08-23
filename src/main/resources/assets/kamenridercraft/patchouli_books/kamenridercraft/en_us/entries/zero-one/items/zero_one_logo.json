@@ -1,0 +1,12 @@
+{
+	"name": "Zero-One Logo",
+	"icon": "kamenridercraft:zero_one_logo",
+	"category": "kamenridercraft:zero_one/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:zero_one/zero_one_logo"
+		}
+	]
+}

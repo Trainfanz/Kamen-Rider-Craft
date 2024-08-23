@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:ride_kamens/main",
+    "name": "Ride Kamens Rider Items",
+    "description": "All Ride Kamens-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "kamenridercraft:chaos_ring_saigo",
+    "sortnum": 2
+}

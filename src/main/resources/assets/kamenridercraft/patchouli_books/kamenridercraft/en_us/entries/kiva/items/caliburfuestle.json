@@ -1,0 +1,19 @@
+{
+	"name": "Calibur Fuestle",
+	"icon": "kamenridercraft:caliburfuestle",
+	"category": "kamenridercraft:kiva/items",
+	"sortnum": 10,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kiva (2008, TV show)$(br2)Used to craft Ixa's $(l:kiva/arsenal/ixa_caliber)Ixa Calibur$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:caliburfuestle",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/deepslate_stone_kiva)Deepslate Fuestle Ore$(/l)"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"name": "Dark Kivat Belt",
+	"icon": "kamenridercraft:darkkivadriver",
+	"category": "kamenridercraft:kiva/devices",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kiva (2008, TV show)$(br2)Used alongside the $(l:kiva/devices/armor)Kiva armor$(/l) to transform into $(l:kiva/riders/dark_kiva)Kamen Rider Dark Kiva"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kiva/darkkivadriver"
+		}
+	]
+}

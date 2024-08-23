@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:g/main",
+    "name": "G Rider Items",
+    "description": "All G-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "kamenridercraft:goro_wine_bottle",
+    "sortnum": 2
+}

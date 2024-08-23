@@ -1,0 +1,16 @@
+{
+	"name": "New Kivat Belt",
+	"icon": "kamenridercraft:newkivadriver",
+	"category": "kamenridercraft:kiva/devices",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kiva (2008, TV show)$(br2)Used alongside the $(l:kiva/devices/armor)Kiva armor$(/l) to transform into $(l:kiva/riders/new_kiva)Kamen Rider New Kiva"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kiva/newkivadriver"
+		}
+	]
+}

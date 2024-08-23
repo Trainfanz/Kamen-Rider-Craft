@@ -1,0 +1,16 @@
+{
+	"name": "Sagarc Belt",
+	"icon": "kamenridercraft:sagarc_belt",
+	"category": "kamenridercraft:kiva/devices",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kiva (2008, TV show)$(br2)Used alongside the $(l:kiva/devices/armor)Kiva armor$(/l) to transform into $(l:kiva/riders/saga)Kamen Rider Saga"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kiva/sagarc_belt"
+		}
+	]
+}

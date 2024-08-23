@@ -1,0 +1,19 @@
+{
+	"name": "Wake Up Fuestle (New Kiva)",
+	"icon": "kamenridercraft:newwakeupfuestle",
+	"category": "kamenridercraft:kiva/items",
+	"sortnum": 14,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kiva (2008, TV show)$(br2)Used to craft New Kiva's $(l:kiva/devices/newkivadriver)New Kivat Belt$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:newwakeupfuestle",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/deepslate_stone_kiva)Deepslate Fuestle Ore$(/l)"
+		}
+	]
+}

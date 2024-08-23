@@ -1,0 +1,16 @@
+{
+	"name": "Basshaa Magnum (Tatsulot)",
+	"icon": "kamenridercraft:basshaa_magnum_tatsulot",
+	"category": "kamenridercraft:kiva/arsenal",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kiva (2008, TV show)$(br2)Used by Kiva's $(l:kiva/riders/kiva#emperor)Emperor$(/l) and $(l:kiva/riders/kiva#dogabaki_emperor)DoGaBaKi Emperor$(/l) forms"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kiva/basshaa_magnum_tatsulot"
+		}
+	]
+}

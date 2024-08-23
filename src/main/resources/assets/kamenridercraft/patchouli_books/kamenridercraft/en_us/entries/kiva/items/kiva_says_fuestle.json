@@ -1,0 +1,19 @@
+{
+	"name": "Kivatte Fuestle",
+	"icon": "kamenridercraft:kiva_says_fuestle",
+	"category": "kamenridercraft:kiva/items",
+	"sortnum": 8,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Televi-Kun (August 2008, magazine)$(br2)Used to access Kiva's $(l:kiva/riders/kiva#red_emperor)Emperor Form (Red Version)$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:kiva_says_fuestle",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/stone_kiva)Fuestle Ore$(/l)$(li)$(l:misc/blocks/deepslate_stone_kiva)Deepslate Fuestle Ore$(/l)"
+		}
+	]
+}

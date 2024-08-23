@@ -1,0 +1,19 @@
+{
+	"name": "Kamen Rider Rey",
+	"icon": "kamenridercraft:keyfuestle",
+	"category": "kamenridercraft:kiva/riders",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:reydriver\",Count:1b},{id:\"kamenridercraft:kivalegs\",Count:1b},{id:\"kamenridercraft:kivatroso\",Count:1b},{id:\"kamenridercraft:kivahead\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Rey",
+			"text": "Appears in:$(li)Kamen Rider Kiva: King of the Castle in the Demon World (2008, movie)$(br2)Transforms with the $(l:kiva/devices/reydriver)Rey Kivat Belt$(/l)$(br2)Status Effects:$(li)Speed II$(li)Resistance IV$(li)Haste$(li)Strength III"
+		}
+	]
+}

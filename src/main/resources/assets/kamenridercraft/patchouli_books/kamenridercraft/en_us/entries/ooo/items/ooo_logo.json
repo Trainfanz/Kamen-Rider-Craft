@@ -1,0 +1,12 @@
+{
+	"name": "OOO Logo",
+	"icon": "kamenridercraft:ooo_logo",
+	"category": "kamenridercraft:ooo/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:ooo/ooo_logo"
+		}
+	]
+}

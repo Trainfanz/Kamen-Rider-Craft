@@ -1,0 +1,16 @@
+{
+	"name": "Ixa Calibur",
+	"icon": "kamenridercraft:ixa_caliber",
+	"category": "kamenridercraft:kiva/arsenal",
+	"sortnum": 9,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kiva (2008, TV show)$(br2)Used by $(l:kiva/riders/ixa)Kamen Rider Ixa$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kiva/ixa_caliber"
+		}
+	]
+}

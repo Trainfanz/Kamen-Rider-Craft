@@ -1,0 +1,7 @@
+{
+    "parent": "kamenridercraft:main/other",
+    "name": "Ride Kamens",
+    "description": "Everything related to the mobile game, Ride Kamens.",
+    "icon": "kamenridercraft:ride_kamens_head",
+    "sortnum": 4
+}

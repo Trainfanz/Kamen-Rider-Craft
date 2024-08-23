@@ -1,0 +1,19 @@
+{
+	"name": "Deepslate Fuestle Ore",
+	"icon": "kamenridercraft:deepslate_stone_kiva",
+	"category": "kamenridercraft:misc/blocks",
+	"sortnum": 15,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Mine this block to get Kiva's $(l:kiva/items/wakeupfuestle)Fuestles$(/l)$(br2)Requires an iron pickaxe or better"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:deepslate_stone_kiva",
+			"title": " ",
+			"text": "Drops:$(li)$(l:kiva/items/fuestle)Fuestle$(/l) (17%)$(li)$(l:kiva/items/wakeupfuestle)Wake Up Fuestle (Kiva)$(/l) (10%)$(li)$(l:kiva/items/garulufuestle)Garulu Fuestle$(/l) (7%)$(li)$(l:kiva/items/basshaafuestle)Basshaa Fuestle$(/l) (7%)$(li)$(l:kiva/items/doggafuestle)Dogga Fuestle$(/l) (7%)$(li)$(l:kiva/items/tatsulot)Tatsulot$(/l) (2%)$(li)$(l:kiva/items/kiva_says_fuestle)Kivatte Fuestle$(/l) (2%)$(li)$(l:kiva/items/darkwakeupfuestle)Wake Up Fuestle (Dark Kiva)$(/l) (2%)$(li)$(l:kiva/items/fuestlefake)Fake Fuestle$(/l) (12%)$(li)$(l:kiva/items/knucklefuestle)Knuckle Fuestle$(/l) (10%)$(li)$(l:kiva/items/caliburfuestle)Calibur Fuestle$(/l) (7%)$(li)$(l:kiva/items/risingfuestle)Riser Fuestle$(/l) (2%)$(li)$(l:kiva/items/sagafuestle)Wake Up Fuestle (Saga)$(/l) (5%)$(li)$(l:kiva/items/newwakeupfuestle)Wake Up Fuestle (New Kiva)$(/l) (2%)$(li)$(l:kiva/items/keyfuestle)Wake Up Fuestle (Rey/Arc)$(/l) (2%)$(li)$(l:kiva/items/kivalafuestle)Wake Up Fuestle (Kiva-la)$(/l) (2%)"
+		}
+	]
+}

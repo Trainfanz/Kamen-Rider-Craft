@@ -1,0 +1,12 @@
+{
+	"name": "G Logo",
+	"icon": "kamenridercraft:g_logo",
+	"category": "kamenridercraft:g/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:g/g_logo"
+		}
+	]
+}

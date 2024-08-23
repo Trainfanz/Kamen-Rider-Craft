@@ -1,0 +1,24 @@
+{
+	"name": "Kiva Armor",
+	"icon": "kamenridercraft:kivahead",
+	"category": "kamenridercraft:kiva/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Used alongside a Kiva Rider's transformation device to transform into that Rider"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kiva/kivahead"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kiva/kivatroso"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kiva/kivalegs"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"name": "Rey Kivat Belt",
+	"icon": "kamenridercraft:reydriver",
+	"category": "kamenridercraft:kiva/devices",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kiva: King of the Castle in the Demon World (2008, movie)$(br2)Used alongside the $(l:kiva/devices/armor)Kiva armor$(/l) to transform into $(l:kiva/riders/rey)Kamen Rider Rey"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kiva/reydriver"
+		}
+	]
+}

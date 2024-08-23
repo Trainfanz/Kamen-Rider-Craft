@@ -1,0 +1,7 @@
+{
+    "parent": "kamenridercraft:main/other",
+    "name": "Kamen Rider G",
+    "description": "Everything related to the special, Kamen Rider G.",
+    "icon": "kamenridercraft:g_logo",
+    "sortnum": 2
+}

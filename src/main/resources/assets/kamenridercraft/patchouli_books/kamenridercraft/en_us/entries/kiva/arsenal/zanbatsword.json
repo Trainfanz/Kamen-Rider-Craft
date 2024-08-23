@@ -1,0 +1,16 @@
+{
+	"name": "Zanvat Sword",
+	"icon": "kamenridercraft:zanbatsword",
+	"category": "kamenridercraft:kiva/arsenal",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kiva (2008, TV show)$(br2)Used by Kiva's $(l:kiva/riders/kiva#emperor)Emperor Form$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kiva/zanbatsword"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"name": "Gotchard Logo",
+	"icon": "kamenridercraft:gotchard_logo",
+	"category": "kamenridercraft:gotchard/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:gotchard/gotchard_logo"
+		}
+	]
+}

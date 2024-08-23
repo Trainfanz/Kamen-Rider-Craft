@@ -1,0 +1,12 @@
+{
+	"name": "Kiva Logo",
+	"icon": "kamenridercraft:kiva_logo",
+	"category": "kamenridercraft:kiva/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kiva/kiva_logo"
+		}
+	]
+}

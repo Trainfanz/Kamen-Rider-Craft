@@ -1,0 +1,19 @@
+{
+	"name": "Knuckle Fuestle",
+	"icon": "kamenridercraft:knucklefuestle",
+	"category": "kamenridercraft:kiva/items",
+	"sortnum": 9,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kiva (2008, TV show)$(br2)Used to craft Ixa's $(l:kiva/devices/ixa_belt)Ixa Belt$(/l)$(br2)Used to access Ixa's $(l:kiva/riders/ixa#save)Save Mode$(/l) and $(l:kiva/riders/ixa#burst)Burst Mode$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:knucklefuestle",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/deepslate_stone_kiva)Deepslate Fuestle Ore$(/l)"
+		}
+	]
+}

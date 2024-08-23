@@ -1,0 +1,16 @@
+{
+	"name": "Fangire Glass",
+	"icon": "kamenridercraft:fangire_glass",
+	"category": "kamenridercraft:misc/blocks",
+	"sortnum": 16,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "A glass block for decoration"
+		},
+		{
+			"type": "patchouli:smelting",
+			"recipe": "kamenridercraft:kiva/fangire_glass"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"name": "Kamen Rider Saga",
+	"icon": "kamenridercraft:sagafuestle",
+	"category": "kamenridercraft:kiva/riders",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:sagarc_belt\",Count:1b},{id:\"kamenridercraft:kivalegs\",Count:1b},{id:\"kamenridercraft:kivatroso\",Count:1b},{id:\"kamenridercraft:kivahead\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Saga",
+			"text": "Appears in:$(li)Kamen Rider Kiva (2008, TV show)$(br2)Transforms with the $(l:kiva/devices/sagarc_belt)Sagarc Belt$(/l)$(br2)Status Effects:$(li)Speed II$(li)Haste$(li)Jump Boost III$(li)Strength II"
+		}
+	]
+}

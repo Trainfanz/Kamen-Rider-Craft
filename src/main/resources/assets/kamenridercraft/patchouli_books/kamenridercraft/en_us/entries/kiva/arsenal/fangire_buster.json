@@ -1,0 +1,16 @@
+{
+	"name": "Fangire Buster",
+	"icon": "kamenridercraft:fangire_buster",
+	"category": "kamenridercraft:kiva/arsenal",
+	"sortnum": 14,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kiva (2008, TV show)$(br2)Used by the Wonderful Blue Sky Organization"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kiva/fangire_buster"
+		}
+	]
+}

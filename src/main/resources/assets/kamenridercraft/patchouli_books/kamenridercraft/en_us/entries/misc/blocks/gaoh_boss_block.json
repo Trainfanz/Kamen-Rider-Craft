@@ -1,0 +1,19 @@
+{
+	"name": "Gaoh Boss Block",
+	"icon": "kamenridercraft:gaoh_boss_block",
+	"category": "kamenridercraft:misc/blocks",
+	"sortnum": 110,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Mine this block to summon $(l:den_o/mobs/gaoh)Kamen Rider Gaoh$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:gaoh_boss_block",
+			"title": " ",
+			"text": "Found inside a $(l:den_o/structures/gaohliner)GaohLiner$(/l)"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"name": "Fuestle Ore",
+	"icon": "kamenridercraft:stone_kiva",
+	"category": "kamenridercraft:misc/blocks",
+	"sortnum": 14,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Mine this block to get Kiva's $(l:kiva/items/wakeupfuestle)Fuestles$(/l)$(br2)Requires an iron pickaxe or better"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:stone_kiva",
+			"title": " ",
+			"text": "Drops:$(li)$(l:kiva/items/fuestle)Fuestle$(/l) (65%)$(li)$(l:kiva/items/wakeupfuestle)Wake Up Fuestle (Kiva)$(/l) (9%)$(li)$(l:kiva/items/garulufuestle)Garulu Fuestle$(/l) (7%)$(li)$(l:kiva/items/basshaafuestle)Basshaa Fuestle$(/l) (7%)$(li)$(l:kiva/items/doggafuestle)Dogga Fuestle$(/l) (7%)$(li)$(l:kiva/items/tatsulot)Tatsulot$(/l) (2%)$(li)$(l:kiva/items/kiva_says_fuestle)Kivatte Fuestle$(/l) (2%)$(li)$(l:kiva/items/darkwakeupfuestle)Wake Up Fuestle (Dark Kiva)$(/l) (2%)"
+		}
+	]
+}

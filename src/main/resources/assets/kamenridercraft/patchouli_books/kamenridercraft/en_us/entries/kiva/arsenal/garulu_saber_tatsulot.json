@@ -1,0 +1,16 @@
+{
+	"name": "Garulu Saber (Tatsulot)",
+	"icon": "kamenridercraft:garulu_saber_tatsulot",
+	"category": "kamenridercraft:kiva/arsenal",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kiva (2008, TV show)$(br2)Used by Kiva's $(l:kiva/riders/kiva#emperor)Emperor$(/l) and $(l:kiva/riders/kiva#dogabaki_emperor)DoGaBaKi Emperor$(/l) forms"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kiva/garulu_saber_tatsulot"
+		}
+	]
+}

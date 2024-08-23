@@ -1,0 +1,16 @@
+{
+	"name": "Jacorder",
+	"icon": "kamenridercraft:jacorder",
+	"category": "kamenridercraft:kiva/arsenal",
+	"sortnum": 11,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kiva (2008, TV show)$(br2)Used by $(l:kiva/riders/saga)Kamen Rider Saga$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kiva/jacorder"
+		}
+	]
+}

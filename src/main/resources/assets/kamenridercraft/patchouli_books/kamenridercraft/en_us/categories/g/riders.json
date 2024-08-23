@@ -1,0 +1,7 @@
+{
+	"parent": "kamenridercraft:g/main",
+    "name": "G Riders",
+    "description": "Every Rider and pseudo-Rider from or relating to the special, Kamen Rider G.",
+    "icon": "kamenridercraft:ghead",
+    "sortnum": 0
+}

@@ -1,0 +1,19 @@
+{
+	"name": "Riser Fuestle",
+	"icon": "kamenridercraft:risingfuestle",
+	"category": "kamenridercraft:kiva/items",
+	"sortnum": 11,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Kiva (2008, TV show)$(br2)Used to access $(l:kiva/riders/ixa#rising)Rising Ixa$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:risingfuestle",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/deepslate_stone_kiva)Deepslate Fuestle Ore$(/l)"
+		}
+	]
+}

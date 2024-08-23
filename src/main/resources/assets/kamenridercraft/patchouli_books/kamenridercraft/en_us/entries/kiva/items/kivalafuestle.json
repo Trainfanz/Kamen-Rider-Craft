@@ -1,0 +1,19 @@
+{
+	"name": "Wake Up Fuestle (Kiva-la)",
+	"icon": "kamenridercraft:kivalafuestle",
+	"category": "kamenridercraft:kiva/items",
+	"sortnum": 16,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider × Kamen Rider Double & Decade: MOVIE War 2010 (2009, movie)$(br2)Used to craft Kiva-la's $(l:kiva/devices/kivaladriver)Kiva-la Belt$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:kivalafuestle",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/deepslate_stone_kiva)Deepslate Fuestle Ore$(/l)"
+		}
+	]
+}

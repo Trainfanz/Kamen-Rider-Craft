@@ -1,0 +1,12 @@
+{
+	"name": "Double Logo",
+	"icon": "kamenridercraft:w_logo",
+	"category": "kamenridercraft:w/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:w/w_logo"
+		}
+	]
+}
