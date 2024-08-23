@@ -439,7 +439,7 @@ public class ModCommonEvents {
 				int villagerLevel = 3;
 
 				trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
-						new ItemStack(Items.EMERALD, 6),
+						new ItemStack(Items.EMERALD, 12),
 						stack,10,8,0.02F));
 			}
 			

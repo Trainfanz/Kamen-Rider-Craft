@@ -172,9 +172,9 @@ public class AttackRideCardItem extends BaseItem {
 								ServerLevel level = ServerLifecycleHooks.getCurrentServer().getLevel(p_41128_.dimension());
         						Vec3 look = p_41129_.getViewVector(1.0f);
         						Vec3 playerPos = p_41129_.getEyePosition(1.0f);
-        						Vec3 endPos = playerPos.add(look.x * 4.0, look.y * 4.0, look.z * 4.0);
+        						Vec3 endPos = playerPos.add(look.x * 5.0, look.y * 5.0, look.z * 5.0);
 
-								List<LivingEntity> nearbyTargets = p_41128_.getEntitiesOfClass(LivingEntity.class, new AABB(playerPos.x, playerPos.y, playerPos.z, endPos.x, endPos.y, endPos.z).inflate(0.5), entity ->
+								List<LivingEntity> nearbyTargets = p_41128_.getEntitiesOfClass(LivingEntity.class, new AABB(playerPos.x, playerPos.y, playerPos.z, endPos.x, endPos.y, endPos.z).inflate(0.65), entity ->
 																				  entity != p_41129_ && !(entity instanceof OwnableEntity owned && owned.getOwner() == p_41129_));
 								for (Entity toIgnite : nearbyTargets) toIgnite.setSecondsOnFire(10);
 								
