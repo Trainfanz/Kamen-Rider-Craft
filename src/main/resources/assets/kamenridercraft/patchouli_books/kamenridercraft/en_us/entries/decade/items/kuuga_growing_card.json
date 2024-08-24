@@ -1,0 +1,16 @@
+{
+	"name": "FormRide Kuuga Growing Form",
+	"icon": "kamenridercraft:kuuga_growing_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 19,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to access Decade's $(l:decade/riders/decade#kuuga_growing)Kuuga Growing$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kuuga_growing_card"
+		}
+	]
+}

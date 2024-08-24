@@ -1,0 +1,16 @@
+{
+	"name": "FormRide Kuuga Dragon Form",
+	"icon": "kamenridercraft:kuuga_dragon_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 20,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to access Decade's $(l:decade/riders/decade#kuuga_dragon)Kuuga Dragon$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kuuga_dragon_card"
+		}
+	]
+}

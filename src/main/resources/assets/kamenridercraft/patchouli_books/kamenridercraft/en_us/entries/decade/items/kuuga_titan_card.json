@@ -1,0 +1,16 @@
+{
+	"name": "FormRide Kuuga Titan Form",
+	"icon": "kamenridercraft:kuuga_titan_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 22,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to access Decade's $(l:decade/riders/decade#kuuga_titan)Kuuga Titan$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kuuga_titan_card"
+		}
+	]
+}
