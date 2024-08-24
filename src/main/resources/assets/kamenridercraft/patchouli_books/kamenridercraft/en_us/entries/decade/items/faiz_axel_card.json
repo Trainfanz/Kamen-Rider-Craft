@@ -1,0 +1,16 @@
+{
+	"name": "FormRide Faiz Axel Form",
+	"icon": "kamenridercraft:faiz_axel_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 33,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to access Decade's $(l:decade/riders/decade#faiz_axel)Faiz Axel(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:faiz_axel_card"
+		}
+	]
+}
