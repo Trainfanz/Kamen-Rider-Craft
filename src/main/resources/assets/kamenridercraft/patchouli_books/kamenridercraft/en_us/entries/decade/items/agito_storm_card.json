@@ -1,0 +1,16 @@
+{
+	"name": "FormRide Agito Storm Form",
+	"icon": "kamenridercraft:agito_storm_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 28,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to access Decade's $(l:decade/riders/decade#agito_storm)Agito Storm$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:agito_storm_card"
+		}
+	]
+}

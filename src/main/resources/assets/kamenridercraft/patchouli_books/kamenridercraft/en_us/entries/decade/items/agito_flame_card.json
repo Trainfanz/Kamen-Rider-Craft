@@ -1,0 +1,16 @@
+{
+	"name": "FormRide Agito Flame Form",
+	"icon": "kamenridercraft:agito_flame_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 29,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to access Decade's $(l:decade/riders/decade#agito_flame)Agito Flame$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:agito_flame_card"
+		}
+	]
+}

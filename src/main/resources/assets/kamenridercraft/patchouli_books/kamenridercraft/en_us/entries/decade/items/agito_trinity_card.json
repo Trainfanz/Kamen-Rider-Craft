@@ -1,0 +1,16 @@
+{
+	"name": "FormRide Agito Trinity Form",
+	"icon": "kamenridercraft:agito_trinity_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 30,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to access Decade's $(l:decade/riders/decade#agito_trinity)Agito Trinity$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:agito_trinity_card"
+		}
+	]
+}
