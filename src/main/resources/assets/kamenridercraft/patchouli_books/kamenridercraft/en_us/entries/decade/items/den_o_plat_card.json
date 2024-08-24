@@ -1,0 +1,16 @@
+{
+	"name": "FormRide Den-O Plat Form",
+	"icon": "kamenridercraft:den_o_plat_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 37,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to access Decade's $(l:decade/riders/decade#den_o_plat)Den-O Plat$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den_o_plat_card"
+		}
+	]
+}

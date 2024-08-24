@@ -1,0 +1,16 @@
+{
+	"name": "FormRide Den-O Ax Form",
+	"icon": "kamenridercraft:den_o_ax_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 39,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to access Decade's $(l:decade/riders/decade#den_o_ax)Den-O Ax$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den_o_ax_card"
+		}
+	]
+}

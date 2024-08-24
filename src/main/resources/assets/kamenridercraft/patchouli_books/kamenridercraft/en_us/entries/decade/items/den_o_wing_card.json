@@ -1,0 +1,16 @@
+{
+	"name": "FormRide Den-O Wing Form",
+	"icon": "kamenridercraft:den_o_wing_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 41,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to access Decade's $(l:decade/riders/decade#den_o_wing)Den-O Wing$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den_o_wing_card"
+		}
+	]
+}
