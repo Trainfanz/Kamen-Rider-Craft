@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to craft Diend's $(l:decade/arsenal/diendriver)Diendriver$(/l)$(br2)Used to access Diend's $(l:decade/riders/diend#diend)Base$(/l) form"
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to craft Diend's $(l:decade/arsenal/diendriver)Diendriver$(/l)$(br2)Used to access Diend's $(l:decade/riders/diend#diend)base$(/l) form"
 		},
 		{
 			"type": "patchouli:spotlight",

@@ -85,7 +85,7 @@ public class Decade_Rider_Items {
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
-					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false)).AddToTabList(RiderTabs.DECADE_TAB_ITEM).AddToTabList(BlankCardItem.RIDER_CARD, 5));
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false)).AddToTabList(RiderTabs.DECADE_TAB_ITEM));
 
     
     public static final RegistryObject<Item> K_TOUCH_DIEND = ITEMS.register("k_touch_diend",

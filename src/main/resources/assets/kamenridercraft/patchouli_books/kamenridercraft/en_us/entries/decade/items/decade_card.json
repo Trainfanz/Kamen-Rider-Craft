@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to craft Decade's $(l:decade/devices/decadriver)Decadriver$(/l)$(br2)Used to access Decade's $(l:decade/riders/decade#decade)Base$(/l) form"
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to craft Decade's $(l:decade/devices/decadriver)Decadriver$(/l)$(br2)Used to access Decade's $(l:decade/riders/decade#decade)base$(/l) form"
 		},
 		{
 			"type": "patchouli:spotlight",

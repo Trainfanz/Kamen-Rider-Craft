@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider: Climax Heroes (2009, PS2 game)$(br2)Used to craft Dark Decade's $(l:decade/arsenal/dark_decadriver)Dark Decadriver$(/l)"
+			"text": "Appears in:$(li)Kamen Rider: Climax Heroes (2009, video game)$(br2)Used to craft Dark Decade's $(l:decade/arsenal/dark_decadriver)Dark Decadriver$(/l)"
 		},
 		{
 			"type": "patchouli:spotlight",

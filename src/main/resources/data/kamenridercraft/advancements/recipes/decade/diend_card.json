@@ -22,6 +22,7 @@
   "rewards": {
 	"recipes": [
 	  "kamenridercraft:decade/diendriver",
+	  "kamenridercraft:decade/diend_power_up_card",
 	  "kamenridercraft:decade/ongekibo_rekka_diend"
 	]
   },
