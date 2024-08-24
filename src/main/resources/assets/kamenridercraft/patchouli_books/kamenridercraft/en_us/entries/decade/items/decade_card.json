@@ -1,0 +1,19 @@
+{
+	"name": "KamenRide Decade",
+	"icon": "kamenridercraft:decade_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to craft Decade's $(l:decade/devices/decadriver)Decadriver$(/l)$(br2)Used to access Decade's $(l:decade/riders/decade#decade)Base$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:decade_card",
+			"title": " ",
+			"text": "Drops from $(l:decade/items/blank_card)Blank Rider Cards$(/l)"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"name": "Final Kamen Terminal K-Touch (Diend)",
+	"icon": "kamenridercraft:k_touch_diend",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 8,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Cho Den-O Trilogy: EPISODE YELLOW: Treasure DE-End Pirates (2010, movie)$(br2)Used to access Diend's $(l:decade/riders/diend#complete)Complete$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/k_touch_diend"
+		}
+	]
+}

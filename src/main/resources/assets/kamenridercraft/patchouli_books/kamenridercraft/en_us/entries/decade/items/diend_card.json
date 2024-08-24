@@ -1,0 +1,19 @@
+{
+	"name": "KamenRide Diend",
+	"icon": "kamenridercraft:diend_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to craft Diend's $(l:decade/arsenal/diendriver)Diendriver$(/l)$(br2)Used to access Diend's $(l:decade/riders/diend#diend)Base$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:diend_card",
+			"title": " ",
+			"text": "Drops from $(l:decade/items/blank_card)Blank Rider Cards$(/l)"
+		}
+	]
+}

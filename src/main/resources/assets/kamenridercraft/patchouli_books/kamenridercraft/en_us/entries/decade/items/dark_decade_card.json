@@ -1,0 +1,19 @@
+{
+	"name": "KamenRide Dark Decade",
+	"icon": "kamenridercraft:dark_decade_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 9,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider: Climax Heroes (2009, PS2 game)$(br2)Used to craft Dark Decade's $(l:decade/arsenal/dark_decadriver)Dark Decadriver$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:dark_decade_card",
+			"title": " ",
+			"text": "Drops from $(l:decade/items/blank_card)Blank Rider Cards$(/l)"
+		}
+	]
+}

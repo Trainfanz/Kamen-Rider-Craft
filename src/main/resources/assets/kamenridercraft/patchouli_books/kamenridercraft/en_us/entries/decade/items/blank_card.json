@@ -1,0 +1,16 @@
+{
+	"name": "Blank Rider Card",
+	"icon": "kamenridercraft:blank_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used as the base item for most Decade items"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/blank_card"
+		}
+	]
+}

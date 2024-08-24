@@ -1,0 +1,16 @@
+{
+	"name": "KamenRide Decade Violent Emotion",
+	"icon": "kamenridercraft:decade_violent_emotion_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider x Kamen Rider W & Decade: Movie War 2010 (2009, Movie)$(br2)Used to access Decade's $(l:decade/riders/decade#violent_emotion)Violent Emotion$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade_violent_emotion_card"
+		}
+	]
+}

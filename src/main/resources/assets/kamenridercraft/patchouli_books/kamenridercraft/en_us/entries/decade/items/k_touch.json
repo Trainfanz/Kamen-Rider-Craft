@@ -1,0 +1,16 @@
+{
+	"name": "Final Kamen Terminal K-Touch",
+	"icon": "kamenridercraft:k_touch",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to access Decade's $(l:decade/riders/decade#complete)Complete$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/k_touch"
+		}
+	]
+}

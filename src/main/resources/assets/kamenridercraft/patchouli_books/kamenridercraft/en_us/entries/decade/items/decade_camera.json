@@ -1,0 +1,16 @@
+{
+	"name": "Blackbird Fly",
+	"icon": "kamenridercraft:decade_camera",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to craft Blank Rider Cards"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/decade_camera"
+		}
+	]
+}

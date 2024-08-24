@@ -1,0 +1,16 @@
+{
+	"name": "KamenRide Diend (Power Up)",
+	"icon": "kamenridercraft:diend_power_up_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to access Diend's $(l:decade/riders/diend#power_up)Power Up$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:diend_power_up_card"
+		}
+	]
+}
