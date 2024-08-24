@@ -1,0 +1,16 @@
+{
+	"name": "FormRide Kiva DoGaBaKi Form",
+	"icon": "kamenridercraft:kiva_dogabaki_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 46,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to access Decade's $(l:decade/riders/decade#kiva_dogabaki)Kiva DoGaBaKi$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kiva_dogabaki_card"
+		}
+	]
+}
