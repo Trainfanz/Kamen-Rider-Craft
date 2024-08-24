@@ -1,0 +1,16 @@
+{
+	"name": "KamenRide Faiz",
+	"icon": "kamenridercraft:faiz_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 13,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to access Decade's $(l:decade/riders/decade#faiz)Faiz$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:faiz_card"
+		}
+	]
+}
