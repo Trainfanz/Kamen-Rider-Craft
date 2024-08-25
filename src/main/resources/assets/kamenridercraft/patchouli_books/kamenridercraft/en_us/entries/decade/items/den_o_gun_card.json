@@ -1,0 +1,16 @@
+{
+	"name": "FormRide Den-O Gun Form",
+	"icon": "kamenridercraft:den_o_gun_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 40,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)CSM Rider Card Set Extra (2022, toyline)$(br2)Used to access Decade's $(l:decade/riders/decade#den_o_gun)Den-O Gun$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den_o_gun_card"
+		}
+	]
+}

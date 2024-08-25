@@ -1,0 +1,16 @@
+{
+	"name": "KamenRide Agito",
+	"icon": "kamenridercraft:agito_ground_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 11,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to access Decade's $(l:decade/riders/decade#agito)Agito$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:agito_ground_card"
+		}
+	]
+}

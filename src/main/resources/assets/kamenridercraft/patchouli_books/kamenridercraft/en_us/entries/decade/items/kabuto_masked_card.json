@@ -1,0 +1,16 @@
+{
+	"name": "FormRide Kabuto Masked Form",
+	"icon": "kamenridercraft:kabuto_masked_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 36,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)CSM Rider Card Set Extra (2022, toyline)$(br2)Used to access Decade's $(l:decade/riders/decade#kabuto_masked)Kabuto Masked(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kabuto_masked_card"
+		}
+	]
+}

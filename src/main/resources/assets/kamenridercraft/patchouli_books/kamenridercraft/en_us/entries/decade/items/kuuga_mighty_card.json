@@ -1,0 +1,16 @@
+{
+	"name": "KamenRide Kuuga",
+	"icon": "kamenridercraft:kuuga_mighty_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 10,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to access Decade's $(l:decade/riders/decade#kuuga)Kuuga$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kuuga_mighty_card"
+		}
+	]
+}

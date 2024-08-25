@@ -1,0 +1,16 @@
+{
+	"name": "KamenRide J",
+	"icon": "kamenridercraft:j_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 61,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade: All Riders vs Dai-Shocker (2009, Movie)$(br2)Used to access Decade's $(l:decade/riders/decade#j)J$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:j_card"
+		}
+	]
+}

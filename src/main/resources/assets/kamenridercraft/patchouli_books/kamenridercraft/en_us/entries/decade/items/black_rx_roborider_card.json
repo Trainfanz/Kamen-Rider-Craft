@@ -1,0 +1,16 @@
+{
+	"name": "FormRide Black RX Robo Rider",
+	"icon": "kamenridercraft:black_rx_roborider_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 62,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)CSM Rider Card Set Extra (2022, toyline)$(br2)Used to access Decade's $(l:decade/riders/decade#black_rx_roborider)Black RX Robo Rider$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:black_rx_roborider_card"
+		}
+	]
+}

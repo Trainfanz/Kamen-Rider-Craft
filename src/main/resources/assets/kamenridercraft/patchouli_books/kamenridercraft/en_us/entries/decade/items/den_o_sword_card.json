@@ -1,0 +1,16 @@
+{
+	"name": "KamenRide Den-O",
+	"icon": "kamenridercraft:den_o_sword_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 17,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to access Decade's $(l:decade/riders/decade#den_o)Den-O$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den_o_sword_card"
+		}
+	]
+}

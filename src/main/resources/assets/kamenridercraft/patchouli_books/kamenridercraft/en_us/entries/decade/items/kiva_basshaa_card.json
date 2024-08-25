@@ -1,0 +1,16 @@
+{
+	"name": "FormRide Kiva Basshaa Form",
+	"icon": "kamenridercraft:kiva_basshaa_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 44,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)CSM Rider Card Set Extra (2022, toyline)$(br2)Used to access Decade's $(l:decade/riders/decade#kiva_basshaa)Kiva Basshaa$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:kiva_basshaa_card"
+		}
+	]
+}
