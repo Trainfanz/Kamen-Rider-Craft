@@ -1,5 +1,5 @@
 {
-    "parent": "kamenridercraft:block/denliner_logo_top",   
+    "parent": "kamenridercraft:block/gaohliner_logo_top",   
      "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],
