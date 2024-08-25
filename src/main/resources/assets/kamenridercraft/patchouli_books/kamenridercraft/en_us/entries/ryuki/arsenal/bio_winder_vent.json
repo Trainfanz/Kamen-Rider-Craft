@@ -1,0 +1,19 @@
+{
+	"name": "Biowinder Hold Vent Card",
+	"icon": "kamenridercraft:bio_winder_vent",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 82,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki Special: 13 Riders (2002, TV special)$(br2)Used by $(l:ryuki/riders/verde)Kamen Rider Verde$(/l) with the $(l:ryuki/arsenal/bio_visor)Biovisor$(/l) to obtain the $(l:ryuki/arsenal/bio_winder)Biowinder$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:bio_winder_vent",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/deepslate_glass_ryuki)Deepslate Advent Glass$(/l)"
+		}
+	]
+}

@@ -2,7 +2,7 @@
 	"name": "Darkwing Card Warrior Card",
 	"icon": "kamenridercraft:darkwing",
 	"category": "kamenridercraft:ryuki/items",
-	"sortnum": 66,
+	"sortnum": 30,
 	"pages": [
 		{
 			"type": "patchouli:text",

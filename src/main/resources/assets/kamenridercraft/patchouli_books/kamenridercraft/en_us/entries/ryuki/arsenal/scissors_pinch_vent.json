@@ -1,0 +1,19 @@
+{
+	"name": "Scissorspinch Strike Vent Card",
+	"icon": "kamenridercraft:scissors_pinch_vent",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 62,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by $(l:ryuki/riders/scissors)Kamen Rider Scissors$(/l) with the $(l:ryuki/arsenal/scissors_visor)Scissorsvisor$(/l) to obtain the $(l:ryuki/arsenal/scissors_pinch)Scissorspinch$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:scissors_pinch_vent",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
+		}
+	]
+}

@@ -9,11 +9,8 @@
 			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Used by Den-O's $(l:den_o/riders/den_o#wing)Wing$(/l) form"
 		},
 		{
-			"type": "patchouli:spotlight",
-			"link_recipe": true,
-			"item": "kamenridercraft:den_gasher_boomerang",
-			"title": " ",
-			"text": "Drops from:$(li)$(l:den_o/mobs/gaoh)Kamen Rider Gaoh$(/l)"
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den_o/den_gasher_boomerang"
 		}
 	]
 }

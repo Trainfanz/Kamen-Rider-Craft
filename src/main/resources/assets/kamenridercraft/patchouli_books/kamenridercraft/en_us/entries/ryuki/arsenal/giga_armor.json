@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:giga_armor",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/giga_armor_vent)Gigaarmor Guard Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/giga_armor_vent)Gigaarmor Guard Vent Card$(/l)"
 		}
 	]
 }

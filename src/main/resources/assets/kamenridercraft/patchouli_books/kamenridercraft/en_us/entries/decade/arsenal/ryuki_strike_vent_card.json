@@ -1,0 +1,16 @@
+{
+	"name": "AttackRide Ryuki Strike Vent",
+	"icon": "kamenridercraft:ryuki_strike_vent_card",
+	"category": "kamenridercraft:decade/arsenal",
+	"sortnum": 17,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used by $(l:decade/riders/decade#ryuki)Decade Ryuki$(/l) to obtain $(l:ryuki/riders/ryuki#ryuki)Kamen Rider Ryuki$(/l)'s $(l:ryuki/arsenal/drag_claw)Dragclaw$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/ryuki_strike_vent_card"
+		}
+	]
+}

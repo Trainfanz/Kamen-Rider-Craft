@@ -1,0 +1,16 @@
+{
+	"name": "Final KamenRide Kuuga Ultimate Form",
+	"icon": "kamenridercraft:kuuga_ultimate_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 64,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to craft Decade's $(l:decade/items/k_touch)Final Kamen Terminal K-Touch$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/kuuga_ultimate_card"
+		}
+	]
+}

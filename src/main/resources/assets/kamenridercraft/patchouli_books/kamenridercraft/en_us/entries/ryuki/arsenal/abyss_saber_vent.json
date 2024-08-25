@@ -1,0 +1,19 @@
+{
+	"name": "Abysssaber Sword Vent Card",
+	"icon": "kamenridercraft:abyss_saber_vent",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 84,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used by $(l:ryuki/riders/abyss)Kamen Rider Abyss$(/l) with the $(l:ryuki/arsenal/abyss_visor)Abyssvisor$(/l) to obtain the $(l:ryuki/arsenal/abyss_saber)Abysssaber$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:abyss_saber_vent",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/deepslate_glass_ryuki)Deepslate Advent Glass$(/l)"
+		}
+	]
+}

@@ -7,7 +7,7 @@
 		{
 			"type": "patchouli:entity",
 			"entity": "kamenridercraft:gaoh",
-			"text": ""
+			"text": "Summoned from a $(l:misc/blocks/gaoh_boss_block)Gaoh Boss Block$(/l)"
 		},
 		{
 			"type": "patchouli:text",

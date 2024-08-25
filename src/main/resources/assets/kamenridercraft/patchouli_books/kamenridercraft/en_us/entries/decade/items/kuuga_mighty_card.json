@@ -6,11 +6,11 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to access Decade's $(l:decade/riders/decade#kuuga)Kuuga$(/l) form"
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to access (Dark) Decade's $(l:decade/riders/decade#kuuga)Kuuga$(/l) form"
 		},
 		{
 			"type": "patchouli:crafting",
-			"recipe": "kamenridercraft:kuuga_mighty_card"
+			"recipe": "kamenridercraft:decade/kuuga_mighty_card"
 		}
 	]
 }

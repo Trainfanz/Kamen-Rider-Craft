@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:drag_claw",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/drag_claw_vent)Dragclaw Strike Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/drag_claw_vent)Dragclaw Strike Vent Card$(/l)"
 		}
 	]
 }

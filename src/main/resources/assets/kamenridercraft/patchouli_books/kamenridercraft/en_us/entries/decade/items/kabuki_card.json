@@ -1,0 +1,16 @@
+{
+	"name": "KamenRide Kabuki",
+	"icon": "kamenridercraft:kabuki_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 77,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Cho Den-O Trilogy: EPISODE YELLOW: Treasure DE-End Pirates (2010, movie)$(br2)Used to craft Diend's $(l:decade/items/k_touch_diend)Final Kamen Terminal K-Touch (Diend)$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/kabuki_card"
+		}
+	]
+}

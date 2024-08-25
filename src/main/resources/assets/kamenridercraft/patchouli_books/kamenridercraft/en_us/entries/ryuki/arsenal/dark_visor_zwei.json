@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:dark_visor_zwei",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/dark_visor_zwei_vent)Darkvisorzwei Guard Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/dark_visor_zwei_vent)Darkvisorzwei Guard Vent Card$(/l)"
 		}
 	]
 }

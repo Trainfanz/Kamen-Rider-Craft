@@ -6,11 +6,11 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to access Decade's $(l:decade/riders/decade#blade)Blade$(/l) form"
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to access (Dark) Decade's $(l:decade/riders/decade#blade)Blade$(/l) form"
 		},
 		{
 			"type": "patchouli:crafting",
-			"recipe": "kamenridercraft:blade_ace_card"
+			"recipe": "kamenridercraft:decade/blade_ace_card"
 		}
 	]
 }

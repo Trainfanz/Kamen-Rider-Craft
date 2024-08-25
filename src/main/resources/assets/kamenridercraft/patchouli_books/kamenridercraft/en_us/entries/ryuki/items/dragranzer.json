@@ -2,7 +2,7 @@
 	"name": "Dragranzer Card Warrior Card",
 	"icon": "kamenridercraft:dragranzer",
 	"category": "kamenridercraft:ryuki/items",
-	"sortnum": 65,
+	"sortnum": 29,
 	"pages": [
 		{
 			"type": "patchouli:text",

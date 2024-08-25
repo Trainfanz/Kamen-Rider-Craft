@@ -10,7 +10,7 @@
 		},
 		{
 			"type": "patchouli:crafting",
-			"recipe": "kamenridercraft:diend_power_up_card"
+			"recipe": "kamenridercraft:decade/diend_power_up_card"
 		}
 	]
 }

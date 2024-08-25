@@ -1,0 +1,16 @@
+{
+	"name": "AttackRide Kabuto Clock Up",
+	"icon": "kamenridercraft:kabuto_clock_up_card",
+	"category": "kamenridercraft:decade/arsenal",
+	"sortnum": 22,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used by $(l:decade/riders/decade#kabuto)Decade Kabuto$(/l) to gain Speed XXI for a short amount of time"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/kabuto_clock_up_card"
+		}
+	]
+}

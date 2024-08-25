@@ -1,0 +1,16 @@
+{
+	"name": "AttackRide Den-O Utchari",
+	"icon": "kamenridercraft:den_o_utchari_card",
+	"category": "kamenridercraft:decade/arsenal",
+	"sortnum": 28,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used by $(l:decade/riders/decade#den_o_ax)Decade Den-O Ax$(/l) to gain Jump Boost IV and Strength III for a short amount of time"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/den_o_utchari_card"
+		}
+	]
+}

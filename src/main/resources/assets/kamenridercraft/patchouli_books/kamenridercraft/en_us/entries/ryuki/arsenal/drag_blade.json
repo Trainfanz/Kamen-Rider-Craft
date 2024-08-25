@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:drag_blade",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/drag_blade_vent)Dragblade Sword Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/drag_blade_vent)Dragblade Sword Vent Card$(/l)"
 		}
 	]
 }

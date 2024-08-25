@@ -1,0 +1,19 @@
+{
+	"name": "Dragclaw Strike Vent Card (Ryuga)",
+	"icon": "kamenridercraft:drag_claw_vent_ryuga",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 79,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki: Episode Final (2002, movie)$(br2)Used by $(l:ryuki/riders/ryuga#ryuga)Kamen Rider Ryuga$(/l) with the $(l:ryuki/arsenal/black_drag_visor)Blackdragvisor$(/l) to obtain the $(l:ryuki/arsenal/drag_claw_ryuga)Dragclaw (Ryuga)$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:drag_claw_vent_ryuga",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/deepslate_glass_ryuki)Deepslate Advent Glass$(/l)"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"name": "AttackRide Amazon GaGa no Udewa",
+	"icon": "kamenridercraft:amazon_gaga_no_udewa_card",
+	"category": "kamenridercraft:decade/arsenal",
+	"sortnum": 29,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used by $(l:decade/riders/decade#complete)Decade Complete Form$(/l) or $(l:decade/riders/decade#amazon)Decade Amazon$(/l) to obtain $(l:amazon/riders/amazon)Kamen Rider Amazon$(/l)'s $(l:amazon/items/gaga_armlet)GaGa Armlet$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/amazon_gaga_no_udewa_card"
+		}
+	]
+}

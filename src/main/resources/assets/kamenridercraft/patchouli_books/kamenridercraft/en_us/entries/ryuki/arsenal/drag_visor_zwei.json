@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:drag_visor_zwei",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/drag_visor_zwei_vent)Dragvisorzwei Shoot Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/drag_visor_zwei_vent)Dragvisorzwei Shoot Vent Card$(/l)"
 		}
 	]
 }

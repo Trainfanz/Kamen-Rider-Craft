@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:shell_defense",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/shell_defense_vent)Shelldefense Guard Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/shell_defense_vent)Shelldefense Guard Vent Card$(/l)"
 		}
 	]
 }

@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:zeronos_plat_card",
 			"title": " ",
-			"text": "Found on $(l:den_o/structures/zeroliner)Zeroliners$(/l)"
+			"text": "Found on the $(l:den_o/structures/zeroliner)ZeroLiner$(/l)"
 		}
 	]
 }

@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:bio_winder",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/bio_winder_vent)Biowinder Hold Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/bio_winder_vent)Biowinder Hold Vent Card$(/l)"
 		}
 	]
 }

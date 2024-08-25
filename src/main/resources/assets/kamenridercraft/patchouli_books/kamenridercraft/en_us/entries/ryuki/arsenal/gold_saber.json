@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:gold_saber",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/gold_saber_vent)Goldsaber Sword Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/gold_saber_vent)Goldsaber Sword Vent Card$(/l)"
 		}
 	]
 }

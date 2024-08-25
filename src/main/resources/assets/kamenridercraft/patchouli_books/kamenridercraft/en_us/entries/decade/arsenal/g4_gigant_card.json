@@ -1,0 +1,16 @@
+{
+	"name": "AttackRide G4 Gigant",
+	"icon": "kamenridercraft:g4_gigant_card",
+	"category": "kamenridercraft:decade/arsenal",
+	"sortnum": 16,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider × Kamen Rider W & Decade: Movie War 2010 (2009, movie)$(br2)Used by $(l:decade/riders/decade#violent_emotion)Decade Violent Emotion$(/l) to obtain $(l:agito/riders/g4)Kamen Rider G4$(/l)'s $(l:agito/arsenal/g4_gigant)G4 Gigant$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/g4_gigant_card"
+		}
+	]
+}

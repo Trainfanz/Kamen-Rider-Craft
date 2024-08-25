@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:giga_horn",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/giga_horn_vent)Gigahorn Strike Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/giga_horn_vent)Gigahorn Strike Vent Card$(/l)"
 		}
 	]
 }

@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:rider_ticket_gun",
 			"title": " ",
-			"text": "Drops from:$(li)$(l:den_o/mobs/ryutaros)Ryutaros$(/l)"
+			"text": "Found on the $(l:den_o/structures/denliner_ikazuchi)DenLiner Ikazuchi$(/l)$(br2)Drops from:$(li)$(l:den_o/mobs/ryutaros)Ryutaros$(/l)"
 		}
 	]
 }

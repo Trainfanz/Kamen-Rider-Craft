@@ -1,0 +1,16 @@
+{
+	"name": "DenGasher Naginata Mode",
+	"icon": "kamenridercraft:den_gasher_vega",
+	"category": "kamenridercraft:den_o/arsenal",
+	"sortnum": 19,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Cho Kamen Rider Den-O & Decade Neo Generations The Movie: The Onigashima Warship (2009, movie)$(br2)Used by $(l:den_o/riders/new_den_o)Kamen Rider New Den-O$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:den_o/den_gasher_vega"
+		}
+	]
+}

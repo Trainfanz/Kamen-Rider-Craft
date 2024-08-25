@@ -6,11 +6,11 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider Decade: All Riders vs Dai-Shocker (2009, Movie)$(br2)Used to access Decade's $(l:decade/riders/decade#stronger)Stronger$(/l) form"
+			"text": "Appears in:$(li)Kamen Rider Decade: All Riders vs Dai-Shocker (2009, Movie)$(br2)Used to access (Dark) Decade's $(l:decade/riders/decade#stronger)Stronger$(/l) form"
 		},
 		{
 			"type": "patchouli:crafting",
-			"recipe": "kamenridercraft:stronger_card"
+			"recipe": "kamenridercraft:decade/stronger_card"
 		}
 	]
 }

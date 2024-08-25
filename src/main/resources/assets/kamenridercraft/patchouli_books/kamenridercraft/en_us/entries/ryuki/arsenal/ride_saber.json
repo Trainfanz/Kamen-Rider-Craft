@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:ride_saber",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/ride_saber_vent)Ridesaber Sword Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/ride_saber_vent)Ridesaber Sword Vent Card$(/l)"
 		}
 	]
 }

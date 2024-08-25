@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:giga_launcher",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/giga_launcher_vent)Gigalauncher Shoot Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/giga_launcher_vent)Gigalauncher Shoot Vent Card$(/l)"
 		}
 	]
 }

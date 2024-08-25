@@ -6,11 +6,11 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)CSM Rider Card Set Extra (2022, toyline)$(br2)Used to access Decade's $(l:decade/riders/decade#agito_flame)Agito Flame$(/l) form"
+			"text": "Appears in:$(li)CSM Rider Card Set Extra (2022, toyline)$(br2)Used to access (Dark) Decade's $(l:decade/riders/decade#agito_flame)Agito Flame$(/l) form"
 		},
 		{
 			"type": "patchouli:crafting",
-			"recipe": "kamenridercraft:agito_flame_card"
+			"recipe": "kamenridercraft:decade/agito_flame_card"
 		}
 	]
 }

@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:slash_dagger",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/slash_dagger_vent)Slashdagger Sword Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/slash_dagger_vent)Slashdagger Sword Vent Card$(/l)"
 		}
 	]
 }

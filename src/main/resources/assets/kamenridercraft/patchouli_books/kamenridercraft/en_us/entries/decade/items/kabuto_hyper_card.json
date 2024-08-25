@@ -1,0 +1,16 @@
+{
+	"name": "Final KamenRide Kabuto Hyper Form",
+	"icon": "kamenridercraft:kabuto_hyper_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 70,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to craft Decade's $(l:decade/items/k_touch)Final Kamen Terminal K-Touch$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/kabuto_hyper_card"
+		}
+	]
+}

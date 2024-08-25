@@ -1,0 +1,19 @@
+{
+	"name": "Evilwhip Swing Vent Card",
+	"icon": "kamenridercraft:evil_whip_vent",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 67,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by $(l:ryuki/riders/raia#raia)Kamen Rider Raia$(/l) with the $(l:ryuki/arsenal/evil_visor)Evilvisor$(/l) to obtain the $(l:ryuki/arsenal/evil_whip)Evilwhip$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:evil_whip_vent",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
+		}
+	]
+}

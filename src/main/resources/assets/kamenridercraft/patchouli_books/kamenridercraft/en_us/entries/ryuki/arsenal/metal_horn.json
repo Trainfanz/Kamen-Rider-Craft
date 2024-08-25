@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:metal_horn",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/metal_horn_vent)Metalhorn Strike Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/metal_horn_vent)Metalhorn Strike Vent Card$(/l)"
 		}
 	]
 }

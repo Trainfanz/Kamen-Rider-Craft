@@ -6,11 +6,11 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)CSM Rider Card Set Extra (2022, toyline)$(br2)Used to access Decade's $(l:decade/riders/decade#kiva_garulu)Kiva Garulu$(/l) form"
+			"text": "Appears in:$(li)CSM Rider Card Set Extra (2022, toyline)$(br2)Used to access (Dark) Decade's $(l:decade/riders/decade#kiva_garulu)Kiva Garulu$(/l) form"
 		},
 		{
 			"type": "patchouli:crafting",
-			"recipe": "kamenridercraft:kiva_garulu_card"
+			"recipe": "kamenridercraft:decade/kiva_garulu_card"
 		}
 	]
 }

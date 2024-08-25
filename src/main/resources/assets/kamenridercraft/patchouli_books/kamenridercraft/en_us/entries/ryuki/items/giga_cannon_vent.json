@@ -2,7 +2,7 @@
 	"name": "Gigacannon Shoot Vent Card",
 	"icon": "kamenridercraft:giga_cannon_vent",
 	"category": "kamenridercraft:ryuki/items",
-	"sortnum": 41,
+	"sortnum": 25,
 	"pages": [
 		{
 			"type": "patchouli:text",

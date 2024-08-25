@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:gold_shield",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/gold_shield_vent)Goldshield Guard Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/gold_shield_vent)Goldshield Guard Vent Card$(/l)"
 		}
 	]
 }

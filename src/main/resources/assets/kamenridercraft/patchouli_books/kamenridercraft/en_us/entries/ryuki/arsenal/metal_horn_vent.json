@@ -1,0 +1,19 @@
+{
+	"name": "Metalhorn Strike Vent Card",
+	"icon": "kamenridercraft:metal_horn_vent",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 69,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by $(l:ryuki/riders/gai)Kamen Rider Gai$(/l) with the $(l:ryuki/arsenal/metal_visor)Metalvisor$(/l) to obtain the $(l:ryuki/arsenal/metal_horn)Metalhorn$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:metal_horn_vent",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
+		}
+	]
+}

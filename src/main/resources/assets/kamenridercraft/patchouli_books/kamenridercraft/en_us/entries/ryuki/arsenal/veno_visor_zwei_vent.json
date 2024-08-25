@@ -1,0 +1,19 @@
+{
+	"name": "Venovisorzwei Sword Vent Card",
+	"icon": "kamenridercraft:veno_visor_zwei_vent",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 71,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Outsiders (2022, web series)$(br2)Used by $(l:ryuki/riders/ouja#survive)Ouja Survive Form$(/l) with the $(l:ryuki/arsenal/veno_visor)Venovisor$(/l) to obtain the $(l:ryuki/arsenal/veno_visor_zwei)Venovisorzwei$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:veno_visor_zwei_vent",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
+		}
+	]
+}

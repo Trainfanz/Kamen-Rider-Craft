@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:dark_arrow",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/dark_arrow_vent)Darkarrow Shoot Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/dark_arrow_vent)Darkarrow Shoot Vent Card$(/l)"
 		}
 	]
 }

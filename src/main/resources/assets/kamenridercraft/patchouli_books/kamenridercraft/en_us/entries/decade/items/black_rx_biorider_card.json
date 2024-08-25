@@ -6,11 +6,11 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)CSM Rider Card Set Extra (2022, toyline)$(br2)Used to access Decade's $(l:decade/riders/decade#black_rx_biorider)Black RX Bio Rider$(/l) form"
+			"text": "Appears in:$(li)CSM Rider Card Set Extra (2022, toyline)$(br2)Used to access (Dark) Decade's $(l:decade/riders/decade#black_rx_biorider)Black RX Bio Rider$(/l) form"
 		},
 		{
 			"type": "patchouli:crafting",
-			"recipe": "kamenridercraft:black_rx_biorider_card"
+			"recipe": "kamenridercraft:decade/black_rx_biorider_card"
 		}
 	]
 }

@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:rider_ticket_strike",
 			"title": " ",
-			"text": "Found on $(li)$(l:den_o/structures/new_denliner)New Denliners$(/l)"
+			"text": "Found on the $(l:den_o/structures/new_denliner)New DenLiner$(/l)"
 		}
 	]
 }

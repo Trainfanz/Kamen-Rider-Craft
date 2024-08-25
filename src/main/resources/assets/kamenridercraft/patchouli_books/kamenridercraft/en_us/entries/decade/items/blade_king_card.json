@@ -1,0 +1,16 @@
+{
+	"name": "Final KamenRide Blade King Form",
+	"icon": "kamenridercraft:blade_king_card",
+	"category": "kamenridercraft:decade/items",
+	"sortnum": 68,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to craft Decade's $(l:decade/items/k_touch)Final Kamen Terminal K-Touch$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/blade_king_card"
+		}
+	]
+}

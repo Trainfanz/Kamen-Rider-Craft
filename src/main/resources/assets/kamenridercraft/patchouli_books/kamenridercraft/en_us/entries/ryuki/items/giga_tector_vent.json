@@ -2,7 +2,7 @@
 	"name": "Gigatector Guard Vent Card",
 	"icon": "kamenridercraft:giga_tector_vent",
 	"category": "kamenridercraft:ryuki/items",
-	"sortnum": 43,
+	"sortnum": 26,
 	"pages": [
 		{
 			"type": "patchouli:text",

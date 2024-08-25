@@ -6,11 +6,11 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)CSM Rider Card Set Extra (2022, toyline)$(br2)Used to access Decade's $(l:decade/riders/decade#kuuga_dragon)Kuuga Dragon$(/l) form"
+			"text": "Appears in:$(li)CSM Rider Card Set Extra (2022, toyline)$(br2)Used to access (Dark) Decade's $(l:decade/riders/decade#kuuga_dragon)Kuuga Dragon$(/l) form"
 		},
 		{
 			"type": "patchouli:crafting",
-			"recipe": "kamenridercraft:kuuga_dragon_card"
+			"recipe": "kamenridercraft:decade/kuuga_dragon_card"
 		}
 	]
 }

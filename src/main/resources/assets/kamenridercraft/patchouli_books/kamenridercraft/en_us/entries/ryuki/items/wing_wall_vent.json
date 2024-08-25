@@ -2,7 +2,7 @@
 	"name": "Wingwall Guard Vent Card",
 	"icon": "kamenridercraft:wing_wall_vent",
 	"category": "kamenridercraft:ryuki/items",
-	"sortnum": 32,
+	"sortnum": 24,
 	"pages": [
 		{
 			"type": "patchouli:text",

@@ -1,0 +1,19 @@
+{
+	"name": "Venosaber Sword Vent Card",
+	"icon": "kamenridercraft:veno_saber_vent",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 70,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by $(l:ryuki/riders/ouja#ouja)Kamen Rider Ouja$(/l) with the $(l:ryuki/arsenal/veno_visor)Venovisor$(/l) to obtain the $(l:ryuki/arsenal/veno_saber)Venosaber$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:veno_saber_vent",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
+		}
+	]
+}

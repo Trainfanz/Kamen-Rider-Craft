@@ -1,0 +1,16 @@
+{
+	"name": "Diendriver",
+	"icon": "kamenridercraft:diendriver",
+	"category": "kamenridercraft:decade/arsenal",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used by $(l:decade/riders/diend#diend)Kamen Rider Diend$(/l)$(br2)Used to obtain Diend's $(l:decade/devices/diend_belt)Diend Belt$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/diendriver"
+		}
+	]
+}

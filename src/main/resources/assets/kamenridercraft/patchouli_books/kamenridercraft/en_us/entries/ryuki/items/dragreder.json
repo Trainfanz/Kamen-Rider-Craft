@@ -2,7 +2,7 @@
 	"name": "Dragreder Card Warrior Card",
 	"icon": "kamenridercraft:dragreder",
 	"category": "kamenridercraft:ryuki/items",
-	"sortnum": 64,
+	"sortnum": 28,
 	"pages": [
 		{
 			"type": "patchouli:text",

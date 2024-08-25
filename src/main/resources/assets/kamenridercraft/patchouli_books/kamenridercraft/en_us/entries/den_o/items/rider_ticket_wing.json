@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:rider_ticket_wing",
 			"title": " ",
-			"text": "Drops from:$(li)$(l:den_o/mobs/gaoh)Kamen Rider Gaoh$(/l)"
+			"text": "Found on $(l:den_o/structures/denliner_gouka#sieg_carriage)Sieg's carriage$(/l) on the DenLiner Gouka"
 		}
 	]
 }

@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:rider_ticket_sword",
 			"title": " ",
-			"text": "Drops from:$(li)$(l:den_o/mobs/momotaros)Momotaros$(/l)"
+			"text": "Found on the $(l:den_o/structures/denliner_gouka)DenLiner Gouka$(/l)$(br2)Drops from:$(li)$(l:den_o/mobs/momotaros)Momotaros$(/l)"
 		}
 	]
 }

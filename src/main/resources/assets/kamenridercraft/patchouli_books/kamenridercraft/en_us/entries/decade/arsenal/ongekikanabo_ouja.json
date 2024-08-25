@@ -1,0 +1,16 @@
+{
+	"name": "Ongekikanabo (Ouja)",
+	"icon": "kamenridercraft:ongekikanabo_ouja",
+	"category": "kamenridercraft:decade/arsenal",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used by $(l:ryuki/riders/ouja#ouja)Kamen Rider Ouja$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/ongekikanabo_ouja"
+		}
+	]
+}

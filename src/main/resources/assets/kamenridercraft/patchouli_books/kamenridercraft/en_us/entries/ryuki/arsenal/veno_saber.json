@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:veno_saber",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/veno_saber_vent)Venosaber Sword Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/veno_saber_vent)Venosaber Sword Vent Card$(/l)"
 		}
 	]
 }

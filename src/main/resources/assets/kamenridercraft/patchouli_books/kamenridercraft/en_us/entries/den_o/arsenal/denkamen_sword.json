@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:denkamen_sword",
 			"title": " ",
-			"text": "Found on $(l:den_o/structures/kingliner)KingLiners$(/l)"
+			"text": "Found on the $(l:den_o/structures/kingliner)KingLiner$(/l)"
 		}
 	]
 }

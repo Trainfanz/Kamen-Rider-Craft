@@ -10,7 +10,7 @@
 		},
 		{
 			"type": "patchouli:crafting",
-			"recipe": "kamenridercraft:decade_violent_emotion_card"
+			"recipe": "kamenridercraft:decade/decade_violent_emotion_card"
 		}
 	]
 }

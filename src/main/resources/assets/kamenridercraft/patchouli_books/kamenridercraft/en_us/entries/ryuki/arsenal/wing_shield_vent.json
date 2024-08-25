@@ -1,0 +1,19 @@
+{
+	"name": "Wingshield Guard Vent Card",
+	"icon": "kamenridercraft:wing_shield_vent",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 77,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki: Episode Final (2002, movie)$(br2)Used by $(l:ryuki/riders/femme)Kamen Rider Femme$(/l) with the $(l:ryuki/arsenal/blanc_visor)Blancvisor$(/l) to obtain the $(l:ryuki/arsenal/wing_shield)Wingshield$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:wing_shield_vent",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/deepslate_glass_ryuki)Deepslate Advent Glass$(/l)"
+		}
+	]
+}

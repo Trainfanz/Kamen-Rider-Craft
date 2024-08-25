@@ -14,7 +14,7 @@
 		{
 			"type": "patchouli:text",
 			"title": "Kamen Rider Sasword",
-			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Transforms with the $(l:kabuto/devices/sasword_rider_belt)ZECT Buckle (Sasword)$(/l)$(br2)Status Effects:$(li)Slowness$(li)Resistance II"
+			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Transforms with the $(l:kabuto/arsenal/sasword_yaiver)Sasword Yaiver$(/l) and $(l:kabuto/devices/sasword_rider_belt)ZECT Buckle (Sasword)$(/l)$(br2)Status Effects:$(li)Slowness$(li)Resistance II"
 		},
 		{
 			"type": "patchouli:entity",
@@ -26,7 +26,7 @@
 		{
 			"type": "patchouli:text",
 			"title": "Kamen Rider Sasword",
-			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Transforms with the $(l:kabuto/devices/sasword_rider_belt)ZECT Buckle (Sasword)$(/l)$(br2)Status Effects:$(li)Speed IV$(li)Haste IV$(li)Strength III"
+			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Transforms with the $(l:kabuto/arsenal/sasword_yaiver)Sasword Yaiver$(/l) and $(l:kabuto/devices/sasword_rider_belt)ZECT Buckle (Sasword)$(/l)$(br2)Status Effects:$(li)Speed IV$(li)Haste IV$(li)Strength III"
 		}
 	]
 }

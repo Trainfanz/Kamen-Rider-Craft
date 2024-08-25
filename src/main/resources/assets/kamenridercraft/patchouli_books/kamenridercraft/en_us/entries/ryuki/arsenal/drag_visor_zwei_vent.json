@@ -1,0 +1,19 @@
+{
+	"name": "Dragvisorzwei Shoot Vent Card",
+	"icon": "kamenridercraft:drag_visor_zwei_vent",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 54,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by $(l:ryuki/riders/ryuki#survive)Ryuki Survive Form$(/l) with the $(l:ryuki/arsenal/drag_visor)Dragvisor$(/l) to obtain the $(l:ryuki/arsenal/drag_visor_zwei)Dragvisorzwei$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:drag_visor_zwei_vent",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
+		}
+	]
+}

@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:gazelle_stab",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/gazelle_stab_vent)Gazellestab Spin Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/gazelle_stab_vent)Gazellestab Spin Vent Card$(/l)"
 		}
 	]
 }

@@ -1,0 +1,16 @@
+{
+	"name": "Ride Booker",
+	"icon": "kamenridercraft:ride_booker",
+	"category": "kamenridercraft:decade/arsenal",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used by $(l:decade/riders/decade#decade)Kamen Rider Decade$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/ride_booker"
+		}
+	]
+}

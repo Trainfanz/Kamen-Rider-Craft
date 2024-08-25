@@ -13,14 +13,14 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:dest_claw",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/dest_claw_vent)Destclaw Strike Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/dest_claw_vent)Destclaw Strike Vent Card$(/l)"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"link_recipe": true,
 			"item": "kamenridercraft:dest_claw1",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/dest_claw_vent)Destclaw Strike Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/dest_claw_vent)Destclaw Strike Vent Card$(/l)"
 		}
 	]
 }

@@ -1,0 +1,16 @@
+{
+	"name": "AttackRide Blade Mach",
+	"icon": "kamenridercraft:blade_mach_card",
+	"category": "kamenridercraft:decade/arsenal",
+	"sortnum": 19,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used by $(l:decade/riders/decade#blade)Decade Blade$(/l) to gain Speed IV for a short amount of time"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/blade_mach_card"
+		}
+	]
+}

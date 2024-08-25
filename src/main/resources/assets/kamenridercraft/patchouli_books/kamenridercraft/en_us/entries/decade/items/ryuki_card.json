@@ -6,11 +6,11 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to access Decade's $(l:decade/riders/decade#ryuki)Ryuki$(/l) form"
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used to access (Dark) Decade's $(l:decade/riders/decade#ryuki)Ryuki$(/l) form"
 		},
 		{
 			"type": "patchouli:crafting",
-			"recipe": "kamenridercraft:ryuki_card"
+			"recipe": "kamenridercraft:decade/ryuki_card"
 		}
 	]
 }

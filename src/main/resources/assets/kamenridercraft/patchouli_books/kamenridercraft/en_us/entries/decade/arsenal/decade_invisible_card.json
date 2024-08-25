@@ -1,0 +1,16 @@
+{
+	"name": "AttackRide Decade Invisible",
+	"icon": "kamenridercraft:decade_invisible_card",
+	"category": "kamenridercraft:decade/arsenal",
+	"sortnum": 9,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used by $(l:decade/riders/decade#decade)Kamen Rider Decade$(/l) to turn invisible for a short amount of time"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/decade_invisible_card"
+		}
+	]
+}

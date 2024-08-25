@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:abyss_saber",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/abyss_saber_vent)Abysssaber Sword Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/abyss_saber_vent)Abysssaber Sword Vent Card$(/l)"
 		}
 	]
 }

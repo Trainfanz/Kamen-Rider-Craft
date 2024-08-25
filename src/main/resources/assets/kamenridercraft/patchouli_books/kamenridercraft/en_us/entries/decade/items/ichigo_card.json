@@ -6,11 +6,11 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider x Super Sentai: Super Hero Taisen (2012, Movie)$(br2)Used to access Decade's $(l:decade/riders/decade#ichigo)Ichigo$(/l) form"
+			"text": "Appears in:$(li)Kamen Rider x Super Sentai: Super Hero Taisen (2012, Movie)$(br2)Used to access (Dark) Decade's $(l:decade/riders/decade#ichigo)Ichigo$(/l) form"
 		},
 		{
 			"type": "patchouli:crafting",
-			"recipe": "kamenridercraft:ichigo_card"
+			"recipe": "kamenridercraft:decade/ichigo_card"
 		}
 	]
 }

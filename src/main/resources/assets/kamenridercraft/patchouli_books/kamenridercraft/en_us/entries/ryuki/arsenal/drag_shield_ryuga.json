@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:drag_shield_ryuga",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/drag_shield_vent_ryuga)Dragshield Guard Vent Card (Ryuga)$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/drag_shield_vent_ryuga)Dragshield Guard Vent Card (Ryuga)$(/l)"
 		}
 	]
 }

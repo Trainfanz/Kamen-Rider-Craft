@@ -2,7 +2,7 @@
 	"name": "Dragshield Guard Vent Card (Ryuga)",
 	"icon": "kamenridercraft:drag_shield_vent_form_ryuga",
 	"category": "kamenridercraft:ryuki/items",
-	"sortnum": 58,
+	"sortnum": 27,
 	"pages": [
 		{
 			"type": "patchouli:text",

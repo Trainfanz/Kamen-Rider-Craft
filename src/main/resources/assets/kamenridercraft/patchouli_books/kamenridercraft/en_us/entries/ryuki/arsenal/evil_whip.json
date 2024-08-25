@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:evil_whip",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/evil_whip_vent)Evilwhip Swing Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/evil_whip_vent)Evilwhip Swing Vent Card$(/l)"
 		}
 	]
 }

@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:dark_blade",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/dark_blade_vent)Darkblade Sword Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/dark_blade_vent)Darkblade Sword Vent Card$(/l)"
 		}
 	]
 }

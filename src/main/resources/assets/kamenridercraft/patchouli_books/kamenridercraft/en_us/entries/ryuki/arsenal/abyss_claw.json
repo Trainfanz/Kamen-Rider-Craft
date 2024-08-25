@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:abyss_claw",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/abyss_claw_vent)Abyssclaw Strike Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/abyss_claw_vent)Abyssclaw Strike Vent Card$(/l)"
 		}
 	]
 }

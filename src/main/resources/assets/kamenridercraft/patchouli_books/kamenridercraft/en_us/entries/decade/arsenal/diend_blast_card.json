@@ -1,0 +1,16 @@
+{
+	"name": "AttackRide Diend Blast",
+	"icon": "kamenridercraft:diend_blast_card",
+	"category": "kamenridercraft:decade/arsenal",
+	"sortnum": 10,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used by $(l:decade/riders/diend#diend)Kamen Rider Diend$(/l) to gain Shot Boost III for a short amount of time"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/diend_blast_card"
+		}
+	]
+}

@@ -9,7 +9,7 @@
 			"anchor": "plat",
 			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:den_o_belt\",tag:{slot_tex1:\"rider_ticket\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
 			"name": "Plat Form",
-			"text": "Accessed with the $(l:den_o/items/rider_ticket)Rider Ticket$(/l) while the $(l:den_o/items/rider_pass)Rider Pass$(/l) is in your inventory"
+			"text": "Accessed with the $(l:den_o/items/rider_ticket)Rider Ticket$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -21,7 +21,7 @@
 			"anchor": "sword",
 			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:den_o_belt\",tag:{slot_tex1:\"rider_ticket_sword\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
 			"name": "Sword Form",
-			"text": "Accessed with the $(l:den_o/items/rider_ticket_sword)Rider Ticket Momotaros$(/l) while the $(l:den_o/items/rider_pass)Rider Pass$(/l) is in your inventory"
+			"text": "Accessed with the $(l:den_o/items/rider_ticket_sword)Rider Ticket Momotaros$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -33,7 +33,7 @@
 			"anchor": "rod",
 			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:den_o_belt\",tag:{slot_tex1:\"rider_ticket_rod\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
 			"name": "Rod Form",
-			"text": "Accessed with the $(l:den_o/items/rider_ticket_rod)Rider Ticket Urataros$(/l) while the $(l:den_o/items/rider_pass)Rider Pass$(/l) is in your inventory"
+			"text": "Accessed with the $(l:den_o/items/rider_ticket_rod)Rider Ticket Urataros$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -45,7 +45,7 @@
 			"anchor": "ax",
 			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:den_o_belt\",tag:{slot_tex1:\"rider_ticket_ax\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
 			"name": "Ax Form",
-			"text": "Accessed with the $(l:den_o/items/rider_ticket_ax)Rider Ticket Kintaros$(/l) while the $(l:den_o/items/rider_pass)Rider Pass$(/l) is in your inventory"
+			"text": "Accessed with the $(l:den_o/items/rider_ticket_ax)Rider Ticket Kintaros$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -57,7 +57,7 @@
 			"anchor": "gun",
 			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:den_o_belt\",tag:{slot_tex1:\"rider_ticket_gun\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
 			"name": "Gun Form",
-			"text": "Accessed with the $(l:den_o/items/rider_ticket_gun)Rider Ticket Ryutaros$(/l) while the $(l:den_o/items/rider_pass)Rider Pass$(/l) is in your inventory"
+			"text": "Accessed with the $(l:den_o/items/rider_ticket_gun)Rider Ticket Ryutaros$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -69,7 +69,7 @@
 			"anchor": "wing",
 			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:den_o_belt\",tag:{slot_tex1:\"rider_ticket_wing\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
 			"name": "Wing Form",
-			"text": "Accessed with the $(l:den_o/items/rider_ticket_wing)Rider Ticket Sieg$(/l) while the $(l:den_o/items/rider_pass)Rider Pass$(/l) is in your inventory"
+			"text": "Accessed with the $(l:den_o/items/rider_ticket_wing)Rider Ticket Sieg$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -81,7 +81,7 @@
 			"anchor": "climax",
 			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:den_o_belt\",tag:{slot_tex1:\"ktaros\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
 			"name": "Climax Form",
-			"text": "Accessed with the $(l:den_o/items/ktaros)K-Taros$(/l) while the $(l:den_o/items/rider_pass)Rider Pass$(/l) is in your inventory"
+			"text": "Accessed with the $(l:den_o/items/ktaros)K-Taros$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -91,9 +91,9 @@
 		{
 			"type": "patchouli:entity",
 			"anchor": "liner",
-			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:den_o_belt\",tag:{slot_tex1:\"denkamen_sword\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:den_o_belt\",tag:{slot_tex1:\"den_o_liner_form\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
 			"name": "Liner Form",
-			"text": "Accessed with the $(l:den_o/items/denkamen_sword)DenKamen Sword$(/l) while the $(l:den_o/items/rider_pass)Rider Pass$(/l) is in your inventory"
+			"text": "Accessed with the $(l:den_o/items/denkamen_sword)DenKamen Sword$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -117,7 +117,7 @@
 			"anchor": "pudding",
 			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:den_o_belt\",tag:{slot_tex1:\"rider_ticket_pudding\"},Count:1b},{id:\"kamenridercraft:den_olegs\",Count:1b},{id:\"kamenridercraft:den_otroso\",Count:1b},{id:\"kamenridercraft:den_ohead\",Count:1b}]}",
 			"name": "Pudding Form",
-			"text": "Accessed with the $(l:den_o/items/rider_ticket_pudding)Rider Ticket Pudding$(/l) while the $(l:den_o/items/rider_pass)Rider Pass$(/l) is in your inventory"
+			"text": "Accessed with the $(l:den_o/items/rider_ticket_pudding)Rider Ticket Pudding$(/l)"
 		},
 		{
 			"type": "patchouli:text",

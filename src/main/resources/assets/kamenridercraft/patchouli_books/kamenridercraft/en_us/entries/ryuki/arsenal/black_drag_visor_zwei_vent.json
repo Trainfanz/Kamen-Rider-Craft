@@ -1,0 +1,19 @@
+{
+	"name": "Blackdragvisorzwei Shoot Vent Card",
+	"icon": "kamenridercraft:black_drag_visor_zwei_vent",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 81,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)World of If (2005, S.I.C. Hero Saga)$(br2)Used by $(l:ryuki/riders/ryuga#survive)Ryuga Survive Form$(/l) with the $(l:ryuki/arsenal/black_drag_visor)Blackdragvisor$(/l) to obtain the $(l:ryuki/arsenal/black_drag_visor_zwei)Blackdragvisorzwei$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:black_drag_visor_zwei_vent",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/deepslate_glass_ryuki)Deepslate Advent Glass$(/l)"
+		}
+	]
+}

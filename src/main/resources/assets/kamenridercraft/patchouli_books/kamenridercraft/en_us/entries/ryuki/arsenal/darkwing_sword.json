@@ -2,7 +2,7 @@
 	"name": "Darkwing Sword",
 	"icon": "kamenridercraft:darkwing_sword",
 	"category": "kamenridercraft:ryuki/arsenal",
-	"sortnum": 50,
+	"sortnum": 86,
 	"pages": [
 		{
 			"type": "patchouli:text",

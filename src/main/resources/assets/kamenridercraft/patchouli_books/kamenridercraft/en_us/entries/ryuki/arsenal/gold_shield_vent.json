@@ -1,0 +1,19 @@
+{
+	"name": "Goldshield Guard Vent Card",
+	"icon": "kamenridercraft:gold_shield_vent",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 73,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by $(l:ryuki/riders/odin)Kamen Rider Odin$(/l) with the $(l:ryuki/arsenal/gold_visor)Goldvisor$(/l) to obtain the $(l:ryuki/arsenal/gold_shield)Goldshield$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:gold_shield_vent",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/deepslate_glass_ryuki)Deepslate Advent Glass$(/l)"
+		}
+	]
+}

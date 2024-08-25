@@ -1,0 +1,19 @@
+{
+	"name": "Slashdagger Sword Vent Card",
+	"icon": "kamenridercraft:slash_dagger_vent",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 83,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by $(l:ryuki/riders/alternative)Alternative$(/l) and $(l:ryuki/riders/alternative_zero)Alternative Zero$(/l) with the $(l:ryuki/arsenal/slash_visor)Slashvisor$(/l) to obtain the $(l:ryuki/arsenal/slash_dagger)Slashdagger$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:slash_dagger_vent",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/deepslate_glass_ryuki)Deepslate Advent Glass$(/l)"
+		}
+	]
+}

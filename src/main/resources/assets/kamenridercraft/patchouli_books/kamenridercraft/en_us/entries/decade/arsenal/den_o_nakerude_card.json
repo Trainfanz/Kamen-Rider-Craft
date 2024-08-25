@@ -1,0 +1,16 @@
+{
+	"name": "AttackRide Den-O Nakerude",
+	"icon": "kamenridercraft:den_o_nakerude_card",
+	"category": "kamenridercraft:decade/arsenal",
+	"sortnum": 25,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used by $(l:decade/riders/decade#den_o)Decade Den-O$(/l) to change to Ax Form and put \"You cried!\" in chat"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/den_o_nakerude_card"
+		}
+	]
+}

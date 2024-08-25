@@ -14,7 +14,7 @@
 		{
 			"type": "patchouli:text",
 			"title": "Kamen Rider Drake",
-			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Transforms with the $(l:kabuto/devices/drake_rider_belt)ZECT Buckle (Drake)$(/l)$(br2)Status Effects:$(li)Slowness$(li)Resistance II"
+			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Transforms with the $(l:kabuto/arsenal/drake_grip)Drake Glip$(/l) and $(l:kabuto/devices/drake_rider_belt)ZECT Buckle (Drake)$(/l)$(br2)Status Effects:$(li)Slowness$(li)Resistance II"
 		},
 		{
 			"type": "patchouli:entity",
@@ -26,7 +26,7 @@
 		{
 			"type": "patchouli:text",
 			"title": "Kamen Rider Drake",
-			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Transforms with the $(l:kabuto/devices/drake_rider_belt)ZECT Buckle (Drake)$(/l)$(br2)Status Effects:$(li)Speed IV$(li)Night Vision$(li)Haste IV"
+			"text": "Appears in:$(li)Kamen Rider Kabuto (2006, TV show)$(br2)Transforms with the $(l:kabuto/arsenal/drake_grip)Drake Glip$(/l) and $(l:kabuto/devices/drake_rider_belt)ZECT Buckle (Drake)$(/l)$(br2)Status Effects:$(li)Speed IV$(li)Night Vision$(li)Haste IV"
 		}
 	]
 }

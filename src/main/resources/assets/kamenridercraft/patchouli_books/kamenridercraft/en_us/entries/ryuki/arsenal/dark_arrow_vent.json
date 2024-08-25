@@ -1,0 +1,19 @@
+{
+	"name": "Darkarrow Shoot Vent Card",
+	"icon": "kamenridercraft:dark_arrow_vent",
+	"category": "kamenridercraft:ryuki/arsenal",
+	"sortnum": 61,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Ryuki (2002, TV show)$(br2)Used by $(l:ryuki/riders/knight#survive)Knight Survive Form$(/l) with the $(l:ryuki/arsenal/dark_visor)Darkvisor$(/l) to obtain the $(l:ryuki/arsenal/dark_arrow)Darkarrow$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:dark_arrow_vent",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:misc/blocks/glass_ryuki)Advent Glass$(/l)"
+		}
+	]
+}

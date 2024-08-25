@@ -7,11 +7,11 @@
 		{
 			"type": "patchouli:entity",
 			"entity": "kamenridercraft:urataros",
-			"text": "Spawns within a $(l:den_o/structures/denliner_isurugi)Denliner Isurugi$(/l)"
+			"text": "Spawns within a $(l:den_o/structures/denliner_isurugi)DenLiner Isurugi$(/l)"
 		},
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Health: 30$(br2)Drops$(li)1-3 $(l:den_o/items/imagin_sand)Imagin Sand$(/l)$(li)1 $(l:den_o/items/rider_ticket_rod)Rider Ticket Urataros$(/l) (10%)"
+			"text": "Appears in:$(li)Kamen Rider Den-O (2007, TV show)$(br2)Health: 30$(br2)Tamed with pumpkin pie$(br2)Right-click with a $(l:den_o/arsenal/rider_pass)Rider Pass$(/l) to transform into $(l:den_o/riders/den_o#rod)Kamen Rider Den-O Rod Form$(/l)$(br2)Drops$(li)1-3 $(l:den_o/items/imagin_sand)Imagin Sand$(/l)$(li)1 $(l:den_o/items/rider_ticket_rod)Rider Ticket Urataros$(/l) (10%)"
 		}
 	]
 }

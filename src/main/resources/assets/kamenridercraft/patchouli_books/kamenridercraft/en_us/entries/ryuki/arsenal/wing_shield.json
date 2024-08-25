@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:wing_shield",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/wing_shield_vent)Wingshield Guard Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/wing_shield_vent)Wingshield Guard Vent Card$(/l)"
 		}
 	]
 }

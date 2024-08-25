@@ -1,0 +1,16 @@
+{
+	"name": "AttackRide Diend Crossattack",
+	"icon": "kamenridercraft:diend_crossattack_card",
+	"category": "kamenridercraft:decade/arsenal",
+	"sortnum": 12,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used by $(l:decade/riders/diend#diend)Kamen Rider Diend$(/l) to give allied mobs and players Strength IV or Shot Boost IV for a short amount of time"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:decade/diend_crossattack_card"
+		}
+	]
+}

@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:drag_saber_ryuga",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/drag_saber_vent_ryuga)Dragsaber Sword Vent Card (Ryuga)$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/drag_saber_vent_ryuga)Dragsaber Sword Vent Card (Ryuga)$(/l)"
 		}
 	]
 }

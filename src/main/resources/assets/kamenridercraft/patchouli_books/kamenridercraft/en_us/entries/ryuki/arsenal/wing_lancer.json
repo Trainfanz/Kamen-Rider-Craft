@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:wing_lancer",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/wing_lancer_vent)Winglancer Sword Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/wing_lancer_vent)Winglancer Sword Vent Card$(/l)"
 		}
 	]
 }

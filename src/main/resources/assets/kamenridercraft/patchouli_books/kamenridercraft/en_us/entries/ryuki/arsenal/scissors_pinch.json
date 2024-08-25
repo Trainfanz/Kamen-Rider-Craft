@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:scissors_pinch",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/scissors_pinch_vent)Scissorspinch Strike Vent Card$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/scissors_pinch_vent)Scissorspinch Strike Vent Card$(/l)"
 		}
 	]
 }

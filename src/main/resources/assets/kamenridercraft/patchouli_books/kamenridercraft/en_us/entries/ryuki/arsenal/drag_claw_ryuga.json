@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:drag_claw_ryuga",
 			"title": " ",
-			"text": "Obtained through the $(l:ryuki/items/drag_claw_vent_ryuga)Dragclaw Strike Vent Card (Ryuga)$(/l)"
+			"text": "Obtained through the $(l:ryuki/arsenal/drag_claw_vent_ryuga)Dragclaw Strike Vent Card (Ryuga)$(/l)"
 		}
 	]
 }

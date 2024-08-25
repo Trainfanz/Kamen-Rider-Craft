@@ -7,7 +7,7 @@
 		{
 			"type": "patchouli:entity",
 			"entity": "kamenridercraft:new_mole_imagin_sand",
-			"text": "Spawns throughout the $(l:den_o/dimensions/sands_of_time)Sands of Time$(/l)"
+			"text": "Spawn locations: Desert, Beach, Taiga, $(l:den_o/dimensions/sands_of_time)Sands of Time$(/l)"
 		},
 		{
 			"type": "patchouli:text",
