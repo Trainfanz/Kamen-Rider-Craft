@@ -1,0 +1,16 @@
+{
+	"name": "Acceldriver",
+	"icon": "kamenridercraft:acceldriver",
+	"category": "kamenridercraft:w/devices",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(br2)Used alongside the $(l:w/devices/armor)W armor$(/l) to transform into $(l:w/riders/accel)Kamen Rider Accel"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:w/acceldriver"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"name": "Lostdriver (Skull)",
+	"icon": "kamenridercraft:lostdriver_skull",
+	"category": "kamenridercraft:w/devices",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider × Kamen Rider Double & Decade: Movie War 2010 (2009, Movie)$(br2)Used alongside the $(l:w/devices/armor)W armor$(/l) to transform into $(l:w/riders/skull)Kamen Rider Skull"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:w/lostdriver_skull"
+        }    
+	]
+}

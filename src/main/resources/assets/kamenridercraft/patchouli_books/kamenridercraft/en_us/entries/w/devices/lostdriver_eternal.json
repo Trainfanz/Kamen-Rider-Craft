@@ -1,0 +1,16 @@
+{
+	"name": "Lostdriver (Eternal)",
+	"icon": "kamenridercraft:lostdriver_eternal",
+	"category": "kamenridercraft:w/devices",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W Forever: A to Z/The Gaia Memories of Fate (2010, Movie)$(br2)Used alongside the $(l:w/devices/armor)W armor$(/l) to transform into $(l:w/riders/eternal)Kamen Rider Eternal"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:w/lostdriver_eternal"
+        }    
+	]
+}
