@@ -1,0 +1,16 @@
+{
+	"name": "Eternaledge",
+	"icon": "kamenridercraft:eternal_edge",
+	"category": "kamenridercraft:w/arsenal",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W Forever: A to Z/The Gaia Memories of Fate (2010, Movie)$(br2)Used by $(l:w/riders/eternal)Kamen Rider Eternal$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:w/eternal_edge"
+		}
+	]
+}

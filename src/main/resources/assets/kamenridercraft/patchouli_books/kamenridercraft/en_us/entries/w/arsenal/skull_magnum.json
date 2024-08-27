@@ -1,0 +1,16 @@
+{
+	"name": "Skullmagnum",
+	"icon": "kamenridercraft:skull_magnum",
+	"category": "kamenridercraft:w/arsenal",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(br2)Used by $(l:w/riders/skull)Kamen Rider Skull$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:w/skull_magnum"
+		}
+	]
+}

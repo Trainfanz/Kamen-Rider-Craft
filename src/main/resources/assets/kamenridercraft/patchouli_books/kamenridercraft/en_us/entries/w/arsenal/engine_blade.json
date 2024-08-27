@@ -1,0 +1,16 @@
+{
+	"name": "Engineblade",
+	"icon": "kamenridercraft:engine_blade",
+	"category": "kamenridercraft:w/arsenal",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(br2)Used by $(l:w/riders/accel)Kamen Rider Accel$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:w/engine_blade"
+		}
+	]
+}
