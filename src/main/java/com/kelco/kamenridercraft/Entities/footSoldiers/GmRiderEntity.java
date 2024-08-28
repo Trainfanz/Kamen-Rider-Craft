@@ -48,6 +48,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.ServerLevelAccessor;
 
 public class GmRiderEntity extends BaseHenchmenEntity implements RangedAttackMob {
+	private boolean swordgunMelee = false;
    private final RangedBowAttackGoal<GmRiderEntity> bowGoal = new RangedBowAttackGoal<>(this, 1.0D, 30, 15.0F);
    private final MeleeAttackGoal meleeGoal = new ZombieAttackGoal(this, 1.0D, false) {
       public void stop() {
@@ -97,7 +98,14 @@ public class GmRiderEntity extends BaseHenchmenEntity implements RangedAttackMob
 
 	public void aiStep() {
 		ItemStack itemstack = this.getItemInHand(ProjectileUtil.getWeaponHoldingHand(this, item -> item instanceof BowItem));
-		if (this.getTarget() != null && (itemstack.getItem() instanceof BowItem && itemstack.getItem() instanceof SwordItem || itemstack.is(ItemTags.create(new ResourceLocation(KamenRiderCraftCore.MODID, "arsenal/all_swordguns"))))) this.reassessSwordgunGoal();
+		
+		if (this.getTarget() != null && (itemstack.getItem() instanceof BowItem && itemstack.getItem() instanceof SwordItem || itemstack.is(ItemTags.create(new ResourceLocation(KamenRiderCraftCore.MODID, "arsenal/all_swordguns"))))) {
+         boolean swordgunMeleeCheck = (((this.getTarget() instanceof Player player && player.getAbilities().flying && player.distanceToSqr(this) < 10.0D)
+         || (this.getTarget() instanceof FlyingMob fly && fly.distanceToSqr(this) < 20.0D)
+         || this.getTarget().distanceToSqr(this) < 40.0D));
+
+         if (swordgunMelee != swordgunMeleeCheck) this.setSwordgunMelee(swordgunMeleeCheck);
+      }
 
 		super.aiStep();
 	}
@@ -137,24 +145,23 @@ public class GmRiderEntity extends BaseHenchmenEntity implements RangedAttackMob
        }
     }
 
-    public void reassessSwordgunGoal() {
+    public void setSwordgunMelee(boolean melee) {
        if (this.level() != null && !this.level().isClientSide) {
-          if (this.getTarget() instanceof Player player && player.getAbilities().flying && player.distanceToSqr(this) > 10.0D
-          || this.getTarget() instanceof FlyingMob && this.getTarget().distanceToSqr(this) > 20.0D
-          || this.getTarget().distanceToSqr(this) > 80.0D) {
-            int i = 20;
-            if (this.level().getDifficulty() != Difficulty.HARD) {
-               i = 40;
-            }
+         if (melee) {
+           this.goalSelector.removeGoal(this.bowGoal);
+           this.goalSelector.addGoal(2, this.meleeGoal);
+         } else {
+           int i = 20;
+           if (this.level().getDifficulty() != Difficulty.HARD) {
+              i = 40;
+           }
 
-            this.bowGoal.setMinAttackInterval(i);
-			 this.goalSelector.removeGoal(this.meleeGoal);
-        	 this.goalSelector.addGoal(2, this.bowGoal);
-		  } else {
-			 this.goalSelector.removeGoal(this.bowGoal);
-		     this.goalSelector.addGoal(2, this.meleeGoal);
-		  }
-       }
+           this.bowGoal.setMinAttackInterval(i);
+			  this.goalSelector.removeGoal(this.meleeGoal);
+           this.goalSelector.addGoal(2, this.bowGoal);
+         }
+         swordgunMelee = melee;
+		}
     }
 
     public void readAdditionalSaveData(CompoundTag p_32152_) {

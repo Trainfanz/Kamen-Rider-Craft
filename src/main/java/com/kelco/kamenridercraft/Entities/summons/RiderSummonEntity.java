@@ -8,6 +8,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.tags.ItemTags;
+import net.minecraft.world.Difficulty;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -51,6 +52,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
 
 public class RiderSummonEntity extends BaseSummonEntity implements RangedAttackMob {
+   private boolean swordgunMelee = false;
    private final RangedBowAttackGoal<RiderSummonEntity> bowGoal = new RangedBowAttackGoal<>(this, 1.0D, 20, 15.0F);
    private final MeleeAttackGoal meleeGoal = new MeleeAttackGoal(this, 1.2D, false) {
       public void stop() {
@@ -97,11 +99,17 @@ public class RiderSummonEntity extends BaseSummonEntity implements RangedAttackM
 	}
 
 	public void aiStep() {
-		super.aiStep();
-
 		ItemStack itemstack = this.getItemInHand(ProjectileUtil.getWeaponHoldingHand(this, item -> item instanceof BowItem));
-		if (this.getTarget() != null && itemstack.getItem() instanceof BowItem
-        && (itemstack.getItem() instanceof SwordItem || itemstack.is(ItemTags.create(new ResourceLocation(KamenRiderCraftCore.MODID, "arsenal/all_swordguns"))))) this.reassessSwordgunGoal();
+		if (this.getTarget() != null && (itemstack.getItem() instanceof BowItem && itemstack.getItem() instanceof SwordItem || itemstack.is(ItemTags.create(new ResourceLocation(KamenRiderCraftCore.MODID, "arsenal/all_swordguns"))))) {
+         boolean swordgunMeleeCheck = (((this.getTarget() instanceof Player player && player.getAbilities().flying && player.distanceToSqr(this) < 10.0D)
+         || (this.getTarget() instanceof FlyingMob fly && fly.distanceToSqr(this) < 20.0D)
+         || this.getTarget().distanceToSqr(this) < 40.0D));
+
+         if (swordgunMeleeOnly) this.setSwordgunMelee(true);
+         else if (swordgunMelee != swordgunMeleeCheck) this.setSwordgunMelee(swordgunMeleeCheck);
+      }
+
+		super.aiStep();
 	}
 
     public void setMeleeOnly(boolean p_21840_) {
@@ -139,21 +147,20 @@ public class RiderSummonEntity extends BaseSummonEntity implements RangedAttackM
        }
     }
 
-    public void reassessSwordgunGoal() {
+    public void setSwordgunMelee(boolean melee) {
        if (this.level() != null && !this.level().isClientSide) {
-          if (!this.swordgunMeleeOnly && (this.getTarget() instanceof Player player && player.getAbilities().flying && player.distanceToSqr(this) > 10.0D
-          || this.getTarget() instanceof FlyingMob && this.getTarget().distanceToSqr(this) > 20.0D
-          || this.getTarget().distanceToSqr(this) > 40.0D)) {
-            int i = 30;
+         if (melee) {
+           this.goalSelector.removeGoal(this.bowGoal);
+           this.goalSelector.addGoal(2, this.meleeGoal);
+         } else {
+           int i = 30;
 
-            this.bowGoal.setMinAttackInterval(i);
-			 this.goalSelector.removeGoal(this.meleeGoal);
-        	 this.goalSelector.addGoal(2, this.bowGoal);
-		  } else {
-			 this.goalSelector.removeGoal(this.bowGoal);
-		     this.goalSelector.addGoal(2, this.meleeGoal);
-		  }
-       }
+           this.bowGoal.setMinAttackInterval(i);
+			  this.goalSelector.removeGoal(this.meleeGoal);
+           this.goalSelector.addGoal(2, this.bowGoal);
+         }
+         swordgunMelee = melee;
+		}
     }
 
     public void addAdditionalSaveData(CompoundTag p_30418_) {
