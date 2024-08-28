@@ -1,0 +1,23 @@
+{
+	"name": "Unrefined Memory (T2)",
+	"icon": "kamenridercraft:unrefined_memory_t2",
+	"category": "kamenridercraft:w/items",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(br2)Used on the $(l:misc/blocks/gaia_memory_refiner)Gaia Memory Refiner$(/l) to make T2 Gaia Memories"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:w/unrefined_memory_t2"	
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:unrefined_memory_t2",
+			"title": " ",
+			"text": "Drops from $(l:w/mobs/eternal)Kamen Rider Eternal$(/l)"
+		}
+	]
+}
