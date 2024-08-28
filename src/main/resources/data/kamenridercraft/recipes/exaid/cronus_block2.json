@@ -1,0 +1,58 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "group": "cronus",
+  "pattern": [
+    " ABC ",
+    "DEEEF",
+    "GEHEI",
+    "JEEEK",
+    " LMN "
+  ],
+  "key": {
+    "A": {
+      "item": "kamenridercraft:mighty_action_x_gasha_trophy"
+    },
+    "B": {
+      "item": "kamenridercraft:taddle_quest_gasha_trophy"
+    },
+    "C": {
+      "item": "kamenridercraft:bang_bang_shooting_gasha_trophy"
+    },
+    "D": {
+      "item": "kamenridercraft:bakusou_bike_gasha_trophy"
+    },
+    "E": {
+      "item": "kamenridercraft:unfinished_kamen_rider_chronicle_gashat"
+    },
+    "F": {
+      "item": "kamenridercraft:gekitotsu_robots_gasha_trophy"
+    },
+    "G": {
+      "item": "kamenridercraft:doremifa_beat_gasha_trophy"
+    },
+    "H": {
+      "item": "kamenridercraft:toki_meki_crisis_gasha_trophy"
+    },
+    "I": {
+      "item": "kamenridercraft:jet_combat_gasha_trophy"
+    },
+    "J": {
+      "item": "kamenridercraft:giri_giri_chambara_gasha_trophy"
+    },
+    "K": {
+      "item": "kamenridercraft:shakariki_sports_gasha_trophy"
+    },
+    "L": {
+      "item": "kamenridercraft:drago_knight_hunter_z_gasha_trophy"
+    },
+    "M": {
+      "item": "kamenridercraft:perfect_puzzle_gasha_trophy"
+    },
+    "N": {
+      "item": "kamenridercraft:knockout_fighter_gasha_trophy"
+    }
+  },
+  "result": {
+    "item": "kamenridercraft:cronus_boss_block"
+  }
+}
