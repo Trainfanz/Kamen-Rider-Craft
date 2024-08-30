@@ -10,7 +10,7 @@
 		},
 		{
 			"type": "patchouli:crafting",
-			"recipe": "kamenridercraft:w/engine_blade"
+			"recipe": "kamenridercraft:w/engineblade"
 		}
 	]
 }

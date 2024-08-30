@@ -1,0 +1,44 @@
+{
+	"name": "Kamen Rider Accel",
+	"icon": "kamenridercraft:accel_memory",
+	"category": "kamenridercraft:w/riders",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "accel",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:acceldriver\",tag:{slot_tex1:\"accel_memory\"},Count:1b},{id:\"kamenridercraft:wlegs\",Count:1b},{id:\"kamenridercraft:wtroso\",Count:1b},{id:\"kamenridercraft:whead\",Count:1b}]}",
+			"name": " ",
+			"text": "Accessed with the $(l:w/items/accel_memory)Accel Memory$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Accel",
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(br2)Transforms with the $(l:w/devices/acceldriver)Acceldriver$(/l)$(br2)Status Effects:$(li)Punch$(li)Speed III$(li)Resistance$(li)Night Vision$(li)Strength IV (with empty hand)$(li)Strength II (with weapon)"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "trial",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:acceldriver\",tag:{slot_tex1:\"trial_memory\"},Count:1b},{id:\"kamenridercraft:wlegs\",Count:1b},{id:\"kamenridercraft:wtroso\",Count:1b},{id:\"kamenridercraft:whead\",Count:1b}]}",
+			"name": "Accel Trial",
+			"text": "Accessed with the $(l:w/items/trial_memory)Trial Memory$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Accel",
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(br2)Transforms with the $(l:w/devices/acceldriver)Acceldriver$(/l)$(br2)Status Effects:$(li)Punch$(li)Speed V$(li)Resistance$(li)Night Vision$(li)Fire Resistance$(li)Strength IV (with empty hand)$(li)Strength II (with weapon)"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "booster",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:acceldriver\",tag:{slot_tex1:\"accel_booster_memory\"},Count:1b},{id:\"kamenridercraft:wlegs\",Count:1b},{id:\"kamenridercraft:wtroso\",Count:1b},{id:\"kamenridercraft:whead\",Count:1b}]}",
+			"name": "AccelBooster",
+			"text": "Accessed with the $(l:w/items/accel_booster_memory)Accel Booster Memory$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Accel",
+			"text": "Appears in:$(li)Kamen Rider W Returns: Kamen Rider Accel (2011, V-Cinema film)$(br2)Transforms with the $(l:w/devices/acceldriver)Acceldriver$(/l)$(br2)Status Effects:$(li)Punch$(li)Speed V$(li)Resistance$(li)Night Vision$(li)Boost$(li)Fire Resistance$(li)Strength IV (with empty hand)$(li)Strength II (with weapon)"
+		}
+	]
+}

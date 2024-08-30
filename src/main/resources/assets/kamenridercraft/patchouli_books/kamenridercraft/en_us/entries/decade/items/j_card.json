@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider Decade: All Riders vs Dai-Shocker (2009, Movie)$(br2)Used to access (Dark) Decade's $(l:decade/riders/decade#j)J$(/l) form"
+			"text": "Appears in:$(li)Kamen Rider Decade: All Riders vs Dai-Shocker (2009, movie)$(br2)Used to access (Dark) Decade's $(l:decade/riders/decade#j)J$(/l) form"
 		},
 		{
 			"type": "patchouli:crafting",

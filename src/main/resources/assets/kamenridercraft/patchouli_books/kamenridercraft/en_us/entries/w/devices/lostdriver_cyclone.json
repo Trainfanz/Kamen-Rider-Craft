@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider W: ~The One Who Continues After Z~ (2012, Novel)$(br2)Used alongside the $(l:w/devices/armor)W armor$(/l) to transform into $(l:w/riders/cyclone)Kamen Rider Cyclone"
+			"text": "Appears in:$(li)Kamen Rider W: ~The One Who Continues After Z~ (2012, novel)$(br2)Used alongside the $(l:w/devices/armor)W armor$(/l) to transform into $(l:w/riders/cyclone)Kamen Rider Cyclone"
 		},
 		{
 			"type": "patchouli:crafting",

@@ -1,0 +1,19 @@
+{
+	"name": "Kamen Rider Skull",
+	"icon": "kamenridercraft:skull_memory",
+	"category": "kamenridercraft:w/riders",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:lostdriver_skull\",Count:1b},{id:\"kamenridercraft:wlegs\",Count:1b},{id:\"kamenridercraft:wtroso\",Count:1b},{id:\"kamenridercraft:whead\",Count:1b}]}",
+			"name": " ",
+			"text": ""
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Skull",
+			"text": "Appears in:$(li)Kamen Rider × Kamen Rider W & Decade: Movie War 2010 (2009, movie)$(li)Kamen Rider × Kamen Rider OOO & W Featuring Skull: Movie War Core (2010, movie)$(br2)Transforms with the $(l:w/devices/lostdriver_skull)Lostdriver (Skull)$(/l)$(br2)Status Effects:$(li)Punch$(li)Resistance$(li)Jump Boost III$(li)Strength IV (with empty hand)$(li)Strength II (with weapon)"
+		}
+	]
+}

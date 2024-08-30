@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider × Kamen Rider W & Decade: Movie War 2010 (2009, Movie)$(br2)Used alongside the $(l:w/devices/armor)W armor$(/l) to transform into $(l:w/riders/skull)Kamen Rider Skull"
+			"text": "Appears in:$(li)Kamen Rider × Kamen Rider W & Decade: Movie War 2010 (2009, movie)$(br2)Used alongside the $(l:w/devices/armor)W armor$(/l) to transform into $(l:w/riders/skull)Kamen Rider Skull"
 		},
 		{
 			"type": "patchouli:crafting",

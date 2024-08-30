@@ -1,0 +1,44 @@
+{
+	"name": "Kamen Rider Eternal",
+	"icon": "kamenridercraft:eternal_memory",
+	"category": "kamenridercraft:w/riders",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "red_flare",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:lostdriver_eternal\",tag:{slot_tex1:\"eternal_memory\"},Count:1b},{id:\"kamenridercraft:wlegs\",Count:1b},{id:\"kamenridercraft:wtroso\",Count:1b},{id:\"kamenridercraft:whead\",Count:1b}]}",
+			"name": "Red Flare",
+			"text": "Accessed with the $(l:w/items/eternal_memory)Eternal Memory$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Eternal",
+			"text": "Appears in:$(li)Kamen Rider W Returns: Kamen Rider Eternal (2011, V-Cinema film)$(br2)Transforms with the $(l:w/devices/lostdriver_eternal)Lostdriver (Eternal)$(/l)$(br2)Status Effects:$(li)Speed III$(li)Weakness II$(li)Strength III"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "blue_flare",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:lostdriver_eternal\",tag:{slot_tex1:\"eternal_t2_memory\"},Count:1b},{id:\"kamenridercraft:wlegs\",Count:1b},{id:\"kamenridercraft:wtroso\",Count:1b},{id:\"kamenridercraft:whead\",Count:1b}]}",
+			"name": "Blue Flare",
+			"text": "Accessed with the $(l:w/items/eternal_t2_memory)Eternal T2 Memory$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Eternal",
+			"text": "Appears in:$(li)Kamen Rider W: FOREVER A to Z/The Gaia Memories of Fate (2010, movie)$(br2)Transforms with the $(l:w/devices/lostdriver_eternal)Lostdriver (Eternal)$(/l)$(br2)Status Effects:$(li)Punch III$(li)Resistance II$(li)Haste III$(li)Jump Boost III$(li)Strength VI (with empty hand)$(li)Strength III (with weapon)"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "strengthening_armament",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:lostdriver_eternal\",tag:{slot_tex1:\"zone_t2_memory\"},Count:1b},{id:\"kamenridercraft:wlegs\",Count:1b},{id:\"kamenridercraft:wtroso\",Count:1b},{id:\"kamenridercraft:whead\",Count:1b}]}",
+			"name": "Strengthening Armament",
+			"text": "Accessed with the $(l:w/items/zone_t2_memory)Zone T2 Memory$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Eternal",
+			"text": "Appears in:$(li)Kamen Rider W: FOREVER A to Z/The Gaia Memories of Fate (2010, movie)$(br2)Transforms with the $(l:w/devices/lostdriver_eternal)Lostdriver (Eternal)$(/l)$(br2)Status Effects:$(li)Punch IV$(li)Resistance III$(li)Haste III$(li)Jump Boost VI$(li)Strength VII (with empty hand)$(li)Strength IV (with weapon)"
+		}
+	]
+}

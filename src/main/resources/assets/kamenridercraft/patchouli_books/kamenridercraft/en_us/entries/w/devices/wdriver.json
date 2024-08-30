@@ -1,16 +1,16 @@
 {
-	"name": "Decadriver",
-	"icon": "kamenridercraft:decadriver",
-	"category": "kamenridercraft:decade/devices",
+	"name": "Doubledriver",
+	"icon": "kamenridercraft:wdriver",
+	"category": "kamenridercraft:w/devices",
 	"sortnum": 1,
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider Decade (2009, TV show)$(br2)Used alongside the $(l:decade/devices/armor)Decade armor$(/l) to transform into $(l:decade/riders/decade)Kamen Rider Decade"
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(br2)Used alongside the $(l:double/devices/armor)Double armor$(/l) to transform into $(l:double/riders/double)Kamen Rider Double"
 		},
 		{
 			"type": "patchouli:crafting",
-			"recipe": "kamenridercraft:decade/decadriver"
+			"recipe": "kamenridercraft:w/wdriver"
 		}
 	]
 }

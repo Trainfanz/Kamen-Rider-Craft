@@ -1,0 +1,116 @@
+{
+	"name": "Kamen Rider Double",
+	"icon": "kamenridercraft:wdriver",
+	"category": "kamenridercraft:w/riders",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "cyclonejoker",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:wdriver\",tag:{slot_tex1:\"cyclone_memory\",slot_tex2:\"joker_memory\"},Count:1b},{id:\"kamenridercraft:wlegs\",Count:1b},{id:\"kamenridercraft:wtroso\",Count:1b},{id:\"kamenridercraft:whead\",Count:1b}]}",
+			"name": "CycloneJoker",
+			"text": "Accessed with the $(l:w/items/cyclone_memory)Cyclone Memory$(/l) and $(l:w/items/joker_memory)Joker Memory$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Double",
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(br2)Transforms with the $(l:w/devices/wdriver)Doubledriver$(/l)$(br2)Cyclone Memory Effects:$(li)Speed II$(li)Jump Boost$(br2)Joker Memory Effects:$(li)Punch$(li)Strength IV (with empty hand)$(li)Strength II (with weapon)"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "heatmetal",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:wdriver\",tag:{slot_tex1:\"heat_memory\",slot_tex2:\"metal_memory\"},Count:1b},{id:\"kamenridercraft:wlegs\",Count:1b},{id:\"kamenridercraft:wtroso\",Count:1b},{id:\"kamenridercraft:whead\",Count:1b}]}",
+			"name": "HeatMetal",
+			"text": "Accessed with the $(l:w/items/heat_memory)Heat Memory$(/l) and $(l:w/items/metal_memory)Metal Memory$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Double",
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(br2)Transforms with the $(l:w/devices/wdriver)Doubledriver$(/l)$(br2)Heat Memory Effects:$(li)Fire Resistance$(li)Strength$(br2)Metal Memory Effects:$(li)Resistance II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "lunatrigger",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:wdriver\",tag:{slot_tex1:\"luna_memory\",slot_tex2:\"trigger_memory\"},Count:1b},{id:\"kamenridercraft:wlegs\",Count:1b},{id:\"kamenridercraft:wtroso\",Count:1b},{id:\"kamenridercraft:whead\",Count:1b}]}",
+			"name": "LunaTrigger",
+			"text": "Accessed with the $(l:w/items/luna_memory)Luna Memory$(/l) and $(l:w/items/trigger_memory)Trigger Memory$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Double",
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(br2)Transforms with the $(l:w/devices/wdriver)Doubledriver$(/l)$(br2)Luna Memory Effects:$(li)Night Vision$(li)Regeneration$(br2)Trigger Memory Effects:$(li)Haste II"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "fangjoker",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:wdriver\",tag:{slot_tex1:\"fang_memory\",slot_tex2:\"joker_memory\"},Count:1b},{id:\"kamenridercraft:wlegs\",Count:1b},{id:\"kamenridercraft:wtroso\",Count:1b},{id:\"kamenridercraft:whead\",Count:1b}]}",
+			"name": "FangJoker",
+			"text": "Accessed with the $(l:w/items/fang_memory)Fang Memory$(/l) and $(l:w/items/joker_memory)Joker Memory$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Double",
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(br2)Transforms with the $(l:w/devices/wdriver)Doubledriver$(/l)$(br2)Fang Memory Effects:$(li)Strength III$(li)Speed III$(li)Haste II$(li)Nausea$(br2)Joker Memory Effects:$(li)Punch$(li)Strength IV (with empty hand)$(li)Strength II (with weapon)"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "xtreme",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:wdriver\",tag:{slot_tex1:\"xtreme_memory\",slot_tex2:\"joker_memory\"},Count:1b},{id:\"kamenridercraft:wlegs\",Count:1b},{id:\"kamenridercraft:wtroso\",Count:1b},{id:\"kamenridercraft:whead\",Count:1b}]}",
+			"name": "CycloneJokerXtreme",
+			"text": "Accessed with the $(l:w/items/xtreme_memory)Xtreme Memory$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Double",
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(br2)Transforms with the $(l:w/devices/wdriver)Doubledriver$(/l)$(br2)Status Effects:$(li)Punch IV$(li)Speed III$(li)Resistance IV$(li)Night Vision$(li)Regeneration II$(li)Haste II$(li)Strength VII (with empty hand)$(li)Strength IV (with weapon)"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "gold_xtreme",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:wdriver\",tag:{slot_tex1:\"xtreme_gold_memory\",slot_tex2:\"joker_memory\"},Count:1b},{id:\"kamenridercraft:wlegs\",Count:1b},{id:\"kamenridercraft:wtroso\",Count:1b},{id:\"kamenridercraft:whead\",Count:1b}]}",
+			"name": "CycloneJokerGoldXtreme",
+			"text": "Accessed by falling 10 blocks as $(l:w/riders/double#xtreme)CycloneJokerXtreme$(/l) or with the $(l:w/items/xtreme_gold_memory)Gold Xtreme Memory$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Double",
+			"text": "Appears in:$(li)Kamen Rider W: FOREVER A to Z/The Gaia Memories of Fate (2010, movie)$(br2)Transforms with the $(l:w/devices/wdriver)Doubledriver$(/l)$(br2)Status Effects:$(li)Punch V$(li)Flying V$(li)Speed III$(li)Resistance IV$(li)Night Vision$(li)Regeneration II$(li)Haste II$(li)Strength VIII (with empty hand)$(li)Strength IV (with weapon)"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "accel_xtreme",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:wdriver\",tag:{slot_tex1:\"xtreme_accel_memory\",slot_tex2:\"joker_memory\"},Count:1b},{id:\"kamenridercraft:wlegs\",Count:1b},{id:\"kamenridercraft:wtroso\",Count:1b},{id:\"kamenridercraft:whead\",Count:1b}]}",
+			"name": "CycloneAccelXtreme",
+			"text": "Accessed with the $(l:w/items/xtreme_accel_memory)Cyclone Accel Xtreme Memory$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Double",
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(li)Kamen Rider: Climax Heroes OOO (2010, video game)$(br2)Transforms with the $(l:w/devices/wdriver)Doubledriver$(/l)$(br2)Status Effects:$(li)Punch IV$(li)Speed III$(li)Resistance IV$(li)Night Vision$(li)Regeneration II$(li)Haste II$(li)Strength VII (with empty hand)$(li)Strength IV (with weapon)"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "cyclonecyclone",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:wdriver\",tag:{slot_tex1:\"cyclone_memory\",slot_tex2:\"cyclone_cyclone_memory\"},Count:1b},{id:\"kamenridercraft:wlegs\",Count:1b},{id:\"kamenridercraft:wtroso\",Count:1b},{id:\"kamenridercraft:whead\",Count:1b}]}",
+			"name": "CycloneCyclone",
+			"text": "Accessed with the $(l:w/items/cyclone_memory)Cyclone Memory$(/l) and $(l:w/items/cyclone_cyclone_memory)Cyclone Cyclone Memory$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Double",
+			"text": "Appears in:$(li)Kamen Rider × Kamen Rider W & Decade: Movie War 2010 (2009, movie)$(br2)Transforms with the $(l:w/devices/wdriver)Doubledriver$(/l)$(br2)Status Effects:$(li)Speed II$(li)Jump Boost"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "jokerjoker",
+			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:wdriver\",tag:{slot_tex1:\"joker_joker_memory\",slot_tex2:\"joker_memory\"},Count:1b},{id:\"kamenridercraft:wlegs\",Count:1b},{id:\"kamenridercraft:wtroso\",Count:1b},{id:\"kamenridercraft:whead\",Count:1b}]}",
+			"name": "JokerJoker",
+			"text": "Accessed with the $(l:w/items/joker_joker_memory)Joker Joker Memory$(/l) and $(l:w/items/joker_memory)Joker Memory$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Kamen Rider Double",
+			"text": "Appears in:$(li)Kamen Rider × Kamen Rider W & Decade: Movie War 2010 (2009, movie)$(br2)Transforms with the $(l:w/devices/wdriver)Doubledriver$(/l)$(br2)Status Effects:$(li)Punch$(li)Strength IV (with empty hand)$(li)Strength II (with weapon)"
+		}
+	]
+}
