@@ -6,6 +6,15 @@
 	  "entries": [
 		{
 		  "type": "minecraft:item",
+		  "name": "kamenridercraft:ark_driver_zero"
+		}
+	  ]
+	},
+	{
+	  "rolls": 1,
+	  "entries": [
+		{
+		  "type": "minecraft:item",
 		  "name": "kamenridercraft:ark_one_progrisekey"
 		}
 	  ]
