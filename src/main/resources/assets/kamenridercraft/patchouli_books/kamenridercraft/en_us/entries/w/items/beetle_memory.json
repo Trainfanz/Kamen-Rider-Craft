@@ -1,0 +1,19 @@
+{
+	"name": "Beetle Gadget Memory",
+	"icon": "kamenridercraft:beetle_memory",
+	"category": "kamenridercraft:w/items",
+	"sortnum": 77,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:beetle_memory",
+			"title": " ",
+			"text": "Item is currently unobtainable"
+		}
+	]
+}

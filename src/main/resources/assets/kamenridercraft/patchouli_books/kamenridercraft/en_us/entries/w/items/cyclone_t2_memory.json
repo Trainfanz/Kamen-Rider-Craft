@@ -1,0 +1,19 @@
+{
+	"name": "Cyclone T2 Memory",
+	"icon": "kamenridercraft:cyclone_t2_memory",
+	"category": "kamenridercraft:w/items",
+	"sortnum": 33,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W: ~The One Who Continues After Z~ (2012, novel)$(br2)Used to craft Cyclone's $(l:w/devices/lostdriver_cyclone)Lostdriver (Cyclone)$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:cyclone_t2_memory",
+			"title": " ",
+			"text": "Obtained by using $(l:w/items/unrefined_memory_t2)Unrefined T2 Memories$(/l) on the $(l:misc/blocks/gaia_memory_refiner)Gaia Memory Refiner"
+		}
+	]
+}

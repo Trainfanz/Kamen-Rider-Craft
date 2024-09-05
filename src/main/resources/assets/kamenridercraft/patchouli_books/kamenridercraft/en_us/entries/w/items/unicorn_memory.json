@@ -1,0 +1,19 @@
+{
+	"name": "Unicorn Memory",
+	"icon": "kamenridercraft:unicorn_memory",
+	"category": "kamenridercraft:w/items",
+	"sortnum": 66,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W Returns: Kamen Rider Accel (2011, V-Cinema film)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:unicorn_memory",
+			"title": " ",
+			"text": "Item is currently unobtainable"
+		}
+	]
+}

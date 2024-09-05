@@ -57,7 +57,7 @@
 			"anchor": "bakuen_no_senshi",
 			"entity": "kamenridercraft:shocker_combatman{ArmorItems:[{id:\"kamenridercraft:hibikidriver\",tag:{slot_tex1:\"bakuen_no_senshi_hibiki\"},Count:1b},{id:\"kamenridercraft:hibikilegs\",Count:1b},{id:\"kamenridercraft:hibikitroso\",Count:1b},{id:\"kamenridercraft:hibikihead\",Count:1b}]}",
 			"name": "Hibiki Kurenai (Bakuen no Senshi)",
-			"text": "Accessed with the $(l:misc/items/bakuen_no_senshi)Henshin Onsa Onkaku (Kurenai)$(/l)"
+			"text": "Accessed with the $(l:misc/items/bakuen_no_senshi)Bakuen no senshi Card Warrior Card$(/l)"
 		},
 		{
 			"type": "patchouli:text",

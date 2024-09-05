@@ -12,7 +12,7 @@
 		{
 			"type": "patchouli:text",
 			"title": "Manga Kuuga",
-			"text": "Appears in:$(li)Kamen Rider Kuuga (2015, manga)$(li)Kamen Rider Zi-O: Over Quartzer (2019, movie)$(br2)Transforms with the $(l:kuuga/devices/manga_arcle)Manga Arcle$(/l)$(br2)Status Effects:$(li)Punch III$(li)Flatten$(li)Strength VI (with empty hand)"
+			"text": "Appears in:$(li)Kamen Rider Kuuga (2015, manga)$(li)Kamen Rider Zi-O: Over Quartzer (2019, movie)$(br2)Transforms with the $(l:kuuga/devices/manga_arcle)Arcle (Manga)$(/l)$(br2)Status Effects:$(li)Punch III$(li)Flatten$(li)Strength VI (with empty hand)"
 		}
 	]
 }

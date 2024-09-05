@@ -1,0 +1,16 @@
+{
+	"name": "Kirifuda Memory",
+	"icon": "kamenridercraft:kirifuda_memory",
+	"category": "kamenridercraft:w/items",
+	"sortnum": 30,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(br2)Used to access one of Double's $(l:w/riders/double#cyclonejoker)Joker$(/l) forms"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:w/kirifuda_memory"	
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"name": "Utopia Memory",
+	"icon": "kamenridercraft:utopia_memory",
+	"category": "kamenridercraft:w/items",
+	"sortnum": 65,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(br2)Used by the $(l:w/mobs/utopia_dopant)Utopia Dopant$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:utopia_memory",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:w/mobs/utopia_dopant)Utopia Dopant$(/l)"
+		}
+	]
+}

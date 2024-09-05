@@ -1,0 +1,19 @@
+{
+	"name": "Eternal Memory",
+	"icon": "kamenridercraft:eternal_memory",
+	"category": "kamenridercraft:w/items",
+	"sortnum": 21,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W Returns: Kamen Rider Eternal (2011, V-Cinema film)$(br2)Used to access Eternal's $(l:w/riders/eternal#red_flare)Red Flare$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:eternal_memory",
+			"title": " ",
+			"text": "Obtained by using $(l:w/items/unrefined_memory_s)Silver Unrefined Memories$(/l) on the $(l:misc/blocks/gaia_memory_refiner)Gaia Memory Refiner$(/l)"
+		}
+	]
+}

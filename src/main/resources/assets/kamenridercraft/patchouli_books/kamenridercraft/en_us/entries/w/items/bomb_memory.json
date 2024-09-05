@@ -1,0 +1,19 @@
+{
+	"name": "Bomb Memory",
+	"icon": "kamenridercraft:bomb_memory",
+	"category": "kamenridercraft:w/items",
+	"sortnum": 24,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:bomb_memory",
+			"title": " ",
+			"text": "Obtained by using $(l:w/items/unrefined_memory_s)Silver Unrefined Memories$(/l) on the $(l:misc/blocks/gaia_memory_refiner)Gaia Memory Refiner$(/l)"
+		}
+	]
+}

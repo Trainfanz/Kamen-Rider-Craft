@@ -1,0 +1,19 @@
+{
+	"name": "Rocket T2 Memory",
+	"icon": "kamenridercraft:rocket_t2_memory",
+	"category": "kamenridercraft:w/items",
+	"sortnum": 48,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W: FOREVER A to Z/The Gaia Memories of Fate (2010, movie)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:rocket_t2_memory",
+			"title": " ",
+			"text": "Obtained by using $(l:w/items/unrefined_memory_t2)Unrefined T2 Memories$(/l) on the $(l:misc/blocks/gaia_memory_refiner)Gaia Memory Refiner"
+		}
+	]
+}

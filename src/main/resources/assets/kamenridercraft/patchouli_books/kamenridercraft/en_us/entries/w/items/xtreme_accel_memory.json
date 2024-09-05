@@ -1,0 +1,19 @@
+{
+	"name": "Cyclone Accel Xtreme Memory",
+	"icon": "kamenridercraft:xtreme_accel_memory",
+	"category": "kamenridercraft:w/items",
+	"sortnum": 16,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(li)Kamen Rider: Climax Heroes OOO (2010, video game)$(br2)Used to access Double's $(l:w/riders/double#accel_xtreme)CycloneAccelXtreme$(/l) form"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:xtreme_accel_memory",
+			"title": " ",
+			"text": "Item is currently unobtainable"
+		}
+	]
+}

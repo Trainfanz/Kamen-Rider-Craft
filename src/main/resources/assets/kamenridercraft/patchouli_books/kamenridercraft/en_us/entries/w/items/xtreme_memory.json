@@ -1,0 +1,16 @@
+{
+	"name": "Xtreme Memory",
+	"icon": "kamenridercraft:xtreme_memory",
+	"category": "kamenridercraft:w/items",
+	"sortnum": 14,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(br2)Used to access Double's $(l:w/riders/double#xtreme)CycloneJokerXtreme$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:w/xtreme_memory"	
+		}
+	]
+}

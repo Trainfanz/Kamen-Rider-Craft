@@ -1,0 +1,19 @@
+{
+	"name": "Masquerade Memory",
+	"icon": "kamenridercraft:masquerade_memory",
+	"category": "kamenridercraft:w/items",
+	"sortnum": 73,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(br2)Used by $(l:w/mobs/masquerade)Masquerade Dopants$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:masquerade_memory",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:w/mobs/masquerade)Masquerade Dopant$(/l)"
+		}
+	]
+}

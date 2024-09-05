@@ -1,0 +1,19 @@
+{
+	"name": "Skull Memory",
+	"icon": "kamenridercraft:skull_memory",
+	"category": "kamenridercraft:w/items",
+	"sortnum": 20,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider × Kamen Rider W & Decade: Movie War 2010 (2009, movie)$(li)Kamen Rider × Kamen Rider OOO & W Featuring Skull: Movie War Core (2010, movie)$(br2)Used to craft Skull's $(l:w/devices/lostdriver_skull)Lostdriver (Skull)$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:skull_memory",
+			"title": " ",
+			"text": "Obtained by using $(l:w/items/unrefined_memory_s)Silver Unrefined Memories$(/l) on the $(l:misc/blocks/gaia_memory_refiner)Gaia Memory Refiner$(/l)"
+		}
+	]
+}

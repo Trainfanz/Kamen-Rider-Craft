@@ -1,0 +1,19 @@
+{
+	"name": "Magma Memory",
+	"icon": "kamenridercraft:magma_memory",
+	"category": "kamenridercraft:w/items",
+	"sortnum": 68,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(br2)Used by the Magma Dopant"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:magma_memory",
+			"title": " ",
+			"text": "Item is currently unobtainable"
+		}
+	]
+}

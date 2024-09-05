@@ -1,0 +1,19 @@
+{
+	"name": "Bat Gadget Memory",
+	"icon": "kamenridercraft:bat_memory",
+	"category": "kamenridercraft:w/items",
+	"sortnum": 76,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:bat_memory",
+			"title": " ",
+			"text": "Item is currently unobtainable"
+		}
+	]
+}

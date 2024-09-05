@@ -1,0 +1,19 @@
+{
+	"name": "Stag Gadget Memory",
+	"icon": "kamenridercraft:stag_memory",
+	"category": "kamenridercraft:w/items",
+	"sortnum": 74,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:stag_memory",
+			"title": " ",
+			"text": "Item is currently unobtainable"
+		}
+	]
+}

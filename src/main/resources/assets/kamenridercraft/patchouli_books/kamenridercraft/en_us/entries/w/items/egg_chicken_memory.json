@@ -1,0 +1,19 @@
+{
+	"name": "Egg Chicken Memory",
+	"icon": "kamenridercraft:egg_chicken_memory",
+	"category": "kamenridercraft:w/items",
+	"sortnum": 72,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W: Donburi's α/Farewell Beloved Recipe (2010, Hyper Battle Video)$(br2)Used by the Oyakodon Dopant"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:egg_chicken_memory",
+			"title": " ",
+			"text": "Item is currently unobtainable"
+		}
+	]
+}

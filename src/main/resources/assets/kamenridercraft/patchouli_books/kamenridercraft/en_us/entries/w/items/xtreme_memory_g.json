@@ -1,0 +1,19 @@
+{
+	"name": "Xtreme Memory (Gold)",
+	"icon": "kamenridercraft:xtreme_memory_g",
+	"category": "kamenridercraft:w/items",
+	"sortnum": 27,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W DX Sound Capsule Gaia Memory (2009, toyline)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:xtreme_memory_g",
+			"title": " ",
+			"text": "Obtained by using $(l:w/items/unrefined_memory_g)Gold Unrefined Memories$(/l) on the $(l:misc/blocks/gaia_memory_refiner)Gaia Memory Refiner$(/l)"
+		}
+	]
+}

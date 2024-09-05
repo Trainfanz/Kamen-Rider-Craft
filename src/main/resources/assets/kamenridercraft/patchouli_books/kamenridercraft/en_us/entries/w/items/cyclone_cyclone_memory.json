@@ -1,0 +1,19 @@
+{
+	"name": "Cyclone Cyclone Memory",
+	"icon": "kamenridercraft:cyclone_cyclone_memory",
+	"category": "kamenridercraft:w/items",
+	"sortnum": 13,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider × Kamen Rider W & Decade: Movie War 2010 (2009, movie)$(br2)Used to access Double's $(l:w/riders/double#cyclonecyclone)CycloneCyclone$(/l) form, though can be paired with any other right-hand sided Gaia Memory"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:cyclone_cyclone_memory",
+			"title": " ",
+			"text": "Item is currently unobtainable"
+		}
+	]
+}

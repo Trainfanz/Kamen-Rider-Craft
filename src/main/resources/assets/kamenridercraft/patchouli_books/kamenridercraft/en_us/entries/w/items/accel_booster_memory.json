@@ -1,0 +1,16 @@
+{
+	"name": "Accel Booster Memory",
+	"icon": "kamenridercraft:accel_booster_memory",
+	"category": "kamenridercraft:w/items",
+	"sortnum": 19,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W Returns: Kamen Rider Accel (2011, V-Cinema film)$(br2)Used to access Accel's $(l:w/riders/accel#booster)AccelBooster$(/l) form"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:w/accel_booster_memory"	
+		}
+	]
+}

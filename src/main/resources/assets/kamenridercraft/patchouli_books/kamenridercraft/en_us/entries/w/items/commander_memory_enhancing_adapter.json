@@ -1,0 +1,19 @@
+{
+	"name": "Commander Memory (Enhancing Adapter)",
+	"icon": "kamenridercraft:commander_memory_enhancing_adapter",
+	"category": "kamenridercraft:w/items",
+	"sortnum": 70,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W Returns: Kamen Rider Accel (2011, V-Cinema film)$(br2)Used by the Commander Dopant"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:commander_memory_enhancing_adapter",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:w/mobs/commander_dopant)Commander Dopant$(/l)"
+		}
+	]
+}
