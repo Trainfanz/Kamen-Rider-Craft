@@ -26,7 +26,7 @@
 		{
 			"type": "patchouli:text",
 			"title": "Kamen Rider Eternal",
-			"text": "Appears in:$(li)Kamen Rider W: FOREVER A to Z/The Gaia Memories of Fate (2010, movie)$(br2)Transforms with the $(l:w/devices/lostdriver_eternal)Lostdriver (Eternal)$(/l)$(br2)Status Effects:$(li)Punch III$(li)Resistance II$(li)Haste III$(li)Jump Boost III$(li)Strength VI (with empty hand)$(li)Strength III (with weapon)"
+			"text": "Appears in:$(li)Kamen Rider W Forever: A to Z/The Gaia Memories of Fate (2010, movie)$(br2)Transforms with the $(l:w/devices/lostdriver_eternal)Lostdriver (Eternal)$(/l)$(br2)Status Effects:$(li)Punch III$(li)Resistance II$(li)Haste III$(li)Jump Boost III$(li)Strength VI (with empty hand)$(li)Strength III (with weapon)"
 		},
 		{
 			"type": "patchouli:entity",
@@ -38,7 +38,7 @@
 		{
 			"type": "patchouli:text",
 			"title": "Kamen Rider Eternal",
-			"text": "Appears in:$(li)Kamen Rider W: FOREVER A to Z/The Gaia Memories of Fate (2010, movie)$(br2)Transforms with the $(l:w/devices/lostdriver_eternal)Lostdriver (Eternal)$(/l)$(br2)Status Effects:$(li)Punch IV$(li)Resistance III$(li)Haste III$(li)Jump Boost VI$(li)Strength VII (with empty hand)$(li)Strength IV (with weapon)"
+			"text": "Appears in:$(li)Kamen Rider W Forever: A to Z/The Gaia Memories of Fate (2010, movie)$(br2)Transforms with the $(l:w/devices/lostdriver_eternal)Lostdriver (Eternal)$(/l)$(br2)Status Effects:$(li)Punch IV$(li)Resistance III$(li)Haste III$(li)Jump Boost VI$(li)Strength VII (with empty hand)$(li)Strength IV (with weapon)"
 		}
 	]
 }

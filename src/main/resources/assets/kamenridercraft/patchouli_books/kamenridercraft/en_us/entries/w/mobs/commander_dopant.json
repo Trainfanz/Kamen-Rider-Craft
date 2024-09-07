@@ -1,0 +1,17 @@
+{
+	"name": "Commander Dopant",
+	"icon": "kamenridercraft:w_logo",
+	"category": "kamenridercraft:w/mobs",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:commander_dopant",
+			"text": "Has an 11% chance to spawn from a $(l:w/mobs/foundation_x_masquerade)Foundation X Masquerade$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W Returns: Kamen Rider Accel (2011, V-Cinema film)$(br2)Health: 160$(br2)Drops$(li)3-5 $(l:w/items/gaiamemory)Gaia Memory Shards$(/l)$(li)0-1 $(l:w/items/gaiamemory)Gaia Memory Shard$(/l) (33%)$(li)1-3 $(l:w/items/unrefined_memory_g)Unrefined Memories (Gold)$(/l) (33%)$(li)1-3 $(l:w/items/unrefined_memory_s)Unrefined Memories (Silver)$(/l) (33%)$(li)1 $(l:w/items/commander_memory_enhancing_adapter)Commander Memory (Enhancing Adapter)$(/l)"
+		}
+	]
+}

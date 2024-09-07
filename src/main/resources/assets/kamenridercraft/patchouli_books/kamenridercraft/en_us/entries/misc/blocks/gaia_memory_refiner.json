@@ -1,0 +1,16 @@
+{
+	"name": "Gaia Memory Refiner",
+	"icon": "kamenridercraft:gaia_memory_refiner",
+	"category": "kamenridercraft:misc/blocks",
+	"sortnum": 20,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Use $(l:w/items/unrefined_memory_s)unrefined$(/l) $(l:w/items/unrefined_memory_g)Memories$(/l) on this block to obtain $(l:w/items/cyclone_memory)various$(/l) $(l:w/items/joker_memory)Gaia$(/l) $(l:w/items/joker_t2_memory)Memories$(/l) depending on the type used"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:w/gaia_memory_refiner"
+		}
+	]
+}

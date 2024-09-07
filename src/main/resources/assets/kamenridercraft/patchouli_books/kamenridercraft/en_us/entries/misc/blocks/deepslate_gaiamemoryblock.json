@@ -1,0 +1,19 @@
+{
+	"name": "Deepslate Gaia Memory Ore",
+	"icon": "kamenridercraft:deepslate_gaiamemoryblock",
+	"category": "kamenridercraft:misc/blocks",
+	"sortnum": 19,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Mine this block to get $(l:w/items/gaiamemory)Gaia Memory Shards$(/l)$(br2)Requires an iron pickaxe or better"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:deepslate_gaiamemoryblock",
+			"title": " ",
+			"text": "Drops:$(li)1 $(l:w/items/gaiamemory)Gaia Memory Shard$(/l)"
+		}
+	]
+}

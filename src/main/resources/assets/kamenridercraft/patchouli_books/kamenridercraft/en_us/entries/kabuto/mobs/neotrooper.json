@@ -11,7 +11,7 @@
 		},
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider Kabuto: God Speed Love (2006, movie)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:kabuto/items/unfinished_kabutick_zecter)Unfinished Kabutick Zecters$(/l)$(li)1 $(l:kabuto/items/dark_kabuto_zecter)Dark Kabuto Zecter$(/l) (25%)$(li)0-1 $(l:kabuto/items/perfectthebee_zecter)Perfect TheBee Zecter$(/l) (10%)$(li)0-1 $(l:kabuto/items/perfectdrake_zecter)Perfect Drake Zecter$(/l) (10%)$(li)0-1 $(l:kabuto/items/perfectsasword_zecter)Perfect Sasword Zecter$(/l) (10%)"
+			"text": "Appears in:$(li)Kamen Rider Kabuto: God Speed Love (2006, movie)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:kabuto/items/unfinished_kabutick_zecter)Unfinished Kabutick Zecters$(/l)$(li)1 $(l:kabuto/items/dark_kabuto_zecter)Dark Kabuto Zecter$(/l) (25%)$(li)0-1 $(l:kabuto/items/perfectthebee_zecter)Perfect TheBee Zecter$(/l) (10%)$(li)0-1 $(l:kabuto/items/perfectdrake_zecter)Perfect Drake Zecter$(/l) (10%)$(li)0-1 $(l:kabuto/items/perfectsasword_zecter)Perfect Sasword Zecter$(/l) (10%)$(br2)Bosses$(li)$(l:kabuto/mobs/caucasus)Kamen Rider Caucasus$(/l) (10%)"
 		}
 	]
 }

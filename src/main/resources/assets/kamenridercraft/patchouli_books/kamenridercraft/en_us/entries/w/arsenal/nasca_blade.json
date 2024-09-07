@@ -6,14 +6,14 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(br2)Used by the $(l:w/mobs/nasca_dopant)Nasca Dopant$(/l)"
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(br2)Used by the $(l:w/mobs/nazca_dopant)Nazca Dopant$(/l)"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"link_recipe": true,
 			"item": "kamenridercraft:nasca_blade",
 			"title": " ",
-			"text": "Drops from the $(l:w/mobs/nasca_dopant)Nasca Dopant$(/l)"
+			"text": "Drops from the $(l:w/mobs/nazca_dopant)Nazca Dopant$(/l)"
 		}
 	]
 }

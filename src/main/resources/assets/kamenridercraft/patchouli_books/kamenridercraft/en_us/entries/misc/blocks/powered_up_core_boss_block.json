@@ -1,0 +1,16 @@
+{
+	"name": "Powered Up Core Boss Block",
+	"icon": "kamenridercraft:powered_up_core_boss_block",
+	"category": "kamenridercraft:misc/blocks",
+	"sortnum": 113,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Mine this block to summon $(l:ooo/mobs/powered_up_core)Powered Up Core$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:ooo/power_up_core_boss_block"
+		}
+	]
+}

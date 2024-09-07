@@ -1,0 +1,17 @@
+{
+	"name": "Masquerade",
+	"icon": "kamenridercraft:w_logo",
+	"category": "kamenridercraft:w/mobs",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:masquerade",
+			"text": "Spawn locations: Plains, Birch Forest, Dark Forest"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(br2)Health: 30$(br2)Drops$(li)2-4 $(l:w/items/gaiamemory)Gaia Memory Shards$(/l)$(li)0-1 $(l:w/items/cyclone_memory)Cyclone Memory$(/l) (45%)$(li)0-1 $(l:w/items/joker_memory)Joker Memory$(/l) (45%)$(li)0-1 $(l:w/items/masquerade_memory)Masquerade Memory$(/l) (10%)$(br2)Bosses$(li)$(l:w/mobs/nazca_dopant)Nazca Dopant$(/l) (10%)$(li)$(l:w/mobs/claydoll_dopant)Claydoll Dopant$(/l) (11%)$(li)$(l:w/mobs/smilodon_dopant)Smilodon Dopant$(/l) (13%)$(li)$(l:w/mobs/weather_dopant)Weather Dopant$(/l) (11%)"
+		}
+	]
+}

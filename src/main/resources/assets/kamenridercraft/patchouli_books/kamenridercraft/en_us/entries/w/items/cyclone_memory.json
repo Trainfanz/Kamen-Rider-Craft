@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:cyclone_memory",
 			"title": " ",
-			"text": "Obtained by using $(l:w/items/unrefined_memory_s)Silver Unrefined Memories$(/l) on the $(l:misc/blocks/gaia_memory_refiner)Gaia Memory Refiner$(/l)$(br2)Drops from:$(li)$(l:w/mobs/masquerade)Masquerade Dopant$(/l)"
+			"text": "Obtained by using $(l:w/items/unrefined_memory_s)Silver Unrefined Memories$(/l) on the $(l:misc/blocks/gaia_memory_refiner)Gaia Memory Refiner$(/l)$(br2)Drops from:$(li)$(l:w/mobs/masquerade)Masquerade$(/l)"
 		}
 	]
 }

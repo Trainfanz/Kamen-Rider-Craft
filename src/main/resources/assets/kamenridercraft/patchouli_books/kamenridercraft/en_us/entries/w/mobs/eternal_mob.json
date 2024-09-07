@@ -1,0 +1,17 @@
+{
+	"name": "Kamen Rider Eternal",
+	"icon": "kamenridercraft:w_logo",
+	"category": "kamenridercraft:w/mobs",
+	"sortnum": 8,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:eternal_mob",
+			"text": "Has an 10% chance to spawn from a $(l:w/mobs/foundation_x_masquerade)Foundation X Masquerade$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W Forever: A to Z/The Gaia Memories of Fate (2010, movie)$(br2)Health: 200$(br2)Drops$(li)2-4 $(l:w/items/unrefined_memory_t2)Unrefined Memories (T2)$(/l)$(li)0-1 $(l:w/items/eternal_memory)Eternal Memory$(/l) (33%)$(li)0-1 $(l:w/items/eternal_t2_memory)Eternal T2 Memory$(/l) (33%)$(li)0-1 $(l:w/items/utopia_memory)Utopia Memory$(/l) (33%)"
+		}
+	]
+}

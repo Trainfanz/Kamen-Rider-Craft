@@ -1,0 +1,17 @@
+{
+	"name": "Claydoll Dopant",
+	"icon": "kamenridercraft:w_logo",
+	"category": "kamenridercraft:w/mobs",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:claydoll_dopant",
+			"text": "Has an 11% chance to spawn from a $(l:w/mobs/masquerade)Masquerade$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(br2)Health: 60$(br2)Drops$(li)3-5 $(l:w/items/gaiamemory)Gaia Memory Shards$(/l)$(li)0-1 $(l:w/items/gaiamemory)Gaia Memory Shard$(/l) (33%)$(li)1-3 $(l:w/items/unrefined_memory_g)Unrefined Memories (Gold)$(/l) (33%)$(li)1-3 $(l:w/items/unrefined_memory_s)Unrefined Memories (Silver)$(/l) (33%)$(li)1 $(l:w/items/claydoll_memory)Claydoll Memory$(/l)"
+		}
+	]
+}

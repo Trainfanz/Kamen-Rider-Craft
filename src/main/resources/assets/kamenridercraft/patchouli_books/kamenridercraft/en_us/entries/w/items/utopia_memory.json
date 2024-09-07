@@ -6,14 +6,14 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(br2)Used by the $(l:w/mobs/utopia_dopant)Utopia Dopant$(/l)"
+			"text": "Appears in:$(li)Kamen Rider W (2009, TV show)$(br2)Used by the Utopia Dopant"
 		},
 		{
 			"type": "patchouli:spotlight",
 			"link_recipe": true,
 			"item": "kamenridercraft:utopia_memory",
 			"title": " ",
-			"text": "Drops from:$(li)$(l:w/mobs/utopia_dopant)Utopia Dopant$(/l)"
+			"text": "Drops from:$(li)$(l:w/mobs/eternal_mob)Kamen Rider Eternal$(/l)"
 		}
 	]
 }

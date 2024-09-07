@@ -17,7 +17,7 @@
 			"link_recipe": true,
 			"item": "kamenridercraft:unrefined_memory_t2",
 			"title": " ",
-			"text": "Drops from $(l:w/mobs/eternal)Kamen Rider Eternal$(/l)"
+			"text": "Drops from $(l:w/mobs/eternal_mob)Kamen Rider Eternal$(/l)"
 		}
 	]
 }

@@ -74,7 +74,7 @@
 		{
 			"type": "patchouli:text",
 			"title": "Kamen Rider Double",
-			"text": "Appears in:$(li)Kamen Rider W: FOREVER A to Z/The Gaia Memories of Fate (2010, movie)$(br2)Transforms with the $(l:w/devices/wdriver)Doubledriver$(/l)$(br2)Status Effects:$(li)Punch V$(li)Flying V$(li)Speed III$(li)Resistance IV$(li)Night Vision$(li)Regeneration II$(li)Haste II$(li)Strength VIII (with empty hand)$(li)Strength IV (with weapon)"
+			"text": "Appears in:$(li)Kamen Rider W Forever: A to Z/The Gaia Memories of Fate (2010, movie)$(br2)Transforms with the $(l:w/devices/wdriver)Doubledriver$(/l)$(br2)Status Effects:$(li)Punch V$(li)Flying V$(li)Speed III$(li)Resistance IV$(li)Night Vision$(li)Regeneration II$(li)Haste II$(li)Strength VIII (with empty hand)$(li)Strength IV (with weapon)"
 		},
 		{
 			"type": "patchouli:entity",

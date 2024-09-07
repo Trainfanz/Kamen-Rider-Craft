@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Kamen Rider W: FOREVER A to Z/The Gaia Memories of Fate (2010, movie)$(br2)Used to access Double's $(l:w/riders/double#gold_xtreme)CycloneJokerGoldXtreme$(/l) form"
+			"text": "Appears in:$(li)Kamen Rider W Forever: A to Z/The Gaia Memories of Fate (2010, movie)$(br2)Used to access Double's $(l:w/riders/double#gold_xtreme)CycloneJokerGoldXtreme$(/l) form"
 		},
 		{
 			"type": "patchouli:spotlight",

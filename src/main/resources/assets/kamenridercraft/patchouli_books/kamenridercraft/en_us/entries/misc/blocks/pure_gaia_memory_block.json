@@ -1,0 +1,23 @@
+{
+	"name": "Gaia Memory Block",
+	"icon": "kamenridercraft:pure_gaia_memory_block",
+	"category": "kamenridercraft:misc/blocks",
+	"sortnum": 17,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Mine this block to get $(l:w/items/gaiamemory)Gaia Memory Shards$(/l)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "kamenridercraft:w/pure_gaia_memory_block"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:pure_gaia_memory_block",
+			"title": " ",
+			"text": "Found inside the $(l:w/structures/earths_core)Earth's Core$(/l)"
+		}
+	]
+}

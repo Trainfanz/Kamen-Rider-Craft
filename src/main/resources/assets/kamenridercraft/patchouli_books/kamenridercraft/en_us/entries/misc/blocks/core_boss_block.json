@@ -1,0 +1,19 @@
+{
+	"name": "Core Boss Block",
+	"icon": "kamenridercraft:core_boss_block",
+	"category": "kamenridercraft:misc/blocks",
+	"sortnum": 112,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Mine this block to summon $(l:ooo/mobs/core)Kamen Rider Core$(/l)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:core_boss_block",
+			"title": " ",
+			"text": "Found inside the $(l:w/structures/earths_core)Earth's Core$(/l)"
+		}
+	]
+}

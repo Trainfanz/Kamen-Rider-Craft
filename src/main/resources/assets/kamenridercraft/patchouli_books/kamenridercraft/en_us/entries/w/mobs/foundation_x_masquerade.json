@@ -1,0 +1,17 @@
+{
+	"name": "Foundation X Masquerade",
+	"icon": "kamenridercraft:w_logo",
+	"category": "kamenridercraft:w/mobs",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"entity": "kamenridercraft:foundation_x_masquerade",
+			"text": "Spawns throughout the Nether"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Kamen Rider × Kamen Rider Fourze & OOO: Movie War Mega Max (2011, movie)$(br2)Health: 30$(br2)Drops$(li)3-6 $(l:w/items/gaiamemory)Gaia Memory Shards$(/l)$(li)0-1 $(l:w/items/skull_memory)Skull Memory$(/l) (45%)$(li)0-1 $(l:w/items/accel_memory)Accel Memory$(/l) (45%)$(li)0-1 $(l:w/items/masquerade_memory)Masquerade Memory$(/l) (10%)$(li)0-1 $(l:ooo/items/shika_medal)Shika Core Medal$(/l) (17%)$(li)0-1 $(l:ooo/items/gazelle_medal)Gazelle Core Medal$(/l) (17%)$(li)0-1 $(l:ooo/items/ushi_medal)Ushi Core Medal$(/l) (17%)$(li)0-1 $(l:w/items/gaiamemory)Gaia Memory Shard$(/l) (50%)$(br2)Bosses$(li)$(l:w/mobs/eternal_mob)Kamen Rider Eternal$(/l) (10%)$(li)$(l:w/mobs/commander_dopant)Commander Dopant$(/l) (11%)$(li)$(l:ooo/mobs/muchiri)Muchiri$(/l) (11%)"
+		}
+	]
+}

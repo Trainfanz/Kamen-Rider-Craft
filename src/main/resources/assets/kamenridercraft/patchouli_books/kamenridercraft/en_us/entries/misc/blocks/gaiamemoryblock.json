@@ -1,0 +1,19 @@
+{
+	"name": "Gaia Memory Ore",
+	"icon": "kamenridercraft:gaiamemoryblock",
+	"category": "kamenridercraft:misc/blocks",
+	"sortnum": 18,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Mine this block to get $(l:w/items/gaiamemory)Gaia Memory Shards$(/l)$(br2)Requires an iron pickaxe or better"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "kamenridercraft:gaiamemoryblock",
+			"title": " ",
+			"text": "Drops:$(li)1 $(l:w/items/gaiamemory)Gaia Memory Shard$(/l)"
+		}
+	]
+}

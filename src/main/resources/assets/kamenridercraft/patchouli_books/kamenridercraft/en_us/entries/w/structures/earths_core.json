@@ -1,0 +1,21 @@
+{
+	"name": "Earth's Core",
+	"icon": "kamenridercraft:w_logo",
+	"category": "kamenridercraft:w/structures",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"title": "Earth's Core",
+			"text": "Appears in:$(li)Kamen Rider × Kamen Rider OOO & W Featuring Skull: Movie War Core (2010, movie)$(br2)Spawn locations: Lush Caves, Dripstone Caves, Deep Dark$(br2)Includes a $(l:misc/blocks/core_boss_block)Core Boss Block$(/l)"
+		},
+		{
+			"type": "patchouli:image",
+			"border": true,
+			"images": [
+				"kamenridercraft:patchouli_books/kamenridercraft/images/earths_core.png"
+			],
+			"title": " "
+		}
+	]
+}
