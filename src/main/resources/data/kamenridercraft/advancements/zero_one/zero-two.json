@@ -34,9 +34,8 @@
 			},
 			"feet": {
 			  "items": [
-				"kamenridercraft:hiden_zero_one_driver"
-			  ],
-			  "nbt": "{slot_tex1:\"zero_two_progrisekey\"}"
+				"kamenridercraft:hiden_zero_two_driver"
+			  ]
 			}
 		  }
 		}
