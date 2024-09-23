@@ -280,7 +280,13 @@ public class Gotchard_Rider_Items {
      * donposeidon
      * dragonalos
      */
-	   
+
+    public static final RegistryObject<Item> STEAMLINER_REPLI_CHEMY_CARD = ITEMS.register("steamliner_repli_chemy_card",
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"","dread","dreadriver_belt",
+            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
+            		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),
+            		new MobEffectInstance(MobEffects.JUMP, 40, 1,true,false)).AddToTabList(RiderTabs.GOTCHARD_TAB_ITEM));	   
+    
     public static final RegistryObject<Item> LEGEND_RIDE_CHEMY_CARD = ITEMS.register("legend_ride_chemy_card",
     		() -> new RiderFormChangeItem(new Item.Properties(),0,"","legend","legendriver_belt",
     				new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
@@ -359,6 +365,9 @@ public class Gotchard_Rider_Items {
     public static final RegistryObject<Item> VALVARADRAW_BUCKLE = ITEMS.register("valvaradraw_buckle",
     		() -> new ValvaradItem(ArmorMaterials.DIAMOND,"valvarad", MADWHEEL_RIDE_CHEMY_CARD ,GOTCHARD_HELMET, GOTCHARD_CHESTPLATE,GOTCHARD_LEGGINGS , new Item.Properties())
     		.AddToTabList(RiderTabs.GOTCHARD_TAB_ITEM).ChangeRepairItem(BLANK_RIDE_CHEMY_CARD.get()));
+    
+    public static final RegistryObject<Item> DREADRIVER = ITEMS.register("dreadriver",
+    		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"dread", STEAMLINER_REPLI_CHEMY_CARD ,GOTCHARD_HELMET, GOTCHARD_CHESTPLATE,GOTCHARD_LEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.GOTCHARD_TAB_ITEM).ChangeRepairItem(BLANK_RIDE_CHEMY_CARD.get()));
     
     public static final RegistryObject<Item> LEGENDRIVER = ITEMS.register("legendriver",
     		() -> new RiderDriverItem(ArmorMaterials.DIAMOND,"legend", LEGEND_RIDE_CHEMY_CARD ,GOTCHARD_HELMET, GOTCHARD_CHESTPLATE,GOTCHARD_LEGGINGS , new Item.Properties()).AddToTabList(RiderTabs.GOTCHARD_TAB_ITEM).ChangeRepairItem(BLANK_RIDE_CHEMY_CARD.get()));
